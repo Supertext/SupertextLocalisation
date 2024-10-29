@@ -1,0 +1,59 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Sync Localization Files to Azure DevOps
+
+on:
+  push:
+    paths:
+      - 'de/localization_de.json'
+      - 'en/localization_en.json'
+      - 'fr/localization_fr.json'
+      - 'it/localization_it.json'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+
+  sync-to-azure:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Set up Git
+        run: |
+          git config --global user.email "ivan@supertext.com"
+          git config --global user.name "ivan-supertext"
+
+      - name: Install Azure CLI
+        uses: azure/CLI@v1
+
+      - name: Create new branch and commit changes to Azure DevOps
+        run: |
+          # Clone the Azure DevOps repo
+          git clone https://supertext@dev.azure.com/supertext/Starstruck/_git/Starstruck.translation-interface
+          AZURE_REPO="Starstruck.translation-interface"
+          cd $AZURE_REPO
+          
+          # Create a new branch based on the current timestamp or commit hash
+          BRANCH_NAME="sync-localization-$(date +%Y%m%d%H%M%S)"
+          git checkout -b $BRANCH_NAME
+
+      - name: Copy localization files
+        run: |
+          cp de/localization_de.json $AZURE_REPO/src/localization/de/localisation.de.json
+          cp en/localization_en.json $AZURE_REPO/src/localization/en/localisation.en.json
+          cp fr/localization_fr.json $AZURE_REPO/src/localization/fr/localisation.fr.json
+          cp it/localization_it.json $AZURE_REPO/src/localization/it/localisation.it.json
+
+      - name: Commit and push changes
+        run: |
+          git add src/localization
+          git commit -m "Sync localization files from GitHub"
+          git push origin $BRANCH_NAME
+      

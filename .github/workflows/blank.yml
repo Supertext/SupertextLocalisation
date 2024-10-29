@@ -24,7 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Install Azure CLI
-        uses: azure/CLI@v1
+        uses: azure/setup-cli@v1
         
         # Runs a single command using the runners shell
       - name: Set up Git

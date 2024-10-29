@@ -9,6 +9,8 @@ on:
       - 'en/localization_en.json'
       - 'fr/localization_fr.json'
       - 'it/localization_it.json'
+    branches:
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -23,14 +25,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Install Azure CLI
-        uses: azure/setup-cli@v1
         
         # Runs a single command using the runners shell
       - name: Set up Git
         run: |
           git config --global user.email "ivan@supertext.com"
           git config --global user.name "ivan-supertext"
+
+      - name: Install Azure CLI
+        run: |
+          curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
       - name: Create new branch and commit changes to Azure DevOps
         run: |

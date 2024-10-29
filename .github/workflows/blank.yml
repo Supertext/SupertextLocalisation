@@ -23,15 +23,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
+      - name: Install Azure CLI
+        uses: azure/CLI@v1
+        
+        # Runs a single command using the runners shell
       - name: Set up Git
         run: |
           git config --global user.email "ivan@supertext.com"
           git config --global user.name "ivan-supertext"
-
-      - name: Install Azure CLI
-        uses: azure/CLI@v1
 
       - name: Create new branch and commit changes to Azure DevOps
         run: |

@@ -57,10 +57,10 @@ jobs:
           mkdir -p src/localization/fr
           mkdir -p src/localization/it
           
-          cp de/localization_de.json src/localization/de/localization_de.json
-          cp en/localization_en.json src/localization/en/localization_en.json
-          cp fr/localization_fr.json src/localization/fr/localization_fr.json
-          cp it/localization_it.json src/localization/it/localization_it.json
+          cp ../de/localization_de.json src/localization/de/localization_de.json
+          cp ../en/localization_en.json src/localization/en/localization_en.json
+          cp ../fr/localization_fr.json src/localization/fr/localization_fr.json
+          cp ../it/localization_it.json src/localization/it/localization_it.json
 
       - name: Commit and push changes
         run: |

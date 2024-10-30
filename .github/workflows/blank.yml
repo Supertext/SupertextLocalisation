@@ -19,6 +19,8 @@ on:
 jobs:
 
   sync-to-azure:
+    env:
+      BRANCH_NAME: sync-localization-$(date +%Y%m%d%H%M%S)
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -44,10 +46,7 @@ jobs:
           git clone https://supertext:${AZURE_DEVOPS_PAT}@dev.azure.com/supertext/Starstruck/_git/Starstruck.translation-interface
           AZURE_REPO="Starstruck.translation-interface"
           cd $AZURE_REPO
-          
-          # Create a new branch based on the current timestamp or commit hash
-          BRANCH_NAME="sync-localization-$(date +%Y%m%d%H%M%S)"
-          
+                
           echo "Branch name: $BRANCH_NAME"
           # Validate that BRANCH_NAME is not empty
           if [ -z "$BRANCH_NAME" ]; then

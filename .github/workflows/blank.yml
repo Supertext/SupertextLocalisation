@@ -81,4 +81,16 @@ jobs:
           git commit -m "Sync localization files from GitHub"
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
+
+      - name: Create a Pull Request with Auto-Complete
+        run: |
+          az repos pr create \
+            --organization $AZURE_DEVOPS_ORG_URL \
+            --project $AZURE_DEVOPS_PROJECT \
+            --repository $AZURE_REPO_NAME \
+            --source-branch $BRANCH_NAME \
+            --target-branch ${{ env.BASE_BRANCH }} \
+            --title "Sync localization files" \
+            --description "Auto-sync localization files from GitHub" \
+            --auto-complete
       

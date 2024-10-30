@@ -19,8 +19,6 @@ on:
 jobs:
 
   sync-to-azure:
-    env:
-      BRANCH_NAME: sync-localization-$(date +%Y%m%d%H%M%S)
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -37,6 +35,14 @@ jobs:
       - name: Install Azure CLI
         run: |
           curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+          
+      - name: Set Branch Name
+        id: set_branch_name
+        run: |
+          # Generate the branch name with the current timestamp
+          export BRANCH_NAME="sync-localization-$(date +%Y%m%d%H%M%S)"
+          echo "Branch name: $BRANCH_NAME"
+          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
 
       - name: Create new branch and commit changes to Azure DevOps
         env:

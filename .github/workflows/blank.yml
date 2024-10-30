@@ -47,6 +47,8 @@ jobs:
           
           # Create a new branch based on the current timestamp or commit hash
           BRANCH_NAME="sync-localization-$(date +%Y%m%d%H%M%S)"
+          
+          echo "Branch name: $BRANCH_NAME"
           git checkout -b $BRANCH_NAME
 
       - name: Copy localization files

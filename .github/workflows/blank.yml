@@ -41,7 +41,7 @@ jobs:
           AZURE_DEVOPS_PAT: 9xLMre9Ma2YLJFprT3RPLPxSAMJd6oSRmPThPzTCaMAAinqTEb5aJQQJ99AJACAAAAAoDb21AAASAZDOn8rD
         run: |
           # Clone the Azure DevOps repo
-          git clone https://supertext:${AZURE_DEVOPS_PAT}@dev.azure.com/supertext/Starstruck.translation-interface azure-repo
+          git clone https://supertext:${AZURE_DEVOPS_PAT}@dev.azure.com/supertext/Starstruck/_git/Starstruck.translation-interface
           AZURE_REPO="Starstruck.translation-interface"
           cd $AZURE_REPO
           

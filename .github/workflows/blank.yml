@@ -49,11 +49,13 @@ jobs:
           BRANCH_NAME="sync-localization-$(date +%Y%m%d%H%M%S)"
           git checkout -b $BRANCH_NAME
 
-          echo "Listing the full project structure..."
-          ls -R Starstruck.translation-interface/src/localization/
-
       - name: Copy localization files
         run: |
+          mkdir -p src/localization/de
+          mkdir -p src/localization/en
+          mkdir -p src/localization/fr
+          mkdir -p src/localization/it
+          
           cp de/localization_de.json $AZURE_REPO/src/localization/de/localization_de.json
           cp en/localization_en.json $AZURE_REPO/src/localization/en/localization_en.json
           cp fr/localization_fr.json $AZURE_REPO/src/localization/fr/localization_fr.json

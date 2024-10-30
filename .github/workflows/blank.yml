@@ -64,9 +64,9 @@ jobs:
           
       - name: Commit and push changes
         run: |
-          cd Starstruck.translation-interface
-          git add src/localization
-          git commit -m "Sync localization files from GitHub"
-          git push origin "$BRANCH_NAME"
-          git branch --set-upstream-to=origin/$BRANCH_NAME "$BRANCH_NAME"
+         cd Starstruck.translation-interface
+         git add src/localization
+         git commit -m "Sync localization files from GitHub"
+         git push origin "$BRANCH_NAME"
+         git branch --set-upstream-to=origin/$BRANCH_NAME "$BRANCH_NAME"
       

@@ -50,7 +50,7 @@ jobs:
           git checkout -b $BRANCH_NAME
 
           echo "Listing the full project structure..."
-          ls -R $AZURE_REPO
+          ls -R Starstruck.translation-interface/src/localization/
 
       - name: Copy localization files
         run: |

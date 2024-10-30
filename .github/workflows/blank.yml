@@ -51,6 +51,7 @@ jobs:
 
       - name: Copy localization files
         run: |
+          cd $AZURE_REPO
           mkdir -p src/localization/de
           mkdir -p src/localization/en
           mkdir -p src/localization/fr

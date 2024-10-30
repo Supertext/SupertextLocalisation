@@ -51,17 +51,17 @@ jobs:
 
       - name: Copy localization files
         run: |
-          cd $AZURE_REPO
+          cd Starstruck.translation-interface
           mkdir -p src/localization/de
           mkdir -p src/localization/en
           mkdir -p src/localization/fr
           mkdir -p src/localization/it
           
-          cp "${{ github.workspace }}/de/localization_de.json" "Starstruck.translation-interface/src/localization/de/localization_de.json"
-          cp "${{ github.workspace }}/en/localization_en.json" "Starstruck.translation-interface/src/localization/en/localization_en.json"
-          cp "${{ github.workspace }}/fr/localization_fr.json" "Starstruck.translation-interface/src/localization/fr/localization_fr.json"
-          cp "${{ github.workspace }}/it/localization_it.json" "Starstruck.translation-interface/src/localization/it/localization_it.json"
-
+          cp "${{ github.workspace }}/de/localization_de.json" "src/localization/de/localization_de.json"
+          cp "${{ github.workspace }}/en/localization_en.json" "src/localization/en/localization_en.json"
+          cp "${{ github.workspace }}/fr/localization_fr.json" "src/localization/fr/localization_fr.json"
+          cp "${{ github.workspace }}/it/localization_it.json" "src/localization/it/localization_it.json"
+          
       - name: Commit and push changes
         run: |
           cd Starstruck.translation-interface

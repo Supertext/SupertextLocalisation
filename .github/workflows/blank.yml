@@ -80,5 +80,5 @@ jobs:
           git add src/localization
           git commit -m "Sync localization files from GitHub"
           echo "Attempting to push branch $BRANCH_NAME"
-          git push --set-upstream origin "$BRANCH_NAME"
+          git push  origin "$BRANCH_NAME"
       

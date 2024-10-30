@@ -49,7 +49,12 @@ jobs:
           BRANCH_NAME="sync-localization-$(date +%Y%m%d%H%M%S)"
           
           echo "Branch name: $BRANCH_NAME"
-          git checkout -b $BRANCH_NAME
+          # Validate that BRANCH_NAME is not empty
+          if [ -z "$BRANCH_NAME" ]; then
+            echo "Error: Branch name is empty"
+            exit 1
+          fi
+          git checkout -b "$BRANCH_NAME"
 
       - name: Copy localization files
         run: |
@@ -69,5 +74,5 @@ jobs:
           cd Starstruck.translation-interface
           git add src/localization
           git commit -m "Sync localization files from GitHub"
-          git push origin $BRANCH_NAME
+          git push --set-upstream origin "$BRANCH_NAME"
       

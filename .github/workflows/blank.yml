@@ -48,7 +48,9 @@ jobs:
           # Create a new branch based on the current timestamp or commit hash
           BRANCH_NAME="sync-localization-$(date +%Y%m%d%H%M%S)"
           git checkout -b $BRANCH_NAME
-          
+
+          echo "Listing the full project structure..."
+          ls -R $AZURE_REPO
 
       - name: Copy localization files
         run: |

@@ -37,15 +37,18 @@ jobs:
           curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
       - name: Create new branch and commit changes to Azure DevOps
+        env:
+          AZURE_DEVOPS_PAT: 9xLMre9Ma2YLJFprT3RPLPxSAMJd6oSRmPThPzTCaMAAinqTEb5aJQQJ99AJACAAAAAoDb21AAASAZDOn8rD
         run: |
           # Clone the Azure DevOps repo
-          git clone https://supertext@dev.azure.com/supertext/Starstruck/_git/Starstruck.translation-interface
+          git clone https://supertext:${AZURE_DEVOPS_PAT}@dev.azure.com/supertext/Starstruck.translation-interface azure-repo
           AZURE_REPO="Starstruck.translation-interface"
           cd $AZURE_REPO
           
           # Create a new branch based on the current timestamp or commit hash
           BRANCH_NAME="sync-localization-$(date +%Y%m%d%H%M%S)"
           git checkout -b $BRANCH_NAME
+          
 
       - name: Copy localization files
         run: |

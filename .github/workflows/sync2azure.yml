@@ -50,7 +50,7 @@ jobs:
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
         run: |
           
-          CLONE_URL="https://${AZURE_DEVOPS_PAT}@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME"
+          CLONE_URL="https://supertext:${AZURE_DEVOPS_PAT}@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME"
           echo "Debugging URL: ${CLONE_URL:0:15}****@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME"
           git clone https://supertext:${{ secrets.AZURE_DEVOPS_PAT }}@dev.azure.com/supertext/Starstruck/_git/Starstruck.translation-interface
           

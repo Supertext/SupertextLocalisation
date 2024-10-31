@@ -111,9 +111,4 @@ jobs:
 
           # Set auto-complete
           az repos pr update --id $PR_ID --auto-complete true
-
-      - name: Delete Branch After PR Completion
-        run: |
-          echo "Deleting branch $BRANCH_NAME after PR completion"
-          az repos ref update --name "$BRANCH_NAME" --project "${{ env.AZURE_DEVOPS_PROJECT }}" --delete
       

@@ -1343,8 +1343,10 @@
     "insertApiKey": "Inserisci qui la chiave API"
   },
   "errors": {
+    "title": "",
     "unknownError": "Si è verificato un errore sconosciuto.",
-    "serviceUnavailable": "Servizio non disponibile: {0}"
+    "serviceUnavailable": "Servizio non disponibile: {0}",
+    "noDataAvailable": ""
   },
   "notifications": {
     "info": {
@@ -1378,5 +1380,178 @@
   "connectivityAlerts": {
     "offline": "Al momento sei offline.",
     "online": "La tua connessione internet è stata ripristinata."
+  },
+  "starstruck": {
+    "welcomeMessage": "",
+    "noEntries": "",
+    "filter": {
+      "all": ""
+    },
+    "search": {
+      "placeholder": "",
+      "userOrders": "",
+      "allOrders": "",
+      "userInvoices": "",
+      "allInvoices": ""
+    },
+    "dashboard": {
+      "title": "",
+      "nestSteps": "",
+      "nextStepsInformation": "",
+      "addSettings": "",
+      "creditCardDetailsSettings": "",
+      "styleGuidSettings": "",
+      "orders": {
+        "title": "",
+        "viewAllOrders": "",
+        "openOrders": "",
+        "noOrders": "",
+        "orderDate": "",
+        "orderDeadlineDate": "",
+        "orderDetails": {
+          "title": "",
+          "order": "",
+          "sourceLanguage": "Lingua di origine",
+          "targetLanguage": "Lingua di destinazione",
+          "sourceFile": "Testo di origine",
+          "offerType": "",
+          "orderDeadline": "",
+          "orderName": "",
+          "industry": "",
+          "targetAudience": "",
+          "orderFiles": "",
+          "price": "",
+          "scope": "Ambito di applicazione",
+          "invoiceDate": "",
+          "invoiceAddress": "",
+          "contactPersonTitle": ""
+        }
+      },
+      "invoices": {
+        "title": "",
+        "openInvoices": "",
+        "viewAllInvoices": "",
+        "noOpenInvoices": "",
+        "noInvoices": "",
+        "invoiceDetail": {
+          "amount": "",
+          "invoiceDate": "",
+          "downloadInvoice": ""
+        }
+      },
+      "subscription": {
+        "title": "",
+        "contactSupertext": "",
+        "otherPlans": "",
+        "current": "",
+        "upgrade": "Upgrade",
+        "downgrade": "",
+        "recommended": "",
+        "comparePlans": "",
+        "showMore": "",
+        "cancellationInfo": "",
+        "freePlanInfo": "",
+        "customPlanInfo": ""
+      },
+      "resources": {
+        "title": ""
+      },
+      "profile": {
+        "title": "",
+        "email": "",
+        "language": "Lingua",
+        "role": "Ruolo",
+        "comment": "",
+        "company": "",
+        "name": "Nome",
+        "firstName": "Nome",
+        "lastName": "",
+        "adderssLine1": "",
+        "adderssLine2": "",
+        "city": "",
+        "postalCode": "",
+        "country": "",
+        "settings": "Impostazioni",
+        "change": "",
+        "selectOption": "",
+        "isAdmin": "",
+        "sections": {
+          "userDetails": {
+            "title": "",
+            "deleteAccountTitle": "",
+            "deleteAccountConfirmation": "",
+            "deleteAccount": "Elimina l’account",
+            "passwords": {
+              "title": "",
+              "oldPassword": "Password precedente",
+              "newPassword": "Nuova password",
+              "confirmNewPassword": "",
+              "changePassword": "Modifica password",
+              "passwordDoNotMatch": "Le password non corrispondono",
+              "passwordMustContainAtLeastOneSpecialCharacter": "La password deve contenere almeno un carattere speciale",
+              "passwordMustContainAtLeastOneNumber": "La password deve contenere almeno un numero",
+              "passwordMustContainAtLeastOneUppercaseLetter": "La password deve contenere almeno una lettera maiuscola",
+              "passwordMustContainAtLeastOneLowercaseLetter": "La password deve contenere almeno una lettera minuscola",
+              "passwordMustBeAtLeast8Characters": ""
+            }
+          },
+          "payments": {
+            "title": "",
+            "settings": {
+              "billingAddress": {
+                "deleletBillingAddress": "",
+                "deleteBillingAddressConfirmation": "",
+                "authorizationApply": "",
+                "authorizationPending": "",
+                "authorizationDenied": "",
+                "authorizationDeniedInfo": "",
+                "authorizationContactUs": ""
+              },
+              "creditCard": {
+                "title": "",
+                "subTitle": "",
+                "addCard": "",
+                "deleteCard": "",
+                "addCardFailure": "",
+                "endsWith": ""
+              }
+            }
+          },
+          "companyAdministration": {
+            "title": "",
+            "userManagement": "",
+            "addMember": "",
+            "editMember": "",
+            "availableSeats": "",
+            "filledSeats": "",
+            "usersGained": "",
+            "increaseSeats": "",
+            "increaseSeatsInfo": ""
+          }
+        }
+      },
+      "delivery": {
+        "title": "",
+        "status": {
+          "pending": ""
+        },
+        "openInTranslationInterface": ""
+      },
+      "feedback": {
+        "title": "Feedback",
+        "satisfactionQuestion": "",
+        "message": "Messaggio",
+        "submitFeedback": "",
+        "revisionQuestion": "",
+        "revisionOption": "",
+        "revisionRequest": "",
+        "submitFile": "",
+        "uploadFiles": ""
+      },
+      "addedTest": ""
+    },
+    "title": "Stupito",
+    "description": "Starstruck è una nuova funzionalità che ti aiuta a migliorare le tue traduzioni. Ti mostra le traduzioni più popolari di una parola e ti consente di scegliere la traduzione migliore. Starstruck è disponibile solo su desktop.",
+    "cta": "Saperne di più"
   }
 }

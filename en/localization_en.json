@@ -1343,8 +1343,10 @@
     "insertApiKey": "Enter your API key here"
   },
   "errors": {
+    "title": "Error",
     "unknownError": "Unknown error occurred.",
-    "serviceUnavailable": "Service unavailable: {0}"
+    "serviceUnavailable": "Service unavailable: {0}",
+    "noDataAvailable": "No data available."
   },
   "notifications": {
     "info": {
@@ -1378,5 +1380,178 @@
   "connectivityAlerts": {
     "offline": "You are currently offline.",
     "online": "Your internet connection has been restored."
+  },
+  "starstruck": {
+    "welcomeMessage": "Hello,",
+    "noEntries": "No entries found.",
+    "filter": {
+      "all": "All"
+    },
+    "search": {
+      "placeholder": "Search...",
+      "userOrders": "Your orders",
+      "allOrders": "All orders",
+      "userInvoices": "Your invoices",
+      "allInvoices": "All invoices"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "nestSteps": "NEXT STEPS",
+      "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
+      "addSettings": "Add settings",
+      "creditCardDetailsSettings": "Store your credit card details for super-easy flows",
+      "styleGuidSettings": "Store style guides and guidelines for tonality and terminology",
+      "orders": {
+        "title": "Orders",
+        "viewAllOrders": "View all orders",
+        "openOrders": "CURRENT EDITIONS",
+        "noOrders": "Oops, there are no orders at the moment.",
+        "orderDate": "Order date",
+        "orderDeadlineDate": "Deadline",
+        "orderDetails": {
+          "title": "ORDER DETAILS",
+          "order": "Order",
+          "sourceLanguage": "Source language",
+          "targetLanguage": "Target language",
+          "sourceFile": "Source text",
+          "offerType": "Service",
+          "orderDeadline": "Delivery date",
+          "orderName": "Order title",
+          "industry": "Speciality",
+          "targetAudience": "Target audience",
+          "orderFiles": "Sources",
+          "price": "Price",
+          "scope": "Scope",
+          "invoiceDate": "Order time",
+          "invoiceAddress": "Billing address",
+          "contactPersonTitle": "PROJECT MANAGEMENT"
+        }
+      },
+      "invoices": {
+        "title": "Invoices",
+        "openInvoices": "OUTSTANDING INVOICES",
+        "viewAllInvoices": "View all invoices",
+        "noOpenInvoices": "No outstanding invoices at present",
+        "noInvoices": "No invoices available",
+        "invoiceDetail": {
+          "amount": "Amount",
+          "invoiceDate": "Settled on",
+          "downloadInvoice": "Download"
+        }
+      },
+      "subscription": {
+        "title": "Manage subscription",
+        "contactSupertext": "Contact Supertext",
+        "otherPlans": "Change plan",
+        "current": "Current subscription",
+        "upgrade": "Upgrade",
+        "downgrade": "Downgrade",
+        "recommended": "Recommended",
+        "comparePlans": "Compare plans",
+        "showMore": "Show more",
+        "cancellationInfo": "You have cancelled your subscription and it will end on",
+        "freePlanInfo": "Your subscription will be reassigned to Supereasy free plan",
+        "customPlanInfo": "Customise your subscription to suit your needs"
+      },
+      "resources": {
+        "title": "Language resources"
+      },
+      "profile": {
+        "title": "Profil",
+        "email": "E-Mail",
+        "language": "Language",
+        "role": "Role",
+        "comment": "Comment",
+        "company": "Company",
+        "name": "Name",
+        "firstName": "First name",
+        "lastName": "Surname",
+        "adderssLine1": "Street",
+        "adderssLine2": "Addresses Addition",
+        "city": "City",
+        "postalCode": "Postcode",
+        "country": "Country",
+        "settings": "Settings",
+        "change": "Change",
+        "selectOption": "Select option",
+        "isAdmin": "Is Admin",
+        "sections": {
+          "userDetails": {
+            "title": "Account details",
+            "deleteAccountTitle": "Permanently Delete Account",
+            "deleteAccountConfirmation": "Are you sure? You can't undo this action afterwards",
+            "deleteAccount": "Delete Account",
+            "passwords": {
+              "title": "password",
+              "oldPassword": "Old password",
+              "newPassword": "New password",
+              "confirmNewPassword": "Confirm new password",
+              "changePassword": "Change password",
+              "passwordDoNotMatch": "Passwords do not match",
+              "passwordMustContainAtLeastOneSpecialCharacter": "Password must contain at least one special character",
+              "passwordMustContainAtLeastOneNumber": "Password must contain at least one number",
+              "passwordMustContainAtLeastOneUppercaseLetter": "Password must contain at least one uppercase letter",
+              "passwordMustContainAtLeastOneLowercaseLetter": "Password must contain at least one lowercase letter",
+              "passwordMustBeAtLeast8Characters": "Password must be at least 8 characters long"
+            }
+          },
+          "payments": {
+            "title": "Payment information",
+            "settings": {
+              "billingAddress": {
+                "deleletBillingAddress": "Delete billing address entry",
+                "deleteBillingAddressConfirmation": "Are you sure? You can no longer undo this action.",
+                "authorizationApply": "Request authorisation",
+                "authorizationPending": "Authorisation still pending",
+                "authorizationDenied": "Authorisation denied",
+                "authorizationDeniedInfo": "Permission may be refused for various reasons.",
+                "authorizationContactUs": "Get in touch with us "
+              },
+              "creditCard": {
+                "title": "Credit card details",
+                "subTitle": "Choose a default payment method",
+                "addCard": "Card successfully deleted",
+                "deleteCard": "Map successfully added",
+                "addCardFailure": "Map could not be added",
+                "endsWith": "ends with"
+              }
+            }
+          },
+          "companyAdministration": {
+            "title": "Company Administration",
+            "userManagement": "User Management",
+            "addMember": "Add Member",
+            "editMember": "Edit Member",
+            "availableSeats": "Available Seats",
+            "filledSeats": "Filled Seats",
+            "usersGained": "Users Gained",
+            "increaseSeats": "Increase Seats",
+            "increaseSeatsInfo": "Increase the amount of members allowed in the company."
+          }
+        }
+      },
+      "delivery": {
+        "title": "delivery",
+        "status": {
+          "pending": "Your order is being processed. Completion by"
+        },
+        "openInTranslationInterface": "Open in Translation Interface"
+      },
+      "feedback": {
+        "title": "Feedback",
+        "satisfactionQuestion": "How satisfied are you with the texts?",
+        "message": "Message",
+        "submitFeedback": "Send feedback",
+        "revisionQuestion": "Would you like a free revision?",
+        "revisionOption": "Please revise the text according to feedback",
+        "revisionRequest": "Request revision",
+        "submitFile": "Request revision",
+        "uploadFiles": "Upload documents"
+      },
+      "addedTest": "testing"
+    },
+    "title": "Starstruck",
+    "description": "Starstruck is a new feature that helps you improve your translations. It shows you the most popular translations for a word and allows you to choose the best translation. Starstruck is only available on desktop.",
+    "cta": "Learn more"
   }
 }

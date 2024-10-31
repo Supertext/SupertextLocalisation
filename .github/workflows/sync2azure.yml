@@ -72,7 +72,7 @@ jobs:
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/it"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/fr"
           
-          cp "${{ github.workspace }}/de/localisation_de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de.json"
+          cp "${{ github.workspace }}/de/localization_de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de.json"
           cp "${{ github.workspace }}/en/localization_en.json" "${{ env.AZURE_TARGET_PATH }}/en/localization_en.json"
           cp "${{ github.workspace }}/fr/localization_fr.json" "${{ env.AZURE_TARGET_PATH }}/fr/localization_fr.json"
           cp "${{ github.workspace }}/it/localization_it.json" "${{ env.AZURE_TARGET_PATH }}/it/localization_it.json"

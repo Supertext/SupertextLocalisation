@@ -87,13 +87,12 @@ jobs:
 
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
-          AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
+          AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
           BRANCH_NAME: ${{ env.BRANCH_NAME }}
           REVIEWER_ID_1: "<REVIEWER_ID_1>"  # Replace with actual reviewer IDs or usernames
           REVIEWER_ID_2: "<REVIEWER_ID_2>"
         run: |
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
-          az devops login --token $AZURE_DEVOPS_PAT
           
           # Create the pull request
           PR_ID=$(az repos pr create \

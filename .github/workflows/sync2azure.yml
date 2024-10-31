@@ -89,8 +89,10 @@ jobs:
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
           BRANCH_NAME: ${{ env.BRANCH_NAME }}
-          REVIEWER_ID_1: "<REVIEWER_ID_1>"  # Replace with actual reviewer IDs or usernames
+          REVIEWER_ID_1: "bc526e40-5620-675a-8ab4-baa32e6df3fb"  # Replace with actual reviewer IDs or usernames
           REVIEWER_ID_2: "<REVIEWER_ID_2>"
+          REVIEWER_ID_3: "<REVIEWER_ID_3>"
+          WORK_ITEM_ID: 13144
         run: |
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           
@@ -101,10 +103,17 @@ jobs:
             --target-branch $BASE_BRANCH \
             --title "Sync localization files from GitHub" \
             --description "Automated sync of localization files from GitHub." \
+            --reviewer $REVIEWER_ID_1 \
+            --work-item $WORK_ITEM_ID \
             --query pullRequestId -o tsv)
 
           echo "Pull request created with ID $PR_ID"
 
           # Set auto-complete
           az repos pr update --id $PR_ID --auto-complete true
+
+      - name: Delete Branch After PR Completion
+        run: |
+          echo "Deleting branch $BRANCH_NAME after PR completion"
+          az repos ref update --name "$BRANCH_NAME" --project "${{ env.AZURE_DEVOPS_PROJECT }}" --delete
       

@@ -85,15 +85,27 @@ jobs:
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
 
-      - name: Create a Pull Request with Auto-Complete
+      - name: Create Pull Request in Azure DevOps and Set Auto-Complete
+        env:
+          AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
+          BRANCH_NAME: ${{ env.BRANCH_NAME }}
+          REVIEWER_ID_1: "<REVIEWER_ID_1>"  # Replace with actual reviewer IDs or usernames
+          REVIEWER_ID_2: "<REVIEWER_ID_2>"
         run: |
-          az repos pr create \
-            --organization $AZURE_DEVOPS_ORG_URL \
-            --project $AZURE_DEVOPS_PROJECT \
+          az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
+          az devops login --token $AZURE_DEVOPS_PAT
+          
+          # Create the pull request
+          PR_ID=$(az repos pr create \
             --repository $AZURE_REPO_NAME \
-            --source-branch $BRANCH_NAME \
-            --target-branch ${{ env.BASE_BRANCH }} \
-            --title "Sync localization files" \
-            --description "Auto-sync localization files from GitHub" \
-            --auto-complete
+            --source-branch "$BRANCH_NAME" \
+            --target-branch $BASE_BRANCH \
+            --title "Sync localization files from GitHub" \
+            --description "Automated sync of localization files from GitHub." \
+            --query pullRequestId -o tsv)
+
+          echo "Pull request created with ID $PR_ID"
+
+          # Set auto-complete
+          az repos pr update --id $PR_ID --auto-complete true
       

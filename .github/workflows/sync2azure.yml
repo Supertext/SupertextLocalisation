@@ -49,7 +49,7 @@ jobs:
         env:
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
         run: |
-          git clone https://supertext:${AZURE_DEVOPS_PAT}@dev.azure.com/supertext/Starstruck/_git/Starstruck.translation-interface
+          git clone https://supertext:${{ secrets.AZURE_DEVOPS_PAT }}@dev.azure.com/supertext/Starstruck/_git/Starstruck.translation-interface
           
       - name: Set Branch Name
         id: set_branch_name

@@ -21,6 +21,7 @@ jobs:
   sync-to-azure:
     runs-on: ubuntu-latest
     env:
+      AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
       AZURE_DEVOPS_ORG_URL: "https://dev.azure.com/supertext"
       AZURE_DEVOPS_ORG: "supertext"
       AZURE_DEVOPS_PROJECT: "Starstruck"
@@ -47,9 +48,7 @@ jobs:
       - name: Clone Azure DevOps Repository
         run: |
           # Clone the Azure DevOps repo
-          git clone https://supertext:${AZURE_DEVOPS_PAT}@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME
-        env:
-          AZURE_DEVOPS_PAT:  ${{ secrets.AZURE_DEVOPS_PAT }}
+          git clone https://$AZURE_DEVOPS_ORG:${AZURE_DEVOPS_PAT}@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME
 
       - name: Set Branch Name
         id: set_branch_name

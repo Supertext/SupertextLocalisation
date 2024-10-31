@@ -48,8 +48,10 @@ jobs:
       - name: Clone Azure DevOps Repository
         run: |
           # Clone the Azure DevOps repo
-          git clone https://$AZURE_DEVOPS_ORG:${AZURE_DEVOPS_PAT}@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME
+          CLONE_URL="https://$AZURE_DEVOPS_ORG:${AZURE_DEVOPS_PAT}@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME"
 
+          echo "Cloning repository from $CLONE_URL"
+          git clone "$CLONE_URL"
       - name: Set Branch Name
         id: set_branch_name
         run: |

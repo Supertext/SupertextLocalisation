@@ -20,6 +20,14 @@ jobs:
 
   sync-to-azure:
     runs-on: ubuntu-latest
+    env:
+      AZURE_DEVOPS_ORG_URL: "https://dev.azure.com/supertext"
+      AZURE_DEVOPS_ORG: "supertext"
+      AZURE_DEVOPS_PROJECT: "Starstruck"
+      AZURE_REPO_NAME: "Starstruck.translation-interface"
+      BASE_BRANCH: "main"
+      AZURE_TARGET_PATH: "src/localization"
+      BRANCH_PREFIX: "sync-localization"
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -36,48 +44,44 @@ jobs:
         run: |
           curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
           
+      - name: Clone Azure DevOps Repository
+        run: |
+          # Clone the Azure DevOps repo
+          git clone https://supertext:${AZURE_DEVOPS_PAT}@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME
+        env:
+          AZURE_DEVOPS_PAT:  ${{ secrets.AZURE_DEVOPS_PAT }}
+
       - name: Set Branch Name
         id: set_branch_name
         run: |
           # Generate the branch name with the current timestamp
-          export BRANCH_NAME="sync-localization-$(date +%Y%m%d%H%M%S)"
+          TIMESTAMP=$(date +%Y%m%d%H%M%S)
+          export BRANCH_NAME="${{ env.BRANCH_PREFIX }}-$(TIMESTAMP)"
           echo "Branch name: $BRANCH_NAME"
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
-
-      - name: Create new branch and commit changes to Azure DevOps
-        env:
-          AZURE_DEVOPS_PAT: 9xLMre9Ma2YLJFprT3RPLPxSAMJd6oSRmPThPzTCaMAAinqTEb5aJQQJ99AJACAAAAAoDb21AAASAZDOn8rD
+          
+      - name: Create new branch in Azure DevOps
         run: |
-          # Clone the Azure DevOps repo
-          git clone https://supertext:${AZURE_DEVOPS_PAT}@dev.azure.com/supertext/Starstruck/_git/Starstruck.translation-interface
-          AZURE_REPO="Starstruck.translation-interface"
-          cd $AZURE_REPO
-                
-          echo "Branch name: $BRANCH_NAME"
-          # Validate that BRANCH_NAME is not empty
-          if [ -z "$BRANCH_NAME" ]; then
-            echo "Error: Branch name is empty"
-            exit 1
-          fi
+          cd $AZURE_REPO_NAME
           git checkout -b "$BRANCH_NAME"
 
       - name: Copy localization files
         run: |
-          cd Starstruck.translation-interface
-          mkdir -p src/localization/de
-          mkdir -p src/localization/en
-          mkdir -p src/localization/fr
-          mkdir -p src/localization/it
+          cd $AZURE_REPO_NAME
+          mkdir -p "${{ env.AZURE_TARGET_PATH }}/de"
+          mkdir -p "${{ env.AZURE_TARGET_PATH }}/en"
+          mkdir -p "${{ env.AZURE_TARGET_PATH }}/it"
+          mkdir -p "${{ env.AZURE_TARGET_PATH }}/fr"
           
-          cp "${{ github.workspace }}/de/localisation_de.json" "src/localization/de/localization_de.json"
-          cp "${{ github.workspace }}/en/localization_en.json" "src/localization/en/localization_en.json"
-          cp "${{ github.workspace }}/fr/localization_fr.json" "src/localization/fr/localization_fr.json"
-          cp "${{ github.workspace }}/it/localization_it.json" "src/localization/it/localization_it.json"
+          cp "${{ github.workspace }}/de/localisation_de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de.json"
+          cp "${{ github.workspace }}/en/localization_en.json" "${{ env.AZURE_TARGET_PATH }}/en/localization_en.json"
+          cp "${{ github.workspace }}/fr/localization_fr.json" "${{ env.AZURE_TARGET_PATH }}/fr/localization_fr.json"
+          cp "${{ github.workspace }}/it/localization_it.json" "${{ env.AZURE_TARGET_PATH }}/it/localization_it.json"
           
       - name: Commit and push changes
         run: |
-          cd Starstruck.translation-interface
-          git add src/localization
+          cd $AZURE_REPO_NAME
+          git add ${{ env.AZURE_TARGET_PATH }}
           git commit -m "Sync localization files from GitHub"
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"

@@ -21,7 +21,6 @@ jobs:
   sync-to-azure:
     runs-on: ubuntu-latest
     env:
-      #AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
       AZURE_DEVOPS_ORG_URL: "https://dev.azure.com/supertext"
       AZURE_DEVOPS_ORG: "supertext"
       AZURE_DEVOPS_PROJECT: "Starstruck"

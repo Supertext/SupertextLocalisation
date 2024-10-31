@@ -48,7 +48,7 @@ jobs:
       - name: Clone Azure DevOps Repository
         run: |
           # Clone the Azure DevOps repo
-          CLONE_URL="https://$AZURE_DEVOPS_ORG:${{ env.AZURE_TARGET_PATH }}@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME"
+          CLONE_URL="https://$AZURE_DEVOPS_ORG:${{ env.AZURE_DEVOPS_PAT }}@dev.azure.com/$AZURE_DEVOPS_ORG/$AZURE_DEVOPS_PROJECT/_git/$AZURE_REPO_NAME"
 
           echo "Cloning repository from $CLONE_URL"
           git clone "$CLONE_URL"

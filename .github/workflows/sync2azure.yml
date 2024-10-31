@@ -33,6 +33,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Install Azure CLI
+        run: |
+          curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
         
         # Runs a single command using the runners shell
       - name: Set up Git
@@ -40,10 +44,6 @@ jobs:
           git config --global user.email "ivan@supertext.com"
           git config --global user.name "ivan-supertext"
 
-      - name: Install Azure CLI
-        run: |
-          curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-          
       - name: Clone Azure DevOps Repository
         env:
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}

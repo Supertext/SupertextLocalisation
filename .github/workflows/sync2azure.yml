@@ -55,7 +55,7 @@ jobs:
         run: |
           # Generate the branch name with the current timestamp
           TIMESTAMP=$(date +%Y%m%d%H%M%S)
-          export BRANCH_NAME="${{ env.BRANCH_PREFIX }}-$(TIMESTAMP)"
+          export BRANCH_NAME="${{ env.BRANCH_PREFIX }}-$(date +%Y%m%d%H%M%S)"
           echo "Branch name: $BRANCH_NAME"
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
           

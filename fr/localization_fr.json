@@ -1343,10 +1343,8 @@
     "insertApiKey": "Saisissez ici votre clé API"
   },
   "errors": {
-    "title": "",
     "unknownError": "Une erreur inconnue s’est produite.",
-    "serviceUnavailable": "Service indisponible: {0}",
-    "noDataAvailable": ""
+    "serviceUnavailable": "Service indisponible: {0}"
   },
   "notifications": {
     "info": {
@@ -1382,176 +1380,247 @@
     "online": "Votre connexion internet a été rétablie."
   },
   "starstruck": {
-    "welcomeMessage": "",
-    "noEntries": "",
+    "welcomeMessage": "Salutations,",
+    "noEntries": "Aucune entrée trouvée.",
+    "placeOrder": "Placer une commande",
+    "navbar":{
+      "services": "Services",
+      "whySupertext": "Pourquoi Supertex?",
+      "subscriptionAndPrices": "Abonnement & prix",
+      "forCompanies":"Pour les entreprises"
+    },
     "filter": {
-      "all": ""
+      "all": "Tous les"
     },
     "search": {
-      "placeholder": "",
-      "userOrders": "",
-      "allOrders": "",
-      "userInvoices": "",
-      "allInvoices": ""
+      "placeholder": "Chercher...",
+      "userOrders": "Vos commandes",
+      "allOrders": "Toutes les commandes",
+      "userInvoices": "Vos factures",
+      "allInvoices": "Toutes les factures"
     },
     "dashboard": {
-      "title": "",
-      "nestSteps": "",
-      "nextStepsInformation": "",
-      "addSettings": "",
-      "creditCardDetailsSettings": "",
-      "styleGuidSettings": "",
+      "title": "Tableau de bord",
+      "nestSteps": "PROCHAINES ÉTAPES",
+      "nextStepsInformation": "Vous êtes à jour, il n'y a pas d'autres démarches à effectuer pour le moment.",
+      "addSettings": "Compléter les réglages",
+      "creditCardDetailsSettings": "Enregistrez les détails de votre carte de crédit pour des flux super faciles",
+      "styleGuidSettings": "Déposer des guides de style et des directives sur la tonalité et les terminologies",
       "orders": {
-        "title": "",
-        "viewAllOrders": "",
-        "openOrders": "",
-        "noOrders": "",
-        "orderDate": "",
-        "orderDeadlineDate": "",
+        "title": "Commandes",
+        "viewAllOrders": "Voir toutes les commandes",
+        "openOrders": "ACTUALITÉS",
+        "noOrders": "Oups, il n'y a pas de commandes en ce moment.",
+        "orderDate": "Date de commande",
+        "orderDeadlineDate": "Date limite",
         "orderDetails": {
-          "title": "",
-          "order": "",
-          "sourceLanguage": "Langue source",
+          "title": "DÉTAILS DE LA COMMANDE",
+          "order": "Commande",
+          "sourceLanguage": "Langue de départ",
           "targetLanguage": "Langue cible",
           "sourceFile": "Texte source",
-          "offerType": "",
-          "orderDeadline": "",
-          "orderName": "",
-          "industry": "",
-          "targetAudience": "",
-          "orderFiles": "",
-          "price": "",
-          "scope": "Champ d’application",
-          "invoiceDate": "",
-          "invoiceAddress": "",
-          "contactPersonTitle": ""
+          "offerType": "Service",
+          "orderDeadline": "Date de livraison",
+          "orderName": "Titre de la mission",
+          "industry": "Domaine d'expertise",
+          "targetAudience": "Public cible",
+          "orderFiles": "Sources",
+          "price": "Prix",
+          "scope": "Portée",
+          "invoiceDate": "Temps de commande",
+          "invoiceAddress": "Adresse de facturation",
+          "contactPersonTitle": "DIRECTION DU PROJET"
         }
       },
       "invoices": {
-        "title": "",
-        "openInvoices": "",
-        "viewAllInvoices": "",
-        "noOpenInvoices": "",
-        "noInvoices": "",
+        "title": "Factures",
+        "openInvoices": "FACTURES IMPAYÉES",
+        "viewAllInvoices": "Voir toutes les factures",
+        "noOpenInvoices": "Pas de factures impayées pour le moment",
+        "noInvoices": "Aucune facture disponible",
         "invoiceDetail": {
-          "amount": "",
-          "invoiceDate": "",
-          "downloadInvoice": ""
+          "amount": "Montant",
+          "invoiceDate": "Réglé le",
+          "downloadInvoice": "Télécharger"
         }
       },
-      "subscription": {
-        "title": "",
-        "contactSupertext": "",
-        "otherPlans": "",
-        "current": "",
+      "subscriptions": {
+        "title": "Gérer l'abonnement",
+        "contactSupertext": "Contacter Supertext",
+        "otherPlans": "Abonnement Autres",
+        "current": "Abonnement actuel",
         "upgrade": "Mise à niveau",
-        "downgrade": "",
-        "recommended": "",
-        "comparePlans": "",
-        "showMore": "",
-        "cancellationInfo": "",
-        "freePlanInfo": "",
-        "customPlanInfo": ""
+        "downgrade": "Rétrogradation",
+        "recommended": "Recommandé",
+        "comparePlans": "Comparer les abonnements",
+        "showMore": "Voir plus",
+        "cancellationInfo": "Vous avez résilié votre abonnement et il se termine le",
+        "freePlanInfo": "Votre abonnement passera au tarif gratuit Supereasy.",
+        "customPlanInfo": "Adaptez votre abonnement à vos besoins",
+        "upgradeSubscriptionInformation": "Demandez à votre administrateur de mettre à niveau votre abonnement"
       },
       "resources": {
-        "title": ""
+        "title": "Ressources linguistiques"
       },
       "profile": {
-        "title": "",
-        "email": "",
-        "language": "Langue",
-        "role": "Rôle",
-        "comment": "",
-        "company": "",
-        "name": "Nom",
+        "title": "Profil",
+        "email": "E-Mail",
+        "emailValidation": "Veuillez saisir une adresse e-mail valide",
+        "language": "Language",
+        "role": "Role",
+        "comment": "Comment",
+        "commentValidation": "Le commentaire doit comporter au moins 2 caractères",
+        "company": "Company",
+        "name": "Name",
+        "nameValidation": "Le nom doit comporter au moins 2 caractères",
         "firstName": "Prénom",
-        "lastName": "",
-        "adderssLine1": "",
-        "adderssLine2": "",
-        "city": "",
-        "postalCode": "",
-        "country": "",
-        "settings": "Paramètres",
-        "change": "",
-        "selectOption": "",
-        "isAdmin": "",
+        "lastName": "Nom de famille",
+        "addressLime1": "Rue",
+        "addressLine1Validation": "La rue doit être longue d'au moins 2 caractères",
+        "addressLime2": "Adresses Supplémentaire",
+        "city": "Ville",
+        "cityValidation": "La ville est requise",
+        "postalCode": "Code postal",
+        "postalCodeValidation": "Le code postal est requis",
+        "country": "Pays",
+        "countryValidation": "Veuillez sélectionner un pays",
+        "selectCountry": "Sélectionner le pays",
+        "settings": "Réglages",
+        "change": "Modifier",
+        "add":"Ajouter",
+        "delete": "Supprimer",
+        "selectOption": "Choisir une option",
+        "isAdmin": "Réel Administration",
         "sections": {
           "userDetails": {
-            "title": "",
-            "deleteAccountTitle": "",
-            "deleteAccountConfirmation": "",
-            "deleteAccount": "Supprimer le compte",
-            "passwords": {
-              "title": "",
+            "title": "Détails du compte",
+            "deleteAccountTitle": "Suppression définitive du compte",
+            "deleteAccountConfirmation": "Vous en êtes sûr ? Vous ne pouvez pas annuler cette action",
+            "deleteAccount": "Supprimer un compte",
+            "accountSettings": "Paramètres du compte",
+            "accountSettingsInfo": "Gérez les paramètres de votre compte ici",
+            "password": {
+              "title": "Mot de passe",
               "oldPassword": "Ancien mot de passe",
               "newPassword": "Nouveau mot de passe",
-              "confirmNewPassword": "",
+              "confirmNewPassword": "Confirmer le nouveau mot de passe",
               "changePassword": "Modifier le mot de passe",
               "passwordDoNotMatch": "Les mots de passe ne correspondent pas",
               "passwordMustContainAtLeastOneSpecialCharacter": "Le mot de passe doit contenir au moins un caractère spécial",
               "passwordMustContainAtLeastOneNumber": "Le mot de passe doit contenir au moins un chiffre",
-              "passwordMustContainAtLeastOneUppercaseLetter": "Le mot de passe doit contenir au moins une majuscule",
-              "passwordMustContainAtLeastOneLowercaseLetter": "Le mot de passe doit contenir au moins une minuscule",
-              "passwordMustBeAtLeast8Characters": ""
+              "passwordMustContainAtLeastOneUppercaseLetter": "Le mot de passe doit contenir au moins une lettre majuscule.",
+              "passwordMustContainAtLeastOneLowercaseLetter": "Le mot de passe doit contenir au moins une lettre minuscule.",
+              "passwordMustBeAtLeast8Characters": "Le mot de passe doit comporter au moins 8 caractères."
             }
           },
           "payments": {
-            "title": "",
+            "title": "Informations sur le paiement",
+            "setDefaultMethod": "Définir le mode de paiement par défaut",
+            "defaultMethodSetSuccess": "Méthode de paiement par défaut définie",
+            "standardMethod": "Méthode de paiement standard",
             "settings": {
               "billingAddress": {
-                "deleletBillingAddress": "",
-                "deleteBillingAddressConfirmation": "",
-                "authorizationApply": "",
-                "authorizationPending": "",
-                "authorizationDenied": "",
-                "authorizationDeniedInfo": "",
-                "authorizationContactUs": ""
+                "deleteBillingAddress": "Supprimer l'adresse de facturation",
+                "deleteBillingAddressConfirmation": "Vous en êtes sûr ? Vous ne pouvez pas revenir sur cette action.",
+                "authorizationApply": "Demander l'autorisation",
+                "authorizationPending": "Autorisation en attente",
+                "authorizationDenied": "Autorisation refusée",
+                "authorizationDeniedInfo": "L'autorisation peut être refusée pour différentes raisons.",
+                "authorizationContactUs": "Prenez contact avec nous ",
+                "title": "Adresses de facturation",
+                "selectDefaultBillingAddress":"Sélectionnez une adresse de facturation par défaut",
+                "requestInvoiceAsPaymentMethod":"Demandez ici l’utilisation de la facturation comme mode de paiement.",
+                "addBillingAddress": "Ajouter une adresse de facturation",
+                "editBillingAddress": "Adresse de facturation Modifier"
               },
               "creditCard": {
-                "title": "",
-                "subTitle": "",
-                "addCard": "",
-                "deleteCard": "",
-                "addCardFailure": "",
-                "endsWith": ""
+                "title": "Détails de la carte de crédit",
+                "subTitle": "Choisissez une méthode de paiement par défaut",
+                "addCard": "Carte supprimée avec succès",
+                "deleteCard": "Carte ajoutée avec succès",
+                "addCardFailure": "La carte n'a pas pu être ajoutée",
+                "endsWith": "se termine par",
+                "updateCardDetailsInformation":"Demandez à l’administrateur de votre organisation de mettre à jour les détails de la carte de crédit"
               }
             }
           },
           "companyAdministration": {
-            "title": "",
-            "userManagement": "",
-            "addMember": "",
-            "editMember": "",
-            "availableSeats": "",
-            "filledSeats": "",
-            "usersGained": "",
-            "increaseSeats": "",
-            "increaseSeatsInfo": ""
+            "title": "Gestion de l'entreprise",
+            "userManagement": "Gestion des utilisateurs",
+            "addMember": "Ajouter un membre",
+            "editMember": "Modifier un membre",
+            "removeMember": "Supprimer",
+            "deleteMember": "Supprimer le membre",
+            "deleteMemberConfirmation": "Vous êtes sûr de vous ? Vous ne pouvez pas annuler cette action par la suite.",
+            "availableSeats": "Sièges disponibles ",
+            "filledSeats": "Des places remplies",
+            "usersGained": "Utilisateurs gagnés",
+            "increaseSeats": "Relever les sièges",
+            "increaseSeatsInfo": "Augmenter le nombre de membres admis dans l'entreprise",
+            "teamMembersOverviewTitle": "Membres de l’équipe Vue d’ensemble",
+            "teamMembersOverviewSubtitle": "Gérez les membres de votre équipe ici"
           }
         }
       },
       "delivery": {
-        "title": "",
+        "title": "Livraison",
         "status": {
-          "pending": ""
+          "pending": "Votre commande est en cours de traitement. Finition jusqu'à"
         },
-        "openInTranslationInterface": ""
+        "openInTranslationInterface": "Ouvrir dans l'interface de traduction"
       },
       "feedback": {
-        "title": "Commentaires",
-        "satisfactionQuestion": "",
+        "title": "Réactions",
+        "satisfactionQuestion": "Quel est votre degré de satisfaction concernant les textes ?",
         "message": "Message",
-        "submitFeedback": "",
-        "revisionQuestion": "",
-        "revisionOption": "",
-        "revisionRequest": "",
-        "submitFile": "",
-        "uploadFiles": ""
-      },
-      "addedTest": ""
+        "submitFeedback": "Envoyer un commentaire",
+        "revisionQuestion": "Souhaitez-vous une révision gratuite ?",
+        "revisionOption": "Veuillez retravailler le texte en fonction de vos commentaires",
+        "revisionRequest": "Demander une révision",
+        "submitFile": "Demander une révision",
+        "uploadFiles": "Télécharger des documents",
+        "messagePlaceholder": "Par exemple, un bon style frais, nous sommes très satisfaits, dans le dernier paragraphe, il manque deux arguments, nous allons l’insérer nous-mêmes.",
+        "ratingOptions": {
+          "super": "Superbe",
+          "good": "Bien",
+          "insufficient": "Insuffisante"
+        }
+      }
     },
-    "title": "Ébloui par les étoiles",
-    "description": "Starstruck est une nouvelle fonctionnalité qui vous aide à améliorer vos traductions. Il vous montre les traductions les plus populaires d'un mot et vous permet de choisir la meilleure traduction. Starstruck est uniquement disponible sur ordinateur.",
-    "cta": "Apprendre encore plus"
+    "footer":{
+      "media": "Médias",
+      "imprint":"Mentions légales",
+      "termsAndConditions": "Conditions générales",
+      "privacyPolicy": "Politique de confidentialité",
+      "aiGuideline":"Politique en matière d'IA",
+      "paymentMethods": "MOYENS DE PAIEMENT ACCEPTES",	
+      "country": "Changer de pays",
+      "services": {
+        "title": "Services",
+        "translation": "Traductions",
+        "proofreading":"Relecture",
+        "copywriting": "Rédaction",
+        "forCompanies": "Pour les entreprises"
+      },
+      "about": {
+        "title": "A propos de nous",
+        "team": "équipe",
+        "companies": "Entreprises",
+        "security": "Sécurité",
+        "location": "Sites",
+        "jobs": "Emplois "
+      },
+      "otherServices":{
+        "title": "Autres",
+        "customerPortal": "Portail client",
+        "blog": "Blog",
+        "newsletter":"Lettre d'information",
+        "references": "Références"
+      },
+      "newsletter": {
+        "title": "Newsletter",
+        "info": "Découvrir le Supertext et exploiter les potentiels. Notre newsletter apporte des nouveautés passionnantes et des aperçus exclusifs sur le développement d'outils de traduction IA hybrides couplés à l'expertise humaine."
+      }
+    }
   }
 }

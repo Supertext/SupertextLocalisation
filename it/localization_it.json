@@ -1383,11 +1383,11 @@
     "welcomeMessage": "Grüezi,",
     "noEntries": "Nessuna voce trovata.",
     "placeOrder": "Effettuare l'ordine",
-    "navbar":{
+    "navbar": {
       "services": "Servizi",
       "whySupertext": "Perché Supertex?",
       "subscriptionAndPrices": "Abbonamento e prezzi",
-      "forCompanies":"Per le aziende"
+      "forCompanies": "Per le aziende"
     },
     "filter": {
       "all": "Tutti"
@@ -1487,7 +1487,7 @@
         "selectCountry": "Selezionare il paese",
         "settings": "Impostazioni",
         "change": "Cambiamento",
-        "add":"Aggiungere",
+        "add": "Aggiungere",
         "delete": "Elimina",
         "selectOption": "Selezionare l'opzione",
         "isAdmin": "Gestione effettiva",
@@ -1528,8 +1528,8 @@
                 "authorizationDeniedInfo": "L'autorizzazione può essere rifiutata per vari motivi.",
                 "authorizationContactUs": "Mettetevi in contatto con noi ",
                 "title": "Indirizzo di fatturazione",
-                "selectDefaultBillingAddress":"Scegliete un indirizzo di fatturazione predefinito",
-                "requestInvoiceAsPaymentMethod":"Richiedere di utilizzare la fattura come metodo di pagamento.",
+                "selectDefaultBillingAddress": "Scegliete un indirizzo di fatturazione predefinito",
+                "requestInvoiceAsPaymentMethod": "Richiedere di utilizzare la fattura come metodo di pagamento.",
                 "addBillingAddress": "Aggiungi indirizzo di fatturazione",
                 "editBillingAddress": "Modifica dell'indirizzo di fatturazione"
               },
@@ -1540,7 +1540,7 @@
                 "deleteCard": "Mappa aggiunta con successo",
                 "addCardFailure": "Impossibile aggiungere la mappa",
                 "endsWith": "termina con",
-                "updateCardDetailsInformation":"Chiedere all’amministratore dell’organizzazione di aggiornare i dati della carta di credito"
+                "updateCardDetailsInformation": "Chiedere all’amministratore dell’organizzazione di aggiornare i dati della carta di credito"
               }
             }
           },
@@ -1560,7 +1560,9 @@
             "teamMembersOverviewTitle": "Panoramica dei membri del team",
             "teamMembersOverviewSubtitle": "Gestisci qui i membri del tuo team"
           }
-        }
+        },
+        "addressLime1": "Via",
+        "addressLime2": "Indirizzi Aggiunta"
       },
       "delivery": {
         "title": "consegna",
@@ -1587,18 +1589,18 @@
         }
       }
     },
-    "footer":{
+    "footer": {
       "media": "Media",
-      "imprint":"Imprint",
+      "imprint": "Imprint",
       "termsAndConditions": "Termini e condizioni generali",
       "privacyPolicy": "Privacy Policy",
-      "aiGuideline":"Linee guida AI",
-      "paymentMethods": "MEZZI DI PAGAMENTO ACCETTATI",	
+      "aiGuideline": "Linee guida AI",
+      "paymentMethods": "MEZZI DI PAGAMENTO ACCETTATI",
       "country": "Cambia paese",
       "services": {
         "title": "Servizi",
         "translation": "Traduzioni",
-        "proofreading":"Correzione di bozze",
+        "proofreading": "Correzione di bozze",
         "copywriting": "Copywriting",
         "forCompanies": "Per le aziende"
       },
@@ -1610,11 +1612,11 @@
         "location": "Locations",
         "jobs": "Jobs"
       },
-      "otherServices":{
+      "otherServices": {
         "title": "Other",
         "customerPortal": "Portale clienti",
         "blog": "Blog",
-        "newsletter":"Newsletter",
+        "newsletter": "Newsletter",
         "references": "References"
       },
       "newsletter": {

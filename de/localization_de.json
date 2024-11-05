@@ -1383,11 +1383,11 @@
     "welcomeMessage": "Grüezi,",
     "noEntries": "Keine Einträge gefunden.",
     "placeOrder": "Auftrag platzieren",
-    "navbar":{
+    "navbar": {
       "services": "Services",
       "whySupertext": "Warum Supertex?",
       "subscriptionAndPrices": "Abo & Preise",
-      "forCompanies":"Für Unternehmen"
+      "forCompanies": "Für Unternehmen"
     },
     "filter": {
       "all": "Alle"
@@ -1475,7 +1475,7 @@
         "nameValidation": "Name muss mindestens 2 Zeichen lang sein",
         "firstName": "Vorname",
         "lastName": "Nachname",
-        "addressLine1": "Strasse",
+        "addressLine1": "Strasse 2345",
         "addressLine1Validation": "Strasse muss mindestens 2 Zeichen lang sein",
         "addressLine2": "Adresszusatz",
         "city": "Stadt",
@@ -1487,7 +1487,7 @@
         "selectCountry": "Land auswählen",
         "settings": "Einstellungen",
         "change": "Ändern",
-        "add":"Hinzufügen",
+        "add": "Hinzufügen",
         "delete": "Löschen",
         "selectOption": "Option auswählen",
         "isAdmin": "Zum Admin machen",
@@ -1528,8 +1528,8 @@
                 "authorizationDeniedInfo": "Die Erlaubnis kann aus verschiedenen Gründen verweigert werden.",
                 "authorizationContactUs": "Nehmen Sie Kontakt mit uns auf",
                 "title": "Rechnungsadressen",
-                "selectDefaultBillingAddress":"Wählen Sie eine Standard-Rechnungsadresse",
-                "requestInvoiceAsPaymentMethod":"Beantragen Sie hier die Nutzung der Rechnungsstellung als Zahlungsmethode.",
+                "selectDefaultBillingAddress": "Wählen Sie eine Standard-Rechnungsadresse",
+                "requestInvoiceAsPaymentMethod": "Beantragen Sie hier die Nutzung der Rechnungsstellung als Zahlungsmethode.",
                 "addBillingAddress": "Rechnungsadresse Hinzufügen",
                 "editBillingAddress": "Rechnungsadresse Bearbeiten"
               },
@@ -1540,7 +1540,7 @@
                 "deleteCard": "Karte erfolgreich hinzugefügt",
                 "addCardFailure": "Karte konnte nicht hinzugefügt werden",
                 "endsWith": "endet mit",
-                "updateCardDetailsInformation":"Ask you organization admin to update the credit card details"
+                "updateCardDetailsInformation": "Ask you organization admin to update the credit card details"
               }
             }
           },
@@ -1587,18 +1587,18 @@
         }
       }
     },
-    "footer":{
+    "footer": {
       "media": "Medien",
-      "imprint":"Impressum",
+      "imprint": "Impressum",
       "termsAndConditions": "AGB",
       "privacyPolicy": "Datenschutzerklärung",
-      "aiGuideline":"KI-Richtlinie",
-      "paymentMethods": "AKZEPTIERTE ZAHLUNGSMITTEL",	
+      "aiGuideline": "KI-Richtlinie",
+      "paymentMethods": "AKZEPTIERTE ZAHLUNGSMITTEL",
       "country": "Land ändern",
       "services": {
         "title": "Services",
         "translation": "Übersetzungen",
-        "proofreading":"Lektorat",
+        "proofreading": "Lektorat",
         "copywriting": "Texten",
         "forCompanies": "Für Unternehmen"
       },
@@ -1610,11 +1610,11 @@
         "location": "Standorte",
         "jobs": "Jobs"
       },
-      "otherServices":{
+      "otherServices": {
         "title": "Sonstiges",
         "customerPortal": "Kundenportal",
         "blog": "Blog",
-        "newsletter":"Newsletter",
+        "newsletter": "Newsletter",
         "references": "Referenzen"
       },
       "newsletter": {

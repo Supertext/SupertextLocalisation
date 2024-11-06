@@ -1383,11 +1383,11 @@
     "welcomeMessage": "Salutations,",
     "noEntries": "Aucune entrée trouvée.",
     "placeOrder": "Placer une commande",
-    "navbar":{
+    "navbar": {
       "services": "Services",
-      "whySupertext": "Pourquoi Supertex?",
+      "whySupertext": "Pourquoi Supertext?",
       "subscriptionAndPrices": "Abonnement & prix",
-      "forCompanies":"Pour les entreprises"
+      "forCompanies": "Pour les entreprises"
     },
     "filter": {
       "all": "Tous les"
@@ -1487,7 +1487,7 @@
         "selectCountry": "Sélectionner le pays",
         "settings": "Réglages",
         "change": "Modifier",
-        "add":"Ajouter",
+        "add": "Ajouter",
         "delete": "Supprimer",
         "selectOption": "Choisir une option",
         "isAdmin": "Réel Administration",
@@ -1528,8 +1528,8 @@
                 "authorizationDeniedInfo": "L'autorisation peut être refusée pour différentes raisons.",
                 "authorizationContactUs": "Prenez contact avec nous ",
                 "title": "Adresses de facturation",
-                "selectDefaultBillingAddress":"Sélectionnez une adresse de facturation par défaut",
-                "requestInvoiceAsPaymentMethod":"Demandez ici l’utilisation de la facturation comme mode de paiement.",
+                "selectDefaultBillingAddress": "Sélectionnez une adresse de facturation par défaut",
+                "requestInvoiceAsPaymentMethod": "Demandez ici l’utilisation de la facturation comme mode de paiement.",
                 "addBillingAddress": "Ajouter une adresse de facturation",
                 "editBillingAddress": "Adresse de facturation Modifier"
               },
@@ -1540,7 +1540,7 @@
                 "deleteCard": "Carte ajoutée avec succès",
                 "addCardFailure": "La carte n'a pas pu être ajoutée",
                 "endsWith": "se termine par",
-                "updateCardDetailsInformation":"Demandez à l’administrateur de votre organisation de mettre à jour les détails de la carte de crédit"
+                "updateCardDetailsInformation": "Demandez à l’administrateur de votre organisation de mettre à jour les détails de la carte de crédit"
               }
             }
           },
@@ -1587,18 +1587,18 @@
         }
       }
     },
-    "footer":{
+    "footer": {
       "media": "Médias",
-      "imprint":"Mentions légales",
+      "imprint": "Mentions légales",
       "termsAndConditions": "Conditions générales",
       "privacyPolicy": "Politique de confidentialité",
-      "aiGuideline":"Politique en matière d'IA",
-      "paymentMethods": "MOYENS DE PAIEMENT ACCEPTES",	
+      "aiGuideline": "Politique en matière d'IA",
+      "paymentMethods": "MOYENS DE PAIEMENT ACCEPTES",
       "country": "Changer de pays",
       "services": {
         "title": "Services",
         "translation": "Traductions",
-        "proofreading":"Relecture",
+        "proofreading": "Relecture",
         "copywriting": "Rédaction",
         "forCompanies": "Pour les entreprises"
       },
@@ -1610,11 +1610,11 @@
         "location": "Sites",
         "jobs": "Emplois "
       },
-      "otherServices":{
+      "otherServices": {
         "title": "Autres",
         "customerPortal": "Portail client",
         "blog": "Blog",
-        "newsletter":"Lettre d'information",
+        "newsletter": "Lettre d'information",
         "references": "Références"
       },
       "newsletter": {

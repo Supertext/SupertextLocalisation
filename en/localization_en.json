@@ -1383,11 +1383,11 @@
     "welcomeMessage": "Hello,",
     "noEntries": "No entries found.",
     "placeOrder": "Place order",
-    "navbar":{
+    "navbar": {
       "services": "Services",
-      "whySupertext": "Why Supertex",
+      "whySupertext": "Why Supertext?",
       "subscriptionAndPrices": "Subscription & Prices",
-      "forCompanies":"For companies"
+      "forCompanies": "For companies"
     },
     "filter": {
       "all": "All"
@@ -1487,7 +1487,7 @@
         "selectCountry": "Select country",
         "settings": "Settings",
         "change": "Change",
-        "add":"Add",
+        "add": "Add",
         "delete": "Delete",
         "selectOption": "Select option",
         "isAdmin": "Is Admin",
@@ -1528,8 +1528,8 @@
                 "authorizationDeniedInfo": "Permission may be refused for various reasons.",
                 "authorizationContactUs": "Get in touch with us ",
                 "title": "Billing addresses",
-                "selectDefaultBillingAddress":"Select a default billing address",
-                "requestInvoiceAsPaymentMethod":"Request the use of invoicing as a payment method here.",
+                "selectDefaultBillingAddress": "Select a default billing address",
+                "requestInvoiceAsPaymentMethod": "Request the use of invoicing as a payment method here.",
                 "addBillingAddress": "Add billing address",
                 "editBillingAddress": "Edit billing address"
               },
@@ -1540,7 +1540,7 @@
                 "deleteCard": "Map successfully added",
                 "addCardFailure": "Map could not be added",
                 "endsWith": "ends with",
-                "updateCardDetailsInformation":"Ask you organization admin to update the credit card details"
+                "updateCardDetailsInformation": "Ask you organization admin to update the credit card details"
               }
             }
           },
@@ -1587,18 +1587,18 @@
         }
       }
     },
-    "footer":{
+    "footer": {
       "media": "Media",
-      "imprint":"Imprint",
+      "imprint": "Imprint",
       "termsAndConditions": "General Terms and Conditions",
       "privacyPolicy": "Privacy Policy",
-      "aiGuideline":"AI guideline",
-      "paymentMethods": "ACCEPTED MEANS OF PAYMENT",	
+      "aiGuideline": "AI guideline",
+      "paymentMethods": "ACCEPTED MEANS OF PAYMENT",
       "country": "Change country",
       "services": {
         "title": "Services",
         "translation": "Translations",
-        "proofreading":"Proofreading",
+        "proofreading": "Proofreading",
         "copywriting": "Copywriting",
         "forCompanies": "For companies”"
       },
@@ -1610,11 +1610,11 @@
         "location": "Locations",
         "jobs": "Jobs"
       },
-      "otherServices":{
+      "otherServices": {
         "title": "Other",
         "customerPortal": "Customer portal",
         "blog": "Blog",
-        "newsletter":"Newsletter",
+        "newsletter": "Newsletter",
         "references": "References"
       },
       "newsletter": {

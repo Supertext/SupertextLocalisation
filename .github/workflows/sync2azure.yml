@@ -88,7 +88,6 @@ jobs:
       - name: Authenticate with Azure DevOps
         run: echo "##vso[task.setvariable variable=AZURE_DEVOPS_EXT_PAT]${{ secrets.AZURE_DEVOPS_PAT }}"
 
-
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
@@ -101,7 +100,7 @@ jobs:
         run: |
           # Authenticate with Azure DevOps
           #az devops login --organization $AZURE_DEVOPS_ORG_URL --token ${{ secrets.AZURE_DEVOPS_PAT }}
-          export AZURE_DEVOPS_EXT_PAT=${{ secrets.AZURE_DEVOPS_PAT }}
+          #export AZURE_DEVOPS_EXT_PAT=${{ secrets.AZURE_DEVOPS_PAT }}
           # Configure defaults
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           

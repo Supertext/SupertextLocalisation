@@ -100,7 +100,7 @@ jobs:
 
           # Debugging: List current security permissions (to verify authentication)
           echo "Listing security permissions..."
-          #az devops security permission list --organization $AZURE_DEVOPS_ORG_URL --subject "ivan@supertext.com"
+          az devops security permission list --organization $AZURE_DEVOPS_ORG_URL --subject "ivan@supertext.com" --namespace-id "5a653dc5-908a-4bb0-8af4-1ebabf4f8f7a"
 
           # Debugging: Check Azure DevOps CLI configuration
           echo "Listing current configuration..."

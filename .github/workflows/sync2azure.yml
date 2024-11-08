@@ -85,6 +85,10 @@ jobs:
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
 
+      - name: Clear cached credentials
+        run: |
+          az devops logout
+      
       - name: Authenticate and Configure Azure DevOps CLI
         env:
           AZURE_DEVOPS_EXT_PAT:  ${{ secrets.AZURE_DEVOPS_PAT }}

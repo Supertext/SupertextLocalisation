@@ -121,7 +121,6 @@ jobs:
           az rest --method PATCH \
           --url "https://dev.azure.com/supertext/Starstruck/_apis/pullrequestreviews/$PR_ID?api-version=7.1-preview.1" \
           --headers "Content-Type=application/json" \
-          --headers "Authorization: Basic $(echo -n ":$AZURE_DEVOPS_EXT_PAT" | base64)" \
           --body '{
             \"reviewers\": [
               {\"id\": \"$REVIEWER_ID_1\", \"isRequired\": true},

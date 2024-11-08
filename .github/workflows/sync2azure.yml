@@ -44,6 +44,12 @@ jobs:
           git config --global user.email "ivan@supertext.com"
           git config --global user.name "ivan-supertext"
 
+      - name: Authenticate
+        env:
+          AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag
+        run: |
+          echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
+
       - name: Clone Azure DevOps Repository
         env:
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
@@ -76,12 +82,6 @@ jobs:
           cp "${{ github.workspace }}/en/localization_en.json" "${{ env.AZURE_TARGET_PATH }}/en/localization_en.json"
           cp "${{ github.workspace }}/fr/localization_fr.json" "${{ env.AZURE_TARGET_PATH }}/fr/localization_fr.json"
           cp "${{ github.workspace }}/it/localization_it.json" "${{ env.AZURE_TARGET_PATH }}/it/localization_it.json"
-
-      - name: Authenticate
-        env:
-          AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag
-        run: |
-          echo ${{ env.AZURE_DEVOPS_EXT_PAT }} | az devops login --organization "https://dev.azure.com/supertext/Starstruck"
           
       - name: Commit and push changes
         run: |

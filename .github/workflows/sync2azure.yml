@@ -111,24 +111,16 @@ jobs:
             --target-branch $BASE_BRANCH \
             --title "Sync localization files from GitHub" \
             --description "Automated sync of localization files from GitHub." \
-            --reviewers $REVIEWER_IDS \
             --work-item $WORK_ITEM_ID \
             --query pullRequestId -o tsv)
             
           echo "Pull request created with ID $PR_ID"
-
-          # Set the reviewers as required via REST API (using az rest)
-          az rest --method PATCH \
-          --url "https://dev.azure.com/supertext/Starstruck/_apis/pullrequestreviews/$PR_ID?api-version=7.1-preview.1" \
-          --headers "Content-Type=application/json" \
-          --body '{
-            \"reviewers\": [
-              {\"id\": \"$REVIEWER_ID_1\", \"isRequired\": true},
-              {\"id\": \"$REVIEWER_ID_2\", \"isRequired\": true},
-              {\"id\": \"$REVIEWER_ID_3\", \"isRequired\": true},
-              {\"id\": \"$REVIEWER_ID_4\", \"isRequired\": true}
-            ]
-          }'
+          
+          az repos pr reviewer add \ 
+          --id $PR_ID 
+          --reviewers $REVIEWER_IDS \
+          -- required  true \
+          -- org $AZURE_DEVOPS_ORG_URL
           
           # Set auto-complete
           az repos pr update --id $PR_ID --auto-complete true

@@ -25,7 +25,7 @@ jobs:
       AZURE_DEVOPS_ORG: "supertext"
       AZURE_DEVOPS_PROJECT: "Starstruck"
       AZURE_REPO_NAME: "Starstruck.translation-interface"
-      BASE_BRANCH: "main"
+      BASE_BRANCH: "develop"
       AZURE_TARGET_PATH: "src/localization"
       BRANCH_PREFIX: "sync-localization"
 
@@ -104,10 +104,10 @@ jobs:
             --target-branch $BASE_BRANCH \
             --title "Sync localization files from GitHub" \
             --description "Automated sync of localization files from GitHub." \
-            --reviewer $REVIEWER_ID_1 --required \
-            --reviewer $REVIEWER_ID_2 --required \
-            --reviewer $REVIEWER_ID_3 --required \
-            --reviewer $REVIEWER_ID_4 --required \
+            --reviewer $REVIEWER_ID_1 --required true \
+            --reviewer $REVIEWER_ID_2 --required true \
+            --reviewer $REVIEWER_ID_3 --required true \
+            --reviewer $REVIEWER_ID_4 --required true \
             --work-item $WORK_ITEM_ID \
             --query pullRequestId -o tsv)
 

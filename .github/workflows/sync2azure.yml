@@ -113,7 +113,7 @@ jobs:
           WORK_ITEM_ID: 13144
         run: |
           # Configure Azure DevOps CLI
-          az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
+          az devops configure --defaults organization=https://dev.azure.com/supertext project=Starstruck
           
           # Create the pull request
           PR_ID=$(az repos pr create \

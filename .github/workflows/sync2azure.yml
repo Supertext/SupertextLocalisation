@@ -126,7 +126,7 @@ jobs:
             --target-branch $BASE_BRANCH \
             --title "Sync localization files from GitHub" \
             --description "Automated sync of localization files from GitHub." \
-            --work-items $WORK_ITEM_ID \
+            --work-item $WORK_ITEM_ID \
             --query pullRequestId -o tsv)
             
           echo "Pull request created with ID $PR_ID"

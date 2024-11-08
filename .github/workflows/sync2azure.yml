@@ -99,9 +99,7 @@ jobs:
           WORK_ITEM_ID: 13144
         run: |
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
-
-          export AZURE_DEVOPS_EXT_PAT="${{ secrets.AZURE_DEVOPS_PAT }}"
-
+          
           # Create the pull request
           PR_ID=$(az repos pr create \
             --repository $AZURE_REPO_NAME \
@@ -115,10 +113,7 @@ jobs:
             --reviewer $REVIEWER_ID_4 --required true \
             --work-item $WORK_ITEM_ID \
             --query pullRequestId -o tsv)
-
           echo "Pull request created with ID $PR_ID"
-
           # Set auto-complete
           az repos pr update --id $PR_ID --auto-complete true
-
       

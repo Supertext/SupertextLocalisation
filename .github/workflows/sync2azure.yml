@@ -116,7 +116,6 @@ jobs:
             --reviewer $REVIEWER_ID_4 --required true \
             --work-item $WORK_ITEM_ID \
             --detect false \
-            --auth ${{ secrets.AZURE_DEVOPS_PAT }}
             --query pullRequestId -o tsv)
           echo "Pull request created with ID $PR_ID"
           # Set auto-complete

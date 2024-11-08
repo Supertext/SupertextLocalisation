@@ -95,6 +95,15 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
+          # Authenticate using the PAT
+          echo ${{ env.AZURE_DEVOPS_EXT_PAT }} | az devops login --organization $AZURE_DEVOPS_ORG_URL
+
+          # Debugging: List current security permissions (to verify authentication)
+          echo "Listing security permissions..."
+          az devops security permission list --organization $AZURE_DEVOPS_ORG_URL
+
+          # Debugging: Check Azure DevOps CLI configuration
+          echo "Listing current configuration..."
           az devops configure --list
           
           # Authenticate using the PAT

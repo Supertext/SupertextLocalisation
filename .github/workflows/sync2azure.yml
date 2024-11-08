@@ -103,9 +103,6 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
-          # Explicitly authenticate using PAT
-          az devops login --organization $AZURE_DEVOPS_ORG_URL --pat $AZURE_DEVOPS_EXT_PAT
-
           # Verify authentication (optional)
           az devops invoke --area core --resource projects --route-parameters project=$AZURE_DEVOPS_PROJECT || exit 1
 

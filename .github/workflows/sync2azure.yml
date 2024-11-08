@@ -99,9 +99,13 @@ jobs:
           WORK_ITEM_ID: 13144
         run: |
           # Export the PAT to be used by az devops commands
-          export AZURE_DEVOPS_EXT_PAT="${{ secrets.AZURE_DEVOPS_PAT }}"
+          #export AZURE_DEVOPS_EXT_PAT="${{ secrets.AZURE_DEVOPS_PAT }}"
           
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
+
+          # Debug: Check if authentication with PAT is successful
+          az devops invoke --area core --resource projects --route-parameters project=$AZURE_DEVOPS_PROJECT || exit 1
+
           
           # Create the pull request
           PR_ID=$(az repos pr create \

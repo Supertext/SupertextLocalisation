@@ -100,11 +100,12 @@ jobs:
 
           # Debugging: List current security permissions (to verify authentication)
           echo "Listing security permissions..."
-          az devops security permission list --organization $AZURE_DEVOPS_ORG_URL
+          az devops security permission list --organization $AZURE_DEVOPS_ORG_URL --subject $USER_OR_GROUP_ID
 
           # Debugging: Check Azure DevOps CLI configuration
           echo "Listing current configuration..."
           az devops configure --list
+          az devops project list --organization $AZURE_DEVOPS_ORG_URL
           
           # Authenticate using the PAT
           echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login

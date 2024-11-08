@@ -103,6 +103,10 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
+          echo $AZURE_DEVOPS_EXT_PAT | az devops login --token $(cat)
+          # Configure Azure DevOps CLI
+          az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
+          
           # Create the pull request
           PR_ID=$(az repos pr create \
             --repository $AZURE_REPO_NAME \
@@ -115,9 +119,10 @@ jobs:
             --reviewer $REVIEWER_ID_3 --required true \
             --reviewer $REVIEWER_ID_4 --required true \
             --work-item $WORK_ITEM_ID \
-            --detect false \
             --query pullRequestId -o tsv)
+            
           echo "Pull request created with ID $PR_ID"
+          
           # Set auto-complete
           az repos pr update --id $PR_ID --auto-complete true
       

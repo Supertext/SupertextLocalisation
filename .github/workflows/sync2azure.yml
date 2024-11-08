@@ -117,11 +117,11 @@ jobs:
           echo "Pull request created with ID $PR_ID"
           
           # Add reviewers
-          az repos pr reviewer add \ 
-          --id $PR_ID \
-          --reviewers $REVIEWER_IDS \
-          --required true \
-          --org $AZURE_DEVOPS_ORG_URL
+          az repos pr reviewer add \
+            --id $PR_ID \
+            --reviewers "2edaf683-9596-4c7f-b703-a2d124d08fee 9dda57cc-3e4b-60d0-8882-d32d28dc3b6e" \
+            --required true \
+            --org $AZURE_DEVOPS_ORG_URL
           
           # Set auto-complete
           az repos pr update --id $PR_ID --auto-complete true

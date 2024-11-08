@@ -98,7 +98,7 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
-          az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
+         az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           
           # Create the pull request
           PR_ID=$(az repos pr create \

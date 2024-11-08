@@ -100,6 +100,8 @@ jobs:
         run: |
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
 
+          export AZURE_DEVOPS_EXT_PAT="${{ secrets.AZURE_DEVOPS_PAT }}"
+
           # Create the pull request
           PR_ID=$(az repos pr create \
             --repository $AZURE_REPO_NAME \

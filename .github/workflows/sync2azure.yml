@@ -85,8 +85,13 @@ jobs:
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
 
-      - name: Authenticate with Azure DevOps
-        run: echo "##vso[task.setvariable variable=AZURE_DEVOPS_EXT_PAT]${{ secrets.AZURE_DEVOPS_PAT }}"
+      - name: Authenticate and Configure Azure DevOps CLI
+        env:
+          AZURE_DEVOPS_EXT_PAT:  ${{ secrets.AZURE_DEVOPS_PAT }}
+        run: |
+          az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
+          echo "##vso[task.setvariable variable=AZURE_DEVOPS_EXT_PAT]${{ secrets.AZURE_DEVOPS_PAT }}"
+
 
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
@@ -98,15 +103,12 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
-          # Export the PAT to be used by az devops commands
-          #export AZURE_DEVOPS_EXT_PAT="${{ secrets.AZURE_DEVOPS_PAT }}"
-          
-          az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
+          # Explicitly authenticate using PAT
+          az devops login --organization $AZURE_DEVOPS_ORG_URL --pat $AZURE_DEVOPS_EXT_PAT
 
-          # Debug: Check if authentication with PAT is successful
+          # Verify authentication (optional)
           az devops invoke --area core --resource projects --route-parameters project=$AZURE_DEVOPS_PROJECT || exit 1
 
-          
           # Create the pull request
           PR_ID=$(az repos pr create \
             --repository $AZURE_REPO_NAME \

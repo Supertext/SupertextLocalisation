@@ -43,14 +43,7 @@ jobs:
         run: |
           git config --global user.email "ivan@supertext.com"
           git config --global user.name "ivan-supertext"
-
-      - name: Authenticate
-        env:
-          AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag
-        run: |
-          echo "Hello"
-          #echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
-
+          
       - name: Clone Azure DevOps Repository
         env:
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
@@ -92,7 +85,12 @@ jobs:
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
     
-
+      - name: Authenticate
+        env:
+          AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag
+        run: |
+          echo "Hello"
+          #echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
         
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
@@ -104,8 +102,6 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
-          echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
-          
           # Configure Azure DevOps CLI
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           

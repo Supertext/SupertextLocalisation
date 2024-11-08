@@ -98,7 +98,9 @@ jobs:
 
       - name: Verify Authentication
         run: |
-          az devops account show
+          az repos list --org https://dev.azure.com/supertext --project Starstruck
+          
+          az devops configure --defaults organization=https://dev.azure.com/supertext project=Starstruck
       
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:

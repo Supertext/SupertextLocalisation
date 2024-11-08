@@ -120,6 +120,7 @@ jobs:
           # Set the reviewers as required via REST API (using az rest)
           az rest --method PATCH --url "https://dev.azure.com/$AZURE_DEVOPS_ORG_URL/$AZURE_DEVOPS_PROJECT/_apis/pullrequestreviews/$PR_ID?api-version=7.1-preview.1" \
           --headers "Content-Type=application/json" \
+          --headers "Authorization: Basic $(echo -n ":$AZURE_DEVOPS_EXT_PAT" | base64)" \
           --body '{
             "reviewers": [
               {"id": $REVIEWER_ID_1, "isRequired": true},

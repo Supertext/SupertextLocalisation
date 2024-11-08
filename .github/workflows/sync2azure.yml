@@ -95,8 +95,7 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
-          # Authenticate using the PAT
-          #echo ${AZURE_DEVOPS_EXT_PAT} | az devops login
+          az devops configure --list
           
           # Authenticate using the PAT
           echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login

@@ -48,7 +48,8 @@ jobs:
         env:
           AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag
         run: |
-          echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
+          echo "Hello"
+          #echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
 
       - name: Clone Azure DevOps Repository
         env:
@@ -103,6 +104,8 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
+          echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
+          
           # Configure Azure DevOps CLI
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           

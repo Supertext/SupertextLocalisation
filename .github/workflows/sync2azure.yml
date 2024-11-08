@@ -130,7 +130,7 @@ jobs:
             #--reviewer $REVIEWER_ID_2 --required true \
             #--reviewer $REVIEWER_ID_3 --required true \
             #--reviewer $REVIEWER_ID_4 --required true \
-            --work-item $WORK_ITEM_ID \
+            --work-items $WORK_ITEM_ID \
             --query pullRequestId -o tsv)
             
           echo "Pull request created with ID $PR_ID"

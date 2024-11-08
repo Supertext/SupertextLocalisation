@@ -126,10 +126,6 @@ jobs:
             --target-branch $BASE_BRANCH \
             --title "Sync localization files from GitHub" \
             --description "Automated sync of localization files from GitHub." \
-            #--reviewer $REVIEWER_ID_1 --required true \
-            #--reviewer $REVIEWER_ID_2 --required true \
-            #--reviewer $REVIEWER_ID_3 --required true \
-            #--reviewer $REVIEWER_ID_4 --required true \
             --work-items $WORK_ITEM_ID \
             --query pullRequestId -o tsv)
             

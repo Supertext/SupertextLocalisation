@@ -94,13 +94,13 @@ jobs:
         env:
           AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag
         run: |
-          echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
+          #echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
 
       - name: Verify Authentication
         run: |
-          az repos list --org https://dev.azure.com/supertext --project Starstruck
+          #az repos list --org https://dev.azure.com/supertext --project Starstruck
           
-          az devops configure --defaults organization=https://dev.azure.com/supertext project=Starstruck
+          #az devops configure --defaults organization=https://dev.azure.com/supertext project=Starstruck
       
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
@@ -113,7 +113,9 @@ jobs:
           WORK_ITEM_ID: 13144
         run: |
           # Configure Azure DevOps CLI
+          echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
           az devops configure --defaults organization=https://dev.azure.com/supertext project=Starstruck
+          az repos list --org https://dev.azure.com/supertext --project Starstruck
           
           # Create the pull request
           PR_ID=$(az repos pr create \

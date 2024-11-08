@@ -76,6 +76,12 @@ jobs:
           cp "${{ github.workspace }}/en/localization_en.json" "${{ env.AZURE_TARGET_PATH }}/en/localization_en.json"
           cp "${{ github.workspace }}/fr/localization_fr.json" "${{ env.AZURE_TARGET_PATH }}/fr/localization_fr.json"
           cp "${{ github.workspace }}/it/localization_it.json" "${{ env.AZURE_TARGET_PATH }}/it/localization_it.json"
+
+      - name: Authenticate
+        env:
+          AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag
+        run: |
+          echo ${{ env.AZURE_DEVOPS_EXT_PAT }} | az devops login --organization "https://dev.azure.com/supertext/Starstruck"
           
       - name: Commit and push changes
         run: |
@@ -84,6 +90,8 @@ jobs:
           git commit -m "Sync localization files from GitHub"
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
+    
+
         
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
@@ -95,21 +103,6 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
-          # Authenticate using the PAT
-          echo ${{ env.AZURE_DEVOPS_EXT_PAT }} | az devops login --organization $AZURE_DEVOPS_ORG_URL
-
-          # Debugging: List current security permissions (to verify authentication)
-          echo "Listing security permissions..."
-          az devops security permission list --organization $AZURE_DEVOPS_ORG_URL --subject "ivan@supertext.com" --namespace-id "5a653dc5-908a-4bb0-8af4-1ebabf4f8f7a"
-
-          # Debugging: Check Azure DevOps CLI configuration
-          echo "Listing current configuration..."
-          az devops configure --list
-          az devops project list --organization $AZURE_DEVOPS_ORG_URL
-          
-          # Authenticate using the PAT
-          echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login
-
           # Configure Azure DevOps CLI
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           

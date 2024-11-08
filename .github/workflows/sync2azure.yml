@@ -95,12 +95,15 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
-          # Debug: Print the value of the PAT
-          echo "PAT: $AZURE_DEVOPS_EXT_PAT"
+          # Clear any previous cached credentials to avoid conflicts
+          az devops logout
 
           # Authenticate using the PAT
-          echo $AZURE_DEVOPS_EXT_PAT | az devops login --organization $AZURE_DEVOPS_ORG_URL
+          az devops login --token ${{ secrets.AZURE_DEVOPS_PAT }}
           
+          # Authenticate using the PAT
+          echo $AZURE_DEVOPS_EXT_PAT | az devops login --organization $AZURE_DEVOPS_ORG_URL
+
           # Configure Azure DevOps CLI
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           

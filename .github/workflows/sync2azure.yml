@@ -37,6 +37,11 @@ jobs:
       - name: Install Azure CLI
         run: |
           curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+      - name: Install keyring dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-keyring python3-secretstorage
         
         # Runs a single command using the runners shell
       - name: Set up Git
@@ -90,7 +95,11 @@ jobs:
           AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag
         run: |
           echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
-        
+
+      - name: Verify Authentication
+        run: |
+          az devops account show
+      
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
           AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag

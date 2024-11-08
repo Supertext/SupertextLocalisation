@@ -118,15 +118,16 @@ jobs:
           echo "Pull request created with ID $PR_ID"
 
           # Set the reviewers as required via REST API (using az rest)
-          az rest --method PATCH --url "$AZURE_DEVOPS_ORG_URL/$AZURE_DEVOPS_PROJECT/_apis/pullrequestreviews/$PR_ID?api-version=7.1-preview.1" \
+          az rest --method PATCH \
+          --url "https://dev.azure.com/supertext/Starstruck/_apis/pullrequestreviews/$PR_ID?api-version=7.1-preview.1" \
           --headers "Content-Type=application/json" \
           --headers "Authorization: Basic $(echo -n ":$AZURE_DEVOPS_EXT_PAT" | base64)" \
           --body '{
-            "reviewers": [
-              {"id": $REVIEWER_ID_1, "isRequired": true},
-              {"id": $REVIEWER_ID_2, "isRequired": true},
-              {"id": $REVIEWER_ID_3, "isRequired": true},
-              {"id": $REVIEWER_ID_4, "isRequired": true}
+            \"reviewers\": [
+              {\"id\": \"$REVIEWER_ID_1\", \"isRequired\": true},
+              {\"id\": \"$REVIEWER_ID_2\", \"isRequired\": true},
+              {\"id\": \"$REVIEWER_ID_3\", \"isRequired\": true},
+              {\"id\": \"$REVIEWER_ID_4\", \"isRequired\": true}
             ]
           }'
           

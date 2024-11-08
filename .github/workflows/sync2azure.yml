@@ -85,6 +85,10 @@ jobs:
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
 
+      - name: Authenticate with Azure DevOps
+        run: echo "##vso[task.setvariable variable=AZURE_DEVOPS_EXT_PAT]${{ secrets.AZURE_DEVOPS_PAT }}"
+
+
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}

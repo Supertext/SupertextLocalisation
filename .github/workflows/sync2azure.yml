@@ -89,7 +89,7 @@ jobs:
         env:
           AZURE_DEVOPS_EXT_PAT:  ${{ secrets.AZURE_DEVOPS_PAT }}
         run: |
-          az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT --detect false
+          az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           echo "##vso[task.setvariable variable=AZURE_DEVOPS_EXT_PAT]${{ secrets.AZURE_DEVOPS_PAT }}"
 
 

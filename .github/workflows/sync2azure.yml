@@ -106,11 +106,11 @@ jobs:
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
           BRANCH_NAME: ${{ env.BRANCH_NAME }}
-          REVIEWER_IDS: "2edaf683-9596-4c7f-b703-a2d124d08fee 9dda57cc-3e4b-60d0-8882-d32d28dc3b6e 052d0d9b-f3c9-47ad-b066-7740e1677992 a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           REVIEWER_ID_1: "2edaf683-9596-4c7f-b703-a2d124d08fee"  # Replace with actual reviewer IDs or usernames
           REVIEWER_ID_2: "9dda57cc-3e4b-60d0-8882-d32d28dc3b6e"
           REVIEWER_ID_3: "052d0d9b-f3c9-47ad-b066-7740e1677992"
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
+          REVIEWER_IDS: "$REVIEWER_ID_1 $REVIEWER_ID_2 $REVIEWER_ID_3 $REVIEWER_ID_4"
           WORK_ITEM_ID: 13144
         run: |
           # Configure Azure DevOps CLI
@@ -128,6 +128,18 @@ jobs:
             --query pullRequestId -o tsv)
             
           echo "Pull request created with ID $PR_ID"
+
+          # Set the reviewers as required via REST API (using az rest)
+          az rest --method PATCH --url "https://dev.azure.com/$AZURE_DEVOPS_ORG_URL/$AZURE_DEVOPS_PROJECT/_apis/pullrequestreviews/$PR_ID?api-version=7.1-preview.1" \
+          --headers "Content-Type=application/json" \
+          --body '{
+            "reviewers": [
+              {"id": $REVIEWER_ID_1, "isRequired": true},
+              {"id": $REVIEWER_ID_2, "isRequired": true},
+              {"id": $REVIEWER_ID_3, "isRequired": true},
+              {"id": $REVIEWER_ID_4, "isRequired": true}
+            ]
+          }'
           
           # Set auto-complete
           az repos pr update --id $PR_ID --auto-complete true

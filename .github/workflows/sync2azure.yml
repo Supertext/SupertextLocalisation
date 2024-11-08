@@ -84,7 +84,7 @@ jobs:
           git commit -m "Sync localization files from GitHub"
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
-
+        
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
@@ -96,8 +96,10 @@ jobs:
           WORK_ITEM_ID: 13144
         run: |
           # Clear any previous cached credentials to avoid conflicts
-          az devops logout
+          #az devops logout
 
+          echo "PAT is set: ${{ secrets.AZURE_DEVOPS_PAT }}"
+          
           # Authenticate using the PAT
           az devops login --token ${{ secrets.AZURE_DEVOPS_PAT }}
           

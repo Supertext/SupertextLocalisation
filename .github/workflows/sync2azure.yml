@@ -98,6 +98,9 @@ jobs:
           REVIEWER_ID_4: "a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           WORK_ITEM_ID: 13144
         run: |
+          # Export the PAT to be used by az devops commands
+          export AZURE_DEVOPS_EXT_PAT="${{ secrets.AZURE_DEVOPS_PAT }}"
+          
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           
           # Create the pull request

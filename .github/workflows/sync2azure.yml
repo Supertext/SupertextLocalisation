@@ -115,7 +115,7 @@ jobs:
           # Configure Azure DevOps CLI
           #echo $AZURE_DEVOPS_EXT_PAT | az devops login --organization $AZURE_DEVOPS_ORG_URL
           
-          az repos list --org https://dev.azure.com/supertext --project Starstruck
+          az repos list --org $AZURE_DEVOPS_ORG_URL --project $AZURE_DEVOPS_PROJECT
 
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT
           

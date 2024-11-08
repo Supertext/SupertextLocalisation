@@ -106,6 +106,7 @@ jobs:
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
           BRANCH_NAME: ${{ env.BRANCH_NAME }}
+          REVIEWER_IDS: "2edaf683-9596-4c7f-b703-a2d124d08fee 9dda57cc-3e4b-60d0-8882-d32d28dc3b6e 052d0d9b-f3c9-47ad-b066-7740e1677992 a76a389d-7b74-613b-9253-fd3dcd69ccbf"
           REVIEWER_ID_1: "2edaf683-9596-4c7f-b703-a2d124d08fee"  # Replace with actual reviewer IDs or usernames
           REVIEWER_ID_2: "9dda57cc-3e4b-60d0-8882-d32d28dc3b6e"
           REVIEWER_ID_3: "052d0d9b-f3c9-47ad-b066-7740e1677992"
@@ -122,10 +123,7 @@ jobs:
             --target-branch $BASE_BRANCH \
             --title "Sync localization files from GitHub" \
             --description "Automated sync of localization files from GitHub." \
-            --reviewer $REVIEWER_ID_1 \
-            --reviewer $REVIEWER_ID_2 \
-            --reviewer $REVIEWER_ID_3 \
-            --reviewer $REVIEWER_ID_4 \
+            --reviewers $REVIEWER_IDS \
             --work-item $WORK_ITEM_ID \
             --query pullRequestId -o tsv)
             

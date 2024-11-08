@@ -89,19 +89,7 @@ jobs:
           git commit -m "Sync localization files from GitHub"
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
-    
-      - name: Authenticate
-        env:
-          AZURE_DEVOPS_EXT_PAT: 9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag
-        run: |
-          #echo "9zrZRbquE9qGS2HPRqtBtyRKYiZlfszDoQmcf56QrLqEiPH5PkuYJQQJ99AKACAAAAAoDb21AAASAZDOO5Ag" | az devops login --organization "https://dev.azure.com/supertext"
-
-      - name: Verify Authentication
-        run: |
-          #az repos list --org https://dev.azure.com/supertext --project Starstruck
           
-          #az devops configure --defaults organization=https://dev.azure.com/supertext project=Starstruck
-      
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}

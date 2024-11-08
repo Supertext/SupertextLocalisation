@@ -99,7 +99,7 @@ jobs:
           echo "PAT: $AZURE_DEVOPS_EXT_PAT"
 
           # Authenticate using the PAT
-          echo $AZURE_DEVOPS_EXT_PAT | az devops login
+          echo $AZURE_DEVOPS_EXT_PAT | az devops login --organization $AZURE_DEVOPS_ORG_URL
           
           # Configure Azure DevOps CLI
           az devops configure --defaults organization=$AZURE_DEVOPS_ORG_URL project=$AZURE_DEVOPS_PROJECT

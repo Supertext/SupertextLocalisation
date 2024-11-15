@@ -1383,41 +1383,41 @@
     "welcomeMessage": "Grüezi,",
     "noEntries": "Nessuna voce trovata.",
     "placeOrder": "Effettuare l'ordine",
-    "or": "",
-    "entriesPerPage": "",
-    "changeLanguage": "",
-    "navbar":{
+    "or": "o",
+    "entriesPerPage": "Voci per pagina",
+    "changeLanguage": "Cambiare la lingua",
+    "navbar": {
       "services": "Servizi",
       "whySupertext": "Perché Supertext?",
       "subscriptionAndPrices": "Abbonamento e prezzi",
-      "forCompanies":"Per le aziende",
-      "discoverSolutions":"",
+      "forCompanies": "Per le aziende",
+      "discoverSolutions": "Scoprire la soluzione aziendale",
       "message": {
-        "part1": "",
-        "part2": "",
-        "part3": "",
-        "part4": "",
-        "part5": ""
+        "part1": "Tradurre le aziende con Supertext",
+        "part2": "migliore, più veloce, più economico",
+        "part3": "e",
+        "part4": "più sicuro. Da",
+        "part5": "da 0% a 100% automatico."
       },
-      "languageExpertise": "",
-      "languageExpertiseNav":{
-        "overview": "",
-        "aiTranslation": "",
-        "spacialTranslation": "",
-        "copywriting": "",
-        "editing": "",
-        "consultation": ""
+      "languageExpertise": "Competenza linguistica",
+      "languageExpertiseNav": {
+        "overview": "Panoramica",
+        "aiTranslation": "Traduzione e verifica AI\"",
+        "spacialTranslation": "Traduzione specializzata",
+        "copywriting": "Copywriting",
+        "editing": "Correzione di bozze",
+        "consultation": "Consulenza"
       }
     },
     "filter": {
-      "title": "",
+      "title": "Filtri",
       "all": "Tutti",
-      "administrator": "",
-      "licensed": "",
-      "removeFilter": "",
+      "administrator": "Amministratore",
+      "licensed": "Licenza",
+      "removeFilter": "Rimuovere il filtro",
       "types": {
-        "role": "",
-        "license": ""
+        "role": "Ruolo",
+        "license": "Licenza"
       }
     },
     "search": {
@@ -1493,23 +1493,23 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
-        "changeEmail":"",
+        "changeEmail": "Modifica dell'indirizzo e-mail",
         "emailValidation": "Inserire un indirizzo e-mail valido",
-        "language": "",
-        "role": "",
-        "roleValidation": "",
-        "license": "",
-        "licenseValidation": "",
-        "comment": "",
+        "language": "Lingua",
+        "role": "Ruolo",
+        "roleValidation": "Il ruolo deve essere lungo almeno 2 caratteri",
+        "license": "Licenza",
+        "licenseValidation": "La licenza deve essere lunga almeno 2 caratteri",
+        "comment": "Commento",
         "commentValidation": "Il commento deve essere lungo almeno 2 caratteri",
-        "company": "",
-        "name": "",
-        "changeName": "",
+        "company": "L'azienda",
+        "name": "Nome",
+        "changeName": "Cambia nome",
         "nameValidation": "Il nome deve essere lungo almeno 2 caratteri",
         "firstName": "Nome",
-        "firstNameValidation": "",
+        "firstNameValidation": "Il nome deve essere composto da almeno 2 caratteri",
         "lastName": "Cognome",
-        "lastNameValidation": "",
+        "lastNameValidation": "Il cognome deve essere composto da almeno 2 caratteri",
         "addressLine1": "Via",
         "addressLine1Validation": "La via deve essere lunga almeno 2 caratteri",
         "addressLine2": "Indirizzi Aggiunta",
@@ -1522,28 +1522,28 @@
         "selectCountry": "Selezionare il paese",
         "settings": "Impostazioni",
         "change": "Cambiamento",
-        "add":"Aggiungere",
+        "add": "Aggiungere",
         "delete": "Elimina",
         "selectOption": "Selezionare l'opzione",
         "isAdmin": "Gestione effettiva",
-        "noData": "",
+        "noData": "Non specificato",
         "roles": {
-          "admin": "",
-          "user": ""
+          "admin": "Amministratore",
+          "user": "Utente"
         },
-        "costCenter":{
-          "title": "",
-          "changeCostCenter": ""
+        "costCenter": {
+          "title": "Centro di costo",
+          "changeCostCenter": "Modifica del centro di costo"
         },
         "sections": {
           "userDetails": {
-            "title": "",
+            "title": "Il tuo account",
             "deleteAccountTitle": "Cancellazione definitiva dell'account",
             "deleteAccountConfirmation": "Sei sicuro? Non è più possibile annullare questa azione",
             "deleteAccount": "Cancellare l'account",
-            "accountSettings": "",
+            "accountSettings": "Conto",
             "accountSettingsInfo": "Gestite le impostazioni del vostro account qui",
-            "settings": "",
+            "settings": "Impostazioni",
             "password": {
               "title": "password",
               "oldPassword": "Vecchia password",
@@ -1560,17 +1560,17 @@
           },
           "payments": {
             "title": "Informazioni sul pagamento",
-            "info": "",
+            "info": "Qui è possibile gestire gli indirizzi di fatturazione standard e i dati della carta di credito",
             "setDefaultMethod": "Imposta il metodo di pagamento predefinito",
             "defaultMethodSetSuccess": "Metodo di pagamento predefinito impostato",
             "standardMethod": "Metodo di pagamento standard",
-            "changePaymentMethod": "",
-            "emailForDelivery": "",
-            "methods":{
-              "title": "",
-              "account": "",
-              "creditCard": "",
-              "noPaymentMethod": ""
+            "changePaymentMethod": "Modifica del metodo di pagamento",
+            "emailForDelivery": "E-mail per la consegna della fattura",
+            "methods": {
+              "title": "Metodo di pagamento",
+              "account": "In conto",
+              "creditCard": "Carta di credito",
+              "noPaymentMethod": "Nessuna impostazione predefinita"
             },
             "settings": {
               "billingAddress": {
@@ -1582,12 +1582,12 @@
                 "authorizationDeniedInfo": "L'autorizzazione può essere rifiutata per vari motivi.",
                 "authorizationContactUs": "Mettetevi in contatto con noi ",
                 "title": "Indirizzo di fatturazione",
-                "selectDefaultBillingAddress":"Scegliete un indirizzo di fatturazione predefinito",
-                "requestInvoiceAsPaymentMethod":"Richiedere di utilizzare la fattura come metodo di pagamento.",
+                "selectDefaultBillingAddress": "Scegliete un indirizzo di fatturazione predefinito",
+                "requestInvoiceAsPaymentMethod": "Richiedere di utilizzare la fattura come metodo di pagamento.",
                 "addBillingAddress": "Aggiungi indirizzo di fatturazione",
                 "editBillingAddress": "Modifica dell'indirizzo di fatturazione",
-                "addNewAddress": "",
-                "noAddedAddresses": ""
+                "addNewAddress": "Aggiungi un nuovo indirizzo",
+                "noAddedAddresses": "Non è stato ancora aggiunto alcun indirizzo"
               },
               "creditCard": {
                 "title": "Dati della carta di credito",
@@ -1596,16 +1596,16 @@
                 "addCard": "Mappa aggiunta con successo",
                 "addCardFailure": "Impossibile aggiungere la mappa",
                 "endsWith": "termina con",
-                "updateCardDetailsInformation":"Chiedere all’amministratore dell’organizzazione di aggiornare i dati della carta di credito",
-                "expirationMessage": "",
-                "deleteCreditCardConfirmation": "",
-                "deleteCreditCardInformation": "",
-                "noAddedCreditCard": ""
+                "updateCardDetailsInformation": "Chiedere all’amministratore dell’organizzazione di aggiornare i dati della carta di credito",
+                "expirationMessage": "La carta è scaduta il",
+                "deleteCreditCardConfirmation": "È sicuro di voler cancellare questa carta di credito?",
+                "deleteCreditCardInformation": "In questo modo la carta di credito verrà rimossa dal vostro conto. Non sarà possibile utilizzarla per transazioni future. I membri del vostro team potrebbero risentirne.",
+                "noAddedCreditCard": "Non è stata ancora aggiunta alcuna mappa"
               }
             }
           },
           "team": {
-            "title": "",
+            "title": "Squadra",
             "userManagement": "Amministrazione degli utenti",
             "addMember": "Aggiungi membro",
             "editMember": "Modifica membro",
@@ -1619,26 +1619,26 @@
             "increaseSeatsInfo": "Aumentare il numero di soci autorizzati nella società",
             "teamMembersOverviewTitle": "Panoramica dei membri del team",
             "teamMembersOverviewSubtitle": "Gestisci qui i membri del tuo team",
-            "management": "",
-            "actions":{
-              "title":"",
-              "editAll":"",
-              "removeAll": ""
+            "management": "Gestione",
+            "actions": {
+              "title": "Azione",
+              "editAll": "Modifica tutti",
+              "removeAll": "Rimuovi tutto"
             },
-            "increaseNumberOfLicenses": "",
-            "selectLicense": "",
-            "selectRole": "",
-            "roles": { 
-              "teamAdmin": "",
-              "user": ""
+            "increaseNumberOfLicenses": "Aumento del numero di licenze",
+            "selectLicense": "Selezionare la licenza...",
+            "selectRole": "Seleziona il ruolo...",
+            "roles": {
+              "teamAdmin": "Amministratore",
+              "user": "Utente"
             }
           }
         }
       },
-      "subscription":{
-        "subscriptionFreeInfo":"",
-        "comparePlans": "",
-        "addLicenses": ""
+      "subscription": {
+        "subscriptionFreeInfo": "Gli utenti senza licenza possono accedere ad AI Translation Free.",
+        "comparePlans": "Confronta gli abbonamenti",
+        "addLicenses": "aggiungere altre licenze."
       },
       "delivery": {
         "title": "consegna",
@@ -1665,43 +1665,43 @@
         }
       }
     },
-    "footer":{
-      "contact": "",
-      "newsletter": "",
-      "newsletterDescription": "",
-      "newsletterDisclaimer": "",
-      "yourEmail": "",
-      "freelancerRegistration": "",
-      "servicesTitle": "",
+    "footer": {
+      "contact": "Contattateci",
+      "newsletter": "Newsletter",
+      "newsletterDescription": "Per chiunque sia interessato al linguaggio, alla tecnologia e alla creatività",
+      "newsletterDisclaimer": "Registrandovi, accettate la nostra politica sulla privacy e acconsentite a ricevere aggiornamenti dalla nostra azienda.",
+      "yourEmail": "Il vostro indirizzo e-mail",
+      "freelancerRegistration": "Registrazione dei freelance",
+      "servicesTitle": "SERVIZI",
       "services": {
-        "translation": "",
-        "expertise": "",
-        "editing": "",
-        "copywriting": "",
-        "consulting": "",
-        "forBusiness": ""
+        "translation": "Traduzione e verifica AI",
+        "expertise": "Traduzione specializzata",
+        "editing": "Correzione di bozze",
+        "copywriting": "Copywriting",
+        "consulting": "Consulenza",
+        "forBusiness": "Per le aziende"
       },
-      "knowledgeTitle": "",
+      "knowledgeTitle": "CONOSCENZA",
       "knowledge": {
-        "expertise": "",
-        "whySupertext": "",
-        "technology": "",
-        "references": "",
-        "faq": "",
-        "blog": ""
+        "expertise": "Competenza linguistica",
+        "whySupertext": "Perché Supertext",
+        "technology": "Tecnologia",
+        "references": "Riferimenti",
+        "faq": "FAQ",
+        "blog": "Blog"
       },
-      "companyTitle": "",
+      "companyTitle": "AZIENDA",
       "company": {
-        "contact": "",
-        "aboutSupertext": "",
-        "careers": ""
+        "contact": "Contattateci",
+        "aboutSupertext": "Informazioni su Supertext",
+        "careers": "Lavorare in Supertext"
       },
       "legal": {
-        "imprint": "",
-        "terms": "",
-        "privacy": "",
-        "dataProtection": "",
-        "media": ""
+        "imprint": "Impronta",
+        "terms": "GTC",
+        "privacy": "Informativa sulla privacy",
+        "dataProtection": "Protezione dei dati",
+        "media": "Media"
       }
     }
   }

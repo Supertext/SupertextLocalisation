@@ -1383,14 +1383,42 @@
     "welcomeMessage": "Grüezi,",
     "noEntries": "Keine Einträge gefunden.",
     "placeOrder": "Auftrag platzieren",
-    "navbar": {
+    "or": "oder",
+    "entriesPerPage": "Einträge pro Seite",
+    "changeLanguage": "Sprache wechseln",
+    "navbar":{
       "services": "Services",
       "whySupertext": "Warum Supertext?",
       "subscriptionAndPrices": "Abo & Preise",
-      "forCompanies": "Für Unternehmen"
+      "forCompanies":"Für Unternehmen",
+      "discoverSolutions":"Business-Lösung entdecken",
+      "message": {
+        "part1": "Mit Supertext übersetzen Unternehmen",
+        "part2": "besser, schneller, günstiger",
+        "part3": "und",
+        "part4": "sicherer. Von",
+        "part5": "0% bis 100% automatisiert."
+      },
+      "languageExpertise": "Sprachexpertise",
+      "languageExpertiseNav":{
+        "overview": "Übersicht",
+        "aiTranslation": "AI-Translation & Verifizierung'",
+        "spacialTranslation": "Fachübersetzung",
+        "copywriting": "Copywriting",
+        "editing": "Lektorat",
+        "consultation": "Beratung"
+      }
     },
     "filter": {
-      "all": "Alle"
+      "title": "Filter",
+      "all": "Alle",
+      "administrator": "Administrator",
+      "licensed": "Licensed",
+      "removeFilter": "Filter entfernen",
+      "types": {
+        "role": "Rolle",
+        "license": "Lizenz"
+      }
     },
     "search": {
       "placeholder": "Suchen …",
@@ -1401,7 +1429,7 @@
     },
     "dashboard": {
       "title": "Dashboard",
-      "nestSteps": "NÄCHSTE SCHRITTE",
+      "nextSteps": "NÄCHSTE SCHRITTE",
       "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
       "addSettings": "Angaben ergänzen",
       "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
@@ -1465,16 +1493,23 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
+        "changeEmail":"E-Mail-Adresse ändern",
         "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
         "language": "Sprache",
         "role": "Rolle",
+        "roleValidation": "Rolle muss mindestens 2 Zeichen lang sein",
+        "license": "Lizenz",
+        "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
         "comment": "Kommentar",
         "commentValidation": "Kommentar muss mindestens 2 Zeichen lang sein",
         "company": "Unternehmen",
         "name": "Name",
+        "changeName": "Name ändern",
         "nameValidation": "Name muss mindestens 2 Zeichen lang sein",
         "firstName": "Vorname",
+        "firstNameValidation": "Vorname muss mindestens 2 Zeichen lang sein",
         "lastName": "Nachname",
+        "lastNameValidation": "Nachname muss mindestens 2 Zeichen lang sein",
         "addressLine1": "Strasse",
         "addressLine1Validation": "Strasse muss mindestens 2 Zeichen lang sein",
         "addressLine2": "Adresszusatz",
@@ -1487,18 +1522,28 @@
         "selectCountry": "Land auswählen",
         "settings": "Einstellungen",
         "change": "Ändern",
-        "add": "Hinzufügen",
+        "add":"Hinzufügen",
         "delete": "Löschen",
         "selectOption": "Option auswählen",
         "isAdmin": "Zum Admin machen",
+        "noData": "Keine Angaben",
+        "roles": { 
+          "admin": "Administrator",
+          "user": "User"
+        },
+        "costCenter":{
+          "title": "Kostenstelle",
+          "changeCostCenter": "Kostenstelle ändern"
+        },
         "sections": {
           "userDetails": {
-            "title": "Kontodetails",
+            "title": "Ihr Konto",
             "deleteAccountTitle": "Konto dauerhaft löschen",
             "deleteAccountConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
             "deleteAccount": "Konto löschen",
-            "accountSettings": "Kontoeinstellungen",
+            "accountSettings": "Konto",
             "accountSettingsInfo": "Hier können Sie Ihre Kontoeinstellungen vornehmen",
+            "settings": "Einstellungen",
             "password": {
               "title": "Passwort",
               "oldPassword": "Altes Passwort",
@@ -1515,9 +1560,18 @@
           },
           "payments": {
             "title": "Zahlungsinformationen",
+            "info": "Hier können Sie die Standard-Rechnungsadressen und Kreditkartendaten verwalten",
             "setDefaultMethod": "Standard-Zahlungsmethode festlegen",
             "defaultMethodSetSuccess": "Standard-Zahlungsmethode festgelegt",
             "standardMethod": "Standard-Zahlungsmethode",
+            "changePaymentMethod": "Zahlungsmethode ändern",
+            "emailForDelivery": "E-mail für Rechnungszustellung",
+            "methods":{
+              "title": "Zahlungsmethode",
+              "account": "Auf Rechnung",
+              "creditCard": "Kreditkarte",
+              "noPaymentMethod": "Keine Voreinstellung"
+            },
             "settings": {
               "billingAddress": {
                 "deleteBillingAddress": "Eintrag Rechnungsadresse löschen",
@@ -1528,24 +1582,30 @@
                 "authorizationDeniedInfo": "Die Erlaubnis kann aus verschiedenen Gründen verweigert werden.",
                 "authorizationContactUs": "Nehmen Sie Kontakt mit uns auf",
                 "title": "Rechnungsadressen",
-                "selectDefaultBillingAddress": "Wählen Sie eine Standard-Rechnungsadresse",
-                "requestInvoiceAsPaymentMethod": "Beantragen Sie hier die Nutzung der Rechnungsstellung als Zahlungsmethode.",
+                "selectDefaultBillingAddress":"Wählen Sie eine Standard-Rechnungsadresse",
+                "requestInvoiceAsPaymentMethod":"Beantragen Sie hier die Nutzung der Rechnungsstellung als Zahlungsmethode.",
                 "addBillingAddress": "Rechnungsadresse Hinzufügen",
-                "editBillingAddress": "Rechnungsadresse Bearbeiten"
+                "editBillingAddress": "Rechnungsadresse Bearbeiten",
+                "addNewAddress": "Neue Adresse hinzufügen",
+                "noAddedAddresses": "Es wurde noch keine Adresse hinzugefügt"
               },
               "creditCard": {
                 "title": "Kreditkartendetails",
                 "subTitle": "Wählen Sie eine Standardzahlungsmethode",
-                "addCard": "Karte erfolgreich gelöscht",
-                "deleteCard": "Karte erfolgreich hinzugefügt",
+                "deleteCard": "Karte erfolgreich gelöscht",
+                "addCard": "Karte erfolgreich hinzugefügt",
                 "addCardFailure": "Karte konnte nicht hinzugefügt werden",
                 "endsWith": "endet mit",
-                "updateCardDetailsInformation": "Ask you organization admin to update the credit card details"
+                "updateCardDetailsInformation":"Ask you organization admin to update the credit card details",
+                "expirationMessage": "Your card expired on",
+                "deleteCreditCardConfirmation": "Are your sure you want to delete this credit card?",
+                "deleteCreditCardInformation": "This will remove the credit card from your account. You will not be able to use it for future transactions. Members of your team could be affected.",
+                "noAddedCreditCard": "Es wurde noch keine Karte hinzugefügt"
               }
             }
           },
-          "companyAdministration": {
-            "title": "Unternehmensverwaltung",
+          "team": {
+            "title": "Team",
             "userManagement": "User-Verwaltung",
             "addMember": "Mitglied hinzufügen",
             "editMember": "Mitglied bearbeiten",
@@ -1558,9 +1618,27 @@
             "increaseSeats": "Plätze erhöhen",
             "increaseSeatsInfo": "Erhöhen Sie die Anzahl der im Unternehmen zugelassenen Mitglieder",
             "teamMembersOverviewTitle": "Teammitglieder Übersicht",
-            "teamMembersOverviewSubtitle": "Hier können Sie Ihre Teammitglieder verwalten"
+            "teamMembersOverviewSubtitle": "Hier können Sie Ihre Teammitglieder verwalten",
+            "management": "Management",
+            "actions":{
+              "title":"Aktion",
+              "editAll":"Alle Bearbeiten",
+              "removeAll": "Alle Entfernen"
+            },
+            "increaseNumberOfLicenses": "Anzahl Lizenzen erhöhen",
+            "selectLicense": "Lizenz auswählen...",
+            "selectRole": "Rolle auswählen...",
+            "roles": { 
+              "teamAdmin": "Administrator",
+              "user": "User"
+            }
           }
         }
+      },
+      "subscription":{
+        "subscriptionFreeInfo":"User:innen ohne Lizenz haben Zugriff auf AI Translation Free.",
+        "comparePlans": "Abos vergleichen",
+        "addLicenses": "weitere Lizenzen hinzufügen."
       },
       "delivery": {
         "title": "Lieferung",
@@ -1587,39 +1665,43 @@
         }
       }
     },
-    "footer": {
-      "media": "Medien",
-      "imprint": "Impressum",
-      "termsAndConditions": "AGB",
-      "privacyPolicy": "Datenschutzerklärung",
-      "aiGuideline": "KI-Richtlinie",
-      "paymentMethods": "AKZEPTIERTE ZAHLUNGSMITTEL",
-      "country": "Land ändern",
+    "footer":{
+      "contact": "Kontakt",
+      "newsletter": "Newsletter",
+      "newsletterDescription": "Für alle, die sich für Sprache, Technologie und Kreativität interessiere",
+      "newsletterDisclaimer": "Mit der Registrierung erklären Sie sich mit unserer Datenschutzerklärung einverstanden und geben Ihr Einverständnis, Updates von unserem Unternehmen zu erhalten.",
+      "yourEmail": "Ihre E-Mail-Adresse",
+      "freelancerRegistration": "Freelancer-Registrierung",
+      "servicesTitle": "SERVICES",
       "services": {
-        "title": "Services",
-        "translation": "Übersetzungen",
-        "proofreading": "Lektorat",
-        "copywriting": "Texten",
-        "forCompanies": "Für Unternehmen"
+        "translation": "AI Translation & Verifizierung",
+        "expertise": "Fachübersetzung",
+        "editing": "Lektorat",
+        "copywriting": "Copywriting",
+        "consulting": "Beratung",
+        "forBusiness": "Für Unternehmen"
       },
-      "about": {
-        "title": "Über uns",
-        "team": "Team",
-        "companies": "Unternehmen",
-        "security": "Sicherheit",
-        "location": "Standorte",
-        "jobs": "Jobs"
+      "knowledgeTitle": "WISSENSWERTES",
+      "knowledge": {
+        "expertise": "Sprachexpertise",
+        "whySupertext": "Warum Supertext",
+        "technology": "Technologie",
+        "references": "Referenzen",
+        "faq": "FAQ",
+        "blog": "Blog"
       },
-      "otherServices": {
-        "title": "Sonstiges",
-        "customerPortal": "Kundenportal",
-        "blog": "Blog",
-        "newsletter": "Newsletter",
-        "references": "Referenzen"
+      "companyTitle": "UNTERNEHMEN",
+      "company": {
+        "contact": "Kontakt",
+        "aboutSupertext": "Über Supertext",
+        "careers": "Arbeiten bei Supertext"
       },
-      "newsletter": {
-        "title": "Brief",
-        "info": "Supertext erleben und Potenziale ausschöpfen. Unser Newsletter bringt spannende Neuigkeiten und exklusive Einblicke in die Entwicklung von hybriden AI Translationtools gepaart mit menschlicher Expertise."
+      "legal": {
+        "imprint": "Impressum",
+        "terms": "AGB",
+        "privacy": "Datenschutzerklärung",
+        "dataProtection": "Datenschutz",
+        "media": "Medien"
       }
     }
   }

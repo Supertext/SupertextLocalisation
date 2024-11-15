@@ -1386,12 +1386,12 @@
     "or": "or",
     "entriesPerPage": "Entires per page",
     "changeLanguage": "Change language",
-    "navbar":{
+    "navbar": {
       "services": "Services",
       "whySupertext": "Why Supertext?",
       "subscriptionAndPrices": "Subscription & Prices",
-      "forCompanies":"For companies",
-      "discoverSolutions":"Discover the business solution",
+      "forCompanies": "For companies",
+      "discoverSolutions": "Discover the business solution",
       "message": {
         "part1": "Translate with Supertext Company",
         "part2": "better, faster, cheaper",
@@ -1400,7 +1400,7 @@
         "part5": "0% to 100% automated."
       },
       "languageExpertise": "Language expertise",
-      "languageExpertiseNav":{
+      "languageExpertiseNav": {
         "overview": "Overview",
         "aiTranslation": "AI Translation & Verification",
         "spacialTranslation": "Specialist Translation",
@@ -1493,7 +1493,7 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
-        "changeEmail":"Change Email",
+        "changeEmail": "Change Email",
         "emailValidation": "Please enter a valid e-mail address",
         "language": "Language",
         "role": "Role",
@@ -1522,7 +1522,7 @@
         "selectCountry": "Select country",
         "settings": "Settings",
         "change": "Change",
-        "add":"Add",
+        "add": "Add",
         "delete": "Delete",
         "selectOption": "Select option",
         "isAdmin": "Is Admin",
@@ -1531,7 +1531,7 @@
           "admin": "Administrator",
           "user": "User"
         },
-        "costCenter":{
+        "costCenter": {
           "title": "Cost center",
           "changeCostCenter": "Change cost center"
         },
@@ -1566,7 +1566,7 @@
             "standardMethod": "Standard payment method",
             "changePaymentMethod": "Change payment method",
             "emailForDelivery": "‘E-mail for invoice delivery",
-            "methods":{
+            "methods": {
               "title": "Payment method",
               "account": "On invoice",
               "creditCard": "Credit card",
@@ -1582,8 +1582,8 @@
                 "authorizationDeniedInfo": "Permission may be refused for various reasons.",
                 "authorizationContactUs": "Get in touch with us ",
                 "title": "Billing addresses",
-                "selectDefaultBillingAddress":"Select a default billing address",
-                "requestInvoiceAsPaymentMethod":"Request the use of invoicing as a payment method here.",
+                "selectDefaultBillingAddress": "Select a default billing address",
+                "requestInvoiceAsPaymentMethod": "Request the use of invoicing as a payment method here.",
                 "addBillingAddress": "Add billing address",
                 "editBillingAddress": "Edit billing address",
                 "addNewAddress": "Add New Address",
@@ -1596,7 +1596,7 @@
                 "addCard": "Map successfully added",
                 "addCardFailure": "Map could not be added",
                 "endsWith": "ends with",
-                "updateCardDetailsInformation":"Ask you organization admin to update the credit card details",
+                "updateCardDetailsInformation": "Ask you organization admin to update the credit card details",
                 "expirationMessage": "Your card expired on",
                 "deleteCreditCardConfirmation": "Are your sure you want to delete this credit card?",
                 "deleteCreditCardInformation": "This will remove the credit card from your account. You will not be able to use it for future transactions. Members of your team could be affected.",
@@ -1620,23 +1620,23 @@
             "teamMembersOverviewTitle": "Team Members Overview",
             "teamMembersOverviewSubtitle": "Manage your team members here",
             "management": "Management",
-            "actions":{
-              "title":"Actions",
-              "editAll":"Edit All",
+            "actions": {
+              "title": "Actions",
+              "editAll": "Edit All",
               "removeAll": "Remove All"
             },
             "increaseNumberOfLicenses": "Increase number of licenses",
             "selectLicense": "Select license...",
             "selectRole": "Select role...",
-            "roles": { 
+            "roles": {
               "teamAdmin": "TeamAdmin",
               "user": "User"
             }
           }
         }
       },
-      "subscription":{
-        "subscriptionFreeInfo":"Users without a license have access to AI Translation Free.",
+      "subscription": {
+        "subscriptionFreeInfo": "Users without a license have access to AI Translation Free.",
         "comparePlans": "Compare subscriptions",
         "addLicenses": "add additional licenses."
       },
@@ -1665,43 +1665,43 @@
         }
       }
     },
-    "footer":{
-      "contact": "",
-      "newsletter": "",
-      "newsletterDescription": "",
-      "newsletterDisclaimer": "",
-      "yourEmail": "",
-      "freelancerRegistration": "",
-      "servicesTitle": "",
+    "footer": {
+      "contact": "Contact us",
+      "newsletter": "Newsletter",
+      "newsletterDescription": "For anyone interested in language, technology and creativity",
+      "newsletterDisclaimer": "By registering, you agree to our privacy policy and give your consent to receive updates from our company.",
+      "yourEmail": "Your e-mail address",
+      "freelancerRegistration": "Freelancer registration",
+      "servicesTitle": "SERVICES",
       "services": {
-        "translation": "",
-        "expertise": "",
-        "editing": "",
-        "copywriting": "",
-        "consulting": "",
-        "forBusiness": ""
+        "translation": "AI translation &amp; verification",
+        "expertise": "Specialized translation",
+        "editing": "Proofreading",
+        "copywriting": "Copywriting",
+        "consulting": "Consulting",
+        "forBusiness": "For companies"
       },
-      "knowledgeTitle": "",
+      "knowledgeTitle": "KNOWLEDGE",
       "knowledge": {
-        "expertise": "",
-        "whySupertext": "",
-        "technology": "",
-        "references": "",
-        "faq": "",
-        "blog": ""
+        "expertise": "Language expertise",
+        "whySupertext": "Why Supertext",
+        "technology": "Technology",
+        "references": "References",
+        "faq": "FAQ",
+        "blog": "Blog"
       },
-      "companyTitle": "",
+      "companyTitle": "COMPANY",
       "company": {
-        "contact": "",
-        "aboutSupertext": "",
-        "careers": ""
+        "contact": "Contact us",
+        "aboutSupertext": "About Supertext",
+        "careers": "Working at Supertext"
       },
       "legal": {
-        "imprint": "",
-        "terms": "",
-        "privacy": "",
-        "dataProtection": "",
-        "media": ""
+        "imprint": "Imprint",
+        "terms": "GTC",
+        "privacy": "Privacy policy",
+        "dataProtection": "Data protection",
+        "media": "Media"
       }
     }
   }

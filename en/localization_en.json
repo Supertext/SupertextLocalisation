@@ -1383,14 +1383,42 @@
     "welcomeMessage": "Hello,",
     "noEntries": "No entries found.",
     "placeOrder": "Place order",
-    "navbar": {
+    "or": "or",
+    "entriesPerPage": "Entires per page",
+    "changeLanguage": "Change language",
+    "navbar":{
       "services": "Services",
       "whySupertext": "Why Supertext?",
       "subscriptionAndPrices": "Subscription & Prices",
-      "forCompanies": "For companies"
+      "forCompanies":"For companies",
+      "discoverSolutions":"Discover the business solution",
+      "message": {
+        "part1": "Translate with Supertext Company",
+        "part2": "better, faster, cheaper",
+        "part3": "and",
+        "part4": "safer. From",
+        "part5": "0% to 100% automated."
+      },
+      "languageExpertise": "Language expertise",
+      "languageExpertiseNav":{
+        "overview": "Overview",
+        "aiTranslation": "AI Translation & Verification",
+        "spacialTranslation": "Specialist Translation",
+        "copywriting": "Copywriting",
+        "editing": "Editing",
+        "consultation": "Consultation"
+      }
     },
     "filter": {
-      "all": "All"
+      "title": "Filter",
+      "all": "All",
+      "administrator": "Administrator",
+      "licensed": "Licensed",
+      "removeFilter": "Remove filter",
+      "types": {
+        "role": "Role",
+        "license": "License"
+      }
     },
     "search": {
       "placeholder": "Search...",
@@ -1401,7 +1429,7 @@
     },
     "dashboard": {
       "title": "Dashboard",
-      "nestSteps": "NEXT STEPS",
+      "nextSteps": "NEXT STEPS",
       "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
       "addSettings": "Add settings",
       "creditCardDetailsSettings": "Store your credit card details for super-easy flows",
@@ -1465,16 +1493,23 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
+        "changeEmail":"Change Email",
         "emailValidation": "Please enter a valid e-mail address",
         "language": "Language",
         "role": "Role",
+        "roleValidation": "Role must be at least 2 characters long",
+        "license": "License",
+        "licenseValidation": "License must be at least 2 characters long",
         "comment": "Comment",
         "commentValidation": "Comment must be at least 2 characters long",
         "company": "Company",
         "name": "Name",
+        "changeName": "Change name",
         "nameValidation": "Name must be at least 2 characters long",
         "firstName": "First name",
+        "firstNameValidation": "First name must be at least 2 characters long",
         "lastName": "Surname",
+        "lastNameValidation": "Surname must be at least 2 characters long",
         "addressLine1": "Street",
         "addressLine1Validation": "Street must be at least 2 characters long",
         "addressLine2": "Addresses Addition",
@@ -1487,18 +1522,28 @@
         "selectCountry": "Select country",
         "settings": "Settings",
         "change": "Change",
-        "add": "Add",
+        "add":"Add",
         "delete": "Delete",
         "selectOption": "Select option",
         "isAdmin": "Is Admin",
+        "noData": "No data",
+        "roles": {
+          "admin": "Administrator",
+          "user": "User"
+        },
+        "costCenter":{
+          "title": "Cost center",
+          "changeCostCenter": "Change cost center"
+        },
         "sections": {
           "userDetails": {
-            "title": "Account details",
+            "title": "Your account",
             "deleteAccountTitle": "Permanently Delete Account",
             "deleteAccountConfirmation": "Are you sure? You can't undo this action afterwards",
             "deleteAccount": "Delete Account",
-            "accountSettings": "Account settings",
+            "accountSettings": "Account",
             "accountSettingsInfo": "Handle your account settings here",
+            "settings": "Settings",
             "password": {
               "title": "Password",
               "oldPassword": "Old password",
@@ -1515,9 +1560,18 @@
           },
           "payments": {
             "title": "Payment information",
+            "info": "Here you can manage the default billing addresses and credit card details",
             "setDefaultMethod": "Set default payment method",
             "defaultMethodSetSuccess": "Default payment method set",
             "standardMethod": "Standard payment method",
+            "changePaymentMethod": "Change payment method",
+            "emailForDelivery": "‘E-mail for invoice delivery",
+            "methods":{
+              "title": "Payment method",
+              "account": "On invoice",
+              "creditCard": "Credit card",
+              "noPaymentMethod": "No payment method"
+            },
             "settings": {
               "billingAddress": {
                 "deleteBillingAddress": "Delete billing address entry",
@@ -1528,24 +1582,30 @@
                 "authorizationDeniedInfo": "Permission may be refused for various reasons.",
                 "authorizationContactUs": "Get in touch with us ",
                 "title": "Billing addresses",
-                "selectDefaultBillingAddress": "Select a default billing address",
-                "requestInvoiceAsPaymentMethod": "Request the use of invoicing as a payment method here.",
+                "selectDefaultBillingAddress":"Select a default billing address",
+                "requestInvoiceAsPaymentMethod":"Request the use of invoicing as a payment method here.",
                 "addBillingAddress": "Add billing address",
-                "editBillingAddress": "Edit billing address"
+                "editBillingAddress": "Edit billing address",
+                "addNewAddress": "Add New Address",
+                "noAddedAddresses": "No address has been added yet"
               },
               "creditCard": {
                 "title": "Credit card details",
                 "subTitle": "Choose a default payment method",
-                "addCard": "Card successfully deleted",
-                "deleteCard": "Map successfully added",
+                "deleteCard": "Card successfully deleted",
+                "addCard": "Map successfully added",
                 "addCardFailure": "Map could not be added",
                 "endsWith": "ends with",
-                "updateCardDetailsInformation": "Ask you organization admin to update the credit card details"
+                "updateCardDetailsInformation":"Ask you organization admin to update the credit card details",
+                "expirationMessage": "Your card expired on",
+                "deleteCreditCardConfirmation": "Are your sure you want to delete this credit card?",
+                "deleteCreditCardInformation": "This will remove the credit card from your account. You will not be able to use it for future transactions. Members of your team could be affected.",
+                "noAddedCreditCard": "No credit card has been added yet"
               }
             }
           },
-          "companyAdministration": {
-            "title": "Company Administration",
+          "team": {
+            "title": "Team",
             "userManagement": "User Management",
             "addMember": "Add Member",
             "editMember": "Edit Member",
@@ -1558,9 +1618,27 @@
             "increaseSeats": "Increase Seats",
             "increaseSeatsInfo": "Increase the amount of members allowed in the company.",
             "teamMembersOverviewTitle": "Team Members Overview",
-            "teamMembersOverviewSubtitle": "Manage your team members here"
+            "teamMembersOverviewSubtitle": "Manage your team members here",
+            "management": "Management",
+            "actions":{
+              "title":"Actions",
+              "editAll":"Edit All",
+              "removeAll": "Remove All"
+            },
+            "increaseNumberOfLicenses": "Increase number of licenses",
+            "selectLicense": "Select license...",
+            "selectRole": "Select role...",
+            "roles": { 
+              "teamAdmin": "TeamAdmin",
+              "user": "User"
+            }
           }
         }
+      },
+      "subscription":{
+        "subscriptionFreeInfo":"Users without a license have access to AI Translation Free.",
+        "comparePlans": "Compare subscriptions",
+        "addLicenses": "add additional licenses."
       },
       "delivery": {
         "title": "delivery",
@@ -1587,39 +1665,43 @@
         }
       }
     },
-    "footer": {
-      "media": "Media",
-      "imprint": "Imprint",
-      "termsAndConditions": "General Terms and Conditions",
-      "privacyPolicy": "Privacy Policy",
-      "aiGuideline": "AI guideline",
-      "paymentMethods": "ACCEPTED MEANS OF PAYMENT",
-      "country": "Change country",
+    "footer":{
+      "contact": "",
+      "newsletter": "",
+      "newsletterDescription": "",
+      "newsletterDisclaimer": "",
+      "yourEmail": "",
+      "freelancerRegistration": "",
+      "servicesTitle": "",
       "services": {
-        "title": "Services",
-        "translation": "Translations",
-        "proofreading": "Proofreading",
-        "copywriting": "Copywriting",
-        "forCompanies": "For companies”"
+        "translation": "",
+        "expertise": "",
+        "editing": "",
+        "copywriting": "",
+        "consulting": "",
+        "forBusiness": ""
       },
-      "about": {
-        "title": "About us",
-        "team": "Team",
-        "companies": "Company",
-        "security": "Security",
-        "location": "Locations",
-        "jobs": "Jobs"
+      "knowledgeTitle": "",
+      "knowledge": {
+        "expertise": "",
+        "whySupertext": "",
+        "technology": "",
+        "references": "",
+        "faq": "",
+        "blog": ""
       },
-      "otherServices": {
-        "title": "Other",
-        "customerPortal": "Customer portal",
-        "blog": "Blog",
-        "newsletter": "Newsletter",
-        "references": "References"
+      "companyTitle": "",
+      "company": {
+        "contact": "",
+        "aboutSupertext": "",
+        "careers": ""
       },
-      "newsletter": {
-        "title": "Newsletter",
-        "info": "Experience Supertext and exploit potential. Our newsletter brings exciting news and exclusive insights into the development of hybrid AI translation tools paired with human expertise."
+      "legal": {
+        "imprint": "",
+        "terms": "",
+        "privacy": "",
+        "dataProtection": "",
+        "media": ""
       }
     }
   }

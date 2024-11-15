@@ -96,7 +96,7 @@
           "title": "Educational and non-profit organisations",
           "sub_title": "We offer discounted subscriptions for educational and non-profit organisations. Contact us for more information.",
           "button": {
-            "link": "https://www.supertext.com/business/contact",
+            "link": "https:\/\/www.supertext.com\/business\/contact",
             "title": "Get a discount"
           }
         }
@@ -110,9 +110,9 @@
             "description": {
               "description": "{0} for increased limits.",
               "description_link_text": "Register free of charge",
-              "link": "https://supertext.com/login"
+              "link": "https:\/\/supertext.com\/login"
             },
-            "link": "https://www.supertext.com/login",
+            "link": "https:\/\/www.supertext.com\/login",
             "price": {
               "monthly": "Free",
               "yearly": "Free"
@@ -174,7 +174,7 @@
             "description": {
               "description": "See more information and use cases on our {0}",
               "description_link_text": "business website.",
-              "link": "https://www.supertext.com/business"
+              "link": "https:\/\/www.supertext.com\/business"
             },
             "price": {
               "monthly": "from CHF 72.00",
@@ -223,7 +223,7 @@
           },
           "cta": {
             "title": "Explore use cases",
-            "link": "https://supertext.com/business/en/applications"
+            "link": "https:\/\/supertext.com\/business\/en\/applications"
           }
         },
         "misc": {
@@ -314,7 +314,7 @@
               },
               {
                 "content": [
-                  "Custom TLS/SSL certificates",
+                  "Custom TLS\/SSL certificates",
                   "0",
                   "0",
                   "@@optional@@ 1"
@@ -393,7 +393,7 @@
             "rows": [
               {
                 "content": [
-                  "Formal/informal tone",
+                  "Formal\/informal tone",
                   "1",
                   "1",
                   "1"
@@ -444,7 +444,7 @@
                 "header_description": "Increase professional translation productivity by using Supertext from within Trados Studio, MemoQ, and many more CAT tools",
                 "read_more": {
                   "text": "Learn more",
-                  "link": "https://supertext.com/business/en/features#integration"
+                  "link": "https:\/\/supertext.com\/business\/en\/features#integration"
                 },
                 "content": [
                   "CAT tools",
@@ -629,7 +629,7 @@
     },
     "languageMenu": {
       "cta": "Plus 18 more languages in our business solution",
-      "href": "/business/en/features"
+      "href": "\/business\/en\/features"
     },
     "NpsSurveyPopup": {
       "question": "How likely are you to recommend Supertext to your friends?",
@@ -684,35 +684,35 @@
         "links1": [
           {
             "text": "German - English",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-englisch/10001"
+            "link": "https:\/\/supertext.com\/de\/s\/uebersetzen\/deutsch-englisch\/10001"
           },
           {
             "text": "German - French",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-franzoesisch/10002"
+            "link": "https:\/\/supertext.com\/de\/s\/uebersetzen\/deutsch-franzoesisch\/10002"
           },
           {
             "text": "German - Italian",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-italienisch/10004"
+            "link": "https:\/\/supertext.com\/de\/s\/uebersetzen\/deutsch-italienisch\/10004"
           },
           {
             "text": "German - Swiss German",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-schweizerdeutsch/10006"
+            "link": "https:\/\/supertext.com\/de\/s\/uebersetzen\/deutsch-schweizerdeutsch\/10006"
           },
           {
             "text": "German - Romansh",
-            "link": "https://supertext.com/de/s/uebersetzen/raetoromanisch-deutsch/10007"
+            "link": "https:\/\/supertext.com\/de\/s\/uebersetzen\/raetoromanisch-deutsch\/10007"
           },
           {
             "text": "English - German",
-            "link": "https://supertext.com/en/s/translate/english-german/10000"
+            "link": "https:\/\/supertext.com\/en\/s\/translate\/english-german\/10000"
           },
           {
             "text": "French - German",
-            "link": "https://supertext.com/fr/s/traduction/allemand-francais/10003"
+            "link": "https:\/\/supertext.com\/fr\/s\/traduction\/allemand-francais\/10003"
           },
           {
             "text": "Italian - German",
-            "link": "https://supertext.com/it/s/traduzione/italiano-tedesco/10005"
+            "link": "https:\/\/supertext.com\/it\/s\/traduzione\/italiano-tedesco\/10005"
           }
         ]
       },
@@ -720,7 +720,7 @@
         "title": "Translate easier and faster with Supertext – tailor your communication",
         "description": "Supertext speaks your language: discover more benefits of using Supertext with a Basic or Enterprise plan – for ambitious teams and companies.",
         "cta": "Discover all features",
-        "link": "https://supertext.com/business/en/features",
+        "link": "https:\/\/supertext.com\/business\/en\/features",
         "details": [
           {
             "title": "40–60% increase in efficiency",
@@ -758,7 +758,7 @@
         "title": "Diese Unternehmen kommunizieren bereits mehrsprachig – einheitlich und sicher",
         "cta_text": "Unsere massgeschneiderte Business-Lösung für Ihr Unternehmen",
         "cta": "Jetzt entdecken",
-        "cta_link": "https://supertext.com/business/en"
+        "cta_link": "https:\/\/supertext.com\/business\/en"
       },
       "reviews_section": {
         "title": "Our users are fluent in at least five languages",
@@ -852,10 +852,10 @@
       "footer": {
         "title": "These companies are already multilingual – and all consistent with their style",
         "cta": "Our business solution",
-        "cta_link": "https://supertext.com/business/en",
+        "cta_link": "https:\/\/supertext.com\/business\/en",
         "contact": "Contact",
         "newsletter": "Newsletter",
-        "newsletterLink": "https://eepurl.com/ip4zME",
+        "newsletterLink": "https:\/\/eepurl.com\/ip4zME",
         "impressum": "Imprint",
         "disclaimer": "Disclaimer",
         "business_links": {
@@ -869,43 +869,43 @@
           },
           "product": {
             "title": "Product",
-            "link": "/product"
+            "link": "\/product"
           },
           "features": {
             "title": "Features",
-            "link": "/features"
+            "link": "\/features"
           },
           "applications": {
             "title": "Applications",
-            "link": "/applications"
+            "link": "\/applications"
           },
           "about": {
             "title": "About us",
-            "link": "/about"
+            "link": "\/about"
           },
           "services": {
             "title": "Services",
-            "link": "/services"
+            "link": "\/services"
           },
           "upgrade": {
             "title": "Pricing",
-            "link": "/pricing"
+            "link": "\/pricing"
           },
           "blog": {
             "title": "Blog",
-            "link": "/blog"
+            "link": "\/blog"
           },
           "jobs": {
             "title": "Jobs",
-            "link": "/jobs"
+            "link": "\/jobs"
           },
           "media": {
             "title": "Media",
-            "link": "/media"
+            "link": "\/media"
           },
           "contact": {
             "title": "Contact",
-            "link": "/contact"
+            "link": "\/contact"
           }
         },
         "address": {
@@ -940,7 +940,7 @@
     "genderfairFirstRunExperienceToggle": {
       "text": "We now support genderfair language for German and English.",
       "link": "Read our blog post.",
-      "href": "https://supertext.com/business/en/blog/genderfair"
+      "href": "https:\/\/supertext.com\/business\/en\/blog\/genderfair"
     },
     "firstRunExperienceToggle": {
       "text": "Click on a word or select multiple words to get alternatives.",
@@ -998,7 +998,7 @@
       "GENDERFAIR_OFF": "Off",
       "GENDERFAIR_DISCLAIMER": "AI Translation might be biased. Enable to reduce gender bias.",
       "GENDERFAIR_ARTICLE_DISCLAIMER": "Read our blog post.",
-      "GENDERFAIR_ARTICLE_LINK": "https://supertext.com/business/en/blog/genderfair"
+      "GENDERFAIR_ARTICLE_LINK": "https:\/\/supertext.com\/business\/en\/blog\/genderfair"
     }
   },
   "user": "User",
@@ -1028,7 +1028,7 @@
     "clearSourceText": "Clear text",
     "swapLanguages": "Swap languages",
     "targetTextLength": "Number of characters",
-    "sourceTextCharacterLimit": "Number of characters / maximum",
+    "sourceTextCharacterLimit": "Number of characters \/ maximum",
     "verifiedTranslations": "Highlight verified translations",
     "rephraseTranslation": "Rephrase",
     "editGlossary": "Edit glossary",
@@ -1080,7 +1080,7 @@
     "POLITENESS_AUTOMATIC": "Automatic",
     "POLITENESS_FORMAL": "Formal",
     "POLITENESS_INFORMAL": "Informal",
-    "UNSELECTED": "Formal/Informal"
+    "UNSELECTED": "Formal\/Informal"
   },
   "lengthMatchingFeature": {
     "title": "Length Matching"
@@ -1487,31 +1487,31 @@
         "freePlanInfo": "Your subscription will be reassigned to Supereasy free plan",
         "customPlanInfo": "Customise your subscription to suit your needs",
         "upgradeSubscriptionInformation": "Ask your administrator to upgrade your subscription",
-        "annuallySubscription": "",
-        "monthlySubscription": "",
-        "subscriptionFreeInfo": "",
-        "addLicenses": "",
-        "subscribeMow": "",
-        "requestOffer": "",
-        "addToWaitingList": "",
-        "registerForFree": "",
-        "reactivateSubscription": "",
-        "cancelSubscription": "",
-        "expiresOn":  "",
-        "moreInfo": "",
-        "hero":{
-          "title": "",
-          "subtitle": ""
+        "annuallySubscription": "Annually",
+        "monthlySubscription": "Monthly",
+        "subscriptionFreeInfo": "Users without a license have access to AI Translation Free.",
+        "addLicenses": "add further licenses.",
+        "subscribeMow": "Subscribe now",
+        "requestOffer": "Request a quote",
+        "addToWaitingList": "Enter your name on the waiting list",
+        "registerForFree": "Register for free",
+        "reactivateSubscription": "Reactivate",
+        "cancelSubscription": "Cancelled",
+        "expiresOn": "Expires on",
+        "moreInfo": "More info",
+        "hero": {
+          "title": "Find the right Supertext subscription for you",
+          "subtitle": "Translate faster, better and more reliably: Supertext offers the right AI translation package for every need - from a simple online translator to a fully integrated custom solution."
         },
         "message": {
-          "part1": "",
-          "part2": "",
-          "part3": "",
-          "part4": ""
+          "part1": "You have",
+          "part2": "big goals",
+          "part3": "We the",
+          "part4": "suitable solution"
         },
-        "question":"",
-        "contactUs": "",
-        "compareAllFeatures": ""
+        "question": "Over 1500 companies throughout Europe already rely on our customized products and services. What can we do to make you one of them?",
+        "contactUs": "Get in touch with us",
+        "compareAllFeatures": "Compare all features"
       },
       "resources": {
         "title": "Language resources"

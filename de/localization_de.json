@@ -1344,7 +1344,9 @@
   },
   "errors": {
     "unknownError": "Unbekannter Fehler aufgetreten.",
-    "serviceUnavailable": "Dienst nicht verfügbar: {0}"
+    "serviceUnavailable": "Dienst nicht verfügbar: {0}",
+    "title": "Fehler",
+    "noDataAvailable": "Keine Daten verfügbar."
   },
   "notifications": {
     "info": {
@@ -1386,7 +1388,6 @@
     "or": "oder",
     "entriesPerPage": "Einträge pro Seite",
     "changeLanguage": "Sprache wechseln",
-    "close": "Schliessen",
     "navbar": {
       "services": "Services",
       "whySupertext": "Warum Supertext?",
@@ -1497,9 +1498,9 @@
         "registerForFree": "Kostenlos registrieren",
         "reactivateSubscription": "Reaktivieren",
         "cancelSubscription": "Cancelled",
-        "expiresOn":  "Expires on",
+        "expiresOn": "Expires on",
         "moreInfo": "Mehr Info",
-        "hero":{
+        "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
           "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis - vom einfachen Online-Übersetzer bis zur vollintegrierten Custom-Lösung."
         },
@@ -1509,7 +1510,7 @@
           "part3": "Wir die",
           "part4": "passende Lösung"
         },
-        "question":"Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um auch Sie dazu zählen zu dürfen?",
+        "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um auch Sie dazu zählen zu dürfen?",
         "contactUs": "Kontaktieren Sie uns",
         "compareAllFeatures": "Alle Features vergleichen"
       },
@@ -1661,6 +1662,11 @@
           }
         }
       },
+      "subscription": {
+        "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf AI Translation Free.",
+        "comparePlans": "Abos vergleichen",
+        "addLicenses": "weitere Lizenzen hinzufügen."
+      },
       "delivery": {
         "title": "Lieferung",
         "status": {
@@ -1684,7 +1690,8 @@
           "good": "Gut",
           "insufficient": "Ungenügend"
         }
-      }
+      },
+      "nestSteps": "NÄCHSTE SCHRITTE"
     },
     "footer": {
       "contact": "Kontakt",
@@ -1724,6 +1731,68 @@
         "dataProtection": "Datenschutz",
         "media": "Medien"
       }
-    }
+    },
+    "subscription": {
+      "title": "Abo Verwalten",
+      "otherPlans": "Abo Andern"
+    },
+    "orders": {
+      "title": "Aufträge",
+      "allOrders": "Alle Aufträge",
+      "openOrders": "AKTUELLE AUFTÄGE",
+      "noOrders": "Oops, zur Zeit gibt es keine Aufträge.",
+      "orderDate": "Order date",
+      "orderDeadlineDate": "Deadline",
+      "orderDetails": {
+        "title": "AUFTRAGSDETAILS",
+        "sourceLanguage": "Ausgangssprache",
+        "targetLanguage": "Zielsprache",
+        "sourceText": "Ausgangstext",
+        "offerType": "Service",
+        "deliveryDate": "Lieferdatum",
+        "orderName": "Auftragstitel",
+        "orderType": "Fachgebiet",
+        "targetAudience": "Zielpublikum",
+        "orderFiles": "Quellen",
+        "price": "Preis",
+        "scope": "Umfang",
+        "invoiceDate": "Bestellzeit",
+        "invoiceAddress": "Rechnungsadresse"
+      }
+    },
+    "invoices": {
+      "title": "Rechnungen",
+      "openInvoices": "OFFENE RECHNUNGEN",
+      "noOpenInvoices": "Zurzeit keine offenen Rechnungen",
+      "noInvoices": "Keine Rechnungen vorhanden"
+    },
+    "profile": {
+      "title": "Profil",
+      "projectManager": "PROJEKTLEITUNG",
+      "settings": "Einstellungen",
+      "accountInformation": "Kontodetails",
+      "paymentInformation": "Zahlungsinformationen"
+    },
+    "resources": {
+      "title": "Sprachressourcen"
+    },
+    "delivery": {
+      "title": "Lieferung",
+      "status": {
+        "pending": "Ihre Verifikation ist in Bearbeitung. Fertigstellung bis"
+      },
+      "openInTranslationInterface": "Offnen in Translation Interface"
+    },
+    "feedback": {
+      "title": "Feedback",
+      "satisfactionQuestion": " Wie zufrieden sind Sie mit den Texten?",
+      "message": "Nachricht",
+      "submit": "Feedback Absenden",
+      "revisionQuestion": " Wünschen Sie eine kostenlose Überarbeitung?",
+      "revisionOption": "Bitte den Text gemäss Feedback überabeiten",
+      "revisionRequest": "Überarbeiten anfordern",
+      "uploadFile": "Überarbeiten anfordern"
+    },
+    "close": "Schliessen"
   }
 }

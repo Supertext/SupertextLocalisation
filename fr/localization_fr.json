@@ -1386,7 +1386,7 @@
     "or": "ou",
     "entriesPerPage": "Entrées par page",
     "changeLanguage": "Changer de langue",
-    "close": "",
+    "close": "Fermer",
     "navbar": {
       "services": "Services",
       "whySupertext": "Pourquoi Supertext?",
@@ -1487,31 +1487,31 @@
         "freePlanInfo": "Votre abonnement passera au tarif gratuit Supereasy.",
         "customPlanInfo": "Adaptez votre abonnement à vos besoins",
         "upgradeSubscriptionInformation": "Demandez à votre administrateur de mettre à niveau votre abonnement",
-        "annuallySubscription": "",
-        "monthlySubscription": "",
-        "subscriptionFreeInfo": "",
-        "addLicenses": "",
-        "subscribeMow": "",
-        "requestOffer": "",
-        "addToWaitingList": "",
-        "registerForFree": "",
-        "reactivateSubscription": "",
-        "cancelSubscription": "",
-        "expiresOn":  "",
-        "moreInfo": "",
-        "hero":{
-          "title": "",
-          "subtitle": ""
+        "annuallySubscription": "Annuellement",
+        "monthlySubscription": "Mensuel",
+        "subscriptionFreeInfo": "Les utilisateurs sans licence ont accès à AI Translation Free.",
+        "addLicenses": "ajouter des licences supplémentaires.",
+        "subscribeMow": "S'abonner maintenant",
+        "requestOffer": "Demander une offre",
+        "addToWaitingList": "S'inscrire sur la liste d'attente",
+        "registerForFree": "S'inscrire gratuitement",
+        "reactivateSubscription": "Réactiver",
+        "cancelSubscription": "Cancelled",
+        "expiresOn": "Expire le",
+        "moreInfo": "En savoir plus",
+        "hero": {
+          "title": "Trouvez l'abonnement Supertext qui vous convient",
+          "subtitle": "Traduire plus vite, mieux et de manière plus sûre : Supertext propose le pack AI-Translation adapté à chaque besoin - du simple traducteur en ligne à la solution personnalisée entièrement intégrée."
         },
         "message": {
-          "part1": "",
-          "part2": "",
-          "part3": "",
-          "part4": ""
+          "part1": "Vous avez",
+          "part2": "grands objectifs",
+          "part3": "Nous avons",
+          "part4": "solution adaptée"
         },
-        "question":"",
-        "contactUs": "",
-        "compareAllFeatures": ""
+        "question": "Plus de 1500 entreprises dans toute l'Europe font déjà confiance à nos produits et services sur mesure. Que pouvons-nous faire pour vous compter parmi elles ?",
+        "contactUs": "Contactez-nous",
+        "compareAllFeatures": "Comparer toutes les caractéristiques"
       },
       "resources": {
         "title": "Ressources linguistiques"

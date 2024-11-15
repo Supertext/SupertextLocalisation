@@ -20,7 +20,7 @@
               "label": "* E-Mail"
             },
             "checkbox": {
-              "label": "Ja, Textshuttle darf mich kontaktieren, sobald das Basic-Abonnement verfügbar ist"
+              "label": "Ja, Supertext darf mich kontaktieren, sobald das Basic-Abonnement verfügbar ist"
             }
           },
           "completion_message": {
@@ -67,11 +67,11 @@
               "label": "Telefonnummer"
             },
             "special_requirements": {
-              "placeholder": "Ihre Nachricht an Textshuttle",
+              "placeholder": "Ihre Nachricht an Supertext",
               "label": "Besondere Anfrage"
             },
             "checkbox": {
-              "label": "Ja, meine eingegebenen Daten dürfen an Textshuttle weitergegeben werden, damit ein:e Vertreter:in des Unternehmens mit mir Kontakt aufnehmen kann"
+              "label": "Ja, meine eingegebenen Daten dürfen an Supertext weitergegeben werden, damit ein:e Vertreter:in des Unternehmens mit mir Kontakt aufnehmen kann"
             }
           },
           "completion_message": {
@@ -96,7 +96,7 @@
           "title": "Bildungs- und Non-Profit-Organisationen",
           "sub_title": "Bildungseinrichtungen und gemeinnützige Organisationen profitieren von ermässigten Abonnements. Kontaktieren Sie uns für weitere Informationen.",
           "button": {
-            "link": "https://www.textshuttle.com/business/contact",
+            "link": "https://www.supertext.com/business/contact",
             "title": "Ermässigungen erhalten"
           }
         }
@@ -110,9 +110,9 @@
             "description": {
               "description": "{0} für höhere Limiten.",
               "description_link_text": "Kostenlos registrieren",
-              "link": "https://textshuttle.com/login"
+              "link": "https://supertext.com/login"
             },
-            "link": "https://www.textshuttle.com/login",
+            "link": "https://www.supertext.com/login",
             "price": {
               "monthly": "Kostenlos",
               "yearly": "Kostenlos"
@@ -174,7 +174,7 @@
             "description": {
               "description": "Weitere Informationen und Anwendungsbeispiele finden Sie auf unserer {0}",
               "description_link_text": "Business-Website.",
-              "link": "https://www.textshuttle.com/business"
+              "link": "https://www.supertext.com/business"
             },
             "price": {
               "monthly": "ab CHF 72.00",
@@ -218,12 +218,12 @@
       "features_table": {
         "footer": {
           "text": {
-            "title": "Warum arbeiten Swiss Life und Die Mobiliar mit Textshuttle zusammen?",
+            "title": "Warum arbeiten Swiss Life und Die Mobiliar mit Supertext zusammen?",
             "sub_title": ""
           },
           "cta": {
             "title": "Anwendungsfälle entdecken",
-            "link": "https://textshuttle.com/business/de/applications"
+            "link": "https://supertext.com/business/de/applications"
           }
         },
         "misc": {
@@ -418,7 +418,7 @@
                 ]
               },
               {
-                "header_description": "Design und Bedienungsgefühl von Textshuttle lassen sich einfach an Ihr Corporate Branding anpassen",
+                "header_description": "Design und Bedienungsgefühl von Supertext lassen sich einfach an Ihr Corporate Branding anpassen",
                 "content": [
                   "Kundenspezifisches Branding",
                   "0",
@@ -441,10 +441,10 @@
             "title": "Integrationen",
             "rows": [
               {
-                "header_description": "Wenn Sie Textshuttle in Trados Studio, MemoQ und vielen weiteren CAT-Tools verwenden, steigern Sie die professionelle Übersetzungsproduktivität",
+                "header_description": "Wenn Sie Supertext in Trados Studio, MemoQ und vielen weiteren CAT-Tools verwenden, steigern Sie die professionelle Übersetzungsproduktivität",
                 "read_more": {
                   "text": "Mehr erfahren",
-                  "link": "https://textshuttle.com/business/de/features#integration"
+                  "link": "https://supertext.com/business/de/features#integration"
                 },
                 "content": [
                   "CAT-Tools",
@@ -454,7 +454,7 @@
                 ]
               },
               {
-                "header_description": "Verwenden Sie Textshuttle direkt in Microsoft Word, PowerPoint und Outlook",
+                "header_description": "Verwenden Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook",
                 "content": [
                   "Microsoft Office-Add-Ins",
                   "0",
@@ -465,7 +465,7 @@
               {
                 "header_description": "Integrieren Sie KI-Übersetzungen in Ihre eigenen Anwendungen und Arbeitsabläufe",
                 "content": [
-                  "Textshuttle API",
+                  "Supertext API",
                   "0",
                   "0",
                   "@@optional@@ 1"
@@ -524,12 +524,13 @@
     },
     "signup": "Registrieren",
     "login": "Anmelden",
+    "searchLanguage": "Sprache suchen",
     "feedback": {
       "title": "Feedback",
       "description": "Vielen Dank für Ihre Rückmeldung. Sie können dieses Formular beliebig oft ausfüllen. Falls Sie keine spezifische Rückmeldungen haben, geben Sie uns einfach eine Bewertung und lassen den Rest leer.",
       "inputs": {
         "nps": {
-          "title": "* Wie wahrscheinlich ist es, dass Sie Textshuttle Ihren Bekannten weiterempfehlen?",
+          "title": "* Wie wahrscheinlich ist es, dass Sie Supertext Ihren Bekannten weiterempfehlen?",
           "negative": "Sehr unwahrscheinlich",
           "positive": "Sehr wahrscheinlich",
           "error_message": "Eine Bewertung ist erforderlich, um das Formular einzureichen"
@@ -631,7 +632,7 @@
       "href": "/business/de/features"
     },
     "NpsSurveyPopup": {
-      "question": "Wie wahrscheinlich ist es, dass Sie Textshuttle Ihren Bekannten weiterempfehlen?",
+      "question": "Wie wahrscheinlich ist es, dass Sie Supertext Ihren Bekannten weiterempfehlen?",
       "leastLikely": "Sehr unwahrscheinlich",
       "mostLikely": "Sehr wahrscheinlich",
       "detailedFeedBackLink": "Möchten Sie detaillierteres Feedback geben?",
@@ -642,14 +643,14 @@
       }
     },
     "landingPage": {
-      "teaser": "Warum Textshuttle?",
+      "teaser": "Warum Supertext?",
       "hero": {
-        "title": "Kommunikation ohne Sprachbarrieren mit Textshuttle – mehr als ein einfacher Übersetzer ",
-        "description_line1": "Kommunizieren Sie schneller, besser, einfacher. Mit Textshuttle übersetzen Sie Inhalte im Handumdrehen. Werden Sie fliessend in allen Landessprachen – era rumantsch! {br} {br} Dank der neusten Generation von künstlicher Intelligenz (KI) meistern Sie die Übersetzung von verschiedenen Dateiformaten in unterschiedlichen Sprachen künftig mit einem Klick. Unsere Translation AI lernt dabei laufend dazu. Und Sie dürfen auf die stetige Weiterentwicklung mit neuen hilfreichen Features zählen. {br} {br} Egal ob für Privatpersonen, kleine Unternehmen oder grosse Organisationen – Textshuttle bietet Ihre innovative Übersetzungslösung, betrieben auf Schweizer Servern nach höchsten Sicherheitsstandards. "
+        "title": "Kommunikation ohne Sprachbarrieren mit Supertext – mehr als ein einfacher Übersetzer ",
+        "description_line1": "Kommunizieren Sie schneller, besser, einfacher. Mit Supertext übersetzen Sie Inhalte im Handumdrehen. Werden Sie fliessend in allen Landessprachen – era rumantsch! {br} {br} Dank der neusten Generation von künstlicher Intelligenz (KI) meistern Sie die Übersetzung von verschiedenen Dateiformaten in unterschiedlichen Sprachen künftig mit einem Klick. Unsere Translation AI lernt dabei laufend dazu. Und Sie dürfen auf die stetige Weiterentwicklung mit neuen hilfreichen Features zählen. {br} {br} Egal ob für Privatpersonen, kleine Unternehmen oder grosse Organisationen – Supertext bietet Ihre innovative Übersetzungslösung, betrieben auf Schweizer Servern nach höchsten Sicherheitsstandards. "
       },
       "register_section": {
-        "title": "Profitieren Sie noch mehr von der Textshuttle Übersetzungssoftware ",
-        "description": "Nutzen Sie kostenlos mehr Übersetzungsleistung: Registrieren Sie sich dazu gratis für unseren Free Plan. Dadurch helfen Sie aktiv mit, den Textshuttle-Übersetzer noch besser zu machen. ",
+        "title": "Profitieren Sie noch mehr von der Supertext Übersetzungssoftware ",
+        "description": "Nutzen Sie kostenlos mehr Übersetzungsleistung: Registrieren Sie sich dazu gratis für unseren Free Plan. Dadurch helfen Sie aktiv mit, den Supertext-Übersetzer noch besser zu machen. ",
         "cta": "Kostenlos registrieren",
         "details": {
           "detail1": {
@@ -683,43 +684,43 @@
         "links1": [
           {
             "text": "Deutsch - Englisch",
-            "link": "https://textshuttle.com/de/s/uebersetzen/deutsch-englisch/10001"
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-englisch/10001"
           },
           {
             "text": "Deutsch - Französisch",
-            "link": "https://textshuttle.com/de/s/uebersetzen/deutsch-franzoesisch/10002"
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-franzoesisch/10002"
           },
           {
             "text": "Deutsch - Italienisch",
-            "link": "https://textshuttle.com/de/s/uebersetzen/deutsch-italienisch/10004"
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-italienisch/10004"
           },
           {
             "text": "Deutsch - Schweizerdeutsch",
-            "link": "https://textshuttle.com/de/s/uebersetzen/deutsch-schweizerdeutsch/10006"
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-schweizerdeutsch/10006"
           },
           {
             "text": "Deutsch - Rätoromanisch",
-            "link": "https://textshuttle.com/de/s/uebersetzen/raetoromanisch-deutsch/10007"
+            "link": "https://supertext.com/de/s/uebersetzen/raetoromanisch-deutsch/10007"
           },
           {
             "text": "Englisch - Deutsch",
-            "link": "https://textshuttle.com/en/s/translate/english-german/10000"
+            "link": "https://supertext.com/en/s/translate/english-german/10000"
           },
           {
             "text": "Französisch - Deutsch",
-            "link": "https://textshuttle.com/fr/s/traduction/allemand-francais/10003"
+            "link": "https://supertext.com/fr/s/traduction/allemand-francais/10003"
           },
           {
             "text": "Italienisch - Deutsch",
-            "link": "https://textshuttle.com/it/s/traduzione/italiano-tedesco/10005"
+            "link": "https://supertext.com/it/s/traduzione/italiano-tedesco/10005"
           }
         ]
       },
       "features_section": {
-        "title": "Dank Textshuttle leichter und schneller übersetzen: für massgeschneiderte Kommunikation",
-        "description": "Textshuttle spricht Ihre Sprache: Entdecken Sie weitere Vorteile mit einem Basic oder Enterprise Plan – für anspruchsvolle Teams und Unternehmen. ",
+        "title": "Dank Supertext leichter und schneller übersetzen: für massgeschneiderte Kommunikation",
+        "description": "Supertext spricht Ihre Sprache: Entdecken Sie weitere Vorteile mit einem Basic oder Enterprise Plan – für anspruchsvolle Teams und Unternehmen. ",
         "cta": "Alle Features entdecken",
-        "link": "https://textshuttle.com/business/de/funktionen",
+        "link": "https://supertext.com/business/de/funktionen",
         "details": [
           {
             "title": "40-60 % Effizienzgewinn",
@@ -742,13 +743,13 @@
           {
             "title": "Nahtlose Integration ",
             "descriptions": [
-              "In Ihren internen Systemen (z. B. Microsoft Office, CAT-Tool) direkt oder über die Textshuttle API anwendbar"
+              "In Ihren internen Systemen (z. B. Microsoft Office, CAT-Tool) direkt oder über die Supertext API anwendbar"
             ]
           },
           {
             "title": "Maximale Kontrolle",
             "descriptions": [
-              "Hosting-Option Ihrer Wahl und einfache Verwaltung über Ihr Textshuttle Cockpit"
+              "Hosting-Option Ihrer Wahl und einfache Verwaltung über Ihr Supertext Cockpit"
             ]
           }
         ]
@@ -757,7 +758,7 @@
         "title": "Diese Unternehmen kommunizieren bereits mehrsprachig – einheitlich und sicher",
         "cta_text": "Unsere massgeschneiderte Business-Lösung für Ihr Unternehmen",
         "cta": "Jetzt entdecken",
-        "cta_link": "https://textshuttle.com/business/de"
+        "cta_link": "https://supertext.com/business/de"
       },
       "reviews_section": {
         "title": "Unsere Nutzer:innen sind in mindestens fünf Sprachen fliessend ",
@@ -851,7 +852,7 @@
       "footer": {
         "title": "Diese Unternehmen kommunizieren bereits mehrsprachig – einheitlich und stilsicher ",
         "cta": "Zur Business-Lösung",
-        "cta_link": "https://textshuttle.com/business/de",
+        "cta_link": "https://supertext.com/business/de",
         "contact": "Kontakt",
         "newsletter": "Newsletter",
         "newsletterLink": "https://eepurl.com/iqlJLc",
@@ -908,7 +909,7 @@
           }
         },
         "address": {
-          "title": "Textshuttle",
+          "title": "Supertext",
           "street": "Schaffhauserstrasse 339",
           "city": "8050 Zürich"
         }
@@ -939,7 +940,7 @@
     "genderfairFirstRunExperienceToggle": {
       "text": "Wir unterstützen jetzt gendergerechte Sprache für Deutsch und Englisch.",
       "link": "Hier unser Blogbeitrag.",
-      "href": "https://textshuttle.com/business/de/blog/genderfair"
+      "href": "https://supertext.com/business/de/blog/genderfair"
     },
     "firstRunExperienceToggle": {
       "text": "Klicken Sie auf ein Wort oder wählen Sie mehrere Wörter aus, um Alternativen zu erhalten.",
@@ -985,7 +986,7 @@
       }
     },
     "navbar": {
-      "why": "Warum Textshuttle?",
+      "why": "Warum Supertext?",
       "enterprise": "Für Unternehmen",
       "upgrade": "Preise"
     },
@@ -997,7 +998,7 @@
       "GENDERFAIR_OFF": "Aus",
       "GENDERFAIR_DISCLAIMER": "KI-Übersetzungen können biased sein. Aktivieren Sie diese Funktion, um genderfairer zu übersetzen.",
       "GENDERFAIR_ARTICLE_DISCLAIMER": "Weiteres dazu in unserem Blogbeitrag.",
-      "GENDERFAIR_ARTICLE_LINK": "https://textshuttle.com/business/de/blog/genderfair-uebersetzen"
+      "GENDERFAIR_ARTICLE_LINK": "https://supertext.com/business/de/blog/genderfair-uebersetzen"
     }
   },
   "user": "Nutzer:in",
@@ -1342,10 +1343,8 @@
     "insertApiKey": "Geben Sie hier Ihren API-Schlüssel ein"
   },
   "errors": {
-    "title": "Fehler",
     "unknownError": "Unbekannter Fehler aufgetreten.",
-    "serviceUnavailable": "Dienst nicht verfügbar: {0}",
-    "noDataAvailable": "Keine Daten verfügbar."
+    "serviceUnavailable": "Dienst nicht verfügbar: {0}"
   },
   "notifications": {
     "info": {
@@ -1380,72 +1379,351 @@
     "offline": "Sie sind derzeit offline.",
     "online": "Ihre Internetverbindung wurde wiederhergestellt."
   },
-  "starstruck":{
-    "dashboard": {
-      "title": "Dashboard",
-      "nestSteps": "NÄCHSTE SCHRITTE",
-      "nextStepsInformation": "Sie sind auf dem neuesten Stand, es gibt derzeit keine weiteren Schritte zu erledigen."
-    },
-    "subscription": {
-      "title": "Abo Verwalten",
-      "otherPlans": "Abo Andern"
-    },
-    "orders": {
-      "title": "Aufträge",
-      "allOrders": "Alle Aufträge",
-      "openOrders": "AKTUELLE AUFTÄGE",
-      "noOrders": "Oops, zur Zeit gibt es keine Aufträge.",
-      "orderDate": "Order date",
-      "orderDeadlineDate": "Deadline",
-      "orderDetails":{
-        "title": "AUFTRAGSDETAILS",
-        "sourceLanguage": "Ausgangssprache",
-        "targetLanguage": "Zielsprache",
-        "sourceText": "Ausgangstext",
-        "offerType": "Service",
-        "deliveryDate": "Lieferdatum",
-        "orderName": "Auftragstitel",
-        "orderType": "Fachgebiet",
-        "targetAudience": "Zielpublikum",
-        "orderFiles": "Quellen",
-        "price": "Preis",
-        "scope": "Umfang",
-        "invoiceDate": "Bestellzeit",
-        "invoiceAddress": "Rechnungsadresse"
+  "starstruck": {
+    "welcomeMessage": "Grüezi,",
+    "noEntries": "Keine Einträge gefunden.",
+    "placeOrder": "Auftrag platzieren",
+    "or": "oder",
+    "entriesPerPage": "Einträge pro Seite",
+    "changeLanguage": "Sprache wechseln",
+    "close": "Schliessen",
+    "navbar": {
+      "services": "Services",
+      "whySupertext": "Warum Supertext?",
+      "subscriptionAndPrices": "Abo & Preise",
+      "forCompanies": "Für Unternehmen",
+      "discoverSolutions": "Business-Lösung entdecken",
+      "message": {
+        "part1": "Mit Supertext übersetzen Unternehmen",
+        "part2": "besser, schneller, günstiger",
+        "part3": "und",
+        "part4": "sicherer. Von",
+        "part5": "0% bis 100% automatisiert."
+      },
+      "languageExpertise": "Sprachexpertise",
+      "languageExpertiseNav": {
+        "overview": "Übersicht",
+        "aiTranslation": "AI-Translation & Verifizierung'",
+        "spacialTranslation": "Fachübersetzung",
+        "copywriting": "Copywriting",
+        "editing": "Lektorat",
+        "consultation": "Beratung"
       }
     },
-    "invoices": {
-      "title": "Rechnungen",
-      "openInvoices": "OFFENE RECHNUNGEN",
-      "noOpenInvoices": "Zurzeit keine offenen Rechnungen",
-      "noInvoices": "Keine Rechnungen vorhanden"
+    "filter": {
+      "title": "Filter",
+      "all": "Alle",
+      "administrator": "Administrator",
+      "licensed": "Licensed",
+      "removeFilter": "Filter entfernen",
+      "types": {
+        "role": "Rolle",
+        "license": "Lizenz"
+      }
     },
-    "profile": {
-      "title": "Profil",
-      "projectManager": "PROJEKTLEITUNG",
-      "settings": "Einstellungen",
-      "accountInformation": "Kontodetails",
-      "paymentInformation": "Zahlungsinformationen"
+    "search": {
+      "placeholder": "Suchen …",
+      "userOrders": "Ihre Aufträge",
+      "allOrders": "Alle Aufträge",
+      "userInvoices": "Ihre Rechnungen",
+      "allInvoices": "Alle Rechnungen"
     },
-    "resources":{
-      "title": "Sprachressourcen"
-    },
-    "delivery":{
-      "title": "Lieferung",
-      "status":{
-        "pending": "Ihre Verifikation ist in Bearbeitung. Fertigstellung bis"
+    "dashboard": {
+      "title": "Dashboard",
+      "nextSteps": "NÄCHSTE SCHRITTE",
+      "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
+      "addSettings": "Angaben ergänzen",
+      "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
+      "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
+      "orders": {
+        "title": "Aufträge",
+        "viewAllOrders": "Alle Aufträge ansehen",
+        "openOrders": "AKTUELLE AUFTRÄGE",
+        "noOrders": "Oops, zurzeit gibt es keine Aufträge.",
+        "orderDate": "Bestelldatum",
+        "orderDeadlineDate": "Deadline",
+        "orderDetails": {
+          "title": "AUFTRAGSDETAILS",
+          "order": "Bestellung",
+          "sourceLanguage": "Ausgangssprache",
+          "targetLanguage": "Zielsprache",
+          "sourceFile": "Ausgangstext",
+          "offerType": "Service",
+          "orderDeadline": "Lieferdatum",
+          "orderName": "Auftragstitel",
+          "industry": "Fachgebiet",
+          "targetAudience": "Zielpublikum",
+          "orderFiles": "Quellen",
+          "price": "Preis",
+          "scope": "Umfang",
+          "invoiceDate": "Bestellzeit",
+          "invoiceAddress": "Rechnungsadresse",
+          "contactPersonTitle": "PROJEKTLEITUNG"
+        }
+      },
+      "invoices": {
+        "title": "Rechnungen",
+        "openInvoices": "OFFENE RECHNUNGEN",
+        "viewAllInvoices": "Alle Rechnungen ansehen",
+        "noOpenInvoices": "Zurzeit keine offenen Rechnungen",
+        "noInvoices": "Keine Rechnungen vorhanden",
+        "invoiceDetail": {
+          "amount": "Betrag",
+          "invoiceDate": "Abgerechnet am",
+          "downloadInvoice": "Herunterladen"
+        }
+      },
+      "subscriptions": {
+        "title": "Abo verwalten",
+        "contactSupertext": "Supertext kontaktieren",
+        "otherPlans": "Abo ändern",
+        "current": "Aktuelles Abo",
+        "upgrade": "Upgraden",
+        "downgrade": "Downgraden",
+        "recommended": "Empfohlen",
+        "comparePlans": "Abos vergleichen",
+        "showMore": "Mehr anzeigen",
+        "cancellationInfo": "Sie haben Ihr Abo gekündigt und es endet am",
+        "freePlanInfo": "Ihr Abo wird auf den kostenlosen Supereasy-Tarif umgestellt.",
+        "customPlanInfo": "Passen Sie Ihr Abo Ihren Bedürfnissen an",
+        "upgradeSubscriptionInformation": "Bitten Sie Ihren Administrator, Ihr Abonnement zu aktualisieren",
+        "annuallySubscription": "Jährlich",
+        "monthlySubscription": "Monatlich",
+        "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf AI Translation Free.",
+        "addLicenses": "weitere Lizenzen hinzufügen.",
+        "subscribeMow": "Jetzt abonnieren",
+        "requestOffer": "Angebot anfordern",
+        "addToWaitingList": "In die Warteliste eintragen",
+        "registerForFree": "Kostenlos registrieren",
+        "reactivateSubscription": "Reaktivieren",
+        "cancelSubscription": "Cancelled",
+        "expiresOn":  "Expires on",
+        "moreInfo": "Mehr Info",
+        "hero":{
+          "title": "Finden Sie Ihr passendes Supertext-Abo",
+          "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis - vom einfachen Online-Übersetzer bis zur vollintegrierten Custom-Lösung."
         },
-      "openInTranslationInterface":"Offnen in Translation Interface"
+        "message": {
+          "part1": "Sie haben",
+          "part2": "grosse Ziele",
+          "part3": "Wir die",
+          "part4": "passende Lösung"
+        },
+        "question":"Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um auch Sie dazu zählen zu dürfen?",
+        "contactUs": "Kontaktieren Sie uns",
+        "compareAllFeatures": "Alle Features vergleichen"
+      },
+      "resources": {
+        "title": "Sprachressourcen"
+      },
+      "profile": {
+        "title": "Profil",
+        "email": "E-Mail",
+        "changeEmail": "E-Mail-Adresse ändern",
+        "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+        "language": "Sprache",
+        "role": "Rolle",
+        "roleValidation": "Rolle muss mindestens 2 Zeichen lang sein",
+        "license": "Lizenz",
+        "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
+        "comment": "Kommentar",
+        "commentValidation": "Kommentar muss mindestens 2 Zeichen lang sein",
+        "company": "Unternehmen",
+        "name": "Name",
+        "changeName": "Name ändern",
+        "nameValidation": "Name muss mindestens 2 Zeichen lang sein",
+        "firstName": "Vorname",
+        "firstNameValidation": "Vorname muss mindestens 2 Zeichen lang sein",
+        "lastName": "Nachname",
+        "lastNameValidation": "Nachname muss mindestens 2 Zeichen lang sein",
+        "addressLine1": "Strasse",
+        "addressLine1Validation": "Strasse muss mindestens 2 Zeichen lang sein",
+        "addressLine2": "Adresszusatz",
+        "city": "Stadt",
+        "cityValidation": "Stadt ist erforderlich",
+        "postalCode": "Postleitzahl",
+        "postalCodeValidation": "Postleitzahl ist erforderlich",
+        "country": "Land",
+        "countryValidation": "Bitte wählen Sie ein Land aus",
+        "selectCountry": "Land auswählen",
+        "settings": "Einstellungen",
+        "change": "Ändern",
+        "add": "Hinzufügen",
+        "delete": "Löschen",
+        "selectOption": "Option auswählen",
+        "isAdmin": "Zum Admin machen",
+        "noData": "Keine Angaben",
+        "roles": {
+          "admin": "Administrator",
+          "user": "User"
+        },
+        "costCenter": {
+          "title": "Kostenstelle",
+          "changeCostCenter": "Kostenstelle ändern"
+        },
+        "sections": {
+          "userDetails": {
+            "title": "Ihr Konto",
+            "deleteAccountTitle": "Konto dauerhaft löschen",
+            "deleteAccountConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
+            "deleteAccount": "Konto löschen",
+            "accountSettings": "Konto",
+            "accountSettingsInfo": "Hier können Sie Ihre Kontoeinstellungen vornehmen",
+            "settings": "Einstellungen",
+            "password": {
+              "title": "Passwort",
+              "oldPassword": "Altes Passwort",
+              "newPassword": "Neues Passwort",
+              "confirmNewPassword": "Neues Passwort bestätigen",
+              "changePassword": "Passwort ändern",
+              "passwordDoNotMatch": "Passwörter stimmen nicht überein",
+              "passwordMustContainAtLeastOneSpecialCharacter": "Das Passwort muss mindestens ein Sonderzeichen enthalten",
+              "passwordMustContainAtLeastOneNumber": "Das Passwort muss mindestens eine Zahl enthalten",
+              "passwordMustContainAtLeastOneUppercaseLetter": "Das Passwort muss mindestens einen Grossbuchstaben enthalten",
+              "passwordMustContainAtLeastOneLowercaseLetter": "Das Passwort muss mindestens einen Kleinbuchstaben enthalten.",
+              "passwordMustBeAtLeast8Characters": "Das Passwort muss mindestens 8 Zeichen lang sein."
+            }
+          },
+          "payments": {
+            "title": "Zahlungsinformationen",
+            "info": "Hier können Sie die Standard-Rechnungsadressen und Kreditkartendaten verwalten",
+            "setDefaultMethod": "Standard-Zahlungsmethode festlegen",
+            "defaultMethodSetSuccess": "Standard-Zahlungsmethode festgelegt",
+            "standardMethod": "Standard-Zahlungsmethode",
+            "changePaymentMethod": "Zahlungsmethode ändern",
+            "emailForDelivery": "E-mail für Rechnungszustellung",
+            "methods": {
+              "title": "Zahlungsmethode",
+              "account": "Auf Rechnung",
+              "creditCard": "Kreditkarte",
+              "noPaymentMethod": "Keine Voreinstellung"
+            },
+            "settings": {
+              "billingAddress": {
+                "deleteBillingAddress": "Eintrag Rechnungsadresse löschen",
+                "deleteBillingAddressConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
+                "authorizationApply": "Berechtigung beantragen",
+                "authorizationPending": "Berechtigung steht noch aus",
+                "authorizationDenied": "Berechtigung verweigert",
+                "authorizationDeniedInfo": "Die Erlaubnis kann aus verschiedenen Gründen verweigert werden.",
+                "authorizationContactUs": "Nehmen Sie Kontakt mit uns auf",
+                "title": "Rechnungsadressen",
+                "selectDefaultBillingAddress": "Wählen Sie eine Standard-Rechnungsadresse",
+                "requestInvoiceAsPaymentMethod": "Beantragen Sie hier die Nutzung der Rechnungsstellung als Zahlungsmethode.",
+                "addBillingAddress": "Rechnungsadresse Hinzufügen",
+                "editBillingAddress": "Rechnungsadresse Bearbeiten",
+                "addNewAddress": "Neue Adresse hinzufügen",
+                "noAddedAddresses": "Es wurde noch keine Adresse hinzugefügt"
+              },
+              "creditCard": {
+                "title": "Kreditkartendetails",
+                "subTitle": "Wählen Sie eine Standardzahlungsmethode",
+                "deleteCard": "Karte erfolgreich gelöscht",
+                "addCard": "Karte erfolgreich hinzugefügt",
+                "addCardFailure": "Karte konnte nicht hinzugefügt werden",
+                "endsWith": "endet mit",
+                "updateCardDetailsInformation": "Ask you organization admin to update the credit card details",
+                "expirationMessage": "Your card expired on",
+                "deleteCreditCardConfirmation": "Are your sure you want to delete this credit card?",
+                "deleteCreditCardInformation": "This will remove the credit card from your account. You will not be able to use it for future transactions. Members of your team could be affected.",
+                "noAddedCreditCard": "Es wurde noch keine Karte hinzugefügt"
+              }
+            }
+          },
+          "team": {
+            "title": "Team",
+            "userManagement": "User-Verwaltung",
+            "addMember": "Mitglied hinzufügen",
+            "editMember": "Mitglied bearbeiten",
+            "removeMember": "Entfernen",
+            "deleteMember": "Mitglied entfernen",
+            "deleteMemberConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
+            "availableSeats": "Verfügbare Plätze",
+            "filledSeats": "Besetzte Plätze",
+            "usersGained": "Gewonnene User",
+            "increaseSeats": "Plätze erhöhen",
+            "increaseSeatsInfo": "Erhöhen Sie die Anzahl der im Unternehmen zugelassenen Mitglieder",
+            "teamMembersOverviewTitle": "Teammitglieder Übersicht",
+            "teamMembersOverviewSubtitle": "Hier können Sie Ihre Teammitglieder verwalten",
+            "management": "Management",
+            "actions": {
+              "title": "Aktion",
+              "editAll": "Alle Bearbeiten",
+              "removeAll": "Alle Entfernen"
+            },
+            "increaseNumberOfLicenses": "Anzahl Lizenzen erhöhen",
+            "selectLicense": "Lizenz auswählen...",
+            "selectRole": "Rolle auswählen...",
+            "roles": {
+              "teamAdmin": "Administrator",
+              "user": "User"
+            }
+          }
+        }
+      },
+      "delivery": {
+        "title": "Lieferung",
+        "status": {
+          "pending": "Ihr Auftrag ist in Bearbeitung. Fertigstellung bis"
+        },
+        "openInTranslationInterface": "Im Translation Interface öffnen"
+      },
+      "feedback": {
+        "title": "Feedback",
+        "satisfactionQuestion": "Wie zufrieden sind Sie mit den Texten?",
+        "message": "Nachricht",
+        "submitFeedback": "Feedback absenden",
+        "revisionQuestion": "Wünschen Sie eine kostenlose Überarbeitung?",
+        "revisionOption": "Bitte den Text gemäss Feedback überarbeiten",
+        "revisionRequest": "Überarbeiten anfordern",
+        "submitFile": "Überarbeiten anfordern",
+        "uploadFiles": "Dokumente hochladen",
+        "messagePlaceholder": "z.B. ein guter, frischer Stil, wir sind sehr zufrieden, im letzten Abschnitt fehlen zwei Argumente, wir werden das selbst einfügen.",
+        "ratingOptions": {
+          "super": "Super",
+          "good": "Gut",
+          "insufficient": "Ungenügend"
+        }
+      }
     },
-    "feedback":{
-      "title": "Feedback",
-      "satisfactionQuestion": " Wie zufrieden sind Sie mit den Texten?",
-      "message": "Nachricht",
-      "submit": "Feedback Absenden",
-      "revisionQuestion":" Wünschen Sie eine kostenlose Überarbeitung?",
-      "revisionOption": "Bitte den Text gemäss Feedback überabeiten",
-      "revisionRequest": "Überarbeiten anfordern",
-      "uploadFile": "Überarbeiten anfordern"
+    "footer": {
+      "contact": "Kontakt",
+      "newsletter": "Newsletter",
+      "newsletterDescription": "Für alle, die sich für Sprache, Technologie und Kreativität interessiere",
+      "newsletterDisclaimer": "Mit der Registrierung erklären Sie sich mit unserer Datenschutzerklärung einverstanden und geben Ihr Einverständnis, Updates von unserem Unternehmen zu erhalten.",
+      "yourEmail": "Ihre E-Mail-Adresse",
+      "freelancerRegistration": "Freelancer-Registrierung",
+      "servicesTitle": "SERVICES",
+      "services": {
+        "translation": "AI Translation & Verifizierung",
+        "expertise": "Fachübersetzung",
+        "editing": "Lektorat",
+        "copywriting": "Copywriting",
+        "consulting": "Beratung",
+        "forBusiness": "Für Unternehmen"
+      },
+      "knowledgeTitle": "WISSENSWERTES",
+      "knowledge": {
+        "expertise": "Sprachexpertise",
+        "whySupertext": "Warum Supertext",
+        "technology": "Technologie",
+        "references": "Referenzen",
+        "faq": "FAQ",
+        "blog": "Blog"
+      },
+      "companyTitle": "UNTERNEHMEN",
+      "company": {
+        "contact": "Kontakt",
+        "aboutSupertext": "Über Supertext",
+        "careers": "Arbeiten bei Supertext"
+      },
+      "legal": {
+        "imprint": "Impressum",
+        "terms": "AGB",
+        "privacy": "Datenschutzerklärung",
+        "dataProtection": "Datenschutz",
+        "media": "Medien"
+      }
     }
   }
 }

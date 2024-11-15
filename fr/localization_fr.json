@@ -1383,14 +1383,42 @@
     "welcomeMessage": "Salutations,",
     "noEntries": "Aucune entrée trouvée.",
     "placeOrder": "Placer une commande",
-    "navbar": {
+    "or": "",
+    "entriesPerPage": "",
+    "changeLanguage": "",
+    "navbar":{
       "services": "Services",
       "whySupertext": "Pourquoi Supertext?",
       "subscriptionAndPrices": "Abonnement & prix",
-      "forCompanies": "Pour les entreprises"
+      "forCompanies":"Pour les entreprises",
+      "discoverSolutions":"",
+      "message": {
+        "part1": "",
+        "part2": "",
+        "part3": "",
+        "part4": "",
+        "part5": ""
+      },
+      "languageExpertise": "",
+      "languageExpertiseNav":{
+        "overview": "",
+        "aiTranslation": "",
+        "spacialTranslation": "",
+        "copywriting": "",
+        "editing": "",
+        "consultation": ""
+      }
     },
     "filter": {
-      "all": "Tous les"
+      "title": "",
+      "all": "Tous les",
+      "administrator": "",
+      "licensed": "",
+      "removeFilter": "",
+      "types": {
+        "role": "",
+        "license": ""
+      }
     },
     "search": {
       "placeholder": "Chercher...",
@@ -1401,7 +1429,7 @@
     },
     "dashboard": {
       "title": "Tableau de bord",
-      "nestSteps": "PROCHAINES ÉTAPES",
+      "nextSteps": "PROCHAINES ÉTAPES",
       "nextStepsInformation": "Vous êtes à jour, il n'y a pas d'autres démarches à effectuer pour le moment.",
       "addSettings": "Compléter les réglages",
       "creditCardDetailsSettings": "Enregistrez les détails de votre carte de crédit pour des flux super faciles",
@@ -1465,19 +1493,25 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
+        "changeEmail":"",
         "emailValidation": "Veuillez saisir une adresse e-mail valide",
-        "language": "Language",
-        "role": "Role",
-        "comment": "Comment",
+        "language": "",
+        "role": "",
+        "roleValidation": "",
+        "license": "",
+        "licenseValidation": "",
+        "comment": "",
         "commentValidation": "Le commentaire doit comporter au moins 2 caractères",
-        "company": "Company",
-        "name": "Name",
+        "company": "",
+        "name": "",
+        "changeName": "",
         "nameValidation": "Le nom doit comporter au moins 2 caractères",
         "firstName": "Prénom",
         "lastName": "Nom de famille",
-        "addressLine1": "Rue",
+        "lastNameValidation": "",
+        "addressLime1": "Rue",
         "addressLine1Validation": "La rue doit être longue d'au moins 2 caractères",
-        "addressLine2": "Adresses Supplémentaire",
+        "addressLime2": "Adresses Supplémentaire",
         "city": "Ville",
         "cityValidation": "La ville est requise",
         "postalCode": "Code postal",
@@ -1487,18 +1521,28 @@
         "selectCountry": "Sélectionner le pays",
         "settings": "Réglages",
         "change": "Modifier",
-        "add": "Ajouter",
+        "add":"Ajouter",
         "delete": "Supprimer",
         "selectOption": "Choisir une option",
         "isAdmin": "Réel Administration",
+        "noData": "",
+        "roles": {
+          "admin": "",
+          "user": ""
+        },
+        "costCenter":{
+          "title": "",
+          "changeCostCenter": ""
+        },
         "sections": {
           "userDetails": {
-            "title": "Détails du compte",
+            "title": "",
             "deleteAccountTitle": "Suppression définitive du compte",
             "deleteAccountConfirmation": "Vous en êtes sûr ? Vous ne pouvez pas annuler cette action",
             "deleteAccount": "Supprimer un compte",
-            "accountSettings": "Paramètres du compte",
+            "accountSettings": "",
             "accountSettingsInfo": "Gérez les paramètres de votre compte ici",
+            "settings": "",
             "password": {
               "title": "Mot de passe",
               "oldPassword": "Ancien mot de passe",
@@ -1515,9 +1559,18 @@
           },
           "payments": {
             "title": "Informations sur le paiement",
+            "info": "",
             "setDefaultMethod": "Définir le mode de paiement par défaut",
             "defaultMethodSetSuccess": "Méthode de paiement par défaut définie",
             "standardMethod": "Méthode de paiement standard",
+            "changePaymentMethod": "",
+            "emailForDelivery": "",
+            "methods":{
+              "title": "",
+              "account": "",
+              "creditCard": "",
+              "noPaymentMethod": ""
+            },
             "settings": {
               "billingAddress": {
                 "deleteBillingAddress": "Supprimer l'adresse de facturation",
@@ -1528,24 +1581,30 @@
                 "authorizationDeniedInfo": "L'autorisation peut être refusée pour différentes raisons.",
                 "authorizationContactUs": "Prenez contact avec nous ",
                 "title": "Adresses de facturation",
-                "selectDefaultBillingAddress": "Sélectionnez une adresse de facturation par défaut",
-                "requestInvoiceAsPaymentMethod": "Demandez ici l’utilisation de la facturation comme mode de paiement.",
+                "selectDefaultBillingAddress":"Sélectionnez une adresse de facturation par défaut",
+                "requestInvoiceAsPaymentMethod":"Demandez ici l’utilisation de la facturation comme mode de paiement.",
                 "addBillingAddress": "Ajouter une adresse de facturation",
-                "editBillingAddress": "Adresse de facturation Modifier"
+                "editBillingAddress": "Adresse de facturation Modifier",
+                "addNewAddress": "",
+                "noAddedAddresses": ""
               },
               "creditCard": {
                 "title": "Détails de la carte de crédit",
                 "subTitle": "Choisissez une méthode de paiement par défaut",
-                "addCard": "Carte supprimée avec succès",
-                "deleteCard": "Carte ajoutée avec succès",
+                "deleteCard": "Carte supprimée avec succès",
+                "addCard": "Carte ajoutée avec succès",
                 "addCardFailure": "La carte n'a pas pu être ajoutée",
                 "endsWith": "se termine par",
-                "updateCardDetailsInformation": "Demandez à l’administrateur de votre organisation de mettre à jour les détails de la carte de crédit"
+                "updateCardDetailsInformation":"Demandez à l’administrateur de votre organisation de mettre à jour les détails de la carte de crédit",
+                "expirationMessage": "",
+                "deleteCreditCardConfirmation": "",
+                "deleteCreditCardInformation": "",
+                "noAddedCreditCard": ""
               }
             }
           },
-          "companyAdministration": {
-            "title": "Gestion de l'entreprise",
+          "team": {
+            "title": "",
             "userManagement": "Gestion des utilisateurs",
             "addMember": "Ajouter un membre",
             "editMember": "Modifier un membre",
@@ -1558,9 +1617,27 @@
             "increaseSeats": "Relever les sièges",
             "increaseSeatsInfo": "Augmenter le nombre de membres admis dans l'entreprise",
             "teamMembersOverviewTitle": "Membres de l’équipe Vue d’ensemble",
-            "teamMembersOverviewSubtitle": "Gérez les membres de votre équipe ici"
+            "teamMembersOverviewSubtitle": "Gérez les membres de votre équipe ici",
+            "management": "",
+            "actions":{
+              "title":"",
+              "editAll":"",
+              "removeAll": ""
+            },
+            "increaseNumberOfLicenses": "",
+            "selectLicense": "",
+            "selectRole": "",
+            "roles": { 
+              "teamAdmin": "",
+              "user": ""
+            }
           }
         }
+      },
+      "subscription":{
+        "subscriptionFreeInfo":"",
+        "comparePlans": "",
+        "addLicenses": ""
       },
       "delivery": {
         "title": "Livraison",
@@ -1587,39 +1664,43 @@
         }
       }
     },
-    "footer": {
-      "media": "Médias",
-      "imprint": "Mentions légales",
-      "termsAndConditions": "Conditions générales",
-      "privacyPolicy": "Politique de confidentialité",
-      "aiGuideline": "Politique en matière d'IA",
-      "paymentMethods": "MOYENS DE PAIEMENT ACCEPTES",
-      "country": "Changer de pays",
+    "footer":{
+      "contact": "",
+      "newsletter": "",
+      "newsletterDescription": "",
+      "newsletterDisclaimer": "",
+      "yourEmail": "",
+      "freelancerRegistration": "",
+      "servicesTitle": "",
       "services": {
-        "title": "Services",
-        "translation": "Traductions",
-        "proofreading": "Relecture",
-        "copywriting": "Rédaction",
-        "forCompanies": "Pour les entreprises"
+        "translation": "",
+        "expertise": "",
+        "editing": "",
+        "copywriting": "",
+        "consulting": "",
+        "forBusiness": ""
       },
-      "about": {
-        "title": "A propos de nous",
-        "team": "équipe",
-        "companies": "Entreprises",
-        "security": "Sécurité",
-        "location": "Sites",
-        "jobs": "Emplois "
+      "knowledgeTitle": "",
+      "knowledge": {
+        "expertise": "",
+        "whySupertext": "",
+        "technology": "",
+        "references": "",
+        "faq": "",
+        "blog": ""
       },
-      "otherServices": {
-        "title": "Autres",
-        "customerPortal": "Portail client",
-        "blog": "Blog",
-        "newsletter": "Lettre d'information",
-        "references": "Références"
+      "companyTitle": "",
+      "company": {
+        "contact": "",
+        "aboutSupertext": "",
+        "careers": ""
       },
-      "newsletter": {
-        "title": "Newsletter",
-        "info": "Découvrir le Supertext et exploiter les potentiels. Notre newsletter apporte des nouveautés passionnantes et des aperçus exclusifs sur le développement d'outils de traduction IA hybrides couplés à l'expertise humaine."
+      "legal": {
+        "imprint": "",
+        "terms": "",
+        "privacy": "",
+        "dataProtection": "",
+        "media": ""
       }
     }
   }

@@ -1383,14 +1383,42 @@
     "welcomeMessage": "Grüezi,",
     "noEntries": "Nessuna voce trovata.",
     "placeOrder": "Effettuare l'ordine",
-    "navbar": {
+    "or": "",
+    "entriesPerPage": "",
+    "changeLanguage": "",
+    "navbar":{
       "services": "Servizi",
       "whySupertext": "Perché Supertext?",
       "subscriptionAndPrices": "Abbonamento e prezzi",
-      "forCompanies": "Per le aziende"
+      "forCompanies":"Per le aziende",
+      "discoverSolutions":"",
+      "message": {
+        "part1": "",
+        "part2": "",
+        "part3": "",
+        "part4": "",
+        "part5": ""
+      },
+      "languageExpertise": "",
+      "languageExpertiseNav":{
+        "overview": "",
+        "aiTranslation": "",
+        "spacialTranslation": "",
+        "copywriting": "",
+        "editing": "",
+        "consultation": ""
+      }
     },
     "filter": {
-      "all": "Tutti"
+      "title": "",
+      "all": "Tutti",
+      "administrator": "",
+      "licensed": "",
+      "removeFilter": "",
+      "types": {
+        "role": "",
+        "license": ""
+      }
     },
     "search": {
       "placeholder": "Ricerca...",
@@ -1401,7 +1429,7 @@
     },
     "dashboard": {
       "title": "Cruscotto",
-      "nestSteps": "PASSI SUCCESSIVI",
+      "nextSteps": "PASSI SUCCESSIVI",
       "nextStepsInformation": "Siete aggiornati, al momento non ci sono ulteriori passi da compiere.",
       "addSettings": "Aggiungi impostazioni",
       "creditCardDetailsSettings": "Memorizzare i dati della carta di credito per un flusso facilissimo",
@@ -1465,16 +1493,23 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
+        "changeEmail":"",
         "emailValidation": "Inserire un indirizzo e-mail valido",
-        "language": "Language",
-        "role": "Role",
-        "comment": "Comment",
+        "language": "",
+        "role": "",
+        "roleValidation": "",
+        "license": "",
+        "licenseValidation": "",
+        "comment": "",
         "commentValidation": "Il commento deve essere lungo almeno 2 caratteri",
-        "company": "Company",
-        "name": "Name",
+        "company": "",
+        "name": "",
+        "changeName": "",
         "nameValidation": "Il nome deve essere lungo almeno 2 caratteri",
         "firstName": "Nome",
+        "firstNameValidation": "",
         "lastName": "Cognome",
+        "lastNameValidation": "",
         "addressLine1": "Via",
         "addressLine1Validation": "La via deve essere lunga almeno 2 caratteri",
         "addressLine2": "Indirizzi Aggiunta",
@@ -1487,18 +1522,28 @@
         "selectCountry": "Selezionare il paese",
         "settings": "Impostazioni",
         "change": "Cambiamento",
-        "add": "Aggiungere",
+        "add":"Aggiungere",
         "delete": "Elimina",
         "selectOption": "Selezionare l'opzione",
         "isAdmin": "Gestione effettiva",
+        "noData": "",
+        "roles": {
+          "admin": "",
+          "user": ""
+        },
+        "costCenter":{
+          "title": "",
+          "changeCostCenter": ""
+        },
         "sections": {
           "userDetails": {
-            "title": "Dettagli del conto",
+            "title": "",
             "deleteAccountTitle": "Cancellazione definitiva dell'account",
             "deleteAccountConfirmation": "Sei sicuro? Non è più possibile annullare questa azione",
             "deleteAccount": "Cancellare l'account",
-            "accountSettings": "Impostazioni dell'account",
+            "accountSettings": "",
             "accountSettingsInfo": "Gestite le impostazioni del vostro account qui",
+            "settings": "",
             "password": {
               "title": "password",
               "oldPassword": "Vecchia password",
@@ -1515,9 +1560,18 @@
           },
           "payments": {
             "title": "Informazioni sul pagamento",
+            "info": "",
             "setDefaultMethod": "Imposta il metodo di pagamento predefinito",
             "defaultMethodSetSuccess": "Metodo di pagamento predefinito impostato",
             "standardMethod": "Metodo di pagamento standard",
+            "changePaymentMethod": "",
+            "emailForDelivery": "",
+            "methods":{
+              "title": "",
+              "account": "",
+              "creditCard": "",
+              "noPaymentMethod": ""
+            },
             "settings": {
               "billingAddress": {
                 "deleteBillingAddress": "Cancellare l'indirizzo di fatturazione",
@@ -1528,24 +1582,30 @@
                 "authorizationDeniedInfo": "L'autorizzazione può essere rifiutata per vari motivi.",
                 "authorizationContactUs": "Mettetevi in contatto con noi ",
                 "title": "Indirizzo di fatturazione",
-                "selectDefaultBillingAddress": "Scegliete un indirizzo di fatturazione predefinito",
-                "requestInvoiceAsPaymentMethod": "Richiedere di utilizzare la fattura come metodo di pagamento.",
+                "selectDefaultBillingAddress":"Scegliete un indirizzo di fatturazione predefinito",
+                "requestInvoiceAsPaymentMethod":"Richiedere di utilizzare la fattura come metodo di pagamento.",
                 "addBillingAddress": "Aggiungi indirizzo di fatturazione",
-                "editBillingAddress": "Modifica dell'indirizzo di fatturazione"
+                "editBillingAddress": "Modifica dell'indirizzo di fatturazione",
+                "addNewAddress": "",
+                "noAddedAddresses": ""
               },
               "creditCard": {
                 "title": "Dati della carta di credito",
                 "subTitle": "Scegliere un metodo di pagamento predefinito",
-                "addCard": "Scheda cancellata con successo",
-                "deleteCard": "Mappa aggiunta con successo",
+                "deleteCard": "Scheda cancellata con successo",
+                "addCard": "Mappa aggiunta con successo",
                 "addCardFailure": "Impossibile aggiungere la mappa",
                 "endsWith": "termina con",
-                "updateCardDetailsInformation": "Chiedere all’amministratore dell’organizzazione di aggiornare i dati della carta di credito"
+                "updateCardDetailsInformation":"Chiedere all’amministratore dell’organizzazione di aggiornare i dati della carta di credito",
+                "expirationMessage": "",
+                "deleteCreditCardConfirmation": "",
+                "deleteCreditCardInformation": "",
+                "noAddedCreditCard": ""
               }
             }
           },
-          "companyAdministration": {
-            "title": "Amministrazione aziendale",
+          "team": {
+            "title": "",
             "userManagement": "Amministrazione degli utenti",
             "addMember": "Aggiungi membro",
             "editMember": "Modifica membro",
@@ -1558,9 +1618,27 @@
             "increaseSeats": "Sollevare i sedili",
             "increaseSeatsInfo": "Aumentare il numero di soci autorizzati nella società",
             "teamMembersOverviewTitle": "Panoramica dei membri del team",
-            "teamMembersOverviewSubtitle": "Gestisci qui i membri del tuo team"
+            "teamMembersOverviewSubtitle": "Gestisci qui i membri del tuo team",
+            "management": "",
+            "actions":{
+              "title":"",
+              "editAll":"",
+              "removeAll": ""
+            },
+            "increaseNumberOfLicenses": "",
+            "selectLicense": "",
+            "selectRole": "",
+            "roles": { 
+              "teamAdmin": "",
+              "user": ""
+            }
           }
         }
+      },
+      "subscription":{
+        "subscriptionFreeInfo":"",
+        "comparePlans": "",
+        "addLicenses": ""
       },
       "delivery": {
         "title": "consegna",
@@ -1587,39 +1665,43 @@
         }
       }
     },
-    "footer": {
-      "media": "Media",
-      "imprint": "Imprint",
-      "termsAndConditions": "Termini e condizioni generali",
-      "privacyPolicy": "Privacy Policy",
-      "aiGuideline": "Linee guida AI",
-      "paymentMethods": "MEZZI DI PAGAMENTO ACCETTATI",
-      "country": "Cambia paese",
+    "footer":{
+      "contact": "",
+      "newsletter": "",
+      "newsletterDescription": "",
+      "newsletterDisclaimer": "",
+      "yourEmail": "",
+      "freelancerRegistration": "",
+      "servicesTitle": "",
       "services": {
-        "title": "Servizi",
-        "translation": "Traduzioni",
-        "proofreading": "Correzione di bozze",
-        "copywriting": "Copywriting",
-        "forCompanies": "Per le aziende"
+        "translation": "",
+        "expertise": "",
+        "editing": "",
+        "copywriting": "",
+        "consulting": "",
+        "forBusiness": ""
       },
-      "about": {
-        "title": "About us",
-        "team": "Team",
-        "companies": "Azienda",
-        "security": "Security",
-        "location": "Locations",
-        "jobs": "Jobs"
+      "knowledgeTitle": "",
+      "knowledge": {
+        "expertise": "",
+        "whySupertext": "",
+        "technology": "",
+        "references": "",
+        "faq": "",
+        "blog": ""
       },
-      "otherServices": {
-        "title": "Other",
-        "customerPortal": "Portale clienti",
-        "blog": "Blog",
-        "newsletter": "Newsletter",
-        "references": "References"
+      "companyTitle": "",
+      "company": {
+        "contact": "",
+        "aboutSupertext": "",
+        "careers": ""
       },
-      "newsletter": {
-        "title": "Newsletter",
-        "info": "Sperimenta il Supertext e renditi conto del suo potenziale. La nostra newsletter fornisce notizie interessanti e approfondimenti esclusivi sullo sviluppo di strumenti ibridi di traduzione AI abbinati all'esperienza umana."
+      "legal": {
+        "imprint": "",
+        "terms": "",
+        "privacy": "",
+        "dataProtection": "",
+        "media": ""
       }
     }
   }

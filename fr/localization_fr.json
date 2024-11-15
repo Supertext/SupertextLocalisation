@@ -6,110 +6,110 @@
           "close": "Fermer"
         },
         "waiting_list": {
-          "cta_and_header": "S’inscrire sur la liste d’attente",
+          "cta_and_header": "S'inscrire sur la liste d'attente",
           "validation": {
-            "terms_and_conditions": "La case à cocher est requise",
+            "terms_and_conditions": "La case à cocher est obligatoire",
             "email": {
               "invalid_email": "Adresse e-mail non valide",
-              "required": "L’adresse e-mail est requise"
+              "required": "L'e-mail est requis"
             }
           },
           "form": {
             "email": {
-              "placeholder": "Saisissez votre adresse e-mail",
-              "label": "* E-mail"
+              "placeholder": "Votre adresse e-mail",
+              "label": "* Courrier électronique"
             },
             "checkbox": {
-              "label": "J’accepte d’être contacté·e par Supertext dès que l’abonnement Basic sera disponible"
+              "label": "Oui, Supertext peut me contacter dès que l'abonnement de base sera disponible"
             }
           },
           "completion_message": {
-            "message": "Merci de votre intérêt! Nous vous contacterons dès que l’abonnement sera disponible!"
+            "message": "Nous vous remercions de votre intérêt ! Nous vous contacterons dès que l'abonnement sera disponible !"
           }
         },
         "offer": {
-          "cta_and_header": "Demander un devis",
+          "cta_and_header": "Demander une offre",
           "validation": {
-            "terms_and_conditions": "La case à cocher est requise",
+            "terms_and_conditions": "La case à cocher est obligatoire",
             "name": {
-              "required": "Le nom est requis"
+              "required": "Le nom est obligatoire"
             },
             "email": {
               "invalid_email": "Adresse e-mail non valide",
-              "required": "L’adresse e-mail est requise"
+              "required": "L'e-mail est requis"
             },
             "company_name": {
-              "required": "Le nom de l’entreprise est requis"
+              "required": "Le nom de l'entreprise est requis"
             },
             "number_of_users": {
-              "required": "Le nombre d’utilisateurs·trices est requis"
+              "required": "Le nombre d'utilisateurs est requis"
             }
           },
           "form": {
             "name": {
-              "placeholder": "Saisissez votre nom complet",
+              "placeholder": "Votre prénom et nom",
               "label": "* Nom"
             },
             "email": {
-              "placeholder": "Saisissez votre adresse e-mail",
-              "label": "* E-mail"
+              "placeholder": "Votre adresse e-mail",
+              "label": "* Courrier électronique"
             },
             "company_name": {
-              "placeholder": "Saisissez le nom de votre entreprise",
-              "label": "* Entreprise"
+              "placeholder": "Nom de votre entreprise",
+              "label": "* Société"
             },
             "number_of_users": {
-              "placeholder": "Saisissez le nombre d’utilisateurs·trices potentiel·le·s",
-              "label": "* Nombre d’utilisateurs·trices"
+              "placeholder": "Nombre d'utilisateurs potentiels",
+              "label": "* Nombre d'utilisateurs"
             },
             "phone_number": {
-              "placeholder": "Saisissez votre numéro de téléphone",
+              "placeholder": "Votre numéro de téléphone",
               "label": "Numéro de téléphone"
             },
             "special_requirements": {
-              "placeholder": "Saisissez votre message",
-              "label": "Demande spéciale"
+              "placeholder": "Votre message à Supertext",
+              "label": "Demande particulière"
             },
             "checkbox": {
-              "label": "J’accepte de communiquer mes données à Supertext et d’être contacté·e par un·e représentant·e de l’entreprise"
+              "label": "Oui, les données que j'ai saisies peuvent être transmises à Supertext afin qu'un(e) représentant(e) de l'entreprise puisse me contacter"
             }
           },
           "completion_message": {
-            "message": "Merci de votre intérêt pour notre offre Entreprise. Nous vous contacterons dès que possible."
+            "message": "Nous vous remercions de l'intérêt que vous portez à notre offre Enterprise. Nous prendrons contact avec vous dès que possible."
           }
         }
       },
       "global_switches": {
-        "yearly_billing": "Économisez 16 % grâce à la facturation annuelle"
+        "yearly_billing": "Economiser 16% avec une facturation annuelle"
       },
       "sections": {
         "section_one": {
-          "top_title": "Nos offres",
-          "title": "Choisissez un plan qui vous convient ainsi qu’à votre équipe"
+          "top_title": "Prix",
+          "title": "Choisissez un plan qui vous convient à vous et à votre équipe"
         },
         "section_two": {
-          "top_title": "Caractéristiques",
-          "title": "Découvrez tout en détail ici"
+          "top_title": "Fonctions",
+          "title": "Vous trouverez ici toutes les fonctions en détail"
         },
         "section_three": {
           "top_title": "Réductions",
           "title": "Organisations éducatives et à but non lucratif",
-          "sub_title": "Nous proposons des réductions aux organisations éducatives et à but non lucratif. Contactez-nous pour plus d’informations.",
+          "sub_title": "Les établissements d'enseignement et les organisations à but non lucratif bénéficient d'abonnements à prix réduit. Contactez-nous pour plus d'informations.",
           "button": {
             "link": "https://www.supertext.com/business/contact",
-            "title": "Obtenir une réduction"
+            "title": "Bénéficier de réductions"
           }
         }
       },
       "plans": [
         {
-          "plan_title": "Free",
-          "plan_description": "Pour tous·tes",
+          "plan_title": "Gratuit",
+          "plan_description": "Pour tous",
           "cta": {
-            "title": "S’inscrire",
+            "title": "S'inscrire",
             "description": {
-              "description": "{0} et augmentez vos limites d’utilisation.",
-              "description_link_text": "Inscrivez-vous gratuitement",
+              "description": "{0} pour des limites plus élevées.",
+              "description_link_text": "S'inscrire gratuitement",
               "link": "https://supertext.com/login"
             },
             "link": "https://www.supertext.com/login",
@@ -124,21 +124,21 @@
             },
             {
               "title": "Traduction de texte limitée",
-              "description": "Traduisez 2 500 caractères à la fois (5 000 avec inscription gratuite)"
+              "description": "Traduisez 2'500 caractères à la fois (5'000 avec l'inscription gratuite)"
             },
             {
-              "title": "1 traduction de fichier modifiable par jour, jusqu’à 5 Mo",
-              "description": "3 traductions de fichiers modifiables par jour avec l’inscription gratuite"
+              "title": "1 traduction de fichier modifiable par jour, jusqu'à 5 Mo",
+              "description": "Avec inscription gratuite, 3 traductions de fichiers modifiables par jour"
             }
           ]
         },
         {
           "plan_title": "Basic",
-          "plan_description": "Pour les particuliers·ères et les petites entreprises",
+          "plan_description": "Pour les particuliers et les petites entreprises",
           "cta": {
-            "title": "S’inscrire sur la liste d’attente",
+            "title": "S'inscrire sur la liste d'attente",
             "description": {
-              "description": "Gratuit pendant 30 jours. Sans engagement."
+              "description": "gratuit pendant 30 jours. Résiliable à tout moment."
             },
             "price": {
               "monthly": "CHF 24.00",
@@ -155,30 +155,30 @@
               "description": "Cryptage de bout en bout et suppression immédiate du texte"
             },
             {
-              "title": "Traduction illimitée de textes",
-              "description": "Une politique d’utilisation équitable s’applique"
+              "title": "Traduction de texte illimitée",
+              "description": "Une politique d'utilisation équitable s'applique"
             },
             {
-              "title": "10 traductions de fichiers modifiables par jour, jusqu’à 10 Mo"
+              "title": "10 traductions de fichiers modifiables par jour, jusqu'à 10 Mo"
             },
             {
-              "title": "Prise en charge des PDF"
+              "title": "Prise en charge du format PDF"
             }
           ]
         },
         {
           "plan_title": "Enterprise",
-          "plan_description": "Pour les organisations comptant 30 utilisateurs·trices ou plus",
+          "plan_description": "Pour les organisations de 30 utilisateurs ou plus",
           "cta": {
-            "title": "Demander un devis",
+            "title": "Demander une offre",
             "description": {
-              "description": "Pour plus d’informations et de cas d’utilisation, consultez notre {0}",
-              "description_link_text": "page dédiée aux entreprises.",
+              "description": "Vous trouverez de plus amples informations et des exemples d'application sur notre {0}",
+              "description_link_text": "Site web professionnel.",
               "link": "https://www.supertext.com/business"
             },
             "price": {
-              "monthly": "dès CHF 72.00",
-              "yearly": "dès CHF 60.00"
+              "monthly": "à partir de CHF 72.00",
+              "yearly": "à partir de CHF 60.00"
             },
             "price_description": "Par personne, par mois"
           },
@@ -187,30 +187,30 @@
               "title": "Tout ce qui est inclus dans Basic"
             },
             {
-              "title": "SaaS, cloud privé ou hébergement sur site"
+              "title": "Hébergement SaaS, cloud privé ou sur site"
             },
             {
               "title": "Authentification unique (SSO)"
             },
             {
-              "title": "Traductions illimitées de fichiers modifiables, jusqu’à 30 Mo",
-              "description": "Une politique d’utilisation équitable s’applique"
+              "title": "Traductions de fichiers éditables en nombre illimité, jusqu'à 30 Mo",
+              "description": "Une politique d'utilisation équitable s'applique"
             },
             {
-              "title": "Modèles d’IA et image de marque personnalisés",
-              "description": "Obtenez une qualité de traduction inégalée grâce à des modèles d’IA qui apprennent et s’améliorent constamment à partir de vos traductions"
+              "title": "Modèles d'IA personnalisés et branding",
+              "description": "Grâce aux modèles d'intelligence artificielle qui apprennent de vos traductions et s'améliorent en permanence, vous obtenez une qualité de traduction incomparable"
             },
             {
               "title": "Cockpit",
-              "description": "Pour une personnalisation de la marque et des styles de traduction, la gestion des utilisateurs·trices, et plus encore"
+              "description": "Pour un branding personnalisé, des styles de traduction définissables, une gestion des utilisateurs et plus encore"
             },
             {
-              "title": "Intégrations de Microsoft Office et des outils de TAO",
-              "description": "Traduisez directement avec les outils logiciels utilisés dans votre travail quotidien"
+              "title": "Intégration de Microsoft Office et d'outils de TAO",
+              "description": "Traduisez directement dans les outils logiciels que vous utilisez dans votre travail quotidien"
             },
             {
-              "title": "Accès à l’API",
-              "description": "Intégrez les traductions par IA dans vos propres applications et workflows."
+              "title": "Accès à l'API",
+              "description": "Intégrez les traductions IA dans vos propres applications et flux de travail"
             }
           ]
         }
@@ -218,19 +218,19 @@
       "features_table": {
         "footer": {
           "text": {
-            "title": "Pourquoi Swiss Life et La Mobilière travaillent-elles avec Supertext?",
+            "title": "Pourquoi Swiss Life et La Mobilière collaborent-elles avec Supertext ?",
             "sub_title": ""
           },
           "cta": {
-            "title": "Explorer les cas d’utilisation",
-            "link": "https://supertext.com/business/en/applications"
+            "title": "Découvrir des cas d'application",
+            "link": "https://supertext.com/business/de/applications"
           }
         },
         "misc": {
-          "optional": "Optionnel",
+          "optional": "En option",
           "select_a_plan": "Sélectionner un plan",
           "plans_title": {
-            "free": "Free",
+            "free": "Gratuit",
             "basic": "Basic",
             "enterprise": "Enterprise"
           }
@@ -240,28 +240,28 @@
             "title": "Langues",
             "rows": [
               {
-                "header_description": "Entreprise: langues supplémentaires sur demande",
+                "header_description": "Enterprise : autres langues sur demande",
                 "content": [
                   "Langues",
                   "Allemand, anglais, français, italien, romanche",
-                  "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finlandais, français, hongrois, italien, japonais, norvégien, néerlandais, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, tchèque",
-                  "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finlandais, français, hongrois, italien, japonais, norvégien, néerlandais, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, tchèque"
+                  "Albanais, Allemand, Anglais, Chinois, Coréen, Danois, Espagnol, Finnois, Français, Hongrois, Italien, Japonais, Néerlandais, Norvégien, Polonais, Portugais, Rhéto-roman, Russe, Serbe, Slovaque, Slovène, Suédois, Tchèque",
+                  "Albanais, Allemand, Anglais, Chinois, Coréen, Danois, Espagnol, Finnois, Français, Hongrois, Italien, Japonais, Néerlandais, Norvégien, Polonais, Portugais, Rhéto-roman, Russe, Serbe, Slovaque, Slovène, Suédois, Tchèque"
                 ]
               },
               {
                 "content": [
                   "Variantes linguistiques",
                   "Allemand (AT, CH, DE, dialecte suisse allemand), anglais (UK, US)",
-                  "Allemand (AT, CH, DE, dialecte suisse allemand), anglais (UK, US), chinois (traditionnel, simplifié), portugais (BR, PT), serbe (latin, cyrillique)",
-                  "Allemand (AT, CH, DE, dialecte suisse allemand), anglais (UK, US), chinois (traditionnel, simplifié), portugais (BR, PT), serbe (latin, cyrillique)"
+                  "Chinois (traditionnel, simplifié), allemand (AT, CH, DE, dialecte suisse allemand), anglais (UK, US), portugais (BR, PT), serbe (cyrillique, latin)",
+                  "Chinois (traditionnel, simplifié), allemand (AT, CH, DE, dialecte suisse allemand), anglais (UK, US), portugais (BR, PT), serbe (cyrillique, latin)"
                 ]
               },
               {
-                "header_description": "Prend en compte la ponctuation, le formatage des nombres, etc. dans vos traductions",
+                "header_description": "Définissez des aspects tels que la ponctuation, le formatage des nombres et plus encore dans la sortie de traduction",
                 "content": [
                   "Guides de style personnalisés",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               }
@@ -275,23 +275,23 @@
                   "Traitement des données",
                   "Suisse",
                   "Suisse",
-                  "Suisse (SaaS) ou lieu de choix (cloud privé, sur site)"
+                  "Suisse (SaaS) ou site au choix (cloud privé, hébergement sur site)"
                 ]
               },
               {
-                "header_description": "Vos informations sont transférées en toute sécurité et ne peuvent jamais être accessibles par des tiers",
+                "header_description": "Vos données sont transmises de manière sécurisée et ne peuvent pas être lues par des tiers",
                 "content": [
-                  "Transfert crypté",
+                  "Transmission cryptée",
                   "1",
                   "1",
                   "1"
                 ]
               },
               {
-                "header_description": "Tous les textes sont supprimés immédiatement après leur traduction et ne peuvent jamais être accessibles par des tiers",
+                "header_description": "Tous les textes ne peuvent à aucun moment être lus par des tiers. Après la traduction, ils sont immédiatement effacés",
                 "content": [
-                  "Suppression immédiate du texte",
-                  "0",
+                  "Effacement immédiat du texte",
+                  "",
                   "1",
                   "1"
                 ]
@@ -299,24 +299,24 @@
               {
                 "content": [
                   "Authentification unique (SSO)",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               },
               {
                 "content": [
                   "Cloud privé ou hébergement sur site",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               },
               {
                 "content": [
-                  "Certificats TLS/SSL personnalisés",
-                  "0",
-                  "0",
+                  "Certificats TLS/SSL définis par l'utilisateur",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               }
@@ -327,8 +327,8 @@
             "rows": [
               {
                 "content": [
-                  "Traduction illimitée de textes",
-                  "Max. 2 500 caractères (5 000 avec l’inscription gratuite)",
+                  "Traduction de texte illimitée",
+                  "Max. 2'500 caractères (5'000 avec l'inscription gratuite)",
                   "1",
                   "1"
                 ]
@@ -340,23 +340,23 @@
             "rows": [
               {
                 "content": [
-                  "Traduction illimitée de fichiers",
-                  "1 fichier par jour (3 fichiers par jour avec l’inscription gratuite), par personne",
+                  "Traduction de fichiers illimitée",
+                  "1 fichier par jour (3 fichiers par jour en cas d'inscription gratuite), par personne",
                   "10 fichiers par jour, par personne",
                   "1"
                 ]
               },
               {
                 "content": [
-                  "Taille maximale du fichier",
-                  "5 Mo",
-                  "10 Mo",
-                  "30 Mo"
+                  "Taille maximale des fichiers",
+                  "5 MO",
+                  "10 MO",
+                  "30 MO"
                 ]
               },
               {
                 "content": [
-                  "Modification de fichiers autorisée",
+                  "Traitement des fichiers autorisé",
                   "1",
                   "1",
                   "1"
@@ -373,7 +373,7 @@
               {
                 "content": [
                   "Fichiers PDF",
-                  "0",
+                  "",
                   "1",
                   "1"
                 ]
@@ -381,7 +381,7 @@
               {
                 "content": [
                   "Fichiers SRT",
-                  "0",
+                  "",
                   "1",
                   "1"
                 ]
@@ -393,45 +393,45 @@
             "rows": [
               {
                 "content": [
-                  "Ton formel/informel",
+                  "Formule de politesse : formelle/informelle",
                   "1",
                   "1",
                   "1"
                 ]
               },
               {
-                "header_description": "Définissez la traduction des termes spécifiques",
+                "header_description": "Définir comment certains mots sont traduits",
                 "content": [
                   "Glossaires personnalisés",
-                  "0",
+                  "",
                   "1",
                   "1"
                 ]
               },
               {
-                "header_description": "Définissez la traduction des termes spécifiques pour tous les membres de votre organisation",
+                "header_description": "Définissez comment certains mots doivent être traduits en fonction de la terminologie de votre entreprise",
                 "content": [
-                  "Glossaires à l’échelle de l’organisation",
-                  "0",
-                  "0",
+                  "Glossaires à l'échelle de l'organisation",
+                  "",
+                  "",
                   "1"
                 ]
               },
               {
-                "header_description": "Donnez à Supertext l’apparence et la convivialité de votre image de marque",
+                "header_description": "Le design et la convivialité de Supertext peuvent être facilement adaptés à votre marque d'entreprise",
                 "content": [
-                  "Image de marque personnalisée",
-                  "0",
-                  "0",
+                  "Marquage spécifique au client",
+                  "",
+                  "",
                   "1"
                 ]
               },
               {
-                "header_description": "Obtenez une qualité de traduction inégalée grâce à des modèles d’IA qui apprennent et s’améliorent constamment à partir de vos traductions",
+                "header_description": "Grâce aux modèles d'intelligence artificielle qui apprennent de vos traductions et s'améliorent en permanence, vous obtenez une qualité de traduction incomparable",
                 "content": [
-                  "Modèles d’IA personnalisés",
-                  "0",
-                  "0",
+                  "Modèles d'IA personnalisés",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               }
@@ -441,45 +441,45 @@
             "title": "Intégrations",
             "rows": [
               {
-                "header_description": "Augmentez la productivité de vos traductions professionnelles en utilisant Supertext à partir de Trados Studio, MemoQ et bien d’autres outils de TAO",
+                "header_description": "En utilisant Supertext dans Trados Studio, MemoQ et de nombreux autres outils de TAO, vous augmentez la productivité de la traduction professionnelle",
                 "read_more": {
                   "text": "En savoir plus",
-                  "link": "https://supertext.com/business/en/features#integration"
+                  "link": "https://supertext.com/business/de/features#integration"
                 },
                 "content": [
                   "Outils de TAO",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               },
               {
                 "header_description": "Utilisez Supertext directement dans Microsoft Word, PowerPoint et Outlook",
                 "content": [
-                  "Compléments Microsoft Office",
-                  "0",
-                  "0",
+                  "Microsoft Office-Add-Ins",
+                  "",
+                  "",
                   "1"
                 ]
               },
               {
-                "header_description": "Intégrez les traductions par IA dans vos propres applications et workflows",
+                "header_description": "Intégrez les traductions IA dans vos propres applications et flux de travail",
                 "content": [
                   "API Supertext",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               }
             ]
           },
           {
-            "title": "Assistance",
+            "title": "Support",
             "rows": [
               {
                 "content": [
                   "Assistance par e-mail",
-                  "0",
+                  "",
                   "1",
                   "1"
                 ]
@@ -487,33 +487,33 @@
               {
                 "content": [
                   "Assistance téléphonique",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               },
               {
-                "header_description": "Pendant les heures de bureau (9:00–18:00 CET) du lundi au vendredi",
+                "header_description": "Pendant les heures de bureau (9h00-18h00 HEC) du lundi au vendredi",
                 "content": [
-                  "Une réponse dans les 60 minutes",
-                  "0",
-                  "0",
-                  "1"
-                ]
-              },
-              {
-                "content": [
-                  "Gestionnaire de compte",
-                  "0",
-                  "0",
+                  "Première réaction dans les 60 minutes",
+                  "",
+                  "",
                   "1"
                 ]
               },
               {
                 "content": [
-                  "Garantie de disponibilité",
-                  "Best effort",
-                  "Best effort",
+                  "Account Manager:in",
+                  "",
+                  "",
+                  "1"
+                ]
+              },
+              {
+                "content": [
+                  "Garantie de temps de fonctionnement",
+                  "Meilleur effort",
+                  "Meilleur effort",
                   "1"
                 ]
               }
@@ -522,145 +522,145 @@
         ]
       }
     },
-    "signup": "S’inscrire",
-    "login": "Connexion",
+    "signup": "S'inscrire",
+    "login": "S'inscrire",
     "searchLanguage": "Rechercher une langue",
     "feedback": {
-      "title": "Commentaires",
-      "description": "Merci pour vos commentaires. Vous pouvez remplir ce formulaire aussi souvent que vous le souhaitez. Si vous n’avez pas de commentaires spécifiques, donnez-nous une cote et laissez le reste vide.",
+      "title": "Réactions",
+      "description": "Nous vous remercions de votre réponse. Vous pouvez remplir ce formulaire autant de fois que vous le souhaitez. Si vous n'avez pas de feedback spécifique, donnez-nous simplement une évaluation et laissez le reste vide.",
       "inputs": {
         "nps": {
-          "title": "* Quelle est la probabilité que vous recommandiez Supertext à vos amis?",
+          "title": "* Quelle est la probabilité que vous recommandiez Supertext à vos connaissances ?",
           "negative": "Très peu probable",
           "positive": "Très probable",
-          "error_message": "Une cote est requise pour soumettre le formulaire"
+          "error_message": "Une évaluation est nécessaire pour soumettre le formulaire"
         },
         "feedback_type": {
-          "title": "Quel type de commentaire souhaitez-vous partager avec nous?",
+          "title": "Quel type de feedback souhaitez-vous nous communiquer ?",
           "types": {
-            "default": "Choisissez un…",
-            "general": "Commentaires généraux",
-            "improvement": "Proposition d’amélioration",
+            "default": "Choisir une..",
+            "general": "Feedback général",
+            "improvement": "Proposition d'amélioration",
             "problem": "Signaler un problème"
           }
         },
         "message": {
           "title": "Message",
-          "placeholder": "Vos commentaires…"
+          "placeholder": "Vos réactions"
         },
         "recommend_type": {
-          "title": "Recommanderiez-vous le produit dans sa forme actuelle à d’autres personnes?",
-          "default": "Choisissez un…",
+          "title": "Recommanderiez-vous ce produit à d'autres personnes dans sa forme actuelle ?",
+          "default": "Choisir une..",
           "yes": "Oui",
           "no": "Non",
           "maybe": "Peut-être"
         },
         "email": {
-          "title": "E-mail",
-          "description": "En fournissant votre adresse e-mail, vous nous autorisez à l’enregistrer afin de vous contacter si nous avons des nouvelles ou des questions concernant vos commentaires et de vous tenir au courant de nos dernières fonctionnalités.",
-          "placeholder": "Saisissez votre e-mail (facultatif)"
+          "title": "Courrier électronique",
+          "description": "En indiquant votre adresse e-mail, vous nous autorisez à la conserver pour vous contacter lorsque nous avons des nouvelles ou des questions concernant vos commentaires et pour vous informer de nos dernières fonctionnalités.",
+          "placeholder": "Saisissez votre adresse e-mail (facultatif)"
         },
         "submit_button": {
-          "submit": "Envoyer des commentaires",
-          "sent": "Commentaires envoyés!",
-          "sending": "Envoi…"
+          "submit": "Donner son avis",
+          "sent": "Réaction envoyée !",
+          "sending": "Envoyer.."
         }
       }
     },
     "fileTranslation": {
       "backButton": "Traducteur de texte",
       "backButtonShort": "Retour",
-      "externalUploadButton": "Charger",
+      "externalUploadButton": "Télécharger",
       "externalUploadTag": "Faites glisser un fichier ici",
-      "externalTranslating": "Traduction en cours",
+      "externalTranslating": "Traduit",
       "dropFile": "Faites glisser un fichier ({supportedFileExtensions}) ici ou",
       "dropAnotherFile": "Faites glisser un autre fichier ({supportedFileExtensions}) ici ou",
-      "translateButton": "Traduire en {toTargetLang}",
-      "translateButtonRetry": "Réessayer",
+      "translateButton": "Traduire sur {toTargetLang} ",
+      "translateButtonRetry": "Essayer à nouveau",
       "cancelButton": "Annuler",
-      "translating": "Traduire {filename} {fromSourceLang} {toTargetLang}",
-      "fileUploadButton": "Sélectionner un fichier",
+      "translating": "Traduisez {filename} {fromSourceLang} {toTargetLang}",
+      "fileUploadButton": "Sélectionnez un fichier",
       "invalidFileType": "Type de fichier non valide",
-      "fileSizeExceeded": "Ce fichier est trop volumineux pour être téléchargé. Les fichiers supérieurs à {0} Mo ne sont actuellement pas pris en charge.",
-      "estimatedTime": "Temps restant estimé: {0}",
-      "expectationExceeded": "La traduction prend plus de temps que prévu. Veuillez patienter…",
+      "fileSizeExceeded": "Ce fichier est trop volumineux pour être téléchargé. Les fichiers de plus de {0} Mo ne sont actuellement pas pris en charge.",
+      "estimatedTime": "Estimation du temps restant : {0}",
+      "expectationExceeded": "La traduction prend plus de temps que prévu. Veuillez patienter..",
       "downloadViaEmail": "Recevoir par e-mail",
-      "downloadViaEmailMessage": "La traduction de fichiers volumineux peut prendre un certain temps. En tant qu’utilisateur/-trice enregistré/e, vous pouvez demander que le fichier soit envoyé à votre adresse e-mail après la traduction.",
-      "ocrHelperText": "Utilisez l’OCR pour les PDF numérisés ou photographiés afin d’améliorer la précision. Pour les PDF contenant uniquement du texte, l’OCR n’est pas nécessaire.",
+      "downloadViaEmailMessage": "Les fichiers volumineux peuvent prendre un certain temps à être traduits. En tant qu'utilisateur:r enregistré, vous pouvez demander à ce que le fichier soit envoyé à votre adresse e-mail après la traduction.",
+      "ocrHelperText": "Utilisez l'OCR pour mieux traiter les PDF scannés ou photographiés. Pour les PDF normaux qui ne contiennent que du texte, l'OCR n'est pas nécessaire.",
       "ocr_options": {
-        "ocr_auto": "Auto",
-        "ocr_off": "Désactivé",
-        "ocr_on": "Activé"
+        "ocr_auto": "Voiture",
+        "ocr_off": "De",
+        "ocr_on": "Un"
       },
       "docRemainingPerDay": "1 fichier restant",
-      "docsRemainingPerDay": "{0} fichiers restants",
+      "docsRemainingPerDay": "{0} Fichiers restants",
       "docLimitsPerRequest": "Max. {0}Mo, {1} caractères",
-      "docLimitsPerRequestUnlimitedChars": "Max {0} Mo"
+      "docLimitsPerRequestUnlimitedChars": "Max. {0}MO"
     },
     "profile": {
       "profile": "Profil",
       "userNameStatus": "Utilisateur enregistré",
       "save": "Enregistrer",
-      "general": "Général",
-      "generalDescription": "Paramètres généraux de l’utilisateur",
-      "displayName": "Nom d’affichage",
-      "email": "E-mail",
+      "general": "Généralités",
+      "generalDescription": "Paramètres généraux de l'utilisateur",
+      "displayName": "Nom d'affichage",
+      "email": "Courrier électronique",
       "changePassword": "Modifier le mot de passe",
-      "deleteAccount": "Supprimer le compte",
-      "beta": "Beta",
-      "betaDescription": "Nouvelles fonctionnalités",
+      "deleteAccount": "Supprimer un compte",
+      "beta": "Bêta",
+      "betaDescription": "Nouvelles fonctions",
       "security": "Sécurité",
-      "securityDescription": "Modifier votre mot de passe",
+      "securityDescription": "Changez votre mot de passe",
       "passwords": {
         "oldPassword": "Ancien mot de passe",
         "newPassword": "Nouveau mot de passe",
         "confirmNewPassword": "Confirmer le nouveau mot de passe",
         "validationMessages": {
-          "displayName": "Le nom est requis",
+          "displayName": "Le nom d'affichage est requis",
           "passwordNoMatch": "Les mots de passe ne correspondent pas",
-          "passwordType": "Le mot de passe doit comporter au moins 8 caractères, 1 caractère spécial et 1 chiffre"
+          "passwordType": "Le mot de passe doit contenir au moins 8 caractères, 1 caractère spécial et 1 chiffre"
         }
       },
       "modal": {
         "title": "Êtes-vous sûr de vouloir supprimer votre compte ?",
-        "description": "Cela supprimera définitivement votre compte et tous les paramètres enregistrés. Vous pouvez créer un nouveau compte à tout moment si vous êtes prêt à le faire.",
+        "description": "Cela supprimera définitivement votre compte et tous les paramètres enregistrés. Vous pouvez créer un nouveau compte à tout moment, si vous êtes prêt à le faire.",
         "close": "Fermer"
       }
     },
     "languageMenu": {
-      "cta": "Plus 18 autres langues dans notre solution pour les entreprises",
-      "href": "/business/en/features"
+      "cta": "Plus 18 autres langues dans notre solution professionnelle",
+      "href": "/business/fr/features"
     },
     "NpsSurveyPopup": {
-      "question": "Quelle est la probabilité que vous recommandiez Supertext à vos amis?",
+      "question": "Quelle est la probabilité que vous recommandiez Supertext à vos connaissances ?",
       "leastLikely": "Très peu probable",
       "mostLikely": "Très probable",
-      "detailedFeedBackLink": "Souhaitez-vous fournir des commentaires plus détaillés?",
+      "detailedFeedBackLink": "Vous souhaitez donner un feedback plus détaillé ?",
       "buttons": {
         "closeIconButtonTooltip": "Fermer",
-        "submit": "Soumettre",
+        "submit": "Envoyer",
         "close": "Fermer"
       }
     },
     "landingPage": {
-      "teaser": "Pourquoi Supertext?",
+      "teaser": "Pourquoi Supertext ?",
       "hero": {
-        "title": "Plus qu’un simple traducteur: avec Supertext, franchissez la barrière linguistique",
-        "description_line1": "Communiquez mieux, plus vite, plus facilement. Avec Supertext, traduisez vos contenus en un clin d’œil. Maîtrisez toutes les langues nationales, era rumantsch! {br} {br} Grâce à la dernière génération d’intelligence artificielle (IA), traduisez en un clic différents formats de fichiers dans les langues de votre choix. Notre IA de traduction ne cesse d’apprendre. Vous pouvez ainsi compter sur nous pour l’améliorer de jour en jour et ajouter de nouvelles fonctionnalités utiles. {br} {br} Que vous soyez un particulier, une petite entreprise ou une grande organisation, Supertext vous offre un outil de traduction innovant, hébergé sur des serveurs suisses dans le respect des normes de sécurité les plus strictes."
+        "title": "Communiquer sans barrière de langue avec Supertext - plus qu'un simple traducteur ",
+        "description_line1": "Communiquez plus vite, mieux, plus facilement. Avec Supertext, vous traduisez des contenus en un clin d'œil. Devenez fluide dans toutes les langues nationales - era rumantsch ! {br} {br} Grâce à la dernière génération d'intelligence artificielle (IA), vous maîtriserez à l'avenir la traduction de différents formats de fichiers dans différentes langues en un seul clic. Notre Translation AI apprend en permanence. Et vous pouvez compter sur son développement constant avec de nouvelles fonctionnalités utiles. {br} {br} Que ce soit pour les particuliers, les petites entreprises ou les grandes organisations, Supertext vous propose une solution de traduction innovante, exploitée sur des serveurs suisses selon les normes de sécurité les plus strictes. "
       },
       "register_section": {
-        "title": "Découvrez encore plus d’avantages du logiciel de traduction Supertext",
-        "description": "Profitez gratuitement de plus de fonctionnalités de traduction en vous inscrivant à notre Free Plan. Vous contribuez ainsi activement à l’amélioration du traducteur Supertext.",
-        "cta": "S’inscrire gratuitement",
+        "title": "Profitez encore plus du logiciel de traduction Supertext ",
+        "description": "Profitez gratuitement de plus de prestations de traduction : inscrivez-vous gratuitement à notre Free Plan. Vous participerez ainsi activement à l'amélioration du traducteur Supertext. ",
+        "cta": "S'inscrire gratuitement",
         "details": {
           "detail1": {
-            "title": "5000 caractères",
-            "description": "Au lieu de 2500"
+            "title": "5'000 caractères",
+            "description": "Au lieu de 2'500 caractères"
           },
           "detail2": {
             "title": "3 documents par jour",
-            "description1": "Au lieu d’un seul",
-            "description2": "Modifiable et sans publicité"
+            "description1": "Au lieu d'un document par jour",
+            "description2": "Editable et sans publicité"
           },
           "detail3": {
             "title": "Paramètres personnalisés",
@@ -670,101 +670,101 @@
       },
       "feature_tutorial": {
         "title": "Prenez le contrôle",
-        "description": "Une traduction ne vous satisfait pas ou vous êtes en quête d’idées?",
+        "description": "Vous n'êtes pas entièrement satisfait d'une traduction ou vous cherchez de l'inspiration ?",
         "list": {
           "item1": "Cliquez sur un mot pour obtenir des alternatives.",
-          "item2": "Sélectionnez plusieurs mots pour reformuler.",
-          "item3": "Modifiez manuellement les traductions si nécessaire.",
-          "item4": "Mettez J’aime ou Je n’aime pas aux résultats pour nous aider à améliorer."
+          "item2": "Choisissez plusieurs mots à reformuler.",
+          "item3": "Modifiez les traductions manuellement si nécessaire.",
+          "item4": "Faites-nous savoir si les résultats vous plaisent ou non, afin que nous puissions nous améliorer."
         },
-        "desktop_only": "Disponible uniquement sur la version pour ordinateur de bureau"
+        "desktop_only": "Disponible uniquement sur le bureau"
       },
       "site_map_section": {
         "title": "Nos combinaisons de langues les plus populaires",
         "links1": [
           {
-            "text": "français - allemand",
-            "link": "https://supertext.com/fr/s/traduction/allemand-francais/10003"
-          },
-          {
-            "text": "anglais - allemand",
-            "link": "https://supertext.com/en/s/translate/english-german/10000"
-          },
-          {
-            "text": "italien - allemand",
-            "link": "https://supertext.com/it/s/traduzione/italiano-tedesco/10005"
-          },
-          {
-            "text": "allemand - suisse-allemand",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-schweizerdeutsch/10006"
-          },
-          {
-            "text": "allemand - rhéto-roman",
-            "link": "https://supertext.com/de/s/uebersetzen/raetoromanisch-deutsch/10007"
-          },
-          {
-            "text": "allemand - français",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-franzoesisch/10002"
-          },
-          {
-            "text": "français - anglais",
+            "text": "Allemand - anglais",
             "link": "https://supertext.com/de/s/uebersetzen/deutsch-englisch/10001"
           },
           {
-            "text": "allemand - italien",
+            "text": "Allemand - français",
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-franzoesisch/10002"
+          },
+          {
+            "text": "Allemand - italien",
             "link": "https://supertext.com/de/s/uebersetzen/deutsch-italienisch/10004"
+          },
+          {
+            "text": "Allemand - suisse allemand",
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-schweizerdeutsch/10006"
+          },
+          {
+            "text": "Allemand - romanche",
+            "link": "https://supertext.com/de/s/uebersetzen/raetoromanisch-deutsch/10007"
+          },
+          {
+            "text": "Anglais - allemand",
+            "link": "https://supertext.com/en/s/translate/english-german/10000"
+          },
+          {
+            "text": "Français - allemand",
+            "link": "https://supertext.com/fr/s/traduction/allemand-francais/10003"
+          },
+          {
+            "text": "Italien - allemand",
+            "link": "https://supertext.com/it/s/traduzione/italiano-tedesco/10005"
           }
         ]
       },
       "features_section": {
-        "title": "Grâce à Supertext, traduisez plus facilement et plus rapidement, pour une communication sur mesure",
-        "description": "Supertext parle votre langue: découvrez d’autres avantages de Supertext avec les formules Basic ou Enterprise, pour les équipes et entreprises exigeantes.",
-        "cta": "Nos fonctionnalités",
-        "link": "https://supertext.com/business/en/features",
+        "title": "Traduire plus facilement et plus rapidement grâce à Supertext : pour une communication sur mesure",
+        "description": "Supertext parle votre langue : découvrez d'autres avantages avec un plan Basic ou Enterprise - pour les équipes et les entreprises exigeantes. ",
+        "cta": "Découvrir toutes les fonctionnalités",
+        "link": "https://supertext.com/business/de/funktionen",
         "details": [
           {
-            "title": "40 à 60% d’efficacité en plus",
+            "title": "40-60 % de gain d'efficacité",
             "descriptions": [
-              "Disposez de plus de temps pour faire tout ce dont l’IA est incapable"
+              "Plus de temps pour tout ce que l'IA ne peut pas faire "
             ]
           },
           {
-            "title": "Traductions sur mesure",
+            "title": "Traduction sur mesure",
             "descriptions": [
-              "Profitez d’une communication qui suit votre guide de style à la lettre et s’appuie sur vos données, dans plus de 20 langues"
+              "Communication selon votre guide de style, sur la base de vos données clients, dans plus de 23 langues"
             ]
           },
           {
-            "title": "Gain de temps et d’argent",
+            "title": "Gain de temps et d'argent ",
             "descriptions": [
-              "Gérez automatiquement de gros volumes de texte"
+              "Gérer automatiquement de grandes quantités de texte"
             ]
           },
           {
-            "title": "Intégration fluide",
+            "title": "Une intégration sans faille ",
             "descriptions": [
-              "Intégrez l’outil directement à vos systèmes internes (Microsoft Office, outil de TAO) ou via l’API Supertext"
+              "Applicable dans vos systèmes internes (p. ex. Microsoft Office, outil de TAO) directement ou via l'API Supertext"
             ]
           },
           {
-            "title": "Contrôle maximal",
+            "title": "Un contrôle maximal",
             "descriptions": [
-              "Choisissez l’option d’hébergement qui vous convient et administrez le système facilement depuis votre Cockpit Supertext"
+              "Option d'hébergement de votre choix et gestion simple via votre Supertext Cockpit"
             ]
           }
         ]
       },
       "partners_section": {
-        "title": "Diese Unternehmen kommunizieren bereits mehrsprachig – einheitlich und sicher",
-        "cta_text": "Unsere massgeschneiderte Business-Lösung für Ihr Unternehmen",
-        "cta": "Jetzt entdecken",
-        "cta_link": "https://supertext.com/business/en"
+        "title": "Ces entreprises communiquent déjà en plusieurs langues - de manière uniforme et sûre",
+        "cta_text": "Notre solution professionnelle sur mesure pour votre entreprise",
+        "cta": "Découvrir maintenant",
+        "cta_link": "https://supertext.com/business/de"
       },
       "reviews_section": {
-        "title": "Nos utilisateurs et utilisatrices parlent au moins cinq langues couramment",
+        "title": "Nos utilisateurs parlent couramment au moins cinq langues ",
         "reviews": [
           {
-            "text": "Je vous adore! Votre site web m’aide au quotidien pour les traductions en suisse-allemand!",
+            "text": "Je vous adore ! Votre site me sauve tous les jours avec les traductions en suisse allemand !",
             "author": {
               "imageLink": "",
               "name": "",
@@ -776,7 +776,7 @@
             }
           },
           {
-            "text": "Outil très sympa, j’apprécie beaucoup le fait que l’on puisse apporter des corrections individuelles aux propositions de traduction.",
+            "text": "Outil cool, j'aime beaucoup la possibilité de corriger individuellement les propositions de traduction. ",
             "author": {
               "imageLink": "",
               "name": "",
@@ -788,7 +788,7 @@
             }
           },
           {
-            "text": "Génial!!",
+            "text": "Fantastique !",
             "author": {
               "imageLink": "",
               "name": "",
@@ -800,7 +800,7 @@
             }
           },
           {
-            "text": "Heureusement que vous êtes là!!!",
+            "text": "Heureusement que vous êtes là ! !! ",
             "author": {
               "imageLink": "",
               "name": "",
@@ -812,7 +812,7 @@
             }
           },
           {
-            "text": "Le seul traducteur en ligne qui vaille pour traduire du suisse-allemand vers l’allemand standard.",
+            "text": "Le seul site traduit qui ait du sens lorsqu'il s'agit de traduire du Schwitzer allemand en Hochdeutsch. ",
             "author": {
               "imageLink": "",
               "name": "",
@@ -824,7 +824,7 @@
             }
           },
           {
-            "text": "C’est le meilleur assistant de traduction que je connaisse: vraiment très utile.",
+            "text": "Le meilleur outil de traduction que je connaisse ; vraiment très utile.",
             "author": {
               "imageLink": "",
               "name": "",
@@ -836,7 +836,7 @@
             }
           },
           {
-            "text": "Je trouve super que cet outil propose le rhéto-roman.",
+            "text": "J'aime surtout le fait que le romanche soit inclus.",
             "author": {
               "imageLink": "",
               "name": "",
@@ -850,30 +850,30 @@
         ]
       },
       "footer": {
-        "title": "Bénéficiez d’une communication multilingue soignée et harmonisée",
-        "cta": "Solutions d’entreprise",
-        "cta_link": "https://supertext.com/business/en",
+        "title": "Ces entreprises communiquent déjà en plusieurs langues - de manière uniforme et dans un style sûr ",
+        "cta": "Vers la solution professionnelle",
+        "cta_link": "https://supertext.com/business/de",
         "contact": "Contact",
-        "newsletter": "Newsletter",
-        "newsletterLink": "https://eepurl.com/ip4zME",
-        "impressum": "Impressum",
-        "disclaimer": "Disclaimer",
+        "newsletter": "Bulletin d'information",
+        "newsletterLink": "https://eepurl.com/iqlJLc",
+        "impressum": "Mentions légales",
+        "disclaimer": "Clause de non-responsabilité",
         "business_links": {
           "header": {
             "title": "Pour les entreprises",
             "link": ""
           },
           "home": {
-            "title": "Page d’accueil",
+            "title": "Accueil",
             "link": ""
           },
           "product": {
             "title": "Produit",
-            "link": "/product"
+            "link": "/produit"
           },
           "features": {
-            "title": "Fonctionnalités",
-            "link": "/features"
+            "title": "Fonctions",
+            "link": "/fonctions"
           },
           "applications": {
             "title": "Applications",
@@ -881,14 +881,14 @@
           },
           "about": {
             "title": "À propos de nous",
-            "link": "/about"
+            "link": "/sur-nous"
           },
           "services": {
             "title": "Services",
             "link": "/services"
           },
           "upgrade": {
-            "title": "Tarifs",
+            "title": "Prix",
             "link": "/pricing"
           },
           "blog": {
@@ -897,11 +897,11 @@
           },
           "jobs": {
             "title": "Emplois",
-            "link": "/jobs"
+            "link": "/placer"
           },
           "media": {
             "title": "Médias",
-            "link": "/media"
+            "link": "/médias"
           },
           "contact": {
             "title": "Contact",
@@ -909,61 +909,61 @@
           }
         },
         "address": {
-          "title": "Supertext",
+          "title": "Supertexte",
           "street": "Schaffhauserstrasse 339",
           "city": "8050 Zurich"
         }
       }
     },
     "cookieBanner": {
-      "textPrefix": "Nous utilisons des cookies afin d’améliorer continuellement notre site. En cliquant sur «Accepter», vous consentez l’utilisation de cookies conformément à notre",
-      "link": "Politique de confidentialité.",
-      "textSuffix": "Vous pouvez également spécifier vos paramètres préférés en cliquant sur «Plus d’options».",
+      "textPrefix": "Nous utilisons des cookies afin d'améliorer continuellement notre site web. En cliquant sur \"Accepter\", vous acceptez l'utilisation de cookies conformément à notre",
+      "link": "Déclaration de confidentialité",
+      "textSuffix": "d'accord. Vous pouvez également définir vos préférences en cliquant sur \"Autres options\".",
       "accept": "Accepter",
-      "moreOptions": "Plus d’options",
+      "moreOptions": "Autres options",
       "modal": {
         "title": "Paramètres des cookies",
-        "descriptionPrefix": "Vous pouvez choisir quels cookies sont définis lorsque vous utilisez notre site Web en ajustant vos préférences. Pour plus d’informations, veuillez consulter notre",
-        "link": "Politique de confidentialité",
+        "descriptionPrefix": "Vous pouvez choisir quels cookies seront placés lorsque vous utiliserez notre site web en ajustant vos préférences. Pour plus d'informations, consultez notre",
+        "link": "Déclaration de confidentialité.",
         "descriptionSuffix": "",
-        "accept": "Tout accepter",
+        "accept": "Accepter tous",
         "yes": "Oui",
         "no": "Non",
-        "saveSettings": "Enregistrer les paramètres",
+        "saveSettings": "Enregistrer le réglage",
         "alwaysOn": "Toujours actif",
         "necessary": "Cookies nécessaires",
-        "performance": "Cookies analytiques",
-        "necessaryDescription": "Ces cookies sont nécessaires au fonctionnement du site web et ne peuvent pas être désactivés. En règle générale, ils ne sont définis qu’en réponse à des actions que vous effectuez et qui correspondent à une demande de service, telles que la définition de vos préférences en matière de confidentialité, la connexion ou le remplissage de formulaires. Les cookies nécessaires ne stockent aucune information personnelle.",
-        "performanceDescription": "Ces cookies nous permettent de compter les visites et les sources de trafic afin de mesurer et d’améliorer les performances de notre site web. Ils nous aident à voir comment les visiteurs utilisent nos services et nos fonctionnalités. Toutes les informations qu’ils recueillent sont agrégées et donc anonymes. Si vous choisissez de ne pas les utiliser, nous ne saurons pas quand vous avez visité notre site et nous ne pourrons pas contrôler ses performances."
+        "performance": "Cookies d'analyse",
+        "necessaryDescription": "Ces cookies sont nécessaires au bon fonctionnement du site et ne peuvent pas être désactivés. En général, ils ne sont placés qu'en réponse à des actions que vous effectuez dans le cadre d'une demande de service, comme le réglage de vos paramètres de confidentialité, la connexion ou le remplissage de formulaires. Les cookies nécessaires ne stockent pas d'informations personnelles.",
+        "performanceDescription": "Ces cookies nous permettent de compter les visites et les sources de trafic afin de mesurer et d'améliorer les performances de notre site web. Ils nous aident à voir comment les visiteurs utilisent nos services et fonctionnalités. Toutes les informations qu'ils recueillent sont agrégées et donc anonymes. Si vous n'utilisez pas ces cookies, nous ne saurons pas quand vous avez visité notre site et nous ne pourrons pas surveiller ses performances."
       }
     },
     "genderfairFirstRunExperienceToggle": {
-      "text": "Nous prenons désormais en charge un langage épicène pour l’allemand et l’anglais.",
+      "text": "Nous soutenons désormais le langage non sexiste pour l'allemand et l'anglais.",
       "link": "Voici notre article de blog.",
-      "href": "https://supertext.com/business/en/blog/genderfair"
+      "href": "https://supertext.com/business/de/blog/genderfair"
     },
     "firstRunExperienceToggle": {
-      "text": "Cliquez sur un mot ou sélectionnez-en plusieurs pour obtenir des alternatives.",
+      "text": "Cliquez sur un mot ou sélectionnez plusieurs mots pour obtenir des alternatives.",
       "link": "Voir plus"
     },
     "userLimits": {
-      "signupButton": "S’inscrire",
-      "loginButton": "Se connecter",
+      "signupButton": "S'inscrire",
+      "loginButton": "S'inscrire",
       "notAuthenticated": {
         "textLimit": {
-          "header": "Voulez-vous traduire des textes plus longs?",
-          "body": "Vous avez atteint le nombre maximal de {0} caractères. En vous enregistrant, vous bénéficiez de deux fois plus de capacités de traduction."
+          "header": "Vous souhaitez traduire des textes plus longs ?",
+          "body": "Vous avez atteint le nombre maximal de {0} caractères. Si vous vous inscrivez, vous recevrez le double de la traduction."
         },
         "fileLimit": {
-          "header": "Enregistrez-vous maintenant et traduisez et traitez jusqu’à 3 documents par jour."
+          "header": "Inscrivez-vous maintenant et traduisez et modifiez jusqu'à 3 documents par jour."
         },
         "fileSize": {
-          "header": "Désolé, ce fichier est un peu trop volumineux.",
-          "body": "Votre document dépasse la taille maximale de {0} Mo. En vous enregistrant, vous bénéficiez de deux fois plus de capacités de traduction."
+          "header": "Ce fichier est malheureusement un peu trop grand.",
+          "body": "Votre document dépasse la taille maximale de {0} Mo. Si vous vous inscrivez, vous recevrez le double de la traduction."
         },
         "fileCharacters": {
-          "header": "Voulez-vous traduire des documents plus longs?",
-          "body": "Vous avez atteint le nombre maximal de {0} caractères. En vous enregistrant, vous bénéficiez de deux fois plus de capacités de traduction."
+          "header": "Vous souhaitez traduire des documents plus longs ?",
+          "body": "Vous avez atteint le nombre maximal de {0} caractères. Si vous vous inscrivez, vous recevrez le double de la traduction."
         }
       },
       "authenticated": {
@@ -972,11 +972,11 @@
           "body": "Vous avez atteint le nombre maximal de {0} caractères."
         },
         "fileLimit": {
-          "header": "Maximum atteint – vous aurez droit à 3 autres fichiers demain.",
-          "body": "Vous avez atteint le nombre maximum de 3 documents par jour."
+          "header": "Maximum atteint - demain, 3 fichiers supplémentaires seront à votre disposition.",
+          "body": "Vous avez atteint le nombre maximal de 3 documents par jour."
         },
         "fileSize": {
-          "header": "Désolé, ce fichier est un peu trop volumineux.",
+          "header": "Ce fichier est malheureusement un peu trop grand.",
           "body": "Votre document dépasse la taille maximale de {0} Mo."
         },
         "fileCharacters": {
@@ -986,85 +986,85 @@
       }
     },
     "navbar": {
-      "why": "Pourquoi Supertext?",
+      "why": "Pourquoi Supertext ?",
       "enterprise": "Pour les entreprises",
-      "upgrade": "Tarifs"
+      "upgrade": "Prix"
     },
     "genderFair": {
-      "GENDERFAIR_NAME": "Genderfair",
+      "GENDERFAIR_NAME": "Équitable en matière de genre",
       "GENDERFAIR_FAIR_BADGE": "Fair",
-      "BETA": "Beta",
-      "GENDERFAIR_ON": "Activé",
-      "GENDERFAIR_OFF": "Désactivé",
-      "GENDERFAIR_DISCLAIMER": "La traduction par IA peut être inégale. Activez l’option pour réduire les partis pris.",
-      "GENDERFAIR_ARTICLE_DISCLAIMER": "Consultez notre article de blog.",
-      "GENDERFAIR_ARTICLE_LINK": "https://supertext.com/business/en/blog/genderfair"
+      "BETA": "Bêta",
+      "GENDERFAIR_ON": "Un",
+      "GENDERFAIR_OFF": "De",
+      "GENDERFAIR_DISCLAIMER": "Les traductions de l'IA peuvent être biaisées. Activez cette fonction pour traduire de manière plus équitable en termes de genre.",
+      "GENDERFAIR_ARTICLE_DISCLAIMER": "Plus d'informations à ce sujet dans notre article de blog.",
+      "GENDERFAIR_ARTICLE_LINK": "https://supertext.com/business/de/blog/genderfair-uebersetzen"
     }
   },
-  "user": "Utilisateur·trice",
+  "user": "Utilisateur:en",
   "content": "Contenu",
   "tone": "Tonalité",
   "settings": {
     "save": "Enregistrer",
     "automatic": "Automatique",
-    "settings": "Paramètres",
+    "settings": "Réglages",
     "themePreferences": {
-      "themePreferences": "Préférences de thème",
-      "DayTheme": "Clair",
+      "themePreferences": "Paramètres de conception",
+      "DayTheme": "Lumineux",
       "NightTheme": "Sombre",
-      "SystemTheme": "Appliquer les paramètres du système"
+      "SystemTheme": "Reprendre la configuration du système"
     },
     "language": "Langue",
     "preferredSource": "Langue source préférée",
     "preferredTarget": "Langue cible préférée",
-    "general": "Général",
-    "generalDescription": "Paramètres généraux de l’application",
-    "appearance": "Apparence",
-    "appearanceDescription": "Contrôler l’apparence de l’application"
+    "general": "Généralités",
+    "generalDescription": "Paramètres généraux de l'application",
+    "appearance": "Présentation",
+    "appearanceDescription": "Contrôler l'apparence de l'application"
   },
   "tooltips": {
     "copyTargetText": "Copier la traduction",
-    "copyTargetTextCompleted": "Copiée!",
-    "clearSourceText": "Effacer le texte",
-    "swapLanguages": "Intervertir les langues",
+    "copyTargetTextCompleted": "Copié !",
+    "clearSourceText": "Supprimer le texte",
+    "swapLanguages": "Inverser les langues",
     "targetTextLength": "Nombre de caractères",
-    "sourceTextCharacterLimit": "Nombre de caractères / maximum",
-    "verifiedTranslations": "Surligner les traductions vérifiées",
+    "sourceTextCharacterLimit": "Nombre de caractères / Maximum",
+    "verifiedTranslations": "Marquer les traductions vérifiées",
     "rephraseTranslation": "Reformuler",
-    "editGlossary": "Éditer glossaire",
-    "deleteGlossary": "Supprimer glossaire",
-    "deleteTerm": "Supprimer terme"
+    "editGlossary": "Modifier le glossaire",
+    "deleteGlossary": "Supprimer le glossaire",
+    "deleteTerm": "Supprimer un terme"
   },
   "popovers": {
-    "exactTerms": "Traduction vérifiée par {0}",
+    "exactTerms": "Traduction vérifiée de {0}",
     "confirmationTitle": "Confirmation",
-    "confirmationText": "Êtes-vous sûr de vouloir poursuivre cette action?"
+    "confirmationText": "Vous voulez vraiment continuer ?"
   },
   "fileTranslation": {
-    "uploading": "Chargement du fichier",
-    "detecting": "Détection de la langue",
-    "translating": "Traduction du fichier",
-    "downloading": "Téléchargement du fichier",
-    "successfulDownload": "Fichier téléchargé avec succès",
+    "uploading": "Le fichier est téléchargé",
+    "detecting": "La langue est reconnue",
+    "translating": "Fichier en cours de traduction",
+    "downloading": "Fichier en cours de téléchargement",
+    "successfulDownload": "Le fichier a été téléchargé",
     "translateAgain": "Traduire un autre fichier",
     "downloadAgain": "Télécharger à nouveau le fichier",
-    "size": "Taille",
-    "type": "Type",
-    "dropFile": "Glisser et déposer un fichier ici",
-    "dropAnotherFile": "Faites glisser un autre fichier ({supportedFileExtensions}) dans cette zone ou",
-    "translateButton": "Traduire en {toTargetLang}",
-    "translateButtonRetry": "Réessayer",
+    "size": "Taille du fichier",
+    "type": "Type de fichier",
+    "dropFile": "Faire glisser le fichier ici",
+    "dropAnotherFile": "Faites glisser un autre fichier ({supportedFileExtensions}) dans ce champ ou",
+    "translateButton": "Traduire sur {toTargetLang} ",
+    "translateButtonRetry": "Essayer à nouveau",
     "cancelButton": "Annuler",
-    "fileUploadButton": "Sélectionner un fichier",
+    "fileUploadButton": "Sélectionnez un fichier",
     "invalidFileType": "Type de fichier non valide",
-    "fileSizeExceeded": "Ce fichier est trop volumineux pour être téléchargé. Les fichiers supérieurs à {0} Mo ne sont actuellement pas pris en charge.",
-    "estimatedTime": "Temps restant estimé: {0}",
-    "expectationExceeded": "La traduction prend plus de temps que prévu. Veuillez patienter…",
-    "ocrHelperText": "Utilisez l’OCR pour les PDF numérisés ou photographiés afin d’améliorer la précision. Pour les PDF contenant uniquement du texte, l’OCR n’est pas nécessaire.",
+    "fileSizeExceeded": "Ce fichier est trop volumineux pour être téléchargé. Les fichiers de plus de {0} Mo ne sont actuellement pas pris en charge.",
+    "estimatedTime": "Estimation du temps restant : {0}",
+    "expectationExceeded": "La traduction prend plus de temps que prévu. Veuillez patienter..",
+    "ocrHelperText": "Utilisez l'OCR pour mieux traiter les PDF scannés ou photographiés. Pour les PDF normaux qui ne contiennent que du texte, l'OCR n'est pas nécessaire.",
     "ocr_options": {
-      "ocr_auto": "Auto",
-      "ocr_off": "Désactivé",
-      "ocr_on": "Activé"
+      "ocr_auto": "Voiture",
+      "ocr_off": "De",
+      "ocr_on": "Un"
     }
   },
   "modeSelectorButton": {
@@ -1076,84 +1076,84 @@
   "politenessDropDown": {
     "POLITENESS_VARIANTS": "Variantes",
     "POLITENESS_BUTTON_TITLE": "Forme linguistique",
-    "POLITENESS_FORMALITY": "Forme de politesse",
+    "POLITENESS_FORMALITY": "Formule de politesse",
     "POLITENESS_AUTOMATIC": "Automatique",
-    "POLITENESS_FORMAL": "Formel",
+    "POLITENESS_FORMAL": "Formellement",
     "POLITENESS_INFORMAL": "Informel",
-    "UNSELECTED": "Formel/informel"
+    "UNSELECTED": "Formule de politesse"
   },
   "lengthMatchingFeature": {
-    "title": "Adaptation de la longueur"
+    "title": "Réglage de la longueur"
   },
   "glossaryFeature": {
     "glossary": "Glossaire",
     "glossaries": "Glossaires",
-    "addGlossary": "Ajouter glossaire",
-    "createGlossary": "Créer glossaire",
+    "addGlossary": "Ajouter un glossaire",
+    "createGlossary": "Créer un glossaire",
     "glossaryName": "Nom du glossaire",
     "sourceTerm": "Terme source",
-    "targetTerm": "Terme cible",
+    "targetTerm": "Date cible",
     "search": "Rechercher un terme",
     "sourceLanguage": "Langue source",
     "targetLanguage": "Langue cible",
     "targetLanguages": "Langues cibles",
-    "languagePair": "Combinaison de langues",
-    "editTerm": "Éditer terme",
-    "verifiedTranslations": "Surligner les traductions vérifiées",
-    "verifyNameError": "Nom du glossaire déjà utilisé.",
-    "deleteGlossary": "Supprimer glossaire",
+    "languagePair": "Paire de langues",
+    "editTerm": "Modifier le terme",
+    "verifiedTranslations": "Marquer les traductions vérifiées",
+    "verifyNameError": "Le nom du glossaire est déjà utilisé",
+    "deleteGlossary": "Supprimer le glossaire",
     "exportGlossary": "Exporter CSV",
     "importGlossary": "Importer CSV",
-    "csvTemplate": "CSV Template",
-    "emptyList": "Aucune entrée de glossaire ajoutée pour l’instant",
-    "termLanguagePairExists": "L’entrée existe déjà dans le glossaire.",
-    "errorImportSuffix": "Une ou plusieurs langues non prises en charge",
-    "errorExportNoEntries": "Aucune entrée disponible pour l’exportation",
-    "errorImportInvalidEntry": "Entrée invalide",
+    "csvTemplate": "Modèle CSV",
+    "emptyList": "Aucune entrée de glossaire n'a encore été ajoutée",
+    "termLanguagePairExists": "L'entrée dans le glossaire existe déjà",
+    "errorImportSuffix": "Une ou plusieurs langues ne sont pas prises en charge",
+    "errorExportNoEntries": "Aucune entrée disponible pour l'exportation",
+    "errorImportInvalidEntry": "Entrée non valide",
     "errorImportInvalidSource": "Langue source invalide",
-    "errorImportInvalidTarget": "Langue cible invalide",
-    "errorImportInvalidTerm": "Terme source ou cible invalide",
-    "termsAddedSuccessfully": "{count} terme(s) ajouté(s) avec succès",
+    "errorImportInvalidTarget": "Langue cible non valide",
+    "errorImportInvalidTerm": "Date source ou cible non valide",
+    "termsAddedSuccessfully": "{count} Terme(s) ajouté(s) avec succès",
     "glossaryDeletedSuccessfully": "Glossaire supprimé avec succès",
     "glossaryCreatedSuccessfully": "Glossaire créé avec succès",
     "glossaryTemplateExportSucessful": "Modèle de glossaire téléchargé avec succès",
-    "noGlossaryDataToExport": "Aucune donnée trouvée dans le glossaire à exporter.",
+    "noGlossaryDataToExport": "Aucune donnée à exporter n'a été trouvée dans le glossaire",
     "csvExportSuccessfully": "CSV exporté avec succès",
     "csvImportSuccessfully": "CSV importé avec succès",
-    "csvImportFailed": "Une erreur s’est produite lors de l’importation du fichier CSV",
-    "csvExportFailed": "Une erreur s’est produite lors de l’exportation du fichier CSV",
-    "csvImportBadHeaders": "Aucun en-tête valide n’a été trouvé dans le fichier CSV importé.",
-    "selectAll": "Tout sélectionner",
+    "csvImportFailed": "Une erreur est survenue lors de l'importation du fichier CSV",
+    "csvExportFailed": "Une erreur est survenue lors de l'exportation du fichier CSV",
+    "csvImportBadHeaders": "Aucun en-tête valide trouvé dans le fichier CSV importé",
+    "selectAll": "Sélectionner tout",
     "reset": "Réinitialiser",
     "autoFill": "Remplissage automatique",
     "addTerms": "Ajouter un terme",
     "addAndRepeat": "Ajouter et répéter"
   },
-  "on": "Activé",
-  "off": "Désactivé",
+  "on": "Un",
+  "off": "De",
   "add": "Ajouter",
   "create": "Créer",
   "delete": "Supprimer",
   "save": "Enregistrer",
   "cancel": "Annuler",
-  "areYouSure": "Êtes-vous sûr?",
+  "areYouSure": "Vous êtes sûr ?",
   "apply": "Appliquer",
   "undoButton": "Annuler",
-  "redoButton": "Rétablir",
+  "redoButton": "Répéter",
   "backButton": "Retour",
-  "editorPlaceholder": "Insérer le texte à traduire ici",
-  "login": "Connexion",
-  "logout": "Déconnexion",
-  "news": "Actualités",
-  "noNotifications": "Il n’y a rien à afficher pour le moment.",
-  "manual": "Guide d’utilisation",
+  "editorPlaceholder": "Insérer ici le texte à traduire",
+  "login": "S'inscrire",
+  "logout": "Se désinscrire",
+  "news": "Nouvelles",
+  "noNotifications": "Il n'y a pas de nouvelles pour le moment.",
+  "manual": "Guide de l'utilisateur",
   "searchLanguage": "Rechercher une langue",
-  "identifyLanguage": "Identifier la langue",
-  "identifyPivot": "Reconnaître la langue première",
-  "identifiedNativeLanguage": "Reconnue langue première",
-  "nativeLanguage": "Langue première",
-  "chooseLanguage": "Sélectionner la langue cible",
-  "detected": "langue identifiée",
+  "identifyLanguage": "Reconnaître la langue",
+  "identifyPivot": "Reconnaître sa langue maternelle",
+  "identifiedNativeLanguage": "Langue maternelle reconnue",
+  "nativeLanguage": "Langue maternelle",
+  "chooseLanguage": "Choisir la langue cible",
+  "detected": "reconnu",
   "mixed": "mélangé",
   "word": "Mot",
   "translation": "Traduction",
@@ -1172,7 +1172,7 @@
     "en-GB": "Anglais (UK)",
     "en-US": "Anglais (US)",
     "es": "Espagnol",
-    "fi": "Finnois",
+    "fi": "Finlandais",
     "fr": "Français",
     "fr-CH": "Français (Suisse)",
     "fr-FR": "Français (France)",
@@ -1191,7 +1191,7 @@
     "pt": "Portugais",
     "pt-BR": "Portugais (Brésil)",
     "pt-PT": "Portugais (Portugal)",
-    "rm": "Romanche",
+    "rm": "Rhéto-roman",
     "ru": "Russe",
     "sk": "Slovaque",
     "sl": "Slovène",
@@ -1207,7 +1207,7 @@
   "languageVariants": {
     "de-AT": "AT",
     "de-CH": "CH",
-    "de-DE": "DE",
+    "de-DE": "FR",
     "en-AU": "AU",
     "en-CA": "CA",
     "en-GB": "UK",
@@ -1248,94 +1248,94 @@
   },
   "languagesFrom": {
     "x-mixed": "de plusieurs langues",
-    "cs": "du tchèque",
-    "da": "du danois",
-    "de": "de l’allemand",
-    "de-CH": "de l’allemand (Suisse)",
-    "de-DE": "de l’allemand (Allemagne)",
-    "de-AT": "de l’allemand (Autriche)",
-    "en": "de l’anglais",
-    "en-AU": "de l’anglais (Australie)",
-    "en-CA": "de l’anglais (Canada)",
-    "en-GB": "de l’anglais (UK)",
-    "en-US": "de l’anglais (US)",
-    "es": "de l’espagnol",
-    "fi": "du finnois",
-    "fr": "du français",
-    "fr-CH": "du français (Suisse)",
-    "fr-FR": "du français (France)",
-    "gsw": "du suisse allemand",
-    "gsw-u-sd-chbe": "du suisse allemand (Berne)",
-    "gsw-u-sd-chzh": "du suisse allemand (Zurich)",
-    "hu": "de l’hongrois",
-    "it": "de l’italien",
-    "it-CH": "de l’italien (Suisse)",
-    "it-IT": "de l’italien (Italie)",
-    "ja": "du japonais",
-    "ko": "du coréen",
-    "nb": "du norvégien",
-    "nl": "du néerlandais",
-    "pl": "du polonais",
-    "pt": "du portugais",
-    "pt-BR": "du portugais (Brésil)",
-    "pt-PT": "du portugais (Portugal)",
-    "rm": "du romanche",
-    "ru": "du russe",
-    "sk": "du slovaque",
-    "sl": "du slovène",
-    "sq": "de l’albanais",
-    "sr": "du serbe",
-    "sr-Cyrl": "du serbe (cyrillique)",
-    "sr-Latn": "du serbe (latin)",
-    "sv": "du suédois",
-    "zh": "du chinois",
-    "zh-Hans": "du chinois (simplifié)",
-    "zh-Hant": "du chinois (traditionnel)"
+    "cs": "de tchèque",
+    "da": "de danois",
+    "de": "de l'allemand",
+    "de-CH": "de l'allemand (Suisse)",
+    "de-DE": "de l'allemand (Allemagne)",
+    "de-AT": "de l'allemand (Autriche)",
+    "en": "de l'anglais",
+    "en-AU": "d'anglais (Australie)",
+    "en-CA": "de l'anglais (Canada)",
+    "en-GB": "de l'anglais (UK)",
+    "en-US": "de l'anglais (US)",
+    "es": "de l'espagnol",
+    "fi": "de finlandais",
+    "fr": "de français",
+    "fr-CH": "de français (Suisse)",
+    "fr-FR": "de français (France)",
+    "gsw": "de suisse allemand",
+    "gsw-u-sd-chbe": "de suisse allemand (Berne)",
+    "gsw-u-sd-chzh": "de suisse allemand (Zurich)",
+    "hu": "de hongrois",
+    "it": "de l'italien",
+    "it-CH": "de l'italien (Suisse)",
+    "it-IT": "de l'italien (Italie)",
+    "ja": "de japonais",
+    "ko": "de Coréen",
+    "nb": "de norvégien",
+    "nl": "de néerlandais",
+    "pl": "de polonais",
+    "pt": "de portugais",
+    "pt-BR": "de portugais (Brésil)",
+    "pt-PT": "de portugais (Portugal)",
+    "rm": "de romanche",
+    "ru": "de russe",
+    "sk": "de slovaque",
+    "sl": "de slovène",
+    "sq": "de l'albanais",
+    "sr": "de serbe",
+    "sr-Cyrl": "de serbe (cyrillique)",
+    "sr-Latn": "de serbe (latin)",
+    "sv": "de suédois",
+    "zh": "de chinois",
+    "zh-Hans": "de chinois (simplifié)",
+    "zh-Hant": "de chinois (traditionnel)"
   },
   "languagesTo": {
-    "cs": "en tchèque",
-    "da": "en danois",
+    "cs": "vers le tchèque",
+    "da": "vers le danois",
     "de": "en allemand",
     "de-CH": "en allemand (Suisse)",
     "de-DE": "en allemand (Allemagne)",
-    "de-AT": "en allemand (Autriche)",
-    "en": "en anglais",
-    "en-AU": "en anglais (Australie)",
-    "en-CA": "en anglais (Canada)",
-    "en-GB": "en anglais (UK)",
-    "en-US": "en anglais (US)",
-    "es": "en espagnol",
-    "fi": "en finnois",
-    "fr": "en français",
+    "de-AT": "vers l'allemand (Autriche)",
+    "en": "vers l'anglais",
+    "en-AU": "vers l'anglais (Australie)",
+    "en-CA": "vers l'anglais (Canada)",
+    "en-GB": "vers l'anglais (UK)",
+    "en-US": "vers l'anglais (US)",
+    "es": "vers l'espagnol",
+    "fi": "en finlandais",
+    "fr": "vers le français",
     "fr-CH": "en français (Suisse)",
-    "fr-FR": "en français (France)",
-    "gsw": "en suisse allemand",
-    "gsw-u-sd-chbe": "en suisse allemand (Berne)",
-    "gsw-u-sd-chzh": "en suisse allemand (Zurich)",
-    "hu": "en hongrois",
-    "it": "en italien",
-    "it-CH": "en italien (Suisse)",
-    "it-IT": "en italien (Italie)",
-    "ja": "en japonais",
-    "ko": "en coréen",
-    "nb": "en norvégien",
-    "nl": "en néerlandais",
-    "pl": "en polonais",
-    "pt": "en portugais",
-    "pt-BR": "en portugais (Brésil)",
-    "pt-PT": "en portugais (Portugal)",
-    "rm": "en romanche",
-    "ru": "en russe",
-    "sk": "en slovaque",
-    "sl": "en slovène",
-    "sq": "en albanais",
-    "sr": "en serbe",
-    "sr-Cyrl": "en serbe (cyrillique)",
-    "sr-Latn": "en serbe (latin)",
-    "sv": "en suédois",
-    "zh": "en chinois",
-    "zh-Hans": "en chinois (simplifié)",
-    "zh-Hant": "en chinois (traditionnel)"
+    "fr-FR": "vers le français (France)",
+    "gsw": "vers le suisse allemand",
+    "gsw-u-sd-chbe": "vers le suisse allemand (Berne)",
+    "gsw-u-sd-chzh": "vers le suisse allemand (Zurich)",
+    "hu": "vers le hongrois",
+    "it": "vers l'italien",
+    "it-CH": "vers l'italien (Suisse)",
+    "it-IT": "vers l'italien (Italie)",
+    "ja": "vers le japonais",
+    "ko": "vers le coréen",
+    "nb": "vers le norvégien",
+    "nl": "vers le néerlandais",
+    "pl": "vers le polonais",
+    "pt": "vers le portugais",
+    "pt-BR": "vers le portugais (Brésil)",
+    "pt-PT": "vers le portugais (Portugal)",
+    "rm": "vers le romanche",
+    "ru": "vers le russe",
+    "sk": "vers le slovaque",
+    "sl": "vers le slovène",
+    "sq": "vers l'albanais",
+    "sr": "vers le serbe",
+    "sr-Cyrl": "vers le serbe (cyrillique)",
+    "sr-Latn": "vers le serbe (latin)",
+    "sv": "vers le suédois",
+    "zh": "vers le chinois",
+    "zh-Hans": "vers le chinois (simplifié)",
+    "zh-Hant": "vers le chinois (traditionnel)"
   },
   "authentication": {
     "authenticate": "Authentification",
@@ -1343,85 +1343,85 @@
     "insertApiKey": "Saisissez ici votre clé API"
   },
   "errors": {
-    "unknownError": "Une erreur inconnue s’est produite.",
-    "serviceUnavailable": "Service indisponible: {0}"
+    "unknownError": "Une erreur inconnue s'est produite.",
+    "serviceUnavailable": "Service non disponible : {0}"
   },
   "notifications": {
     "info": {
-      "waitingForSlowTranslation": "Votre traduction prend un peu plus de temps que d’habitude. Veuillez patienter."
+      "waitingForSlowTranslation": "Votre traduction prend un peu plus de temps que d'habitude. Merci de faire preuve de patience."
     },
     "failure": {
-      "systemUnavailable": "Le système de traduction n’est pas disponible. Veuillez contacter l’administration de systèmes.",
-      "serviceUnavailable": "Service non disponible pour le moment: {0}",
-      "languageDetection": "La langue n’a pas été identifiée.",
-      "languagePairs": "Impossible de collecter les paires de langues.",
-      "translation": "Une erreur s’est produite lors de la traduction.",
-      "fileTranslation": "Une erreur s’est produite lors de la traduction du document.",
-      "fileDetectError": "Erreur lors de l’identification de la langue du document.",
-      "fileMalwareDetected": "Le fichier pourrait contenir de logiciels malveillants et a été rejeté."
+      "systemUnavailable": "Le système de traduction n'est pas disponible. Veuillez contacter votre:administrateur système.",
+      "serviceUnavailable": "Service momentanément indisponible : {0}",
+      "languageDetection": "La langue n'a pas été reconnue.",
+      "languagePairs": "Les paires de langues n'ont pas pu être enregistrées.",
+      "translation": "Une erreur est survenue pendant la traduction.",
+      "fileTranslation": "Une erreur s'est produite lors de la traduction de votre document.",
+      "fileDetectError": "Erreur de reconnaissance de la langue du document.",
+      "fileMalwareDetected": "Le fichier pourrait contenir un malware et a été refusé"
     }
   },
   "endpointServices": {
     "translate": "Service de traduction",
     "languages": "Service de traduction",
-    "usage": "Service d’authentification",
+    "usage": "Service d'authentification",
     "translate_document": "Service de traduction de documents",
     "translate_document_async": "Service de traduction de documents",
-    "detect_language": "Service de reconnaissance des langues",
+    "detect_language": "Service de reconnaissance vocale",
     "split_sentences": "Service de segmentation des phrases",
-    "get_phrases": "Service d’alternatives de phrases",
-    "get_words": "Service d’alternatives de mots"
+    "get_phrases": "Service d'alternatives de phrases",
+    "get_words": "Service des alternatives de mots"
   },
   "alternatives": {
-    "no_alternatives": "aucune alternative"
+    "no_alternatives": "pas d'alternatives"
   },
   "connectivityAlerts": {
     "offline": "Vous êtes actuellement hors ligne.",
-    "online": "Votre connexion internet a été rétablie."
+    "online": "Votre connexion Internet a été rétablie."
   },
   "starstruck": {
     "welcomeMessage": "Salutations,",
     "noEntries": "Aucune entrée trouvée.",
     "placeOrder": "Placer une commande",
-    "or": "",
-    "entriesPerPage": "",
-    "changeLanguage": "",
-    "navbar":{
+    "or": "ou",
+    "entriesPerPage": "Entrées par page",
+    "changeLanguage": "Changer de langue",
+    "navbar": {
       "services": "Services",
-      "whySupertext": "Pourquoi Supertext?",
-      "subscriptionAndPrices": "Abonnement & prix",
-      "forCompanies":"Pour les entreprises",
-      "discoverSolutions":"",
+      "whySupertext": "Pourquoi Supertext ?",
+      "subscriptionAndPrices": "Abonnement &amp; prix",
+      "forCompanies": "Pour les entreprises",
+      "discoverSolutions": "Découvrir la solution business",
       "message": {
-        "part1": "",
-        "part2": "",
-        "part3": "",
-        "part4": "",
-        "part5": ""
+        "part1": "Traduire avec Supertext Entreprises",
+        "part2": "meilleur, plus rapide, moins cher",
+        "part3": "et",
+        "part4": "plus sûr. De",
+        "part5": "0% à 100% automatisé."
       },
-      "languageExpertise": "",
-      "languageExpertiseNav":{
-        "overview": "",
-        "aiTranslation": "",
-        "spacialTranslation": "",
-        "copywriting": "",
-        "editing": "",
-        "consultation": ""
+      "languageExpertise": "Expertise linguistique",
+      "languageExpertiseNav": {
+        "overview": "Aperçu",
+        "aiTranslation": "Traduction et vérification de l'IA",
+        "spacialTranslation": "Traduction spécialisée",
+        "copywriting": "Copywriting",
+        "editing": "Lectorat",
+        "consultation": "Conseil"
       }
     },
     "filter": {
-      "title": "",
+      "title": "Filtre",
       "all": "Tous les",
-      "administrator": "",
-      "licensed": "",
-      "removeFilter": "",
+      "administrator": "Administrateur",
+      "licensed": "Licencié",
+      "removeFilter": "Supprimer le filtre",
       "types": {
-        "role": "",
-        "license": ""
+        "role": "Rouleau",
+        "license": "Licence"
       }
     },
     "search": {
-      "placeholder": "Chercher...",
+      "placeholder": "Chercher ..",
       "userOrders": "Vos commandes",
       "allOrders": "Toutes les commandes",
       "userInvoices": "Vos factures",
@@ -1431,13 +1431,13 @@
       "title": "Tableau de bord",
       "nextSteps": "PROCHAINES ÉTAPES",
       "nextStepsInformation": "Vous êtes à jour, il n'y a pas d'autres démarches à effectuer pour le moment.",
-      "addSettings": "Compléter les réglages",
-      "creditCardDetailsSettings": "Enregistrez les détails de votre carte de crédit pour des flux super faciles",
-      "styleGuidSettings": "Déposer des guides de style et des directives sur la tonalité et les terminologies",
+      "addSettings": "Compléter les données",
+      "creditCardDetailsSettings": "Enregistrez les détails de votre carte de crédit pour faciliter les démarches",
+      "styleGuidSettings": "Déposer des guides de style et des documents sur la tonalité et la terminologie",
       "orders": {
         "title": "Commandes",
         "viewAllOrders": "Voir toutes les commandes",
-        "openOrders": "ACTUALITÉS",
+        "openOrders": "COMMANDES ACTUELLES",
         "noOrders": "Oups, il n'y a pas de commandes en ce moment.",
         "orderDate": "Date de commande",
         "orderDeadlineDate": "Date limite",
@@ -1475,7 +1475,7 @@
       "subscriptions": {
         "title": "Gérer l'abonnement",
         "contactSupertext": "Contacter Supertext",
-        "otherPlans": "Abonnement Autres",
+        "otherPlans": "Modifier l'abonnement",
         "current": "Abonnement actuel",
         "upgrade": "Mise à niveau",
         "downgrade": "Rétrogradation",
@@ -1483,66 +1483,67 @@
         "comparePlans": "Comparer les abonnements",
         "showMore": "Voir plus",
         "cancellationInfo": "Vous avez résilié votre abonnement et il se termine le",
-        "freePlanInfo": "Votre abonnement passera au tarif gratuit Supereasy.",
+        "freePlanInfo": "Votre abonnement passera au tarif gratuit de Supereasy.",
         "customPlanInfo": "Adaptez votre abonnement à vos besoins",
-        "upgradeSubscriptionInformation": "Demandez à votre administrateur de mettre à niveau votre abonnement"
+        "upgradeSubscriptionInformation": "Demandez à votre administrateur de mettre à jour votre abonnement"
       },
       "resources": {
         "title": "Ressources linguistiques"
       },
       "profile": {
         "title": "Profil",
-        "email": "E-Mail",
-        "changeEmail":"",
+        "email": "Courrier électronique",
+        "changeEmail": "Modifier l'adresse e-mail",
         "emailValidation": "Veuillez saisir une adresse e-mail valide",
-        "language": "",
-        "role": "",
-        "roleValidation": "",
-        "license": "",
-        "licenseValidation": "",
-        "comment": "",
+        "language": "Langue",
+        "role": "Rouleau",
+        "roleValidation": "Le rôle doit comporter au moins 2 caractères",
+        "license": "Licence",
+        "licenseValidation": "La licence doit comporter au moins 2 caractères",
+        "comment": "Commentaire",
         "commentValidation": "Le commentaire doit comporter au moins 2 caractères",
-        "company": "",
-        "name": "",
-        "changeName": "",
+        "company": "Entreprise",
+        "name": "Nom",
+        "changeName": "Modifier le nom",
         "nameValidation": "Le nom doit comporter au moins 2 caractères",
         "firstName": "Prénom",
+        "firstNameValidation": "Le prénom doit comporter au moins 2 caractères",
         "lastName": "Nom de famille",
-        "lastNameValidation": "",
-        "addressLime1": "Rue",
-        "addressLine1Validation": "La rue doit être longue d'au moins 2 caractères",
-        "addressLime2": "Adresses Supplémentaire",
+        "lastNameValidation": "Le nom de famille doit comporter au moins 2 caractères",
+        "addressLine1": "Rue",
+        "addressLine1Validation": "La rue doit comporter au moins 2 caractères",
+        "addressLine2": "Complément d'adresse",
         "city": "Ville",
-        "cityValidation": "La ville est requise",
+        "cityValidation": "La ville est nécessaire",
         "postalCode": "Code postal",
         "postalCodeValidation": "Le code postal est requis",
         "country": "Pays",
         "countryValidation": "Veuillez sélectionner un pays",
-        "selectCountry": "Sélectionner le pays",
+        "selectCountry": "Choisir un pays",
         "settings": "Réglages",
         "change": "Modifier",
-        "add":"Ajouter",
+        "add": "Ajouter",
         "delete": "Supprimer",
         "selectOption": "Choisir une option",
-        "isAdmin": "Réel Administration",
-        "noData": "",
+        "isAdmin": "Devenir admin",
+        "noData": "Pas de données",
         "roles": {
-          "admin": "",
-          "user": ""
+          "admin": "Administrateur",
+          "user": "Utilisateur"
         },
-        "costCenter":{
-          "title": "",
-          "changeCostCenter": ""
+        "costCenter": {
+          "title": "Centre de coûts",
+          "changeCostCenter": "Modifier le centre de coûts"
         },
         "sections": {
           "userDetails": {
-            "title": "",
-            "deleteAccountTitle": "Suppression définitive du compte",
-            "deleteAccountConfirmation": "Vous en êtes sûr ? Vous ne pouvez pas annuler cette action",
+            "title": "Votre compte",
+            "deleteAccountTitle": "Supprimer définitivement un compte",
+            "deleteAccountConfirmation": "Vous en êtes sûr ? Vous ne pouvez pas revenir sur cette action.",
             "deleteAccount": "Supprimer un compte",
-            "accountSettings": "",
-            "accountSettingsInfo": "Gérez les paramètres de votre compte ici",
-            "settings": "",
+            "accountSettings": "Compte",
+            "accountSettingsInfo": "Ici, vous pouvez configurer votre compte",
+            "settings": "Réglages",
             "password": {
               "title": "Mot de passe",
               "oldPassword": "Ancien mot de passe",
@@ -1552,24 +1553,24 @@
               "passwordDoNotMatch": "Les mots de passe ne correspondent pas",
               "passwordMustContainAtLeastOneSpecialCharacter": "Le mot de passe doit contenir au moins un caractère spécial",
               "passwordMustContainAtLeastOneNumber": "Le mot de passe doit contenir au moins un chiffre",
-              "passwordMustContainAtLeastOneUppercaseLetter": "Le mot de passe doit contenir au moins une lettre majuscule.",
+              "passwordMustContainAtLeastOneUppercaseLetter": "Le mot de passe doit contenir au moins une lettre majuscule",
               "passwordMustContainAtLeastOneLowercaseLetter": "Le mot de passe doit contenir au moins une lettre minuscule.",
               "passwordMustBeAtLeast8Characters": "Le mot de passe doit comporter au moins 8 caractères."
             }
           },
           "payments": {
             "title": "Informations sur le paiement",
-            "info": "",
+            "info": "Ici, vous pouvez gérer les adresses de facturation standard et les données de carte de crédit",
             "setDefaultMethod": "Définir le mode de paiement par défaut",
             "defaultMethodSetSuccess": "Méthode de paiement par défaut définie",
             "standardMethod": "Méthode de paiement standard",
-            "changePaymentMethod": "",
-            "emailForDelivery": "",
-            "methods":{
-              "title": "",
-              "account": "",
-              "creditCard": "",
-              "noPaymentMethod": ""
+            "changePaymentMethod": "Modifier le mode de paiement",
+            "emailForDelivery": "E-mail pour l'envoi de la facture",
+            "methods": {
+              "title": "Méthode de paiement",
+              "account": "Sur facture",
+              "creditCard": "Carte de crédit",
+              "noPaymentMethod": "Pas de préréglage"
             },
             "settings": {
               "billingAddress": {
@@ -1579,14 +1580,14 @@
                 "authorizationPending": "Autorisation en attente",
                 "authorizationDenied": "Autorisation refusée",
                 "authorizationDeniedInfo": "L'autorisation peut être refusée pour différentes raisons.",
-                "authorizationContactUs": "Prenez contact avec nous ",
+                "authorizationContactUs": "Prenez contact avec nous",
                 "title": "Adresses de facturation",
-                "selectDefaultBillingAddress":"Sélectionnez une adresse de facturation par défaut",
-                "requestInvoiceAsPaymentMethod":"Demandez ici l’utilisation de la facturation comme mode de paiement.",
-                "addBillingAddress": "Ajouter une adresse de facturation",
+                "selectDefaultBillingAddress": "Choisissez une adresse de facturation par défaut",
+                "requestInvoiceAsPaymentMethod": "Demandez ici l'utilisation de la facturation comme mode de paiement.",
+                "addBillingAddress": "Adresse de facturation Ajouter",
                 "editBillingAddress": "Adresse de facturation Modifier",
-                "addNewAddress": "",
-                "noAddedAddresses": ""
+                "addNewAddress": "Ajouter une nouvelle adresse",
+                "noAddedAddresses": "Aucune adresse n'a encore été ajoutée"
               },
               "creditCard": {
                 "title": "Détails de la carte de crédit",
@@ -1595,49 +1596,49 @@
                 "addCard": "Carte ajoutée avec succès",
                 "addCardFailure": "La carte n'a pas pu être ajoutée",
                 "endsWith": "se termine par",
-                "updateCardDetailsInformation":"Demandez à l’administrateur de votre organisation de mettre à jour les détails de la carte de crédit",
-                "expirationMessage": "",
-                "deleteCreditCardConfirmation": "",
-                "deleteCreditCardInformation": "",
-                "noAddedCreditCard": ""
+                "updateCardDetailsInformation": "Demandez à l'administrateur de l'organisation de mettre à jour les détails de la carte de crédit",
+                "expirationMessage": "Votre carte a expiré le",
+                "deleteCreditCardConfirmation": "Êtes-vous sûr de vouloir supprimer cette carte de crédit ?",
+                "deleteCreditCardInformation": "Cela supprimera la carte de crédit de votre compte. Vous ne pourrez pas l'utiliser pour de futures transactions. Les membres de votre équipe pourraient être affectés.",
+                "noAddedCreditCard": "Aucune carte n'a encore été ajoutée"
               }
             }
           },
           "team": {
-            "title": "",
+            "title": "Équipe",
             "userManagement": "Gestion des utilisateurs",
             "addMember": "Ajouter un membre",
             "editMember": "Modifier un membre",
             "removeMember": "Supprimer",
-            "deleteMember": "Supprimer le membre",
-            "deleteMemberConfirmation": "Vous êtes sûr de vous ? Vous ne pouvez pas annuler cette action par la suite.",
-            "availableSeats": "Sièges disponibles ",
-            "filledSeats": "Des places remplies",
+            "deleteMember": "Supprimer un membre",
+            "deleteMemberConfirmation": "Vous en êtes sûr ? Vous ne pouvez pas revenir sur cette action.",
+            "availableSeats": "Places disponibles",
+            "filledSeats": "Places occupées",
             "usersGained": "Utilisateurs gagnés",
-            "increaseSeats": "Relever les sièges",
+            "increaseSeats": "Augmenter les places",
             "increaseSeatsInfo": "Augmenter le nombre de membres admis dans l'entreprise",
-            "teamMembersOverviewTitle": "Membres de l’équipe Vue d’ensemble",
-            "teamMembersOverviewSubtitle": "Gérez les membres de votre équipe ici",
-            "management": "",
-            "actions":{
-              "title":"",
-              "editAll":"",
-              "removeAll": ""
+            "teamMembersOverviewTitle": "Aperçu des membres de l'équipe",
+            "teamMembersOverviewSubtitle": "Ici, vous pouvez gérer les membres de votre équipe",
+            "management": "Gestion",
+            "actions": {
+              "title": "Action",
+              "editAll": "Tout modifier",
+              "removeAll": "Tout supprimer"
             },
-            "increaseNumberOfLicenses": "",
-            "selectLicense": "",
-            "selectRole": "",
-            "roles": { 
-              "teamAdmin": "",
-              "user": ""
+            "increaseNumberOfLicenses": "Augmenter le nombre de licences",
+            "selectLicense": "Sélectionner la licence...",
+            "selectRole": "Sélectionner un rôle...",
+            "roles": {
+              "teamAdmin": "Administrateur",
+              "user": "Utilisateur"
             }
           }
         }
       },
-      "subscription":{
-        "subscriptionFreeInfo":"",
-        "comparePlans": "",
-        "addLicenses": ""
+      "subscription": {
+        "subscriptionFreeInfo": "Les utilisateurs sans licence ont accès à AI Translation Free.",
+        "comparePlans": "Comparer les abonnements",
+        "addLicenses": "ajouter des licences supplémentaires."
       },
       "delivery": {
         "title": "Livraison",
@@ -1656,51 +1657,51 @@
         "revisionRequest": "Demander une révision",
         "submitFile": "Demander une révision",
         "uploadFiles": "Télécharger des documents",
-        "messagePlaceholder": "Par exemple, un bon style frais, nous sommes très satisfaits, dans le dernier paragraphe, il manque deux arguments, nous allons l’insérer nous-mêmes.",
+        "messagePlaceholder": "par ex. un bon style frais, nous sommes très satisfaits, il manque deux arguments dans le dernier paragraphe, nous allons les insérer nous-mêmes.",
         "ratingOptions": {
-          "super": "Superbe",
-          "good": "Bien",
-          "insufficient": "Insuffisante"
+          "super": "Super",
+          "good": "Bon",
+          "insufficient": "Insuffisant"
         }
       }
     },
-    "footer":{
-      "contact": "",
-      "newsletter": "",
-      "newsletterDescription": "",
-      "newsletterDisclaimer": "",
-      "yourEmail": "",
-      "freelancerRegistration": "",
-      "servicesTitle": "",
+    "footer": {
+      "contact": "Contact",
+      "newsletter": "Bulletin d'information",
+      "newsletterDescription": "Pour tous ceux qui s'intéressent aux langues, à la technologie et à la créativité",
+      "newsletterDisclaimer": "En vous inscrivant, vous acceptez notre politique de confidentialité et vous donnez votre accord pour recevoir des mises à jour de notre entreprise.",
+      "yourEmail": "Votre adresse e-mail",
+      "freelancerRegistration": "Inscription des freelances",
+      "servicesTitle": "SERVICES",
       "services": {
-        "translation": "",
-        "expertise": "",
-        "editing": "",
-        "copywriting": "",
-        "consulting": "",
-        "forBusiness": ""
+        "translation": "Traduction et vérification AI",
+        "expertise": "Traduction spécialisée",
+        "editing": "Lectorat",
+        "copywriting": "Copywriting",
+        "consulting": "Conseil",
+        "forBusiness": "Pour les entreprises"
       },
-      "knowledgeTitle": "",
+      "knowledgeTitle": "INFORMATIONS",
       "knowledge": {
-        "expertise": "",
-        "whySupertext": "",
-        "technology": "",
-        "references": "",
-        "faq": "",
-        "blog": ""
+        "expertise": "Expertise linguistique",
+        "whySupertext": "Pourquoi Supertext",
+        "technology": "Technologie",
+        "references": "Références",
+        "faq": "FAQ",
+        "blog": "Blog"
       },
-      "companyTitle": "",
+      "companyTitle": "ENTREPRISE",
       "company": {
-        "contact": "",
-        "aboutSupertext": "",
-        "careers": ""
+        "contact": "Contact",
+        "aboutSupertext": "À propos de Supertext",
+        "careers": "Travailler chez Supertext"
       },
       "legal": {
-        "imprint": "",
-        "terms": "",
-        "privacy": "",
-        "dataProtection": "",
-        "media": ""
+        "imprint": "Mentions légales",
+        "terms": "CONDITIONS GÉNÉRALES DE VENTE",
+        "privacy": "Déclaration de confidentialité",
+        "dataProtection": "Protection des données",
+        "media": "Médias"
       }
     }
   }

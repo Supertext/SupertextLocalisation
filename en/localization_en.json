@@ -1134,6 +1134,7 @@
   "add": "Add",
   "create": "Create",
   "delete": "Delete",
+  "remove": "Remove",
   "save": "Save",
   "cancel": "Cancel",
   "areYouSure": "Are you sure?",
@@ -1360,45 +1361,45 @@
       "fileDetectError": "Failed to recognise the document language.",
       "fileMalwareDetected": "File may contain malware and got rejected.",
       "settings": {
-        "deleteBillingAddress": "An error occurred while updating the billing address",
-        "updatePassword": "An error occurred when updating the password",
-        "updateDefaultBillingAddress": "An error occurred while updating the billing address",
-        "updateCustomerProfile": "An error occurred while updating the profile",
-        "updateBillingAddress": "An error occurred while updating the billing address",
-        "changeDetaultPaymentMethod": "An error occurred when trying to change the default payment method",
-        "fetchCustomerProfile": "The customer profile could not be retrieved",
-        "addCreditCardDetails": "An error occurred while adding the card details",
-        "requestBillingPermission": "An error occurred when requesting the invoice authorization",
-        "deleteCreditCard": "An error occurred while deleting the card details"
+        "deleteBillingAddress": "Something went wrong while updating billing address",
+        "updatePassword": "Something went wrong while updating the password",
+        "updateDefaultBillingAddress": "Something went wrong while updating billing address",
+        "updateCustomerProfile": "Something went wrong while updating the profile",
+        "updateBillingAddress": "Something went wrong while updating billing address",
+        "changeDetaultPaymentMethod": "Something went wrong while trying to change the default payment method",
+        "fetchCustomerProfile": "Could not fetch customer profile",
+        "addCreditCardDetails": "Something went wrong while trying to add your card details",
+        "requestBillingPermission": "Something went wrong while requesting billing permission",
+        "deleteCreditCard": "Something went wrong while trying to delete your card details"
       },
       "team": {
-        "addMember": "An error occurred when inviting the user to the team",
-        "changeRole": "An error occurred when changing the role of the team member",
-        "editMember": "An error occurred while editing the team member",
-        "removeMember": "An error occurred when removing the user from the team"
+        "addMember": "Something went wrong while inviting user to team",
+        "changeRole": "Something went wrong while changing the team member role",
+        "editMember": "Something went wrong while editing the team member",
+        "removeMember": "Something went wrong while removing user from team"
       },
       "subscription": {
-        "cancel": "An error occurred when canceling the subscription",
-        "update": "An error occurred while updating the subscription"
+        "cancel": "Something went wrong while cancelling subscription",
+        "update": "Something went wrong while updating subscription"
       }
     },
     "success": {
       "settings": {
         "deleteBillingAddress": "Billing address deleted",
         "updatePassword": "Password updated",
-        "updateCustomerProfile": "User profile updated",
+        "updateCustomerProfile": "User Profile updated",
         "updateBillingAddress": "Billing address updated",
         "deleteCreditCard": "Card details successfully deleted"
       },
       "team": {
-        "addMember": "User successfully invited to the team",
-        "changeRole": "Role of the team member successfully changed",
-        "editMember": "Team member successfully processed",
-        "removeMember": "User successfully removed from the team"
+        "addMember": "User successfully invited to team",
+        "changeRole": "Team member role successfully changed",
+        "editMember": "Team member successfully edited.",
+        "removeMember": "User successfully removed from team"
       },
       "subscription": {
-        "cancel": "Subscription successfully canceled",
-        "update": "Subscription successfully updated"
+        "cancel": "Subscription cancelled successfully",
+        "update": "Subscription updated successfully"
       }
     }
   },
@@ -1419,6 +1420,23 @@
   "connectivityAlerts": {
     "offline": "You are currently offline.",
     "online": "Your internet connection has been restored."
+  },
+  "translator": {
+    "sourcePlaceholderTitle": "Type to translate",
+    "sourcePlaceholderDescription": "Or drang and drop documents to translate with our AI Translator",
+    "features": {
+      "infoPopover": {
+        "title": "Function",
+        "rephrase": {
+          "title": "Rephrase",
+          "description": "Select <highlight>multiple words</highlight> to rephrase."
+        },
+        "wordAlternative": {
+          "title": "Alternative word choice",
+          "description": "Click on a <highlight>word</highlight> to find alternatives."
+        }
+      }
+    }
   },
   "starstruck": {
     "welcomeMessage": "Hello,",
@@ -1451,17 +1469,20 @@
         "consultation": "Consultation"
       }
     },
+    "fileTranslation": {
+      "uploadFile": "Upload file"
+    },
     "filter": {
       "title": "Filter",
       "all": "All",
+      "user": "User",
       "administrator": "Administrator",
       "licensed": "Licensed",
       "removeFilter": "Remove filter",
       "types": {
         "role": "Role",
         "license": "License"
-      },
-      "user": "User"
+      }
     },
     "search": {
       "placeholder": "Search...",
@@ -1470,14 +1491,40 @@
       "userInvoices": "Your invoices",
       "allInvoices": "All invoices"
     },
+    "humanVerification": {
+      "verifyButton": "Verify by expert",
+      "stepTitle": "Verify by expert - Step",
+      "stepDescription": "The AI translation is reviewed and verified by a supertext expert. You will receive a text file with a certificate for download.",
+      "nextStepButton": "Next step",
+      "orderVerification": "Order verification",
+      "authorizePayment": "Authorize payment",
+      "unsupportedLanguagePair": {
+        "title": "Not yet supported for expert review",
+        "description": "No worries! Expert review will soon be available for more language pairs."
+      },
+      "stepOne": {
+        "title": "Verification",
+        "payWithInvoice": "Payment will be made by invoice.",
+        "payWithCard": "Payment will be made using your stored credit card information.",
+        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card details."
+      }
+    },
+    "couponCode": {
+      "placeholder": "Add a discount code",
+      "tooltip": "Use your coupon code to get a discount on your order."
+    },
     "dashboard": {
       "title": "Dashboard",
-      "nextSteps": "NEXT STEPS",
-      "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
-      "addSettings": "Add settings",
-      "creditCardDetailsSettings": "Store your credit card details for super-easy flows",
-      "styleGuidSettings": "Store style guides and guidelines for tonality and terminology",
+      "overview": {
+        "title": "Overview",
+        "nextSteps": "NEXT STEPS",
+        "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
+        "addSettings": "Add details",
+        "creditCardDetailsSettings": "Enter your credit card details for easy processing",
+        "styleGuidSettings": "Store style guides and documents on tonality and terminology"
+      },
       "orders": {
+        "back": "Back",
         "title": "Orders",
         "viewAllOrders": "View all orders",
         "openOrders": "CURRENT EDITIONS",
@@ -1501,8 +1548,7 @@
           "invoiceDate": "Order time",
           "invoiceAddress": "Billing address",
           "contactPersonTitle": "PROJECT MANAGEMENT"
-        },
-        "back": "Back"
+        }
       },
       "invoices": {
         "title": "Invoices",
@@ -1634,7 +1680,7 @@
             "defaultMethodSetSuccess": "Default payment method set",
             "standardMethod": "Standard payment method",
             "changePaymentMethod": "Change payment method",
-            "emailForDelivery": "‘E-mail for invoice delivery",
+            "emailForDelivery": "E-mail for invoice delivery",
             "methods": {
               "title": "Payment method",
               "account": "On invoice",
@@ -1697,11 +1743,11 @@
             "increaseNumberOfLicenses": "Increase number of licenses",
             "selectLicense": "Select license...",
             "selectRole": "Select role...",
+            "roleChangeWarning": "Your Team Administrator changed your role. Logout and login to refresh your account.",
             "roles": {
               "teamAdmin": "TeamAdmin",
               "user": "User"
-            },
-            "roleChangeWarning": "Your Team Administrator has changed their role. Please log out and in to update your account."
+            }
           }
         }
       },
@@ -1728,79 +1774,7 @@
           "good": "Good",
           "insufficient": "Insufficient"
         }
-      },
-      "overview": {
-        "title": "Overview",
-        "nextSteps": "NEXT STEPS",
-        "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
-        "addSettings": "Add information",
-        "creditCardDetailsSettings": "Store your credit card details for easy processing",
-        "styleGuidSettings": "Store style guides and documents on tonality and terminology"
       }
-    },
-    "footer": {
-      "contact": "Contact us",
-      "newsletter": "Newsletter",
-      "newsletterDescription": "For anyone interested in language, technology and creativity",
-      "newsletterDisclaimer": "By registering, you agree to our privacy policy and give your consent to receive updates from our company.",
-      "yourEmail": "Your e-mail address",
-      "freelancerRegistration": "Freelancer registration",
-      "servicesTitle": "SERVICES",
-      "services": {
-        "translation": "AI translation &amp; verification",
-        "expertise": "Specialized translation",
-        "editing": "Proofreading",
-        "copywriting": "Copywriting",
-        "consulting": "Consulting",
-        "forBusiness": "For companies"
-      },
-      "knowledgeTitle": "KNOWLEDGE",
-      "knowledge": {
-        "expertise": "Language expertise",
-        "whySupertext": "Why Supertext",
-        "technology": "Technology",
-        "references": "References",
-        "faq": "FAQ",
-        "blog": "Blog"
-      },
-      "companyTitle": "COMPANY",
-      "company": {
-        "contact": "Contact us",
-        "aboutSupertext": "About Supertext",
-        "careers": "Working at Supertext"
-      },
-      "legal": {
-        "imprint": "Imprint",
-        "terms": "GTC",
-        "privacy": "Privacy policy",
-        "dataProtection": "Data protection",
-        "media": "Media"
-      }
-    },
-    "fileTranslation": {
-      "uploadFile": "Upload file"
-    },
-    "humanVerification": {
-      "verifyButton": "Verify by Expert:in",
-      "stepTitle": "Verify by Expert:in - Step",
-      "stepDescription": "The AI translation is checked and verified by a Supertext expert. You will receive a text file with a certificate to download.",
-      "nextStepButton": "Next step",
-      "orderVerification": "Order verification",
-      "authorizePayment": "Authorize payment",
-      "unsupportedLanguagePair": {
-        "title": "is not yet supported for the expert check.",
-        "description": "No problem! The expert check will soon be available for other language pairs"
-      },
-      "stepOne": {
-        "title": "Verification",
-        "payWithInvoice": "Payment is made by invoice.",
-        "payWithCard": "Payment is made using your stored credit card details.",
-        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Update your credit card details."
-      }
-    },
-    "couponCode": {
-      "placeholder": "Add discount code",
-      "tooltip": "Use your voucher code to get a discount on your order."
     },
     "landingPage": {
       "languageServices": {
@@ -1968,11 +1942,11 @@
     },
     "featureComparison": {
       "plans": {
-        "free": "Free of charge",
+        "free": "Free",
         "essential": "Essential",
         "advanced": "Advanced",
         "pro": "Pro",
-        "enterprise": "The company"
+        "enterprise": "Enterprise"
       },
       "categories": {
         "languages": {
@@ -1981,22 +1955,22 @@
             "languages": {
               "name": "Languages",
               "description": "",
-              "all": "Albanian, Chinese, Danish, German, English, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Romansh, Russian, Swedish, Serbian, Slovakian, Slovenian, Spanish, Czech, Hungarian, Swiss German dialect",
-              "free": "English, French, German, Italian, Romansh, Swiss German dialect",
-              "essential": "English, French, German, Italian, Romansh, Swiss German dialect",
-              "advanced": "Albanian, Chinese, Danish, German, English, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Romansh, Russian, Swedish, Serbian, Slovakian, Slovenian, Spanish, Czech, Hungarian, Swiss German dialect",
-              "pro": "Albanian, Chinese, Danish, German, English, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Romansh, Russian, Swedish, Serbian, Slovakian, Slovenian, Spanish, Czech, Hungarian, Swiss German dialect",
-              "enterprise": "Albanian, Chinese, Danish, German, English, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Romansh, Russian, Swedish, Serbian, Slovakian, Slovenian, Spanish, Czech, Hungarian, Swiss German dialect"
+              "all": "Albanian, Chinese, Czech, Danish, Dutch, English, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Swedish, Slovak, Slovenian, Spanish, Swiss German Dialect",
+              "free": "English, French, German, Italian, Romansh, Swiss German Dialect",
+              "essential": "English, French, German, Italian, Romansh, Swiss German Dialect",
+              "advanced": "Albanian, Chinese, Czech, Danish, Dutch, English, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Swedish, Slovak, Slovenian, Spanish, Swiss German Dialect",
+              "pro": "Albanian, Chinese, Czech, Danish, Dutch, English, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Swedish, Slovak, Slovenian, Spanish, Swiss German Dialect",
+              "enterprise": "Albanian, Chinese, Czech, Danish, Dutch, English, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Swedish, Slovak, Slovenian, Spanish, Swiss German Dialect"
             },
             "languageVariants": {
               "name": "Language variants",
               "description": "",
-              "all": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German dialect (BE, ZH)",
-              "free": "English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Swiss German dialect (BE, ZH)",
-              "essential": "English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Swiss German dialect (BE, ZH)",
-              "advanced": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German dialect (BE, ZH)",
-              "pro": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German dialect (BE, ZH)",
-              "enterprise": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German dialect (BE, ZH)"
+              "all": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German Dialect (BE, ZH)",
+              "free": "English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Swiss German Dialect (BE, ZH)",
+              "essential": "English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Swiss German Dialect (BE, ZH)",
+              "advanced": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German Dialect (BE, ZH)",
+              "pro": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German Dialect (BE, ZH)",
+              "enterprise": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German Dialect (BE, ZH)"
             }
           }
         },
@@ -2004,37 +1978,37 @@
           "title": "Security",
           "features": {
             "encryptedTransfer": {
-              "name": "Encrypted transmission",
-              "description": "Your data is transmitted securely. They can never be read by third parties."
+              "name": "Encrypted transfer",
+              "description": "Your information is transferred securely. It can never be read by third parties."
             },
             "immediateTextDeletion": {
-              "name": "Immediate deletion of the text",
+              "name": "Immediate text deletion",
               "description": "All texts are deleted immediately after translation and can never be read by third parties."
             },
             "singleSignOn": {
               "name": "Single sign-on (SSO)",
-              "description": "Log in with your company's login details. Available for teams with more than 100 seats in some plans.",
-              "advanced": "From 10 places",
-              "pro": "From 10 places"
+              "description": "Use organizational credentials to log in. Available for teams with 100+ seats in some plans.",
+              "advanced": "From 10 seats",
+              "pro": "From 10 seats"
             },
             "teamAdministration": {
-              "name": "Team management",
-              "description": "Manage the users in your organization. Add members, view usage and control costs with centralized billing."
+              "name": "Team administration",
+              "description": "Manage users in your organisation. Add members, view and control usage, and be in control of costs with centralised billing."
             },
             "privateHosting": {
-              "name": "Private cloud or on-site hosting",
-              "description": "Private hosting options for additional security.",
+              "name": "Private cloud or on-premise hosting",
+              "description": "Private hosting options for added security.",
               "enterprise": "Optional"
             },
             "enterpriseTLSCertificates": {
-              "name": "TLS/SSL certificates for companies",
+              "name": "Enterprise TLS/SSL certificates",
               "description": "",
               "enterprise": "Optional"
             }
           }
         },
         "textTranslation": {
-          "title": "Text translation",
+          "title": "Text Translation",
           "features": {
             "unlimitedTextTranslation": {
               "name": "Unlimited text translation",
@@ -2043,17 +2017,17 @@
               "essential": "Up to 3,000 characters"
             },
             "lengthControl": {
-              "name": "Checking the length",
-              "description": "Make sure that the length of a translation does not exceed the length of the source text."
+              "name": "Length control",
+              "description": "Ensure that the length of a translation does not exceed the length of its source text."
             }
           }
         },
         "documentTranslation": {
-          "title": "Translation of documents",
+          "title": "Document Translation",
           "features": {
             "unlimitedFileTranslation": {
               "name": "Unlimited file translation",
-              "description": "Upload complete documents and receive an editable translation with the same layout and styling.",
+              "description": "Upload full documents and get an editable translation with the same layout and styling.",
               "free": "0 files per month, per user",
               "essential": "5 files per month, per user",
               "advanced": "20 files per month, per user"
@@ -2072,7 +2046,7 @@
             },
             "pdfFileTypeEdit": {
               "name": "PDF file type (edit)",
-              "description": "PDFs can be edited after translation."
+              "description": "PDFs are editable after translation."
             },
             "videoSubtitleFileTypes": {
               "name": "Video subtitle file types (.srt)",
@@ -2081,21 +2055,21 @@
           }
         },
         "customisation": {
-          "title": "Personalization",
+          "title": "Customisation",
           "features": {
             "formalInformalTone": {
               "name": "Formal/informal tone",
-              "description": "Adapt the tone of the translations to your needs."
+              "description": "Control the tone of translations to fit your needs."
             },
             "fusedTranslation": {
-              "name": "Fused translation",
+              "name": "Fused Translation",
               "description": "Your AI translations improve with every order you place with language experts.",
-              "free": "In brief",
-              "essential": "In brief",
-              "advanced": "In brief",
-              "pro": "In brief",
-              "enterprise": "In brief",
-              "badge": "In brief"
+              "free": "Coming soon",
+              "essential": "Coming soon",
+              "advanced": "Coming soon",
+              "pro": "Coming soon",
+              "enterprise": "Coming soon",
+              "badge": "Coming soon"
             },
             "translationImport": {
               "name": "Translation Import",
@@ -2103,11 +2077,11 @@
             },
             "glossaries": {
               "name": "Glossaries",
-              "description": "Define how certain words are translated."
+              "description": "Define how specific words are translated."
             },
             "styleGuides": {
-              "name": "Style guidelines",
-              "description": "Check aspects such as punctuation, number formatting and more in the translation output."
+              "name": "Style guides",
+              "description": "Control aspects such as punctuation, number formatting, and more in translation outputs."
             },
             "branding": {
               "name": "Branding",
@@ -2119,8 +2093,8 @@
           "title": "Integrations",
           "features": {
             "microsoftOfficeAddIns": {
-              "name": "Microsoft Office add-on modules",
-              "description": "Direct use in Microsoft Word, PowerPoint and Outlook."
+              "name": "Microsoft Office add-ins",
+              "description": "Use directly within Microsoft Word, PowerPoint, and Outlook."
             },
             "api": {
               "name": "API",
@@ -2129,8 +2103,8 @@
               "pro": "Optional"
             },
             "catToolIntegration": {
-              "name": "Integration of CAT tools",
-              "description": "Increase professional translation productivity by using Trados Studio, MemoQ and many other CAT tools.",
+              "name": "CAT tool integration",
+              "description": "Increase professional translation productivity by using from within Trados Studio, MemoQ, and many more CAT tools.",
               "advanced": "Optional",
               "pro": "Optional"
             }
@@ -2140,16 +2114,16 @@
           "title": "Support",
           "features": {
             "supportViaEmail": {
-              "name": "Support by e-mail",
+              "name": "Support via email",
               "description": ""
             },
             "supportViaPhone": {
-              "name": "Telephone support",
+              "name": "Support via phone",
               "description": ""
             },
             "firstResponseTimeGuarantee": {
-              "name": "Guarantee of the first response time",
-              "description": "During office hours (9 a.m. to 6 p.m. CET) from Monday to Friday",
+              "name": "First response time guarantee",
+              "description": "During office hours (9 am to 6 pm CET) from Monday to Friday",
               "free": "",
               "essential": "",
               "advanced": "24 hours",
@@ -2167,23 +2141,44 @@
           }
         }
       }
-    }
-  },
-  "remove": "Remove",
-  "translator": {
-    "sourcePlaceholderTitle": "Tap to translate",
-    "sourcePlaceholderDescription": "Or use drag&amp;drop to translate documents with our AI translator",
-    "features": {
-      "infoPopover": {
-        "title": "Functionality",
-        "rephrase": {
-          "title": "Reformulate",
-          "description": "Select <highlight>several words</highlight> for rephrasing."
-        },
-        "wordAlternative": {
-          "title": "Alternative choice of words",
-          "description": "Click on a <highlight>Word</highlight>to find alternatives."
-        }
+    },
+    "footer": {
+      "contact": "Contact us",
+      "newsletter": "Newsletter",
+      "newsletterDescription": "For anyone interested in language, technology and creativity",
+      "newsletterDisclaimer": "By registering, you agree to our privacy policy and give your consent to receive updates from our company.",
+      "yourEmail": "Your e-mail address",
+      "freelancerRegistration": "Freelancer registration",
+      "servicesTitle": "SERVICES",
+      "services": {
+        "translation": "AI translation &amp; verification",
+        "expertise": "Specialized translation",
+        "editing": "Proofreading",
+        "copywriting": "Copywriting",
+        "consulting": "Consulting",
+        "forBusiness": "For companies"
+      },
+      "knowledgeTitle": "KNOWLEDGE",
+      "knowledge": {
+        "expertise": "Language expertise",
+        "whySupertext": "Why Supertext",
+        "technology": "Technology",
+        "references": "References",
+        "faq": "FAQ",
+        "blog": "Blog"
+      },
+      "companyTitle": "COMPANY",
+      "company": {
+        "contact": "Contact us",
+        "aboutSupertext": "About Supertext",
+        "careers": "Working at Supertext"
+      },
+      "legal": {
+        "imprint": "Imprint",
+        "terms": "GTC",
+        "privacy": "Privacy policy",
+        "dataProtection": "Data protection",
+        "media": "Media"
       }
     }
   }

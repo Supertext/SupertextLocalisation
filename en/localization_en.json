@@ -1358,7 +1358,48 @@
       "translation": "An error occurred during translation.",
       "fileTranslation": "An error occurred during the translation of your document.",
       "fileDetectError": "Failed to recognise the document language.",
-      "fileMalwareDetected": "File may contain malware and got rejected."
+      "fileMalwareDetected": "File may contain malware and got rejected.",
+      "settings": {
+        "deleteBillingAddress": "An error occurred while updating the billing address",
+        "updatePassword": "An error occurred when updating the password",
+        "updateDefaultBillingAddress": "An error occurred while updating the billing address",
+        "updateCustomerProfile": "An error occurred while updating the profile",
+        "updateBillingAddress": "An error occurred while updating the billing address",
+        "changeDetaultPaymentMethod": "An error occurred when trying to change the default payment method",
+        "fetchCustomerProfile": "The customer profile could not be retrieved",
+        "addCreditCardDetails": "An error occurred while adding the card details",
+        "requestBillingPermission": "An error occurred when requesting the invoice authorization",
+        "deleteCreditCard": "An error occurred while deleting the card details"
+      },
+      "team": {
+        "addMember": "An error occurred when inviting the user to the team",
+        "changeRole": "An error occurred when changing the role of the team member",
+        "editMember": "An error occurred while editing the team member",
+        "removeMember": "An error occurred when removing the user from the team"
+      },
+      "subscription": {
+        "cancel": "An error occurred when canceling the subscription",
+        "update": "An error occurred while updating the subscription"
+      }
+    },
+    "success": {
+      "settings": {
+        "deleteBillingAddress": "Billing address deleted",
+        "updatePassword": "Password updated",
+        "updateCustomerProfile": "User profile updated",
+        "updateBillingAddress": "Billing address updated",
+        "deleteCreditCard": "Card details successfully deleted"
+      },
+      "team": {
+        "addMember": "User successfully invited to the team",
+        "changeRole": "Role of the team member successfully changed",
+        "editMember": "Team member successfully processed",
+        "removeMember": "User successfully removed from the team"
+      },
+      "subscription": {
+        "cancel": "Subscription successfully canceled",
+        "update": "Subscription successfully updated"
+      }
     }
   },
   "endpointServices": {
@@ -1419,7 +1460,8 @@
       "types": {
         "role": "Role",
         "license": "License"
-      }
+      },
+      "user": "User"
     },
     "search": {
       "placeholder": "Search...",
@@ -1459,7 +1501,8 @@
           "invoiceDate": "Order time",
           "invoiceAddress": "Billing address",
           "contactPersonTitle": "PROJECT MANAGEMENT"
-        }
+        },
+        "back": "Back"
       },
       "invoices": {
         "title": "Invoices",
@@ -1657,7 +1700,8 @@
             "roles": {
               "teamAdmin": "TeamAdmin",
               "user": "User"
-            }
+            },
+            "roleChangeWarning": "Your Team Administrator has changed their role. Please log out and in to update your account."
           }
         }
       },
@@ -1684,6 +1728,14 @@
           "good": "Good",
           "insufficient": "Insufficient"
         }
+      },
+      "overview": {
+        "title": "Overview",
+        "nextSteps": "NEXT STEPS",
+        "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
+        "addSettings": "Add information",
+        "creditCardDetailsSettings": "Store your credit card details for easy processing",
+        "styleGuidSettings": "Store style guides and documents on tonality and terminology"
       }
     },
     "footer": {
@@ -1723,6 +1775,415 @@
         "privacy": "Privacy policy",
         "dataProtection": "Data protection",
         "media": "Media"
+      }
+    },
+    "fileTranslation": {
+      "uploadFile": "Upload file"
+    },
+    "humanVerification": {
+      "verifyButton": "Verify by Expert:in",
+      "stepTitle": "Verify by Expert:in - Step",
+      "stepDescription": "The AI translation is checked and verified by a Supertext expert. You will receive a text file with a certificate to download.",
+      "nextStepButton": "Next step",
+      "orderVerification": "Order verification",
+      "authorizePayment": "Authorize payment",
+      "unsupportedLanguagePair": {
+        "title": "is not yet supported for the expert check.",
+        "description": "No problem! The expert check will soon be available for other language pairs"
+      },
+      "stepOne": {
+        "title": "Verification",
+        "payWithInvoice": "Payment is made by invoice.",
+        "payWithCard": "Payment is made using your stored credit card details.",
+        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Update your credit card details."
+      }
+    },
+    "couponCode": {
+      "placeholder": "Add discount code",
+      "tooltip": "Use your voucher code to get a discount on your order."
+    },
+    "landingPage": {
+      "languageServices": {
+        "eyebrowHeadline": "ALL LANGUAGE SERVICES"
+      }
+    },
+    "subscriptionPlans": {
+      "free": {
+        "title": "Free",
+        "description": "Description Target group or similar. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "Free of charge",
+        "price_yearly": "Free of charge",
+        "features": {
+          "title": "Included in Starter:",
+          "items": {
+            "0": {
+              "title": "5 languages"
+            },
+            "1": {
+              "title": "Up to 3000 characters"
+            },
+            "2": {
+              "title": "5 files per month (editable)"
+            },
+            "3": {
+              "title": "5 MB maximum file size"
+            },
+            "4": {
+              "title": "Professional verification at the touch of a button (subject to a charge)"
+            },
+            "5": {
+              "title": "Fused translation",
+              "badge": "In brief"
+            }
+          }
+        }
+      },
+      "essential": {
+        "title": "Essential",
+        "description": "Description Target group or similar. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "11,90",
+        "price_yearly": "9.90",
+        "period_monthly": "/ month",
+        "period_yearly": "/ month",
+        "features": {
+          "title": "Everything from \"Starter\", plus:",
+          "items": {
+            "0": {
+              "title": "Maximum data security"
+            },
+            "1": {
+              "title": "Unlimited text translation"
+            },
+            "2": {
+              "title": "20 files per month (editable)"
+            },
+            "3": {
+              "title": "10 MB maximum file size"
+            },
+            "4": {
+              "title": "Excel, PDF and SRT files"
+            },
+            "5": {
+              "title": "E-mail support within 24 hours"
+            }
+          }
+        }
+      },
+      "advanced": {
+        "title": "Advanced",
+        "badge": "Available soon",
+        "description": "Description Target group or similar. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "29,90",
+        "price_yearly": "24,90",
+        "period_monthly": "/ month",
+        "period_yearly": "/ month",
+        "features": {
+          "title": "Everything from \"Essential\", plus:",
+          "items": {
+            "0": {
+              "title": "23 Languages"
+            },
+            "1": {
+              "title": "Unlimited file translations (editable)"
+            },
+            "2": {
+              "title": "20 MB maximum file size"
+            },
+            "3": {
+              "title": "Glossaries"
+            },
+            "4": {
+              "title": "Add-ins for Microsoft Office"
+            },
+            "5": {
+              "title": "Length restriction"
+            },
+            "6": {
+              "title": "Single sign-on (SSO)"
+            }
+          }
+        }
+      },
+      "pro": {
+        "title": "Pro",
+        "badge": "Available soon",
+        "description": "Description Target group or similar. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "59,90",
+        "price_yearly": "49.90",
+        "period_monthly": "/ month",
+        "period_yearly": "/ month",
+        "features": {
+          "title": "Everything from \"Advanced\", plus:",
+          "items": {
+            "0": {
+              "title": "30 MB maximum file size"
+            },
+            "1": {
+              "title": "Style guides"
+            },
+            "2": {
+              "title": "Translation import"
+            },
+            "3": {
+              "title": "E-mail and telephone support within"
+            },
+            "4": {
+              "title": "Personal account manager"
+            },
+            "5": {
+              "title": "Uptime guarantee"
+            },
+            "6": {
+              "title": "Integration in CAT tools (optional)"
+            },
+            "7": {
+              "title": "API access (optional)"
+            }
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "badge": "",
+        "description": "For large organizations with the highest demands eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "price_monthly": "Custom",
+        "price_yearly": "Custom",
+        "period_monthly": "/ month",
+        "period_yearly": "/ month",
+        "features": {
+          "title": "Everything from \"Pro\", plus:",
+          "items": {
+            "0": {
+              "title": "Customized AI models and branding"
+            },
+            "1": {
+              "title": "SaaS, private cloud or on-premises hosting"
+            },
+            "2": {
+              "title": "User-defined TLS/SLL certificates"
+            }
+          }
+        }
+      }
+    },
+    "featureComparison": {
+      "plans": {
+        "free": "Free of charge",
+        "essential": "Essential",
+        "advanced": "Advanced",
+        "pro": "Pro",
+        "enterprise": "The company"
+      },
+      "categories": {
+        "languages": {
+          "title": "Languages",
+          "features": {
+            "languages": {
+              "name": "Languages",
+              "description": "",
+              "all": "Albanian, Chinese, Danish, German, English, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Romansh, Russian, Swedish, Serbian, Slovakian, Slovenian, Spanish, Czech, Hungarian, Swiss German dialect",
+              "free": "English, French, German, Italian, Romansh, Swiss German dialect",
+              "essential": "English, French, German, Italian, Romansh, Swiss German dialect",
+              "advanced": "Albanian, Chinese, Danish, German, English, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Romansh, Russian, Swedish, Serbian, Slovakian, Slovenian, Spanish, Czech, Hungarian, Swiss German dialect",
+              "pro": "Albanian, Chinese, Danish, German, English, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Romansh, Russian, Swedish, Serbian, Slovakian, Slovenian, Spanish, Czech, Hungarian, Swiss German dialect",
+              "enterprise": "Albanian, Chinese, Danish, German, English, French, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Romansh, Russian, Swedish, Serbian, Slovakian, Slovenian, Spanish, Czech, Hungarian, Swiss German dialect"
+            },
+            "languageVariants": {
+              "name": "Language variants",
+              "description": "",
+              "all": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German dialect (BE, ZH)",
+              "free": "English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Swiss German dialect (BE, ZH)",
+              "essential": "English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Swiss German dialect (BE, ZH)",
+              "advanced": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German dialect (BE, ZH)",
+              "pro": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German dialect (BE, ZH)",
+              "enterprise": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German dialect (BE, ZH)"
+            }
+          }
+        },
+        "security": {
+          "title": "Security",
+          "features": {
+            "encryptedTransfer": {
+              "name": "Encrypted transmission",
+              "description": "Your data is transmitted securely. They can never be read by third parties."
+            },
+            "immediateTextDeletion": {
+              "name": "Immediate deletion of the text",
+              "description": "All texts are deleted immediately after translation and can never be read by third parties."
+            },
+            "singleSignOn": {
+              "name": "Single sign-on (SSO)",
+              "description": "Log in with your company's login details. Available for teams with more than 100 seats in some plans.",
+              "advanced": "From 10 places",
+              "pro": "From 10 places"
+            },
+            "teamAdministration": {
+              "name": "Team management",
+              "description": "Manage the users in your organization. Add members, view usage and control costs with centralized billing."
+            },
+            "privateHosting": {
+              "name": "Private cloud or on-site hosting",
+              "description": "Private hosting options for additional security.",
+              "enterprise": "Optional"
+            },
+            "enterpriseTLSCertificates": {
+              "name": "TLS/SSL certificates for companies",
+              "description": "",
+              "enterprise": "Optional"
+            }
+          }
+        },
+        "textTranslation": {
+          "title": "Text translation",
+          "features": {
+            "unlimitedTextTranslation": {
+              "name": "Unlimited text translation",
+              "description": "Translate an unlimited amount of text.",
+              "free": "Up to 1,500 characters",
+              "essential": "Up to 3,000 characters"
+            },
+            "lengthControl": {
+              "name": "Checking the length",
+              "description": "Make sure that the length of a translation does not exceed the length of the source text."
+            }
+          }
+        },
+        "documentTranslation": {
+          "title": "Translation of documents",
+          "features": {
+            "unlimitedFileTranslation": {
+              "name": "Unlimited file translation",
+              "description": "Upload complete documents and receive an editable translation with the same layout and styling.",
+              "free": "0 files per month, per user",
+              "essential": "5 files per month, per user",
+              "advanced": "20 files per month, per user"
+            },
+            "fileEditingAllowed": {
+              "name": "File editing allowed",
+              "description": ""
+            },
+            "maximumFileSize": {
+              "name": "Maximum file size",
+              "description": ""
+            },
+            "microsoftOfficeFileTypes": {
+              "name": "Microsoft Office file types",
+              "description": "Supported formats: Word, Excel, PowerPoint."
+            },
+            "pdfFileTypeEdit": {
+              "name": "PDF file type (edit)",
+              "description": "PDFs can be edited after translation."
+            },
+            "videoSubtitleFileTypes": {
+              "name": "Video subtitle file types (.srt)",
+              "description": ""
+            }
+          }
+        },
+        "customisation": {
+          "title": "Personalization",
+          "features": {
+            "formalInformalTone": {
+              "name": "Formal/informal tone",
+              "description": "Adapt the tone of the translations to your needs."
+            },
+            "fusedTranslation": {
+              "name": "Fused translation",
+              "description": "Your AI translations improve with every order you place with language experts.",
+              "free": "In brief",
+              "essential": "In brief",
+              "advanced": "In brief",
+              "pro": "In brief",
+              "enterprise": "In brief",
+              "badge": "In brief"
+            },
+            "translationImport": {
+              "name": "Translation Import",
+              "description": "Upload your own translation memory database to improve your AI translations."
+            },
+            "glossaries": {
+              "name": "Glossaries",
+              "description": "Define how certain words are translated."
+            },
+            "styleGuides": {
+              "name": "Style guidelines",
+              "description": "Check aspects such as punctuation, number formatting and more in the translation output."
+            },
+            "branding": {
+              "name": "Branding",
+              "description": "Design your own AI translation system with the look and feel of your corporate branding."
+            }
+          }
+        },
+        "integrations": {
+          "title": "Integrations",
+          "features": {
+            "microsoftOfficeAddIns": {
+              "name": "Microsoft Office add-on modules",
+              "description": "Direct use in Microsoft Word, PowerPoint and Outlook."
+            },
+            "api": {
+              "name": "API",
+              "description": "Integrate AI translations into your own applications and workflows.",
+              "advanced": "Optional",
+              "pro": "Optional"
+            },
+            "catToolIntegration": {
+              "name": "Integration of CAT tools",
+              "description": "Increase professional translation productivity by using Trados Studio, MemoQ and many other CAT tools.",
+              "advanced": "Optional",
+              "pro": "Optional"
+            }
+          }
+        },
+        "support": {
+          "title": "Support",
+          "features": {
+            "supportViaEmail": {
+              "name": "Support by e-mail",
+              "description": ""
+            },
+            "supportViaPhone": {
+              "name": "Telephone support",
+              "description": ""
+            },
+            "firstResponseTimeGuarantee": {
+              "name": "Guarantee of the first response time",
+              "description": "During office hours (9 a.m. to 6 p.m. CET) from Monday to Friday",
+              "free": "",
+              "essential": "",
+              "advanced": "24 hours",
+              "pro": "60 minutes",
+              "enterprise": "60 minutes"
+            },
+            "dedicatedAccountManager": {
+              "name": "Dedicated account manager",
+              "description": ""
+            },
+            "uptimeGuarantee": {
+              "name": "Uptime guarantee",
+              "description": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "remove": "Remove",
+  "translator": {
+    "sourcePlaceholderTitle": "Tap to translate",
+    "sourcePlaceholderDescription": "Or use drag&amp;drop to translate documents with our AI translator",
+    "features": {
+      "infoPopover": {
+        "title": "Functionality",
+        "rephrase": {
+          "title": "Reformulate",
+          "description": "Select <highlight>several words</highlight> for rephrasing."
+        },
+        "wordAlternative": {
+          "title": "Alternative choice of words",
+          "description": "Click on a <highlight>Word</highlight>to find alternatives."
+        }
       }
     }
   }

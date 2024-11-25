@@ -1358,7 +1358,48 @@
       "translation": "Une erreur s’est produite lors de la traduction.",
       "fileTranslation": "Une erreur s’est produite lors de la traduction du document.",
       "fileDetectError": "Erreur lors de l’identification de la langue du document.",
-      "fileMalwareDetected": "Le fichier pourrait contenir de logiciels malveillants et a été rejeté."
+      "fileMalwareDetected": "Le fichier pourrait contenir de logiciels malveillants et a été rejeté.",
+      "settings": {
+        "deleteBillingAddress": "Une erreur s'est produite lors de la mise à jour de l'adresse de facturation",
+        "updatePassword": "Une erreur s'est produite lors de la mise à jour du mot de passe",
+        "updateDefaultBillingAddress": "Une erreur s'est produite lors de la mise à jour de l'adresse de facturation",
+        "updateCustomerProfile": "Une erreur s'est produite lors de la mise à jour du profil",
+        "updateBillingAddress": "Une erreur s'est produite lors de la mise à jour de l'adresse de facturation",
+        "changeDetaultPaymentMethod": "Une erreur s'est produite lors de la tentative de modification de la méthode de paiement par défaut",
+        "fetchCustomerProfile": "Le profil du client n'a pas pu être consulté",
+        "addCreditCardDetails": "Une erreur est survenue lors de l'ajout des détails de la carte",
+        "requestBillingPermission": "Une erreur est survenue lors de la demande d'autorisation de facturation",
+        "deleteCreditCard": "Une erreur est survenue lors de la suppression des détails de la carte"
+      },
+      "team": {
+        "addMember": "Une erreur s'est produite lors de l'invitation de l'utilisateur à l'équipe",
+        "changeRole": "Une erreur s'est produite lors de la modification du rôle du membre de l'équipe",
+        "editMember": "Une erreur s'est produite lors de la modification du membre de l'équipe",
+        "removeMember": "Une erreur s'est produite lors de la suppression de l'utilisateur de l'équipe"
+      },
+      "subscription": {
+        "cancel": "Une erreur est survenue lors de la résiliation de l'abonnement",
+        "update": "Une erreur est survenue lors de la mise à jour de l'abonnement"
+      }
+    },
+    "success": {
+      "settings": {
+        "deleteBillingAddress": "Adresse de facturation supprimée",
+        "updatePassword": "Mot de passe mis à jour",
+        "updateCustomerProfile": "Profil d'utilisateur mis à jour",
+        "updateBillingAddress": "Adresse de facturation mise à jour",
+        "deleteCreditCard": "Détails de la carte supprimés avec succès"
+      },
+      "team": {
+        "addMember": "Utilisateur invité avec succès à rejoindre l'équipe",
+        "changeRole": "Le rôle du membre de l'équipe a été modifié avec succès",
+        "editMember": "Membre de l'équipe traité avec succès",
+        "removeMember": "Utilisateur retiré avec succès de l'équipe"
+      },
+      "subscription": {
+        "cancel": "Abonnement annulé avec succès",
+        "update": "Abonnement mis à jour avec succès"
+      }
     }
   },
   "endpointServices": {
@@ -1419,7 +1460,8 @@
       "types": {
         "role": "Rouleau",
         "license": "Licence"
-      }
+      },
+      "user": "Utilisateur"
     },
     "search": {
       "placeholder": "Chercher...",
@@ -1459,7 +1501,8 @@
           "invoiceDate": "Temps de commande",
           "invoiceAddress": "Adresse de facturation",
           "contactPersonTitle": "DIRECTION DU PROJET"
-        }
+        },
+        "back": "Retour"
       },
       "invoices": {
         "title": "Factures",
@@ -1657,7 +1700,8 @@
             "roles": {
               "teamAdmin": "Administrateur",
               "user": "Utilisateur"
-            }
+            },
+            "roleChangeWarning": "L'administrateur de votre équipe a changé de rôle. Veuillez vous déconnecter et vous reconnecter pour mettre à jour votre compte."
           }
         }
       },
@@ -1684,6 +1728,14 @@
           "good": "Bien",
           "insufficient": "Insuffisante"
         }
+      },
+      "overview": {
+        "title": "Aperçu",
+        "nextSteps": "PROCHAINES ÉTAPES",
+        "nextStepsInformation": "Vous êtes à jour, il n'y a pas d'autres démarches à effectuer pour le moment.",
+        "addSettings": "Compléter les données",
+        "creditCardDetailsSettings": "Enregistrez les détails de votre carte de crédit pour faciliter les démarches",
+        "styleGuidSettings": "Déposer des guides de style et des documents sur la tonalité et la terminologie"
       }
     },
     "footer": {
@@ -1723,6 +1775,415 @@
         "privacy": "Déclaration de confidentialité",
         "dataProtection": "Protection des données",
         "media": "Médias"
+      }
+    },
+    "fileTranslation": {
+      "uploadFile": "Télécharger un fichier"
+    },
+    "humanVerification": {
+      "verifyButton": "Vérifier par Expert:in",
+      "stepTitle": "Vérifier par Expert:in - étape",
+      "stepDescription": "La traduction IA est contrôlée et vérifiée par un:e expert:e Supertext. Vous recevrez un fichier texte avec certificat à télécharger.",
+      "nextStepButton": "Prochaine étape",
+      "orderVerification": "Commander la vérification",
+      "authorizePayment": "Autoriser le paiement",
+      "unsupportedLanguagePair": {
+        "title": "n'est pas encore pris en charge pour l'examen d'expert.",
+        "description": "Pas de problème ! La vérification experte sera bientôt disponible pour d'autres paires de langues"
+      },
+      "stepOne": {
+        "title": "Vérification",
+        "payWithInvoice": "Le paiement s'effectue sur facture.",
+        "payWithCard": "Le paiement s'effectue à l'aide des données de votre carte de crédit enregistrées.",
+        "payWithExpiredCardInfo": "Votre mode de paiement par défaut est défini sur les paiements par carte, mais votre carte a expiré. Mettez à jour les données de votre carte de crédit."
+      }
+    },
+    "couponCode": {
+      "placeholder": "Ajouter un code de réduction",
+      "tooltip": "Utilisez votre code promotionnel pour bénéficier d'une réduction sur votre commande."
+    },
+    "landingPage": {
+      "languageServices": {
+        "eyebrowHeadline": "TOUS LES SERVICES LINGUISTIQUES"
+      }
+    },
+    "subscriptionPlans": {
+      "free": {
+        "title": "Gratuit",
+        "description": "Description Groupe cible ou similaire. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "Gratuit",
+        "price_yearly": "Gratuit",
+        "features": {
+          "title": "Inclus dans le starter :",
+          "items": {
+            "0": {
+              "title": "5 langues"
+            },
+            "1": {
+              "title": "Jusqu'à 3000 caractères"
+            },
+            "2": {
+              "title": "5 fichiers par mois (modifiables)"
+            },
+            "3": {
+              "title": "5 Mo taille maximale du fichier"
+            },
+            "4": {
+              "title": "Vérification professionnelle en un clic (payant)"
+            },
+            "5": {
+              "title": "Traduction fusionnée",
+              "badge": "En bref"
+            }
+          }
+        }
+      },
+      "essential": {
+        "title": "Essentiel",
+        "description": "Description Groupe cible ou similaire. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "11,90",
+        "price_yearly": "9.90",
+        "period_monthly": "/ mois",
+        "period_yearly": "/ mois",
+        "features": {
+          "title": "Tout de \"Starter\", plus",
+          "items": {
+            "0": {
+              "title": "Sécurité maximale des données"
+            },
+            "1": {
+              "title": "Traduction de texte illimitée"
+            },
+            "2": {
+              "title": "20 fichiers par mois (modifiables)"
+            },
+            "3": {
+              "title": "10 Mo taille maximale du fichier"
+            },
+            "4": {
+              "title": "Fichiers Excel, PDF et SRT"
+            },
+            "5": {
+              "title": "Assistance par e-mail dans les 24 h"
+            }
+          }
+        }
+      },
+      "advanced": {
+        "title": "Advanced",
+        "badge": "Bientôt disponible",
+        "description": "Description Groupe cible ou similaire. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "29,90",
+        "price_yearly": "24,90",
+        "period_monthly": "/ mois",
+        "period_yearly": "/ mois",
+        "features": {
+          "title": "Tout de \"Essential\", plus :",
+          "items": {
+            "0": {
+              "title": "23 langues"
+            },
+            "1": {
+              "title": "Traductions de fichiers illimitées (modifiables)"
+            },
+            "2": {
+              "title": "20 Mo taille maximale du fichier"
+            },
+            "3": {
+              "title": "Glossaires"
+            },
+            "4": {
+              "title": "Add-ins pour Microsoft Office"
+            },
+            "5": {
+              "title": "Limitation de la longueur"
+            },
+            "6": {
+              "title": "Authentification unique (SSO)"
+            }
+          }
+        }
+      },
+      "pro": {
+        "title": "Par",
+        "badge": "Bientôt disponible",
+        "description": "Description Groupe cible ou similaire. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "59,90",
+        "price_yearly": "49.90",
+        "period_monthly": "/ mois",
+        "period_yearly": "/ mois",
+        "features": {
+          "title": "Tout de \"Advanced\", plus :",
+          "items": {
+            "0": {
+              "title": "30 Mo taille maximale du fichier"
+            },
+            "1": {
+              "title": "Guides de style"
+            },
+            "2": {
+              "title": "Importation de traductions"
+            },
+            "3": {
+              "title": "Assistance par e-mail et par téléphone dans un délai de"
+            },
+            "4": {
+              "title": "Responsable de compte personnel"
+            },
+            "5": {
+              "title": "Garantie de temps de fonctionnement"
+            },
+            "6": {
+              "title": "Intégration dans des outils de TAO (en option)"
+            },
+            "7": {
+              "title": "Accès à l'API (en option)"
+            }
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "badge": "",
+        "description": "Pour les grandes organisations aux exigences les plus élevées eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "price_monthly": "Personnalisé",
+        "price_yearly": "Personnalisé",
+        "period_monthly": "/ mois",
+        "period_yearly": "/ mois",
+        "features": {
+          "title": "Tout de \"Pro\", plus",
+          "items": {
+            "0": {
+              "title": "Modèles d'IA sur mesure et branding"
+            },
+            "1": {
+              "title": "Hébergement SaaS, cloud privé ou sur site"
+            },
+            "2": {
+              "title": "Certificats TLS/SLL personnalisés"
+            }
+          }
+        }
+      }
+    },
+    "featureComparison": {
+      "plans": {
+        "free": "Gratuit",
+        "essential": "Essentiellement",
+        "advanced": "Avancé",
+        "pro": "Par",
+        "enterprise": "Entreprise"
+      },
+      "categories": {
+        "languages": {
+          "title": "Langues",
+          "features": {
+            "languages": {
+              "name": "Langues",
+              "description": "",
+              "all": "Albanais, Allemand, Anglais, Chinois, Coréen, Danois, Espagnol, Français, Hongrois, Italien, Japonais, Néerlandais, Norvégien, Polonais, Portugais, Rhéto-roman, Russe, Serbe, Slovaque, Slovène, Suédois, Tchèque, Dialecte suisse allemand",
+              "free": "Anglais, français, allemand, italien, rhéto-romanche, dialecte suisse-allemand",
+              "essential": "Anglais, français, allemand, italien, rhéto-romanche, dialecte suisse-allemand",
+              "advanced": "Albanais, Allemand, Anglais, Chinois, Coréen, Danois, Espagnol, Français, Hongrois, Italien, Japonais, Néerlandais, Norvégien, Polonais, Portugais, Rhéto-roman, Russe, Serbe, Slovaque, Slovène, Suédois, Tchèque, Dialecte suisse allemand",
+              "pro": "Albanais, Allemand, Anglais, Chinois, Coréen, Danois, Espagnol, Français, Hongrois, Italien, Japonais, Néerlandais, Norvégien, Polonais, Portugais, Rhéto-roman, Russe, Serbe, Slovaque, Slovène, Suédois, Tchèque, Dialecte suisse-allemand",
+              "enterprise": "Albanais, Allemand, Anglais, Chinois, Coréen, Danois, Espagnol, Français, Hongrois, Italien, Japonais, Néerlandais, Norvégien, Polonais, Portugais, Rhéto-roman, Russe, Serbe, Slovaque, Slovène, Suédois, Tchèque, Dialecte suisse-allemand"
+            },
+            "languageVariants": {
+              "name": "Variantes linguistiques",
+              "description": "",
+              "all": "Chinois (simplifié, traditionnel), anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), portugais (BR, PT), dialecte suisse allemand (BE, ZH)",
+              "free": "Anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), dialecte suisse allemand (BE, ZH)",
+              "essential": "Anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), dialecte suisse allemand (BE, ZH)",
+              "advanced": "Chinois (simplifié, traditionnel), anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), portugais (BR, PT), dialecte suisse allemand (BE, ZH)",
+              "pro": "Chinois (simplifié, traditionnel), anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), portugais (BR, PT), dialecte suisse allemand (BE, ZH)",
+              "enterprise": "Chinois (simplifié, traditionnel), anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), portugais (BR, PT), dialecte suisse allemand (BE, ZH)"
+            }
+          }
+        },
+        "security": {
+          "title": "Sécurité",
+          "features": {
+            "encryptedTransfer": {
+              "name": "Transmission cryptée",
+              "description": "Vos données sont transmises en toute sécurité. Elles ne peuvent jamais être lues par des tiers."
+            },
+            "immediateTextDeletion": {
+              "name": "Suppression immédiate du texte",
+              "description": "Tous les textes sont supprimés immédiatement après la traduction et ne peuvent jamais être lus par des tiers."
+            },
+            "singleSignOn": {
+              "name": "Inscription unique (SSO)",
+              "description": "Connectez-vous avec les données de connexion de votre entreprise. Disponible pour les équipes de plus de 100 places dans certains tarifs.",
+              "advanced": "À partir de 10 places",
+              "pro": "À partir de 10 places"
+            },
+            "teamAdministration": {
+              "name": "Gestion de l'équipe",
+              "description": "Gérez les utilisateurs au sein de votre organisation. Ajoutez des membres, affichez l'utilisation et contrôlez les coûts avec une facturation centralisée."
+            },
+            "privateHosting": {
+              "name": "Cloud privé ou hébergement sur site",
+              "description": "Options d'hébergement privé pour une sécurité supplémentaire.",
+              "enterprise": "En option"
+            },
+            "enterpriseTLSCertificates": {
+              "name": "Certificats TLS/SSL pour les entreprises",
+              "description": "",
+              "enterprise": "En option"
+            }
+          }
+        },
+        "textTranslation": {
+          "title": "Traduction de texte",
+          "features": {
+            "unlimitedTextTranslation": {
+              "name": "Traduction de texte illimitée",
+              "description": "Traduisez une quantité illimitée de texte.",
+              "free": "Jusqu'à 1.500 caractères",
+              "essential": "Jusqu'à 3.000 caractères"
+            },
+            "lengthControl": {
+              "name": "Contrôle de la longueur",
+              "description": "Veillez à ce que la longueur d'une traduction ne dépasse pas celle du texte source."
+            }
+          }
+        },
+        "documentTranslation": {
+          "title": "Traduction de documents",
+          "features": {
+            "unlimitedFileTranslation": {
+              "name": "Traduction de fichiers illimitée",
+              "description": "Téléchargez des documents complets et obtenez une traduction modifiable avec la même mise en page et le même style.",
+              "free": "0 fichiers par mois, par utilisateur",
+              "essential": "5 fichiers par mois, par utilisateur",
+              "advanced": "20 fichiers par mois, par utilisateur"
+            },
+            "fileEditingAllowed": {
+              "name": "Traitement des fichiers autorisé",
+              "description": ""
+            },
+            "maximumFileSize": {
+              "name": "Taille maximale du fichier",
+              "description": ""
+            },
+            "microsoftOfficeFileTypes": {
+              "name": "Types de fichiers Microsoft Office",
+              "description": "Formats pris en charge : Word, Excel, PowerPoint."
+            },
+            "pdfFileTypeEdit": {
+              "name": "Type de fichier PDF (modifier)",
+              "description": "Les PDF peuvent être modifiés après la traduction."
+            },
+            "videoSubtitleFileTypes": {
+              "name": "Types de fichiers de sous-titres vidéo (.srt)",
+              "description": ""
+            }
+          }
+        },
+        "customisation": {
+          "title": "Personnalisation",
+          "features": {
+            "formalInformalTone": {
+              "name": "Ton formel/informel",
+              "description": "Adaptez le ton des traductions à vos besoins."
+            },
+            "fusedTranslation": {
+              "name": "Traduction fusionnée",
+              "description": "Vos traductions IA s'améliorent à chaque fois que vous confiez un travail à des experts linguistiques.",
+              "free": "En bref",
+              "essential": "En bref",
+              "advanced": "En bref",
+              "pro": "En bref",
+              "enterprise": "En bref",
+              "badge": "En bref"
+            },
+            "translationImport": {
+              "name": "Traduction importation",
+              "description": "Téléchargez votre propre base de données de mémoire de traduction pour améliorer vos traductions par IA."
+            },
+            "glossaries": {
+              "name": "Glossaires",
+              "description": "Définir comment certains mots sont traduits."
+            },
+            "styleGuides": {
+              "name": "Directives de style",
+              "description": "Contrôlez des aspects tels que la ponctuation, le formatage des chiffres et plus encore dans la sortie de traduction."
+            },
+            "branding": {
+              "name": "Marque",
+              "description": "Concevez votre propre système de traduction par IA avec le look and feel de votre marque d'entreprise."
+            }
+          }
+        },
+        "integrations": {
+          "title": "Intégrations",
+          "features": {
+            "microsoftOfficeAddIns": {
+              "name": "Modules complémentaires de Microsoft Office",
+              "description": "Utilisation directe dans Microsoft Word, PowerPoint et Outlook."
+            },
+            "api": {
+              "name": "API",
+              "description": "Intégrez les traductions IA dans vos propres applications et flux de travail.",
+              "advanced": "En option",
+              "pro": "En option"
+            },
+            "catToolIntegration": {
+              "name": "Intégration d'outils de TAO",
+              "description": "Augmentez la productivité professionnelle de vos traductions en utilisant Trados Studio, MemoQ et de nombreux autres outils de TAO.",
+              "advanced": "En option",
+              "pro": "En option"
+            }
+          }
+        },
+        "support": {
+          "title": "Soutien",
+          "features": {
+            "supportViaEmail": {
+              "name": "Assistance par e-mail",
+              "description": ""
+            },
+            "supportViaPhone": {
+              "name": "Assistance téléphonique",
+              "description": ""
+            },
+            "firstResponseTimeGuarantee": {
+              "name": "Garantie du premier temps de réaction",
+              "description": "Pendant les heures de bureau (9h à 18h HEC) du lundi au vendredi",
+              "free": "",
+              "essential": "",
+              "advanced": "24 heures",
+              "pro": "60 minutes",
+              "enterprise": "60 minutes"
+            },
+            "dedicatedAccountManager": {
+              "name": "Responsable de clientèle dédié",
+              "description": ""
+            },
+            "uptimeGuarantee": {
+              "name": "Garantie de temps de fonctionnement",
+              "description": ""
+            }
+          }
+        }
+      }
+    }
+  },
+  "remove": "Supprimer",
+  "translator": {
+    "sourcePlaceholderTitle": "Taper pour traduire",
+    "sourcePlaceholderDescription": "Ou utilisez le glisser-déposer pour traduire des documents avec notre traducteur AI",
+    "features": {
+      "infoPopover": {
+        "title": "Fonctionnement",
+        "rephrase": {
+          "title": "Reformuler",
+          "description": "Sélectionnez <highlight>plusieurs mots</highlight> pour la reformulation."
+        },
+        "wordAlternative": {
+          "title": "Choix alternatif de mots",
+          "description": "Cliquez sur un <highlight>Mot</highlight>pour trouver des alternatives."
+        }
       }
     }
   }

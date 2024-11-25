@@ -1380,6 +1380,11 @@
       "subscription": {
         "cancel": "Une erreur s'est produite lors de l'annulation de l'abonnement",
         "update": "Une erreur s'est produite lors de la mise à jour de l'abonnement"
+      },
+      "noDataFoundInLocalStorage": "Aucune donnée trouvée dans localStorage",
+      "noItemsFound": "Aucun élément trouvé avec l'ID {0} ",
+      "payment": {
+        "formalize": "Quelque chose s'est mal passé lors de la formalisation de votre paiement"
       }
     },
     "success": {
@@ -1554,7 +1559,8 @@
         },
         "question": "Plus de 1500 entreprises dans toute l'Europe font déjà confiance à nos produits et services sur mesure. Que pouvons-nous faire pour vous compter parmi elles ?",
         "contactUs": "Contactez-nous",
-        "compareAllFeatures": "Comparer toutes les caractéristiques"
+        "compareAllFeatures": "Comparer toutes les caractéristiques",
+        "customizeSubscriptionInfo": "Adaptez facilement et à tout moment votre abonnement à vos besoins"
       },
       "resources": {
         "title": "Ressources linguistiques"
@@ -1796,11 +1802,60 @@
         "payWithInvoice": "Le paiement sera effectué par facture.",
         "payWithCard": "Le paiement sera effectué à l'aide de vos informations de carte de crédit enregistrées.",
         "payWithExpiredCardInfo": "Votre méthode de paiement par défaut est configurée pour les paiements par carte, mais votre carte a expiré. Veuillez mettre à jour vos informations de carte de crédit."
+      },
+      "customBilling": {
+        "addressForm": {
+          "changeBillingAddress": "Modifier l'adresse de facturation (Optionnel)",
+          "addBillingAddress": "Ajouter une adresse de facturation (Optionnel)",
+          "company": {
+            "label": "Entreprise / Organisation (optionnel)",
+            "placeholder": "Entreprise Exemple SARL"
+          },
+          "vatNumber": {
+            "label": "Numéro de TVA (optionnel)",
+            "placeholder": "CHE-123.456.789"
+          },
+          "costCenter": {
+            "label": "Centre de coût (optionnel)",
+            "placeholder": "C-1234"
+          },
+          "firstName": {
+            "label": "Prénom",
+            "placeholder": "Jean",
+            "error": "Le prénom est obligatoire"
+          },
+          "lastName": {
+            "label": "Nom",
+            "placeholder": "Dupont",
+            "error": "Le nom est obligatoire"
+          },
+          "street": {
+            "label": "Rue / Numéro de maison",
+            "placeholder": "Rue Exemple 123",
+            "error": "L'adresse est obligatoire"
+          },
+          "postalCode": {
+            "label": "Code Postal",
+            "placeholder": "8000",
+            "error": "Le code postal doit comporter au moins 4 caractères"
+          },
+          "city": {
+            "label": "Ville",
+            "placeholder": "Zurich",
+            "error": "La ville est obligatoire"
+          },
+          "country": {
+            "label": "Pays",
+            "placeholder": "Sélectionnez un pays",
+            "error": "Le pays est obligatoire"
+          }
+        }
       }
     },
     "couponCode": {
       "placeholder": "Ajouter un code de réduction",
-      "tooltip": "Utilisez votre code de coupon pour obtenir une réduction sur votre commande."
+      "tooltip": "Utilisez votre code de coupon pour obtenir une réduction sur votre commande.",
+      "trigger": "Valider un code de réduction"
     },
     "landingPage": {
       "languageServices": {

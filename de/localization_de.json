@@ -1138,6 +1138,7 @@
   "cancel": "Abbrechen",
   "areYouSure": "Sind Sie sicher?",
   "apply": "Anwenden",
+  "remove": "Entfernen",
   "undoButton": "Rückgängig",
   "redoButton": "Wiederholen",
   "backButton": "Zurück",
@@ -1425,6 +1426,23 @@
     "offline": "Sie sind derzeit offline.",
     "online": "Ihre Internetverbindung wurde wiederhergestellt."
   },
+  "translator": {
+    "sourcePlaceholderTitle": "Tippen um zu übersetzen",
+    "sourcePlaceholderDescription": "Oder benützen Sie drag& drop umDokumente mit unserem AI-Übersetzer zu übersetzen",
+    "features": {
+      "infoPopover": {
+        "title": "Funktionsweise",
+        "rephrase": {
+          "title": "Umformulieren",
+          "description": "Wählen Sie <highlight>mehrere Wörter</highlight> zur Umformulierung aus."
+        },
+        "wordAlternative": {
+          "title": "Alternative Wortwahl",
+          "description": "Klicken Sie auf ein <highlight>Wort</highlight>, um Alternativen zu finden."
+        }
+      }
+    }
+  },
   "starstruck": {
     "welcomeMessage": "Grüezi,",
     "noEntries": "Keine Einträge gefunden.",
@@ -1456,17 +1474,20 @@
         "consultation": "Beratung"
       }
     },
+    "fileTranslation": {
+      "uploadFile": "Datei hochladen"
+    },
     "filter": {
       "title": "Filter",
       "all": "Alle",
       "administrator": "Administrator",
+      "user": "User",
       "licensed": "Licensed",
       "removeFilter": "Filter entfernen",
       "types": {
         "role": "Rolle",
         "license": "Lizenz"
-      },
-      "user": "User"
+      }
     },
     "search": {
       "placeholder": "Suchen …",
@@ -1475,14 +1496,89 @@
       "userInvoices": "Ihre Rechnungen",
       "allInvoices": "Alle Rechnungen"
     },
+    "humanVerification": {
+      "verifyButton": "Durch Expert:in verifizieren",
+      "stepTitle": "Durch Expert:in verifizieren - Schritt",
+      "stepDescription": "Die KI-Übersetzung wird durch ein:e Supertext-Expert:in überprüft und verifiziert. Sie erhalten eine Textdatei mit Zertifikat zum Download.",
+      "nextStepButton": "Nächster Schritt",
+      "orderVerification": "Verifikation bestellen",
+      "authorizePayment": "Zahlung autorisieren",
+      "customBilling": {
+        "addressForm": {
+          "changeBillingAddress": "Rechnungsadresse ändern (Optional)",
+          "addBillingAddress": "Rechnungsadresse hinzufügen (Optional)",
+          "company": {
+            "label": "Firma / Organisation (optional)",
+            "placeholder": "Musterfirma GmbH"
+          },
+          "vatNumber": {
+            "label": "MWST-Nummer (optional)",
+            "placeholder": "CHE-123.456.789"
+          },
+          "costCenter": {
+            "label": "Kostenstelle (optional)",
+            "placeholder": "K-1234"
+          },
+          "firstName": {
+            "label": "Vorname",
+            "placeholder": "Hans",
+            "error": "Vorname ist erforderlich"
+          },
+          "lastName": {
+            "label": "Nachname",
+            "placeholder": "Muster",
+            "error": "Nachname ist erforderlich"
+          },
+          "street": {
+            "label": "Strasse / Hausnummer",
+            "placeholder": "Musterstrasse 123",
+            "error": "Strassenadresse ist erforderlich"
+          },
+          "postalCode": {
+            "label": "PLZ",
+            "placeholder": "8000",
+            "error": "Postleitzahl muss mindestens 4 Zeichen enthalten"
+          },
+          "city": {
+            "label": "Ort",
+            "placeholder": "Zürich",
+            "error": "Ort ist erforderlich"
+          },
+          "country": {
+            "label": "Land",
+            "placeholder": "Land auswählen",
+            "error": "Land ist erforderlich"
+          }
+        }
+    },
+      "unsupportedLanguagePair": {
+        "title": "wird für die Expertenprüfung noch nicht unterstützt.",
+        "description": "Kein Problem! Die Expertenüberprüfung wird bald für weitere Sprachpaare verfügbar sein"
+      },
+      "stepOne": {
+        "title": "Verifikation",
+        "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
+        "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
+        "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
+      }
+    },
+    "couponCode": {
+      "placeholder": "Rabattcode hinzufügen",
+      "tooltip": "Verwenden Sie Ihren Gutscheincode, um einen Rabatt auf Ihre Bestellung zu erhalten.",
+      "trigger": "Validieren Sie einen Rabattcode"
+    },
     "dashboard": {
       "title": "Dashboard",
-      "nextSteps": "NÄCHSTE SCHRITTE",
-      "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
-      "addSettings": "Angaben ergänzen",
-      "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
-      "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
+      "overview": {
+        "title": "Übersicht",
+        "nextSteps": "NÄCHSTE SCHRITTE",
+        "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
+        "addSettings": "Angaben ergänzen",
+        "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
+        "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie"
+      },
       "orders": {
+        "back": "Zurück",
         "title": "Aufträge",
         "viewAllOrders": "Alle Aufträge ansehen",
         "openOrders": "AKTUELLE AUFTRÄGE",
@@ -1506,8 +1602,7 @@
           "invoiceDate": "Bestellzeit",
           "invoiceAddress": "Rechnungsadresse",
           "contactPersonTitle": "PROJEKTLEITUNG"
-        },
-        "back": "Zurück"
+        }
       },
       "invoices": {
         "title": "Rechnungen",
@@ -1734,79 +1829,7 @@
           "good": "Gut",
           "insufficient": "Ungenügend"
         }
-      },
-      "overview": {
-        "title": "Übersicht",
-        "nextSteps": "NÄCHSTE SCHRITTE",
-        "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
-        "addSettings": "Angaben ergänzen",
-        "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
-        "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie"
       }
-    },
-    "footer": {
-      "contact": "Kontakt",
-      "newsletter": "Newsletter",
-      "newsletterDescription": "Für alle, die sich für Sprache, Technologie und Kreativität interessiere",
-      "newsletterDisclaimer": "Mit der Registrierung erklären Sie sich mit unserer Datenschutzerklärung einverstanden und geben Ihr Einverständnis, Updates von unserem Unternehmen zu erhalten.",
-      "yourEmail": "Ihre E-Mail-Adresse",
-      "freelancerRegistration": "Freelancer-Registrierung",
-      "servicesTitle": "SERVICES",
-      "services": {
-        "translation": "AI Translation & Verifizierung",
-        "expertise": "Fachübersetzung",
-        "editing": "Lektorat",
-        "copywriting": "Copywriting",
-        "consulting": "Beratung",
-        "forBusiness": "Für Unternehmen"
-      },
-      "knowledgeTitle": "WISSENSWERTES",
-      "knowledge": {
-        "expertise": "Sprachexpertise",
-        "whySupertext": "Warum Supertext",
-        "technology": "Technologie",
-        "references": "Referenzen",
-        "faq": "FAQ",
-        "blog": "Blog"
-      },
-      "companyTitle": "UNTERNEHMEN",
-      "company": {
-        "contact": "Kontakt",
-        "aboutSupertext": "Über Supertext",
-        "careers": "Arbeiten bei Supertext"
-      },
-      "legal": {
-        "imprint": "Impressum",
-        "terms": "AGB",
-        "privacy": "Datenschutzerklärung",
-        "dataProtection": "Datenschutz",
-        "media": "Medien"
-      }
-    },
-    "fileTranslation": {
-      "uploadFile": "Datei hochladen"
-    },
-    "humanVerification": {
-      "verifyButton": "Durch Expert:in verifizieren",
-      "stepTitle": "Durch Expert:in verifizieren - Schritt",
-      "stepDescription": "Die KI-Übersetzung wird durch ein:e Supertext-Expert:in überprüft und verifiziert. Sie erhalten eine Textdatei mit Zertifikat zum Download.",
-      "nextStepButton": "Nächster Schritt",
-      "orderVerification": "Verifikation bestellen",
-      "authorizePayment": "Zahlung autorisieren",
-      "unsupportedLanguagePair": {
-        "title": "wird für die Expertenprüfung noch nicht unterstützt.",
-        "description": "Kein Problem! Die Expertenüberprüfung wird bald für weitere Sprachpaare verfügbar sein"
-      },
-      "stepOne": {
-        "title": "Verifikation",
-        "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
-        "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
-        "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
-      }
-    },
-    "couponCode": {
-      "placeholder": "Rabattcode hinzufügen",
-      "tooltip": "Verwenden Sie Ihren Gutscheincode, um einen Rabatt auf Ihre Bestellung zu erhalten."
     },
     "landingPage": {
       "languageServices": {
@@ -2033,7 +2056,7 @@
               "enterprise": "Optional"
             },
             "enterpriseTLSCertificates": {
-              "name": "TLS/SSL-Zertifikate für Unternehmen",
+              "name": "TLS\/SSL-Zertifikate für Unternehmen",
               "description": "",
               "enterprise": "Optional"
             }
@@ -2090,7 +2113,7 @@
           "title": "Personalisierung",
           "features": {
             "formalInformalTone": {
-              "name": "Formeller/informeller Ton",
+              "name": "Formeller\/informeller Ton",
               "description": "Passen Sie den Ton der Übersetzungen an Ihre Bedürfnisse an."
             },
             "fusedTranslation": {
@@ -2173,23 +2196,44 @@
           }
         }
       }
-    }
-  },
-  "remove": "Entfernen",
-  "translator": {
-    "sourcePlaceholderTitle": "Tippen um zu übersetzen",
-    "sourcePlaceholderDescription": "Oder benützen Sie drag& drop umDokumente mit unserem AI-Übersetzer zu übersetzen",
-    "features": {
-      "infoPopover": {
-        "title": "Funktionsweise",
-        "rephrase": {
-          "title": "Umformulieren",
-          "description": "Wählen Sie <highlight>mehrere Wörter</highlight> zur Umformulierung aus."
-        },
-        "wordAlternative": {
-          "title": "Alternative Wortwahl",
-          "description": "Klicken Sie auf ein <highlight>Wort</highlight>, um Alternativen zu finden."
-        }
+    },
+    "footer": {
+      "contact": "Kontakt",
+      "newsletter": "Newsletter",
+      "newsletterDescription": "Für alle, die sich für Sprache, Technologie und Kreativität interessiere",
+      "newsletterDisclaimer": "Mit der Registrierung erklären Sie sich mit unserer Datenschutzerklärung einverstanden und geben Ihr Einverständnis, Updates von unserem Unternehmen zu erhalten.",
+      "yourEmail": "Ihre E-Mail-Adresse",
+      "freelancerRegistration": "Freelancer-Registrierung",
+      "servicesTitle": "SERVICES",
+      "services": {
+        "translation": "AI Translation & Verifizierung",
+        "expertise": "Fachübersetzung",
+        "editing": "Lektorat",
+        "copywriting": "Copywriting",
+        "consulting": "Beratung",
+        "forBusiness": "Für Unternehmen"
+      },
+      "knowledgeTitle": "WISSENSWERTES",
+      "knowledge": {
+        "expertise": "Sprachexpertise",
+        "whySupertext": "Warum Supertext",
+        "technology": "Technologie",
+        "references": "Referenzen",
+        "faq": "FAQ",
+        "blog": "Blog"
+      },
+      "companyTitle": "UNTERNEHMEN",
+      "company": {
+        "contact": "Kontakt",
+        "aboutSupertext": "Über Supertext",
+        "careers": "Arbeiten bei Supertext"
+      },
+      "legal": {
+        "imprint": "Impressum",
+        "terms": "AGB",
+        "privacy": "Datenschutzerklärung",
+        "dataProtection": "Datenschutz",
+        "media": "Medien"
       }
     }
   }

@@ -94,7 +94,7 @@ jobs:
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
         run: |
-          #echo ${{ secrets.AZURE_DEVOPS_PAT }} | az devops login --organization $AZURE_DEVOPS_ORG_URL
+          echo ${{ secrets.AZURE_DEVOPS_PAT }} | az devops login --organization $AZURE_DEVOPS_ORG_URL
       - name: Verify Authentication
         run: |
           az repos list --org $AZURE_DEVOPS_ORG_URL  --project $AZURE_DEVOPS_PROJECT

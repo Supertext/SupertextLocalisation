@@ -1138,7 +1138,6 @@
   "cancel": "Annulla",
   "areYouSure": "Vuoi continuare?",
   "apply": "Applica",
-  "remove": "Rimuovi",
   "undoButton": "Annulla",
   "redoButton": "Ripristina",
   "backButton": "Indietro",
@@ -1421,23 +1420,6 @@
     "offline": "Al momento sei offline.",
     "online": "La tua connessione internet è stata ripristinata."
   },
-  "translator": {
-    "sourcePlaceholderTitle": "Digita per tradurre",
-    "sourcePlaceholderDescription": "O trascina e rilascia documenti per tradurli con il nostro Traduttore AI",
-    "features": {
-      "infoPopover": {
-        "title": "Funzionamento",
-        "rephrase": {
-          "title": "Riformulare",
-          "description": "Seleziona <highlight>più parole</highlight> per riformularle."
-        },
-        "wordAlternative": {
-          "title": "Scelta di parole alternative",
-          "description": "Clicca su <highlight>una parola</highlight> per trovare alternative."
-        }
-      }
-    }
-  },
   "starstruck": {
     "welcomeMessage": "Grüezi,",
     "noEntries": "Nessuna voce trovata.",
@@ -1469,20 +1451,17 @@
         "consultation": "Consulenza"
       }
     },
-    "fileTranslation": {
-      "uploadFile": "Caricare il file"
-    },
     "filter": {
       "title": "Filtri",
       "all": "Tutti",
-      "user": "User",
       "administrator": "Amministratore",
       "licensed": "Licenza",
       "removeFilter": "Rimuovere il filtro",
       "types": {
         "role": "Ruolo",
         "license": "Licenza"
-      }
+      },
+      "user": "User"
     },
     "search": {
       "placeholder": "Ricerca...",
@@ -1491,40 +1470,14 @@
       "userInvoices": "Le vostre fatture",
       "allInvoices": "Tutte le fatture"
     },
-    "humanVerification": {
-      "verifyButton": "Verificare da esperto",
-      "stepTitle": "Verificare da esperto - Passo",
-      "stepDescription": "La traduzione AI viene verificata e convalidata da un esperto di Supertext. Riceverai un file di testo con certificato da scaricare.",
-      "nextStepButton": "Nullessivo passo",
-      "orderVerification": "Verifica ordinare",
-      "authorizePayment": "Pagamento autorizzare",
-      "unsupportedLanguagePair": {
-        "title": "non ancora supportato per la revisione di esperti",
-        "description": "Nessun problema! La revisione di esperti sarà presto disponibile per altre coppie di lingue."
-      },
-      "stepOne": {
-        "title": "Verifica",
-        "payWithInvoice": "Il pagamento verrà effettuato tramite fattura.",
-        "payWithCard": "Il pagamento verrà effettuato utilizzando i dati della tua carta di credito salvata.",
-        "payWithExpiredCardInfo": "Il tuo metodo di pagamento predefinito è impostato sui pagamenti con carta, ma la tua carta è scaduta. Aggiorna i tuoi dati della carta di credito."
-      }
-    },
-    "couponCode": {
-      "placeholder": "Aggiungi un codice sconto",
-      "tooltip": "Usa il tuo codice coupon per ottenere uno sconto sul tuo ordine."
-    },
     "dashboard": {
       "title": "Dashboard",
-      "overview": {
-        "title": "Panoramica",
-        "nextSteps": "PROSSIMI PASSI",
-        "nextStepsInformation": "Sei aggiornato, attualmente non ci sono altri passaggi da seguire.",
-        "addSettings": "Aggiungi dettagli",
-        "creditCardDetailsSettings": "Inserisci i dettagli della tua carta di credito per una facile elaborazione",
-        "styleGuidSettings": "Archivia guide di stile e documenti su tonalità e terminologia"
-      },
+      "nextSteps": "PASSI SUCCESSIVI",
+      "nextStepsInformation": "Siete aggiornati, al momento non ci sono ulteriori passi da compiere.",
+      "addSettings": "Aggiungi impostazioni",
+      "creditCardDetailsSettings": "Memorizzare i dati della carta di credito per un flusso facilissimo",
+      "styleGuidSettings": "Memorizzare le guide di stile e le linee guida per la tonalità e la terminologia.",
       "orders": {
-        "back": "Indietro",
         "title": "Ordini",
         "viewAllOrders": "Visualizza tutti gli ordini",
         "openOrders": "EDIZIONI CORRENTI",
@@ -1548,7 +1501,8 @@
           "invoiceDate": "Tempo di ordinazione",
           "invoiceAddress": "Indirizzo di fatturazione",
           "contactPersonTitle": "GESTIONE DEL PROGETTO"
-        }
+        },
+        "back": "Indietro"
       },
       "invoices": {
         "title": "Fatture",
@@ -1743,11 +1697,11 @@
             "increaseNumberOfLicenses": "Aumento del numero di licenze",
             "selectLicense": "Selezionare la licenza...",
             "selectRole": "Seleziona il ruolo...",
-            "roleChangeWarning": "Il tuo amministratore del team ha cambiato il tuo ruolo. Esci e riaccedi per aggiornare il tuo account.",
             "roles": {
               "teamAdmin": "Amministratore",
               "user": "Utente"
-            }
+            },
+            "roleChangeWarning": "Il tuo amministratore del team ha cambiato il tuo ruolo. Esci e riaccedi per aggiornare il tuo account."
           }
         }
       },
@@ -1774,7 +1728,79 @@
           "good": "Buono",
           "insufficient": "Insufficiente"
         }
+      },
+      "overview": {
+        "title": "Panoramica",
+        "nextSteps": "PROSSIMI PASSI",
+        "nextStepsInformation": "Sei aggiornato, attualmente non ci sono altri passaggi da seguire.",
+        "addSettings": "Aggiungi dettagli",
+        "creditCardDetailsSettings": "Inserisci i dettagli della tua carta di credito per una facile elaborazione",
+        "styleGuidSettings": "Archivia guide di stile e documenti su tonalità e terminologia"
       }
+    },
+    "footer": {
+      "contact": "Contattateci",
+      "newsletter": "Newsletter",
+      "newsletterDescription": "Per chiunque sia interessato al linguaggio, alla tecnologia e alla creatività",
+      "newsletterDisclaimer": "Registrandovi, accettate la nostra politica sulla privacy e acconsentite a ricevere aggiornamenti dalla nostra azienda.",
+      "yourEmail": "Il vostro indirizzo e-mail",
+      "freelancerRegistration": "Registrazione dei freelance",
+      "servicesTitle": "SERVIZI",
+      "services": {
+        "translation": "Traduzione e verifica AI",
+        "expertise": "Traduzione specializzata",
+        "editing": "Correzione di bozze",
+        "copywriting": "Copywriting",
+        "consulting": "Consulenza",
+        "forBusiness": "Per le aziende"
+      },
+      "knowledgeTitle": "CONOSCENZA",
+      "knowledge": {
+        "expertise": "Competenza linguistica",
+        "whySupertext": "Perché Supertext",
+        "technology": "Tecnologia",
+        "references": "Riferimenti",
+        "faq": "FAQ",
+        "blog": "Blog"
+      },
+      "companyTitle": "AZIENDA",
+      "company": {
+        "contact": "Contattateci",
+        "aboutSupertext": "Informazioni su Supertext",
+        "careers": "Lavorare in Supertext"
+      },
+      "legal": {
+        "imprint": "Impronta",
+        "terms": "GTC",
+        "privacy": "Informativa sulla privacy",
+        "dataProtection": "Protezione dei dati",
+        "media": "Media"
+      }
+    },
+    "fileTranslation": {
+      "uploadFile": "Caricare il file"
+    },
+    "humanVerification": {
+      "verifyButton": "Verificare da esperto",
+      "stepTitle": "Verificare da esperto - Passo",
+      "stepDescription": "La traduzione AI viene verificata e convalidata da un esperto di Supertext. Riceverai un file di testo con certificato da scaricare.",
+      "nextStepButton": "Nullessivo passo",
+      "orderVerification": "Verifica ordinare",
+      "authorizePayment": "Pagamento autorizzare",
+      "unsupportedLanguagePair": {
+        "title": "non ancora supportato per la revisione di esperti",
+        "description": "Nessun problema! La revisione di esperti sarà presto disponibile per altre coppie di lingue."
+      },
+      "stepOne": {
+        "title": "Verifica",
+        "payWithInvoice": "Il pagamento verrà effettuato tramite fattura.",
+        "payWithCard": "Il pagamento verrà effettuato utilizzando i dati della tua carta di credito salvata.",
+        "payWithExpiredCardInfo": "Il tuo metodo di pagamento predefinito è impostato sui pagamenti con carta, ma la tua carta è scaduta. Aggiorna i tuoi dati della carta di credito."
+      }
+    },
+    "couponCode": {
+      "placeholder": "Aggiungi un codice sconto",
+      "tooltip": "Usa il tuo codice coupon per ottenere uno sconto sul tuo ordine."
     },
     "landingPage": {
       "languageServices": {
@@ -2001,7 +2027,7 @@
               "enterprise": "Opzionale"
             },
             "enterpriseTLSCertificates": {
-              "name": "Certificati TLS\/SSL aziendali",
+              "name": "Certificati TLS/SSL aziendali",
               "description": "",
               "enterprise": "Opzionale"
             }
@@ -2058,7 +2084,7 @@
           "title": "Personalizzazione",
           "features": {
             "formalInformalTone": {
-              "name": "Tono formale\/informale",
+              "name": "Tono formale/informale",
               "description": "Controllate il tono delle traduzioni per adattarlo alle vostre esigenze."
             },
             "fusedTranslation": {
@@ -2141,44 +2167,23 @@
           }
         }
       }
-    },
-    "footer": {
-      "contact": "Contattateci",
-      "newsletter": "Newsletter",
-      "newsletterDescription": "Per chiunque sia interessato al linguaggio, alla tecnologia e alla creatività",
-      "newsletterDisclaimer": "Registrandovi, accettate la nostra politica sulla privacy e acconsentite a ricevere aggiornamenti dalla nostra azienda.",
-      "yourEmail": "Il vostro indirizzo e-mail",
-      "freelancerRegistration": "Registrazione dei freelance",
-      "servicesTitle": "SERVIZI",
-      "services": {
-        "translation": "Traduzione e verifica AI",
-        "expertise": "Traduzione specializzata",
-        "editing": "Correzione di bozze",
-        "copywriting": "Copywriting",
-        "consulting": "Consulenza",
-        "forBusiness": "Per le aziende"
-      },
-      "knowledgeTitle": "CONOSCENZA",
-      "knowledge": {
-        "expertise": "Competenza linguistica",
-        "whySupertext": "Perché Supertext",
-        "technology": "Tecnologia",
-        "references": "Riferimenti",
-        "faq": "FAQ",
-        "blog": "Blog"
-      },
-      "companyTitle": "AZIENDA",
-      "company": {
-        "contact": "Contattateci",
-        "aboutSupertext": "Informazioni su Supertext",
-        "careers": "Lavorare in Supertext"
-      },
-      "legal": {
-        "imprint": "Impronta",
-        "terms": "GTC",
-        "privacy": "Informativa sulla privacy",
-        "dataProtection": "Protezione dei dati",
-        "media": "Media"
+    }
+  },
+  "remove": "Rimuovi",
+  "translator": {
+    "sourcePlaceholderTitle": "Digita per tradurre",
+    "sourcePlaceholderDescription": "O trascina e rilascia documenti per tradurli con il nostro Traduttore AI",
+    "features": {
+      "infoPopover": {
+        "title": "Funzionamento",
+        "rephrase": {
+          "title": "Riformulare",
+          "description": "Seleziona <highlight>più parole</highlight> per riformularle."
+        },
+        "wordAlternative": {
+          "title": "Scelta di parole alternative",
+          "description": "Clicca su <highlight>una parola</highlight> per trovare alternative."
+        }
       }
     }
   }

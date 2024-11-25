@@ -1134,7 +1134,6 @@
   "add": "Add",
   "create": "Create",
   "delete": "Delete",
-  "remove": "Remove",
   "save": "Save",
   "cancel": "Cancel",
   "areYouSure": "Are you sure?",
@@ -1421,23 +1420,6 @@
     "offline": "You are currently offline.",
     "online": "Your internet connection has been restored."
   },
-  "translator": {
-    "sourcePlaceholderTitle": "Type to translate",
-    "sourcePlaceholderDescription": "Or drang and drop documents to translate with our AI Translator",
-    "features": {
-      "infoPopover": {
-        "title": "Function",
-        "rephrase": {
-          "title": "Rephrase",
-          "description": "Select <highlight>multiple words</highlight> to rephrase."
-        },
-        "wordAlternative": {
-          "title": "Alternative word choice",
-          "description": "Click on a <highlight>word</highlight> to find alternatives."
-        }
-      }
-    }
-  },
   "starstruck": {
     "welcomeMessage": "Hello,",
     "noEntries": "No entries found.",
@@ -1469,20 +1451,17 @@
         "consultation": "Consultation"
       }
     },
-    "fileTranslation": {
-      "uploadFile": "Upload file"
-    },
     "filter": {
       "title": "Filter",
       "all": "All",
-      "user": "User",
       "administrator": "Administrator",
       "licensed": "Licensed",
       "removeFilter": "Remove filter",
       "types": {
         "role": "Role",
         "license": "License"
-      }
+      },
+      "user": "User"
     },
     "search": {
       "placeholder": "Search...",
@@ -1491,40 +1470,14 @@
       "userInvoices": "Your invoices",
       "allInvoices": "All invoices"
     },
-    "humanVerification": {
-      "verifyButton": "Verify by expert",
-      "stepTitle": "Verify by expert - Step",
-      "stepDescription": "The AI translation is reviewed and verified by a supertext expert. You will receive a text file with a certificate for download.",
-      "nextStepButton": "Next step",
-      "orderVerification": "Order verification",
-      "authorizePayment": "Authorize payment",
-      "unsupportedLanguagePair": {
-        "title": "Not yet supported for expert review",
-        "description": "No worries! Expert review will soon be available for more language pairs."
-      },
-      "stepOne": {
-        "title": "Verification",
-        "payWithInvoice": "Payment will be made by invoice.",
-        "payWithCard": "Payment will be made using your stored credit card information.",
-        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card details."
-      }
-    },
-    "couponCode": {
-      "placeholder": "Add a discount code",
-      "tooltip": "Use your coupon code to get a discount on your order."
-    },
     "dashboard": {
       "title": "Dashboard",
-      "overview": {
-        "title": "Overview",
-        "nextSteps": "NEXT STEPS",
-        "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
-        "addSettings": "Add details",
-        "creditCardDetailsSettings": "Enter your credit card details for easy processing",
-        "styleGuidSettings": "Store style guides and documents on tonality and terminology"
-      },
+      "nextSteps": "NEXT STEPS",
+      "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
+      "addSettings": "Add settings",
+      "creditCardDetailsSettings": "Store your credit card details for super-easy flows",
+      "styleGuidSettings": "Store style guides and guidelines for tonality and terminology",
       "orders": {
-        "back": "Back",
         "title": "Orders",
         "viewAllOrders": "View all orders",
         "openOrders": "CURRENT EDITIONS",
@@ -1548,7 +1501,8 @@
           "invoiceDate": "Order time",
           "invoiceAddress": "Billing address",
           "contactPersonTitle": "PROJECT MANAGEMENT"
-        }
+        },
+        "back": "Back"
       },
       "invoices": {
         "title": "Invoices",
@@ -1743,11 +1697,11 @@
             "increaseNumberOfLicenses": "Increase number of licenses",
             "selectLicense": "Select license...",
             "selectRole": "Select role...",
-            "roleChangeWarning": "Your Team Administrator changed your role. Logout and login to refresh your account.",
             "roles": {
               "teamAdmin": "TeamAdmin",
               "user": "User"
-            }
+            },
+            "roleChangeWarning": "Your Team Administrator changed your role. Logout and login to refresh your account."
           }
         }
       },
@@ -1774,7 +1728,79 @@
           "good": "Good",
           "insufficient": "Insufficient"
         }
+      },
+      "overview": {
+        "title": "Overview",
+        "nextSteps": "NEXT STEPS",
+        "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
+        "addSettings": "Add details",
+        "creditCardDetailsSettings": "Enter your credit card details for easy processing",
+        "styleGuidSettings": "Store style guides and documents on tonality and terminology"
       }
+    },
+    "footer": {
+      "contact": "Contact us",
+      "newsletter": "Newsletter",
+      "newsletterDescription": "For anyone interested in language, technology and creativity",
+      "newsletterDisclaimer": "By registering, you agree to our privacy policy and give your consent to receive updates from our company.",
+      "yourEmail": "Your e-mail address",
+      "freelancerRegistration": "Freelancer registration",
+      "servicesTitle": "SERVICES",
+      "services": {
+        "translation": "AI translation &amp; verification",
+        "expertise": "Specialized translation",
+        "editing": "Proofreading",
+        "copywriting": "Copywriting",
+        "consulting": "Consulting",
+        "forBusiness": "For companies"
+      },
+      "knowledgeTitle": "KNOWLEDGE",
+      "knowledge": {
+        "expertise": "Language expertise",
+        "whySupertext": "Why Supertext",
+        "technology": "Technology",
+        "references": "References",
+        "faq": "FAQ",
+        "blog": "Blog"
+      },
+      "companyTitle": "COMPANY",
+      "company": {
+        "contact": "Contact us",
+        "aboutSupertext": "About Supertext",
+        "careers": "Working at Supertext"
+      },
+      "legal": {
+        "imprint": "Imprint",
+        "terms": "GTC",
+        "privacy": "Privacy policy",
+        "dataProtection": "Data protection",
+        "media": "Media"
+      }
+    },
+    "fileTranslation": {
+      "uploadFile": "Upload file"
+    },
+    "humanVerification": {
+      "verifyButton": "Verify by expert",
+      "stepTitle": "Verify by expert - Step",
+      "stepDescription": "The AI translation is reviewed and verified by a supertext expert. You will receive a text file with a certificate for download.",
+      "nextStepButton": "Next step",
+      "orderVerification": "Order verification",
+      "authorizePayment": "Authorize payment",
+      "unsupportedLanguagePair": {
+        "title": "Not yet supported for expert review",
+        "description": "No worries! Expert review will soon be available for more language pairs."
+      },
+      "stepOne": {
+        "title": "Verification",
+        "payWithInvoice": "Payment will be made by invoice.",
+        "payWithCard": "Payment will be made using your stored credit card information.",
+        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card details."
+      }
+    },
+    "couponCode": {
+      "placeholder": "Add a discount code",
+      "tooltip": "Use your coupon code to get a discount on your order."
     },
     "landingPage": {
       "languageServices": {
@@ -2141,44 +2167,23 @@
           }
         }
       }
-    },
-    "footer": {
-      "contact": "Contact us",
-      "newsletter": "Newsletter",
-      "newsletterDescription": "For anyone interested in language, technology and creativity",
-      "newsletterDisclaimer": "By registering, you agree to our privacy policy and give your consent to receive updates from our company.",
-      "yourEmail": "Your e-mail address",
-      "freelancerRegistration": "Freelancer registration",
-      "servicesTitle": "SERVICES",
-      "services": {
-        "translation": "AI translation &amp; verification",
-        "expertise": "Specialized translation",
-        "editing": "Proofreading",
-        "copywriting": "Copywriting",
-        "consulting": "Consulting",
-        "forBusiness": "For companies"
-      },
-      "knowledgeTitle": "KNOWLEDGE",
-      "knowledge": {
-        "expertise": "Language expertise",
-        "whySupertext": "Why Supertext",
-        "technology": "Technology",
-        "references": "References",
-        "faq": "FAQ",
-        "blog": "Blog"
-      },
-      "companyTitle": "COMPANY",
-      "company": {
-        "contact": "Contact us",
-        "aboutSupertext": "About Supertext",
-        "careers": "Working at Supertext"
-      },
-      "legal": {
-        "imprint": "Imprint",
-        "terms": "GTC",
-        "privacy": "Privacy policy",
-        "dataProtection": "Data protection",
-        "media": "Media"
+    }
+  },
+  "remove": "Remove",
+  "translator": {
+    "sourcePlaceholderTitle": "Type to translate",
+    "sourcePlaceholderDescription": "Or drang and drop documents to translate with our AI Translator",
+    "features": {
+      "infoPopover": {
+        "title": "Function",
+        "rephrase": {
+          "title": "Rephrase",
+          "description": "Select <highlight>multiple words</highlight> to rephrase."
+        },
+        "wordAlternative": {
+          "title": "Alternative word choice",
+          "description": "Click on a <highlight>word</highlight> to find alternatives."
+        }
       }
     }
   }

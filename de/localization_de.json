@@ -1138,6 +1138,7 @@
   "cancel": "Abbrechen",
   "areYouSure": "Sind Sie sicher?",
   "apply": "Anwenden",
+  "remove": "Entfernen",
   "undoButton": "Rückgängig",
   "redoButton": "Wiederholen",
   "backButton": "Zurück",
@@ -1358,7 +1359,48 @@
       "translation": "Ein Fehler ist während der Übersetzung aufgetreten.",
       "fileTranslation": "Ein Fehler ist während der Übersetzung Ihres Dokuments aufgetreten.",
       "fileDetectError": "Fehler beim Erkennen der Dokumentsprache.",
-      "fileMalwareDetected": "Datei könnte Malware enthalten und wurde abgelehnt."
+      "fileMalwareDetected": "Datei könnte Malware enthalten und wurde abgelehnt.",
+      "settings": {
+        "deleteBillingAddress": "Beim Aktualisieren der Rechnungsadresse ist ein Fehler aufgetreten",
+        "updatePassword": "Beim Aktualisieren des Passworts ist ein Fehler aufgetreten",
+        "updateDefaultBillingAddress": "Beim Aktualisieren der Rechnungsadresse ist ein Fehler aufgetreten",
+        "updateCustomerProfile": "Beim Aktualisieren des Profils ist ein Fehler aufgetreten",
+        "updateBillingAddress": "Beim Aktualisieren der Rechnungsadresse ist ein Fehler aufgetreten",
+        "changeDetaultPaymentMethod": "Beim Versuch, die Standardzahlungsmethode zu ändern, ist ein Fehler aufgetreten",
+        "fetchCustomerProfile": "Das Kundenprofil konnte nicht abgerufen werden",
+        "addCreditCardDetails": "Beim Hinzufügen der Kartendetails ist ein Fehler aufgetreten",
+        "requestBillingPermission": "Beim Anfordern der Rechnungsberechtigung ist ein Fehler aufgetreten",
+        "deleteCreditCard": "Beim Löschen der Kartendetails ist ein Fehler aufgetreten"
+      },
+      "team": {
+        "addMember": "Beim Einladen des Benutzers zum Team ist ein Fehler aufgetreten",
+        "changeRole": "Beim Ändern der Rolle des Teammitglieds ist ein Fehler aufgetreten",
+        "editMember": "Beim Bearbeiten des Teammitglieds ist ein Fehler aufgetreten",
+        "removeMember": "Beim Entfernen des Benutzers aus dem Team ist ein Fehler aufgetreten"
+      },
+      "subscription": {
+        "cancel": "Beim Kündigen des Abonnements ist ein Fehler aufgetreten",
+        "update": "Beim Aktualisieren des Abonnements ist ein Fehler aufgetreten"
+      }
+    },
+    "success": {
+      "settings": {
+        "deleteBillingAddress": "Rechnungsadresse gelöscht",
+        "updatePassword": "Passwort aktualisiert",
+        "updateCustomerProfile": "Benutzerprofil aktualisiert",
+        "updateBillingAddress": "Rechnungsadresse aktualisiert",
+        "deleteCreditCard": "Kartendetails erfolgreich gelöscht"
+      },
+      "team": {
+        "addMember": "Benutzer erfolgreich zum Team eingeladen",
+        "changeRole": "Rolle des Teammitglieds erfolgreich geändert",
+        "editMember": "Teammitglied erfolgreich bearbeitet",
+        "removeMember": "Benutzer erfolgreich aus dem Team entfernt"
+      },
+      "subscription": {
+        "cancel": "Abonnement erfolgreich gekündigt",
+        "update": "Abonnement erfolgreich aktualisiert"
+      }
     }
   },
   "endpointServices": {
@@ -1378,6 +1420,23 @@
   "connectivityAlerts": {
     "offline": "Sie sind derzeit offline.",
     "online": "Ihre Internetverbindung wurde wiederhergestellt."
+  },
+  "translator": {
+    "sourcePlaceholderTitle": "Tippen um zu übersetzen",
+    "sourcePlaceholderDescription": "Oder benützen Sie drag& drop umDokumente mit unserem AI-Übersetzer zu übersetzen",
+    "features": {
+      "infoPopover": {
+        "title": "Funktionsweise",
+        "rephrase": {
+          "title": "Umformulieren",
+          "description": "Wählen Sie <highlight>mehrere Wörter</highlight> zur Umformulierung aus."
+        },
+        "wordAlternative": {
+          "title": "Alternative Wortwahl",
+          "description": "Klicken Sie auf ein <highlight>Wort</highlight>, um Alternativen zu finden."
+        }
+      }
+    }
   },
   "starstruck": {
     "welcomeMessage": "Grüezi,",
@@ -1410,10 +1469,14 @@
         "consultation": "Beratung"
       }
     },
+    "fileTranslation": {
+      "uploadFile": "Datei hochladen"
+    },
     "filter": {
       "title": "Filter",
       "all": "Alle",
       "administrator": "Administrator",
+      "user": "User",
       "licensed": "Licensed",
       "removeFilter": "Filter entfernen",
       "types": {
@@ -1428,14 +1491,40 @@
       "userInvoices": "Ihre Rechnungen",
       "allInvoices": "Alle Rechnungen"
     },
+    "humanVerification": {
+      "verifyButton": "Durch Expert:in verifizieren",
+      "stepTitle": "Durch Expert:in verifizieren - Schritt",
+      "stepDescription": "Die KI-Übersetzung wird durch ein:e Supertext-Expert:in überprüft und verifiziert. Sie erhalten eine Textdatei mit Zertifikat zum Download.",
+      "nextStepButton": "Nächster Schritt",
+      "orderVerification": "Verifikation bestellen",
+      "authorizePayment": "Zahlung autorisieren",
+      "unsupportedLanguagePair": {
+        "title": "wird für die Expertenprüfung noch nicht unterstützt.",
+        "description": "Kein Problem! Die Expertenüberprüfung wird bald für weitere Sprachpaare verfügbar sein"
+      },
+      "stepOne": {
+        "title": "Verifikation",
+        "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
+        "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
+        "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
+      }
+    },
+    "couponCode": {
+      "placeholder": "Rabattcode hinzufügen",
+      "tooltip": "Verwenden Sie Ihren Gutscheincode, um einen Rabatt auf Ihre Bestellung zu erhalten."
+    },
     "dashboard": {
       "title": "Dashboard",
-      "nextSteps": "NÄCHSTE SCHRITTE",
-      "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
-      "addSettings": "Angaben ergänzen",
-      "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
-      "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
+      "overview": {
+        "title": "Übersicht",
+        "nextSteps": "NÄCHSTE SCHRITTE",
+        "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
+        "addSettings": "Angaben ergänzen",
+        "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
+        "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie"
+      },
       "orders": {
+        "back": "Zurück",
         "title": "Aufträge",
         "viewAllOrders": "Alle Aufträge ansehen",
         "openOrders": "AKTUELLE AUFTRÄGE",
@@ -1657,7 +1746,8 @@
             "roles": {
               "teamAdmin": "Administrator",
               "user": "User"
-            }
+            },
+            "roleChangeWarning": "Ihr Team Administrator hat ihre Rolle geändert. Bitte loggen Sie sich aus und ein um Ihren Account zu aktualisieren."
           }
         }
       },
@@ -1683,6 +1773,372 @@
           "super": "Super",
           "good": "Gut",
           "insufficient": "Ungenügend"
+        }
+      }
+    },
+    "landingPage": {
+      "languageServices": {
+        "eyebrowHeadline": "ALLE SPRACHSERVICES"
+      }
+    },
+    "subscriptionPlans": {
+      "free": {
+        "title": "Free",
+        "description": "Description Zielgruppe o.ä. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "Kostenlos",
+        "price_yearly": "Kostenlos",
+        "features": {
+          "title": "In Starter enthalten:",
+          "items": {
+            "0": {
+              "title": "5 Sprachen"
+            },
+            "1": {
+              "title": "Bis 3000 Zeichen"
+            },
+            "2": {
+              "title": "5 Dateien pro Monat (bearbeitbar)"
+            },
+            "3": {
+              "title": "5 MB maximale Dateigrösse"
+            },
+            "4": {
+              "title": "Profi-Verifizierung auf Knopfdruck (kostenpflichtig)"
+            },
+            "5": {
+              "title": "Fused Translation",
+              "badge": "In Kürze"
+            }
+          }
+        }
+      },
+      "essential": {
+        "title": "Essential",
+        "description": "Description Zielgruppe o.ä. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "11,90",
+        "price_yearly": "9.90",
+        "period_monthly": "/ Monat",
+        "period_yearly": "/ Monat",
+        "features": {
+          "title": "Alles aus «Starter», plus:",
+          "items": {
+            "0": {
+              "title": "Maximale Datensicherheit"
+            },
+            "1": {
+              "title": "Unbegrenzte Textübersetzung"
+            },
+            "2": {
+              "title": "20 Dateien pro Monat (bearbeitbar)"
+            },
+            "3": {
+              "title": "10 MB maximale Dateigrösse"
+            },
+            "4": {
+              "title": "Excel-, PDF- und SRT-Dateien"
+            },
+            "5": {
+              "title": "E-Mail-Support innert 24 h"
+            }
+          }
+        }
+      },
+      "advanced": {
+        "title": "Advanced",
+        "badge": "Bald verfügbar",
+        "description": "Description Zielgruppe o.ä. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "29,90",
+        "price_yearly": "24,90",
+        "period_monthly": "/ Monat",
+        "period_yearly": "/ Monat",
+        "features": {
+          "title": "Alles aus «Essential», plus:",
+          "items": {
+            "0": {
+              "title": "23 Sprachen"
+            },
+            "1": {
+              "title": "Unbegrenzte Datei-übersetzungen (bearbeitbar)"
+            },
+            "2": {
+              "title": "20 MB maximale Dateigrösse"
+            },
+            "3": {
+              "title": "Glossare"
+            },
+            "4": {
+              "title": "Add-ins für Microsoft Office"
+            },
+            "5": {
+              "title": "Längenbeschränkung"
+            },
+            "6": {
+              "title": "Single Sign-on (SSO)"
+            }
+          }
+        }
+      },
+      "pro": {
+        "title": "Pro",
+        "badge": "Bald verfügbar",
+        "description": "Description Zielgruppe o.ä. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "59,90",
+        "price_yearly": "49.90",
+        "period_monthly": "/ Monat",
+        "period_yearly": "/ Monat",
+        "features": {
+          "title": "Alles aus «Advanced», plus:",
+          "items": {
+            "0": {
+              "title": "30 MB maximale Dateigrösse"
+            },
+            "1": {
+              "title": "Styleguides"
+            },
+            "2": {
+              "title": "Übersetzungsimport"
+            },
+            "3": {
+              "title": "E-Mail- und Telefon-Support innerhalb von"
+            },
+            "4": {
+              "title": "Persönliche:r Account-Manager:in"
+            },
+            "5": {
+              "title": "Uptime-Garantie"
+            },
+            "6": {
+              "title": "Integration in CAT-Tools (optional)"
+            },
+            "7": {
+              "title": "API-Zugang (optional)"
+            }
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "badge": "",
+        "description": "Für grosse Organisationen mit höchsten Ansprüchen eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "price_monthly": "Custom",
+        "price_yearly": "Custom",
+        "period_monthly": "/ Monat",
+        "period_yearly": "/ Monat",
+        "features": {
+          "title": "Alles aus «Pro», plus:",
+          "items": {
+            "0": {
+              "title": "Massgeschneiderte KI-Modelle und Branding"
+            },
+            "1": {
+              "title": "SaaS, Private Cloud oder On-Premises-Hosting"
+            },
+            "2": {
+              "title": "Benutzerdefinierte TLS-/SLL-Zertifikate"
+            }
+          }
+        }
+      }
+    },
+    "featureComparison": {
+      "plans": {
+        "free": "Kostenlos",
+        "essential": "Wesentlich",
+        "advanced": "Fortgeschrittene",
+        "pro": "Pro",
+        "enterprise": "Unternehmen"
+      },
+      "categories": {
+        "languages": {
+          "title": "Sprachen",
+          "features": {
+            "languages": {
+              "name": "Sprachen",
+              "description": "",
+              "all": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutscher Dialekt",
+              "free": "Englisch, Französisch, Deutsch, Italienisch, Rätoromanisch, Schweizerdeutscher Dialekt",
+              "essential": "Englisch, Französisch, Deutsch, Italienisch, Rätoromanisch, Schweizerdeutscher Dialekt",
+              "advanced": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutscher Dialekt",
+              "pro": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutscher Dialekt",
+              "enterprise": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutscher Dialekt"
+            },
+            "languageVariants": {
+              "name": "Sprachvarianten",
+              "description": "",
+              "all": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutscher Dialekt (BE, ZH)",
+              "free": "Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutscher Dialekt (BE, ZH)",
+              "essential": "Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutscher Dialekt (BE, ZH)",
+              "advanced": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutscher Dialekt (BE, ZH)",
+              "pro": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutscher Dialekt (BE, ZH)",
+              "enterprise": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutscher Dialekt (BE, ZH)"
+            }
+          }
+        },
+        "security": {
+          "title": "Sicherheit",
+          "features": {
+            "encryptedTransfer": {
+              "name": "Verschlüsselte Übertragung",
+              "description": "Ihre Daten werden sicher übertragen. Sie können niemals von Dritten gelesen werden."
+            },
+            "immediateTextDeletion": {
+              "name": "Sofortige Löschung des Textes",
+              "description": "Alle Texte werden sofort nach der Übersetzung gelöscht und können niemals von Dritten gelesen werden."
+            },
+            "singleSignOn": {
+              "name": "Einmalige Anmeldung (SSO)",
+              "description": "Melden Sie sich mit den Anmeldedaten Ihres Unternehmens an. Verfügbar für Teams mit mehr als 100 Plätzen in einigen Tarifen.",
+              "advanced": "Ab 10 Plätzen",
+              "pro": "Ab 10 Plätzen"
+            },
+            "teamAdministration": {
+              "name": "Teamverwaltung",
+              "description": "Verwalten Sie die Nutzer in Ihrer Organisation. Fügen Sie Mitglieder hinzu, zeigen Sie die Nutzung an und kontrollieren Sie die Kosten mit zentraler Rechnungsstellung."
+            },
+            "privateHosting": {
+              "name": "Private Cloud oder Vor-Ort-Hosting",
+              "description": "Private Hosting-Optionen für zusätzliche Sicherheit.",
+              "enterprise": "Optional"
+            },
+            "enterpriseTLSCertificates": {
+              "name": "TLS\/SSL-Zertifikate für Unternehmen",
+              "description": "",
+              "enterprise": "Optional"
+            }
+          }
+        },
+        "textTranslation": {
+          "title": "Textübersetzung",
+          "features": {
+            "unlimitedTextTranslation": {
+              "name": "Unbegrenzte Textübersetzung",
+              "description": "Übersetzen Sie eine unbegrenzte Menge an Text.",
+              "free": "Bis zu 1.500 Zeichen",
+              "essential": "Bis zu 3.000 Zeichen"
+            },
+            "lengthControl": {
+              "name": "Kontrolle der Länge",
+              "description": "Achten Sie darauf, dass die Länge einer Übersetzung die Länge des Ausgangstextes nicht überschreitet."
+            }
+          }
+        },
+        "documentTranslation": {
+          "title": "Übersetzung von Dokumenten",
+          "features": {
+            "unlimitedFileTranslation": {
+              "name": "Unbegrenzte Dateiübersetzung",
+              "description": "Laden Sie vollständige Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung mit demselben Layout und Styling.",
+              "free": "0 Dateien pro Monat, pro Benutzer",
+              "essential": "5 Dateien pro Monat, pro Benutzer",
+              "advanced": "20 Dateien pro Monat, pro Benutzer"
+            },
+            "fileEditingAllowed": {
+              "name": "Dateibearbeitung erlaubt",
+              "description": ""
+            },
+            "maximumFileSize": {
+              "name": "Maximale Dateigröße",
+              "description": ""
+            },
+            "microsoftOfficeFileTypes": {
+              "name": "Microsoft Office Dateitypen",
+              "description": "Unterstützte Formate: Word, Excel, PowerPoint."
+            },
+            "pdfFileTypeEdit": {
+              "name": "PDF-Dateityp (bearbeiten)",
+              "description": "PDFs sind nach der Übersetzung bearbeitbar."
+            },
+            "videoSubtitleFileTypes": {
+              "name": "Video-Untertitel-Dateitypen (.srt)",
+              "description": ""
+            }
+          }
+        },
+        "customisation": {
+          "title": "Personalisierung",
+          "features": {
+            "formalInformalTone": {
+              "name": "Formeller\/informeller Ton",
+              "description": "Passen Sie den Ton der Übersetzungen an Ihre Bedürfnisse an."
+            },
+            "fusedTranslation": {
+              "name": "Fused Translation",
+              "description": "Ihre KI-Übersetzungen verbessern sich mit jedem Auftrag, den Sie an Sprachexperten vergeben.",
+              "free": "In Kürze",
+              "essential": "In Kürze",
+              "advanced": "In Kürze",
+              "pro": "In Kürze",
+              "enterprise": "In Kürze",
+              "badge": "In Kürze"
+            },
+            "translationImport": {
+              "name": "Übersetzung Import",
+              "description": "Laden Sie Ihre eigene Translation-Memory-Datenbank hoch, um Ihre KI-Übersetzungen zu verbessern."
+            },
+            "glossaries": {
+              "name": "Glossare",
+              "description": "Definieren Sie, wie bestimmte Wörter übersetzt werden."
+            },
+            "styleGuides": {
+              "name": "Stilrichtlinien",
+              "description": "Kontrollieren Sie Aspekte wie Interpunktion, Zahlenformatierung und mehr in der Übersetzungsausgabe."
+            },
+            "branding": {
+              "name": "Branding",
+              "description": "Entwerfen Sie Ihr eigenes KI-Übersetzungssystem mit dem Look and Feel Ihres Corporate Brandings."
+            }
+          }
+        },
+        "integrations": {
+          "title": "Integrationen",
+          "features": {
+            "microsoftOfficeAddIns": {
+              "name": "Microsoft Office-Zusatzmodule",
+              "description": "Direkte Verwendung in Microsoft Word, PowerPoint und Outlook."
+            },
+            "api": {
+              "name": "API",
+              "description": "Integrieren Sie KI-Übersetzungen in Ihre eigenen Anwendungen und Arbeitsabläufe.",
+              "advanced": "Optional",
+              "pro": "Optional"
+            },
+            "catToolIntegration": {
+              "name": "Integration von CAT-Werkzeugen",
+              "description": "Steigern Sie die professionelle Übersetzungsproduktivität durch die Verwendung von Trados Studio, MemoQ und vielen weiteren CAT-Tools.",
+              "advanced": "Optional",
+              "pro": "Optional"
+            }
+          }
+        },
+        "support": {
+          "title": "Unterstützung",
+          "features": {
+            "supportViaEmail": {
+              "name": "Unterstützung per E-Mail",
+              "description": ""
+            },
+            "supportViaPhone": {
+              "name": "Telefonische Unterstützung",
+              "description": ""
+            },
+            "firstResponseTimeGuarantee": {
+              "name": "Garantie der ersten Reaktionszeit",
+              "description": "Während der Bürozeiten (9 bis 18 Uhr MEZ) von Montag bis Freitag",
+              "free": "",
+              "essential": "",
+              "advanced": "24 Stunden",
+              "pro": "60 Minuten",
+              "enterprise": "60 Minuten"
+            },
+            "dedicatedAccountManager": {
+              "name": "Dedizierter Kundenbetreuer",
+              "description": ""
+            },
+            "uptimeGuarantee": {
+              "name": "Uptime-Garantie",
+              "description": ""
+            }
+          }
         }
       }
     },

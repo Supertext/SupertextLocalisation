@@ -90,6 +90,17 @@ jobs:
           echo "Attempting to push branch $BRANCH_NAME"
           git push  origin "$BRANCH_NAME"
           
+      - name: Authenticate
+        env:
+          AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
+        run: |
+          #echo ${{ secrets.AZURE_DEVOPS_PAT }} | az devops login --organization $AZURE_DEVOPS_ORG_URL
+      - name: Verify Authentication
+        run: |
+          az repos list --org $AZURE_DEVOPS_ORG_URL  --project $AZURE_DEVOPS_PROJECT
+          
+          #az devops configure --defaults organization=https://dev.azure.com/supertext project=Starstruck
+      
       - name: Create Pull Request in Azure DevOps and Set Auto-Complete
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}

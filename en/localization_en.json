@@ -1380,6 +1380,11 @@
       "subscription": {
         "cancel": "Something went wrong while cancelling subscription",
         "update": "Something went wrong while updating subscription"
+      },
+      "noDataFoundInLocalStorage": "No data found in localStorage",
+      "noItemsFound": "No item with id {0} found",
+      "payment": {
+        "formalize": "Something went wrong while formalizing your payment"
       }
     },
     "success": {
@@ -1554,7 +1559,8 @@
         },
         "question": "Over 1500 companies throughout Europe already rely on our customized products and services. What can we do to make you one of them?",
         "contactUs": "Get in touch with us",
-        "compareAllFeatures": "Compare all features"
+        "compareAllFeatures": "Compare all features",
+        "customizeSubscriptionInfo": "Customize your subscription easily and at any time to suit your needs"
       },
       "resources": {
         "title": "Language resources"
@@ -1796,11 +1802,60 @@
         "payWithInvoice": "Payment will be made by invoice.",
         "payWithCard": "Payment will be made using your stored credit card information.",
         "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card details."
+      },
+      "customBilling": {
+        "addressForm": {
+          "changeBillingAddress": "Change billing address (Optional)",
+          "addBillingAddress": "Add billing address (Optional)",
+          "company": {
+            "label": "Company / Organization (optional)",
+            "placeholder": "Sample Company Ltd."
+          },
+          "vatNumber": {
+            "label": "VAT Number (optional)",
+            "placeholder": "CHE-123.456.789"
+          },
+          "costCenter": {
+            "label": "Cost center (optional)",
+            "placeholder": "C-1234"
+          },
+          "firstName": {
+            "label": "First name",
+            "placeholder": "John",
+            "error": "First name is required"
+          },
+          "lastName": {
+            "label": "Last name",
+            "placeholder": "Doe",
+            "error": "Last name is required"
+          },
+          "street": {
+            "label": "Street / House Number",
+            "placeholder": "Sample street 123",
+            "error": "Street address is required"
+          },
+          "postalCode": {
+            "label": "Postal Code",
+            "placeholder": "8000",
+            "error": "Postal code must be at least 4 characters"
+          },
+          "city": {
+            "label": "City",
+            "placeholder": "Zurich",
+            "error": "City is required"
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Select country",
+            "error": "Country is required"
+          }
+        }
       }
     },
     "couponCode": {
       "placeholder": "Add a discount code",
-      "tooltip": "Use your coupon code to get a discount on your order."
+      "tooltip": "Use your coupon code to get a discount on your order.",
+      "trigger": "Validate a discount code"
     },
     "landingPage": {
       "languageServices": {

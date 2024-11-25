@@ -1359,8 +1359,6 @@
       "fileTranslation": "Ein Fehler ist während der Übersetzung Ihres Dokuments aufgetreten.",
       "fileDetectError": "Fehler beim Erkennen der Dokumentsprache.",
       "fileMalwareDetected": "Datei könnte Malware enthalten und wurde abgelehnt.",
-      "noDataFoundInLocalStorage": "Keine Daten in localStorage gefunden",
-      "noItemsFound": "Kein Element mit ID {0} gefunden",
       "settings": {
         "deleteBillingAddress": "Beim Aktualisieren der Rechnungsadresse ist ein Fehler aufgetreten",
         "updatePassword": "Beim Aktualisieren des Passworts ist ein Fehler aufgetreten",
@@ -1383,7 +1381,9 @@
         "cancel": "Beim Kündigen des Abonnements ist ein Fehler aufgetreten",
         "update": "Beim Aktualisieren des Abonnements ist ein Fehler aufgetreten"
       },
-      "payment":{
+      "noDataFoundInLocalStorage": "Keine Daten in localStorage gefunden",
+      "noItemsFound": "Kein Element mit ID {0} gefunden",
+      "payment": {
         "formalize": "Bei der Formalisierung Ihrer Zahlung ist etwas schief gelaufen"
       }
     },
@@ -1534,7 +1534,6 @@
         "cancellationInfo": "Sie haben Ihr Abo gekündigt und es endet am",
         "freePlanInfo": "Ihr Abo wird auf den kostenlosen Supereasy-Tarif umgestellt.",
         "customPlanInfo": "Passen Sie Ihr Abo Ihren Bedürfnissen an",
-        "customizeSubscriptionInfo":"Passen Sie ganz einfach und jederzeit ihr Abonnement ihren Bedürfnissen an",
         "upgradeSubscriptionInformation": "Bitten Sie Ihren Administrator, Ihr Abonnement zu aktualisieren",
         "annuallySubscription": "Jährlich",
         "monthlySubscription": "Monatlich",
@@ -1560,7 +1559,8 @@
         },
         "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um auch Sie dazu zählen zu dürfen?",
         "contactUs": "Kontaktieren Sie uns",
-        "compareAllFeatures": "Alle Features vergleichen"
+        "compareAllFeatures": "Alle Features vergleichen",
+        "customizeSubscriptionInfo": "Passen Sie ganz einfach und jederzeit ihr Abonnement ihren Bedürfnissen an"
       },
       "resources": {
         "title": "Sprachressourcen"

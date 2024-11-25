@@ -1380,6 +1380,11 @@
       "subscription": {
         "cancel": "Une erreur s'est produite lors de l'annulation de l'abonnement",
         "update": "Une erreur s'est produite lors de la mise à jour de l'abonnement"
+      },
+      "noDataFoundInLocalStorage": "Aucune donnée trouvée dans localStorage",
+      "noItemsFound": "Aucun élément trouvé avec l'ID {0} ",
+      "payment": {
+        "formalize": "Quelque chose s'est mal passé lors de la formalisation de votre paiement"
       }
     },
     "success": {
@@ -1554,7 +1559,8 @@
         },
         "question": "Plus de 1500 entreprises dans toute l'Europe font déjà confiance à nos produits et services sur mesure. Que pouvons-nous faire pour vous compter parmi elles ?",
         "contactUs": "Contactez-nous",
-        "compareAllFeatures": "Comparer toutes les caractéristiques"
+        "compareAllFeatures": "Comparer toutes les caractéristiques",
+        "customizeSubscriptionInfo": "Adaptez facilement et à tout moment votre abonnement à vos besoins"
       },
       "resources": {
         "title": "Ressources linguistiques"

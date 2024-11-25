@@ -1380,6 +1380,11 @@
       "subscription": {
         "cancel": "Something went wrong while cancelling subscription",
         "update": "Something went wrong while updating subscription"
+      },
+      "noDataFoundInLocalStorage": "No data found in localStorage",
+      "noItemsFound": "No item with id {0} found",
+      "payment": {
+        "formalize": "Something went wrong while formalizing your payment"
       }
     },
     "success": {
@@ -1554,7 +1559,8 @@
         },
         "question": "Over 1500 companies throughout Europe already rely on our customized products and services. What can we do to make you one of them?",
         "contactUs": "Get in touch with us",
-        "compareAllFeatures": "Compare all features"
+        "compareAllFeatures": "Compare all features",
+        "customizeSubscriptionInfo": "Customize your subscription easily and at any time to suit your needs"
       },
       "resources": {
         "title": "Language resources"

@@ -1348,7 +1348,8 @@
   },
   "notifications": {
     "info": {
-      "waitingForSlowTranslation": "Ihre Übersetzung dauert etwas länger als normal. Bitte haben Sie Geduld."
+      "waitingForSlowTranslation": "Ihre Übersetzung dauert etwas länger als normal. Bitte haben Sie Geduld.",
+      "submittingVerification": "Übermittlung der Verifizierung, bitte warten..."
     },
     "failure": {
       "systemUnavailable": "Das Übersetzungssystem ist nicht verfügbar. Bitte kontaktieren Sie Ihre:n Systemadministrator:in.",
@@ -1359,6 +1360,15 @@
       "fileTranslation": "Ein Fehler ist während der Übersetzung Ihres Dokuments aufgetreten.",
       "fileDetectError": "Fehler beim Erkennen der Dokumentsprache.",
       "fileMalwareDetected": "Datei könnte Malware enthalten und wurde abgelehnt.",
+      "unknownError":"Zahlung genehmigen.",
+      "somethingWentWrongWithVerifiedTranslation": "Beim Abrufen der verifizierten Übersetzung ist etwas schief gelaufen",
+      "somethingWentWrongWithSubmittingTranslation": "Bei der Übermittlung der bearbeiteten Übersetzung ist etwas schief gelaufen",
+      "officeHoursAvailability": "Konnte keine Büroverfügbarkeit abrufen",
+      "userIsNotAuthenticated": "Der Benutzer ist nicht authentifiziert",
+      "noDataReceived": "Keine Daten empfangen",
+      "couldNotFetchVerificationJob": "Beim Abrufen des Verifizierungsauftrags ist etwas schief gelaufen",
+      "somethingWentWrongWithPricing":"Bei der Schätzung des Preises und der Anzahl Ihrer Anfrage ist etwas schief gelaufen",
+      "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler immer wieder auftritt", 
       "settings": {
         "deleteBillingAddress": "Beim Aktualisieren der Rechnungsadresse ist ein Fehler aufgetreten",
         "updatePassword": "Beim Aktualisieren des Passworts ist ein Fehler aufgetreten",
@@ -1369,13 +1379,21 @@
         "fetchCustomerProfile": "Das Kundenprofil konnte nicht abgerufen werden",
         "addCreditCardDetails": "Beim Hinzufügen der Kartendetails ist ein Fehler aufgetreten",
         "requestBillingPermission": "Beim Anfordern der Rechnungsberechtigung ist ein Fehler aufgetreten",
-        "deleteCreditCard": "Beim Löschen der Kartendetails ist ein Fehler aufgetreten"
+        "deleteCreditCard": "Beim Löschen der Kartendetails ist ein Fehler aufgetreten",
+        "couldNotFetchCountryBillingList": "Es konnten keine Länderabrechnungslisten abgerufen werden: {error}",
+        "couldNotFetchCardDetails": "Beim Versuch, Ihre Kartendetails zu holen, ist etwas passiert",
+        "couldNotFetchBillingAddress": "Konnte die Rechnungsadressen nicht abrufen",
+        "couldNotFetchInvoiceLink": "Konnte den Rechnungslink nicht abrufen:  {error}",
+        "couldNotFetchTypeLabel": "Konnte die Typbezeichnung nicht abrufen:  {error}"
       },
       "team": {
         "addMember": "Beim Einladen des Benutzers zum Team ist ein Fehler aufgetreten",
         "changeRole": "Beim Ändern der Rolle des Teammitglieds ist ein Fehler aufgetreten",
         "editMember": "Beim Bearbeiten des Teammitglieds ist ein Fehler aufgetreten",
-        "removeMember": "Beim Entfernen des Benutzers aus dem Team ist ein Fehler aufgetreten"
+        "removeMember": "Beim Entfernen des Benutzers aus dem Team ist ein Fehler aufgetreten",
+        "couldNotFetchTeamMembers": "Konnte die Teammitglieder nicht abrufen: {error}",
+        "couldNotFetchTeamDetails": "Konnte die Teamdetails nicht abrufen: {error}",
+        "couldNotFetchTeamId": "Konnte die Team-ID nicht abrufen: {error}"
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abonnements ist ein Fehler aufgetreten",
@@ -1384,7 +1402,9 @@
       "noDataFoundInLocalStorage": "Keine Daten in localStorage gefunden",
       "noItemsFound": "Kein Element mit ID {0} gefunden",
       "payment": {
-        "formalize": "Bei der Formalisierung Ihrer Zahlung ist etwas schief gelaufen"
+        "formalize": "Bei der Formalisierung Ihrer Zahlung ist etwas schief gelaufen",
+        "couldNotFetchTeamPaymentMethods": "Konnte keine Team-Zahlungsmethoden abrufen: {error}", 
+        "couldNotFetchDefaultPaymentMethods": "Konnte keine Standard-Zahlungsmethoden abrufen: {error}"
       }
     },
     "success": {
@@ -1431,9 +1451,14 @@
     "placeOrder": "Auftrag platzieren",
     "or": "oder",
     "entriesPerPage": "Einträge pro Seite",
-    "changeLanguage": "Sprache wechseln",
     "close": "Schliessen",
     "navbar": {
+      "changeLanguage": "Sprache wechseln",
+      "changeCountry": "Land wechseln",
+      "country": {
+        "ch": "Schweiz",
+        "other": "Andere"
+      },
       "services": "Services",
       "whySupertext": "Warum Supertext?",
       "subscriptionAndPrices": "Abo & Preise",
@@ -1793,15 +1818,63 @@
       "nextStepButton": "Nächster Schritt",
       "orderVerification": "Verifikation bestellen",
       "authorizePayment": "Zahlung autorisieren",
+      "additionalInformation": "Fügen Sie einige optionale Zusatzinformationen zu Ihrem Prüfauftrag hinzu, bevor Sie ihn abschließen.",
+      "submit":{
+        "title":"Submit your verification?",
+        "description": "Damit wird Ihre Verifizierung unwiderruflich übermittelt. Sind Sie sicher, dass Sie Ihre Verifizierung einreichen wollen?"
+      },
+      "reset":{
+        "title":"Auf Original zurücksetzen?",
+        "description":"Sie verlieren alle Ihre Änderungen. Sind Sie sicher, dass Sie auf den ursprünglichen Text zurücksetzen wollen?"
+      },
+      "infoMessage":{
+        "part1":"Die zertifizierte",
+        "part2":"Kontrolle",
+        "part3":"durch eine:n Supertext-Expert:in",
+        "description:":"At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Dieser Service ist kostenpflichtig und wird nach Anzahl Wörtern verrechnet."
+      },
+      "certifiedControl":{
+        "title":"Zertifizierte Kontrolle durch eine:n Supertext-Expert:in",
+        "dDescription":"Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen."
+      },
+      "serviceIsDeactivated":{
+        "title": "Service ist deaktiviert",
+        "description": "Der Dienst \"Überprüfung durch Experten\" ist in unserer Organisation leider deaktiviert. Setzen Sie sich mit Ihrem Supertext-Projektmanager in Verbindung, um eine Demo zu planen oder diese Funktion für Ihr Unternehmen einzurichten."
+      },
       "unsupportedLanguagePair": {
         "title": "wird für die Expertenprüfung noch nicht unterstützt.",
         "description": "Kein Problem! Die Expertenüberprüfung wird bald für weitere Sprachpaare verfügbar sein"
+      },
+      "isTargetTextTooLong":{
+        "title": "Übersetzungsverifikationen sind derzeit auf {0} Zeichen begrenzt.",
+        "description": "Wenn Ihr Text zu lang ist, können Sie versuchen, ihn zu kürzen, um sich auf die spezifischen Teile zu konzentrieren, bei denen Sie Hilfe benötigen."
+      },
+      "isEstimateError":{
+        "title": "Bei der Schätzung des Preises und der Anzahl Ihrer Anfrage ist ein Fehler aufgetreten",
+        "description": "Versuchen Sie, Ihren Browser zu aktualisieren oder kommen Sie später wieder"
+      },
+      "outIfBusinessHours": {
+        "title_part1": "Leider erreichst du uns ausserhalb unserer",
+        "title_part2": "Geschäftszeiten",
+        "description": "'Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
+        "businessHours": "Montag - Freitag",
+        "businessHoursTime": "9:00-17:30",
+        "nonWorkingDaySaturday": "Samstag",
+        "nonWorkingDaySunday": "Sonntag",
+        "nonWorkingDaysHolidays": "Feiertage",
+        "nonWorkingDaysInfo": "Geschlossen",
+        "businessHoursInfo": "Geschäftszeiten"
       },
       "stepOne": {
         "title": "Verifikation",
         "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
         "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
         "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
+      },
+      "stepThree":{
+        "title": "Das hat geklappt!",
+        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
+        "button": "D'accord! Fenster schliessen."
       },
       "customBilling": {
         "addressForm": {
@@ -1860,6 +1933,22 @@
     "landingPage": {
       "languageServices": {
         "eyebrowHeadline": "ALLE SPRACHSERVICES"
+      }
+    },
+    "translations": {
+      "info": "Bereit zum Übersetzen? Wählen Sie Ihre bevorzugte Methode..", 
+      "fusedTranslation":{
+        "title": "Verschmolzene Übersetzung",
+        "cta": "Warum fusionierte Übersetzung?"
+      },
+      "aiTranslation":{
+        "title": "AI-Übersetzung",
+        "description": "Sofortiger Download, {0} Dateien verbleiben diesen Monat.",
+        "cta": "Mehr bekommen"
+      }, 
+      "humanVerification":{
+        "title": "Human-verified AI",
+        "titleWhitPrice": "Human-verified AI {0} {1}"
       }
     },
     "subscriptionPlans": {
@@ -2227,7 +2316,7 @@
   "remove": "Entfernen",
   "translator": {
     "sourcePlaceholderTitle": "Tippen um zu übersetzen",
-    "sourcePlaceholderDescription": "Oder benützen Sie drag& drop umDokumente mit unserem AI-Übersetzer zu übersetzen.",
+    "sourcePlaceholderDescription": "Oder benützen Sie drag& drop umDokumente mit unserem AI-Übersetzer zu übersetzen",
     "features": {
       "infoPopover": {
         "title": "Funktionsweise",

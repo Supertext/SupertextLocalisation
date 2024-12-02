@@ -1348,7 +1348,8 @@
   },
   "notifications": {
     "info": {
-      "waitingForSlowTranslation": "La traduzione richiede più tempo del solito. Attendere prego."
+      "waitingForSlowTranslation": "La traduzione richiede più tempo del solito. Attendere prego.",
+      "submittingVerification": "Trasmissione della verifica, attendere..."
     },
     "failure": {
       "systemUnavailable": "Il sistema di traduzione non è disponibile. Contattare l’amministratore di sistema.",
@@ -1369,13 +1370,21 @@
         "fetchCustomerProfile": "Impossibile recuperare il profilo del cliente",
         "addCreditCardDetails": "Si è verificato un errore durante il tentativo di aggiungere i dettagli della carta",
         "requestBillingPermission": "Si è verificato un errore durante la richiesta di autorizzazione alla fatturazione",
-        "deleteCreditCard": "Si è verificato un errore durante il tentativo di eliminare i dettagli della carta"
+        "deleteCreditCard": "Si è verificato un errore durante il tentativo di eliminare i dettagli della carta",
+        "couldNotFetchCountryBillingList": "Non è stato possibile recuperare alcun elenco di fatturazione nazionale: {error}",
+        "couldNotFetchCardDetails": "È successo qualcosa durante il tentativo di recuperare i dati della carta di credito",
+        "couldNotFetchBillingAddress": "Impossibile recuperare gli indirizzi di fatturazione",
+        "couldNotFetchInvoiceLink": "Impossibile recuperare il link alla fattura: {error}",
+        "couldNotFetchTypeLabel": "Impossibile recuperare la designazione del tipo: {error}"
       },
       "team": {
         "addMember": "Si è verificato un errore durante l'invito dell'utente al team",
         "changeRole": "Si è verificato un errore durante la modifica del ruolo del membro del team",
         "editMember": "Si è verificato un errore durante la modifica del membro del team",
-        "removeMember": "Si è verificato un errore durante la rimozione dell'utente dal team"
+        "removeMember": "Si è verificato un errore durante la rimozione dell'utente dal team",
+        "couldNotFetchTeamMembers": "Non è stato possibile richiamare i membri del team: {error}",
+        "couldNotFetchTeamDetails": "Impossibile recuperare i dettagli della squadra: {error}",
+        "couldNotFetchTeamId": "Impossibile recuperare l'ID della squadra: {error}"
       },
       "subscription": {
         "cancel": "Si è verificato un errore durante l'annullamento dell'abbonamento",
@@ -1384,8 +1393,19 @@
       "noDataFoundInLocalStorage": "Nessun dato trovato in localStorage",
       "noItemsFound": "{0} Nessun elemento con ID trovato",
       "payment": {
-        "formalize": "Qualcosa non è andato per il verso giusto nella formalizzazione del vostro pagamento"
-      }
+        "formalize": "Qualcosa non è andato per il verso giusto nella formalizzazione del vostro pagamento",
+        "couldNotFetchTeamPaymentMethods": "Impossibile recuperare i metodi di pagamento del team: {error}",
+        "couldNotFetchDefaultPaymentMethods": "Impossibile recuperare i metodi di pagamento standard: {error}"
+      },
+      "unknownError": "Autorizzare il pagamento.",
+      "somethingWentWrongWithVerifiedTranslation": "Qualcosa è andato storto durante il recupero della traduzione verificata",
+      "somethingWentWrongWithSubmittingTranslation": "Qualcosa è andato storto durante la trasmissione della traduzione modificata",
+      "officeHoursAvailability": "Impossibile recuperare la disponibilità dell'ufficio",
+      "userIsNotAuthenticated": "L'utente non è autenticato",
+      "noDataReceived": "Nessun dato ricevuto",
+      "couldNotFetchVerificationJob": "Qualcosa è andato storto durante il recupero dell'ordine di verifica",
+      "somethingWentWrongWithPricing": "Qualcosa è andato storto nella stima del prezzo e del numero della vostra richiesta",
+      "creditCardProcessing": "Si è verificato un errore durante l'elaborazione del credito. Se questo errore continua a verificarsi, controllare la carta di credito salvata"
     },
     "success": {
       "settings": {
@@ -1454,6 +1474,12 @@
         "copywriting": "Copywriting",
         "editing": "Correzione di bozze",
         "consultation": "Consulenza"
+      },
+      "changeLanguage": "Cambiare la lingua",
+      "changeCountry": "Cambia paese",
+      "country": {
+        "ch": "Svizzera",
+        "other": "Altro"
       }
     },
     "filter": {
@@ -1850,6 +1876,54 @@
             "error": "Il paese è obbligatorio"
           }
         }
+      },
+      "additionalInformation": "Aggiungete alcune informazioni aggiuntive facoltative al vostro lavoro di prova prima di finalizzarlo.",
+      "submit": {
+        "title": "Presentare la verifica?",
+        "description": "In questo modo si invia irrevocabilmente la verifica. È sicuro di voler inviare la verifica?"
+      },
+      "reset": {
+        "title": "Ripristinare l'originale?",
+        "description": "Si perderanno tutte le modifiche apportate. Siete sicuri di voler ripristinare il testo originale?"
+      },
+      "infoMessage": {
+        "part1": "Il certificato",
+        "part2": "Controllo",
+        "part3": "da un esperto di supertesti",
+        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Questo servizio è a pagamento e viene addebitato in base al numero di parole."
+      },
+      "certifiedControl": {
+        "title": "Controllo certificato da un esperto di supertesti",
+        "dDescription": "Questo servizio è a pagamento. L'addebito avviene in base al numero di parole. Purtroppo non è possibile raggiungerci al di fuori dei nostri orari di lavoro. Non c'è problema! È possibile effettuare l'ordine ora, basta seguire la procedura."
+      },
+      "serviceIsDeactivated": {
+        "title": "Il servizio è disattivato",
+        "description": "Purtroppo il servizio \"Expert Review\" è disattivato nella nostra organizzazione. Contattate il vostro project manager Supertext per programmare una demo o impostare questa funzione per la vostra organizzazione."
+      },
+      "isTargetTextTooLong": {
+        "title": "{0} Le verifiche della traduzione sono attualmente limitate ai caratteri.",
+        "description": "Se il testo è troppo lungo, potete provare ad accorciarlo per concentrarvi sulle parti specifiche per le quali avete bisogno di aiuto."
+      },
+      "isEstimateError": {
+        "title": "Si è verificato un errore nella stima del prezzo e del numero della vostra richiesta",
+        "description": "Provare ad aggiornare il browser o tornare più tardi"
+      },
+      "outIfBusinessHours": {
+        "title_part1": "Purtroppo è possibile raggiungerci anche al di fuori del nostro",
+        "title_part2": "Orario di lavoro",
+        "description": "nessun problema! Può effettuare l'ordine ora, basta seguire i passaggi.",
+        "businessHours": "Lunedì - Venerdì",
+        "businessHoursTime": "9:00-17:30",
+        "nonWorkingDaySaturday": "Sabato",
+        "nonWorkingDaySunday": "Domenica",
+        "nonWorkingDaysHolidays": "Giorni festivi",
+        "nonWorkingDaysInfo": "Chiuso",
+        "businessHoursInfo": "Orario di lavoro"
+      },
+      "stepThree": {
+        "title": "Ha funzionato!",
+        "description": "Un esperto di Supertext verificherà il vostro testo. Riceverete la traduzione verificata all'indirizzo e-mail indicato.",
+        "button": "D'accordo! Chiudere la finestra."
       }
     },
     "couponCode": {
@@ -2221,6 +2295,22 @@
             }
           }
         }
+      }
+    },
+    "translations": {
+      "info": "Pronti a tradurre? Scegliete il vostro metodo preferito.",
+      "fusedTranslation": {
+        "title": "Traduzione fusa",
+        "cta": "Perché la traduzione unificata?"
+      },
+      "aiTranslation": {
+        "title": "Traduzione AI",
+        "description": "{0} Download immediato, i file rimangono questo mese.",
+        "cta": "Per saperne di più"
+      },
+      "humanVerification": {
+        "title": "IA verificata dall'uomo",
+        "titleWhitPrice": "IA verificata dall'uomo {1}"
       }
     }
   },

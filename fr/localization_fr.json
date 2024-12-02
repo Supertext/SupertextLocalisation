@@ -1348,7 +1348,8 @@
   },
   "notifications": {
     "info": {
-      "waitingForSlowTranslation": "Votre traduction prend un peu plus de temps que d’habitude. Veuillez patienter."
+      "waitingForSlowTranslation": "Votre traduction prend un peu plus de temps que d’habitude. Veuillez patienter.",
+      "submittingVerification": "Transmission de la vérification, veuillez patienter..."
     },
     "failure": {
       "systemUnavailable": "Le système de traduction n’est pas disponible. Veuillez contacter l’administration de systèmes.",
@@ -1369,13 +1370,21 @@
         "fetchCustomerProfile": "Impossible de récupérer le profil client",
         "addCreditCardDetails": "Une erreur s'est produite lors de la tentative d'ajout des informations de la carte",
         "requestBillingPermission": "Une erreur s'est produite lors de la demande d'autorisation de facturation",
-        "deleteCreditCard": "Une erreur s'est produite lors de la tentative de suppression des informations de la carte"
+        "deleteCreditCard": "Une erreur s'est produite lors de la tentative de suppression des informations de la carte",
+        "couldNotFetchCountryBillingList": "Aucune liste de décompte par pays n'a pu être récupérée : {error}",
+        "couldNotFetchCardDetails": "Quelque chose s'est passé en essayant de récupérer les détails de votre carte",
+        "couldNotFetchBillingAddress": "Impossible de récupérer les adresses de facturation",
+        "couldNotFetchInvoiceLink": "Je n'ai pas pu récupérer le lien de facturation : {error}",
+        "couldNotFetchTypeLabel": "N'a pas pu récupérer la désignation du type : {error}"
       },
       "team": {
         "addMember": "Une erreur s'est produite lors de l'invitation de l'utilisateur à l'équipe",
         "changeRole": "Une erreur s'est produite lors de la modification du rôle d'un membre de l'équipe",
         "editMember": "Une erreur s'est produite lors de la modification d'un membre de l'équipe",
-        "removeMember": "Une erreur s'est produite lors de la suppression de l'utilisateur de l'équipe"
+        "removeMember": "Une erreur s'est produite lors de la suppression de l'utilisateur de l'équipe",
+        "couldNotFetchTeamMembers": "N'a pas pu rappeler les membres de l'équipe : {error}",
+        "couldNotFetchTeamDetails": "N'a pas pu obtenir les détails de l'équipe : {error}",
+        "couldNotFetchTeamId": "N'a pas pu récupérer l'ID de l'équipe : {error}"
       },
       "subscription": {
         "cancel": "Une erreur s'est produite lors de l'annulation de l'abonnement",
@@ -1384,8 +1393,19 @@
       "noDataFoundInLocalStorage": "Aucune donnée trouvée dans localStorage",
       "noItemsFound": "Aucun élément trouvé avec l'ID {0} ",
       "payment": {
-        "formalize": "Quelque chose s'est mal passé lors de la formalisation de votre paiement"
-      }
+        "formalize": "Quelque chose s'est mal passé lors de la formalisation de votre paiement",
+        "couldNotFetchTeamPaymentMethods": "N'a pas pu accéder aux méthodes de paiement de l'équipe : {error}",
+        "couldNotFetchDefaultPaymentMethods": "N'a pas pu accéder aux méthodes de paiement standard : {error}"
+      },
+      "unknownError": "Autoriser le paiement.",
+      "somethingWentWrongWithVerifiedTranslation": "Quelque chose s'est mal passé lors de la récupération de la traduction vérifiée",
+      "somethingWentWrongWithSubmittingTranslation": "Quelque chose s'est mal passé lors de la transmission de la traduction modifiée",
+      "officeHoursAvailability": "N'a pas pu obtenir la disponibilité du bureau",
+      "userIsNotAuthenticated": "L'utilisateur n'est pas authentifié",
+      "noDataReceived": "Aucune donnée reçue",
+      "couldNotFetchVerificationJob": "Quelque chose s'est mal passé lors de la récupération de l'ordre de vérification",
+      "somethingWentWrongWithPricing": "Quelque chose s'est mal passé lors de l'estimation du prix et du nombre de votre demande",
+      "creditCardProcessing": "Une erreur est survenue lors du traitement de votre crédit. Veuillez vérifier votre carte de crédit enregistrée si cette erreur se répète"
     },
     "success": {
       "settings": {
@@ -1454,6 +1474,12 @@
         "copywriting": "Copywriting",
         "editing": "Lectorat",
         "consultation": "Conseil"
+      },
+      "changeLanguage": "Changer de langue",
+      "changeCountry": "Changer de pays",
+      "country": {
+        "ch": "Suisse",
+        "other": "Autres"
       }
     },
     "filter": {
@@ -1850,6 +1876,54 @@
             "error": "Le pays est obligatoire"
           }
         }
+      },
+      "additionalInformation": "Ajoutez quelques informations supplémentaires facultatives à votre demande de contrôle avant de la clôturer.",
+      "submit": {
+        "title": "Soumettez votre vérification ?",
+        "description": "Votre vérification sera ainsi transmise de manière irrévocable. Êtes-vous sûr de vouloir soumettre votre vérification ?"
+      },
+      "reset": {
+        "title": "Rétablir l'original ?",
+        "description": "Vous perdrez toutes vos modifications. Êtes-vous sûr de vouloir revenir au texte original ?"
+      },
+      "infoMessage": {
+        "part1": "L'association certifiée",
+        "part2": "Contrôle",
+        "part3": "par un:expert:en:supertexte",
+        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Ce service est payant et facturé en fonction du nombre de mots."
+      },
+      "certifiedControl": {
+        "title": "Contrôle certifié par un(e) expert(e) Supertext",
+        "dDescription": "Ce service est payant. Il est facturé en fonction du nombre de mots. Malheureusement, tu peux nous joindre en dehors de nos heures de bureau. Pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes."
+      },
+      "serviceIsDeactivated": {
+        "title": "Le service est désactivé",
+        "description": "Le service \"Révision par des experts\" est malheureusement désactivé dans notre organisation. Contactez votre chef de projet Supertext pour planifier une démo ou pour mettre en place cette fonction dans votre entreprise."
+      },
+      "isTargetTextTooLong": {
+        "title": "Les vérifications de traduction sont actuellement limitées à {0} caractères.",
+        "description": "Si votre texte est trop long, vous pouvez essayer de le raccourcir afin de vous concentrer sur les parties spécifiques pour lesquelles vous avez besoin d'aide."
+      },
+      "isEstimateError": {
+        "title": "Une erreur s'est produite lors de l'estimation du prix et du nombre de votre demande",
+        "description": "Essayez de mettre à jour votre navigateur ou revenez plus tard"
+      },
+      "outIfBusinessHours": {
+        "title_part1": "Malheureusement, tu peux nous joindre en dehors de nos",
+        "title_part2": "Heures d'ouverture",
+        "description": "pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes.",
+        "businessHours": "Lundi - vendredi",
+        "businessHoursTime": "9:00-17:30",
+        "nonWorkingDaySaturday": "Samedi",
+        "nonWorkingDaySunday": "Dimanche",
+        "nonWorkingDaysHolidays": "Jours fériés",
+        "nonWorkingDaysInfo": "Fermé",
+        "businessHoursInfo": "Heures d'ouverture"
+      },
+      "stepThree": {
+        "title": "Ça a marché !",
+        "description": "Un(e) expert(e) Supertext vérifie maintenant votre texte. Vous recevrez la traduction vérifiée à l'adresse e-mail que vous avez indiquée.",
+        "button": "D'accord avec vous ! Fermer les fenêtres."
       }
     },
     "couponCode": {
@@ -2221,6 +2295,22 @@
             }
           }
         }
+      }
+    },
+    "translations": {
+      "info": "Prêt à traduire ? Choisissez votre méthode préférée...",
+      "fusedTranslation": {
+        "title": "Traduction fusionnée",
+        "cta": "Pourquoi une traduction fusionnée ?"
+      },
+      "aiTranslation": {
+        "title": "Traduction AI",
+        "description": "Téléchargement immédiat, {0} Les fichiers restent ce mois-ci.",
+        "cta": "Obtenir plus"
+      },
+      "humanVerification": {
+        "title": "AI vérifiée par l'homme",
+        "titleWhitPrice": "AI vérifiée par l'homme {0} {1}"
       }
     }
   },

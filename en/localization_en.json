@@ -1348,7 +1348,8 @@
   },
   "notifications": {
     "info": {
-      "waitingForSlowTranslation": "Your translation is taking a little longer than normal. Please be patient."
+      "waitingForSlowTranslation": "Your translation is taking a little longer than normal. Please be patient.",
+      "submittingVerification": "Transmission of the verification, please wait..."
     },
     "failure": {
       "systemUnavailable": "The translation system is not available. Please contact your system administrator.",
@@ -1369,13 +1370,21 @@
         "fetchCustomerProfile": "Could not fetch customer profile",
         "addCreditCardDetails": "Something went wrong while trying to add your card details",
         "requestBillingPermission": "Something went wrong while requesting billing permission",
-        "deleteCreditCard": "Something went wrong while trying to delete your card details"
+        "deleteCreditCard": "Something went wrong while trying to delete your card details",
+        "couldNotFetchCountryBillingList": "No country billing lists could be retrieved: {error}",
+        "couldNotFetchCardDetails": "Something happened while trying to retrieve your card details",
+        "couldNotFetchBillingAddress": "Could not retrieve the billing addresses",
+        "couldNotFetchInvoiceLink": "Could not retrieve the invoice link: {error}",
+        "couldNotFetchTypeLabel": "Could not retrieve the type designation: {error}"
       },
       "team": {
         "addMember": "Something went wrong while inviting user to team",
         "changeRole": "Something went wrong while changing the team member role",
         "editMember": "Something went wrong while editing the team member",
-        "removeMember": "Something went wrong while removing user from team"
+        "removeMember": "Something went wrong while removing user from team",
+        "couldNotFetchTeamMembers": "Could not call up the team members: {error}",
+        "couldNotFetchTeamDetails": "Could not retrieve the team details: {error}",
+        "couldNotFetchTeamId": "Could not retrieve the team ID: {error}"
       },
       "subscription": {
         "cancel": "Something went wrong while cancelling subscription",
@@ -1384,8 +1393,19 @@
       "noDataFoundInLocalStorage": "No data found in localStorage",
       "noItemsFound": "No item with id {0} found",
       "payment": {
-        "formalize": "Something went wrong while formalizing your payment"
-      }
+        "formalize": "Something went wrong while formalizing your payment",
+        "couldNotFetchTeamPaymentMethods": "Could not retrieve team payment methods: {error}",
+        "couldNotFetchDefaultPaymentMethods": "Could not retrieve standard payment methods: {error}"
+      },
+      "unknownError": "Authorize payment.",
+      "somethingWentWrongWithVerifiedTranslation": "Something went wrong when retrieving the verified translation",
+      "somethingWentWrongWithSubmittingTranslation": "Something went wrong during the transmission of the edited translation",
+      "officeHoursAvailability": "Could not retrieve office availability",
+      "userIsNotAuthenticated": "The user is not authenticated",
+      "noDataReceived": "No data received",
+      "couldNotFetchVerificationJob": "Something went wrong when retrieving the verification order",
+      "somethingWentWrongWithPricing": "Something went wrong when estimating the price and number of your request",
+      "creditCardProcessing": "An error has occurred while processing your credit. Please check your saved credit card if this error keeps occurring"
     },
     "success": {
       "settings": {
@@ -1454,6 +1474,12 @@
         "copywriting": "Copywriting",
         "editing": "Editing",
         "consultation": "Consultation"
+      },
+      "changeLanguage": "Change language",
+      "changeCountry": "Change country",
+      "country": {
+        "ch": "Switzerland",
+        "other": "Other"
       }
     },
     "filter": {
@@ -1850,6 +1876,54 @@
             "error": "Country is required"
           }
         }
+      },
+      "additionalInformation": "Add some optional additional information to your test job before you finalize it.",
+      "submit": {
+        "title": "Submit your verification?",
+        "description": "This will irrevocably submit your verification. Are you sure you want to submit your verification?"
+      },
+      "reset": {
+        "title": "Reset to original?",
+        "description": "You will lose all your changes. Are you sure you want to reset to the original text?"
+      },
+      "infoMessage": {
+        "part1": "The certified",
+        "part2": "Control",
+        "part3": "by a supertext expert",
+        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. This service is subject to a fee and is charged by the number of words."
+      },
+      "certifiedControl": {
+        "title": "Certified control by a supertext expert",
+        "dDescription": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps."
+      },
+      "serviceIsDeactivated": {
+        "title": "Service is deactivated",
+        "description": "Unfortunately, the \"Expert Review\" service is disabled in our organization. Contact your Supertext project manager to schedule a demo or set up this feature for your organization."
+      },
+      "isTargetTextTooLong": {
+        "title": "Translation verifications are currently limited to {0} characters.",
+        "description": "If your text is too long, you can try shortening it to focus on the specific parts you need help with."
+      },
+      "isEstimateError": {
+        "title": "An error occurred when estimating the price and number of your request",
+        "description": "Try refreshing your browser or come back later"
+      },
+      "outIfBusinessHours": {
+        "title_part1": "Unfortunately you can reach us outside of our",
+        "title_part2": "Business hours",
+        "description": "'No problem! You can place your order now, just follow the steps.",
+        "businessHours": "Monday - Friday",
+        "businessHoursTime": "9:00-17:30",
+        "nonWorkingDaySaturday": "Saturday",
+        "nonWorkingDaySunday": "Sunday",
+        "nonWorkingDaysHolidays": "Holidays",
+        "nonWorkingDaysInfo": "Closed",
+        "businessHoursInfo": "Business hours"
+      },
+      "stepThree": {
+        "title": "That worked!",
+        "description": "A Supertext expert will now check your text. You will receive the verified translation at the e-mail address you provided.",
+        "button": "D'accord! Close the window."
       }
     },
     "couponCode": {
@@ -2221,6 +2295,22 @@
             }
           }
         }
+      }
+    },
+    "translations": {
+      "info": "Ready to translate? Choose your preferred method...",
+      "fusedTranslation": {
+        "title": "Fused translation",
+        "cta": "Why merged translation?"
+      },
+      "aiTranslation": {
+        "title": "AI translation",
+        "description": "Immediate download, {0} files remain this month.",
+        "cta": "Get more"
+      },
+      "humanVerification": {
+        "title": "Human-verified AI",
+        "titleWhitPrice": "Human-verified AI {0} {1}"
       }
     }
   },

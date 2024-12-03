@@ -1600,6 +1600,7 @@
         "role": "Role",
         "roleValidation": "Role must be at least 2 characters long",
         "license": "License",
+        "licenseTag": "License user",
         "licenseValidation": "License must be at least 2 characters long",
         "comment": "Comment",
         "commentValidation": "Comment must be at least 2 characters long",
@@ -1657,6 +1658,52 @@
               "passwordMustContainAtLeastOneUppercaseLetter": "Password must contain at least one uppercase letter",
               "passwordMustContainAtLeastOneLowercaseLetter": "Password must contain at least one lowercase letter",
               "passwordMustBeAtLeast8Characters": "Password must be at least 8 characters long"
+            }
+          },
+          "subscription": {
+            "title": "Change Plan",
+            "description": "Easily adjust your subscription to fit your needs at any time.",
+            "comparePlans": "Compare Plans",
+            "licencesCount": "{count, plural, one {# license} other {# licenses}}",
+            "numberOfLicenses": "Number of Licenses",
+            "nextPayment": "Next Payment",
+            "monthly": "Monthly",
+            "yearly": "Yearly",
+            "billingPeriod": "Billing Period",
+            "subscriptionPrices": "Subscription Prices",
+            "change": "Change",
+            "modal": {
+              "title": "Change Number of Licenses",
+              "changeLicenses": "Change Number of Licenses",
+              "change": "Change",
+              "order": "Place Order",
+              "licensesCount": "Number of Licenses",
+              "currentLicenses": "Current: {count}",
+              "newLicenseCount": "New Number of Licenses",
+              "paymentMethod": "Payment Method",
+              "creditCard": "Credit Card",
+              "invoice": "Invoice",
+              "pricePerLicenseMonth": "Price per License, per Month",
+              "pricePerLicenseYear": "Price per License, per Year",
+              "totalLicenses": "Total Number of Licenses",
+              "totalMonthly": "Total Amount per Month",
+              "totalYearly": "Total Amount per Year",
+              "vatIncluded": "Incl. {currency} {amount} {percentage} {vatType}",
+              "todayTotal": "Total Amount Due Today",
+              "nextPeriod": "For additional licenses until the next billing period",
+              "termsConfirmation": "I confirm the above-mentioned change to my subscription and accept the",
+              "removeLicensesError": {
+                "one": "You have assigned {count} license(s) to users. To reduce your subscription to less than {count} licenses,",
+                "two": " remove licenses from users in your team."
+              },
+              "termsAndConditions": "Terms and Conditions.",
+              "immediateChange": "This change will take effect immediately.",
+              "nextBillingChange": "This change will take effect from the next billing period.",
+              "agreementAg": {
+                "one": "I confirm the above-mentioned change to my subscription and accept the",
+                "two": "Terms and Conditions."
+              },
+              "makePayment": "Order immediately"
             }
           },
           "payments": {
@@ -1721,6 +1768,7 @@
             "teamMembersOverviewTitle": "Team Members Overview",
             "teamMembersOverviewSubtitle": "Manage your team members here",
             "management": "Management",
+            "licenceAvailable": "{amount} available",
             "actions": {
               "title": "Actions",
               "editAll": "Edit All",

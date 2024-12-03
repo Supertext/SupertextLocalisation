@@ -1600,6 +1600,7 @@
         "role": "Ruolo",
         "roleValidation": "Il ruolo deve essere lungo almeno 2 caratteri",
         "license": "Licenza",
+        "licenseTag": "Utenti della licenza",
         "licenseValidation": "La licenza deve essere lunga almeno 2 caratteri",
         "comment": "Commento",
         "commentValidation": "Il commento deve essere lungo almeno 2 caratteri",
@@ -1657,6 +1658,52 @@
               "passwordMustContainAtLeastOneUppercaseLetter": "La password deve contenere almeno una lettera maiuscola",
               "passwordMustContainAtLeastOneLowercaseLetter": "La password deve contenere almeno una lettera minuscola",
               "passwordMustBeAtLeast8Characters": "La password deve essere lunga almeno 8 caratteri."
+            }
+          },
+          "subscription": {
+            "title": "Cambia abbonamento",
+            "description": "Adatta facilmente e in qualsiasi momento il tuo abbonamento alle tue esigenze.",
+            "comparePlans": "Confronta abbonamenti",
+            "licencesCount": "{count, plural, one {# licenza} other {# licenze}}",
+            "numberOfLicenses": "Numero di licenze",
+            "nextPayment": "Prossimo pagamento",
+            "monthly": "Mensile",
+            "yearly": "Annuale",
+            "billingPeriod": "Periodo di fatturazione",
+            "subscriptionPrices": "Prezzi degli abbonamenti",
+            "change": "Modifica",
+            "modal": {
+              "title": "Modifica il numero di licenze",
+              "changeLicenses": "Modifica il numero di licenze",
+              "change": "Modifica",
+              "order": "Ordina definitivamente",
+              "licensesCount": "Numero di licenze",
+              "currentLicenses": "Attuale: {count}",
+              "newLicenseCount": "Nuovo numero di licenze",
+              "paymentMethod": "Metodo di pagamento",
+              "creditCard": "Carta di credito",
+              "invoice": "Fattura",
+              "pricePerLicenseMonth": "Prezzo per licenza, al mese",
+              "pricePerLicenseYear": "Prezzo per licenza, all'anno",
+              "totalLicenses": "Numero totale di licenze",
+              "totalMonthly": "Importo totale al mese",
+              "totalYearly": "Importo totale all'anno",
+              "vatIncluded": "Incl. {currency} {amount} {percentage} {vatType}",
+              "todayTotal": "Importo totale dovuto oggi",
+              "nextPeriod": "Per licenze aggiuntive fino al prossimo periodo di fatturazione",
+              "termsConfirmation": "Confermo la modifica sopra indicata al mio abbonamento e accetto i",
+              "removeLicensesError": {
+                "one": "Hai assegnato una licenza a {count} utente(i). Per ridurre il tuo abbonamento a meno di {count} licenze,",
+                "two": " rimuovi le licenze degli utenti dal tuo team."
+              },
+              "termsAndConditions": "Termini e condizioni.",
+              "immediateChange": "Questa modifica avrà effetto immediato.",
+              "nextBillingChange": "Questa modifica avrà effetto dal prossimo periodo di fatturazione.",
+                "agreementAg": {
+                  "one": "Confermo la modifica sopra indicata al mio abbonamento e accetto i",
+                  "two": "Termini e Condizioni."
+                },
+                "makePayment": "Order immediately"
             }
           },
           "payments": {
@@ -1721,6 +1768,7 @@
             "teamMembersOverviewTitle": "Panoramica dei membri del team",
             "teamMembersOverviewSubtitle": "Gestisci qui i membri del tuo team",
             "management": "Gestione",
+            "licenceAvailable": "{amount} disponibile",
             "actions": {
               "title": "Azione",
               "editAll": "Modifica tutti",

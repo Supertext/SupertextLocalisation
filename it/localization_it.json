@@ -1600,7 +1600,6 @@
         "role": "Ruolo",
         "roleValidation": "Il ruolo deve essere lungo almeno 2 caratteri",
         "license": "Licenza",
-        "licenseTag": "Utenti della licenza",
         "licenseValidation": "La licenza deve essere lunga almeno 2 caratteri",
         "comment": "Commento",
         "commentValidation": "Il commento deve essere lungo almeno 2 caratteri",
@@ -1658,52 +1657,6 @@
               "passwordMustContainAtLeastOneUppercaseLetter": "La password deve contenere almeno una lettera maiuscola",
               "passwordMustContainAtLeastOneLowercaseLetter": "La password deve contenere almeno una lettera minuscola",
               "passwordMustBeAtLeast8Characters": "La password deve essere lunga almeno 8 caratteri."
-            }
-          },
-          "subscription": {
-            "title": "Cambia abbonamento",
-            "description": "Adatta facilmente e in qualsiasi momento il tuo abbonamento alle tue esigenze.",
-            "comparePlans": "Confronta abbonamenti",
-            "licencesCount": "{count, plural, one {# licenza} other {# licenze}}",
-            "numberOfLicenses": "Numero di licenze",
-            "nextPayment": "Prossimo pagamento",
-            "monthly": "Mensile",
-            "yearly": "Annuale",
-            "billingPeriod": "Periodo di fatturazione",
-            "subscriptionPrices": "Prezzi degli abbonamenti",
-            "change": "Modifica",
-            "modal": {
-              "title": "Modifica il numero di licenze",
-              "changeLicenses": "Modifica il numero di licenze",
-              "change": "Modifica",
-              "order": "Ordina definitivamente",
-              "licensesCount": "Numero di licenze",
-              "currentLicenses": "Attuale: {count}",
-              "newLicenseCount": "Nuovo numero di licenze",
-              "paymentMethod": "Metodo di pagamento",
-              "creditCard": "Carta di credito",
-              "invoice": "Fattura",
-              "pricePerLicenseMonth": "Prezzo per licenza, al mese",
-              "pricePerLicenseYear": "Prezzo per licenza, all'anno",
-              "totalLicenses": "Numero totale di licenze",
-              "totalMonthly": "Importo totale al mese",
-              "totalYearly": "Importo totale all'anno",
-              "vatIncluded": "Incl. {currency} {amount} {percentage} {vatType}",
-              "todayTotal": "Importo totale dovuto oggi",
-              "nextPeriod": "Per licenze aggiuntive fino al prossimo periodo di fatturazione",
-              "termsConfirmation": "Confermo la modifica sopra indicata al mio abbonamento e accetto i",
-              "removeLicensesError": {
-                "one": "Hai assegnato una licenza a {count} utente(i). Per ridurre il tuo abbonamento a meno di {count} licenze,",
-                "two": " rimuovi le licenze degli utenti dal tuo team."
-              },
-              "termsAndConditions": "Termini e condizioni.",
-              "immediateChange": "Questa modifica avrà effetto immediato.",
-              "nextBillingChange": "Questa modifica avrà effetto dal prossimo periodo di fatturazione.",
-                "agreementAg": {
-                  "one": "Confermo la modifica sopra indicata al mio abbonamento e accetto i",
-                  "two": "Termini e Condizioni."
-                },
-                "makePayment": "Order immediately"
             }
           },
           "payments": {
@@ -1768,7 +1721,6 @@
             "teamMembersOverviewTitle": "Panoramica dei membri del team",
             "teamMembersOverviewSubtitle": "Gestisci qui i membri del tuo team",
             "management": "Gestione",
-            "licenceAvailable": "{amount} disponibile",
             "actions": {
               "title": "Azione",
               "editAll": "Modifica tutti",
@@ -1781,9 +1733,57 @@
               "teamAdmin": "Amministratore",
               "user": "Utente"
             },
-            "roleChangeWarning": "Il tuo amministratore del team ha cambiato il tuo ruolo. Esci e riaccedi per aggiornare il tuo account."
+            "roleChangeWarning": "Il tuo amministratore del team ha cambiato il tuo ruolo. Esci e riaccedi per aggiornare il tuo account.",
+            "licenceAvailable": "{amount} disponibile"
+          },
+          "subscription": {
+            "title": "Modifica dell'abbonamento",
+            "description": "È possibile personalizzare facilmente l'abbonamento in base alle proprie esigenze in qualsiasi momento.",
+            "comparePlans": "Confronta gli abbonamenti",
+            "numberOfLicenses": "Numero di licenze",
+            "licencesCount": "{count, plural, one {#} other {# Licenze Licenze}}",
+            "nextPayment": "Prossimo pagamento",
+            "monthly": "Mensile",
+            "yearly": "Annualmente",
+            "billingPeriod": "Periodo di fatturazione",
+            "subscriptionPrices": "Prezzi di abbonamento",
+            "change": "Cambiamento",
+            "modal": {
+              "title": "Modifica del numero di licenze",
+              "changeLicenses": "Modificare il numero di licenze",
+              "change": "Cambiamento",
+              "order": "Ordine vincolante",
+              "licensesCount": "Numero di licenze",
+              "currentLicenses": "Corrente: {count}",
+              "newLicenseCount": "Nuovo numero di licenze",
+              "paymentMethod": "Metodo di pagamento",
+              "creditCard": "Carta di credito",
+              "invoice": "In conto",
+              "pricePerLicenseMonth": "Prezzo per licenza, al mese",
+              "pricePerLicenseYear": "Prezzo per licenza, per anno",
+              "totalLicenses": "Numero totale di licenze",
+              "totalMonthly": "Importo totale al mese",
+              "totalYearly": "Importo totale all'anno",
+              "vatIncluded": "{currency} {amount} {percentage} Incl {vatType}",
+              "todayTotal": "Importo totale dovuto oggi",
+              "nextPeriod": "Per le licenze aggiuntive fino al periodo di fatturazione successivo",
+              "termsConfirmation": "Confermo la suddetta modifica del mio abbonamento e accetto la",
+              "removeLicensesError": {
+                "one": "{count} Avete assegnato una licenza agli utenti. {count} Per ridurre l'abbonamento a meno di licenze,",
+                "other": ""
+              },
+              "termsAndConditions": "Termini e condizioni generali.",
+              "immediateChange": "Questa modifica avrà effetto immediato.",
+              "nextBillingChange": "Questa modifica avrà effetto a partire dal prossimo periodo contabile.",
+              "agreementAg": {
+                "one": "Confermo la modifica del mio abbonamento e accetto i termini e le condizioni",
+                "other": ""
+              },
+              "makePayment": "Ordine vincolante"
+            }
           }
-        }
+        },
+        "licenseTag": "Utenti della licenza"
       },
       "delivery": {
         "title": "consegna",
@@ -2364,119 +2364,119 @@
     "components": {
       "faq": {
         "title": "FAQ",
-        "help": "Ihre Frage war nicht dabei? Die ganze Sammlung gibt es auf unserer FAQ-Seite. Oder direkt im <link>Gespräch</link> mit uns.",
-        "cta":"Zu allen FAQ"
+        "help": "Non avete trovato la vostra domanda? Potete trovare l'intera raccolta nella nostra pagina delle FAQ. Oppure direttamente nella <link>Conversazione</link> con noi.",
+        "cta": "A tutte le FAQ"
       }
     },
     "pages": {
       "services": {
         "aiTranslation": {
           "hero": {
-            "title": "AI Translation und Verifizierung",
-            "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung - und dem Profi-Check auf Knopfdruck."
+            "title": "Traduzione e verifica AI",
+            "description": "Assicuratevi che tutto sia a posto. Con il cambio automatico - e il controllo professionale con la semplice pressione di un pulsante."
           },
-          "lead":{
-            "large": "AI Translation ist <highlight>einfach, schnell</highlight> und wird laufend besser. Doch etwas können auch 2025 <highlight>nur menschliche Expert:innen:</highlight> die Korrektheit einer Übersetzung <highlight>garantieren.</highlight>",
-            "small": "Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit der Verifizierung auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Und erhalten erst noch ein Zertifikat für inhaltliche und sprachliche Korrektheit dazu. Zuverlässig, günstig und schnell.",
+          "lead": {
+            "large": "La traduzione AI è <highlight>semplice, veloce</highlight> e migliora costantemente. Ma c'è qualcosa che anche nel 2025 <highlight>solo gli esperti umani saranno in grado di fare:</highlight> l'accuratezza di una traduzione <highlight>l'accuratezza di una traduzione.</highlight>",
+            "small": "Per i testi più importanti, Supertext vi mette in contatto diretto con oltre 3.000 traduttori esperti ed esperti culturali. Grazie alla verifica con la semplice pressione di un tasto, potete essere certi in pochi minuti che il vostro messaggio sarà ricevuto correttamente. Inoltre, riceverete un certificato di accuratezza linguistica e di contenuto. Affidabile, conveniente e veloce.",
             "cta": {
-              "title": "Jetzt ausprobieren",
+              "title": "Provalo subito",
               "link": "/"
             }
           },
           "informationalPanel": {
-            "title": "AI Translation trifft Profis. Was steckt drin?",
+            "title": "La traduzione assistita incontra i professionisti. Cosa c'è dentro?",
             "items": [
               {
-                "title": "AI Translation auf dem neusten Stand der Technik",
-                "description": "Die Basis bilden unsere hauseigenen Übersetzungssysteme. Sie gehören zur neusten Generation künstlicher Intelligenz und beherrschen 23 Sprachen inkl. lokaler Sprachvarianten. ",
+                "title": "Traduzione AI all'avanguardia della tecnologia",
+                "description": "I nostri sistemi di traduzione interni costituiscono la base per questo. Fanno parte dell'ultima generazione di intelligenza artificiale e sono in grado di gestire 23 lingue, comprese le varianti linguistiche locali. ",
                 "icon": "/images/pages/ai-translation/icon-bullet.png"
               },
               {
-                "title": "Profi-Check durch erfahrene Expert:innen ",
-                "description": "Unsere muttersprachlichen Profi-Übersetzer:innen stellen sicher, dass die Übersetzung inhaltlich exakt dem Original entspricht – und intervenieren auch sprachlich wo nötig. ",
+                "title": "Controllo professionale da parte di esperti ",
+                "description": "I nostri traduttori professionisti madrelingua assicurano che il contenuto della traduzione corrisponda esattamente all'originale, intervenendo anche dal punto di vista linguistico se necessario. ",
                 "icon": "/images/pages/ai-translation/icon-bullet.png"
               },
               {
-                "title": "Verifiziert – und zertifiziert ",
-                "description": "Sobald die Verifizierung abgeschlossen ist, erhalten Sie die geprüfte Übersetzung zusammen mit einem entsprechenden Zertifikat zum Download.",
+                "title": "Verificato - e certificato ",
+                "description": "Una volta completato il processo di verifica, riceverete la traduzione verificata e il relativo certificato da scaricare.",
                 "icon": "/images/pages/ai-translation/icon-bullet.png"
               }
             ],
             "cta": {
-              "text": "Jetzt ausprobieren",
+              "text": "Provalo subito",
               "link": "/"
             }
           },
           "tutorialBlock": {
-            "title": "In 3 Schritten zur zertifizierten AI-Translation",
+            "title": "3 passi per una traduzione AI certificata",
             "cta": {
-              "text": "Jetzt loslegen",
+              "text": "Inizia subito",
               "link": "/"
             },
             "items": [
               {
-                "title": "Text mit KI übersetzen und auf «Verify by expert» clicken",
+                "title": "Tradurre il testo con l'intelligenza artificiale e cliccare su \"Verifica da parte dell'esperto\"",
                 "number": "01",
                 "image": "/images/pages/ai-translation/step-1.webp"
               },
               {
-                "title": "Auftragsdetails bestätigen (Bestellflow + Wartescreen)",
+                "title": "Confermare i dettagli dell'ordine (flusso dell'ordine + schermata di attesa)",
                 "number": "02",
                 "image": "/images/pages/ai-translation/step-2.webp"
               },
               {
-                "title": "Auftragsdetails bestätigen (Bestellflow + Wartescreen)",
+                "title": "Confermare i dettagli dell'ordine (flusso dell'ordine + schermata di attesa)",
                 "number": "03",
                 "image": "/images/pages/ai-translation/step-3.webp"
               }
             ]
           },
           "featureGallery": {
-            "title": "Qualitätsgesichert von Å bis Ž",
-            "eyebrowHeadline": "Eyebrow Headline",
-            "items":[
+            "title": "Qualità garantita da Å a Ž",
+            "eyebrowHeadline": "Titolo del sopracciglio",
+            "items": [
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "3000 diplomierte muttersprachliche Expert:innen",
-                "description": "Alle unsere Fachübersetzer:innen haben einen Hochschulabschluss im Bereich Übersetzung oder mindestens fünf Jahre Berufserfahrung und durchlaufen einen internen Test.",
+                "title": "3000 esperti madrelingua qualificati",
+                "description": "Tutti i nostri traduttori specializzati hanno una laurea in traduzione o almeno cinque anni di esperienza professionale e superano un test interno.",
                 "cta": {
-                  "variant": "primary",
-                  "title": "Lernen Sie uns kennen",
-                  "link": "/contact"
+                  "variant": "primario",
+                  "title": "Conoscerci",
+                  "link": "/contatto"
                 }
               },
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Geprüft, genormt und nach ISO-Standard ausgezeichnet",
-                "description": "Supertext ist seit 2018 für die Übersetzungsqualität (ISO 17100 und 18587), sein Qualitätsmanagement (ISO 9001) und die Datensicherheit (ISO 27001) zertifiziert.",
+                "title": "Testato, standardizzato e certificato secondo gli standard ISO",
+                "description": "Dal 2018 Supertext è certificata per la qualità della traduzione (ISO 17100 e 18587), la gestione della qualità (ISO 9001) e la sicurezza dei dati (ISO 27001).",
                 "cta": {
-                  "variant": "primary",
-                  "title": "Mehr erfahren",
+                  "variant": "primario",
+                  "title": "Per saperne di più",
                   "link": "/#"
                 }
               },
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Kompromisslos sicher",
-                "description": "Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und sichersten Servern halten wir Ihre Daten immer unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
+                "title": "Sicurezza senza compromessi",
+                "description": "Grazie ai più elevati standard di gestione dei dati, alla robusta crittografia e ai server più sicuri, teniamo i vostri dati sempre sotto chiave. Ecco perché siamo il partner preferito da banche, autorità e compagnie assicurative.",
                 "cta": {
-                  "variant": "primary",
-                  "title": "Mehr zur Technologie",
+                  "variant": "primario",
+                  "title": "Per saperne di più sulla tecnologia",
                   "link": "/#"
                 }
               },
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Ihre persönliche KI, die in Echtzeit lernt",
-                "description": "Unsere Sprachmodelle lernen schnell - und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
+                "title": "La vostra AI personale che impara in tempo reale",
+                "description": "I nostri modelli linguistici imparano rapidamente e continuano ad adattarsi alle vostre esigenze ad ogni traduzione verificata. In questo modo la qualità aumenta a lungo termine e i vostri costi continuano a diminuire."
               }
             ]
           },
           "footerNote": {
-            "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo.</highlight>",
+            "text": "Da un semplice <highlight>Traduttore online</highlight> alla soluzione <highlight>soluzione personalizzata completamente integrata</highlight>trova il tuo <highlight>abbonamento adatto.</highlight>",
             "cta": {
-              "title": "Zu allen Cases",
-              "link": "/cases",
+              "title": "A tutti i casi",
+              "link": "/casi",
               "target": "_blank"
             },
             "image": "/images/pages/ai-translation/footer_gif.gif"
@@ -2485,159 +2485,151 @@
       },
       "whySupertext": {
         "hero": {
-          "title": "Wir denken Übersetzung neu",
-          "description": "Besser, schneller und sicherer übersetzen mit Fused Translation."
+          "title": "Stiamo ripensando la traduzione",
+          "description": "Tradurre meglio, più velocemente e in modo più affidabile con la traduzione fusa."
         },
-        "lead":{
-          "large": "Mit <highlight>KI</highlight> übersetzen Sie hunderte Wörter in Sekunden. Aber <highlight>nur echte Sprachprofis</highlight> können verifizieren, ob das Resultat tatsächlich aussagt, was es soll.",
-          "small": "Darum verbinden wir Language AI und erfahrene Übersetzer:innen an einem Ort. Für eine nahtlose Integration von künstlicher Intelligenz und menschlichem Können – mit Ihnen am Steuer. Bei Supertext trifft KI-Effizienz auf professionelle Expertise. Textsicherheit auf Datensicherheit. Supertext ist simpel, customized und lernfähig. Supertext ist All-in-one."
+        "lead": {
+          "large": "Con <highlight>AI</highlight> è possibile tradurre centinaia di parole in pochi secondi. Ma <highlight>solo i veri professionisti delle lingue</highlight> possono verificare se il risultato dice effettivamente ciò che dovrebbe dire.",
+          "small": "Ecco perché combiniamo AI linguistica e traduttori esperti in un unico luogo. Per un'integrazione perfetta di intelligenza artificiale e competenza umana, con voi al timone. In Supertext, l'efficienza dell'intelligenza artificiale incontra la competenza professionale. La sicurezza del testo incontra la sicurezza dei dati. Supertext è semplice, personalizzato e adattabile. Supertext è tutto in uno."
         },
         "featureList": {
-          "title": "  Fused Translation mit Supertext: Ihre Vorteile",
-          "eyebrowHeadline": "Vorteile",
+          "title": "  Traduzione fusa con Supertext: i vostri vantaggi",
+          "eyebrowHeadline": "Vantaggi",
           "benefitContent": {
             "benefits": [
               {
-                "title": "Alles auf einer Plattform",
-                "description": "Auf unserer eleganten und einfachen Plattform sind Sie am Steuer: Aufträge platzieren und tracken, Teams managen und Projekte, verwalten Abos und Zahlungsmodalitäten."
+                "title": "Tutto su un'unica piattaforma",
+                "description": "La nostra piattaforma, elegante e semplice, vi mette al posto di comando: fate e seguite gli ordini, gestite i team e i progetti, gestite gli abbonamenti e i metodi di pagamento."
               },
               {
-                "title": "Doppelte Sicherheit",
-                "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten."
+                "title": "Doppia sicurezza",
+                "description": "I nostri modelli linguistici imparano rapidamente e continuano ad adattarsi alle vostre esigenze ad ogni traduzione verificata. Per una qualità sempre migliore a costi sempre più bassi."
               },
               {
-                "title": "Effizienz trifft Flexibilität",
-                "description": "Unsere KI liefert die zuverlässige Grundlage, unsere Expert:innen die Gewissheit in der Verifizierung. Unmissverständlich."
+                "title": "L'efficienza incontra la flessibilità",
+                "description": "La nostra AI fornisce una base affidabile, i nostri esperti la certezza della verifica. Senza ambiguità."
               }
             ],
             "buttons": [
               {
-                "text": "Kostenlos registrieren",
-                "variant": "primary"
+                "text": "Registrati gratuitamente",
+                "variant": "primario"
               },
               {
-                "text": "Demo buchen",
-                "variant": "PrimaryBorderVariant"
+                "text": "Prenota una demo",
+                "variant": "Variazione dei confini primari"
               }
             ]
           }
         },
         "serviceList": {
-        "title": "Damit Ihre Botschaft sicher ankommt: unsere Lösungen.",
-        "eyebrowHeadline": "Angebot",
-        "services": [
-          {
-            "title": "Für Einzel-User",
-            "sections": [
-              {
-                "title": "AI Translation in 23 Sprachen",
-                "description":
-                  "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#-translation",
-                  "variant": "secondary"
+          "title": "Per far sì che il vostro messaggio arrivi: le nostre soluzioni.",
+          "eyebrowHeadline": "Offerta",
+          "services": [
+            {
+              "title": "Per i singoli utenti",
+              "sections": [
+                {
+                  "title": "Traduzione AI in 23 lingue",
+                  "description": "Il nostro traduttore online si basa sull'ultima generazione di sistemi AI interni. Sono competenti in 23 lingue, comprese le varianti locali come il francese (Svizzera). Veloce, semplice e conforme ai più elevati standard di sicurezza.",
+                  "cta": {
+                    "title": "Per saperne di più",
+                    "link": "#traduzione",
+                    "variant": "secondario"
+                  }
+                },
+                {
+                  "title": "Verifica professionale con la semplice pressione di un tasto",
+                  "description": "Il nostro traduttore online si basa sull'ultima generazione di sistemi AI interni. Sono competenti in 23 lingue, comprese le varianti locali come il francese (Svizzera). Veloce, semplice e conforme ai più elevati standard di sicurezza.",
+                  "cta": {
+                    "title": "Per saperne di più",
+                    "link": "#",
+                    "variant": "primario"
+                  }
+                },
+                {
+                  "title": "La vostra AI personale che impara in tempo reale",
+                  "description": "I nostri modelli linguistici imparano rapidamente e continuano ad adattarsi alle vostre esigenze ad ogni traduzione verificata. Per una qualità sempre migliore con costi in costante diminuzione.",
+                  "badge": "Disponibile a breve",
+                  "cta": {
+                    "title": "Per saperne di più",
+                    "link": "#-ai",
+                    "variant": "secondario"
+                  }
                 }
-              },
-              {
-                "title": "Profi-Verifizierung auf Knopfdruck",
-                "description":
-                  "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "primary"
+              ]
+            },
+            {
+              "title": "Per le aziende",
+              "sections": [
+                {
+                  "title": "Traduzione AI personalizzata",
+                  "description": "La vostra azienda, la vostra voce. Grazie a una formazione mirata, Supertext integra la vostra guida di stile e le vostre parole in ogni traduzione. Per una comunicazione fluida e senza confini.",
+                  "cta": {
+                    "title": "Per saperne di più",
+                    "link": "#-ai",
+                    "variant": "secondario"
+                  }
+                },
+                {
+                  "title": "Servizi professionali dall'arabo allo zulu",
+                  "description": "Quando conta davvero: i nostri 3000 esperti linguistici scrivono in modo più bello e traducono in modo ancora più preciso. Con il vostro tono di voce, espressivo e preciso in ogni lingua.",
+                  "cta": {
+                    "title": "Per saperne di più",
+                    "link": "#",
+                    "variant": "secondario"
+                  }
+                },
+                {
+                  "title": "Assistenza personalizzata",
+                  "description": "Volete adattare il vostro modello di AI a una nuova guida di stile? O valutare i vostri attuali flussi di lavoro con esperti? Siamo a vostra disposizione personalmente - orientati alle soluzioni, cordiali e veloci.",
+                  "cta": {
+                    "title": "Per saperne di più",
+                    "link": "#",
+                    "variant": "secondario"
+                  }
+                },
+                {
+                  "title": "Standard di sicurezza migliorati",
+                  "description": "Dal single sign-on (SSO) all'hosting on-premises: con Supertext potete tenere sotto chiave i vostri dati aziendali in modo affidabile.",
+                  "cta": {
+                    "title": "Per saperne di più",
+                    "link": "#",
+                    "variant": "secondario"
+                  }
+                },
+                {
+                  "title": "Perfettamente integrato",
+                  "description": "Integrate Supertext senza problemi nel vostro ambiente di lavoro. Con le nostre API e integrazioni per processi snelli in ogni interfaccia.",
+                  "cta": {
+                    "title": "Per saperne di più",
+                    "link": "#",
+                    "variant": "secondario"
+                  }
+                },
+                {
+                  "imageConfig": {
+                    "alt": "Squadra",
+                    "image": "/images/pages/why-supertext/hero-two.png"
+                  }
                 }
-              },
-              {
-                "title": "Ihre persönliche KI, die in Echtzeit lernt",
-                "description":
-                  "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
-                "badge": "Bald verfügbar",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#-ai",
-                  "variant": "secondary"
-                }
-              }
-            ]
-          },
-          {
-            "title": "Für Unternehmen",
-            "sections": [
-              {
-                "title": "Massgeschneiderte AI Translation",
-                "description":
-                  "Your company, your voice. Mit zielgerichtetem Training integriert Supertext Ihre Stilvorgaben und Wordings in jeder Übersetzung. Für eine reibungslose Kommunikation ohne Grenzen.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#-ai",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "title": "Profiservices von Arabisch bis Zulu",
-                "description":
-                  "Wenn es wirklich drauf ankommt: Unsere 3000 erfahrene Sprachexpert:innen schreiben schöner und übersetzen noch präziser. In Ihrem Tone of Voice, ausdrucksstark und treffsicher in jeder Sprache.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "title": "Persönlicher Support",
-                "description":
-                  "Sie wollen Ihr KI-Modell an einen neuen Styleguide anpassen? Oder Ihre aktuellen Workflows mit Expert:innen evaluieren? Wir sind persönlich für Sie da – lösungsorientiert, freundlich und schnell.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "title": "Erweiterte Sicherheitsstandards",
-                "description":
-                  "Von Single-Sign-on (SSO) bis On-Premises-Hosting – mit Supertext halten Sie Ihre Unternehmensdaten zuverlässig unter Verschluss.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "title": "Nahtlos integriert",
-                "description":
-                  "Integrieren Sie Supertext nahtlos in Ihre Arbeitsumgebung. Mit unseren APIs und Integrationen für schlanke Prozesse in jedem Interface.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "imageConfig": {
-                  "alt": "Team",
-                  "image": "/images/pages/why-supertext/hero-two.png"
-                }
-              }
-            ]
+              ]
+            }
+          ]
+        },
+        "caseList": {
+          "eyebrowHeadline": "Riferimenti",
+          "title": "Da quelli completamente automatizzati a quelli fatti a mano: lavoriamo per oltre 1500 aziende in tutta Europa.",
+          "cta": "A tutti i casi"
+        },
+        "footerNote": {
+          "text": "Da un semplice <highlight>Traduttore online</highlight> alla soluzione <highlight>soluzione personalizzata completamente integrata</highlight>trova il tuo <highlight>abbonamento adatto.</highlight>",
+          "cta": {
+            "title": "A tutti i casi",
+            "link": "/cases",
+            "target": "_blank"
           }
-        ]
-      },
-      "caseList": {
-        "eyebrowHeadline": "Referenzen",
-        "title": "Von vollautomatisiert bis handgemacht: Wir arbeiten für über 1500 Unternehmen in ganz Europa.",
-        "cta": "Zu allen Cases"
-      },
-      "footerNote": {
-        "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo.</highlight>",
-        "cta": {
-          "title": "Zu allen Cases",
-          "link": "/cases",
-          "target": "_blank"
         }
-      }
       }
     }
   },

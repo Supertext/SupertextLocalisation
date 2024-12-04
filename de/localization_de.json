@@ -1583,8 +1583,8 @@
           "part3": "Wir die",
           "part4": "passende Lösung"
         },
-        "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um auch Sie dazu zählen zu dürfen?",
-        "contactUs": "Kontaktieren Sie uns",
+        "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um bald auch Sie dazu zu zählen?",
+        "contactUs": "Lassen Sie uns reden",
         "compareAllFeatures": "Alle Features vergleichen",
         "customizeSubscriptionInfo": "Passen Sie ganz einfach und jederzeit ihr Abonnement ihren Bedürfnissen an"
       },
@@ -1987,7 +1987,7 @@
     "subscriptionPlans": {
       "free": {
         "title": "Free",
-        "description": "Description Zielgruppe o.ä. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "description": "Für alle",
         "price_monthly": "Kostenlos",
         "price_yearly": "Kostenlos",
         "features": {
@@ -2017,7 +2017,7 @@
       },
       "essential": {
         "title": "Essential",
-        "description": "Description Zielgruppe o.ä. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "description": "Für Einzelpersonen und kleine Unternehmen",
         "price_monthly": "11,90",
         "price_yearly": "9.90",
         "period_monthly": "/ Monat",
@@ -2049,7 +2049,7 @@
       "advanced": {
         "title": "Advanced",
         "badge": "Bald verfügbar",
-        "description": "Description Zielgruppe o.ä. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "description": "Für Vielnutzer:innen",
         "price_monthly": "29,90",
         "price_yearly": "24,90",
         "period_monthly": "/ Monat",
@@ -2084,7 +2084,7 @@
       "pro": {
         "title": "Pro",
         "badge": "Bald verfügbar",
-        "description": "Description Zielgruppe o.ä. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "description": "Für Sprachprofis und Entwickler:innen",
         "price_monthly": "59,90",
         "price_yearly": "49.90",
         "period_monthly": "/ Monat",
@@ -2122,7 +2122,7 @@
       "enterprise": {
         "title": "Enterprise",
         "badge": "",
-        "description": "Für grosse Organisationen mit höchsten Ansprüchen eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "description": "Die Komplettlösung für grosse Organisationen mit höchsten Ansprüchen. Übersetzen Sie noch besser und immer on-brand mit komplett massgeschneiderten Sprachmodellen. Nahtlos in Ihre Tools integriert, für eine reibungslose Kommunikation auf allen Kanälen. ",
         "price_monthly": "Custom",
         "price_yearly": "Custom",
         "period_monthly": "/ Monat",
@@ -2146,10 +2146,10 @@
     "featureComparison": {
       "plans": {
         "free": "Kostenlos",
-        "essential": "Wesentlich",
-        "advanced": "Fortgeschrittene",
+        "essential": "Essential",
+        "advanced": "Advanced",
         "pro": "Pro",
-        "enterprise": "Unternehmen"
+        "enterprise": "Enterprise"
       },
       "categories": {
         "languages": {
@@ -2369,6 +2369,178 @@
       }
     },
     "pages": {
+      "home": {
+        "heroSection": {
+          "mainHeading": "Language AI trifft erstklassigen Service",
+          "eyebrowHeadline": "ALLE SPRACHSERVICES",
+          "languageServices": {
+            "items": [
+              {
+                "title": "AI Translation & Verifizierung",
+                "description": "Vom Styleguide bis zur Prozessoptimierung.",
+                "cta": {
+                  "title": "Bestellen",
+                  "link": "/service/ai-translation"
+                }
+              },
+              {
+                "title": "Fachübersetzung",
+                "description": "Von erfahrenen Spezialist:innen consetetur sadipscing elitr.",
+                "cta": {
+                  "title": "Mehr erfahren",
+                  "link": "/service/translation"
+                }
+              },
+              {
+                "title": "Copywriting & Content",
+                "description": "Für Texte, die wirken - ideenreich und treffsicher.",
+                "cta": {
+                  "title": "Mehr erfahren",
+                  "link": "/service/copywriting"
+                }
+              },
+              {
+                "title": "Lektorat",
+                "description": "Der letzte Schliff - stilsicher, pingelig und richtig schnell.",
+                "cta": {
+                  "title": "Mehr erfahren",
+                  "link": "/service/editing"
+                }
+              }
+            ],
+            "expertiseButton": "Mehr zur Sprachexpertise"
+          }
+        },
+       "servicesCards": [
+        {
+          "id": 1,
+          "title": "ENZEL-USER",
+          "cards": [
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Online übersetzen. Ganz einfach.",
+              "description": "Kommunizieren Sie schneller, besser, einfacher. Mit Supertext übersetzen Sie in mehr als 20 Sprachen von Japanisch bis Schweizer-deutsch. Unsere Translation AI gehört zur neusten Generation von künstlicher Intelligenz, folgt Ihren Stilvorgaben punktgenau und verarbeitet verschiedenste Dateiformate im Sekunden.",
+              "cta": {
+                "variant": "primary",
+                "title": "Zum tool",
+                "link": "/"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Verifiziert mit einem Klick",
+              "description": "Lassen Sie wichtige Übersetzungen von den Profis prüfen - in Minuten statt Stunden. Supertext verbindet Sie direkt mit über 3000 erfahrenen Linguisten und Kulturexpertinnen. Damit Ihre Botschaft sicher ankommt, wenn es wirklich wichtig ist.",
+              "cta": {
+                "variant": "PrimaryBorderVariant",
+                "title": "Mehr erfahren",
+                "link": "/"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Kompromisslos sicher",
+              "description": "Supertext spricht viele Sprachen - und kann in genauso vielen schweigen. Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und sichersten Servern halten wir Ihre Daten immer unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
+              "cta": {
+                "variant": "PrimaryBorderVariant",
+                "title": "Mehr erfahren",
+                "link": "/"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "PROFI",
+          "cards": [
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Ihr Unternehmen, Ihre Sprache",
+              "description": "Unsere Übersetzungen sind immer auf Ihre Bedürfnisse, Stilvorgaben und Content-Formate zugeschnitten. Das Resultat: eine reibungslose Kommunikation für Ihr ganzes Unternehmen. Unverwechselbar in jeder Sprache."
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Nahtlos integriert",
+              "description": "Erst ein reibungsloses User-Erlebnis macht ein Tool zum echten Mehrwert. Mit unseren APIs integrieren Sie Supertext nahtlos in Ihre Arbeitsumgebung und profitieren von schlanken Prozessen in jedem Interface.",
+              "cta": {
+                "variant": "primary",
+                "title": "Mehr erfahren",
+                "link": "/"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Persönlicher Support",
+              "description": "Input, Output? Mit Supertext können Sie viel mehr als das[AL1]. Wir sind persönlich für Sie da - lösungsorientiert, freundlich und schnell. Egal ob Sie Ihr KI-Modell an einen neuen Styleguide anpassen wollen oder eine Medienmitteilung im Eiltempo übersetzt brauchen."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "UNTERNEHMEN",
+          "icon": "/images/pages/ai-translation/feature-icon.png",
+          "cards": [
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Alles auf einer Plattform",
+              "description": "Von vollautomatisch bis handgemacht: Bei Supertext entscheiden Sie. Wir verbinden innovative Translation AI und erfahrene Übersetzer:innen auf einer Plattform. Eine nahtlose Integration von künstlicher Intelligenz und echten Sprachprofis - mit Ihnen am Steuer."
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Effizienz trifft Qualität",
+              "description": "Mit Supertext steigern Sie Ihre Produktivität nachhaltig. Dank bewährten Lösungen, die die Sprachqualität erhöhen und Ihre Kosten laufend senken. Damit neben den Worten auch die Zahlen stimmen.",
+              "cta": {
+                "variant": "primary",
+                "title": "Mehr erfahren",
+                "link": "/"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Ihre persönliche KI, die in Echtzeit lernt",
+              "description": "Ihre massgeschneiderten Sprachmodelle lernen schnell - und passen sich mit jeder verifizierten Übersetzung an Ihre Corporate Language an. Immer auf dem aktuellsten Stand, damit Ihr ganzes Unternehmen mit einer Stimme spricht."
+            }
+          ]
+        }
+       ],
+        "valueProposition": {
+          "heading": "Wir verbinden <highlight>Language AI</highlight> und <highlight>Human-Expertise</highlight> zu einem nahtlosen Übersetzungsangebot. Für Einzelpersonen oder ganze Teams. <highlight>Was brauchen Sie?</highlight>"
+        },
+        "engagementSlider": {
+          "heading": "automation → 0 to 1",
+         "cta": {
+          "text": "Mehr zu Supertext erfahren",
+          "link": "/about"
+         }
+        },
+        "references": {
+          "heading": "1500 Unternehmen in ganz Europa: Unsere Referenzen sprechen eine deutliche Sprache",
+         "cta": {
+          "text": "Mehr zur Sprachexpertise",
+          "link": "/language-expertise"
+         }
+        },
+        "blog": {
+          "heading": "Aktuelles, Hintergründe und neue Features",
+          "cta": {
+            "text": "Alle Blog Beiträge",
+            "link": "/blog"
+          }
+        },
+        "footerNote":{
+          "text": "Mit Supertext übersetzen Unternehmen <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0% bis 100 % automatisiert.",
+          "cta": {
+            "title": "Wollen wir reden?",
+            "link": "/contact",
+            "target": "_blank"
+          }
+
+        },
+        "images": {
+          "girlOnIpad": {
+            "alt": "Girl on iPad"
+          }
+        }
+      },
       "services": {
         "aiTranslation": {
           "hero": {

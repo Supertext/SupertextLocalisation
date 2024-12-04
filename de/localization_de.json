@@ -1600,7 +1600,6 @@
         "role": "Rolle",
         "roleValidation": "Rolle muss mindestens 2 Zeichen lang sein",
         "license": "Lizenz",
-        "licenseTag": "Nutzer lizenzieren",
         "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
         "comment": "Kommentar",
         "commentValidation": "Kommentar muss mindestens 2 Zeichen lang sein",
@@ -1658,52 +1657,6 @@
               "passwordMustContainAtLeastOneUppercaseLetter": "Das Passwort muss mindestens einen Grossbuchstaben enthalten",
               "passwordMustContainAtLeastOneLowercaseLetter": "Das Passwort muss mindestens einen Kleinbuchstaben enthalten.",
               "passwordMustBeAtLeast8Characters": "Das Passwort muss mindestens 8 Zeichen lang sein."
-            }
-          },
-          "subscription": {
-            "title": "Abonnement ändern",
-            "description": "Passen Sie Ihr Abonnement jederzeit ganz einfach an Ihre Bedürfnisse an.",
-            "comparePlans": "Abonnements vergleichen",
-            "numberOfLicenses": "Anzahl der Lizenzen",
-            "licencesCount": "{count, plural, one {# Lizenze} other {# Lizenzen}}",
-            "nextPayment": "Nächste Zahlung",
-            "monthly": "Monatlich",
-            "yearly": "Jährlich",
-            "billingPeriod": "Abrechnungszeitraum",
-            "subscriptionPrices": "Preise der Abonnements",
-            "change": "Ändern",
-            "modal": {
-              "title": "Anzahl Lizenzen verändern",
-              "changeLicenses": "Anzahl der Lizenzen ändern",
-              "change": "Ändern",
-              "order": "Verbindlich bestellen",
-              "licensesCount": "Anzahl der Lizenzen",
-              "currentLicenses": "Aktuell: {count}",
-              "newLicenseCount": "Neue Anzahl der Lizenzen",
-              "paymentMethod": "Zahlungsmethode",
-              "creditCard": "Kreditkarte",
-              "invoice": "Auf Rechnung",
-              "pricePerLicenseMonth": "Preis pro Lizenz, pro Monat",
-              "pricePerLicenseYear": "Preis pro Lizenz, pro Jahr",
-              "totalLicenses": "Gesamtanzahl der Lizenzen",
-              "totalMonthly": "Gesamtbetrag pro Monat",
-              "totalYearly": "Gesamtbetrag pro Jahr",
-              "vatIncluded": "Inkl. {currency} {amount} {percentage} {vatType}",
-              "todayTotal": "Heute fälliger Gesamtbetrag",
-              "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
-              "termsConfirmation": "Ich bestätige die oben genannte Änderung meines Abonnements und akzeptiere die",
-              "removeLicensesError": {
-                "one": "Sie haben {count} Benutzer:innen eine Lizenz zugewiesen. Um Ihr Abonnement auf weniger als {count} Lizenzen zu reduzieren,",
-                "two": " entfernen Sie Lizenzen von Benutzer:innen in Ihrem Team."
-              },
-              "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
-              "immediateChange": "Diese Änderung wird sofort wirksam.",
-              "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
-              "agreementAg": {
-                "one":"Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
-                "two":"Allgemeinen Geschäftsbedingungen."
-              },
-              "makePayment": "Verbindlich Bestellen"
             }
           },
           "payments": {
@@ -1768,7 +1721,6 @@
             "teamMembersOverviewTitle": "Teammitglieder Übersicht",
             "teamMembersOverviewSubtitle": "Hier können Sie Ihre Teammitglieder verwalten",
             "management": "Management",
-            "licenceAvailable": "{amount} verfügbar",
             "actions": {
               "title": "Aktion",
               "editAll": "Alle Bearbeiten",
@@ -1781,9 +1733,57 @@
               "teamAdmin": "Administrator",
               "user": "User"
             },
-            "roleChangeWarning": "Ihr Team Administrator hat ihre Rolle geändert. Bitte loggen Sie sich aus und ein um Ihren Account zu aktualisieren."
+            "roleChangeWarning": "Ihr Team Administrator hat ihre Rolle geändert. Bitte loggen Sie sich aus und ein um Ihren Account zu aktualisieren.",
+            "licenceAvailable": "{amount} verfügbar"
+          },
+          "subscription": {
+            "title": "Abonnement ändern",
+            "description": "Passen Sie Ihr Abonnement jederzeit ganz einfach an Ihre Bedürfnisse an.",
+            "comparePlans": "Abonnements vergleichen",
+            "numberOfLicenses": "Anzahl der Lizenzen",
+            "licencesCount": "{count, plural, one {# Lizenze} other {# Lizenzen}}",
+            "nextPayment": "Nächste Zahlung",
+            "monthly": "Monatlich",
+            "yearly": "Jährlich",
+            "billingPeriod": "Abrechnungszeitraum",
+            "subscriptionPrices": "Preise der Abonnements",
+            "change": "Ändern",
+            "modal": {
+              "title": "Anzahl Lizenzen verändern",
+              "changeLicenses": "Anzahl der Lizenzen ändern",
+              "change": "Ändern",
+              "order": "Verbindlich bestellen",
+              "licensesCount": "Anzahl der Lizenzen",
+              "currentLicenses": "Aktuell: {count}",
+              "newLicenseCount": "Neue Anzahl der Lizenzen",
+              "paymentMethod": "Zahlungsmethode",
+              "creditCard": "Kreditkarte",
+              "invoice": "Auf Rechnung",
+              "pricePerLicenseMonth": "Preis pro Lizenz, pro Monat",
+              "pricePerLicenseYear": "Preis pro Lizenz, pro Jahr",
+              "totalLicenses": "Gesamtanzahl der Lizenzen",
+              "totalMonthly": "Gesamtbetrag pro Monat",
+              "totalYearly": "Gesamtbetrag pro Jahr",
+              "vatIncluded": "Inkl. {currency} {amount} {percentage} {vatType}",
+              "todayTotal": "Heute fälliger Gesamtbetrag",
+              "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
+              "termsConfirmation": "Ich bestätige die oben genannte Änderung meines Abonnements und akzeptiere die",
+              "removeLicensesError": {
+                "one": "Sie haben {count} Benutzer:innen eine Lizenz zugewiesen. Um Ihr Abonnement auf weniger als {count} Lizenzen zu reduzieren,",
+                "other": ""
+              },
+              "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
+              "immediateChange": "Diese Änderung wird sofort wirksam.",
+              "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
+              "agreementAg": {
+                "one": "Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
+                "other": ""
+              },
+              "makePayment": "Verbindlich Bestellen"
+            }
           }
-        }
+        },
+        "licenseTag": "Nutzer lizenzieren"
       },
       "delivery": {
         "title": "Lieferung",
@@ -2365,7 +2365,7 @@
       "faq": {
         "title": "FAQ",
         "help": "Ihre Frage war nicht dabei? Die ganze Sammlung gibt es auf unserer FAQ-Seite. Oder direkt im <link>Gespräch</link> mit uns.",
-        "cta":"Zu allen FAQ"
+        "cta": "Zu allen FAQ"
       }
     },
     "pages": {
@@ -2375,7 +2375,7 @@
             "title": "AI Translation und Verifizierung",
             "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung - und dem Profi-Check auf Knopfdruck."
           },
-          "lead":{
+          "lead": {
             "large": "AI Translation ist <highlight>einfach, schnell</highlight> und wird laufend besser. Doch etwas können auch 2025 <highlight>nur menschliche Expert:innen:</highlight> die Korrektheit einer Übersetzung <highlight>garantieren.</highlight>",
             "small": "Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit der Verifizierung auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Und erhalten erst noch ein Zertifikat für inhaltliche und sprachliche Korrektheit dazu. Zuverlässig, günstig und schnell.",
             "cta": {
@@ -2434,7 +2434,7 @@
           "featureGallery": {
             "title": "Qualitätsgesichert von Å bis Ž",
             "eyebrowHeadline": "Eyebrow Headline",
-            "items":[
+            "items": [
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "3000 diplomierte muttersprachliche Expert:innen",
@@ -2488,7 +2488,7 @@
           "title": "Wir denken Übersetzung neu",
           "description": "Besser, schneller und sicherer übersetzen mit Fused Translation."
         },
-        "lead":{
+        "lead": {
           "large": "Mit <highlight>KI</highlight> übersetzen Sie hunderte Wörter in Sekunden. Aber <highlight>nur echte Sprachprofis</highlight> können verifizieren, ob das Resultat tatsächlich aussagt, was es soll.",
           "small": "Darum verbinden wir Language AI und erfahrene Übersetzer:innen an einem Ort. Für eine nahtlose Integration von künstlicher Intelligenz und menschlichem Können – mit Ihnen am Steuer. Bei Supertext trifft KI-Effizienz auf professionelle Expertise. Textsicherheit auf Datensicherheit. Supertext ist simpel, customized und lernfähig. Supertext ist All-in-one."
         },
@@ -2523,123 +2523,114 @@
           }
         },
         "serviceList": {
-        "title": "Damit Ihre Botschaft sicher ankommt: unsere Lösungen.",
-        "eyebrowHeadline": "Angebot",
-        "services": [
-          {
-            "title": "Für Einzel-User",
-            "sections": [
-              {
-                "title": "AI Translation in 23 Sprachen",
-                "description":
-                  "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#-translation",
-                  "variant": "secondary"
+          "title": "Damit Ihre Botschaft sicher ankommt: unsere Lösungen.",
+          "eyebrowHeadline": "Angebot",
+          "services": [
+            {
+              "title": "Für Einzel-User",
+              "sections": [
+                {
+                  "title": "AI Translation in 23 Sprachen",
+                  "description": "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
+                  "cta": {
+                    "title": "Mehr Erfahren",
+                    "link": "#-translation",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Profi-Verifizierung auf Knopfdruck",
+                  "description": "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
+                  "cta": {
+                    "title": "Mehr Erfahren",
+                    "link": "#",
+                    "variant": "primary"
+                  }
+                },
+                {
+                  "title": "Ihre persönliche KI, die in Echtzeit lernt",
+                  "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
+                  "badge": "Bald verfügbar",
+                  "cta": {
+                    "title": "Mehr Erfahren",
+                    "link": "#-ai",
+                    "variant": "secondary"
+                  }
                 }
-              },
-              {
-                "title": "Profi-Verifizierung auf Knopfdruck",
-                "description":
-                  "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "primary"
+              ]
+            },
+            {
+              "title": "Für Unternehmen",
+              "sections": [
+                {
+                  "title": "Massgeschneiderte AI Translation",
+                  "description": "Your company, your voice. Mit zielgerichtetem Training integriert Supertext Ihre Stilvorgaben und Wordings in jeder Übersetzung. Für eine reibungslose Kommunikation ohne Grenzen.",
+                  "cta": {
+                    "title": "Mehr Erfahren",
+                    "link": "#-ai",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Profiservices von Arabisch bis Zulu",
+                  "description": "Wenn es wirklich drauf ankommt: Unsere 3000 erfahrene Sprachexpert:innen schreiben schöner und übersetzen noch präziser. In Ihrem Tone of Voice, ausdrucksstark und treffsicher in jeder Sprache.",
+                  "cta": {
+                    "title": "Mehr Erfahren",
+                    "link": "#",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Persönlicher Support",
+                  "description": "Sie wollen Ihr KI-Modell an einen neuen Styleguide anpassen? Oder Ihre aktuellen Workflows mit Expert:innen evaluieren? Wir sind persönlich für Sie da – lösungsorientiert, freundlich und schnell.",
+                  "cta": {
+                    "title": "Mehr Erfahren",
+                    "link": "#",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Erweiterte Sicherheitsstandards",
+                  "description": "Von Single-Sign-on (SSO) bis On-Premises-Hosting – mit Supertext halten Sie Ihre Unternehmensdaten zuverlässig unter Verschluss.",
+                  "cta": {
+                    "title": "Mehr Erfahren",
+                    "link": "#",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Nahtlos integriert",
+                  "description": "Integrieren Sie Supertext nahtlos in Ihre Arbeitsumgebung. Mit unseren APIs und Integrationen für schlanke Prozesse in jedem Interface.",
+                  "cta": {
+                    "title": "Mehr Erfahren",
+                    "link": "#",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "imageConfig": {
+                    "alt": "Team",
+                    "image": "/images/pages/why-supertext/hero-two.png"
+                  }
                 }
-              },
-              {
-                "title": "Ihre persönliche KI, die in Echtzeit lernt",
-                "description":
-                  "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
-                "badge": "Bald verfügbar",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#-ai",
-                  "variant": "secondary"
-                }
-              }
-            ]
-          },
-          {
-            "title": "Für Unternehmen",
-            "sections": [
-              {
-                "title": "Massgeschneiderte AI Translation",
-                "description":
-                  "Your company, your voice. Mit zielgerichtetem Training integriert Supertext Ihre Stilvorgaben und Wordings in jeder Übersetzung. Für eine reibungslose Kommunikation ohne Grenzen.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#-ai",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "title": "Profiservices von Arabisch bis Zulu",
-                "description":
-                  "Wenn es wirklich drauf ankommt: Unsere 3000 erfahrene Sprachexpert:innen schreiben schöner und übersetzen noch präziser. In Ihrem Tone of Voice, ausdrucksstark und treffsicher in jeder Sprache.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "title": "Persönlicher Support",
-                "description":
-                  "Sie wollen Ihr KI-Modell an einen neuen Styleguide anpassen? Oder Ihre aktuellen Workflows mit Expert:innen evaluieren? Wir sind persönlich für Sie da – lösungsorientiert, freundlich und schnell.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "title": "Erweiterte Sicherheitsstandards",
-                "description":
-                  "Von Single-Sign-on (SSO) bis On-Premises-Hosting – mit Supertext halten Sie Ihre Unternehmensdaten zuverlässig unter Verschluss.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "title": "Nahtlos integriert",
-                "description":
-                  "Integrieren Sie Supertext nahtlos in Ihre Arbeitsumgebung. Mit unseren APIs und Integrationen für schlanke Prozesse in jedem Interface.",
-                "cta": {
-                  "title": "Mehr Erfahren",
-                  "link": "#",
-                  "variant": "secondary"
-                }
-              },
-              {
-                "imageConfig": {
-                  "alt": "Team",
-                  "image": "/images/pages/why-supertext/hero-two.png"
-                }
-              }
-            ]
+              ]
+            }
+          ]
+        },
+        "caseList": {
+          "eyebrowHeadline": "Referenzen",
+          "title": "Von vollautomatisiert bis handgemacht: Wir arbeiten für über 1500 Unternehmen in ganz Europa.",
+          "cta": "Zu allen Cases"
+        },
+        "footerNote": {
+          "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo.</highlight>",
+          "cta": {
+            "title": "Zu allen Cases",
+            "link": "/cases",
+            "target": "_blank"
           }
-        ]
-      },
-      "caseList": {
-        "eyebrowHeadline": "Referenzen",
-        "title": "Von vollautomatisiert bis handgemacht: Wir arbeiten für über 1500 Unternehmen in ganz Europa.",
-        "cta": "Zu allen Cases"
-      },
-      "footerNote": {
-        "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo.</highlight>",
-        "cta": {
-          "title": "Zu allen Cases",
-          "link": "/cases",
-          "target": "_blank"
         }
       }
-      }
-
     }
   },
   "remove": "Entfernen",

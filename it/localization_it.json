@@ -1456,6 +1456,8 @@
     "navbar": {
       "services": "Servizi",
       "whySupertext": "Perché Supertext?",
+      "technology": "Tecnologia",
+      "contact": "Contatto",
       "subscriptionAndPrices": "Abbonamento e prezzi",
       "forCompanies": "Per le aziende",
       "discoverSolutions": "Scoprire la soluzione aziendale",
@@ -2653,6 +2655,271 @@
             },
             "image": "/images/pages/ai-translation/footer_gif.gif"
           }
+        }
+      },
+      "languageExpertise": {
+        "hero": {
+          "title": "Erfahrene Profis – in Bestform dank Language AI",
+          "description": "Unsere Sprachexpert:innen sind bereit für Sie. Immer dann, wenn jedes Wort zählt."
+        },
+        "lead": {
+          "large": "<highlight>Vollautomatisch</highlight> oder <highlight>handgemacht?</highlight> Die Antwort liegt oft dazwischen.",
+          "small": "Mit AI Translation übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break> <break></break> Der grosse Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
+        },
+        "featureList": {
+          "title": "  Fused Translation mit Supertext: Ihre Vorteile",
+          "eyebrowHeadline": "Vorteile",
+          "benefitContent": {
+            "benefits": [
+              {
+                "title": "20+ AI-Spezialisten, Ingenieurinnen und Security-Profis",
+                "description": "Unser Tech-Team leistet Pionierarbeit, die sich auszahlt. Wir entwickeln zuverlässige, sichere und flexible Language-AI-Technologie ohne Kompromisse. Sie bildet die Basis für Sprachqualität im grossen Stil, nahtlos integriert in jeden Prozess und jedes Interface. ",
+                "cta": {
+                  "text": "Mehr zu unserer Technologie",
+                  "link": "/technology",
+                  "variant": "primary"
+                }
+              },
+              {
+                "title": "3’000 ausgewählte Fachübersetzerinnen, Texter und Lektorinnen",
+                "description": "Von Genf bis Mailand, von Buenos Aires bis Tokio: Supertext arbeitet mit spezialisierten muttersprachlichen Linguist:innen weltweit. Sie alle bringen ein Übersetzungsdiplom oder mehr als fünf Jahre Erfahrung mit und durchlaufen strenge Tests."
+              },
+              {
+                "title": "Inhouse-Sprachspezialist:innen für Konsistenz und Qualitätssicherung",
+                "description": "In den wichtigsten Sprachen sorgen fest angestellte Spezialist:innen für die interne Expertise und Qualitätskontrolle. Sie erarbeiten Guidelines, stellen fachspezifische Teams für einzelne Kund:innen zusammen und sind erste Anlaufstelle bei sprachlichen Knacknüssen."
+              },
+              {
+                "title": "Persönlich betreut durch erfahrene Projektleiter:innen",
+                "description": "Unsere Projektleiter:innen sind die flexible Drehscheibe für Grossprojekte und Ihr direkter Draht zu Supertext. Sie sorgen dafür, dass Ihre Anforderungen genau umgesetzt, Termine  eingehalten und übersetzte Dateien in jedem Format perfekt formatiert werden."
+              }
+            ],
+            "buttons": []
+          }
+        },
+        "serviceList": {
+          "title": "Unsere Profiservices im Überblick",
+          "eyebrowHeadline": "",
+          "services": [
+            {
+              "title": "",
+              "sections": [
+                {
+                  "title": "AI Translation & Verifizierung",
+                  "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung - und dem Proficheck auf Knopfdruck.",
+                  "cta": {
+                    "title": "Mehr Erfahren",
+                    "link": "/service/ai-translation",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Fachübersetzung",
+                  "description": "Technologie trifft erfahrene Spezialist:innen. Von InDesign bis Word und von Arabisch bis Zulu.",
+                  "cta": {
+                    "title": "JETZT BESTELLEN",
+                    "link": "https://www.supertext.ch/de/uebersetzen",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Copywriting & Content",
+                  "description": "Wir fangen dort an, wo Ihnen die Worte fehlen. In Ihrem Tone of Voice, ideenreich und treffsicher.",
+                  "cta": {
+                    "title": "JETZT BESTELLEN",
+                    "link": "https://www.supertext.ch/de/texten",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Lektorat",
+                  "description": "Der letzte Schliff für Ihren Text. Stilsicher, pingelig und richtig schnell.",
+                  "cta": {
+                    "title": "JETZT BESTELLEN",
+                    "link": "https://www.supertext.ch/de/lektorieren",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Plain Language",
+                  "description": "Wir machen auch Fachtexte leicht verständlich. Für mehr Vertrauen und weniger Supportanfragen.",
+                  "cta": {
+                    "title": "JETZT BESTELLEN",
+                    "link": "https://www.supertext.ch/de/plain-language",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Beratung",
+                  "description": "Sie haben grosse Pläne? Wir die passende Lösung in jeder Sprache. Von 0 bis 100 % automatisiert.",
+                  "cta": {
+                    "title": "LASSEN SIE UNS REDEN",
+                    "link": "/contact",
+                    "variant": "secondary"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "portraits": {
+          "subtitle": "PORTRÄTS",
+          "title": "Expertise von Å bis Ž: Lernen Sie unser Team kennen",
+          "items": [
+            {
+              "image": "/images/pages/language-expertise/portrait1.png",
+              "quote": "«Wir schleifen so lange, bis es wehtut.»",
+              "person": "Tristan Secrest, English Language Specialist",
+              "content": [
+                {
+                  "title": "Was sind deine Aufgaben bei Supertext?",
+                  "text": "Alles, was in irgendeiner Form die Sprache betrifft. Wir verifizieren KI-Übersetzungen, überprüfen die Arbeit von Freelancern, entwickeln aber auch Workflows für Kund:innen mit spezifischen Anforderungen. Von Qualitätsschecks über die Entwicklung von Styleguides bis zur Auswahl und Pflege linguistischer Teams."
+                },
+                {
+                  "title": "Was macht einen echten Language Specialist aus?",
+                  "text": "Neben Sprachtalent ist es vor allem das grosse Interesse dafür, was Technologie zu bieten hat. Mit ihr schleifen wir unsere Fähigkeiten und rüsten uns für alles, was unsere Kund:innen brauchen. Unsere Entschlossenheit und Detailversessenheit treibt uns zusätzlich voran."
+                },
+                {
+                  "title": "Und wie genau stellt ihr maximale Sprachqualität sicher?",
+                  "text": "Zum einen, indem wir ausschliesslich auf Leute mit Sprachstudium und langjähriger Erfahrung setzen. Zum anderen, indem wir nichts dem Zufall überlassen und uns unermüdlich dafür einsetzen, dass jedes Wort sitzt. Das ist manchmal echt schmerzhaft, lohnt sich aber immer."
+                }
+              ]
+            },
+            {
+              "image": "/images/pages/language-expertise/portrait2.png",
+              "quote": "«Auch wir übersetzen – vor allem Kundenwünsche in Sprachmodelle.»",
+              "person": "Philippe Schläpfer, Research Scientist",
+              "content": [
+                {
+                  "title": "Was macht ein Research Scientist genau?",
+                  "text": "Kurz: Kundenanforderungen in die Tat überführen. Indem wir einerseits bestehende Übersetzungsmodelle verbessern und andererseits spezialisierte Modelle entwickeln, die wir durch Training auf das Corporate Wording unserer Kund:innen massschneidern. Zudem entwickeln wir neue Features basierend auf den neusten Forschungserkenntnissen."
+                },
+                {
+                  "title": "Wie läuft so ein spezialisiertes Training ab – und was braucht es dazu?",
+                  "text": "Wir entwickeln das Modell und passen es individuell auf Sprache und Stil des Unternehmens an. Fürs Training benötigen wir Rohmaterial - meistens interne Übersetzungsdaten von Kund:innen - und breite Kenntnisse in Computerlinguistik und Coding. Von Startschuss bis Bereitstellung dauert es ca. 6 Wochen. Dazwischen wird noch ausgiebig getestet und auf Qualitätsstandards hin geprüft."
+                },
+                {
+                  "title": "Was ist das coolste Feature, das du bisher mitentwickelt hast?",
+                  "text": "Unser Mundartfeature - damit übersetzen Sie von und nach Schweizerdeutsch inklusive verschiedener Dialekte wie Züridütsch oder Bärndütsch. Die Technologie dahinter war tricky, da es in diesen Sprachen relativ wenig Texte fürs Training gibt."
+                }
+              ]
+            }
+          ]
+        },
+        "footerNote": {
+          "text": "Sie wollen einen <highlight>Styleguide</highlight> für Ihr Unternehmen entwickeln? Oder 4000 <highlight>Übersetzungsprojekte</highlight> im Monat abwickeln?",
+          "preTitle": "Wir sind für Sie da",
+          "cta": {
+            "title": "Lassen Sie uns reden",
+            "link": "/contact",
+            "target": ""
+          }
+        }
+      },
+
+      "contact": {
+        "hero": {
+          "title": "Erreichbar in fast jeder Sprache",
+          "description": "Ob für Projekte, Feedback, Traumjobs oder eine Demo: Lassen Sie uns reden."
+        },
+        "salesSection": {
+          "title": "Kontaktieren Sie <highlightText>Supertext Sales</highlightText>",
+          "description": "Unser Team unterstützt Sie dabei, das Beste aus Supertext herauszuholen.\n\nKontaktieren Sie uns für:",
+          "bulletPoints": {
+            "point1": "Erfahren Sie, wie Supertext Ihre globale Geschäftsexpansion unterstützen kann",
+            "point2": "Team-Pakete, Enterprise-Lösungen, APIs und mehr",
+            "point3": "Maßgeschneiderte Lösungen für Ihr Unternehmen"
+          }
+        },
+        "contactForm": {
+          "intro": "Füllen Sie das Formular aus, damit wir Sie mit der richtigen Person in Verbindung setzen können.",
+          "fields": {
+            "name": {
+              "label": "Vorname und Name*",
+              "placeholder": "Ihr Name",
+              "error": "Name ist erforderlich"
+            },
+            "company": {
+              "label": "Unternehmen/Organisation*",
+              "placeholder": "Ihr Unternehmen",
+              "error": "Unternehmen/Organisation ist erforderlich"
+            },
+            "email": {
+              "label": "E-Mail*",
+              "placeholder": "Ihre E-Mail",
+              "error": "Ungültige E-Mail-Adresse"
+            },
+            "phone": {
+              "label": "Telefon",
+              "placeholder": "Ihre Telefonnummer"
+            },
+            "helpType": {
+              "label": "Wie können wir helfen?*",
+              "placeholder": "Bitte wählen",
+              "error": "Bitte wählen Sie eine Option",
+              "options": {
+                "project": "Projektanfrage",
+                "feedback": "Feedback",
+                "demo": "Demo anfragen",
+                "career": "Karriere"
+              }
+            },
+            "message": {
+              "label": "Ihre Nachricht*",
+              "placeholder": "Ihre Nachricht",
+              "error": "Nachricht ist erforderlich"
+            },
+            "source": {
+              "label": "Wie sind Sie auf uns aufmerksam geworden?*",
+              "placeholder": "z.B. Google, Empfehlung, Social Media",
+              "error": "Bitte geben Sie an, wie Sie auf uns aufmerksam geworden sind"
+            }
+          },
+          "submit": "Absenden",
+          "notifications": {
+            "success": {
+              "title": "Formular gesendet",
+              "description": "Wir werden uns in Kürze bei Ihnen melden."
+            },
+            "error": {
+              "title": "Ein Fehler ist aufgetreten",
+              "description": "Bitte versuchen Sie es später erneut."
+            }
+          }
+        },
+        "locations": [
+          {
+            "title": "Zürich",
+            "description": "Unser Hauptquartier liegt in Zürich-West, nur wenige Meter von der Limmat entfernt.",
+            "image": "/images/pages/contact/zurich.png",
+            "address": {
+              "line0": "Supertext",
+              "line1": "Hardturmstrasse 253",
+              "line2": "8005 Zürich",
+              "line3": "Schweiz"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/aVo7gpnZp2aP8uEb9"
+          },
+          {
+            "title": "Berlin",
+            "image": "/images/pages/contact/Berlin.png",
+            "description": "Unser Berliner Büro finden Sie im Herzen von Kreuzberg, direkt am Mehringdamm.",
+            "address": {
+              "line0": "Supertext",
+              "line1": "Mehringdamm 32/34",
+              "line2": "10961 Berlin",
+              "line3": "Deutschland"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/ifzabvrtA756Kpdd6"
+          }
+        ],
+        "footerNote": {
+          "cta": {
+            "title": "Jetzt Termin buchen",
+            "link": "/demo"
+          },
+          "text": "Sie möchten Supertext in Aktion erleben? Buchen Sie ganz unverbindlich eine <highlightText>Demo</highlightText> mit uns."
         }
       },
       "whySupertext": {

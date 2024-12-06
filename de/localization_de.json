@@ -1606,7 +1606,6 @@
         "comment": "Kommentar",
         "commentValidation": "Kommentar muss mindestens 2 Zeichen lang sein",
         "company": "Unternehmen",
-        "currency": "Währung",
         "name": "Name",
         "changeName": "Name ändern",
         "nameValidation": "Name muss mindestens 2 Zeichen lang sein",
@@ -1773,20 +1772,21 @@
               "termsConfirmation": "Ich bestätige die oben genannte Änderung meines Abonnements und akzeptiere die",
               "removeLicensesError": {
                 "one": "Sie haben {count} Benutzer:innen eine Lizenz zugewiesen. Um Ihr Abonnement auf weniger als {count} Lizenzen zu reduzieren,",
-                "two": "Team management"
+                "other": ""
               },
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung wird sofort wirksam.",
               "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
               "agreementAg": {
                 "one": "Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
-                "two": "AGB"
+                "other": ""
               },
               "makePayment": "Verbindlich Bestellen"
             }
           }
         },
-        "licenseTag": "Nutzer lizenzieren"
+        "licenseTag": "Nutzer lizenzieren",
+        "currency": "Währung"
       },
       "delivery": {
         "title": "Lieferung",
@@ -1945,6 +1945,7 @@
       },
       "certifiedControl": {
         "title": "Zertifizierte Kontrolle durch eine:n Supertext-Expert:in",
+        "dDescription": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
         "description": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen."
       },
       "serviceIsDeactivated": {
@@ -1977,7 +1978,7 @@
         "button": "D'accord! Fenster schliessen.",
         "startNew": "Neue Übersetzung starten"
       },
-      "targetControl": { 
+      "targetControl": {
         "verifiedBy": "Verifiziert von"
       }
     },
@@ -2972,7 +2973,7 @@
       },
       "contact": {
         "hero": {
-          "title": "Erreichbar in fast jeder Sprache",
+          "title": "Erreichbar in fast jeder Sprache!",
           "description": "Ob für Projekte, Feedback, Traumjobs oder eine Demo: Lassen Sie uns reden."
         },
         "salesSection": {

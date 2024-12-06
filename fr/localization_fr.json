@@ -1606,7 +1606,6 @@
         "comment": "Commentaire",
         "commentValidation": "Le commentaire doit comporter au moins 2 caractères",
         "company": "Entreprise",
-        "currency": "Währung",
         "name": "Nom",
         "changeName": "Modifier le nom",
         "nameValidation": "Le nom doit comporter au moins 2 caractères",
@@ -1773,20 +1772,21 @@
               "termsConfirmation": "Je confirme la modification de mon abonnement mentionnée ci-dessus et j'accepte les",
               "removeLicensesError": {
                 "one": "Vous avez attribué une licence à {count} utilisateurs:in. Pour réduire votre abonnement à moins de {count} licences,",
-                "two": "Team management"
+                "other": ""
               },
               "termsAndConditions": "Conditions générales de vente.",
               "immediateChange": "Cette modification prend effet immédiatement.",
               "nextBillingChange": "Cette modification prendra effet à partir de la prochaine période de paie.",
               "agreementAg": {
                 "one": "Je confirme la modification susmentionnée de mon abonnement et j'accepte les",
-                "two": "AGB"
+                "other": ""
               },
               "makePayment": "Commander obligatoirement"
             }
           }
         },
-        "licenseTag": "Licence d'utilisateur"
+        "licenseTag": "Licence d'utilisateur",
+        "currency": "Monnaie"
       },
       "delivery": {
         "title": "Livraison",
@@ -1864,121 +1864,122 @@
       "uploadFile": "Télécharger un fichier"
     },
     "humanVerification": {
-      "verifyButton": "Durch Expert:in verifizieren",
-      "stepTitle": "Durch Expert:in verifizieren - Schritt",
-      "stepDescription": "Die KI-Übersetzung wird durch ein:e Supertext-Expert:in überprüft und verifiziert. Sie erhalten eine Textdatei mit Zertifikat zum Download.",
-      "nextStepButton": "Nächster Schritt",
-      "orderVerification": "Verifikation bestellen",
-      "authorizePayment": "Zahlung autorisieren",
+      "verifyButton": "Vérifier par expert",
+      "stepTitle": "Vérifié par expert - Étape",
+      "stepDescription": "La traduction AI est vérifiée et certifiée par un expert Supertext. Vous recevez un fichier texte avec certificat au téléchargement.",
+      "nextStepButton": "Prochain étape",
+      "orderVerification": "Vérification commander",
+      "authorizePayment": "Paiement autoriser",
       "unsupportedLanguagePair": {
-        "title": "wird für die Expertenprüfung noch nicht unterstützt.",
-        "description": "Kein Problem! Die Expertenüberprüfung wird bald für weitere Sprachpaare verfügbar sein"
+        "title": "pas encore pris en charge pour la révision par un expert",
+        "description": "Pas de problème ! La révision par un expert sera bientôt disponible pour d'autres paires de langues."
       },
       "stepOne": {
-        "title": "Verifikation",
-        "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
-        "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
-        "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
+        "title": "Vérification",
+        "payWithInvoice": "Le paiement sera effectué par facture.",
+        "payWithCard": "Le paiement sera effectué à l'aide de vos informations de carte de crédit enregistrées.",
+        "payWithExpiredCardInfo": "Votre méthode de paiement par défaut est configurée pour les paiements par carte, mais votre carte a expiré. Veuillez mettre à jour vos informations de carte de crédit."
       },
       "customBilling": {
         "addressForm": {
-          "changeBillingAddress": "Rechnungsadresse ändern (Optional)",
-          "addBillingAddress": "Rechnungsadresse hinzufügen (Optional)",
+          "changeBillingAddress": "Modifier l'adresse de facturation (Optionnel)",
+          "addBillingAddress": "Ajouter une adresse de facturation (Optionnel)",
           "company": {
-            "label": "Firma / Organisation (optional)",
-            "placeholder": "Musterfirma GmbH"
+            "label": "Entreprise / Organisation (optionnel)",
+            "placeholder": "Entreprise Exemple SARL"
           },
           "vatNumber": {
-            "label": "MWST-Nummer (optional)",
+            "label": "Numéro de TVA (optionnel)",
             "placeholder": "CHE-123.456.789"
           },
           "costCenter": {
-            "label": "Kostenstelle (optional)",
-            "placeholder": "K-1234"
+            "label": "Centre de coût (optionnel)",
+            "placeholder": "C-1234"
           },
           "firstName": {
-            "label": "Vorname",
-            "placeholder": "Hans",
-            "error": "Vorname ist erforderlich"
+            "label": "Prénom",
+            "placeholder": "Jean",
+            "error": "Le prénom est obligatoire"
           },
           "lastName": {
-            "label": "Nachname",
-            "placeholder": "Muster",
-            "error": "Nachname ist erforderlich"
+            "label": "Nom",
+            "placeholder": "Dupont",
+            "error": "Le nom est obligatoire"
           },
           "street": {
-            "label": "Strasse / Hausnummer",
-            "placeholder": "Musterstrasse 123",
-            "error": "Strassenadresse ist erforderlich"
+            "label": "Rue / Numéro de maison",
+            "placeholder": "Rue Exemple 123",
+            "error": "L'adresse est obligatoire"
           },
           "postalCode": {
-            "label": "PLZ",
+            "label": "Code Postal",
             "placeholder": "8000",
-            "error": "Postleitzahl muss mindestens 4 Zeichen enthalten"
+            "error": "Le code postal doit comporter au moins 4 caractères"
           },
           "city": {
-            "label": "Ort",
-            "placeholder": "Zürich",
-            "error": "Ort ist erforderlich"
+            "label": "Ville",
+            "placeholder": "Zurich",
+            "error": "La ville est obligatoire"
           },
           "country": {
-            "label": "Land",
-            "placeholder": "Land auswählen",
-            "error": "Land ist erforderlich"
+            "label": "Pays",
+            "placeholder": "Sélectionnez un pays",
+            "error": "Le pays est obligatoire"
           }
         }
       },
-      "additionalInformation": "Fügen Sie einige optionale Zusatzinformationen zu Ihrem Prüfauftrag hinzu, bevor Sie ihn abschließen.",
+      "additionalInformation": "Ajoutez quelques informations supplémentaires facultatives à votre demande de contrôle avant de la clôturer.",
       "submit": {
-        "title": "Submit your verification?",
-        "description": "Damit wird Ihre Verifizierung unwiderruflich übermittelt. Sind Sie sicher, dass Sie Ihre Verifizierung einreichen wollen?"
+        "title": "Soumettez votre vérification ?",
+        "description": "Votre vérification sera ainsi transmise de manière irrévocable. Êtes-vous sûr de vouloir soumettre votre vérification ?"
       },
       "reset": {
-        "title": "Auf Original zurücksetzen?",
-        "description": "Sie verlieren alle Ihre Änderungen. Sind Sie sicher, dass Sie auf den ursprünglichen Text zurücksetzen wollen?"
+        "title": "Rétablir l'original ?",
+        "description": "Vous perdrez toutes vos modifications. Êtes-vous sûr de vouloir revenir au texte original ?"
       },
       "infoMessage": {
-        "part1": "Die zertifizierte",
-        "part2": "Kontrolle",
-        "part3": "durch eine:n Supertext-Expert:in",
-        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Dieser Service ist kostenpflichtig und wird nach Anzahl Wörtern verrechnet."
+        "part1": "L'association certifiée",
+        "part2": "Contrôle",
+        "part3": "par un:expert:en:supertexte",
+        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Ce service est payant et facturé en fonction du nombre de mots."
       },
       "certifiedControl": {
-        "title": "Zertifizierte Kontrolle durch eine:n Supertext-Expert:in",
-        "description": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen."
+        "title": "Contrôle certifié par un(e) expert(e) Supertext",
+        "dDescription": "Ce service est payant. Il est facturé en fonction du nombre de mots. Malheureusement, tu peux nous joindre en dehors de nos heures de bureau. Pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes.",
+        "description": "Ce service est payant. Il est facturé en fonction du nombre de mots. Malheureusement, tu peux nous joindre en dehors de nos heures de bureau. Pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes."
       },
       "serviceIsDeactivated": {
-        "title": "Service ist deaktiviert",
-        "description": "Der Dienst \"Überprüfung durch Experten\" ist in unserer Organisation leider deaktiviert. Setzen Sie sich mit Ihrem Supertext-Projektmanager in Verbindung, um eine Demo zu planen oder diese Funktion für Ihr Unternehmen einzurichten."
+        "title": "Le service est désactivé",
+        "description": "Le service \"Révision par des experts\" est malheureusement désactivé dans notre organisation. Contactez votre chef de projet Supertext pour planifier une démo ou pour mettre en place cette fonction dans votre entreprise."
       },
       "isTargetTextTooLong": {
-        "title": "Übersetzungsverifikationen sind derzeit auf {0} Zeichen begrenzt.",
-        "description": "Wenn Ihr Text zu lang ist, können Sie versuchen, ihn zu kürzen, um sich auf die spezifischen Teile zu konzentrieren, bei denen Sie Hilfe benötigen."
+        "title": "Les vérifications de traduction sont actuellement limitées à {0} caractères.",
+        "description": "Si votre texte est trop long, vous pouvez essayer de le raccourcir afin de vous concentrer sur les parties spécifiques pour lesquelles vous avez besoin d'aide."
       },
       "isEstimateError": {
-        "title": "Bei der Schätzung des Preises und der Anzahl Ihrer Anfrage ist ein Fehler aufgetreten",
-        "description": "Versuchen Sie, Ihren Browser zu aktualisieren oder kommen Sie später wieder"
+        "title": "Une erreur s'est produite lors de l'estimation du prix et du nombre de votre demande",
+        "description": "Essayez de mettre à jour votre navigateur ou revenez plus tard"
       },
       "outIfBusinessHours": {
-        "title_part1": "Leider erreichst du uns ausserhalb unserer",
-        "title_part2": "Geschäftszeiten",
-        "description": "'Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
-        "businessHours": "Montag - Freitag",
+        "title_part1": "Malheureusement, tu peux nous joindre en dehors de nos",
+        "title_part2": "Heures d'ouverture",
+        "description": "pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes.",
+        "businessHours": "Lundi - vendredi",
         "businessHoursTime": "9:00-17:30",
-        "nonWorkingDaySaturday": "Samstag",
-        "nonWorkingDaySunday": "Sonntag",
-        "nonWorkingDaysHolidays": "Feiertage",
-        "nonWorkingDaysInfo": "Geschlossen",
-        "businessHoursInfo": "Geschäftszeiten"
+        "nonWorkingDaySaturday": "Samedi",
+        "nonWorkingDaySunday": "Dimanche",
+        "nonWorkingDaysHolidays": "Jours fériés",
+        "nonWorkingDaysInfo": "Fermé",
+        "businessHoursInfo": "Heures d'ouverture"
       },
       "stepThree": {
-        "title": "Das hat geklappt!",
-        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
-        "button": "D'accord! Fenster schliessen.",
-        "startNew": "Neue Übersetzung starten"
+        "title": "Ça a marché !",
+        "description": "Un(e) expert(e) Supertext vérifie maintenant votre texte. Vous recevrez la traduction vérifiée à l'adresse e-mail que vous avez indiquée.",
+        "button": "D'accord avec vous ! Fermer les fenêtres.",
+        "startNew": "Démarrer une nouvelle traduction"
       },
-      "targetControl": { 
-        "verifiedBy": "Verifiziert von"
+      "targetControl": {
+        "verifiedBy": "Vérifié par"
       }
     },
     "couponCode": {

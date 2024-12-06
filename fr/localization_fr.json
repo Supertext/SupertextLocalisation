@@ -1456,8 +1456,6 @@
     "navbar": {
       "services": "Services",
       "whySupertext": "Pourquoi Supertext?",
-      "technology": "Technologie",
-      "contact": "Contact",
       "subscriptionAndPrices": "Abonnement & prix",
       "forCompanies": "Pour les entreprises",
       "discoverSolutions": "Découvrir la solution business",
@@ -1482,7 +1480,9 @@
       "country": {
         "ch": "Suisse",
         "other": "Autres"
-      }
+      },
+      "technology": "Technologie",
+      "contact": "Contact"
     },
     "filter": {
       "title": "Filtre",
@@ -2371,178 +2371,6 @@
       }
     },
     "pages": {
-      "home": {
-        "heroSection": {
-          "mainHeading": "Language AI trifft erstklassigen Service",
-          "eyebrowHeadline": "ALLE SPRACHSERVICES",
-          "languageServices": {
-            "items": [
-              {
-                "title": "AI Translation & Verifizierung",
-                "description": "Vom Styleguide bis zur Prozessoptimierung.",
-                "cta": {
-                  "title": "Bestellen",
-                  "link": "/service/ai-translation"
-                }
-              },
-              {
-                "title": "Fachübersetzung",
-                "description": "Von erfahrenen Spezialist:innen consetetur sadipscing elitr.",
-                "cta": {
-                  "title": "Mehr erfahren",
-                  "link": "/service/translation"
-                }
-              },
-              {
-                "title": "Copywriting & Content",
-                "description": "Für Texte, die wirken - ideenreich und treffsicher.",
-                "cta": {
-                  "title": "Mehr erfahren",
-                  "link": "/service/copywriting"
-                }
-              },
-              {
-                "title": "Lektorat",
-                "description": "Der letzte Schliff - stilsicher, pingelig und richtig schnell.",
-                "cta": {
-                  "title": "Mehr erfahren",
-                  "link": "/service/editing"
-                }
-              }
-            ],
-            "expertiseButton": "Mehr zur Sprachexpertise"
-          }
-        },
-       "servicesCards": [
-        {
-          "id": 1,
-          "title": "ENZEL-USER",
-          "cards": [
-            {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
-              "title": "Online übersetzen. Ganz einfach.",
-              "description": "Kommunizieren Sie schneller, besser, einfacher. Mit Supertext übersetzen Sie in mehr als 20 Sprachen von Japanisch bis Schweizer-deutsch. Unsere Translation AI gehört zur neusten Generation von künstlicher Intelligenz, folgt Ihren Stilvorgaben punktgenau und verarbeitet verschiedenste Dateiformate im Sekunden.",
-              "cta": {
-                "variant": "primary",
-                "title": "Zum tool",
-                "link": "/"
-              }
-            },
-            {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
-              "title": "Verifiziert mit einem Klick",
-              "description": "Lassen Sie wichtige Übersetzungen von den Profis prüfen - in Minuten statt Stunden. Supertext verbindet Sie direkt mit über 3000 erfahrenen Linguisten und Kulturexpertinnen. Damit Ihre Botschaft sicher ankommt, wenn es wirklich wichtig ist.",
-              "cta": {
-                "variant": "PrimaryBorderVariant",
-                "title": "Mehr erfahren",
-                "link": "/"
-              }
-            },
-            {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
-              "title": "Kompromisslos sicher",
-              "description": "Supertext spricht viele Sprachen - und kann in genauso vielen schweigen. Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und sichersten Servern halten wir Ihre Daten immer unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
-              "cta": {
-                "variant": "PrimaryBorderVariant",
-                "title": "Mehr erfahren",
-                "link": "/"
-              }
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "title": "PROFI",
-          "cards": [
-            {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
-              "title": "Ihr Unternehmen, Ihre Sprache",
-              "description": "Unsere Übersetzungen sind immer auf Ihre Bedürfnisse, Stilvorgaben und Content-Formate zugeschnitten. Das Resultat: eine reibungslose Kommunikation für Ihr ganzes Unternehmen. Unverwechselbar in jeder Sprache."
-            },
-            {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
-              "title": "Nahtlos integriert",
-              "description": "Erst ein reibungsloses User-Erlebnis macht ein Tool zum echten Mehrwert. Mit unseren APIs integrieren Sie Supertext nahtlos in Ihre Arbeitsumgebung und profitieren von schlanken Prozessen in jedem Interface.",
-              "cta": {
-                "variant": "primary",
-                "title": "Mehr erfahren",
-                "link": "/"
-              }
-            },
-            {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
-              "title": "Persönlicher Support",
-              "description": "Input, Output? Mit Supertext können Sie viel mehr als das[AL1]. Wir sind persönlich für Sie da - lösungsorientiert, freundlich und schnell. Egal ob Sie Ihr KI-Modell an einen neuen Styleguide anpassen wollen oder eine Medienmitteilung im Eiltempo übersetzt brauchen."
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "title": "UNTERNEHMEN",
-          "icon": "/images/pages/ai-translation/feature-icon.png",
-          "cards": [
-            {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
-              "title": "Alles auf einer Plattform",
-              "description": "Von vollautomatisch bis handgemacht: Bei Supertext entscheiden Sie. Wir verbinden innovative Translation AI und erfahrene Übersetzer:innen auf einer Plattform. Eine nahtlose Integration von künstlicher Intelligenz und echten Sprachprofis - mit Ihnen am Steuer."
-            },
-            {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
-              "title": "Effizienz trifft Qualität",
-              "description": "Mit Supertext steigern Sie Ihre Produktivität nachhaltig. Dank bewährten Lösungen, die die Sprachqualität erhöhen und Ihre Kosten laufend senken. Damit neben den Worten auch die Zahlen stimmen.",
-              "cta": {
-                "variant": "primary",
-                "title": "Mehr erfahren",
-                "link": "/"
-              }
-            },
-            {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
-              "title": "Ihre persönliche KI, die in Echtzeit lernt",
-              "description": "Ihre massgeschneiderten Sprachmodelle lernen schnell - und passen sich mit jeder verifizierten Übersetzung an Ihre Corporate Language an. Immer auf dem aktuellsten Stand, damit Ihr ganzes Unternehmen mit einer Stimme spricht."
-            }
-          ]
-        }
-       ],
-        "valueProposition": {
-          "heading": "Wir verbinden <highlight>Language AI</highlight> und <highlight>Human-Expertise</highlight> zu einem nahtlosen Übersetzungsangebot. Für Einzelpersonen oder ganze Teams. <highlight>Was brauchen Sie?</highlight>"
-        },
-        "engagementSlider": {
-          "heading": "automation → 0 to 1",
-         "cta": {
-          "text": "Mehr zu Supertext erfahren",
-          "link": "/about"
-         }
-        },
-        "references": {
-          "heading": "1500 Unternehmen in ganz Europa: Unsere Referenzen sprechen eine deutliche Sprache",
-         "cta": {
-          "text": "Mehr zur Sprachexpertise",
-          "link": "/language-expertise"
-         }
-        },
-        "blog": {
-          "heading": "Aktuelles, Hintergründe und neue Features",
-          "cta": {
-            "text": "Alle Blog Beiträge",
-            "link": "/blog"
-          }
-        },
-        "footerNote":{
-          "text": "Mit Supertext übersetzen Unternehmen <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0% bis 100 % automatisiert.",
-          "cta": {
-            "title": "Wollen wir reden?",
-            "link": "/contact",
-            "target": "_blank"
-          }
-
-        },
-        "images": {
-          "girlOnIpad": {
-            "alt": "Girl on iPad"
-          }
-        }
-      },
       "services": {
         "aiTranslation": {
           "hero": {
@@ -2655,270 +2483,6 @@
             },
             "image": "/images/pages/ai-translation/footer_gif.gif"
           }
-        }
-      },
-      "languageExpertise": {
-        "hero": {
-          "title": "Erfahrene Profis – in Bestform dank Language AI",
-          "description": "Unsere Sprachexpert:innen sind bereit für Sie. Immer dann, wenn jedes Wort zählt."
-        },
-        "lead": {
-          "large": "<highlight>Vollautomatisch</highlight> oder <highlight>handgemacht?</highlight> Die Antwort liegt oft dazwischen.",
-          "small": "Mit AI Translation übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break> <break></break> Der grosse Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
-        },
-        "featureList": {
-          "title": "  Fused Translation mit Supertext: Ihre Vorteile",
-          "eyebrowHeadline": "Vorteile",
-          "benefitContent": {
-            "benefits": [
-              {
-                "title": "20+ AI-Spezialisten, Ingenieurinnen und Security-Profis",
-                "description": "Unser Tech-Team leistet Pionierarbeit, die sich auszahlt. Wir entwickeln zuverlässige, sichere und flexible Language-AI-Technologie ohne Kompromisse. Sie bildet die Basis für Sprachqualität im grossen Stil, nahtlos integriert in jeden Prozess und jedes Interface. ",
-                "cta": {
-                  "text": "Mehr zu unserer Technologie",
-                  "link": "/technology",
-                  "variant": "primary"
-                }
-              },
-              {
-                "title": "3’000 ausgewählte Fachübersetzerinnen, Texter und Lektorinnen",
-                "description": "Von Genf bis Mailand, von Buenos Aires bis Tokio: Supertext arbeitet mit spezialisierten muttersprachlichen Linguist:innen weltweit. Sie alle bringen ein Übersetzungsdiplom oder mehr als fünf Jahre Erfahrung mit und durchlaufen strenge Tests."
-              },
-              {
-                "title": "Inhouse-Sprachspezialist:innen für Konsistenz und Qualitätssicherung",
-                "description": "In den wichtigsten Sprachen sorgen fest angestellte Spezialist:innen für die interne Expertise und Qualitätskontrolle. Sie erarbeiten Guidelines, stellen fachspezifische Teams für einzelne Kund:innen zusammen und sind erste Anlaufstelle bei sprachlichen Knacknüssen."
-              },
-              {
-                "title": "Persönlich betreut durch erfahrene Projektleiter:innen",
-                "description": "Unsere Projektleiter:innen sind die flexible Drehscheibe für Grossprojekte und Ihr direkter Draht zu Supertext. Sie sorgen dafür, dass Ihre Anforderungen genau umgesetzt, Termine  eingehalten und übersetzte Dateien in jedem Format perfekt formatiert werden."
-              }
-            ],
-            "buttons": []
-          }
-        },
-        "serviceList": {
-          "title": "Unsere Profiservices im Überblick",
-          "eyebrowHeadline": "",
-          "services": [
-            {
-              "title": "",
-              "sections": [
-                {
-                  "title": "AI Translation & Verifizierung",
-                  "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung - und dem Proficheck auf Knopfdruck.",
-                  "cta": {
-                    "title": "Mehr Erfahren",
-                    "link": "/service/ai-translation",
-                    "variant": "secondary"
-                  }
-                },
-                {
-                  "title": "Fachübersetzung",
-                  "description": "Technologie trifft erfahrene Spezialist:innen. Von InDesign bis Word und von Arabisch bis Zulu.",
-                  "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "https://www.supertext.ch/de/uebersetzen",
-                    "variant": "secondary"
-                  }
-                },
-                {
-                  "title": "Copywriting & Content",
-                  "description": "Wir fangen dort an, wo Ihnen die Worte fehlen. In Ihrem Tone of Voice, ideenreich und treffsicher.",
-                  "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "https://www.supertext.ch/de/texten",
-                    "variant": "secondary"
-                  }
-                },
-                {
-                  "title": "Lektorat",
-                  "description": "Der letzte Schliff für Ihren Text. Stilsicher, pingelig und richtig schnell.",
-                  "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "https://www.supertext.ch/de/lektorieren",
-                    "variant": "secondary"
-                  }
-                },
-                {
-                  "title": "Plain Language",
-                  "description": "Wir machen auch Fachtexte leicht verständlich. Für mehr Vertrauen und weniger Supportanfragen.",
-                  "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "https://www.supertext.ch/de/plain-language",
-                    "variant": "secondary"
-                  }
-                },
-                {
-                  "title": "Beratung",
-                  "description": "Sie haben grosse Pläne? Wir die passende Lösung in jeder Sprache. Von 0 bis 100 % automatisiert.",
-                  "cta": {
-                    "title": "LASSEN SIE UNS REDEN",
-                    "link": "/contact",
-                    "variant": "secondary"
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "portraits": {
-          "subtitle": "PORTRÄTS",
-          "title": "Expertise von Å bis Ž: Lernen Sie unser Team kennen",
-          "items": [
-            {
-              "image": "/images/pages/language-expertise/portrait1.png",
-              "quote": "«Wir schleifen so lange, bis es wehtut.»",
-              "person": "Tristan Secrest, English Language Specialist",
-              "content": [
-                {
-                  "title": "Was sind deine Aufgaben bei Supertext?",
-                  "text": "Alles, was in irgendeiner Form die Sprache betrifft. Wir verifizieren KI-Übersetzungen, überprüfen die Arbeit von Freelancern, entwickeln aber auch Workflows für Kund:innen mit spezifischen Anforderungen. Von Qualitätsschecks über die Entwicklung von Styleguides bis zur Auswahl und Pflege linguistischer Teams."
-                },
-                {
-                  "title": "Was macht einen echten Language Specialist aus?",
-                  "text": "Neben Sprachtalent ist es vor allem das grosse Interesse dafür, was Technologie zu bieten hat. Mit ihr schleifen wir unsere Fähigkeiten und rüsten uns für alles, was unsere Kund:innen brauchen. Unsere Entschlossenheit und Detailversessenheit treibt uns zusätzlich voran."
-                },
-                {
-                  "title": "Und wie genau stellt ihr maximale Sprachqualität sicher?",
-                  "text": "Zum einen, indem wir ausschliesslich auf Leute mit Sprachstudium und langjähriger Erfahrung setzen. Zum anderen, indem wir nichts dem Zufall überlassen und uns unermüdlich dafür einsetzen, dass jedes Wort sitzt. Das ist manchmal echt schmerzhaft, lohnt sich aber immer."
-                }
-              ]
-            },
-            {
-              "image": "/images/pages/language-expertise/portrait2.png",
-              "quote": "«Auch wir übersetzen – vor allem Kundenwünsche in Sprachmodelle.»",
-              "person": "Philippe Schläpfer, Research Scientist",
-              "content": [
-                {
-                  "title": "Was macht ein Research Scientist genau?",
-                  "text": "Kurz: Kundenanforderungen in die Tat überführen. Indem wir einerseits bestehende Übersetzungsmodelle verbessern und andererseits spezialisierte Modelle entwickeln, die wir durch Training auf das Corporate Wording unserer Kund:innen massschneidern. Zudem entwickeln wir neue Features basierend auf den neusten Forschungserkenntnissen."
-                },
-                {
-                  "title": "Wie läuft so ein spezialisiertes Training ab – und was braucht es dazu?",
-                  "text": "Wir entwickeln das Modell und passen es individuell auf Sprache und Stil des Unternehmens an. Fürs Training benötigen wir Rohmaterial - meistens interne Übersetzungsdaten von Kund:innen - und breite Kenntnisse in Computerlinguistik und Coding. Von Startschuss bis Bereitstellung dauert es ca. 6 Wochen. Dazwischen wird noch ausgiebig getestet und auf Qualitätsstandards hin geprüft."
-                },
-                {
-                  "title": "Was ist das coolste Feature, das du bisher mitentwickelt hast?",
-                  "text": "Unser Mundartfeature - damit übersetzen Sie von und nach Schweizerdeutsch inklusive verschiedener Dialekte wie Züridütsch oder Bärndütsch. Die Technologie dahinter war tricky, da es in diesen Sprachen relativ wenig Texte fürs Training gibt."
-                }
-              ]
-            }
-          ]
-        },
-        "footerNote": {
-          "text": "Sie wollen einen <highlight>Styleguide</highlight> für Ihr Unternehmen entwickeln? Oder 4000 <highlight>Übersetzungsprojekte</highlight> im Monat abwickeln?",
-          "preTitle": "Wir sind für Sie da",
-          "cta": {
-            "title": "Lassen Sie uns reden",
-            "link": "/contact",
-            "target": ""
-          }
-        }
-      },
-      "contact": {
-        "hero": {
-          "title": "Erreichbar in fast jeder Sprache",
-          "description": "Ob für Projekte, Feedback, Traumjobs oder eine Demo: Lassen Sie uns reden."
-        },
-        "salesSection": {
-          "title": "Kontaktieren Sie <highlightText>Supertext Sales</highlightText>",
-          "description": "Unser Team unterstützt Sie dabei, das Beste aus Supertext herauszuholen.\n\nKontaktieren Sie uns für:",
-          "bulletPoints": {
-            "point1": "Erfahren Sie, wie Supertext Ihre globale Geschäftsexpansion unterstützen kann",
-            "point2": "Team-Pakete, Enterprise-Lösungen, APIs und mehr",
-            "point3": "Maßgeschneiderte Lösungen für Ihr Unternehmen"
-          }
-        },
-        "contactForm": {
-          "intro": "Füllen Sie das Formular aus, damit wir Sie mit der richtigen Person in Verbindung setzen können.",
-          "fields": {
-            "name": {
-              "label": "Vorname und Name*",
-              "placeholder": "Ihr Name",
-              "error": "Name ist erforderlich"
-            },
-            "company": {
-              "label": "Unternehmen/Organisation*",
-              "placeholder": "Ihr Unternehmen",
-              "error": "Unternehmen/Organisation ist erforderlich"
-            },
-            "email": {
-              "label": "E-Mail*",
-              "placeholder": "Ihre E-Mail",
-              "error": "Ungültige E-Mail-Adresse"
-            },
-            "phone": {
-              "label": "Telefon",
-              "placeholder": "Ihre Telefonnummer"
-            },
-            "helpType": {
-              "label": "Wie können wir helfen?*",
-              "placeholder": "Bitte wählen",
-              "error": "Bitte wählen Sie eine Option",
-              "options": {
-                "project": "Projektanfrage",
-                "feedback": "Feedback",
-                "demo": "Demo anfragen",
-                "career": "Karriere"
-              }
-            },
-            "message": {
-              "label": "Ihre Nachricht*",
-              "placeholder": "Ihre Nachricht",
-              "error": "Nachricht ist erforderlich"
-            },
-            "source": {
-              "label": "Wie sind Sie auf uns aufmerksam geworden?*",
-              "placeholder": "z.B. Google, Empfehlung, Social Media",
-              "error": "Bitte geben Sie an, wie Sie auf uns aufmerksam geworden sind"
-            }
-          },
-          "submit": "Absenden",
-          "notifications": {
-            "success": {
-              "title": "Formular gesendet",
-              "description": "Wir werden uns in Kürze bei Ihnen melden."
-            },
-            "error": {
-              "title": "Ein Fehler ist aufgetreten",
-              "description": "Bitte versuchen Sie es später erneut."
-            }
-          }
-        },
-        "locations": [
-          {
-            "title": "Zürich",
-            "description": "Unser Hauptquartier liegt in Zürich-West, nur wenige Meter von der Limmat entfernt.",
-            "image": "/images/pages/contact/zurich.png",
-            "address": {
-              "line0": "Supertext",
-              "line1": "Hardturmstrasse 253",
-              "line2": "8005 Zürich",
-              "line3": "Schweiz"
-            },
-            "cta": "Google Maps",
-            "googleMapsLink": "https://maps.app.goo.gl/aVo7gpnZp2aP8uEb9"
-          },
-          {
-            "title": "Berlin",
-            "image": "/images/pages/contact/Berlin.png",
-            "description": "Unser Berliner Büro finden Sie im Herzen von Kreuzberg, direkt am Mehringdamm.",
-            "address": {
-              "line0": "Supertext",
-              "line1": "Mehringdamm 32/34",
-              "line2": "10961 Berlin",
-              "line3": "Deutschland"
-            },
-            "cta": "Google Maps",
-            "googleMapsLink": "https://maps.app.goo.gl/ifzabvrtA756Kpdd6"
-          }
-        ],
-        "footerNote": {
-          "cta": {
-            "title": "Jetzt Termin buchen",
-            "link": "/demo"
-          },
-          "text": "Sie möchten Supertext in Aktion erleben? Buchen Sie ganz unverbindlich eine <highlightText>Demo</highlightText> mit uns."
         }
       },
       "whySupertext": {
@@ -3067,6 +2631,444 @@
             "link": "/cases",
             "target": "_blank"
           }
+        }
+      },
+      "home": {
+        "heroSection": {
+          "mainHeading": "Language AI rencontre un service de première classe",
+          "eyebrowHeadline": "TOUS LES SERVICES LINGUISTIQUES",
+          "languageServices": {
+            "items": [
+              {
+                "title": "Traduction et vérification AI",
+                "description": "Du guide de style à l'optimisation des processus.",
+                "cta": {
+                  "title": "Commander",
+                  "link": "/service/ai-translation"
+                }
+              },
+              {
+                "title": "Traduction spécialisée",
+                "description": "Par des spécialistes expérimentés consetetur sadipscing elitr.",
+                "cta": {
+                  "title": "En savoir plus",
+                  "link": "/service/translation"
+                }
+              },
+              {
+                "title": "Copywriting &amp; contenu",
+                "description": "Pour des textes qui font de l'effet - riches en idées et pertinents.",
+                "cta": {
+                  "title": "En savoir plus",
+                  "link": "/service/copywriting"
+                }
+              },
+              {
+                "title": "Lectorat",
+                "description": "La touche finale - stylée, pointilleuse et vraiment rapide.",
+                "cta": {
+                  "title": "En savoir plus",
+                  "link": "/service/editing"
+                }
+              }
+            ],
+            "expertiseButton": "En savoir plus sur l'expertise linguistique"
+          }
+        },
+        "servicesCards": [
+          {
+            "id": "1",
+            "title": "ENZEL-USER",
+            "cards": [
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Traduire en ligne. C'est très simple.",
+                "description": "Communiquez plus vite, mieux et plus facilement. Avec Supertext, vous traduisez dans plus de 20 langues, du japonais au suisse-allemand. Notre Translation AI fait partie de la dernière génération d'intelligence artificielle, suit vos directives stylistiques à la lettre et traite les formats de fichiers les plus divers en quelques secondes.",
+                "cta": {
+                  "variant": "primaire",
+                  "title": "Vers l'outil",
+                  "link": "/"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Vérifié en un clic",
+                "description": "Faites vérifier vos traductions importantes par des professionnels - en quelques minutes au lieu de plusieurs heures. Supertext vous met directement en contact avec plus de 3000 linguistes et experts culturels expérimentés. Pour que votre message arrive à coup sûr, quand c'est vraiment important.",
+                "cta": {
+                  "variant": "PrimaryBorderVariant",
+                  "title": "En savoir plus",
+                  "link": "/"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Une sécurité sans compromis",
+                "description": "Supertext parle de nombreuses langues - et peut se taire dans autant de langues. Grâce aux normes de gestion des données les plus strictes, à un cryptage robuste et aux serveurs les plus sûrs, nous gardons toujours vos données sous clé. C'est pourquoi nous sommes le partenaire de choix des banques, des autorités et des assurances.",
+                "cta": {
+                  "variant": "PrimaryBorderVariant",
+                  "title": "En savoir plus",
+                  "link": "/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "PROFI",
+            "cards": [
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Votre entreprise, votre langue",
+                "description": "Nos traductions sont toujours adaptées à vos besoins, à vos exigences stylistiques et aux formats de vos contenus. Le résultat : une communication sans faille pour toute votre entreprise. Unique dans chaque langue."
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Une intégration sans faille",
+                "description": "Seule une expérience utilisateur sans faille fait d'un outil une véritable valeur ajoutée. Grâce à nos API, vous intégrez Supertext de manière transparente dans votre environnement de travail et profitez de processus allégés dans chaque interface.",
+                "cta": {
+                  "variant": "primaire",
+                  "title": "En savoir plus",
+                  "link": "/"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Assistance personnelle",
+                "description": "Entrée, sortie ? Avec Supertext, vous pouvez faire bien plus que cela[AL1]. Nous sommes personnellement là pour vous - orientés vers les solutions, aimables et rapides. Que vous souhaitiez adapter votre modèle d'IA à un nouveau guide de style ou que vous ayez besoin d'un communiqué de presse traduit en urgence."
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "title": "ENTREPRISE",
+            "icon": "/images/pages/ai-translation/feature-icon.png",
+            "cards": [
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Tout sur une seule plateforme",
+                "description": "De l'entièrement automatique au fait main : chez Supertext, c'est vous qui décidez. Nous associons sur une même plateforme une technologie innovante de traduction assistée par ordinateur et des traducteurs expérimentés. Une intégration parfaite de l'intelligence artificielle et de véritables professionnels de la langue - avec vous aux commandes."
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "L'efficacité rencontre la qualité",
+                "description": "Avec Supertext, vous augmentez durablement votre productivité. Grâce à des solutions éprouvées qui améliorent la qualité de la langue et réduisent vos coûts en permanence. Pour qu'en plus des mots, les chiffres soient justes.",
+                "cta": {
+                  "variant": "primaire",
+                  "title": "En savoir plus",
+                  "link": "/"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Votre IA personnelle qui apprend en temps réel",
+                "description": "Vos modèles linguistiques sur mesure apprennent rapidement - et s'adaptent à votre corporate language à chaque traduction vérifiée. Toujours à la pointe du progrès, pour que toute votre entreprise parle d'une seule voix."
+              }
+            ]
+          }
+        ],
+        "valueProposition": {
+          "heading": "Nous relions <highlight>Language AI</highlight> et <highlight>Expertise humaine</highlight> en une offre de traduction sans faille. Pour des personnes individuelles ou des équipes entières. <highlight>De quoi avez-vous besoin ?</highlight>"
+        },
+        "engagementSlider": {
+          "heading": "automation → 0 à 1",
+          "cta": {
+            "text": "En savoir plus sur Supertext",
+            "link": "/about"
+          }
+        },
+        "references": {
+          "heading": "1500 entreprises dans toute l'Europe : nos références parlent d'elles-mêmes",
+          "cta": {
+            "text": "En savoir plus sur l'expertise linguistique",
+            "link": "/language-expertise"
+          }
+        },
+        "blog": {
+          "heading": "Actualités, contexte et nouvelles fonctionnalités",
+          "cta": {
+            "text": "Tous les messages du blog",
+            "link": "/blog"
+          }
+        },
+        "footerNote": {
+          "text": "Avec Supertext, les entreprises traduisent <highlight>mieux, plus rapidement, à moindre coût</highlight> et <highlight>plus sûrement</highlight>. De 0% à 100% automatisé.",
+          "cta": {
+            "title": "On parle ?",
+            "link": "/contact",
+            "target": "_blank"
+          }
+        },
+        "images": {
+          "girlOnIpad": {
+            "alt": "Fille sur iPad"
+          }
+        }
+      },
+      "languageExpertise": {
+        "hero": {
+          "title": "Des professionnels expérimentés - au mieux de leur forme grâce à Language AI",
+          "description": "Nos experts linguistiques sont prêts à vous aider. Chaque fois que chaque mot compte."
+        },
+        "lead": {
+          "large": "<highlight>Entièrement automatique</highlight> ou <highlight>fait à la main ?</highlight> La réponse se situe souvent entre les deux.",
+          "small": "Avec AI Translation, vous traduisez des centaines de mots en quelques secondes. Et avec nos experts, vous êtes sûr que chacun d'entre eux est correct. Chez Supertext, vous pouvez réserver l'assistance de spécialistes expérimentés en quelques clics, sous forme de module complémentaire. Chaque fois que vous avez besoin de connaissances contextuelles dans votre domaine de spécialité et d'une véritable passion. <break></break> <break></break> Le grand avantage : votre IA apprend avec chaque projet professionnel. Et s'adapte ainsi en permanence à votre langue. Pour une communication sans faille, exactement selon vos directives - et des coûts durablement réduits."
+        },
+        "featureList": {
+          "title": "  Traduction fusionnée avec Supertext : vos avantages",
+          "eyebrowHeadline": "Avantages",
+          "benefitContent": {
+            "benefits": [
+              {
+                "title": "20+ spécialistes AI, ingénieurs et professionnels de la sécurité",
+                "description": "Notre équipe technique fait un travail de pionnier qui porte ses fruits. Nous développons une technologie Language AI fiable, sûre et flexible, sans compromis. Elle constitue la base d'une qualité vocale à grande échelle, intégrée de manière transparente dans chaque processus et chaque interface. ",
+                "cta": {
+                  "text": "En savoir plus sur notre technologie",
+                  "link": "/technology",
+                  "variant": "primaire"
+                }
+              },
+              {
+                "title": "3'000 traducteurs, rédacteurs et relecteurs spécialisés triés sur le volet",
+                "description": "De Genève à Milan, de Buenos Aires à Tokyo : Supertext travaille avec des linguistes spécialisés de langue maternelle dans le monde entier. Ils sont tous titulaires d'un diplôme de traduction ou ont plus de cinq ans d'expérience et sont soumis à des tests rigoureux."
+              },
+              {
+                "title": "Spécialistes linguistiques internes pour la cohérence et l'assurance qualité",
+                "description": "Dans les langues les plus importantes, des spécialistes permanents assurent l'expertise interne et le contrôle de la qualité. Ils élaborent des directives, mettent en place des équipes spécialisées pour certains clients et sont les premiers interlocuteurs en cas de difficultés linguistiques."
+              },
+              {
+                "title": "Encadrement personnel par des chefs de projet expérimentés",
+                "description": "Nos chefs de projet sont la plaque tournante flexible des grands projets et votre lien direct avec Supertext. Ils veillent à ce que vos exigences soient mises en œuvre avec précision, que les délais soient respectés et que les fichiers traduits soient parfaitement formatés, quel que soit le format."
+              }
+            ],
+            "buttons": {
+              "one": "",
+              "other": ""
+            }
+          }
+        },
+        "serviceList": {
+          "title": "Aperçu de nos services professionnels",
+          "eyebrowHeadline": "",
+          "services": [
+            {
+              "title": "",
+              "sections": [
+                {
+                  "title": "Traduction et vérification AI",
+                  "description": "Être sûr que tout est adapté. Avec la traduction automatique - et le contrôle professionnel en appuyant sur un bouton.",
+                  "cta": {
+                    "title": "En savoir plus",
+                    "link": "/service/ai-translation",
+                    "variant": "secondaire"
+                  }
+                },
+                {
+                  "title": "Traduction spécialisée",
+                  "description": "La technologie rencontre des spécialistes expérimentés. D'InDesign à Word et de l'arabe au zoulou.",
+                  "cta": {
+                    "title": "COMMANDER MAINTENANT",
+                    "link": "https://www.supertext.ch/de/uebersetzen",
+                    "variant": "secondaire"
+                  }
+                },
+                {
+                  "title": "Copywriting &amp; contenu",
+                  "description": "Nous commençons là où les mots vous manquent. Dans votre Tone of Voice, avec des idées et de la pertinence.",
+                  "cta": {
+                    "title": "COMMANDER MAINTENANT",
+                    "link": "https://www.supertext.ch/de/texten",
+                    "variant": "secondaire"
+                  }
+                },
+                {
+                  "title": "Lectorat",
+                  "description": "La touche finale pour votre texte. Stylisé, pointilleux et vraiment rapide.",
+                  "cta": {
+                    "title": "COMMANDER MAINTENANT",
+                    "link": "https://www.supertext.ch/de/lektorieren",
+                    "variant": "secondaire"
+                  }
+                },
+                {
+                  "title": "Langue plaine",
+                  "description": "Nous rendons également les textes spécialisés faciles à comprendre. Pour plus de confiance et moins de demandes d'assistance.",
+                  "cta": {
+                    "title": "COMMANDER MAINTENANT",
+                    "link": "https://www.supertext.ch/de/plain-language",
+                    "variant": "secondaire"
+                  }
+                },
+                {
+                  "title": "Conseil",
+                  "description": "Vous avez de grands projets ? Nous avons la solution adéquate dans chaque langue. De 0 à 100 % automatisé.",
+                  "cta": {
+                    "title": "PARLONS",
+                    "link": "/contact",
+                    "variant": "secondaire"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "portraits": {
+          "subtitle": "PORTRAITS",
+          "title": "Expertise de Å à Ž : découvrez notre équipe",
+          "items": [
+            {
+              "image": "/images/pages/language-expertise/portrait1.png",
+              "quote": "\"On ponce jusqu'à ce que ça fasse mal\"",
+              "person": "Tristan Secrest, spécialiste de la langue anglaise",
+              "content": [
+                {
+                  "title": "Quelles sont tes tâches chez Supertext ?",
+                  "text": "Tout ce qui touche à la langue d'une manière ou d'une autre. Nous vérifions les traductions IA, contrôlons le travail des freelances, mais développons également des flux de travail pour les clients ayant des exigences spécifiques. Des contrôles de qualité au développement de guides de style, en passant par la sélection et la gestion d'équipes linguistiques."
+                },
+                {
+                  "title": "Qu'est-ce qui fait un vrai spécialiste linguistique ?",
+                  "text": "Outre le talent linguistique, c'est surtout un grand intérêt pour ce que la technologie a à offrir. Elle nous permet d'affûter nos compétences et de nous équiper pour tout ce dont nos clients ont besoin. Notre détermination et notre souci du détail nous poussent à aller de l'avant."
+                },
+                {
+                  "title": "Et comment garantissez-vous exactement une qualité vocale maximale ?",
+                  "text": "D'une part, en misant exclusivement sur des personnes ayant fait des études de langues et disposant d'une longue expérience. D'autre part, en ne laissant rien au hasard et en nous engageant sans relâche pour que chaque mot soit correct. C'est parfois vraiment douloureux, mais cela en vaut toujours la peine."
+                }
+              ]
+            },
+            {
+              "image": "/images/pages/language-expertise/portrait2.png",
+              "quote": "\"Nous aussi, nous traduisons - surtout les souhaits des clients en modèles linguistiques\"",
+              "person": "Philippe Schläpfer, scientifique de recherche",
+              "content": [
+                {
+                  "title": "Que fait exactement un Research Scientist ?",
+                  "text": "En bref : en transformant les exigences des clients en réalité. D'une part, en améliorant les modèles de traduction existants et, d'autre part, en développant des modèles spécialisés que nous adaptons, par le biais de la formation, à l'identité visuelle de nos clients. Nous développons également de nouvelles fonctionnalités basées sur les dernières découvertes de la recherche."
+                },
+                {
+                  "title": "Comment se déroule un tel entraînement spécialisé - et que faut-il pour cela ?",
+                  "text": "Nous développons le modèle et l'adaptons à la langue et au style de l'entreprise. Pour la formation, nous avons besoin de matériel brut - généralement des données de traduction internes des clients - et de vastes connaissances en linguistique informatique et en codage. Il faut compter environ six semaines entre le lancement et la mise à disposition. Entre-temps, nous effectuons de nombreux tests et vérifions les normes de qualité."
+                },
+                {
+                  "title": "Quelle est la fonctionnalité la plus cool que tu as contribué à développer jusqu'à présent ?",
+                  "text": "Notre fonction \"Mundart\" - elle permet de traduire de et vers le suisse allemand, y compris différents dialectes comme le \"Züridütsch\" ou le \"Bärndütsch\". La technologie qui se cache derrière était délicate, car il y a relativement peu de textes dans ces langues pour l'entraînement."
+                }
+              ]
+            }
+          ]
+        },
+        "footerNote": {
+          "text": "Vous voulez un <highlight>Guide de style</highlight> développer pour votre entreprise ? Ou 4000 <highlight>Projets de traduction</highlight> par mois ?",
+          "preTitle": "Nous sommes là pour vous",
+          "cta": {
+            "title": "Parlons-en",
+            "link": "/contact",
+            "target": ""
+          }
+        }
+      },
+      "contact": {
+        "hero": {
+          "title": "Accessible dans presque toutes les langues",
+          "description": "Que ce soit pour des projets, un feedback, un job de rêve ou une démo : parlons-en."
+        },
+        "salesSection": {
+          "title": "Contacter <highlightText>Supertext Sales</highlightText>",
+          "description": "Notre équipe vous aide à tirer le meilleur parti de Supertext.\n\nContactez-nous pour :",
+          "bulletPoints": {
+            "point1": "Découvrez comment Supertext peut soutenir votre expansion commerciale mondiale",
+            "point2": "Paquets d'équipe, solutions d'entreprise, API et plus encore",
+            "point3": "Des solutions sur mesure pour votre entreprise"
+          }
+        },
+        "contactForm": {
+          "intro": "Remplissez le formulaire pour que nous puissions vous mettre en contact avec la bonne personne.",
+          "fields": {
+            "name": {
+              "label": "Prénom et nom*",
+              "placeholder": "Votre nom",
+              "error": "Le nom est obligatoire"
+            },
+            "company": {
+              "label": "Entreprise/Organisation*",
+              "placeholder": "Votre entreprise",
+              "error": "L'entreprise/l'organisation est requise"
+            },
+            "email": {
+              "label": "E-mail*",
+              "placeholder": "Votre e-mail",
+              "error": "Adresse e-mail non valide"
+            },
+            "phone": {
+              "label": "Téléphone",
+              "placeholder": "Votre numéro de téléphone"
+            },
+            "helpType": {
+              "label": "Comment pouvons-nous vous aider ?",
+              "placeholder": "Veuillez choisir",
+              "error": "Veuillez choisir une option",
+              "options": {
+                "project": "Demande de projet",
+                "feedback": "Réactions",
+                "demo": "Demander une démo",
+                "career": "Carrière"
+              }
+            },
+            "message": {
+              "label": "Votre message*",
+              "placeholder": "Votre message",
+              "error": "Message requis"
+            },
+            "source": {
+              "label": "Comment avez-vous entendu parler de nous ?",
+              "placeholder": "p.ex. Google, recommandation, médias sociaux",
+              "error": "Veuillez indiquer comment vous nous avez connus"
+            }
+          },
+          "submit": "Envoyer",
+          "notifications": {
+            "success": {
+              "title": "Formulaire envoyé",
+              "description": "Nous vous contacterons sous peu."
+            },
+            "error": {
+              "title": "Une erreur est survenue",
+              "description": "Veuillez réessayer plus tard."
+            }
+          }
+        },
+        "locations": [
+          {
+            "title": "Zurich",
+            "description": "Notre quartier général se trouve à Zurich-Ouest, à quelques mètres seulement de la Limmat.",
+            "image": "/images/pages/contact/zurich.png",
+            "address": {
+              "line0": "Supertexte",
+              "line1": "253, rue du Hardturm",
+              "line2": "8005 Zurich",
+              "line3": "Suisse"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/aVo7gpnZp2aP8uEb9"
+          },
+          {
+            "title": "Berlin",
+            "image": "/images/pages/contact/Berlin.png",
+            "description": "Vous trouverez notre bureau berlinois au cœur de Kreuzberg, directement sur Mehringdamm.",
+            "address": {
+              "line0": "Supertexte",
+              "line1": "Mehringdamm 32/34",
+              "line2": "10961 Berlin",
+              "line3": "Allemagne"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/ifzabvrtA756Kpdd6"
+          }
+        ],
+        "footerNote": {
+          "cta": {
+            "title": "Réserver un rendez-vous maintenant",
+            "link": "/démo"
+          },
+          "text": "Vous souhaitez voir Supertext en action ? Réservez sans engagement une <highlightText>Démo</highlightText> avec nous."
         }
       }
     }

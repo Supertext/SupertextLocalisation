@@ -1772,14 +1772,14 @@
               "termsConfirmation": "Je confirme la modification de mon abonnement mentionnée ci-dessus et j'accepte les",
               "removeLicensesError": {
                 "one": "Vous avez attribué une licence à {count} utilisateurs:in. Pour réduire votre abonnement à moins de {count} licences,",
-                "other": ""
+                "two": "Team management"
               },
               "termsAndConditions": "Conditions générales de vente.",
               "immediateChange": "Cette modification prend effet immédiatement.",
               "nextBillingChange": "Cette modification prendra effet à partir de la prochaine période de paie.",
               "agreementAg": {
                 "one": "Je confirme la modification susmentionnée de mon abonnement et j'accepte les",
-                "other": ""
+                "two": "AGB"
               },
               "makePayment": "Commander obligatoirement"
             }

@@ -1864,117 +1864,121 @@
       "uploadFile": "Upload file"
     },
     "humanVerification": {
-      "verifyButton": "Verify by expert",
-      "stepTitle": "Verify by expert - Step",
-      "stepDescription": "The AI translation is reviewed and verified by a supertext expert. You will receive a text file with a certificate for download.",
-      "nextStepButton": "Next step",
-      "orderVerification": "Order verification",
-      "authorizePayment": "Authorize payment",
+      "verifyButton": "Durch Expert:in verifizieren",
+      "stepTitle": "Durch Expert:in verifizieren - Schritt",
+      "stepDescription": "Die KI-Übersetzung wird durch ein:e Supertext-Expert:in überprüft und verifiziert. Sie erhalten eine Textdatei mit Zertifikat zum Download.",
+      "nextStepButton": "Nächster Schritt",
+      "orderVerification": "Verifikation bestellen",
+      "authorizePayment": "Zahlung autorisieren",
       "unsupportedLanguagePair": {
-        "title": "Not yet supported for expert review",
-        "description": "No worries! Expert review will soon be available for more language pairs."
+        "title": "wird für die Expertenprüfung noch nicht unterstützt.",
+        "description": "Kein Problem! Die Expertenüberprüfung wird bald für weitere Sprachpaare verfügbar sein"
       },
       "stepOne": {
-        "title": "Verification",
-        "payWithInvoice": "Payment will be made by invoice.",
-        "payWithCard": "Payment will be made using your stored credit card information.",
-        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card details."
+        "title": "Verifikation",
+        "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
+        "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
+        "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
       },
       "customBilling": {
         "addressForm": {
-          "changeBillingAddress": "Change billing address (Optional)",
-          "addBillingAddress": "Add billing address (Optional)",
+          "changeBillingAddress": "Rechnungsadresse ändern (Optional)",
+          "addBillingAddress": "Rechnungsadresse hinzufügen (Optional)",
           "company": {
-            "label": "Company / Organization (optional)",
-            "placeholder": "Sample Company Ltd."
+            "label": "Firma / Organisation (optional)",
+            "placeholder": "Musterfirma GmbH"
           },
           "vatNumber": {
-            "label": "VAT Number (optional)",
+            "label": "MWST-Nummer (optional)",
             "placeholder": "CHE-123.456.789"
           },
           "costCenter": {
-            "label": "Cost center (optional)",
-            "placeholder": "C-1234"
+            "label": "Kostenstelle (optional)",
+            "placeholder": "K-1234"
           },
           "firstName": {
-            "label": "First name",
-            "placeholder": "John",
-            "error": "First name is required"
+            "label": "Vorname",
+            "placeholder": "Hans",
+            "error": "Vorname ist erforderlich"
           },
           "lastName": {
-            "label": "Last name",
-            "placeholder": "Doe",
-            "error": "Last name is required"
+            "label": "Nachname",
+            "placeholder": "Muster",
+            "error": "Nachname ist erforderlich"
           },
           "street": {
-            "label": "Street / House Number",
-            "placeholder": "Sample street 123",
-            "error": "Street address is required"
+            "label": "Strasse / Hausnummer",
+            "placeholder": "Musterstrasse 123",
+            "error": "Strassenadresse ist erforderlich"
           },
           "postalCode": {
-            "label": "Postal Code",
+            "label": "PLZ",
             "placeholder": "8000",
-            "error": "Postal code must be at least 4 characters"
+            "error": "Postleitzahl muss mindestens 4 Zeichen enthalten"
           },
           "city": {
-            "label": "City",
-            "placeholder": "Zurich",
-            "error": "City is required"
+            "label": "Ort",
+            "placeholder": "Zürich",
+            "error": "Ort ist erforderlich"
           },
           "country": {
-            "label": "Country",
-            "placeholder": "Select country",
-            "error": "Country is required"
+            "label": "Land",
+            "placeholder": "Land auswählen",
+            "error": "Land ist erforderlich"
           }
         }
       },
-      "additionalInformation": "Add some optional additional information to your test job before you finalize it.",
+      "additionalInformation": "Fügen Sie einige optionale Zusatzinformationen zu Ihrem Prüfauftrag hinzu, bevor Sie ihn abschließen.",
       "submit": {
         "title": "Submit your verification?",
-        "description": "This will irrevocably submit your verification. Are you sure you want to submit your verification?"
+        "description": "Damit wird Ihre Verifizierung unwiderruflich übermittelt. Sind Sie sicher, dass Sie Ihre Verifizierung einreichen wollen?"
       },
       "reset": {
-        "title": "Reset to original?",
-        "description": "You will lose all your changes. Are you sure you want to reset to the original text?"
+        "title": "Auf Original zurücksetzen?",
+        "description": "Sie verlieren alle Ihre Änderungen. Sind Sie sicher, dass Sie auf den ursprünglichen Text zurücksetzen wollen?"
       },
       "infoMessage": {
-        "part1": "The certified",
-        "part2": "Control",
-        "part3": "by a supertext expert",
-        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. This service is subject to a fee and is charged by the number of words."
+        "part1": "Die zertifizierte",
+        "part2": "Kontrolle",
+        "part3": "durch eine:n Supertext-Expert:in",
+        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Dieser Service ist kostenpflichtig und wird nach Anzahl Wörtern verrechnet."
       },
       "certifiedControl": {
-        "title": "Certified control by a supertext expert",
-        "description": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps."
+        "title": "Zertifizierte Kontrolle durch eine:n Supertext-Expert:in",
+        "description": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen."
       },
       "serviceIsDeactivated": {
-        "title": "Service is deactivated",
-        "description": "Unfortunately, the \"Expert Review\" service is disabled in our organization. Contact your Supertext project manager to schedule a demo or set up this feature for your organization."
+        "title": "Service ist deaktiviert",
+        "description": "Der Dienst \"Überprüfung durch Experten\" ist in unserer Organisation leider deaktiviert. Setzen Sie sich mit Ihrem Supertext-Projektmanager in Verbindung, um eine Demo zu planen oder diese Funktion für Ihr Unternehmen einzurichten."
       },
       "isTargetTextTooLong": {
-        "title": "Translation verifications are currently limited to {0} characters.",
-        "description": "If your text is too long, you can try shortening it to focus on the specific parts you need help with."
+        "title": "Übersetzungsverifikationen sind derzeit auf {0} Zeichen begrenzt.",
+        "description": "Wenn Ihr Text zu lang ist, können Sie versuchen, ihn zu kürzen, um sich auf die spezifischen Teile zu konzentrieren, bei denen Sie Hilfe benötigen."
       },
       "isEstimateError": {
-        "title": "An error occurred when estimating the price and number of your request",
-        "description": "Try refreshing your browser or come back later"
+        "title": "Bei der Schätzung des Preises und der Anzahl Ihrer Anfrage ist ein Fehler aufgetreten",
+        "description": "Versuchen Sie, Ihren Browser zu aktualisieren oder kommen Sie später wieder"
       },
       "outIfBusinessHours": {
-        "title_part1": "Unfortunately you can reach us outside of our",
-        "title_part2": "Business hours",
-        "description": "'No problem! You can place your order now, just follow the steps.",
-        "businessHours": "Monday - Friday",
+        "title_part1": "Leider erreichst du uns ausserhalb unserer",
+        "title_part2": "Geschäftszeiten",
+        "description": "'Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
+        "businessHours": "Montag - Freitag",
         "businessHoursTime": "9:00-17:30",
-        "nonWorkingDaySaturday": "Saturday",
-        "nonWorkingDaySunday": "Sunday",
-        "nonWorkingDaysHolidays": "Holidays",
-        "nonWorkingDaysInfo": "Closed",
-        "businessHoursInfo": "Business hours"
+        "nonWorkingDaySaturday": "Samstag",
+        "nonWorkingDaySunday": "Sonntag",
+        "nonWorkingDaysHolidays": "Feiertage",
+        "nonWorkingDaysInfo": "Geschlossen",
+        "businessHoursInfo": "Geschäftszeiten"
       },
       "stepThree": {
-        "title": "That worked!",
-        "description": "A Supertext expert will now check your text. You will receive the verified translation at the e-mail address you provided.",
-        "button": "D'accord! Close the window."
+        "title": "Das hat geklappt!",
+        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
+        "button": "D'accord! Fenster schliessen.",
+        "startNew": "Neue Übersetzung starten"
+      },
+      "targetControl": { 
+        "verifiedBy": "Verifiziert von"
       }
     },
     "couponCode": {

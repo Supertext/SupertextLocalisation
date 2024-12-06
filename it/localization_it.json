@@ -1864,117 +1864,121 @@
       "uploadFile": "Caricare il file"
     },
     "humanVerification": {
-      "verifyButton": "Verificare da esperto",
-      "stepTitle": "Verificare da esperto - Passo",
-      "stepDescription": "La traduzione AI viene verificata e convalidata da un esperto di Supertext. Riceverai un file di testo con certificato da scaricare.",
-      "nextStepButton": "Nullessivo passo",
-      "orderVerification": "Verifica ordinare",
-      "authorizePayment": "Pagamento autorizzare",
+      "verifyButton": "Durch Expert:in verifizieren",
+      "stepTitle": "Durch Expert:in verifizieren - Schritt",
+      "stepDescription": "Die KI-Übersetzung wird durch ein:e Supertext-Expert:in überprüft und verifiziert. Sie erhalten eine Textdatei mit Zertifikat zum Download.",
+      "nextStepButton": "Nächster Schritt",
+      "orderVerification": "Verifikation bestellen",
+      "authorizePayment": "Zahlung autorisieren",
       "unsupportedLanguagePair": {
-        "title": "non ancora supportato per la revisione di esperti",
-        "description": "Nessun problema! La revisione di esperti sarà presto disponibile per altre coppie di lingue."
+        "title": "wird für die Expertenprüfung noch nicht unterstützt.",
+        "description": "Kein Problem! Die Expertenüberprüfung wird bald für weitere Sprachpaare verfügbar sein"
       },
       "stepOne": {
-        "title": "Verifica",
-        "payWithInvoice": "Il pagamento verrà effettuato tramite fattura.",
-        "payWithCard": "Il pagamento verrà effettuato utilizzando i dati della tua carta di credito salvata.",
-        "payWithExpiredCardInfo": "Il tuo metodo di pagamento predefinito è impostato sui pagamenti con carta, ma la tua carta è scaduta. Aggiorna i tuoi dati della carta di credito."
+        "title": "Verifikation",
+        "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
+        "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
+        "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
       },
       "customBilling": {
         "addressForm": {
-          "changeBillingAddress": "Modifica indirizzo di fatturazione (Opzionale)",
-          "addBillingAddress": "Aggiungi indirizzo di fatturazione (Opzionale)",
+          "changeBillingAddress": "Rechnungsadresse ändern (Optional)",
+          "addBillingAddress": "Rechnungsadresse hinzufügen (Optional)",
           "company": {
-            "label": "Azienda / Organizzazione (opzionale)",
-            "placeholder": "Società Esempio SRL"
+            "label": "Firma / Organisation (optional)",
+            "placeholder": "Musterfirma GmbH"
           },
           "vatNumber": {
-            "label": "Numero IVA (opzionale)",
+            "label": "MWST-Nummer (optional)",
             "placeholder": "CHE-123.456.789"
           },
           "costCenter": {
-            "label": "Centro di costo (opzionale)",
-            "placeholder": "C-1234"
+            "label": "Kostenstelle (optional)",
+            "placeholder": "K-1234"
           },
           "firstName": {
-            "label": "Nome",
-            "placeholder": "Giovanni",
-            "error": "Il nome è obbligatorio"
+            "label": "Vorname",
+            "placeholder": "Hans",
+            "error": "Vorname ist erforderlich"
           },
           "lastName": {
-            "label": "Cognome",
-            "placeholder": "Rossi",
-            "error": "Il cognome è obbligatorio"
+            "label": "Nachname",
+            "placeholder": "Muster",
+            "error": "Nachname ist erforderlich"
           },
           "street": {
-            "label": "Via / Numero civico",
-            "placeholder": "Via Esempio 123",
-            "error": "L'indirizzo è obbligatorio"
+            "label": "Strasse / Hausnummer",
+            "placeholder": "Musterstrasse 123",
+            "error": "Strassenadresse ist erforderlich"
           },
           "postalCode": {
-            "label": "CAP",
+            "label": "PLZ",
             "placeholder": "8000",
-            "error": "Il CAP deve contenere almeno 4 caratteri"
+            "error": "Postleitzahl muss mindestens 4 Zeichen enthalten"
           },
           "city": {
-            "label": "Città",
-            "placeholder": "Zurigo",
-            "error": "La città è obbligatoria"
+            "label": "Ort",
+            "placeholder": "Zürich",
+            "error": "Ort ist erforderlich"
           },
           "country": {
-            "label": "Paese",
-            "placeholder": "Selezionare il paese",
-            "error": "Il paese è obbligatorio"
+            "label": "Land",
+            "placeholder": "Land auswählen",
+            "error": "Land ist erforderlich"
           }
         }
       },
-      "additionalInformation": "Aggiungete alcune informazioni aggiuntive facoltative al vostro lavoro di prova prima di finalizzarlo.",
+      "additionalInformation": "Fügen Sie einige optionale Zusatzinformationen zu Ihrem Prüfauftrag hinzu, bevor Sie ihn abschließen.",
       "submit": {
-        "title": "Presentare la verifica?",
-        "description": "In questo modo si invia irrevocabilmente la verifica. È sicuro di voler inviare la verifica?"
+        "title": "Submit your verification?",
+        "description": "Damit wird Ihre Verifizierung unwiderruflich übermittelt. Sind Sie sicher, dass Sie Ihre Verifizierung einreichen wollen?"
       },
       "reset": {
-        "title": "Ripristinare l'originale?",
-        "description": "Si perderanno tutte le modifiche apportate. Siete sicuri di voler ripristinare il testo originale?"
+        "title": "Auf Original zurücksetzen?",
+        "description": "Sie verlieren alle Ihre Änderungen. Sind Sie sicher, dass Sie auf den ursprünglichen Text zurücksetzen wollen?"
       },
       "infoMessage": {
-        "part1": "Il certificato",
-        "part2": "Controllo",
-        "part3": "da un esperto di supertesti",
-        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Questo servizio è a pagamento e viene addebitato in base al numero di parole."
+        "part1": "Die zertifizierte",
+        "part2": "Kontrolle",
+        "part3": "durch eine:n Supertext-Expert:in",
+        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Dieser Service ist kostenpflichtig und wird nach Anzahl Wörtern verrechnet."
       },
       "certifiedControl": {
-        "title": "Controllo certificato da un esperto di supertesti",
-        "description": "Questo servizio è a pagamento. L'addebito avviene in base al numero di parole. Purtroppo non è possibile raggiungerci al di fuori dei nostri orari di lavoro. Non c'è problema! È possibile effettuare l'ordine ora, basta seguire la procedura."
+        "title": "Zertifizierte Kontrolle durch eine:n Supertext-Expert:in",
+        "description": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen."
       },
       "serviceIsDeactivated": {
-        "title": "Il servizio è disattivato",
-        "description": "Purtroppo il servizio \"Expert Review\" è disattivato nella nostra organizzazione. Contattate il vostro project manager Supertext per programmare una demo o impostare questa funzione per la vostra organizzazione."
+        "title": "Service ist deaktiviert",
+        "description": "Der Dienst \"Überprüfung durch Experten\" ist in unserer Organisation leider deaktiviert. Setzen Sie sich mit Ihrem Supertext-Projektmanager in Verbindung, um eine Demo zu planen oder diese Funktion für Ihr Unternehmen einzurichten."
       },
       "isTargetTextTooLong": {
-        "title": "{0} Le verifiche della traduzione sono attualmente limitate ai caratteri.",
-        "description": "Se il testo è troppo lungo, potete provare ad accorciarlo per concentrarvi sulle parti specifiche per le quali avete bisogno di aiuto."
+        "title": "Übersetzungsverifikationen sind derzeit auf {0} Zeichen begrenzt.",
+        "description": "Wenn Ihr Text zu lang ist, können Sie versuchen, ihn zu kürzen, um sich auf die spezifischen Teile zu konzentrieren, bei denen Sie Hilfe benötigen."
       },
       "isEstimateError": {
-        "title": "Si è verificato un errore nella stima del prezzo e del numero della vostra richiesta",
-        "description": "Provare ad aggiornare il browser o tornare più tardi"
+        "title": "Bei der Schätzung des Preises und der Anzahl Ihrer Anfrage ist ein Fehler aufgetreten",
+        "description": "Versuchen Sie, Ihren Browser zu aktualisieren oder kommen Sie später wieder"
       },
       "outIfBusinessHours": {
-        "title_part1": "Purtroppo è possibile raggiungerci anche al di fuori del nostro",
-        "title_part2": "Orario di lavoro",
-        "description": "nessun problema! Può effettuare l'ordine ora, basta seguire i passaggi.",
-        "businessHours": "Lunedì - Venerdì",
+        "title_part1": "Leider erreichst du uns ausserhalb unserer",
+        "title_part2": "Geschäftszeiten",
+        "description": "'Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
+        "businessHours": "Montag - Freitag",
         "businessHoursTime": "9:00-17:30",
-        "nonWorkingDaySaturday": "Sabato",
-        "nonWorkingDaySunday": "Domenica",
-        "nonWorkingDaysHolidays": "Giorni festivi",
-        "nonWorkingDaysInfo": "Chiuso",
-        "businessHoursInfo": "Orario di lavoro"
+        "nonWorkingDaySaturday": "Samstag",
+        "nonWorkingDaySunday": "Sonntag",
+        "nonWorkingDaysHolidays": "Feiertage",
+        "nonWorkingDaysInfo": "Geschlossen",
+        "businessHoursInfo": "Geschäftszeiten"
       },
       "stepThree": {
-        "title": "Ha funzionato!",
-        "description": "Un esperto di Supertext verificherà il vostro testo. Riceverete la traduzione verificata all'indirizzo e-mail indicato.",
-        "button": "D'accordo! Chiudere la finestra."
+        "title": "Das hat geklappt!",
+        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
+        "button": "D'accord! Fenster schliessen.",
+        "startNew": "Neue Übersetzung starten"
+      },
+      "targetControl": { 
+        "verifiedBy": "Verifiziert von"
       }
     },
     "couponCode": {

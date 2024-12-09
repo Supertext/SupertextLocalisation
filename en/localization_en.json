@@ -1773,14 +1773,14 @@
               "termsConfirmation": "I confirm the above-mentioned change to my subscription and accept the",
               "removeLicensesError": {
                 "one": "You have assigned a license to {count} users. To reduce your subscription to less than {count} licenses,",
-                "other": ""
+                "two": "Team"
               },
               "termsAndConditions": "General Terms and Conditions.",
               "immediateChange": "This change will take effect immediately.",
               "nextBillingChange": "This change will take effect from the next accounting period.",
               "agreementAg": {
                 "one": "I confirm the above change to my subscription and accept the",
-                "other": ""
+                "two": "AGB"
               },
               "makePayment": "Binding order"
             }
@@ -2636,6 +2636,28 @@
             "title": "To all cases",
             "link": "/cases",
             "target": "_blank"
+          }
+        }
+      },
+      "references": {
+        "hero": {
+          "title": "Unsere Referenzen sprechen eine deutliche Sprache"
+        },
+        "references": {
+          "title": "Über 1500 Unternehmen in ganz Europa vertrauen auf Supertext. Vom multinationalen Versicherungskonzern bis zum kreativen High Fashion Brand."
+        },
+        "caseList": {
+         "title": "In jedem Gebiet zu Hause. Handgemacht, KI-unterstützt oder vollautomatisch.",
+         "description": "Supertext passt sich ganz Ihren Bedürfnissen an. Erfahren Sie, wie Unternehmen jeder Grösse und Fachrichtung mit uns besser kommunizieren - mit 0 % bis 100 % Automatisierung.",
+         "cta": "Zu allen Cases"
+        },
+        "footerNote": {
+          "pretitle": "Wir sind für Sie da",
+          "text": "Sie haben ein spannendes <highlight>Projekt</highlight> in der Pipeline? Oder möchten Ihr bestehendes <highlight>Setup</highlight> mit uns <highlight>evaluieren?</highlight>",
+          "cta": {
+            "title": "Lassen Sie uns reden",
+            "link": "/contact",
+            "target": ""
           }
         }
       },

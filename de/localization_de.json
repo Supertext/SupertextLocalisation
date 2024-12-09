@@ -1773,14 +1773,14 @@
               "termsConfirmation": "Ich bestätige die oben genannte Änderung meines Abonnements und akzeptiere die",
               "removeLicensesError": {
                 "one": "Sie haben {count} Benutzer:innen eine Lizenz zugewiesen. Um Ihr Abonnement auf weniger als {count} Lizenzen zu reduzieren,",
-                "other": ""
+                "two": "Team"
               },
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung wird sofort wirksam.",
               "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
               "agreementAg": {
                 "one": "Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
-                "other": ""
+                "two": "AGB"
               },
               "makePayment": "Verbindlich Bestellen"
             }
@@ -2636,6 +2636,28 @@
             "title": "Zu allen Cases",
             "link": "/cases",
             "target": "_blank"
+          }
+        }
+      },
+      "references": {
+        "hero": {
+          "title": "Unsere Referenzen sprechen eine deutliche Sprache"
+        },
+        "references": {
+          "title": "Über 1500 Unternehmen in ganz Europa vertrauen auf Supertext. Vom multinationalen Versicherungskonzern bis zum kreativen High Fashion Brand."
+        },
+        "caseList": {
+         "title": "In jedem Gebiet zu Hause. Handgemacht, KI-unterstützt oder vollautomatisch.",
+         "description": "Supertext passt sich ganz Ihren Bedürfnissen an. Erfahren Sie, wie Unternehmen jeder Grösse und Fachrichtung mit uns besser kommunizieren - mit 0 % bis 100 % Automatisierung.",
+         "cta": "Zu allen Cases"
+        },
+        "footerNote": {
+          "pretitle": "Wir sind für Sie da",
+          "text": "Sie haben ein spannendes <highlight>Projekt</highlight> in der Pipeline? Oder möchten Ihr bestehendes <highlight>Setup</highlight> mit uns <highlight>evaluieren?</highlight>",
+          "cta": {
+            "title": "Lassen Sie uns reden",
+            "link": "/contact",
+            "target": ""
           }
         }
       },

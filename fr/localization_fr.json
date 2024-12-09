@@ -1773,14 +1773,14 @@
               "termsConfirmation": "Je confirme la modification de mon abonnement mentionnée ci-dessus et j'accepte les",
               "removeLicensesError": {
                 "one": "Vous avez attribué une licence à {count} utilisateurs:in. Pour réduire votre abonnement à moins de {count} licences,",
-                "other": ""
+                "two": "Team"
               },
               "termsAndConditions": "Conditions générales de vente.",
               "immediateChange": "Cette modification prend effet immédiatement.",
               "nextBillingChange": "Cette modification prendra effet à partir de la prochaine période de paie.",
               "agreementAg": {
                 "one": "Je confirme la modification susmentionnée de mon abonnement et j'accepte les",
-                "other": ""
+                "two": "AGB"
               },
               "makePayment": "Commander obligatoirement"
             }
@@ -2636,6 +2636,28 @@
             "title": "Vers tous les cases",
             "link": "/cases",
             "target": "_blank"
+          }
+        }
+      },
+      "references": {
+        "hero": {
+          "title": "Unsere Referenzen sprechen eine deutliche Sprache"
+        },
+        "references": {
+          "title": "Über 1500 Unternehmen in ganz Europa vertrauen auf Supertext. Vom multinationalen Versicherungskonzern bis zum kreativen High Fashion Brand."
+        },
+        "caseList": {
+         "title": "In jedem Gebiet zu Hause. Handgemacht, KI-unterstützt oder vollautomatisch.",
+         "description": "Supertext passt sich ganz Ihren Bedürfnissen an. Erfahren Sie, wie Unternehmen jeder Grösse und Fachrichtung mit uns besser kommunizieren - mit 0 % bis 100 % Automatisierung.",
+         "cta": "Zu allen Cases"
+        },
+        "footerNote": {
+          "pretitle": "Wir sind für Sie da",
+          "text": "Sie haben ein spannendes <highlight>Projekt</highlight> in der Pipeline? Oder möchten Ihr bestehendes <highlight>Setup</highlight> mit uns <highlight>evaluieren?</highlight>",
+          "cta": {
+            "title": "Lassen Sie uns reden",
+            "link": "/contact",
+            "target": ""
           }
         }
       },

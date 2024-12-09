@@ -893,7 +893,7 @@
           },
           "blog": {
             "title": "Blog",
-            "link": "/blog"
+            "link": "/blogggma"
           },
           "jobs": {
             "title": "Jobs",
@@ -1158,6 +1158,7 @@
   "word": "Wort",
   "translation": "Übersetzung",
   "translateDocument": "Dokument übersetzen",
+  "notSupported": "Nicht unterstützte Sprache",
   "languages": {
     "x-mixed": "Mehrere Sprachen",
     "cs": "Tschechisch",
@@ -1945,7 +1946,6 @@
       },
       "certifiedControl": {
         "title": "Zertifizierte Kontrolle durch eine:n Supertext-Expert:in",
-        "dDescription": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
         "description": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen."
       },
       "serviceIsDeactivated": {
@@ -3083,6 +3083,26 @@
   "translator": {
     "sourcePlaceholderTitle": "Tippen um zu übersetzen",
     "sourcePlaceholderDescription": "Oder benützen Sie drag& drop umDokumente mit unserem AI-Übersetzer zu übersetzen",
+    "targetOverlays": {
+      "verificationPayment": {
+        "title": "Das hat geklappt!",
+        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
+        "newTranslationButton": "Neue Übersetzung starten",
+        "altText": "Illustration einer Person, die entspannt am Telefon ist"
+      },
+      "unsupportedLanguagePair": {
+        "title": "Diese Sprachkombination wird noch nicht unterstützt",
+        "description": "Tragen Sie sich in unsere Warteliste ein, um als Erste:r Zugang zu neuen Sprachkombinationen zu erhalten.",
+        "emailPlaceholder": "ihre@email.com",
+        "subscribeButton": "Warteliste beitreten",
+        "changeLanguageButton": "Andere Sprachen wählen",
+        "altText": "Illustration einer Person, die entspannt am Telefon ist",
+        "notifications": {
+          "success": "Sie haben die Warteliste erfolgreich beigetreten",
+          "error": "Beim Beitreten der Warteliste ist ein Fehler aufgetreten"
+        }
+      }
+    },
     "features": {
       "infoPopover": {
         "title": "Funktionsweise",

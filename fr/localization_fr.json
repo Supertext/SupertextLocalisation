@@ -1158,6 +1158,7 @@
   "word": "Mot",
   "translation": "Traduction",
   "translateDocument": "Traduire un document",
+  "notSupported": "Langue non supportée",
   "languages": {
     "x-mixed": "Plusieurs langues",
     "cs": "Tchèque",
@@ -1945,7 +1946,6 @@
       },
       "certifiedControl": {
         "title": "Contrôle certifié par un(e) expert(e) Supertext",
-        "dDescription": "Ce service est payant. Il est facturé en fonction du nombre de mots. Malheureusement, tu peux nous joindre en dehors de nos heures de bureau. Pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes.",
         "description": "Ce service est payant. Il est facturé en fonction du nombre de mots. Malheureusement, tu peux nous joindre en dehors de nos heures de bureau. Pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes."
       },
       "serviceIsDeactivated": {
@@ -3083,6 +3083,26 @@
   "translator": {
     "sourcePlaceholderTitle": "Tapez pour traduire",
     "sourcePlaceholderDescription": "Ou glissez-déposez des documents à traduire avec notre Traducteur AI",
+    "targetOverlays": {
+      "verificationPayment": {
+        "title": "Das hat geklappt!",
+        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
+        "newTranslationButton": "Neue Übersetzung starten",
+        "altText": "Illustration einer Person, die entspannt am Telefon ist"
+      },
+      "unsupportedLanguagePair": {
+        "title": "Diese Sprachkombination wird noch nicht unterstützt",
+        "description": "Tragen Sie sich in unsere Warteliste ein, um als Erste:r Zugang zu neuen Sprachkombinationen zu erhalten.",
+        "emailPlaceholder": "ihre@email.com",
+        "subscribeButton": "Warteliste beitreten",
+        "changeLanguageButton": "Andere Sprachen wählen",
+        "altText": "Illustration einer Person, die entspannt am Telefon ist",
+        "notifications": {
+          "success": "Sie haben die Warteliste erfolgreich beigetreten",
+          "error": "Beim Beitreten der Warteliste ist ein Fehler aufgetreten"
+        }
+      }
+    },
     "features": {
       "infoPopover": {
         "title": "Fonctionnement",

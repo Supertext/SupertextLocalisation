@@ -893,7 +893,7 @@
           },
           "blog": {
             "title": "Blog",
-            "link": "/blog"
+            "link": "/blogy"
           },
           "jobs": {
             "title": "Jobs",
@@ -1158,6 +1158,7 @@
   "word": "Word",
   "translation": "Translation",
   "translateDocument": "Translate document",
+  "notSupported": "Unsupported language",
   "languages": {
     "x-mixed": "Multiple languages",
     "cs": "Czech",
@@ -1945,7 +1946,6 @@
       },
       "certifiedControl": {
         "title": "Certified control by a supertext expert",
-        "dDescription": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps.",
         "description": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps."
       },
       "serviceIsDeactivated": {
@@ -3083,6 +3083,26 @@
   "translator": {
     "sourcePlaceholderTitle": "Type to translate",
     "sourcePlaceholderDescription": "Or drang and drop documents to translate with our AI Translator",
+    "targetOverlays": {
+      "verificationPayment": {
+        "title": "Das hat geklappt!",
+        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
+        "newTranslationButton": "Neue Übersetzung starten",
+        "altText": "Illustration einer Person, die entspannt am Telefon ist"
+      },
+      "unsupportedLanguagePair": {
+        "title": "Diese Sprachkombination wird noch nicht unterstützt",
+        "description": "Tragen Sie sich in unsere Warteliste ein, um als Erste:r Zugang zu neuen Sprachkombinationen zu erhalten.",
+        "emailPlaceholder": "ihre@email.com",
+        "subscribeButton": "Warteliste beitreten",
+        "changeLanguageButton": "Andere Sprachen wählen",
+        "altText": "Illustration einer Person, die entspannt am Telefon ist",
+        "notifications": {
+          "success": "Sie haben die Warteliste erfolgreich beigetreten",
+          "error": "Beim Beitreten der Warteliste ist ein Fehler aufgetreten"
+        }
+      }
+    },
     "features": {
       "infoPopover": {
         "title": "Function",

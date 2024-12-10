@@ -1158,7 +1158,6 @@
   "word": "Mot",
   "translation": "Traduction",
   "translateDocument": "Traduire un document",
-  "notSupported": "Langue non supportée",
   "languages": {
     "x-mixed": "Plusieurs langues",
     "cs": "Tchèque",
@@ -1461,7 +1460,7 @@
       "forCompanies": "Pour les entreprises",
       "discoverSolutions": "Découvrir la solution business",
       "message": {
-        "part1": "Traduire avec Supertext Entreprises",
+        "part1": "Les entreprises traduisent avec Supertext",
         "part2": "meilleur, plus rapide, moins cher",
         "part3": "et",
         "part4": "plus sûr. De",
@@ -1773,14 +1772,14 @@
               "termsConfirmation": "Je confirme la modification de mon abonnement mentionnée ci-dessus et j'accepte les",
               "removeLicensesError": {
                 "one": "Vous avez attribué une licence à {count} utilisateurs:in. Pour réduire votre abonnement à moins de {count} licences,",
-                "two": "Team"
+                "other": ""
               },
               "termsAndConditions": "Conditions générales de vente.",
               "immediateChange": "Cette modification prend effet immédiatement.",
               "nextBillingChange": "Cette modification prendra effet à partir de la prochaine période de paie.",
               "agreementAg": {
                 "one": "Je confirme la modification susmentionnée de mon abonnement et j'accepte les",
-                "two": "AGB"
+                "other": ""
               },
               "makePayment": "Commander obligatoirement"
             }
@@ -1946,6 +1945,7 @@
       },
       "certifiedControl": {
         "title": "Contrôle certifié par un(e) expert(e) Supertext",
+        "dDescription": "Ce service est payant. Il est facturé en fonction du nombre de mots. Malheureusement, tu peux nous joindre en dehors de nos heures de bureau. Pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes.",
         "description": "Ce service est payant. Il est facturé en fonction du nombre de mots. Malheureusement, tu peux nous joindre en dehors de nos heures de bureau. Pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes."
       },
       "serviceIsDeactivated": {
@@ -2639,28 +2639,6 @@
           }
         }
       },
-      "references": {
-        "hero": {
-          "title": "Unsere Referenzen sprechen eine deutliche Sprache"
-        },
-        "references": {
-          "title": "Über 1500 Unternehmen in ganz Europa vertrauen auf Supertext. Vom multinationalen Versicherungskonzern bis zum kreativen High Fashion Brand."
-        },
-        "caseList": {
-         "title": "In jedem Gebiet zu Hause. Handgemacht, KI-unterstützt oder vollautomatisch.",
-         "description": "Supertext passt sich ganz Ihren Bedürfnissen an. Erfahren Sie, wie Unternehmen jeder Grösse und Fachrichtung mit uns besser kommunizieren - mit 0 % bis 100 % Automatisierung.",
-         "cta": "Zu allen Cases"
-        },
-        "footerNote": {
-          "pretitle": "Wir sind für Sie da",
-          "text": "Sie haben ein spannendes <highlight>Projekt</highlight> in der Pipeline? Oder möchten Ihr bestehendes <highlight>Setup</highlight> mit uns <highlight>evaluieren?</highlight>",
-          "cta": {
-            "title": "Lassen Sie uns reden",
-            "link": "/contact",
-            "target": ""
-          }
-        }
-      },
       "home": {
         "heroSection": {
           "mainHeading": "Language AI rencontre un service de première classe",
@@ -3105,26 +3083,6 @@
   "translator": {
     "sourcePlaceholderTitle": "Tapez pour traduire",
     "sourcePlaceholderDescription": "Ou glissez-déposez des documents à traduire avec notre Traducteur AI",
-    "targetOverlays": {
-      "verificationPayment": {
-        "title": "Das hat geklappt!",
-        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
-        "newTranslationButton": "Neue Übersetzung starten",
-        "altText": "Illustration einer Person, die entspannt am Telefon ist"
-      },
-      "unsupportedLanguagePair": {
-        "title": "Diese Sprachkombination wird noch nicht unterstützt",
-        "description": "Tragen Sie sich in unsere Warteliste ein, um als Erste:r Zugang zu neuen Sprachkombinationen zu erhalten.",
-        "emailPlaceholder": "ihre@email.com",
-        "subscribeButton": "Warteliste beitreten",
-        "changeLanguageButton": "Andere Sprachen wählen",
-        "altText": "Illustration einer Person, die entspannt am Telefon ist",
-        "notifications": {
-          "success": "Sie haben die Warteliste erfolgreich beigetreten",
-          "error": "Beim Beitreten der Warteliste ist ein Fehler aufgetreten"
-        }
-      }
-    },
     "features": {
       "infoPopover": {
         "title": "Fonctionnement",

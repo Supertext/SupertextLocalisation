@@ -1158,6 +1158,7 @@
   "word": "Word",
   "translation": "Translation",
   "translateDocument": "Translate document",
+  "notSupported": "Unsupported language",
   "languages": {
     "x-mixed": "Multiple languages",
     "cs": "Czech",
@@ -1460,7 +1461,7 @@
       "forCompanies": "For companies",
       "discoverSolutions": "Discover the business solution",
       "message": {
-        "part1": "Companies translate with Supertext",
+        "part1": "Translate with Supertext Company",
         "part2": "better, faster, cheaper",
         "part3": "and",
         "part4": "safer. From",
@@ -1772,14 +1773,14 @@
               "termsConfirmation": "I confirm the above-mentioned change to my subscription and accept the",
               "removeLicensesError": {
                 "one": "You have assigned a license to {count} users. To reduce your subscription to less than {count} licenses,",
-                "other": ""
+                "two": "Team"
               },
               "termsAndConditions": "General Terms and Conditions.",
               "immediateChange": "This change will take effect immediately.",
               "nextBillingChange": "This change will take effect from the next accounting period.",
               "agreementAg": {
                 "one": "I confirm the above change to my subscription and accept the",
-                "other": ""
+                "two": "AGB"
               },
               "makePayment": "Binding order"
             }
@@ -1945,7 +1946,6 @@
       },
       "certifiedControl": {
         "title": "Certified control by a supertext expert",
-        "dDescription": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps.",
         "description": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps."
       },
       "serviceIsDeactivated": {
@@ -2639,6 +2639,28 @@
           }
         }
       },
+      "references": {
+        "hero": {
+          "title": "Unsere Referenzen sprechen eine deutliche Sprache"
+        },
+        "references": {
+          "title": "Über 1500 Unternehmen in ganz Europa vertrauen auf Supertext. Vom multinationalen Versicherungskonzern bis zum kreativen High Fashion Brand."
+        },
+        "caseList": {
+          "title": "In jedem Gebiet zu Hause. Handgemacht, KI-unterstützt oder vollautomatisch.",
+          "description": "Supertext passt sich ganz Ihren Bedürfnissen an. Erfahren Sie, wie Unternehmen jeder Grösse und Fachrichtung mit uns besser kommunizieren - mit 0 % bis 100 % Automatisierung.",
+          "cta": "Zu allen Cases"
+        },
+        "footerNote": {
+          "pretitle": "Wir sind für Sie da",
+          "text": "Sie haben ein spannendes <highlight>Projekt</highlight> in der Pipeline? Oder möchten Ihr bestehendes <highlight>Setup</highlight> mit uns <highlight>evaluieren?</highlight>",
+          "cta": {
+            "title": "Lassen Sie uns reden",
+            "link": "/contact",
+            "target": ""
+          }
+        }
+      },
       "home": {
         "heroSection": {
           "mainHeading": "Language AI meets first-class service",
@@ -3076,6 +3098,11 @@
           },
           "text": "Would you like to experience Supertext in action? Book a non-binding <highlightText>Demo</highlightText> with us."
         }
+      },
+      "blog": {
+        "articleCard": {
+          "ctaText": "Read now"
+        }
       }
     }
   },
@@ -3083,6 +3110,26 @@
   "translator": {
     "sourcePlaceholderTitle": "Type to translate",
     "sourcePlaceholderDescription": "Or drang and drop documents to translate with our AI Translator",
+    "targetOverlays": {
+      "verificationPayment": {
+        "title": "Das hat geklappt!",
+        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
+        "newTranslationButton": "Neue Übersetzung starten",
+        "altText": "Illustration einer Person, die entspannt am Telefon ist"
+      },
+      "unsupportedLanguagePair": {
+        "title": "Diese Sprachkombination wird noch nicht unterstützt",
+        "description": "Tragen Sie sich in unsere Warteliste ein, um als Erste:r Zugang zu neuen Sprachkombinationen zu erhalten.",
+        "emailPlaceholder": "ihre@email.com",
+        "subscribeButton": "Warteliste beitreten",
+        "changeLanguageButton": "Andere Sprachen wählen",
+        "altText": "Illustration einer Person, die entspannt am Telefon ist",
+        "notifications": {
+          "success": "Sie haben die Warteliste erfolgreich beigetreten",
+          "error": "Beim Beitreten der Warteliste ist ein Fehler aufgetreten"
+        }
+      }
+    },
     "features": {
       "infoPopover": {
         "title": "Function",

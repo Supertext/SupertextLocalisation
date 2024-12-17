@@ -1737,7 +1737,17 @@
               "user": "Utente"
             },
             "roleChangeWarning": "Il tuo amministratore del team ha cambiato il tuo ruolo. Esci e riaccedi per aggiornare il tuo account.",
-            "licenceAvailable": "{amount} disponibile"
+            "licenceAvailable": "{amount} disponibile",
+            "marketingPanel": {
+              "heading": "<highlightText>Vergrossere dein Team</highlightText>, steigere deinen Einfluss",
+              "subheading": "Lade deine Kolleginnen und Kollegen ein und beginne innerhalb von Minuten mit der Zusammenarbeit.",
+              "listItems": [
+                "Bestimme, wer Teil deines Teams wird",
+               "Weise Rollen und Berechtigungen zu und verwalte sie",
+              "Steigere deine Produktivität und verpasse nie wieder eine Frist"
+              ],
+              "viewTable": "Tabelle ansehen"
+          }
           },
           "subscription": {
             "title": "Modifica dell'abbonamento",

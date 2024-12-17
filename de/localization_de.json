@@ -2501,6 +2501,19 @@
           }
         }
       },
+      "faq": {
+        "hero": {
+          "title": "Die häufigsten Fragen und Antworten rund um Supertext"
+        },
+        "footerNote": {
+          "text": "Ihre Frage war <highlight>nicht dabei</highlight>? Dann nehmen Sie gerne <highlight>Kontakt</highlight> mit uns auf.",
+          "cta": {
+            "title": "Lassen Sie uns reden",
+            "link": "/contact",
+            "target": "_blank"
+          }
+        }
+      },
       "whySupertext": {
         "hero": {
           "title": "Wir denken Übersetzung neu",

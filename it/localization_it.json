@@ -3005,6 +3005,23 @@
           }
         }
       },
+      "faq": {
+        "hero": {
+          "title": "Domande frequenti su Supertext"
+        },
+        "filter": {
+          "searchTitle": "Cosa stai cercando?",
+          "categoryTitle": "Filtra per argomenti"
+        },
+        "footerNote": {
+          "text": "Non hai trovato la tua domanda <highlight>qui</highlight>? Non esitare a <highlight>contattarci</highlight>.",
+          "cta": {
+            "title": "Parliamone",
+            "link": "/contact",
+            "target": "_blank"
+          }
+        }
+      },
       "contact": {
         "hero": {
           "title": "Disponibile in quasi tutte le lingue",

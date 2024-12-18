@@ -2696,7 +2696,7 @@
                 }
               },
               {
-                "title": "Copywriting &amp; contenu",
+                "title": "Copywriting & contenu",
                 "description": "Pour des textes qui font de l'effet - riches en idées et pertinents.",
                 "cta": {
                   "title": "En savoir plus",
@@ -2912,7 +2912,7 @@
                   }
                 },
                 {
-                  "title": "Copywriting &amp; contenu",
+                  "title": "Copywriting & contenu",
                   "description": "Nous commençons là où les mots vous manquent. Dans votre Tone of Voice, avec des idées et de la pertinence.",
                   "cta": {
                     "title": "COMMANDER MAINTENANT",
@@ -3002,6 +3002,23 @@
             "title": "Parlons-en",
             "link": "/contact",
             "target": ""
+          }
+        }
+      },
+      "faq": {
+        "hero": {
+          "title": "Questions fréquemment posées sur Supertext"
+        },
+        "filter": {
+          "searchTitle": "Que recherchez-vous ?",
+          "categoryTitle": "Filtrer par thèmes"
+        },
+        "footerNote": {
+          "text": "Vous n'avez pas trouvé votre question <highlight>ici</highlight> ? N'hésitez pas à nous <highlight>contacter</highlight>.",
+          "cta": {
+            "title": "Parlons-en",
+            "link": "/contact",
+            "target": "_blank"
           }
         }
       },

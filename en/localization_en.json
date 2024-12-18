@@ -1843,7 +1843,7 @@
       "freelancerRegistration": "Freelancer registration",
       "servicesTitle": "SERVICES",
       "services": {
-        "translation": "AI translation &amp; verification",
+        "translation": "AI translation & verification",
         "expertise": "Specialized translation",
         "editing": "Proofreading",
         "copywriting": "Copywriting",
@@ -2680,7 +2680,7 @@
           "languageServices": {
             "items": [
               {
-                "title": "AI translation &amp; verification",
+                "title": "AI translation & verification",
                 "description": "From style guides to process optimization.",
                 "cta": {
                   "title": "Order",
@@ -2696,7 +2696,7 @@
                 }
               },
               {
-                "title": "Copywriting &amp; Content",
+                "title": "Copywriting & Content",
                 "description": "For texts that work - full of ideas and to the point.",
                 "cta": {
                   "title": "Learn more",
@@ -2894,7 +2894,7 @@
               "title": "",
               "sections": [
                 {
-                  "title": "AI translation &amp; verification",
+                  "title": "AI translation & verification",
                   "description": "Be sure that everything fits. With automatic transmission - and the professional check at the touch of a button.",
                   "cta": {
                     "title": "Learn more",
@@ -2912,7 +2912,7 @@
                   }
                 },
                 {
-                  "title": "Copywriting &amp; Content",
+                  "title": "Copywriting & Content",
                   "description": "We start where you are at a loss for words. In your tone of voice, full of ideas and to the point.",
                   "cta": {
                     "title": "ORDER NOW",
@@ -3002,6 +3002,23 @@
             "title": "Let's talk",
             "link": "/contact",
             "target": ""
+          }
+        }
+      },
+      "faq": {
+        "hero": {
+          "title": "Frequently Asked Questions about Supertext"
+        },
+        "filter": {
+          "searchTitle": "What are you looking for?",
+          "categoryTitle": "Filter by topics"
+        },
+        "footerNote": {
+          "text": "Didn't find your question <highlight>here</highlight>? Feel free to get in <highlight>touch</highlight> with us.",
+          "cta": {
+            "title": "Let's talk",
+            "link": "/contact",
+            "target": "_blank"
           }
         }
       },

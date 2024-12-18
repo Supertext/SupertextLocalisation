@@ -1555,6 +1555,8 @@
         "title": "Gestire l'abbonamento",
         "contactSupertext": "Contatto Supertext",
         "otherPlans": "Abbonamento Altro",
+        "assignLicenseAdmin": "Assegna licenza",
+        "assignLicenseUser": "Contatta admin",
         "current": "Abbonamento attuale",
         "upgrade": "Aggiornamento",
         "downgrade": "Declassamento",
@@ -1637,6 +1639,8 @@
           "admin": "Amministratore",
           "user": "Utente"
         },
+        "noLicense": "Nessuna",
+        "isLicenced": "Attivo",
         "costCenter": {
           "title": "Centro di costo",
           "changeCostCenter": "Modifica del centro di costo"
@@ -1745,11 +1749,11 @@
               "subheading": "Lade deine Kolleginnen und Kollegen ein und beginne innerhalb von Minuten mit der Zusammenarbeit.",
               "listItems": [
                 "Bestimme, wer Teil deines Teams wird",
-               "Weise Rollen und Berechtigungen zu und verwalte sie",
-              "Steigere deine Produktivität und verpasse nie wieder eine Frist"
+                "Weise Rollen und Berechtigungen zu und verwalte sie",
+                "Steigere deine Produktivität und verpasse nie wieder eine Frist"
               ],
               "viewTable": "Tabelle ansehen"
-          }
+            }
           },
           "subscription": {
             "title": "Modifica dell'abbonamento",
@@ -1760,6 +1764,7 @@
             "nextPayment": "Prossimo pagamento",
             "monthly": "Mensile",
             "yearly": "Annualmente",
+            "afterTrialPeriod": "(dopo periodo prova)",
             "billingPeriod": "Periodo di fatturazione",
             "subscriptionPrices": "Prezzi di abbonamento",
             "change": "Cambiamento",
@@ -1783,6 +1788,7 @@
               "todayTotal": "Importo totale dovuto oggi",
               "nextPeriod": "Per le licenze aggiuntive fino al periodo di fatturazione successivo",
               "termsConfirmation": "Confermo la suddetta modifica del mio abbonamento e accetto la",
+              "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite fino alla fine del periodo di prova, poi verranno addebitate nel successivo periodo di fatturazione.",
               "removeLicensesError": {
                 "one": "{count} Avete assegnato una licenza agli utenti. {count} Per ridurre l'abbonamento a meno di licenze,",
                 "two": "Team"

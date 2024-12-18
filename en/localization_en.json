@@ -1556,6 +1556,8 @@
         "contactSupertext": "Contact Supertext",
         "otherPlans": "Change plan",
         "current": "Current subscription",
+        "assignLicenseAdmin": "Get license",
+        "assignLicenseUser": "Contact admin",
         "upgrade": "Upgrade",
         "downgrade": "Downgrade",
         "recommended": "Recommended",
@@ -1637,6 +1639,8 @@
           "admin": "Administrator",
           "user": "User"
         },
+        "noLicense": "None",
+        "isLicenced": "Active",
         "costCenter": {
           "title": "Cost center",
           "changeCostCenter": "Change cost center"
@@ -1745,11 +1749,11 @@
               "subheading": "Lade deine Kolleginnen und Kollegen ein und beginne innerhalb von Minuten mit der Zusammenarbeit.",
               "listItems": [
                 "Bestimme, wer Teil deines Teams wird",
-               "Weise Rollen und Berechtigungen zu und verwalte sie",
-              "Steigere deine Produktivität und verpasse nie wieder eine Frist"
+                "Weise Rollen und Berechtigungen zu und verwalte sie",
+                "Steigere deine Produktivität und verpasse nie wieder eine Frist"
               ],
               "viewTable": "Tabelle ansehen"
-          }
+            }
           },
           "subscription": {
             "title": "Change subscription",
@@ -1760,6 +1764,7 @@
             "nextPayment": "Next payment",
             "monthly": "Monthly",
             "yearly": "Annually",
+            "afterTrialPeriod": "(after trial period)",
             "billingPeriod": "Billing period",
             "subscriptionPrices": "Subscription prices",
             "change": "Change",
@@ -1782,6 +1787,7 @@
               "vatIncluded": "Incl {currency} {amount} {percentage} {vatType}",
               "todayTotal": "Total amount due today",
               "nextPeriod": "For additional licenses until the next billing period",
+              "zeroPayableNowOnTrialPeriod": "Additional licenses are free until your trial ends, then will be charged at your next billing period.",
               "termsConfirmation": "I confirm the above-mentioned change to my subscription and accept the",
               "removeLicensesError": {
                 "one": "You have assigned a license to {count} users. To reduce your subscription to less than {count} licenses,",

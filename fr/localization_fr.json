@@ -1555,6 +1555,8 @@
         "title": "Gérer l'abonnement",
         "contactSupertext": "Contacter Supertext",
         "otherPlans": "Abonnement Autres",
+        "assignLicenseAdmin": "Obtenir licence",
+        "assignLicenseUser": "Contact admin",
         "current": "Abonnement actuel",
         "upgrade": "Mise à niveau",
         "downgrade": "Rétrogradation",
@@ -1637,6 +1639,8 @@
           "admin": "Administrateur",
           "user": "Utilisateur"
         },
+        "noLicense": "Aucune",
+        "isLicenced": "Actif",
         "costCenter": {
           "title": "Centre de coûts",
           "changeCostCenter": "Modifier le centre de coûts"
@@ -1745,11 +1749,11 @@
               "subheading": "Lade deine Kolleginnen und Kollegen ein und beginne innerhalb von Minuten mit der Zusammenarbeit.",
               "listItems": [
                 "Bestimme, wer Teil deines Teams wird",
-               "Weise Rollen und Berechtigungen zu und verwalte sie",
-              "Steigere deine Produktivität und verpasse nie wieder eine Frist"
+                "Weise Rollen und Berechtigungen zu und verwalte sie",
+                "Steigere deine Produktivität und verpasse nie wieder eine Frist"
               ],
               "viewTable": "Tabelle ansehen"
-          }
+            }
           },
           "subscription": {
             "title": "Modifier l'abonnement",
@@ -1760,6 +1764,7 @@
             "nextPayment": "Prochain paiement",
             "monthly": "Mensuel",
             "yearly": "Annuellement",
+            "afterTrialPeriod": "(après période d'essai)",
             "billingPeriod": "Période de facturation",
             "subscriptionPrices": "Prix des abonnements",
             "change": "Modifier",
@@ -1782,6 +1787,7 @@
               "vatIncluded": "Incl {currency} {amount} {percentage} {vatType}",
               "todayTotal": "Montant total dû aujourd'hui",
               "nextPeriod": "Pour les licences supplémentaires jusqu'à la prochaine période de facturation",
+              "zeroPayableNowOnTrialPeriod": "Les licences supplémentaires sont gratuites jusqu'à la fin de votre période d'essai, puis seront facturées à la prochaine période de facturation.",
               "termsConfirmation": "Je confirme la modification de mon abonnement mentionnée ci-dessus et j'accepte les",
               "removeLicensesError": {
                 "one": "Vous avez attribué une licence à {count} utilisateurs:in. Pour réduire votre abonnement à moins de {count} licences,",

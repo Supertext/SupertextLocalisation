@@ -1380,6 +1380,7 @@
       },
       "team": {
         "addMember": "Something went wrong while inviting user to team",
+        "memberAlreadyInTeam": "The invited user is already part of another team. Please reach our support at info@supertext.com to have the user moved into your team.",
         "changeRole": "Something went wrong while changing the team member role",
         "editMember": "Something went wrong while editing the team member",
         "removeMember": "Something went wrong while removing user from team",

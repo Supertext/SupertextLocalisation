@@ -51,8 +51,8 @@ jobs:
         # Runs a single command using the runners shell
       - name: Set up Git
         run: |
-          git config --global user.email "ivan@supertext.com"
-          git config --global user.name "ivan-supertext"
+          git config --global user.email "github-actions@supertext.com"
+          git config --global user.name "GitHub Actions"
           
       - name: Clone Azure DevOps Repository
         env:

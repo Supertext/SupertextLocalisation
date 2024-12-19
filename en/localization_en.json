@@ -1956,15 +1956,9 @@
         "title": "Reset to original?",
         "description": "You will lose all your changes. Are you sure you want to reset to the original text?"
       },
-      "infoMessage": {
-        "part1": "The certified",
-        "part2": "Control",
-        "part3": "by a supertext expert",
-        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. This service is subject to a fee and is charged by the number of words."
-      },
       "certifiedControl": {
         "title": "Certified control by a supertext expert",
-        "description": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps."
+        "description": "This service is subject to a charge. It is charged according to the number of words."
       },
       "serviceIsDeactivated": {
         "title": "Service is deactivated",
@@ -1978,10 +1972,9 @@
         "title": "An error occurred when estimating the price and number of your request",
         "description": "Try refreshing your browser or come back later"
       },
-      "outIfBusinessHours": {
-        "title_part1": "Unfortunately you can reach us outside of our",
-        "title_part2": "Business hours",
-        "description": "'No problem! You can place your order now, just follow the steps.",
+      "outOfBusinessHours": {
+        "title": "Unfortunately you reach us outside of our business hours",
+        "description": "No problem! You can place your order now, just follow the steps.",
         "businessHours": "Monday - Friday",
         "businessHoursTime": "9:00-17:30",
         "nonWorkingDaySaturday": "Saturday",

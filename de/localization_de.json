@@ -1957,15 +1957,9 @@
         "title": "Auf Original zurücksetzen?",
         "description": "Sie verlieren alle Ihre Änderungen. Sind Sie sicher, dass Sie auf den ursprünglichen Text zurücksetzen wollen?"
       },
-      "infoMessage": {
-        "part1": "Die zertifizierte",
-        "part2": "Kontrolle",
-        "part3": "durch eine:n Supertext-Expert:in",
-        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Dieser Service ist kostenpflichtig und wird nach Anzahl Wörtern verrechnet."
-      },
       "certifiedControl": {
         "title": "Zertifizierte Kontrolle durch eine:n Supertext-Expert:in",
-        "description": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen."
+        "description": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet."
       },
       "serviceIsDeactivated": {
         "title": "Service ist deaktiviert",
@@ -1979,9 +1973,8 @@
         "title": "Bei der Schätzung des Preises und der Anzahl Ihrer Anfrage ist ein Fehler aufgetreten",
         "description": "Versuchen Sie, Ihren Browser zu aktualisieren oder kommen Sie später wieder"
       },
-      "outIfBusinessHours": {
-        "title_part1": "Leider erreichst du uns ausserhalb unserer",
-        "title_part2": "Geschäftszeiten",
+      "outOfBusinessHours": {
+        "title": "Leider erreichst du uns ausserhalb unserer Geschäftszeiten",
         "description": "'Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
         "businessHours": "Montag - Freitag",
         "businessHoursTime": "9:00-17:30",

@@ -1956,15 +1956,9 @@
         "title": "Ripristinare l'originale?",
         "description": "Si perderanno tutte le modifiche apportate. Siete sicuri di voler ripristinare il testo originale?"
       },
-      "infoMessage": {
-        "part1": "Il certificato",
-        "part2": "Controllo",
-        "part3": "da un esperto di supertesti",
-        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Questo servizio è a pagamento e viene addebitato in base al numero di parole."
-      },
       "certifiedControl": {
         "title": "Controllo certificato da un esperto di supertesti",
-        "description": "Questo servizio è a pagamento. L'addebito avviene in base al numero di parole. Purtroppo non è possibile raggiungerci al di fuori dei nostri orari di lavoro. Non c'è problema! È possibile effettuare l'ordine ora, basta seguire la procedura."
+        "description": "Questo servizio è a pagamento. L'addebito avviene in base al numero di parole."
       },
       "serviceIsDeactivated": {
         "title": "Il servizio è disattivato",
@@ -1978,9 +1972,8 @@
         "title": "Si è verificato un errore nella stima del prezzo e del numero della vostra richiesta",
         "description": "Provare ad aggiornare il browser o tornare più tardi"
       },
-      "outIfBusinessHours": {
-        "title_part1": "Purtroppo è possibile raggiungerci anche al di fuori del nostro",
-        "title_part2": "Orario di lavoro",
+      "outOfBusinessHours": {
+        "title": "Purtroppo è possibile raggiungerci anche al di fuori del nostro orario di lavoro",
         "description": "nessun problema! Può effettuare l'ordine ora, basta seguire i passaggi.",
         "businessHours": "Lunedì - Venerdì",
         "businessHoursTime": "9:00-17:30",

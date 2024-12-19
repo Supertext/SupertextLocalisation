@@ -1956,15 +1956,9 @@
         "title": "Rétablir l'original ?",
         "description": "Vous perdrez toutes vos modifications. Êtes-vous sûr de vouloir revenir au texte original ?"
       },
-      "infoMessage": {
-        "part1": "L'association certifiée",
-        "part2": "Contrôle",
-        "part3": "par un:expert:en:supertexte",
-        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Ce service est payant et facturé en fonction du nombre de mots."
-      },
       "certifiedControl": {
         "title": "Contrôle certifié par un(e) expert(e) Supertext",
-        "description": "Ce service est payant. Il est facturé en fonction du nombre de mots. Malheureusement, tu peux nous joindre en dehors de nos heures de bureau. Pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes."
+        "description": "Ce service est payant. Il est facturé en fonction du nombre de mots."
       },
       "serviceIsDeactivated": {
         "title": "Le service est désactivé",
@@ -1978,9 +1972,8 @@
         "title": "Une erreur s'est produite lors de l'estimation du prix et du nombre de votre demande",
         "description": "Essayez de mettre à jour votre navigateur ou revenez plus tard"
       },
-      "outIfBusinessHours": {
-        "title_part1": "Malheureusement, tu peux nous joindre en dehors de nos",
-        "title_part2": "Heures d'ouverture",
+      "outOfBusinessHours": {
+        "title": "Malheureusement, tu peux nous joindre en dehors de nos heures d'ouverture",
         "description": "pas de problème ! Tu peux déjà placer ta commande, il te suffit de suivre les étapes.",
         "businessHours": "Lundi - vendredi",
         "businessHoursTime": "9:00-17:30",

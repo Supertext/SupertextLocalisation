@@ -3146,16 +3146,21 @@
         "newTranslationButton": "Neue Übersetzung starten",
         "altText": "Illustration einer Person, die entspannt am Telefon ist"
       },
+      "lockedLanguage": {
+        "title": "{notSupportedLanguage} ist nur im Abonnementplan Advanced verfügbar.",
+        "description": "Entdecken Sie die verschiedenen Abonnementpläne von Supertext und finden Sie die richtige Option für sich.",
+        "cta": "Abonnements erkunden"
+      },
       "unsupportedLanguagePair": {
         "title": "Diese Sprachkombination wird noch nicht unterstützt",
-        "description": "Tragen Sie sich in unsere Warteliste ein, um als Erste:r Zugang zu neuen Sprachkombinationen zu erhalten.",
-        "emailPlaceholder": "ihre@email.com",
-        "subscribeButton": "Warteliste beitreten",
+        "description": "Melden Sie sich für unseren Newsletter an, um als Erste:r über neue Sprachkombinationen informiert zu werden.",
+        "emailPlaceholder": "Ihre@email.com",
+        "subscribeButton": "Newsletter abonnieren",
         "changeLanguageButton": "Andere Sprachen wählen",
         "altText": "Illustration einer Person, die entspannt am Telefon ist",
         "notifications": {
-          "success": "Sie haben die Warteliste erfolgreich beigetreten",
-          "error": "Beim Beitreten der Warteliste ist ein Fehler aufgetreten"
+          "success": "Sie haben unseren Newsletter erfolgreich abonniert",
+          "error": "Beim Abonnieren des Newsletters ist ein Fehler aufgetreten"
         }
       }
     },

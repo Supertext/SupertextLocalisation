@@ -13,6 +13,8 @@ on:
 
 jobs:
   automerge:
+    # Only run if it's a PR
+    if: github.event.pull_request != null
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -35,18 +37,28 @@ jobs:
         uses: actions/github-script@v7
         id: wait-for-checks
         with:
-          script: |
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: | 
+            console.log(context)
+            const { owner, repo } = context.repo;
+            const pr_number = context.payload.pull_request.number;
+            
             const checkInterval = 60000; // 1 minute
             const maxAttempts = 30; // 30 minutes total wait time
             
             for (let attempt = 0; attempt < maxAttempts; attempt++) {
+              console.log(`Checking PR status attempt ${attempt + 1}/${maxAttempts}`);
+              
               const { data: pr } = await github.rest.pulls.get({
-                owner: context.repo.owner,
-                repo: context.repo.name,
-                pull_number: context.payload.pull_request.number,
+                owner: owner,
+                repo: repo,
+                pull_number: pr_number
               });
               
+              console.log(`PR mergeable state: ${pr.mergeable_state}`);
+              
               if (pr.mergeable_state === 'clean') {
+                console.log('PR is ready to merge');
                 return true;
               }
               
@@ -58,21 +70,30 @@ jobs:
       - name: Enable and attempt auto-merge
         if: steps.check-branch.outputs.should_merge == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Set PR number from GitHub context
+          PR_NUMBER="${{ github.event.pull_request.number }}"
+          
+          echo "Attempting to merge PR #$PR_NUMBER"
+          
           # Enable auto-merge
-          gh pr merge $PR_NUMBER --merge --auto -d
-
+          gh pr merge "$PR_NUMBER" --merge --auto -d || {
+            echo "Failed to enable auto-merge"
+            exit 1
+          }
+          
           # Check if PR can be merged immediately
-          if gh pr view $PR_NUMBER --json mergeable -q .mergeable; then
-            gh pr merge $PR_NUMBER --merge -d
+          if gh pr view "$PR_NUMBER" --json mergeable -q .mergeable; then
+            echo "PR is mergeable, attempting immediate merge"
+            gh pr merge "$PR_NUMBER" --merge -d
           fi
 
       - name: Handle merge failure
         if: failure() && steps.check-branch.outputs.should_merge == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           echo "Auto-merge failed for lokalise branch. Adding label for visibility."
-          gh pr edit $PR_NUMBER --add-label "merge-failed"
+          gh pr edit "$PR_NUMBER" --add-label "merge-failed" || echo "Failed to add label"

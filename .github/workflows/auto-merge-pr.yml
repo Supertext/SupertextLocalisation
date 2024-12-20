@@ -14,7 +14,7 @@ on:
 jobs:
   automerge:
     # Only run if it's a PR
-    if: github.event.pull_request != null
+    if: github.event.pull_request != null || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

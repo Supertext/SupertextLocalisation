@@ -25,7 +25,7 @@ on:
 jobs:
 
   sync-to-azure:
-    if: github.event.pull_request.merged == true  # Ensure it only runs when PR is merged
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'  # Ensure it only runs when PR is merged
     runs-on: ubuntu-latest
     env:
       AZURE_DEVOPS_ORG_URL: "https://dev.azure.com/supertext"

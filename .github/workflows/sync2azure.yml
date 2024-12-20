@@ -6,8 +6,8 @@ on:
   push:
     paths:
       - 'de/localization_de.json'
-      - 'de/localization_de-de.json'
-      - 'de/localization_de-ch.json'
+      - 'de-CH/localization_de-DE.json'
+      - 'de-DE/localization_de-CH.json'
       - 'en/localization_en.json'
       - 'fr/localization_fr.json'
       - 'it/localization_it.json'
@@ -85,8 +85,8 @@ jobs:
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/fr"
           
           cp "${{ github.workspace }}/de/localization_de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de.json"
-          cp "${{ github.workspace }}/de/localization_de-de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de-de.json"
-          cp "${{ github.workspace }}/de/localization_de-ch.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de-ch.json"
+          cp "${{ github.workspace }}/de-DE/localization_de-DE.json" "${{ env.AZURE_TARGET_PATH }}/de-DE/localization_de-DE.json"
+          cp "${{ github.workspace }}/de-CH/localization_de-CH.json" "${{ env.AZURE_TARGET_PATH }}/de-CH/localization_de-CH.json"
           cp "${{ github.workspace }}/en/localization_en.json" "${{ env.AZURE_TARGET_PATH }}/en/localization_en.json"
           cp "${{ github.workspace }}/fr/localization_fr.json" "${{ env.AZURE_TARGET_PATH }}/fr/localization_fr.json"
           cp "${{ github.workspace }}/it/localization_it.json" "${{ env.AZURE_TARGET_PATH }}/it/localization_it.json"

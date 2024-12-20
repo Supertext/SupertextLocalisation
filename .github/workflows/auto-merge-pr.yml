@@ -1,4 +1,4 @@
-name: Auto Merge Lokalise PR's
+name: Auto Merge Lokalise PR
 on:
   pull_request:
     types: [opened, synchronized, reopened, ready_for_review]
@@ -7,7 +7,7 @@ on:
   check_suite:
     types: [completed]
   status: {}
-
+  
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -18,7 +18,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check branch name
+        id: check-branch
+        run: |
+          BRANCH_NAME="${{ github.head_ref }}"
+          if [[ $BRANCH_NAME == lokalise-* ]]; then
+            echo "Branch starts with 'lokalise-', proceeding with auto-merge"
+            echo "should_merge=true" >> $GITHUB_OUTPUT
+          else
+            echo "Branch does not start with 'lokalise-', skipping auto-merge"
+            echo "should_merge=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Wait for status checks
+        if: steps.check-branch.outputs.should_merge == 'true'
         uses: actions/github-script@v7
         id: wait-for-checks
         with:
@@ -43,6 +56,7 @@ jobs:
             throw new Error('Timeout waiting for checks to complete');
 
       - name: Enable and attempt auto-merge
+        if: steps.check-branch.outputs.should_merge == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
@@ -56,9 +70,9 @@ jobs:
           fi
 
       - name: Handle merge failure
-        if: failure()
+        if: failure() && steps.check-branch.outputs.should_merge == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "Auto-merge failed. Adding label for visibility."
+          echo "Auto-merge failed for lokalise branch. Adding label for visibility."
           gh pr edit $PR_NUMBER --add-label "merge-failed"

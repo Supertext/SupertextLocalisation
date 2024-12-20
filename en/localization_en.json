@@ -893,7 +893,7 @@
           },
           "blog": {
             "title": "Blog",
-            "link": "/blogy"
+            "link": "/blog"
           },
           "jobs": {
             "title": "Jobs",
@@ -1158,7 +1158,6 @@
   "word": "Word",
   "translation": "Translation",
   "translateDocument": "Translate document",
-  "notSupported": "Unsupported language",
   "languages": {
     "x-mixed": "Multiple languages",
     "cs": "Czech",
@@ -1380,7 +1379,6 @@
       },
       "team": {
         "addMember": "Something went wrong while inviting user to team",
-        "memberAlreadyInTeam": "The invited user is already part of another team. Please reach our support at info@supertext.com to have the user moved into your team.",
         "changeRole": "Something went wrong while changing the team member role",
         "editMember": "Something went wrong while editing the team member",
         "removeMember": "Something went wrong while removing user from team",
@@ -1462,7 +1460,7 @@
       "forCompanies": "For companies",
       "discoverSolutions": "Discover the business solution",
       "message": {
-        "part1": "Translate with Supertext Company",
+        "part1": "Companies translate with Supertext",
         "part2": "better, faster, cheaper",
         "part3": "and",
         "part4": "safer. From",
@@ -1556,14 +1554,11 @@
         "contactSupertext": "Contact Supertext",
         "otherPlans": "Change plan",
         "current": "Current subscription",
-        "assignLicenseAdmin": "Get license",
-        "assignLicenseUser": "Contact admin",
         "upgrade": "Upgrade",
         "downgrade": "Downgrade",
         "recommended": "Recommended",
         "comparePlans": "Compare plans",
         "showMore": "Show more",
-        "confirmSubscription": "Abo bestätigen",
         "cancellationInfo": "You have cancelled your subscription and it will end on",
         "freePlanInfo": "Your subscription will be reassigned to Supereasy free plan",
         "customPlanInfo": "Customise your subscription to suit your needs",
@@ -1639,8 +1634,6 @@
           "admin": "Administrator",
           "user": "User"
         },
-        "noLicense": "None",
-        "isLicenced": "Active",
         "costCenter": {
           "title": "Cost center",
           "changeCostCenter": "Change cost center"
@@ -1743,17 +1736,7 @@
               "user": "User"
             },
             "roleChangeWarning": "Your Team Administrator changed your role. Logout and login to refresh your account.",
-            "licenceAvailable": "{amount} available",
-            "marketingPanel": {
-              "heading": "<highlightText>Vergrossere dein Team</highlightText>, steigere deinen Einfluss",
-              "subheading": "Lade deine Kolleginnen und Kollegen ein und beginne innerhalb von Minuten mit der Zusammenarbeit.",
-              "listItems": [
-                "Bestimme, wer Teil deines Teams wird",
-                "Weise Rollen und Berechtigungen zu und verwalte sie",
-                "Steigere deine Produktivität und verpasse nie wieder eine Frist"
-              ],
-              "viewTable": "Tabelle ansehen"
-            }
+            "licenceAvailable": "{amount} available"
           },
           "subscription": {
             "title": "Change subscription",
@@ -1764,7 +1747,6 @@
             "nextPayment": "Next payment",
             "monthly": "Monthly",
             "yearly": "Annually",
-            "afterTrialPeriod": "(after trial period)",
             "billingPeriod": "Billing period",
             "subscriptionPrices": "Subscription prices",
             "change": "Change",
@@ -1787,18 +1769,17 @@
               "vatIncluded": "Incl {currency} {amount} {percentage} {vatType}",
               "todayTotal": "Total amount due today",
               "nextPeriod": "For additional licenses until the next billing period",
-              "zeroPayableNowOnTrialPeriod": "Additional licenses are free until your trial ends, then will be charged at your next billing period.",
               "termsConfirmation": "I confirm the above-mentioned change to my subscription and accept the",
               "removeLicensesError": {
                 "one": "You have assigned a license to {count} users. To reduce your subscription to less than {count} licenses,",
-                "two": "Team"
+                "other": ""
               },
               "termsAndConditions": "General Terms and Conditions.",
               "immediateChange": "This change will take effect immediately.",
               "nextBillingChange": "This change will take effect from the next accounting period.",
               "agreementAg": {
                 "one": "I confirm the above change to my subscription and accept the",
-                "two": "AGB"
+                "other": ""
               },
               "makePayment": "Binding order"
             }
@@ -1849,7 +1830,7 @@
       "freelancerRegistration": "Freelancer registration",
       "servicesTitle": "SERVICES",
       "services": {
-        "translation": "AI translation & verification",
+        "translation": "AI translation &amp; verification",
         "expertise": "Specialized translation",
         "editing": "Proofreading",
         "copywriting": "Copywriting",
@@ -1956,9 +1937,16 @@
         "title": "Reset to original?",
         "description": "You will lose all your changes. Are you sure you want to reset to the original text?"
       },
+      "infoMessage": {
+        "part1": "The certified",
+        "part2": "Control",
+        "part3": "by a supertext expert",
+        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. This service is subject to a fee and is charged by the number of words."
+      },
       "certifiedControl": {
         "title": "Certified control by a supertext expert",
-        "description": "This service is subject to a charge. It is charged according to the number of words."
+        "dDescription": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps.",
+        "description": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps."
       },
       "serviceIsDeactivated": {
         "title": "Service is deactivated",
@@ -1972,9 +1960,10 @@
         "title": "An error occurred when estimating the price and number of your request",
         "description": "Try refreshing your browser or come back later"
       },
-      "outOfBusinessHours": {
-        "title": "Unfortunately you reach us outside of our business hours",
-        "description": "No problem! You can place your order now, just follow the steps.",
+      "outIfBusinessHours": {
+        "title_part1": "Unfortunately you can reach us outside of our",
+        "title_part2": "Business hours",
+        "description": "'No problem! You can place your order now, just follow the steps.",
         "businessHours": "Monday - Friday",
         "businessHoursTime": "9:00-17:30",
         "nonWorkingDaySaturday": "Saturday",
@@ -2650,28 +2639,6 @@
           }
         }
       },
-      "references": {
-        "hero": {
-          "title": "Unsere Referenzen sprechen eine deutliche Sprache"
-        },
-        "references": {
-          "title": "Über 1500 Unternehmen in ganz Europa vertrauen auf Supertext. Vom multinationalen Versicherungskonzern bis zum kreativen High Fashion Brand."
-        },
-        "caseList": {
-          "title": "In jedem Gebiet zu Hause. Handgemacht, KI-unterstützt oder vollautomatisch.",
-          "description": "Supertext passt sich ganz Ihren Bedürfnissen an. Erfahren Sie, wie Unternehmen jeder Grösse und Fachrichtung mit uns besser kommunizieren - mit 0 % bis 100 % Automatisierung.",
-          "cta": "Zu allen Cases"
-        },
-        "footerNote": {
-          "pretitle": "Wir sind für Sie da",
-          "text": "Sie haben ein spannendes <highlight>Projekt</highlight> in der Pipeline? Oder möchten Ihr bestehendes <highlight>Setup</highlight> mit uns <highlight>evaluieren?</highlight>",
-          "cta": {
-            "title": "Lassen Sie uns reden",
-            "link": "/contact",
-            "target": ""
-          }
-        }
-      },
       "home": {
         "heroSection": {
           "mainHeading": "Language AI meets first-class service",
@@ -2679,7 +2646,7 @@
           "languageServices": {
             "items": [
               {
-                "title": "AI translation & verification",
+                "title": "AI translation &amp; verification",
                 "description": "From style guides to process optimization.",
                 "cta": {
                   "title": "Order",
@@ -2695,7 +2662,7 @@
                 }
               },
               {
-                "title": "Copywriting & Content",
+                "title": "Copywriting &amp; Content",
                 "description": "For texts that work - full of ideas and to the point.",
                 "cta": {
                   "title": "Learn more",
@@ -2893,7 +2860,7 @@
               "title": "",
               "sections": [
                 {
-                  "title": "AI translation & verification",
+                  "title": "AI translation &amp; verification",
                   "description": "Be sure that everything fits. With automatic transmission - and the professional check at the touch of a button.",
                   "cta": {
                     "title": "Learn more",
@@ -2911,7 +2878,7 @@
                   }
                 },
                 {
-                  "title": "Copywriting & Content",
+                  "title": "Copywriting &amp; Content",
                   "description": "We start where you are at a loss for words. In your tone of voice, full of ideas and to the point.",
                   "cta": {
                     "title": "ORDER NOW",
@@ -3001,23 +2968,6 @@
             "title": "Let's talk",
             "link": "/contact",
             "target": ""
-          }
-        }
-      },
-      "faq": {
-        "hero": {
-          "title": "Frequently Asked Questions about Supertext"
-        },
-        "filter": {
-          "searchTitle": "What are you looking for?",
-          "categoryTitle": "Filter by topics"
-        },
-        "footerNote": {
-          "text": "Didn't find your question <highlight>here</highlight>? Feel free to get in <highlight>touch</highlight> with us.",
-          "cta": {
-            "title": "Let's talk",
-            "link": "/contact",
-            "target": "_blank"
           }
         }
       },
@@ -3126,11 +3076,6 @@
           },
           "text": "Would you like to experience Supertext in action? Book a non-binding <highlightText>Demo</highlightText> with us."
         }
-      },
-      "blog": {
-        "articleCard": {
-          "ctaText": "Read now"
-        }
       }
     }
   },
@@ -3138,31 +3083,6 @@
   "translator": {
     "sourcePlaceholderTitle": "Type to translate",
     "sourcePlaceholderDescription": "Or drang and drop documents to translate with our AI Translator",
-    "targetOverlays": {
-      "verificationPayment": {
-        "title": "Das hat geklappt!",
-        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
-        "newTranslationButton": "Neue Übersetzung starten",
-        "altText": "Illustration einer Person, die entspannt am Telefon ist"
-      },
-      "lockedLanguage": {
-        "title": "{notSupportedLanguage} ist nur im Abonnementplan Advanced verfügbar.",
-        "description": "Entdecken Sie die verschiedenen Abonnementpläne von Supertext und finden Sie die richtige Option für sich.",
-        "cta": "Abonnements erkunden"
-      },
-      "unsupportedLanguagePair": {
-        "title": "Diese Sprachkombination wird noch nicht unterstützt",
-        "description": "Melden Sie sich für unseren Newsletter an, um als Erste:r über neue Sprachkombinationen informiert zu werden.",
-        "emailPlaceholder": "Ihre@email.com",
-        "subscribeButton": "Newsletter abonnieren",
-        "changeLanguageButton": "Andere Sprachen wählen",
-        "altText": "Illustration einer Person, die entspannt am Telefon ist",
-        "notifications": {
-          "success": "Sie haben unseren Newsletter erfolgreich abonniert",
-          "error": "Beim Abonnieren des Newsletters ist ein Fehler aufgetreten"
-        }
-      }
-    },
     "features": {
       "infoPopover": {
         "title": "Function",

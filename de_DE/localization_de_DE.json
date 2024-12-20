@@ -260,8 +260,8 @@
                 "header_description": "Definieren Sie Aspekte wie Interpunktion, Zahlenformatierung und mehr in der Übersetzungsausgabe",
                 "content": [
                   "Benutzerdefinierte Styleguides",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               }
@@ -291,7 +291,7 @@
                 "header_description": "Sämtliche Texte können zu keiner Zeit von Dritten gelesen werden. Nach der Übersetzung werden sie sofort gelöscht",
                 "content": [
                   "Sofortige Textlöschung",
-                  "0",
+                  "",
                   "1",
                   "1"
                 ]
@@ -299,24 +299,24 @@
               {
                 "content": [
                   "Single Sign-on (SSO)",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               },
               {
                 "content": [
                   "Private Cloud oder On-Premises-Hosting",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               },
               {
                 "content": [
                   "Benutzerdefinierte TLS-/SSL-Zertifikate",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               }
@@ -373,7 +373,7 @@
               {
                 "content": [
                   "PDF-Dateien",
-                  "0",
+                  "",
                   "1",
                   "1"
                 ]
@@ -381,7 +381,7 @@
               {
                 "content": [
                   "SRT-Dateien",
-                  "0",
+                  "",
                   "1",
                   "1"
                 ]
@@ -403,7 +403,7 @@
                 "header_description": "Definieren Sie, wie bestimmte Wörter übersetzt werden",
                 "content": [
                   "Benutzerdefinierte Glossare",
-                  "0",
+                  "",
                   "1",
                   "1"
                 ]
@@ -412,8 +412,8 @@
                 "header_description": "Definieren Sie, wie bestimmte Wörter entsprechend dem Wording Ihres Unternehmens übersetzt werden",
                 "content": [
                   "Organisationsweite Glossare",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               },
@@ -421,8 +421,8 @@
                 "header_description": "Design und Bedienungsgefühl von Supertext lassen sich einfach an Ihr Corporate Branding anpassen",
                 "content": [
                   "Kundenspezifisches Branding",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               },
@@ -430,8 +430,8 @@
                 "header_description": "Mit KI-Modellen, die aus Ihren Übersetzungen lernen und sich ständig verbessern, erreichen Sie eine unvergleichliche Übersetzungsqualität",
                 "content": [
                   "Benutzerdefinierte KI-Modelle",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               }
@@ -448,8 +448,8 @@
                 },
                 "content": [
                   "CAT-Tools",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               },
@@ -457,8 +457,8 @@
                 "header_description": "Verwenden Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook",
                 "content": [
                   "Microsoft Office-Add-Ins",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               },
@@ -466,8 +466,8 @@
                 "header_description": "Integrieren Sie KI-Übersetzungen in Ihre eigenen Anwendungen und Arbeitsabläufe",
                 "content": [
                   "Supertext API",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "@@optional@@ 1"
                 ]
               }
@@ -479,7 +479,7 @@
               {
                 "content": [
                   "E-Mail-Support",
-                  "0",
+                  "",
                   "1",
                   "1"
                 ]
@@ -487,8 +487,8 @@
               {
                 "content": [
                   "Telefonischer Support",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               },
@@ -496,16 +496,16 @@
                 "header_description": "Während der Bürozeiten (9:00–18:00 Uhr MEZ) von Montag bis Freitag",
                 "content": [
                   "Erste Reaktion innerhalb von 60 Minuten",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               },
               {
                 "content": [
                   "Account Manager:in",
-                  "0",
-                  "0",
+                  "",
+                  "",
                   "1"
                 ]
               },

@@ -3,33 +3,16 @@
 name: Sync Localization Files to Azure DevOps
 
 on:
-  push:
-    # paths:
-    #   - 'de/localization_de.json'
-    #   - 'de-CH/localization_de-CH.json'
-    #   - 'de-DE/localization_de-DE.json'
-    #   - 'en/localization_en.json'
-    #   - 'fr/localization_fr.json'
-    #   - 'it/localization_it.json'
-    branches:
-      - main
+  pull_request:
+    types:
+      - closed
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  debug-trigger:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Debug Event Info
-        run: |
-          echo "Event name: ${{ github.event_name }}"
-          echo "Actor: ${{ github.actor }}"
-          echo "Modified files:"
-          echo "${{ toJSON(github.event.commits[0].modified) }}"
   sync-to-azure:
-    if: github.actor == 'github-actions[bot]' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     env:
       AZURE_DEVOPS_ORG_URL: "https://dev.azure.com/supertext"

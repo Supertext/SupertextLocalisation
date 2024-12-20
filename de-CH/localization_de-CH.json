@@ -1,527 +1,5 @@
 {
   "open": {
-    "pricing": {
-      "modals": {
-        "misc": {
-          "close": "Schliessen"
-        },
-        "waiting_list": {
-          "cta_and_header": "In die Warteliste eintragen",
-          "validation": {
-            "terms_and_conditions": "Kontrollkästchen ist erforderlich",
-            "email": {
-              "invalid_email": "Ungültige E-Mail-Adresse",
-              "required": "E-Mail ist erforderlich"
-            }
-          },
-          "form": {
-            "email": {
-              "placeholder": "Ihre E-Mail-Adresse",
-              "label": "* E-Mail"
-            },
-            "checkbox": {
-              "label": "Ja, Supertext darf mich kontaktieren, sobald das Basic-Abonnement verfügbar ist"
-            }
-          },
-          "completion_message": {
-            "message": "Vielen Dank für Ihr Interesse! Wir melden uns bei Ihnen, sobald das Abo verfügbar ist!"
-          }
-        },
-        "offer": {
-          "cta_and_header": "Angebot anfordern",
-          "validation": {
-            "terms_and_conditions": "Kontrollkästchen ist erforderlich",
-            "name": {
-              "required": "Name ist erforderlich"
-            },
-            "email": {
-              "invalid_email": "Ungültige E-Mail-Adresse",
-              "required": "E-Mail ist erforderlich"
-            },
-            "company_name": {
-              "required": "Firmenname ist erforderlich"
-            },
-            "number_of_users": {
-              "required": "Anzahl der Benutzer:innen ist erforderlich"
-            }
-          },
-          "form": {
-            "name": {
-              "placeholder": "Ihr Vorname und Name",
-              "label": "* Name"
-            },
-            "email": {
-              "placeholder": "Ihre E-Mail-Adresse",
-              "label": "* E-Mail"
-            },
-            "company_name": {
-              "placeholder": "Name Ihres Unternehmens",
-              "label": "* Firma"
-            },
-            "number_of_users": {
-              "placeholder": "Anzahl der potenziellen Nutzer:innen",
-              "label": "* Anzahl der Nutzer:innen"
-            },
-            "phone_number": {
-              "placeholder": "Ihre Telefonnummer",
-              "label": "Telefonnummer"
-            },
-            "special_requirements": {
-              "placeholder": "Ihre Nachricht an Supertext",
-              "label": "Besondere Anfrage"
-            },
-            "checkbox": {
-              "label": "Ja, meine eingegebenen Daten dürfen an Supertext weitergegeben werden, damit ein:e Vertreter:in des Unternehmens mit mir Kontakt aufnehmen kann"
-            }
-          },
-          "completion_message": {
-            "message": "Vielen Dank für Ihr Interesse an unserem Enterprise-Angebot. Wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen."
-          }
-        }
-      },
-      "global_switches": {
-        "yearly_billing": "Mit jährlicher Abrechnung 16% sparen"
-      },
-      "sections": {
-        "section_one": {
-          "top_title": "Preise",
-          "title": "Wählen Sie einen Plan, der zu Ihnen und Ihrem Team passt"
-        },
-        "section_two": {
-          "top_title": "Funktionen",
-          "title": "Hier finden Sie alle Funktionen im Detail"
-        },
-        "section_three": {
-          "top_title": "Ermässigungen",
-          "title": "Bildungs- und Non-Profit-Organisationen",
-          "sub_title": "Bildungseinrichtungen und gemeinnützige Organisationen profitieren von ermässigten Abonnements. Kontaktieren Sie uns für weitere Informationen.",
-          "button": {
-            "link": "https://www.supertext.com/business/contact",
-            "title": "Ermässigungen erhalten"
-          }
-        }
-      },
-      "plans": [
-        {
-          "plan_title": "Free",
-          "plan_description": "Für alle",
-          "cta": {
-            "title": "Registrieren",
-            "description": {
-              "description": "{0} für höhere Limiten.",
-              "description_link_text": "Kostenlos registrieren",
-              "link": "https://supertext.com/login"
-            },
-            "link": "https://www.supertext.com/login",
-            "price": {
-              "monthly": "Kostenlos",
-              "yearly": "Kostenlos"
-            }
-          },
-          "features": [
-            {
-              "title": "5 Sprachen"
-            },
-            {
-              "title": "Eingeschränkte Textübersetzung",
-              "description": "Übersetzen Sie 2’500 Zeichen auf einmal (5’000 mit kostenloser Registrierung)"
-            },
-            {
-              "title": "1 bearbeitbare Dateiübersetzung pro Tag, bis zu 5 MB",
-              "description": "Mit kostenloser Registrierung 3 bearbeitbare Dateiübersetzungen pro Tag"
-            }
-          ]
-        },
-        {
-          "plan_title": "Basic",
-          "plan_description": "Für Privatpersonen und kleine Unternehmen",
-          "cta": {
-            "title": "In die Warteliste eintragen",
-            "description": {
-              "description": "30 Tage kostenlos. Jederzeit kündbar."
-            },
-            "price": {
-              "monthly": "CHF 24.00",
-              "yearly": "CHF 20.00"
-            },
-            "price_description": "Pro Person, pro Monat"
-          },
-          "features": [
-            {
-              "title": "23 Sprachen"
-            },
-            {
-              "title": "Maximale Datensicherheit",
-              "description": "Ende-zu-Ende-Verschlüsselung und sofortige Textlöschung"
-            },
-            {
-              "title": "Unbegrenzte Textübersetzung",
-              "description": "Es gilt eine Fair-Use-Richtlinie"
-            },
-            {
-              "title": "10 bearbeitbare Dateiübersetzungen pro Tag, bis zu 10 MB"
-            },
-            {
-              "title": "PDF-Unterstützung"
-            }
-          ]
-        },
-        {
-          "plan_title": "Enterprise",
-          "plan_description": "Für Organisationen mit 30 oder mehr Nutzern:innen",
-          "cta": {
-            "title": "Angebot anfordern",
-            "description": {
-              "description": "Weitere Informationen und Anwendungsbeispiele finden Sie auf unserer {0}",
-              "description_link_text": "Business-Website.",
-              "link": "https://www.supertext.com/business"
-            },
-            "price": {
-              "monthly": "ab CHF 72.00",
-              "yearly": "ab CHF 60.00"
-            },
-            "price_description": "Pro Person, pro Monat"
-          },
-          "features": [
-            {
-              "title": "Alles, was in Basic enthalten ist"
-            },
-            {
-              "title": "SaaS, Private Cloud oder On-Premises-Hosting"
-            },
-            {
-              "title": "Single Sign-on (SSO)"
-            },
-            {
-              "title": "Unbegrenzt bearbeitbare Dateiübersetzungen, bis zu 30 MB",
-              "description": "Es gilt eine Fair-Use-Richtlinie"
-            },
-            {
-              "title": "Benutzerdefinierte KI-Modelle und Branding",
-              "description": "Mit KI-Modellen, die aus Ihren Übersetzungen lernen und sich ständig verbessern, erreichen Sie eine unvergleichliche Übersetzungsqualität"
-            },
-            {
-              "title": "Cockpit",
-              "description": "Für individuelles Branding, definierbare Übersetzungsstile, Benutzerverwaltung und mehr"
-            },
-            {
-              "title": "Integration von Microsoft Office und CAT-Tools",
-              "description": "Übersetzen Sie direkt in den Softwaretools, die Sie bei Ihrer täglichen Arbeit verwenden"
-            },
-            {
-              "title": "API-Zugang",
-              "description": "Integrieren Sie KI-Übersetzungen in Ihre eigenen Anwendungen und Arbeitsabläufe"
-            }
-          ]
-        }
-      ],
-      "features_table": {
-        "footer": {
-          "text": {
-            "title": "Warum arbeiten Swiss Life und Die Mobiliar mit Supertext zusammen?",
-            "sub_title": ""
-          },
-          "cta": {
-            "title": "Anwendungsfälle entdecken",
-            "link": "https://supertext.com/business/de/applications"
-          }
-        },
-        "misc": {
-          "optional": "Optional",
-          "select_a_plan": "Plan auswählen",
-          "plans_title": {
-            "free": "Free",
-            "basic": "Basic",
-            "enterprise": "Enterprise"
-          }
-        },
-        "sections": [
-          {
-            "title": "Sprachen",
-            "rows": [
-              {
-                "header_description": "Enterprise: weitere Sprachen auf Anfrage",
-                "content": [
-                  "Sprachen",
-                  "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch",
-                  "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
-                  "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch"
-                ]
-              },
-              {
-                "content": [
-                  "Sprachvarianten",
-                  "Deutsch (AT, CH, DE, Schweizerdeutscher Dialekt), Englisch (UK, US)",
-                  "Chinesisch (traditionell, vereinfacht), Deutsch (AT, CH, DE, Schweizerdeutscher Dialekt), Englisch (UK, US), Portugiesisch (BR, PT), Serbisch (kyrillisch, lateinisch)",
-                  "Chinesisch (traditionell, vereinfacht), Deutsch (AT, CH, DE, Schweizerdeutscher Dialekt), Englisch (UK, US), Portugiesisch (BR, PT), Serbisch (kyrillisch, lateinisch)"
-                ]
-              },
-              {
-                "header_description": "Definieren Sie Aspekte wie Interpunktion, Zahlenformatierung und mehr in der Übersetzungsausgabe",
-                "content": [
-                  "Benutzerdefinierte Styleguides",
-                  "0",
-                  "0",
-                  "1"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Sicherheit",
-            "rows": [
-              {
-                "content": [
-                  "Datenverarbeitung",
-                  "Schweiz",
-                  "Schweiz",
-                  "Schweiz (SaaS) oder Standort nach Wahl (Private Cloud, On-Premises-Hosting)"
-                ]
-              },
-              {
-                "header_description": "Ihre Daten werden sicher übertragen und können von Dritten nicht gelesen werden",
-                "content": [
-                  "Verschlüsselte Übertragung",
-                  "1",
-                  "1",
-                  "1"
-                ]
-              },
-              {
-                "header_description": "Sämtliche Texte können zu keiner Zeit von Dritten gelesen werden. Nach der Übersetzung werden sie sofort gelöscht",
-                "content": [
-                  "Sofortige Textlöschung",
-                  "0",
-                  "1",
-                  "1"
-                ]
-              },
-              {
-                "content": [
-                  "Single Sign-on (SSO)",
-                  "0",
-                  "0",
-                  "1"
-                ]
-              },
-              {
-                "content": [
-                  "Private Cloud oder On-Premises-Hosting",
-                  "0",
-                  "0",
-                  "@@optional@@ 1"
-                ]
-              },
-              {
-                "content": [
-                  "Benutzerdefinierte TLS-/SSL-Zertifikate",
-                  "0",
-                  "0",
-                  "@@optional@@ 1"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Textübersetzung",
-            "rows": [
-              {
-                "content": [
-                  "Unbegrenzte Textübersetzung",
-                  "Max. 2’500 Zeichen (5’000 mit kostenloser Registrierung)",
-                  "1",
-                  "1"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Dateiübersetzung",
-            "rows": [
-              {
-                "content": [
-                  "Unbegrenzte Dateiübersetzung",
-                  "1 Datei pro Tag (3 Dateien pro Tag bei kostenloser Registrierung), pro Person",
-                  "10 Dateien pro Tag, pro Person",
-                  "1"
-                ]
-              },
-              {
-                "content": [
-                  "Maximale Dateigrösse",
-                  "5 MB",
-                  "10 MB",
-                  "30 MB"
-                ]
-              },
-              {
-                "content": [
-                  "Dateibearbeitung erlaubt",
-                  "1",
-                  "1",
-                  "1"
-                ]
-              },
-              {
-                "content": [
-                  "Microsoft Office-Dateitypen",
-                  "Word (.docx), Powerpoint (.pptx)",
-                  "Word (.docx), Powerpoint (.pptx)",
-                  "Word (.docx), Excel (.xlsx), Powerpoint (.pptx)"
-                ]
-              },
-              {
-                "content": [
-                  "PDF-Dateien",
-                  "0",
-                  "1",
-                  "1"
-                ]
-              },
-              {
-                "content": [
-                  "SRT-Dateien",
-                  "0",
-                  "1",
-                  "1"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Personalisierung",
-            "rows": [
-              {
-                "content": [
-                  "Anrede: formell/informell",
-                  "1",
-                  "1",
-                  "1"
-                ]
-              },
-              {
-                "header_description": "Definieren Sie, wie bestimmte Wörter übersetzt werden",
-                "content": [
-                  "Benutzerdefinierte Glossare",
-                  "0",
-                  "1",
-                  "1"
-                ]
-              },
-              {
-                "header_description": "Definieren Sie, wie bestimmte Wörter entsprechend dem Wording Ihres Unternehmens übersetzt werden",
-                "content": [
-                  "Organisationsweite Glossare",
-                  "0",
-                  "0",
-                  "1"
-                ]
-              },
-              {
-                "header_description": "Design und Bedienungsgefühl von Supertext lassen sich einfach an Ihr Corporate Branding anpassen",
-                "content": [
-                  "Kundenspezifisches Branding",
-                  "0",
-                  "0",
-                  "1"
-                ]
-              },
-              {
-                "header_description": "Mit KI-Modellen, die aus Ihren Übersetzungen lernen und sich ständig verbessern, erreichen Sie eine unvergleichliche Übersetzungsqualität",
-                "content": [
-                  "Benutzerdefinierte KI-Modelle",
-                  "0",
-                  "0",
-                  "@@optional@@ 1"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Integrationen",
-            "rows": [
-              {
-                "header_description": "Wenn Sie Supertext in Trados Studio, MemoQ und vielen weiteren CAT-Tools verwenden, steigern Sie die professionelle Übersetzungsproduktivität",
-                "read_more": {
-                  "text": "Mehr erfahren",
-                  "link": "https://supertext.com/business/de/features#integration"
-                },
-                "content": [
-                  "CAT-Tools",
-                  "0",
-                  "0",
-                  "@@optional@@ 1"
-                ]
-              },
-              {
-                "header_description": "Verwenden Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook",
-                "content": [
-                  "Microsoft Office-Add-Ins",
-                  "0",
-                  "0",
-                  "1"
-                ]
-              },
-              {
-                "header_description": "Integrieren Sie KI-Übersetzungen in Ihre eigenen Anwendungen und Arbeitsabläufe",
-                "content": [
-                  "Supertext API",
-                  "0",
-                  "0",
-                  "@@optional@@ 1"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Support",
-            "rows": [
-              {
-                "content": [
-                  "E-Mail-Support",
-                  "0",
-                  "1",
-                  "1"
-                ]
-              },
-              {
-                "content": [
-                  "Telefonischer Support",
-                  "0",
-                  "0",
-                  "1"
-                ]
-              },
-              {
-                "header_description": "Während der Bürozeiten (9:00–18:00 Uhr MEZ) von Montag bis Freitag",
-                "content": [
-                  "Erste Reaktion innerhalb von 60 Minuten",
-                  "0",
-                  "0",
-                  "1"
-                ]
-              },
-              {
-                "content": [
-                  "Account Manager:in",
-                  "0",
-                  "0",
-                  "1"
-                ]
-              },
-              {
-                "content": [
-                  "Uptime-Garantie",
-                  "Best Effort",
-                  "Best Effort",
-                  "1"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
     "signup": "Registrieren",
     "login": "Anmelden",
     "searchLanguage": "Sprache suchen",
@@ -640,279 +118,6 @@
         "closeIconButtonTooltip": "Schliessen",
         "submit": "Abschicken",
         "close": "Schliessen"
-      }
-    },
-    "landingPage": {
-      "teaser": "Warum Supertext?",
-      "hero": {
-        "title": "Kommunikation ohne Sprachbarrieren mit Supertext – mehr als ein einfacher Übersetzer ",
-        "description_line1": "Kommunizieren Sie schneller, besser, einfacher. Mit Supertext übersetzen Sie Inhalte im Handumdrehen. Werden Sie fliessend in allen Landessprachen – era rumantsch! {br} {br} Dank der neusten Generation von künstlicher Intelligenz (KI) meistern Sie die Übersetzung von verschiedenen Dateiformaten in unterschiedlichen Sprachen künftig mit einem Klick. Unsere Translation AI lernt dabei laufend dazu. Und Sie dürfen auf die stetige Weiterentwicklung mit neuen hilfreichen Features zählen. {br} {br} Egal ob für Privatpersonen, kleine Unternehmen oder grosse Organisationen – Supertext bietet Ihre innovative Übersetzungslösung, betrieben auf Schweizer Servern nach höchsten Sicherheitsstandards. "
-      },
-      "register_section": {
-        "title": "Profitieren Sie noch mehr von der Supertext Übersetzungssoftware ",
-        "description": "Nutzen Sie kostenlos mehr Übersetzungsleistung: Registrieren Sie sich dazu gratis für unseren Free Plan. Dadurch helfen Sie aktiv mit, den Supertext-Übersetzer noch besser zu machen. ",
-        "cta": "Kostenlos registrieren",
-        "details": {
-          "detail1": {
-            "title": "5’000 Zeichen",
-            "description": "Anstatt 2’500 Zeichen"
-          },
-          "detail2": {
-            "title": "3 Dokumente pro Tag",
-            "description1": "Anstatt 1 Dokument pro Tag",
-            "description2": "Editierbar und ohne Werbung"
-          },
-          "detail3": {
-            "title": "Personalisierte Einstellungen",
-            "description": "Auf verschiedenen Geräten nutzbar"
-          }
-        }
-      },
-      "feature_tutorial": {
-        "title": "Übernehmen Sie die Kontrolle",
-        "description": "Sie sind mit einer Übersetzung nicht ganz zufrieden oder suchen nach Inspiration?",
-        "list": {
-          "item1": "Klicken Sie auf ein Wort, um Alternativen zu erhalten.",
-          "item2": "Wählen Sie mehrere Wörter zur Umformulierung aus.",
-          "item3": "Bearbeiten Sie Übersetzungen bei Bedarf manuell.",
-          "item4": "Lassen Sie uns wissen, ob Ihnen die Ergebnisse gefallen oder nicht, damit wir uns verbessern können."
-        },
-        "desktop_only": "Nur auf dem Desktop verfügbar"
-      },
-      "site_map_section": {
-        "title": "Unsere beliebtesten Sprachkombinationen",
-        "links1": [
-          {
-            "text": "Deutsch - Englisch",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-englisch/10001"
-          },
-          {
-            "text": "Deutsch - Französisch",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-franzoesisch/10002"
-          },
-          {
-            "text": "Deutsch - Italienisch",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-italienisch/10004"
-          },
-          {
-            "text": "Deutsch - Schweizerdeutsch",
-            "link": "https://supertext.com/de/s/uebersetzen/deutsch-schweizerdeutsch/10006"
-          },
-          {
-            "text": "Deutsch - Rätoromanisch",
-            "link": "https://supertext.com/de/s/uebersetzen/raetoromanisch-deutsch/10007"
-          },
-          {
-            "text": "Englisch - Deutsch",
-            "link": "https://supertext.com/en/s/translate/english-german/10000"
-          },
-          {
-            "text": "Französisch - Deutsch",
-            "link": "https://supertext.com/fr/s/traduction/allemand-francais/10003"
-          },
-          {
-            "text": "Italienisch - Deutsch",
-            "link": "https://supertext.com/it/s/traduzione/italiano-tedesco/10005"
-          }
-        ]
-      },
-      "features_section": {
-        "title": "Dank Supertext leichter und schneller übersetzen: für massgeschneiderte Kommunikation",
-        "description": "Supertext spricht Ihre Sprache: Entdecken Sie weitere Vorteile mit einem Basic oder Enterprise Plan – für anspruchsvolle Teams und Unternehmen. ",
-        "cta": "Alle Features entdecken",
-        "link": "https://supertext.com/business/de/funktionen",
-        "details": [
-          {
-            "title": "40-60 % Effizienzgewinn",
-            "descriptions": [
-              "Mehr Zeit für alles, was die KI eben nicht kann "
-            ]
-          },
-          {
-            "title": "Massgeschneiderte Übersetzung",
-            "descriptions": [
-              "Kommunikation nach Ihrem Styleguide, basierend auf Ihren Kundendaten, in mehr als 23 Sprachen"
-            ]
-          },
-          {
-            "title": "Zeit- und Kostenersparnis ",
-            "descriptions": [
-              "Grosse Textmengen automatisch bewältigen"
-            ]
-          },
-          {
-            "title": "Nahtlose Integration ",
-            "descriptions": [
-              "In Ihren internen Systemen (z. B. Microsoft Office, CAT-Tool) direkt oder über die Supertext API anwendbar"
-            ]
-          },
-          {
-            "title": "Maximale Kontrolle",
-            "descriptions": [
-              "Hosting-Option Ihrer Wahl und einfache Verwaltung über Ihr Supertext Cockpit"
-            ]
-          }
-        ]
-      },
-      "partners_section": {
-        "title": "Diese Unternehmen kommunizieren bereits mehrsprachig – einheitlich und sicher",
-        "cta_text": "Unsere massgeschneiderte Business-Lösung für Ihr Unternehmen",
-        "cta": "Jetzt entdecken",
-        "cta_link": "https://supertext.com/business/de"
-      },
-      "reviews_section": {
-        "title": "Unsere Nutzer:innen sind in mindestens fünf Sprachen fliessend ",
-        "reviews": [
-          {
-            "text": "Ich liebe euch! Eure Website rettet mich jeden Tag mit der schweizerdeutschen Übersetzungen!",
-            "author": {
-              "imageLink": "",
-              "name": "",
-              "description": "",
-              "cta": {
-                "title": "",
-                "link": ""
-              }
-            }
-          },
-          {
-            "text": "Cooles Tool, sehr gut gefällt mir die Möglichkeit der individuellen Korrektur der Übersetzungsvorschläge. ",
-            "author": {
-              "imageLink": "",
-              "name": "",
-              "description": "",
-              "cta": {
-                "title": "",
-                "link": ""
-              }
-            }
-          },
-          {
-            "text": "Fantastisch!!",
-            "author": {
-              "imageLink": "",
-              "name": "",
-              "description": "",
-              "cta": {
-                "title": "",
-                "link": ""
-              }
-            }
-          },
-          {
-            "text": "Zum Glück gibt es euch!!! ",
-            "author": {
-              "imageLink": "",
-              "name": "",
-              "description": "",
-              "cta": {
-                "title": "",
-                "link": ""
-              }
-            }
-          },
-          {
-            "text": "Einzige sinnvolle übersetzter Website wenn es darum geht Schwitzer-Deutsch in Hoch-Deutsch zu übersetzten. ",
-            "author": {
-              "imageLink": "",
-              "name": "",
-              "description": "",
-              "cta": {
-                "title": "",
-                "link": ""
-              }
-            }
-          },
-          {
-            "text": "Beste Übersetzungshilfe, die ich kenne; wirklich sehr hilfreich.",
-            "author": {
-              "imageLink": "",
-              "name": "",
-              "description": "",
-              "cta": {
-                "title": "",
-                "link": ""
-              }
-            }
-          },
-          {
-            "text": "Vor allem, dass Rätoromanisch dabei ist, finde ich toll.",
-            "author": {
-              "imageLink": "",
-              "name": "",
-              "description": "",
-              "cta": {
-                "title": "",
-                "link": ""
-              }
-            }
-          }
-        ]
-      },
-      "footer": {
-        "title": "Diese Unternehmen kommunizieren bereits mehrsprachig – einheitlich und stilsicher ",
-        "cta": "Zur Business-Lösung",
-        "cta_link": "https://supertext.com/business/de",
-        "contact": "Kontakt",
-        "newsletter": "Newsletter",
-        "newsletterLink": "https://eepurl.com/iqlJLc",
-        "impressum": "Impressum",
-        "disclaimer": "Disclaimer",
-        "business_links": {
-          "header": {
-            "title": "Für Unternehmen",
-            "link": ""
-          },
-          "home": {
-            "title": "Home",
-            "link": ""
-          },
-          "product": {
-            "title": "Produkt",
-            "link": "/produkt"
-          },
-          "features": {
-            "title": "Funktionen",
-            "link": "/funktionen"
-          },
-          "applications": {
-            "title": "Anwendungen",
-            "link": "/anwendungen"
-          },
-          "about": {
-            "title": "Über uns",
-            "link": "/ueber-uns"
-          },
-          "services": {
-            "title": "Services",
-            "link": "/services"
-          },
-          "upgrade": {
-            "title": "Preise",
-            "link": "/pricing"
-          },
-          "blog": {
-            "title": "Blog",
-            "link": "/blogggma"
-          },
-          "jobs": {
-            "title": "Jobs",
-            "link": "/stellen"
-          },
-          "media": {
-            "title": "Medien-seite",
-            "link": "/medien-seite"
-          },
-          "contact": {
-            "title": "Kontakt",
-            "link": "/kontakt"
-          }
-        },
-        "address": {
-          "title": "Supertext",
-          "street": "Schaffhauserstrasse 339",
-          "city": "8050 Zürich"
-        }
       }
     },
     "cookieBanner": {
@@ -2998,6 +2203,94 @@
             "title": "Lassen Sie uns reden",
             "link": "/contact",
             "target": ""
+          }
+        }
+      },
+      "workAtSupertext": {
+        "hero": {
+          "title": "Deine Karriere bei Supertext",
+          "description": "Wie wir arbeiten. Wohin wir wollen. Und wie du Teil des Ganzen wirst."
+        },
+        "lead": { 
+          "large": "Wir lieben und leben  <highlight>Sprache</highlight> und <highlight>Technologie.</highlight> Jeden Tag aufs Neue. Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken. Bereit, mit uns die Sprachindustrie zu revolutionieren?",
+          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagemen. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
+          "cta": {
+            "title": "Mehr zu unserer Vision",
+            "link": "/why-supertext"
+          },
+          "cta2": {
+            "title": "Offene Stellen"
+          }
+        },
+        "featureList": {
+          "title": "Inside Supertext: So sind wir aufgestellt",
+          "eyebrowHeadline": "Profile",
+          "benefitContent": {
+            "benefits": [
+              {
+                "title": "Sprachmanagement",
+                "description": "Unsere inhouse-Spezialist:innen für die wichtigsten Sprachen. Sie sorgen für die Qualitätskontrolle,  sind erste Anlaufstelle für sprachliche Knacknüsse und arbeiten aktiv bei der Verbesserung unserer KI-Modelle mit.",
+                "cta": {
+                  "text": "Mitarbeiterporträt lesen",
+                  "link": "/language-expertise#portraits",
+                  "variant": "primary"
+                }
+              },
+              {
+                "title": "Projektleitung",
+                "description": "Die flexible Drehscheibe für Grossprojekte und persönliche Betreuung unserer Kund:innen. Sie stellen sicher, dass Anforderungen genau umgesetzt, Termine eingehalten und übersetzte Dateien in jedem Format perfekt formatiert sind."
+              },
+              {
+                "title": "Technology",
+                "description": "Unser Entwicklungsteam programmiert individuell für unsere Kund:innen – von der spezialisierten AI Lösung über zusätzliche Sprachfunktionen bis hin zur persönlichen Systemanbindung. Dank Entwicklung im eigenen Haus flexibel und in Rekordzeit umgesetzt.",
+                "cta": {
+                  "text": "Mitarbeiterporträt lesen",
+                  "link": "/language-expertise#portraits",
+                  "variant": "primary"
+                }
+              },
+              {
+                "title": "Vendor Management",
+                "description": "Die erste Anlaufstelle für unsere externen Sprachprofis. Sie sorgen für die Rekrutierung und Evaluation unserer Freelancer:innen und kümmern sich um Rückfragen zur Zusammenarbeit."
+              },
+              {
+                "title": "Sales & Marketing",
+                "description": "Die beiden Teams haben ein übergeordnetes Ziel: unser Wachstum vorantreiben. Ihre Aufgaben: Bedürfnisse erkennen, Inhalte und Lösungen bereitstellen und konkurrenzfähige Angebote zimmern."
+              },
+              {
+                "title": "Backoffice",
+                "description": "Der Motor unseres Unternehmens, der für den reibungslosen Ablauf sorgt, Zufriedenheit sicherstellt und uns beim Wachsen unterstützt. Aktuell bestehend aus folgenden Abteilungen:",
+                "list": [
+                  "People Management",
+                  "Finance",  
+                  "IT Support", 
+                  "Security & Quality"
+                ]
+              }
+            ],
+            "buttons": {
+              "one": "",
+              "other": ""
+            }
+          }
+        },
+        "jobs": {
+          "title": "So wirst du Teil des Teams: unsere freien Stellen",
+          "noJobs": "Aktuell haben wir keine Stellen zu vergeben",
+          "footerMessage": "Der passende Job war nicht dabei? Dann überzeug uns davon, dass wir dich trotzdem unbedingt kennenlernen müssen. Sende uns deine <bold>Spontanbewerbung</bold> an <bold><emailContact>people@supertext.com</emailContact></bold>."
+        },
+        "article_one": {
+          "tag": "WERTE & BENEFITS",
+          "title": "Unsere <highlight>Vielfalt</highlight> macht uns stark",
+          "description": "Wir vereinen unzählige Kulturen, Sprachen, Talente und Interessen an einem Ort. Das bereichert unsere Zusammenarbeit und macht uns zu dem, was wir sind: der All-in-one-Anbieter, der für jede sprachliche Herausforderung eine Lösung findet. <break></break> <break></break> Ein Miteinander auf Augenhöhe ist für uns genauso selbstverständlich wie faire Entlöhnung und ein offenes, flexibles Arbeitsumfeld. Bei Supertext organisieren wir uns selbstbestimmt, übernehmen Verantwortung und bringen Ideen ein, die unsere Kultur aktiv mitgestalten. Mit Schulungen und laufendem Feedback erweitern wir unser Wissen und treiben die persönliche Entwicklung voran."
+        },
+        "footerNote": {
+          "text": "Du bist <highlightText>Freelancer:in</highlightText> und möchtest mit uns <highlightText>zusammenarbeiten?</highlightText> ",
+          "description": "Wir sind immer auf der Suche nach Texterinnen, Übersetzern, SEO-Spezialistinnen oder Lektoren, die unser Team an Sprachprofis ergänzen.",
+          "cta": {
+            "title": "Als Freelancer:in registieren",
+            "link": "https://www.supertext.com/de/startapplication",
+            "target": "_blank"
           }
         }
       },

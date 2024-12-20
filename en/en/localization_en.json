@@ -1,0 +1,3100 @@
+{
+  "open": {
+    "pricing": {
+      "modals": {
+        "misc": {
+          "close": "Close"
+        },
+        "waiting_list": {
+          "cta_and_header": "Join waitlist",
+          "validation": {
+            "terms_and_conditions": "Checkbox is required",
+            "email": {
+              "invalid_email": "Invalid email",
+              "required": "Email is required"
+            }
+          },
+          "form": {
+            "email": {
+              "placeholder": "Enter your email address",
+              "label": "* Email"
+            },
+            "checkbox": {
+              "label": "I agree to be contacted by Supertext when the Basic subscription is available"
+            }
+          },
+          "completion_message": {
+            "message": "Thank you for your interest! We will get in touch as soon as the subscription is available!"
+          }
+        },
+        "offer": {
+          "cta_and_header": "Request a quote",
+          "validation": {
+            "terms_and_conditions": "Checkbox is required",
+            "name": {
+              "required": "Name is required"
+            },
+            "email": {
+              "invalid_email": "Invalid email",
+              "required": "Email is required"
+            },
+            "company_name": {
+              "required": "Company name is required"
+            },
+            "number_of_users": {
+              "required": "Number of users is required"
+            }
+          },
+          "form": {
+            "name": {
+              "placeholder": "Enter your full name",
+              "label": "* Name"
+            },
+            "email": {
+              "placeholder": "Enter your email address",
+              "label": "* Email"
+            },
+            "company_name": {
+              "placeholder": "Enter your company name",
+              "label": "* Company"
+            },
+            "number_of_users": {
+              "placeholder": "Enter the number of potential users",
+              "label": "* Number of users"
+            },
+            "phone_number": {
+              "placeholder": "Enter your phone number",
+              "label": "Phone number"
+            },
+            "special_requirements": {
+              "placeholder": "Enter your message",
+              "label": "Special Request"
+            },
+            "checkbox": {
+              "label": "I agree to provide my information to Supertext and to be contacted by a representative"
+            }
+          },
+          "completion_message": {
+            "message": "Thank you for your interest in our Enterprise offering. We will get in touch with you as soon as possible."
+          }
+        }
+      },
+      "global_switches": {
+        "yearly_billing": "Save 16% with annual billing"
+      },
+      "sections": {
+        "section_one": {
+          "top_title": "Pricing",
+          "title": "Choose a plan that’s right for you and your team"
+        },
+        "section_two": {
+          "top_title": "Features",
+          "title": "Discover all features in detail here"
+        },
+        "section_three": {
+          "top_title": "Discounts",
+          "title": "Educational and non-profit organisations",
+          "sub_title": "We offer discounted subscriptions for educational and non-profit organisations. Contact us for more information.",
+          "button": {
+            "link": "https://www.supertext.com/business/contact",
+            "title": "Get a discount"
+          }
+        }
+      },
+      "plans": [
+        {
+          "plan_title": "Free",
+          "plan_description": "For everyone",
+          "cta": {
+            "title": "Register",
+            "description": {
+              "description": "{0} for increased limits.",
+              "description_link_text": "Register free of charge",
+              "link": "https://supertext.com/login"
+            },
+            "link": "https://www.supertext.com/login",
+            "price": {
+              "monthly": "Free",
+              "yearly": "Free"
+            }
+          },
+          "features": [
+            {
+              "title": "5 languages"
+            },
+            {
+              "title": "Limited text translation",
+              "description": "Translate 2,500 characters at once (up to 5,000 with free registration)"
+            },
+            {
+              "title": "1 editable file translation per day, up to 5 MB",
+              "description": "3 editable file translations per day with free registration"
+            }
+          ]
+        },
+        {
+          "plan_title": "Basic",
+          "plan_description": "For individuals and small businesses",
+          "cta": {
+            "title": "Join waitlist",
+            "description": {
+              "description": "Free for 30 days. Cancel anytime."
+            },
+            "price": {
+              "monthly": "CHF 24.00",
+              "yearly": "CHF 20.00"
+            },
+            "price_description": "Per user, per month"
+          },
+          "features": [
+            {
+              "title": "23 languages"
+            },
+            {
+              "title": "Maximum data security",
+              "description": "End-to-end encryption and immediate text deletion"
+            },
+            {
+              "title": "Unlimited text translation",
+              "description": "A fair use policy applies"
+            },
+            {
+              "title": "10 editable file translations per day, up to 10 MB in size"
+            },
+            {
+              "title": "PDF support"
+            }
+          ]
+        },
+        {
+          "plan_title": "Enterprise",
+          "plan_description": "For organisations with 30+ users",
+          "cta": {
+            "title": "Request a quote",
+            "description": {
+              "description": "See more information and use cases on our {0}",
+              "description_link_text": "business website.",
+              "link": "https://www.supertext.com/business"
+            },
+            "price": {
+              "monthly": "from CHF 72.00",
+              "yearly": "from CHF 60.00"
+            },
+            "price_description": "Per user, per month"
+          },
+          "features": [
+            {
+              "title": "Everything included in Basic"
+            },
+            {
+              "title": "SaaS, private cloud, or on-premises hosting"
+            },
+            {
+              "title": "Single sign-on (SSO)"
+            },
+            {
+              "title": "Unlimited editable file translations, up to 30 MB in size",
+              "description": "A fair use policy applies"
+            },
+            {
+              "title": "Custom AI models and branding",
+              "description": "Get unparalleled translation quality with AI models that keep learning and improving from your translations"
+            },
+            {
+              "title": "Cockpit",
+              "description": "For custom branding and translation styles, user management, and more"
+            },
+            {
+              "title": "Microsoft Office and CAT tool integration",
+              "description": "Translate directly using the software tools in your day-to-day work."
+            },
+            {
+              "title": "API access",
+              "description": "Integrate AI translations into your own applications and workflows."
+            }
+          ]
+        }
+      ],
+      "features_table": {
+        "footer": {
+          "text": {
+            "title": "Why Swiss Life and Die Mobiliar work with Supertext?",
+            "sub_title": ""
+          },
+          "cta": {
+            "title": "Explore use cases",
+            "link": "https://supertext.com/business/en/applications"
+          }
+        },
+        "misc": {
+          "optional": "Optional",
+          "select_a_plan": "Select plan",
+          "plans_title": {
+            "free": "Free",
+            "basic": "Basic",
+            "enterprise": "Enterprise"
+          }
+        },
+        "sections": [
+          {
+            "title": "Languages",
+            "rows": [
+              {
+                "header_description": "Enterprise: additional languages on request",
+                "content": [
+                  "Languages",
+                  "English, French, German, Italian, Romansh",
+                  "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Swedish, Slovak, Slovenian, Spanish",
+                  "Albanian, Chinese, Czech, Danish, Dutch, English, French, Finnish, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish"
+                ]
+              },
+              {
+                "content": [
+                  "Language variants",
+                  "English (UK, US), German (AT, CH, DE, Swiss German Dialect)",
+                  "Chinese (Traditional, Simplified), English (UK, US), German (AT, CH, DE, Swiss German Dialect), Portuguese (BR, PT), Serbian (Cyrillic, Latin)",
+                  "Chinese (Traditional, Simplified), English (UK, US), German (AT, CH, DE, Swiss German Dialect), Portuguese (BR, PT), Serbian (Cyrillic, Latin)"
+                ]
+              },
+              {
+                "header_description": "Control aspects such as punctuation, number formatting, and more in translation outputs",
+                "content": [
+                  "Custom style guides",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Security",
+            "rows": [
+              {
+                "content": [
+                  "Data processing",
+                  "Switzerland",
+                  "Switzerland",
+                  "Switzerland (SaaS) or location of choice (private cloud, on-premises)"
+                ]
+              },
+              {
+                "header_description": "Your information is transferred securely and cannot be intercepted or read by third parties",
+                "content": [
+                  "Encrypted transfer",
+                  "1",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "header_description": "All texts are deleted immediately after translation and can never be intercepted or read by third parties",
+                "content": [
+                  "Immediate text deletion",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "content": [
+                  "Single sign-on (SSO)",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              },
+              {
+                "content": [
+                  "Private cloud or on-premises hosting",
+                  "0",
+                  "0",
+                  "@@optional@@ 1"
+                ]
+              },
+              {
+                "content": [
+                  "Custom TLS/SSL certificates",
+                  "0",
+                  "0",
+                  "@@optional@@ 1"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Text translation",
+            "rows": [
+              {
+                "content": [
+                  "Unlimited text translation",
+                  "Max. 2,500 characters (5,000 with free registration)",
+                  "1",
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "File translation",
+            "rows": [
+              {
+                "content": [
+                  "Unlimited file translation",
+                  "1 file per day (3 files per day with free registration), per user",
+                  "10 files per day, per user",
+                  "1"
+                ]
+              },
+              {
+                "content": [
+                  "Maximum file size",
+                  "5 MB",
+                  "10 MB",
+                  "30 MB"
+                ]
+              },
+              {
+                "content": [
+                  "File editing allowed",
+                  "1",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "content": [
+                  "Microsoft Office file types",
+                  "Word (.docx), Powerpoint (.pptx)",
+                  "Word (.docx), Powerpoint (.pptx)",
+                  "Word (.docx), Excel (.xlsx), Powerpoint (.pptx)"
+                ]
+              },
+              {
+                "content": [
+                  "PDF files",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "content": [
+                  "SRT files",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Customisation",
+            "rows": [
+              {
+                "content": [
+                  "Formal/informal tone",
+                  "1",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "header_description": "Define how specific terminology should be translated",
+                "content": [
+                  "Custom glossaries",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "header_description": "Define how specific terminology should be translated for all users within your organisation",
+                "content": [
+                  "Organisation-wide glossaries",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              },
+              {
+                "header_description": "Apply corporate branding to Supertext and make it your own",
+                "content": [
+                  "Custom branding",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              },
+              {
+                "header_description": "Get unparalleled translation quality with AI models that keep learning and improving from your translations",
+                "content": [
+                  "Custom AI models",
+                  "0",
+                  "0",
+                  "@@optional@@ 1"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Integrations",
+            "rows": [
+              {
+                "header_description": "Increase professional translation productivity by using Supertext from within Trados Studio, MemoQ, and many more CAT tools",
+                "read_more": {
+                  "text": "Learn more",
+                  "link": "https://supertext.com/business/en/features#integration"
+                },
+                "content": [
+                  "CAT tools",
+                  "0",
+                  "0",
+                  "@@optional@@ 1"
+                ]
+              },
+              {
+                "header_description": "Use Supertext directly within Microsoft Word, PowerPoint, and Outlook",
+                "content": [
+                  "Microsoft Office add-ins",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              },
+              {
+                "header_description": "Integrate AI translations into your own applications and workflows",
+                "content": [
+                  "Supertext API",
+                  "0",
+                  "0",
+                  "@@optional@@ 1"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Support",
+            "rows": [
+              {
+                "content": [
+                  "Email Support",
+                  "0",
+                  "1",
+                  "1"
+                ]
+              },
+              {
+                "content": [
+                  "Telephone Support",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              },
+              {
+                "header_description": "During office hours (9:00–18:00h CET) from Monday to Friday",
+                "content": [
+                  "First response within 60 minutes",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              },
+              {
+                "content": [
+                  "Account manager",
+                  "0",
+                  "0",
+                  "1"
+                ]
+              },
+              {
+                "content": [
+                  "Uptime guarantee",
+                  "Best effort",
+                  "Best effort",
+                  "1"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "signup": "Register",
+    "login": "Log in",
+    "searchLanguage": "Search language",
+    "feedback": {
+      "title": "Feedback",
+      "description": "Thank you for your feedback! You are welcome to fill in this form as many times as you like. If you have no specific feedback, just give us a rating and leave the rest blank.",
+      "inputs": {
+        "nps": {
+          "title": "* How likely are you to recommend Supertext to your friends?",
+          "negative": "Very unlikely",
+          "positive": "Very likely",
+          "error_message": "A rating is required to submit the form"
+        },
+        "feedback_type": {
+          "title": "What type of feedback would you like to share with us?",
+          "types": {
+            "default": "Choose one…",
+            "general": "General feedback",
+            "improvement": "Suggested improvement",
+            "problem": "Report an issue"
+          }
+        },
+        "message": {
+          "title": "Message",
+          "placeholder": "Your feedback…"
+        },
+        "recommend_type": {
+          "title": "Would you recommend the product in its current form to other people?",
+          "default": "Choose one…",
+          "yes": "Yes",
+          "no": "No",
+          "maybe": "Maybe"
+        },
+        "email": {
+          "title": "Email",
+          "description": "By providing your email address, you allow us to store it in order to contact you if we have news or queries regarding your feedback and update you on our latest features.",
+          "placeholder": "Enter your email address (optional)"
+        },
+        "submit_button": {
+          "submit": "Submit feedback",
+          "sent": "Feedback sent!",
+          "sending": "Sending…"
+        }
+      }
+    },
+    "fileTranslation": {
+      "backButton": "Text Translator",
+      "backButtonShort": "Back",
+      "externalUploadButton": "Upload",
+      "externalUploadTag": "Drag a file here",
+      "externalTranslating": "Translating",
+      "dropFile": "Drag a file ({supportedFileExtensions}) here or",
+      "dropAnotherFile": "Drag another file ({supportedFileExtensions}) here or",
+      "translateButton": "Translate to {toTargetLang}",
+      "translateButtonRetry": "Try again",
+      "cancelButton": "Cancel",
+      "translating": "Translate {filename} {fromSourceLang} {toTargetLang}",
+      "fileUploadButton": "Select a file",
+      "invalidFileType": "Invalid file type",
+      "fileSizeExceeded": "This file is too large to be uploaded. Files larger than {0} MB are currently not supported.",
+      "estimatedTime": "Estimated time remaining: {0}",
+      "expectationExceeded": "The translation is taking longer than expected. Please wait…",
+      "downloadViaEmail": "Receive by email",
+      "downloadViaEmailMessage": "Large files may take a while to translate. As a registered user, you can request that the file be sent to your email address after it has been translated.",
+      "ocrHelperText": "Use OCR for scanned or photographed PDFs to enhance accuracy. For regular text-only PDFs, OCR is not needed.",
+      "ocr_options": {
+        "ocr_auto": "Auto",
+        "ocr_off": "Off",
+        "ocr_on": "On"
+      },
+      "docRemainingPerDay": "1 file remaining",
+      "docsRemainingPerDay": "{0} files remaining",
+      "docLimitsPerRequest": "Max {0}MB, {1} characters",
+      "docLimitsPerRequestUnlimitedChars": "Max {0}MB"
+    },
+    "profile": {
+      "profile": "Profile",
+      "userNameStatus": "Registered User",
+      "save": "Save",
+      "general": "General",
+      "generalDescription": "General User Settings",
+      "displayName": "Display Name",
+      "email": "Email",
+      "changePassword": "Change Password",
+      "deleteAccount": "Delete Account",
+      "beta": "Beta",
+      "betaDescription": "New features",
+      "security": "Security",
+      "securityDescription": "Change your password",
+      "passwords": {
+        "oldPassword": "Old Password",
+        "newPassword": "New Password",
+        "confirmNewPassword": "Confirm New Password",
+        "validationMessages": {
+          "displayName": "Display name is required",
+          "passwordNoMatch": "Passwords do not match",
+          "passwordType": "Password must be at least 8 characters, 1 Special character, and 1 number"
+        }
+      },
+      "modal": {
+        "title": "Are you sure you want to delete your account?",
+        "description": "This will permanently delete your account and all saved settings.  You will always be able to create a new account when you are ready.",
+        "close": "Close"
+      }
+    },
+    "languageMenu": {
+      "cta": "Plus 18 more languages in our business solution",
+      "href": "/business/en/features"
+    },
+    "NpsSurveyPopup": {
+      "question": "How likely are you to recommend Supertext to your friends?",
+      "leastLikely": "Very Unlikely",
+      "mostLikely": "Very Likely",
+      "detailedFeedBackLink": "Would you like to provide more detailed feedback?",
+      "buttons": {
+        "closeIconButtonTooltip": "Close",
+        "submit": "Submit",
+        "close": "Close"
+      }
+    },
+    "landingPage": {
+      "teaser": "Why Supertext?",
+      "hero": {
+        "title": "Break down language barriers with Supertext – it’s more than just a simple translator.",
+        "description_line1": "Communicate faster, better and easier. With Supertext, you can translate content online in the blink of an eye. Become fluent in all national languages – era rumantsch! {br} {br} Thanks to the next-generation of artificial intelligence (AI), you can now simplify your translation process: translate different file formats into other languages in just a single click. Our translation AI is constantly learning. And you can count on continuous development – including new helpful features. {br} {br} No matter if you are a private individual, small company or large organisation, Supertext offers you an innovative translation solution operated on Swiss servers with stringent security standards."
+      },
+      "register_section": {
+        "title": "Get even more with Supertext translation’s software",
+        "description": "Get more translation power for free: register for our free plan. By doing so, you can actively help to make the Supertext translator even better.",
+        "cta": "Register for free",
+        "details": {
+          "detail1": {
+            "title": "5,000 characters",
+            "description": "Instead of 2,500 characters"
+          },
+          "detail2": {
+            "title": "Up to 3 documents a day",
+            "description1": "Instead of 1 document a day",
+            "description2": "Editable and without advertising"
+          },
+          "detail3": {
+            "title": "Customised settings",
+            "description": "Use on different devices"
+          }
+        }
+      },
+      "feature_tutorial": {
+        "title": "Take control",
+        "description": "Not quite satisfied with a translation or looking for inspiration?",
+        "list": {
+          "item1": "Click on a word to get alternatives.",
+          "item2": "Select multiple words for rephrasing.",
+          "item3": "Edit translations manually as needed.",
+          "item4": "Like or dislike results to help us improve."
+        },
+        "desktop_only": "Only available on desktop"
+      },
+      "site_map_section": {
+        "title": "Our most popular language combinations",
+        "links1": [
+          {
+            "text": "German - English",
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-englisch/10001"
+          },
+          {
+            "text": "German - French",
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-franzoesisch/10002"
+          },
+          {
+            "text": "German - Italian",
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-italienisch/10004"
+          },
+          {
+            "text": "German - Swiss German",
+            "link": "https://supertext.com/de/s/uebersetzen/deutsch-schweizerdeutsch/10006"
+          },
+          {
+            "text": "German - Romansh",
+            "link": "https://supertext.com/de/s/uebersetzen/raetoromanisch-deutsch/10007"
+          },
+          {
+            "text": "English - German",
+            "link": "https://supertext.com/en/s/translate/english-german/10000"
+          },
+          {
+            "text": "French - German",
+            "link": "https://supertext.com/fr/s/traduction/allemand-francais/10003"
+          },
+          {
+            "text": "Italian - German",
+            "link": "https://supertext.com/it/s/traduzione/italiano-tedesco/10005"
+          }
+        ]
+      },
+      "features_section": {
+        "title": "Translate easier and faster with Supertext – tailor your communication",
+        "description": "Supertext speaks your language: discover more benefits of using Supertext with a Basic or Enterprise plan – for ambitious teams and companies.",
+        "cta": "Discover all features",
+        "link": "https://supertext.com/business/en/features",
+        "details": [
+          {
+            "title": "40–60% increase in efficiency",
+            "descriptions": [
+              "More time for everything AI can’t help with."
+            ]
+          },
+          {
+            "title": "Tailor-made translations",
+            "descriptions": [
+              "Communication that follows your style guide and is based on your data, in more than 20 languages."
+            ]
+          },
+          {
+            "title": "Save time and money",
+            "descriptions": [
+              "Manage large text volumes automatically"
+            ]
+          },
+          {
+            "title": "Seamless integration",
+            "descriptions": [
+              "Can be directly integrated into your internal systems (e.g. Microsoft Office, CAT tool) or via the Supertext API"
+            ]
+          },
+          {
+            "title": "Maximum control",
+            "descriptions": [
+              "Choose the hosting option that suits you and easily manage it via your Supertext Cockpit"
+            ]
+          }
+        ]
+      },
+      "partners_section": {
+        "title": "Diese Unternehmen kommunizieren bereits mehrsprachig – einheitlich und sicher",
+        "cta_text": "Unsere massgeschneiderte Business-Lösung für Ihr Unternehmen",
+        "cta": "Jetzt entdecken",
+        "cta_link": "https://supertext.com/business/en"
+      },
+      "reviews_section": {
+        "title": "Our users are fluent in at least five languages",
+        "reviews": [
+          {
+            "text": "I love you guys! Your website is a lifesaver – especially for Swiss German translations! I use it every day.",
+            "author": {
+              "imageLink": "",
+              "name": "",
+              "description": "",
+              "cta": {
+                "title": "",
+                "link": ""
+              }
+            }
+          },
+          {
+            "text": "Cool tool, I really like that you can make individual corrections to the translation suggestions.",
+            "author": {
+              "imageLink": "",
+              "name": "",
+              "description": "",
+              "cta": {
+                "title": "",
+                "link": ""
+              }
+            }
+          },
+          {
+            "text": "It’s fantastic!!",
+            "author": {
+              "imageLink": "",
+              "name": "",
+              "description": "",
+              "cta": {
+                "title": "",
+                "link": ""
+              }
+            }
+          },
+          {
+            "text": "We’re so lucky to have you!!!",
+            "author": {
+              "imageLink": "",
+              "name": "",
+              "description": "",
+              "cta": {
+                "title": "",
+                "link": ""
+              }
+            }
+          },
+          {
+            "text": "The best translation website when it comes to translating Swiss German into standard German.",
+            "author": {
+              "imageLink": "",
+              "name": "",
+              "description": "",
+              "cta": {
+                "title": "",
+                "link": ""
+              }
+            }
+          },
+          {
+            "text": "The best translation aid that I know of – it’s super helpful.",
+            "author": {
+              "imageLink": "",
+              "name": "",
+              "description": "",
+              "cta": {
+                "title": "",
+                "link": ""
+              }
+            }
+          },
+          {
+            "text": "I think it’s great that Romansh is available.",
+            "author": {
+              "imageLink": "",
+              "name": "",
+              "description": "",
+              "cta": {
+                "title": "",
+                "link": ""
+              }
+            }
+          }
+        ]
+      },
+      "footer": {
+        "title": "These companies are already multilingual – and all consistent with their style",
+        "cta": "Our business solution",
+        "cta_link": "https://supertext.com/business/en",
+        "contact": "Contact",
+        "newsletter": "Newsletter",
+        "newsletterLink": "https://eepurl.com/ip4zME",
+        "impressum": "Imprint",
+        "disclaimer": "Disclaimer",
+        "business_links": {
+          "header": {
+            "title": "For Businesses",
+            "link": ""
+          },
+          "home": {
+            "title": "Home",
+            "link": ""
+          },
+          "product": {
+            "title": "Product",
+            "link": "/product"
+          },
+          "features": {
+            "title": "Features",
+            "link": "/features"
+          },
+          "applications": {
+            "title": "Applications",
+            "link": "/applications"
+          },
+          "about": {
+            "title": "About us",
+            "link": "/about"
+          },
+          "services": {
+            "title": "Services",
+            "link": "/services"
+          },
+          "upgrade": {
+            "title": "Pricing",
+            "link": "/pricing"
+          },
+          "blog": {
+            "title": "Blog",
+            "link": "/blog"
+          },
+          "jobs": {
+            "title": "Jobs",
+            "link": "/jobs"
+          },
+          "media": {
+            "title": "Media-ok",
+            "link": "/media-page"
+          },
+          "contact": {
+            "title": "Contact",
+            "link": "/contact"
+          }
+        },
+        "address": {
+          "title": "Supertext",
+          "street": "Schaffhauserstrasse 339",
+          "city": "8050 Zurich"
+        }
+      }
+    },
+    "cookieBanner": {
+      "textPrefix": "We use cookies in order to continually improve our website. By clicking “Accept”, you agree to the use of cookies in accordance with our",
+      "link": "Privacy Policy.",
+      "textSuffix": "Alternatively, you can specify your preferred settings by clicking “More options”.",
+      "accept": "Accept",
+      "moreOptions": "More options",
+      "modal": {
+        "title": "Cookie settings",
+        "descriptionPrefix": "You can choose which cookies are set when you use our website by adjusting your preferences. For more information, please see our",
+        "link": "Privacy Policy.",
+        "descriptionSuffix": "",
+        "accept": "Accept all",
+        "yes": "Yes",
+        "no": "No",
+        "saveSettings": "Save settings",
+        "alwaysOn": "Always active",
+        "necessary": "Necessary cookies",
+        "performance": "Analytics cookies",
+        "necessaryDescription": "These cookies are necessary for the website to function and cannot be deactivated. Generally, they are only set in response to actions you take that correspond to a service request, such as setting your privacy preferences, logging in, or filling out forms. Necessary cookies do not store any personal information.",
+        "performanceDescription": "These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our website. They help us to see how visitors move around the site and what features they use. Any information they collect is aggregated and therefore anonymous. If you choose not to use them, we will not know when you visited our site and will not be able to monitor its performance."
+      }
+    },
+    "genderfairFirstRunExperienceToggle": {
+      "text": "We now support genderfair language for German and English.",
+      "link": "Read our blog post.",
+      "href": "https://supertext.com/business/en/blog/genderfair"
+    },
+    "firstRunExperienceToggle": {
+      "text": "Click on a word or select multiple words to get alternatives.",
+      "link": "See more"
+    },
+    "userLimits": {
+      "signupButton": "Register",
+      "loginButton": "Log in",
+      "notAuthenticated": {
+        "textLimit": {
+          "header": "Do you want to translate longer texts?",
+          "body": "You have reached the maximum number of {0} characters. If you sign up, you will receive double the character allowance for translation."
+        },
+        "fileLimit": {
+          "header": "Sign up now and translate and edit up to three documents per day."
+        },
+        "fileSize": {
+          "header": "This file is a bit too big.",
+          "body": "Your document exceeds the maximum size of {0} MB. If you sign up, you will receive double the character allowance for translation."
+        },
+        "fileCharacters": {
+          "header": "Do you want to translate longer documents?",
+          "body": "You have reached the maximum number of {0} characters. If you sign up, you will receive double the character allowance for translation."
+        }
+      },
+      "authenticated": {
+        "textLimit": {
+          "header": "You have reached your limit",
+          "body": "You have reached the maximum number of {0} characters."
+        },
+        "fileLimit": {
+          "header": "Maximum reached – you’ll have a new three-file allowance tomorrow.",
+          "body": "You have reached the maximum number of three documents per day."
+        },
+        "fileSize": {
+          "header": "This file is a bit too big.",
+          "body": "Your document exceeds the maximum size of {0} MB."
+        },
+        "fileCharacters": {
+          "header": "You have reached your limit",
+          "body": "You have reached the maximum number of {0} characters."
+        }
+      }
+    },
+    "navbar": {
+      "why": "Why Supertext?",
+      "enterprise": "For Businesses",
+      "upgrade": "Pricing"
+    },
+    "genderFair": {
+      "GENDERFAIR_NAME": "Genderfair",
+      "GENDERFAIR_FAIR_BADGE": "Fair",
+      "BETA": "Beta",
+      "GENDERFAIR_ON": "On",
+      "GENDERFAIR_OFF": "Off",
+      "GENDERFAIR_DISCLAIMER": "AI Translation might be biased. Enable to reduce gender bias.",
+      "GENDERFAIR_ARTICLE_DISCLAIMER": "Read our blog post.",
+      "GENDERFAIR_ARTICLE_LINK": "https://supertext.com/business/en/blog/genderfair"
+    }
+  },
+  "user": "User",
+  "content": "Content",
+  "tone": "Tonality",
+  "settings": {
+    "save": "Save",
+    "automatic": "Automatic",
+    "settings": "Settings",
+    "themePreferences": {
+      "themePreferences": "Theme preferences",
+      "DayTheme": "Light",
+      "NightTheme": "Dark",
+      "SystemTheme": "Apply system settings"
+    },
+    "language": "Language",
+    "preferredSource": "Preferred source language",
+    "preferredTarget": "Preferred target language",
+    "general": "General",
+    "generalDescription": "General settings of the app",
+    "appearance": "Appearance",
+    "appearanceDescription": "Control the appearance of the app"
+  },
+  "tooltips": {
+    "copyTargetText": "Copy translation",
+    "copyTargetTextCompleted": "Copied!",
+    "clearSourceText": "Clear text",
+    "swapLanguages": "Swap languages",
+    "targetTextLength": "Number of characters",
+    "sourceTextCharacterLimit": "Number of characters / maximum",
+    "verifiedTranslations": "Highlight verified translations",
+    "rephraseTranslation": "Rephrase",
+    "editGlossary": "Edit glossary",
+    "deleteGlossary": "Delete glossary",
+    "deleteTerm": "Delete term"
+  },
+  "popovers": {
+    "exactTerms": "Verified translation by {0}",
+    "confirmationTitle": "Confirmation",
+    "confirmationText": "Are you sure you want to continue with this action?"
+  },
+  "fileTranslation": {
+    "uploading": "Uploading file",
+    "detecting": "Detecting language",
+    "translating": "Translating file",
+    "downloading": "Downloading file",
+    "successfulDownload": "File successfully downloaded",
+    "translateAgain": "Translate another file",
+    "downloadAgain": "Download file again",
+    "size": "Size",
+    "type": "Type",
+    "dropFile": "Drag and drop a file here",
+    "dropAnotherFile": "Drag another file ({supportedFileExtensions}) here or",
+    "translateButton": "Translate to {toTargetLang}",
+    "translateButtonRetry": "Try again",
+    "cancelButton": "Cancel",
+    "fileUploadButton": "Select a file",
+    "invalidFileType": "Invalid file type",
+    "fileSizeExceeded": "This file is too large to be uploaded. Files larger than {0} MB are currently not supported.",
+    "estimatedTime": "Estimated time remaining: {0}",
+    "expectationExceeded": "The translation is taking longer than expected. Please wait…",
+    "ocrHelperText": "Use OCR for scanned or photographed PDFs to enhance accuracy. For regular text-only PDFs, OCR is not needed.",
+    "ocr_options": {
+      "ocr_auto": "Auto",
+      "ocr_off": "Off",
+      "ocr_on": "On"
+    }
+  },
+  "modeSelectorButton": {
+    "TRANSLATE_TEXT": "Text",
+    "TRANSLATE_FILE": "Document",
+    "TRANSLATE_ASSISTANT": "Assistant"
+  },
+  "rephraseButton": "Rephrase into",
+  "politenessDropDown": {
+    "POLITENESS_VARIANTS": "Variants",
+    "POLITENESS_BUTTON_TITLE": "Language form",
+    "POLITENESS_FORMALITY": "Formality",
+    "POLITENESS_AUTOMATIC": "Automatic",
+    "POLITENESS_FORMAL": "Formal",
+    "POLITENESS_INFORMAL": "Informal",
+    "UNSELECTED": "Formal/Informal"
+  },
+  "lengthMatchingFeature": {
+    "title": "Length Matching"
+  },
+  "glossaryFeature": {
+    "glossary": "Glossary",
+    "glossaries": "Glossaries",
+    "addGlossary": "Add glossary",
+    "createGlossary": "Create glossary",
+    "glossaryName": "Glossary name",
+    "sourceTerm": "Source term",
+    "targetTerm": "Target term",
+    "search": "Search term",
+    "sourceLanguage": "Source language",
+    "targetLanguage": "Target language",
+    "targetLanguages": "Target languages",
+    "languagePair": "Language pair",
+    "editTerm": "Edit term",
+    "verifiedTranslations": "Highlight verified translations",
+    "verifyNameError": "Glossary name already in use",
+    "deleteGlossary": "Delete glossary",
+    "exportGlossary": "Export CSV",
+    "importGlossary": "Import CSV",
+    "csvTemplate": "CSV Template",
+    "emptyList": "No glossary entries added yet",
+    "termLanguagePairExists": "Entry already exists in the glossary",
+    "errorImportSuffix": "One or more languages not supported",
+    "errorExportNoEntries": "No entries available for export",
+    "errorImportInvalidEntry": "Invalid entry",
+    "errorImportInvalidSource": "Invalid source language",
+    "errorImportInvalidTarget": "Invalid target language",
+    "errorImportInvalidTerm": "Invalid source or target term",
+    "termsAddedSuccessfully": "{count} term(s) added successfully",
+    "glossaryDeletedSuccessfully": "Glossary deleted successfully",
+    "glossaryCreatedSuccessfully": "Glossary created successfully",
+    "glossaryTemplateExportSucessful": "Glossary template download successful",
+    "noGlossaryDataToExport": "No data found in the glossary to export",
+    "csvExportSuccessfully": "CSV exported successfully",
+    "csvImportSuccessfully": "CSV imported successfully",
+    "csvImportFailed": "An error occurred while importing the CSV file",
+    "csvExportFailed": "An error occurred while exporting the CSV file",
+    "csvImportBadHeaders": "No valid headers found in the imported CSV file",
+    "selectAll": "Select all",
+    "reset": "Reset",
+    "autoFill": "Auto-fill",
+    "addTerms": "Add term",
+    "addAndRepeat": "Add and repeat"
+  },
+  "on": "On",
+  "off": "Off",
+  "add": "Add",
+  "create": "Create",
+  "delete": "Delete",
+  "save": "Save",
+  "cancel": "Cancel",
+  "areYouSure": "Are you sure?",
+  "apply": "Apply",
+  "undoButton": "Undo",
+  "redoButton": "Redo",
+  "backButton": "Back",
+  "editorPlaceholder": "Insert text here to translate it",
+  "login": "Log in",
+  "logout": "Log out",
+  "news": "Notifications",
+  "noNotifications": "There are no notifications at the moment.",
+  "manual": "User Guide",
+  "searchLanguage": "Search language",
+  "identifyLanguage": "Identify language",
+  "identifyPivot": "Identify native language",
+  "identifiedNativeLanguage": "Identified native language",
+  "nativeLanguage": "Native language",
+  "chooseLanguage": "Select target language",
+  "detected": "identified",
+  "mixed": "mixed",
+  "word": "Word",
+  "translation": "Translation",
+  "translateDocument": "Translate document",
+  "languages": {
+    "x-mixed": "Multiple languages",
+    "cs": "Czech",
+    "da": "Danish",
+    "de": "German",
+    "de-CH": "German (Switzerland)",
+    "de-DE": "German (Germany)",
+    "de-AT": "German (Austria)",
+    "en": "English",
+    "en-AU": "English (Australia)",
+    "en-CA": "English (Canada)",
+    "en-GB": "English (UK)",
+    "en-US": "English (US)",
+    "es": "Spanish",
+    "fi": "Finnish",
+    "fr": "French",
+    "fr-CH": "French (Switzerland)",
+    "fr-FR": "French (France)",
+    "gsw": "Swiss German",
+    "gsw-u-sd-chbe": "Swiss German (Bern)",
+    "gsw-u-sd-chzh": "Swiss German (Zurich)",
+    "hu": "Hungarian",
+    "it": "Italian",
+    "it-CH": "Italian (Switzerland)",
+    "it-IT": "Italian (Italy)",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "nb": "Norwegian",
+    "nl": "Dutch",
+    "pl": "Polish",
+    "pt": "Portuguese",
+    "pt-BR": "Portuguese (Brazil)",
+    "pt-PT": "Portuguese (Portugal)",
+    "rm": "Romansh",
+    "ru": "Russian",
+    "sk": "Slovak",
+    "sl": "Slovenian",
+    "sq": "Albanian",
+    "sr": "Serbian",
+    "sr-Cyrl": "Serbian (Cyrillic)",
+    "sr-Latn": "Serbian (Latin)",
+    "sv": "Swedish",
+    "zh": "Chinese",
+    "zh-Hans": "Chinese (Simplified)",
+    "zh-Hant": "Chinese (Traditional)"
+  },
+  "languageVariants": {
+    "de-AT": "AT",
+    "de-CH": "CH",
+    "de-DE": "DE",
+    "en-AU": "AU",
+    "en-CA": "CA",
+    "en-GB": "UK",
+    "en-US": "US",
+    "fr-CH": "CH",
+    "fr-FR": "FR",
+    "gsw-u-sd-chbe": "BE",
+    "gsw-u-sd-chzh": "ZH",
+    "it-CH": "CH",
+    "it-IT": "IT",
+    "pt-BR": "BR",
+    "pt-PT": "PT",
+    "sr-Cyrl": "Cyrillic",
+    "sr-Latn": "Latin",
+    "zh-Hans": "Hans",
+    "zh-Hant": "Hant"
+  },
+  "languageVariantNames": {
+    "de-AT": "Austria (AT)",
+    "de-CH": "Switzerland (CH)",
+    "de-DE": "Germany (DE)",
+    "en-AU": "Australia (AU)",
+    "en-CA": "Canada (CA)",
+    "en-GB": "United Kingdom (UK)",
+    "en-US": "United States (US)",
+    "fr-CH": "Switzerland (CH)",
+    "fr-FR": "France (FR)",
+    "gsw-u-sd-chbe": "Bern (BE)",
+    "gsw-u-sd-chzh": "Zurich (ZH)",
+    "it-CH": "Switzerland (CH)",
+    "it-IT": "Italy (IT)",
+    "pt-BR": "Brazil (BR)",
+    "pt-PT": "Portugal (PT)",
+    "sr-Cyrl": "Cyrillic",
+    "sr-Latn": "Latin",
+    "zh-Hans": "Simplified (Hans)",
+    "zh-Hant": "Traditional (Hant)"
+  },
+  "languagesFrom": {
+    "x-mixed": "from multiple languages",
+    "cs": "from Czech",
+    "da": "from Danish",
+    "de": "from German",
+    "de-CH": "from German (Switzerland)",
+    "de-DE": "from German (Germany)",
+    "de-AT": "from German (Austria)",
+    "en": "from English",
+    "en-AU": "from English (Australia)",
+    "en-CA": "from English (Canada)",
+    "en-GB": "from English (UK)",
+    "en-US": "from English (US)",
+    "es": "from Spanish",
+    "fi": "from Finnish",
+    "fr": "from French",
+    "fr-CH": "from French (Switzerland)",
+    "fr-FR": "from French (France)",
+    "gsw": "from Swiss German",
+    "gsw-u-sd-chbe": "from Swiss German (Bern)",
+    "gsw-u-sd-chzh": "from Swiss German (Zurich)",
+    "hu": "from Hungarian",
+    "it": "from Italian",
+    "it-CH": "from Italian (Switzerland)",
+    "it-IT": "from Italian (Italy)",
+    "ja": "from Japanese",
+    "ko": "from Korean",
+    "nb": "from Norwegian",
+    "nl": "from Dutch",
+    "pl": "from Polish",
+    "pt": "from Portuguese",
+    "pt-BR": "from Portuguese (Brazil)",
+    "pt-PT": "from Portuguese (Portugal)",
+    "rm": "from Romansh",
+    "ru": "from Russian",
+    "sk": "from Slovak",
+    "sl": "from Slovenian",
+    "sq": "from Albanian",
+    "sr": "from Serbian",
+    "sr-Cyrl": "from Serbian (Cyrillic)",
+    "sr-Latn": "from Serbian (Latin)",
+    "sv": "from Swedish",
+    "zh": "from Chinese",
+    "zh-Hans": "from Chinese (Simplified)",
+    "zh-Hant": "from Chinese (Traditional)"
+  },
+  "languagesTo": {
+    "cs": "to Czech",
+    "da": "to Danish",
+    "de": "to German",
+    "de-CH": "to German (Switzerland)",
+    "de-DE": "to German (Germany)",
+    "de-AT": "to German (Austria)",
+    "en": "to English",
+    "en-AU": "to English (Australia)",
+    "en-CA": "to English (Canada)",
+    "en-GB": "to English (UK)",
+    "en-US": "to English (US)",
+    "es": "to Spanish",
+    "fi": "to Finnish",
+    "fr": "to French",
+    "fr-CH": "to French (Switzerland)",
+    "fr-FR": "to French (France)",
+    "gsw": "to Swiss German",
+    "gsw-u-sd-chbe": "to Swiss German (Bern)",
+    "gsw-u-sd-chzh": "to Swiss German (Zurich)",
+    "hu": "to Hungarian",
+    "it": "to Italian",
+    "it-CH": "to Italian (Switzerland)",
+    "it-IT": "to Italian (Italy)",
+    "ja": "to Japanese",
+    "ko": "to Korean",
+    "nb": "to Norwegian",
+    "nl": "to Dutch",
+    "pl": "to Polish",
+    "pt": "to Portuguese",
+    "pt-BR": "to Portuguese (Brazil)",
+    "pt-PT": "to Portuguese (Portugal)",
+    "rm": "to Romansh",
+    "ru": "to Russian",
+    "sk": "to Slovak",
+    "sl": "to Slovenian",
+    "sq": "to Albanian",
+    "sr": "to Serbian",
+    "sr-Cyrl": "to Serbian (Cyrillic)",
+    "sr-Latn": "to Serbian (Latin)",
+    "sv": "to Swedish",
+    "zh": "to Chinese",
+    "zh-Hans": "to Chinese (Simplified)",
+    "zh-Hant": "to Chinese (Traditional)"
+  },
+  "authentication": {
+    "authenticate": "Authenticate",
+    "authenticationRequired": "Authentication required",
+    "insertApiKey": "Enter your API key here"
+  },
+  "errors": {
+    "unknownError": "Unknown error occurred.",
+    "serviceUnavailable": "Service unavailable: {0}"
+  },
+  "notifications": {
+    "info": {
+      "waitingForSlowTranslation": "Your translation is taking a little longer than normal. Please be patient.",
+      "submittingVerification": "Transmission of the verification, please wait..."
+    },
+    "failure": {
+      "systemUnavailable": "The translation system is not available. Please contact your system administrator.",
+      "serviceUnavailable": "Service currently not available: {0}",
+      "languageDetection": "Could not identify language.",
+      "languagePairs": "Could not collect language pairs.",
+      "translation": "An error occurred during translation.",
+      "fileTranslation": "An error occurred during the translation of your document.",
+      "fileDetectError": "Failed to recognise the document language.",
+      "fileMalwareDetected": "File may contain malware and got rejected.",
+      "settings": {
+        "deleteBillingAddress": "Something went wrong while updating billing address",
+        "updatePassword": "Something went wrong while updating the password",
+        "updateDefaultBillingAddress": "Something went wrong while updating billing address",
+        "updateCustomerProfile": "Something went wrong while updating the profile",
+        "updateBillingAddress": "Something went wrong while updating billing address",
+        "changeDetaultPaymentMethod": "Something went wrong while trying to change the default payment method",
+        "fetchCustomerProfile": "Could not fetch customer profile",
+        "addCreditCardDetails": "Something went wrong while trying to add your card details",
+        "requestBillingPermission": "Something went wrong while requesting billing permission",
+        "deleteCreditCard": "Something went wrong while trying to delete your card details",
+        "couldNotFetchCountryBillingList": "No country billing lists could be retrieved: {error}",
+        "couldNotFetchCardDetails": "Something happened while trying to retrieve your card details",
+        "couldNotFetchBillingAddress": "Could not retrieve the billing addresses",
+        "couldNotFetchInvoiceLink": "Could not retrieve the invoice link: {error}",
+        "couldNotFetchTypeLabel": "Could not retrieve the type designation: {error}"
+      },
+      "team": {
+        "addMember": "Something went wrong while inviting user to team",
+        "changeRole": "Something went wrong while changing the team member role",
+        "editMember": "Something went wrong while editing the team member",
+        "removeMember": "Something went wrong while removing user from team",
+        "couldNotFetchTeamMembers": "Could not call up the team members: {error}",
+        "couldNotFetchTeamDetails": "Could not retrieve the team details: {error}",
+        "couldNotFetchTeamId": "Could not retrieve the team ID: {error}"
+      },
+      "subscription": {
+        "cancel": "Something went wrong while cancelling subscription",
+        "update": "Something went wrong while updating subscription"
+      },
+      "noDataFoundInLocalStorage": "No data found in localStorage",
+      "noItemsFound": "No item with id {0} found",
+      "payment": {
+        "formalize": "Something went wrong while formalizing your payment",
+        "couldNotFetchTeamPaymentMethods": "Could not retrieve team payment methods: {error}",
+        "couldNotFetchDefaultPaymentMethods": "Could not retrieve standard payment methods: {error}"
+      },
+      "unknownError": "Authorize payment.",
+      "somethingWentWrongWithVerifiedTranslation": "Something went wrong when retrieving the verified translation",
+      "somethingWentWrongWithSubmittingTranslation": "Something went wrong during the transmission of the edited translation",
+      "officeHoursAvailability": "Could not retrieve office availability",
+      "userIsNotAuthenticated": "The user is not authenticated",
+      "noDataReceived": "No data received",
+      "couldNotFetchVerificationJob": "Something went wrong when retrieving the verification order",
+      "somethingWentWrongWithPricing": "Something went wrong when estimating the price and number of your request",
+      "creditCardProcessing": "An error has occurred while processing your credit. Please check your saved credit card if this error keeps occurring"
+    },
+    "success": {
+      "settings": {
+        "deleteBillingAddress": "Billing address deleted",
+        "updatePassword": "Password updated",
+        "updateCustomerProfile": "User Profile updated",
+        "updateBillingAddress": "Billing address updated",
+        "deleteCreditCard": "Card details successfully deleted"
+      },
+      "team": {
+        "addMember": "User successfully invited to team",
+        "changeRole": "Team member role successfully changed",
+        "editMember": "Team member successfully edited.",
+        "removeMember": "User successfully removed from team"
+      },
+      "subscription": {
+        "cancel": "Subscription cancelled successfully",
+        "update": "Subscription updated successfully"
+      }
+    }
+  },
+  "endpointServices": {
+    "translate": "Translation service",
+    "languages": "Translation service",
+    "usage": "Authentication service",
+    "translate_document": "Document translation service",
+    "translate_document_async": "Document translation service",
+    "detect_language": "Language identification service",
+    "split_sentences": "Sentence segmentation service",
+    "get_phrases": "Alternative phrases service",
+    "get_words": "Alternative words service"
+  },
+  "alternatives": {
+    "no_alternatives": "no alternatives"
+  },
+  "connectivityAlerts": {
+    "offline": "You are currently offline.",
+    "online": "Your internet connection has been restored."
+  },
+  "starstruck": {
+    "welcomeMessage": "Hello,",
+    "noEntries": "No entries found.",
+    "placeOrder": "Place order",
+    "or": "or",
+    "entriesPerPage": "Entires per page",
+    "changeLanguage": "Change language",
+    "close": "Close",
+    "navbar": {
+      "services": "Services",
+      "whySupertext": "Why Supertext?",
+      "subscriptionAndPrices": "Subscription & Prices",
+      "forCompanies": "For companies",
+      "discoverSolutions": "Discover the business solution",
+      "message": {
+        "part1": "Companies translate with Supertext",
+        "part2": "better, faster, cheaper",
+        "part3": "and",
+        "part4": "safer. From",
+        "part5": "0% to 100% automated."
+      },
+      "languageExpertise": "Language expertise",
+      "languageExpertiseNav": {
+        "overview": "Overview",
+        "aiTranslation": "AI Translation & Verification",
+        "spacialTranslation": "Specialist Translation",
+        "copywriting": "Copywriting",
+        "editing": "Editing",
+        "consultation": "Consultation"
+      },
+      "changeLanguage": "Change language",
+      "changeCountry": "Change country",
+      "country": {
+        "ch": "Switzerland",
+        "other": "Other"
+      },
+      "technology": "Technology",
+      "contact": "Contact us"
+    },
+    "filter": {
+      "title": "Filter",
+      "all": "All",
+      "administrator": "Administrator",
+      "licensed": "Licensed",
+      "removeFilter": "Remove filter",
+      "types": {
+        "role": "Role",
+        "license": "License"
+      },
+      "user": "User"
+    },
+    "search": {
+      "placeholder": "Search...",
+      "userOrders": "Your orders",
+      "allOrders": "All orders",
+      "userInvoices": "Your invoices",
+      "allInvoices": "All invoices"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "nextSteps": "NEXT STEPS",
+      "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
+      "addSettings": "Add settings",
+      "creditCardDetailsSettings": "Store your credit card details for super-easy flows",
+      "styleGuidSettings": "Store style guides and guidelines for tonality and terminology",
+      "orders": {
+        "title": "Orders",
+        "viewAllOrders": "View all orders",
+        "openOrders": "CURRENT EDITIONS",
+        "noOrders": "Oops, there are no orders at the moment.",
+        "orderDate": "Order date",
+        "orderDeadlineDate": "Deadline",
+        "orderDetails": {
+          "title": "ORDER DETAILS",
+          "order": "Order",
+          "sourceLanguage": "Source language",
+          "targetLanguage": "Target language",
+          "sourceFile": "Source text",
+          "offerType": "Service",
+          "orderDeadline": "Delivery date",
+          "orderName": "Order title",
+          "industry": "Speciality",
+          "targetAudience": "Target audience",
+          "orderFiles": "Sources",
+          "price": "Price",
+          "scope": "Scope",
+          "invoiceDate": "Order time",
+          "invoiceAddress": "Billing address",
+          "contactPersonTitle": "PROJECT MANAGEMENT"
+        },
+        "back": "Back"
+      },
+      "invoices": {
+        "title": "Invoices",
+        "openInvoices": "OUTSTANDING INVOICES",
+        "viewAllInvoices": "View all invoices",
+        "noOpenInvoices": "No outstanding invoices at present",
+        "noInvoices": "No invoices available",
+        "invoiceDetail": {
+          "amount": "Amount",
+          "invoiceDate": "Settled on",
+          "downloadInvoice": "Download"
+        }
+      },
+      "subscriptions": {
+        "title": "Manage subscription",
+        "contactSupertext": "Contact Supertext",
+        "otherPlans": "Change plan",
+        "current": "Current subscription",
+        "upgrade": "Upgrade",
+        "downgrade": "Downgrade",
+        "recommended": "Recommended",
+        "comparePlans": "Compare plans",
+        "showMore": "Show more",
+        "cancellationInfo": "You have cancelled your subscription and it will end on",
+        "freePlanInfo": "Your subscription will be reassigned to Supereasy free plan",
+        "customPlanInfo": "Customise your subscription to suit your needs",
+        "upgradeSubscriptionInformation": "Ask your administrator to upgrade your subscription",
+        "annuallySubscription": "Annually",
+        "monthlySubscription": "Monthly",
+        "subscriptionFreeInfo": "Users without a license have access to AI Translation Free.",
+        "addLicenses": "add further licenses.",
+        "subscribeMow": "Subscribe now",
+        "requestOffer": "Request a quote",
+        "addToWaitingList": "Enter your name on the waiting list",
+        "registerForFree": "Register for free",
+        "reactivateSubscription": "Reactivate",
+        "cancelSubscription": "Cancelled",
+        "expiresOn": "Expires on",
+        "moreInfo": "More info",
+        "hero": {
+          "title": "Find the right Supertext subscription for you",
+          "subtitle": "Translate faster, better and more reliably: Supertext offers the right AI translation package for every need - from a simple online translator to a fully integrated custom solution."
+        },
+        "message": {
+          "part1": "You have",
+          "part2": "big goals",
+          "part3": "We the",
+          "part4": "suitable solution"
+        },
+        "question": "Over 1500 companies throughout Europe already rely on our customized products and services. What can we do to make you one of them?",
+        "contactUs": "Get in touch with us",
+        "compareAllFeatures": "Compare all features",
+        "customizeSubscriptionInfo": "Customize your subscription easily and at any time to suit your needs"
+      },
+      "resources": {
+        "title": "Language resources"
+      },
+      "profile": {
+        "title": "Profil",
+        "email": "E-Mail",
+        "changeEmail": "Change Email",
+        "emailValidation": "Please enter a valid e-mail address",
+        "language": "Language",
+        "role": "Role",
+        "roleValidation": "Role must be at least 2 characters long",
+        "license": "License",
+        "licenseValidation": "License must be at least 2 characters long",
+        "comment": "Comment",
+        "commentValidation": "Comment must be at least 2 characters long",
+        "company": "Company",
+        "name": "Name",
+        "changeName": "Change name",
+        "nameValidation": "Name must be at least 2 characters long",
+        "firstName": "First name",
+        "firstNameValidation": "First name must be at least 2 characters long",
+        "lastName": "Surname",
+        "lastNameValidation": "Surname must be at least 2 characters long",
+        "addressLine1": "Street",
+        "addressLine1Validation": "Street must be at least 2 characters long",
+        "addressLine2": "Addresses Addition",
+        "city": "City",
+        "cityValidation": "City is required",
+        "postalCode": "Postcode",
+        "postalCodeValidation": "Postal code is required",
+        "country": "Country",
+        "countryValidation": "Please select a country",
+        "selectCountry": "Select country",
+        "settings": "Settings",
+        "change": "Change",
+        "add": "Add",
+        "delete": "Delete",
+        "selectOption": "Select option",
+        "isAdmin": "Is Admin",
+        "noData": "No data",
+        "roles": {
+          "admin": "Administrator",
+          "user": "User"
+        },
+        "costCenter": {
+          "title": "Cost center",
+          "changeCostCenter": "Change cost center"
+        },
+        "sections": {
+          "userDetails": {
+            "title": "Your account",
+            "deleteAccountTitle": "Permanently Delete Account",
+            "deleteAccountConfirmation": "Are you sure? You can't undo this action afterwards",
+            "deleteAccount": "Delete Account",
+            "accountSettings": "Account",
+            "accountSettingsInfo": "Handle your account settings here",
+            "settings": "Settings",
+            "password": {
+              "title": "Password",
+              "oldPassword": "Old password",
+              "newPassword": "New password",
+              "confirmNewPassword": "Confirm new password",
+              "changePassword": "Change password",
+              "passwordDoNotMatch": "Passwords do not match",
+              "passwordMustContainAtLeastOneSpecialCharacter": "Password must contain at least one special character",
+              "passwordMustContainAtLeastOneNumber": "Password must contain at least one number",
+              "passwordMustContainAtLeastOneUppercaseLetter": "Password must contain at least one uppercase letter",
+              "passwordMustContainAtLeastOneLowercaseLetter": "Password must contain at least one lowercase letter",
+              "passwordMustBeAtLeast8Characters": "Password must be at least 8 characters long"
+            }
+          },
+          "payments": {
+            "title": "Payment information",
+            "info": "Here you can manage the default billing addresses and credit card details",
+            "setDefaultMethod": "Set default payment method",
+            "defaultMethodSetSuccess": "Default payment method set",
+            "standardMethod": "Standard payment method",
+            "changePaymentMethod": "Change payment method",
+            "emailForDelivery": "E-mail for invoice delivery",
+            "methods": {
+              "title": "Payment method",
+              "account": "On invoice",
+              "creditCard": "Credit card",
+              "noPaymentMethod": "No payment method"
+            },
+            "settings": {
+              "billingAddress": {
+                "deleteBillingAddress": "Delete billing address entry",
+                "deleteBillingAddressConfirmation": "Are you sure? You can no longer undo this action.",
+                "authorizationApply": "Request authorisation",
+                "authorizationPending": "Authorisation still pending",
+                "authorizationDenied": "Authorisation denied",
+                "authorizationDeniedInfo": "Permission may be refused for various reasons.",
+                "authorizationContactUs": "Get in touch with us ",
+                "title": "Billing addresses",
+                "selectDefaultBillingAddress": "Select a default billing address",
+                "requestInvoiceAsPaymentMethod": "Request the use of invoicing as a payment method here.",
+                "addBillingAddress": "Add billing address",
+                "editBillingAddress": "Edit billing address",
+                "addNewAddress": "Add New Address",
+                "noAddedAddresses": "No address has been added yet"
+              },
+              "creditCard": {
+                "title": "Credit card details",
+                "subTitle": "Choose a default payment method",
+                "deleteCard": "Card successfully deleted",
+                "addCard": "Map successfully added",
+                "addCardFailure": "Map could not be added",
+                "endsWith": "ends with",
+                "updateCardDetailsInformation": "Ask you organization admin to update the credit card details",
+                "expirationMessage": "Your card expired on",
+                "deleteCreditCardConfirmation": "Are your sure you want to delete this credit card?",
+                "deleteCreditCardInformation": "This will remove the credit card from your account. You will not be able to use it for future transactions. Members of your team could be affected.",
+                "noAddedCreditCard": "No credit card has been added yet"
+              }
+            }
+          },
+          "team": {
+            "title": "Team",
+            "userManagement": "User Management",
+            "addMember": "Add Member",
+            "editMember": "Edit Member",
+            "removeMember": "Remove",
+            "deleteMember": "Remove Member",
+            "deleteMemberConfirmation": "Are you sure? You can't undo this action afterwards.",
+            "availableSeats": "Available Seats",
+            "filledSeats": "Filled Seats",
+            "usersGained": "Users Gained",
+            "increaseSeats": "Increase Seats",
+            "increaseSeatsInfo": "Increase the amount of members allowed in the company.",
+            "teamMembersOverviewTitle": "Team Members Overview",
+            "teamMembersOverviewSubtitle": "Manage your team members here",
+            "management": "Management",
+            "actions": {
+              "title": "Actions",
+              "editAll": "Edit All",
+              "removeAll": "Remove All"
+            },
+            "increaseNumberOfLicenses": "Increase number of licenses",
+            "selectLicense": "Select license...",
+            "selectRole": "Select role...",
+            "roles": {
+              "teamAdmin": "TeamAdmin",
+              "user": "User"
+            },
+            "roleChangeWarning": "Your Team Administrator changed your role. Logout and login to refresh your account.",
+            "licenceAvailable": "{amount} available"
+          },
+          "subscription": {
+            "title": "Change subscription",
+            "description": "Easily adjust your subscription to your needs at any time.",
+            "comparePlans": "Compare subscriptions",
+            "numberOfLicenses": "Number of licenses",
+            "licencesCount": "{count, plural, one {# Licenses} other {# Licenses}}",
+            "nextPayment": "Next payment",
+            "monthly": "Monthly",
+            "yearly": "Annually",
+            "billingPeriod": "Billing period",
+            "subscriptionPrices": "Subscription prices",
+            "change": "Change",
+            "modal": {
+              "title": "Change number of licenses",
+              "changeLicenses": "Change number of licenses",
+              "change": "Change",
+              "order": "Binding order",
+              "licensesCount": "Number of licenses",
+              "currentLicenses": "Current: {count}",
+              "newLicenseCount": "New number of licenses",
+              "paymentMethod": "Payment method",
+              "creditCard": "Credit card",
+              "invoice": "On account",
+              "pricePerLicenseMonth": "Price per license, per month",
+              "pricePerLicenseYear": "Price per license, per year",
+              "totalLicenses": "Total number of licenses",
+              "totalMonthly": "Total amount per month",
+              "totalYearly": "Total amount per year",
+              "vatIncluded": "Incl {currency} {amount} {percentage} {vatType}",
+              "todayTotal": "Total amount due today",
+              "nextPeriod": "For additional licenses until the next billing period",
+              "termsConfirmation": "I confirm the above-mentioned change to my subscription and accept the",
+              "removeLicensesError": {
+                "one": "You have assigned a license to {count} users. To reduce your subscription to less than {count} licenses,",
+                "other": ""
+              },
+              "termsAndConditions": "General Terms and Conditions.",
+              "immediateChange": "This change will take effect immediately.",
+              "nextBillingChange": "This change will take effect from the next accounting period.",
+              "agreementAg": {
+                "one": "I confirm the above change to my subscription and accept the",
+                "other": ""
+              },
+              "makePayment": "Binding order"
+            }
+          }
+        },
+        "licenseTag": "License users",
+        "currency": "Currency"
+      },
+      "delivery": {
+        "title": "delivery",
+        "status": {
+          "pending": "Your order is being processed. Completion by"
+        },
+        "openInTranslationInterface": "Open in Translation Interface"
+      },
+      "feedback": {
+        "title": "Feedback",
+        "satisfactionQuestion": "How satisfied are you with the texts?",
+        "message": "Message",
+        "submitFeedback": "Send feedback",
+        "revisionQuestion": "Would you like a free revision?",
+        "revisionOption": "Please revise the text according to feedback",
+        "revisionRequest": "Request revision",
+        "submitFile": "Request revision",
+        "uploadFiles": "Upload documents",
+        "messagePlaceholder": "e.g. a good, fresh style, we are very satisfied, two arguments are missing in the last paragraph, we will insert that ourselves.",
+        "ratingOptions": {
+          "super": "Super",
+          "good": "Good",
+          "insufficient": "Insufficient"
+        }
+      },
+      "overview": {
+        "title": "Overview",
+        "nextSteps": "NEXT STEPS",
+        "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
+        "addSettings": "Add details",
+        "creditCardDetailsSettings": "Enter your credit card details for easy processing",
+        "styleGuidSettings": "Store style guides and documents on tonality and terminology"
+      }
+    },
+    "footer": {
+      "contact": "Contact us",
+      "newsletter": "Newsletter",
+      "newsletterDescription": "For anyone interested in language, technology and creativity",
+      "newsletterDisclaimer": "By registering, you agree to our privacy policy and give your consent to receive updates from our company.",
+      "yourEmail": "Your e-mail address",
+      "freelancerRegistration": "Freelancer registration",
+      "servicesTitle": "SERVICES",
+      "services": {
+        "translation": "AI translation &amp; verification",
+        "expertise": "Specialized translation",
+        "editing": "Proofreading",
+        "copywriting": "Copywriting",
+        "consulting": "Consulting",
+        "forBusiness": "For companies"
+      },
+      "knowledgeTitle": "KNOWLEDGE",
+      "knowledge": {
+        "expertise": "Language expertise",
+        "whySupertext": "Why Supertext",
+        "technology": "Technology",
+        "references": "References",
+        "faq": "FAQ",
+        "blog": "Blog"
+      },
+      "companyTitle": "COMPANY",
+      "company": {
+        "contact": "Contact us",
+        "aboutSupertext": "About Supertext",
+        "careers": "Working at Supertext"
+      },
+      "legal": {
+        "imprint": "Imprint",
+        "terms": "GTC",
+        "privacy": "Privacy policy",
+        "dataProtection": "Data protection",
+        "media": "Media"
+      }
+    },
+    "fileTranslation": {
+      "uploadFile": "Upload file"
+    },
+    "humanVerification": {
+      "verifyButton": "Verify by expert",
+      "stepTitle": "Verify by expert - Step",
+      "stepDescription": "The AI translation is reviewed and verified by a supertext expert. You will receive a text file with a certificate for download.",
+      "nextStepButton": "Next step",
+      "orderVerification": "Order verification",
+      "authorizePayment": "Authorize payment",
+      "unsupportedLanguagePair": {
+        "title": "Not yet supported for expert review",
+        "description": "No worries! Expert review will soon be available for more language pairs."
+      },
+      "stepOne": {
+        "title": "Verification",
+        "payWithInvoice": "Payment will be made by invoice.",
+        "payWithCard": "Payment will be made using your stored credit card information.",
+        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card details."
+      },
+      "customBilling": {
+        "addressForm": {
+          "changeBillingAddress": "Change billing address (Optional)",
+          "addBillingAddress": "Add billing address (Optional)",
+          "company": {
+            "label": "Company / Organization (optional)",
+            "placeholder": "Sample Company Ltd."
+          },
+          "vatNumber": {
+            "label": "VAT Number (optional)",
+            "placeholder": "CHE-123.456.789"
+          },
+          "costCenter": {
+            "label": "Cost center (optional)",
+            "placeholder": "C-1234"
+          },
+          "firstName": {
+            "label": "First name",
+            "placeholder": "John",
+            "error": "First name is required"
+          },
+          "lastName": {
+            "label": "Last name",
+            "placeholder": "Doe",
+            "error": "Last name is required"
+          },
+          "street": {
+            "label": "Street / House Number",
+            "placeholder": "Sample street 123",
+            "error": "Street address is required"
+          },
+          "postalCode": {
+            "label": "Postal Code",
+            "placeholder": "8000",
+            "error": "Postal code must be at least 4 characters"
+          },
+          "city": {
+            "label": "City",
+            "placeholder": "Zurich",
+            "error": "City is required"
+          },
+          "country": {
+            "label": "Country",
+            "placeholder": "Select country",
+            "error": "Country is required"
+          }
+        }
+      },
+      "additionalInformation": "Add some optional additional information to your test job before you finalize it.",
+      "submit": {
+        "title": "Submit your verification?",
+        "description": "This will irrevocably submit your verification. Are you sure you want to submit your verification?"
+      },
+      "reset": {
+        "title": "Reset to original?",
+        "description": "You will lose all your changes. Are you sure you want to reset to the original text?"
+      },
+      "infoMessage": {
+        "part1": "The certified",
+        "part2": "Control",
+        "part3": "by a supertext expert",
+        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. This service is subject to a fee and is charged by the number of words."
+      },
+      "certifiedControl": {
+        "title": "Certified control by a supertext expert",
+        "dDescription": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps.",
+        "description": "This service is subject to a charge. It is charged according to the number of words. Unfortunately, you can reach us outside our business hours. No problem! You can place your order now, just follow the steps."
+      },
+      "serviceIsDeactivated": {
+        "title": "Service is deactivated",
+        "description": "Unfortunately, the \"Expert Review\" service is disabled in our organization. Contact your Supertext project manager to schedule a demo or set up this feature for your organization."
+      },
+      "isTargetTextTooLong": {
+        "title": "Translation verifications are currently limited to {0} characters.",
+        "description": "If your text is too long, you can try shortening it to focus on the specific parts you need help with."
+      },
+      "isEstimateError": {
+        "title": "An error occurred when estimating the price and number of your request",
+        "description": "Try refreshing your browser or come back later"
+      },
+      "outIfBusinessHours": {
+        "title_part1": "Unfortunately you can reach us outside of our",
+        "title_part2": "Business hours",
+        "description": "'No problem! You can place your order now, just follow the steps.",
+        "businessHours": "Monday - Friday",
+        "businessHoursTime": "9:00-17:30",
+        "nonWorkingDaySaturday": "Saturday",
+        "nonWorkingDaySunday": "Sunday",
+        "nonWorkingDaysHolidays": "Holidays",
+        "nonWorkingDaysInfo": "Closed",
+        "businessHoursInfo": "Business hours"
+      },
+      "stepThree": {
+        "title": "That worked!",
+        "description": "A Supertext expert will now check your text. You will receive the verified translation at the e-mail address you provided.",
+        "button": "D'accord! Close the window.",
+        "startNew": "Start new translation"
+      },
+      "targetControl": {
+        "verifiedBy": "Verified by"
+      }
+    },
+    "couponCode": {
+      "placeholder": "Add a discount code",
+      "tooltip": "Use your coupon code to get a discount on your order.",
+      "trigger": "Validate a discount code"
+    },
+    "landingPage": {
+      "languageServices": {
+        "eyebrowHeadline": "ALL LANGUAGE SERVICES"
+      }
+    },
+    "subscriptionPlans": {
+      "free": {
+        "title": "Free",
+        "description": "Description Target group or similar. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "Free of charge",
+        "price_yearly": "Free of charge",
+        "features": {
+          "title": "Included in Starter:",
+          "items": {
+            "0": {
+              "title": "5 languages"
+            },
+            "1": {
+              "title": "Up to 3000 characters"
+            },
+            "2": {
+              "title": "5 files per month (editable)"
+            },
+            "3": {
+              "title": "5 MB maximum file size"
+            },
+            "4": {
+              "title": "Professional verification at the touch of a button (subject to a charge)"
+            },
+            "5": {
+              "title": "Fused translation",
+              "badge": "In brief"
+            }
+          }
+        }
+      },
+      "essential": {
+        "title": "Essential",
+        "description": "Description Target group or similar. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "11,90",
+        "price_yearly": "9.90",
+        "period_monthly": "/ month",
+        "period_yearly": "/ month",
+        "features": {
+          "title": "Everything from \"Starter\", plus:",
+          "items": {
+            "0": {
+              "title": "Maximum data security"
+            },
+            "1": {
+              "title": "Unlimited text translation"
+            },
+            "2": {
+              "title": "20 files per month (editable)"
+            },
+            "3": {
+              "title": "10 MB maximum file size"
+            },
+            "4": {
+              "title": "Excel, PDF and SRT files"
+            },
+            "5": {
+              "title": "E-mail support within 24 hours"
+            }
+          }
+        }
+      },
+      "advanced": {
+        "title": "Advanced",
+        "badge": "Available soon",
+        "description": "Description Target group or similar. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "29,90",
+        "price_yearly": "24,90",
+        "period_monthly": "/ month",
+        "period_yearly": "/ month",
+        "features": {
+          "title": "Everything from \"Essential\", plus:",
+          "items": {
+            "0": {
+              "title": "23 Languages"
+            },
+            "1": {
+              "title": "Unlimited file translations (editable)"
+            },
+            "2": {
+              "title": "20 MB maximum file size"
+            },
+            "3": {
+              "title": "Glossaries"
+            },
+            "4": {
+              "title": "Add-ins for Microsoft Office"
+            },
+            "5": {
+              "title": "Length restriction"
+            },
+            "6": {
+              "title": "Single sign-on (SSO)"
+            }
+          }
+        }
+      },
+      "pro": {
+        "title": "Pro",
+        "badge": "Available soon",
+        "description": "Description Target group or similar. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
+        "price_monthly": "59,90",
+        "price_yearly": "49.90",
+        "period_monthly": "/ month",
+        "period_yearly": "/ month",
+        "features": {
+          "title": "Everything from \"Advanced\", plus:",
+          "items": {
+            "0": {
+              "title": "30 MB maximum file size"
+            },
+            "1": {
+              "title": "Style guides"
+            },
+            "2": {
+              "title": "Translation import"
+            },
+            "3": {
+              "title": "E-mail and telephone support within"
+            },
+            "4": {
+              "title": "Personal account manager"
+            },
+            "5": {
+              "title": "Uptime guarantee"
+            },
+            "6": {
+              "title": "Integration in CAT tools (optional)"
+            },
+            "7": {
+              "title": "API access (optional)"
+            }
+          }
+        }
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "badge": "",
+        "description": "For large organizations with the highest demands eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "price_monthly": "Custom",
+        "price_yearly": "Custom",
+        "period_monthly": "/ month",
+        "period_yearly": "/ month",
+        "features": {
+          "title": "Everything from \"Pro\", plus:",
+          "items": {
+            "0": {
+              "title": "Customized AI models and branding"
+            },
+            "1": {
+              "title": "SaaS, private cloud or on-premises hosting"
+            },
+            "2": {
+              "title": "User-defined TLS/SLL certificates"
+            }
+          }
+        }
+      }
+    },
+    "featureComparison": {
+      "plans": {
+        "free": "Free",
+        "essential": "Essential",
+        "advanced": "Advanced",
+        "pro": "Pro",
+        "enterprise": "Enterprise"
+      },
+      "categories": {
+        "languages": {
+          "title": "Languages",
+          "features": {
+            "languages": {
+              "name": "Languages",
+              "description": "",
+              "all": "Albanian, Chinese, Czech, Danish, Dutch, English, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Swedish, Slovak, Slovenian, Spanish, Swiss German Dialect",
+              "free": "English, French, German, Italian, Romansh, Swiss German Dialect",
+              "essential": "English, French, German, Italian, Romansh, Swiss German Dialect",
+              "advanced": "Albanian, Chinese, Czech, Danish, Dutch, English, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Swedish, Slovak, Slovenian, Spanish, Swiss German Dialect",
+              "pro": "Albanian, Chinese, Czech, Danish, Dutch, English, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Swedish, Slovak, Slovenian, Spanish, Swiss German Dialect",
+              "enterprise": "Albanian, Chinese, Czech, Danish, Dutch, English, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Swedish, Slovak, Slovenian, Spanish, Swiss German Dialect"
+            },
+            "languageVariants": {
+              "name": "Language variants",
+              "description": "",
+              "all": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German Dialect (BE, ZH)",
+              "free": "English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Swiss German Dialect (BE, ZH)",
+              "essential": "English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Swiss German Dialect (BE, ZH)",
+              "advanced": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German Dialect (BE, ZH)",
+              "pro": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German Dialect (BE, ZH)",
+              "enterprise": "Chinese (simplified, traditional), English (GB, US), German (AT, CH, DE), French (CH, FR), Italian (CH, IT), Portuguese (BR, PT), Swiss German Dialect (BE, ZH)"
+            }
+          }
+        },
+        "security": {
+          "title": "Security",
+          "features": {
+            "encryptedTransfer": {
+              "name": "Encrypted transfer",
+              "description": "Your information is transferred securely. It can never be read by third parties."
+            },
+            "immediateTextDeletion": {
+              "name": "Immediate text deletion",
+              "description": "All texts are deleted immediately after translation and can never be read by third parties."
+            },
+            "singleSignOn": {
+              "name": "Single sign-on (SSO)",
+              "description": "Use organizational credentials to log in. Available for teams with 100+ seats in some plans.",
+              "advanced": "From 10 seats",
+              "pro": "From 10 seats"
+            },
+            "teamAdministration": {
+              "name": "Team administration",
+              "description": "Manage users in your organisation. Add members, view and control usage, and be in control of costs with centralised billing."
+            },
+            "privateHosting": {
+              "name": "Private cloud or on-premise hosting",
+              "description": "Private hosting options for added security.",
+              "enterprise": "Optional"
+            },
+            "enterpriseTLSCertificates": {
+              "name": "Enterprise TLS/SSL certificates",
+              "description": "",
+              "enterprise": "Optional"
+            }
+          }
+        },
+        "textTranslation": {
+          "title": "Text Translation",
+          "features": {
+            "unlimitedTextTranslation": {
+              "name": "Unlimited text translation",
+              "description": "Translate an unlimited amount of text.",
+              "free": "Up to 1,500 characters",
+              "essential": "Up to 3,000 characters"
+            },
+            "lengthControl": {
+              "name": "Length control",
+              "description": "Ensure that the length of a translation does not exceed the length of its source text."
+            }
+          }
+        },
+        "documentTranslation": {
+          "title": "Document Translation",
+          "features": {
+            "unlimitedFileTranslation": {
+              "name": "Unlimited file translation",
+              "description": "Upload full documents and get an editable translation with the same layout and styling.",
+              "free": "0 files per month, per user",
+              "essential": "5 files per month, per user",
+              "advanced": "20 files per month, per user"
+            },
+            "fileEditingAllowed": {
+              "name": "File editing allowed",
+              "description": ""
+            },
+            "maximumFileSize": {
+              "name": "Maximum file size",
+              "description": ""
+            },
+            "microsoftOfficeFileTypes": {
+              "name": "Microsoft Office file types",
+              "description": "Supported formats: Word, Excel, PowerPoint."
+            },
+            "pdfFileTypeEdit": {
+              "name": "PDF file type (edit)",
+              "description": "PDFs are editable after translation."
+            },
+            "videoSubtitleFileTypes": {
+              "name": "Video subtitle file types (.srt)",
+              "description": ""
+            }
+          }
+        },
+        "customisation": {
+          "title": "Customisation",
+          "features": {
+            "formalInformalTone": {
+              "name": "Formal/informal tone",
+              "description": "Control the tone of translations to fit your needs."
+            },
+            "fusedTranslation": {
+              "name": "Fused Translation",
+              "description": "Your AI translations improve with every order you place with language experts.",
+              "free": "Coming soon",
+              "essential": "Coming soon",
+              "advanced": "Coming soon",
+              "pro": "Coming soon",
+              "enterprise": "Coming soon",
+              "badge": "Coming soon"
+            },
+            "translationImport": {
+              "name": "Translation Import",
+              "description": "Upload your own translation memory database to improve your AI translations."
+            },
+            "glossaries": {
+              "name": "Glossaries",
+              "description": "Define how specific words are translated."
+            },
+            "styleGuides": {
+              "name": "Style guides",
+              "description": "Control aspects such as punctuation, number formatting, and more in translation outputs."
+            },
+            "branding": {
+              "name": "Branding",
+              "description": "Design your own AI translation system with the look and feel of your corporate branding."
+            }
+          }
+        },
+        "integrations": {
+          "title": "Integrations",
+          "features": {
+            "microsoftOfficeAddIns": {
+              "name": "Microsoft Office add-ins",
+              "description": "Use directly within Microsoft Word, PowerPoint, and Outlook."
+            },
+            "api": {
+              "name": "API",
+              "description": "Integrate AI translations into your own applications and workflows.",
+              "advanced": "Optional",
+              "pro": "Optional"
+            },
+            "catToolIntegration": {
+              "name": "CAT tool integration",
+              "description": "Increase professional translation productivity by using from within Trados Studio, MemoQ, and many more CAT tools.",
+              "advanced": "Optional",
+              "pro": "Optional"
+            }
+          }
+        },
+        "support": {
+          "title": "Support",
+          "features": {
+            "supportViaEmail": {
+              "name": "Support via email",
+              "description": ""
+            },
+            "supportViaPhone": {
+              "name": "Support via phone",
+              "description": ""
+            },
+            "firstResponseTimeGuarantee": {
+              "name": "First response time guarantee",
+              "description": "During office hours (9 am to 6 pm CET) from Monday to Friday",
+              "free": "",
+              "essential": "",
+              "advanced": "24 hours",
+              "pro": "60 minutes",
+              "enterprise": "60 minutes"
+            },
+            "dedicatedAccountManager": {
+              "name": "Dedicated account manager",
+              "description": ""
+            },
+            "uptimeGuarantee": {
+              "name": "Uptime guarantee",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "translations": {
+      "info": "Ready to translate? Choose your preferred method...",
+      "fusedTranslation": {
+        "title": "Fused translation",
+        "cta": "Why merged translation?"
+      },
+      "aiTranslation": {
+        "title": "AI translation",
+        "description": "Immediate download, {0} files remain this month.",
+        "cta": "Get more"
+      },
+      "humanVerification": {
+        "title": "Human-verified AI",
+        "titleWhitPrice": "Human-verified AI {0} {1}"
+      }
+    },
+    "components": {
+      "faq": {
+        "title": "FAQ",
+        "help": "Didn't find your question? You can find the whole collection on our FAQ page. Or directly in the <link>Conversation</link> with us.",
+        "cta": "To all FAQ"
+      }
+    },
+    "pages": {
+      "services": {
+        "aiTranslation": {
+          "hero": {
+            "title": "AI translation and verification",
+            "description": "Be sure that everything fits. With automatic transmission - and the professional check at the touch of a button."
+          },
+          "lead": {
+            "large": "AI Translation is <highlight>simple, fast</highlight> and is constantly improving. But there is one thing that even in 2025 <highlight>only human experts will be able to do:</highlight> the accuracy of a translation <highlight>accuracy of a translation.</highlight>",
+            "small": "For important texts, Supertext connects you directly with over 3,000 experienced translators and cultural experts. With verification at the touch of a button, you can be sure in just a few minutes that your message will be received correctly. And you also receive a certificate for content and linguistic accuracy. Reliable, affordable and fast.",
+            "cta": {
+              "title": "Try it out now",
+              "link": "/"
+            }
+          },
+          "informationalPanel": {
+            "title": "AI translation meets professionals. What's inside?",
+            "items": [
+              {
+                "title": "AI translation at the cutting edge of technology",
+                "description": "Our in-house translation systems form the basis. They belong to the latest generation of artificial intelligence and can handle 23 languages including local language variants. ",
+                "icon": "/images/pages/ai-translation/icon-bullet.png"
+              },
+              {
+                "title": "Professional check by experienced experts ",
+                "description": "Our native-speaking professional translators ensure that the content of the translation corresponds exactly to the original - and also intervene linguistically where necessary. ",
+                "icon": "/images/pages/ai-translation/icon-bullet.png"
+              },
+              {
+                "title": "Verified - and certified ",
+                "description": "As soon as the verification process is complete, you will receive the verified translation together with a corresponding certificate for download.",
+                "icon": "/images/pages/ai-translation/icon-bullet.png"
+              }
+            ],
+            "cta": {
+              "text": "Try it out now",
+              "link": "/"
+            }
+          },
+          "tutorialBlock": {
+            "title": "3 steps to certified AI translation",
+            "cta": {
+              "text": "Get started now",
+              "link": "/"
+            },
+            "items": [
+              {
+                "title": "Translate text with AI and click on \"Verify by expert\"",
+                "number": "01",
+                "image": "/images/pages/ai-translation/step-1.webp"
+              },
+              {
+                "title": "Confirm order details (order flow + waiting screen)",
+                "number": "02",
+                "image": "/images/pages/ai-translation/step-2.webp"
+              },
+              {
+                "title": "Confirm order details (order flow + waiting screen)",
+                "number": "03",
+                "image": "/images/pages/ai-translation/step-3.webp"
+              }
+            ]
+          },
+          "featureGallery": {
+            "title": "Quality-assured from Å to Ž",
+            "eyebrowHeadline": "Eyebrow Headline",
+            "items": [
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "3000 qualified native speaker experts",
+                "description": "All of our specialist translators have a university degree in translation or at least five years of professional experience and pass an internal test.",
+                "cta": {
+                  "variant": "primary",
+                  "title": "Get to know us",
+                  "link": "/contact"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Tested, standardized and awarded according to ISO standard",
+                "description": "Supertext has been certified for translation quality (ISO 17100 and 18587), quality management (ISO 9001) and data security (ISO 27001) since 2018.",
+                "cta": {
+                  "variant": "primary",
+                  "title": "Learn more",
+                  "link": "/#"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Uncompromisingly safe",
+                "description": "With the highest data management standards, robust encryption and the most secure servers, we always keep your data under lock and key. That's why we are the partner of choice for banks, authorities and insurance companies.",
+                "cta": {
+                  "variant": "primary",
+                  "title": "More about the technology",
+                  "link": "/#"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Your personal AI that learns in real time",
+                "description": "Our language models learn quickly - and continue to adapt to your needs with every verified translation. So that quality increases in the long term and your costs continue to fall."
+              }
+            ]
+          },
+          "footerNote": {
+            "text": "From a simple <highlight>Online translator</highlight> to the <highlight>fully integrated custom solution</highlight>: Find your <highlight>suitable subscription.</highlight>",
+            "cta": {
+              "title": "To all cases",
+              "link": "/cases",
+              "target": "_blank"
+            },
+            "image": "/images/pages/ai-translation/footer_gif.gif"
+          }
+        }
+      },
+      "whySupertext": {
+        "hero": {
+          "title": "We are rethinking translation",
+          "description": "Translate better, faster and more reliably with fused translation."
+        },
+        "lead": {
+          "large": "With <highlight>AI</highlight> you can translate hundreds of words in seconds. But <highlight>only real language professionals</highlight> can verify whether the result actually says what it is supposed to.",
+          "small": "That's why we combine language AI and experienced translators in one place. For a seamless integration of artificial intelligence and human expertise - with you at the helm. At Supertext, AI efficiency meets professional expertise. Text security meets data security. Supertext is simple, customized and adaptive. Supertext is all-in-one."
+        },
+        "featureList": {
+          "title": "  Fused translation with Supertext: Your benefits",
+          "eyebrowHeadline": "Advantages",
+          "benefitContent": {
+            "benefits": [
+              {
+                "title": "Everything on one platform",
+                "description": "Our elegant and simple platform puts you in the driver's seat: place and track orders, manage teams and projects, manage subscriptions and payment methods."
+              },
+              {
+                "title": "Double security",
+                "description": "Our language models learn quickly - and continue to adapt to your needs with every verified translation. For ever better quality at ever lower costs."
+              },
+              {
+                "title": "Efficiency meets flexibility",
+                "description": "Our AI provides the reliable basis, our experts the certainty in verification. Unambiguous."
+              }
+            ],
+            "buttons": [
+              {
+                "text": "Register for free",
+                "variant": "primary"
+              },
+              {
+                "text": "Book a demo",
+                "variant": "PrimaryBorderVariant"
+              }
+            ]
+          }
+        },
+        "serviceList": {
+          "title": "To make sure your message gets across: our solutions.",
+          "eyebrowHeadline": "Offer",
+          "services": [
+            {
+              "title": "For individual users",
+              "sections": [
+                {
+                  "title": "AI Translation in 23 languages",
+                  "description": "Our online translator is based on the latest generation of in-house AI systems. They are proficient in 23 languages including local variants such as French (Switzerland). Fast, simple and in accordance with the highest security standards.",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "#-translation",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Professional verification at the touch of a button",
+                  "description": "Our online translator is based on the latest generation of in-house AI systems. They are proficient in 23 languages including local variants such as French (Switzerland). Fast, simple and in accordance with the highest security standards.",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "#",
+                    "variant": "primary"
+                  }
+                },
+                {
+                  "title": "Your personal AI that learns in real time",
+                  "description": "Our language models learn quickly - and continue to adapt to your needs with every verified translation. For ever better quality at ever lower costs.",
+                  "badge": "Available soon",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "#-ai",
+                    "variant": "secondary"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "For companies",
+              "sections": [
+                {
+                  "title": "Customized AI translation",
+                  "description": "Your company, your voice. With targeted training, Supertext integrates your style guide and wording into every translation. For smooth communication without boundaries.",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "#-ai",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Professional services from Arabic to Zulu",
+                  "description": "When it really matters: our 3,000 experienced language experts write more beautifully and translate even more precisely. In your tone of voice, expressive and accurate in every language.",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "#",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Personal support",
+                  "description": "Do you want to adapt your AI model to a new style guide? Or evaluate your current workflows with experts? We are there for you personally - solution-oriented, friendly and fast.",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "#",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Enhanced safety standards",
+                  "description": "From single sign-on (SSO) to on-premises hosting - with Supertext you can keep your company data reliably under lock and key.",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "#",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Seamlessly integrated",
+                  "description": "Integrate Supertext seamlessly into your working environment. With our APIs and integrations for lean processes in every interface.",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "#",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "imageConfig": {
+                    "alt": "Team",
+                    "image": "/images/pages/why-supertext/hero-two.png"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "caseList": {
+          "eyebrowHeadline": "References",
+          "title": "From fully automated to handmade: we work for over 1500 companies throughout Europe.",
+          "cta": "To all cases"
+        },
+        "footerNote": {
+          "text": "From a simple <highlight>Online translator</highlight> to the <highlight>fully integrated custom solution</highlight>: Find your <highlight>suitable subscription.</highlight>",
+          "cta": {
+            "title": "To all cases",
+            "link": "/cases",
+            "target": "_blank"
+          }
+        }
+      },
+      "home": {
+        "heroSection": {
+          "mainHeading": "Language AI meets first-class service",
+          "eyebrowHeadline": "ALL LANGUAGE SERVICES",
+          "languageServices": {
+            "items": [
+              {
+                "title": "AI translation &amp; verification",
+                "description": "From style guides to process optimization.",
+                "cta": {
+                  "title": "Order",
+                  "link": "/service/ai-translation"
+                }
+              },
+              {
+                "title": "Specialized translation",
+                "description": "From experienced specialists consetetur sadipscing elitr.",
+                "cta": {
+                  "title": "Learn more",
+                  "link": "/service/translation"
+                }
+              },
+              {
+                "title": "Copywriting &amp; Content",
+                "description": "For texts that work - full of ideas and to the point.",
+                "cta": {
+                  "title": "Learn more",
+                  "link": "/service/copywriting"
+                }
+              },
+              {
+                "title": "Proofreading",
+                "description": "The finishing touch - stylish, fussy and really fast.",
+                "cta": {
+                  "title": "Learn more",
+                  "link": "/service/editing"
+                }
+              }
+            ],
+            "expertiseButton": "More about language expertise"
+          }
+        },
+        "servicesCards": [
+          {
+            "id": "1",
+            "title": "ENZEL-USER",
+            "cards": [
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Translate online. It's very simple.",
+                "description": "Communicate faster, better and easier. With Supertext, you can translate into more than 20 languages, from Japanese to Swiss German. Our translation AI is part of the latest generation of artificial intelligence, follows your style guide precisely and processes a wide range of file formats in seconds.",
+                "cta": {
+                  "variant": "primary",
+                  "title": "To the tool",
+                  "link": "/"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Verified with one click",
+                "description": "Have important translations checked by professionals - in minutes instead of hours. Supertext connects you directly with over 3000 experienced linguists and cultural experts. So that your message gets across when it really matters.",
+                "cta": {
+                  "variant": "PrimaryBorderVariant",
+                  "title": "Learn more",
+                  "link": "/"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Uncompromisingly safe",
+                "description": "Supertext speaks many languages - and can remain silent in just as many. With the highest data management standards, robust encryption and the most secure servers, we always keep your data under lock and key. That's why we are the partner of choice for banks, authorities and insurance companies.",
+                "cta": {
+                  "variant": "PrimaryBorderVariant",
+                  "title": "Learn more",
+                  "link": "/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "title": "PROFI",
+            "cards": [
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Your company, your language",
+                "description": "Our translations are always tailored to your needs, style requirements and content formats. The result: smooth communication for your entire company. Unmistakable in every language."
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Seamlessly integrated",
+                "description": "Only a smooth user experience makes a tool a real added value. With our APIs, you can integrate Supertext seamlessly into your working environment and benefit from lean processes in every interface.",
+                "cta": {
+                  "variant": "primary",
+                  "title": "Learn more",
+                  "link": "/"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Personal support",
+                "description": "Input, output? With Supertext you can do much more than that[AL1]. We are there for you personally - solution-oriented, friendly and fast. No matter whether you want to adapt your AI model to a new style guide or need a media release translated on the fly."
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "title": "COMPANY",
+            "icon": "/images/pages/ai-translation/feature-icon.png",
+            "cards": [
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Everything on one platform",
+                "description": "From fully automated to handmade: with Supertext, you decide. We combine innovative translation AI and experienced translators on one platform. A seamless integration of artificial intelligence and real language professionals - with you at the helm."
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Efficiency meets quality",
+                "description": "Increase your productivity sustainably with Supertext. Thanks to proven solutions that increase language quality and continuously reduce your costs. So that the numbers are right as well as the words.",
+                "cta": {
+                  "variant": "primary",
+                  "title": "Learn more",
+                  "link": "/"
+                }
+              },
+              {
+                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "title": "Your personal AI that learns in real time",
+                "description": "Your customized language models learn quickly - and adapt to your corporate language with every verified translation. Always up to date, so that your entire company speaks with one voice."
+              }
+            ]
+          }
+        ],
+        "valueProposition": {
+          "heading": "We connect <highlight>Language AI</highlight> and <highlight>Human expertise</highlight> to create a seamless translation service. For individuals or entire teams. <highlight>What do you need?</highlight>"
+        },
+        "engagementSlider": {
+          "heading": "automation → 0 to 1",
+          "cta": {
+            "text": "Learn more about Supertext",
+            "link": "/about"
+          }
+        },
+        "references": {
+          "heading": "1500 companies throughout Europe: our references speak for themselves",
+          "cta": {
+            "text": "More about language expertise",
+            "link": "/language-expertise"
+          }
+        },
+        "blog": {
+          "heading": "News, background and new features",
+          "cta": {
+            "text": "All blog posts",
+            "link": "/blog"
+          }
+        },
+        "footerNote": {
+          "text": "With Supertext, companies translate <highlight>better, faster, cheaper</highlight> and <highlight>safer</highlight>. From 0% to 100% automated.",
+          "cta": {
+            "title": "Shall we talk?",
+            "link": "/contact",
+            "target": "_blank"
+          }
+        },
+        "images": {
+          "girlOnIpad": {
+            "alt": "Girl on iPad"
+          }
+        }
+      },
+      "languageExpertise": {
+        "hero": {
+          "title": "Experienced professionals - in top form thanks to Language AI",
+          "description": "Our language experts are ready for you. Whenever every word counts."
+        },
+        "lead": {
+          "large": "<highlight>Fully automatic</highlight> or <highlight>handmade?</highlight> The answer often lies somewhere in between.",
+          "small": "With AI Translation, you can translate hundreds of words in seconds. And with our experts, you can be sure that every one of them is right. With Supertext, you can book support from experienced specialists as an add-on with just a few clicks. Whenever contextual knowledge in your specialist area and genuine passion are required. <break></break> <break></break> The big advantage: your AI learns with every professional project. And therefore constantly adapts to your language. For smooth communication exactly according to your specifications - and sustainably reduced costs."
+        },
+        "featureList": {
+          "title": "  Fused translation with Supertext: Your benefits",
+          "eyebrowHeadline": "Advantages",
+          "benefitContent": {
+            "benefits": [
+              {
+                "title": "20+ AI specialists, engineers and security professionals",
+                "description": "Our tech team does pioneering work that pays off. We develop reliable, secure and flexible Language AI technology without compromise. It forms the basis for language quality on a grand scale, seamlessly integrated into every process and every interface. ",
+                "cta": {
+                  "text": "More about our technology",
+                  "link": "/technology",
+                  "variant": "primary"
+                }
+              },
+              {
+                "title": "3,000 selected specialist translators, copywriters and proofreaders",
+                "description": "From Geneva to Milan, from Buenos Aires to Tokyo: Supertext works with specialized native linguists worldwide. They all have a translation degree or more than five years of experience and undergo rigorous testing."
+              },
+              {
+                "title": "In-house language specialists for consistency and quality assurance",
+                "description": "Permanently employed specialists provide internal expertise and quality control in the most important languages. They draw up guidelines, put together specialist teams for individual customers and are the first port of call when language issues arise."
+              },
+              {
+                "title": "Personal support from experienced project managers",
+                "description": "Our project managers are the flexible hub for large projects and your direct line to Supertext. They ensure that your requirements are implemented precisely, deadlines are met and translated files are perfectly formatted in any format."
+              }
+            ],
+            "buttons": {
+              "one": "",
+              "other": ""
+            }
+          }
+        },
+        "serviceList": {
+          "title": "Our professional services at a glance",
+          "eyebrowHeadline": "",
+          "services": [
+            {
+              "title": "",
+              "sections": [
+                {
+                  "title": "AI translation &amp; verification",
+                  "description": "Be sure that everything fits. With automatic transmission - and the professional check at the touch of a button.",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "/service/ai-translation",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Specialized translation",
+                  "description": "Technology meets experienced specialists. From InDesign to Word and from Arabic to Zulu.",
+                  "cta": {
+                    "title": "ORDER NOW",
+                    "link": "https://www.supertext.ch/de/uebersetzen",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Copywriting &amp; Content",
+                  "description": "We start where you are at a loss for words. In your tone of voice, full of ideas and to the point.",
+                  "cta": {
+                    "title": "ORDER NOW",
+                    "link": "https://www.supertext.ch/de/texten",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Proofreading",
+                  "description": "The finishing touch for your text. Stylistically confident, fussy and really fast.",
+                  "cta": {
+                    "title": "ORDER NOW",
+                    "link": "https://www.supertext.ch/de/lektorieren",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Plain Language",
+                  "description": "We also make technical texts easy to understand. For more trust and fewer support requests.",
+                  "cta": {
+                    "title": "ORDER NOW",
+                    "link": "https://www.supertext.ch/de/plain-language",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Consulting",
+                  "description": "Do you have big plans? We have the right solution in every language. From 0 to 100 % automated.",
+                  "cta": {
+                    "title": "LET'S TALK",
+                    "link": "/contact",
+                    "variant": "secondary"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "portraits": {
+          "subtitle": "PORTRAITS",
+          "title": "Expertise from Å to Ž: Get to know our team",
+          "items": [
+            {
+              "image": "/images/pages/language-expertise/portrait1.png",
+              "quote": "\"We grind until it hurts.\"",
+              "person": "Tristan Secrest, English Language Specialist",
+              "content": [
+                {
+                  "title": "What are your tasks at Supertext?",
+                  "text": "Anything that involves language in any way. We verify AI translations, check the work of freelancers, but also develop workflows for clients with specific requirements. From quality checks and the development of style guides to the selection and maintenance of linguistic teams."
+                },
+                {
+                  "title": "What makes a real Language Specialist?",
+                  "text": "In addition to linguistic talent, it is above all a keen interest in what technology has to offer. We use it to hone our skills and equip ourselves for everything our customers need. Our determination and attention to detail also drive us forward."
+                },
+                {
+                  "title": "And how exactly do you ensure maximum voice quality?",
+                  "text": "Firstly, by relying exclusively on people with language studies and many years of experience. Secondly, by leaving nothing to chance and working tirelessly to ensure that every word is right. Sometimes it's really painful, but it's always worth it."
+                }
+              ]
+            },
+            {
+              "image": "/images/pages/language-expertise/portrait2.png",
+              "quote": "\"We also translate - especially customer wishes into language models.\"",
+              "person": "Philippe Schläpfer, Research Scientist",
+              "content": [
+                {
+                  "title": "What exactly does a Research Scientist do?",
+                  "text": "In short: translating customer requirements into action. By improving existing translation models on the one hand and developing specialized models on the other, which we tailor to our clients' corporate wording through training. We also develop new features based on the latest research findings."
+                },
+                {
+                  "title": "How does such specialized training work - and what does it require?",
+                  "text": "We develop the model and customize it to the language and style of the company. For training, we need raw material - usually internal translation data from customers - and a broad knowledge of computer linguistics and coding. It takes about 6 weeks from start to delivery. In between, extensive testing is carried out and quality standards are checked."
+                },
+                {
+                  "title": "What's the coolest feature you've helped develop so far?",
+                  "text": "Our dialect feature - translate to and from Swiss German including various dialects such as Züridütsch or Bärndütsch. The technology behind it was tricky, as there are relatively few texts for training in these languages."
+                }
+              ]
+            }
+          ]
+        },
+        "footerNote": {
+          "text": "You want a <highlight>Style guide</highlight> for your company? Or 4000 <highlight>Translation projects</highlight> per month?",
+          "preTitle": "We are here for you",
+          "cta": {
+            "title": "Let's talk",
+            "link": "/contact",
+            "target": ""
+          }
+        }
+      },
+      "contact": {
+        "hero": {
+          "title": "Available in almost every language",
+          "description": "Whether for projects, feedback, dream jobs or a demo: let's talk."
+        },
+        "salesSection": {
+          "title": "Contact us <highlightText>Supertext Sales</highlightText>",
+          "description": "Our team will help you get the best out of Supertext.\n\nContact us for:",
+          "bulletPoints": {
+            "point1": "Learn how Supertext can support your global business expansion",
+            "point2": "Team packages, enterprise solutions, APIs and more",
+            "point3": "Customized solutions for your company"
+          }
+        },
+        "contactForm": {
+          "intro": "Fill out the form so that we can put you in touch with the right person.",
+          "fields": {
+            "name": {
+              "label": "First name and surname*",
+              "placeholder": "Your name",
+              "error": "Name is required"
+            },
+            "company": {
+              "label": "Company/Organization*",
+              "placeholder": "Your company",
+              "error": "Company/organization is required"
+            },
+            "email": {
+              "label": "E-mail*",
+              "placeholder": "Your e-mail",
+              "error": "Invalid e-mail address"
+            },
+            "phone": {
+              "label": "Telephone",
+              "placeholder": "Your telephone number"
+            },
+            "helpType": {
+              "label": "How can we help?*",
+              "placeholder": "Please select",
+              "error": "Please select an option",
+              "options": {
+                "project": "Project request",
+                "feedback": "Feedback",
+                "demo": "Request a demo",
+                "career": "Career"
+              }
+            },
+            "message": {
+              "label": "Your message*",
+              "placeholder": "Your message",
+              "error": "Message is required"
+            },
+            "source": {
+              "label": "How did you hear about us?",
+              "placeholder": "e.g. Google, recommendation, social media",
+              "error": "Please indicate how you became aware of us"
+            }
+          },
+          "submit": "Sending",
+          "notifications": {
+            "success": {
+              "title": "Form sent",
+              "description": "We will contact you shortly."
+            },
+            "error": {
+              "title": "An error has occurred",
+              "description": "Please try again later."
+            }
+          }
+        },
+        "locations": [
+          {
+            "title": "Zurich",
+            "description": "Our headquarters are located in Zurich-West, just a few meters from the Limmat.",
+            "image": "/images/pages/contact/zurich.png",
+            "address": {
+              "line0": "Supertext",
+              "line1": "Hardturmstrasse 253",
+              "line2": "8005 Zurich",
+              "line3": "Switzerland"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/aVo7gpnZp2aP8uEb9"
+          },
+          {
+            "title": "Berlin",
+            "image": "/images/pages/contact/Berlin.png",
+            "description": "You will find our Berlin office in the heart of Kreuzberg, directly on Mehringdamm.",
+            "address": {
+              "line0": "Supertext",
+              "line1": "Mehringdamm 32/34",
+              "line2": "10961 Berlin",
+              "line3": "Germany"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/ifzabvrtA756Kpdd6"
+          }
+        ],
+        "footerNote": {
+          "cta": {
+            "title": "Book an appointment now",
+            "link": "/demo"
+          },
+          "text": "Would you like to experience Supertext in action? Book a non-binding <highlightText>Demo</highlightText> with us."
+        }
+      }
+    }
+  },
+  "remove": "Remove",
+  "translator": {
+    "sourcePlaceholderTitle": "Type to translate",
+    "sourcePlaceholderDescription": "Or drang and drop documents to translate with our AI Translator",
+    "features": {
+      "infoPopover": {
+        "title": "Function",
+        "rephrase": {
+          "title": "Rephrase",
+          "description": "Select <highlight>multiple words</highlight> to rephrase."
+        },
+        "wordAlternative": {
+          "title": "Alternative word choice",
+          "description": "Click on a <highlight>word</highlight> to find alternatives."
+        }
+      }
+    }
+  }
+}

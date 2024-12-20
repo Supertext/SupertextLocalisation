@@ -66,14 +66,12 @@ jobs:
       - name: Copy localization files
         run: |
           cd $AZURE_REPO_NAME
-          mkdir -p "${{ env.AZURE_TARGET_PATH }}/de"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/de-CH"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/de-DE"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/en"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/it"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/fr"
           
-          cp "${{ github.workspace }}/de/localization_de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de.json"
           cp "${{ github.workspace }}/de-DE/localization_de-DE.json" "${{ env.AZURE_TARGET_PATH }}/de-DE/localization_de-DE.json"
           cp "${{ github.workspace }}/de-CH/localization_de-CH.json" "${{ env.AZURE_TARGET_PATH }}/de-CH/localization_de-CH.json"
           cp "${{ github.workspace }}/en/localization_en.json" "${{ env.AZURE_TARGET_PATH }}/en/localization_en.json"

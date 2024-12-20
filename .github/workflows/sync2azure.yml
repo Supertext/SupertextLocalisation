@@ -3,9 +3,15 @@
 name: Sync Localization Files to Azure DevOps
 
 on:
-  pull_request:
-    types:
-      - closed
+  push:
+    paths:
+      - 'de-CH/localization_de-CH.json'
+      - 'de-DE/localization_de-DE.json'
+      - 'en/localization_en.json'
+      - 'fr/localization_fr.json'
+      - 'it/localization_it.json'
+    branches:
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

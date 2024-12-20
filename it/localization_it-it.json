@@ -1,0 +1,130 @@
+{
+  "notSupported": "Lingua non supportata",
+  "notifications": {
+    "failure": {
+      "team": {
+        "memberAlreadyInTeam": "L'utente invitato fa già parte di un altro team. Contattare il nostro team di assistenza all'indirizzo info@supertext.com per far assegnare la persona a un nuovo team."
+      }
+    }
+  },
+  "starstruck": {
+    "dashboard": {
+      "subscriptions": {
+        "price": "Prezzo",
+        "assignLicenseAdmin": "Assegnazione della licenza",
+        "assignLicenseUser": "Contatto admin",
+        "confirmSubscription": "Confermare l'iscrizione"
+      },
+      "profile": {
+        "noLicense": "Nessuno",
+        "isLicenced": "Attivo",
+        "sections": {
+          "team": {
+            "marketingPanel": {
+              "heading": "<highlightText>Fate crescere il vostro team</highlightText>aumentare la vostra influenza",
+              "subheading": "Invitate i vostri colleghi e iniziate a lavorare insieme in pochi minuti.",
+              "listItems": [
+                "Decidete chi fa parte del vostro team",
+                "Assegnare e gestire ruoli e autorizzazioni",
+                "Aumentate la vostra produttività e non perdete mai più una scadenza"
+              ],
+              "viewTable": "Visualizza la tabella"
+            }
+          },
+          "subscription": {
+            "afterTrialPeriod": "(dopo la fase di test)",
+            "modal": {
+              "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e saranno addebitate alla fine del periodo di fatturazione successivo."
+            }
+          }
+        }
+      }
+    },
+    "humanVerification": {
+      "outOfBusinessHours": {
+        "title": "Purtroppo non è possibile raggiungerci al di fuori dei nostri orari di lavoro",
+        "description": "nessun problema! Può effettuare l'ordine ora, basta seguire i passaggi.",
+        "businessHours": "Lunedì - Venerdì",
+        "businessHoursTime": "9:00-17:30",
+        "nonWorkingDaySaturday": "Sabato",
+        "nonWorkingDaySunday": "Domenica",
+        "nonWorkingDaysHolidays": "Giorni festivi",
+        "nonWorkingDaysInfo": "Chiuso",
+        "businessHoursInfo": "Orario di lavoro"
+      }
+    },
+    "pages": {
+      "faq": {
+        "hero": {
+          "title": "Le domande e le risposte più frequenti su Supertext"
+        },
+        "filter": {
+          "searchTitle": "Che cosa sta cercando?",
+          "categoryTitle": "Filtrare per argomento"
+        },
+        "footerNote": {
+          "text": "La sua domanda non è stata <highlight>non inclusa</highlight>? Allora siete invitati a <highlight>Contattare</highlight> con noi.",
+          "cta": {
+            "title": "Parliamo",
+            "link": "/contatto",
+            "target": "_blank"
+          }
+        }
+      },
+      "references": {
+        "hero": {
+          "title": "Le nostre referenze parlano da sole"
+        },
+        "references": {
+          "title": "Oltre 1500 aziende in tutta Europa si affidano a Supertext. Dalle multinazionali del settore assicurativo ai marchi creativi dell'alta moda."
+        },
+        "caseList": {
+          "title": "A casa in qualsiasi area. Fatti a mano, supportati dall'intelligenza artificiale o completamente automatizzati.",
+          "description": "Supertext si adatta alle vostre esigenze. Scoprite come le aziende di ogni dimensione e specializzazione possono comunicare meglio con noi, con un'automazione che va dallo 0% al 100%.",
+          "cta": "A tutti i casi"
+        },
+        "footerNote": {
+          "pretitle": "Siamo qui per voi",
+          "text": "Avete un progetto <highlight>Progetto</highlight> in cantiere? O volete aggiornare la vostra configurazione <highlight>Configurazione</highlight> con noi <highlight>con noi?</highlight>",
+          "cta": {
+            "title": "Parliamo",
+            "link": "/contatto",
+            "target": ""
+          }
+        }
+      },
+      "blog": {
+        "articleCard": {
+          "ctaText": "Leggi ora"
+        }
+      }
+    }
+  },
+  "translator": {
+    "targetOverlays": {
+      "verificationPayment": {
+        "title": "Ha funzionato!",
+        "description": "Un esperto di Supertext verificherà il vostro testo. Riceverete la traduzione verificata all'indirizzo e-mail indicato.",
+        "newTranslationButton": "Iniziare una nuova traduzione",
+        "altText": "Illustrazione di una persona rilassata al telefono"
+      },
+      "lockedLanguage": {
+        "title": "{notSupportedLanguage} è disponibile solo nel piano di abbonamento Advanced.",
+        "description": "Scoprite i vari piani di abbonamento di Supertext e trovate l'opzione giusta per voi.",
+        "cta": "Esplora gli abbonamenti"
+      },
+      "unsupportedLanguagePair": {
+        "title": "Questa combinazione linguistica non è ancora supportata",
+        "description": "Iscriviti alla nostra newsletter per essere il primo ad essere informato sulle nuove combinazioni linguistiche.",
+        "emailPlaceholder": "Ihre@email.com",
+        "subscribeButton": "Iscriviti alla nostra newsletter",
+        "changeLanguageButton": "Selezionare altre lingue",
+        "altText": "Illustrazione di una persona rilassata al telefono",
+        "notifications": {
+          "success": "Vi siete iscritti con successo alla nostra newsletter",
+          "error": "Si è verificato un errore durante l'iscrizione alla newsletter"
+        }
+      }
+    }
+  }
+}

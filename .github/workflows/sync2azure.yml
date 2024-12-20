@@ -5,6 +5,7 @@ name: Sync Localization Files to Azure DevOps
 on:
   push:
     paths:
+      - 'de/localization_de.json'
       - 'de/localization_de-de.json'
       - 'de/localization_de-ch.json'
       - 'en/localization_en.json'
@@ -83,6 +84,7 @@ jobs:
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/it"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/fr"
           
+          cp "${{ github.workspace }}/de/localization_de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de.json"
           cp "${{ github.workspace }}/de/localization_de-de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de-de.json"
           cp "${{ github.workspace }}/de/localization_de-ch.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de-ch.json"
           cp "${{ github.workspace }}/en/localization_en.json" "${{ env.AZURE_TARGET_PATH }}/en/localization_en.json"

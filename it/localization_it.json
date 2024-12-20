@@ -1229,7 +1229,7 @@
     },
     "subscriptionPlans": {
       "free": {
-        "title": "Gratuito",
+        "title": "Free",
         "description": "Descrizione Gruppo target o simile. dolor sit amet doloroli sitiol conse ctetur adipiscing elit. At vero eos et accusam et justo duo dolores.",
         "price_monthly": "Gratuito",
         "price_yearly": "Gratuito",
@@ -2206,94 +2206,6 @@
           }
         }
       },
-      "workAtSupertext": {
-        "hero": {
-          "title": "Deine Karriere bei Supertext",
-          "description": "Wie wir arbeiten. Wohin wir wollen. Und wie du Teil des Ganzen wirst."
-        },
-        "lead": { 
-          "large": "Wir lieben und leben  <highlight>Sprache</highlight> und <highlight>Technologie.</highlight> Jeden Tag aufs Neue. Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken. Bereit, mit uns die Sprachindustrie zu revolutionieren?",
-          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagemen. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
-          "cta": {
-            "title": "Mehr zu unserer Vision",
-            "link": "/why-supertext"
-          },
-          "cta2": {
-            "title": "Offene Stellen"
-          }
-        },
-        "featureList": {
-          "title": "Inside Supertext: So sind wir aufgestellt",
-          "eyebrowHeadline": "Profile",
-          "benefitContent": {
-            "benefits": [
-              {
-                "title": "Sprachmanagement",
-                "description": "Unsere inhouse-Spezialist:innen für die wichtigsten Sprachen. Sie sorgen für die Qualitätskontrolle,  sind erste Anlaufstelle für sprachliche Knacknüsse und arbeiten aktiv bei der Verbesserung unserer KI-Modelle mit.",
-                "cta": {
-                  "text": "Mitarbeiterporträt lesen",
-                  "link": "/language-expertise#portraits",
-                  "variant": "primary"
-                }
-              },
-              {
-                "title": "Projektleitung",
-                "description": "Die flexible Drehscheibe für Grossprojekte und persönliche Betreuung unserer Kund:innen. Sie stellen sicher, dass Anforderungen genau umgesetzt, Termine eingehalten und übersetzte Dateien in jedem Format perfekt formatiert sind."
-              },
-              {
-                "title": "Technology",
-                "description": "Unser Entwicklungsteam programmiert individuell für unsere Kund:innen – von der spezialisierten AI Lösung über zusätzliche Sprachfunktionen bis hin zur persönlichen Systemanbindung. Dank Entwicklung im eigenen Haus flexibel und in Rekordzeit umgesetzt.",
-                "cta": {
-                  "text": "Mitarbeiterporträt lesen",
-                  "link": "/language-expertise#portraits",
-                  "variant": "primary"
-                }
-              },
-              {
-                "title": "Vendor Management",
-                "description": "Die erste Anlaufstelle für unsere externen Sprachprofis. Sie sorgen für die Rekrutierung und Evaluation unserer Freelancer:innen und kümmern sich um Rückfragen zur Zusammenarbeit."
-              },
-              {
-                "title": "Sales & Marketing",
-                "description": "Die beiden Teams haben ein übergeordnetes Ziel: unser Wachstum vorantreiben. Ihre Aufgaben: Bedürfnisse erkennen, Inhalte und Lösungen bereitstellen und konkurrenzfähige Angebote zimmern."
-              },
-              {
-                "title": "Backoffice",
-                "description": "Der Motor unseres Unternehmens, der für den reibungslosen Ablauf sorgt, Zufriedenheit sicherstellt und uns beim Wachsen unterstützt. Aktuell bestehend aus folgenden Abteilungen:",
-                "list": [
-                  "People Management",
-                  "Finance",  
-                  "IT Support", 
-                  "Security & Quality"
-                ]
-              }
-            ],
-            "buttons": {
-              "one": "",
-              "other": ""
-            }
-          }
-        },
-        "jobs": {
-          "title": "So wirst du Teil des Teams: unsere freien Stellen",
-          "noJobs": "Aktuell haben wir keine Stellen zu vergeben",
-          "footerMessage": "Der passende Job war nicht dabei? Dann überzeug uns davon, dass wir dich trotzdem unbedingt kennenlernen müssen. Sende uns deine <bold>Spontanbewerbung</bold> an <bold><emailContact>people@supertext.com</emailContact></bold>."
-        },
-        "article_one": {
-          "tag": "WERTE & BENEFITS",
-          "title": "Unsere <highlight>Vielfalt</highlight> macht uns stark",
-          "description": "Wir vereinen unzählige Kulturen, Sprachen, Talente und Interessen an einem Ort. Das bereichert unsere Zusammenarbeit und macht uns zu dem, was wir sind: der All-in-one-Anbieter, der für jede sprachliche Herausforderung eine Lösung findet. <break></break> <break></break> Ein Miteinander auf Augenhöhe ist für uns genauso selbstverständlich wie faire Entlöhnung und ein offenes, flexibles Arbeitsumfeld. Bei Supertext organisieren wir uns selbstbestimmt, übernehmen Verantwortung und bringen Ideen ein, die unsere Kultur aktiv mitgestalten. Mit Schulungen und laufendem Feedback erweitern wir unser Wissen und treiben die persönliche Entwicklung voran."
-        },
-        "footerNote": {
-          "text": "Du bist <highlightText>Freelancer:in</highlightText> und möchtest mit uns <highlightText>zusammenarbeiten?</highlightText> ",
-          "description": "Wir sind immer auf der Suche nach Texterinnen, Übersetzern, SEO-Spezialistinnen oder Lektoren, die unser Team an Sprachprofis ergänzen.",
-          "cta": {
-            "title": "Als Freelancer:in registieren",
-            "link": "https://www.supertext.com/de/startapplication",
-            "target": "_blank"
-          }
-        }
-      },
       "contact": {
         "hero": {
           "title": "Disponibile in quasi tutte le lingue",
@@ -2445,6 +2357,94 @@
         },
         "articlePage": {
           "moreArticlesTitle": "Ulteriori contributi"
+        }
+      },
+      "workAtSupertext": {
+        "hero": {
+          "title": "La vostra carriera in Supertext",
+          "description": "Come lavoriamo. Dove vogliamo andare. E come si diventa parte del tutto."
+        },
+        "lead": {
+          "large": "Amiamo e viviamo  <highlight>Lingua</highlight> e <highlight>Tecnologia.</highlight> Ogni giorno in modo nuovo. E siamo sempre alla ricerca di <highlight>nuovi talenti</highlight>che la pensano allo stesso modo. Siete pronti a rivoluzionare l'industria linguistica con noi?",
+          "small": "In qualità di fornitore internazionale di servizi linguistici AI, abbiamo l'onore di gestire progetti per oltre 1500 aziende in tutta Europa. Guidiamo il cambiamento e sviluppiamo soluzioni che ridefiniscono lo status quo. Con l'intelligenza artificiale e l'esperienza umana al centro del nostro lavoro. <break></break> <break></break> Dietro le nostre soluzioni di tecnologia linguistica c'è un team di oltre 100 esperti in ricerca sull'IA, software, linguistica e gestione dei progetti. Guidati da un costante scambio di conoscenze e dalla rapidità di pensiero e azione.",
+          "cta": {
+            "title": "Per saperne di più sulla nostra visione",
+            "link": "/perché-supertesto"
+          },
+          "cta2": {
+            "title": "Offerte di lavoro"
+          }
+        },
+        "featureList": {
+          "title": "All'interno di Supertext: come siamo posizionati",
+          "eyebrowHeadline": "Profili",
+          "benefitContent": {
+            "benefits": [
+              {
+                "title": "Gestione della lingua",
+                "description": "I nostri specialisti interni per le lingue più importanti. Si occupano del controllo qualità, sono il primo interlocutore per qualsiasi problema linguistico e partecipano attivamente al miglioramento dei nostri modelli AI.",
+                "cta": {
+                  "text": "Leggi il ritratto dei dipendenti",
+                  "link": "/esperienza linguistica#ritratti",
+                  "variant": "primario"
+                }
+              },
+              {
+                "title": "Gestione del progetto",
+                "description": "L'hub flessibile per i grandi progetti e il supporto personale per i nostri clienti. Garantiscono l'attuazione precisa dei requisiti, il rispetto delle scadenze e la perfetta formattazione dei file tradotti in ogni formato."
+              },
+              {
+                "title": "Tecnologia",
+                "description": "Il nostro team di sviluppo programma per i nostri clienti, dalle soluzioni AI specializzate alle funzioni vocali aggiuntive, fino alle connessioni personali al sistema. Flessibile e implementato in tempi record grazie allo sviluppo interno.",
+                "cta": {
+                  "text": "Leggi il ritratto dei dipendenti",
+                  "link": "/esperienza linguistica#ritratti",
+                  "variant": "primario"
+                }
+              },
+              {
+                "title": "Gestione dei fornitori",
+                "description": "Il primo punto di contatto per i nostri professionisti linguistici esterni. Si occupano del reclutamento e della valutazione dei nostri freelance e si occupano di tutte le domande relative alla collaborazione."
+              },
+              {
+                "title": "Vendite e marketing",
+                "description": "I due team hanno un obiettivo primario: guidare la nostra crescita. I loro compiti: Riconoscere le esigenze, fornire contenuti e soluzioni e creare offerte competitive."
+              },
+              {
+                "title": "Back office",
+                "description": "Il motore della nostra azienda, che assicura il buon funzionamento di tutto, garantisce la soddisfazione e ci aiuta a crescere. Attualmente è composto dai seguenti reparti:",
+                "list": [
+                  "Gestione delle persone",
+                  "Finanza",
+                  "Assistenza IT",
+                  "Sicurezza e qualità"
+                ]
+              }
+            ],
+            "buttons": {
+              "one": "",
+              "other": ""
+            }
+          }
+        },
+        "jobs": {
+          "title": "Come entrare a far parte del team: le nostre offerte di lavoro",
+          "noJobs": "Al momento non abbiamo posti vacanti",
+          "footerMessage": "Non avete trovato il lavoro giusto? Allora convinceteci che abbiamo ancora bisogno di conoscervi. Inviateci la vostra <bold>Candidatura spontanea</bold> a <bold><emailContact>people@supertext.com</emailContact></bold>."
+        },
+        "article_one": {
+          "tag": "VALORI E BENEFICI",
+          "title": "La nostra <highlight>Diversità</highlight> ci rende forti",
+          "description": "Riuniamo innumerevoli culture, lingue, talenti e interessi in un unico luogo. Questo arricchisce la nostra collaborazione e ci rende ciò che siamo: il fornitore all-in-one che trova una soluzione per ogni sfida linguistica. <break></break> <break></break> Lavorare insieme da pari a pari è per noi importante quanto una retribuzione equa e un ambiente di lavoro aperto e flessibile. In Supertext ci organizziamo in modo autodeterminato, ci assumiamo le nostre responsabilità e contribuiamo con idee che plasmano attivamente la nostra cultura. Utilizziamo la formazione e il feedback continuo per ampliare le nostre conoscenze e favorire lo sviluppo personale."
+        },
+        "footerNote": {
+          "text": "Sei <highlightText>Libero professionista:in</highlightText> e vuoi lavorare con noi? <highlightText>lavorare con noi?</highlightText> ",
+          "description": "Siamo sempre alla ricerca di copywriter, traduttori, specialisti SEO e correttori di bozze da inserire nel nostro team di professionisti del settore linguistico.",
+          "cta": {
+            "title": "Registrarsi come libero professionista",
+            "link": "https://www.supertext.com/de/startapplication",
+            "target": "_blank"
+          }
         }
       }
     }

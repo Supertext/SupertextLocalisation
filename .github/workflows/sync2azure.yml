@@ -80,6 +80,8 @@ jobs:
         run: |
           cd $AZURE_REPO_NAME
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/de"
+          mkdir -p "${{ env.AZURE_TARGET_PATH }}/de-CH"
+          mkdir -p "${{ env.AZURE_TARGET_PATH }}/de-DE"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/en"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/it"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/fr"

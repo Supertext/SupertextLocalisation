@@ -5,7 +5,8 @@ name: Sync Localization Files to Azure DevOps
 on:
   push:
     paths:
-      - 'de/localization_de.json'
+      - 'de/localization_de-de.json'
+      - 'de/localization_de-ch.json'
       - 'en/localization_en.json'
       - 'fr/localization_fr.json'
       - 'it/localization_it.json'
@@ -52,7 +53,7 @@ jobs:
       - name: Set up Git
         run: |
           git config --global user.email "github-actions@supertext.com"
-          git config --global user.name "GitHub Actions"
+          git config --global user.name "Lokalise GitHub Actions"
           
       - name: Clone Azure DevOps Repository
         env:
@@ -82,7 +83,8 @@ jobs:
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/it"
           mkdir -p "${{ env.AZURE_TARGET_PATH }}/fr"
           
-          cp "${{ github.workspace }}/de/localization_de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de.json"
+          cp "${{ github.workspace }}/de/localization_de-de.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de-de.json"
+          cp "${{ github.workspace }}/de/localization_de-ch.json" "${{ env.AZURE_TARGET_PATH }}/de/localization_de-ch.json"
           cp "${{ github.workspace }}/en/localization_en.json" "${{ env.AZURE_TARGET_PATH }}/en/localization_en.json"
           cp "${{ github.workspace }}/fr/localization_fr.json" "${{ env.AZURE_TARGET_PATH }}/fr/localization_fr.json"
           cp "${{ github.workspace }}/it/localization_it.json" "${{ env.AZURE_TARGET_PATH }}/it/localization_it.json"

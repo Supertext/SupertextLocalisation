@@ -6,8 +6,8 @@ on:
   push:
     paths:
       - 'de/localization_de.json'
-      - 'de-CH/localization_de-DE.json'
-      - 'de-DE/localization_de-CH.json'
+      - 'de-CH/localization_de-CH.json'
+      - 'de-DE/localization_de-DE.json'
       - 'en/localization_en.json'
       - 'fr/localization_fr.json'
       - 'it/localization_it.json'

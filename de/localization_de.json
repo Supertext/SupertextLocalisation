@@ -1158,7 +1158,6 @@
   "word": "Wort",
   "translation": "Übersetzung",
   "translateDocument": "Dokument übersetzen",
-  "notSupported": "Nicht unterstützte Sprache",
   "languages": {
     "x-mixed": "Mehrere Sprachen",
     "cs": "Tschechisch",
@@ -1380,13 +1379,13 @@
       },
       "team": {
         "addMember": "Beim Einladen des Benutzers zum Team ist ein Fehler aufgetreten",
-        "memberAlreadyInTeam": "Der eingeladene Benutzer ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter info@supertext.com an unseren Support, um die Person einem neuen Team zuweisen zu lassen.",
         "changeRole": "Beim Ändern der Rolle des Teammitglieds ist ein Fehler aufgetreten",
         "editMember": "Beim Bearbeiten des Teammitglieds ist ein Fehler aufgetreten",
         "removeMember": "Beim Entfernen des Benutzers aus dem Team ist ein Fehler aufgetreten",
         "couldNotFetchTeamMembers": "Konnte die Teammitglieder nicht abrufen: {error}",
         "couldNotFetchTeamDetails": "Konnte die Teamdetails nicht abrufen: {error}",
-        "couldNotFetchTeamId": "Konnte die Team-ID nicht abrufen: {error}"
+        "couldNotFetchTeamId": "Konnte die Team-ID nicht abrufen: {error}",
+        "memberAlreadyInTeam": "Der eingeladene Benutzer ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter info@supertext.com an unseren Support, um die Person einem neuen Team zuweisen zu lassen."
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abonnements ist ein Fehler aufgetreten",
@@ -1553,18 +1552,14 @@
       },
       "subscriptions": {
         "title": "Abo verwalten",
-        "price": "Preis",
         "contactSupertext": "Supertext kontaktieren",
         "otherPlans": "Abo ändern",
-        "assignLicenseAdmin": "Lizenz zuweisen",
-        "assignLicenseUser": "Admin kontaktieren",
         "current": "Aktuelles Abo",
         "upgrade": "Upgraden",
         "downgrade": "Downgraden",
         "recommended": "Empfohlen",
         "comparePlans": "Abos vergleichen",
         "showMore": "Mehr anzeigen",
-        "confirmSubscription": "Abo bestätigen",
         "cancellationInfo": "Sie haben Ihr Abo gekündigt und es endet am",
         "freePlanInfo": "Ihr Abo wird auf den kostenlosen Supereasy-Tarif umgestellt.",
         "customPlanInfo": "Passen Sie Ihr Abo Ihren Bedürfnissen an",
@@ -1594,7 +1589,11 @@
         "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um bald auch Sie dazu zu zählen?",
         "contactUs": "Lassen Sie uns reden",
         "compareAllFeatures": "Alle Features vergleichen",
-        "customizeSubscriptionInfo": "Passen Sie ganz einfach und jederzeit ihr Abonnement ihren Bedürfnissen an"
+        "customizeSubscriptionInfo": "Passen Sie ganz einfach und jederzeit ihr Abonnement ihren Bedürfnissen an",
+        "price": "Preis",
+        "assignLicenseAdmin": "Lizenz zuweisen",
+        "assignLicenseUser": "Admin kontaktieren",
+        "confirmSubscription": "Abo bestätigen"
       },
       "resources": {
         "title": "Sprachressourcen"
@@ -1636,8 +1635,6 @@
         "selectOption": "Option auswählen",
         "isAdmin": "Zum Admin machen",
         "noData": "Keine Angaben",
-        "noLicense": "Keine",
-        "isLicenced": "Aktiv",
         "roles": {
           "admin": "Administrator",
           "user": "User"
@@ -1765,7 +1762,6 @@
             "nextPayment": "Nächste Zahlung",
             "monthly": "Monatlich",
             "yearly": "Jährlich",
-            "afterTrialPeriod": "(nach Testphase)",
             "billingPeriod": "Abrechnungszeitraum",
             "subscriptionPrices": "Preise der Abonnements",
             "change": "Ändern",
@@ -1788,25 +1784,28 @@
               "vatIncluded": "Inkl. {currency} {amount} {percentage} {vatType}",
               "todayTotal": "Heute fälliger Gesamtbetrag",
               "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
-              "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "termsConfirmation": "Ich bestätige die oben genannte Änderung meines Abonnements und akzeptiere die",
               "removeLicensesError": {
                 "one": "Sie haben {count} Benutzer:innen eine Lizenz zugewiesen. Um Ihr Abonnement auf weniger als {count} Lizenzen zu reduzieren,",
-                "two": "Team"
+                "other": ""
               },
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung wird sofort wirksam.",
               "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
               "agreementAg": {
                 "one": "Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
-                "two": "AGB"
+                "other": ""
               },
-              "makePayment": "Verbindlich Bestellen"
-            }
+              "makePayment": "Verbindlich Bestellen",
+              "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet."
+            },
+            "afterTrialPeriod": "(nach Testphase)"
           }
         },
         "licenseTag": "Nutzer lizenzieren",
-        "currency": "Währung"
+        "currency": "Währung",
+        "noLicense": "Keine",
+        "isLicenced": "Aktiv"
       },
       "delivery": {
         "title": "Lieferung",
@@ -1957,8 +1956,15 @@
         "title": "Auf Original zurücksetzen?",
         "description": "Sie verlieren alle Ihre Änderungen. Sind Sie sicher, dass Sie auf den ursprünglichen Text zurücksetzen wollen?"
       },
+      "infoMessage": {
+        "part1": "Die zertifizierte",
+        "part2": "Kontrolle",
+        "part3": "durch eine:n Supertext-Expert:in",
+        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Dieser Service ist kostenpflichtig und wird nach Anzahl Wörtern verrechnet."
+      },
       "certifiedControl": {
         "title": "Zertifizierte Kontrolle durch eine:n Supertext-Expert:in",
+        "dDescription": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
         "description": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet."
       },
       "serviceIsDeactivated": {
@@ -1973,8 +1979,9 @@
         "title": "Bei der Schätzung des Preises und der Anzahl Ihrer Anfrage ist ein Fehler aufgetreten",
         "description": "Versuchen Sie, Ihren Browser zu aktualisieren oder kommen Sie später wieder"
       },
-      "outOfBusinessHours": {
-        "title": "Leider erreichst du uns ausserhalb unserer Geschäftszeiten",
+      "outIfBusinessHours": {
+        "title_part1": "Leider erreichst du uns ausserhalb unserer",
+        "title_part2": "Geschäftszeiten",
         "description": "'Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
         "businessHours": "Montag - Freitag",
         "businessHoursTime": "9:00-17:30",
@@ -1992,6 +1999,17 @@
       },
       "targetControl": {
         "verifiedBy": "Verifiziert von"
+      },
+      "outOfBusinessHours": {
+        "title": "Leider erreichst du uns ausserhalb unserer Geschäftszeiten",
+        "description": "'Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
+        "businessHours": "Montag - Freitag",
+        "businessHoursTime": "9:00-17:30",
+        "nonWorkingDaySaturday": "Samstag",
+        "nonWorkingDaySunday": "Sonntag",
+        "nonWorkingDaysHolidays": "Feiertage",
+        "nonWorkingDaysInfo": "Geschlossen",
+        "businessHoursInfo": "Geschäftszeiten"
       }
     },
     "couponCode": {
@@ -2503,23 +2521,6 @@
           }
         }
       },
-      "faq": {
-        "hero": {
-          "title": "Die häufigsten Fragen und Antworten rund um Supertext"
-        },
-        "filter": {
-          "searchTitle": "Wonach suchen sie?",
-          "categoryTitle": "Nach themen filtern"
-        },
-        "footerNote": {
-          "text": "Ihre Frage war <highlight>nicht dabei</highlight>? Dann nehmen Sie gerne <highlight>Kontakt</highlight> mit uns auf.",
-          "cta": {
-            "title": "Lassen Sie uns reden",
-            "link": "/contact",
-            "target": "_blank"
-          }
-        }
-      },
       "whySupertext": {
         "hero": {
           "title": "Wir denken Übersetzung neu",
@@ -2665,28 +2666,6 @@
             "title": "Zu allen Cases",
             "link": "/cases",
             "target": "_blank"
-          }
-        }
-      },
-      "references": {
-        "hero": {
-          "title": "Unsere Referenzen sprechen eine deutliche Sprache"
-        },
-        "references": {
-          "title": "Über 1500 Unternehmen in ganz Europa vertrauen auf Supertext. Vom multinationalen Versicherungskonzern bis zum kreativen High Fashion Brand."
-        },
-        "caseList": {
-          "title": "In jedem Gebiet zu Hause. Handgemacht, KI-unterstützt oder vollautomatisch.",
-          "description": "Supertext passt sich ganz Ihren Bedürfnissen an. Erfahren Sie, wie Unternehmen jeder Grösse und Fachrichtung mit uns besser kommunizieren - mit 0 % bis 100 % Automatisierung.",
-          "cta": "Zu allen Cases"
-        },
-        "footerNote": {
-          "pretitle": "Wir sind für Sie da",
-          "text": "Sie haben ein spannendes <highlight>Projekt</highlight> in der Pipeline? Oder möchten Ihr bestehendes <highlight>Setup</highlight> mit uns <highlight>evaluieren?</highlight>",
-          "cta": {
-            "title": "Lassen Sie uns reden",
-            "link": "/contact",
-            "target": ""
           }
         }
       },
@@ -3128,6 +3107,45 @@
           "text": "Sie möchten Supertext in Aktion erleben? Buchen Sie ganz unverbindlich eine <highlightText>Demo</highlightText> mit uns."
         }
       },
+      "faq": {
+        "hero": {
+          "title": "Die häufigsten Fragen und Antworten rund um Supertext"
+        },
+        "filter": {
+          "searchTitle": "Wonach suchen sie?",
+          "categoryTitle": "Nach themen filtern"
+        },
+        "footerNote": {
+          "text": "Ihre Frage war <highlight>nicht dabei</highlight>? Dann nehmen Sie gerne <highlight>Kontakt</highlight> mit uns auf.",
+          "cta": {
+            "title": "Lassen Sie uns reden",
+            "link": "/contact",
+            "target": "_blank"
+          }
+        }
+      },
+      "references": {
+        "hero": {
+          "title": "Unsere Referenzen sprechen eine deutliche Sprache"
+        },
+        "references": {
+          "title": "Über 1500 Unternehmen in ganz Europa vertrauen auf Supertext. Vom multinationalen Versicherungskonzern bis zum kreativen High Fashion Brand."
+        },
+        "caseList": {
+          "title": "In jedem Gebiet zu Hause. Handgemacht, KI-unterstützt oder vollautomatisch.",
+          "description": "Supertext passt sich ganz Ihren Bedürfnissen an. Erfahren Sie, wie Unternehmen jeder Grösse und Fachrichtung mit uns besser kommunizieren - mit 0 % bis 100 % Automatisierung.",
+          "cta": "Zu allen Cases"
+        },
+        "footerNote": {
+          "pretitle": "Wir sind für Sie da",
+          "text": "Sie haben ein spannendes <highlight>Projekt</highlight> in der Pipeline? Oder möchten Ihr bestehendes <highlight>Setup</highlight> mit uns <highlight>evaluieren?</highlight>",
+          "cta": {
+            "title": "Lassen Sie uns reden",
+            "link": "/contact",
+            "target": ""
+          }
+        }
+      },
       "blog": {
         "articleCard": {
           "ctaText": "Jetzt lesen"
@@ -3139,6 +3157,19 @@
   "translator": {
     "sourcePlaceholderTitle": "Text zum Übersetzen hier einfügen",
     "sourcePlaceholderDescription": "Oder ganze Dokumente per Drag and Drop hochladen",
+    "features": {
+      "infoPopover": {
+        "title": "Funktionsweise",
+        "rephrase": {
+          "title": "Umformulieren",
+          "description": "Wählen Sie <highlight>mehrere Wörter</highlight> zur Umformulierung aus."
+        },
+        "wordAlternative": {
+          "title": "Alternative Wortwahl",
+          "description": "Klicken Sie auf ein <highlight>Wort</highlight>, um Alternativen zu finden."
+        }
+      }
+    },
     "targetOverlays": {
       "verificationPayment": {
         "title": "Das hat geklappt!",
@@ -3163,19 +3194,7 @@
           "error": "Beim Abonnieren des Newsletters ist ein Fehler aufgetreten"
         }
       }
-    },
-    "features": {
-      "infoPopover": {
-        "title": "Funktionsweise",
-        "rephrase": {
-          "title": "Umformulieren",
-          "description": "Wählen Sie <highlight>mehrere Wörter</highlight> zur Umformulierung aus."
-        },
-        "wordAlternative": {
-          "title": "Alternative Wortwahl",
-          "description": "Klicken Sie auf ein <highlight>Wort</highlight>, um Alternativen zu finden."
-        }
-      }
     }
-  }
+  },
+  "notSupported": "Nicht unterstützte Sprache"
 }

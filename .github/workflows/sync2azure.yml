@@ -5,6 +5,7 @@ name: Sync Localization Files to Azure DevOps
 on:
   push:
     paths:
+      - 'de/localization_de.json'
       - 'de-CH/localization_de-CH.json'
       - 'de-DE/localization_de-DE.json'
       - 'en/localization_en.json'
@@ -19,6 +20,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   sync-to-azure:
+    if: github.actor == 'github-actions[bot]' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     env:
       AZURE_DEVOPS_ORG_URL: "https://dev.azure.com/supertext"

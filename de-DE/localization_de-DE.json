@@ -654,7 +654,7 @@
   "starstruck": {
     "welcomeMessage": "Grüezi,",
     "noEntries": "Keine Einträge gefunden.",
-    "placeOrder": "Auftrag erteîlén",
+    "placeOrder": "Auftrag platzieren",
     "or": "oder",
     "entriesPerPage": "Einträge pro Seite",
     "changeLanguage": "Sprache wechseln",
@@ -1612,7 +1612,94 @@
       }
     },
     "pages": {
-      "services": {
+      "aboutSupertext": {
+        "hero": {
+          "title": "Supertext – wo Language AI auf echte Expertise trifft",
+          "description": "Unsere Mission: Wir sorgen für maximale Gewissheit in der Kommunikation."
+        },
+        "lead": {
+          "large": "AI-Tool oder Übersetzungsagentur? Wir sind beides – und <highlight>zusammen viel mehr als das.</highlight>",
+          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen  – vom lernfähigen Online-Übersetzer bis zum ISO-zertifizierten Service für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst über 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik, Projektmanagement und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen die Vorteile von KI und menschlicher Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise und maximal sicher – beim Inhalt wie beim Datenschutz.",
+          "cta": {
+            "title": "Angebot entdecken",
+            "link": "/why-supertext"
+          }
+        },
+          "figuresPanel": {
+            "title": "KEY FIGURES",
+            "items": [
+              {
+                "title": "1 All-in-One-Lösung für automatische und Profi-Übersetzungen an einem Ort"
+              },
+              {
+                "title": "1500 Kund:innen aus allen Branchen und jeder Grössenordnung"
+              },
+              {
+                "title": "100+ Inhouse-Spezialist:innen in Zürich und Berlin"
+              },
+              {
+                "title": "3’000 handverlesene Sprachprofis rund um den Globus"
+              },
+              {
+                "title": "113 Zielsprachen im Angebot"
+              },
+              {
+                "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17001/18587)"
+              },
+              {
+                "title": "20 Jahre im Geschäft (seit 2005)"
+              }
+            ]
+          },
+          "members": {
+            "eyebrowHeadline": "Management",
+            "title": "Lernen Sie unser Management-Team kennen",
+            "cta": {
+              "title": "Mehr zu unserer Teamaufstellung",
+              "link": "/work-at-supertext"
+            }
+          },
+          "locationsHeading": {
+            "title": "Lokal verankert, global präsent.",
+            "description": "Wir arbeiten von Hubs in Zürich und Berlin aus. Und mit einem Netzwerk aus über 3000 ausgewählten Sprachprofis rund um den Globus. "
+          },
+          "locations": [
+            {
+              "title": "Zürich",
+              "description": "Unser Hauptquartier liegt in Zürich-West, nur wenige Meter von der Limmat entfernt.",
+              "image": "/images/pages/contact/zurich.png",
+              "address": {
+                "line0": "Supertext",
+                "line1": "Hardturmstrasse 253",
+                "line2": "8005 Zürich",
+                "line3": "Schweiz"
+              },
+              "cta": "Google Maps",
+              "googleMapsLink": "https://maps.app.goo.gl/aVo7gpnZp2aP8uEb9"
+            },
+            {
+              "title": "Berlin",
+              "image": "/images/pages/contact/Berlin.png",
+              "description": "Unser Berliner Büro finden Sie im Herzen von Kreuzberg, direkt am Mehringdamm.",
+              "address": {
+                "line0": "Supertext",
+                "line1": "Mehringdamm 32/34",
+                "line2": "10961 Berlin",
+                "line3": "Deutschland"
+              },
+              "cta": "Google Maps",
+              "googleMapsLink": "https://maps.app.goo.gl/ifzabvrtA756Kpdd6"
+            }
+          ],
+          "footerNote": {
+            "text": "Sie möchten <highlightText>Teil des Teams werden?</highlightText>",
+            "cta": {
+              "title": "Alles zur Karriere bei Supertext",
+              "link": "/work-at-supertext"
+            }
+          }
+
+      },
         "aiTranslation": {
           "hero": {
             "title": "AI Translation und Verifizierung",
@@ -1724,8 +1811,7 @@
             },
             "image": "/images/pages/ai-translation/footer_gif.gif"
           }
-        }
-      },
+        },
       "whySupertext": {
         "hero": {
           "title": "Wir denken Übersetzung neu",
@@ -1885,7 +1971,7 @@
                 "description": "Vom Styleguide bis zur Prozessoptimierung.",
                 "cta": {
                   "title": "Bestellen",
-                  "link": "/ai-translation"
+                  "link": "/service/ai-translation"
                 }
               },
               {
@@ -2099,7 +2185,7 @@
                   "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung - und dem Proficheck auf Knopfdruck.",
                   "cta": {
                     "title": "Mehr Erfahren",
-                    "link": "/ai-translation",
+                    "link": "/service/ai-translation",
                     "variant": "secondary"
                   }
                 },

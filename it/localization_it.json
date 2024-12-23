@@ -1612,205 +1612,6 @@
       }
     },
     "pages": {
-      "aboutSupertext": {
-        "hero": {
-          "title": "Supertext – wo Language AI auf echte Expertise trifft",
-          "description": "Unsere Mission: Wir sorgen für maximale Gewissheit in der Kommunikation."
-        },
-        "lead": {
-          "large": "AI-Tool oder Übersetzungsagentur? Wir sind beides – und <highlight>zusammen viel mehr als das.</highlight>",
-          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen  – vom lernfähigen Online-Übersetzer bis zum ISO-zertifizierten Service für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst über 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik, Projektmanagement und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen die Vorteile von KI und menschlicher Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise und maximal sicher – beim Inhalt wie beim Datenschutz.",
-          "cta": {
-            "title": "Angebot entdecken",
-            "link": "/why-supertext"
-          }
-        },
-          "figuresPanel": {
-            "title": "KEY FIGURES",
-            "items": [
-              {
-                "title": "1 All-in-One-Lösung für automatische und Profi-Übersetzungen an einem Ort"
-              },
-              {
-                "title": "1500 Kund:innen aus allen Branchen und jeder Grössenordnung"
-              },
-              {
-                "title": "100+ Inhouse-Spezialist:innen in Zürich und Berlin"
-              },
-              {
-                "title": "3’000 handverlesene Sprachprofis rund um den Globus"
-              },
-              {
-                "title": "113 Zielsprachen im Angebot"
-              },
-              {
-                "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17001/18587)"
-              },
-              {
-                "title": "20 Jahre im Geschäft (seit 2005)"
-              }
-            ]
-          },
-          "members": {
-            "eyebrowHeadline": "Management",
-            "title": "Lernen Sie unser Management-Team kennen",
-            "cta": {
-              "title": "Mehr zu unserer Teamaufstellung",
-              "link": "/work-at-supertext"
-            }
-          },
-          "locationsHeading": {
-            "title": "Lokal verankert, global präsent.",
-            "description": "Wir arbeiten von Hubs in Zürich und Berlin aus. Und mit einem Netzwerk aus über 3000 ausgewählten Sprachprofis rund um den Globus. "
-          },
-          "locations": [
-            {
-              "title": "Zürich",
-              "description": "Unser Hauptquartier liegt in Zürich-West, nur wenige Meter von der Limmat entfernt.",
-              "image": "/images/pages/contact/zurich.png",
-              "address": {
-                "line0": "Supertext",
-                "line1": "Hardturmstrasse 253",
-                "line2": "8005 Zürich",
-                "line3": "Schweiz"
-              },
-              "cta": "Google Maps",
-              "googleMapsLink": "https://maps.app.goo.gl/aVo7gpnZp2aP8uEb9"
-            },
-            {
-              "title": "Berlin",
-              "image": "/images/pages/contact/Berlin.png",
-              "description": "Unser Berliner Büro finden Sie im Herzen von Kreuzberg, direkt am Mehringdamm.",
-              "address": {
-                "line0": "Supertext",
-                "line1": "Mehringdamm 32/34",
-                "line2": "10961 Berlin",
-                "line3": "Deutschland"
-              },
-              "cta": "Google Maps",
-              "googleMapsLink": "https://maps.app.goo.gl/ifzabvrtA756Kpdd6"
-            }
-          ],
-          "footerNote": {
-            "text": "Sie möchten <highlightText>Teil des Teams werden?</highlightText>",
-            "cta": {
-              "title": "Alles zur Karriere bei Supertext",
-              "link": "/work-at-supertext"
-            }
-          }
-      },
-        "aiTranslation": {
-          "hero": {
-            "title": "Traduzione e verifica AI",
-            "description": "Assicuratevi che tutto sia a posto. Con il cambio automatico - e il controllo professionale con la semplice pressione di un pulsante."
-          },
-          "lead": {
-            "large": "La traduzione AI è <highlight>semplice, veloce</highlight> e migliora costantemente. Ma c'è qualcosa che anche nel 2025 <highlight>solo gli esperti umani saranno in grado di fare:</highlight> l'accuratezza di una traduzione <highlight>l'accuratezza di una traduzione.</highlight>",
-            "small": "Per i testi più importanti, Supertext vi mette in contatto diretto con oltre 3.000 traduttori esperti ed esperti culturali. Grazie alla verifica con la semplice pressione di un tasto, potete essere certi in pochi minuti che il vostro messaggio sarà ricevuto correttamente. Inoltre, riceverete un certificato di accuratezza linguistica e di contenuto. Affidabile, conveniente e veloce.",
-            "cta": {
-              "title": "Provalo subito",
-              "link": "/"
-            }
-          },
-          "informationalPanel": {
-            "title": "La traduzione assistita incontra i professionisti. Cosa c'è dentro?",
-            "items": [
-              {
-                "title": "Traduzione AI all'avanguardia della tecnologia",
-                "description": "I nostri sistemi di traduzione interni costituiscono la base per questo. Fanno parte dell'ultima generazione di intelligenza artificiale e sono in grado di gestire 23 lingue, comprese le varianti linguistiche locali. ",
-                "icon": "/images/pages/ai-translation/icon-bullet.png"
-              },
-              {
-                "title": "Controllo professionale da parte di esperti ",
-                "description": "I nostri traduttori professionisti madrelingua assicurano che il contenuto della traduzione corrisponda esattamente all'originale, intervenendo anche dal punto di vista linguistico se necessario. ",
-                "icon": "/images/pages/ai-translation/icon-bullet.png"
-              },
-              {
-                "title": "Verificato - e certificato ",
-                "description": "Una volta completato il processo di verifica, riceverete la traduzione verificata e il relativo certificato da scaricare.",
-                "icon": "/images/pages/ai-translation/icon-bullet.png"
-              }
-            ],
-            "cta": {
-              "text": "Provalo subito",
-              "link": "/"
-            }
-          },
-          "tutorialBlock": {
-            "title": "3 passi per una traduzione AI certificata",
-            "cta": {
-              "text": "Inizia subito",
-              "link": "/"
-            },
-            "items": [
-              {
-                "title": "Tradurre il testo con l'intelligenza artificiale e cliccare su \"Verifica da parte dell'esperto\"",
-                "number": "01",
-                "image": "/images/pages/ai-translation/step-1.webp"
-              },
-              {
-                "title": "Confermare i dettagli dell'ordine (flusso dell'ordine + schermata di attesa)",
-                "number": "02",
-                "image": "/images/pages/ai-translation/step-2.webp"
-              },
-              {
-                "title": "Confermare i dettagli dell'ordine (flusso dell'ordine + schermata di attesa)",
-                "number": "03",
-                "image": "/images/pages/ai-translation/step-3.webp"
-              }
-            ]
-          },
-          "featureGallery": {
-            "title": "Qualità garantita da Å a Ž",
-            "eyebrowHeadline": "Titolo del sopracciglio",
-            "items": [
-              {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "3000 esperti madrelingua qualificati",
-                "description": "Tutti i nostri traduttori specializzati hanno una laurea in traduzione o almeno cinque anni di esperienza professionale e superano un test interno.",
-                "cta": {
-                  "variant": "primario",
-                  "title": "Conoscerci",
-                  "link": "/contatto"
-                }
-              },
-              {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Testato, standardizzato e certificato secondo gli standard ISO",
-                "description": "Dal 2018 Supertext è certificata per la qualità della traduzione (ISO 17100 e 18587), la gestione della qualità (ISO 9001) e la sicurezza dei dati (ISO 27001).",
-                "cta": {
-                  "variant": "primario",
-                  "title": "Per saperne di più",
-                  "link": "/#"
-                }
-              },
-              {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Sicurezza senza compromessi",
-                "description": "Grazie ai più elevati standard di gestione dei dati, alla robusta crittografia e ai server più sicuri, teniamo i vostri dati sempre sotto chiave. Ecco perché siamo il partner preferito da banche, autorità e compagnie assicurative.",
-                "cta": {
-                  "variant": "primario",
-                  "title": "Per saperne di più sulla tecnologia",
-                  "link": "/#"
-                }
-              },
-              {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "La vostra AI personale che impara in tempo reale",
-                "description": "I nostri modelli linguistici imparano rapidamente e continuano ad adattarsi alle vostre esigenze ad ogni traduzione verificata. In questo modo la qualità aumenta a lungo termine e i vostri costi continuano a diminuire."
-              }
-            ]
-          },
-          "footerNote": {
-            "text": "Da un semplice <highlight>Traduttore online</highlight> alla soluzione <highlight>soluzione personalizzata completamente integrata</highlight>trova il tuo <highlight>abbonamento adatto.</highlight>",
-            "cta": {
-              "title": "A tutti i casi",
-              "link": "/casi",
-              "target": "_blank"
-            },
-            "image": "/images/pages/ai-translation/footer_gif.gif"
-          }
-        },
       "whySupertext": {
         "hero": {
           "title": "Stiamo ripensando la traduzione",
@@ -2530,6 +2331,205 @@
             "link": "https://www.supertext.com/de/startapplication",
             "target": "_blank"
           }
+        }
+      },
+      "aboutSupertext": {
+        "hero": {
+          "title": "Supertext - dove l'intelligenza artificiale del linguaggio incontra la competenza reale",
+          "description": "La nostra missione: garantire la massima sicurezza nella comunicazione."
+        },
+        "lead": {
+          "large": "Strumento di intelligenza artificiale o agenzia di traduzione? Siamo entrambe le cose, e <highlight>insieme molto di più.</highlight>",
+          "small": "Supertext è un fornitore di servizi linguistici completi basati sull'intelligenza artificiale con uffici a Zurigo e Berlino. Più di 1.500 aziende in tutta Europa si affidano alle nostre soluzioni linguistiche, dai traduttori online adattivi ai servizi certificati ISO per documenti, siti web, app e campagne multimediali multilingue.<break></break><break></break>Il nostro team comprende oltre 100 specialisti nei settori dell'intelligenza artificiale, della linguistica, della gestione dei progetti e della sicurezza. Abbiamo anche una rete selezionata di 3.000 professionisti linguistici freelance in tutto il mondo.<break></break><break></break>Insieme, stiamo sviluppando una piattaforma unica per testi e traduzioni su cui le aziende possono combinare i vantaggi dell'intelligenza artificiale e delle competenze linguistiche umane in base alle loro esigenze. In questo modo, stiamo ridefinendo la comunicazione: in modo efficiente, preciso e con la massima sicurezza, sia in termini di contenuti che di protezione dei dati.",
+          "cta": {
+            "title": "Scoprire l'offerta",
+            "link": "/perché-supertesto"
+          }
+        },
+        "figuresPanel": {
+          "title": "CIFRE CHIAVE",
+          "items": [
+            {
+              "title": "1 Soluzione all-in-one per traduzioni automatiche e professionali in un unico luogo"
+            },
+            {
+              "title": "1500 clienti di tutti i settori e di tutte le dimensioni"
+            },
+            {
+              "title": "oltre 100 specialisti interni a Zurigo e Berlino"
+            },
+            {
+              "title": "3.000 professionisti delle lingue selezionati in tutto il mondo"
+            },
+            {
+              "title": "113 lingue di destinazione offerte"
+            },
+            {
+              "title": "4 certificazioni ISO per la sicurezza dei dati (ISO 27001), la gestione della qualità (ISO 9001) e la qualità delle traduzioni (ISO 17001/18587)"
+            },
+            {
+              "title": "20 anni di attività (dal 2005)"
+            }
+          ]
+        },
+        "members": {
+          "eyebrowHeadline": "Gestione",
+          "title": "Conoscere il nostro team di gestione",
+          "cta": {
+            "title": "Per saperne di più sulla formazione del nostro team",
+            "link": "/lavoro-al-supertesto"
+          }
+        },
+        "locationsHeading": {
+          "title": "Ancorati a livello locale, presenti a livello globale.",
+          "description": "Lavoriamo dai centri di Zurigo e Berlino. E con una rete di oltre 3.000 professionisti linguistici selezionati in tutto il mondo. "
+        },
+        "locations": [
+          {
+            "title": "Zurigo",
+            "description": "La nostra sede si trova a Zurigo-Ovest, a pochi metri dalla Limmat.",
+            "image": "/images/pages/contatto/zurich.png",
+            "address": {
+              "line0": "Supertesto",
+              "line1": "Hardturmstrasse 253",
+              "line2": "8005 Zurigo",
+              "line3": "Svizzera"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/aVo7gpnZp2aP8uEb9"
+          },
+          {
+            "title": "Berlino",
+            "image": "/images/pages/contatto/Berlino.png",
+            "description": "Il nostro ufficio di Berlino si trova nel cuore di Kreuzberg, direttamente su Mehringdamm.",
+            "address": {
+              "line0": "Supertesto",
+              "line1": "Mehringdamm 32/34",
+              "line2": "10961 Berlino",
+              "line3": "Germania"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/ifzabvrtA756Kpdd6"
+          }
+        ],
+        "footerNote": {
+          "text": "Ti piacerebbe <highlightText>Diventare parte del team?</highlightText>",
+          "cta": {
+            "title": "Tutto sulle carriere in Supertext",
+            "link": "/lavoro-al-supertesto"
+          }
+        }
+      },
+      "aiTranslation": {
+        "hero": {
+          "title": "Traduzione e verifica AI",
+          "description": "Assicuratevi che tutto sia a posto. Con il cambio automatico - e il controllo professionale con la semplice pressione di un pulsante."
+        },
+        "lead": {
+          "large": "La traduzione AI è <highlight>semplice, veloce</highlight> e migliora costantemente. Ma c'è qualcosa che anche nel 2025 <highlight>solo gli esperti umani saranno in grado di fare:</highlight> l'accuratezza di una traduzione <highlight>di una traduzione.</highlight>",
+          "small": "Per i testi più importanti, Supertext vi mette in contatto diretto con oltre 3.000 traduttori esperti ed esperti culturali. Grazie alla verifica con la semplice pressione di un tasto, potete essere certi in pochi minuti che il vostro messaggio sarà ricevuto correttamente. Inoltre, riceverete un certificato di accuratezza linguistica e di contenuto. Affidabile, conveniente e veloce.",
+          "cta": {
+            "title": "Provalo subito",
+            "link": "/"
+          }
+        },
+        "informationalPanel": {
+          "title": "La traduzione assistita incontra i professionisti. Cosa c'è dentro?",
+          "items": [
+            {
+              "title": "Traduzione AI all'avanguardia della tecnologia",
+              "description": "I nostri sistemi di traduzione interni costituiscono la base per questo. Fanno parte dell'ultima generazione di intelligenza artificiale e sono in grado di gestire 23 lingue, comprese le varianti linguistiche locali. ",
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
+            },
+            {
+              "title": "Controllo professionale da parte di esperti ",
+              "description": "I nostri traduttori professionisti madrelingua assicurano che il contenuto della traduzione corrisponda esattamente all'originale, intervenendo anche dal punto di vista linguistico se necessario. ",
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
+            },
+            {
+              "title": "Verificato - e certificato ",
+              "description": "Una volta completato il processo di verifica, riceverete la traduzione verificata e il relativo certificato da scaricare.",
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
+            }
+          ],
+          "cta": {
+            "text": "Provalo subito",
+            "link": "/"
+          }
+        },
+        "tutorialBlock": {
+          "title": "3 passi per una traduzione AI certificata",
+          "cta": {
+            "text": "Inizia subito",
+            "link": "/"
+          },
+          "items": [
+            {
+              "title": "Tradurre il testo con l'intelligenza artificiale e cliccare su \"Verifica da parte dell'esperto\"",
+              "number": "01",
+              "image": "/images/pages/ai-translation/step-1.webp"
+            },
+            {
+              "title": "Confermare i dettagli dell'ordine (flusso dell'ordine + schermata di attesa)",
+              "number": "02",
+              "image": "/images/pages/ai-translation/step-2.webp"
+            },
+            {
+              "title": "Confermare i dettagli dell'ordine (flusso dell'ordine + schermata di attesa)",
+              "number": "03",
+              "image": "/images/pages/ai-translation/step-3.webp"
+            }
+          ]
+        },
+        "featureGallery": {
+          "title": "Qualità garantita da Å a Ž",
+          "eyebrowHeadline": "Titolo del sopracciglio",
+          "items": [
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "3000 esperti madrelingua qualificati",
+              "description": "Tutti i nostri traduttori specializzati hanno una laurea in traduzione o almeno cinque anni di esperienza professionale e superano un test interno.",
+              "cta": {
+                "variant": "primario",
+                "title": "Conoscerci",
+                "link": "/contatto"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Testato, standardizzato e certificato secondo gli standard ISO",
+              "description": "Dal 2018 Supertext è certificata per la qualità della traduzione (ISO 17100 e 18587), la gestione della qualità (ISO 9001) e la sicurezza dei dati (ISO 27001).",
+              "cta": {
+                "variant": "primario",
+                "title": "Per saperne di più",
+                "link": "/#"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Sicurezza senza compromessi",
+              "description": "Grazie ai più elevati standard di gestione dei dati, alla robusta crittografia e ai server più sicuri, teniamo i vostri dati sempre sotto chiave. Ecco perché siamo il partner preferito da banche, autorità e compagnie assicurative.",
+              "cta": {
+                "variant": "primario",
+                "title": "Per saperne di più sulla tecnologia",
+                "link": "/#"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "La vostra AI personale che impara in tempo reale",
+              "description": "I nostri modelli linguistici imparano rapidamente e continuano ad adattarsi alle vostre esigenze ad ogni traduzione verificata. In questo modo la qualità aumenta a lungo termine e i vostri costi continuano a diminuire."
+            }
+          ]
+        },
+        "footerNote": {
+          "text": "Da un semplice <highlight>Traduttore online</highlight> alla soluzione <highlight>soluzione personalizzata completamente integrata</highlight>trova il tuo <highlight>abbonamento adatto.</highlight>",
+          "cta": {
+            "title": "A tutti i casi",
+            "link": "/casi",
+            "target": "_blank"
+          },
+          "image": "/images/pages/ai-translation/footer_gif.gif"
         }
       }
     }

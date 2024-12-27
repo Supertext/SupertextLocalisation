@@ -1612,154 +1612,6 @@
       }
     },
     "pages": {
-      "technology": {
-        "hero": {
-          "title": "Supertext – wo Language AI auf echte Expertise trifft",
-          "description": "Unsere Mission: Wir sorgen für maximale Gewissheit in der Kommunikation."
-        },
-        "lead": {
-          "large": "Unsere <highlight>LLM-basierte AI Translation</highlight> gehört zur neusten Generation von künstlicher Intelligenz. Sie wird inhouse entwickelt und lässt sich effizient <highlight>unternehmensspezifisch anpassen.</highlight> Mit handfesten Vorteilen für Sie.",
-          "small": "Unsere Custom-Übersetzungslösungen sorgen für messbar bessere Sprachqualität – als Arbeitsgrundlage für Ihre Profi-Übersetzer:innen, vollautomatisch über unsere Plugins und APIs sowie als frei zugänglicher Online-Übersetzer für alle Mitarbeitenden. Damit geben wir Ihrem ganzen Unternehmen eine eigene Stimme. In jeder Sprache und jedem Format. ",
-          "cta": {
-            "title": "Neugierig? Lassen Sie uns reden.",
-            "link": "/contact"
-          }
-        },
-
-          "features": {
-            "eyebrowHeadline": "Technologie",
-            "section1": {
-             "row1": {
-              "title": "Unsere Language AI: der flexible Startpunkt",
-              "description": "Die Grundlage für Ihr individuelles Übersetzungstool bilden unsere auf Übersetzungen spezialisierten Large Language Models (LLMs). Von hier aus starten wir einen individualisierten Prozess. ",
-              "cta": {
-                "title": "Jetzt ausprobieren",
-                "link": "/"
-              }
-             },
-             "row2": {
-              "title": "Spezialisiertes Training – für einfach mehr Sprachqualität im Unternehmen",
-              "description": "Mit Ihren bestehenden Profi-Übersetzungen, Terminologie-Datenbanken und Stilvorgaben legen wir Ihre persönlichen Sprachmodelle an – und trainieren Sie punktgenau auf Ihre Corporate Language und Tonalität. Das Resultat: Sofortübersetzungen, die nachweislich besser und genauer sind."
-             }
-             },
-             "section2": {
-              "row1": {
-               "title": "Immer besser: Ihre persönliche KI lernt mit",
-               "description": "Ihre massgeschneiderten Sprachmodelle lernen schnell – und passen sich mit jeder neuen Profi-Übersetzung weiter an Ihre Corporate Language an. Immer auf dem aktuellsten Stand, damit Ihr ganzes Unternehmen mit einer Stimme spricht."
-              
-              },
-              "row2": {
-               "title": "Inhouse-Expertise vom Code bis zur Schnittstelle",
-               "description": "Unsere über 20 hauseigenen AI-Wissenschaftlerinnen und Ingenieure leisten Pionierarbeit, die sich auszahlt. Dank der Entwicklung im eigenen Haus können wir neue Sprachen und Features in Rekordzeit umsetzen. Flexibel, zuverlässig und systemoffen in der Anwendung."
-              }
-              }
-            },
-            "tools": {
-              "title": "   Passgenau übersetzen – mit unseren Zusatzfunktionen",
-              "section1": {
-                "title": "FREI VERFÜGBAR",
-               "row1": {
-                "title": "Wortalternativen",
-                "description": "Mit einem Klick auf ein bestimmtes Wort sehen Sie mehrere Synonyme, aus denen Sie das passendste auswählen können. "
-               },
-               "row2": {
-                "title": "Umformulieren",
-                "description": "Ein Passage gefällt Ihnen nicht? Einfach mehrere Wörter markieren und unser System schlägt Ihnen automatisch verschiedene Formulierungen vor."
-               },
-               "row3": {
-                "title": "Formalität",
-                "description": "Du oder Sie, locker oder höflich? Wechseln Sie je nach Zielgruppe und Stilbedürfnissen ganz einfach zwischen formellen und informellen Anredeformen."
-               }
-               },
-               "section2": {
-                "title": "AUF ANFRAGE",
-                "row1": {
-                 "title": "Gendergerechte Sprache",
-                 "description": "Bei Bedarf gendern unsere Übersetzungsmodelle auf Knopfdruck für Sie. Aktuell verfügbar auf Deutsch und Englisch."
-                
-                },
-                "row2": {
-                 "title": "Längenbeschränkung",
-                 "description": "Platzprobleme? Mit unserem Character Limit Feature kürzen Sie den übersetzten Text mit einem Klick auf (maximal) die Länge des Originals."
-                }
-                }
-              },
-            "serviceList": {
-              "title": "SICHERHEIT schreiben wir in jeder Sprache gross",
-              "description": "Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und mehrfach geschützten Servern halten wir Ihre Daten sicher unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
-              "services": [
-              
-                {
-                  "title": "",
-                  "sections": [
-                    {
-                      "title": "ISO-zertifiziert für Datensicherheit und mehr",
-                      "description": "Supertext ist für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17100 und 18587) zertifiziert.",
-                      "cta": {
-                        "title": "Zertifikate ansehen",
-                        "link": "#-ai",
-                        "variant": "secondary"
-                      }
-                    },
-                    {
-                      "title": "Verschlüsselte Datenübertragung",
-                      "description": "Sämtliche Daten werden verschlüsselt übertragen und können nie von Dritten eingesehen werden."
-                    },
-                    {
-                      "title": "Übersetzungen werden nicht gespeichert",
-                      "description": "Ihre Übersetzungsdaten werden weder gespeichert noch zum Training unserer KI-Modelle verwendet."
-                    },
-                    {
-                      "title": "Single Sign-on (SSO)",
-                      "description": "Verwalten Sie den Zugriff auf das Übersetzungssystem einfach mit den bestehenden Benutzerkonten Ihrer Organisation.",
-                      "cta": {
-                        "title": "Mehr Erfahren",
-                        "link": "#",
-                        "variant": "secondary"
-                      }
-                    },
-                    {
-                      "title": "Private Cloud oder On-Premises-Hosting",
-                      "description": "Bei Supertext bestimmen Sie, wo Ihre Lösung gehostet wird: auf unseren Servern, in der Cloud Ihrer Wahl oder auf Ihrer eigenen Hardware."
-                    },
-                    {
-                      "title": "Benutzerdefinierte TLS-/SSL-Zertifikate",
-                      "description": "Für volle Kontrolle über die Verschlüsselung Ihrer Daten und eine reibungslose Integration von Supertext AI Translation in noch mehr Systeme."
-                    }
-                  ]
-                }
-              ]
-            },
-            "integrations": {
-              "title": "Komplett kompatibel mit Ihrer Systemumgebung",
-              "description": "Erst ein nahtloses User-Erlebnis macht ein Tool zum echten Mehrwert. Darum stellen wir laufend neue Plugins und eine flexible RESTful API bereit, mit der Sie Supertext in wenigen Schritten in jede Arbeitsumgebung integrieren.",
-              "cta1": {
-                "title": "Plugins entdecken",
-                "link": "/faq"
-              },
-              "cta2": {
-                "title": "API-Dokumentation anfragen",
-                "link": "/contact"
-              }
-            },
-            "blog": {
-              "title": "Am Puls der Forschung",
-              "description": "Vom Master in Machine Learning bis zum Ph.D.: Als Teil der globalen Research Community leisten wir einen aktiven Beitrag an die Forschung zu maschinellem Lernen.",
-              "cta": {
-                "text": "Alle Publikationen ansehen",
-                "link": "/blog"
-              }
-            },
-            "footerNote": {
-              "text": "Erfahrene <highlightText>Profis</highlightText> – in Bestform dank <highlightText>Language AI</highlightText> ",
-              "description": "Vom Computerlinguisten bis zur Sprachspezialistin: Lernen Sie das Team hinter Supertext kennen.",
-              "cta": {
-                "title": "Mehr zu unserer Sprachexpertise",
-                "link": "/language-expertise"
-              }
-            }
-
-      },
       "whySupertext": {
         "hero": {
           "title": "We are rethinking translation",
@@ -2678,6 +2530,149 @@
             "target": "_blank"
           },
           "image": "/images/pages/ai-translation/footer_gif.gif"
+        }
+      },
+      "technology": {
+        "hero": {
+          "title": "Supertext - where language AI meets real expertise",
+          "description": "Our mission: We ensure maximum certainty in communication."
+        },
+        "lead": {
+          "large": "Our <highlight>LLM-based AI translation</highlight> belongs to the latest generation of artificial intelligence. It is developed in-house and can be efficiently <highlight>customized for your company.</highlight> With tangible benefits for you.",
+          "small": "Our custom translation solutions ensure measurably better language quality - as a working basis for your professional translators, fully automatically via our plugins and APIs and as a freely accessible online translator for all employees. We give your entire company its own voice. In any language and any format. ",
+          "cta": {
+            "title": "Curious? Let's talk.",
+            "link": "/contact"
+          }
+        },
+        "features": {
+          "eyebrowHeadline": "Technology",
+          "section1": {
+            "row1": {
+              "title": "Our Language AI: the flexible starting point",
+              "description": "Our Large Language Models (LLMs), which specialize in translations, form the basis for your individual translation tool. We start an individualized process from here. ",
+              "cta": {
+                "title": "Try it out now",
+                "link": "/"
+              }
+            },
+            "row2": {
+              "title": "Specialized training - for simply better voice quality in the company",
+              "description": "We use your existing professional translations, terminology databases and style guides to create your personal language models - and train them precisely to your corporate language and tone of voice. The result: instant translations that are demonstrably better and more accurate."
+            }
+          },
+          "section2": {
+            "row1": {
+              "title": "Better and better: your personal AI learns with you",
+              "description": "Your customized language models learn quickly - and continue to adapt to your corporate language with each new professional translation. Always up to date, so that your entire company speaks with one voice."
+            },
+            "row2": {
+              "title": "In-house expertise from code to interface",
+              "description": "Our more than 20 in-house AI scientists and engineers do pioneering work that pays off. Thanks to in-house development, we can implement new languages and features in record time. Flexible, reliable and system-open in application."
+            }
+          }
+        },
+        "tools": {
+          "title": "   Precise translation - with our additional functions",
+          "section1": {
+            "title": "FREELY AVAILABLE",
+            "row1": {
+              "title": "Word alternatives",
+              "description": "By clicking on a specific word, you will see several synonyms from which you can select the most suitable one. "
+            },
+            "row2": {
+              "title": "Reformulate",
+              "description": "Don't like a passage? Simply select several words and our system will automatically suggest different wordings."
+            },
+            "row3": {
+              "title": "Formality",
+              "description": "You or you, informal or polite? Switch easily between formal and informal forms of address depending on your target group and style requirements."
+            }
+          },
+          "section2": {
+            "title": "ON REQUEST",
+            "row1": {
+              "title": "Gender-appropriate language",
+              "description": "If required, our translation models can be gendered for you at the touch of a button. Currently available in German and English."
+            },
+            "row2": {
+              "title": "Length restriction",
+              "description": "Space problems? With our Character Limit feature, you can shorten the translated text to (maximum) the length of the original with a single click."
+            }
+          }
+        },
+        "serviceList": {
+          "title": "We write SAFETY in capital letters in every language",
+          "description": "With the highest data management standards, robust encryption and multi-protected servers, we keep your data securely under lock and key. That's why we are the partner of choice for banks, authorities and insurance companies.",
+          "services": [
+            {
+              "title": "",
+              "sections": [
+                {
+                  "title": "ISO-certified for data security and more",
+                  "description": "Supertext is certified for data security (ISO 27001), quality management (ISO 9001) and translation quality (ISO 17100 and 18587).",
+                  "cta": {
+                    "title": "View certificates",
+                    "link": "#-ai",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Encrypted data transmission",
+                  "description": "All data is transmitted in encrypted form and can never be viewed by third parties."
+                },
+                {
+                  "title": "Translations are not saved",
+                  "description": "Your translation data is neither stored nor used to train our AI models."
+                },
+                {
+                  "title": "Single sign-on (SSO)",
+                  "description": "Easily manage access to the translation system with your organization's existing user accounts.",
+                  "cta": {
+                    "title": "Learn more",
+                    "link": "#",
+                    "variant": "secondary"
+                  }
+                },
+                {
+                  "title": "Private cloud or on-premises hosting",
+                  "description": "With Supertext, you decide where your solution is hosted: on our servers, in the cloud of your choice or on your own hardware."
+                },
+                {
+                  "title": "User-defined TLS/SSL certificates",
+                  "description": "For full control over the encryption of your data and seamless integration of Supertext AI Translation into even more systems."
+                }
+              ]
+            }
+          ]
+        },
+        "integrations": {
+          "title": "Fully compatible with your system environment",
+          "description": "Only a seamless user experience turns a tool into real added value. That's why we are constantly providing new plugins and a flexible RESTful API that allows you to integrate Supertext into any working environment in just a few steps.",
+          "cta1": {
+            "title": "Discover plugins",
+            "link": "/faq"
+          },
+          "cta2": {
+            "title": "Request API documentation",
+            "link": "/contact"
+          }
+        },
+        "blog": {
+          "title": "On the pulse of research",
+          "description": "From Master in Machine Learning to Ph.D.: As part of the global research community, we actively contribute to machine learning research.",
+          "cta": {
+            "text": "View all publications",
+            "link": "/blog"
+          }
+        },
+        "footerNote": {
+          "text": "Experienced <highlightText>Professionals</highlightText> - in top form thanks to <highlightText>Language AI</highlightText> ",
+          "description": "From computer linguists to language specialists: get to know the team behind Supertext.",
+          "cta": {
+            "title": "More about our language expertise",
+            "link": "/language-expertise"
+          }
         }
       }
     }

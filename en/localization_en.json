@@ -959,6 +959,7 @@
             }
           },
           "subscription": {
+            "expiresOn": "Läuft ab am",
             "title": "Change subscription",
             "description": "Easily adjust your subscription to your needs at any time.",
             "comparePlans": "Compare subscriptions",

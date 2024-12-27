@@ -959,7 +959,6 @@
             }
           },
           "subscription": {
-            "expiresOn": "Läuft ab am",
             "title": "Modifier l'abonnement",
             "description": "Adaptez facilement votre abonnement à vos besoins à tout moment.",
             "comparePlans": "Comparer les abonnements",
@@ -1005,7 +1004,8 @@
               "makePayment": "Commander obligatoirement",
               "zeroPayableNowOnTrialPeriod": "Les licences supplémentaires sont gratuites pendant la période d'essai et seront facturées à la fin de celle-ci, lors de la période de facturation suivante."
             },
-            "afterTrialPeriod": "(après la phase de test)"
+            "afterTrialPeriod": "(après la phase de test)",
+            "expiresOn": "Expire le"
           }
         },
         "licenseTag": "Licence d'utilisateur",

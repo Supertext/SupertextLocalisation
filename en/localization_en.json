@@ -959,7 +959,6 @@
             }
           },
           "subscription": {
-            "expiresOn": "Läuft ab am",
             "title": "Change subscription",
             "description": "Easily adjust your subscription to your needs at any time.",
             "comparePlans": "Compare subscriptions",
@@ -1005,7 +1004,8 @@
               "makePayment": "Binding order",
               "zeroPayableNowOnTrialPeriod": "Additional licenses are free of charge during the trial period and will be charged at the end of the next billing period."
             },
-            "afterTrialPeriod": "(after test phase)"
+            "afterTrialPeriod": "(after test phase)",
+            "expiresOn": "Expires on"
           }
         },
         "licenseTag": "License users",

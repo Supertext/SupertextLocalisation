@@ -959,7 +959,6 @@
             }
           },
           "subscription": {
-            "expiresOn": "Läuft ab am",
             "title": "Modifica dell'abbonamento",
             "description": "È possibile personalizzare facilmente l'abbonamento in base alle proprie esigenze in qualsiasi momento.",
             "comparePlans": "Confronta gli abbonamenti",
@@ -1005,7 +1004,8 @@
               "makePayment": "Ordine vincolante",
               "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e saranno addebitate alla fine del periodo di fatturazione successivo."
             },
-            "afterTrialPeriod": "(dopo la fase di test)"
+            "afterTrialPeriod": "(dopo la fase di test)",
+            "expiresOn": "Scade il"
           }
         },
         "licenseTag": "Utenti della licenza",

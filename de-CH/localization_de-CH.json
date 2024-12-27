@@ -959,7 +959,6 @@
             }
           },
           "subscription": {
-            "expiresOn": "Läuft ab am",
             "title": "Abonnement ändern",
             "description": "Passen Sie Ihr Abonnement jederzeit ganz einfach an Ihre Bedürfnisse an.",
             "comparePlans": "Abonnements vergleichen",
@@ -1005,7 +1004,8 @@
               "makePayment": "Verbindlich Bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet."
             },
-            "afterTrialPeriod": "(nach Testphase)"
+            "afterTrialPeriod": "(nach Testphase)",
+            "expiresOn": "Läuft ab am"
           }
         },
         "licenseTag": "Nutzer lizenzieren",
@@ -1907,7 +1907,7 @@
         "references": {
           "heading": "1500 Unternehmen in ganz Europa: Unsere Referenzen sprechen eine deutliche Sprache",
           "cta": {
-            "text": "Mehr zur Sprachexpertise",
+            "text": "Zu den Cases",
             "link": "/language-expertise"
           }
         },

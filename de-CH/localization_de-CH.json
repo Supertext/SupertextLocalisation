@@ -693,7 +693,7 @@
     "filter": {
       "title": "Filter",
       "all": "Alle",
-      "administrator": "Administrator",
+      "administrator": "Admin",
       "licensed": "Licensed",
       "removeFilter": "Filter entfernen",
       "types": {
@@ -739,8 +739,7 @@
           "scope": "Umfang",
           "invoiceDate": "Bestellzeit",
           "invoiceAddress": "Rechnungsadresse",
-          "contactPersonTitle": "PROJEKTLEITUNG",
-          "additionalInformation": "Zusätzliche Informationen"
+          "contactPersonTitle": "PROJEKTLEITUNG"
         },
         "back": "Zurück"
       },
@@ -769,7 +768,7 @@
         "cancellationInfo": "Sie haben Ihr Abo gekündigt und es endet am",
         "freePlanInfo": "Ihr Abo wird auf den kostenlosen Supereasy-Tarif umgestellt.",
         "customPlanInfo": "Passen Sie Ihr Abo Ihren Bedürfnissen an",
-        "upgradeSubscriptionInformation": "Bitten Sie Ihren Administrator, Ihr Abonnement zu aktualisieren",
+        "upgradeSubscriptionInformation": "Bitten Sie eine:n Admin, Ihr Abo zu aktualisieren",
         "annuallySubscription": "Jährlich",
         "monthlySubscription": "Monatlich",
         "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf AI Translation Free.",
@@ -842,7 +841,7 @@
         "isAdmin": "Zum Admin machen",
         "noData": "Keine Angaben",
         "roles": {
-          "admin": "Administrator",
+          "admin": "Admin",
           "user": "User"
         },
         "costCenter": {
@@ -943,10 +942,10 @@
             "selectLicense": "Lizenz auswählen...",
             "selectRole": "Rolle auswählen...",
             "roles": {
-              "teamAdmin": "Administrator",
+              "teamAdmin": "Admin",
               "user": "User"
             },
-            "roleChangeWarning": "Ihr Team Administrator hat ihre Rolle geändert. Bitte loggen Sie sich aus und ein um Ihren Account zu aktualisieren.",
+            "roleChangeWarning": "Ein:e Admin hat Ihre Rolle geändert. Bitte loggen Sie sich aus und ein, um Ihren Account zu aktualisieren.",
             "licenceAvailable": "{amount} verfügbar",
             "marketingPanel": {
               "heading": "<highlightText>Vergrossere dein Team</highlightText>, steigere deinen Einfluss",
@@ -1002,7 +1001,7 @@
                 "one": "Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
                 "other": ""
               },
-              "makePayment": "Verbindlich Bestellen",
+              "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet."
             },
             "afterTrialPeriod": "(nach Testphase)",
@@ -1087,14 +1086,14 @@
       }
     },
     "fileTranslation": {
-      "uploadFile": "Datei hochladen"
+      "uploadFile": "Datei übersetzen"
     },
     "humanVerification": {
-      "verifyButton": "Durch Expert:in verifizieren",
-      "stepTitle": "Durch Expert:in verifizieren - Schritt",
-      "stepDescription": "Die KI-Übersetzung wird durch ein:e Supertext-Expert:in überprüft und verifiziert. Sie erhalten eine Textdatei mit Zertifikat zum Download.",
+      "verifyButton": "Profi-Check",
+      "stepTitle": "Profi-Check – Schritt",
+      "stepDescription": "Die KI-Übersetzung wird von Sprachprofis überprüft und wo nötig korrigiert. Sie erhalten eine Übersetzung mit garantierter Korrektheit.",
       "nextStepButton": "Nächster Schritt",
-      "orderVerification": "Verifikation bestellen",
+      "orderVerification": "Verifizierung bestellen",
       "authorizePayment": "Zahlung autorisieren",
       "unsupportedLanguagePair": {
         "title": "wird für die Expertenprüfung noch nicht unterstützt.",
@@ -1167,12 +1166,12 @@
         "part1": "Die zertifizierte",
         "part2": "Kontrolle",
         "part3": "durch eine:n Supertext-Expert:in",
-        "description:": "At vero eos et accusam et justo duodolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elit. Dieser Service ist kostenpflichtig und wird nach Anzahl Wörtern verrechnet."
+        "description:": "Die KI-Übersetzung wird von Sprachprofis überprüft und wo nötig korrigiert. Sie erhalten eine Übersetzung mit garantierter Korrektheit."
       },
       "certifiedControl": {
-        "title": "Zertifizierte Kontrolle durch eine:n Supertext-Expert:in",
-        "dDescription": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet. Leider erreichst du uns ausserhalb unserer Geschäftszeiten. Kein Problem! Du kannst deinen Auftrag schon jetzt platzieren, einfach den Schritten folgen.",
-        "description": "Dieser Service ist kostenpflichtig. Er wird nach Anzahl Wörter verrechnet."
+        "title": "Zertifizierte Kontrolle durch Sprachprofi",
+        "dDescription": "Die KI-Übersetzung wird von Sprachprofis überprüft und wo nötig korrigiert. Sie erhalten eine Übersetzung mit garantierter Korrektheit. Leider erreichen Sie uns ausserhalb unserer Geschäftszeiten. Kein Problem! Sie können Ihren Auftrag schon jetzt platzieren.",
+        "description": "Die KI-Übersetzung wird von Sprachprofis überprüft und wo nötig korrigiert. Sie erhalten eine Übersetzung mit garantierter Korrektheit."
       },
       "serviceIsDeactivated": {
         "title": "Service ist deaktiviert",
@@ -1200,7 +1199,7 @@
       },
       "stepThree": {
         "title": "Das hat geklappt!",
-        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
+        "description": "Ihre KI-Übersetzung wird nun von unseren Sprachprofis überprüft und wo nötig korrigiert. Die verifizierte Übersetzung senden wir an die von Ihnen angegebene E-Mail-Adresse.",
         "button": "D'accord! Fenster schliessen.",
         "startNew": "Neue Übersetzung starten"
       },
@@ -1220,9 +1219,9 @@
       }
     },
     "couponCode": {
-      "placeholder": "Rabattcode hinzufügen",
+      "placeholder": "Rabattcode eingeben",
       "tooltip": "Verwenden Sie Ihren Gutscheincode, um einen Rabatt auf Ihre Bestellung zu erhalten.",
-      "trigger": "Validieren Sie einen Rabattcode"
+      "trigger": "Rabattcode einlösen"
     },
     "landingPage": {
       "languageServices": {
@@ -1664,7 +1663,7 @@
                   "title": "AI Translation in 23 Sprachen",
                   "description": "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "#-translation",
                     "variant": "secondary"
                   }
@@ -1673,7 +1672,7 @@
                   "title": "Profi-Verifizierung auf Knopfdruck",
                   "description": "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "#",
                     "variant": "primary"
                   }
@@ -1683,7 +1682,7 @@
                   "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
                   "badge": "Bald verfügbar",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "#-ai",
                     "variant": "secondary"
                   }
@@ -1697,7 +1696,7 @@
                   "title": "Massgeschneiderte AI Translation",
                   "description": "Your company, your voice. Mit zielgerichtetem Training integriert Supertext Ihre Stilvorgaben und Wordings in jeder Übersetzung. Für eine reibungslose Kommunikation ohne Grenzen.",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "#-ai",
                     "variant": "secondary"
                   }
@@ -1706,7 +1705,7 @@
                   "title": "Profiservices von Arabisch bis Zulu",
                   "description": "Wenn es wirklich drauf ankommt: Unsere 3000 erfahrene Sprachexpert:innen schreiben schöner und übersetzen noch präziser. In Ihrem Tone of Voice, ausdrucksstark und treffsicher in jeder Sprache.",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "#",
                     "variant": "secondary"
                   }
@@ -1715,7 +1714,7 @@
                   "title": "Persönlicher Support",
                   "description": "Sie wollen Ihr KI-Modell an einen neuen Styleguide anpassen? Oder Ihre aktuellen Workflows mit Expert:innen evaluieren? Wir sind persönlich für Sie da – lösungsorientiert, freundlich und schnell.",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "#",
                     "variant": "secondary"
                   }
@@ -1724,7 +1723,7 @@
                   "title": "Erweiterte Sicherheitsstandards",
                   "description": "Von Single-Sign-on (SSO) bis On-Premises-Hosting – mit Supertext halten Sie Ihre Unternehmensdaten zuverlässig unter Verschluss.",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "#",
                     "variant": "secondary"
                   }
@@ -1733,7 +1732,7 @@
                   "title": "Nahtlos integriert",
                   "description": "Integrieren Sie Supertext nahtlos in Ihre Arbeitsumgebung. Mit unseren APIs und Integrationen für schlanke Prozesse in jedem Interface.",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "#",
                     "variant": "secondary"
                   }
@@ -1770,15 +1769,15 @@
             "items": [
               {
                 "title": "AI Translation & Verifizierung",
-                "description": "Vom Styleguide bis zur Prozessoptimierung.",
+                "description": "Sicher sein&nbsp;– in Minuten statt Stunden. Mit unserem Profi-Check auf Knopfdruck.",
                 "cta": {
-                  "title": "Bestellen",
+                  "title": "Mehr erfahren",
                   "link": "/ai-translation"
                 }
               },
               {
                 "title": "Fachübersetzung",
-                "description": "Von erfahrenen Spezialist:innen consetetur sadipscing elitr.",
+                "description": "Von ausgewiesenen Spezialist:innen mit Erfahrung in Ihrem Fachgebiet",
                 "cta": {
                   "title": "Mehr erfahren",
                   "link": "/service/translation"
@@ -1986,7 +1985,7 @@
                   "title": "AI Translation & Verifizierung",
                   "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung - und dem Proficheck auf Knopfdruck.",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "/ai-translation",
                     "variant": "secondary"
                   }
@@ -2631,7 +2630,7 @@
                   "title": "Single Sign-on (SSO)",
                   "description": "Verwalten Sie den Zugriff auf das Übersetzungssystem einfach mit den bestehenden Benutzerkonten Ihrer Organisation.",
                   "cta": {
-                    "title": "Mehr Erfahren",
+                    "title": "Mehr erfahren",
                     "link": "#",
                     "variant": "secondary"
                   }
@@ -2682,24 +2681,24 @@
   "remove": "Entfernen",
   "translator": {
     "sourcePlaceholderTitle": "Text zum Übersetzen hier einfügen",
-    "sourcePlaceholderDescription": "Oder ganze Dokumente per Drag and Drop hochladen",
+    "sourcePlaceholderDescription": "Oder ein Dokument zum Übersetzen in dieses Feld ziehen",
     "features": {
       "infoPopover": {
-        "title": "Funktionsweise",
+        "title": "Funktionen",
         "rephrase": {
           "title": "Umformulieren",
           "description": "Wählen Sie <highlight>mehrere Wörter</highlight> zur Umformulierung aus."
         },
         "wordAlternative": {
           "title": "Alternative Wortwahl",
-          "description": "Klicken Sie auf ein <highlight>Wort</highlight>, um Alternativen zu finden."
+          "description": "Klicken Sie auf ein einzelnes <highlight>Wort</highlight>, um weitere Vorschläge zu erhalten."
         }
       }
     },
     "targetOverlays": {
       "verificationPayment": {
         "title": "Das hat geklappt!",
-        "description": "Eine:r Supertext-Expert:in überprüft nun ihren Text. Die verifizierte Übersetzung erhalten Sie an die von Ihnen angegebene E-Mail Adresse.",
+        "description": "Ihre KI-Übersetzung wird nun von unseren Sprachprofis überprüft und wo nötig korrigiert. Die verifizierte Übersetzung senden wir an die von Ihnen angegebene E-Mail-Adresse.",
         "newTranslationButton": "Neue Übersetzung starten",
         "altText": "Illustration einer Person, die entspannt am Telefon ist"
       },

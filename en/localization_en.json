@@ -26,13 +26,6 @@
           "title": "Message",
           "placeholder": "Your feedback…"
         },
-        "recommend_type": {
-          "title": "Would you recommend the product in its current form to other people?",
-          "default": "Choose one…",
-          "yes": "Yes",
-          "no": "No",
-          "maybe": "Maybe"
-        },
         "email": {
           "title": "Email",
           "description": "By providing your email address, you allow us to store it in order to contact you if we have news or queries regarding your feedback and update you on our latest features.",
@@ -47,7 +40,6 @@
     },
     "fileTranslation": {
       "backButton": "Text Translator",
-      "backButtonShort": "Back",
       "externalUploadButton": "Upload",
       "externalUploadTag": "Drag a file here",
       "externalTranslating": "Translating",
@@ -64,7 +56,6 @@
       "expectationExceeded": "The translation is taking longer than expected. Please wait…",
       "downloadViaEmail": "Receive by email",
       "downloadViaEmailMessage": "Large files may take a while to translate. As a registered user, you can request that the file be sent to your email address after it has been translated.",
-      "ocrHelperText": "Use OCR for scanned or photographed PDFs to enhance accuracy. For regular text-only PDFs, OCR is not needed.",
       "ocr_options": {
         "ocr_auto": "Auto",
         "ocr_off": "Off",
@@ -76,38 +67,10 @@
       "docLimitsPerRequestUnlimitedChars": "Max {0}MB"
     },
     "profile": {
-      "profile": "Profile",
-      "userNameStatus": "Registered User",
-      "save": "Save",
-      "general": "General",
-      "generalDescription": "General User Settings",
-      "displayName": "Display Name",
-      "email": "Email",
-      "changePassword": "Change Password",
-      "deleteAccount": "Delete Account",
-      "beta": "Beta",
-      "betaDescription": "New features",
-      "security": "Security",
-      "securityDescription": "Change your password",
-      "passwords": {
-        "oldPassword": "Old Password",
-        "newPassword": "New Password",
-        "confirmNewPassword": "Confirm New Password",
-        "validationMessages": {
-          "displayName": "Display name is required",
-          "passwordNoMatch": "Passwords do not match",
-          "passwordType": "Password must be at least 8 characters, 1 Special character, and 1 number"
-        }
-      },
-      "modal": {
-        "title": "Are you sure you want to delete your account?",
-        "description": "This will permanently delete your account and all saved settings.  You will always be able to create a new account when you are ready.",
-        "close": "Close"
-      }
+      "profile": "Profile"
     },
     "languageMenu": {
-      "cta": "Plus 18 more languages in our business solution",
-      "href": "/business/en/features"
+      "cta": "Plus 18 more languages in our business solution"
     },
     "NpsSurveyPopup": {
       "question": "How likely are you to recommend Supertext to your friends?",
@@ -130,7 +93,6 @@
         "title": "Cookie settings",
         "descriptionPrefix": "You can choose which cookies are set when you use our website by adjusting your preferences. For more information, please see our",
         "link": "Privacy Policy.",
-        "descriptionSuffix": "",
         "accept": "Accept all",
         "yes": "Yes",
         "no": "No",
@@ -141,15 +103,6 @@
         "necessaryDescription": "These cookies are necessary for the website to function and cannot be deactivated. Generally, they are only set in response to actions you take that correspond to a service request, such as setting your privacy preferences, logging in, or filling out forms. Necessary cookies do not store any personal information.",
         "performanceDescription": "These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our website. They help us to see how visitors move around the site and what features they use. Any information they collect is aggregated and therefore anonymous. If you choose not to use them, we will not know when you visited our site and will not be able to monitor its performance."
       }
-    },
-    "genderfairFirstRunExperienceToggle": {
-      "text": "We now support genderfair language for German and English.",
-      "link": "Read our blog post.",
-      "href": "https://supertext.com/business/en/blog/genderfair"
-    },
-    "firstRunExperienceToggle": {
-      "text": "Click on a word or select multiple words to get alternatives.",
-      "link": "See more"
     },
     "userLimits": {
       "signupButton": "Register",
@@ -191,13 +144,11 @@
       }
     },
     "navbar": {
-      "why": "Why Supertext?",
       "enterprise": "For Businesses",
       "upgrade": "Pricing"
     },
     "genderFair": {
       "GENDERFAIR_NAME": "Genderfair",
-      "GENDERFAIR_FAIR_BADGE": "Fair",
       "BETA": "Beta",
       "GENDERFAIR_ON": "On",
       "GENDERFAIR_OFF": "Off",
@@ -206,26 +157,9 @@
       "GENDERFAIR_ARTICLE_LINK": "https://supertext.com/business/en/blog/genderfair"
     }
   },
-  "user": "User",
-  "content": "Content",
   "tone": "Tonality",
   "settings": {
-    "save": "Save",
-    "automatic": "Automatic",
-    "settings": "Settings",
-    "themePreferences": {
-      "themePreferences": "Theme preferences",
-      "DayTheme": "Light",
-      "NightTheme": "Dark",
-      "SystemTheme": "Apply system settings"
-    },
-    "language": "Language",
-    "preferredSource": "Preferred source language",
-    "preferredTarget": "Preferred target language",
-    "general": "General",
-    "generalDescription": "General settings of the app",
-    "appearance": "Appearance",
-    "appearanceDescription": "Control the appearance of the app"
+    "settings": "Settings"
   },
   "tooltips": {
     "copyTargetText": "Copy translation",
@@ -235,36 +169,11 @@
     "targetTextLength": "Number of characters",
     "sourceTextCharacterLimit": "Number of characters / maximum",
     "verifiedTranslations": "Highlight verified translations",
-    "rephraseTranslation": "Rephrase",
-    "editGlossary": "Edit glossary",
-    "deleteGlossary": "Delete glossary",
-    "deleteTerm": "Delete term"
+    "rephraseTranslation": "Rephrase"
   },
-  "popovers": {
-    "exactTerms": "Verified translation by {0}",
-    "confirmationTitle": "Confirmation",
-    "confirmationText": "Are you sure you want to continue with this action?"
-  },
+  "popovers": {},
   "fileTranslation": {
-    "uploading": "Uploading file",
-    "detecting": "Detecting language",
-    "translating": "Translating file",
-    "downloading": "Downloading file",
-    "successfulDownload": "File successfully downloaded",
-    "translateAgain": "Translate another file",
-    "downloadAgain": "Download file again",
-    "size": "Size",
-    "type": "Type",
-    "dropFile": "Drag and drop a file here",
-    "dropAnotherFile": "Drag another file ({supportedFileExtensions}) here or",
-    "translateButton": "Translate to {toTargetLang}",
-    "translateButtonRetry": "Try again",
-    "cancelButton": "Cancel",
     "fileUploadButton": "Select a file",
-    "invalidFileType": "Invalid file type",
-    "fileSizeExceeded": "This file is too large to be uploaded. Files larger than {0} MB are currently not supported.",
-    "estimatedTime": "Estimated time remaining: {0}",
-    "expectationExceeded": "The translation is taking longer than expected. Please wait…",
     "ocrHelperText": "Use OCR for scanned or photographed PDFs to enhance accuracy. For regular text-only PDFs, OCR is not needed.",
     "ocr_options": {
       "ocr_auto": "Auto",
@@ -272,12 +181,6 @@
       "ocr_on": "On"
     }
   },
-  "modeSelectorButton": {
-    "TRANSLATE_TEXT": "Text",
-    "TRANSLATE_FILE": "Document",
-    "TRANSLATE_ASSISTANT": "Assistant"
-  },
-  "rephraseButton": "Rephrase into",
   "politenessDropDown": {
     "POLITENESS_VARIANTS": "Variants",
     "POLITENESS_BUTTON_TITLE": "Language form",
@@ -287,82 +190,21 @@
     "POLITENESS_INFORMAL": "Informal",
     "UNSELECTED": "Formal/Informal"
   },
-  "lengthMatchingFeature": {
-    "title": "Length Matching"
-  },
-  "glossaryFeature": {
-    "glossary": "Glossary",
-    "glossaries": "Glossaries",
-    "addGlossary": "Add glossary",
-    "createGlossary": "Create glossary",
-    "glossaryName": "Glossary name",
-    "sourceTerm": "Source term",
-    "targetTerm": "Target term",
-    "search": "Search term",
-    "sourceLanguage": "Source language",
-    "targetLanguage": "Target language",
-    "targetLanguages": "Target languages",
-    "languagePair": "Language pair",
-    "editTerm": "Edit term",
-    "verifiedTranslations": "Highlight verified translations",
-    "verifyNameError": "Glossary name already in use",
-    "deleteGlossary": "Delete glossary",
-    "exportGlossary": "Export CSV",
-    "importGlossary": "Import CSV",
-    "csvTemplate": "CSV Template",
-    "emptyList": "No glossary entries added yet",
-    "termLanguagePairExists": "Entry already exists in the glossary",
-    "errorImportSuffix": "One or more languages not supported",
-    "errorExportNoEntries": "No entries available for export",
-    "errorImportInvalidEntry": "Invalid entry",
-    "errorImportInvalidSource": "Invalid source language",
-    "errorImportInvalidTarget": "Invalid target language",
-    "errorImportInvalidTerm": "Invalid source or target term",
-    "termsAddedSuccessfully": "{count} term(s) added successfully",
-    "glossaryDeletedSuccessfully": "Glossary deleted successfully",
-    "glossaryCreatedSuccessfully": "Glossary created successfully",
-    "glossaryTemplateExportSucessful": "Glossary template download successful",
-    "noGlossaryDataToExport": "No data found in the glossary to export",
-    "csvExportSuccessfully": "CSV exported successfully",
-    "csvImportSuccessfully": "CSV imported successfully",
-    "csvImportFailed": "An error occurred while importing the CSV file",
-    "csvExportFailed": "An error occurred while exporting the CSV file",
-    "csvImportBadHeaders": "No valid headers found in the imported CSV file",
-    "selectAll": "Select all",
-    "reset": "Reset",
-    "autoFill": "Auto-fill",
-    "addTerms": "Add term",
-    "addAndRepeat": "Add and repeat"
-  },
+  "glossaryFeature": {},
   "on": "On",
   "off": "Off",
-  "add": "Add",
-  "create": "Create",
   "delete": "Delete",
   "save": "Save",
   "cancel": "Cancel",
-  "areYouSure": "Are you sure?",
   "apply": "Apply",
-  "undoButton": "Undo",
-  "redoButton": "Redo",
   "backButton": "Back",
-  "editorPlaceholder": "Insert text here to translate it",
-  "login": "Log in",
   "logout": "Log out",
   "news": "Notifications",
-  "noNotifications": "There are no notifications at the moment.",
   "manual": "User Guide",
   "searchLanguage": "Search language",
   "identifyLanguage": "Identify language",
-  "identifyPivot": "Identify native language",
-  "identifiedNativeLanguage": "Identified native language",
-  "nativeLanguage": "Native language",
-  "chooseLanguage": "Select target language",
   "detected": "identified",
   "mixed": "mixed",
-  "word": "Word",
-  "translation": "Translation",
-  "translateDocument": "Translate document",
   "languages": {
     "x-mixed": "Multiple languages",
     "cs": "Czech",
@@ -409,27 +251,7 @@
     "zh-Hans": "Chinese (Simplified)",
     "zh-Hant": "Chinese (Traditional)"
   },
-  "languageVariants": {
-    "de-AT": "AT",
-    "de-CH": "CH",
-    "de-DE": "DE",
-    "en-AU": "AU",
-    "en-CA": "CA",
-    "en-GB": "UK",
-    "en-US": "US",
-    "fr-CH": "CH",
-    "fr-FR": "FR",
-    "gsw-u-sd-chbe": "BE",
-    "gsw-u-sd-chzh": "ZH",
-    "it-CH": "CH",
-    "it-IT": "IT",
-    "pt-BR": "BR",
-    "pt-PT": "PT",
-    "sr-Cyrl": "Cyrillic",
-    "sr-Latn": "Latin",
-    "zh-Hans": "Hans",
-    "zh-Hant": "Hant"
-  },
+  "languageVariants": {},
   "languageVariantNames": {
     "de-AT": "Austria (AT)",
     "de-CH": "Switzerland (CH)",
@@ -542,23 +364,15 @@
     "zh-Hans": "to Chinese (Simplified)",
     "zh-Hant": "to Chinese (Traditional)"
   },
-  "authentication": {
-    "authenticate": "Authenticate",
-    "authenticationRequired": "Authentication required",
-    "insertApiKey": "Enter your API key here"
-  },
+  "authentication": {},
   "errors": {
-    "unknownError": "Unknown error occurred.",
-    "serviceUnavailable": "Service unavailable: {0}"
+    "unknownError": "Unknown error occurred."
   },
   "notifications": {
     "info": {
-      "waitingForSlowTranslation": "Your translation is taking a little longer than normal. Please be patient.",
       "submittingVerification": "Transmission of the verification, please wait..."
     },
     "failure": {
-      "systemUnavailable": "The translation system is not available. Please contact your system administrator.",
-      "serviceUnavailable": "Service currently not available: {0}",
       "languageDetection": "Could not identify language.",
       "languagePairs": "Could not collect language pairs.",
       "translation": "An error occurred during translation.",
@@ -578,13 +392,11 @@
         "deleteCreditCard": "Something went wrong while trying to delete your card details",
         "couldNotFetchCountryBillingList": "No country billing lists could be retrieved: {error}",
         "couldNotFetchCardDetails": "Something happened while trying to retrieve your card details",
-        "couldNotFetchBillingAddress": "Could not retrieve the billing addresses",
         "couldNotFetchInvoiceLink": "Could not retrieve the invoice link: {error}",
         "couldNotFetchTypeLabel": "Could not retrieve the type designation: {error}"
       },
       "team": {
         "addMember": "Something went wrong while inviting user to team",
-        "changeRole": "Something went wrong while changing the team member role",
         "editMember": "Something went wrong while editing the team member",
         "removeMember": "Something went wrong while removing user from team",
         "couldNotFetchTeamMembers": "Could not call up the team members: {error}",
@@ -623,7 +435,6 @@
       },
       "team": {
         "addMember": "User successfully invited to team",
-        "changeRole": "Team member role successfully changed",
         "editMember": "Team member successfully edited.",
         "removeMember": "User successfully removed from team"
       },
@@ -634,22 +445,13 @@
     }
   },
   "endpointServices": {
-    "translate": "Translation service",
-    "languages": "Translation service",
-    "usage": "Authentication service",
-    "translate_document": "Document translation service",
-    "translate_document_async": "Document translation service",
-    "detect_language": "Language identification service",
-    "split_sentences": "Sentence segmentation service",
-    "get_phrases": "Alternative phrases service",
-    "get_words": "Alternative words service"
+    "languages": "Translation service"
   },
   "alternatives": {
     "no_alternatives": "no alternatives"
   },
   "connectivityAlerts": {
-    "offline": "You are currently offline.",
-    "online": "Your internet connection has been restored."
+    "offline": "You are currently offline."
   },
   "starstruck": {
     "welcomeMessage": "Hello,",
@@ -2720,6 +2522,5 @@
         }
       }
     }
-  },
-  "notSupported": "Unsupported language"
+  }
 }

@@ -791,14 +791,14 @@
               "termsConfirmation": "Confermo la suddetta modifica del mio abbonamento e accetto la",
               "removeLicensesError": {
                 "one": "{count} Avete assegnato una licenza agli utenti. {count} Per ridurre l'abbonamento a meno di licenze,",
-                "other": ""
+                "two": "Lizenzen von Teammitgliedern entfernen"
               },
               "termsAndConditions": "Termini e condizioni generali.",
               "immediateChange": "Questa modifica avrà effetto immediato.",
               "nextBillingChange": "Questa modifica avrà effetto a partire dal prossimo periodo contabile.",
               "agreementAg": {
                 "one": "Confermo la modifica del mio abbonamento e accetto i termini e le condizioni",
-                "other": ""
+                "two": "AGB"
               },
               "makePayment": "Ordine vincolante",
               "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e saranno addebitate alla fine del periodo di fatturazione successivo."

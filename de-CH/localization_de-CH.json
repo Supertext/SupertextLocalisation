@@ -800,14 +800,14 @@
               "termsConfirmation": "Ich bestätige die oben genannte Änderung meines Abonnements und akzeptiere die",
               "removeLicensesError": {
                 "one": "Sie haben {count} Benutzer:innen eine Lizenz zugewiesen. Um Ihr Abonnement auf weniger als {count} Lizenzen zu reduzieren,",
-                "other": ""
+                "two": "Lizenzen von Teammitgliedern entfernen"
               },
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung wird sofort wirksam.",
               "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
               "agreementAg": {
                 "one": "Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
-                "other": ""
+                "two": "AGB"
               },
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet."

@@ -577,7 +577,7 @@
         "addLicenses": "add further licenses.",
         "subscribeMow": "Subscribe now",
         "requestOffer": "Request a quote",
-        "addToWaitingList": "Enter your name on the waiting list",
+        "addToWaitingList": "Join waiting list",
         "registerForFree": "Register for free",
         "reactivateSubscription": "Reactivate",
         "cancelSubscription": "Cancelled",
@@ -600,7 +600,58 @@
         "price": "Price",
         "assignLicenseAdmin": "Assign license",
         "assignLicenseUser": "Contact admin",
-        "confirmSubscription": "Confirm subscription"
+        "confirmSubscription": "Confirm subscription",
+        "modals": {
+          "waitlist": {
+            "email": "Email",
+            "accepted": "Yes, Supertext may contact me once the Basic subscription is available",
+            "cta": "Subscribe to Waitlist",
+            "messages": {
+              "success": "Successfully added to the waitlist",
+              "error": "An error occurred while adding to the waitlist"
+            }
+          },
+          "offer": {
+            "fields": {
+              "specialRequest": {
+                "label": "Special Request",
+                "placeholder": "Your message to Supertext"
+              },
+              "email": {
+                "label": "* Email",
+                "placeholder": "Your email address",
+                "error": "Please enter a valid email address"
+              },
+              "name": {
+                "label": "* Name",
+                "placeholder": "Your first and last name",
+                "error": "Please enter your name"
+              },
+              "company": {
+                "label": "* Company",
+                "placeholder": "Name of your company",
+                "error": "Please provide your company name"
+              },
+              "userCount": {
+                "label": "* Number of Users",
+                "placeholder": "Number of potential users",
+                "error": "Please provide the number of users"
+              },
+              "phoneNumber": {
+                "label": "Phone Number",
+                "placeholder": "Your phone number"
+              },
+              "accepted": {
+                "label": "Yes, my entered data may be shared with Supertext so a company representative can contact me",
+                "error": "Please accept the sharing of your data"
+              }
+            },
+            "messages": {
+              "success": "Offer successfully requested!",
+              "error": "Error requesting the offer"
+            }
+          }
+        }
       },
       "resources": {
         "title": "Language resources"

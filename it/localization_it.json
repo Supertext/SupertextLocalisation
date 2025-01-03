@@ -597,7 +597,58 @@
         "price": "Prezzo",
         "assignLicenseAdmin": "Assegnazione della licenza",
         "assignLicenseUser": "Contatto admin",
-        "confirmSubscription": "Confermare l'iscrizione"
+        "confirmSubscription": "Confermare l'iscrizione",
+        "modals": {
+          "waitlist": {
+            "email": "E-Mail",
+            "accepted": "Ja, Supertext darf mich kontaktieren, sobald das Basic-Abonnement verfügbar ist",
+            "cta": "Wartelist Abbonnieren",
+            "messages": {
+              "success": "Erfolgreich auf die Warteliste gesetzt",
+              "error": "Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten"
+            }
+          },
+          "offer": {
+            "fields": {
+              "specialRequest": {
+                "label": "Besondere Anfrage",
+                "placeholder": "Ihre Nachricht an Supertext"
+              },
+              "email": {
+                "label": "* E-Mail",
+                "placeholder": "Ihre E-Mail-Adresse",
+                "error": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+              },
+              "name": {
+                "label": "* Name",
+                "placeholder": "Ihr Vorname und Name",
+                "error": "Bitte geben Sie Ihren Namen ein"
+              },
+              "company": {
+                "label": "* Firma",
+                "placeholder": "Name Ihres Unternehmens",
+                "error": "Bitte geben Sie Ihren Firmennamen an"
+              },
+              "userCount": {
+                "label": "* Anzahl der Nutzer:innen",
+                "placeholder": "Anzahl der potenziellen Nutzer:innen",
+                "error": "Bitte geben Sie die Anzahl der Nutzer:innen an"
+              },
+              "phoneNumber": {
+                "label": "Telefonnummer",
+                "placeholder": "Ihre Telefonnummer"
+              },
+              "accepted": {
+                "label": "Ja, meine eingegebenen Daten dürfen an Supertext weitergegeben werden, damit ein:e Vertreter:in des Unternehmens mit mir Kontakt aufnehmen kann",
+                "error": "Bitte akzeptieren Sie die Weitergabe Ihrer Daten"
+              }
+            },
+            "messages": {
+              "success": "Angebot erfolgreich angefordert!",
+              "error": "Fehler beim Anfordern des Angebots"
+            }
+          }
+        }
       },
       "resources": {
         "title": "Risorse linguistiche"

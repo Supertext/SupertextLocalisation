@@ -2532,6 +2532,13 @@
   "translator": {
     "sourcePlaceholderTitle": "Text zum Übersetzen hier einfügen",
     "sourcePlaceholderDescription": "Oder ein Dokument zum Übersetzen in dieses Feld ziehen",
+    "panels": {
+      "secureMode": {
+        "title": "Sicherheitsmodus",
+        "description": "Ihre Übersetzungsdaten werden sofort gelöscht",
+        "cta": "Mehr Informationen"
+      }
+    },
     "features": {
       "infoPopover": {
         "title": "Funktionsweise",

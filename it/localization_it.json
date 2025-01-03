@@ -2532,6 +2532,13 @@
   "translator": {
     "sourcePlaceholderTitle": "Digita per tradurre",
     "sourcePlaceholderDescription": "O trascina e rilascia documenti per tradurli con il nostro Traduttore AI",
+    "panels": {
+      "secureMode": {
+        "title": "Sicherheitsmodus",
+        "description": "Ihre Übersetzungsdaten werden sofort gelöscht",
+        "cta": "Mehr Informationen"
+      }
+    },
     "features": {
       "infoPopover": {
         "title": "Funzionamento",

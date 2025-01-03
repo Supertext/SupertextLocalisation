@@ -2532,6 +2532,13 @@
   "translator": {
     "sourcePlaceholderTitle": "Tapez pour traduire",
     "sourcePlaceholderDescription": "Ou glissez-déposez des documents à traduire avec notre Traducteur AI",
+    "panels": {
+      "secureMode": {
+        "title": "Sicherheitsmodus",
+        "description": "Ihre Übersetzungsdaten werden sofort gelöscht",
+        "cta": "Mehr Informationen"
+      }
+    },
     "features": {
       "infoPopover": {
         "title": "Fonctionnement",

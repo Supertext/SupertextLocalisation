@@ -2535,6 +2535,13 @@
   "translator": {
     "sourcePlaceholderTitle": "Type to translate",
     "sourcePlaceholderDescription": "Or drang and drop documents to translate with our AI Translator",
+    "panels": {
+      "secureMode": {
+        "title": "Sicherheitsmodus",
+        "description": "Ihre Übersetzungsdaten werden sofort gelöscht",
+        "cta": "Mehr Informationen"
+      }
+    },
     "features": {
       "infoPopover": {
         "title": "Function",

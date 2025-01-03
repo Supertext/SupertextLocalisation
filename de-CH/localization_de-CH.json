@@ -1608,7 +1608,7 @@
     "components": {
       "faq": {
         "title": "FAQ",
-        "help": "Ihre Frage war nicht dabei? Die ganze Sammlung gibt es auf unserer FAQ-Seite. Oder direkt im <link>Gespräch</link> mit uns.",
+        "help": "Ihre Frage war nicht dabei? Die ganze Sammlung gibt es auf unserer <link>FAQ-Seite</link>. Oder direkt im <link>Gespräch</link> mit uns.",
         "cta": "Zu allen FAQ"
       }
     },
@@ -1619,7 +1619,7 @@
           "description": "Besser, schneller und sicherer übersetzen mit Fused Translation."
         },
         "lead": {
-          "large": "Mit <highlight>KI</highlight> übersetzen Sie hunderte Wörter in Sekunden. Aber <highlight>nur echte Sprachprofis</highlight> können verifizieren, ob das Resultat tatsächlich aussagt, was es soll.",
+          "large": "Mit <highlight>KI</highlight> übersetzen Sie hunderte Wörter in Sekunden. Und <highlight>echte Sprachprofis</highlight> können verifizieren, ob das Resultat tatsächlich aussagt, was es soll.",
           "small": "Darum verbinden wir Language AI und erfahrene Übersetzer:innen an einem Ort. Für eine nahtlose Integration von künstlicher Intelligenz und menschlichem Können – mit Ihnen am Steuer. Bei Supertext trifft KI-Effizienz auf professionelle Expertise. Textsicherheit auf Datensicherheit. Supertext ist simpel, customized und lernfähig. Supertext ist All-in-one."
         },
         "featureList": {
@@ -1755,7 +1755,7 @@
         "footerNote": {
           "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo.</highlight>",
           "cta": {
-            "title": "Zu allen Cases",
+            "title": "Jetzt entdecken",
             "link": "/cases",
             "target": "_blank"
           }
@@ -2535,8 +2535,8 @@
       },
       "technology": {
         "hero": {
-          "title": "Supertext – wo Language AI auf echte Expertise trifft",
-          "description": "Unsere Mission: Wir sorgen für maximale Gewissheit in der Kommunikation."
+          "title": "State-of-the-art, sicher und lernfähig: unsere Technologie",
+          "description": "Supertext trainiert seine AI individuell auf Ihre Corporate Language. Für nachweislich bessere Übersetzungen in Echtzeit."
         },
         "lead": {
           "large": "Unsere <highlight>LLM-basierte AI Translation</highlight> gehört zur neusten Generation von künstlicher Intelligenz. Sie wird inhouse entwickelt und lässt sich effizient <highlight>unternehmensspezifisch anpassen.</highlight> Mit handfesten Vorteilen für Sie.",
@@ -2558,7 +2558,7 @@
               }
             },
             "row2": {
-              "title": "Spezialisiertes Training – für einfach mehr Sprachqualität im Unternehmen",
+              "title": "Spezialisiertes Training – für bessere Sprachqualität im ganzen Unternehmen",
               "description": "Mit Ihren bestehenden Profi-Übersetzungen, Terminologie-Datenbanken und Stilvorgaben legen wir Ihre persönlichen Sprachmodelle an – und trainieren Sie punktgenau auf Ihre Corporate Language und Tonalität. Das Resultat: Sofortübersetzungen, die nachweislich besser und genauer sind."
             }
           },
@@ -2569,7 +2569,7 @@
             },
             "row2": {
               "title": "Inhouse-Expertise vom Code bis zur Schnittstelle",
-              "description": "Unsere über 20 hauseigenen AI-Wissenschaftlerinnen und Ingenieure leisten Pionierarbeit, die sich auszahlt. Dank der Entwicklung im eigenen Haus können wir neue Sprachen und Features in Rekordzeit umsetzen. Flexibel, zuverlässig und systemoffen in der Anwendung."
+              "description": "Unsere Teams für AI Research und Entwicklung leisten Pionierarbeit, die sich auszahlt. Dank der Entwicklung im eigenen Haus können wir neue Sprachen und Features in Rekordzeit umsetzen. Flexibel, zuverlässig und systemoffen in der Anwendung."
             }
           }
         },
@@ -2604,7 +2604,7 @@
         },
         "serviceList": {
           "title": "SICHERHEIT schreiben wir in jeder Sprache gross",
-          "description": "Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und mehrfach geschützten Servern halten wir Ihre Daten sicher unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
+          "description": "Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und mehrfach geschützten Schweizer Servern halten wir Ihre Daten sicher unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
           "services": [
             {
               "title": "",
@@ -2624,11 +2624,11 @@
                 },
                 {
                   "title": "Übersetzungen werden nicht gespeichert",
-                  "description": "Ihre Übersetzungsdaten werden weder gespeichert noch zum Training unserer KI-Modelle verwendet."
+                  "description": "Mit einem Abo haben Sie die Garantie, dass Ihre KI-Übersetzungen weder gespeichert noch zum Training unserer KI-Modelle verwendet werden."
                 },
                 {
                   "title": "Single Sign-on (SSO)",
-                  "description": "Verwalten Sie den Zugriff auf das Übersetzungssystem einfach mit den bestehenden Benutzerkonten Ihrer Organisation.",
+                  "description": "Verwalten Sie den Zugriff auf das Übersetzungssystem effizient und zentralisiert mit den bestehenden Benutzerkonten Ihrer Organisation.",
                   "cta": {
                     "title": "Mehr erfahren",
                     "link": "#",

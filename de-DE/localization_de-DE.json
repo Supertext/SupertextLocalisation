@@ -1043,15 +1043,15 @@
               "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
               "termsConfirmation": "Ich bestätige die oben genannte Änderung meines Abonnements und akzeptiere die",
               "removeLicensesError": {
-                "one": "Sie haben {count} Benutzer:innen eine Lizenz zugewiesen. Um Ihr Abonnement auf weniger als {count} Lizenzen zu reduzieren,",
-                "other": ""
+                "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
+                "link": "Lizenzen von Teammitgliedern entfernen"
               },
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung wird sofort wirksam.",
               "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
               "agreementAg": {
-                "one": "Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
-                "other": ""
+                "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
+                "link": "AGB"
               },
               "makePayment": "Verbindlich Bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet."
@@ -1063,7 +1063,7 @@
         "licenseTag": "Nutzer lizenzieren",
         "currency": "Währung",
         "noLicense": "Free",
-        "hasLicense": ""
+        "hasLicense": "Essential"
       },
       "delivery": {
         "title": "Lieferung",

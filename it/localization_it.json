@@ -1043,15 +1043,15 @@
               "nextPeriod": "Per le licenze aggiuntive fino al periodo di fatturazione successivo",
               "termsConfirmation": "Confermo la suddetta modifica del mio abbonamento e accetto la",
               "removeLicensesError": {
-                "one": "{count} Avete assegnato una licenza agli utenti. {count} Per ridurre l'abbonamento a meno di licenze,",
-                "other": ""
+                "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
+                "link": "Lizenzen von Teammitgliedern entfernen"
               },
               "termsAndConditions": "Termini e condizioni generali.",
               "immediateChange": "Questa modifica avrà effetto immediato.",
               "nextBillingChange": "Questa modifica avrà effetto a partire dal prossimo periodo contabile.",
-              "agreementAg": {
-                "one": "Confermo la modifica del mio abbonamento e accetto i termini e le condizioni",
-                "other": ""
+             "agreementAg": {
+                "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
+                "link": "AGB"
               },
               "makePayment": "Ordine vincolante",
               "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e saranno addebitate alla fine del periodo di fatturazione successivo."

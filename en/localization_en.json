@@ -1043,15 +1043,15 @@
               "nextPeriod": "For additional licenses until the next billing period",
               "termsConfirmation": "I confirm the above-mentioned change to my subscription and accept the",
               "removeLicensesError": {
-                "one": "You have assigned a license to {count} users. To reduce your subscription to less than {count} licenses,",
-                "other": ""
+                "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
+                "link": "Lizenzen von Teammitgliedern entfernen"
               },
               "termsAndConditions": "General Terms and Conditions.",
               "immediateChange": "This change will take effect immediately.",
               "nextBillingChange": "This change will take effect from the next accounting period.",
               "agreementAg": {
-                "one": "I confirm the above change to my subscription and accept the",
-                "other": ""
+                "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
+                "link": "AGB"
               },
               "makePayment": "Binding order",
               "zeroPayableNowOnTrialPeriod": "Additional licenses are free of charge during the trial period and will be charged at the end of the next billing period."

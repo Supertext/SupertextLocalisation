@@ -26,13 +26,7 @@
           "title": "Nachricht",
           "placeholder": "Ihr Feedback…"
         },
-        "recommend_type": {
-          "title": "Würden Sie das Produkt in der aktuellen Form anderen Leuten weiterempfehlen?",
-          "default": "Wählen Sie eine…",
-          "yes": "Ja",
-          "no": "Nein",
-          "maybe": "Vielleicht"
-        },
+        "recommend_type": {},
         "email": {
           "title": "E-Mail",
           "description": "Mit der Angabe Ihrer E-Mail-Adresse erlauben Sie uns, diese zu speichern, um Sie zu kontaktieren, wenn wir Neuigkeiten oder Fragen zu Ihrem Feedback haben und Sie über unsere neuesten Funktionen informieren.",
@@ -47,7 +41,6 @@
     },
     "fileTranslation": {
       "backButton": "Textübersetzer",
-      "backButtonShort": "Zurück",
       "externalUploadButton": "Hochladen",
       "externalUploadTag": "Ziehen Sie eine Datei hierhin",
       "externalTranslating": "Übersetzt",
@@ -64,7 +57,6 @@
       "expectationExceeded": "Die Übersetzung dauert länger als erwartet. Bitte warten Sie…",
       "downloadViaEmail": "Per E-Mail empfangen",
       "downloadViaEmailMessage": "Grosse Dateien können eine Weile dauern, bis sie übersetzt werden. Als registrierte:r Benutzer:in können Sie anfordern, dass die Datei nach der Übersetzung an Ihre E-Mail-Adresse gesendet wird.",
-      "ocrHelperText": "Nutzen Sie OCR, um gescannte oder fotografierte PDFs besser zu verarbeiten. Für normale PDFs, die nur Text enthalten, ist OCR nicht erforderlich.",
       "ocr_options": {
         "ocr_auto": "Auto",
         "ocr_off": "Aus",
@@ -77,37 +69,13 @@
     },
     "profile": {
       "profile": "Profil",
-      "userNameStatus": "Registrierter Benutzer",
-      "save": "Speichern",
-      "general": "Allgemein",
-      "generalDescription": "Allgemeine Benutzereinstellungen",
-      "displayName": "Anzeigename",
-      "email": "E-Mail",
-      "changePassword": "Passwort ändern",
-      "deleteAccount": "Konto löschen",
-      "beta": "Beta",
-      "betaDescription": "Neue Funktionen",
-      "security": "Sicherheit",
-      "securityDescription": "Ändern Sie Ihr Passwort",
       "passwords": {
-        "oldPassword": "Altes Passwort",
-        "newPassword": "Neues Passwort",
-        "confirmNewPassword": "Neues Passwort bestätigen",
-        "validationMessages": {
-          "displayName": "Anzeigename ist erforderlich",
-          "passwordNoMatch": "Passwörter stimmen nicht überein",
-          "passwordType": "Passwort muss mindestens 8 Zeichen, 1 Sonderzeichen und 1 Zahl enthalten"
-        }
+        "validationMessages": {}
       },
-      "modal": {
-        "title": "Sind Sie sicher, dass Sie Ihr Konto löschen möchten?",
-        "description": "Dadurch werden Ihr Konto und alle gespeicherten Einstellungen endgültig gelöscht. Sie können jederzeit ein neues Konto erstellen, wenn Sie dazu bereit sind.",
-        "close": "Schliessen"
-      }
+      "modal": {}
     },
     "languageMenu": {
-      "cta": "Plus 18 weitere Sprachen in unserer Business-Lösung",
-      "href": "/business/de/features"
+      "cta": "Plus 18 weitere Sprachen in unserer Business-Lösung"
     },
     "NpsSurveyPopup": {
       "question": "Wie wahrscheinlich ist es, dass Sie Supertext Ihren Bekannten weiterempfehlen?",
@@ -130,7 +98,6 @@
         "title": "Cookie-Einstellungen",
         "descriptionPrefix": "Sie können wählen, welche Cookies gesetzt werden sollen, wenn Sie unsere Website nutzen, indem Sie Ihre Einstellungen anpassen. Weitere Informationen finden Sie in unserer",
         "link": "Datenschutzerklärung.",
-        "descriptionSuffix": "",
         "accept": "Alle akzeptieren",
         "yes": "Ja",
         "no": "Nein",
@@ -142,15 +109,8 @@
         "performanceDescription": "Diese Cookies ermöglichen es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie helfen uns zu sehen, wie Besucher unsere Dienste und Funktionen nutzen. Alle Informationen, die sie sammeln, sind aggregiert und daher anonym. Wenn Sie diese Cookies nicht verwenden, wissen wir nicht, wann Sie unsere Website besucht haben und können ihre Leistung nicht überwachen."
       }
     },
-    "genderfairFirstRunExperienceToggle": {
-      "text": "Wir unterstützen jetzt gendergerechte Sprache für Deutsch und Englisch.",
-      "link": "Hier unser Blogbeitrag.",
-      "href": "https://supertext.com/business/de/blog/genderfair"
-    },
-    "firstRunExperienceToggle": {
-      "text": "Klicken Sie auf ein Wort oder wählen Sie mehrere Wörter aus, um Alternativen zu erhalten.",
-      "link": "Mehr anzeigen"
-    },
+    "genderfairFirstRunExperienceToggle": {},
+    "firstRunExperienceToggle": {},
     "userLimits": {
       "signupButton": "Registrieren",
       "loginButton": "Anmelden",
@@ -191,13 +151,11 @@
       }
     },
     "navbar": {
-      "why": "Warum Supertext?",
       "enterprise": "Für Unternehmen",
       "upgrade": "Preise"
     },
     "genderFair": {
       "GENDERFAIR_NAME": "Genderfair",
-      "GENDERFAIR_FAIR_BADGE": "Fair",
       "BETA": "Beta",
       "GENDERFAIR_ON": "Ein",
       "GENDERFAIR_OFF": "Aus",
@@ -206,26 +164,10 @@
       "GENDERFAIR_ARTICLE_LINK": "https://supertext.com/business/de/blog/genderfair-uebersetzen"
     }
   },
-  "user": "Nutzer:in",
-  "content": "Inhalt",
   "tone": "Tonalität",
   "settings": {
-    "save": "Speichern",
-    "automatic": "Automatisch",
     "settings": "Einstellungen",
-    "themePreferences": {
-      "themePreferences": "Design-Einstellungen",
-      "DayTheme": "Hell",
-      "NightTheme": "Dunkel",
-      "SystemTheme": "Systemeinstellung übernehmen"
-    },
-    "language": "Sprache",
-    "preferredSource": "Bevorzugte Quellsprache",
-    "preferredTarget": "Bevorzugte Zielsprache",
-    "general": "Allgemein",
-    "generalDescription": "Allgemeine App-Einstellungen",
-    "appearance": "Darstellung",
-    "appearanceDescription": "Steuern, wie die App aussieht"
+    "themePreferences": {}
   },
   "tooltips": {
     "copyTargetText": "Übersetzung kopieren",
@@ -235,36 +177,11 @@
     "targetTextLength": "Anzahl Zeichen",
     "sourceTextCharacterLimit": "Anzahl Zeichen / Maximum",
     "verifiedTranslations": "Verifizierte Übersetzungen markieren",
-    "rephraseTranslation": "Umformulieren",
-    "editGlossary": "Glossar bearbeiten",
-    "deleteGlossary": "Glossar löschen",
-    "deleteTerm": "Term löschen"
+    "rephraseTranslation": "Umformulieren"
   },
-  "popovers": {
-    "exactTerms": "Verifizierte Übersetzung von {0}",
-    "confirmationTitle": "Bestätigung",
-    "confirmationText": "Möchten Sie wirklich weiterfahren?"
-  },
+  "popovers": {},
   "fileTranslation": {
-    "uploading": "Datei wird hochgeladen",
-    "detecting": "Sprache wird erkannt",
-    "translating": "Datei wird übersetzt",
-    "downloading": "Datei wird heruntergeladen",
-    "successfulDownload": "Datei wurde heruntergeladen",
-    "translateAgain": "Weitere Datei übersetzen",
-    "downloadAgain": "Datei nochmals herunterladen",
-    "size": "Dateigrösse",
-    "type": "Dateityp",
-    "dropFile": "Datei hierhin ziehen",
-    "dropAnotherFile": "Ziehen Sie eine weitere Datei ({supportedFileExtensions}) in dieses Feld oder",
-    "translateButton": "Auf {toTargetLang} übersetzen",
-    "translateButtonRetry": "Erneut versuchen",
-    "cancelButton": "Abbrechen",
     "fileUploadButton": "Wählen Sie eine Datei aus",
-    "invalidFileType": "Ungültiger Dateityp",
-    "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien, die grösser als {0} MB sind, werden derzeit nicht unterstützt.",
-    "estimatedTime": "Geschätzte verbleibende Zeit: {0}",
-    "expectationExceeded": "Die Übersetzung dauert länger als erwartet. Bitte warten Sie…",
     "ocrHelperText": "Nutzen Sie OCR, um gescannte oder fotografierte PDFs besser zu verarbeiten. Für normale PDFs, die nur Text enthalten, ist OCR nicht erforderlich.",
     "ocr_options": {
       "ocr_auto": "Auto",
@@ -272,12 +189,7 @@
       "ocr_on": "Ein"
     }
   },
-  "modeSelectorButton": {
-    "TRANSLATE_TEXT": "Text",
-    "TRANSLATE_FILE": "Dokument",
-    "TRANSLATE_ASSISTANT": "Assistent"
-  },
-  "rephraseButton": "Umformulieren auf",
+  "modeSelectorButton": {},
   "politenessDropDown": {
     "POLITENESS_VARIANTS": "Varianten",
     "POLITENESS_BUTTON_TITLE": "Anredeform",
@@ -287,82 +199,22 @@
     "POLITENESS_INFORMAL": "Informell",
     "UNSELECTED": "Anredeform"
   },
-  "lengthMatchingFeature": {
-    "title": "Längenabgleich"
-  },
-  "glossaryFeature": {
-    "glossary": "Glossar",
-    "glossaries": "Glossare",
-    "addGlossary": "Glossar hinzufügen",
-    "createGlossary": "Glossar erstellen",
-    "glossaryName": "Glossarname",
-    "sourceTerm": "Quellterm",
-    "targetTerm": "Zielterm",
-    "search": "Term suchen",
-    "sourceLanguage": "Quellsprache",
-    "targetLanguage": "Zielsprache",
-    "targetLanguages": "Zielsprachen",
-    "languagePair": "Sprachpaar",
-    "editTerm": "Term bearbeiten",
-    "verifiedTranslations": "Verifizierte Übersetzungen markieren",
-    "verifyNameError": "Glossarname wird bereits verwendet",
-    "deleteGlossary": "Glossar löschen",
-    "exportGlossary": "CSV exportieren",
-    "importGlossary": "CSV importieren",
-    "csvTemplate": "CSV Template",
-    "emptyList": "Noch keine Glossareinträge hinzugefügt",
-    "termLanguagePairExists": "Eintrag im Glossar ist bereits vorhanden",
-    "errorImportSuffix": "Eine oder mehrere Sprachen werden nicht unterstützt",
-    "errorExportNoEntries": "Keine Einträge für den Export verfügbar",
-    "errorImportInvalidEntry": "Ungültiger Eintrag",
-    "errorImportInvalidSource": "Ungültige Ausgangssprache",
-    "errorImportInvalidTarget": "Ungültige Zielsprache",
-    "errorImportInvalidTerm": "Ungültiger Quell- oder Zielterm",
-    "termsAddedSuccessfully": "{count} Term(e) erfolgreich hinzugefügt",
-    "glossaryDeletedSuccessfully": "Glossar erfolgreich gelöscht",
-    "glossaryCreatedSuccessfully": "Glossar erfolgreich erstellt",
-    "glossaryTemplateExportSucessful": "Glossarvorlage erfolgreich heruntergeladen",
-    "noGlossaryDataToExport": "Im Glossar wurden keine Daten zum Exportieren gefunden",
-    "csvExportSuccessfully": "CSV erfolgreich exportiert",
-    "csvImportSuccessfully": "CSV erfolgreich importiert",
-    "csvImportFailed": "Beim Import der CSV-Datei ist ein Fehler aufgetreten",
-    "csvExportFailed": "Beim Export der CSV-Datei ist ein Fehler aufgetreten",
-    "csvImportBadHeaders": "Keine gültigen Kopfzeilen in der importierten CSV-Datei gefunden",
-    "selectAll": "Alle auswählen",
-    "reset": "Zurücksetzen",
-    "autoFill": "Automatisches Ausfüllen",
-    "addTerms": "Term hinzufügen",
-    "addAndRepeat": "Hinzufügen und wiederholen"
-  },
+  "lengthMatchingFeature": {},
+  "glossaryFeature": {},
   "on": "Ein",
   "off": "Aus",
-  "add": "Hinzufügen",
-  "create": "Erstellen",
   "delete": "Löschen",
   "save": "Speichern",
   "cancel": "Abbrechen",
-  "areYouSure": "Sind Sie sicher?",
   "apply": "Anwenden",
-  "undoButton": "Rückgängig",
-  "redoButton": "Wiederholen",
   "backButton": "Zurück",
-  "editorPlaceholder": "Text zum Übersetzen hier einfügen",
-  "login": "Anmelden",
   "logout": "Abmelden",
   "news": "Neuigkeiten",
-  "noNotifications": "Zurzeit gibt es keine Neuigkeiten.",
   "manual": "User Guide",
   "searchLanguage": "Sprache suchen",
   "identifyLanguage": "Sprache erkennen",
-  "identifyPivot": "Muttersprache erkennen",
-  "identifiedNativeLanguage": "Muttersprache erkannt",
-  "nativeLanguage": "Muttersprache",
-  "chooseLanguage": "Zielsprache wählen",
   "detected": "erkannt",
   "mixed": "gemischt",
-  "word": "Wort",
-  "translation": "Übersetzung",
-  "translateDocument": "Dokument übersetzen",
   "languages": {
     "x-mixed": "Mehrere Sprachen",
     "cs": "Tschechisch",
@@ -409,27 +261,7 @@
     "zh-Hans": "Chinesisch (vereinfacht)",
     "zh-Hant": "Chinesisch (traditionell)"
   },
-  "languageVariants": {
-    "de-AT": "AT",
-    "de-CH": "CH",
-    "de-DE": "DE",
-    "en-AU": "AU",
-    "en-CA": "CA",
-    "en-GB": "UK",
-    "en-US": "US",
-    "fr-CH": "CH",
-    "fr-FR": "FR",
-    "gsw-u-sd-chbe": "BE",
-    "gsw-u-sd-chzh": "ZH",
-    "it-CH": "CH",
-    "it-IT": "IT",
-    "pt-BR": "BR",
-    "pt-PT": "PT",
-    "sr-Cyrl": "Kyrillisch",
-    "sr-Latn": "Lateinisch",
-    "zh-Hans": "Hans",
-    "zh-Hant": "Hant"
-  },
+  "languageVariants": {},
   "languageVariantNames": {
     "de-AT": "Österreich (AT)",
     "de-CH": "Schweiz (CH)",
@@ -542,23 +374,15 @@
     "zh-Hans": "nach Chinesisch (vereinfacht)",
     "zh-Hant": "nach Chinesisch (traditionell)"
   },
-  "authentication": {
-    "authenticate": "Authentifizierung",
-    "authenticationRequired": "Authentifizierung erforderlich",
-    "insertApiKey": "Geben Sie hier Ihren API-Schlüssel ein"
-  },
+  "authentication": {},
   "errors": {
-    "unknownError": "Unbekannter Fehler aufgetreten.",
-    "serviceUnavailable": "Dienst nicht verfügbar: {0}"
+    "unknownError": "Unbekannter Fehler aufgetreten."
   },
   "notifications": {
     "info": {
-      "waitingForSlowTranslation": "Ihre Übersetzung dauert etwas länger als normal. Bitte haben Sie Geduld.",
       "submittingVerification": "Übermittlung der Verifizierung, bitte warten..."
     },
     "failure": {
-      "systemUnavailable": "Das Übersetzungssystem ist nicht verfügbar. Bitte kontaktieren Sie Ihre:n Systemadministrator:in.",
-      "serviceUnavailable": "Service momentan nicht verfügbar: {0}",
       "languageDetection": "Sprache wurde nicht erkannt.",
       "languagePairs": "Sprachpaare konnten nicht erfasst werden.",
       "translation": "Ein Fehler ist während der Übersetzung aufgetreten.",
@@ -578,13 +402,11 @@
         "deleteCreditCard": "Beim Löschen der Kartendetails ist ein Fehler aufgetreten",
         "couldNotFetchCountryBillingList": "Es konnten keine Länderabrechnungslisten abgerufen werden: {error}",
         "couldNotFetchCardDetails": "Beim Versuch, Ihre Kartendetails zu holen, ist etwas passiert",
-        "couldNotFetchBillingAddress": "Konnte die Rechnungsadressen nicht abrufen",
         "couldNotFetchInvoiceLink": "Konnte den Rechnungslink nicht abrufen:  {error}",
         "couldNotFetchTypeLabel": "Konnte die Typbezeichnung nicht abrufen:  {error}"
       },
       "team": {
         "addMember": "Beim Einladen des Benutzers zum Team ist ein Fehler aufgetreten",
-        "changeRole": "Beim Ändern der Rolle des Teammitglieds ist ein Fehler aufgetreten",
         "editMember": "Beim Bearbeiten des Teammitglieds ist ein Fehler aufgetreten",
         "removeMember": "Beim Entfernen des Benutzers aus dem Team ist ein Fehler aufgetreten",
         "couldNotFetchTeamMembers": "Konnte die Teammitglieder nicht abrufen: {error}",
@@ -623,7 +445,6 @@
       },
       "team": {
         "addMember": "Benutzer erfolgreich zum Team eingeladen",
-        "changeRole": "Rolle des Teammitglieds erfolgreich geändert",
         "editMember": "Teammitglied erfolgreich bearbeitet",
         "removeMember": "Benutzer erfolgreich aus dem Team entfernt"
       },
@@ -634,22 +455,13 @@
     }
   },
   "endpointServices": {
-    "translate": "Übersetzungsdienst",
-    "languages": "Übersetzungsdienst",
-    "usage": "Authentifizierungsdienst",
-    "translate_document": "Dokumentübersetzungsdienst",
-    "translate_document_async": "Dokumentübersetzungsdienst",
-    "detect_language": "Spracherkennungsdienst",
-    "split_sentences": "Satzsegmentierungsdienst",
-    "get_phrases": "Dienst für Phrasenalternativen",
-    "get_words": "Dienst für Wortalternativen"
+    "languages": "Übersetzungsdienst"
   },
   "alternatives": {
     "no_alternatives": "keine Alternativen"
   },
   "connectivityAlerts": {
-    "offline": "Sie sind derzeit offline.",
-    "online": "Ihre Internetverbindung wurde wiederhergestellt."
+    "offline": "Sie sind derzeit offline."
   },
   "starstruck": {
     "welcomeMessage": "Grüezi,",
@@ -739,7 +551,8 @@
           "scope": "Umfang",
           "invoiceDate": "Bestellzeit",
           "invoiceAddress": "Rechnungsadresse",
-          "contactPersonTitle": "PROJEKTLEITUNG"
+          "contactPersonTitle": "PROJEKTLEITUNG",
+          "additionalInformation": "Zusätzliche Informationen"
         },
         "back": "Zurück"
       },
@@ -798,7 +611,58 @@
         "price": "Preis",
         "assignLicenseAdmin": "Lizenz zuweisen",
         "assignLicenseUser": "Admin kontaktieren",
-        "confirmSubscription": "Abo bestätigen"
+        "confirmSubscription": "Abo bestätigen",
+        "modals": {
+          "waitlist": {
+            "email": "E-Mail",
+            "accepted": "Ja, Supertext darf mich kontaktieren, sobald das Basic-Abonnement verfügbar ist",
+            "cta": "Wartelist Abbonnieren",
+            "messages": {
+              "success": "Erfolgreich auf die Warteliste gesetzt",
+              "error": "Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten"
+            }
+          },
+          "offer": {
+            "fields": {
+              "specialRequest": {
+                "label": "Besondere Anfrage",
+                "placeholder": "Ihre Nachricht an Supertext"
+              },
+              "email": {
+                "label": "* E-Mail",
+                "placeholder": "Ihre E-Mail-Adresse",
+                "error": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+              },
+              "name": {
+                "label": "* Name",
+                "placeholder": "Ihr Vorname und Name",
+                "error": "Bitte geben Sie Ihren Namen ein"
+              },
+              "company": {
+                "label": "* Firma",
+                "placeholder": "Name Ihres Unternehmens",
+                "error": "Bitte geben Sie Ihren Firmennamen an"
+              },
+              "userCount": {
+                "label": "* Anzahl der Nutzer:innen",
+                "placeholder": "Anzahl der potenziellen Nutzer:innen",
+                "error": "Bitte geben Sie die Anzahl der Nutzer:innen an"
+              },
+              "phoneNumber": {
+                "label": "Telefonnummer",
+                "placeholder": "Ihre Telefonnummer"
+              },
+              "accepted": {
+                "label": "Ja, meine eingegebenen Daten dürfen an Supertext weitergegeben werden, damit ein:e Vertreter:in des Unternehmens mit mir Kontakt aufnehmen kann",
+                "error": "Bitte akzeptieren Sie die Weitergabe Ihrer Daten"
+              }
+            },
+            "messages": {
+              "success": "Angebot erfolgreich angefordert!",
+              "error": "Fehler beim Anfordern des Angebots"
+            }
+          }
+        }
       },
       "resources": {
         "title": "Sprachressourcen"
@@ -992,14 +856,14 @@
               "termsConfirmation": "Ich bestätige die oben genannte Änderung meines Abonnements und akzeptiere die",
               "removeLicensesError": {
                 "one": "Sie haben {count} Benutzer:innen eine Lizenz zugewiesen. Um Ihr Abonnement auf weniger als {count} Lizenzen zu reduzieren,",
-                "other": ""
+                "two": "Lizenzen von Teammitgliedern entfernen"
               },
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung wird sofort wirksam.",
               "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
               "agreementAg": {
                 "one": "Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
-                "other": ""
+                "two": "AGB"
               },
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet."
@@ -2682,6 +2546,14 @@
   "translator": {
     "sourcePlaceholderTitle": "Text zum Übersetzen hier einfügen",
     "sourcePlaceholderDescription": "Oder eine Datei zum Übersetzen in dieses Feld ziehen",
+    "panels": {
+      "secureMode": {
+        "title": "Sicherheitsmodus",
+        "description": "Ihre Übersetzungsdaten werden sofort gelöscht",
+        "cta": "Mehr Informationen"
+      }
+    },
+    "backToTool": "Zurück zum Tool",
     "features": {
       "infoPopover": {
         "title": "Funktionen",
@@ -2720,6 +2592,5 @@
         }
       }
     }
-  },
-  "notSupported": "Nicht unterstützte Sprache"
+  }
 }

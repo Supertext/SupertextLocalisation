@@ -1043,6 +1043,8 @@
               "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
               "termsConfirmation": "Ich bestätige die oben genannte Änderung meines Abonnements und akzeptiere die",
               "removeLicensesError": {
+                "one": "Sie haben {count} Benutzer:innen eine Lizenz zugewiesen. Um Ihr Abonnement auf weniger als {count} Lizenzen zu reduzieren,",
+                "other": "",
                 "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
                 "link": "Lizenzen von Teammitgliedern entfernen"
               },
@@ -1050,6 +1052,8 @@
               "immediateChange": "Diese Änderung wird sofort wirksam.",
               "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
               "agreementAg": {
+                "one": "Ich bestätige die oben genannte Änderung an meinem Abonnement und akzeptiere die",
+                "other": "",
                 "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
                 "link": "AGB"
               },
@@ -1063,7 +1067,7 @@
         "licenseTag": "Nutzer lizenzieren",
         "currency": "Währung",
         "noLicense": "Free",
-        "hasLicense": "Essential"
+        "hasLicense": ""
       },
       "delivery": {
         "title": "Lieferung",
@@ -1529,7 +1533,7 @@
               "description": "Laden Sie vollständige Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung mit demselben Layout und Styling.",
               "free": "0 Dateien pro Monat, pro Benutzer",
               "essential": "5 Dateien pro Monat, pro Benutzer",
-              "advanced": "20 Dateien pro Monat, pro Benutzer"
+              "advanced": "20 Dateien pro Monat, pro Person"
             },
             "fileEditingAllowed": {
               "name": "Dateibearbeitung erlaubt",
@@ -1654,6 +1658,7 @@
       },
       "humanVerification": {
         "title": "Human-verified AI",
+        "titleWhitPrice": "Human-verified AI {0} {1}",
         "titleWithPrice": "Human-verified AI {0} {1}"
       }
     },

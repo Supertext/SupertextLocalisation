@@ -935,8 +935,8 @@
             "management": "Management",
             "actions": {
               "title": "Aktion",
-              "editAll": "Alle Bearbeiten",
-              "removeAll": "Alle Entfernen"
+              "editAll": "Alle bearbeiten",
+              "removeAll": "Alle entfernen"
             },
             "increaseNumberOfLicenses": "Anzahl Lizenzen erhöhen",
             "selectLicense": "Lizenz auswählen...",
@@ -1820,8 +1820,8 @@
               },
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Sicher sein, mit dem Profi-Check auf Knopfdruck",
-                "description": "Lassen Sie wichtige Übersetzungen von den Profis prüfen – in Minuten statt Stunden. Supertext verbindet Sie direkt mit über 3000 erfahrenen Linguisten und Kulturexpertinnen. Damit Ihre Botschaft sicher ankommt, wenn es wirklich wichtig ist.",
+                "title": "Profi-Check auf Knopfdruck",
+                "description": "Sicher sein, mit einem Klick: Lassen Sie wichtige Übersetzungen von den Profis prüfen – in Minuten statt Stunden. Supertext verbindet Sie direkt mit über 3000 erfahrenen Linguisten und Kulturexpertinnen. Damit Ihre Botschaft sicher ankommt, wenn es wirklich wichtig ist.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
@@ -1831,7 +1831,7 @@
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Ihre persönliche KI, die in Echtzeit lernt",
-                "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Für immer bessere Qualität bei sinkenden Kosten – im ganzen Unternehmen.",
+                "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihren Stil, Ihre Wortwahl und Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
@@ -2230,7 +2230,7 @@
         },
         "footerNote": {
           "pretitle": "Wir sind für Sie da",
-          "text": "Sie haben ein spannendes <highlight>Projekt</highlight> in der Pipeline? Oder möchten Ihr bestehendes <highlight>Setup</highlight> mit uns <highlight>evaluieren?</highlight>",
+          "text": "Sie haben ein spannendes <highlight>Sprachprojekt</highlight> in der Pipeline? Oder möchten Ihre bestehenden <highlight>Prozesse</highlight> mit uns <highlight>evaluieren?</highlight>",
           "cta": {
             "title": "Lassen Sie uns reden",
             "link": "/contact",
@@ -2424,7 +2424,7 @@
       "aiTranslation": {
         "hero": {
           "title": "AI Translation und Verifizierung",
-          "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung - und dem Profi-Check auf Knopfdruck."
+          "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung – und dem Profi-Check auf Knopfdruck."
         },
         "lead": {
           "large": "AI Translation ist <highlight>einfach, schnell</highlight> und wird laufend besser. Doch etwas können auch 2025 <highlight>nur menschliche Expert:innen:</highlight> die Korrektheit einer Übersetzung <highlight>garantieren.</highlight>",

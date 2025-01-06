@@ -1043,15 +1043,19 @@
               "nextPeriod": "Per le licenze aggiuntive fino al periodo di fatturazione successivo",
               "termsConfirmation": "Confermo la suddetta modifica del mio abbonamento e accetto la",
               "removeLicensesError": {
-                "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
-                "link": "Lizenzen von Teammitgliedern entfernen"
+                "one": "{count} Avete assegnato una licenza agli utenti. {count} Per ridurre l'abbonamento a meno di licenze,",
+                "other": "",
+                "text": "{count} Avete assegnato una licenza a . {count} Per ridurre l'abbonamento a meno di licenze,",
+                "link": "Rimuovere le licenze dai membri del team"
               },
               "termsAndConditions": "Termini e condizioni generali.",
               "immediateChange": "Questa modifica avrà effetto immediato.",
               "nextBillingChange": "Questa modifica avrà effetto a partire dal prossimo periodo contabile.",
-             "agreementAg": {
-                "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
-                "link": "AGB"
+              "agreementAg": {
+                "one": "Confermo la modifica del mio abbonamento e accetto i termini e le condizioni",
+                "other": "",
+                "text": "Confermo la suddetta modifica dell'abbonamento e accetto la",
+                "link": "GTC"
               },
               "makePayment": "Ordine vincolante",
               "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e saranno addebitate alla fine del periodo di fatturazione successivo."
@@ -1654,7 +1658,8 @@
       },
       "humanVerification": {
         "title": "IA verificata dall'uomo",
-        "titleWithPrice": "Human-verified AI {0} {1}"
+        "titleWhitPrice": "IA verificata dall'uomo {1}",
+        "titleWithPrice": "IA verificata dall'uomo {1}"
       }
     },
     "components": {

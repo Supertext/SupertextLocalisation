@@ -77,7 +77,7 @@
     },
     "profile": {
       "profile": "Profil",
-      "userNameStatus": "Registrierte:r Benutzer:in",
+      "userNameStatus": "Registrierte:r User:in",
       "save": "Speichern",
       "general": "Allgemein",
       "generalDescription": "Allgemeine Profileinstellungen",
@@ -832,9 +832,9 @@
                 "error": "Bitte geben Sie den Namen Ihres Unternehmens / Ihrer Organisation an"
               },
               "userCount": {
-                "label": "* Anzahl Nutzer:innen",
-                "placeholder": "Anzahl der potenziellen Nutzer:innen",
-                "error": "Bitte geben Sie die Anzahl der Nutzer:innen an"
+                "label": "* Anzahl User:innen",
+                "placeholder": "Anzahl der potenziellen User:innen",
+                "error": "Bitte geben Sie die Anzahl der User:innen an"
               },
               "phoneNumber": {
                 "label": "Telefonnummer",
@@ -1043,6 +1043,8 @@
               "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
               "removeLicensesError": {
+                "one": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
+                "other": "",
                 "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
                 "link": "Lizenzen von Teammitgliedern entfernen"
               },
@@ -1050,6 +1052,8 @@
               "immediateChange": "Diese Änderung wird sofort wirksam.",
               "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
               "agreementAg": {
+                "one": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
+                "other": "",
                 "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
                 "link": "AGB"
               },
@@ -1142,7 +1146,7 @@
     },
     "humanVerification": {
       "verifyButton": "Profi-Check starten",
-      "stepTitle": "Profi-Check starten – Schritt",
+      "stepTitle": "Profi-Check starten – Schritt",
       "stepDescription": "Ihre KI-Übersetzung wird von unseren Sprachprofis überprüft und wo nötig korrigiert. Sie erhalten eine garantiert korrekte Übersetzung.",
       "nextStepButton": "Nächster Schritt",
       "orderVerification": "Verifizierung bestellen",
@@ -1527,9 +1531,9 @@
             "unlimitedFileTranslation": {
               "name": "Unbegrenzte Dateiübersetzung",
               "description": "Laden Sie vollständige Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
-              "free": "0 Dateien pro Monat, pro User:in",
-              "essential": "5 Dateien pro Monat, pro User:in",
-              "advanced": "20 Dateien pro Monat, pro User:in"
+              "free": "0 Dateien pro Monat, pro Person",
+              "essential": "5 Dateien pro Monat, pro Person",
+              "advanced": "20 Dateien pro Monat, pro Person"
             },
             "fileEditingAllowed": {
               "name": "Dateibearbeitung erlaubt",
@@ -1654,6 +1658,7 @@
       },
       "humanVerification": {
         "title": "Human-verified AI",
+        "titleWhitPrice": "Human-verified AI {0} {1}",
         "titleWithPrice": "Human-verified AI {0} {1}"
       }
     },
@@ -1672,7 +1677,7 @@
         },
         "lead": {
           "large": "Mit <highlight>KI</highlight> übersetzen Sie hunderte Wörter in Sekunden. Und <highlight>echte Sprachprofis</highlight> können verifizieren, ob das Resultat tatsächlich aussagt, was es soll.",
-          "small": "Darum verbinden wir Language AI und erfahrene Übersetzer:innen an einem Ort. Für eine nahtlose Integration von künstlicher Intelligenz und menschlichem Können – mit Ihnen am Steuer. Bei Supertext trifft KI-Effizienz auf professionelle Expertise. Textsicherheit auf Datensicherheit. Supertext ist simpel, customized und lernfähig. Supertext ist All-in-one."
+          "small": "Darum verbinden wir Language AI und erfahrene Übersetzer:innen an einem Ort. Für eine nahtlose Integration von künstlicher Intelligenz und menschlichem Können – mit Ihnen am Steuer. Bei Supertext trifft KI-Effizienz auf professionelle Expertise. Textsicherheit auf Datensicherheit. Supertext ist simpel, customized und lernfähig. Supertext ist All-in-one."
         },
         "featureList": {
           "title": "Fused Translation mit Supertext: Ihre Vorteile",
@@ -1709,7 +1714,7 @@
           "eyebrowHeadline": "Angebot",
           "services": [
             {
-              "title": "Für Einzel-User",
+              "title": "Für Einzel-User:innen",
               "sections": [
                 {
                   "title": "AI Translation in 23 Sprachen",
@@ -1873,7 +1878,7 @@
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Profi-Check auf Knopfdruck",
-                "description": "Sicher sein, mit einem Klick: Lassen Sie wichtige Übersetzungen von den Profis prüfen – in Minuten statt Stunden. Supertext verbindet Sie direkt mit über 3000 erfahrenen Linguisten und Kulturexpertinnen. Damit Ihre Botschaft sicher ankommt, wenn es wirklich wichtig ist.",
+                "description": "Sicher sein, mit einem Klick: Lassen Sie wichtige Übersetzungen von den Profis prüfen – in Minuten statt Stunden. Supertext verbindet Sie direkt mit über 3000 erfahrenen Linguisten und Kulturexpertinnen. Damit Ihre Botschaft sicher ankommt, wenn es wirklich wichtig ist.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
@@ -1883,7 +1888,7 @@
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Ihre persönliche KI, die in Echtzeit lernt",
-                "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihren Stil, Ihre Wortwahl und Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
+                "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder professionell verifizierten Übersetzung weiter an Ihren Stil, Ihre Wortwahl und Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
@@ -2097,7 +2102,7 @@
           "items": [
             {
               "image": "/images/pages/language-expertise/portrait1.png",
-              "quote": "«Wir schleifen so lange, bis es wehtut.»",
+              "quote": "«So lange, bis jedes Wort sitzt.»",
               "person": "Tristan Sechrest, English Language Specialist",
               "content": [
                 {
@@ -2116,7 +2121,7 @@
             },
             {
               "image": "/images/pages/language-expertise/portrait2.png",
-              "quote": "«Auch wir übersetzen – vor allem Kundenwünsche in Sprachmodelle.»",
+              "quote": "«Das beste Sprachmodell? Ihr eigenes.»",
               "person": "Philippe Schläpfer, Research Scientist",
               "content": [
                 {
@@ -2334,7 +2339,7 @@
               },
               {
                 "title": "Technology",
-                "description": "Unser Entwicklungsteam programmiert individuell für unsere Kund:innen – von der spezialisierten AI Lösung über zusätzliche Sprachfunktionen bis hin zur persönlichen Systemanbindung. Dank Entwicklung im eigenen Haus flexibel und in Rekordzeit umgesetzt.",
+                "description": "Unser Entwicklungsteam programmiert individuell für unsere Kund:innen – von der spezialisierten AI Lösung über zusätzliche Sprachfunktionen bis hin zur persönlichen Systemanbindung. Dank Entwicklung im eigenen Haus flexibel und in Rekordzeit umgesetzt.",
                 "cta": {
                   "text": "Mitarbeiterporträt lesen",
                   "link": "/language-expertise#portraits",
@@ -2388,11 +2393,11 @@
       },
       "aboutSupertext": {
         "hero": {
-          "title": "Supertext – wo Language AI auf echte Expertise trifft",
+          "title": "Supertext – wo Language AI auf echte Expertise trifft",
           "description": "Unsere Mission: Wir sorgen für maximale Gewissheit in der Kommunikation."
         },
         "lead": {
-          "large": "AI-Tool oder Übersetzungsagentur? Wir sind beides – und <highlight>zusammen viel mehr als das.</highlight>",
+          "large": "AI-Tool oder Übersetzungsagentur? Wir sind beides – und <highlight>zusammen viel mehr als das.</highlight>",
           "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom lernfähigen Online-Übersetzer bis zum ISO-zertifizierten Service für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst über 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik, Projektmanagement und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen die Vorteile von KI und menschlicher Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise und maximal sicher – beim Inhalt wie beim Datenschutz.",
           "cta": {
             "title": "Angebot entdecken",
@@ -2476,7 +2481,7 @@
       "aiTranslation": {
         "hero": {
           "title": "AI Translation und Verifizierung",
-          "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung – und dem Profi-Check auf Knopfdruck."
+          "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung – und dem Profi-Check auf Knopfdruck."
         },
         "lead": {
           "large": "AI Translation ist <highlight>einfach, schnell</highlight> und wird laufend besser. Doch etwas können auch 2025 <highlight>nur menschliche Expert:innen:</highlight> die Korrektheit einer Übersetzung <highlight>garantieren.</highlight>",
@@ -2496,11 +2501,11 @@
             },
             {
               "title": "Profi-Check durch erfahrene Expert:innen",
-              "description": "Unsere muttersprachlichen Profi-Übersetzer:innen stellen sicher, dass die Übersetzung inhaltlich exakt dem Original entspricht – und intervenieren auch sprachlich wo nötig.",
+              "description": "Unsere muttersprachlichen Profi-Übersetzer:innen stellen sicher, dass die Übersetzung inhaltlich exakt dem Original entspricht – und intervenieren auch sprachlich wo nötig.",
               "icon": "/images/pages/ai-translation/icon-bullet.png"
             },
             {
-              "title": "Verifiziert – und zertifiziert",
+              "title": "Verifiziert – und zertifiziert",
               "description": "Sobald die Verifizierung abgeschlossen ist, erhalten Sie die geprüfte Übersetzung zusammen mit einem entsprechenden Zertifikat zum Download.",
               "icon": "/images/pages/ai-translation/icon-bullet.png"
             }
@@ -2571,7 +2576,7 @@
             {
               "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
-              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
+              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
             }
           ]
         },
@@ -2592,7 +2597,7 @@
         },
         "lead": {
           "large": "Unsere <highlight>LLM-basierte AI Translation</highlight> gehört zur neusten Generation von künstlicher Intelligenz. Sie wird inhouse entwickelt und lässt sich effizient <highlight>unternehmensspezifisch anpassen.</highlight> Mit handfesten Vorteilen für Sie.",
-          "small": "Unsere Custom-Übersetzungslösungen sorgen für messbar bessere Sprachqualität – als Arbeitsgrundlage für Ihre Profi-Übersetzer:innen, vollautomatisch über unsere Plugins und APIs sowie als frei zugänglicher Online-Übersetzer für alle Mitarbeitenden. Damit geben wir Ihrem ganzen Unternehmen eine eigene Stimme. In jeder Sprache und jedem Format.",
+          "small": "Unsere Custom-Übersetzungslösungen sorgen für messbar bessere Sprachqualität – als Arbeitsgrundlage für Ihre Profi-Übersetzer:innen, vollautomatisch über unsere Plugins und APIs sowie als frei zugänglicher Online-Übersetzer für alle Mitarbeitenden. Damit geben wir Ihrem ganzen Unternehmen eine eigene Stimme. In jeder Sprache und jedem Format.",
           "cta": {
             "title": "Neugierig? Lassen Sie uns reden.",
             "link": "/contact"
@@ -2610,14 +2615,14 @@
               }
             },
             "row2": {
-              "title": "Spezialisiertes Training – für bessere Sprachqualität im ganzen Unternehmen",
-              "description": "Mit Ihren bestehenden Profi-Übersetzungen, Terminologie-Datenbanken und Stilvorgaben legen wir Ihre persönlichen Sprachmodelle an – und trainieren Sie punktgenau auf Ihre Corporate Language und Tonalität. Das Resultat: Sofortübersetzungen, die nachweislich besser und genauer sind."
+              "title": "Spezialisiertes Training – für bessere Sprachqualität im ganzen Unternehmen",
+              "description": "Mit Ihren bestehenden Profi-Übersetzungen, Terminologie-Datenbanken und Stilvorgaben legen wir Ihre persönlichen Sprachmodelle an – und trainieren Sie punktgenau auf Ihre Corporate Language und Tonalität. Das Resultat: Sofortübersetzungen, die nachweislich besser und genauer sind."
             }
           },
           "section2": {
             "row1": {
               "title": "Immer besser: Ihre persönliche KI lernt mit",
-              "description": "Ihre massgeschneiderten Sprachmodelle lernen schnell – und passen sich mit jeder neuen Profi-Übersetzung weiter an Ihre Corporate Language an. Immer auf dem aktuellsten Stand, damit Ihr ganzes Unternehmen mit einer Stimme spricht."
+              "description": "Ihre massgeschneiderten Sprachmodelle lernen schnell – und passen sich mit jeder neuen Profi-Übersetzung weiter an Ihre Corporate Language an. Immer auf dem aktuellsten Stand, damit Ihr ganzes Unternehmen mit einer Stimme spricht."
             },
             "row2": {
               "title": "Inhouse-Expertise vom Code bis zur Schnittstelle",
@@ -2626,7 +2631,7 @@
           }
         },
         "tools": {
-          "title": "Passgenau übersetzen – mit unseren Zusatzfunktionen",
+          "title": "Passgenau übersetzen – mit unseren Zusatzfunktionen",
           "section1": {
             "title": "FREI VERFÜGBAR",
             "row1": {

@@ -1043,15 +1043,19 @@
               "nextPeriod": "For additional licenses until the next billing period",
               "termsConfirmation": "I confirm the above-mentioned change to my subscription and accept the",
               "removeLicensesError": {
-                "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
-                "link": "Lizenzen von Teammitgliedern entfernen"
+                "one": "You have assigned a license to {count} users. To reduce your subscription to less than {count} licenses,",
+                "other": "",
+                "text": "You have assigned a license to {count}. To reduce your subscription to less than {count} licenses,",
+                "link": "Remove licenses from team members"
               },
               "termsAndConditions": "General Terms and Conditions.",
               "immediateChange": "This change will take effect immediately.",
               "nextBillingChange": "This change will take effect from the next accounting period.",
               "agreementAg": {
-                "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
-                "link": "AGB"
+                "one": "I confirm the above change to my subscription and accept the",
+                "other": "",
+                "text": "I confirm the above-mentioned subscription change and accept the",
+                "link": "GTC"
               },
               "makePayment": "Binding order",
               "zeroPayableNowOnTrialPeriod": "Additional licenses are free of charge during the trial period and will be charged at the end of the next billing period."
@@ -1654,6 +1658,7 @@
       },
       "humanVerification": {
         "title": "Human-verified AI",
+        "titleWhitPrice": "Human-verified AI {0} {1}",
         "titleWithPrice": "Human-verified AI {0} {1}"
       }
     },

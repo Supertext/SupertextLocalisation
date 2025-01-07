@@ -711,6 +711,7 @@
     },
     "dashboard": {
       "title": "Dashboard",
+      "salutation": ["Guten Tag.", "Hello.", "Bonjour.","Salve."],
       "nextSteps": "NÄCHSTE SCHRITTE",
       "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
       "addSettings": "Angaben ergänzen",
@@ -1067,7 +1068,7 @@
         "licenseTag": "Nutzer lizenzieren",
         "currency": "Währung",
         "noLicense": "Free",
-        "hasLicense": ""
+        "hasLicense": "Essential"
       },
       "delivery": {
         "title": "Lieferung",

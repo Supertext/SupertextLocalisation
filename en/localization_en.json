@@ -711,6 +711,7 @@
     },
     "dashboard": {
       "title": "Dashboard",
+      "salutation":[ "Hello.", "Guten Tag.", "Bonjour.", "Salve."],
       "nextSteps": "NEXT STEPS",
       "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
       "addSettings": "Add settings",

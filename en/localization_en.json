@@ -711,7 +711,6 @@
     },
     "dashboard": {
       "title": "Dashboard",
-      "salutation":[ "Hello.", "Guten Tag.", "Bonjour.", "Salve."],
       "nextSteps": "NEXT STEPS",
       "nextStepsInformation": "You are up to date, there are currently no further steps to take.",
       "addSettings": "Add settings",
@@ -1043,23 +1042,23 @@
               "todayTotal": "Total amount due today",
               "nextPeriod": "For additional licenses until the next billing period",
               "termsConfirmation": "I confirm the above-mentioned change to my subscription and accept the",
-              "removeLicensesError": {
-                "one": "You have assigned a license to {count} users. To reduce your subscription to less than {count} licenses,",
-                "other": "",
-                "text": "You have assigned a license to {count}. To reduce your subscription to less than {count} licenses,",
-                "link": "Remove licenses from team members"
-              },
               "termsAndConditions": "General Terms and Conditions.",
               "immediateChange": "This change will take effect immediately.",
               "nextBillingChange": "This change will take effect from the next accounting period.",
-              "agreementAg": {
-                "one": "I confirm the above change to my subscription and accept the",
-                "other": "",
-                "text": "I confirm the above-mentioned subscription change and accept the",
-                "link": "GTC"
-              },
               "makePayment": "Binding order",
-              "zeroPayableNowOnTrialPeriod": "Additional licenses are free of charge during the trial period and will be charged at the end of the next billing period."
+              "zeroPayableNowOnTrialPeriod": "Additional licenses are free of charge during the trial period and will be charged at the end of the next billing period.",
+              "removeLicensesError": {
+                "text": "You have assigned a license to {count}. To reduce your subscription to less than {count} licenses,",
+                "link": "Remove licenses from team members",
+                "one": "You have assigned a license to {count}. To reduce your subscription to less than {count} licenses,",
+                "other": ""
+              },
+              "agreementAg": {
+                "text": "I confirm the above-mentioned subscription change and accept the",
+                "link": "GTC",
+                "one": "I confirm the above-mentioned subscription change and accept the",
+                "other": ""
+              }
             },
             "afterTrialPeriod": "(after test phase)",
             "expiresOn": "Expires on"
@@ -1101,7 +1100,13 @@
         "addSettings": "Add details",
         "creditCardDetailsSettings": "Enter your credit card details for easy processing",
         "styleGuidSettings": "Store style guides and documents on tonality and terminology"
-      }
+      },
+      "salutation": [
+        "Grüezi.",
+        "Hello.",
+        "Bonjour.",
+        "Salute."
+      ]
     },
     "footer": {
       "contact": "Contact us",

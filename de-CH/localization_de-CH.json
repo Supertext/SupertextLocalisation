@@ -711,7 +711,6 @@
     },
     "dashboard": {
       "title": "Dashboard",
-      "salutation": ["Grüezi.", "Hello.", "Bonjour.","Salve."],
       "nextSteps": "NÄCHSTE SCHRITTE",
       "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt aktuell keine weiteren Schritte zu erledigen.",
       "addSettings": "Angaben ergänzen",
@@ -1043,23 +1042,23 @@
               "todayTotal": "Heute fälliger Gesamtbetrag",
               "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
-              "removeLicensesError": {
-                "one": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
-                "other": "",
-                "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
-                "link": "Lizenzen von Teammitgliedern entfernen"
-              },
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung wird sofort wirksam.",
               "nextBillingChange": "Diese Änderung wird ab der nächsten Abrechnungsperiode wirksam.",
-              "agreementAg": {
-                "one": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
-                "other": "",
-                "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
-                "link": "AGB"
-              },
               "makePayment": "Verbindlich bestellen",
-              "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet."
+              "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
+              "removeLicensesError": {
+                "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
+                "link": "Lizenzen von Teammitgliedern entfernen",
+                "one": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
+                "other": ""
+              },
+              "agreementAg": {
+                "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
+                "link": "AGB",
+                "one": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
+                "other": ""
+              }
             },
             "afterTrialPeriod": "(nach Testphase)",
             "expiresOn": "Läuft ab am"
@@ -1101,7 +1100,13 @@
         "addSettings": "Angaben ergänzen",
         "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
         "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie"
-      }
+      },
+      "salutation": [
+        "Grüezi.",
+        "Hello.",
+        "Bonjour.",
+        "Salve."
+      ]
     },
     "footer": {
       "contact": "Kontakt",
@@ -1889,7 +1894,7 @@
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Ihre persönliche KI, die in Echtzeit lernt",
-                "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder professionell verifizierten Übersetzung weiter an Ihren Stil, Ihre Wortwahl und Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
+                "description": "Das beste Sprachmodell ist ihr eigenes. Darum entwickeln wir kundenspezfiische LLMs, genau auf Ihre Stilvorgaben und Content-Formate zugeschnitten. Für eine reibungslose Kommunikation im ganzen Unternehmen – unverwechselbar in jeder Sprache.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
@@ -1931,13 +1936,13 @@
             "cards": [
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Eine Lösung für alles. Flexibel und effizient.",
-                "description": "Von vollautomatisch bis handgemacht: Bei Supertext beziehen Sie alle Übersetzungen im Unternehmen an einem Ort. Damit steigern Sie die Sprachqualität spürbar, senken Ihre Kosten laufend und sind erst noch effizienter in der Administration."
+                "title": "Eine zentrale Lösung für alle(s)",
+                "description": "Von vollautomatisch bis handgemacht: Mit Supertext beziehen Unternehmen alle Übersetzungen an einem Ort. Damit verbessern Sie die Sicherheit, steigern die Qualität nachhaltig und senken Ihre Kosten laufend."
               },
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "SICHERHEIT, grossgeschrieben",
-                "description": "Von Private Cloud oder On-Premises-Hosting bis zum Single Sign-on (SSO): In unserer Business-Lösung gestalten Sie die Security-Massnahmen flexibel mit. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
+                "title": "Datensicherheit genau nach Ihren Vorgaben",
+                "description": "Von Private Cloud oder On-Premises-Hosting bis Single Sign-on (SSO): In unserer Business-Lösung gestalten Sie die Security-Massnahmen flexibel mit. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erteilen",
@@ -1946,8 +1951,8 @@
               },
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Unverkennbar Sie – in jeder Sprache",
-                "description": "Ihre massgeschneiderten Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung an Ihre Corporate Language an. Immer auf dem aktuellsten Stand, damit Ihr ganzes Unternehmen mit einer Stimme spricht.\n\nProfitieren Sie von massgeschneiderten Sprachmodellen, perfekt auf Ihre Bedürfnisse, Stilvorgaben und Content-Formate zugeschnitten. Das Resultat: eine reibungslose Kommunikation für Ihr ganzes Unternehmen. Unverwechselbar in jeder Sprache."
+                "title": "Custom LLMs für noch bessere Sprachqualität",
+                "description": "Das beste Sprachmodell ist ihr eigenes. Darum entwickeln wir kundenspezfiische LLMs, genau auf Ihre Stilvorgaben und Content-Formate zugeschnitten. Für eine reibungslose Kommunikation im ganzen Unternehmen – unverwechselbar in jeder Sprache."
               }
             ]
           }

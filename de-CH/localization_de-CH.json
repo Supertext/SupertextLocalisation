@@ -705,9 +705,9 @@
     "search": {
       "placeholder": "Suchen …",
       "userOrders": "Ihre Aufträge",
-      "allOrders": "Alle Aufträge",
+      "allOrders": "Alle Aufträge Ihres Teams",
       "userInvoices": "Ihre Rechnungen",
-      "allInvoices": "Alle Rechnungen"
+      "allInvoices": "Alle Rechnungen Ihres Teams"
     },
     "dashboard": {
       "title": "Dashboard",
@@ -865,8 +865,8 @@
         "roleValidation": "Rolle muss mindestens 2 Zeichen lang sein",
         "license": "Lizenz",
         "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
-        "comment": "Kommentar",
-        "commentValidation": "Kommentar muss mindestens 2 Zeichen lang sein",
+        "comment": "Bezeichnung (optional)",
+        "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
         "company": "Unternehmen/Organisation",
         "name": "Name",
         "changeName": "Name ändern",
@@ -1089,7 +1089,7 @@
         "messagePlaceholder": "z. B. ein guter, frischer Stil, wir sind sehr zufrieden, im letzten Abschnitt fehlen zwei Argumente, wir werden das selbst einfügen.",
         "ratingOptions": {
           "super": "Super",
-          "good": "Gut",
+          "good": "Okay",
           "insufficient": "Ungenügend"
         }
       },
@@ -1951,8 +1951,8 @@
               },
               {
                 "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Custom LLMs für noch bessere Sprachqualität",
-                "description": "Das beste Sprachmodell ist ihr eigenes. Darum entwickeln wir kundenspezifische LLMs, genau auf Ihre Stilvorgaben und Content-Formate zugeschnitten. Für eine reibungslose Kommunikation im ganzen Unternehmen – unverwechselbar in jeder Sprache."
+                "title": "Eine zentrale Lösung für alle(s)",
+                "description": "Von vollautomatisch bis handgemacht: Mit Supertext beziehen Unternehmen alle Übersetzungen an einem Ort. Damit verbessern Sie die Sicherheit, steigern die Qualität nachhaltig und senken Ihre Kosten laufend."
               }
             ]
           }

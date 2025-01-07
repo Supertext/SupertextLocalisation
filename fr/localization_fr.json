@@ -711,7 +711,6 @@
     },
     "dashboard": {
       "title": "Tableau de bord",
-      "salutation": ["Bonjour.", "Hello.", "Guten Tag.", "Salve."],
       "nextSteps": "PROCHAINES ÉTAPES",
       "nextStepsInformation": "Vous êtes à jour, il n'y a pas d'autres démarches à effectuer pour le moment.",
       "addSettings": "Compléter les réglages",
@@ -1043,23 +1042,23 @@
               "todayTotal": "Montant total dû aujourd'hui",
               "nextPeriod": "Pour les licences supplémentaires jusqu'à la prochaine période de facturation",
               "termsConfirmation": "Je confirme la modification de mon abonnement mentionnée ci-dessus et j'accepte les",
-              "removeLicensesError": {
-                "one": "Vous avez attribué une licence à {count} utilisateurs:in. Pour réduire votre abonnement à moins de {count} licences,",
-                "other": "",
-                "text": "Vous avez attribué une licence à {count} personnes. Pour réduire votre abonnement à moins de {count} licences,",
-                "link": "Supprimer les licences des membres de l'équipe"
-              },
               "termsAndConditions": "Conditions générales de vente.",
               "immediateChange": "Cette modification prend effet immédiatement.",
               "nextBillingChange": "Cette modification prendra effet à partir de la prochaine période de paie.",
-              "agreementAg": {
-                "one": "Je confirme la modification susmentionnée de mon abonnement et j'accepte les",
-                "other": "",
-                "text": "Je confirme la modification d'abonnement susmentionnée et j'accepte les",
-                "link": "CONDITIONS GÉNÉRALES DE VENTE"
-              },
               "makePayment": "Commander obligatoirement",
-              "zeroPayableNowOnTrialPeriod": "Les licences supplémentaires sont gratuites pendant la période d'essai et seront facturées à la fin de celle-ci, lors de la période de facturation suivante."
+              "zeroPayableNowOnTrialPeriod": "Les licences supplémentaires sont gratuites pendant la période d'essai et seront facturées à la fin de celle-ci, lors de la période de facturation suivante.",
+              "removeLicensesError": {
+                "text": "Vous avez attribué une licence à {count} personnes. Pour réduire votre abonnement à moins de {count} licences,",
+                "link": "Supprimer les licences des membres de l'équipe",
+                "one": "Vous avez attribué une licence à {count} personnes. Pour réduire votre abonnement à moins de {count} licences,",
+                "other": ""
+              },
+              "agreementAg": {
+                "text": "Je confirme la modification d'abonnement susmentionnée et j'accepte les",
+                "link": "CONDITIONS GÉNÉRALES DE VENTE",
+                "one": "Je confirme la modification d'abonnement susmentionnée et j'accepte les",
+                "other": ""
+              }
             },
             "afterTrialPeriod": "(après la phase de test)",
             "expiresOn": "Expire le"
@@ -1101,7 +1100,13 @@
         "addSettings": "Ajouter des détails",
         "creditCardDetailsSettings": "Entrez les détails de votre carte de crédit pour un traitement facile",
         "styleGuidSettings": "Enregistrez les guides de style et les documents sur le ton et la terminologie"
-      }
+      },
+      "salutation": [
+        "Salutations.",
+        "Hello",
+        "Bonjour.",
+        "Salve."
+      ]
     },
     "footer": {
       "contact": "Contact",

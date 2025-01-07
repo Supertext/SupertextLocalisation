@@ -711,7 +711,6 @@
     },
     "dashboard": {
       "title": "Dashboard",
-      "salutation": ["Salve.", "Hello.","Guten Tag.", "Bonjour."],
       "nextSteps": "PASSI SUCCESSIVI",
       "nextStepsInformation": "Siete aggiornati, al momento non ci sono ulteriori passi da compiere.",
       "addSettings": "Aggiungi impostazioni",
@@ -1043,23 +1042,23 @@
               "todayTotal": "Importo totale dovuto oggi",
               "nextPeriod": "Per le licenze aggiuntive fino al periodo di fatturazione successivo",
               "termsConfirmation": "Confermo la suddetta modifica del mio abbonamento e accetto la",
-              "removeLicensesError": {
-                "one": "{count} Avete assegnato una licenza agli utenti. {count} Per ridurre l'abbonamento a meno di licenze,",
-                "other": "",
-                "text": "{count} Avete assegnato una licenza a . {count} Per ridurre l'abbonamento a meno di licenze,",
-                "link": "Rimuovere le licenze dai membri del team"
-              },
               "termsAndConditions": "Termini e condizioni generali.",
               "immediateChange": "Questa modifica avrà effetto immediato.",
               "nextBillingChange": "Questa modifica avrà effetto a partire dal prossimo periodo contabile.",
-              "agreementAg": {
-                "one": "Confermo la modifica del mio abbonamento e accetto i termini e le condizioni",
-                "other": "",
-                "text": "Confermo la suddetta modifica dell'abbonamento e accetto la",
-                "link": "GTC"
-              },
               "makePayment": "Ordine vincolante",
-              "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e saranno addebitate alla fine del periodo di fatturazione successivo."
+              "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e saranno addebitate alla fine del periodo di fatturazione successivo.",
+              "removeLicensesError": {
+                "text": "{count} Avete assegnato una licenza a . {count} Per ridurre l'abbonamento a meno di licenze,",
+                "link": "Rimuovere le licenze dai membri del team",
+                "one": "{count} Avete assegnato una licenza a . {count} Per ridurre l'abbonamento a meno di licenze,",
+                "other": ""
+              },
+              "agreementAg": {
+                "text": "Confermo la suddetta modifica dell'abbonamento e accetto la",
+                "link": "GTC",
+                "one": "Confermo la suddetta modifica dell'abbonamento e accetto la",
+                "other": ""
+              }
             },
             "afterTrialPeriod": "(dopo la fase di test)",
             "expiresOn": "Scade il"
@@ -1101,7 +1100,13 @@
         "addSettings": "Aggiungi dettagli",
         "creditCardDetailsSettings": "Inserisci i dettagli della tua carta di credito per una facile elaborazione",
         "styleGuidSettings": "Archivia guide di stile e documenti su tonalità e terminologia"
-      }
+      },
+      "salutation": [
+        "Grüezi.",
+        "Salve.",
+        "Bonjour.",
+        "Saluto."
+      ]
     },
     "footer": {
       "contact": "Contattateci",

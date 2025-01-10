@@ -1676,20 +1676,6 @@
       }
     },
     "pages": {
-      "cases": {
-        "back": "Zurück zur Übersicht",
-        "keyFigures": "KEY FIGURES",
-        "downloadCaseStudy": "Case Study Herunterladen",
-        "furtherCaseStudies": "Weitere Case Studies",
-        "footerNote": {
-          "title": "Sie wollen <highlightText> Ressourcen schonen und AI Translation maximal produktiv</highlightText> im Unternehmen einsetzen? Lassen Sie uns reden.",
-          "cta": {
-            "title": "Kontaktieren Sie uns",
-            "link": "/contact"
-          }
-        }
-
-      },
       "whySupertext": {
         "hero": {
           "title": "Nous repensons la traduction",
@@ -2750,6 +2736,19 @@
           "cta": {
             "title": "En savoir plus sur notre expertise linguistique",
             "link": "/language-expertise"
+          }
+        }
+      },
+      "cases": {
+        "back": "Retour à l'aperçu",
+        "keyFigures": "KEY FIGURES",
+        "downloadCaseStudy": "Télécharger l'étude de cas",
+        "furtherCaseStudies": "Plus d'études de cas",
+        "footerNote": {
+          "title": "Vous voulez <highlightText> Préserver les ressources et maximiser la productivité de la traduction AI</highlightText> l'utiliser dans votre entreprise ? Parlons-en.",
+          "cta": {
+            "title": "Contactez-nous",
+            "link": "/contact"
           }
         }
       }

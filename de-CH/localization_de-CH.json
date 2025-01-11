@@ -1671,7 +1671,7 @@
     "components": {
       "faq": {
         "title": "FAQ",
-        "help": "Ihre Frage war nicht dabei? Die ganze Sammlung gibt es auf unserer <link>FAQ-Seite</link>. Oder direkt im <link>Gespräch</link> mit uns.",
+        "help": "@DEVS: Remove this item",
         "cta": "Zu allen FAQ"
       }
     },
@@ -1819,7 +1819,7 @@
           "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo.</highlight>",
           "cta": {
             "title": "Jetzt entdecken",
-            "link": "/cases",
+            "link": "/referenzen",
             "target": "_blank"
           }
         }
@@ -2002,7 +2002,7 @@
         },
         "lead": {
           "large": "<highlight>Vollautomatisch</highlight> oder <highlight>handgemacht?</highlight> Die Antwort liegt oft dazwischen.",
-          "small": "Mit AI Translation übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break> <break></break> Der grosse Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
+          "small": "Mit KI übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break> <break></break> Der grosse Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
         },
         "featureList": {
           "title": "Fused Translation mit Supertext: Ihre Vorteile",

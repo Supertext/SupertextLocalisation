@@ -782,6 +782,7 @@
         "cancelSubscription": "Cancelled",
         "expiresOn": "Expires on",
         "moreInfo": "More info",
+        "firstMonthFree": "Erster Monat kostenlos",
         "hero": {
           "title": "Find the right Supertext subscription for you",
           "subtitle": "Translate faster, better and more reliably: Supertext offers the right AI translation package for every need - from a simple online translator to a fully integrated custom solution."
@@ -1676,6 +1677,24 @@
       }
     },
     "pages": {
+      "404":{
+        "pageNotFound": "Seite nicht gefunden",
+        "pageNotFoundDescription": "Die von Ihnen gesuchte Seite konnte leider nicht gefunden werden.",
+        "goHome": "Zur Startseite"
+      },
+      "subscriptions": {
+        "upgradeModal": {
+          "totalAmountPerYear": "Gesamtbetrag pro Jahr",
+          "totalAmountPerMonth": "Gesamtbetrag pro Monat",
+          "firstMonthFree": "Erster Monat kostenlos",
+          "totalAmountDueToday": "Heute fälliger Gesamtbetrag",
+          "totalAmountIncludingTax": "Gesamtbetrag inkl. MwSt.",
+          "totalAmountDueTodayDescription": "Dieser Betrag wird Ihnen beim Kauf sofort in Rechnung gestellt.",
+          "trialPeriodBadge": "🎉 Erster Monat kostenlos",
+          "trialPeriodDescription": "Sie erhalten ein kostenloses 1-monatiges Probeabonnement, danach werden Ihnen die Kosten entsprechend Ihrer Abonnementart und Ihrem Angebot in Rechnung gestellt. Ihr erster Zahlungsabzug erfolgt am {date}.",
+          "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abonnements."
+        }
+      },
       "whySupertext": {
         "hero": {
           "title": "We are rethinking translation",

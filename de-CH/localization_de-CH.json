@@ -1295,10 +1295,10 @@
       "free": {
         "title": "Free",
         "description": "Für alle",
-        "price_monthly": "Kostenlos",
-        "price_yearly": "Kostenlos",
+        "price_monthly": "Free",
+        "price_yearly": "Free",
         "features": {
-          "title": "In Starter enthalten:",
+          "title": "In Free enthalten:",
           "items": {
             "0": {
               "title": "5 Sprachen"
@@ -1380,7 +1380,7 @@
               "title": "Add-ins für Microsoft Office"
             },
             "5": {
-              "title": "Längenbeschränkung"
+              "title": "Längenbeschränkung möglich"
             },
             "6": {
               "title": "Single Sign-on (SSO)"
@@ -1491,7 +1491,7 @@
             },
             "immediateTextDeletion": {
               "name": "Sofortige Textlöschung",
-              "description": "Alle Texte werden sofort nach der Übersetzung gelöscht und können nie von Dritten gelesen werden."
+              "description": "Alle Texte werden sofort nach der Übersetzung gelöscht."
             },
             "singleSignOn": {
               "name": "Single Sign-on (SSO)",

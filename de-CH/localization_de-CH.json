@@ -1572,6 +1572,7 @@
           "features": {
             "formalInformalTone": {
               "name": "Formelle/informelle Anrede"
+              "description": "Passen Sie den Ton der Übersetzungen an Ihre Bedürfnisse an."
             },
             "fusedTranslation": {
               "name": "Fused Translation",
@@ -1580,7 +1581,8 @@
               "essential": "Bald verfügbar",
               "advanced": "Bald verfügbar",
               "pro": "Bald verfügbar",
-              "enterprise": "Bald verfügbar"
+              "enterprise": "Bald verfügbar",
+              "badge": "In Kürze"
             },
             "translationImport": {
               "name": "Übersetzungsimport",
@@ -1610,12 +1612,14 @@
             "api": {
               "name": "API",
               "description": "Integrieren Sie KI-Übersetzungen in Ihre eigenen Anwendungen und Arbeitsabläufe.",
+              "advanced": "Optionales Add-on",
               "pro": "Optionales Add-on",
               "enterprise": "Optionales Add-on"
             },
             "catToolIntegration": {
              "name": "CAT-Tools",
               "description": "Verwenden Sie Supertext in Trados Studio, MemoQ und vielen weiteren CAT-Tools, um die Produktivität Ihrer Profi-Übersetzer:innen zu steigern.",
+              "advanced": "Optionales Add-on",
               "pro": "Optionales Add-on",
               "enterprise": "Optionales Add-on"
             }

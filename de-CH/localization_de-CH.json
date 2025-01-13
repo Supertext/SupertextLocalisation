@@ -814,8 +814,8 @@
           "offer": {
             "fields": {
               "specialRequest": {
-                "label": "Besondere Anfrage",
-                "placeholder": "Ihre Nachricht an Supertext"
+                "label": "Nachricht (optional)",
+                "placeholder": "Ihre Nachricht"
               },
               "email": {
                 "label": "* E-Mail",
@@ -824,17 +824,17 @@
               },
               "name": {
                 "label": "* Name",
-                "placeholder": "Ihr Vorname und Name",
+                "placeholder": "Ihr Name",
                 "error": "Bitte geben Sie Ihren Namen ein"
               },
               "company": {
                 "label": "* Unternehmen/Organisation",
-                "placeholder": "Name Ihres Unternehmens / Ihrer Organisation",
-                "error": "Bitte geben Sie den Namen Ihres Unternehmens / Ihrer Organisation an"
+                "placeholder": "Ihr Unternehmen / Ihre Organisation",
+                "error": "Bitte geben Sie Ihr Unternehmen / Ihre Organisation an"
               },
               "userCount": {
-                "label": "* Anzahl User:innen",
-                "placeholder": "Anzahl der potenziellen User:innen",
+                "label": "* Anzahl User:innen (Schätzung)",
+                "placeholder": "Ihre Anzahl User:innen (Schätzung)",
                 "error": "Bitte geben Sie die Anzahl der User:innen an"
               },
               "phoneNumber": {
@@ -842,7 +842,7 @@
                 "placeholder": "Ihre Telefonnummer"
               },
               "accepted": {
-                "label": "Ja, meine eingegebenen Daten dürfen an Supertext weitergegeben werden, damit ein:e Vertreter:in des Unternehmens Kontakt mit mir aufnehmen kann.",
+                "label": "Ja, meine Daten dürfen zur Kontaktaufnahme an Supertext weitergegeben werden.",
                 "error": "Bitte akzeptieren Sie die Weitergabe Ihrer Daten."
               }
             },
@@ -1313,11 +1313,11 @@
               "title": "5 MB maximale Dateigrösse"
             },
             "4": {
-              "title": "Profi-Verifizierung auf Knopfdruck (kostenpflichtig)"
+              "title": "Profi-Check auf Knopfdruck (kostenpflichtig)"
             },
             "5": {
               "title": "Fused Translation",
-              "badge": "In Kürze"
+              "badge": "Bald verfügbar"
             }
           }
         }
@@ -1330,7 +1330,7 @@
         "period_monthly": "/ Monat",
         "period_yearly": "/ Monat",
         "features": {
-          "title": "Alles aus «Starter», plus:",
+          "title": "Alles aus «Free», plus:",
           "items": {
             "0": {
               "title": "Maximale Datensicherheit"
@@ -1409,7 +1409,7 @@
               "title": "Übersetzungsimport"
             },
             "3": {
-              "title": "E-Mail- und Telefon-Support innerhalb von"
+              "title": "E-Mail- und Telefon-Support innert 60 min"
             },
             "4": {
               "title": "Persönliche:r Account-Manager:in"
@@ -1465,22 +1465,20 @@
             "languages": {
               "name": "Sprachen",
               "description": "",
-              "all": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutscher Dialekt",
-              "free": "Englisch, Französisch, Deutsch, Italienisch, Rätoromanisch, Schweizerdeutscher Dialekt",
-              "essential": "Englisch, Französisch, Deutsch, Italienisch, Rätoromanisch, Schweizerdeutscher Dialekt",
-              "advanced": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutscher Dialekt",
-              "pro": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutscher Dialekt",
-              "enterprise": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutscher Dialekt"
+              "free": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
+              "essential": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
+              "advanced": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
+              "pro": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
+              "enterprise": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch"
             },
             "languageVariants": {
               "name": "Sprachvarianten",
               "description": "",
-              "all": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutscher Dialekt (BE, ZH)",
-              "free": "Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutscher Dialekt (BE, ZH)",
-              "essential": "Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutscher Dialekt (BE, ZH)",
-              "advanced": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutscher Dialekt (BE, ZH)",
-              "pro": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutscher Dialekt (BE, ZH)",
-              "enterprise": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutscher Dialekt (BE, ZH)"
+              "free": "Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)",
+              "essential": "Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)",
+              "advanced": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
+              "pro": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
+              "enterprise": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)"
             }
           }
         },
@@ -1496,14 +1494,15 @@
               "description": "Alle Texte werden sofort nach der Übersetzung gelöscht und können nie von Dritten gelesen werden."
             },
             "singleSignOn": {
-              "name": "Einmalige Anmeldung (SSO)",
-              "description": "Melden Sie sich mit den Anmeldedaten Ihres Unternehmens an. Verfügbar für Teams mit mehr als 100 Lizenzen in ausgewählten Tarifen.",
+              "name": "Single Sign-on (SSO)",
+              "description": "Melden Sie sich mit den bestehenden Zugangsdaten Ihres Unternehmens an.",
               "advanced": "Ab 10 Lizenzen",
               "pro": "Ab 10 Lizenzen"
             },
             "teamAdministration": {
               "name": "Teamverwaltung",
-              "description": "Verwalten Sie die Nutzer:innen in Ihrer Organisation. Fügen Sie Mitglieder hinzu, zeigen Sie die Nutzung an und kontrollieren Sie die Kosten mit zentraler Rechnungsstellung."
+              "description": "Verwalten Sie die User:innen in Ihrer Organisation. Fügen Sie Mitglieder zu, zeigen Sie die Nutzung an und kontrollieren Sie die Kosten mit zentraler Rechnungsstellung.",
+              "free": "Mit kostenloser Registrierung"
             },
             "privateHosting": {
               "name": "Private Cloud oder On-Premises-Hosting",
@@ -1523,8 +1522,7 @@
             "unlimitedTextTranslation": {
               "name": "Unbegrenzte Textübersetzung",
               "description": "Übersetzen Sie eine unbegrenzte Menge an Text.",
-              "free": "Bis zu 1500 Zeichen",
-              "essential": "Bis zu 3000 Zeichen"
+              "free": "Bis 3000 Zeichen (1500 für unregistrierte User:innen)",
             },
             "lengthControl": {
               "name": "Längenkontrolle",
@@ -1533,14 +1531,13 @@
           }
         },
         "documentTranslation": {
-          "title": "Übersetzung von Dokumenten",
+          "title": "Dateiübersetzung",
           "features": {
             "unlimitedFileTranslation": {
               "name": "Unbegrenzte Dateiübersetzung",
-              "description": "Laden Sie vollständige Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
-              "free": "0 Dateien pro Monat, pro Person",
-              "essential": "5 Dateien pro Monat, pro Person",
-              "advanced": "20 Dateien pro Monat, pro Person"
+              "description": "Laden Sie ganze Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
+              "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
+              "essential": "20 Dateien pro Person und Monat",
             },
             "fileEditingAllowed": {
               "name": "Dateibearbeitung erlaubt",
@@ -1548,18 +1545,24 @@
             },
             "maximumFileSize": {
               "name": "Maximale Dateigrösse",
-              "description": ""
+              "description": "",
+              "free": "5 MB",
+              "essential": "10 MB",
+              "advanced": "20 MB",
+              "pro": "30 MB",
+              "enterprise": "30 MB"
+
             },
             "microsoftOfficeFileTypes": {
               "name": "Microsoft-Office-Dateitypen",
-              "description": "Unterstützte Formate: Word, Excel, PowerPoint."
+              "description": ""
             },
             "pdfFileTypeEdit": {
-              "name": "PDF-Dateityp (bearbeiten)",
-              "description": "PDFs sind nach der Übersetzung bearbeitbar."
+              "name": "PDF-Dateien (bearbeitbar)",
+              "description": ""
             },
             "videoSubtitleFileTypes": {
-              "name": "Video-Untertitel-Dateitypen (.srt)",
+              "name": "SRT-Dateien für Video-Untertitel",
               "description": ""
             }
           }
@@ -1568,18 +1571,16 @@
           "title": "Personalisierung",
           "features": {
             "formalInformalTone": {
-              "name": "Formeller/informeller Ton",
-              "description": "Passen Sie den Ton der Übersetzungen an Ihre Bedürfnisse an."
+              "name": "Formelle/informelle Anrede"
             },
             "fusedTranslation": {
               "name": "Fused Translation",
-              "description": "Ihre KI-Übersetzungen verbessern sich mit jedem Auftrag, den Sie an unsere Sprachexpert:innen vergeben.",
-              "free": "In Kürze",
-              "essential": "In Kürze",
-              "advanced": "In Kürze",
-              "pro": "In Kürze",
-              "enterprise": "In Kürze",
-              "badge": "In Kürze"
+              "description": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren.",
+              "free": "Bald verfügbar (mit kostenloser Registrierung)",
+              "essential": "Bald verfügbar",
+              "advanced": "Bald verfügbar",
+              "pro": "Bald verfügbar",
+              "enterprise": "Bald verfügbar"
             },
             "translationImport": {
               "name": "Übersetzungsimport",
@@ -1587,15 +1588,15 @@
             },
             "glossaries": {
               "name": "Glossare",
-              "description": "Definieren Sie, wie bestimmte Wörter übersetzt werden."
+              "description": "Definieren Sie zentral, wie bestimmte Wörter übersetzt werden."
             },
             "styleGuides": {
-              "name": "Stilrichtlinien",
-              "description": "Kontrollieren Sie Aspekte wie Interpunktion, Zahlenformatierung und mehr in der Übersetzungsausgabe."
+              "name": "Styleguides",
+              "description": "Kontrollieren Sie Zeichensetzung, Zahlenformate und mehr."
             },
             "branding": {
               "name": "Branding",
-              "description": "Entwerfen Sie Ihr eigenes KI-Übersetzungssystem im Look and Feel Ihres Corporate Brandings."
+              "description": "Gestalten Sie Ihr eigenes AI-Translation-System im Look and Feel Ihres Unternehmens."
             }
           }
         },
@@ -1603,45 +1604,44 @@
           "title": "Integrationen",
           "features": {
             "microsoftOfficeAddIns": {
-              "name": "Microsoft Office-Zusatzmodule",
-              "description": "Direkte Verwendung in Microsoft Word, PowerPoint und Outlook."
+              "name": "Microsoft Office Add-Ins",
+              "description": "Nutzen Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook."
             },
             "api": {
               "name": "API",
               "description": "Integrieren Sie KI-Übersetzungen in Ihre eigenen Anwendungen und Arbeitsabläufe.",
-              "advanced": "Optional",
-              "pro": "Optional"
+              "pro": "Optionales Add-on",
+              "enterprise": "Optionales Add-on"
             },
             "catToolIntegration": {
-              "name": "Integration von CAT-Tools",
-              "description": "Steigern Sie die professionelle Übersetzungsproduktivität durch die Verwendung von Trados Studio, MemoQ und vielen weiteren CAT-Tools.",
-              "advanced": "Optional",
-              "pro": "Optional"
+             "name": "CAT-Tools",
+              "description": "Verwenden Sie Supertext in Trados Studio, MemoQ und vielen weiteren CAT-Tools, um die Produktivität Ihrer Profi-Übersetzer:innen zu steigern.",
+              "pro": "Optionales Add-on",
+              "enterprise": "Optionales Add-on"
             }
           }
         },
         "support": {
-          "title": "Unterstützung",
+          "title": "Support",
           "features": {
             "supportViaEmail": {
-              "name": "Unterstützung per E-Mail",
+              "name": "E-Mail-Support",
               "description": ""
             },
             "supportViaPhone": {
-              "name": "Telefonische Unterstützung",
+              "name": "Telefon-Support",
               "description": ""
             },
             "firstResponseTimeGuarantee": {
-              "name": "Garantierte Reaktionszeit",
-              "description": "Während der Bürozeiten (9 bis 18 Uhr MEZ) von Montag bis Freitag",
-              "free": "Free",
-              "essential": "",
+              "name": "Garantierte Erstreaktionszeit",
+              "description": "Während der Bürozeiten (9–18 Uhr MEZ) von Montag bis Freitag",
+              "essential": "24 Stunden",
               "advanced": "24 Stunden",
               "pro": "60 Minuten",
               "enterprise": "60 Minuten"
             },
             "dedicatedAccountManager": {
-              "name": "Dedizierte:r Kundenbetreuer:in",
+              "name": "Persönliche:r Account-Manager:in",
               "description": ""
             },
             "uptimeGuarantee": {

@@ -729,6 +729,7 @@
           "sourceLanguage": "Ausgangssprache",
           "targetLanguage": "Zielsprache",
           "sourceFile": "Ausgangstext",
+          "targetFile": "Target text",
           "offerType": "Service",
           "orderDeadline": "Lieferdatum",
           "orderName": "Auftragstitel",
@@ -740,7 +741,8 @@
           "invoiceDate": "Bestellzeit",
           "invoiceAddress": "Rechnungsadresse",
           "contactPersonTitle": "PROJEKTLEITUNG",
-          "additionalInformation": "Zusätzliche Informationen"
+          "additionalInformation": "Zusätzliche Informationen",
+          "orderNumber": "Auftragsnummer"
         },
         "back": "Zurück"
       },

@@ -577,7 +577,7 @@
         "requestBillingPermission": "Beim Anfordern der Rechnungsberechtigung ist ein Fehler aufgetreten.",
         "deleteCreditCard": "Beim Löschen der Kartendetails ist ein Fehler aufgetreten.",
         "couldNotFetchCountryBillingList": "Es konnten keine Länderabrechnungslisten abgerufen werden: {error}",
-        "couldNotFetchCardDetails": "Beim Versuch, Ihre Kartendetails zu holen, ist etwas passiert",
+        "couldNotFetchCardDetails": "Beim Abrufen Ihrer Kreditkartendaten ist ein Fehler aufgetreten",
         "couldNotFetchBillingAddress": "Konnte die Rechnungsadressen nicht abrufen",
         "couldNotFetchInvoiceLink": "Konnte den Rechnungslink nicht abrufen: {error}",
         "couldNotFetchTypeLabel": "Konnte die Typbezeichnung nicht abrufen: {error}"
@@ -735,7 +735,7 @@
           "industry": "Fachgebiet",
           "targetAudience": "Zielpublikum",
           "orderFiles": "Quellen",
-          "price": "Preis",
+          "price": "Preis (exkl. MWST)",
           "scope": "Umfang",
           "invoiceDate": "Bestellzeit",
           "invoiceAddress": "Rechnungsadresse",
@@ -743,7 +743,7 @@
           "additionalInformation": "Mehr Informationen",
           "targetFile": "Target text",
           "orderNumber": "Auftragsnummer",
-          "notFixed": "Price not fixed yet"
+          "notFixed": "Preis noch nicht fixiert"
         },
         "back": "Zurück"
       },
@@ -2779,7 +2779,7 @@
           "totalAmountDueTodayDescription": "Dieser Betrag wird Ihnen beim Kauf sofort in Rechnung gestellt.",
           "trialPeriodBadge": "🎉 Erster Monat kostenlos",
           "trialPeriodDescription": "Sie erhalten ein kostenloses 1-monatiges Probeabonnement, danach werden Ihnen die Kosten entsprechend Ihrer Abonnementart und Ihrem Angebot in Rechnung gestellt. Ihr erster Zahlungsabzug erfolgt am {date}.",
-          "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abonnements."
+          "termsAndConditions": "Ich akzeptiere die allgemeinen Geschäftsbedingungen für den Kauf dieses Abos."
         }
       }
     }

@@ -1129,17 +1129,19 @@
         "satisfactionQuestion": "Wie zufrieden sind Sie mit dem Ergebnis?",
         "message": "Nachricht",
         "submitFeedback": "Feedback absenden",
-        "revisionQuestion": "Wünschen Sie eine kostenlose Überarbeitung?",
-        "revisionOption": "Bitte gemäss Feedback-Nachricht im Textfeld überarbeiten",
+        "revisionOption": "Ich wünsche eine kostenlose Nachbearbeitung",
         "revisionRequest": "Überarbeitung anfordern",
         "submitFile": "Überarbeitung anfordern",
-        "uploadFiles": "Dokumente hochladen",
+        "uploadFiles": "Dokumente mit Kommentare hochladen",
         "messagePlaceholder": "z. B. ein guter, frischer Stil, wir sind sehr zufrieden, im letzten Abschnitt fehlen zwei Argumente, wir werden das selbst einfügen.",
         "ratingOptions": {
           "super": "Super",
           "good": "Okay",
           "insufficient": "Ungenügend"
-        }
+        },
+        "feedbackSentSuccess": "Feedback erfolgreich gesendet",
+        "requestRevisionSuccess": "Überarbeitung erfolgreich angefordert",
+        "yourFeedback": "Ihr Feedback"
       },
       "overview": {
         "title": "Übersicht",

@@ -246,6 +246,31 @@
     "confirmationText": "Möchten Sie wirklich fortfahren?"
   },
   "fileTranslation": {
+    "uploading": "Datei wird hochgeladen",
+    "detecting": "Sprache wird erkannt",
+    "translating": "Datei wird übersetzt",
+    "downloading": "Datei wird heruntergeladen",
+    "successfulDownload": "Datei wurde heruntergeladen",
+    "translateAgain": "Weitere Datei übersetzen",
+    "downloadAgain": "Datei nochmals herunterladen",
+    "size": "Dateigrösse",
+    "type": "Dateityp",
+    "dropFile": "Datei hierhin ziehen",
+    "dropAnotherFile": "Ziehen Sie eine weitere Datei ({supportedFileExtensions}) in dieses Feld oder",
+    "translateButton": "Auf {toTargetLang} übersetzen",
+    "translateButtonRetry": "Erneut versuchen",
+    "cancelButton": "Abbrechen",
+    "fileUploadButton": "Wählen Sie eine Datei aus",
+    "invalidFileType": "Ungültiger Dateityp",
+    "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien, die grösser als {0} MB sind, werden derzeit nicht unterstützt.",
+    "estimatedTime": "Geschätzte verbleibende Zeit: {0}",
+    "expectationExceeded": "Die Übersetzung dauert länger als erwartet. Bitte warten Sie …",
+    "ocrHelperText": "Mithilfe von OCR lassen sich gescannte oder fotografierte PDFs besser verarbeiten. Für normale PDFs, die nur Text enthalten, ist OCR nicht erforderlich.",
+    "ocr_options": {
+      "ocr_auto": "Auto",
+      "ocr_off": "Aus",
+      "ocr_on": "Ein"
+    },
     "successfullDownload": {
       "title": "Datei erfolgreich heruntergeladen",
       "description": "You can upload another file for translation"
@@ -289,31 +314,6 @@
       "message": "{remaining}/{total} Dateien verfügbar",
       "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
       "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
-    },    
-    "uploading": "Datei wird hochgeladen",
-    "detecting": "Sprache wird erkannt",
-    "translating": "Datei wird übersetzt",
-    "downloading": "Datei wird heruntergeladen",
-    "successfulDownload": "Datei wurde heruntergeladen",
-    "translateAgain": "Weitere Datei übersetzen",
-    "downloadAgain": "Datei nochmals herunterladen",
-    "size": "Dateigrösse",
-    "type": "Dateityp",
-    "dropFile": "Datei hierhin ziehen",
-    "dropAnotherFile": "Ziehen Sie eine weitere Datei ({supportedFileExtensions}) in dieses Feld oder",
-    "translateButton": "Auf {toTargetLang} übersetzen",
-    "translateButtonRetry": "Erneut versuchen",
-    "cancelButton": "Abbrechen",
-    "fileUploadButton": "Wählen Sie eine Datei aus",
-    "invalidFileType": "Ungültiger Dateityp",
-    "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien, die grösser als {0} MB sind, werden derzeit nicht unterstützt.",
-    "estimatedTime": "Geschätzte verbleibende Zeit: {0}",
-    "expectationExceeded": "Die Übersetzung dauert länger als erwartet. Bitte warten Sie …",
-    "ocrHelperText": "Mithilfe von OCR lassen sich gescannte oder fotografierte PDFs besser verarbeiten. Für normale PDFs, die nur Text enthalten, ist OCR nicht erforderlich.",
-    "ocr_options": {
-      "ocr_auto": "Auto",
-      "ocr_off": "Aus",
-      "ocr_on": "Ein"
     }
   },
   "modeSelectorButton": {
@@ -1709,7 +1709,6 @@
     },
     "translations": {
       "info": "Bereit zum Übersetzen? Wählen Sie Ihre bevorzugte Methode.",
-      "immediately": "sofort",
       "fusedTranslation": {
         "title": "Fused Translation",
         "cta": "Warum Fused Translation?",
@@ -1724,8 +1723,10 @@
       },
       "humanVerification": {
         "title": "Human-verified AI",
+        "titleWhitPrice": "Human-verified AI {0} {1}",
         "titleWithPrice": "Human-verified AI {0} {1}"
-      }
+      },
+      "immediately": "sofort"
     },
     "components": {
       "faq": {

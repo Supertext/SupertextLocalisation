@@ -45,7 +45,51 @@
         }
       }
     },
-    "fileTranslation": {
+    "fileTranslation": { 
+      "successfullDownload": {
+        "title": "Datei erfolgreich heruntergeladen",
+        "description": "You can upload another file for translation"
+      },
+      "translationInProgress": "AI Translation in Arbeit",
+      "errors": {
+      "unregistered": {
+        "message": "Sie müssen eingeloggt sein",
+        "popover": "Sie können sich beim Free-Abo anmelden, um mit dem Übersetzen von Dateien zu beginnen."
+      },
+      "noRemainingFiles": {
+        "message": "Keine Dateien mehr verfügbar",
+        "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat"
+      },
+      "unsupportedFileType": {
+        "message": "Dateityp nicht im Abo enthalten",
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, Powerpoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word-, und Powerpoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+      },
+      "limitedFileType": {
+        "message": "Dateityp wird nicht unterstützt",
+        "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
+      },
+      "freeTierLimit": {
+        "message": "AI Translation is only offered for Word and PowerPoint files in our free tier. Subscribe now to translate PDFs, Excel files, and more from CHF 9.00 per month.",
+        "popover": ""
+      },
+      "fileSizeExceeded": {
+        "message": "Dateigrösse überschreitet Ihr Limit",
+        "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
+      },
+      "unsupportedFormat": {
+        "message": "Wir bieten keine Übersetzung für {Erweiterungsdateien} an.",
+        "popover": ""
+      },
+      "remainingFiles": {
+        "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
+        "popover": ""
+      }
+    },
+    "availableFiles": {
+      "message": "{remaining}/{total} Dateien verfügbar",
+      "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
+      "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
+    },
       "backButton": "Text Translator",
       "backButtonShort": "Back",
       "externalUploadButton": "Upload",
@@ -1656,20 +1700,23 @@
       }
     },
     "translations": {
-      "info": "Ready to translate? Choose your preferred method...",
+      "info": "Your options:",
+      "immediately": "now",
       "fusedTranslation": {
         "title": "Fused translation",
-        "cta": "Why merged translation?"
+        "cta": "Why merged translation?",
+        "button": "Place order",
+        "description": "Max quality & reliability"
       },
       "aiTranslation": {
         "title": "AI translation",
-        "description": "Immediate download, {0} files remain this month.",
-        "cta": "Get more"
+        "description": "Immediate download",
+        "cta": "Get more",
+        "button": "Translate now"
       },
       "humanVerification": {
         "title": "Human-verified AI",
-        "titleWhitPrice": "Human-verified AI {0} {1}",
-        "titleWithPrice": "Human-verified AI {0} {1}"
+        "titleWithPrice": "from {0} {1}"
       }
     },
     "components": {

@@ -1534,6 +1534,11 @@
         "security": {
           "title": "Sicurezza",
           "features": {
+              "gdpr": {
+              "name": "Volle Einhaltung von GDPR (EU) und DSG (Schweiz)",
+              "description": "",
+              "free": "Keine Texte mit Personendaten erlaubt"
+            },
             "encryptedTransfer": {
               "name": "Trasferimento criptato",
               "description": "Le vostre informazioni vengono trasferite in modo sicuro. Non possono essere lette da terzi."

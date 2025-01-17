@@ -1396,10 +1396,12 @@
               "title": "5 Sprachen"
             },
             "1": {
-              "title": "Bis 3000 Zeichen"
+              "title": "Bis 3000 Zeichen",
+              "tooltip": "1500 für unregistrierte Nutzer:innen"
             },
             "2": {
-              "title": "5 Dateien pro Monat (bearbeitbar)"
+              "title": "5 Dateien pro Monat (bearbeitbar)",
+              "tooltip": "für registrierte Nutzer:innen"
             },
             "3": {
               "title": "5 MB maximale Dateigrösse"
@@ -1409,6 +1411,7 @@
             },
             "5": {
               "title": "Fused Translation",
+              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen",
               "badge": "Bald verfügbar"
             }
           }
@@ -1428,10 +1431,12 @@
               "title": "Maximale Datensicherheit"
             },
             "1": {
-              "title": "Unbegrenzte Textübersetzung"
+              "title": "Unbegrenzte Textübersetzung",
+              "tooltip": "Ende-zu-Ende-Verschlüsselung und sofortige Textlöschung"
             },
             "2": {
-              "title": "20 Dateien pro Monat (bearbeitbar)"
+              "title": "20 Dateien pro Monat (bearbeitbar)",
+              "tooltip": "Es gilt eine Fair-Use-Richtlinie"
             },
             "3": {
               "title": "10 MB maximale Dateigrösse"
@@ -1475,7 +1480,8 @@
               "title": "Längenbeschränkung möglich"
             },
             "6": {
-              "title": "Single Sign-on (SSO)"
+              "title": "Single Sign-on (SSO)",
+              "tooltip": "ab 10 Nutzer:innen"
             }
           }
         }
@@ -1579,6 +1585,11 @@
         "security": {
           "title": "Sicherheit",
           "features": {
+            "gdpr": {
+              "name": "Volle Einhaltung von GDPR (EU) und DSG (Schweiz)",
+              "description": "",
+              "free": "Keine Texte mit Personendaten erlaubt"
+            },
             "encryptedTransfer": {
               "name": "Verschlüsselte Übertragung",
               "description": "Ihre Daten werden sicher übertragen. Sie können niemals von Dritten gelesen werden."

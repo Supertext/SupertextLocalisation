@@ -45,7 +45,50 @@
         }
       }
     },
-    "fileTranslation": {
+    "fileTranslation": { "successfullDownload": {
+      "title": "Datei erfolgreich heruntergeladen",
+      "description": "You can upload another file for translation"
+    },
+    "translationInProgress": "AI Translation in Arbeit",
+    "errors": {
+    "unregistered": {
+      "message": "Sie müssen eingeloggt sein",
+      "popover": "Sie können sich beim Free-Abo anmelden, um mit dem Übersetzen von Dateien zu beginnen."
+    },
+    "noRemainingFiles": {
+      "message": "Keine Dateien mehr verfügbar",
+      "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat"
+    },
+    "unsupportedFileType": {
+      "message": "Dateityp nicht im Abo enthalten",
+      "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, Powerpoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word-, und Powerpoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+    },
+    "limitedFileType": {
+      "message": "Dateityp wird nicht unterstützt",
+      "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
+    },
+    "freeTierLimit": {
+      "message": "AI Translation is only offered for Word and PowerPoint files in our free tier. Subscribe now to translate PDFs, Excel files, and more from CHF 9.00 per month.",
+      "popover": ""
+    },
+    "fileSizeExceeded": {
+      "message": "Dateigrösse überschreitet Ihr Limit",
+      "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
+    },
+    "unsupportedFormat": {
+      "message": "Wir bieten keine Übersetzung für {Erweiterungsdateien} an.",
+      "popover": ""
+    },
+    "remainingFiles": {
+      "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
+      "popover": ""
+    }
+  },
+  "availableFiles": {
+    "message": "{remaining}/{total} Dateien verfügbar",
+    "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
+    "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
+  },
       "backButton": "Textübersetzer",
       "backButtonShort": "Zurück",
       "externalUploadButton": "Hochladen",
@@ -73,51 +116,7 @@
       "docRemainingPerDay": "1 Datei verbleibend",
       "docsRemainingPerDay": "{0} Dateien verbleibend",
       "docLimitsPerRequest": "Max. {0} MB, {1} Zeichen",
-      "docLimitsPerRequestUnlimitedChars": "Max. {0} MB",
-      "successfullDownload": {
-        "title": "Datei erfolgreich heruntergeladen",
-        "description": "You can upload another file for translation"
-      },
-      "translationInProgress": "AI Translation in Arbeit",
-      "errors": {
-        "unregistered": {
-          "message": "Sie müssen eingeloggt sein",
-          "popover": "Sie können sich beim Free-Abo anmelden, um mit dem Übersetzen von Dateien zu beginnen."
-        },
-        "noRemainingFiles": {
-          "message": "Keine Dateien mehr verfügbar",
-          "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat"
-        },
-        "unsupportedFileType": {
-          "message": "Dateityp nicht im Abo enthalten",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, Powerpoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word-, und Powerpoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
-        },
-        "limitedFileType": {
-          "message": "Dateityp wird nicht unterstützt",
-          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
-        },
-        "freeTierLimit": {
-          "message": "AI Translation is only offered for Word and PowerPoint files in our free tier. Subscribe now to translate PDFs, Excel files, and more from CHF 9.00 per month.",
-          "popover": ""
-        },
-        "fileSizeExceeded": {
-          "message": "Dateigrösse überschreitet Ihr Limit",
-          "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
-        },
-        "unsupportedFormat": {
-          "message": "Wir bieten keine Übersetzung für {Erweiterungsdateien} an.",
-          "popover": ""
-        },
-        "remainingFiles": {
-          "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
-          "popover": ""
-        }
-      },
-      "availableFiles": {
-        "message": "{remaining}/{total} Dateien verfügbar",
-        "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
-        "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
-      }
+      "docLimitsPerRequestUnlimitedChars": "Max. {0} MB"
     },
     "profile": {
       "profile": "Profil",
@@ -894,7 +893,7 @@
         "modals": {
           "waitlist": {
             "email": "E-Mail",
-            "accepted": "Ja, Supertext darf mich kontaktieren, sobald das gewünschte Abo verfügbar ist.",
+            "accepted": "Ja, Supertext darf mich kontaktieren, sobald das Basic-Abo verfügbar ist.",
             "cta": "In Warteliste eintragen",
             "messages": {
               "success": "Erfolgreich auf die Warteliste gesetzt",
@@ -1173,7 +1172,6 @@
         "satisfactionQuestion": "Wie zufrieden sind Sie mit dem Ergebnis?",
         "message": "Nachricht",
         "submitFeedback": "Feedback absenden",
-        "revisionQuestion": "Wünschen Sie eine kostenlose Überarbeitung?",
         "revisionOption": "Ich wünsche eine kostenlose Nachbearbeitung",
         "revisionRequest": "Überarbeitung anfordern",
         "submitFile": "Überarbeitung anfordern",
@@ -1385,6 +1383,14 @@
         "eyebrowHeadline": "WAS UNS AUSMACHT"
       }
     },
+    "newsletter": {
+      "email": "E-Mail",
+      "cta": "Abonnieren Sie den Newsletter",
+      "messages": {
+        "success": "Sie haben sich erfolgreich für unseren Newsletter angemeldet.",
+        "error": "Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten."
+      }
+    },
     "subscriptionPlans": {
       "free": {
         "title": "Free",
@@ -1413,8 +1419,8 @@
             },
             "5": {
               "title": "Fused Translation",
-              "badge": "Bald verfügbar",
-              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen"
+              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen",
+              "badge": "Bald verfügbar"
             }
           }
         }
@@ -1587,6 +1593,11 @@
         "security": {
           "title": "Sicherheit",
           "features": {
+            "gdpr": {
+              "name": "Volle Einhaltung von GDPR (EU) und DSG (Schweiz)",
+              "description": "",
+              "free": "Keine Texte mit Personendaten erlaubt"
+            },
             "encryptedTransfer": {
               "name": "Verschlüsselte Übertragung",
               "description": "Ihre Daten werden sicher übertragen. Sie können niemals von Dritten gelesen werden."
@@ -1615,11 +1626,6 @@
               "name": "TLS/SSL-Zertifikate für Unternehmen",
               "description": "",
               "enterprise": "Optional"
-            },
-            "gdpr": {
-              "name": "Volle Einhaltung von GDPR (EU) und DSG (Schweiz)",
-              "description": "",
-              "free": "Keine Texte mit Personendaten erlaubt"
             }
           }
         },
@@ -1633,7 +1639,7 @@
               "essential": "Bis zu 3000 Zeichen"
             },
             "lengthControl": {
-              "name": "Längenbeschränkung",
+              "name": "Längenkontrolle",
               "description": "Definieren Sie bei Bedarf, dass die Länge einer Übersetzung die Länge des Ausgangstexts nicht überschreiten darf."
             }
           }
@@ -1643,7 +1649,7 @@
           "features": {
             "unlimitedFileTranslation": {
               "name": "Unbegrenzte Dateiübersetzung",
-              "description": "Laden Sie ganze Dokumente hoch und Sie erhalten eine editierbare Übersetzung im selben Layout und Styling zurück.",
+              "description": "Laden Sie ganze Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
               "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
               "essential": "20 Dateien pro Person und Monat",
               "advanced": "20 Dateien pro Monat, pro Person"

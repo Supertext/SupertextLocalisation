@@ -46,6 +46,50 @@
       }
     },
     "fileTranslation": {
+      "successfullDownload": {
+        "title": "Datei erfolgreich heruntergeladen",
+        "description": "You can upload another file for translation"
+      },
+      "translationInProgress": "AI Translation in Arbeit",
+      "errors": {
+        "unregistered": {
+          "message": "Sie müssen eingeloggt sein",
+          "popover": "Sie können sich beim Free-Abo anmelden, um mit dem Übersetzen von Dateien zu beginnen."
+        },
+        "noRemainingFiles": {
+          "message": "Keine Dateien mehr verfügbar",
+          "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat"
+        },
+        "unsupportedFileType": {
+          "message": "Dateityp nicht im Abo enthalten",
+          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, Powerpoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word-, und Powerpoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+        },
+        "limitedFileType": {
+          "message": "Dateityp wird nicht unterstützt",
+          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
+        },
+        "freeTierLimit": {
+          "message": "AI Translation is only offered for Word and PowerPoint files in our free tier. Subscribe now to translate PDFs, Excel files, and more from CHF 9.00 per month.",
+          "popover": ""
+        },
+        "fileSizeExceeded": {
+          "message": "Dateigrösse überschreitet Ihr Limit",
+          "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
+        },
+        "unsupportedFormat": {
+          "message": "Wir bieten keine Übersetzung für {Erweiterungsdateien} an.",
+          "popover": ""
+        },
+        "remainingFiles": {
+          "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
+          "popover": ""
+        }
+      },
+      "availableFiles": {
+        "message": "{remaining}/{total} Dateien verfügbar",
+        "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
+        "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
+      },
       "backButton": "Traducteur de texte",
       "backButtonShort": "Retour",
       "externalUploadButton": "Charger",
@@ -73,51 +117,7 @@
       "docRemainingPerDay": "1 fichier restant",
       "docsRemainingPerDay": "{0} fichiers restants",
       "docLimitsPerRequest": "Max. {0}Mo, {1} caractères",
-      "docLimitsPerRequestUnlimitedChars": "Max {0} Mo",
-      "successfullDownload": {
-        "title": "Fichier téléchargé avec succès",
-        "description": "Vous pouvez télécharger un autre fichier pour la traduction"
-      },
-      "translationInProgress": "AI Translation en cours",
-      "errors": {
-        "unregistered": {
-          "message": "Vous devez être connecté",
-          "popover": "Vous pouvez vous inscrire à l'abonnement gratuit pour commencer à traduire des fichiers."
-        },
-        "noRemainingFiles": {
-          "message": "Plus de fichiers disponibles",
-          "popover": "Votre abonnement à {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois"
-        },
-        "unsupportedFileType": {
-          "message": "Type de fichier non inclus dans l'abonnement",
-          "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend les fichiers Word, Excel, Powerpoint, PDF et SRT} free {Votre abonnement {subscriptionType} comprend les fichiers Word et Powerpoint}other {Votre abonnement {subscriptionType} comprend des types de fichiers limités}}"
-        },
-        "limitedFileType": {
-          "message": "Le type de fichier n'est pas pris en charge",
-          "popover": "Votre abonnement {subscriptionType} ne comprend que des fichiers Word et Powerpoint"
-        },
-        "freeTierLimit": {
-          "message": "AI Translation n'est disponible que pour les fichiers Word et PowerPoint dans notre catégorie gratuite. Abonnez-vous dès maintenant pour traduire des fichiers PDF, Excel, et plus encore à partir de CHF 9.00 par mois.",
-          "popover": ""
-        },
-        "fileSizeExceeded": {
-          "message": "La taille du fichier dépasse votre limite",
-          "popover": "Votre abonnement {subscriptionType} comprend des fichiers jusqu'à {size} MB"
-        },
-        "unsupportedFormat": {
-          "message": "Nous ne proposons pas de traduction pour {Erweiterungsdateien}.",
-          "popover": ""
-        },
-        "remainingFiles": {
-          "message": "{count, plural, =0 {Plus de fichiers disponibles} one {Encore # fichier disponible} other {Encore # fichiers disponibles}}",
-          "popover": ""
-        }
-      },
-      "availableFiles": {
-        "message": "{remaining}/{total} Fichiers disponibles",
-        "popover": "Votre abonnement à {subscriptionType} comprend {count, plural, one {# fichier} other {# fichiers}} par mois",
-        "unregisteredPopover": "Vous devez être connecté pour commencer à traduire des fichiers."
-      }
+      "docLimitsPerRequestUnlimitedChars": "Max {0} Mo"
     },
     "profile": {
       "profile": "Profil",
@@ -314,50 +314,6 @@
       "ocr_auto": "Auto",
       "ocr_off": "Désactivé",
       "ocr_on": "Activé"
-    },
-    "successfullDownload": {
-      "title": "Fichier téléchargé avec succès",
-      "description": "Vous pouvez télécharger un autre fichier pour la traduction"
-    },
-    "translationInProgress": "AI Translation en cours",
-    "errors": {
-      "unregistered": {
-        "message": "Vous devez être connecté",
-        "popover": "Vous pouvez vous inscrire à l'abonnement gratuit pour commencer à traduire des fichiers."
-      },
-      "noRemainingFiles": {
-        "message": "Plus de fichiers disponibles",
-        "popover": "Votre abonnement à {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois"
-      },
-      "unsupportedFileType": {
-        "message": "Type de fichier non inclus dans l'abonnement",
-        "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend les fichiers Word, Excel, Powerpoint, PDF et SRT} free {Votre abonnement {subscriptionType} comprend les fichiers Word et Powerpoint}other {Votre abonnement {subscriptionType} comprend des types de fichiers limités}}"
-      },
-      "limitedFileType": {
-        "message": "Le type de fichier n'est pas pris en charge",
-        "popover": "Votre abonnement {subscriptionType} ne comprend que des fichiers Word et Powerpoint"
-      },
-      "freeTierLimit": {
-        "message": "AI Translation n'est disponible que pour les fichiers Word et PowerPoint dans notre catégorie gratuite. Abonnez-vous dès maintenant pour traduire des fichiers PDF, Excel, et plus encore, à partir de CHF 9.00 par mois.",
-        "popover": ""
-      },
-      "fileSizeExceeded": {
-        "message": "La taille du fichier dépasse votre limite",
-        "popover": "Votre abonnement {subscriptionType} comprend des fichiers jusqu'à {size} MB"
-      },
-      "unsupportedFormat": {
-        "message": "Nous ne proposons pas de traduction pour {Erweiterungsdateien}.",
-        "popover": ""
-      },
-      "remainingFiles": {
-        "message": "{count, plural, =0 {Plus de fichiers disponibles} one {Encore # fichier disponible} other {Encore # fichiers disponibles}}",
-        "popover": ""
-      }
-    },
-    "availableFiles": {
-      "message": "{remaining}/{total} Fichiers disponibles",
-      "popover": "Votre abonnement à {subscriptionType} comprend {count, plural, one {# fichier} other {# fichiers}} par mois",
-      "unregisteredPopover": "Vous devez être connecté pour commencer à traduire des fichiers."
     }
   },
   "modeSelectorButton": {
@@ -817,6 +773,7 @@
           "sourceLanguage": "Langue de départ",
           "targetLanguage": "Langue cible",
           "sourceFile": "Texte source",
+          "targetFile": "Target text",
           "offerType": "Service",
           "orderDeadline": "Date de livraison",
           "orderName": "Titre de la mission",
@@ -829,9 +786,8 @@
           "invoiceAddress": "Adresse de facturation",
           "contactPersonTitle": "DIRECTION DU PROJET",
           "additionalInformation": "Informations complémentaires",
-          "targetFile": "Texte cible",
-          "orderNumber": "Numéro de commande",
-          "notFixed": "Prix non fixé pour l'instant"
+          "orderNumber": "order number",
+          "notFixed": "Price not fixed yet"
         },
         "back": "Retour"
       },
@@ -873,6 +829,7 @@
         "cancelSubscription": "Cancelled",
         "expiresOn": "Expire le",
         "moreInfo": "En savoir plus",
+        "firstMonthFree": "Erster Monat kostenlos",
         "hero": {
           "title": "Trouvez l'abonnement Supertext qui vous convient",
           "subtitle": "Traduire plus vite, mieux et de manière plus sûre : Supertext propose le pack AI-Translation adapté à chaque besoin - du simple traducteur en ligne à la solution personnalisée entièrement intégrée."
@@ -941,8 +898,7 @@
               "error": "Erreur lors de la demande de l'offre"
             }
           }
-        },
-        "firstMonthFree": "Premier mois gratuit"
+        }
       },
       "resources": {
         "title": "Ressources linguistiques"
@@ -1183,10 +1139,7 @@
           "super": "Superbe",
           "good": "Bien",
           "insufficient": "Insuffisante"
-        },
-        "feedbackSentSuccess": "Réaction envoyée avec succès",
-        "requestRevisionSuccess": "Révision demandée avec succès",
-        "yourFeedback": "Vos commentaires"
+        }
       },
       "overview": {
         "title": "Vue d'ensemble",
@@ -1385,6 +1338,14 @@
         "eyebrowHeadline": "TOUS LES SERVICES LINGUISTIQUES"
       }
     },
+    "newsletter": {
+      "email": "E-Mail",
+      "cta": "Abonnieren Sie den Newsletter",
+      "messages": {
+        "success": "Sie haben sich erfolgreich für unseren Newsletter angemeldet.",
+        "error": "Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten."
+      }
+    },
     "subscriptionPlans": {
       "free": {
         "title": "Free",
@@ -1398,12 +1359,10 @@
               "title": "5 langues"
             },
             "1": {
-              "title": "Jusqu'à 3000 caractères",
-              "tooltip": "1500 pour les utilisateurs non inscrits"
+              "title": "Jusqu'à 3000 caractères"
             },
             "2": {
-              "title": "5 fichiers par mois (modifiables)",
-              "tooltip": "pour les utilisateurs enregistrés"
+              "title": "5 fichiers par mois (modifiables)"
             },
             "3": {
               "title": "5 Mo taille maximale du fichier"
@@ -1413,8 +1372,7 @@
             },
             "5": {
               "title": "Traduction fusionnée",
-              "badge": "En bref",
-              "tooltip": "Vos traductions IA s'améliorent en temps réel à chaque commande que vous passez aux experts linguistiques de Supertext (seulement pour les utilisateurs enregistrés)"
+              "badge": "En bref"
             }
           }
         }
@@ -1433,12 +1391,10 @@
               "title": "Sécurité maximale des données"
             },
             "1": {
-              "title": "Traduction de texte illimitée",
-              "tooltip": "Cryptage de bout en bout et suppression immédiate du texte"
+              "title": "Traduction de texte illimitée"
             },
             "2": {
-              "title": "20 fichiers par mois (modifiables)",
-              "tooltip": "Une politique d'utilisation équitable s'applique"
+              "title": "20 fichiers par mois (modifiables)"
             },
             "3": {
               "title": "10 Mo taille maximale du fichier"
@@ -1482,8 +1438,7 @@
               "title": "Limitation de la longueur"
             },
             "6": {
-              "title": "Authentification unique (SSO)",
-              "tooltip": "à partir de 10 utilisateurs"
+              "title": "Authentification unique (SSO)"
             }
           }
         }
@@ -1587,6 +1542,11 @@
         "security": {
           "title": "Sécurité",
           "features": {
+            "gdpr": {
+              "name": "Volle Einhaltung von GDPR (EU) und DSG (Schweiz)",
+              "description": "",
+              "free": "Keine Texte mit Personendaten erlaubt"
+            },
             "encryptedTransfer": {
               "name": "Transfert crypté",
               "description": "Vos informations sont transférées en toute sécurité. Elles ne peuvent jamais être lues par des tiers."
@@ -1603,8 +1563,7 @@
             },
             "teamAdministration": {
               "name": "Administration de l'équipe",
-              "description": "Gérez les utilisateurs de votre organisation. Ajoutez des membres, visualisez et contrôlez l'utilisation, et maîtrisez les coûts grâce à la facturation centralisée.",
-              "free": "Avec inscription gratuite"
+              "description": "Gérez les utilisateurs de votre organisation. Ajoutez des membres, visualisez et contrôlez l'utilisation, et maîtrisez les coûts grâce à la facturation centralisée."
             },
             "privateHosting": {
               "name": "Hébergement en nuage privé ou sur site",
@@ -1615,11 +1574,6 @@
               "name": "Certificats TLS/SSL d'entreprise",
               "description": "",
               "enterprise": "En option"
-            },
-            "gdpr": {
-              "name": "Respect total du GDPR (UE) et de la LPD (Suisse)",
-              "description": "",
-              "free": "Aucun texte contenant des données personnelles n'est autorisé"
             }
           }
         },
@@ -1654,12 +1608,7 @@
             },
             "maximumFileSize": {
               "name": "Taille maximale du fichier",
-              "description": "",
-              "free": "5 MO",
-              "essential": "10 MO",
-              "advanced": "20 MO",
-              "pro": "30 MO",
-              "enterprise": "30 MO"
+              "description": ""
             },
             "microsoftOfficeFileTypes": {
               "name": "Types de fichiers Microsoft Office",
@@ -1721,15 +1670,13 @@
               "name": "API",
               "description": "Intégrez les traductions par IA dans vos propres applications et flux de travail.",
               "advanced": "En option",
-              "pro": "En option",
-              "enterprise": "Module complémentaire en option"
+              "pro": "En option"
             },
             "catToolIntegration": {
               "name": "Intégration des outils de TAO",
               "description": "Augmentez la productivité de vos traductions professionnelles en utilisant Trados Studio, MemoQ et bien d'autres outils de TAO.",
               "advanced": "En option",
-              "pro": "En option",
-              "enterprise": "Module complémentaire en option"
+              "pro": "En option"
             }
           }
         },
@@ -1748,7 +1695,7 @@
               "name": "Garantie de délai de réponse",
               "description": "Pendant les heures de bureau (9 heures à 18 heures CET) du lundi au vendredi",
               "free": "Free",
-              "essential": "24 heures",
+              "essential": "",
               "advanced": "24 heures",
               "pro": "60 minutes",
               "enterprise": "60 minutes"
@@ -1766,25 +1713,24 @@
       }
     },
     "translations": {
-      "info": "Prêt à traduire ? Choisissez votre méthode préférée...",
+      "info": "Vos options:",
+      "immediately": "immédiatement",
       "fusedTranslation": {
         "title": "Traduction fusionnée",
         "cta": "Pourquoi une traduction fusionnée ?",
-        "button": "Passer une commande",
-        "description": "Précision et fiabilité maximales"
+        "button": "Place order",
+        "description": "Max quality & reliability"
       },
       "aiTranslation": {
         "title": "Traduction AI",
-        "description": "Téléchargement immédiat, {0} Les fichiers restent ce mois-ci.",
+        "description": "Téléchargement immédiat",
         "cta": "Obtenir plus",
         "button": "Traduire maintenant"
       },
       "humanVerification": {
         "title": "AI vérifiée par l'homme",
-        "titleWhitPrice": "AI vérifiée par l'homme {0} {1}",
-        "titleWithPrice": "AI vérifiée par l'homme {0} {1}"
-      },
-      "immediately": "immédiatement"
+        "titleWithPrice": "de {0} {1}"
+      }
     },
     "components": {
       "faq": {
@@ -1794,6 +1740,24 @@
       }
     },
     "pages": {
+      "404":{
+        "pageNotFound": "Seite nicht gefunden",
+        "pageNotFoundDescription": "Die von Ihnen gesuchte Seite konnte leider nicht gefunden werden.",
+        "goHome": "Zur Startseite"
+      },
+      "subscriptions": {
+        "upgradeModal": {
+          "totalAmountPerYear": "Gesamtbetrag pro Jahr",
+          "totalAmountPerMonth": "Gesamtbetrag pro Monat",
+          "firstMonthFree": "Erster Monat kostenlos",
+          "totalAmountDueToday": "Heute fälliger Gesamtbetrag",
+          "totalAmountIncludingTax": "Gesamtbetrag inkl. MwSt.",
+          "totalAmountDueTodayDescription": "Dieser Betrag wird Ihnen beim Kauf sofort in Rechnung gestellt.",
+          "trialPeriodBadge": "🎉 Erster Monat kostenlos",
+          "trialPeriodDescription": "Sie erhalten ein kostenloses 1-monatiges Probeabonnement, danach werden Ihnen die Kosten entsprechend Ihrer Abonnementart und Ihrem Angebot in Rechnung gestellt. Ihr erster Zahlungsabzug erfolgt am {date}.",
+          "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abonnements."
+        }
+      },
       "whySupertext": {
         "hero": {
           "title": "Nous repensons la traduction",
@@ -2868,24 +2832,6 @@
             "title": "Contactez-nous",
             "link": "/contact"
           }
-        }
-      },
-      "404": {
-        "pageNotFound": "Page non trouvée",
-        "pageNotFoundDescription": "La page que vous recherchez n'a malheureusement pas pu être trouvée.",
-        "goHome": "Vers la page d'accueil"
-      },
-      "subscriptions": {
-        "upgradeModal": {
-          "totalAmountPerYear": "Montant total annuel",
-          "totalAmountPerMonth": "Montant total par mois",
-          "firstMonthFree": "Premier mois gratuit",
-          "totalAmountDueToday": "Montant total dû aujourd'hui",
-          "totalAmountIncludingTax": "Montant total, TVA incluse",
-          "totalAmountDueTodayDescription": "Ce montant vous sera immédiatement facturé lors de l'achat.",
-          "trialPeriodBadge": "🎉 Premier mois gratuit",
-          "trialPeriodDescription": "Vous bénéficiez d'un abonnement d'essai gratuit d'un mois, après quoi vous serez facturé en fonction de votre type d'abonnement et de votre offre. Votre premier prélèvement de paiement sera effectué le {date}.",
-          "termsAndConditions": "J'accepte les conditions générales d'achat de cet abonnement."
         }
       }
     }

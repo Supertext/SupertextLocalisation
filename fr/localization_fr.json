@@ -1061,6 +1061,12 @@
                 "deleteCreditCardInformation": "Cela supprime la carte de crédit de votre compte et vous ne pourrez plus l’utiliser pour des transactions futures. Cela peut également affecter d’autres membres de votre équipe.",
                 "noAddedCreditCard": "Aucune carte n’a encore été ajoutée."
               }
+            },
+            "changePaymentMethodTooltip": {
+              "linkText": "",
+              "prefilledSubject": "",
+              "prefilledBody": "",
+              "emailAddress": "info@supertext.com"
             }
           },
           "team": {
@@ -2426,19 +2432,19 @@
           "emails": [
             {
               "title": "",
-              "email": ""
+              "email": "hello@supertext.com"
             },
             {
               "title": "",
-              "email": ""
+              "email": "people@supertext.com"
             },
             {
               "title": "",
-              "email": ""
+              "email": "media@supertext.com"
             },
             {
               "title": "",
-              "email": ""
+              "email": "support@supertext.com"
             }
           ]
         }

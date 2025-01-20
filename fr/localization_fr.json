@@ -2278,109 +2278,78 @@
       },
       "contact": {
         "hero": {
-          "title": "Accessible dans presque toutes les langues",
-          "description": "Que ce soit pour des projets, un feedback, un job de rêve ou une démo : parlons-en."
+          "title": "Erreichbar in fast jeder Sprache",
+          "description": "Ob für Projekte, Feedback, Traumjobs oder eine Demo: Lassen Sie uns reden."
         },
         "salesSection": {
-          "title": "Contacter <highlightText>Supertext Sales</highlightText>",
-          "description": "Notre équipe vous aide à tirer le meilleur parti de Supertext.\n\nContactez-nous pour :",
-          "bulletPoints": {
-            "point1": "Découvrez comment Supertext peut soutenir votre expansion commerciale mondiale",
-            "point2": "Paquets d'équipe, solutions d'entreprise, API et plus encore",
-            "point3": "Des solutions sur mesure pour votre entreprise"
-          }
+          "title": "Wir sind persönlich für Sie da –<highlight>in unter 60 Minuten</highlight>",
+          "description": "Sie brauchen ein massgeschneidertes Angebot? Oder interessieren sich für unsere Enterprise-Lösung? Füllen Sie das Formular aus und wir verbinden Sie in Rekordzeit mit der richtigen Ansprechperson."
         },
-        "contactForm": {
-          "intro": "Remplissez le formulaire pour que nous puissions vous mettre en contact avec la bonne personne.",
-          "fields": {
-            "name": {
-              "label": "Prénom et nom*",
-              "placeholder": "Votre nom",
-              "error": "Le nom est obligatoire"
-            },
-            "company": {
-              "label": "Entreprise/Organisation*",
-              "placeholder": "Votre entreprise",
-              "error": "L'entreprise/l'organisation est requise"
-            },
-            "email": {
-              "label": "E-mail*",
-              "placeholder": "Votre e-mail",
-              "error": "Adresse e-mail non valide"
-            },
-            "phone": {
-              "label": "Téléphone",
-              "placeholder": "Votre numéro de téléphone"
-            },
-            "helpType": {
-              "label": "Comment pouvons-nous vous aider ?",
-              "placeholder": "Veuillez choisir",
-              "error": "Veuillez choisir une option",
-              "options": {
-                "project": "Demande de projet",
-                "feedback": "Réactions",
-                "demo": "Demander une démo",
-                "career": "Carrière"
+          "contactForm": {
+            "validation": {
+              "name": {
+                "required": "Name ist erforderlich"
+              },
+              "company": {
+                "required": "Unternehmen/Organisation ist erforderlich"
+              },
+              "email": {
+                "invalid": "Ungültige E-Mail-Adresse"
+              },
+              "message": {
+                "required": "Nachricht ist erforderlich"
               }
             },
-            "message": {
-              "label": "Votre message*",
-              "placeholder": "Votre message",
-              "error": "Message requis"
+            "toast": {
+              "success": {
+                "title": "Formular gesendet",
+                "description": "Wir werden uns in Kürze bei Ihnen melden."
+              },
+              "error": {
+                "title": "Ein Fehler ist aufgetreten",
+                "description": "Bitte versuchen Sie es später erneut."
+              }
             },
-            "source": {
-              "label": "Comment avez-vous entendu parler de nous ?",
-              "placeholder": "p.ex. Google, recommandation, médias sociaux",
-              "error": "Veuillez indiquer comment vous nous avez connus"
-            }
+            "labels": {
+              "intro": "Füllen Sie das Formular aus, damit wir Sie mit der richtigen Person in Verbindung setzen können.",
+              "name": "Vorname und Name*",
+              "company": "Unternehmen/Organisation*",
+              "email": "E-Mail*",
+              "phone": "Telefon",
+              "message": "Ihre Nachricht*"
+            },
+            "placeholders": {
+              "name": "Ihr Name",
+              "company": "Ihr Unternehmen",
+              "email": "Ihre E-Mail",
+              "phone": "Ihre Telefonnummer",
+              "message": "Ihre Nachricht"
+            },
+            "consent": "Mit dem Absenden erklären Sie sich damit einverstanden, dass wir Ihre Daten zur Bearbeitung der Anfrage verwenden dürfen.",
+            "submit": "Absenden"
           },
-          "submit": "Envoyer",
-          "notifications": {
-            "success": {
-              "title": "Formulaire envoyé",
-              "description": "Nous vous contacterons sous peu."
-            },
-            "error": {
-              "title": "Une erreur est survenue",
-              "description": "Veuillez réessayer plus tard."
-            }
+          "contactLinks": {
+            "eyebrowHeadline": "DIREKTKONTAKTE",
+            "emails": [
+              {
+                "title": "Allgemeine Anfragen",
+                "email": "hello@supertext.ch"
+              },
+              {
+                "title": "Jobs und Karriere",
+                "email": "people@supertext.ch"
+              },
+              {
+                "title": "Medien",
+                "email": "media@supertext.ch"
+              },
+              {
+                "title": "Customer Support",
+                "email": "support@supertext.ch"
+              }
+            ]
           }
-        },
-        "locations": [
-          {
-            "title": "Zurich",
-            "description": "Notre quartier général se trouve à Zurich-Ouest, à quelques mètres seulement de la Limmat.",
-            "image": "/images/pages/contact/zurich.png",
-            "address": {
-              "line0": "Supertexte",
-              "line1": "253, rue du Hardturm",
-              "line2": "8005 Zurich",
-              "line3": "Suisse"
-            },
-            "cta": "Google Maps",
-            "googleMapsLink": "https://maps.app.goo.gl/Pxq2FXvvWgE4pdvTA"
-          },
-          {
-            "title": "Berlin",
-            "image": "/images/pages/contact/Berlin.png",
-            "description": "Vous trouverez notre bureau berlinois au cœur de Kreuzberg, directement sur Mehringdamm.",
-            "address": {
-              "line0": "Supertexte",
-              "line1": "Mehringdamm 32/34",
-              "line2": "10961 Berlin",
-              "line3": "Allemagne"
-            },
-            "cta": "Google Maps",
-            "googleMapsLink": "https://maps.app.goo.gl/yjCjGk2qzQ55jAeB7"
-          }
-        ],
-        "footerNote": {
-          "cta": {
-            "title": "Réserver un rendez-vous maintenant",
-            "link": "/démo"
-          },
-          "text": "Vous souhaitez voir Supertext en action ? Réservez sans engagement une <highlightText>Démo</highlightText> avec nous."
-        }
+       
       },
       "faq": {
         "hero": {

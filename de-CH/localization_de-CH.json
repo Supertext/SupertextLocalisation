@@ -1031,6 +1031,12 @@
               "creditCard": "Kreditkarte",
               "noPaymentMethod": "Keine Voreinstellung"
             },
+            "changePaymentMethodTooltip": {
+              "linkText": "Kontaktieren Sie uns",
+              "prefilledSubject": "Antrag für Zahlung auf Rechnung", 
+              "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto (und allfällige weitere User:innen in meiner Organisation) die Zahlung auf Rechnung.",
+              "emailAddress": "info@supertext.ch"
+            },
             "settings": {
               "billingAddress": {
                 "deleteBillingAddress": "Eintrag Rechnungsadresse löschen",

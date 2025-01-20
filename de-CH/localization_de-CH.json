@@ -943,8 +943,8 @@
           }
         },
         "firstMonthFree": "Erster Monat kostenlos",
-        "cancelSubscriptionButton": "Abo Downgraden",
-        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abonnement downgraden möchten? Der Zugang zu Ihrem {subscriptionName}-Abonnement endet am {endDate}"
+        "cancelSubscriptionButton": "Abo downgraden",
+        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}."
       },
       "resources": {
         "title": "Sprachressourcen"
@@ -1031,12 +1031,6 @@
               "creditCard": "Kreditkarte",
               "noPaymentMethod": "Keine Voreinstellung"
             },
-            "changePaymentMethodTooltip": {
-              "linkText": "Kontaktieren Sie uns",
-              "prefilledSubject": "Antrag für Zahlung auf Rechnung", 
-              "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto (und allfällige weitere User:innen in meiner Organisation) die Zahlung auf Rechnung.",
-              "emailAddress": "info@supertext.ch"
-            },
             "settings": {
               "billingAddress": {
                 "deleteBillingAddress": "Eintrag Rechnungsadresse löschen",
@@ -1067,6 +1061,12 @@
                 "deleteCreditCardInformation": "Damit entfernen Sie die Kreditkarte aus Ihrem Konto und können sie nicht für künftige Transaktionen verwenden. Dies könnte sich auch auf andere Mitglieder Ihres Teams auswirken.",
                 "noAddedCreditCard": "Es wurde noch keine Karte hinzugefügt"
               }
+            },
+            "changePaymentMethodTooltip": {
+              "linkText": "Kontaktieren Sie uns",
+              "prefilledSubject": "Antrag für Zahlung auf Rechnung",
+              "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto (und allfällige weitere User:innen in meiner Organisation) die Zahlung auf Rechnung.",
+              "emailAddress": "info@supertext.com"
             }
           },
           "team": {
@@ -2368,26 +2368,26 @@
           "toast": {
             "success": {
               "title": "Formular gesendet",
-              "description": "Wir werden uns in Kürze bei Ihnen melden."
+              "description": "Vielen Dank für Ihre Anfrage. Wir melden uns so schnell wie möglich bei Ihnen."
             },
             "error": {
-              "title": "Ein Fehler ist aufgetreten",
-              "description": "Bitte versuchen Sie es später erneut."
+              "title": "Ein Fehler ist aufgetreten.",
+              "description": "Bitte versuchen Sie es später nochmal."
             }
           },
           "labels": {
             "intro": "Füllen Sie das Formular aus, damit wir Sie mit der richtigen Person in Verbindung setzen können.",
-            "name": "Vorname und Name*",
+            "name": "Vor- und Nachname*",
             "company": "Unternehmen/Organisation*",
             "email": "E-Mail*",
             "phone": "Telefon",
             "message": "Ihre Nachricht*"
           },
           "placeholders": {
-            "name": "Ihr Name",
-            "company": "Ihr Unternehmen",
-            "email": "Ihre E-Mail",
-            "phone": "Ihre Telefonnummer",
+            "name": "Vor- und Nachname",
+            "company": "Unternehmen/Organisation",
+            "email": "E-Mail",
+            "phone": "Telefon",
             "message": "Ihre Nachricht"
           },
           "consent": "Mit dem Absenden erklären Sie sich damit einverstanden, dass wir Ihre Daten zur Bearbeitung der Anfrage verwenden dürfen."
@@ -2432,19 +2432,19 @@
           "emails": [
             {
               "title": "Allgemeine Anfragen",
-              "email": "hello@supertext.ch"
+              "email": "hello@supertext.com"
             },
             {
               "title": "Jobs und Karriere",
-              "email": "people@supertext.ch"
+              "email": "people@supertext.com"
             },
             {
               "title": "Medien",
-              "email": "media@supertext.ch"
+              "email": "media@supertext.com"
             },
             {
               "title": "Customer Support",
-              "email": "support@supertext.ch"
+              "email": "support@supertext.com"
             }
           ]
         }

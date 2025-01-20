@@ -943,8 +943,8 @@
           }
         },
         "firstMonthFree": "Erster Monat kostenlos",
-        "cancelSubscriptionButton": "Abo Downgraden",
-        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abonnement downgraden möchten? Der Zugang zu Ihrem {subscriptionName}-Abonnement endet am {endDate}"
+        "cancelSubscriptionButton": "Abo downgraden",
+        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}."
       },
       "resources": {
         "title": "Sprachressourcen"
@@ -1061,6 +1061,12 @@
                 "deleteCreditCardInformation": "Damit entfernen Sie die Kreditkarte aus Ihrem Konto und können sie nicht für künftige Transaktionen verwenden. Dies könnte sich auch auf andere Mitglieder Ihres Teams auswirken.",
                 "noAddedCreditCard": "Es wurde noch keine Karte hinzugefügt"
               }
+            },
+            "changePaymentMethodTooltip": {
+              "linkText": "Kontaktieren Sie uns",
+              "prefilledSubject": "Antrag für Zahlung auf Rechnung",
+              "prefilledBody": "Guten Tag,\n\nbitte aktivieren Sie für mein Supertext-Konto (und allfällige weitere User:innen in meiner Organisation) die Zahlung auf Rechnung.",
+              "emailAddress": "info@supertext.com"
             }
           },
           "team": {
@@ -2347,44 +2353,44 @@
           },
           "validation": {
             "name": {
-              "required": ""
+              "required": "Name ist erforderlich"
             },
             "company": {
               "required": ""
             },
             "email": {
-              "invalid": ""
+              "invalid": "Ungültige E-Mail-Adresse"
             },
             "message": {
-              "required": ""
+              "required": "Nachricht ist erforderlich"
             }
           },
           "toast": {
             "success": {
-              "title": "",
-              "description": ""
+              "title": "Formular gesendet",
+              "description": "Vielen Dank für Ihre Anfrage. Wir melden uns so schnell wie möglich bei Ihnen."
             },
             "error": {
-              "title": "",
-              "description": ""
+              "title": "Ein Fehler ist aufgetreten.",
+              "description": "Bitte versuchen Sie es später nochmal."
             }
           },
           "labels": {
             "intro": "",
-            "name": "",
-            "company": "",
-            "email": "",
+            "name": "Vor- und Nachname*",
+            "company": "Unternehmen/Organisation*",
+            "email": "E-Mail*",
             "phone": "",
-            "message": ""
+            "message": "Ihre Nachricht*"
           },
           "placeholders": {
-            "name": "",
-            "company": "",
-            "email": "",
-            "phone": "",
-            "message": ""
+            "name": "Vor- und Nachname",
+            "company": "Unternehmen/Organisation",
+            "email": "E-Mail",
+            "phone": "Telefon",
+            "message": "Ihre Nachricht"
           },
-          "consent": ""
+          "consent": "Mit dem Absenden erklären Sie sich damit einverstanden, dass wir Ihre Daten zur Bearbeitung der Anfrage verwenden dürfen."
         },
         "locations": [
           {
@@ -2422,23 +2428,23 @@
           "text": "Sie möchten Supertext in Aktion erleben? Buchen Sie ganz unverbindlich eine <highlightText>Demo</highlightText> mit uns."
         },
         "contactLinks": {
-          "eyebrowHeadline": "",
+          "eyebrowHeadline": "DIREKTKONTAKTE",
           "emails": [
             {
-              "title": "",
-              "email": ""
+              "title": "Allgemeine Anfragen",
+              "email": "hello@supertext.com"
             },
             {
-              "title": "",
-              "email": ""
+              "title": "Jobs und Karriere",
+              "email": "people@supertext.com"
             },
             {
-              "title": "",
-              "email": ""
+              "title": "Medien",
+              "email": "media@supertext.com"
             },
             {
-              "title": "",
-              "email": ""
+              "title": "Customer Support",
+              "email": "support@supertext.com"
             }
           ]
         }

@@ -1061,6 +1061,12 @@
                 "deleteCreditCardInformation": "La carta di credito verrà rimossa dal Suo account e non potrà essere utilizzata per transazioni future. Questo potrebbe avere conseguenze anche per altri membri del Suo team.",
                 "noAddedCreditCard": "Non è stata ancora aggiunta nessuna carta"
               }
+            },
+            "changePaymentMethodTooltip": {
+              "linkText": "",
+              "prefilledSubject": "",
+              "prefilledBody": "",
+              "emailAddress": "info@supertext.com"
             }
           },
           "team": {
@@ -2426,19 +2432,19 @@
           "emails": [
             {
               "title": "",
-              "email": ""
+              "email": "hello@supertext.com"
             },
             {
               "title": "",
-              "email": ""
+              "email": "people@supertext.com"
             },
             {
               "title": "",
-              "email": ""
+              "email": "media@supertext.com"
             },
             {
               "title": "",
-              "email": ""
+              "email": "support@supertext.com"
             }
           ]
         }

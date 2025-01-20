@@ -2344,7 +2344,47 @@
               "title": "An error has occurred.",
               "description": "Please try again later."
             }
-          }
+          },
+          "validation": {
+            "name": {
+              "required": ""
+            },
+            "company": {
+              "required": ""
+            },
+            "email": {
+              "invalid": ""
+            },
+            "message": {
+              "required": ""
+            }
+          },
+          "toast": {
+            "success": {
+              "title": "",
+              "description": ""
+            },
+            "error": {
+              "title": "",
+              "description": ""
+            }
+          },
+          "labels": {
+            "intro": "",
+            "name": "",
+            "company": "",
+            "email": "",
+            "phone": "",
+            "message": ""
+          },
+          "placeholders": {
+            "name": "",
+            "company": "",
+            "email": "",
+            "phone": "",
+            "message": ""
+          },
+          "consent": ""
         },
         "locations": [
           {
@@ -2380,6 +2420,27 @@
             "link": "/demo"
           },
           "text": "Would you like to experience Supertext in action? Book a free <highlightText>demo</highlightText> with us."
+        },
+        "contactLinks": {
+          "eyebrowHeadline": "",
+          "emails": [
+            {
+              "title": "",
+              "email": ""
+            },
+            {
+              "title": "",
+              "email": ""
+            },
+            {
+              "title": "",
+              "email": ""
+            },
+            {
+              "title": "",
+              "email": ""
+            }
+          ]
         }
       },
       "faq": {

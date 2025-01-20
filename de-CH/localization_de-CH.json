@@ -76,7 +76,7 @@
       "docLimitsPerRequestUnlimitedChars": "Max. {0} MB",
       "successfullDownload": {
         "title": "Datei erfolgreich heruntergeladen",
-        "description": "You can upload another file for translation"
+        "description": "Sie können eine andere Datei zum Übersetzen hochladen"
       },
       "translationInProgress": "AI Translation in Arbeit",
       "errors": {
@@ -90,14 +90,14 @@
         },
         "unsupportedFileType": {
           "message": "Dateityp nicht im Abo enthalten",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, Powerpoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word-, und Powerpoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
         },
         "limitedFileType": {
           "message": "Dateityp wird nicht unterstützt",
-          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
+          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und PowerPoint-Dateien"
         },
         "freeTierLimit": {
-          "message": "AI Translation is only offered for Word and PowerPoint files in our free tier. Subscribe now to translate PDFs, Excel files, and more from CHF 9.00 per month.",
+          "message": "Kostenfrei und ohne Registrierung können Sie AI Translation nur für Word- und PowerPoint-Dateien nutzen. Registrieren Sie sich jetzt, um auch PDF- und Excel-Dateien sowie viele weitere Dateiformate zu übersetzen – ab CHF 9.00 monatlich.",
           "popover": ""
         },
         "fileSizeExceeded": {
@@ -317,7 +317,7 @@
     },
     "successfullDownload": {
       "title": "Datei erfolgreich heruntergeladen",
-      "description": "Sie können eine andere Datei hochladen zum übersetzen"
+      "description": "Sie können eine andere Datei zum Übersetzen hochladen"
     },
     "translationInProgress": "AI Translation in Arbeit",
     "errors": {
@@ -331,14 +331,14 @@
       },
       "unsupportedFileType": {
         "message": "Dateityp nicht im Abo enthalten",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, Powerpoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word-, und Powerpoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
       },
       "limitedFileType": {
         "message": "Dateityp wird nicht unterstützt",
-        "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
+        "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und PowerPoint-Dateien"
       },
       "freeTierLimit": {
-        "message": "AI Translation is only offered for Word and PowerPoint files in our free tier. Subscribe now to translate PDFs, Excel files, and more from CHF 9.00 per month.",
+        "message": "Kostenfrei und ohne Registrierung können Sie AI Translation nur für Word- und PowerPoint-Dateien nutzen. Registrieren Sie sich jetzt, um auch PDF- und Excel-Dateien sowie viele weitere Dateiformate zu übersetzen – ab CHF 9.00 monatlich.",
         "popover": ""
       },
       "fileSizeExceeded": {
@@ -740,7 +740,7 @@
     "online": "Ihre Internetverbindung wurde wiederhergestellt."
   },
   "starstruck": {
-    "welcomeMessage": "Grüezi",
+    "welcomeMessage": "Grüezi.",
     "noEntries": "Keine Einträge gefunden.",
     "placeOrder": "Profi-Services",
     "or": "oder",
@@ -1319,7 +1319,7 @@
       },
       "reset": {
         "title": "Auf Original zurücksetzen?",
-        "description": "Du verlierst alle deine Änderungen. Bist du dir sicher, dass du den Text auf das Original zurücksetzen willst?"
+        "description": "Du verlierst alle deine Änderungen. Bist du sicher, dass du den Text auf das Original zurücksetzen willst?"
       },
       "infoMessage": {
         "part1": "Die zertifizierte",
@@ -1329,7 +1329,7 @@
       },
       "certifiedControl": {
         "title": "Sofort von Profi-Übersetzer:innen prüfen lassen",
-        "dDescription": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthografisch und grammatikalisch korrekte Übersetzung.",
+        "dDescription": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung.",
         "description": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung."
       },
       "serviceIsDeactivated": {
@@ -1546,7 +1546,7 @@
               "title": "SaaS, Private Cloud oder On-Premises-Hosting"
             },
             "2": {
-              "title": "Benutzerdefinierte TLS-/SLL-Zertifikate"
+              "title": "Benutzerdefinierte TLS-/SSL-Zertifikate"
             }
           }
         }
@@ -1567,7 +1567,7 @@
             "languages": {
               "name": "Sprachen",
               "description": "",
-              "all": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutscher Dialekt",
+              "all": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch, Schweizerdeutsch",
               "free": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
               "essential": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
               "advanced": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
@@ -1772,7 +1772,7 @@
       "fusedTranslation": {
         "title": "Fused Translation",
         "cta": "Warum Fused Translation?",
-        "button": "Auftrag erteilen",
+        "button": "Auftrag erstellen",
         "description": "Maximal präzis und verlässlich"
       },
       "aiTranslation": {
@@ -2282,74 +2282,105 @@
           "description": "Ob für Projekte, Feedback, Traumjobs oder eine Demo: Lassen Sie uns reden."
         },
         "salesSection": {
-          "title": "Wir sind persönlich für Sie da –<highlight>in unter 60 Minuten</highlight>",
-          "description": "Sie brauchen ein massgeschneidertes Angebot? Oder interessieren sich für unsere Enterprise-Lösung? Füllen Sie das Formular aus und wir verbinden Sie in Rekordzeit mit der richtigen Ansprechperson."
-        },
-          "contactForm": {
-            "validation": {
-              "name": {
-                "required": "Name ist erforderlich"
-              },
-              "company": {
-                "required": "Unternehmen/Organisation ist erforderlich"
-              },
-              "email": {
-                "invalid": "Ungültige E-Mail-Adresse"
-              },
-              "message": {
-                "required": "Nachricht ist erforderlich"
-              }
-            },
-            "toast": {
-              "success": {
-                "title": "Formular gesendet",
-                "description": "Wir werden uns in Kürze bei Ihnen melden."
-              },
-              "error": {
-                "title": "Ein Fehler ist aufgetreten",
-                "description": "Bitte versuchen Sie es später erneut."
-              }
-            },
-            "labels": {
-              "intro": "Füllen Sie das Formular aus, damit wir Sie mit der richtigen Person in Verbindung setzen können.",
-              "name": "Vorname und Name*",
-              "company": "Unternehmen/Organisation*",
-              "email": "E-Mail*",
-              "phone": "Telefon",
-              "message": "Ihre Nachricht*"
-            },
-            "placeholders": {
-              "name": "Ihr Name",
-              "company": "Ihr Unternehmen",
-              "email": "Ihre E-Mail",
-              "phone": "Ihre Telefonnummer",
-              "message": "Ihre Nachricht"
-            },
-            "consent": "Mit dem Absenden erklären Sie sich damit einverstanden, dass wir Ihre Daten zur Bearbeitung der Anfrage verwenden dürfen.",
-            "submit": "Absenden"
-          },
-          "contactLinks": {
-            "eyebrowHeadline": "DIREKTKONTAKTE",
-            "emails": [
-              {
-                "title": "Allgemeine Anfragen",
-                "email": "hello@supertext.ch"
-              },
-              {
-                "title": "Jobs und Karriere",
-                "email": "people@supertext.ch"
-              },
-              {
-                "title": "Medien",
-                "email": "media@supertext.ch"
-              },
-              {
-                "title": "Customer Support",
-                "email": "support@supertext.ch"
-              }
-            ]
+          "title": "Kontaktieren Sie <highlightText>Supertext Sales</highlightText>",
+          "description": "Unser Team unterstützt Sie dabei, das Beste aus Supertext herauszuholen.\n\nKontaktieren Sie uns für:",
+          "bulletPoints": {
+            "point1": "Informationen dazu, wie Supertext Ihre globale Geschäftsexpansion unterstützen kann",
+            "point2": "Team-Pakete, Enterprise-Lösungen, APIs und mehr",
+            "point3": "Massgeschneiderte Lösungen für Ihr Unternehmen"
           }
-       
+        },
+        "contactForm": {
+          "intro": "Füllen Sie das Formular aus, damit wir Sie mit der richtigen Person in Verbindung setzen können.",
+          "fields": {
+            "name": {
+              "label": "Vorname und Name*",
+              "placeholder": "Ihr Name",
+              "error": "Name ist erforderlich"
+            },
+            "company": {
+              "label": "Unternehmen/Organisation*",
+              "placeholder": "Ihr Unternehmen",
+              "error": "Unternehmen/Organisation ist erforderlich"
+            },
+            "email": {
+              "label": "E-Mail*",
+              "placeholder": "Ihre E-Mail",
+              "error": "Ungültige E-Mail-Adresse"
+            },
+            "phone": {
+              "label": "Telefon",
+              "placeholder": "Ihre Telefonnummer"
+            },
+            "helpType": {
+              "label": "Wie können wir helfen?*",
+              "placeholder": "Bitte wählen",
+              "error": "Bitte wählen Sie eine Option.",
+              "options": {
+                "project": "Projektanfrage",
+                "feedback": "Feedback",
+                "demo": "Demo anfragen",
+                "career": "Karriere"
+              }
+            },
+            "message": {
+              "label": "Ihre Nachricht*",
+              "placeholder": "Ihre Nachricht",
+              "error": "Nachricht ist erforderlich"
+            },
+            "source": {
+              "label": "Wie sind Sie auf uns aufmerksam geworden?*",
+              "placeholder": "z. B. Google, Empfehlung, Social Media",
+              "error": "Bitte geben Sie an, wie Sie auf uns aufmerksam geworden sind"
+            }
+          },
+          "submit": "Absenden",
+          "notifications": {
+            "success": {
+              "title": "Formular gesendet",
+              "description": "Wir werden uns in Kürze bei Ihnen melden."
+            },
+            "error": {
+              "title": "Ein Fehler ist aufgetreten.",
+              "description": "Bitte versuchen Sie es später erneut."
+            }
+          }
+        },
+        "locations": [
+          {
+            "title": "Zürich",
+            "description": "Unser Hauptquartier liegt in Zürich-West, nur wenige Meter von der Limmat entfernt.",
+            "image": "/images/pages/contact/zurich.png",
+            "address": {
+              "line0": "Supertext",
+              "line1": "Hardturmstrasse 253",
+              "line2": "8005 Zürich",
+              "line3": "Schweiz"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/Pxq2FXvvWgE4pdvTA"
+          },
+          {
+            "title": "Berlin",
+            "image": "/images/pages/contact/Berlin.png",
+            "description": "Unser Berliner Büro finden Sie im Herzen von Kreuzberg, direkt am Mehringdamm.",
+            "address": {
+              "line0": "Supertext",
+              "line1": "Mehringdamm 32/34",
+              "line2": "10961 Berlin",
+              "line3": "Deutschland"
+            },
+            "cta": "Google Maps",
+            "googleMapsLink": "https://maps.app.goo.gl/yjCjGk2qzQ55jAeB7"
+          }
+        ],
+        "footerNote": {
+          "cta": {
+            "title": "Jetzt Termin buchen",
+            "link": "/demo"
+          },
+          "text": "Sie möchten Supertext in Aktion erleben? Buchen Sie ganz unverbindlich eine <highlightText>Demo</highlightText> mit uns."
+        }
       },
       "faq": {
         "hero": {
@@ -2711,7 +2742,7 @@
             },
             "row2": {
               "title": "Spezialisiertes Training – für bessere Sprachqualität im ganzen Unternehmen",
-              "description": "Mit Ihren bestehenden Profi-Übersetzungen, Terminologie-Datenbanken und Stilvorgaben legen wir Ihre persönlichen Sprachmodelle an – und trainieren Sie punktgenau auf Ihre Corporate Language und Tonalität. Das Resultat: Sofortübersetzungen, die nachweislich besser und genauer sind."
+              "description": "Mit Ihren bestehenden Profi-Übersetzungen, Terminologie-Datenbanken und Stilvorgaben legen wir Ihre persönlichen Sprachmodelle an – und trainieren sie punktgenau auf Ihre Corporate Language und Tonalität. Das Resultat: Sofortübersetzungen, die nachweislich besser und genauer sind."
             }
           },
           "section2": {
@@ -2856,7 +2887,7 @@
           "totalAmountDueTodayDescription": "Dieser Betrag wird Ihnen beim Kauf sofort in Rechnung gestellt.",
           "trialPeriodBadge": "🎉 Erster Monat kostenlos",
           "trialPeriodDescription": "Sie erhalten ein kostenloses 1-monatiges Probeabonnement, danach werden Ihnen die Kosten entsprechend Ihrer Abonnementart und Ihrem Angebot in Rechnung gestellt. Ihr erster Zahlungsabzug erfolgt am {date}.",
-          "termsAndConditions": "Ich akzeptiere die allgemeinen Geschäftsbedingungen für den Kauf dieses Abos."
+          "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abos."
         }
       }
     },

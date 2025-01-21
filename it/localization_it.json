@@ -53,6 +53,7 @@
       "externalTranslating": "Tradotto",
       "dropFile": "Trascini un file ({supportedFileExtensions}) qui o",
       "dropAnotherFile": "Trascini un altro file ({supportedFileExtensions}) qui o",
+      "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder",
       "translateButton": "Tradurre in {toTargetLang}",
       "translateButtonRetry": "Riprovare",
       "cancelButton": "Annulla",
@@ -105,7 +106,7 @@
           "popover": "{subscriptionType} {size} L'abbonamento include file fino a MB"
         },
         "unsupportedFormat": {
-          "message": "{Erweiterungsdateien} Non offriamo servizi di traduzione per .",
+          "message": "{extension} Non offriamo servizi di traduzione per .",
           "popover": ""
         },
         "remainingFiles": {
@@ -1781,14 +1782,13 @@
       },
       "aiTranslation": {
         "title": "Traduzione IA",
-        "description": "Download immediato, {0} file rimanenti per questo mese.",
+        "description": "Sofort zum Download bereit",
         "cta": "Ottieni di più",
         "button": "Traduci ora"
       },
       "humanVerification": {
         "title": "Human-verified AI",
-        "titleWhitPrice": "Human-verified AI {0} {1}",
-        "titleWithPrice": "Human-verified AI {0} {1}"
+        "titleWithPrice": "{0} {1}"
       },
       "immediately": "immediatamente"
     },

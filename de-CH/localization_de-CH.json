@@ -53,6 +53,7 @@
       "externalTranslating": "Übersetzt",
       "dropFile": "Ziehen Sie eine Datei ({supportedFileExtensions}) hierhin oder",
       "dropAnotherFile": "Ziehen Sie eine weitere Datei ({supportedFileExtensions}) hierhin oder",
+      "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder",
       "translateButton": "Auf {toTargetLang} übersetzen",
       "translateButtonRetry": "Erneut versuchen",
       "cancelButton": "Abbrechen",
@@ -105,7 +106,7 @@
           "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
         },
         "unsupportedFormat": {
-          "message": "Wir bieten keine Übersetzung für {Erweiterungsdateien} an.",
+          "message": "Wir bieten keine Übersetzung für {extension} an.",
           "popover": ""
         },
         "remainingFiles": {
@@ -1787,8 +1788,7 @@
       },
       "humanVerification": {
         "title": "Human-verified AI",
-        "titleWhitPrice": "Human-verified AI {0} {1}",
-        "titleWithPrice": "Human-verified AI {0} {1}"
+        "titleWithPrice": "{0} {1}"
       },
       "immediately": "sofort"
     },

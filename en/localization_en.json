@@ -53,6 +53,7 @@
       "externalTranslating": "Translated",
       "dropFile": "Drag a file ({supportedFileExtensions}) here or",
       "dropAnotherFile": "Drag another file ({supportedFileExtensions}) here or",
+      "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder",
       "translateButton": "Translate to {toTargetLang}",
       "translateButtonRetry": "Try again",
       "cancelButton": "Cancel",
@@ -105,7 +106,7 @@
           "popover": "Your {subscriptionType} subscription includes files up to {size} MB"
         },
         "unsupportedFormat": {
-          "message": "We do not offer translation for {Erweiterungsdateien}.",
+          "message": "We do not offer translation for {extension}.",
           "popover": ""
         },
         "remainingFiles": {
@@ -1781,14 +1782,13 @@
       },
       "aiTranslation": {
         "title": "AI translation",
-        "description": "Instant download, {0} files remain this month.",
+        "description": "Sofort zum Download bereit",
         "cta": "Get more",
         "button": "Translate now"
       },
       "humanVerification": {
         "title": "Human-verified AI",
-        "titleWhitPrice": "Human-verified AI {0} {1}",
-        "titleWithPrice": "Human-verified AI {0} {1}"
+        "titleWithPrice": "{0} {1}"
       },
       "immediately": "immediately"
     },

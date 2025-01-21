@@ -877,12 +877,7 @@
           "title": "Finden Sie Ihr passendes Supertext-Abo",
           "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis – vom einfachen Online-Übersetzer bis zur vollintegrierten Custom-Lösung."
         },
-        "message": {
-          "part1": "Sie haben",
-          "part2": "grosse Ziele?",
-          "part3": "Wir die",
-          "part4": "passende Lösung."
-        },
+        "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText>, Wir die <highlightText>passende Lösung.</highlightText> ",
         "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um bald auch Sie dazu zu zählen?",
         "contactUs": "Lassen Sie uns reden",
         "compareAllFeatures": "Alle Abos vergleichen",
@@ -1415,6 +1410,9 @@
             },
             "3": {
               "title": "5 MB maximale Dateigrösse"
+            },
+            "6": {
+              "title": "Word- und PowerPoint-Dateien"
             },
             "4": {
               "title": "Profi-Check auf Knopfdruck (kostenpflichtig)"

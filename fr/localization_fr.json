@@ -877,12 +877,7 @@
           "title": "Trouvez l’abonnement Supertext qui vous convient.",
           "subtitle": "Traduire plus rapidement, plus efficacement et de manière plus sécurisée: Supertext propose différents packages de traduction par l’IA pour répondre à tous les besoins, de l’outil de traduction en ligne simple à la solution sur mesure entièrement intégrée."
         },
-        "message": {
-          "part1": "Vous avez",
-          "part2": "des objectifs ambitieux?",
-          "part3": "Nous avons",
-          "part4": "la solution."
-        },
+        "footerNote": "Vous avez <highlightText>des objectifs ambitieux?</highlightText> Nous avons<highlightText> la solution.</highlightText> ",
         "question": "Plus de 1500 entreprises à travers l’Europe ont déjà adopté nos produits et services sur mesure. Comment pouvons-nous vous convaincre d’en faire partie?",
         "contactUs": "Discutons-en",
         "compareAllFeatures": "Comparer les abonnements",
@@ -1415,6 +1410,9 @@
             },
             "3": {
               "title": "5 Mo maximum par fichier"
+            },
+            "6": {
+              "title": "Word- und PowerPoint-Dateien"
             },
             "4": {
               "title": "Vérification professionnelle à la demande (payant)"

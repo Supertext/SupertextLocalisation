@@ -877,12 +877,7 @@
           "title": "Find your perfect Supertext subscription",
           "subtitle": "Faster, better more secure translation: Supertext offers the right AI translation package for every need, from the simple online translator to fully integrated custom solutions."
         },
-        "message": {
-          "part1": "Big",
-          "part2": "ambitions?",
-          "part3": "We have the",
-          "part4": "right solution."
-        },
+        "footerNote": "Big <highlightText>ambitions?</highlightText> We have the<highlightText> right solution.</highlightText> ",
         "question": "Over 1,500 companies across Europe already use our customised products and services. What can we do to make you one of them?",
         "contactUs": "Let’s talk",
         "compareAllFeatures": "Compare all subscriptions",
@@ -1415,6 +1410,9 @@
             },
             "3": {
               "title": "5 MB maximum file size"
+            },
+            "6": {
+              "title": "Word- und PowerPoint-Dateien"
             },
             "4": {
               "title": "Expert check at the push of a button (paid service)"

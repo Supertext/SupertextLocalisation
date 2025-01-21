@@ -2286,13 +2286,8 @@
           "description": "Ob für Projekte, Feedback, Traumjobs oder eine Demo: Lassen Sie uns reden."
         },
         "salesSection": {
-          "title": "Kontaktieren Sie <highlightText>Supertext Sales</highlightText>",
-          "description": "Unser Team unterstützt Sie dabei, das Beste aus Supertext herauszuholen.\n\nKontaktieren Sie uns für:",
-          "bulletPoints": {
-            "point1": "Informationen dazu, wie Supertext Ihre globale Geschäftsexpansion unterstützen kann",
-            "point2": "Team-Pakete, Enterprise-Lösungen, APIs und mehr",
-            "point3": "Maßgeschneiderte Lösungen für Ihr Unternehmen"
-          }
+          "title": "Wir sind persönlich für Sie da –<highlight>in unter 60 Minuten</highlight>",
+          "description": "Sie brauchen ein massgeschneidertes Angebot? Oder interessieren sich für unsere Enterprise-Lösung? Füllen Sie das Formular aus und wir verbinden Sie in Rekordzeit mit der richtigen Ansprechperson."
         },
         "contactForm": {
           "intro": "Füllen Sie das Formular aus, damit wir Sie mit der richtigen Person in Verbindung setzen können.",
@@ -2378,7 +2373,7 @@
             "name": "Vor- und Nachname*",
             "company": "Unternehmen/Organisation*",
             "email": "E-Mail*",
-            "phone": "",
+            "phone": "Phone",
             "message": "Ihre Nachricht*"
           },
           "placeholders": {

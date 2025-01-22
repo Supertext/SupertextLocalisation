@@ -53,7 +53,6 @@
       "externalTranslating": "Übersetzt",
       "dropFile": "Ziehen Sie eine Datei ({supportedFileExtensions}) hierhin oder",
       "dropAnotherFile": "Ziehen Sie eine weitere Datei ({supportedFileExtensions}) hierhin oder",
-      "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder",
       "translateButton": "Auf {toTargetLang} übersetzen",
       "translateButtonRetry": "Erneut versuchen",
       "cancelButton": "Abbrechen",
@@ -106,7 +105,7 @@
           "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
         },
         "unsupportedFormat": {
-          "message": "Wir bieten keine Übersetzung für {extension} an.",
+          "message": "Wir bieten keine Übersetzung für {Erweiterungsdateien} an.",
           "popover": ""
         },
         "remainingFiles": {
@@ -118,7 +117,8 @@
         "message": "{remaining}/{total} Dateien verfügbar",
         "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
         "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
-      }
+      },
+      "dropFileWithoutExtension": ""
     },
     "profile": {
       "profile": "Profil",
@@ -764,11 +764,12 @@
       "languageExpertise": "Sprachexpertise",
       "languageExpertiseNav": {
         "overview": "Übersicht",
-        "aiTranslationVerification": "AI-Translation & Verifizierung",
+        "aiTranslation": "AI-Translation & Verifizierung",
         "spacialTranslation": "Fachübersetzung",
         "copywriting": "Copywriting",
         "editing": "Lektorat",
-        "consultation": "Beratung"
+        "consultation": "Beratung",
+        "aiTranslationVerification": ""
       },
       "changeLanguage": "Sprache ändern",
       "changeCountry": "Land ändern",
@@ -777,7 +778,15 @@
         "other": "Andere"
       },
       "technology": "Technologie",
-      "contact": "Kontakt"
+      "contact": "Kontakt",
+      "home": "Start",
+      "orderIssuer": {
+        "title": "",
+        "learnMore": {
+          "title": "",
+          "description": ""
+        }
+      }
     },
     "filter": {
       "title": "Filter",
@@ -878,7 +887,12 @@
           "title": "Finden Sie Ihr passendes Supertext-Abo",
           "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis – vom einfachen Online-Übersetzer bis zur vollintegrierten Custom-Lösung."
         },
-        "footerNote": "Sie haben <highlightText> große Ziele?</highlightText>, Wir die <highlightText>passende Lösung.</highlightText> ",
+        "message": {
+          "part1": "Sie haben",
+          "part2": "große Ziele?",
+          "part3": "Wir die",
+          "part4": "passende Lösung."
+        },
         "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere maßgeschneiderten Produkte und Services. Was können wir tun, um bald auch Sie dazu zu zählen?",
         "contactUs": "Lassen Sie uns reden",
         "compareAllFeatures": "Alle Abos vergleichen",
@@ -940,7 +954,8 @@
         },
         "firstMonthFree": "Erster Monat kostenlos",
         "cancelSubscriptionButton": "Abo downgraden",
-        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}."
+        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}.",
+        "footerNote": "Sie haben <highlightText> große Ziele</highlightText>? Wir die <highlightText>passende Lösung</highlightText>."
       },
       "resources": {
         "title": "Sprachressourcen"
@@ -1061,7 +1076,7 @@
             "changePaymentMethodTooltip": {
               "linkText": "Kontaktieren Sie uns",
               "prefilledSubject": "Antrag für Zahlung auf Rechnung",
-              "prefilledBody": "Guten Tag,\n\nbitte aktivieren Sie für mein Supertext-Konto (und allfällige weitere User:innen in meiner Organisation) die Zahlung auf Rechnung.",
+              "prefilledBody": "Guten Tag,\n\nbitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
               "emailAddress": "info@supertext.com"
             }
           },
@@ -1181,7 +1196,7 @@
         "revisionOption": "Bitte gemäß Feedback-Nachricht im Textfeld überarbeiten",
         "revisionRequest": "Überarbeitung anfordern",
         "submitFile": "Überarbeitung anfordern",
-        "uploadFiles": "Dokumente hochladen",
+        "uploadFiles": "Dokumente mit Kommentaren hochladen",
         "messagePlaceholder": "z. B. ein guter, frischer Stil, wir sind sehr zufrieden, im letzten Abschnitt fehlen zwei Argumente, wir werden das selbst einfügen.",
         "ratingOptions": {
           "super": "Super",
@@ -1242,7 +1257,8 @@
         "imprint": "Impressum",
         "terms": "AGB",
         "privacy": "Datenschutzerklärung",
-        "dataProtection": "Datenschutz"
+        "dataProtection": "Datenschutz",
+        "media": "Medien"
       }
     },
     "fileTranslation": {
@@ -1261,6 +1277,7 @@
       },
       "stepOne": {
         "title": "Verifizierung",
+        "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
         "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
         "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
       },
@@ -1375,7 +1392,8 @@
         "nonWorkingDaysHolidays": "Feiertage",
         "nonWorkingDaysInfo": "Geschlossen",
         "businessHoursInfo": "Geschäftszeiten"
-      }
+      },
+      "readMore": ""
     },
     "couponCode": {
       "placeholder": "Rabattcode eingeben",
@@ -1410,16 +1428,16 @@
             "3": {
               "title": "5 MB maximale Dateigröße"
             },
-            "6": {
-              "title": "Word- und PowerPoint-Dateien"
-            },
             "4": {
               "title": "Profi-Check auf Knopfdruck (kostenpflichtig)"
             },
             "5": {
               "title": "Fused Translation",
               "badge": "Bald verfügbar",
-              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen"
+              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen)"
+            },
+            "6": {
+              "title": ""
             }
           }
         }
@@ -1778,17 +1796,24 @@
         "button": "Auftrag erteilen",
         "description": "Maximal präzis und verlässlich"
       },
-      "aiTranslationVerification": {
+      "aiTranslation": {
         "title": "AI Translation",
-        "description": "Sofort zum Download bereit",
+        "description": "Sofortiger Download, {0} Dateien verbleiben diesen Monat.",
         "cta": "Mehr bekommen",
         "button": "Jetzt übersetzen"
       },
       "humanVerification": {
         "title": "Human-verified AI",
-        "titleWithPrice": "{0} {1}"
+        "titleWhitPrice": "Human-verified AI {0} {1}",
+        "titleWithPrice": "Human-verified AI {0} {1}"
       },
-      "immediately": "sofort"
+      "immediately": "sofort",
+      "aiTranslationVerification": {
+        "title": "",
+        "description": "",
+        "cta": "",
+        "button": ""
+      }
     },
     "components": {
       "faq": {
@@ -1948,21 +1973,59 @@
       },
       "home": {
         "heroSection": {
-          "mainHeading": "Fused Translation:<break></break>Wir denken Übersetzung neu",
+          "mainHeading": "Fused Translation:\nWir denken Übersetzung neu",
           "eyebrowHeadline": "WAS UNS AUSMACHT",
+          "languageServices": {
+            "items": [
+              {
+                "title": "AI Translation & Verifizierung",
+                "description": "Sicher sein – in Minuten statt Stunden. Mit unserem Profi-Check auf Knopfdruck.",
+                "cta": {
+                  "title": "Mehr erfahren",
+                  "link": "/ai-translation"
+                }
+              },
+              {
+                "title": "Fachübersetzung",
+                "description": "Von ausgewiesenen Spezialist:innen mit Erfahrung in Ihrem Fachgebiet.",
+                "cta": {
+                  "title": "Mehr erfahren",
+                  "link": "/service/translation"
+                }
+              },
+              {
+                "title": "Copywriting & Content",
+                "description": "Für Texte, die wirken – ideenreich und treffsicher.",
+                "cta": {
+                  "title": "Mehr erfahren",
+                  "link": "/service/copywriting"
+                }
+              },
+              {
+                "title": "Lektorat",
+                "description": "Der letzte Schliff – stilsicher, pingelig und richtig schnell.",
+                "cta": {
+                  "title": "Mehr erfahren",
+                  "link": "/service/editing"
+                }
+              }
+            ],
+            "expertiseButton": "Sprachexpertise"
+          },
+          "leading": "",
           "services": {
             "items": [
               {
-                "title": "Warum Supertext?",
-                "link": "/why-supertext"
+                "title": "",
+                "link": ""
               },
               {
-                "title": "AI-Technologie",
-                "link": "/verification"
+                "title": "",
+                "link": ""
               },
               {
-                "title": "Sprachexpertise",
-                "link": "/language-expertise"
+                "title": "",
+                "link": ""
               }
             ]
           }
@@ -1973,7 +2036,7 @@
             "title": "AI Translation",
             "cards": [
               {
-                "icon": "/images/pages/verification/feature-icon.png",
+                "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Sofort übersetzen in 23 Sprachen",
                 "description": "Mit Supertext kommunizieren Sie schneller, besser, sicherer. Unsere KI-Übersetzungslösung basiert auf hauseigenen LLM-Systemen der neusten Generation und beherrscht 23 Sprachen von Japanisch bis Schweizerdeutsch. Einfach, nach höchsten Sicherheitsstandards und nahtlos in jedes System integriert.",
                 "cta": {
@@ -1983,7 +2046,7 @@
                 }
               },
               {
-                "icon": "/images/pages/verification/feature-icon.png",
+                "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Profi-Check auf Knopfdruck",
                 "description": "Sicher sein, mit einem Klick: Lassen Sie wichtige Übersetzungen von den Profis prüfen – in Minuten statt Stunden. Supertext verbindet Sie direkt mit über 3000 erfahrenen Linguisten und Kulturexpertinnen. Damit Ihre Botschaft sicher ankommt, wenn es wirklich wichtig ist.",
                 "cta": {
@@ -1993,14 +2056,15 @@
                 }
               },
               {
-                "icon": "/images/pages/verification/feature-icon.png",
+                "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Ihre persönliche KI, die in Echtzeit lernt",
                 "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder professionell verifizierten Übersetzung weiter an Ihren Stil, Ihre Wortwahl und Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
                   "link": "Technologie"
-                }
+                },
+                "badge": ""
               }
             ]
           },
@@ -2009,12 +2073,17 @@
             "title": "Profi-Services",
             "cards": [
               {
-                "icon": "/images/pages/verification/feature-icon.png",
+                "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Fachübersetzungen durch erfahrene Expert:innen",
-                "description": "Ob Vertragstext oder Plakatkampagne: Unsere 3000 handverlesenen Sprachexpert:innen übersetzen noch präziser. Fachlich versiert, von InDesign bis Word und von Arabisch bis Zulu."
+                "description": "Ob Vertragstext oder Plakatkampagne: Unsere 3000 handverlesenen Sprachexpert:innen übersetzen noch präziser. Fachlich versiert, von InDesign bis Word und von Arabisch bis Zulu.",
+                "cta": {
+                  "variant": "",
+                  "title": "",
+                  "link": ""
+                }
               },
               {
-                "icon": "/images/pages/verification/feature-icon.png",
+                "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Copywriting & Content durch kreative Profi-Texter:innen",
                 "description": "Unser globales Team erfahrener Texter:innen fängt dort an, wo Ihnen die Worte fehlen. In Ihrem Tone of Voice, ideenreich und treffsicher vom Blogartikel bis zur internationalen Plakatkampagne.",
                 "cta": {
@@ -2024,24 +2093,34 @@
                 }
               },
               {
-                "icon": "/images/pages/verification/feature-icon.png",
+                "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Professionelles Lektorat für den letzten Schliff",
-                "description": "Ausgewählte Lektor:innen sorgen dafür, dass alle Buchstaben richtig stehen und jedes Wort sitzt. Wir korrigieren, redigieren, lektorieren gemäß Ihren Vorgaben. Pingelig und rekordverdächtig schnell."
+                "description": "Ausgewählte Lektor:innen sorgen dafür, dass alle Buchstaben richtig stehen und jedes Wort sitzt. Wir korrigieren, redigieren, lektorieren gemäß Ihren Vorgaben. Pingelig und rekordverdächtig schnell.",
+                "cta": {
+                  "variant": "",
+                  "title": "",
+                  "link": ""
+                }
               }
             ]
           },
           {
             "id": "3",
             "title": "Für Unternehmen",
-            "icon": "/images/pages/verification/feature-icon.png",
+            "icon": "/images/pages/ai-translation/feature-icon.png",
             "cards": [
               {
-                "icon": "/images/pages/verification/feature-icon.png",
+                "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Custom LLMs für noch bessere Sprachqualität",
-                "description": "Das beste Sprachmodell ist Ihr eigenes. Darum entwickeln wir kundenspezifische LLMs, genau auf Ihre Stilvorgaben und Content-Formate zugeschnitten. Für eine reibungslose Kommunikation im ganzen Unternehmen – unverwechselbar in jeder Sprache."
+                "description": "Das beste Sprachmodell ist Ihr eigenes. Darum entwickeln wir kundenspezifische LLMs, genau auf Ihre Stilvorgaben und Content-Formate zugeschnitten. Für eine reibungslose Kommunikation im ganzen Unternehmen – unverwechselbar in jeder Sprache.",
+                "cta": {
+                  "variant": "",
+                  "title": "",
+                  "link": ""
+                }
               },
               {
-                "icon": "/images/pages/verification/feature-icon.png",
+                "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Datensicherheit genau nach Ihren Vorgaben",
                 "description": "Von Private Cloud oder On-Premises-Hosting bis Single Sign-on (SSO): In unserer Business-Lösung gestalten Sie die Security-Maßnahmen flexibel mit. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
                 "cta": {
@@ -2051,9 +2130,14 @@
                 }
               },
               {
-                "icon": "/images/pages/verification/feature-icon.png",
+                "icon": "/images/pages/ai-translation/feature-icon.png",
                 "title": "Die All-in-one-Lösung, die immer besser wird",
-                "description": "Von vollautomatisch bis handgemacht: Mit Supertext beziehen Unternehmen alle Übersetzungen an einem Ort. Für mehr Sicherheit, nachhaltig bessere Qualität und sinkende Kosten dank laufendem AI Learning."
+                "description": "Von vollautomatisch bis handgemacht: Mit Supertext beziehen Unternehmen alle Übersetzungen an einem Ort. Für mehr Sicherheit, nachhaltig bessere Qualität und sinkende Kosten dank laufendem AI Learning.",
+                "cta": {
+                  "variant": "",
+                  "title": "",
+                  "link": ""
+                }
               }
             ]
           }
@@ -2150,7 +2234,7 @@
                   "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung – und dem Profi-Check auf Knopfdruck.",
                   "cta": {
                     "title": "Mehr erfahren",
-                    "link": "/verification",
+                    "link": "/ai-translation",
                     "variant": "secondary"
                   }
                 },
@@ -2182,6 +2266,15 @@
                   }
                 },
                 {
+                  "title": "Plain Language",
+                  "description": "Wir machen auch Fachtexte leicht verständlich. Für mehr Vertrauen und weniger Supportanfragen.",
+                  "cta": {
+                    "title": "JETZT BESTELLEN",
+                    "link": "https://www.supertext.ch/de/plain-language",
+                    "variant": "secondary"
+                  }
+                },
+                {
                   "title": "Beratung",
                   "description": "Sie haben große Pläne? Wir die passende Lösung in jeder Sprache. Von 0 % bis 100 % automatisiert.",
                   "cta": {
@@ -2199,7 +2292,7 @@
           "title": "Expertise von Å bis Ž: Lernen Sie unser Team kennen",
           "items": [
             {
-              "image": "/images/pages/language-expertise/Tristan.png",
+              "image": "/images/pages/language-expertise/portrait1.png",
               "quote": "„So lange, bis jedes Wort sitzt.“",
               "person": "Tristan Sechrest, English Language Specialist",
               "content": [
@@ -2218,7 +2311,7 @@
               ]
             },
             {
-              "image": "/images/pages/language-expertise/Philippe.png",
+              "image": "/images/pages/language-expertise/portrait2.png",
               "quote": "„Das beste Sprachmodell? Ihr eigenes.“",
               "person": "Philippe Schläpfer, Research Scientist",
               "content": [
@@ -2254,8 +2347,13 @@
           "description": "Ob für Projekte, Feedback, Traumjobs oder eine Demo: Lassen Sie uns reden."
         },
         "salesSection": {
-          "title": "Wir sind persönlich für Sie da –<highlight>in unter 60 Minuten</highlight>",
-          "description": "Sie brauchen ein massgeschneidertes Angebot? Oder interessieren sich für unsere Enterprise-Lösung? Füllen Sie das Formular aus und wir verbinden Sie in Rekordzeit mit der richtigen Ansprechperson."
+          "title": "Kontaktieren Sie <highlightText>Supertext Sales</highlightText>",
+          "description": "Unser Team unterstützt Sie dabei, das Beste aus Supertext herauszuholen.\n\nKontaktieren Sie uns für:",
+          "bulletPoints": {
+            "point1": "Informationen dazu, wie Supertext Ihre globale Geschäftsexpansion unterstützen kann",
+            "point2": "Team-Pakete, Enterprise-Lösungen, APIs und mehr",
+            "point3": "Maßgeschneiderte Lösungen für Ihr Unternehmen"
+          }
         },
         "contactForm": {
           "intro": "Füllen Sie das Formular aus, damit wir Sie mit der richtigen Person in Verbindung setzen können.",
@@ -2341,7 +2439,7 @@
             "name": "Vor- und Nachname*",
             "company": "Unternehmen/Organisation*",
             "email": "E-Mail*",
-            "phone": "Phone",
+            "phone": "",
             "message": "Ihre Nachricht*"
           },
           "placeholders": {
@@ -2398,6 +2496,10 @@
             {
               "title": "Jobs und Karriere",
               "email": "people@supertext.com"
+            },
+            {
+              "title": "Medien",
+              "email": "media@supertext.com"
             },
             {
               "title": "Customer Support",
@@ -2554,11 +2656,6 @@
             "link": "/why-supertext"
           }
         },
-        "isoCertificate": {
-          "cta": {
-            "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_certificates_Supertext_24_27_EN_e7a08d5452.pdf"
-          }
-        },
         "figuresPanel": {
           "title": "KEY FIGURES",
           "items": [
@@ -2631,9 +2728,24 @@
             "title": "Alles zur Karriere bei Supertext",
             "link": "/work-at-supertext"
           }
+        },
+        "isoCertificate": {
+          "description": "",
+          "title": "",
+          "cta": {
+            "title": "",
+            "link": ""
+          }
+        },
+        "blog": {
+          "heading": "",
+          "cta": {
+            "text": "",
+            "link": ""
+          }
         }
       },
-      "aiTranslationVerification": {
+      "aiTranslation": {
         "hero": {
           "title": "KI-Übersetzung mit Profi-Check",
           "description": "Sicher sein – in Minuten statt Stunden. Dank der Verifizierung durch erfahrene Übersetzer:innen auf Knopfdruck."
@@ -2652,17 +2764,17 @@
             {
               "title": "KI-Übersetzung auf dem neusten Stand der Technik",
               "description": "Die Basis bilden unsere hauseigenen Übersetzungssysteme. Sie gehören zur neusten Generation künstlicher Intelligenz und beherrschen 23 Sprachen inkl. lokaler Sprachvarianten.",
-              "icon": "/images/pages/verification/icon-bullet.png"
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
             },
             {
               "title": "Professionell geprüft – in wenigen Minuten",
               "description": "Unsere muttersprachlichen Profi-Übersetzer:innen stellen sicher, dass die Übersetzung inhaltlich exakt dem Original entspricht – und intervenieren auch sprachlich wo nötig.",
-              "icon": "/images/pages/verification/icon-bullet.png"
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
             },
             {
               "title": "Immer besser: Ihr persönliches KI-Modell lernt mit",
               "description": "Sobald der Check fertig ist, liefern wir die geprüfte Übersetzung aus. An Sie zum Download – und an Ihr persönliches Sprachmodell zur laufenden Verbesserung in Echtzeit.",
-              "icon": "/images/pages/verification/icon-bullet.png"
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
             }
           ],
           "cta": {
@@ -2680,17 +2792,17 @@
             {
               "title": "Text auf supertext.com übersetzen und „Profi-Check starten“ wählen",
               "number": "01",
-              "image": "/images/pages/verification/step-1.webp"
+              "image": "/images/pages/ai-translation/step-1.webp"
             },
             {
               "title": "Auftragsdetails bestätigen und Zahlungsmethode angeben",
               "number": "02",
-              "image": "/images/pages/verification/step-2.webp"
+              "image": "/images/pages/ai-translation/step-2.webp"
             },
             {
               "title": "Verifizierte Übersetzung wenige Minuten später abholen",
               "number": "03",
-              "image": "/images/pages/verification/step-3.webp"
+              "image": "/images/pages/ai-translation/step-3.webp"
             }
           ]
         },
@@ -2699,7 +2811,7 @@
           "eyebrowHeadline": "Unser Versprechen",
           "items": [
             {
-              "icon": "/images/pages/verification/feature-icon.png",
+              "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "3000 diplomierte muttersprachliche Expert:innen",
               "description": "Alle unsere Fachübersetzer:innen haben einen Hochschulabschluss im Bereich Übersetzung oder mindestens fünf Jahre Berufserfahrung und durchlaufen einen internen Test.",
               "cta": {
@@ -2709,7 +2821,7 @@
               }
             },
             {
-              "icon": "/images/pages/verification/feature-icon.png",
+              "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "Geprüft, genormt und nach ISO-Standard ausgezeichnet",
               "description": "Supertext ist seit 2018 für die Übersetzungsqualität (ISO 17100 und 18587), das Qualitätsmanagement (ISO 9001) und die Datensicherheit (ISO 27001) zertifiziert.",
               "cta": {
@@ -2719,7 +2831,7 @@
               }
             },
             {
-              "icon": "/images/pages/verification/feature-icon.png",
+              "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "Kompromisslos sicher",
               "description": "Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und sichersten Servern halten wir Ihre Daten immer unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
               "cta": {
@@ -2729,7 +2841,7 @@
               }
             },
             {
-              "icon": "/images/pages/verification/feature-icon.png",
+              "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
               "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
             }
@@ -2742,7 +2854,7 @@
             "link": "/",
             "target": "_blank"
           },
-          "image": "/images/pages/verification/footer_gif.gif"
+          "image": "/images/pages/ai-translation/footer_gif.gif"
         }
       },
       "technology": {
@@ -2917,6 +3029,118 @@
           "trialPeriodBadge": "🎉 Erster Monat kostenlos",
           "trialPeriodDescription": "Sie erhalten ein kostenloses 1-monatiges Probeabonnement, danach werden Ihnen die Kosten entsprechend Ihrer Abonnementart und Ihrem Angebot in Rechnung gestellt. Ihr erster Zahlungsabzug erfolgt am {date}.",
           "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abonnements."
+        }
+      },
+      "aiTranslationVerification": {
+        "hero": {
+          "title": "",
+          "description": ""
+        },
+        "lead": {
+          "large": "",
+          "small": "",
+          "cta": {
+            "title": "",
+            "link": ""
+          }
+        },
+        "informationalPanel": {
+          "title": "",
+          "items": [
+            {
+              "title": "",
+              "description": "",
+              "icon": ""
+            },
+            {
+              "title": "",
+              "description": "",
+              "icon": ""
+            },
+            {
+              "title": "",
+              "description": "",
+              "icon": ""
+            }
+          ],
+          "cta": {
+            "text": "",
+            "link": ""
+          }
+        },
+        "tutorialBlock": {
+          "title": "",
+          "cta": {
+            "text": "",
+            "link": ""
+          },
+          "items": [
+            {
+              "title": "",
+              "number": "",
+              "image": ""
+            },
+            {
+              "title": "",
+              "number": "",
+              "image": ""
+            },
+            {
+              "title": "",
+              "number": "",
+              "image": ""
+            }
+          ]
+        },
+        "featureGallery": {
+          "title": "",
+          "eyebrowHeadline": "",
+          "items": [
+            {
+              "icon": "",
+              "title": "",
+              "description": "",
+              "cta": {
+                "variant": "",
+                "title": "",
+                "link": ""
+              }
+            },
+            {
+              "icon": "",
+              "title": "",
+              "description": "",
+              "cta": {
+                "variant": "",
+                "title": "",
+                "link": ""
+              }
+            },
+            {
+              "icon": "",
+              "title": "",
+              "description": "",
+              "cta": {
+                "variant": "",
+                "title": "",
+                "link": ""
+              }
+            },
+            {
+              "icon": "",
+              "title": "",
+              "description": ""
+            }
+          ]
+        },
+        "footerNote": {
+          "text": "",
+          "cta": {
+            "title": "",
+            "link": "",
+            "target": ""
+          },
+          "image": ""
         }
       }
     },

@@ -750,6 +750,7 @@
     "close": "Schliessen",
     "navbar": {
       "services": "Services",
+      "home": "Start",
       "whySupertext": "Warum Supertext?",
       "subscriptionAndPrices": "Abos",
       "forCompanies": "Für Unternehmen",
@@ -764,7 +765,7 @@
       "languageExpertise": "Sprachexpertise",
       "languageExpertiseNav": {
         "overview": "Übersicht",
-        "aiTranslation": "AI-Translation & Verifizierung",
+        "aiTranslationVerification": "AI-Translation & Verifizierung",
         "spacialTranslation": "Fachübersetzung",
         "copywriting": "Copywriting",
         "editing": "Lektorat",
@@ -777,7 +778,14 @@
         "other": "Andere"
       },
       "technology": "Technologie",
-      "contact": "Kontakt"
+      "contact": "Kontakt",
+      "orderIssuer": {
+        "title": "Auftrag erteilen",
+        "learnMore": {
+          "title": "Mehr erfahren",
+          "description": "Erfahrene Expert:innen und ISO-zertifizierte Prozesse: <link>alles zu unserer Sprachexpertise</link>"
+        }
+      }
     },
     "filter": {
       "title": "Filter",
@@ -1219,9 +1227,7 @@
         "translation": "KI-Übersetzung mit Profi-Check",
         "expertise": "Fachübersetzung",
         "editing": "Lektorat",
-        "copywriting": "Copywriting",
-        "consulting": "Beratung",
-        "forBusiness": "Für Unternehmen"
+        "copywriting": "Copywriting & Content"
       },
       "knowledgeTitle": "WISSENSWERTES",
       "knowledge": {
@@ -1242,8 +1248,7 @@
         "imprint": "Impressum",
         "terms": "AGB",
         "privacy": "Datenschutzerklärung",
-        "dataProtection": "Datenschutz",
-        "media": "Medien"
+        "dataProtection": "Datenschutz"
       }
     },
     "fileTranslation": {
@@ -1253,6 +1258,7 @@
       "verifyButton": "Profi-Check starten",
       "stepTitle": "Profi-Check starten – Schritt",
       "stepDescription": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung.",
+      "readMore": "Mehr erfahren",
       "nextStepButton": "Nächster Schritt",
       "orderVerification": "Verifizierung bestellen",
       "authorizePayment": "Zahlung autorisieren",
@@ -1262,7 +1268,6 @@
       },
       "stepOne": {
         "title": "Verifizierung",
-        "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
         "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
         "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
       },
@@ -1780,7 +1785,7 @@
         "button": "Auftrag erstellen",
         "description": "Maximal präzis und verlässlich"
       },
-      "aiTranslation": {
+      "aiTranslationVerification": {
         "title": "AI Translation",
         "description": "Sofort zum Download bereit",
         "cta": "Mehr bekommen",
@@ -1950,44 +1955,24 @@
       },
       "home": {
         "heroSection": {
-          "mainHeading": "Fused Translation:\nWir denken Übersetzung neu",
+          "mainHeading": "Fused Translation:<break></break>Wir denken Übersetzung neu",
           "eyebrowHeadline": "WAS UNS AUSMACHT",
-          "languageServices": {
+          "leading": "Supertext verbindet Language AI und menschliche Expertise zu einer nahtlosen Übersetzungslösung für jede Art von Content. Simpel, lernfähig, exakt auf Sie zugeschnitten und in jeder Hinsicht sicher.",
+          "services": {
             "items": [
               {
-                "title": "AI Translation & Verifizierung",
-                "description": "Sicher sein – in Minuten statt Stunden. Mit unserem Profi-Check auf Knopfdruck.",
-                "cta": {
-                  "title": "Mehr erfahren",
-                  "link": "/ai-translation"
-                }
+                "title": "Warum Supertext?",
+                "link": "/why-supertext"
               },
               {
-                "title": "Fachübersetzung",
-                "description": "Von ausgewiesenen Spezialist:innen mit Erfahrung in Ihrem Fachgebiet.",
-                "cta": {
-                  "title": "Mehr erfahren",
-                  "link": "/service/translation"
-                }
+                "title": "AI-Technologie",
+                "link": "/verification"
               },
               {
-                "title": "Copywriting & Content",
-                "description": "Für Texte, die wirken – ideenreich und treffsicher.",
-                "cta": {
-                  "title": "Mehr erfahren",
-                  "link": "/service/copywriting"
-                }
-              },
-              {
-                "title": "Lektorat",
-                "description": "Der letzte Schliff – stilsicher, pingelig und richtig schnell.",
-                "cta": {
-                  "title": "Mehr erfahren",
-                  "link": "/service/editing"
-                }
+                "title": "Sprachexpertise",
+                "link": "/language-expertise"
               }
-            ],
-            "expertiseButton": "Sprachexpertise"
+            ]
           }
         },
         "servicesCards": [
@@ -1996,7 +1981,7 @@
             "title": "AI Translation",
             "cards": [
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/verification/feature-icon.png",
                 "title": "Sofort übersetzen in 23 Sprachen",
                 "description": "Mit Supertext kommunizieren Sie schneller, besser, sicherer. Unsere KI-Übersetzungslösung basiert auf hauseigenen LLM-Systemen der neusten Generation und beherrscht 23 Sprachen von Japanisch bis Schweizerdeutsch. Einfach, nach höchsten Sicherheitsstandards und nahtlos in jedes System integriert.",
                 "cta": {
@@ -2006,7 +1991,7 @@
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/verification/feature-icon.png",
                 "title": "Profi-Check auf Knopfdruck",
                 "description": "Sicher sein, mit einem Klick: Lassen Sie wichtige Übersetzungen von den Profis prüfen – in Minuten statt Stunden. Supertext verbindet Sie direkt mit über 3000 erfahrenen Linguisten und Kulturexpertinnen. Damit Ihre Botschaft sicher ankommt, wenn es wirklich wichtig ist.",
                 "cta": {
@@ -2016,14 +2001,15 @@
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/verification/feature-icon.png",
                 "title": "Ihre persönliche KI, die in Echtzeit lernt",
                 "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder professionell verifizierten Übersetzung weiter an Ihren Stil, Ihre Wortwahl und Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
                   "link": "/technologie"
-                }
+                },
+                "badge": "Bald verfügbar"
               }
             ]
           },
@@ -2032,51 +2018,71 @@
             "title": "Profi-Services",
             "cards": [
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/verification/feature-icon.png",
                 "title": "Fachübersetzungen durch erfahrene Expert:innen",
-                "description": "Ob Vertragstext oder Plakatkampagne: Unsere 3000 handverlesenen Sprachexpert:innen übersetzen noch präziser. Fachlich versiert, von InDesign bis Word und von Arabisch bis Zulu."
+                "description": "Ob Vertragstext oder Plakatkampagne: Unsere 3000 handverlesenen Sprachexpert:innen übersetzen noch präziser. Fachlich versiert, von InDesign bis Word und von Arabisch bis Zulu.",
+                "cta": {
+                  "variant": "primary",
+                  "title": "Auftrag erstellen",
+                  "link": "/order/translation?customOrderStyleName=common"
+                }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/verification/feature-icon.png",
                 "title": "Copywriting & Content durch kreative Profi-Texter:innen",
                 "description": "Unser globales Team erfahrener Texter:innen fängt dort an, wo Ihnen die Worte fehlen. In Ihrem Tone of Voice, ideenreich und treffsicher vom Blogartikel bis zur internationalen Plakatkampagne.",
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": "/"
+                  "link": "/order/copywriting?customOrderStyleName=common"
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/verification/feature-icon.png",
                 "title": "Professionelles Lektorat für den letzten Schliff",
-                "description": "Ausgewählte Lektor:innen sorgen dafür, dass alle Buchstaben richtig stehen und jedes Wort sitzt. Wir korrigieren, redigieren, lektorieren gemäss Ihren Vorgaben. Pingelig und rekordverdächtig schnell."
+                "description": "Ausgewählte Lektor:innen sorgen dafür, dass alle Buchstaben richtig stehen und jedes Wort sitzt. Wir korrigieren, redigieren, lektorieren gemäss Ihren Vorgaben. Pingelig und rekordverdächtig schnell.",
+                "cta": {
+                  "variant": "primary",
+                  "title": "Auftrag erstellen",
+                  "link": "/order/proofreading?customOrderStyleName=common"
+                }
               }
             ]
           },
           {
             "id": "3",
             "title": "Für Unternehmen",
-            "icon": "/images/pages/ai-translation/feature-icon.png",
+            "icon": "/images/pages/verification/feature-icon.png",
             "cards": [
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/verification/feature-icon.png",
                 "title": "Custom LLMs für noch bessere Sprachqualität",
-                "description": "Das beste Sprachmodell ist Ihr eigenes. Darum entwickeln wir kundenspezifische LLMs, genau auf Ihre Stilvorgaben und Content-Formate zugeschnitten. Für eine reibungslose Kommunikation im ganzen Unternehmen – unverwechselbar in jeder Sprache."
-              },
-              {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "Datensicherheit genau nach Ihren Vorgaben",
-                "description": "Von Private Cloud oder On-Premises-Hosting bis Single Sign-on (SSO): In unserer Business-Lösung gestalten Sie die Security-Massnahmen flexibel mit. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
+                "description": "Das beste Sprachmodell ist Ihr eigenes. Darum entwickeln wir kundenspezifische LLMs, genau auf Ihre Stilvorgaben und Content-Formate zugeschnitten. Für eine reibungslose Kommunikation im ganzen Unternehmen – unverwechselbar in jeder Sprache.",
                 "cta": {
-                  "variant": "primary",
+                  "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
                   "link": "/technologie"
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/verification/feature-icon.png",
+                "title": "Datensicherheit genau nach Ihren Vorgaben",
+                "description": "Von Private Cloud oder On-Premises-Hosting bis Single Sign-on (SSO): In unserer Business-Lösung gestalten Sie die Security-Massnahmen flexibel mit. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
+                "cta": {
+                  "variant": "PrimaryBorderVariant",
+                  "title": "Mehr erfahren",
+                  "link": "/technologie"
+                }
+              },
+              {
+                "icon": "/images/pages/verification/feature-icon.png",
                 "title": "Die All-in-One-Lösung, die immer besser wird",
-                "description": "Von vollautomatisch bis handgemacht: Mit Supertext beziehen Unternehmen alle Übersetzungen an einem Ort. Für mehr Sicherheit, nachhaltig bessere Qualität und sinkende Kosten dank laufendem AI Learning."
+                "description": "Von vollautomatisch bis handgemacht: Mit Supertext beziehen Unternehmen alle Übersetzungen an einem Ort. Für mehr Sicherheit, nachhaltig bessere Qualität und sinkende Kosten dank laufendem AI Learning.",
+                "cta": {
+                  "variant": "PrimaryBorderVariant",
+                  "title": "Mehr erfahren",
+                  "link": "/why-supertext"
+                }
               }
             ]
           }
@@ -2126,7 +2132,7 @@
         },
         "lead": {
           "large": "<highlight>Vollautomatisch</highlight> oder <highlight>handgemacht?</highlight> Die Antwort liegt oft dazwischen.",
-          "small": "Mit KI übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen darum mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break> <break></break> Der grosse Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
+          "small": "Mit KI übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen darum mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break><break></break>Der grosse Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
         },
         "featureList": {
           "title": "Supertext. Wer steckt drin?",
@@ -2173,7 +2179,7 @@
                   "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung – und dem Profi-Check auf Knopfdruck.",
                   "cta": {
                     "title": "Mehr erfahren",
-                    "link": "/ai-translation",
+                    "link": "/verification",
                     "variant": "secondary"
                   }
                 },
@@ -2205,15 +2211,6 @@
                   }
                 },
                 {
-                  "title": "Plain Language",
-                  "description": "Wir machen auch Fachtexte leicht verständlich. Für mehr Vertrauen und weniger Supportanfragen.",
-                  "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "https://www.supertext.ch/de/plain-language",
-                    "variant": "secondary"
-                  }
-                },
-                {
                   "title": "Beratung",
                   "description": "Sie haben grosse Pläne? Wir die passende Lösung in jeder Sprache. Von 0 % bis 100 % automatisiert.",
                   "cta": {
@@ -2231,7 +2228,7 @@
           "title": "Expertise von Å bis Ž: Lernen Sie unser Team kennen",
           "items": [
             {
-              "image": "/images/pages/language-expertise/portrait1.png",
+              "image": "/images/pages/language-expertise/Tristan.png",
               "quote": "«So lange, bis jedes Wort sitzt.»",
               "person": "Tristan Sechrest, English Language Specialist",
               "content": [
@@ -2250,7 +2247,7 @@
               ]
             },
             {
-              "image": "/images/pages/language-expertise/portrait2.png",
+              "image": "/images/pages/language-expertise/Philippe.png",
               "quote": "«Das beste Sprachmodell? Ihr eigenes.»",
               "person": "Philippe Schläpfer, Research Scientist",
               "content": [
@@ -2432,10 +2429,6 @@
               "email": "people@supertext.com"
             },
             {
-              "title": "Medien",
-              "email": "media@supertext.com"
-            },
-            {
               "title": "Customer Support",
               "email": "support@supertext.com"
             }
@@ -2496,7 +2489,7 @@
         },
         "lead": {
           "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie</highlight>. Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
-          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
+          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break><break></break>Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
           "cta": {
             "title": "Mehr zu unserer Vision",
             "link": "/why-supertext"
@@ -2560,12 +2553,12 @@
         "jobs": {
           "title": "So wirst du Teil des Teams: unsere freien Stellen",
           "noJobs": "Aktuell haben wir keine Stellen zu vergeben",
-          "footerMessage": "Der passende Job war nicht dabei?<break></break>Dann überzeug uns davon, dass wir dich trotzdem unbedingt kennenlernen müssen.<break><break>Sende uns deine Spontanbewerbung an <emailContact>people@supertext.com</emailContact>."
+          "footerMessage": "Der passende Job war nicht dabei?<break></break>Dann überzeug uns davon, dass wir dich trotzdem unbedingt kennenlernen müssen.<break></break><break></break>Sende uns deine Spontanbewerbung an <emailContact>people@supertext.com</emailContact>."
         },
         "article_one": {
           "tag": "WERTE & BENEFITS",
           "title": "Unsere <highlight>Vielfalt</highlight> macht uns stark",
-          "description": "Wir vereinen unzählige Kulturen, Sprachen, Talente und Interessen an einem Ort. Das bereichert unsere Zusammenarbeit und macht uns zu dem, was wir sind: der All-in-one-Anbieter, der für jede sprachliche Herausforderung eine Lösung findet. <break></break> <break></break> Ein Miteinander auf Augenhöhe ist für uns genauso selbstverständlich wie faire Entlöhnung und ein offenes, flexibles Arbeitsumfeld. Bei Supertext organisieren wir uns selbstbestimmt, übernehmen Verantwortung und bringen Ideen ein, die unsere Kultur aktiv mitgestalten. Mit Schulungen und laufendem Feedback erweitern wir unser Wissen und treiben die persönliche Entwicklung voran."
+          "description": "Wir vereinen unzählige Kulturen, Sprachen, Talente und Interessen an einem Ort. Das bereichert unsere Zusammenarbeit und macht uns zu dem, was wir sind: der All-in-one-Anbieter, der für jede sprachliche Herausforderung eine Lösung findet. <break></break><break></break>Ein Miteinander auf Augenhöhe ist für uns genauso selbstverständlich wie faire Entlöhnung und ein offenes, flexibles Arbeitsumfeld. Bei Supertext organisieren wir uns selbstbestimmt, übernehmen Verantwortung und bringen Ideen ein, die unsere Kultur aktiv mitgestalten. Mit Schulungen und laufendem Feedback erweitern wir unser Wissen und treiben die persönliche Entwicklung voran."
         },
         "footerNote": {
           "text": "Du bist Texterin, Übersetzer, Lektorin oder SEO-Profi und möchtest als <highlightText>Freelancer:in</highlightText> mit uns <highlightText>zusammenarbeiten</highlightText>?",
@@ -2616,6 +2609,14 @@
             }
           ]
         },
+        "isoCertificate": {
+          "description": "Supertext ist offiziell für sein Informationssicherheitsmanagement, sein System für das Qualitätsmanagement und seine Übersetzungsqualität zertifiziert.",
+          "title": "Geprüft, genormt und ausgezeichnet. Nach ISO 27100, 9001, 17100 und 18587.",
+          "cta": {
+            "title": "Zertifikate ansehen",
+            "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_Zertifikate_Supertext_24_27_DE_fcb06a4413.pdf"
+          }
+        },
         "members": {
           "eyebrowHeadline": "MANAGEMENT",
           "title": "Lernen Sie unser Management-Team kennen",
@@ -2662,16 +2663,23 @@
             "title": "Alles zur Karriere bei Supertext",
             "link": "/work-at-supertext"
           }
+        },
+        "blog": {
+          "heading": "Aktuelles, Hintergründe und neue Features",
+          "cta": {
+            "text": "Zu allen Beiträgen",
+            "link": "/blog"
+          }
         }
       },
-      "aiTranslation": {
+      "aiTranslationVerification": {
         "hero": {
           "title": "KI-Übersetzung mit Profi-Check",
           "description": "Sicher sein – in Minuten statt Stunden. Dank der Verifizierung durch erfahrene Übersetzer:innen auf Knopfdruck."
         },
         "lead": {
           "large": "Ihre Übersetzung – professionell geprüft, wenn es wirklich wichtig ist.",
-          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break> <break></break> Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit der Verifizierung auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
+          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break><break></break>Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit der Verifizierung auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
           "cta": {
             "title": "Jetzt ausprobieren",
             "link": "/"
@@ -2683,17 +2691,17 @@
             {
               "title": "KI-Übersetzung auf dem neusten Stand der Technik",
               "description": "Die Basis bilden unsere hauseigenen Übersetzungssysteme. Sie gehören zur neusten Generation künstlicher Intelligenz und beherrschen 23 Sprachen inkl. lokaler Sprachvarianten.",
-              "icon": "/images/pages/ai-translation/icon-bullet.png"
+              "icon": "/images/pages/verification/icon-bullet.png"
             },
             {
               "title": "Professionell geprüft – in wenigen Minuten",
               "description": "Unsere muttersprachlichen Expert:innen stellen sofort sicher, dass die Übersetzung inhaltlich exakt dem Original entspricht – und intervenieren auch sprachlich wo nötig.",
-              "icon": "/images/pages/ai-translation/icon-bullet.png"
+              "icon": "/images/pages/verification/icon-bullet.png"
             },
             {
               "title": "Immer besser: Ihr persönliches KI-Modell lernt mit",
               "description": "Sobald der Check fertig ist, liefern wir die geprüfte Übersetzung aus. An Sie zum Download – und an Ihr persönliches Sprachmodell zur laufenden Verbesserung in Echtzeit.",
-              "icon": "/images/pages/ai-translation/icon-bullet.png"
+              "icon": "/images/pages/verification/icon-bullet.png"
             }
           ],
           "cta": {
@@ -2711,17 +2719,17 @@
             {
               "title": "Text auf supertext.com übersetzen und «Profi-Check starten» wählen",
               "number": "01",
-              "image": "/images/pages/ai-translation/step-1.webp"
+              "image": "/images/pages/verification/step-1.webp"
             },
             {
               "title": "Auftragsdetails bestätigen und Zahlungsmethode angeben",
               "number": "02",
-              "image": "/images/pages/ai-translation/step-2.webp"
+              "image": "/images/pages/verification/step-2.webp"
             },
             {
               "title": "Verifizierte Übersetzung wenige Minuten später abholen",
               "number": "03",
-              "image": "/images/pages/ai-translation/step-3.webp"
+              "image": "/images/pages/verification/step-3.webp"
             }
           ]
         },
@@ -2730,7 +2738,7 @@
           "eyebrowHeadline": "Unser Versprechen",
           "items": [
             {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "icon": "/images/pages/verification/feature-icon.png",
               "title": "3000 diplomierte muttersprachliche Expert:innen",
               "description": "Alle unsere Fachübersetzer:innen haben einen Hochschulabschluss im Bereich Übersetzung oder mindestens fünf Jahre Berufserfahrung und durchlaufen einen internen Test.",
               "cta": {
@@ -2740,7 +2748,7 @@
               }
             },
             {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "icon": "/images/pages/verification/feature-icon.png",
               "title": "Geprüft, genormt und nach ISO-Standard ausgezeichnet",
               "description": "Supertext ist seit 2018 für die Übersetzungsqualität (ISO 17100 und 18587), das Qualitätsmanagement (ISO 9001) und die Datensicherheit (ISO 27001) zertifiziert.",
               "cta": {
@@ -2750,7 +2758,7 @@
               }
             },
             {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "icon": "/images/pages/verification/feature-icon.png",
               "title": "Kompromisslos sicher",
               "description": "Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und sichersten Servern halten wir Ihre Daten immer unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
               "cta": {
@@ -2760,7 +2768,7 @@
               }
             },
             {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "icon": "/images/pages/verification/feature-icon.png",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
               "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
             }
@@ -2773,7 +2781,7 @@
             "link": "/",
             "target": "_blank"
           },
-          "image": "/images/pages/ai-translation/footer_gif.gif"
+          "image": "/images/pages/verification/footer_gif.gif"
         }
       },
       "technology": {
@@ -2783,7 +2791,7 @@
         },
         "lead": {
           "large": "Language AI der nächsten Generation – <highlight>massgeschneidert</highlight> für Sie.",
-          "small": "Unsere LLM-basierte Übersetzungstechnologie kombiniert neuste Forschungserkenntnisse mit maximaler Flexibilität. Das Ergebnis: messbar bessere Sprachqualität bei laufend sinkenden Kosten. <break></break> <break></break> Ob als Grundlage für Ihre Profi-Übersetzer:innen, vollautomatisch über Plugins und APIs oder als frei zugängliches Tool für Ihre Mitarbeitenden – wir geben Ihrem Unternehmen eine eigene Stimme. In jeder Sprache und jedem Format.",
+          "small": "Unsere LLM-basierte Übersetzungstechnologie kombiniert neuste Forschungserkenntnisse mit maximaler Flexibilität. Das Ergebnis: messbar bessere Sprachqualität bei laufend sinkenden Kosten. <break></break><break></break>Ob als Grundlage für Ihre Profi-Übersetzer:innen, vollautomatisch über Plugins und APIs oder als frei zugängliches Tool für Ihre Mitarbeitenden – wir geben Ihrem Unternehmen eine eigene Stimme. In jeder Sprache und jedem Format.",
           "cta": {
             "title": "Neugierig? Lassen Sie uns reden.",
             "link": "/contact"

@@ -1231,7 +1231,6 @@
       "newsletterDisclaimer": "Mit der Registrierung erklären Sie sich mit unserer Datenschutzerklärung einverstanden und geben Ihr Einverständnis, Updates von Supertext zu erhalten.",
       "yourEmail": "Ihre E-Mail-Adresse",
       "freelancerRegistration": "Als Freelancer:in registrieren",
-      "freelancerRegistrationLink": "",
       "servicesTitle": "SERVICES",
       "services": {
         "translation": "KI-Übersetzung mit Profi-Check",
@@ -1262,7 +1261,8 @@
         "privacy": "Datenschutzerklärung",
         "dataProtection": "Datenschutz",
         "media": "Medien"
-      }
+      },
+      "freelancerRegistrationLink": "/de/startapplication"
     },
     "fileTranslation": {
       "uploadFile": "Datei übersetzen"
@@ -1857,6 +1857,10 @@
               {
                 "text": "Kostenlos registrieren",
                 "variant": "primary"
+              },
+              {
+                "text": "Demo buchen",
+                "variant": "PrimaryBorderVariant"
               }
             ]
           }
@@ -2051,7 +2055,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
-                  "link": "/ki-uebersetzung"
+                  "link": "/profi-check"
                 }
               },
               {
@@ -2840,7 +2844,7 @@
               }
             },
             {
-              "icon": "/images/pages/home/Supertext_Icon_KI_Learning_Light_Green.svg",
+              "icon": "/images/pages/verification/feature-icon.png",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
               "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
             }
@@ -3059,8 +3063,7 @@
             {
               "title": "Immer besser: Ihr persönliches KI-Modell lernt mit",
               "description": "Sobald der Check fertig ist, liefern wir die geprüfte Übersetzung aus. An Sie zum Download – und an Ihr persönliches Sprachmodell zur laufenden Verbesserung in Echtzeit.",
-              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg",
-              "badge": "Bald verfügbar"
+              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg"
             }
           ],
           "cta": {
@@ -3103,7 +3106,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr zur Sprachexpertise",
-                "link": "/language-expertise"
+                "link": "/sprachexpertise"
               }
             },
             {
@@ -3113,7 +3116,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr erfahren",
-                "link": "/about"
+                "link": "/ueber-supertext"
               }
             },
             {
@@ -3123,19 +3126,13 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr zur Technologie",
-                "link": "/technology"
+                "link": "/technologie"
               }
             },
             {
               "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
-              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken.",
-              "badge": "Bald verfügbar",
-              "cta": {
-                "title": "Mehr erfahren",
-                "link": "/technology",
-                "variant": "secondary"
-              }
+              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
             }
           ]
         },

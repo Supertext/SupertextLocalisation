@@ -764,11 +764,12 @@
       "languageExpertise": "Expertise linguistique",
       "languageExpertiseNav": {
         "overview": "Aperçu",
-        "aiTranslationVerification": "Traduction par l’IA & vérification",
+        "aiTranslation": "Traduction par l’IA & vérification",
         "spacialTranslation": "Traduction spécialisée",
         "copywriting": "Rédaction",
         "editing": "Révision",
-        "consultation": "Conseil"
+        "consultation": "Conseil",
+        "aiTranslationVerification": "Traduction par l’IA & vérification"
       },
       "changeLanguage": "Modifier la langue",
       "changeCountry": "Modifier le pays",
@@ -1797,9 +1798,9 @@
         "button": "Passer une commande",
         "description": "Précision et fiabilité maximales"
       },
-      "aiTranslationVerification": {
+      "aiTranslation": {
         "title": "Traduction par l’IA",
-        "description": "Téléchargement immédiat, {0} fichiers restants ce mois-ci.",
+        "description": "Prête à être téléchargée",
         "cta": "En bénéficier davantage",
         "button": "Traduire maintenant"
       },
@@ -1808,7 +1809,13 @@
         "titleWhitPrice": "IA vérifiée par l’humain {0} {1}",
         "titleWithPrice": "IA vérifiée par l’humain {0} {1}"
       },
-      "immediately": "immédiatement"
+      "immediately": "immédiatement",
+      "aiTranslationVerification": {
+        "title": "Traduction par l’IA",
+        "description": "Téléchargement immédiat, {0} fichiers restants ce mois-ci.",
+        "cta": "En bénéficier davantage",
+        "button": "Traduire maintenant"
+      }
     },
     "components": {
       "faq": {
@@ -2102,6 +2109,7 @@
           {
             "id": "3",
             "title": "Pour les entreprises",
+            "icon": "/images/pages/ai-translation/feature-icon.png",
             "cards": [
               {
                 "icon": "/images/pages/home/Supertext_Icon_Language_Custom_Light_Green.svg",
@@ -2739,7 +2747,7 @@
           }
         }
       },
-      "aiTranslationVerification": {
+      "aiTranslation": {
         "hero": {
           "title": "Traduction par l’IA avec vérification professionnelle",
           "description": "Être sûr/-e en seulement quelques minutes au lieu de plusieurs heures, en un clic grâce à la vérification par des spécialistes linguistiques."
@@ -2753,22 +2761,22 @@
           }
         },
         "informationalPanel": {
-          "title": "Un outil de traduction par l’IA expérimenté allié à des linguistes professionnels/-les. Qu’est-ce que cela signifie?",
+          "title": "La traduction par l’IA associée à des spécialistes expérimentés/-ées. Comment cela fonctionne?",
           "items": [
             {
               "title": "Traduction par IA à la pointe de la technologie",
               "description": "Notre base est constituée de nos propres systèmes de traduction. Ils sont issus de la dernière génération d’intelligence artificielle et maîtrisent 23 langues, y compris les variantes de langues locales.",
-              "icon": "/images/pages/verification/Supertext_Icon_AI_Translation_Dark_Green.svg"
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
             },
             {
               "title": "Une vérification professionnelle en quelques minutes",
-              "description": "Nos spécialistes linguistiques natifs/-ves s’assurent que la traduction est en tout point fidèle au texte original en termes de contenu et interviennent sur le plan linguistique si nécessaire.",
-              "icon": "/images/pages/verification/Supertext_Icon_Verifiziert_Klick_Dark_Green.svg"
+              "description": "Nos spécialistes linguistiques natifs/-ves s’assurent immédiatement que la traduction est en tout point fidèle au texte original en termes de contenu et interviennent sur le plan linguistique si nécessaire.",
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
             },
             {
-              "title": "Toujours meilleur: votre modèle d’IA s’améliore continuellement.",
+              "title": "Toujours meilleur: votre modèle d’IA personnel s’améliore continuellement.",
               "description": "Une fois le contrôle terminé, nous livrons la traduction vérifiée. Vous y avez alors directement accès. Elle est également envoyée à votre modèle de langage personnel pour une amélioration en temps réel.",
-              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg"
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
             }
           ],
           "cta": {
@@ -2786,17 +2794,17 @@
             {
               "title": "Faire traduire un texte sur supertext.com et choisir «Lancer une vérification professionnelle»",
               "number": "01",
-              "image": "/images/pages/verification/05_04_Profi-Check.webp"
+              "image": "/images/pages/ai-translation/step-1.webp"
             },
             {
               "title": "Confirmer les détails de la commande et indiquer le moyen de paiement",
               "number": "02",
-              "image": "/images/pages/verification/05_05_Profi-Check.webp"
+              "image": "/images/pages/ai-translation/step-2.webp"
             },
             {
               "title": "Récupérer la traduction vérifiée quelques minutes plus tard",
               "number": "03",
-              "image": "/images/pages/verification/05_06_Profi-Check.webp"
+              "image": "/images/pages/ai-translation/step-3.webp"
             }
           ]
         },
@@ -2805,17 +2813,17 @@
           "eyebrowHeadline": "Notre promesse",
           "items": [
             {
-              "icon": "/images/pages/verification/Supertext_Icon_Language_Experts_Light_Green.svg",
+              "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "3000 spécialistes natifs/-ves diplômés/-ées",
               "description": "Nos spécialistes ont toutes et tous un diplôme universitaire en traduction ou au moins cinq ans d’expérience professionnelle et doivent passer un test interne.",
               "cta": {
                 "variant": "primary",
                 "title": "En savoir plus sur l’expertise linguistique",
-                "link": "Expertise linguistique"
+                "link": "/sprachexpertise"
               }
             },
             {
-              "icon": "/images/pages/verification/Supertext_Icon_Certified_Light_Green.svg",
+              "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "Testée, normalisée et certifiée ISO",
               "description": "Supertext est certifiée pour la qualité de ses traductions (ISO 17100 et 18587), le management de la qualité (ISO 9001) et la sécurité des données (ISO 27001) depuis 2018.",
               "cta": {
@@ -2825,17 +2833,17 @@
               }
             },
             {
-              "icon": "/images/pages/verification/Supertext_Icon_Datensicherheit_Light_Green.svg",
+              "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "Une sécurité sans compromis",
               "description": "Nous protégeons vos données en respectant les normes les plus strictes en matière de gestion des données, en utilisant un cryptage robuste et en utilisant les serveurs les plus sécurisés de Suisse. C’est pourquoi nous sommes le partenaire de choix pour les banques, les administrations et les compagnies d’assurance.",
               "cta": {
                 "variant": "primary",
                 "title": "En savoir plus sur la technologie",
-                "link": "Technologie"
+                "link": "/technologie"
               }
             },
             {
-              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
+              "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "Votre IA personnelle qui apprend en temps réel",
               "description": "Nos modèles linguistiques apprennent rapidement et s’adaptent à vos besoins à chaque nouvelle traduction vérifiée. Ainsi, la qualité est constamment améliorée et vos coûts diminuent en permanence."
             }
@@ -2847,7 +2855,8 @@
             "title": "Essayer maintenant",
             "link": "/",
             "target": "_blank"
-          }
+          },
+          "image": "/images/pages/ai-translation/footer_gif.gif"
         }
       },
       "technology": {
@@ -3022,6 +3031,117 @@
           "trialPeriodBadge": "🎉 Premier mois gratuit",
           "trialPeriodDescription": "Votre abonnement comprend un mois d’essai gratuit, à la fin duquel vous serez facturé/-e en fonction de l’offre et du type d’abonnement choisis. Votre premier prélèvement aura lieu le {date}.",
           "termsAndConditions": "J’accepte les conditions générales de vente pour l’achat de cet abonnement."
+        }
+      },
+      "aiTranslationVerification": {
+        "hero": {
+          "title": "Traduction par l’IA avec vérification professionnelle",
+          "description": "Être sûr/-e en seulement quelques minutes au lieu de plusieurs heures, en un clic grâce à la vérification par des spécialistes linguistiques."
+        },
+        "lead": {
+          "large": "Votre traduction, vérifiée par des professionnels/-elles lorsque cela compte vraiment.",
+          "small": "La traduction par l’IA est simple, rapide et s’améliore constamment. Mais en 2025, il y a une chose que seule l’expertise humaine peut garantir: l’exactitude d’une traduction.<break/><break/>C’est pourquoi, pour les textes importants, Supertext vous met en contact direct avec plus de 3000 traducteurs/-trices et spécialistes de la culture. Avec la vérification en un clic, vous pouvez avoir la certitude en quelques minutes que votre message est correctement transmis. Tout cela de manière fiable, à un prix abordable et rapidement.",
+          "cta": {
+            "title": "Essayer maintenant",
+            "link": "/"
+          }
+        },
+        "informationalPanel": {
+          "title": "Un outil de traduction par l’IA expérimenté allié à des linguistes professionnels/-les. Qu’est-ce que cela signifie?",
+          "items": [
+            {
+              "title": "Traduction par IA à la pointe de la technologie",
+              "description": "Notre base est constituée de nos propres systèmes de traduction. Ils sont issus de la dernière génération d’intelligence artificielle et maîtrisent 23 langues, y compris les variantes de langues locales.",
+              "icon": "/images/pages/verification/Supertext_Icon_AI_Translation_Dark_Green.svg"
+            },
+            {
+              "title": "Une vérification professionnelle en quelques minutes",
+              "description": "Nos spécialistes linguistiques natifs/-ves s’assurent que la traduction est en tout point fidèle au texte original en termes de contenu et interviennent sur le plan linguistique si nécessaire.",
+              "icon": "/images/pages/verification/Supertext_Icon_Verifiziert_Klick_Dark_Green.svg"
+            },
+            {
+              "title": "Toujours meilleur: votre modèle d’IA s’améliore continuellement.",
+              "description": "Une fois le contrôle terminé, nous livrons la traduction vérifiée. Vous y avez alors directement accès. Elle est également envoyée à votre modèle de langage personnel pour une amélioration en temps réel.",
+              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg"
+            }
+          ],
+          "cta": {
+            "text": "Essayer maintenant",
+            "link": "/"
+          }
+        },
+        "tutorialBlock": {
+          "title": "3 étapes pour obtenir une traduction professionnelle certifiée",
+          "cta": {
+            "text": "C’est parti",
+            "link": "/"
+          },
+          "items": [
+            {
+              "title": "Faire traduire un texte sur supertext.com et choisir «Lancer une vérification professionnelle»",
+              "number": "01",
+              "image": "/images/pages/verification/05_04_Profi-Check.webp"
+            },
+            {
+              "title": "Confirmer les détails de la commande et indiquer le moyen de paiement",
+              "number": "02",
+              "image": "/images/pages/verification/05_05_Profi-Check.webp"
+            },
+            {
+              "title": "Récupérer la traduction vérifiée quelques minutes plus tard",
+              "number": "03",
+              "image": "/images/pages/verification/05_06_Profi-Check.webp"
+            }
+          ]
+        },
+        "featureGallery": {
+          "title": "Qualité garantie de Å à Ž",
+          "eyebrowHeadline": "Notre promesse",
+          "items": [
+            {
+              "icon": "/images/pages/verification/Supertext_Icon_Language_Experts_Light_Green.svg",
+              "title": "3000 spécialistes natifs/-ves diplômés/-ées",
+              "description": "Nos spécialistes ont toutes et tous un diplôme universitaire en traduction ou au moins cinq ans d’expérience professionnelle et doivent passer un test interne.",
+              "cta": {
+                "variant": "primary",
+                "title": "En savoir plus sur l’expertise linguistique",
+                "link": "Expertise linguistique"
+              }
+            },
+            {
+              "icon": "/images/pages/verification/Supertext_Icon_Certified_Light_Green.svg",
+              "title": "Testée, normalisée et certifiée ISO",
+              "description": "Supertext est certifiée pour la qualité de ses traductions (ISO 17100 et 18587), le management de la qualité (ISO 9001) et la sécurité des données (ISO 27001) depuis 2018.",
+              "cta": {
+                "variant": "primary",
+                "title": "En savoir plus",
+                "link": "/ueber-supertext"
+              }
+            },
+            {
+              "icon": "/images/pages/verification/Supertext_Icon_Datensicherheit_Light_Green.svg",
+              "title": "Une sécurité sans compromis",
+              "description": "Nous protégeons vos données en respectant les normes les plus strictes en matière de gestion des données, en utilisant un cryptage robuste et en utilisant les serveurs les plus sécurisés de Suisse. C’est pourquoi nous sommes le partenaire de choix pour les banques, les administrations et les compagnies d’assurance.",
+              "cta": {
+                "variant": "primary",
+                "title": "En savoir plus sur la technologie",
+                "link": "Technologie"
+              }
+            },
+            {
+              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
+              "title": "Votre IA personnelle qui apprend en temps réel",
+              "description": "Nos modèles linguistiques apprennent rapidement et s’adaptent à vos besoins à chaque nouvelle traduction vérifiée. Ainsi, la qualité est constamment améliorée et vos coûts diminuent en permanence."
+            }
+          ]
+        },
+        "footerNote": {
+          "text": "Nos spécialistes sont <highlight>prêts/-es</highlight>. Et vous?",
+          "cta": {
+            "title": "Essayer maintenant",
+            "link": "/",
+            "target": "_blank"
+          }
         }
       }
     },

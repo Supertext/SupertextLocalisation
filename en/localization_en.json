@@ -764,11 +764,12 @@
       "languageExpertise": "Linguistic expertise",
       "languageExpertiseNav": {
         "overview": "Overview",
-        "aiTranslationVerification": "AI translation & Verification",
+        "aiTranslation": "AI translation & Verification",
         "spacialTranslation": "Specialised translation",
         "copywriting": "Copywriting",
         "editing": "Editing",
-        "consultation": "Consultation"
+        "consultation": "Consultation",
+        "aiTranslationVerification": "AI translation & Verification"
       },
       "changeLanguage": "Change language",
       "changeCountry": "Change country",
@@ -1797,9 +1798,9 @@
         "button": "Place order",
         "description": "Maximum precision and reliability"
       },
-      "aiTranslationVerification": {
+      "aiTranslation": {
         "title": "AI translation",
-        "description": "Instant download, {0} files remain this month.",
+        "description": "Ready for download immediately",
         "cta": "Get more",
         "button": "Translate now"
       },
@@ -1808,7 +1809,13 @@
         "titleWhitPrice": "Human-verified AI {0} {1}",
         "titleWithPrice": "Human-verified AI {0} {1}"
       },
-      "immediately": "immediately"
+      "immediately": "immediately",
+      "aiTranslationVerification": {
+        "title": "AI translation",
+        "description": "Instant download, {0} files remain this month.",
+        "cta": "Get more",
+        "button": "Translate now"
+      }
     },
     "components": {
       "faq": {
@@ -2102,6 +2109,7 @@
           {
             "id": "3",
             "title": "For companies",
+            "icon": "/images/pages/ai-translation/feature-icon.png",
             "cards": [
               {
                 "icon": "/images/pages/home/Supertext_Icon_Language_Custom_Light_Green.svg",
@@ -2737,6 +2745,118 @@
             "text": "",
             "link": ""
           }
+        }
+      },
+      "aiTranslation": {
+        "hero": {
+          "title": "AI translation with professional check",
+          "description": "Peace of mind – in minutes, not hours. Thanks to Verification by experienced translators at the push of a button."
+        },
+        "lead": {
+          "large": "Your translation – professionally checked, when it really matters.",
+          "small": "AI translation is simple, fast and constantly improving. But there is one thing that only human experts can do, even in 2025: guarantee the accuracy of a translation. <break></break> <break></break> For important texts, Supertext connects you directly with over 3,000 experienced translators and cultural experts. With Verification at the push of a button, you can be certain that your message is being delivered correctly within just a few minutes. Reliable, affordable and fast.",
+          "cta": {
+            "title": "Try it now",
+            "link": "/"
+          }
+        },
+        "informationalPanel": {
+          "title": "AI translation meets experienced professionals. What’s behind it?",
+          "items": [
+            {
+              "title": "State-of-the-art AI translation",
+              "description": "The basis is our in-house translation systems. They belong to the latest generation of artificial intelligence and are proficient in 23 languages, including local language variants.",
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
+            },
+            {
+              "title": "Professionally checked – in a few minutes",
+              "description": "Our experts are all native speakers of your target language. They immediately ensure that the content of the translation corresponds exactly to the original – and also intervene linguistically where necessary.",
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
+            },
+            {
+              "title": "Always improving: your personal AI model learns as it goes",
+              "description": "As soon as the check is complete, we deliver the verified translation to you for download – and to your personal language model for ongoing improvement in real time.",
+              "icon": "/images/pages/ai-translation/icon-bullet.png"
+            }
+          ],
+          "cta": {
+            "text": "Try it now",
+            "link": "/"
+          }
+        },
+        "tutorialBlock": {
+          "title": "Three steps to a professionally reviewed translation",
+          "cta": {
+            "text": "Get started",
+            "link": "/"
+          },
+          "items": [
+            {
+              "title": "Translate on supertext.com and choose “Start professional check”",
+              "number": "01",
+              "image": "/images/pages/ai-translation/step-1.webp"
+            },
+            {
+              "title": "Confirm project details and specify payment method",
+              "number": "02",
+              "image": "/images/pages/ai-translation/step-2.webp"
+            },
+            {
+              "title": "Collect your verified translation a few minutes later",
+              "number": "03",
+              "image": "/images/pages/ai-translation/step-3.webp"
+            }
+          ]
+        },
+        "featureGallery": {
+          "title": "Guaranteed quality from Å to Ž",
+          "eyebrowHeadline": "Our promise",
+          "items": [
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "3,000 certified native language experts",
+              "description": "All our specialist translators have a university degree in translation or at least five years of professional experience and must pass an internal test.",
+              "cta": {
+                "variant": "primary",
+                "title": "More on linguistic expertise",
+                "link": "/sprachexpertise"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Tested, standardised and certified according to ISO",
+              "description": "Supertext has been certified for translation quality (ISO 17100 and 18587), quality management (ISO 9001) and data security (ISO 27001) since 2018.",
+              "cta": {
+                "variant": "primary",
+                "title": "Learn more",
+                "link": "/ueber-supertext"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "Uncompromising security",
+              "description": "We always keep your data safe and secure thanks to the highest data management standards, robust encryption and the most secure servers. That’s why we are the partner of choice for banks, government agencies and insurers.",
+              "cta": {
+                "variant": "primary",
+                "title": "More about the technology",
+                "link": "/technologie"
+              }
+            },
+            {
+              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "title": "A personal AI model that learns in real time",
+              "description": "Our language models learn quickly – and adapt to your needs with every verified translation. This ensures that the quality keeps rising and your costs keep falling in the long term."
+            }
+          ]
+        },
+        "footerNote": {
+          "text": "Our experts are <highlight>ready</highlight>. Are you?",
+          "cta": {
+            "title": "Try it now",
+            "link": "/",
+            "target": "_blank"
+          },
+          "image": "/images/pages/ai-translation/footer_gif.gif"
         }
       },
       "technology": {

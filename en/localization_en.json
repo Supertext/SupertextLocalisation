@@ -1261,7 +1261,8 @@
         "privacy": "Privacy policy",
         "dataProtection": "Privacy",
         "media": "Media"
-      }
+      },
+      "freelancerRegistrationLink": "en/startapplication"
     },
     "fileTranslation": {
       "uploadFile": "Translate file"
@@ -2054,7 +2055,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "/ki-uebersetzung"
+                  "link": "/verification"
                 }
               },
               {
@@ -2845,7 +2846,13 @@
             {
               "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "A personal AI model that learns in real time",
-              "description": "Our language models learn quickly – and adapt to your needs with every verified translation. This ensures that the quality keeps rising and your costs keep falling in the long term."
+              "description": "Our language models learn quickly – and adapt to your needs with every verified translation. This ensures that the quality keeps rising and your costs keep falling in the long term.",
+              "badge": "",
+              "cta": {
+                "title": "",
+                "link": "",
+                "variant": ""
+              }
             }
           ]
         },
@@ -3062,7 +3069,8 @@
             {
               "title": "Always improving: your personal AI model learns as it goes",
               "description": "As soon as the check is complete, we deliver the verified translation to you for download – and to your personal language model for ongoing improvement in real time.",
-              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg"
+              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg",
+              "badge": ""
             }
           ],
           "cta": {
@@ -3131,7 +3139,13 @@
             {
               "icon": "images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "A personal AI model that learns in real time",
-              "description": "Our language models learn quickly – and adapt to your needs with every verified translation. This ensures that the quality keeps rising and your costs keep falling in the long term."
+              "description": "Our language models learn quickly – and adapt to your needs with every verified translation. This ensures that the quality keeps rising and your costs keep falling in the long term.",
+              "badge": "",
+              "cta": {
+                "title": "",
+                "link": "",
+                "variant": ""
+              }
             }
           ]
         },

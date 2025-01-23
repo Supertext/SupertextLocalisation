@@ -1231,7 +1231,6 @@
       "newsletterDisclaimer": "Mit der Registrierung erklären Sie sich mit unserer Datenschutzerklärung einverstanden und geben Ihr Einverständnis, Updates von Supertext zu erhalten.",
       "yourEmail": "Ihre E-Mail-Adresse",
       "freelancerRegistration": "Als Freelancer:in registrieren",
-      "freelancerRegistrationLink": "",
       "servicesTitle": "SERVICES",
       "services": {
         "translation": "KI-Übersetzung mit Profi-Check",
@@ -1262,7 +1261,8 @@
         "privacy": "Datenschutzerklärung",
         "dataProtection": "Datenschutz",
         "media": "Medien"
-      }
+      },
+      "freelancerRegistrationLink": "/de/startapplication"
     },
     "fileTranslation": {
       "uploadFile": "Datei übersetzen"
@@ -1857,6 +1857,10 @@
               {
                 "text": "Kostenlos registrieren",
                 "variant": "primary"
+              },
+              {
+                "text": "Demo buchen",
+                "variant": "PrimaryBorderVariant"
               }
             ]
           }
@@ -2842,7 +2846,13 @@
             {
               "icon": "/images/pages/home/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
-              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
+              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken.",
+              "badge": "",
+              "cta": {
+                "title": "",
+                "link": "",
+                "variant": ""
+              }
             }
           ]
         },

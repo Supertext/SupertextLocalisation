@@ -24,7 +24,7 @@
         },
         "message": {
           "title": "Messaggio",
-          "placeholder": "Il Suo feedback…"
+          "placeholder": "Il Suo feedback …"
         },
         "recommend_type": {
           "title": "Raccomanderebbe il prodotto nel suo formato attuale alle Sue conoscenze?",
@@ -67,56 +67,56 @@
       "ocrHelperText": "L’OCR consente di elaborare meglio i PDF scansionati o fotografati. Per i PDF standard che contengono solamente testo, l’OCR non è necessario.",
       "ocr_options": {
         "ocr_auto": "Auto",
-        "ocr_off": "Off",
-        "ocr_on": "On"
+        "ocr_off": "On",
+        "ocr_on": "Off"
       },
       "docRemainingPerDay": "1 file rimanente",
       "docsRemainingPerDay": "{0} file rimanenti",
       "docLimitsPerRequest": "Max. {0} MB, {1} carattere/i",
       "docLimitsPerRequestUnlimitedChars": "Max. {0} MB",
       "successfullDownload": {
-        "title": "Il file è stato scaricato",
-        "description": "You can upload another file for translation"
+        "title": "Il file è stato scaricato con successo",
+        "description": "È possibile caricare un altro file per la traduzione"
       },
-      "translationInProgress": "Traduzione IA in corso",
+      "translationInProgress": "Traduzione AI in corso",
       "errors": {
         "unregistered": {
-          "message": "Deve aver effettuato il login",
-          "popover": "Può accedere all’abbonamento Free per iniziare a tradurre file."
+          "message": "È necessario effettuare il login",
+          "popover": "È possibile registrarsi gratuitamente per iniziare a tradurre i file."
         },
         "noRemainingFiles": {
-          "message": "Nessun altro file disponibile",
-          "popover": "Il Suo abbonamento {subscriptiontype} comprende {count, plural, =1 {# Datei} other {# Dateien}} al mese"
+          "message": "Non ci sono più file disponibili",
+          "popover": "{subscriptionType} {count, plural, =1 {#} other {#}} L'abbonamento comprende file al mese"
         },
         "unsupportedFileType": {
-          "message": "Tipo di file non incluso nell’abbonamento",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+          "message": "Tipo di file non incluso nell'abbonamento",
+          "popover": "{plan, select, Essential { {subscriptionType}} free { {subscriptionType}}other { {subscriptionType}Il vostro abbonamento include file Word, Excel, PowerPoint, PDF e SRT Il vostro abbonamento include file Word e PowerPoint Il vostro abbonamento include tipi di file limitati}}"
         },
         "limitedFileType": {
-          "message": "Tipo di file non supportato",
-          "popover": "Il Suo abbonamento {subscriptionType} comprende solo file Word e PowerPoint"
+          "message": "Il tipo di file non è supportato",
+          "popover": "{subscriptionType}L'abbonamento comprende solo i file Word e PowerPoint"
         },
         "freeTierLimit": {
-          "message": "Gratuitamente e senza registrazione è possibile utilizzare la traduzione IA solo per i file Word e Powerpoint. Si registri ora per tradurre anche i file PDF ed Excel nonché molti altri formati. A partire da CHF 9.00 al mese.",
+          "message": "La traduzione AI è offerta solo per i file Word e PowerPoint nel nostro livello gratuito. Abbonatevi ora per tradurre PDF, file Excel e altro ancora a partire da CHF 9.00 al mese.",
           "popover": ""
         },
         "fileSizeExceeded": {
-          "message": "La dimensione del file supera il limite consentito",
-          "popover": "Il Suo abbonamento {subscriptionType} comprende file fino a {size} MB"
+          "message": "Le dimensioni del file superano il limite",
+          "popover": "{subscriptionType} {size} L'abbonamento include file fino a MB"
         },
         "unsupportedFormat": {
-          "message": "Non offriamo la traduzione per {Erweiterungsdateien}.",
+          "message": "{Erweiterungsdateien} Non offriamo servizi di traduzione per .",
           "popover": ""
         },
         "remainingFiles": {
-          "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
+          "message": "{count, plural, =0 {} one { #} other { # Non ci sono più file disponibili Ancora file disponibili Ancora file disponibili}}",
           "popover": ""
         }
       },
       "availableFiles": {
-        "message": "{remaining}/{total} file disponibili",
-        "popover": "Il Suo abbonamento {subscriptiontype} comprende {count, plural, one {# Datei} other {# Dateien}} al mese",
-        "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
+        "message": "{remaining}{total} / File disponibili",
+        "popover": "{subscriptionType} {count, plural, one {#} other {#}} L'abbonamento comprende file al mese",
+        "unregisteredPopover": "Per iniziare a tradurre i file è necessario aver effettuato il login."
       },
       "dropFileWithoutExtension": ""
     },
@@ -128,7 +128,7 @@
       "generalDescription": "Impostazioni generali del profilo",
       "displayName": "Nome visualizzato",
       "email": "E-mail",
-      "changePassword": "Modifica la password",
+      "changePassword": "Cambiare la password",
       "deleteAccount": "Cancellare l’account",
       "beta": "Beta",
       "betaDescription": "Nuove funzioni",
@@ -137,7 +137,7 @@
       "passwords": {
         "oldPassword": "Vecchia password",
         "newPassword": "Nuova password",
-        "confirmNewPassword": "Conferma la nuova password",
+        "confirmNewPassword": "Confermare la nuova password",
         "validationMessages": {
           "displayName": "È necessario specificare il nome visualizzato",
           "passwordNoMatch": "Le password non corrispondono",
@@ -167,7 +167,7 @@
     },
     "cookieBanner": {
       "textPrefix": "Utilizziamo i cookie per migliorare costantemente il nostro sito web. Cliccando su «Accetta» si acconsente all’utilizzo dei cookie in conformità con la nostra",
-      "link": "Dichiarazione sulla protezione dei dati.",
+      "link": "dichiarazione sulla protezione dei dati.",
       "textSuffix": "In alternativa è possibile configurare impostazioni personalizzate cliccando su «Altre opzioni».",
       "accept": "Accetta",
       "moreOptions": "Altre opzioni",
@@ -280,9 +280,9 @@
     "targetTextLength": "Numero di caratteri",
     "sourceTextCharacterLimit": "Numero di caratteri/numero massimo",
     "verifiedTranslations": "Evidenzia le traduzioni verificate",
-    "rephraseTranslation": "Riformulazione",
+    "rephraseTranslation": "Riformula",
     "editGlossary": "Modifica glossario",
-    "deleteGlossary": "Elimina glossario",
+    "deleteGlossary": "Elimina glossario ",
     "deleteTerm": "Elimina termine"
   },
   "popovers": {
@@ -317,48 +317,48 @@
       "ocr_on": "On"
     },
     "successfullDownload": {
-      "title": "Il file è stato scaricato",
-      "description": "Può caricare un altro file da tradurre"
+      "title": "Il file è stato scaricato con successo",
+      "description": "È possibile caricare un altro file per la traduzione"
     },
-    "translationInProgress": "Traduzione IA in corso",
+    "translationInProgress": "Traduzione AI in corso",
     "errors": {
       "unregistered": {
-        "message": "Deve aver effettuato il login",
-        "popover": "Può accedere all’abbonamento Free per iniziare a tradurre file."
+        "message": "È necessario effettuare il login",
+        "popover": "È possibile registrarsi gratuitamente per iniziare a tradurre i file."
       },
       "noRemainingFiles": {
-        "message": "Nessun altro file disponibile",
-        "popover": "Il Suo abbonamento {subscriptiontype} comprende {count, plural, =1 {# Datei} other {# Dateien}} al mese"
+        "message": "Non ci sono più file disponibili",
+        "popover": "{subscriptionType} {count, plural, =1 {#} other {#}} L'abbonamento comprende file al mese"
       },
       "unsupportedFileType": {
-        "message": "Tipo di file non incluso nell’abbonamento",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+        "message": "Tipo di file non incluso nell'abbonamento",
+        "popover": "{plan, select, Essential { {subscriptionType}} free { {subscriptionType}}other { {subscriptionType}Il vostro abbonamento include file Word, Excel, PowerPoint, PDF e SRT Il vostro abbonamento include file Word e PowerPoint Il vostro abbonamento include tipi di file limitati}}"
       },
       "limitedFileType": {
-        "message": "Tipo di file non supportato",
-        "popover": "Il Suo abbonamento {subscriptionType} comprende solo file Word e PowerPoint"
+        "message": "Il tipo di file non è supportato",
+        "popover": "{subscriptionType}L'abbonamento comprende solo i file Word e PowerPoint"
       },
       "freeTierLimit": {
-        "message": "Gratuitamente e senza registrazione è possibile utilizzare la traduzione IA solo per i file Word e Powerpoint. Si registri ora per tradurre anche i file PDF ed Excel nonché molti altri formati. A partire da CHF 9.00 al mese.",
+        "message": "La traduzione AI è offerta solo per i file Word e PowerPoint nel nostro livello gratuito. Abbonatevi ora per tradurre PDF, file Excel e altro ancora a partire da CHF 9.00 al mese.",
         "popover": ""
       },
       "fileSizeExceeded": {
-        "message": "La dimensione del file supera il limite consentito",
-        "popover": "Il Suo abbonamento {subscriptionType} include file fino a {size} MB"
+        "message": "Le dimensioni del file superano il limite",
+        "popover": "{subscriptionType} {size} L'abbonamento include file fino a MB"
       },
       "unsupportedFormat": {
-        "message": "Non offriamo la traduzione per {Erweiterungsdateien}.",
+        "message": "{Erweiterungsdateien} Non offriamo servizi di traduzione per .",
         "popover": ""
       },
       "remainingFiles": {
-        "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
+        "message": "{count, plural, =0 {} one { #} other { # Non ci sono più file disponibili Ancora file disponibili Ancora file disponibili}}",
         "popover": ""
       }
     },
     "availableFiles": {
-      "message": "{remaining}/{total} file disponibili",
-      "popover": "Il Suo abbonamento {subscriptiontype} comprende {count, plural, one {# Datei} other {# Dateien}} al mese",
-      "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
+      "message": "{remaining}{total} / File disponibili",
+      "popover": "{subscriptionType} {count, plural, one {#} other {#}} L'abbonamento comprende file al mese",
+      "unregisteredPopover": "Per iniziare a tradurre i file è necessario aver effettuato il login."
     }
   },
   "modeSelectorButton": {
@@ -366,7 +366,7 @@
     "TRANSLATE_FILE": "Documento",
     "TRANSLATE_ASSISTANT": "Assistente"
   },
-  "rephraseButton": "Riformulazione",
+  "rephraseButton": "Riformulare",
   "politenessDropDown": {
     "POLITENESS_VARIANTS": "Varianti",
     "POLITENESS_BUTTON_TITLE": "Tono",
@@ -421,7 +421,7 @@
     "reset": "Ripristina",
     "autoFill": "Compila automaticamente",
     "addTerms": "Aggiungi termine",
-    "addAndRepeat": "Aggiungi e ripeti"
+    "addAndRepeat": "Aggiungere e ripeti"
   },
   "on": "On",
   "off": "Off",
@@ -516,7 +516,7 @@
     "pt-PT": "PT",
     "sr-Cyrl": "Cirillico",
     "sr-Latn": "Latino",
-    "zh-Hans": "Giovanni",
+    "zh-Hans": "Hans",
     "zh-Hant": "Hant"
   },
   "languageVariantNames": {
@@ -666,13 +666,13 @@
         "requestBillingPermission": "Si è verificato un errore durante la richiesta di autorizzazione.",
         "deleteCreditCard": "Si è verificato un errore durante la cancellazione dei dati della carta.",
         "couldNotFetchCountryBillingList": "Impossibile accedere alle liste dei conteggi per Paese: {error}",
-        "couldNotFetchCardDetails": "Si è verificato un errore durante il recupero dei dati della Sua carta di credito.",
+        "couldNotFetchCardDetails": "Si è verificato un errore durante l’acquisizione dei dati della carta",
         "couldNotFetchBillingAddress": "Impossibile accedere agli indirizzi di fatturazione",
         "couldNotFetchInvoiceLink": "Impossibile accedere al link alla fattura: {error}",
         "couldNotFetchTypeLabel": "Impossibile accedere alla denominazione del tipo: {error}"
       },
       "team": {
-        "addMember": "Si è verificato un errore invitando la persona nel team",
+        "addMember": "Impossibile invitare la persona nel team",
         "changeRole": "Si è verificato un errore durante la modifica del ruolo.",
         "editMember": "Si è verificato un errore durante la modifica dei dati del membro del team",
         "removeMember": "Si è verificato un errore durante la rimozione della persona dal team",
@@ -741,7 +741,7 @@
     "online": "La Sua connessione Internet è stata ripristinata."
   },
   "starstruck": {
-    "welcomeMessage": "Grüezi.",
+    "welcomeMessage": "Buongiorno",
     "noEntries": "Nessun risultato trovato.",
     "placeOrder": "Servizi professionali",
     "or": "o",
@@ -758,18 +758,17 @@
         "part1": "Supertext offre alle aziende traduzioni",
         "part2": "migliori, più rapide, più convenienti",
         "part3": "e",
-        "part4": "più sicure.",
+        "part4": "più sicure. ",
         "part5": "Automatizzato dallo 0 al 100%."
       },
       "languageExpertise": "Competenze linguistiche",
       "languageExpertiseNav": {
         "overview": "Panoramica",
-        "aiTranslation": "Traduzione IA & verifica",
+        "aiTranslationVerification": "Traduzione IA & verifica",
         "spacialTranslation": "Traduzione specialistica",
         "copywriting": "Copywriting",
         "editing": "Revisione",
-        "consultation": "Consulenza",
-        "aiTranslationVerification": ""
+        "consultation": "Consulenza"
       },
       "changeLanguage": "Cambia lingua",
       "changeCountry": "Modifica Paese",
@@ -793,7 +792,7 @@
       "all": "Tutti",
       "administrator": "Admin",
       "licensed": "con licenza",
-      "removeFilter": "Rimuovi filtro",
+      "removeFilter": "Rimuovi filtro ",
       "types": {
         "role": "Ruolo",
         "license": "Licenza"
@@ -801,7 +800,7 @@
       "user": "Utente"
     },
     "search": {
-      "placeholder": "Ricerca…",
+      "placeholder": "Ricerca …",
       "userOrders": "I Suoi ordini",
       "allOrders": "Tutti gli ordini del Suo team",
       "userInvoices": "Le Sue fatture",
@@ -812,7 +811,7 @@
       "nextSteps": "PROSSIMI PASSAGGI",
       "nextStepsInformation": "Tutti i dati sono aggiornati, non ci sono ulteriori passaggi da completare.",
       "addSettings": "Completare i dati",
-      "creditCardDetailsSettings": "Salvi i dati della Sua carta di credito per facilitare la procedura di pagamento",
+      "creditCardDetailsSettings": "Salvi i dati della Sua carta di credito per facilitare la procedura di pagamento ",
       "styleGuidSettings": "Salvi le guide di stile e i documenti relativi al tono di voce e alla terminologia",
       "orders": {
         "title": "Ordini",
@@ -833,15 +832,15 @@
           "industry": "Settore",
           "targetAudience": "Pubblico target",
           "orderFiles": "Fonti",
-          "price": "Prezzo (IVA escl.)",
+          "price": "Prezzo",
           "scope": "Volume",
           "invoiceDate": "Ora dell’ordine",
           "invoiceAddress": "Indirizzo di fatturazione",
           "contactPersonTitle": "PROJECT MANAGER",
           "additionalInformation": "Ulteriori informazioni",
-          "targetFile": "Testo di arrivo",
-          "orderNumber": "N° di ordine",
-          "notFixed": "Prezzo non ancora stabilito"
+          "targetFile": "Testo di destinazione",
+          "orderNumber": "Numero d'ordine",
+          "notFixed": "Prezzo non ancora fissato"
         },
         "back": "Indietro"
       },
@@ -896,7 +895,7 @@
         "question": "Attualmente, più di 1500 aziende in tutta Europa si affidano ai nostri prodotti e servizi su misura. Cosa possiamo fare affinché anche voi possiate presto beneficiare della nostra offerta?",
         "contactUs": "Parliamone.",
         "compareAllFeatures": "Confrontare tutti gli abbonamenti",
-        "customizeSubscriptionInfo": "Modifichi il Suo abbonamento in qualsiasi momento e in tutta semplicità per adattarlo alle Sue esigenze.",
+        "customizeSubscriptionInfo": "Modificate l’abbonamento in qualsiasi momento in modo e in tutta semplicità per adattarlo alle vostre esigenze.",
         "price": "Prezzo",
         "assignLicenseAdmin": "Assegnare una licenza",
         "assignLicenseUser": "Contattare amministratore",
@@ -953,8 +952,8 @@
           }
         },
         "firstMonthFree": "Primo mese gratis",
-        "cancelSubscriptionButton": "Downgrade abbonamento",
-        "cancelSubscriptionAlert": "Conferma di effettuare il downgrade dell’abbonamento? L’accesso al Suo abbonamento {subscriptionName} scadrà in data {endDate}",
+        "cancelSubscriptionButton": "Declassamento dell'abbonamento",
+        "cancelSubscriptionAlert": "Sei sicuro di voler declassare il tuo abbonamento? {subscriptionName} L'accesso al vostro abbonamento terminerà il {endDate}",
         "footerNote": ""
       },
       "resources": {
@@ -986,15 +985,15 @@
         "city": "Località",
         "cityValidation": "La località è un campo obbligatorio",
         "postalCode": "Numero postale di avviamento/codice postale",
-        "postalCodeValidation": "Il numero postale di avviamento/codice postale è un campo obbligatorio",
+        "postalCodeValidation": "IL numero postale di avviamento/codice postale è un campo obbligatorio",
         "country": "Paese",
         "countryValidation": "Selezionare un Paese",
-        "selectCountry": "Selezionare il Paese",
+        "selectCountry": "Selezionare un Paese",
         "settings": "Impostazioni",
         "change": "Modifica",
         "add": "Aggiungi",
         "delete": "Elimina",
-        "selectOption": "Selezionare un’opzione",
+        "selectOption": "Selezionare un’opzione ",
         "isAdmin": "Assegna il ruolo di amministratore",
         "noData": "Nessuna indicazione",
         "roles": {
@@ -1003,12 +1002,12 @@
         },
         "costCenter": {
           "title": "Centro di costo",
-          "changeCostCenter": "Modificare il centro di costo"
+          "changeCostCenter": "Modificare il codice di costo"
         },
         "sections": {
           "userDetails": {
             "title": "Il Suo account",
-            "deleteAccountTitle": "Eliminare definitivamente l’account",
+            "deleteAccountTitle": "Eliminare definitivamente l’",
             "deleteAccountConfirmation": "Procedere? Questa azione non potrà essere annullata.",
             "deleteAccount": "Cancellare l’account",
             "accountSettings": "Account",
@@ -1066,9 +1065,9 @@
                 "addCard": "La carta è stata aggiunta",
                 "addCardFailure": "Impossibile aggiungere la carta",
                 "endsWith": "finisce con",
-                "updateCardDetailsInformation": "Contatti un admin della Sua organizzazione per aggiornare i dati della carta di credito.",
-                "expirationMessage": "La Sua carta è scaduta in data",
-                "deleteCreditCardConfirmation": "Conferma di voler eliminare questa carta?",
+                "updateCardDetailsInformation": "Contatti un amministratore della Sua organizzazione per aggiornare i dati della carta di credito.",
+                "expirationMessage": "La Sua carta è scaduta il giorno",
+                "deleteCreditCardConfirmation": "Eliminare questa carta?",
                 "deleteCreditCardInformation": "La carta di credito verrà rimossa dal Suo account e non potrà essere utilizzata per transazioni future. Questo potrebbe avere conseguenze anche per altri membri del Suo team.",
                 "noAddedCreditCard": "Non è stata ancora aggiunta nessuna carta"
               }
@@ -1091,11 +1090,11 @@
             "availableSeats": "Posti disponibili",
             "filledSeats": "Posti occupati",
             "usersGained": "Utenti registrati",
-            "increaseSeats": "Aumentare il numero di licenze",
+            "increaseSeats": "Aumentare il numero di licenze ",
             "increaseSeatsInfo": "Aumentare il numero di utenti autorizzati all’interno dell’azienda",
             "teamMembersOverviewTitle": "Membri del team",
             "teamMembersOverviewSubtitle": "Qui può gestire i membri del Suo team",
-            "management": "Management",
+            "management": "Gestione",
             "actions": {
               "title": "Azione",
               "editAll": "Modifica tutti",
@@ -1125,7 +1124,7 @@
             "title": "Modificare l’abbonamento",
             "description": "Modifichi il Suo abbonamento in qualsiasi momento e in tutta semplicità per adattarlo alle Sue esigenze.",
             "comparePlans": "Confrontare gli abbonamenti",
-            "numberOfLicenses": "Numero di licenze",
+            "numberOfLicenses": "Numero delle licenze",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
             "nextPayment": "Prossimo pagamento",
             "monthly": "Mensile",
@@ -1172,7 +1171,7 @@
               }
             },
             "afterTrialPeriod": "(al termine del periodo di prova)",
-            "expiresOn": "Scade in data"
+            "expiresOn": "Scade il giorno"
           }
         },
         "licenseTag": "Assegnare una licenza all’utente",
@@ -1188,31 +1187,31 @@
         "openInTranslationInterface": "Aprire nell’interfaccia di traduzione"
       },
       "feedback": {
-        "title": "FEEDBACK",
+        "title": "Feedback",
         "satisfactionQuestion": "Il risultato corrisponde alle Sue aspettative?",
         "message": "Messaggio",
         "submitFeedback": "Invia feedback",
         "revisionQuestion": "Desidera una rielaborazione gratuita?",
-        "revisionOption": "Desidero una rielaborazione gratuita",
+        "revisionOption": "Desidero una rielaborazione del testo in base al feedback qui fornito",
         "revisionRequest": "Richiedi rielaborazione",
         "submitFile": "Richiedi rielaborazione",
-        "uploadFiles": "Carica documenti con commenti",
+        "uploadFiles": "Carica documenti",
         "messagePlaceholder": "ad esempio: lo stile è perfetto e calzante, siamo molto soddisfatti. Nell’ultimo paragrafo mancano due argomentazioni, le aggiungeremo noi stessi.",
         "ratingOptions": {
           "super": "Super",
           "good": "Sufficiente",
           "insufficient": "Insufficiente"
         },
-        "feedbackSentSuccess": "Il feedback è stato inviato",
-        "requestRevisionSuccess": "La rielaborazione è stata richiesta",
-        "yourFeedback": "Il Suo feedback"
+        "feedbackSentSuccess": "Feedback inviato con successo",
+        "requestRevisionSuccess": "Richiesta di revisione riuscita",
+        "yourFeedback": "Il vostro feedback"
       },
       "overview": {
         "title": "Panoramica",
         "nextSteps": "PROSSIMI PASSAGGI",
         "nextStepsInformation": "Tutti i dati sono aggiornati, non ci sono ulteriori passaggi da completare.",
         "addSettings": "Completare i dati",
-        "creditCardDetailsSettings": "Salvi i dati della Sua carta di credito per facilitare la procedura di pagamento",
+        "creditCardDetailsSettings": "Salvi i dati della Sua carta di credito per facilitare la procedura di pagamento ",
         "styleGuidSettings": "Salvi le guide di stile e i documenti relativi al tono di voce e alla terminologia",
         "subscriptionSettings": "Scoprite i diversi piani di abbonamento Supertext e trovate quello che fa al caso vostro.",
         "subscriptionsExplore": "Scopri gli abbonamenti"
@@ -1253,7 +1252,7 @@
       "company": {
         "contact": "Contatto",
         "aboutSupertext": "Chi siamo",
-        "careers": "Lavorare a Supertext"
+        "careers": "Lavorare con Supertext"
       },
       "legal": {
         "imprint": "Impressum",
@@ -1271,7 +1270,7 @@
       "stepTitle": "Avviare la verifica professionale – passaggio 1/2",
       "stepDescription": "La Sua traduzione verrà immediatamente verificata e, laddove necessario, corretta dai nostri esperti. Riceverà una traduzione corretta a livello di contenuto, ortografia e grammatica.",
       "nextStepButton": "Passaggio successivo",
-      "orderVerification": "Ordina la verifica",
+      "orderVerification": "Ordina la verifica ",
       "authorizePayment": "Autorizza il pagamento",
       "unsupportedLanguagePair": {
         "title": "non è ancora disponibile.",
@@ -1321,7 +1320,7 @@
           },
           "city": {
             "label": "Località",
-            "placeholder": "Zurigo",
+            "placeholder": "Lugano",
             "error": "La località è un campo obbligatorio"
           },
           "country": {
@@ -1344,11 +1343,11 @@
         "part1": "Il controllo",
         "part2": "certificato",
         "part3": "da parte di un esperto o un’esperta Supertext",
-        "description:": "La Sua traduzione verrà immediatamente revisionata e, laddove necessario, corretta dai nostri esperti. Riceverà una traduzione corretta a livello di contenuto, ortografia e grammatica."
+        "description:": "La Sua traduzione verrà immediatamente verificata e, laddove necessario, corretta dai nostri esperti. Riceverà una traduzione corretta a livello di contenuto, ortografia e grammatica."
       },
       "certifiedControl": {
         "title": "Richiedere una verifica immediata da parte di traduttori professionisti",
-        "dDescription": "La Sua traduzione verrà immediatamente verificata e, laddove necessario, corretta dai nostri esperti. Riceverà una traduzione corretta a livello di contenuto, ortografia e grammatica.",
+        "dDescription": "La Sua traduzione verrà immediatamente verificata e, laddove necessario, corretta dai nostri esperti. Riceverà una traduzione garantita a livello di contenuto, ortografia e grammatica.",
         "description": "La Sua traduzione verrà immediatamente verificata e, laddove necessario, corretta dai nostri esperti. Riceverà una traduzione corretta a livello di contenuto, ortografia e grammatica."
       },
       "serviceIsDeactivated": {
@@ -1357,7 +1356,7 @@
       },
       "isTargetTextTooLong": {
         "title": "Al momento la verifica professionale è disponibile per testi con una lunghezza massima di {0} caratteri.",
-        "description": "Se il Suo testo è troppo lungo, può provare a ridurlo per concentrarsi sulle parti specifiche che necessitano di un intervento."
+        "description": "Se il Suo testo è troppo lungo, potete provare a ridurlo per concentrarvi sulle parti specifiche che necessitano di un intervento."
       },
       "isEstimateError": {
         "title": "Si è verificato un errore durante il calcolo del prezzo",
@@ -1365,7 +1364,7 @@
       },
       "outIfBusinessHours": {
         "title_part1": "Purtroppo ci sta contattando al di fuori dei nostri",
-        "title_part2": "orari d’ufficio",
+        "title_part2": "orari  d’ufficio",
         "description": "Nessun problema! Può iniziare subito e riceverà l’ordine il giorno lavorativo seguente.",
         "businessHours": "Lunedì – venerdì",
         "businessHoursTime": "9.00 – 17.30",
@@ -1385,7 +1384,7 @@
         "verifiedBy": "Traduzione verificata da"
       },
       "outOfBusinessHours": {
-        "title": "Purtroppo ci sta contattando al di fuori dei nostri orari d’ufficio.",
+        "title": "Purtroppo ci sta contattando al di fuori dei nostri orari di apertura.",
         "description": "Nessun problema! Può iniziare subito e riceverà l’ordine il giorno lavorativo seguente.",
         "businessHours": "Lunedì – venerdì",
         "businessHoursTime": "9.00 – 17.30",
@@ -1399,7 +1398,7 @@
     },
     "couponCode": {
       "placeholder": "Inserire codice sconto",
-      "tooltip": "Utilizzi il Suo buono per ottenere uno sconto sul Suo ordine.",
+      "tooltip": "Utilizzi il Suo codice buono per ottenere uno sconto sul Suo ordine.",
       "trigger": "Applicare codice sconto"
     },
     "landingPage": {
@@ -1421,11 +1420,11 @@
             },
             "1": {
               "title": "Fino a 3000 caratteri",
-              "tooltip": "1500 per utenti non registrati"
+              "tooltip": "1500 per gli utenti non registrati"
             },
             "2": {
               "title": "5 file al mese (modificabili)",
-              "tooltip": "per utenti registrati"
+              "tooltip": "per gli utenti registrati"
             },
             "3": {
               "title": "Dimensione massima dei file 5 MB"
@@ -1436,7 +1435,7 @@
             "5": {
               "title": "Fused Translation",
               "badge": "Presto disponibile",
-              "tooltip": "Le traduzioni basate sull’IA migliorano in tempo reale a ogni ordine che inviate agli esperti linguistici di Supertext (solo per utenti registrati)"
+              "tooltip": "Le vostre traduzioni AI migliorano in tempo reale ad ogni ordine effettuato con gli esperti linguistici di Supertext (solo per utenti registrati)"
             },
             "6": {
               "title": ""
@@ -1463,7 +1462,7 @@
             },
             "2": {
               "title": "20 file al mese (modificabili)",
-              "tooltip": "Vige una politica di fair use"
+              "tooltip": "Si applica una politica di utilizzo corretto"
             },
             "3": {
               "title": "Dimensione massima dei file 10 MB"
@@ -1504,11 +1503,11 @@
               "title": "Add-in per Microsoft Office"
             },
             "5": {
-              "title": "Possibilità di impostare un limite di caratteri"
+              "title": "Possibilità di impostare un limite di caratteri "
             },
             "6": {
               "title": "Single Sign-on (SSO)",
-              "tooltip": "a partire da 10 utenti"
+              "tooltip": "da 10 utenti"
             }
           }
         }
@@ -1525,7 +1524,7 @@
           "title": "L’offerta di «Advanced» con in più:",
           "items": {
             "0": {
-              "title": "Dimensione massima dei file 30 MB"
+              "title": "dimensione massima dei file 30 MB"
             },
             "1": {
               "title": "Guide di stile"
@@ -1590,22 +1589,22 @@
             "languages": {
               "name": "Lingue",
               "description": "",
-              "all": "Albanese, cinese, danese, tedesco, inglese, francese, italiano, giapponese, coreano, olandese, norvegese, polacco, portoghese, romancio, russo, svedese, serbo, slovacco, sloveno, spagnolo, ceco, ungherese, svizzero tedesco",
+              "all": "Albanese, cinese, danese, tedesco, inglese, francese, italiano, giapponese, coreano, olandese, norvegese, polacco, portoghese, romancio, russo, svedese, serbo, slovacco, sloveno, spagnolo, ceco, ungherese, dialetto svizzero tedesco",
               "free": "Tedesco, inglese, francese, italiano, romancio, svizzero tedesco",
               "essential": "Tedesco, inglese, francese, italiano, romancio, svizzero tedesco",
-              "advanced": "Albanese, cinese, danese, tedesco, inglese, finlandese, francese, italiano, giapponese, coreano, olandese, norvegese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, ungherese,",
-              "pro": "Albanese, cinese, danese, tedesco, inglese, finlandese, francese, italiano, giapponese, coreano, olandese, norvegese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, ungherese",
-              "enterprise": "Albanese, cinese, danese, tedesco, inglese, finlandese, francese, italiano, giapponese, coreano, olandese, norvegese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, ungherese"
+              "advanced": "Albanese, cinese, danese, tedesco, inglese, francese, italiano, giapponese, coreano, olandese, norvegese, polacco, portoghese, romancio, russo, svedese, serbo, slovacco, sloveno, spagnolo, ceco, ungherese, dialetto svizzero tedesco",
+              "pro": "Albanese, cinese, danese, tedesco, inglese, francese, italiano, giapponese, coreano, olandese, norvegese, polacco, portoghese, romancio, russo, svedese, serbo, slovacco, sloveno, spagnolo, ceco, ungherese, dialetto svizzero tedesco",
+              "enterprise": "Albanese, cinese, danese, tedesco, inglese, francese, italiano, giapponese, coreano, olandese, norvegese, polacco, portoghese, romancio, russo, svedese, serbo, slovacco, sloveno, spagnolo, ceco, ungherese, dialetto svizzero tedesco"
             },
             "languageVariants": {
               "name": "Varianti nazionali",
               "description": "",
-              "all": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH)",
-              "free": "Inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), svizzero tedesco (BE, ZH)",
-              "essential": "Inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), svizzero tedesco (BE, ZH)",
-              "advanced": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH)",
-              "pro": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH)",
-              "enterprise": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH)"
+              "all": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), dialetto svizzero tedesco (BE, ZH)",
+              "free": "Inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), dialetto svizzero tedesco (BE, ZH)",
+              "essential": "Inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), dialetto svizzero tedesco (BE, ZH)",
+              "advanced": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), dialetto svizzero tedesco (BE, ZH)",
+              "pro": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), dialetto svizzero tedesco (BE, ZH)",
+              "enterprise": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), dialetto svizzero tedesco (BE, ZH)"
             }
           }
         },
@@ -1642,9 +1641,9 @@
               "enterprise": "Opzionale"
             },
             "gdpr": {
-              "name": "Piena osservanza del RGPD (UE) e della LPD (Svizzera)",
+              "name": "Piena conformità al GDPR (UE) e alla DSG (Svizzera)",
               "description": "",
-              "free": "Non sono consentiti testi contenenti dati personali"
+              "free": "Non sono ammessi testi con dati personali"
             }
           }
         },
@@ -1668,7 +1667,7 @@
           "features": {
             "unlimitedFileTranslation": {
               "name": "Traduzione di file illimitata",
-              "description": "Caricate interi documenti e ricevete una traduzione modificabile, con layout e stile invariati.",
+              "description": "Caricate documenti completi e ricevete una traduzione modificabile, con layout e stile invariati.",
               "free": "5 file a persona e al mese (per utenti registrati)",
               "essential": "20 file a persona e al mese",
               "advanced": "20 file al mese, a persona"
@@ -1695,7 +1694,7 @@
               "description": ""
             },
             "videoSubtitleFileTypes": {
-              "name": "File SRT per sottotitoli video",
+              "name": "File SRT per sottotitoli di video",
               "description": ""
             }
           }
@@ -1723,7 +1722,7 @@
             },
             "glossaries": {
               "name": "Glossari",
-              "description": "Stabilite voi come devono essere tradotti determinati termini."
+              "description": "Stabilite come devono essere tradotti determinati termini."
             },
             "styleGuides": {
               "name": "Guide di stile",
@@ -1752,8 +1751,8 @@
             "catToolIntegration": {
               "name": "CAT tool",
               "description": "Utilizzate Supertext in Trados Studio, Memoq e in molti altri CAT tool per aumentare la produttività del vostro pool di traduzione professionale.",
-              "advanced": "Componente aggiuntivo opzionale",
-              "pro": "Componente aggiuntivo opzionale",
+              "advanced": "Componenti aggiuntivi opzionali",
+              "pro": "Componenti aggiuntivi opzionali",
               "enterprise": "Componente aggiuntivo opzionale"
             }
           }
@@ -1771,7 +1770,7 @@
             },
             "firstResponseTimeGuarantee": {
               "name": "Tempo di risposta iniziale garantito",
-              "description": "Durante gli orari d’ufficio (9–18 MEZ) dal lunedì al venerdì",
+              "description": "Durante gli orari di apertura (9- MEZ) dal lunedì al venerdì",
               "free": "Free",
               "essential": "24 ore",
               "advanced": "24 ore",
@@ -1795,12 +1794,12 @@
       "fusedTranslation": {
         "title": "Fused Translation",
         "cta": "Perché scegliere la Fused Translation?",
-        "button": "Creare un ordine",
-        "description": "Altamente precisa e affidabile"
+        "button": "Effettuare un ordine",
+        "description": "Massima precisione e affidabilità"
       },
-      "aiTranslation": {
+      "aiTranslationVerification": {
         "title": "Traduzione IA",
-        "description": "Disponibile subito per il download",
+        "description": "Download immediato, {0} file rimanenti per questo mese.",
         "cta": "Ottieni di più",
         "button": "Traduci ora"
       },
@@ -1809,13 +1808,7 @@
         "titleWhitPrice": "Human-verified AI {0} {1}",
         "titleWithPrice": "Human-verified AI {0} {1}"
       },
-      "immediately": "subito",
-      "aiTranslationVerification": {
-        "title": "",
-        "description": "",
-        "cta": "",
-        "button": ""
-      }
+      "immediately": "immediatamente"
     },
     "components": {
       "faq": {
@@ -1832,7 +1825,7 @@
         },
         "lead": {
           "large": "Con l’IA si possono tradurre <highlight>centinaia di parole in pochi secondi</highlight>. Ma come si fa ad avere la certezza che <highlight>ogni parola sia corretta</highlight>?",
-          "small": "Per realizzare questa visione abbiamo creato un connubio tra l’IA linguistica e un pool di traduttori esperti. Per una fusione perfetta di intelligenza artificiale e sapere umano che siete voi a modulare. Supertext unisce l’efficienza dell’IA alle competenze di settore, la sicurezza dei dati alla garanzia di qualità dei testi. Supertext è semplice, personalizzabile e migliora ogni giorno imparando. Supertext è la vostra soluzione all-in-one."
+          "small": "Per realizzare questa visione abbiamo creato un connubio tra l’IA linguistica e un pool di traduttori professionisti. Per una fusione perfetta di intelligenza artificiale e sapere umano che siete voi a modulare. Supertext unisce l’efficienza dell’IA alle competenze di settore, la sicurezza dei dati alla garanzia di qualità dei testi. Supertext è semplice, personalizzabile e migliora ogni giorno imparando. Supertext è la vostra soluzione all-in-one."
         },
         "featureList": {
           "title": "Fused Translation con Supertext: i vostri vantaggi",
@@ -1841,15 +1834,15 @@
             "benefits": [
               {
                 "title": "Tutto su un’unica piattaforma",
-                "description": "Dall’automatizzazione completa alla cura data dal tocco umano: con Supertext la scelta sta a voi. Noi vi offriamo su un’unica piattaforma il connubio perfetto tra traduzione IA all’avanguardia e un pool di traduttori esperti. La simbiosi assoluta tra intelligenza artificiale e veri professionisti delle lingue che siete voi a modulare."
+                "description": "Dall’automatizzazione completa alla cura data dal tocco umano: con Supertext la scelta sta a voi. Noi vi offriamo su un’unica piattaforma il connubio perfetto tra una traduzione IA all’avanguardia e traduzione professionale. La simbiosi perfetta tra intelligenza artificiale e veri professionisti delle lingue che siete voi a modulare."
               },
               {
                 "title": "Doppia sicurezza",
-                "description": "Sicurezza dei dati e garanzia di qualità dei testi: noi vi offriamo entrambe. La sicurezza è garantita da standard di gestione dei dati di altissimo livello, la garanzia di qualità dal controllo professionale a portata di click. Il risultato? Una comunicazione multilingue che non scende a compromessi."
+                "description": "Sicurezza dei dati e garanzia di qualità dei testi: noi vi offriamo entrambe. La sicurezza è garantita da standard di gestione dei dati di altissimo livello, la garanzia di qualità dal controllo professionale su richiesta e a portata di click. Il risultato? Una comunicazione multilingue che non scende a compromessi."
               },
               {
                 "title": "Efficienza e flessibilità",
-                "description": "I nostri modelli linguistici imparano in fretta e, a ogni traduzione professionale, si adattano sempre meglio alle vostre esigenze. Per una qualità sempre più alta e costi più bassi nel tempo."
+                "description": "I nostri modelli linguistici imparano in fretta e, a ogni traduzione verificata, si adattano sempre meglio alle vostre esigenze. Per una qualità sempre più alta e costi più bassi nel tempo."
               }
             ],
             "buttons": [
@@ -1885,7 +1878,7 @@
                   "description": "Andate sul sicuro. Con un solo click vi metteremo in contatto diretto con un o una professionista di comprovata esperienza, che verificherà la traduzione e apporterà le modifiche necessarie. Nel giro di pochi minuti riceverete un testo adeguatamente corretto.",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "/ki-uebersetzung",
+                    "link": "/verifica",
                     "variant": "primary"
                   }
                 },
@@ -1895,7 +1888,7 @@
                   "badge": "Presto disponibile",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "/technologie",
+                    "link": "Tecnologia",
                     "variant": "secondary"
                   }
                 }
@@ -1909,7 +1902,7 @@
                   "description": "Your company, your voice. Con un training mirato, Supertext integra le vostre specifiche in materia di stile e il vostro wording in ogni traduzione, garantendo così una comunicazione fluida e priva di ostacoli.",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "#-ai",
+                    "link": "/tecnologia",
                     "variant": "secondary"
                   }
                 },
@@ -1918,7 +1911,7 @@
                   "description": "Quando ogni parola conta: i nostri 3000 esperti linguistici scrivono in uno stile impeccabile e traducono con la massima precisione. In conformità al vostro tono di voce, con originalità espressiva e andando dritti al punto in tutte le lingue.",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "/sprachexpertise",
+                    "link": "Competenze linguistiche",
                     "variant": "secondary"
                   }
                 },
@@ -1927,7 +1920,7 @@
                   "description": "Volete adattare il vostro modello di IA a una nuova guida di stile? O richiedere a un team di esperti la valutazione dei vostri attuali flussi di lavoro? Siamo a vostra completa disposizione: con competenza, soluzioni su misura, efficienza e cordialità.",
                   "cta": {
                     "title": "Parliamone.",
-                    "link": "/kontakt",
+                    "link": "Contatto",
                     "variant": "secondary"
                   }
                 },
@@ -1936,7 +1929,7 @@
                   "description": "Dal Single Sign-on (SSO) all’hosting locale: con Supertext proteggete in modo affidabile i vostri dati aziendali.",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "/technologie",
+                    "link": "Tecnologia",
                     "variant": "secondary"
                   }
                 },
@@ -1945,14 +1938,14 @@
                   "description": "Supertext si adatta perfettamente al vostro ambito lavorativo grazie alle nostre API e alle integrazioni, che garantiscono processi snelli su ogni interfaccia.",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "/technologie",
+                    "link": "Tecnologia",
                     "variant": "secondary"
                   }
                 },
                 {
                   "imageConfig": {
                     "alt": "Team",
-                    "image": "/images/pages/why-supertext/hero-two.png"
+                    "image": "/images/pages/why-supertext/02_05_Why-Supertext.webp"
                   }
                 }
               ]
@@ -1968,7 +1961,7 @@
           "text": "Dal semplice <highlight>di traduttore online</highlight> alla <highlight>soluzione su misura completamente integrata</highlight>: scegliete <highlight>l’abbonamento</highlight> che fa al caso vostro<highlight>.</highlight>",
           "cta": {
             "title": "Scopri ora",
-            "link": "/referenzen",
+            "link": "Referenze",
             "target": "_blank"
           }
         }
@@ -1984,12 +1977,12 @@
                 "description": "Correttezza garantita nel giro di pochi minuti anziché ore, grazie al nostro controllo professionale a portata di click.",
                 "cta": {
                   "title": "Scopri di più",
-                  "link": "/ai-translation"
+                  "link": "/ai-traduzione"
                 }
               },
               {
                 "title": "Traduzione specialistica",
-                "description": "Affidata a specialisti comprovati con grande esperienza nel settore richiesto.",
+                "description": "Affidata a specialisti comprovati con grande esperienza nel settore richiesto. ",
                 "cta": {
                   "title": "Scopri di più",
                   "link": "/service/translation"
@@ -2038,7 +2031,7 @@
             "title": "Traduzione IA",
             "cards": [
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/home/Supertext_Icon_Translate_Online_Light_Green.svg",
                 "title": "Tradurre immediatamente in 23 lingue",
                 "description": "Con Supertext potete comunicare meglio, in modo più veloce e più sicuro. La nostra soluzione di traduzione IA, basata su sistemi LLM di ultima generazione sviluppati dal nostro team, supporta 23 lingue, dal giapponese al tedesco svizzero: semplice, conforme ai massimi standard di sicurezza e perfettamente integrata in ogni sistema.",
                 "cta": {
@@ -2048,7 +2041,7 @@
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/home/Supertext_Icon_Verifiziert_Klick_Light_Green.svg",
                 "title": "Controllo professionale con un click",
                 "description": "Correttezza garantita con un click: fate verificare le traduzioni importanti dai nostri professionisti nel giro di pochi minuti anziché di ore. Supertext vi mette in contatto diretto con oltre 3000 esperti ed esperte di lingue e culture, affinché il vostro messaggio colga nel segno quando conta davvero.",
                 "cta": {
@@ -2058,13 +2051,13 @@
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
-                "title": "La vostra IA personalizzata che impara in tempo reale",
+                "icon": "/images/pages/home/Supertext_Icon_KI_Learning_Light_Green.svg",
+                "title": "La vostra IA personale che impara in tempo reale",
                 "description": "I nostri modelli linguistici imparano in fretta e, con ogni traduzione verificata da professionisti, si adattano sempre di più al vostro stile, alla vostra scelta di parole e alle vostre esigenze, per una qualità sempre più alta e costi più bassi nel tempo.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Scopri di più",
-                  "link": "/technologie"
+                  "link": "Tecnologia"
                 },
                 "badge": ""
               }
@@ -2075,7 +2068,7 @@
             "title": "Servizi professionali",
             "cards": [
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/home/Supertext_Icon_Language_Experts_Light_Green.svg",
                 "title": "Traduzioni specialistiche da parte di esperti",
                 "description": "Sia che si tratti di un testo contrattuale o di una campagna di manifesti pubblicitari, i nostri 3000 esperti linguistici selezionati con cura traducono con la massima precisione e sono specializzati in diversi ambiti, conoscono tutti i tool da InDesign a Word e le lingue dall’arabo a zulu.",
                 "cta": {
@@ -2085,7 +2078,7 @@
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/home/Supertext_Icon_Copywriting_Light_Green.svg",
                 "title": "Copywriting e contenuti firmati da copywriter professionisti",
                 "description": "Se siete a corto di parole, i nostro team globale di esperti copywriter trova per voi quelle giuste. Conformi al vostro tono di voce, originali e che vanno dritte al punto, che si tratti di un blogpost o di una campagna cartellonistica internazionale.",
                 "cta": {
@@ -2095,7 +2088,7 @@
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/home/Supertext_Icon_Lektorat_Light_Green.svg",
                 "title": "Revisione professionale per il tocco finale",
                 "description": "I nostri revisori selezionati si assicurano che ogni singola lettera sia al suo posto e che ogni parola sia corretta. Correggono, redigono e revisionano in base alle vostre specifiche. Con precisione e in tempi record.",
                 "cta": {
@@ -2109,10 +2102,9 @@
           {
             "id": "3",
             "title": "Per le aziende",
-            "icon": "/images/pages/ai-translation/feature-icon.png",
             "cards": [
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/home/Supertext_Icon_Language_Custom_Light_Green.svg",
                 "title": "LLM personalizzati per una qualità linguistica che punta all’eccellenza",
                 "description": "Il miglior modello linguistico è il vostro. Ecco perché sviluppiamo LLM a misura di cliente, perfettamente modulati in base al vostro stile e al formato dei vostri contenuti. Per una comunicazione fluida in tutta l’azienda e inconfondibile in ogni lingua.",
                 "cta": {
@@ -2122,17 +2114,17 @@
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/home/Supertext_Icon_Datensicherheit_Light_Green.svg",
                 "title": "Sicurezza dei dati secondo le vostre specifiche",
                 "description": "Dal cloud privato all’hosting locale, fino al Single Sign-on (SSO): nella nostra soluzione Business potete gestire con la massima flessibilità le misure di sicurezza desiderate. È questo che fa di noi il partner preferito dalle banche, le autorità e gli istituti assicurativi.",
                 "cta": {
                   "variant": "primary",
                   "title": "Scopri di più",
-                  "link": "/technologie"
+                  "link": "Tecnologia"
                 }
               },
               {
-                "icon": "/images/pages/ai-translation/feature-icon.png",
+                "icon": "/images/pages/home/Supertext_Icon_All-In-One_Light_Green.svg",
                 "title": "La soluzione all-in-one che migliora ogni giorno di più",
                 "description": "Dall’automatizzazione completa alla cura data dal tocco umano: con Supertext le aziende possono richiedere tutte le traduzioni su un’unica piattaforma. Per una maggiore sicurezza, una qualità che migliora nel tempo e costi ogni giorno più bassi grazie all’apprendimento continuo dell’IA.",
                 "cta": {
@@ -2158,7 +2150,7 @@
           "heading": "1500 aziende in tutta Europa: le nostre referenze parlano chiaro",
           "cta": {
             "text": "Vai ai case study",
-            "link": "/referenzen"
+            "link": "Referenze"
           }
         },
         "blog": {
@@ -2189,7 +2181,7 @@
         },
         "lead": {
           "large": "<highlight>Automatizzazione completa</highlight> o <highlight>tocco umano?</highlight> La risposta è spesso a metà strada.",
-          "small": "Con la traduzione IA tradurrete centinaia di parole nel giro di pochi secondi. Inoltre, affidandovi alla nostra expertise umana, avrete la garanzia che ogni parola sia quella più giusta. Con Supertext potete prenotare l’assistenza supplementare di specialisti in pochi click: un valore aggiunto tutte quelle volte che sono richieste competenze specifiche nel vostro settore e passione allo stato puro. <break></break> <break></break> Il grande vantaggio? La vostra IA migliora a ogni progetto professionale, quindi impara a parlare la vostra lingua. Per una comunicazione fluida, tarata sulle vostre esigenze e una riduzione dei costi nel tempo."
+          "small": "Con la traduzione IA tradurrete centinaia di parole nel giro di pochi secondi. Inoltre, affidandovi alla nostra expertise umana, avrete la garanzia che ogni parola sia quella più giusta. Con Supertext potete prenotare l’assistenza supplementare di specialisti in pochi click: un valore aggiunto tutte quelle volta che sono richieste competenze specifiche nel vostro settore e passione allo stato puro. <break/><break/>Il grande vantaggio? La vostra IA  migliora a ogni progetto professionale, quindi impara a parlare la vostra lingua. Per una comunicazione fluida, tarata sulle vostre esigenze e una riduzione dei costi nel tempo."
         },
         "featureList": {
           "title": "Supertext. Chi siamo?",
@@ -2201,7 +2193,7 @@
                 "description": "Il nostro team tech si dedica a progetti pionieristici che hanno già dato i loro frutti, per sviluppare una tecnologia di IA linguistica affidabile, sicura, flessibile e che non scende a compromessi. Questa costituisce il fondamento di una qualità linguistica su larga scala, perfettamente integrata in ogni processo e su ogni interfaccia.",
                 "cta": {
                   "text": "Scopri di più sulla nostra tecnologia",
-                  "link": "/technologie",
+                  "link": "Tecnologia",
                   "variant": "primary"
                 }
               },
@@ -2211,10 +2203,10 @@
               },
               {
                 "title": "Specialisti e specialiste linguistici interni come garanzia di coerenza e qualità",
-                "description": "I nostri specialisti e le nostre specialiste in-house consolidano le competenze interne e monitorano la qualità dei testi nelle lingue principali. Elaborano linee guida, creano team linguistici specializzati per i singoli clienti e risolvono in prima persona qualunque criticità a carattere linguistico."
+                "description": "I nostri specialisti e le nostre specialiste in-house consolidano le competenze interne e monitorano la qualità dei testi nelle lingue principali. Tra i loro task rientrano anche l’elaborazione di linee guida, la creazione di team linguistici specializzati per i singoli clienti e la risoluzione in prima persona di qualunque criticità a carattere linguistico."
               },
               {
-                "title": "Responsabili di progetto per un’assistenza individuale e competente",
+                "title": "Responsabili di progetto per un’assistenza individuale e competente ",
                 "description": "I nostri e le nostre project manager gestiscono con flessibilità i progetti di ampio respiro e rappresentano il vostro filo diretto con Supertext. Si assicurano che le vostre richieste siano soddisfatte con accuratezza, che i termini di consegna vengano rispettati e che i file tradotti abbiano un layout perfetto in qualsiasi formato."
               }
             ],
@@ -2236,7 +2228,7 @@
                   "description": "La parola giusta al posto giusto. Con la traduzione automatica e il controllo professionale a portata di click.",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "/ai-translation",
+                    "link": "/verification",
                     "variant": "secondary"
                   }
                 },
@@ -2281,7 +2273,7 @@
                   "description": "Avete progetti ambiziosi? Noi la soluzione giusta per ogni lingua. Il tutto automatizzato dallo 0% al 100%.",
                   "cta": {
                     "title": "Parliamone.",
-                    "link": "/contact",
+                    "link": "/contatto",
                     "variant": "secondary"
                   }
                 }
@@ -2300,11 +2292,11 @@
               "content": [
                 {
                   "title": "Quali sono i vostri compiti da Supertext?",
-                  "text": "Tutto ciò che ruota intorno alle competenze linguistiche. Verifichiamo le traduzioni IA e monitoriamo il lavoro dei freelancer, ma definiamo anche i flussi di lavoro relativi a clienti con esigenze specifiche. Dal controllo qualità alla redazione di guide di stile, fino alla creazione e alla gestione di team linguistici."
+                  "text": "Tutto ciò che ruota intorno alle competenze linguistiche. Verifichiamo le traduzioni IA e monitoriamo il lavoro dei freelancer, ma definiamo anche i flussi di lavoro relativi a clienti con esigenze specifiche. Ulteriori mansioni includono il controllo qualità, la redazione di guide di stile nonché la creazione e la gestione di team linguistici."
                 },
                 {
                   "title": "Che doti deve avere un bravo specialista linguistico?",
-                  "text": "Oltre al talento con le lingue, è particolarmente importante mostrare interesse per le potenzialità offerte dalla tecnologia. Questa ci consente di affinare le nostre competenze e di acquisire gli strumenti necessari a soddisfare le esigenze dei nostri clienti. Altri fattori importanti sono la cura maniacale dei dettagli e la determinazione a chiudere con successo ogni progetto, anche in tempi record."
+                  "text": "Oltre al talento con le lingue, è particolarmente importante mostrare interesse per le potenzialità offerte dalla tecnologia. Questa ci consente di affinare le nostre competenze e di acquisire gli strumenti necessari a soddisfare le esigenze dei nostri clienti. Altri fattori importanti sono la cura maniacale dei dettagli e la determinazione a chiudere con successo ogni progetto, anche se in tempi record."
                 },
                 {
                   "title": "E come fate, di preciso, a garantire la migliore qualità linguistica?",
@@ -2319,7 +2311,7 @@
               "content": [
                 {
                   "title": "Che cosa fa esattamente un research scientist?",
-                  "text": "In breve: mette in atto le richieste dei clienti con soluzioni concrete, migliorando i modelli di traduzione esistenti e sviluppando modelli da modulare ad hoc con un training mirato in base alla lingua aziendale di ogni cliente. Inoltre, a Supertext stiamo implementando nuove funzioni basate sugli studi e sui dati più recenti."
+                  "text": "In breve: mette in atto le richieste dei clienti con soluzioni concrete, migliorando i modelli di traduzione esistenti e sviluppando modelli da modulare ad hoc alla lingua aziendale di ogni cliente con un training mirato. Inoltre, a Supertext stiamo implementando nuove funzioni basate sugli studi e sui dati più recenti."
                 },
                 {
                   "title": "Come si addestra il modello e cosa vi occorre per farlo?",
@@ -2327,14 +2319,14 @@
                 },
                 {
                   "title": "Qual è la feature più interessante a cui hai contribuito finora?",
-                  "text": "La nostra feature relativa ai dialetti, che consente di tradurre da e verso lo svizzero tedesco, comprese varianti dialettali come lo zurighese o il bernese. La sua implementazione si è rivelata complessa, perché per queste varianti sono disponibili pochi testi scritti da usare a fini di training."
+                  "text": "La nostra feature relativa ai dialetti, che consente di tradurre da e verso lo svizzero tedesco, comprese varianti dialettali come lo zurighese o il bernese. La tecnologia alla base si è rivelata complessa, perché per queste varianti sono disponibili pochi testi scritti da usare per il training."
                 }
               ]
             }
           ]
         },
         "footerNote": {
-          "text": "Volete mettere a punto una <highlight>guida di stile</highlight> per la vostra azienda? O gestire centinaia di <highlight>progetti di traduzione</highlight> al mese?",
+          "text": "Volete mettere a punto una <highlight>guida di stile</highlight> per la vostra azienda o gestire 4000 <highlight>progetti di traduzione</highlight> al mese?",
           "preTitle": "Siamo a vostra disposizione",
           "cta": {
             "title": "Parliamone.",
@@ -2345,7 +2337,7 @@
       },
       "contact": {
         "hero": {
-          "title": "in quasi tutte le lingue",
+          "title": " in quasi tutte le lingue",
           "description": "Per un progetto, un feedback, il lavoro dei sogni o una demo: parliamone."
         },
         "salesSection": {
@@ -2456,7 +2448,7 @@
         "locations": [
           {
             "title": "Zurigo",
-            "description": "Il nostro quartier generale è a Zürich-West, a pochi metri dalle rive del Limmat.",
+            "description": "Il nostro quartier generale è a Zürich West, a pochi metri dalle rive del Limmat.",
             "image": "/images/pages/contact/zurich.png",
             "address": {
               "line0": "Supertext",
@@ -2559,12 +2551,12 @@
       },
       "workAtSupertext": {
         "hero": {
-          "title": "Lavorare a Supertext",
+          "title": "Lavorare da Supertext",
           "description": "La nostra struttura. I nostri obiettivi. E come diventare parte di tutto questo."
         },
         "lead": {
-          "large": "Amiamo le <highlight>lingue</highlight> e la <highlight>tecnologia.</highlight> E siamo sempre alla ricerca di <highlight>nuovi talenti</highlight> che condividano la nostra passione.",
-          "small": "In qualità di fornitore di servizi linguistici basati sull’IA a livello internazionale, gestiamo progetti per oltre 1500 aziende in tutta Europa. Promuoviamo il cambiamento e sviluppiamo soluzioni che ridefiniscono lo status quo, mettendo l’IA e la competenza umana al centro del nostro lavoro. <break/><break/>Dietro le nostre soluzioni basate sulle tecnologie linguistiche c’è un team di oltre 100 esperti ed esperte in AI research, software, linguistica e gestione di progetto, che fonda il suo lavoro su uno scambio costante di conoscenze e sulla rapidità di pensiero e di azione.",
+          "large": "Amiamo le <highlight>lingue</highlight> e la <highlight>tecnologia, per questo dedichiamo a entrambe anima e corpo.</highlight> Inoltre siamo sempre alla ricerca di <highlight>nuovi talenti</highlight> che condividano la nostra passione.",
+          "small": "In qualità di fornitori di servizi linguistici basati sull’IA a livello internazionale, gestiamo progetti per oltre 1500 aziende in tutta Europa. Promuoviamo il cambiamento e sviluppiamo soluzioni che ridefiniscono lo status quo, mettendo l’IA e la competenza umana al centro del nostro lavoro. <break/><break/>Dietro le nostre soluzioni basate sulle tecnologie linguistiche c’è un team di oltre 100 esperti ed esperte in AI research, software, linguistica e gestione di progetto, che fonda il suo lavoro su uno scambio costante di conoscenze e sulla rapidità di pensiero e di azione.",
           "cta": {
             "title": "Scoprite di più sulla nostra visione",
             "link": "/why-supertext"
@@ -2633,10 +2625,10 @@
         "article_one": {
           "tag": "VALORI & BENEFIT",
           "title": "È la < highlight >diversità</ > a renderci imbattibili",
-          "description": "Riuniamo in una grande visione innumerevoli culture, lingue, talenti e interessi. Questa eterogeneità arricchisce la nostra collaborazione e contribuisce a renderci ciò che siamo: il fornitore all-in-one capace di trovare una soluzione a ogni sfida linguistica. <break></break> <break></break> I nostri pilastri imprescindibili sono il rispetto reciproco, una retribuzione equa e un ambiente di lavoro flessibile. Da Supertext ci organizziamo in autonomia, ci assumiamo le responsabilità e contribuiamo a plasmare attivamente la nostra cultura. Mediante corsi di formazione e feedback costanti allarghiamo le nostre conoscenze e promuoviamo la crescita personale."
+          "description": "Riuniamo sotto lo stesso tetto innumerevoli culture, lingue, talenti e interessi. Questa eterogeneità arricchisce la nostra collaborazione e contribuisce a renderci ciò che siamo: il fornitore all-in-one capace di trovare una soluzione a ogni sfida linguistica. <break></break> <break></break> I nostri pilastri imprescindibili sono il rispetto reciproco, una retribuzione equa e un ambiente di lavoro flessibile. Da Supertext ci organizziamo in autonomia, ci assumiamo le responsabilità e contribuiamo a plasmare attivamente la nostra cultura. Mediante corsi di formazione e feedback costanti allarghiamo le nostre conoscenze e promuoviamo la crescita personale."
         },
         "footerNote": {
-          "text": "Sei una copywriter, un traduttore , una redattrice oppure un professionista SEO e vorresti collaborare con noi come < highlightText >freelancer</highlightText>?",
+          "text": "Sei un o una copywriter, un traduttore o una traduttrice, un redattore o una redattrice oppure un o una professionista SEO e vorresti collaborare con noi come < highlightText >freelancer</highlightText>?",
           "description": "Siamo sempre alla ricerca di traduttori, copywriter, specialisti SEO e revisori che offrano un valore aggiunto al nostro team di professionisti linguistici.",
           "cta": {
             "title": "Registrati ora",
@@ -2651,8 +2643,8 @@
           "description": "La nostra missione: garantire la massima accuratezza comunicativa."
         },
         "lead": {
-          "large": "Tool IA o agenzia di servizi? Siamo entrambe le cose e <highlight>insieme molto di più.</highlight>",
-          "small": "Supertext è un fornitore di servizi linguistici full-service basati sull’IA con sedi a Zurigo e Berlino. Oltre 1500 aziende in tutta Europa si affidano alle nostre soluzioni linguistiche, dal traduttore online in costante apprendimento ai servizi con certificazione ISO per documenti multilingue, siti web, app e campagne multimediali. Il <break/><break/>nostro team è composto da oltre 100 specialisti in IA, intelligenza artificiale, linguistica, gestione di progetti e security, a cui si aggiunge una rete selezionata di 3000 freelancer professionisti in tutto il mondo.<break/><break/>Insieme lavoriamo allo sviluppo di una piattaforma unica per testi e traduzioni, che consente alle aziende di beneficiare sia dei vantaggi dell’IA che della competenza umana, il tutto tarato sulle esigenze individuali. In questo modo stiamo ridefinendo il concetto di comunicazione, rendendolo efficiente, preciso e sicuro al 100%.",
+          "large": "Tool IA o agenzia di traduzione? Siamo entrambe le cose e <highlight>insieme molto di più.</highlight>",
+          "small": "Supertext è un fornitore di servizi linguistici full-service basati sull’IA con sedi a Zurigo e Berlino. Oltre 1500 aziende in tutta Europa si affidano alle nostre soluzioni linguistiche, dal traduttore online in costante apprendimento ai servizi con certificazione ISO per documenti multilingue, siti web, app e campagne multimediali. Il <break/><break/>nostro team è composto da oltre 100 specialisti in IA, intelligenza artificiale, linguistica, gestione di progetti e security, a cui si aggiunge una rete selezionata di 3000 freelancer professionisti in tutto il mondo.<break/><break/>Insieme lavoriamo allo sviluppo di una piattaforma unica per testi e traduzioni, che consente alle aziende di beneficiare sia dei vantaggi dell’IA che della competenza umana, il tutto tarato sulle esigenze individuali. In questo modo stiamo ridefinendo il concetto di comunicazione, rendendolo efficiente, preciso e sicuro al 100%, sia in termini di contenuti che di protezione dei dati.",
           "cta": {
             "title": "Scopri l’offerta",
             "link": "/why-supertext"
@@ -2685,7 +2677,7 @@
           ]
         },
         "members": {
-          "eyebrowHeadline": "MANAGEMENT",
+          "eyebrowHeadline": "Management",
           "title": "Fate la conoscenza del nostro management team",
           "cta": {
             "title": "Scopri com’è organizzato il nostro team",
@@ -2725,7 +2717,7 @@
           }
         ],
         "footerNote": {
-          "text": "Vuoi <highlightText>entrare a far parte del team</highlightText>?",
+          "text": "Volete <highlightText>entrare a far parte del team?</highlightText>",
           "cta": {
             "title": "Lavorare a Supertext",
             "link": "/work-at-supertext"
@@ -2747,36 +2739,36 @@
           }
         }
       },
-      "aiTranslation": {
+      "aiTranslationVerification": {
         "hero": {
           "title": "Traduzione IA con verifica professionale",
           "description": "Correttezza garantita, con una consegna nel giro di pochi minuti anziché di ore, grazie al nostro controllo professionale a portata di click."
         },
         "lead": {
           "large": "La vostra traduzione: verificata da professionisti quando conta davvero.",
-          "small": "La traduzione IA è semplice, veloce e in costante miglioramento. Eppure c’è ancora qualcosa che nel 2025 l’IA non è in grado di fare: garantire l’accuratezza di una testo tradotto <break/><break/> <break></break> Per i testi importanti, Supertext vi mette in contatto diretto con oltre 3000 esperti ed esperte in materia di traduzione e transfer culturale. Grazie alla verifica a portata di click, in pochi minuti avrete la certezza che il vostro messaggio colga nel segno. Il tutto in modo affidabile, economico e veloce.",
+          "small": "La traduzione IA è semplice, veloce e in costante miglioramento. Eppure c’è ancora qualcosa che nel 2025 l’IA non è in grado di fare: garantire l’accuratezza di una traduzione. A questo pensano i nostri esperti e le nostre esperte. <break/><break/>Per i testi importanti, Supertext vi mette in contatto diretto con oltre 3000 esperti ed esperte in materia di traduzione e transfer culturale. Grazie alla verifica a portata di click, in pochi minuti avrete la certezza che il vostro messaggio colga nel segno. Il tutto in modo affidabile, economico e veloce.",
           "cta": {
             "title": "Prova ora",
             "link": "/"
           }
         },
         "informationalPanel": {
-          "title": "Un connubio tra traduzione IA e talenti eccezionali. Come funziona?",
+          "title": "Un connubio tra traduzione IA e professionisti esperti. Come funziona?",
           "items": [
             {
-              "title": "Traduzione AI all’avanguardia della tecnica",
+              "title": "Traduzione AI all’avanguardia",
               "description": "Alla base ci sono i nostri sistemi di traduzione interni basati sull’intelligenza artificiale di ultima generazione, in grado di tradurre in 23 lingue, incluse le varianti nazionali locali.",
-              "icon": "/images/pages/ai-translation/icon-bullet.png"
+              "icon": "/images/pages/verification/Supertext_Icon_AI_Translation_Dark_Green.svg"
             },
             {
               "title": "Verifica professionale in pochi minuti",
-              "description": "I nostri traduttori professionisti madrelingua verificano subito che la traduzione corrisponda esattamente al testo originale in termini di contenuto, intervenendo laddove necessario.",
-              "icon": "/images/pages/ai-translation/icon-bullet.png"
+              "description": "I nostri traduttori professionisti madrelingua garantiscono che la traduzione corrisponda esattamente al testo originale in termini di contenuto, intervenendo con le proprie correzioni laddove necessario.",
+              "icon": "/images/pages/verification/Supertext_Icon_Verifiziert_Klick_Dark_Green.svg"
             },
             {
-              "title": "Sempre meglio: il vostro modello di IA personalizzato è in grado di apprendere",
-              "description": "Una volta completato il controllo, consegniamo la traduzione verificata. La inviamo a voi per un utilizzo immediato e al vostro modello linguistico personalizzato, contribuendo al suo costante miglioramento in tempo reale.",
-              "icon": "/images/pages/ai-translation/icon-bullet.png"
+              "title": "Sempre meglio: il vostro modello di IA personale è in grado di apprendere",
+              "description": "Una volta completata la verifica, consegniamo la traduzione verificata. La inviamo a voi per un utilizzo immediato e al vostro modello linguistico personalizzato, contribuendo al suo costante miglioramento in tempo reale.",
+              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg"
             }
           ],
           "cta": {
@@ -2794,17 +2786,17 @@
             {
               "title": "Tradurre un testo su supertext.com e selezionare «Avviare la verifica professionale»",
               "number": "01",
-              "image": "/images/pages/ai-translation/step-1.webp"
+              "image": "/images/pages/verification/05_04_Profi-Check.webp"
             },
             {
               "title": "Confermare i dettagli dell’ordine e indicare il metodo di pagamento",
               "number": "02",
-              "image": "/images/pages/ai-translation/step-2.webp"
+              "image": "/images/pages/verification/05_05_Profi-Check.webp"
             },
             {
-              "title": "Ottenere la traduzione verificata pochi minuti dopo",
+              "title": "Scaricare la traduzione verificata pochi minuti dopo",
               "number": "03",
-              "image": "/images/pages/ai-translation/step-3.webp"
+              "image": "/images/pages/verification/05_06_Profi-Check.webp"
             }
           ]
         },
@@ -2813,17 +2805,17 @@
           "eyebrowHeadline": "La nostra promessa",
           "items": [
             {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "icon": "/images/pages/verification/Supertext_Icon_Language_Experts_Light_Green.svg",
               "title": "3000 esperti madrelingua specializzati",
               "description": "Tutti i nostri traduttori specialisti hanno acquisito una laurea in traduzione o hanno al loro attivo almeno cinque anni di esperienza professionale,oltre ad aver superato un test interno.",
               "cta": {
                 "variant": "primary",
                 "title": "Scopri di più sulle competenze linguistiche",
-                "link": "/sprachexpertise"
+                "link": "Competenze linguistiche"
               }
             },
             {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "icon": "/images/pages/verification/Supertext_Icon_Certified_Light_Green.svg",
               "title": "Processi testati, standardizzati e con certificazione ISO",
               "description": "Nel 2018 Supertext ha ottenuto le certificazioni per la qualità della traduzione (ISO 17100 e 18587), la gestione della qualità (ISO 9001) e la sicurezza dei dati (ISO 27001).",
               "cta": {
@@ -2833,19 +2825,19 @@
               }
             },
             {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "icon": "/images/pages/verification/Supertext_Icon_Datensicherheit_Light_Green.svg",
               "title": "Sicurezza che non scende a compromessi",
-              "description": "Garantiamo la sicurezza dei vostri dati tramite i più alti standard di gestione dei dati, una crittografia solida e i server più sicuri. È questo che fa di noi il partner preferito dalle banche, le autorità e gli istituti assicurativi.",
+              "description": "Garantiamo la sicurezza dei vostri dati tramite i più alti standard di gestione dei dati, una crittografia più solida e server più sicuri. È questo che fa di noi il partner preferito dalle banche, le autorità e gli istituti assicurativi.",
               "cta": {
                 "variant": "primary",
                 "title": "Scopri di più sulla tecnologia",
-                "link": "/technologie"
+                "link": "Tecnologia"
               }
             },
             {
-              "icon": "/images/pages/ai-translation/feature-icon.png",
+              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "La vostra IA personalizzata che impara in tempo reale",
-              "description": "I nostri modelli linguistici imparano in fretta e, a ogni traduzione verificata, si adattano sempre meglio alle vostre esigenze. Per una qualità sempre più alta e costi sempre più bassi nel tempo."
+              "description": "I nostri modelli linguistici imparano in fretta e, a ogni traduzione verificata, si adattano sempre meglio alle vostre esigenze. Per una qualità sempre più alta e costi sempre più bassi."
             }
           ]
         },
@@ -2855,8 +2847,7 @@
             "title": "Prova ora",
             "link": "/",
             "target": "_blank"
-          },
-          "image": "/images/pages/ai-translation/footer_gif.gif"
+          }
         }
       },
       "technology": {
@@ -2885,13 +2876,13 @@
             },
             "row2": {
               "title": "Training per l’adattamento: per una migliore qualità linguistica in tutta l’azienda",
-              "description": "Creiamo i vostri modelli linguistici personalizzati sulla base delle traduzioni professionali interne, dei database terminologici e delle vostre linee guida in materia di stile. Poi li addestriamo con la massima precisione in base alla vostra lingua aziendale e al vostro tono di voce. Il risultato? Traduzioni istantanee di qualità oggettivamente migliore e più accurate."
+              "description": "Creiamo i vostri modelli linguistici personalizzati sulla base delle traduzioni professionali interne, dei database terminologici e delle vostre linee guida in materia di stile. Poi li adattiamo con la massima precisione alla vostra lingua aziendale e al vostro tono di voce. Il risultato? Traduzioni istantanee di qualità chiaramente migliore e più accurate."
             }
           },
           "section2": {
             "row1": {
-              "title": "Sempre meglio: la vostra IA personalizzata è in grado di apprendere",
-              "description": "I vostri modelli linguistici su misura imparano in fretta e, a ogni nuova traduzione professionale, si adattano in automatico alla vostra lingua aziendale. Sono sempre aggiornati, affinché tutta l’azienda parli con una sola voce."
+              "title": "Sempre meglio: la vostra IA personale è in grado di apprendere",
+              "description": "I vostri modelli linguistici su misura imparano in fretta e, a ogni nuova traduzione professionale, si adattano sempre meglio alla vostra lingua aziendale. Sono sempre aggiornati, affinché tutta l’azienda parli con una sola voce."
             },
             "row2": {
               "title": "Competenze interne, dal codice all’interfaccia",
@@ -2920,7 +2911,7 @@
             "title": "SU RICHIESTA",
             "row1": {
               "title": "Linguaggio inclusivo",
-              "description": "Se necessario, i nostri modelli di traduzione rendono il testo inclusivo con un semplice clic. Attualmente la funzione è disponibile solo in tedesco e in inglese."
+              "description": "Se necessario, i nostri modelli di traduzione rendono il testo inclusivo con un semplice clic. Attualmente la funzione è disponibile solo in tedesco e inglese."
             },
             "row2": {
               "title": "Limite di caratteri",
@@ -2954,10 +2945,10 @@
                 },
                 {
                   "title": "Single Sign-on (SSO)",
-                  "description": "Gestite l’accesso al sistema di traduzione in modo efficiente e centralizzato mediante gli account già esistenti della vostra organizzazione.",
+                  "description": "Gestite l’accesso al sistema di traduzione in modo efficiente e centralizzato mediante gli account esistenti della vostra organizzazione.",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "/technologie",
+                    "link": "Tecnologia",
                     "variant": "secondary"
                   }
                 },
@@ -2987,7 +2978,7 @@
         },
         "blog": {
           "title": "Al passo con la ricerca",
-          "description": "Molti dei nostri collaboratori sono membri attivi della comunità di ricerca in materia di IA su scala globale. Mediante pubblicazioni periodiche, contribuiamo attivamente alla ricerca scientifica sull’apprendimento automatizzato.",
+          "description": "Molti dei nostri collaboratori sono membri attivi della comunità di ricerca internazionale sull’IA a livello globale. Attraverso pubblicazioni periodiche, contribuiamo attivamente alla ricerca scientifica sull’apprendimento automatizzato.",
           "cta": {
             "text": "Visualizza tutte le pubblicazioni",
             "link": "/blog"
@@ -3005,7 +2996,7 @@
       "cases": {
         "back": "Torna alla panoramica",
         "keyFigures": "KEY FIGURES",
-        "downloadCaseStudy": "Scarica case study",
+        "downloadCaseStudy": "Scarica il case study",
         "furtherCaseStudies": "Altri case study",
         "footerNote": {
           "title": "Volete ottimizzare <highlightText> le risorse e sfruttare al meglio la produttività della traduzione IA</highlightText> nella vostra azienda? Parliamone.",
@@ -3026,123 +3017,11 @@
           "totalAmountPerMonth": "Importo totale mensile",
           "firstMonthFree": "Primo mese gratis",
           "totalAmountDueToday": "Importo totale da saldare in data odierna",
-          "totalAmountIncludingTax": "Importo totale incl. IVA",
+          "totalAmountIncludingTax": "Importo totale IVA incl. ",
           "totalAmountDueTodayDescription": "L’importo Le sarà addebitato immediatamente al momento dell’acquisto.",
           "trialPeriodBadge": "🎉 Primo mese gratuito",
           "trialPeriodDescription": "Potrà usufruire di un abbonamento di prova gratuito per un mese, dopodiché Le verranno addebitati i costi in base al tipo di abbonamento e all’offerta che ha scelto. Il primo addebito verrà effettuato in data {date}.",
-          "termsAndConditions": "Accetto le condizioni generali di contratto per l’acquisto di questo abbonamento."
-        }
-      },
-      "aiTranslationVerification": {
-        "hero": {
-          "title": "",
-          "description": ""
-        },
-        "lead": {
-          "large": "",
-          "small": "",
-          "cta": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "informationalPanel": {
-          "title": "",
-          "items": [
-            {
-              "title": "",
-              "description": "",
-              "icon": ""
-            },
-            {
-              "title": "",
-              "description": "",
-              "icon": ""
-            },
-            {
-              "title": "",
-              "description": "",
-              "icon": ""
-            }
-          ],
-          "cta": {
-            "text": "",
-            "link": ""
-          }
-        },
-        "tutorialBlock": {
-          "title": "",
-          "cta": {
-            "text": "",
-            "link": ""
-          },
-          "items": [
-            {
-              "title": "",
-              "number": "",
-              "image": ""
-            },
-            {
-              "title": "",
-              "number": "",
-              "image": ""
-            },
-            {
-              "title": "",
-              "number": "",
-              "image": ""
-            }
-          ]
-        },
-        "featureGallery": {
-          "title": "",
-          "eyebrowHeadline": "",
-          "items": [
-            {
-              "icon": "",
-              "title": "",
-              "description": "",
-              "cta": {
-                "variant": "",
-                "title": "",
-                "link": ""
-              }
-            },
-            {
-              "icon": "",
-              "title": "",
-              "description": "",
-              "cta": {
-                "variant": "",
-                "title": "",
-                "link": ""
-              }
-            },
-            {
-              "icon": "",
-              "title": "",
-              "description": "",
-              "cta": {
-                "variant": "",
-                "title": "",
-                "link": ""
-              }
-            },
-            {
-              "icon": "",
-              "title": "",
-              "description": ""
-            }
-          ]
-        },
-        "footerNote": {
-          "text": "",
-          "cta": {
-            "title": "",
-            "link": "",
-            "target": ""
-          },
-          "image": ""
+          "termsAndConditions": "Accetto le condizioni generali per l’acquisto di questo abbonamento."
         }
       }
     },
@@ -3150,8 +3029,8 @@
       "email": "E-mail",
       "cta": "Iscriviti alla newsletter",
       "messages": {
-        "success": "Ha effettuato l’iscrizione alla nostra newsletter.",
-        "error": "Si è verificato un errore durante la registrazione alla lista d’attesa."
+        "success": "L'iscrizione alla nostra newsletter è avvenuta con successo.",
+        "error": "Si è verificato un errore durante l'aggiunta alla lista d'attesa."
       }
     }
   },

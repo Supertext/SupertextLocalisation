@@ -1857,10 +1857,6 @@
               {
                 "text": "Kostenlos registrieren",
                 "variant": "primary"
-              },
-              {
-                "text": "Demo buchen",
-                "variant": "PrimaryBorderVariant"
               }
             ]
           }
@@ -2844,7 +2840,7 @@
               }
             },
             {
-              "icon": "/images/pages/verification/feature-icon.png",
+              "icon": "/images/pages/home/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
               "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
             }
@@ -3063,7 +3059,8 @@
             {
               "title": "Immer besser: Ihr persönliches KI-Modell lernt mit",
               "description": "Sobald der Check fertig ist, liefern wir die geprüfte Übersetzung aus. An Sie zum Download – und an Ihr persönliches Sprachmodell zur laufenden Verbesserung in Echtzeit.",
-              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg"
+              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg",
+              "badge": "Bald verfügbar"
             }
           ],
           "cta": {
@@ -3106,7 +3103,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr zur Sprachexpertise",
-                "link": "/sprachexpertise"
+                "link": "/language-expertise"
               }
             },
             {
@@ -3116,7 +3113,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr erfahren",
-                "link": "/ueber-supertext"
+                "link": "/about"
               }
             },
             {
@@ -3126,13 +3123,19 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr zur Technologie",
-                "link": "/technologie"
+                "link": "/technology"
               }
             },
             {
               "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
-              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
+              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken.",
+              "badge": "Bald verfügbar",
+              "cta": {
+                "title": "Mehr erfahren",
+                "link": "/technology",
+                "variant": "secondary"
+              }
             }
           ]
         },

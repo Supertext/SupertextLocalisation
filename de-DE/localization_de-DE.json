@@ -1261,7 +1261,8 @@
         "privacy": "Datenschutzerklärung",
         "dataProtection": "Datenschutz",
         "media": "Medien"
-      }
+      },
+      "freelancerRegistrationLink": "/de/startapplication"
     },
     "fileTranslation": {
       "uploadFile": "Datei übersetzen"
@@ -1856,6 +1857,10 @@
               {
                 "text": "Kostenlos registrieren",
                 "variant": "primary"
+              },
+              {
+                "text": "Demo buchen",
+                "variant": "PrimaryBorderVariant"
               }
             ]
           }
@@ -1891,7 +1896,7 @@
                   "badge": "Bald verfügbar",
                   "cta": {
                     "title": "Mehr erfahren",
-                    "link": "/technologie",
+                    "link": "Technologie",
                     "variant": "secondary"
                   }
                 }
@@ -2050,7 +2055,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
-                  "link": "/ki-uebersetzung"
+                  "link": "/profi-check"
                 }
               },
               {
@@ -2815,7 +2820,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr zur Sprachexpertise",
-                "link": "/language-expertise"
+                "link": "/sprachexpertise"
               }
             },
             {
@@ -2825,7 +2830,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr erfahren",
-                "link": "/about"
+                "link": "/ueber-supertext"
               }
             },
             {
@@ -2835,19 +2840,13 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr zur Technologie",
-                "link": "/technology"
+                "link": "/technologie"
               }
             },
             {
               "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
-              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken.",
-              "badge": "Bald verfügbar",
-              "cta": {
-                "title": "Mehr erfahren",
-                "link": "/technology",
-                "variant": "secondary"
-              }
+              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
             }
           ]
         },

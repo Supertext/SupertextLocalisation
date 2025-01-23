@@ -1261,7 +1261,8 @@
         "privacy": "Datenschutzerklärung",
         "dataProtection": "Datenschutz",
         "media": "Medien"
-      }
+      },
+      "freelancerRegistrationLink": "/de/startapplication"
     },
     "fileTranslation": {
       "uploadFile": "Datei übersetzen"
@@ -1856,6 +1857,10 @@
               {
                 "text": "Kostenlos registrieren",
                 "variant": "primary"
+              },
+              {
+                "text": "Demo buchen",
+                "variant": "PrimaryBorderVariant"
               }
             ]
           }
@@ -3064,7 +3069,8 @@
             {
               "title": "Immer besser: Ihr persönliches KI-Modell lernt mit",
               "description": "Sobald der Check fertig ist, liefern wir die geprüfte Übersetzung aus. An Sie zum Download – und an Ihr persönliches Sprachmodell zur laufenden Verbesserung in Echtzeit.",
-              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg"
+              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg",
+              "badge": ""
             }
           ],
           "cta": {
@@ -3133,7 +3139,13 @@
             {
               "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "Ihre persönliche KI, die in Echtzeit lernt",
-              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken."
+              "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder verifizierten Übersetzung weiter an Ihre Bedürfnisse an. Damit die Qualität langfristig steigt und Ihre Kosten laufend sinken.",
+              "badge": "",
+              "cta": {
+                "title": "",
+                "link": "",
+                "variant": ""
+              }
             }
           ]
         },

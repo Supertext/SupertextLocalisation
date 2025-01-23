@@ -1261,7 +1261,8 @@
         "privacy": "Dichiarazione sulla protezione dei dati.",
         "dataProtection": "Protezione dei dati",
         "media": "Media"
-      }
+      },
+      "freelancerRegistrationLink": "/it/startapplication"
     },
     "fileTranslation": {
       "uploadFile": "Traduci file"
@@ -2054,7 +2055,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Scopri di più",
-                  "link": "/ki-uebersetzung"
+                  "link": "/verifica"
                 }
               },
               {
@@ -2845,7 +2846,13 @@
             {
               "icon": "/images/pages/ai-translation/feature-icon.png",
               "title": "La vostra IA personalizzata che impara in tempo reale",
-              "description": "I nostri modelli linguistici imparano in fretta e, a ogni traduzione verificata, si adattano sempre meglio alle vostre esigenze. Per una qualità sempre più alta e costi sempre più bassi nel tempo."
+              "description": "I nostri modelli linguistici imparano in fretta e, a ogni traduzione verificata, si adattano sempre meglio alle vostre esigenze. Per una qualità sempre più alta e costi sempre più bassi nel tempo.",
+              "badge": "",
+              "cta": {
+                "title": "",
+                "link": "",
+                "variant": ""
+              }
             }
           ]
         },
@@ -3062,7 +3069,8 @@
             {
               "title": "Sempre meglio: il vostro modello di IA personale è in grado di apprendere",
               "description": "Una volta completata la verifica, consegniamo la traduzione verificata. La inviamo a voi per un utilizzo immediato e al vostro modello linguistico personalizzato, contribuendo al suo costante miglioramento in tempo reale.",
-              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg"
+              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg",
+              "badge": ""
             }
           ],
           "cta": {
@@ -3131,7 +3139,13 @@
             {
               "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "La vostra IA personalizzata che impara in tempo reale",
-              "description": "I nostri modelli linguistici imparano in fretta e, a ogni traduzione verificata, si adattano sempre meglio alle vostre esigenze. Per una qualità sempre più alta e costi sempre più bassi."
+              "description": "I nostri modelli linguistici imparano in fretta e, a ogni traduzione verificata, si adattano sempre meglio alle vostre esigenze. Per una qualità sempre più alta e costi sempre più bassi.",
+              "badge": "",
+              "cta": {
+                "title": "",
+                "link": "",
+                "variant": ""
+              }
             }
           ]
         },

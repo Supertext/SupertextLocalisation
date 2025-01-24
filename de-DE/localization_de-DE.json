@@ -111,6 +111,10 @@
         "remainingFiles": {
           "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
           "popover": ""
+        },
+        "unsupportedFusedTranslationFileType": {
+          "message":"",
+          "customCTAMessage":  "Angebot anfordern"
         }
       },
       "availableFiles": {
@@ -820,6 +824,7 @@
         "openOrders": "AKTUELLE AUFTRÄGE",
         "noOrders": "Oops, zurzeit gibt es keine Aufträge.",
         "orderDate": "Bestelldatum",
+        "verificationType": "Profi-Check",
         "orderDeadlineDate": "Lieferung",
         "orderDetails": {
           "title": "AUFTRAGSDETAILS",

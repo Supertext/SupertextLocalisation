@@ -111,6 +111,10 @@
         "remainingFiles": {
           "message": "{count, plural, =0 {Plus de fichiers disponibles} one {Encore # fichier disponible} other {Encore # fichiers disponibles}}",
           "popover": ""
+        },
+        "unsupportedFusedTranslationFileType": {
+          "message":"",
+          "customCTAMessage":  "Angebot anfordern"
         }
       },
       "availableFiles": {
@@ -821,6 +825,7 @@
         "noOrders": "Oups, il n’y a aucune commande en cours.",
         "orderDate": "Date de la commande",
         "orderDeadlineDate": "Délais",
+        "verificationType": "Profi-Check",
         "orderDetails": {
           "title": "DÉTAILS DE LA COMMANDE",
           "order": "Commande",

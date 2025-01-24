@@ -111,6 +111,10 @@
         "remainingFiles": {
           "message": "{count, plural, =0 {} one { #} other { # Non ci sono più file disponibili Ancora file disponibili Ancora file disponibili}}",
           "popover": ""
+        },
+        "unsupportedFusedTranslationFileType": {
+          "message":"Wir konnten den Umfang Ihrer Datei nicht automatisch berechnen. Schliessen Sie die Bestellung gerne trotzdem ab und wir kontaktieren Sie mit einem Angebot.",
+          "customCTAMessage":  "Angebot Anfordern"
         }
       },
       "availableFiles": {
@@ -821,6 +825,7 @@
         "noOrders": "Al momento non ci sono ordini.",
         "orderDate": "Data dell’ordine",
         "orderDeadlineDate": "Scadenza",
+        "verificationType": "Profi-Check",
         "orderDetails": {
           "title": "DETTAGLI DELL’ORDINE",
           "order": "Ordine",

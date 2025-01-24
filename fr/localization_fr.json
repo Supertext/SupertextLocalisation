@@ -1077,7 +1077,7 @@
               "linkText": "Contactez-nous",
               "prefilledSubject": "",
               "prefilledBody": "",
-              "emailAddress": "info@supertext.com"
+              "emailAddress": "hello@supertext.com"
             }
           },
           "team": {
@@ -1262,7 +1262,7 @@
         "dataProtection": "Confidentialité",
         "media": "Médias"
       },
-      "freelancerRegistrationLink": "fr/startapplication",
+      "freelancerRegistrationLink": "https://www.supertext.ch/fr/startapplication",
       "socialLinks": {
         "LinkedIn": "https://www.linkedin.com/company/supertext-group",
         "Meetup": "https://www.meetup.com/language-ai-meetup/",
@@ -1974,7 +1974,7 @@
           "text": "De l’outil de <highlight>traduction en ligne</highlight> simple à la <highlight>solution personnalisée intégrée</highlight>: trouvez <highlight>l’abonnement</highlight> qui vous <highlight>convient.</highlight>",
           "cta": {
             "title": "Découvrir maintenant",
-            "link": "Références",
+            "link": "/abonnements",
             "target": "_blank"
           }
         }
@@ -2024,16 +2024,16 @@
           "services": {
             "items": [
               {
-                "title": "",
-                "link": ""
+                "title": "Pourquoi Supertext?",
+                "link": "/pourquoi-supertext"
+              },
+              {
+                "title": "Technologie IA",
+                "link": "/technologie"
               },
               {
                 "title": "",
-                "link": ""
-              },
-              {
-                "title": "",
-                "link": ""
+                "link": "/langue-expertise"
               }
             ]
           }

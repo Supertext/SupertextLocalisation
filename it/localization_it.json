@@ -1077,7 +1077,7 @@
               "linkText": "Contattateci",
               "prefilledSubject": "",
               "prefilledBody": "",
-              "emailAddress": "info@supertext.com"
+              "emailAddress": "hello@supertext.com"
             }
           },
           "team": {
@@ -1262,7 +1262,7 @@
         "dataProtection": "Protezione dei dati",
         "media": "Media"
       },
-      "freelancerRegistrationLink": "/it/startapplication",
+      "freelancerRegistrationLink": "https://www.supertext.com/it/startapplication",
       "socialLinks": {
         "LinkedIn": "https://www.linkedin.com/company/supertext-group",
         "Meetup": "https://www.meetup.com/language-ai-meetup/",
@@ -1974,7 +1974,7 @@
           "text": "Dal semplice <highlight>di traduttore online</highlight> alla <highlight>soluzione su misura completamente integrata</highlight>: scegliete <highlight>l’abbonamento</highlight> che fa al caso vostro<highlight>.</highlight>",
           "cta": {
             "title": "Scopri ora",
-            "link": "Referenze",
+            "link": "/abbonamenti",
             "target": "_blank"
           }
         }
@@ -2024,16 +2024,16 @@
           "services": {
             "items": [
               {
-                "title": "",
-                "link": ""
+                "title": "Perché Supertext?",
+                "link": "/perche-supertext"
+              },
+              {
+                "title": "Tecnologia IA",
+                "link": "/tecnologia"
               },
               {
                 "title": "",
-                "link": ""
-              },
-              {
-                "title": "",
-                "link": ""
+                "link": "/linguaggio-esperti"
               }
             ]
           }
@@ -2646,7 +2646,7 @@
           "description": "Siamo sempre alla ricerca di traduttori, copywriter, specialisti SEO e revisori che offrano un valore aggiunto al nostro team di professionisti linguistici.",
           "cta": {
             "title": "Registrati ora",
-            "link": "https://www.supertext.com/de/startapplication",
+            "link": "https://www.supertext.com/it/startapplication",
             "target": "_blank"
           }
         }

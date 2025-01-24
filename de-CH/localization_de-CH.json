@@ -904,7 +904,7 @@
         "modals": {
           "waitlist": {
             "email": "E-Mail",
-            "accepted": "Ja, Supertext darf mich kontaktieren, sobald das Basic-Abo verfügbar ist.",
+            "accepted": "Ja, Supertext darf mich kontaktieren, sobald das gewünschte Abo verfügbar ist.",
             "cta": "In Warteliste eintragen",
             "messages": {
               "success": "Erfolgreich auf die Warteliste gesetzt",
@@ -955,7 +955,7 @@
         "firstMonthFree": "Erster Monat kostenlos",
         "cancelSubscriptionButton": "Abo downgraden",
         "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}.",
-        "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText>, Wir die <highlightText>passende Lösung.</highlightText> "
+        "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText> Wir die <highlightText>passende Lösung.</highlightText>"
       },
       "resources": {
         "title": "Sprachressourcen"
@@ -1077,7 +1077,7 @@
               "linkText": "Kontaktieren Sie uns",
               "prefilledSubject": "Antrag für Zahlung auf Rechnung",
               "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto (und allfällige weitere User:innen in meiner Organisation) die Zahlung auf Rechnung.",
-              "emailAddress": "info@supertext.com"
+              "emailAddress": "hello@supertext.com"
             }
           },
           "team": {
@@ -1262,7 +1262,7 @@
         "dataProtection": "Datenschutz",
         "media": "Medien"
       },
-      "freelancerRegistrationLink": "/de/startapplication",
+      "freelancerRegistrationLink": "https://www.supertext.com/de/startapplication",
       "socialLinks": {
         "LinkedIn": "https://www.linkedin.com/company/supertext-group",
         "Meetup": "https://www.meetup.com/language-ai-meetup/",
@@ -1427,11 +1427,11 @@
             },
             "1": {
               "title": "Bis 3000 Zeichen",
-              "tooltip": "1500 für unregistrierte Nutzer:innen"
+              "tooltip": "1500 für unregistrierte User:innen"
             },
             "2": {
               "title": "5 Dateien pro Monat (bearbeitbar)",
-              "tooltip": "für registrierte Nutzer:innen"
+              "tooltip": "für registrierte User:innen"
             },
             "3": {
               "title": "5 MB maximale Dateigrösse"
@@ -1514,7 +1514,7 @@
             },
             "6": {
               "title": "Single Sign-on (SSO)",
-              "tooltip": "ab 10 Nutzer:innen"
+              "tooltip": "ab 10 User:innen"
             }
           }
         }
@@ -1854,7 +1854,7 @@
                 "description": "Datensicherheit und Inhaltssicherheit – mit uns haben Sie beides. Für das erste sorgen höchste Datenmanagement-Standards, für das zweite der Profi-Check auf Knopfdruck. Alles für eine mehrsprachige Kommunikation ohne Kompromisse."
               },
               {
-                "title": "Effizienz trifft Flexibilität",
+                "title": "Effizient und flexibel: Ihre KI lernt mit",
                 "description": "Unsere Sprachmodelle lernen schnell – und passen sich mit jeder professionellen Übersetzung weiter an Ihre Bedürfnisse an. Für immer bessere Qualität bei laufend sinkenden Kosten."
               }
             ],
@@ -1864,7 +1864,7 @@
                 "variant": "primary"
               },
               {
-                "text": "Demo buchen",
+                "text": "Demo vereinbaren",
                 "variant": "PrimaryBorderVariant"
               }
             ]
@@ -1974,7 +1974,7 @@
           "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo.</highlight>",
           "cta": {
             "title": "Jetzt entdecken",
-            "link": "/referenzen",
+            "link": "/abos",
             "target": "_blank"
           }
         }
@@ -2025,15 +2025,15 @@
             "items": [
               {
                 "title": "Warum Supertext?",
-                "link": "/why-supertext"
+                "link": "/warum-supertext"
               },
               {
                 "title": "KI-Technologie",
-                "link": "/verification"
+                "link": "/technologie"
               },
               {
                 "title": "Sprachexpertise",
-                "link": "/language-expertise"
+                "link": "/sprachexpertise"
               }
             ]
           }
@@ -2060,7 +2060,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
-                  "link": "/ki-uebersetzung"
+                  "link": "/profi-check"
                 }
               },
               {

@@ -2087,7 +2087,7 @@
                 "cta": {
                   "variant": "",
                   "title": "",
-                  "link": ""
+                  "link": "/commande/traduction"
                 }
               },
               {
@@ -2097,7 +2097,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Commander un projet",
-                  "link": "/"
+                  "link": "/commande/redaction"
                 }
               },
               {
@@ -2107,7 +2107,7 @@
                 "cta": {
                   "variant": "",
                   "title": "",
-                  "link": ""
+                  "link": "/commande/relecture"
                 }
               }
             ]
@@ -2144,7 +2144,7 @@
                 "cta": {
                   "variant": "",
                   "title": "",
-                  "link": ""
+                  "link": "/pourquoi-supertext"
                 }
               }
             ]
@@ -3002,7 +3002,7 @@
           "description": "Bon nombre des membres de notre équipe font partie intégrante de la communauté de recherche en IA à l’échelle mondiale. Nous contribuons activement à la recherche sur l’apprentissage automatique en publiant régulièrement.",
           "cta": {
             "text": "Voir toutes les publications",
-            "link": "/blog"
+            "link": "/blog?category=research"
           }
         },
         "footerNote": {

@@ -2087,7 +2087,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": "/order/translation?customOrderStyleName=common"
+                  "link": "/bestellen/uebersetzung"
                 }
               },
               {
@@ -2097,7 +2097,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": "/order/copywriting?customOrderStyleName=common"
+                  "link": "/bestellen/texten/"
                 }
               },
               {
@@ -2107,7 +2107,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": "/order/proofreading?customOrderStyleName=common"
+                  "link": "/bestellen/lektorieren"
                 }
               }
             ]
@@ -2144,7 +2144,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
-                  "link": "/why-supertext"
+                  "link": "/warum-supertext"
                 }
               }
             ]
@@ -3002,7 +3002,7 @@
           "description": "Viele unserer Mitarbeitenden sind fester Bestandteil der globalen AI Research Community. Mit regelmäßigen Publikationen leisten wir einen aktiven Beitrag an die Forschung zu maschinellem Lernen.",
           "cta": {
             "text": "Alle Publikationen ansehen",
-            "link": "/blog"
+            "link": "/blog?category=research"
           }
         },
         "footerNote": {

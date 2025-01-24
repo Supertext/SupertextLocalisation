@@ -2087,7 +2087,7 @@
                 "cta": {
                   "variant": "",
                   "title": "",
-                  "link": ""
+                  "link": "/ordine/traduzione"
                 }
               },
               {
@@ -2097,7 +2097,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Creare un ordine",
-                  "link": "/"
+                  "link": "/ordine/redazione"
                 }
               },
               {
@@ -2107,7 +2107,7 @@
                 "cta": {
                   "variant": "",
                   "title": "",
-                  "link": ""
+                  "link": "/ordine/revisione"
                 }
               }
             ]
@@ -2144,7 +2144,7 @@
                 "cta": {
                   "variant": "",
                   "title": "",
-                  "link": ""
+                  "link": "/perche-supertext"
                 }
               }
             ]
@@ -3002,7 +3002,7 @@
           "description": "Molti dei nostri collaboratori sono membri attivi della comunità di ricerca internazionale sull’IA a livello globale. Attraverso pubblicazioni periodiche, contribuiamo attivamente alla ricerca scientifica sull’apprendimento automatizzato.",
           "cta": {
             "text": "Visualizza tutte le pubblicazioni",
-            "link": "/blog"
+            "link": "/blog?category=research"
           }
         },
         "footerNote": {

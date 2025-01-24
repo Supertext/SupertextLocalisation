@@ -2087,7 +2087,7 @@
                 "cta": {
                   "variant": "",
                   "title": "",
-                  "link": ""
+                  "link": "/order/translation"
                 }
               },
               {
@@ -2097,7 +2097,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Create project",
-                  "link": "/"
+                  "link": "/order/copywriting"
                 }
               },
               {
@@ -2107,7 +2107,7 @@
                 "cta": {
                   "variant": "",
                   "title": "",
-                  "link": ""
+                  "link": "/order/proofreading"
                 }
               }
             ]
@@ -2144,7 +2144,7 @@
                 "cta": {
                   "variant": "",
                   "title": "",
-                  "link": ""
+                  "link": "/why-supertext"
                 }
               }
             ]
@@ -3002,7 +3002,7 @@
           "description": "Many of our employees are an integral part of the global AI research community. We make an active contribution to machine learning research with regular publications.",
           "cta": {
             "text": "See all publications",
-            "link": "/blog"
+            "link": "/blog?category=research"
           }
         },
         "footerNote": {

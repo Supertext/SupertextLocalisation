@@ -1358,8 +1358,8 @@
         "description": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung."
       },
       "serviceIsDeactivated": {
-        "title": "Service ist deaktiviert",
-        "description": "Dieser Service ist in Ihrer Organisation leider deaktiviert. Setzen Sie sich mit Supertext in Verbindung, um eine Demo zu planen oder diese Funktion für Ihr Unternehmen einzurichten."
+        "title": "Service für Ihre Organisation deaktiviert",
+        "description": "Der Profi-Check wurde auf Wunsch Ihrer Organisation deaktiviert. Sie möchten das ändern? Melden Sie sich unter <a href='mailto:hello@supertext.com'>hello@supertext.com</a> für eine unverbindliche Demo."
       },
       "isTargetTextTooLong": {
         "title": "Profi-Checks sind derzeit auf {0} Zeichen begrenzt.",
@@ -1370,11 +1370,11 @@
         "description": "Versuchen Sie, die Seite neu zu laden oder versuchen Sie es später erneut"
       },
       "outIfBusinessHours": {
-        "title_part1": "Leider erreichen Sie uns ausserhalb unserer",
+        "title_part1": "Sie erreichen uns ausserhalb der Geschäftszeiten",
         "title_part2": "Geschäftszeiten",
-        "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.",
+        "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.\n\n<u>Unsere Bürozeiten</u>\nMontag–Freitag: 09–17.30 Uhr (MEZ)\nWochenende und Feiertage: Geschlossen",
         "businessHours": "Montag–Freitag",
-        "businessHoursTime": "9:00–17:30",
+        "businessHoursTime": "9:00–17:30 MEZ",
         "nonWorkingDaySaturday": "Samstag",
         "nonWorkingDaySunday": "Sonntag",
         "nonWorkingDaysHolidays": "Feiertage",
@@ -1391,10 +1391,10 @@
         "verifiedBy": "Verifiziert von"
       },
       "outOfBusinessHours": {
-        "title": "Leider erreichen Sie uns ausserhalb unserer Geschäftszeiten.",
-        "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.",
+        "title": "Sie erreichen uns ausserhalb der Geschäftszeiten",
+        "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.\n\n<u>Unsere Bürozeiten</u>\nMontag–Freitag: 09–17.30 Uhr (MEZ)\nWochenende und Feiertage: Geschlossen",
         "businessHours": "Montag–Freitag",
-        "businessHoursTime": "9:00–17:30",
+        "businessHoursTime": "9:00–17:30 MEZ",
         "nonWorkingDaySaturday": "Samstag",
         "nonWorkingDaySunday": "Sonntag",
         "nonWorkingDaysHolidays": "Feiertage",
@@ -1417,8 +1417,8 @@
       "free": {
         "title": "Free",
         "description": "Für alle",
-        "price_monthly": "Free",
-        "price_yearly": "Free",
+        "price_monthly": "Kostenlos",
+        "price_yearly": "Kostenlos",
         "features": {
           "title": "In Free enthalten:",
           "items": {
@@ -1805,7 +1805,7 @@
         "description": "Maximal präzis und verlässlich"
       },
       "aiTranslation": {
-        "title": "AI Translation",
+        "title": "KI-Übersetzung",
         "description": "Sofort zum Download bereit",
         "cta": "Mehr bekommen",
         "button": "Jetzt übersetzen"
@@ -1817,7 +1817,7 @@
       },
       "immediately": "sofort",
       "aiTranslationVerification": {
-        "title": "AI Translation",
+        "title": "KI-Übersetzung",
         "description": "Sofort zum Download bereit",
         "cta": "Mehr bekommen",
         "button": "Jetzt übersetzen"

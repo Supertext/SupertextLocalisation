@@ -1891,7 +1891,7 @@
                   "description": "Gehen Sie auf Nummer sicher. Mit einem Klick verbinden wir Sie direkt mit einem erfahrenen Sprachprofi, der Ihre Übersetzung prüft – und wo nötig nachbessert. Innert Minuten erhalten Sie Ihren Text mit allen nötigen Korrekturen zurück.",
                   "cta": {
                     "title": "Mehr erfahren",
-                    "link": "/profi-check",
+                    "link": "/verification",
                     "variant": "primary"
                   }
                 },
@@ -1924,7 +1924,7 @@
                   "description": "Wenn es wirklich drauf ankommt: Unsere 3000 erfahrenen Sprachexpert:innen schreiben schöner und übersetzen noch präziser. In Ihrem Tone of Voice, ausdrucksstark und treffsicher in jeder Sprache.",
                   "cta": {
                     "title": "Mehr erfahren",
-                    "link": "/sprachexpertise",
+                    "link": "/language-expertise",
                     "variant": "secondary"
                   }
                 },
@@ -1933,7 +1933,7 @@
                   "description": "Sie wollen Ihr KI-Modell an einen neuen Styleguide anpassen? Oder Ihre aktuellen Workflows mit Expert:innen evaluieren? Wir sind persönlich für Sie da – lösungsorientiert, freundlich und schnell.",
                   "cta": {
                     "title": "Lassen Sie uns reden",
-                    "link": "/kontakt",
+                    "link": "/contact",
                     "variant": "secondary"
                   }
                 },
@@ -1998,7 +1998,7 @@
                 "description": "Von ausgewiesenen Spezialist:innen mit Erfahrung in Ihrem Fachgebiet.",
                 "cta": {
                   "title": "Mehr erfahren",
-                  "link": "/service/translation"
+                  "link": "/bestellen/uebersetzung"
                 }
               },
               {
@@ -2006,7 +2006,7 @@
                 "description": "Für Texte, die wirken – ideenreich und treffsicher.",
                 "cta": {
                   "title": "Mehr erfahren",
-                  "link": "/service/copywriting"
+                  "link": "/bestellen/texten"
                 }
               },
               {
@@ -2014,7 +2014,7 @@
                 "description": "Der letzte Schliff – stilsicher, pingelig und richtig schnell.",
                 "cta": {
                   "title": "Mehr erfahren",
-                  "link": "/service/editing"
+                  "link": "/bestellen/lektorieren"
                 }
               }
             ],
@@ -2087,7 +2087,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": "/order/translation?customOrderStyleName=common"
+                  "link": "/bestellen/uebersetzung"
                 }
               },
               {
@@ -2097,7 +2097,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": "/order/copywriting?customOrderStyleName=common"
+                  "link": "/bestellen/texten/"
                 }
               },
               {
@@ -2107,7 +2107,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": "/order/proofreading?customOrderStyleName=common"
+                  "link": "/bestellen/lektorieren"
                 }
               }
             ]
@@ -2157,14 +2157,14 @@
           "heading": "automation → 0 to 100%",
           "cta": {
             "text": "Mehr über Supertext erfahren",
-            "link": "/ueber-supertext"
+            "link": "/about-supertext"
           }
         },
         "references": {
           "heading": "1500 Unternehmen in ganz Europa: Unsere Referenzen sprechen eine deutliche Sprache",
           "cta": {
             "text": "Zu den Cases",
-            "link": "/referenzen"
+            "link": "/references"
           }
         },
         "blog": {
@@ -2490,7 +2490,7 @@
         "footerNote": {
           "cta": {
             "title": "Jetzt Termin buchen",
-            "link": "/demo"
+            "link": ""
           },
           "text": "Sie möchten Supertext in Aktion erleben? Buchen Sie ganz unverbindlich eine <highlightText>Demo</highlightText> mit uns."
         },
@@ -2646,7 +2646,7 @@
           "description": "Wir sind immer auf der Suche nach Texterinnen, Übersetzern, SEO-Spezialistinnen oder Lektoren, die unser Team aus Sprachprofis ergänzen.",
           "cta": {
             "title": "Jetzt registrieren",
-            "link": "https://www.supertext.com/de/startapplication",
+            "link": "https://www.supertext.com/services/de/startapplication",
             "target": "_blank"
           }
         }
@@ -2825,7 +2825,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr zur Sprachexpertise",
-                "link": "/sprachexpertise"
+                "link": "/language-expertise"
               }
             },
             {
@@ -2835,7 +2835,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr erfahren",
-                "link": "/ueber-supertext"
+                "link": "/about-supertext"
               }
             },
             {
@@ -2855,7 +2855,7 @@
               "badge": "",
               "cta": {
                 "title": "",
-                "link": "",
+                "link": "/technology",
                 "variant": ""
               }
             }
@@ -3002,7 +3002,7 @@
           "description": "Viele unserer Mitarbeitenden sind fester Bestandteil der globalen AI Research Community. Mit regelmässigen Publikationen leisten wir einen aktiven Beitrag an die Forschung zu maschinellem Lernen.",
           "cta": {
             "text": "Alle Publikationen ansehen",
-            "link": "/blog"
+            "link": "/blog?category=research"
           }
         },
         "footerNote": {
@@ -3128,7 +3128,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr erfahren",
-                "link": "/about"
+                "link": "/about-supertext"
               }
             },
             {

@@ -1891,7 +1891,7 @@
                   "description": "Andate sul sicuro. Con un solo click vi metteremo in contatto diretto con un o una professionista di comprovata esperienza, che verificherà la traduzione e apporterà le modifiche necessarie. Nel giro di pochi minuti riceverete un testo adeguatamente corretto.",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "/verifica",
+                    "link": "/verification",
                     "variant": "primary"
                   }
                 },
@@ -1924,7 +1924,7 @@
                   "description": "Quando ogni parola conta: i nostri 3000 esperti linguistici scrivono in uno stile impeccabile e traducono con la massima precisione. In conformità al vostro tono di voce, con originalità espressiva e andando dritti al punto in tutte le lingue.",
                   "cta": {
                     "title": "Scopri di più",
-                    "link": "Competenze linguistiche",
+                    "link": "/language-expertise",
                     "variant": "secondary"
                   }
                 },
@@ -1933,7 +1933,7 @@
                   "description": "Volete adattare il vostro modello di IA a una nuova guida di stile? O richiedere a un team di esperti la valutazione dei vostri attuali flussi di lavoro? Siamo a vostra completa disposizione: con competenza, soluzioni su misura, efficienza e cordialità.",
                   "cta": {
                     "title": "Parliamone.",
-                    "link": "Contatto",
+                    "link": "/contact",
                     "variant": "secondary"
                   }
                 },
@@ -1990,7 +1990,7 @@
                 "description": "Correttezza garantita nel giro di pochi minuti anziché ore, grazie al nostro controllo professionale a portata di click.",
                 "cta": {
                   "title": "Scopri di più",
-                  "link": "/ai-traduzione"
+                  "link": "/verification"
                 }
               },
               {
@@ -1998,7 +1998,7 @@
                 "description": "Affidata a specialisti comprovati con grande esperienza nel settore richiesto. ",
                 "cta": {
                   "title": "Scopri di più",
-                  "link": "/service/translation"
+                  "link": "/ordine/traduzione"
                 }
               },
               {
@@ -2006,7 +2006,7 @@
                 "description": "Per testi di sicuro impatto: originali e che vanno dritti al punto.",
                 "cta": {
                   "title": "Scopri di più",
-                  "link": "/service/copywriting"
+                  "link": "/ordine/redazione"
                 }
               },
               {
@@ -2014,7 +2014,7 @@
                 "description": "Il tocco finale: stilisticamente perfetto, preciso e rapido come non mai.",
                 "cta": {
                   "title": "Scopri di più",
-                  "link": "/service/editing"
+                  "link": "/ordine/revisione"
                 }
               }
             ],
@@ -2157,14 +2157,14 @@
           "heading": "Automazione → dallo 0 al 100%",
           "cta": {
             "text": "Scopri di più su Supertext",
-            "link": "/ueber-supertext"
+            "link": "/about-supertext"
           }
         },
         "references": {
           "heading": "1500 aziende in tutta Europa: le nostre referenze parlano chiaro",
           "cta": {
             "text": "Vai ai case study",
-            "link": "Referenze"
+            "link": "/references"
           }
         },
         "blog": {
@@ -2287,7 +2287,7 @@
                   "description": "Avete progetti ambiziosi? Noi la soluzione giusta per ogni lingua. Il tutto automatizzato dallo 0% al 100%.",
                   "cta": {
                     "title": "Parliamone.",
-                    "link": "/contatto",
+                    "link": "/contact",
                     "variant": "secondary"
                   }
                 }
@@ -2490,7 +2490,7 @@
         "footerNote": {
           "cta": {
             "title": "Fissa un appuntamento",
-            "link": "/demo"
+            "link": ""
           },
           "text": "Volete vedere Supertext in azione? Prenotate una <highlightText>demo</highlightText> non vincolante."
         },
@@ -2646,7 +2646,7 @@
           "description": "Siamo sempre alla ricerca di traduttori, copywriter, specialisti SEO e revisori che offrano un valore aggiunto al nostro team di professionisti linguistici.",
           "cta": {
             "title": "Registrati ora",
-            "link": "https://www.supertext.com/it/startapplication",
+            "link": "https://www.supertext.com/services/it/startapplication",
             "target": "_blank"
           }
         }
@@ -2742,14 +2742,14 @@
           "title": "",
           "cta": {
             "title": "",
-            "link": ""
+            "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_certificates_Supertext_24_27_EN_e7a08d5452.pdf"
           }
         },
         "blog": {
           "heading": "",
           "cta": {
             "text": "",
-            "link": ""
+            "link": "/blog"
           }
         }
       },
@@ -2825,7 +2825,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Scopri di più sulle competenze linguistiche",
-                "link": "/sprachexpertise"
+                "link": "/language-expertise"
               }
             },
             {
@@ -2835,7 +2835,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Scopri di più",
-                "link": "/ueber-supertext"
+                "link": "/about-supertext"
               }
             },
             {
@@ -2855,7 +2855,7 @@
               "badge": "",
               "cta": {
                 "title": "",
-                "link": "",
+                "link": "/technology",
                 "variant": ""
               }
             }
@@ -3118,7 +3118,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Scopri di più sulle competenze linguistiche",
-                "link": "Competenze linguistiche"
+                "link": "/language-expertise"
               }
             },
             {
@@ -3128,7 +3128,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Scopri di più",
-                "link": "/ueber-supertext"
+                "link": "/about-supertext"
               }
             },
             {
@@ -3148,7 +3148,7 @@
               "badge": "",
               "cta": {
                 "title": "",
-                "link": "",
+                "link": "/technology",
                 "variant": ""
               }
             }

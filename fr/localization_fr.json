@@ -1924,7 +1924,7 @@
                   "description": "Quand cela est absolument nécessaire, nos 3000 linguistes expérimentés/-ées se surpassent en matière de style et de précisions. Dans le ton de votre marque, expressif et pertinent dans toutes les langues.",
                   "cta": {
                     "title": "En savoir plus",
-                    "link": "Expertise linguistique",
+                    "link": "/language-expertise",
                     "variant": "secondary"
                   }
                 },
@@ -1933,7 +1933,7 @@
                   "description": "Vous souhaitez adapter votre modèle d’IA à un nouveau guide de style? Faire évaluer vos flux de travail actuels avec des experts/-es? Nous sommes là pour vous – la rapidité, l’orientation solution et la prévenance sont nos atouts.",
                   "cta": {
                     "title": "Discutons-en",
-                    "link": "Contact",
+                    "link": "/contact",
                     "variant": "secondary"
                   }
                 },
@@ -1998,7 +1998,7 @@
                 "description": "Par des experts/-es reconnus/-es ayant une expérience dans votre domaine.",
                 "cta": {
                   "title": "En savoir plus",
-                  "link": "/service/translation"
+                  "link": "/commande/traduction"
                 }
               },
               {
@@ -2006,7 +2006,7 @@
                 "description": "Pour des textes créatifs et pertinents qui font leur effet.",
                 "cta": {
                   "title": "En savoir plus",
-                  "link": "/service/copywriting"
+                  "link": "/commande/redaction"
                 }
               },
               {
@@ -2014,7 +2014,7 @@
                 "description": "La touche finale – élégante, méticuleuse et très rapide.",
                 "cta": {
                   "title": "En savoir plus",
-                  "link": "/service/editing"
+                  "link": "/commander/lecture"
                 }
               }
             ],
@@ -2157,14 +2157,14 @@
           "heading": "Automatisation → 0 à 100%",
           "cta": {
             "text": "En savoir plus sur Supertext",
-            "link": "/ueber-supertext"
+            "link": "/about-supertext"
           }
         },
         "references": {
           "heading": "1500 entreprises à travers l’Europe: nos références parlent d’elles-mêmes",
           "cta": {
             "text": "Vers les études de cas",
-            "link": "Références"
+            "link": "/references"
           }
         },
         "blog": {
@@ -2490,7 +2490,7 @@
         "footerNote": {
           "cta": {
             "title": "Prendre rendez-vous",
-            "link": "/demo"
+            "link": ""
           },
           "text": "Vous souhaitez voir Supertext en action? Réservez dès maintenant une <highlightText>démo</highlightText> avec nous."
         },
@@ -2646,7 +2646,7 @@
           "description": "Nous sommes toujours à la recherche de spécialistes en rédaction, traduction, correction ou SEO pour compléter notre équipe de professionnels/-les du langage.",
           "cta": {
             "title": "S’inscrire maintenant",
-            "link": "https://www.supertext.ch/fr/startapplication",
+            "link": "https://www.supertext.ch/services/fr/startapplication",
             "target": "_blank"
           }
         }
@@ -2742,14 +2742,14 @@
           "title": "",
           "cta": {
             "title": "",
-            "link": ""
+            "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_certificates_Supertext_24_27_EN_e7a08d5452.pdf"
           }
         },
         "blog": {
           "heading": "",
           "cta": {
             "text": "",
-            "link": ""
+            "link": "/blog"
           }
         }
       },
@@ -2825,7 +2825,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "En savoir plus sur l’expertise linguistique",
-                "link": "/sprachexpertise"
+                "link": "/language-expertise"
               }
             },
             {
@@ -2835,7 +2835,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "En savoir plus",
-                "link": "/ueber-supertext"
+                "link": "/about-supertext"
               }
             },
             {
@@ -2855,7 +2855,7 @@
               "badge": "",
               "cta": {
                 "title": "",
-                "link": "",
+                "link": "/technology",
                 "variant": ""
               }
             }
@@ -3118,7 +3118,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "En savoir plus sur l’expertise linguistique",
-                "link": "Expertise linguistique"
+                "link": "/language-expertise"
               }
             },
             {
@@ -3128,7 +3128,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "En savoir plus",
-                "link": "/ueber-supertext"
+                "link": "/about-supertext"
               }
             },
             {
@@ -3148,7 +3148,7 @@
               "badge": "",
               "cta": {
                 "title": "",
-                "link": "",
+                "link": "/technology",
                 "variant": ""
               }
             }

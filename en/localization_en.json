@@ -1077,7 +1077,7 @@
               "linkText": "Contact us",
               "prefilledSubject": "",
               "prefilledBody": "",
-              "emailAddress": "info@supertext.com"
+              "emailAddress": "hello@supertext.com"
             }
           },
           "team": {
@@ -1262,7 +1262,7 @@
         "dataProtection": "Privacy",
         "media": "Media"
       },
-      "freelancerRegistrationLink": "en/startapplication",
+      "freelancerRegistrationLink": "https://www.supertext.com/en/startapplication",
       "socialLinks": {
         "LinkedIn": "https://www.linkedin.com/company/supertext-group",
         "Meetup": "https://www.meetup.com/language-ai-meetup/",
@@ -1974,7 +1974,7 @@
           "text": "From the simple <highlight>online translator</highlight> to <highlight>fully integrated custom solutions</highlight>: find your <highlight>perfect subscription.</highlight>",
           "cta": {
             "title": "Discover now",
-            "link": "References",
+            "link": "/subscriptions",
             "target": "_blank"
           }
         }
@@ -2024,16 +2024,16 @@
           "services": {
             "items": [
               {
-                "title": "",
-                "link": ""
+                "title": "Why Supertext?",
+                "link": "/why-supertext"
               },
               {
-                "title": "",
-                "link": ""
+                "title": "AI technology",
+                "link": "/technology"
               },
               {
-                "title": "",
-                "link": ""
+                "title": "Language expertise",
+                "link": "/language-expertise"
               }
             ]
           }
@@ -2646,7 +2646,7 @@
           "description": "We are always looking for copywriters, translators, SEO specialists and editors to join our team of language professionals.",
           "cta": {
             "title": "Register now",
-            "link": "https://www.supertext.com/de/startapplication",
+            "link": "https://www.supertext.com/en/startapplication",
             "target": "_blank"
           }
         }

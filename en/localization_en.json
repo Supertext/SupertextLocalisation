@@ -1374,7 +1374,7 @@
         "title_part2": "business hours",
         "description": "No problem! You can start right away and get the results on the next business day.",
         "businessHours": "Monday–Friday",
-        "businessHoursTime": "9:00 am–5:30 pm",
+        "businessHoursTime": "9:00 am–5:30 pm CET",
         "nonWorkingDaySaturday": "Saturday",
         "nonWorkingDaySunday": "Sunday",
         "nonWorkingDaysHolidays": "Public holidays",
@@ -1394,7 +1394,7 @@
         "title": "Unfortunately, you have reached us outside of our business hours.",
         "description": "No problem! You can start right away and get the results on the next business day.",
         "businessHours": "Monday–Friday",
-        "businessHoursTime": "9:00 am–5:30 pm",
+        "businessHoursTime": "9:00 am–5:30 pm CET",
         "nonWorkingDaySaturday": "Saturday",
         "nonWorkingDaySunday": "Sunday",
         "nonWorkingDaysHolidays": "Public holidays",
@@ -1417,8 +1417,8 @@
       "free": {
         "title": "Free",
         "description": "For everyone",
-        "price_monthly": "Free",
-        "price_yearly": "Free",
+        "price_monthly": "",
+        "price_yearly": "",
         "features": {
           "title": "Included in Free:",
           "items": {

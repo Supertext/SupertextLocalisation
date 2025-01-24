@@ -94,8 +94,7 @@
         },
         "limitedFileType": {
           "message": "Il tipo di file non è supportato",
-          "popover": "{subscriptionType}L'abbonamento comprende solo i file Word e PowerPoint",
-          "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"
+          "popover": "{subscriptionType}L'abbonamento comprende solo i file Word e PowerPoint"
         },
         "freeTierLimit": {
           "message": "La traduzione AI è offerta solo per i file Word e PowerPoint nel nostro livello gratuito. Abbonatevi ora per tradurre PDF, file Excel e altro ancora a partire da CHF 9.00 al mese.",
@@ -112,10 +111,6 @@
         "remainingFiles": {
           "message": "{count, plural, =0 {} one { #} other { # Non ci sono più file disponibili Ancora file disponibili Ancora file disponibili}}",
           "popover": ""
-        },
-        "unsupportedFusedTranslationFileType": {
-          "message":"Wir konnten den Umfang Ihrer Datei nicht automatisch berechnen. Schliessen Sie die Bestellung gerne trotzdem ab und wir kontaktieren Sie mit einem Angebot.",
-          "customCTAMessage":  "Angebot Anfordern"
         }
       },
       "availableFiles": {
@@ -341,8 +336,7 @@
       },
       "limitedFileType": {
         "message": "Il tipo di file non è supportato",
-        "popover": "{subscriptionType}L'abbonamento comprende solo i file Word e PowerPoint",
-        "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"
+        "popover": "{subscriptionType}L'abbonamento comprende solo i file Word e PowerPoint"
       },
       "freeTierLimit": {
         "message": "La traduzione AI è offerta solo per i file Word e PowerPoint nel nostro livello gratuito. Abbonatevi ora per tradurre PDF, file Excel e altro ancora a partire da CHF 9.00 al mese.",

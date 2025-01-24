@@ -94,8 +94,7 @@
         },
         "limitedFileType": {
           "message": "Dateityp wird nicht unterstützt",
-          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien",
-          "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"
+          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
         },
         "freeTierLimit": {
           "message": "Unser Free-Abo erlaubt KI-Übersetzungen für Word- und PowerPoint-Dateien. Jetzt upgraden, um PDFs, Excel-Dateien und weitere Formate freizuschalten.",
@@ -112,10 +111,6 @@
         "remainingFiles": {
           "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
           "popover": ""
-        },
-        "unsupportedFusedTranslationFileType": {
-          "message":"Wir konnten den Umfang Ihrer Datei nicht automatisch berechnen. Schliessen Sie die Bestellung gerne trotzdem ab und wir kontaktieren Sie mit einem Angebot.",
-          "customCTAMessage":  "Angebot Anfordern"
         }
       },
       "availableFiles": {
@@ -341,8 +336,7 @@
       },
       "limitedFileType": {
         "message": "Dateityp wird nicht unterstützt",
-        "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien",
-        "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"
+        "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
       },
       "freeTierLimit": {
         "message": "Unser Free-Abo erlaubt KI-Übersetzungen für Word- und PowerPoint-Dateien. Jetzt upgraden, um PDFs, Excel-Dateien und weitere Formate freizuschalten.",
@@ -1813,7 +1807,7 @@
       "aiTranslation": {
         "title": "KI-Übersetzung",
         "description": "Sofort zum Download bereit",
-        "cta": "Mehr bekommen",
+        "cta": "Upgrade für mehr Dateien",
         "button": "Jetzt übersetzen"
       },
       "humanVerification": {

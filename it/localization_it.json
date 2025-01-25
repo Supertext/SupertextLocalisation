@@ -1860,15 +1860,15 @@
             ],
             "buttons": [
               {
-                "type": "(login)",
-                "href": "/",
                 "text": "Registrati gratuitamente",
-                "variant": "primary"
+                "variant": "primary",
+                "type": "",
+                "href": ""
               },
               {
-                "href": "/contact",
                 "text": "Prenota una demo",
-                "variant": "PrimaryBorderVariant"
+                "variant": "PrimaryBorderVariant",
+                "href": ""
               }
             ]
           }

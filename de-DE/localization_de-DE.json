@@ -111,10 +111,6 @@
         "remainingFiles": {
           "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
           "popover": ""
-        },
-        "unsupportedFusedTranslationFileType": {
-          "message":"",
-          "customCTAMessage":  "Angebot anfordern"
         }
       },
       "availableFiles": {
@@ -824,7 +820,6 @@
         "openOrders": "AKTUELLE AUFTRÄGE",
         "noOrders": "Oops, zurzeit gibt es keine Aufträge.",
         "orderDate": "Bestelldatum",
-        "verificationType": "Profi-Check",
         "orderDeadlineDate": "Lieferung",
         "orderDetails": {
           "title": "AUFTRAGSDETAILS",
@@ -1379,10 +1374,10 @@
         "title_part2": "Geschäftszeiten",
         "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.",
         "businessHours": "Montag–Freitag",
-        "businessHoursTime": "9:00–17:30 MEZ",
-        "nonWorkingDaySaturday": "Samstag",
-        "nonWorkingDaySunday": "Sonntag",
-        "nonWorkingDaysHolidays": "Feiertage",
+        "businessHoursTime": "9:00–17:30 (MEZ)",
+        "nonWorkingDaySaturday": "",
+        "nonWorkingDaySunday": "",
+        "nonWorkingDaysHolidays": "",
         "nonWorkingDaysInfo": "Geschlossen",
         "businessHoursInfo": "Geschäftszeiten"
       },
@@ -1399,10 +1394,10 @@
         "title": "Sie erreichen uns außerhalb der Geschäftszeiten",
         "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.",
         "businessHours": "Montag–Freitag",
-        "businessHoursTime": "9:00–17:30 MEZ",
-        "nonWorkingDaySaturday": "Samstag",
-        "nonWorkingDaySunday": "Sonntag",
-        "nonWorkingDaysHolidays": "Feiertage",
+        "businessHoursTime": "9:00–17:30 (MEZ)",
+        "nonWorkingDaySaturday": "",
+        "nonWorkingDaySunday": "",
+        "nonWorkingDaysHolidays": "",
         "nonWorkingDaysInfo": "Geschlossen",
         "businessHoursInfo": "Geschäftszeiten"
       },

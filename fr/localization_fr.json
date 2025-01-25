@@ -111,10 +111,6 @@
         "remainingFiles": {
           "message": "{count, plural, =0 {Plus de fichiers disponibles} one {Encore # fichier disponible} other {Encore # fichiers disponibles}}",
           "popover": ""
-        },
-        "unsupportedFusedTranslationFileType": {
-          "message":"",
-          "customCTAMessage":  "Angebot anfordern"
         }
       },
       "availableFiles": {
@@ -825,7 +821,6 @@
         "noOrders": "Oups, il n’y a aucune commande en cours.",
         "orderDate": "Date de la commande",
         "orderDeadlineDate": "Délais",
-        "verificationType": "Profi-Check",
         "orderDetails": {
           "title": "DÉTAILS DE LA COMMANDE",
           "order": "Commande",
@@ -1380,9 +1375,9 @@
         "description": "Mais ne vous inquiétez pas! Vous pouvez commencer maintenant et vous recevrez le résultat le prochain jour ouvrable.",
         "businessHours": "Lundi–vendredi",
         "businessHoursTime": "9h00–17h30",
-        "nonWorkingDaySaturday": "Samedi",
-        "nonWorkingDaySunday": "Dimanche",
-        "nonWorkingDaysHolidays": "Jours fériés",
+        "nonWorkingDaySaturday": "",
+        "nonWorkingDaySunday": "",
+        "nonWorkingDaysHolidays": "",
         "nonWorkingDaysInfo": "Fermé",
         "businessHoursInfo": "Horaires d’ouverture"
       },
@@ -1400,9 +1395,9 @@
         "description": "Mais ne vous inquiétez pas! Vous pouvez commencer maintenant et vous recevrez le résultat le prochain jour ouvrable.",
         "businessHours": "Lundi–vendredi",
         "businessHoursTime": "9h00–17h30",
-        "nonWorkingDaySaturday": "Samedi",
-        "nonWorkingDaySunday": "Dimanche",
-        "nonWorkingDaysHolidays": "Jours fériés",
+        "nonWorkingDaySaturday": "",
+        "nonWorkingDaySunday": "",
+        "nonWorkingDaysHolidays": "",
         "nonWorkingDaysInfo": "Fermé",
         "businessHoursInfo": "Horaires d’ouverture"
       },

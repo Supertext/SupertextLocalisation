@@ -1860,10 +1860,13 @@
             ],
             "buttons": [
               {
+                "type": "(login)",
+                "href": "/",
                 "text": "S’inscrire gratuitement",
                 "variant": "primary"
               },
               {
+                "href": "/contact",
                 "text": "Réserver une démo",
                 "variant": "PrimaryBorderVariant"
               }

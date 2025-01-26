@@ -94,7 +94,8 @@
         },
         "limitedFileType": {
           "message": "Dateityp wird nicht unterstützt",
-          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und PowerPoint-Dateien"
+          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und PowerPoint-Dateien",
+          "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"          
         },
         "freeTierLimit": {
           "message": "Kostenfrei und ohne Registrierung können Sie AI Translation nur für Word- und PowerPoint-Dateien nutzen. Registrieren Sie sich jetzt, um auch PDF- und Excel-Dateien sowie viele weitere Dateiformate zu übersetzen – ab CHF 9.00 monatlich.",
@@ -113,7 +114,7 @@
           "popover": ""
         },
         "unsupportedFusedTranslationFileType": {
-          "message": "",
+          "message":"Wir konnten den Umfang Ihrer Datei nicht automatisch berechnen. Schliessen Sie die Bestellung gerne trotzdem ab und wir kontaktieren Sie mit einem Angebot.",
           "customCTAMessage": "Angebot anfordern",
           "popover": ""
         }

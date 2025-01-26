@@ -1365,9 +1365,9 @@
         "description": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung."
       },
       "serviceIsDeactivated": {
-        "title": "Service ist deaktiviert",
-        "description": "Dieser Service ist in Ihrer Organisation leider deaktiviert. Setzen Sie sich mit Supertext in Verbindung, um eine Demo zu planen oder diese Funktion für Ihr Unternehmen einzurichten."
-      },
+        "title": "Service für Ihre Organisation deaktiviert",
+        "description": "Der Profi-Check wurde auf Wunsch Ihrer Organisation deaktiviert. Sie möchten das ändern? Melden Sie sich unter <a href='mailto:hello@supertext.com'>hello@supertext.com</a> für eine unverbindliche Demo."
+         },
       "isTargetTextTooLong": {
         "title": "Profi-Checks sind derzeit auf {0} Zeichen begrenzt.",
         "description": "Wenn Ihr Text zu lang ist, können Sie versuchen, ihn zu kürzen, um sich auf die spezifischen Teile zu konzentrieren, bei denen Sie Hilfe benötigen."
@@ -1382,7 +1382,7 @@
         "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.",
         "businessHours": "Montag–Freitag",
         "businessHoursTime": "9:00–17:30 (MEZ)",
-        "nonWorkingDaySaturday": "",
+        "nonWorkingDaySaturday": "Wochenende und Feiertage",
         "nonWorkingDaySunday": "",
         "nonWorkingDaysHolidays": "",
         "nonWorkingDaysInfo": "Geschlossen",
@@ -1402,7 +1402,7 @@
         "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.",
         "businessHours": "Montag–Freitag",
         "businessHoursTime": "9:00–17:30 (MEZ)",
-        "nonWorkingDaySaturday": "",
+        "nonWorkingDaySaturday": "Wochenende und Feiertage",
         "nonWorkingDaySunday": "",
         "nonWorkingDaysHolidays": "",
         "nonWorkingDaysInfo": "Geschlossen",

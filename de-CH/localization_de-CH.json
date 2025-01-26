@@ -825,7 +825,6 @@
         "openOrders": "AKTUELLE AUFTRÄGE",
         "noOrders": "Oops, zurzeit gibt es keine Aufträge.",
         "orderDate": "Bestelldatum",
-        "verificationType": "Profi-Check",
         "orderDeadlineDate": "Lieferung",
         "orderDetails": {
           "title": "AUFTRAGSDETAILS",
@@ -849,7 +848,8 @@
           "orderNumber": "Auftragsnummer",
           "notFixed": "Preis noch nicht fixiert"
         },
-        "back": "Zurück"
+        "back": "Zurück",
+        "verificationType": "Profi-Check"
       },
       "invoices": {
         "title": "Rechnungen",

@@ -111,6 +111,11 @@
         "remainingFiles": {
           "message": "{count, plural, =0 {No more files available} one {Still # File available} other {Still # Files available}}",
           "popover": ""
+        },
+         "unsupportedFusedTranslationFileType": {
+          "message": "",
+          "customCTAMessage":  "Angebot Anfordern",
+          "popover": ""
         }
       },
       "availableFiles": {

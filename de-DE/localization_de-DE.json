@@ -26,7 +26,7 @@
           "title": "Nachricht",
           "placeholder": "Ihr Feedback …"
         },
-        "recommend_type": {f
+        "recommend_type": {
           "title": "Würden Sie das Produkt in der aktuellen Form Ihren Bekannten weiterempfehlen?",
           "default": "Wählen Sie eine der Antwortmöglichkeiten aus …",
           "yes": "Ja",
@@ -94,7 +94,7 @@
         },
         "limitedFileType": {
           "message": "Dateityp wird nicht unterstützt",
-          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
+          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien",
           "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"
         },
         "freeTierLimit": {
@@ -114,8 +114,8 @@
           "popover": ""
         },
         "unsupportedFusedTranslationFileType": {
-          "message":"Wir konnten den Umfang Ihrer Datei nicht automatisch berechnen. Schliessen Sie die Bestellung gerne trotzdem ab und wir kontaktieren Sie mit einem Angebot.",
-          "customCTAMessage":  "Angebot Anfordern"
+          "message": "",
+          "customCTAMessage": "",
           "popover": ""
         }
       },
@@ -1365,9 +1365,9 @@
         "description": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung."
       },
       "serviceIsDeactivated": {
-        "title": "Service für Ihre Organisation deaktiviert",
-        "description": "Der Profi-Check wurde auf Wunsch Ihrer Organisation deaktiviert. Sie möchten das ändern? Melden Sie sich unter <a href='mailto:hello@supertext.com'>hello@supertext.com</a> für eine unverbindliche Demo."
-         },
+        "title": "Service ist deaktiviert",
+        "description": "Dieser Service ist in Ihrer Organisation leider deaktiviert. Setzen Sie sich mit Supertext in Verbindung, um eine Demo zu planen oder diese Funktion für Ihr Unternehmen einzurichten."
+      },
       "isTargetTextTooLong": {
         "title": "Profi-Checks sind derzeit auf {0} Zeichen begrenzt.",
         "description": "Wenn Ihr Text zu lang ist, können Sie versuchen, ihn zu kürzen, um sich auf die spezifischen Teile zu konzentrieren, bei denen Sie Hilfe benötigen."
@@ -1382,7 +1382,7 @@
         "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.",
         "businessHours": "Montag–Freitag",
         "businessHoursTime": "9:00–17:30 (MEZ)",
-        "nonWorkingDaySaturday": "Wochenende und Feiertage",
+        "nonWorkingDaySaturday": "",
         "nonWorkingDaySunday": "",
         "nonWorkingDaysHolidays": "",
         "nonWorkingDaysInfo": "Geschlossen",
@@ -1402,7 +1402,7 @@
         "description": "Kein Problem! Sie können sofort starten und erhalten das Ergebnis am nächsten Arbeitstag.",
         "businessHours": "Montag–Freitag",
         "businessHoursTime": "9:00–17:30 (MEZ)",
-        "nonWorkingDaySaturday": "Wochenende und Feiertage",
+        "nonWorkingDaySaturday": "",
         "nonWorkingDaySunday": "",
         "nonWorkingDaysHolidays": "",
         "nonWorkingDaysInfo": "Geschlossen",

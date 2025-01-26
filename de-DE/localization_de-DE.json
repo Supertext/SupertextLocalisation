@@ -26,7 +26,7 @@
           "title": "Nachricht",
           "placeholder": "Ihr Feedback …"
         },
-        "recommend_type": {
+        "recommend_type": {f
           "title": "Würden Sie das Produkt in der aktuellen Form Ihren Bekannten weiterempfehlen?",
           "default": "Wählen Sie eine der Antwortmöglichkeiten aus …",
           "yes": "Ja",
@@ -95,6 +95,7 @@
         "limitedFileType": {
           "message": "Dateityp wird nicht unterstützt",
           "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und Powerpoint-Dateien"
+          "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"
         },
         "freeTierLimit": {
           "message": "Unser Free-Abo erlaubt KI-Übersetzungen für Word- und PowerPoint-Dateien. Jetzt upgraden, um PDFs, Excel-Dateien und weitere Formate freizuschalten.",
@@ -113,8 +114,8 @@
           "popover": ""
         },
         "unsupportedFusedTranslationFileType": {
-          "message": "",
-          "customCTAMessage": "",
+          "message":"Wir konnten den Umfang Ihrer Datei nicht automatisch berechnen. Schliessen Sie die Bestellung gerne trotzdem ab und wir kontaktieren Sie mit einem Angebot.",
+          "customCTAMessage":  "Angebot Anfordern"
           "popover": ""
         }
       },

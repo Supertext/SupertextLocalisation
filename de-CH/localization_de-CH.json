@@ -821,7 +821,6 @@
       "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
       "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
       "orders": {
-        "verificationType": "Profi-Check",
         "title": "Aufträge",
         "viewAllOrders": "Alle Aufträge ansehen",
         "openOrders": "AKTUELLE AUFTRÄGE",
@@ -1157,7 +1156,7 @@
               "totalLicenses": "Gesamtanzahl der Lizenzen",
               "totalMonthly": "Gesamtbetrag pro Monat",
               "totalYearly": "Gesamtbetrag pro Jahr",
-              "vatIncluded": "inkl. {currency} {amount} {percentage} {vatType}",
+              "vatIncluded": "inkl. {currency} {amount} {percentage} MWST",
               "todayTotal": "Heute fälliger Gesamtbetrag",
               "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
@@ -1167,9 +1166,9 @@
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "removeLicensesError": {
-                "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
-                "link": "Lizenzen von Teammitgliedern entfernen",
-                "one": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
+                "text": "In Ihrem Team haben aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
+                "link": "Lizenzen von Teammitgliedern entfernen.",
+                "one": "In Ihrem Team haben aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
                 "other": ""
               },
               "agreementAg": {
@@ -3052,7 +3051,7 @@
           "totalAmountIncludingTax": "Gesamtbetrag inkl. MWST",
           "totalAmountDueTodayDescription": "Dieser Betrag wird Ihnen beim Kauf sofort in Rechnung gestellt.",
           "trialPeriodBadge": "🎉 Erster Monat kostenlos",
-          "trialPeriodDescription": "Sie erhalten ein kostenloses 1-monatiges Probeabonnement, danach werden Ihnen die Kosten entsprechend Ihrer Abonnementart und Ihrem Angebot in Rechnung gestellt. Ihr erster Zahlungsabzug erfolgt am {date}.",
+          "trialPeriodDescription": "Die ersten 30 Tage testen Sie Supertext kostenlos. Wenn Sie vor dem {date} kündigen, bezahlen Sie nichts. Danach werden Ihnen die oben angezeigten Kosten verrechnet.",
           "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abos."
         }
       },

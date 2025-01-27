@@ -821,7 +821,6 @@
       "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkartendetails für eine einfache Abwicklung",
       "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
       "orders": {
-        "verificationType": "Profi-Check",
         "title": "Aufträge",
         "viewAllOrders": "Alle Aufträge ansehen",
         "openOrders": "AKTUELLE AUFTRÄGE",
@@ -1157,7 +1156,7 @@
               "totalLicenses": "Gesamtanzahl der Lizenzen",
               "totalMonthly": "Gesamtbetrag pro Monat",
               "totalYearly": "Gesamtbetrag pro Jahr",
-              "vatIncluded": "inkl. {currency} {amount} {percentage} {vatType}",
+              "vatIncluded": "inkl. {currency} {amount} {percentage} MWST",
               "todayTotal": "Heute fälliger Gesamtbetrag",
               "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",

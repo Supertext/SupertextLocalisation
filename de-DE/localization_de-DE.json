@@ -1,6 +1,6 @@
 {
   "open": {
-    "signup": "cRegistrieren",
+    "signup": "Registrieren",
     "login": "Anmelden",
     "searchLanguage": "Sprache suchen",
     "feedback": {
@@ -345,7 +345,7 @@
         "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und PowerPoint-Dateien"
       },
       "freeTierLimit": {
-        "message": "Unser Free-Abo erlaubt KI-Übersetzungen für Word- und PowerPoint-Dateien. Jetzt upgraden, um PDFs, Excel-Dateien und weitere Formate freizuschalten.",
+        "message": "Kostenfrei und ohne Registrierung können Sie KI-Übersetzungen nur für Word- und PowerPoint-Dateien nutzen. Registrieren Sie sich jetzt, um auch PDF- und Excel-Dateien sowie viele weitere Dateiformate zu übersetzen – ab CHF 9.00 monatlich.",
         "popover": ""
       },
       "fileSizeExceeded": {
@@ -1156,7 +1156,7 @@
               "totalLicenses": "Gesamtanzahl der Lizenzen",
               "totalMonthly": "Gesamtbetrag pro Monat",
               "totalYearly": "Gesamtbetrag pro Jahr",
-              "vatIncluded": "inkl. {currency} {amount} {percentage} {vatType}",
+              "vatIncluded": "inkl. {currency} {amount} {percentage} MWST",
               "todayTotal": "Heute fälliger Gesamtbetrag",
               "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
@@ -1269,7 +1269,7 @@
         "dataProtection": "Datenschutz",
         "media": "Medien"
       },
-      "freelancerRegistrationLink": "",
+      "freelancerRegistrationLink": "https://www.supertext.com/services/de/startapplication",
       "socialLinks": {
         "LinkedIn": "https://www.linkedin.com/company/supertext-group",
         "Meetup": "https://www.meetup.com/language-ai-meetup/",
@@ -1875,7 +1875,7 @@
               {
                 "text": "Demo vereinbaren",
                 "variant": "PrimaryBorderVariant",
-                "href": "/contact"
+                "href": "/kontakt"
               }
             ]
           }
@@ -1901,7 +1901,7 @@
                   "description": "Gehen Sie auf Nummer sicher. Mit einem Klick verbinden wir Sie direkt mit einem erfahrenen Sprachprofi, der Ihre Übersetzung prüft – und wo nötig nachbessert. Innerhalb von Minuten erhalten Sie Ihren Text mit allen nötigen Korrekturen zurück.",
                   "cta": {
                     "title": "Mehr erfahren",
-                    "link": "/verification",
+                    "link": "/profi-check",
                     "variant": "primary"
                   }
                 },
@@ -1943,7 +1943,7 @@
                   "description": "Sie wollen Ihr KI-Modell an einen neuen Styleguide anpassen? Oder Ihre aktuellen Workflows mit Expert:innen evaluieren? Wir sind persönlich für Sie da – lösungsorientiert, freundlich und schnell.",
                   "cta": {
                     "title": "Lassen Sie uns reden",
-                    "link": "/contact",
+                    "link": "/kontakt",
                     "variant": "secondary"
                   }
                 },
@@ -2000,7 +2000,7 @@
                 "description": "Sicher sein – in Minuten statt Stunden. Mit unserem Profi-Check auf Knopfdruck.",
                 "cta": {
                   "title": "Mehr erfahren",
-                  "link": "/verification"
+                  "link": "/profi-check"
                 }
               },
               {
@@ -2008,7 +2008,7 @@
                 "description": "Von ausgewiesenen Spezialist:innen mit Erfahrung in Ihrem Fachgebiet.",
                 "cta": {
                   "title": "Mehr erfahren",
-                  "link": ""
+                  "link": "/bestellen/uebersetzen"
                 }
               },
               {
@@ -2016,7 +2016,7 @@
                 "description": "Für Texte, die wirken – ideenreich und treffsicher.",
                 "cta": {
                   "title": "Mehr erfahren",
-                  "link": ""
+                  "link": "/bestellen/texten"
                 }
               },
               {
@@ -2024,7 +2024,7 @@
                 "description": "Der letzte Schliff – stilsicher, pingelig und richtig schnell.",
                 "cta": {
                   "title": "Mehr erfahren",
-                  "link": ""
+                  "link": "/bestellen/lektorieren"
                 }
               }
             ],
@@ -2097,7 +2097,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": ""
+                  "link": "/bestellen/uebersetzen"
                 }
               },
               {
@@ -2107,7 +2107,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": ""
+                  "link": "/bestellen/texten/"
                 }
               },
               {
@@ -2117,7 +2117,7 @@
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
-                  "link": ""
+                  "link": "/bestellen/lektorieren"
                 }
               }
             ]
@@ -2167,14 +2167,14 @@
           "heading": "automation → 0 to 100%",
           "cta": {
             "text": "Mehr über Supertext erfahren",
-            "link": ""
+            "link": "/about-supertext"
           }
         },
         "references": {
           "heading": "1500 Unternehmen in ganz Europa: Unsere Referenzen sprechen eine deutliche Sprache",
           "cta": {
             "text": "Zu den Cases",
-            "link": ""
+            "link": "/references"
           }
         },
         "blog": {
@@ -2188,7 +2188,7 @@
           "text": "Mit Supertext übersetzen Unternehmen <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0 % bis 100 % automatisiert.",
           "cta": {
             "title": "Wollen wir reden?",
-            "link": "/contact",
+            "link": "/kontakt",
             "target": "_blank"
           }
         },
@@ -2252,7 +2252,7 @@
                   "description": "Sicher sein, dass alles passt. Mit automatischer Übersetzung – und dem Profi-Check auf Knopfdruck.",
                   "cta": {
                     "title": "Mehr erfahren",
-                    "link": "/verification",
+                    "link": "/profi-check",
                     "variant": "secondary"
                   }
                 },
@@ -2261,7 +2261,7 @@
                   "description": "Technologie trifft erfahrene Spezialist:innen. Von InDesign bis Word und von Arabisch bis Zulu.",
                   "cta": {
                     "title": "JETZT BESTELLEN",
-                    "link": "",
+                    "link": "/bestellen/uebersetzen",
                     "variant": "secondary"
                   }
                 },
@@ -2270,7 +2270,7 @@
                   "description": "Wir fangen dort an, wo Ihnen die Worte fehlen. In Ihrem Tone of Voice, ideenreich und treffsicher.",
                   "cta": {
                     "title": "JETZT BESTELLEN",
-                    "link": "",
+                    "link": "/bestellen/texten/",
                     "variant": "secondary"
                   }
                 },
@@ -2279,7 +2279,7 @@
                   "description": "Der letzte Schliff für Ihren Text. Stilsicher, pingelig und richtig schnell.",
                   "cta": {
                     "title": "JETZT BESTELLEN",
-                    "link": "",
+                    "link": "/bestellen/lektorieren",
                     "variant": "secondary"
                   }
                 },
@@ -2297,7 +2297,7 @@
                   "description": "Sie haben große Pläne? Wir die passende Lösung in jeder Sprache. Von 0 % bis 100 % automatisiert.",
                   "cta": {
                     "title": "LASSEN SIE UNS REDEN",
-                    "link": "/contact",
+                    "link": "kontakt",
                     "variant": "secondary"
                   }
                 }
@@ -2354,7 +2354,7 @@
           "preTitle": "Wir sind für Sie da",
           "cta": {
             "title": "Lassen Sie uns reden",
-            "link": "/contact",
+            "link": "/kontakt",
             "target": ""
           }
         }
@@ -2538,7 +2538,7 @@
           "text": "Ihre Frage war <highlight>nicht dabei</highlight>? Dann nehmen Sie gerne <highlight>Kontakt</highlight> mit uns auf.",
           "cta": {
             "title": "Lassen Sie uns reden",
-            "link": "/contact",
+            "link": "/kontakt",
             "target": "_blank"
           }
         }
@@ -2560,7 +2560,7 @@
           "text": "Sie haben ein spannendes <highlight>Sprachprojekt</highlight> in der Pipeline? Oder möchten Ihre bestehenden <highlight>Prozesse</highlight> mit uns <highlight>evaluieren?</highlight>",
           "cta": {
             "title": "Lassen Sie uns reden",
-            "link": "/contact",
+            "link": "/kontakt",
             "target": ""
           }
         }
@@ -2656,7 +2656,7 @@
           "description": "Wir sind immer auf der Suche nach Texterinnen, Übersetzern, SEO-Spezialistinnen oder Lektoren, die unser Team aus Sprachprofis ergänzen.",
           "cta": {
             "title": "Jetzt registrieren",
-            "link": "",
+            "link": "https://www.supertext.com/services/de/startapplication",
             "target": "_blank"
           }
         }
@@ -2845,7 +2845,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr erfahren",
-                "link": ""
+                "link": "/about-supertext"
               }
             },
             {
@@ -2865,7 +2865,7 @@
               "badge": "",
               "cta": {
                 "title": "",
-                "link": "Technology",
+                "link": "/technologie",
                 "variant": ""
               }
             }
@@ -2891,7 +2891,7 @@
           "small": "Unsere LLM-basierte Übersetzungstechnologie kombiniert neuste Forschungserkenntnisse mit maximaler Flexibilität. Das Ergebnis: messbar bessere Sprachqualität bei laufend sinkenden Kosten. <break></break><break></break>Ob als Grundlage für Ihre Profi-Übersetzer:innen, vollautomatisch über Plugins und APIs oder als frei zugängliches Tool für Ihre Mitarbeitenden – wir geben Ihrem Unternehmen eine eigene Stimme. In jeder Sprache und jedem Format.",
           "cta": {
             "title": "Neugierig? Lassen Sie uns reden.",
-            "link": "/contact"
+            "link": "/kontakt"
           }
         },
         "features": {
@@ -3004,7 +3004,7 @@
           },
           "cta2": {
             "title": "API-Dokumentation anfragen",
-            "link": "/contact"
+            "link": "/kontakt"
           }
         },
         "blog": {
@@ -3012,7 +3012,7 @@
           "description": "Viele unserer Mitarbeitenden sind fester Bestandteil der globalen AI Research Community. Mit regelmäßigen Publikationen leisten wir einen aktiven Beitrag an die Forschung zu maschinellem Lernen.",
           "cta": {
             "text": "Alle Publikationen ansehen",
-            "link": ""
+            "link": "/blog?category=research"
           }
         },
         "footerNote": {
@@ -3033,7 +3033,7 @@
           "title": "Sie wollen <highlightText> Ressourcen schonen und AI Translation maximal produktiv</highlightText> im Unternehmen einsetzen? Lassen Sie uns reden.",
           "cta": {
             "title": "Kontaktieren Sie uns",
-            "link": "/contact"
+            "link": "/kontakt"
           }
         }
       },
@@ -3051,7 +3051,7 @@
           "totalAmountIncludingTax": "Gesamtbetrag inkl. MwSt.",
           "totalAmountDueTodayDescription": "Dieser Betrag wird Ihnen beim Kauf sofort in Rechnung gestellt.",
           "trialPeriodBadge": "🎉 Erster Monat kostenlos",
-          "trialPeriodDescription": "",
+          "trialPeriodDescription": "Die ersten 30 Tage testen Sie Supertext kostenlos. Wenn Sie vor dem {date} kündigen, bezahlen Sie nichts. Danach werden Ihnen die oben angezeigten Kosten verrechnet.",
           "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abos."
         }
       },
@@ -3138,7 +3138,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr erfahren",
-                "link": ""
+                "link": "/about-supertext"
               }
             },
             {
@@ -3148,7 +3148,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "Mehr zur Technologie",
-                "link": "Technology"
+                "link": "/technologie"
               }
             },
             {
@@ -3158,7 +3158,7 @@
               "badge": "Bald verfügbar",
               "cta": {
                 "title": "Mehr erfahren",
-                "link": "Technology",
+                "link": "/technology",
                 "variant": "secondary"
               }
             }

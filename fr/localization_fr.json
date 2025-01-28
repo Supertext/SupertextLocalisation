@@ -158,7 +158,7 @@
     },
     "languageMenu": {
       "cta": "18 langues supplémentaires dans notre solution d’entreprise",
-      "href": "/business/de/features"
+      "href": "/business/fr/features"
     },
     "NpsSurveyPopup": {
       "question": "Quelle est la probabilité que vous recommandiez Supertext à vos connaissances?",
@@ -785,7 +785,7 @@
       },
       "technology": "Technologie",
       "contact": "Contact",
-      "home": "/ki-uebersetzung",
+      "home": "Traducteur par l’IA",
       "orderIssuer": {
         "title": "Commander un projet",
         "learnMore": {
@@ -1269,7 +1269,7 @@
         "dataProtection": "Confidentialité",
         "media": "Médias"
       },
-      "freelancerRegistrationLink": "https://www.supertext.com/services/de/startapplication",
+      "freelancerRegistrationLink": "https://www.supertext.com/services/fr/startapplication",
       "socialLinks": {
         "LinkedIn": "https://www.linkedin.com/company/supertext-group",
         "Meetup": "https://www.meetup.com/language-ai-meetup/",
@@ -1901,7 +1901,7 @@
                   "description": "Jouez la sécurité. En un clic, nous vous mettrons en contact direct avec un/-e expert/-e linguistique expérimenté/-e qui vérifiera votre traduction et la corrigera si nécessaire. En quelques minutes, vous recevrez votre texte avec toutes les corrections nécessaires.",
                   "cta": {
                     "title": "En savoir plus",
-                    "link": "/vérification",
+                    "link": "/verification",
                     "variant": "primary"
                   }
                 },
@@ -1984,7 +1984,7 @@
           "text": "Du simple <highlight>traducteur en ligne</highlight> à la <highlight>solution personnalisée entièrement intégrée</highlight>: trouvez le <highlight>abonnement qu’il vous faut.</highlight>",
           "cta": {
             "title": "Découvrir maintenant",
-            "link": "Abonnements",
+            "link": "/abonnements",
             "target": "_blank"
           }
         }
@@ -2000,7 +2000,7 @@
                 "description": "Avoir la certitude qu’une traduction est correcte en quelques minutes et non après plusieurs heures grâce à notre service de vérification professionnelle disponible en un clic.",
                 "cta": {
                   "title": "En savoir plus",
-                  "link": "/vérification"
+                  "link": "/verification"
                 }
               },
               {
@@ -2043,7 +2043,7 @@
               },
               {
                 "title": "Expertise linguistique",
-                "link": "/sprachexpertise"
+                "link": "/langue-expertise"
               }
             ]
           }
@@ -2070,7 +2070,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "En savoir plus",
-                  "link": "/contrôle-pro"
+                  "link": "/verification"
                 }
               },
               {
@@ -2091,7 +2091,7 @@
             "title": "Services professionnels",
             "cards": [
               {
-                "icon": "/images/pages/accueil/Supertext_Icon_Language_Experts_Light_Green.svg",
+                "icon": "/images/pages/home/Supertext_Icon_Language_Experts_Light_Green.svg",
                 "title": "Traductions spécialisées par des experts/-es",
                 "description": "Qu’il s’agisse d’un contrat ou d’une campagne publicitaire, nos 3000 traducteurs et traductrices sélectionnés/-es avec soin travaillent avec encore plus de précision. Spécialistes de leur domaine, de l’InDesign au Word et de l’arabe au zoulou.",
                 "cta": {
@@ -2101,7 +2101,7 @@
                 }
               },
               {
-                "icon": "/images/pages/accueil/Supertext_Icône_Copywriting_Light_Green.svg",
+                "icon": "/images/pages/home/Supertext_Icon_Copywriting_Light_Green.svg",
                 "title": "Rédaction & contenu par des rédacteurs et rédactrices professionnels/-elles créatifs/-ves",
                 "description": "Notre équipe internationale d’experts et expertes en rédaction intervient là où les mots vous manquent. Dans votre ton de marque, créatif et pertinent, de l’article de blog à la campagne publicitaire internationale.",
                 "cta": {
@@ -2111,7 +2111,7 @@
                 }
               },
               {
-                "icon": "/images/pages/accueil/Supertext_Icône_Relecture_Light_Green.svg",
+                "icon": "/images/pages/home/Supertext_Icon_Editing_Light_Green.svg",
                 "title": "Relecture professionnelle pour la touche finale",
                 "description": "Les relecteurs et relectrices sélectionnés/-ées s’assurent que toutes les lettres sont dans le bon ordre et que chaque mot est à sa place. Nous corrigeons, révisons et relisons selon vos directives, avec minutie et en un temps record.",
                 "cta": {
@@ -2125,10 +2125,10 @@
           {
             "id": "3",
             "title": "Pour les entreprises",
-            "icon": "/images/pages/verification/fonction-icon.png",
+            "icon": "/images/pages/verification/feature-icon.png",
             "cards": [
               {
-                "icon": "/images/pages/accueil/Supertext_Icon_Language_Custom_Light_Green.svg",
+                "icon": "/images/pages/home/Supertext_Icon_Language_Custom_Light_Green.svg",
                 "title": "LLM personnalisés pour une qualité linguistique encore meilleure",
                 "description": "Le meilleur modèle linguistique est le vôtre. C’est pourquoi nous créons de grands modèles de langage (LLM) personnalisés, adaptés à vos exigences stylistiques et à vos formats de contenu. Pour une communication fluide dans l’ensemble de l’entreprise et unique dans chaque langue.",
                 "cta": {
@@ -2138,7 +2138,7 @@
                 }
               },
               {
-                "icon": "/images/pages/home/Supertext_Icône_Sécurité des données_Light_Green.svg",
+                "icon": "/images/pages/home/Supertext_Icon_Datensicherheit_Light_Green.svg",
                 "title": "Sécurité des données selon vos exigences",
                 "description": "Du cloud privé à l’hébergement sur place, en passant par l’authentification unique (SSO), vous pouvez adapter les mesures de sécurité à votre convenance dans notre solution Business. C’est pourquoi nous sommes le partenaire de choix pour les banques, les administrations et les assurances.",
                 "cta": {
@@ -2154,7 +2154,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "En savoir plus",
-                  "link": "/why-supertext"
+                  "link": "/pourquoi-supertext"
                 }
               }
             ]
@@ -2252,7 +2252,7 @@
                   "description": "S’assurer que tout est en ordre, avec la traduction automatique et la vérification professionnelle en un clic.",
                   "cta": {
                     "title": "En savoir plus",
-                    "link": "/vérification",
+                    "link": "/verification",
                     "variant": "secondary"
                   }
                 },
@@ -2288,7 +2288,7 @@
                   "description": "Vous avez de grands projets? Nous avons la solution adaptée dans toutes les langues. Des processus automatisés de 0% à 100%.",
                   "cta": {
                     "title": "DISCUTONS-EN",
-                    "link": "/kontakt",
+                    "link": "/contact",
                     "variant": "secondary"
                   }
                 },
@@ -2310,7 +2310,7 @@
           "title": "Expertise de Å à Ž: découvrez notre équipe",
           "items": [
             {
-              "image": "/images/pages/language-expertise/portrait2.png",
+              "image": "/images/pages/language-expertise/Tristan.png",
               "quote": "«Jusqu’à ce que chaque mot soit à sa place.»",
               "person": "Tristan Sechrest, spécialiste de l’anglais",
               "content": [
@@ -2329,7 +2329,7 @@
               ]
             },
             {
-              "image": "/images/pages/language-expertise/portrait2.png",
+              "image": "/images/pages/language-expertise/Philippe.png",
               "quote": "«Le meilleur modèle de langage? Le vôtre.»",
               "person": "Philippe Schläpfer, Research Scientist",
               "content": [
@@ -2656,7 +2656,7 @@
           "description": "Nous sommes toujours à la recherche de spécialistes en rédaction, traduction, correction ou SEO pour compléter notre équipe de professionnels/-les du langage.",
           "cta": {
             "title": "S’inscrire maintenant",
-            "link": "https://www.supertext.com/services/de/startapplication",
+            "link": "https://www.supertext.com/services/fr/startapplication",
             "target": "_blank"
           }
         }
@@ -2752,7 +2752,7 @@
           "title": "Testé, normalisé et certifié. Selon les normes ISO 27100, 9001, 17100 et 18587.",
           "cta": {
             "title": "Consulter les certificats",
-            "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_Zertifikate_Supertext_24_27_DE_fcb06a4413.pdf"
+            "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_certificates_Supertext_24_27_EN_e7a08d5452.pdf"
           }
         },
         "blog": {
@@ -2829,7 +2829,7 @@
           "eyebrowHeadline": "Notre promesse",
           "items": [
             {
-              "icon": "/images/pages/verification/fonction-icon.png",
+              "icon": "/images/pages/verification/feature-icon.png",
               "title": "3000 spécialistes natifs/-ves diplômés/-ées",
               "description": "Nos spécialistes ont toutes et tous un diplôme universitaire en traduction ou au moins cinq ans d’expérience professionnelle et doivent passer un test interne.",
               "cta": {
@@ -2839,7 +2839,7 @@
               }
             },
             {
-              "icon": "/images/pages/verification/fonction-icon.png",
+              "icon": "/images/pages/verification/feature-icon.png",
               "title": "Testée, normalisée et certifiée ISO",
               "description": "Supertext est certifiée pour la qualité de ses traductions (ISO 17100 et 18587), le management de la qualité (ISO 9001) et la sécurité des données (ISO 27001) depuis 2018.",
               "cta": {
@@ -2849,7 +2849,7 @@
               }
             },
             {
-              "icon": "/images/pages/verification/fonction-icon.png",
+              "icon": "/images/pages/verification/feature-icon.png",
               "title": "Une sécurité sans compromis",
               "description": "Nous protégeons vos données en respectant les normes les plus strictes en matière de gestion des données, en utilisant un cryptage robuste et en utilisant les serveurs les plus sécurisés de Suisse. C’est pourquoi nous sommes le partenaire de choix pour les banques, les administrations et les compagnies d’assurance.",
               "cta": {
@@ -2865,7 +2865,7 @@
               "badge": "",
               "cta": {
                 "title": "",
-                "link": "Technologie",
+                "link": "/technologie",
                 "variant": ""
               }
             }
@@ -3103,17 +3103,17 @@
             {
               "title": "Faire traduire un texte sur supertext.com et choisir «Lancer une vérification professionnelle»",
               "number": "01",
-              "image": "/images/pages/verification/05_04_Contrôle professionnel.webp"
+              "image": "/images/pages/verification/05_04_Profi-Check.webp"
             },
             {
               "title": "Confirmer les détails de la commande et indiquer le moyen de paiement",
               "number": "02",
-              "image": "/images/pages/verification/05_05_Contrôle professionnel.webp"
+              "image": "/images/pages/verification/05_05_Profi-Check.webp"
             },
             {
               "title": "Récupérer la traduction vérifiée quelques minutes plus tard",
               "number": "03",
-              "image": "/images/pages/verification/05_06_Contrôle professionnel.webp"
+              "image": "/images/pages/verification/05_06_Profi-Check.webp"
             }
           ]
         },
@@ -3142,13 +3142,13 @@
               }
             },
             {
-              "icon": "/images/pages/verification/Supertext_Icône_Sécurité des données_Light_Green.svg",
+              "icon": "/images/pages/verification/Supertext_Icon_Datensicherheit_Light_Green.svg",
               "title": "Une sécurité sans compromis",
               "description": "Nous protégeons vos données en respectant les normes les plus strictes en matière de gestion des données, en utilisant un cryptage robuste et en utilisant les serveurs les plus sécurisés de Suisse. C’est pourquoi nous sommes le partenaire de choix pour les banques, les administrations et les compagnies d’assurance.",
               "cta": {
                 "variant": "primary",
                 "title": "En savoir plus sur la technologie",
-                "link": "Technologie"
+                "link": "/technologie"
               }
             },
             {
@@ -3158,7 +3158,7 @@
               "badge": "Bientôt disponible",
               "cta": {
                 "title": "En savoir plus",
-                "link": "Technologie",
+                "link": "/technology",
                 "variant": "secondary"
               }
             }

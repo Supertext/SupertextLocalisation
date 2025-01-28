@@ -935,7 +935,7 @@
                 "error": "Bitte geben Sie Ihren Namen ein"
               },
               "company": {
-                "label": "* Unternehmen/Organisation",
+                "label": "* Unternehmen / Organisation",
                 "placeholder": "Ihr Unternehmen / Ihre Organisation",
                 "error": "Bitte geben Sie Ihr Unternehmen / Ihre Organisation an"
               },
@@ -979,7 +979,7 @@
         "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
         "comment": "Bezeichnung (optional)",
         "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
-        "company": "Unternehmen/Organisation",
+        "company": "Unternehmen / Organisation",
         "name": "Name",
         "changeName": "Name ändern",
         "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
@@ -2382,7 +2382,7 @@
               "error": "Name ist erforderlich"
             },
             "company": {
-              "label": "Unternehmen/Organisation*",
+              "label": "Unternehmen / Organisation*",
               "placeholder": "Ihr Unternehmen",
               "error": "Unternehmen/Organisation ist erforderlich"
             },

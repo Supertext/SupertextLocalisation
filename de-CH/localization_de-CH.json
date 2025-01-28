@@ -787,7 +787,7 @@
       "contact": "Kontakt",
       "home": "KI-Übersetzer",
       "orderIssuer": {
-        "title": "Auftrag erteilen",
+        "title": "Auftrag erstellen",
         "learnMore": {
           "title": "Mehr erfahren",
           "description": "Erfahrene Expert:innen und ISO-zertifizierte Prozesse: <link>alles zu unserer Sprachexpertise</link>"
@@ -870,7 +870,7 @@
         "otherPlans": "Abo ändern",
         "current": "Aktuelles Abo",
         "upgrade": "Upgraden",
-        "downgrade": "Downgraden",
+        "downgrade": "Herabstufen",
         "recommended": "Empfohlen",
         "comparePlans": "Abos vergleichen",
         "showMore": "Mehr anzeigen",
@@ -960,9 +960,9 @@
           }
         },
         "firstMonthFree": "Erster Monat kostenlos",
-        "cancelSubscriptionButton": "Abo downgraden",
+        "cancelSubscriptionButton": "Abo herabstufen",
         "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}.",
-        "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText> Wir die <highlightText>passende Lösung.</highlightText>"
+        "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText> Wir die <highlightText>passende Lösung</highlightText>."
       },
       "resources": {
         "title": "Sprachressourcen"
@@ -1203,7 +1203,7 @@
         "revisionOption": "Ich wünsche eine kostenlose Nachbearbeitung",
         "revisionRequest": "Überarbeitung anfordern",
         "submitFile": "Überarbeitung anfordern",
-        "uploadFiles": "Dokumente mit Kommentare hochladen",
+        "uploadFiles": "Dokumente mit Kommentaren hochladen",
         "messagePlaceholder": "z. B. ein guter, frischer Stil, wir sind sehr zufrieden, im letzten Abschnitt fehlen zwei Argumente, wir werden das selbst einfügen.",
         "ratingOptions": {
           "super": "Super",
@@ -1449,7 +1449,7 @@
             "5": {
               "title": "Fused Translation",
               "badge": "Bald verfügbar",
-              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen"
+              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen)"
             },
             "6": {
               "title": "Word- und PowerPoint-Dateien"
@@ -1655,7 +1655,7 @@
               "enterprise": "Optional"
             },
             "gdpr": {
-              "name": "Volle Einhaltung von GDPR (EU) und DSG (Schweiz)",
+              "name": "Volle Einhaltung der DSGVO (EU) und des DSG (Schweiz)",
               "description": "",
               "free": "Keine Texte mit Personendaten erlaubt"
             }
@@ -1808,11 +1808,11 @@
       "fusedTranslation": {
         "title": "Fachübersetzung",
         "cta": "Was ist der Vorteil?",
-        "button": "Auftrag erteilen",
+        "button": "Auftrag erstellen",
         "description": "Maximal präzise dank erfahrenen Expert:innen"
       },
       "aiTranslation": {
-        "title": "KI-Übersetzung",
+        "title": "AI Translation",
         "description": "Sofort zum Download bereit",
         "cta": "Upgrade für mehr Dateien",
         "button": "Jetzt übersetzen"
@@ -1824,7 +1824,7 @@
       },
       "immediately": "sofort",
       "aiTranslationVerification": {
-        "title": "KI-Übersetzung",
+        "title": "AI Translation",
         "description": "Sofort zum Download bereit",
         "cta": "Upgrade für mehr Leistung",
         "button": "Jetzt übersetzen"
@@ -2205,7 +2205,7 @@
         },
         "lead": {
           "large": "<highlight>Vollautomatisch</highlight> oder <highlight>handgemacht?</highlight> Die Antwort liegt oft dazwischen.",
-          "small": "Mit KI übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen darum mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break><break></break>Der grosse Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
+          "small": "Mit KI übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen darum mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break> <break></break> Der grosse Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
         },
         "featureList": {
           "title": "Supertext. Wer steckt drin?",
@@ -2362,7 +2362,7 @@
       "contact": {
         "hero": {
           "title": "Erreichbar in fast jeder Sprache",
-          "description": "Kontaktieren Sie das Supertext Sales-Team"
+          "description": "Kontaktieren Sie das Supertext-Sales-Team"
         },
         "salesSection": {
           "title": "Wir sind persönlich für Sie da –<highlight>in unter 60 Minuten</highlight>",
@@ -2580,7 +2580,7 @@
         },
         "lead": {
           "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie</highlight>. Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
-          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break><break></break>Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
+          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
           "cta": {
             "title": "Mehr zu unserer Vision",
             "link": "/why-supertext"
@@ -2649,7 +2649,7 @@
         "article_one": {
           "tag": "WERTE & BENEFITS",
           "title": "Unsere <highlight>Vielfalt</highlight> macht uns stark",
-          "description": "Wir vereinen unzählige Kulturen, Sprachen, Talente und Interessen an einem Ort. Das bereichert unsere Zusammenarbeit und macht uns zu dem, was wir sind: der All-in-one-Anbieter, der für jede sprachliche Herausforderung eine Lösung findet. <break></break><break></break>Ein Miteinander auf Augenhöhe ist für uns genauso selbstverständlich wie faire Entlöhnung und ein offenes, flexibles Arbeitsumfeld. Bei Supertext organisieren wir uns selbstbestimmt, übernehmen Verantwortung und bringen Ideen ein, die unsere Kultur aktiv mitgestalten. Mit Schulungen und laufendem Feedback erweitern wir unser Wissen und treiben die persönliche Entwicklung voran."
+          "description": "Wir vereinen unzählige Kulturen, Sprachen, Talente und Interessen an einem Ort. Das bereichert unsere Zusammenarbeit und macht uns zu dem, was wir sind: der All-in-one-Anbieter, der für jede sprachliche Herausforderung eine Lösung findet. <break></break> <break></break> Ein Miteinander auf Augenhöhe ist für uns genauso selbstverständlich wie faire Entlöhnung und ein offenes, flexibles Arbeitsumfeld. Bei Supertext organisieren wir uns selbstbestimmt, übernehmen Verantwortung und bringen Ideen ein, die unsere Kultur aktiv mitgestalten. Mit Schulungen und laufendem Feedback erweitern wir unser Wissen und treiben die persönliche Entwicklung voran."
         },
         "footerNote": {
           "text": "Du bist Texterin, Übersetzer, Lektorin oder SEO-Profi und möchtest als <highlightText>Freelancer:in</highlightText> mit uns <highlightText>zusammenarbeiten</highlightText>?",

@@ -158,7 +158,7 @@
     },
     "languageMenu": {
       "cta": "Plus 18 additional languages in our business solution",
-      "href": "/business/de/features"
+      "href": "/business/en/features"
     },
     "NpsSurveyPopup": {
       "question": "How likely are you to recommend Supertext to your friends?",
@@ -1156,7 +1156,7 @@
               "totalLicenses": "Total number of licences",
               "totalMonthly": "Total amount per month",
               "totalYearly": "Total amount per year",
-              "vatIncluded": "Incl. {currency} {amount} {percentage} {vatType}",
+              "vatIncluded": "Incl. {currency} {amount} {percentage} Tax",
               "todayTotal": "Total amount due today",
               "nextPeriod": "For additional licences up to the next billing period",
               "termsConfirmation": "I confirm the above subscription change and accept the",
@@ -1269,7 +1269,7 @@
         "dataProtection": "Privacy",
         "media": "Media"
       },
-      "freelancerRegistrationLink": "https://www.supertext.com/services/de/startapplication",
+      "freelancerRegistrationLink": "https://www.supertext.com/services/en/startapplication",
       "socialLinks": {
         "LinkedIn": "https://www.linkedin.com/company/supertext-group",
         "Meetup": "https://www.meetup.com/language-ai-meetup/",
@@ -1911,7 +1911,7 @@
                   "badge": "Available soon",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technologie",
+                    "link": "/technology",
                     "variant": "secondary"
                   }
                 }
@@ -1925,7 +1925,7 @@
                   "description": "Your company, your voice. Supertext integrates your style guidelines and wording into every translation through targeted training. For seamless communication without borders.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technologie",
+                    "link": "/technology",
                     "variant": "secondary"
                   }
                 },
@@ -1952,7 +1952,7 @@
                   "description": "From single sign-on (SSO) to on-premises hosting – Supertext reliably keeps your business data secure.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technologie",
+                    "link": "/technology",
                     "variant": "secondary"
                   }
                 },
@@ -1961,7 +1961,7 @@
                   "description": "Seamlessly integrate Supertext into your work environment with our APIs and integrations for streamlined processes in every interface.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technologie",
+                    "link": "/technology",
                     "variant": "secondary"
                   }
                 },
@@ -1984,7 +1984,7 @@
           "text": "From the simple <highlight>online translator</highlight> to <highlight>fully integrated custom solutions</highlight>: find your <highlight>perfect subscription.</highlight>",
           "cta": {
             "title": "Discover now",
-            "link": "Subscriptions",
+            "link": "/subscriptions",
             "target": "_blank"
           }
         }
@@ -2039,11 +2039,11 @@
               },
               {
                 "title": "AI technology",
-                "link": "/technologie"
+                "link": "/technology"
               },
               {
                 "title": "Linguistic expertise",
-                "link": "/sprachexpertise"
+                "link": "/language-expertise"
               }
             ]
           }
@@ -2070,7 +2070,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "Verification"
+                  "link": "/verification"
                 }
               },
               {
@@ -2080,7 +2080,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "/technologie"
+                  "link": "/technology"
                 },
                 "badge": "Available soon"
               }
@@ -2134,7 +2134,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "/technologie"
+                  "link": "/technology"
                 }
               },
               {
@@ -2144,7 +2144,7 @@
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "/technologie"
+                  "link": "/technology"
                 }
               },
               {
@@ -2217,7 +2217,7 @@
                 "description": "Our tech team is doing pioneering work that pays off. We are developing reliable, secure and flexible language AI technology without compromise. It forms the basis for high language quality at scale, seamlessly integrated into every process and interface.",
                 "cta": {
                   "text": "More about our technology",
-                  "link": "/technologie",
+                  "link": "/technology",
                   "variant": "primary"
                 }
               },
@@ -2288,7 +2288,7 @@
                   "description": "Do you have big plans? We have the right solution in every language. From 0% to 100% automated.",
                   "cta": {
                     "title": "LET’S TALK",
-                    "link": "/kontakt",
+                    "link": "/contact",
                     "variant": "secondary"
                   }
                 },
@@ -2310,7 +2310,7 @@
           "title": "Expertise from Å to Ž: meet our team",
           "items": [
             {
-              "image": "/images/pages/language-expertise/portrait2.png",
+              "image": "/images/pages/language-expertise/Tristan.png",
               "quote": "“Until every word is in its place.”",
               "person": "Tristan Sechrest, English Language Specialist",
               "content": [
@@ -2329,7 +2329,7 @@
               ]
             },
             {
-              "image": "/images/pages/language-expertise/portrait2.png",
+              "image": "/images/pages/language-expertise/Philippe.png",
               "quote": "“The best language model? Your own one.”",
               "person": "Philippe Schläpfer, Research Scientist",
               "content": [
@@ -2656,7 +2656,7 @@
           "description": "We are always looking for copywriters, translators, SEO specialists and editors to join our team of language professionals.",
           "cta": {
             "title": "Register now",
-            "link": "https://www.supertext.com/services/de/startapplication",
+            "link": "https://www.supertext.com/services/en/startapplication",
             "target": "_blank"
           }
         }
@@ -2752,7 +2752,7 @@
           "title": "Tested, standardised and certified according to ISO 27100, 9001, 17100 and 18587.",
           "cta": {
             "title": "View certificates",
-            "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_Zertifikate_Supertext_24_27_DE_fcb06a4413.pdf"
+            "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_certificates_Supertext_24_27_EN_e7a08d5452.pdf"
           }
         },
         "blog": {
@@ -2855,7 +2855,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "More about the technology",
-                "link": "/technologie"
+                "link": "/technology"
               }
             },
             {
@@ -2865,7 +2865,7 @@
               "badge": "",
               "cta": {
                 "title": "",
-                "link": "Technology",
+                "link": "/technology",
                 "variant": ""
               }
             }
@@ -2979,7 +2979,7 @@
                   "description": "Efficiently and centrally manage access to the translation system using your organisation’s existing user accounts.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technologie",
+                    "link": "/technology",
                     "variant": "secondary"
                   }
                 },
@@ -3148,7 +3148,7 @@
               "cta": {
                 "variant": "primary",
                 "title": "More about the technology",
-                "link": "Technology"
+                "link": "/technology"
               }
             },
             {
@@ -3158,7 +3158,7 @@
               "badge": "Available soon",
               "cta": {
                 "title": "Learn more",
-                "link": "Technology",
+                "link": "/technology",
                 "variant": "secondary"
               }
             }

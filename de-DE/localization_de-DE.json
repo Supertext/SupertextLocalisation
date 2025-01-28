@@ -1083,7 +1083,7 @@
             "changePaymentMethodTooltip": {
               "linkText": "Kontaktieren Sie uns",
               "prefilledSubject": "Antrag für Zahlung auf Rechnung",
-              "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto (und allfällige weitere User:innen in meiner Organisation) die Zahlung auf Rechnung.",
+              "prefilledBody": "Guten Tag,\n\nbitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
               "emailAddress": "hello@supertext.com"
             }
           },
@@ -1282,7 +1282,7 @@
     "humanVerification": {
       "verifyButton": "Profi-Check starten",
       "stepTitle": "Profi-Check starten – Schritt",
-      "stepDescription": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung.",
+      "stepDescription": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich und sprachlich korrekte Übersetzung.",
       "nextStepButton": "Nächster Schritt",
       "orderVerification": "Verifizierung bestellen",
       "authorizePayment": "Zahlung autorisieren",
@@ -1357,12 +1357,12 @@
         "part1": "Die zertifizierte",
         "part2": "Kontrolle",
         "part3": "durch eine:n Supertext-Expert:in",
-        "description:": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung."
+        "description:": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich und sprachlich korrekte Übersetzung."
       },
       "certifiedControl": {
         "title": "Sofort von Profi-Übersetzer:innen prüfen lassen",
-        "dDescription": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung.",
-        "description": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung."
+        "dDescription": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich und sprachlich korrekte Übersetzung.",
+        "description": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich und sprachlich korrekte Übersetzung."
       },
       "serviceIsDeactivated": {
         "title": "Service für Ihre Organisation deaktiviert",
@@ -1390,7 +1390,7 @@
       },
       "stepThree": {
         "title": "Das hat geklappt!",
-        "description": "Ihre Übersetzung wird nun von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung.",
+        "description": "Ihre Übersetzung wird nun von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich und sprachlich korrekte Übersetzung.",
         "button": "D'accord! Fenster schließen.",
         "startNew": "Neue Übersetzung starten"
       },
@@ -3203,7 +3203,7 @@
     "targetOverlays": {
       "verificationPayment": {
         "title": "Das hat geklappt!",
-        "description": "Ihre Übersetzung wird nun von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich, orthographisch und grammatikalisch korrekte Übersetzung.",
+        "description": "Ihre Übersetzung wird nun von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich und sprachlich korrekte Übersetzung.",
         "newTranslationButton": "Neue Übersetzung starten",
         "altText": "Illustration einer Person, die entspannt am Telefon ist"
       },

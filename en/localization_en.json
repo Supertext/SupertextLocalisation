@@ -86,7 +86,7 @@
         },
         "noRemainingFiles": {
           "message": "No more files available",
-          "popover": "Your {subscriptionType} subscription includes {count, plural, =1 {# Datei} other {# Dateien}} per month"
+          "popover": "Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month"
         },
         "unsupportedFileType": {
           "message": "File type not included in subscription",
@@ -121,7 +121,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} files available",
-        "popover": "Your {subscriptionType} subscription includes {count, plural, one {# Datei} other {# Dateien}} per month",
+        "popover": "Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month",
         "unregisteredPopover": "You must be logged in to begin translating files."
       },
       "dropFileWithoutExtension": "Drag a file here or"
@@ -334,7 +334,7 @@
       },
       "noRemainingFiles": {
         "message": "No more files available",
-        "popover": "Your {subscriptionType} subscription includes {count, plural, =1 {# Datei} other {# Dateien}} per month"
+        "popover": "Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month"
       },
       "unsupportedFileType": {
         "message": "File type not included in subscription",
@@ -363,7 +363,7 @@
     },
     "availableFiles": {
       "message": "{remaining}/{total} files available",
-      "popover": "Your {subscriptionType} subscription includes {count, plural, one {# Datei} other {# Dateien}} per month",
+      "popover": "Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month",
       "unregisteredPopover": "You must be logged in to begin translating files."
     }
   },
@@ -1133,7 +1133,7 @@
             "description": "Easily adjust your subscription at any time to meet your needs.",
             "comparePlans": "Compare subscriptions",
             "numberOfLicenses": "Number of licences",
-            "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
+            "licencesCount": "{count, plural, one {# seat} other {# seats}}",
             "nextPayment": "Next payment",
             "monthly": "Monthly",
             "yearly": "Annual",

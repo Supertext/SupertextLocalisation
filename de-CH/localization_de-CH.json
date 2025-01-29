@@ -935,7 +935,7 @@
                 "error": "Bitte geben Sie Ihren Namen ein"
               },
               "company": {
-                "label": "* Unternehmen / Organisation",
+                "label": "* Unternehmen/Organisation",
                 "placeholder": "Ihr Unternehmen / Ihre Organisation",
                 "error": "Bitte geben Sie Ihr Unternehmen / Ihre Organisation an"
               },
@@ -979,7 +979,7 @@
         "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
         "comment": "Bezeichnung (optional)",
         "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
-        "company": "Unternehmen / Organisation",
+        "company": "Unternehmen/Organisation",
         "name": "Name",
         "changeName": "Name ändern",
         "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
@@ -1284,7 +1284,7 @@
       "stepTitle": "Profi-Check starten – Schritt",
       "stepDescription": "Ihre Übersetzung wird sofort von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich und sprachlich korrekte Übersetzung.",
       "nextStepButton": "Nächster Schritt",
-      "orderVerification": "Verifizierung bestellen",
+      "orderVerification": "Verbindlich bestellen",
       "authorizePayment": "Zahlung autorisieren",
       "unsupportedLanguagePair": {
         "title": "wird noch nicht unterstützt.",
@@ -1344,7 +1344,7 @@
           }
         }
       },
-      "additionalInformation": "Füge einige optionale Zusatzinformationen zu deinem Prüfauftrag hinzu, bevor du ihn abschliesst.",
+      "additionalInformation": "Fügen Sie optionale Zusatzinformationen zu Ihrem Auftrag hinzu, bevor Sie ihn abschliessen.",
       "submit": {
         "title": "Verifizierung absenden?",
         "description": "Damit wird deine Verifizierung unwiderruflich übermittelt. Bist du sicher, dass du deine Verifizierung absenden willst?"
@@ -2382,7 +2382,7 @@
               "error": "Name ist erforderlich"
             },
             "company": {
-              "label": "Unternehmen / Organisation*",
+              "label": "Unternehmen/Organisation*",
               "placeholder": "Ihr Unternehmen",
               "error": "Unternehmen/Organisation ist erforderlich"
             },

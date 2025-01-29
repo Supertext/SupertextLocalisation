@@ -86,7 +86,7 @@
         },
         "noRemainingFiles": {
           "message": "Plus aucun fichier disponible",
-          "popover": "Votre abonnement {subscriptionType} comprend {count, plural, =1 {# Datei} other {# Dateien}} par mois."
+          "popover": "Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois."
         },
         "unsupportedFileType": {
           "message": "Type de fichier non inclus dans l’abonnement",
@@ -121,7 +121,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} fichier(s) disponible(s)",
-        "popover": "Votre abonnement {subscriptionType} comprend {count, plural, one {# Datei} other {# Dateien}} par mois.",
+        "popover": "Votre abonnement {subscriptionType} comprend {count, plural, one {# fichier} other {# fichiers}} par mois.",
         "unregisteredPopover": "Vous devez être connecté/-ée pour commencer à traduire des fichiers."
       },
       "dropFileWithoutExtension": "Glissez un fichier ({supportedFileExtensions}) ici ou"
@@ -334,7 +334,7 @@
       },
       "noRemainingFiles": {
         "message": "Plus aucun fichier disponible",
-        "popover": "Votre abonnement {subscriptionType} comprend {count, plural, =1 {# Datei} other {# Dateien}} par mois."
+        "popover": "Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois."
       },
       "unsupportedFileType": {
         "message": "Type de fichier non inclus dans l’abonnement",
@@ -363,7 +363,7 @@
     },
     "availableFiles": {
       "message": "{remaining}/{total} fichier(s) disponible(s)",
-      "popover": "Votre abonnement {subscriptionType} comprend {count, plural, one {# Datei} other {# Dateien}} par mois.",
+      "popover": "Votre abonnement {subscriptionType} comprend {count, plural, one {# fichier} other {# fichiers}} par mois.",
       "unregisteredPopover": "Vous devez être connecté/-ée pour commencer à traduire des fichiers."
     }
   },
@@ -1133,7 +1133,7 @@
             "description": "Adaptez votre abonnement à vos besoins à tout moment, de manière simple.",
             "comparePlans": "Comparer les abonnements",
             "numberOfLicenses": "Nombre de licences",
-            "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
+            "licencesCount": "{count, plural, one {# licence} other {# licences}}",
             "nextPayment": "Prochain paiement",
             "monthly": "Mensuel",
             "yearly": "Annuel",

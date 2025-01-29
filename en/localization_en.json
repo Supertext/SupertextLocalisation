@@ -823,7 +823,7 @@
       "orders": {
         "title": "Orders",
         "viewAllOrders": "View all orders",
-        "openOrders": "CURRENT ORDERS",
+        "openOrders": "LATEST ORDERS",
         "noOrders": "Oops, there are no orders at the moment.",
         "orderDate": "Order date",
         "orderDeadlineDate": "Delivery",
@@ -854,7 +854,7 @@
       },
       "invoices": {
         "title": "Invoices",
-        "openInvoices": "OPEN INVOICES",
+        "openInvoices": "LATEST INVOICES",
         "viewAllInvoices": "View all invoices",
         "noOpenInvoices": "Currently no open invoices",
         "noInvoices": "No invoices available",

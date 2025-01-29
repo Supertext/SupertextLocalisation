@@ -823,7 +823,7 @@
       "orders": {
         "title": "Commandes",
         "viewAllOrders": "Voir toutes les commandes",
-        "openOrders": "COMMANDES EN COURS",
+        "openOrders": "DERNIÈRES COMMANDES",
         "noOrders": "Oups, il n’y a aucune commande en cours.",
         "orderDate": "Date de la commande",
         "orderDeadlineDate": "Livraison",
@@ -854,7 +854,7 @@
       },
       "invoices": {
         "title": "Factures",
-        "openInvoices": "FACTURES OUVERTES",
+        "openInvoices": "DERNIÈRES FACTURES",
         "viewAllInvoices": "Consulter toutes les factures",
         "noOpenInvoices": "Aucune facture ouverte",
         "noInvoices": "Aucune facture disponible",

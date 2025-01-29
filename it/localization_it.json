@@ -823,7 +823,7 @@
       "orders": {
         "title": "Ordini",
         "viewAllOrders": "Visualizza tutti gli ordini",
-        "openOrders": "ORDINI IN CORSO",
+        "openOrders": "ORDINI RECENTI",
         "noOrders": "Al momento non ci sono ordini.",
         "orderDate": "Data dell’ordine",
         "orderDeadlineDate": "Consegna",
@@ -854,7 +854,7 @@
       },
       "invoices": {
         "title": "Fatture",
-        "openInvoices": "FATTURE IN SOSPESO",
+        "openInvoices": "FATTURE RECENTI",
         "viewAllInvoices": "Visualizza tutte le fatture",
         "noOpenInvoices": "Attualmente non ci sono fatture in sospeso",
         "noInvoices": "Nessuna fattura disponibile",

@@ -1166,9 +1166,9 @@
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "removeLicensesError": {
-                "text": "In Ihrem Team haben aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
+                "text": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
                 "link": "Lizenzen von Teammitgliedern entfernen.",
-                "one": "In Ihrem Team haben aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
+                "one": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
                 "other": ""
               },
               "agreementAg": {
@@ -1430,14 +1430,14 @@
           "title": "In Free enthalten:",
           "items": {
             "0": {
-              "title": "5 Sprachen"
+              "title": "5 Sprachen"
             },
             "1": {
               "title": "Bis 3000 Zeichen",
               "tooltip": "1500 für unregistrierte User:innen"
             },
             "2": {
-              "title": "5 Dateien pro Monat (bearbeitbar)",
+              "title": "5 Dateien pro Monat (bearbeitbar)",
               "tooltip": "für registrierte User:innen"
             },
             "3": {
@@ -1682,7 +1682,7 @@
             "unlimitedFileTranslation": {
               "name": "Unbegrenzte Dateiübersetzung",
               "description": "Laden Sie ganze Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
-              "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
+              "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
               "essential": "20 Dateien pro Person und Monat",
               "advanced": "20 Dateien pro Monat, pro Person"
             },

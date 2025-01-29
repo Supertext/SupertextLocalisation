@@ -90,7 +90,7 @@
         },
         "unsupportedFileType": {
           "message": "Type de fichier non inclus dans l’abonnement",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+          "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend les fichiers Word, Excel, PowerPoint, PDF et SRT} free {Votre abonnement {subscriptionType} comprend les fichiers Word et PowerPoint}other {Votre abonnement {subscriptionType} comprend des types de fichiers limités}}"
         },
         "limitedFileType": {
           "message": "Type de fichier non pris en charge",
@@ -338,7 +338,7 @@
       },
       "unsupportedFileType": {
         "message": "Type de fichier non inclus dans l’abonnement",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+        "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend les fichiers Word, Excel, PowerPoint, PDF et SRT} free {Votre abonnement {subscriptionType} comprend les fichiers Word et PowerPoint}other {Votre abonnement {subscriptionType} comprend des types de fichiers limités}}"
       },
       "limitedFileType": {
         "message": "Type de fichier non pris en charge",

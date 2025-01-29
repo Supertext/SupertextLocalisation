@@ -870,7 +870,7 @@
         "otherPlans": "Abo ändern",
         "current": "Aktuelles Abo",
         "upgrade": "Upgraden",
-        "downgrade": "",
+        "downgrade": "Herabstufen",
         "recommended": "Empfohlen",
         "comparePlans": "Abos vergleichen",
         "showMore": "Mehr anzeigen",
@@ -1166,9 +1166,9 @@
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "removeLicensesError": {
-                "text": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
+                "text": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
                 "link": "Lizenzen von Teammitgliedern entfernen.",
-                "one": "Sie haben {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren,",
+                "one": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
                 "other": ""
               },
               "agreementAg": {
@@ -1682,7 +1682,7 @@
             "unlimitedFileTranslation": {
               "name": "Unbegrenzte Dateiübersetzung",
               "description": "Laden Sie ganze Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
-              "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
+              "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
               "essential": "20 Dateien pro Person und Monat",
               "advanced": "20 Dateien pro Monat, pro Person"
             },

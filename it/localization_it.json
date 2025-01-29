@@ -86,7 +86,7 @@
         },
         "noRemainingFiles": {
           "message": "Nessun altro file disponibile",
-          "popover": "Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# Datei} other {# Dateien}} al mese"
+          "popover": "Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese"
         },
         "unsupportedFileType": {
           "message": "Tipo di file non incluso nell’abbonamento",

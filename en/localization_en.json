@@ -113,10 +113,6 @@
           "message": "{count, plural, =0 {No more files available} one {# file still available} other {# files still available}}",
           "popover": ""
         },
-        "characterFileLimit": {
-          "message": "Die Anzahl der Zeichen in Ihrer Datei überschreitet das Limit.",
-          "popover": ""
-        },
         "unsupportedFusedTranslationFileType": {
           "message": "",
           "customCTAMessage": "Request quote",
@@ -1025,18 +1021,6 @@
             "accountSettings": "Account",
             "accountSettingsInfo": "You can manage your account settings here",
             "settings": "Settings",
-            "tooltips":{
-              "password": {
-                "admin": "Nur ein anderer Teamadministrator kann Ihr Passwort ändern",
-                "sso": "Sie können Ihre Passwort als SSO-Benutzer nicht ändern.",
-                "user": "Nur der Teamadministrator kann dein Passwort ändern"
-              },
-              "email": {
-                "admin": "Nur ein anderer Teamadministrator kann Ihre E-Mail ändern",
-                "sso": "Sie können Ihre E-Mail-Adresse als SSO-Benutzer nicht ändern.",
-                "user": "Nur der Teamadministrator kann deine E-mail ändern"
-              }
-            },
             "password": {
               "title": "Password",
               "oldPassword": "Old password",
@@ -1310,11 +1294,7 @@
         "title": "Verification",
         "payWithInvoice": "Payment is made by invoice.",
         "payWithCard": "Payment is made using your saved credit card details.",
-        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card information.",
-        "dayType": {
-          "today": "Heute",
-          "tomorrow": "Morgan"
-        }
+        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card information."
       },
       "customBilling": {
         "addressForm": {
@@ -2829,17 +2809,17 @@
           "items": [
             {
               "title": "Translate on supertext.com and choose “Start Verification”",
-              "number": "1",
+              "number": "01",
               "image": "/images/pages/verification/step-1.webp"
             },
             {
               "title": "Confirm project details and specify payment method",
-              "number": "2",
+              "number": "02",
               "image": "/images/pages/verification/step-2.webp"
             },
             {
               "title": "Collect your verified translation a few minutes later",
-              "number": "3",
+              "number": "03",
               "image": "/images/pages/verification/step-3.webp"
             }
           ]

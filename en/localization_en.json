@@ -98,7 +98,7 @@
           "popover2": "AI translation is currently available for Word, Excel, PowerPoint, PDF and SRT files"
         },
         "freeTierLimit": {
-          "message": "Free AI translation without registration is only available for Word and PowerPoint files. Register now to translate PDF and Excel files as well as many other file formats – from CHF 9.00 per month.",
+          "message": "Our free subscription allows AI translation for Word and PowerPoint files. Upgrade now to unlock PDFs, Excel files and further formats.",
           "popover": ""
         },
         "fileSizeExceeded": {
@@ -110,7 +110,7 @@
           "popover": ""
         },
         "remainingFiles": {
-          "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
+          "message": "{count, plural, =0 {No more files available} one {# file still available} other {# files still available}}",
           "popover": ""
         },
         "unsupportedFusedTranslationFileType": {
@@ -353,11 +353,11 @@
         "popover": "Your {subscriptionType} subscription includes files up to {size} MB"
       },
       "unsupportedFormat": {
-        "message": "We do not offer translation of {extension files}.",
+        "message": "We do not offer translation of {Erweiterungsdateien}.",
         "popover": ""
       },
       "remainingFiles": {
-        "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
+        "message": "{count, plural, =0 {No more files available} one {# file still available} other {# files still available}}",
         "popover": ""
       }
     },
@@ -1655,7 +1655,7 @@
               "enterprise": "Optional"
             },
             "gdpr": {
-              "name": "Full compliance with DSGVO (EU) and FADP (Switzerland)",
+              "name": "Full compliance with GDPR (EU) and FADP (Switzerland)",
               "description": "",
               "free": "No texts with personal data allowed"
             }
@@ -2766,7 +2766,7 @@
       "aiTranslation": {
         "hero": {
           "title": "AI translation with Verification",
-          "description": "Peace of mind – in minutes, not hours. Thanks to Verification by experienced translators at the push of a button."
+          "description": "Certainty – in minutes, not hours. Thanks to Verification by experienced translators at the push of a button."
         },
         "lead": {
           "large": "Your translation – professionally checked, when it really matters.",
@@ -2809,17 +2809,17 @@
           "items": [
             {
               "title": "Translate on supertext.com and choose “Start Verification”",
-              "number": "01",
+              "number": "1",
               "image": "/images/pages/verification/step-1.webp"
             },
             {
               "title": "Confirm project details and specify payment method",
-              "number": "02",
+              "number": "2",
               "image": "/images/pages/verification/step-2.webp"
             },
             {
               "title": "Collect your verified translation a few minutes later",
-              "number": "03",
+              "number": "3",
               "image": "/images/pages/verification/step-3.webp"
             }
           ]
@@ -3058,7 +3058,7 @@
       "aiTranslationVerification": {
         "hero": {
           "title": "AI translation with Verification",
-          "description": "Peace of mind – in minutes, not hours. Thanks to Verification by experienced translators at the push of a button."
+          "description": "Certainty – in minutes, not hours. Thanks to Verification by experienced translators at the push of a button."
         },
         "lead": {
           "large": "Your translation – professionally checked, when it really matters.",

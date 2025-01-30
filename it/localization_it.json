@@ -113,10 +113,6 @@
           "message": "{count, plural, =0 {File non più disponibili} one {# file ancora disponibile} other {file ancora disponibili}}",
           "popover": ""
         },
-        "characterFileLimit": {
-          "message": "Die Anzahl der Zeichen in Ihrer Datei überschreitet das Limit.",
-          "popover": ""
-        },
         "unsupportedFusedTranslationFileType": {
           "message": "",
           "customCTAMessage": "Richiedi un’offerta",
@@ -983,7 +979,7 @@
         "licenseValidation": "La licenza deve essere una lunghezza di almeno 2 caratteri",
         "comment": "Denominazione (opzionale)",
         "commentValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
-        "company": "Azienda/Organizzazione",
+        "company": "Azienda/organizzazione",
         "name": "Nome",
         "changeName": "Modificare il nome",
         "nameValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
@@ -1025,18 +1021,6 @@
             "accountSettings": "Account",
             "accountSettingsInfo": "Qui può gestire le impostazioni del Suo account",
             "settings": "Impostazioni",
-            "tooltips":{
-              "password": {
-                "admin": "Nur ein anderer Teamadministrator kann Ihr Passwort ändern",
-                "sso": "Sie können Ihre Passwort als SSO-Benutzer nicht ändern.",
-                "user": "Nur der Teamadministrator kann dein Passwort ändern"
-              },
-              "email": {
-                "admin": "Nur ein anderer Teamadministrator kann Ihre E-Mail ändern",
-                "sso": "Sie können Ihre E-Mail-Adresse als SSO-Benutzer nicht ändern.",
-                "user": "Nur der Teamadministrator kann deine E-mail ändern"
-              }
-            },
             "password": {
               "title": "Password",
               "oldPassword": "Vecchia password",
@@ -1310,11 +1294,7 @@
         "title": "Verifica",
         "payWithInvoice": "Il pagamento avviene a fronte di fattura.",
         "payWithCard": "Il pagamento avviene mediante la carta di credito da Lei registrata.",
-        "payWithExpiredCardInfo": "Il metodo di pagamento standard è impostato su carta di credito, ma la Sua carta è scaduta. Aggiorni i dati della Sua carta di credito.",
-        "dayType": {
-          "today": "Heute",
-          "tomorrow": "Morgan"
-        }
+        "payWithExpiredCardInfo": "Il metodo di pagamento standard è impostato su carta di credito, ma la Sua carta è scaduta. Aggiorni i dati della Sua carta di credito."
       },
       "customBilling": {
         "addressForm": {
@@ -1469,7 +1449,7 @@
             "5": {
               "title": "Fused Translation",
               "badge": "Presto disponibile",
-              "tooltip": "Le traduzioni basate sull’IA migliorano in tempo reale a ogni ordine che inviate agli esperti linguistici di Supertext (solo per utenti registrati)"
+              "tooltip": "Le traduzioni IA migliorano in tempo reale a ogni ordine che inviate agli esperti linguistici di Supertext (solo per utenti registrati)"
             },
             "6": {
               "title": "File Word e PowerPoint"
@@ -1917,7 +1897,7 @@
                   }
                 },
                 {
-                  "title": "Controllo professionale con un click",
+                  "title": "Verifica professionale con un click",
                   "description": "Andate sul sicuro. Con un solo click vi metteremo in contatto diretto con un o una professionista di comprovata esperienza, che verificherà la traduzione e apporterà le modifiche necessarie. Nel giro di pochi minuti riceverete un testo adeguatamente corretto.",
                   "cta": {
                     "title": "Scopri di più",
@@ -2011,7 +1991,7 @@
       },
       "home": {
         "heroSection": {
-          "mainHeading": "Fused Translation:&lt;break&gt;&lt;/break&gt;il nostro nuovo concept di traduzione",
+          "mainHeading": "Fused Translation:<break></break>il nostro nuovo concept di traduzione",
           "eyebrowHeadline": "CIÒ CHE CI DISTINGUE",
           "languageServices": {
             "items": [
@@ -2085,7 +2065,7 @@
               },
               {
                 "icon": "/images/pages/home/Supertext_Icon_Verifiziert_Klick_Light_Green.svg",
-                "title": "Controllo professionale con un click",
+                "title": "Verifica professionale con un click",
                 "description": "Correttezza garantita con un click: fate verificare le traduzioni importanti dai nostri professionisti nel giro di pochi minuti anziché di ore. Supertext vi mette in contatto diretto con oltre 3000 esperti ed esperte di lingue e culture, affinché il vostro messaggio colga nel segno quando conta davvero.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
@@ -2225,7 +2205,7 @@
         },
         "lead": {
           "large": "<highlight>Automatizzazione completa</highlight> o <highlight>tocco umano?</highlight> La risposta è spesso a metà strada.",
-          "small": "Con la traduzione IA tradurrete centinaia di parole nel giro di pochi secondi. Inoltre, affidandovi alla nostra expertise umana, avrete la garanzia che ogni parola sia quella più giusta. Con Supertext potete prenotare l’assistenza supplementare di specialisti in pochi click: un valore aggiunto tutte quelle volte che sono richieste competenze specifiche nel vostro settore e passione allo stato puro. &lt;break&gt;&lt;/break&gt; &lt;break&gt;&lt;/break&gt; Il grande vantaggio? La vostra IA migliora a ogni progetto professionale, quindi impara a parlare la vostra lingua. Per una comunicazione fluida, tarata sulle vostre esigenze e una riduzione dei costi nel tempo."
+          "small": "Con la traduzione IA tradurrete centinaia di parole nel giro di pochi secondi. Inoltre, affidandovi alla nostra expertise umana, avrete la garanzia che ogni parola sia quella più giusta. Con Supertext potete prenotare l’assistenza supplementare di specialisti in pochi click: un valore aggiunto tutte quelle volte che sono richieste competenze specifiche nel vostro settore e passione allo stato puro. <break></break> <break></break> Il grande vantaggio? La vostra IA migliora a ogni progetto professionale, quindi impara a parlare la vostra lingua. Per una comunicazione fluida, tarata sulle vostre esigenze e una riduzione dei costi nel tempo."
         },
         "featureList": {
           "title": "Supertext. Chi siamo?",
@@ -2269,7 +2249,7 @@
               "sections": [
                 {
                   "title": "Traduzione IA con verifica professionale",
-                  "description": "La parola giusta al posto giusto. Con la traduzione automatica e il controllo professionale a portata di click.",
+                  "description": "La parola giusta al posto giusto. Con la traduzione automatica e la verifica professionale a portata di click.",
                   "cta": {
                     "title": "Scopri di più",
                     "link": "/verifica",
@@ -2402,7 +2382,7 @@
               "error": "Il nome è un campo obbligatorio"
             },
             "company": {
-              "label": "Azienda/Organizzazione*",
+              "label": "Azienda/organizzazione*",
               "placeholder": "La Sua azienda",
               "error": "Il nome dell’azienda/organizzazione è un campo obbligatorio"
             },
@@ -2475,14 +2455,14 @@
           "labels": {
             "intro": "Compilate il modulo, vi metteremo in contatto con la persona giusta.",
             "name": "Nome e cognome*",
-            "company": "Azienda/Organizzazione*",
+            "company": "Azienda/organizzazione*",
             "email": "E-mail*",
             "phone": "Telefono",
             "message": "Il Suo messaggio*"
           },
           "placeholders": {
             "name": "Nome e cognome",
-            "company": "Azienda/Organizzazione",
+            "company": "Azienda/organizzazione",
             "email": "E-mail",
             "phone": "Telefono",
             "message": "Il Suo messaggio"
@@ -2800,7 +2780,7 @@
           "title": "Un connubio tra traduzione IA e talenti eccezionali. Come funziona?",
           "items": [
             {
-              "title": "Traduzione AI all’avanguardia della tecnica",
+              "title": "Traduzione IA all’avanguardia della tecnica",
               "description": "Alla base ci sono i nostri sistemi di traduzione interni basati sull’intelligenza artificiale di ultima generazione, in grado di tradurre in 23 lingue, incluse le varianti nazionali locali.",
               "icon": "/images/pages/verification/icon-bullet.png"
             },
@@ -3092,7 +3072,7 @@
           "title": "Un connubio tra traduzione IA e talenti eccezionali. Come funziona?",
           "items": [
             {
-              "title": "Traduzione AI all’avanguardia della tecnica",
+              "title": "Traduzione IA all’avanguardia della tecnica",
               "description": "Alla base ci sono i nostri sistemi di traduzione interni basati sull’intelligenza artificiale di ultima generazione, in grado di tradurre in 23 lingue, incluse le varianti nazionali locali.",
               "icon": "/images/pages/verification/Supertext_Icon_AI_Translation_Dark_Green.svg"
             },

@@ -113,10 +113,6 @@
           "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
           "popover": ""
         },
-        "characterFileLimit": {
-          "message": "Die Anzahl der Zeichen in Ihrer Datei überschreitet das Limit.",
-          "popover": ""
-        },
         "unsupportedFusedTranslationFileType": {
           "message": "",
           "customCTAMessage": "Angebot anfordern",
@@ -1025,18 +1021,6 @@
             "accountSettings": "Konto",
             "accountSettingsInfo": "Hier können Sie Ihre Kontoeinstellungen vornehmen",
             "settings": "Einstellungen",
-            "tooltips":{
-              "password": {
-                "admin": "Nur ein anderer Teamadministrator kann Ihr Passwort ändern",
-                "sso": "Sie können Ihre Passwort als SSO-Benutzer nicht ändern.",
-                "user": "Nur der Teamadministrator kann dein Passwort ändern"
-              },
-              "email": {
-                "admin": "Nur ein anderer Teamadministrator kann Ihre E-Mail ändern",
-                "sso": "Sie können Ihre E-Mail-Adresse als SSO-Benutzer nicht ändern.",
-                "user": "Nur der Teamadministrator kann deine E-mail ändern"
-              }
-            },
             "password": {
               "title": "Passwort",
               "oldPassword": "Altes Passwort",
@@ -1310,11 +1294,7 @@
         "title": "Verifizierung",
         "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
         "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
-        "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten.",
-        "dayType": {
-          "today": "Heute",
-          "tomorrow": "Morgan"
-        }
+        "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten."
       },
       "customBilling": {
         "addressForm": {

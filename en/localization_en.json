@@ -117,6 +117,10 @@
           "message": "",
           "customCTAMessage": "Request quote",
           "popover": ""
+        },
+        "characterFileLimit": {
+          "message": "",
+          "popover": ""
         }
       },
       "availableFiles": {
@@ -1033,6 +1037,18 @@
               "passwordMustContainAtLeastOneUppercaseLetter": "The password must contain at least 1 uppercase letter.",
               "passwordMustContainAtLeastOneLowercaseLetter": "The password must contain at least 1 lowercase letter.",
               "passwordMustBeAtLeast8Characters": "The password must be at least 8 characters long."
+            },
+            "tooltips": {
+              "password": {
+                "admin": "",
+                "sso": "",
+                "user": ""
+              },
+              "email": {
+                "admin": "",
+                "sso": "",
+                "user": ""
+              }
             }
           },
           "payments": {
@@ -1294,7 +1310,11 @@
         "title": "Verification",
         "payWithInvoice": "Payment is made by invoice.",
         "payWithCard": "Payment is made using your saved credit card details.",
-        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card information."
+        "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card information.",
+        "dayType": {
+          "today": "",
+          "tomorrow": ""
+        }
       },
       "customBilling": {
         "addressForm": {

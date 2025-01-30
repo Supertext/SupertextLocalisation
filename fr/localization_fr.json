@@ -117,6 +117,10 @@
           "message": "",
           "customCTAMessage": "Demander une offre",
           "popover": ""
+        },
+        "characterFileLimit": {
+          "message": "",
+          "popover": ""
         }
       },
       "availableFiles": {
@@ -1033,6 +1037,18 @@
               "passwordMustContainAtLeastOneUppercaseLetter": "Le mot de passe doit contenir au moins une majuscule.",
               "passwordMustContainAtLeastOneLowercaseLetter": "Le mot de passe doit contenir au moins une minuscule.",
               "passwordMustBeAtLeast8Characters": "Le mot de passe doit contenir au moins huit caractères."
+            },
+            "tooltips": {
+              "password": {
+                "admin": "",
+                "sso": "",
+                "user": ""
+              },
+              "email": {
+                "admin": "",
+                "sso": "",
+                "user": ""
+              }
             }
           },
           "payments": {
@@ -1294,7 +1310,11 @@
         "title": "Vérification",
         "payWithInvoice": "Le paiement se fait par facture.",
         "payWithCard": "Le paiement se fait à partir des informations de carte de crédit que vous avez saisies.",
-        "payWithExpiredCardInfo": "Votre moyen de paiement par défaut est le paiement par carte, mais votre carte a expiré. Mettez à jour les informations de votre carte de crédit."
+        "payWithExpiredCardInfo": "Votre moyen de paiement par défaut est le paiement par carte, mais votre carte a expiré. Mettez à jour les informations de votre carte de crédit.",
+        "dayType": {
+          "today": "",
+          "tomorrow": ""
+        }
       },
       "customBilling": {
         "addressForm": {

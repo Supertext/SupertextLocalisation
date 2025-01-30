@@ -98,7 +98,7 @@
           "popover2": "Attualmente, le traduzioni IA sono disponibili per i file Word, Excel, PowerPoint, PDF e SRT"
         },
         "freeTierLimit": {
-          "message": "Gratuitamente e senza registrazione è possibile utilizzare la traduzione IA solo per i file Word e Powerpoint. Si registri ora per tradurre anche i file PDF ed Excel nonché molti altri formati. A partire da CHF 9.00 al mese.",
+          "message": "Il nostro abbonamento Free offre traduzioni IA di file Word e PowerPoint. Effettui ora l’upgrade per tradurre file PDF, Excel e altri formati.",
           "popover": ""
         },
         "fileSizeExceeded": {
@@ -110,7 +110,7 @@
           "popover": ""
         },
         "remainingFiles": {
-          "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
+          "message": "{count, plural, =0 {File non più disponibili} one {# file ancora disponibile} other {file ancora disponibili}}",
           "popover": ""
         },
         "unsupportedFusedTranslationFileType": {
@@ -357,7 +357,7 @@
         "popover": ""
       },
       "remainingFiles": {
-        "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
+        "message": "{count, plural, =0 {File non più disponibili} one {# file ancora disponibile} other {file ancora disponibili}}",
         "popover": ""
       }
     },

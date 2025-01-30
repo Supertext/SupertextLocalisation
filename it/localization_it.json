@@ -90,7 +90,7 @@
         },
         "unsupportedFileType": {
           "message": "Tipo di file non incluso nell’abbonamento",
-          "popover": "{plan, select, Essential {Il vostro abbonamento {subscriptionType} include file Word, Excel, PowerPoint, PDF e SRT} free {Il vostro abbonamento {subscriptionType} include file Word e PowerPoint}other {Il vostro abbonamento {subscriptionType} include tipi di file limitati}}"
+          "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file Word, Excel, PowerPoint, PDF e SRT} free {Il Suo abbonamento {subscriptionType} comprende file Word e PowerPoint}other {Il Suo abbonamento {subscriptionType} comprende tipi di file limitati}}"
         },
         "limitedFileType": {
           "message": "Tipo di file non supportato",
@@ -334,11 +334,11 @@
       },
       "noRemainingFiles": {
         "message": "Nessun altro file disponibile",
-        "popover": "Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# Datei} other {# Dateien}} al mese"
+        "popover": "Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese"
       },
       "unsupportedFileType": {
         "message": "Tipo di file non incluso nell’abbonamento",
-        "popover": "{plan, select, Essential {Il vostro abbonamento {subscriptionType} include file Word, Excel, PowerPoint, PDF e SRT} free {Il vostro abbonamento {subscriptionType} include file Word e PowerPoint}other {Il vostro abbonamento {subscriptionType} include tipi di file limitati}}"
+        "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file Word, Excel, PowerPoint, PDF e SRT} free {Il Suo abbonamento {subscriptionType} comprende file Word e PowerPoint}other {Il Suo abbonamento {subscriptionType} comprende tipi di file limitati}}"
       },
       "limitedFileType": {
         "message": "Tipo di file non supportato",
@@ -609,9 +609,9 @@
     "fr": "al francese",
     "fr-CH": "al francese (Svizzera)",
     "fr-FR": "al francese (Francia)",
-    "gsw": "al tedesco svizzero",
-    "gsw-u-sd-chbe": "al tedesco svizzero (Berna)",
-    "gsw-u-sd-chzh": "al tedesco svizzero (Zurigo)",
+    "gsw": "allo svizzero tedesco",
+    "gsw-u-sd-chbe": "allo svizzero tedesco (Berna)",
+    "gsw-u-sd-chzh": "allo svizzero tedesco (Zurigo)",
     "hu": "all’ungherese",
     "it": "all’italiano",
     "it-CH": "all’italiano (Svizzera)",
@@ -1083,7 +1083,7 @@
             "changePaymentMethodTooltip": {
               "linkText": "Contattateci",
               "prefilledSubject": "Richiesta di pagamento dietro fattura",
-              "prefilledBody": "Buongiorno,\n\nattivate il pagamento dietro fattura per il mio account Supertext (e per eventuali ulteriori utenti nella mia organizzazione).",
+              "prefilledBody": "Buongiorno,\n\nattivate il pagamento dietro fattura per il mio account Supertext.",
               "emailAddress": "hello@supertext.com"
             }
           },
@@ -1260,7 +1260,7 @@
       "company": {
         "contact": "Contatto",
         "aboutSupertext": "Chi siamo",
-        "careers": "Lavorare a Supertext"
+        "careers": "Lavorare da Supertext"
       },
       "legal": {
         "imprint": "Impressum",
@@ -1991,7 +1991,7 @@
       },
       "home": {
         "heroSection": {
-          "mainHeading": "Fused Translation:<break></break>il nostro nuovo concept di traduzione",
+          "mainHeading": "Fused Translation:&lt;break&gt;&lt;/break&gt;il nostro nuovo concept di traduzione",
           "eyebrowHeadline": "CIÒ CHE CI DISTINGUE",
           "languageServices": {
             "items": [
@@ -2205,7 +2205,7 @@
         },
         "lead": {
           "large": "<highlight>Automatizzazione completa</highlight> o <highlight>tocco umano?</highlight> La risposta è spesso a metà strada.",
-          "small": "Con la traduzione IA tradurrete centinaia di parole nel giro di pochi secondi. Inoltre, affidandovi alla nostra expertise umana, avrete la garanzia che ogni parola sia quella più giusta. Con Supertext potete prenotare l’assistenza supplementare di specialisti in pochi click: un valore aggiunto tutte quelle volte che sono richieste competenze specifiche nel vostro settore e passione allo stato puro. <break></break> <break></break> Il grande vantaggio? La vostra IA migliora a ogni progetto professionale, quindi impara a parlare la vostra lingua. Per una comunicazione fluida, tarata sulle vostre esigenze e una riduzione dei costi nel tempo."
+          "small": "Con la traduzione IA tradurrete centinaia di parole nel giro di pochi secondi. Inoltre, affidandovi alla nostra expertise umana, avrete la garanzia che ogni parola sia quella più giusta. Con Supertext potete prenotare l’assistenza supplementare di specialisti in pochi click: un valore aggiunto tutte quelle volte che sono richieste competenze specifiche nel vostro settore e passione allo stato puro. &lt;break&gt;&lt;/break&gt; &lt;break&gt;&lt;/break&gt; Il grande vantaggio? La vostra IA migliora a ogni progetto professionale, quindi impara a parlare la vostra lingua. Per una comunicazione fluida, tarata sulle vostre esigenze e una riduzione dei costi nel tempo."
         },
         "featureList": {
           "title": "Supertext. Chi siamo?",
@@ -2575,7 +2575,7 @@
       },
       "workAtSupertext": {
         "hero": {
-          "title": "Lavorare a Supertext",
+          "title": "Lavorare da Supertext",
           "description": "La nostra struttura. I nostri obiettivi. E come diventare parte di tutto questo."
         },
         "lead": {

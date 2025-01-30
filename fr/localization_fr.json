@@ -113,6 +113,10 @@
           "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
           "popover": ""
         },
+        "characterFileLimit": {
+          "message": "Die Anzahl der Zeichen in Ihrer Datei überschreitet das Limit.",
+          "popover": ""
+        },
         "unsupportedFusedTranslationFileType": {
           "message": "",
           "customCTAMessage": "Demander une offre",
@@ -1021,6 +1025,18 @@
             "accountSettings": "Compte",
             "accountSettingsInfo": "Vous pouvez gérer les paramètres de votre compte ici.",
             "settings": "Paramètres",
+            "tooltips":{
+              "password": {
+                "admin": "Nur ein anderer Teamadministrator kann Ihr Passwort ändern",
+                "sso": "Sie können Ihre Passwort als SSO-Benutzer nicht ändern.",
+                "user": "Nur der Teamadministrator kann dein Passwort ändern"
+              },
+              "email": {
+                "admin": "Nur ein anderer Teamadministrator kann Ihre E-Mail ändern",
+                "sso": "Sie können Ihre E-Mail-Adresse als SSO-Benutzer nicht ändern.",
+                "user": "Nur der Teamadministrator kann deine E-mail ändern"
+              }
+            },
             "password": {
               "title": "Mot de passe",
               "oldPassword": "Ancien mot de passe",
@@ -1294,7 +1310,11 @@
         "title": "Vérification",
         "payWithInvoice": "Le paiement se fait par facture.",
         "payWithCard": "Le paiement se fait à partir des informations de carte de crédit que vous avez saisies.",
-        "payWithExpiredCardInfo": "Votre moyen de paiement par défaut est le paiement par carte, mais votre carte a expiré. Mettez à jour les informations de votre carte de crédit."
+        "payWithExpiredCardInfo": "Votre moyen de paiement par défaut est le paiement par carte, mais votre carte a expiré. Mettez à jour les informations de votre carte de crédit.",
+        "dayType": {
+          "today": "Heute",
+          "tomorrow": "Morgan"
+        }
       },
       "customBilling": {
         "addressForm": {

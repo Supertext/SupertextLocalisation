@@ -117,6 +117,10 @@
           "message": "",
           "customCTAMessage": "Richiedi un’offerta",
           "popover": ""
+        },
+        "characterFileLimit": {
+          "message": "",
+          "popover": ""
         }
       },
       "availableFiles": {
@@ -1033,6 +1037,18 @@
               "passwordMustContainAtLeastOneUppercaseLetter": "La password deve contenere almeno 1 lettera maiuscola.",
               "passwordMustContainAtLeastOneLowercaseLetter": "La password deve contenere almeno 1 lettera minuscola.",
               "passwordMustBeAtLeast8Characters": "La password deve avere una lunghezza di almeno 8 caratteri."
+            },
+            "tooltips": {
+              "password": {
+                "admin": "",
+                "sso": "",
+                "user": ""
+              },
+              "email": {
+                "admin": "",
+                "sso": "",
+                "user": ""
+              }
             }
           },
           "payments": {
@@ -1294,7 +1310,11 @@
         "title": "Verifica",
         "payWithInvoice": "Il pagamento avviene a fronte di fattura.",
         "payWithCard": "Il pagamento avviene mediante la carta di credito da Lei registrata.",
-        "payWithExpiredCardInfo": "Il metodo di pagamento standard è impostato su carta di credito, ma la Sua carta è scaduta. Aggiorni i dati della Sua carta di credito."
+        "payWithExpiredCardInfo": "Il metodo di pagamento standard è impostato su carta di credito, ma la Sua carta è scaduta. Aggiorni i dati della Sua carta di credito.",
+        "dayType": {
+          "today": "",
+          "tomorrow": ""
+        }
       },
       "customBilling": {
         "addressForm": {

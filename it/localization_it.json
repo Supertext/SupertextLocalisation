@@ -119,7 +119,7 @@
           "popover": ""
         },
         "characterFileLimit": {
-          "message": "",
+          "message": "Il numero di caratteri nel Suo file supera il limite previsto.",
           "popover": ""
         }
       },
@@ -1040,14 +1040,14 @@
             },
             "tooltips": {
               "password": {
-                "admin": "",
-                "sso": "",
-                "user": ""
+                "admin": "Solo un altro admin del team può modificare la Sua password.",
+                "sso": "In qualità di utente SSO non può modificare la Sua password.",
+                "user": "Solo l’admin del team può modificare la Sua password."
               },
               "email": {
-                "admin": "",
-                "sso": "",
-                "user": ""
+                "admin": "Solo un altro admin del team può modificare il Suo indirizzo e-mail.",
+                "sso": "In qualità di utente SSO non può modificare il Suo indirizzo e-mail.",
+                "user": "Solo l’admin del team può modificare il Suo indirizzo e-mail."
               }
             }
           },
@@ -1312,8 +1312,8 @@
         "payWithCard": "Il pagamento avviene mediante la carta di credito da Lei registrata.",
         "payWithExpiredCardInfo": "Il metodo di pagamento standard è impostato su carta di credito, ma la Sua carta è scaduta. Aggiorni i dati della Sua carta di credito.",
         "dayType": {
-          "today": "",
-          "tomorrow": ""
+          "today": "Oggi",
+          "tomorrow": "Domani"
         }
       },
       "customBilling": {

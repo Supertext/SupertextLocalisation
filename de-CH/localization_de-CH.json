@@ -1040,14 +1040,14 @@
             },
             "tooltips": {
               "password": {
-                "admin": "Nur ein anderer Teamadministrator kann Ihr Passwort ändern",
-                "sso": "Sie können Ihre Passwort als SSO-Benutzer nicht ändern.",
-                "user": "Nur der Teamadministrator kann dein Passwort ändern"
+                "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihr Passwort ändern",
+                "sso": "Sie können Ihr Passwort als SSO-Benutzer:in nicht ändern.",
+                "user": "Nur der:die Teamadministrator:in kann Ihr Passwort ändern"
               },
               "email": {
-                "admin": "Nur ein anderer Teamadministrator kann Ihre E-Mail ändern",
-                "sso": "Sie können Ihre E-Mail-Adresse als SSO-Benutzer nicht ändern.",
-                "user": "Nur der Teamadministrator kann deine E-mail ändern"
+                "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihre E-Mail ändern",
+                "sso": "Sie können Ihre E-Mail-Adresse als SSO-Benutzer:in nicht ändern.",
+                "user": "Nur der:die Teamadministrator:in kann Ihre E-Mail ändern"
               }
             }
           },
@@ -1313,7 +1313,7 @@
         "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten.",
         "dayType": {
           "today": "Heute",
-          "tomorrow": "Morgan"
+          "tomorrow": "Morgen"
         }
       },
       "customBilling": {

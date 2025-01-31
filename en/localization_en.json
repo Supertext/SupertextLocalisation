@@ -119,7 +119,7 @@
           "popover": ""
         },
         "characterFileLimit": {
-          "message": "",
+          "message": "The number of characters in your file exceeds the limit.",
           "popover": ""
         }
       },
@@ -1040,14 +1040,14 @@
             },
             "tooltips": {
               "password": {
-                "admin": "",
-                "sso": "",
-                "user": ""
+                "admin": "Only another team administrator can change your password",
+                "sso": "As an SSO user, you cannot change your password.",
+                "user": "Only the team administrator can change your password"
               },
               "email": {
-                "admin": "",
-                "sso": "",
-                "user": ""
+                "admin": "Only another team administrator can change your email",
+                "sso": "As an SSO user, you cannot change your email address.",
+                "user": "Only the team administrator can change your email"
               }
             }
           },
@@ -1312,8 +1312,8 @@
         "payWithCard": "Payment is made using your saved credit card details.",
         "payWithExpiredCardInfo": "Your default payment method is set to card payments, but your card has expired. Please update your credit card information.",
         "dayType": {
-          "today": "",
-          "tomorrow": ""
+          "today": "Today",
+          "tomorrow": "Tomorrow"
         }
       },
       "customBilling": {

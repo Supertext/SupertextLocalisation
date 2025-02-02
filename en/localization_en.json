@@ -3251,7 +3251,10 @@
       "secureMode": {
         "title": "Security mode",
         "description": "Your translation data will be deleted immediately.",
-        "cta": "Learn more"
+        "cta": {
+          "title": "Learn more",
+          "link": "/en/faq?id=dl93iuhr4l8pe0fv7ci0tanf"
+        }
       }
     },
     "backToTool": "Back to the AI translator"

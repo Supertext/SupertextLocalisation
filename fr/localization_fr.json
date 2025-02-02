@@ -3251,7 +3251,10 @@
       "secureMode": {
         "title": "Mode de sécurité",
         "description": "Vos données de traduction seront immédiatement supprimées.",
-        "cta": "En savoir plus"
+        "cta": {
+          "title": "En savoir plus",
+          "link": "/fr/foire-aux-questions?id=dl93iuhr4l8pe0fv7ci0tanf"
+        }
       }
     },
     "backToTool": "Retour au traducteur par l’IA"

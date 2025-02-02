@@ -3251,7 +3251,10 @@
       "secureMode": {
         "title": "Modalità di sicurezza",
         "description": "Il testo di partenza e di arrivo saranno immediatamente cancellati.",
-        "cta": "Scopri di più"
+        "cta": {
+          "title": "Scopri di più",
+          "link": "/it/domande-frequenti?id=dl93iuhr4l8pe0fv7ci0tanf"
+        }
       }
     },
     "backToTool": "Torna al traduttore IA"

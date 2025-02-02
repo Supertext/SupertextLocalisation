@@ -882,8 +882,6 @@
         "freePlanInfo": "Ihr Abo wird auf den kostenlosen Free-Tarif umgestellt.",
         "customPlanInfo": "Passen Sie Ihr Abo Ihren Bedürfnissen an",
         "upgradeSubscriptionInformation": "Bitten Sie eine:n Admin, Ihr Abo zu aktualisieren",
-        "requestAccess": "Zugang beantragen",
-        "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "annuallySubscription": "Jährlich",
         "monthlySubscription": "Monatlich",
         "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf unser Free-Abo.",
@@ -968,7 +966,9 @@
         "firstMonthFree": "Erster Monat kostenlos",
         "cancelSubscriptionButton": "Abo herabstufen",
         "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}.",
-        "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText> Wir die <highlightText>passende Lösung</highlightText>."
+        "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText> Wir die <highlightText>passende Lösung</highlightText>.",
+        "requestAccess": "Zugang beantragen",
+        "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet"
       },
       "resources": {
         "title": "Sprachressourcen"

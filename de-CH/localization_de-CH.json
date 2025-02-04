@@ -175,6 +175,12 @@
         "close": "Schliessen"
       }
     },
+    "welcomeSupertextBanner": {
+      "title": "DAS NEUE SUPERTEXT",
+      "text": "Besser, schneller und sicherer übersetzen - mit unserer neuen All-in-One-Lösung.",
+      "cta": "Mehr erfahren",
+      "close": "Schliessen"
+    },
     "cookieBanner": {
       "textPrefix": "Wir verwenden Cookies, um unsere Website kontinuierlich zu verbessern. Wenn Sie auf «Akzeptieren» klicken, erklären Sie sich mit der Verwendung von Cookies gemäss unserer",
       "link": "Datenschutzerklärung",
@@ -1860,6 +1866,86 @@
       }
     },
     "pages": {
+      "launch": {
+        "hero": {
+          "title": "Wir denken Übersetzung neu",
+          "description": "Besser, schneller und sicherer übersetzen: Das neue Supertext ist da."
+        },
+        "lead": {
+          "large": "<highlightText>Language AI</highlightText> trifft <highlightText>menschliches Können.</highlightText> Auf einer brandneuen, flexiblen Plattform – mit Ihnen am Steuer. ",
+          "small": "Mit der neuen All-in-one-Lösung führen Supertext und Textshuttle nach ihrer Fusion zusammen, was zusammengehört: KI-Effizienz und echte Sprachexpertise.<break></break><break></break> Bestehende User:innen bekommen alle Services wie gehabt – und auf Wunsch noch viel mehr als das. Sie wählen für jeden Auftrag selbst aus 0–100 % Technologie. Für maximale Sicherheit in jeder Sprache – simpel, massgeschneidert und dank selbstlernender KI immer besser. <break></break><break></break> Loggen Sie sich jetzt mit Ihrem bestehenden Supertext-Account ein – oder legen Sie ganz einfach einen neuen an. ",
+          "largeCtas": {
+            "cta1":{
+              "text":"KI-Übersetzung starten"
+            },
+            "cta2":{
+              "text":"Fachübersetzung bestellen"
+            }
+          },
+          "smallCtas": {
+            "cta1": {
+              "text": "Jetzt loslegen"
+            },
+            "cta2": {
+              "text": "Zur Medienmitteilung",
+              "link": "#"
+            }
+          }
+        },
+        "features": {
+          "eyebrowHeadline": "KI-Technologie",
+          "section1": {
+            "row1": {
+              "title": "Sofort übersetzen in 23 Sprachen",
+              "description": "Mit unserem KI-Übersetzer basierend auf hauseigener LLM-Technologie. Einfach, nach höchsten Sicherheitsstandards und nahtlos in jedes System integriert.",
+              "cta1": {
+                "title": "Jetzt loslegen"
+              },
+              "cta2": {
+                "title": "Abos entdecken"
+              }
+            },
+            "row2": {
+              "title": "Fast sofort sicher sein – mit unserem Profi-Check",
+              "description": "Ihre Übersetzung – von erfahrenen Linguist:innen geprüft, wenn es wirklich wichtig ist. Der Sofort-Check auf inhaltliche Korrektheit, Orthografie und Grammatik. Verfügbar schon ab CHF 5.70 und 8 Minuten Wartezeit.",
+              "cta1": {
+                "title": "Profi-Check ausprobieren"
+              },
+              "cta2": {
+                "title": "Wie funktioniert’s?"
+              }
+            }
+          },
+          "section2": {
+            "row1": {
+              "title": "Bewährte Serviceleistungen von 3000+Sprachprofis ",
+              "description": "Von der Fachübersetzung über mehrsprachiges Lektorat bis zum kreativen Copywriting.",
+              "cta1": {
+                "title": "Profi-Services entdecken"
+              },
+              "cta2": {
+                "title": "Direkt bestellen"
+              }
+            },
+            "row2": {
+              "title": "Massgeschneiderte KI für Unternehmen",
+              "description": "Mit spezialisiertem AI-Training integrieren wir Ihre Corporate Language nahtlos in jede Übersetzung – für messbar bessere Sprachqualität bei laufend sinkenden Kosten. Nutzbar als frei zugängliches Tool für alle Mitarbeitenden oder als Grundlage für Ihre Profi-Übersetzer:innen.",
+              "cta1": {
+                "title": "Neugierig? Lassen Sie uns reden."
+              }
+            }
+          }
+        },
+       
+        "footerNote": {
+          "text": "Sie haben Fragen, Feedback oder ein spannendes Projekt im Kopf?",
+          "cta": {
+            "title": "Lassen Sie uns reden",
+            "link": "/contact",
+            "target": "_blank"
+          }
+        }
+      },
       "whySupertext": {
         "hero": {
           "title": "Wir denken Übersetzung neu",

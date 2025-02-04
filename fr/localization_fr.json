@@ -794,7 +794,7 @@
         "title": "Commander un projet",
         "learnMore": {
           "title": "En savoir plus",
-          "description": "Des experts expérimentés et des processus certifiés ISO: <link>tout sur notre expertise linguistique</link>"
+          "description": "Des spécialistes expérimentés/-ées et des processus certifiés ISO: <link>tout sur notre expertise linguistique</link>"
         }
       }
     },
@@ -967,7 +967,7 @@
         "cancelSubscriptionButton": "Rétrograder l’abonnement",
         "cancelSubscriptionAlert": "Êtes-vous sûr/-e de vouloir rétrograder votre abonnement? L’accès à votre abonnement {subscriptionName} se terminera le {endDate}.",
         "footerNote": "Vous avez <highlightText> objectifs ambitieux?</highlightText> Nous trouvons la <highlightText>solution adaptée</highlightText>.",
-        "requestAccess": "Demander l'accès",
+        "requestAccess": "Demander l’accès",
         "requestAccessSuccess": "Votre demande a été envoyée avec succès"
       },
       "resources": {
@@ -1147,8 +1147,8 @@
             }
           },
           "subscription": {
-            "title": "Modifier l’abonnement",
-            "description": "Adaptez votre abonnement à vos besoins à tout moment, de manière simple.",
+            "title": "Modifier l’abonnement de l’équipe",
+            "description": "Tous/-tes les utilisateurs/-trices sans licence assignée bénéficient automatiquement et gratuitement de notre abonnement Free.",
             "comparePlans": "Comparer les abonnements",
             "numberOfLicenses": "Nombre de licences",
             "licencesCount": "{count, plural, one {# licence} other {# licences}}",
@@ -1258,7 +1258,7 @@
       "freelancerRegistration": "S’inscrire en tant que freelance",
       "servicesTitle": "SERVICES",
       "services": {
-        "translation": "Traduction par l'IA avec vérification pro",
+        "translation": "Traduction par l’IA avec vérification pro",
         "expertise": "Traduction spécialisée",
         "editing": "Révision",
         "copywriting": "Rédaction & contenu",
@@ -1876,7 +1876,7 @@
             "benefits": [
               {
                 "title": "Tout sur une plateforme",
-                "description": "Automatisation complète ou création manuelle: chez Supertext, c’est vous qui décidez. Nous combinons la traduction par l’IA innovante et les traducteurs/-trices professionnels/-les sur une seule plateforme. Une intégration parfaite de l’intelligence artificielle et des spécialistes en linguistique, avec vous aux commandes."
+                "description": "Automatisation complète ou création manuelle: chez Supertext, c’est vous qui décidez. Nous combinons la traduction par l’IA innovante et les traducteurs/-trices professionnels/-les sur une seule plateforme. Une intégration parfaite de l’intelligence artificielle et des spécialistes linguistes, avec vous aux commandes."
               },
               {
                 "title": "Double sécurité",
@@ -2052,7 +2052,7 @@
             ],
             "expertiseButton": "Expertise linguistique"
           },
-          "leading": "Supertext allie l’IA linguistique et l’expertise humaine dans une solution de traduction parfaite pour tout type de contenu. Simple, capable d’apprendre, parfaitement adapté à vos besoins et sûr à tous points de vue.",
+          "leading": "Supertext allie l’IA linguistique et l’expertise humaine dans une solution de traduction parfaite pour tout type de contenu. Simple, capable d’apprendre, parfaitement adaptée à vos besoins et sûre à tous points de vue.",
           "services": {
             "items": [
               {
@@ -2223,7 +2223,7 @@
       "languageExpertise": {
         "hero": {
           "title": "Des spécialistes au sommet de leur forme grâce à l’IA linguistique",
-          "description": "Nos spécialistes en linguistique sont à votre disposition, quand chaque mot compte."
+          "description": "Nos spécialistes linguistes sont à votre disposition, quand chaque mot compte."
         },
         "lead": {
           "large": "<highlight>Entièrement automatisé</highlight> ou <highlight>fait à la main?</highlight> La réponse se situe souvent entre les deux.",
@@ -2248,7 +2248,7 @@
                 "description": "De Genève à Milan, de Buenos Aires à Tokyo, Supertext travaille avec des spécialistes qui ont toutes et tous un diplôme universitaire en traduction et/ou au moins cinq ans d’expérience professionnelle et passent des tests internes rigoureux."
               },
               {
-                "title": "Spécialistes linguistiques internes pour la cohérence et la qualité",
+                "title": "Spécialistes linguistes internes pour la cohérence et la qualité",
                 "description": "Dans les langues principales, des spécialistes à temps plein assurent l’expertise interne et le contrôle de la qualité. Ils et elles élaborent des directives, constituent des équipes spécialisées pour les projets de nos clients et clientes, et sont les premières personnes à contacter en cas de difficultés linguistiques."
               },
               {
@@ -2270,7 +2270,7 @@
               "title": "",
               "sections": [
                 {
-                  "title": "Traduction par l’IA avec vérification professionnelle",
+                  "title": "Traduction par l’IA avec vérification pro",
                   "description": "S’assurer que tout est en ordre, avec la traduction automatique et la vérification professionnelle en un clic.",
                   "cta": {
                     "title": "En savoir plus",
@@ -2709,7 +2709,7 @@
               "title": "Plus de 100 spécialistes internes à Zurich et Berlin"
             },
             {
-              "title": "3000 spécialistes en linguistique triés/-ées sur le volet à travers le monde"
+              "title": "3000 spécialistes linguistes triés/-ées sur le volet à travers le monde"
             },
             {
               "title": "113 langues cibles disponibles"
@@ -2732,7 +2732,7 @@
         },
         "locationsHeading": {
           "title": "Gestion locale, présence globale.",
-          "description": "Nous opérons depuis des hubs à Zurich et à Berlin, et disposons d’un réseau de plus de 3000 spécialistes en linguistique triés/-ées sur le volet à travers le monde."
+          "description": "Nous opérons depuis des hubs à Zurich et à Berlin, et disposons d’un réseau de plus de 3000 spécialistes linguistes triés/-ées sur le volet à travers le monde."
         },
         "locations": [
           {
@@ -2788,7 +2788,7 @@
       "aiTranslation": {
         "hero": {
           "title": "Traduction par l’IA avec vérification professionnelle",
-          "description": "Être sûr/-e en seulement quelques minutes au lieu de plusieurs heures, en un clic grâce à la vérification par des spécialistes linguistiques."
+          "description": "Être sûr/-e en seulement quelques minutes au lieu de plusieurs heures, en un clic grâce à la vérification par des spécialistes linguistes."
         },
         "lead": {
           "large": "Votre traduction, vérifiée par des professionnels/-les lorsque cela compte vraiment.",
@@ -2802,17 +2802,17 @@
           "title": "La traduction par l’IA associée à des spécialistes expérimentés/-ées. Comment cela fonctionne?",
           "items": [
             {
-              "title": "Traduction par IA à la pointe de la technologie",
+              "title": "Traduction par l’IA à la pointe de la technologie",
               "description": "Notre base est constituée de nos propres systèmes de traduction. Ils sont issus de la dernière génération d’intelligence artificielle et maîtrisent 23 langues, y compris les variantes de langues locales.",
               "icon": "/images/pages/verification/icon-bullet.png"
             },
             {
               "title": "Une vérification professionnelle en quelques minutes",
-              "description": "Nos spécialistes linguistiques natifs/-ves s’assurent immédiatement que la traduction est en tout point fidèle au texte original en termes de contenu et interviennent sur le plan linguistique si nécessaire.",
+              "description": "Nos spécialistes linguistes natifs/-ves s’assurent immédiatement que la traduction est en tout point fidèle au texte original en termes de contenu et interviennent sur le plan linguistique si nécessaire.",
               "icon": "/images/pages/verification/icon-bullet.png"
             },
             {
-              "title": "Toujours meilleur: votre modèle d’IA personnel s’améliore continuellement.",
+              "title": "Toujours meilleur: votre modèle d’IA personnel s’améliore continuellement",
               "description": "Une fois le contrôle terminé, nous livrons la traduction vérifiée. Vous y avez alors directement accès. Elle est également envoyée à votre modèle de langage personnel pour une amélioration en temps réel.",
               "icon": "/images/pages/verification/icon-bullet.png"
             }
@@ -2894,7 +2894,7 @@
           ]
         },
         "footerNote": {
-          "text": "Nos experts sont <highlight>prêts</highlight>. Et vous?",
+          "text": "Nos spécialistes sont <highlight>prêts/-es</highlight>. Et vous?",
           "cta": {
             "title": "Essayer maintenant",
             "link": "/",
@@ -2934,7 +2934,7 @@
           },
           "section2": {
             "row1": {
-              "title": "Toujours meilleur: votre modèle d’IA personnel s’améliore continuellement.",
+              "title": "Toujours meilleur: votre modèle d’IA personnel s’améliore continuellement",
               "description": "Ses modèles linguistiques sur mesure apprennent rapidement et s’adaptent à votre langage d’entreprise à chaque nouvelle traduction professionnelle automatique. Toujours mis à jour, pour que toute votre entreprise parle d’une seule et même voix."
             },
             "row2": {
@@ -3039,7 +3039,7 @@
         },
         "footerNote": {
           "text": "Des spécialistes au sommet de leur forme grâce à l’IA linguistique",
-          "description": "Du linguiste computationnel à la spécialiste linguistique: rencontrez l’équipe de Supertext.",
+          "description": "Du linguiste computationnel à la spécialiste linguistes: rencontrez l’équipe de Supertext.",
           "cta": {
             "title": "En savoir plus sur notre expertise linguistique",
             "link": "/langue-expertise"
@@ -3080,7 +3080,7 @@
       "aiTranslationVerification": {
         "hero": {
           "title": "Traduction par l’IA avec vérification professionnelle",
-          "description": "Être sûr/-e en seulement quelques minutes au lieu de plusieurs heures, en un clic grâce à la vérification par des spécialistes linguistiques."
+          "description": "Être sûr/-e en seulement quelques minutes au lieu de plusieurs heures, en un clic grâce à la vérification par des spécialistes linguistes."
         },
         "lead": {
           "large": "Votre traduction, vérifiée par des professionnels/-les lorsque cela compte vraiment.",
@@ -3094,17 +3094,17 @@
           "title": "La traduction par l’IA associée à des spécialistes expérimentés/-ées. Comment cela fonctionne?",
           "items": [
             {
-              "title": "Traduction par IA à la pointe de la technologie",
+              "title": "Traduction par l’IA à la pointe de la technologie",
               "description": "Notre base est constituée de nos propres systèmes de traduction. Ils sont issus de la dernière génération d’intelligence artificielle et maîtrisent 23 langues, y compris les variantes de langues locales.",
               "icon": "/images/pages/verification/Supertext_Icon_AI_Translation_Dark_Green.svg"
             },
             {
               "title": "Une vérification professionnelle en quelques minutes",
-              "description": "Nos spécialistes linguistiques natifs/-ves s’assurent immédiatement que la traduction est en tout point fidèle au texte original en termes de contenu et interviennent sur le plan linguistique si nécessaire.",
+              "description": "Nos spécialistes linguistes natifs/-ves s’assurent immédiatement que la traduction est en tout point fidèle au texte original en termes de contenu et interviennent sur le plan linguistique si nécessaire.",
               "icon": "/images/pages/verification/Supertext_Icon_Verifiziert_Klick_Dark_Green.svg"
             },
             {
-              "title": "Toujours meilleur: votre modèle d’IA personnel s’améliore continuellement.",
+              "title": "Toujours meilleur: votre modèle d’IA personnel s’améliore continuellement",
               "description": "Une fois le contrôle terminé, nous livrons la traduction vérifiée. Vous y avez alors directement accès. Elle est également envoyée à votre modèle de langage personnel pour une amélioration en temps réel.",
               "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg",
               "badge": "Bientôt disponible"
@@ -3187,7 +3187,7 @@
           ]
         },
         "footerNote": {
-          "text": "Nos experts sont <highlight>prêts</highlight>. Et vous?",
+          "text": "Nos spécialistes sont <highlight>prêts/-es</highlight>. Et vous?",
           "cta": {
             "title": "Essayer maintenant",
             "link": "/",

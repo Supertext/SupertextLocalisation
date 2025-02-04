@@ -1147,8 +1147,8 @@
             }
           },
           "subscription": {
-            "title": "Change subscription",
-            "description": "Easily adjust your subscription at any time to meet your needs.",
+            "title": "Change team subscription",
+            "description": "All users without an assigned licence automatically benefit from our Free subscription.",
             "comparePlans": "Compare subscriptions",
             "numberOfLicenses": "Number of licences",
             "licencesCount": "{count, plural, one {# seat} other {# seats}}",

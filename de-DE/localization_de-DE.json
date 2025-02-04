@@ -1366,7 +1366,7 @@
           }
         }
       },
-      "additionalInformation": "Fügen Sie optionale Zusatzinformationen zu Ihrem Auftrag hinzu, bevor Sie ihn abschliessenßen.",
+      "additionalInformation": "Fügen Sie optionale Zusatzinformationen zu Ihrem Auftrag hinzu, bevor Sie ihn abschließen.",
       "submit": {
         "title": "Verifizierung absenden?",
         "description": "Damit wird deine Verifizierung unwiderruflich übermittelt. Bist du sicher, dass du deine Verifizierung absenden willst?"
@@ -1706,7 +1706,7 @@
               "description": "Laden Sie ganze Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
               "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
               "essential": "20 Dateien pro Person und Monat",
-              "advanced": "20 Dateien pro Monat, pro Person"
+              "advanced": "20 Dateien pro Person und Monat"
             },
             "fileEditingAllowed": {
               "name": "Dateibearbeitung erlaubt",
@@ -1774,7 +1774,7 @@
           "title": "Integrationen",
           "features": {
             "microsoftOfficeAddIns": {
-              "name": "Microsoft Office Add-Ins",
+              "name": "Microsoft-Office-Add-Ins",
               "description": "Nutzen Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook."
             },
             "api": {
@@ -2003,7 +2003,7 @@
           "cta": "Zu allen Cases"
         },
         "footerNote": {
-          "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo.</highlight>",
+          "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo</highlight>.",
           "cta": {
             "title": "Jetzt entdecken",
             "link": "/abos",
@@ -2342,7 +2342,7 @@
                 },
                 {
                   "title": "Was macht einen guten Language Specialist aus?",
-                  "text": "Neben Sprachtalent ist es vor allem das große Interesse dafür, was Technologie zu bieten hat. Mit ihr schleifen wir unsere Fähigkeiten und rüsten uns für alles, was unsere Kund:innen brauchen. Definitiv auch wichtig sind Detailversessenheit und der unbändige Wille, jedes noch so eng getaktete Projekte über die Ziellinie zu bringen."
+                  "text": "Neben Sprachtalent ist es vor allem das große Interesse dafür, was Technologie zu bieten hat. Mit ihr schleifen wir unsere Fähigkeiten und rüsten uns für alles, was unsere Kund:innen brauchen. Definitiv auch wichtig sind Detailversessenheit und der unbändige Wille, jedes noch so eng getaktete Projekt über die Ziellinie zu bringen."
                 },
                 {
                   "title": "Und wie genau stellt ihr maximale Sprachqualität sicher?",
@@ -2579,7 +2579,7 @@
         },
         "footerNote": {
           "pretitle": "Wir sind für Sie da",
-          "text": "Sie haben ein spannendes <highlight>Sprachprojekt</highlight> in der Pipeline? Oder möchten Ihre bestehenden <highlight>Prozesse</highlight> mit uns <highlight>evaluieren?</highlight>",
+          "text": "Sie haben ein spannendes <highlight>Sprachprojekt</highlight> in der Pipeline? Oder möchten Ihre bestehenden <highlight>Prozesse</highlight> mit uns <highlight>evaluieren</highlight>?",
           "cta": {
             "title": "Lassen Sie uns reden",
             "link": "/kontakt",
@@ -2601,7 +2601,7 @@
           "description": "Wie wir aufgestellt sind. Wohin wir wollen. Und wie du Teil des Ganzen wirst."
         },
         "lead": {
-          "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie.</highlight> Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
+          "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie</highlight>. Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
           "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
           "cta": {
             "title": "Mehr zu unserer Vision",
@@ -2731,7 +2731,7 @@
           }
         },
         "locationsHeading": {
-          "title": "Lokal verankert, global präsent.",
+          "title": "Lokal verankert, global präsent",
           "description": "Wir arbeiten von Hubs in Zürich und Berlin aus. Und mit einem Netzwerk aus über 3000 ausgewählten Sprachprofis rund um den Globus."
         },
         "locations": [

@@ -177,7 +177,7 @@
     },
     "cookieBanner": {
       "textPrefix": "Utilizziamo i cookie per migliorare costantemente il nostro sito web. Cliccando su «Accetta» si acconsente all’utilizzo dei cookie in conformità con la nostra",
-      "link": "Dichiarazione sulla protezione dei dati.",
+      "link": "Dichiarazione sulla protezione dei dati",
       "textSuffix": "In alternativa è possibile configurare impostazioni personalizzate cliccando su «Altre opzioni».",
       "accept": "Accetta",
       "moreOptions": "Altre opzioni",
@@ -283,7 +283,7 @@
     "appearanceDescription": "Configurare la schermata dell’app"
   },
   "tooltips": {
-    "copyTargetText": "Copiare traduzione",
+    "copyTargetText": "Copia traduzione",
     "copyTargetTextCompleted": "Copiata!",
     "clearSourceText": "Cancella testo",
     "swapLanguages": "Inverti lingue",
@@ -769,7 +769,7 @@
         "part2": "migliori, più rapide, più convenienti",
         "part3": "e",
         "part4": "più sicure.",
-        "part5": "Automatizzato dallo 0 al 100%."
+        "part5": "Il tutto automatizzato dallo 0 al 100%."
       },
       "languageExpertise": "Competenze linguistiche",
       "languageExpertiseNav": {
@@ -788,7 +788,7 @@
         "other": "Altri"
       },
       "technology": "Tecnologia",
-      "contact": "Contatto",
+      "contact": "Contatti",
       "home": "Traduttore IA",
       "orderIssuer": {
         "title": "Creare un ordine",
@@ -968,7 +968,7 @@
         "cancelSubscriptionAlert": "Conferma di effettuare il downgrade dell’abbonamento? L’accesso al Suo abbonamento {subscriptionName} scadrà in data {endDate}.",
         "footerNote": "Avete <highlightText>grandi obiettivi?</highlightText> Noi la <highlightText>soluzione giusta.</highlightText>.",
         "requestAccess": "Richiedi l'accesso",
-        "requestAccessSuccess": "La sua richiesta è stata inviata con successo"
+        "requestAccessSuccess": "La Sua richiesta è stata inviata."
       },
       "resources": {
         "title": "Risorse linguistiche"
@@ -1148,7 +1148,7 @@
           },
           "subscription": {
             "title": "Modificare l’abbonamento",
-            "description": "Modifichi il Suo abbonamento in qualsiasi momento e in tutta semplicità per adattarlo alle Sue esigenze.",
+            "description": "Tutti gli utenti a cui non è stata assegnata una licenza usufruiscono automaticamente e gratuitamente del nostro abbonamento Free.",
             "comparePlans": "Confrontare gli abbonamenti",
             "numberOfLicenses": "Numero di licenze",
             "licencesCount": "{count, plural, one {# licenza} other {# licenze}}",
@@ -1250,7 +1250,7 @@
       ]
     },
     "footer": {
-      "contact": "Contatto",
+      "contact": "Contatti",
       "newsletter": "Newsletter",
       "newsletterDescription": "Per chiunque ami le lingue, la tecnologia e la creatività",
       "newsletterDisclaimer": "Con la registrazione accetta la nostra dichiarazione in materia di protezione dei dati e acconsente a ricevere aggiornamenti da Supertext.",
@@ -1276,14 +1276,14 @@
       },
       "companyTitle": "AZIENDA",
       "company": {
-        "contact": "Contatto",
+        "contact": "Contatti",
         "aboutSupertext": "Chi siamo",
         "careers": "Lavorare da Supertext"
       },
       "legal": {
-        "imprint": "Impressum",
+        "imprint": "Colophon",
         "terms": "CG",
-        "privacy": "Dichiarazione sulla protezione dei dati.",
+        "privacy": "Dichiarazione sulla protezione dei dati",
         "dataProtection": "Protezione dei dati",
         "media": "Media"
       },
@@ -1897,7 +1897,7 @@
               {
                 "text": "Prenota una demo",
                 "variant": "PrimaryBorderVariant",
-                "href": "/contatto"
+                "href": "/contatti"
               }
             ]
           }
@@ -1965,7 +1965,7 @@
                   "description": "Volete adattare il vostro modello di IA a una nuova guida di stile? O richiedere a un team di esperti la valutazione dei vostri attuali flussi di lavoro? Siamo a vostra completa disposizione: con competenza, soluzioni su misura, efficienza e cordialità.",
                   "cta": {
                     "title": "Parliamone.",
-                    "link": "/contatto",
+                    "link": "/contatti",
                     "variant": "secondary"
                   }
                 },
@@ -2052,7 +2052,7 @@
             ],
             "expertiseButton": "Competenze linguistiche"
           },
-          "leading": "Supertext unisce l’IA linguistica alla competenza umana per offrire una soluzione di traduzione perfetta per ogni tipo di contenuto. Semplice, in grado di apprendere, su misura delle vostre esigenze e sicura sotto ogni aspetto.",
+          "leading": "Supertext unisce l’IA linguistica alla competenza umana per offrire una soluzione di traduzione perfetta per ogni tipo di contenuto. Semplice, in grado di apprendere, adeguata alle vostre esigenze e sicura sotto ogni aspetto.",
           "services": {
             "items": [
               {
@@ -2210,7 +2210,7 @@
           "text": "Supertext offre alle aziende traduzioni <highlight>migliori, più rapide,</highlight> più convenienti e <highlight>più sicure</highlight>. Il tutto automatizzato dallo 0 al 100%.",
           "cta": {
             "title": "Vogliamo parlarne?",
-            "link": "/contatto",
+            "link": "/contatti",
             "target": "_blank"
           }
         },
@@ -2319,7 +2319,7 @@
                   "description": "Avete progetti ambiziosi? Noi la soluzione giusta per ogni lingua. Il tutto automatizzato dallo 0% al 100%.",
                   "cta": {
                     "title": "Parliamone.",
-                    "link": "/contatto",
+                    "link": "/contatti",
                     "variant": "secondary"
                   }
                 }
@@ -2376,7 +2376,7 @@
           "preTitle": "Siamo a vostra disposizione",
           "cta": {
             "title": "Parliamone.",
-            "link": "/contatto",
+            "link": "/contatti",
             "target": ""
           }
         }
@@ -2560,7 +2560,7 @@
           "text": "La vostra domanda <highlight>non</highlight> era <highlight>tra queste</highlight>? <highlight>Contattateci</highlight>.",
           "cta": {
             "title": "Parliamone.",
-            "link": "/contatto",
+            "link": "/contatti",
             "target": "_blank"
           }
         }
@@ -2582,7 +2582,7 @@
           "text": "Avete in programma un <highlight>progetto linguistico</highlight> interessante? O desiderate <highlight>valutare</highlight> con noi dei <highlight>processi</highlight> esistenti<highlight>?</highlight>",
           "cta": {
             "title": "Parliamone.",
-            "link": "/contatto",
+            "link": "/contatti",
             "target": ""
           }
         }
@@ -3026,7 +3026,7 @@
           },
           "cta2": {
             "title": "Richiedi documentazione API",
-            "link": "/contatto"
+            "link": "/contatti"
           }
         },
         "blog": {
@@ -3055,7 +3055,7 @@
           "title": "Volete ottimizzare <highlightText> le risorse e sfruttare al meglio la produttività della traduzione IA</highlightText> nella vostra azienda? Parliamone.",
           "cta": {
             "title": "Contattateci",
-            "link": "/contatto"
+            "link": "/contatti"
           }
         }
       },

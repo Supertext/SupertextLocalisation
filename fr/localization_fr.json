@@ -262,7 +262,7 @@
     },
     "welcomeSupertextBanner": {
       "title": "LE NOUVEAU SUPERTEXT",
-      "text": "Traduisez mieux, plus vite et plus en sécurité grâce à notre nouvelle solution tout-en-un.",
+      "text": "Traduisez plus vite, mieux et en toute sécurité grâce à notre nouvelle solution tout-en-un.",
       "cta": "En savoir plus",
       "close": "Fermer"
     }
@@ -975,7 +975,7 @@
         "footerNote": "Vous avez des <highlightText> objectifs ambitieux?</highlightText> Nous trouvons la <highlightText>solution adaptée</highlightText>.",
         "requestAccess": "Demander l’accès",
         "requestAccessSuccess": "Votre demande a été envoyée avec succès",
-        "accessRequested": "Accès en examen"
+        "accessRequested": "Accès en cours de vérification"
       },
       "resources": {
         "title": "Ressources linguistiques"
@@ -1143,14 +1143,14 @@
             "roleChangeWarning": "Un/-e admin a modifié votre rôle. Veuillez vous déconnecter et vous reconnecter pour mettre à jour votre compte.",
             "licenceAvailable": "{amount} disponible(s)",
             "marketingPanel": {
-              "heading": "<highlightText>Agrandissez votre équipe</highlightText>, consolidez votre influence",
-              "subheading": "Invitez vos collègues et commencez à collaborer en quelques minutes.",
+              "heading": "Créez votre propre équipe chez Supertext",
+              "subheading": "Invitez d’autres utilisateurs/-trices et commencez à collaborer en quelques minutes.",
               "listItems": [
-                "Déterminez qui fera partie de votre équipe.",
-                "Attribuez des rôles et des autorisations, et gérez-les.",
-                "Augmentez votre productivité et ne ratez plus jamais une échéance."
+                "Choisissez les membres de votre équipe",
+                "Gérez les licences et les droits d’administration de manière centralisée",
+                "Ayez toujours un aperçu actualisé des abonnements des membres de l'équipe"
               ],
-              "viewTable": "Voir le tableau"
+              "viewTable": "Voir l’équipe"
             }
           },
           "subscription": {
@@ -1290,7 +1290,7 @@
       "legal": {
         "imprint": "Mentions légales",
         "terms": "CGV",
-        "privacy": "Déclaration de confidentialité",
+        "privacy": "Déclaration de protection des données",
         "dataProtection": "Confidentialité",
         "media": "Médias"
       },
@@ -2010,7 +2010,7 @@
           "cta": "Vers toutes les études de cas"
         },
         "footerNote": {
-          "text": "Du simple <highlight>traducteur en ligne</highlight> à la <highlight>solution personnalisée entièrement intégrée</highlight>: trouvez l’<highlight>abonnement qu’il vous faut.</highlight>",
+          "text": "Du simple <highlight>traducteur en ligne</highlight> à la <highlight>solution personnalisée entièrement intégrée</highlight>: trouvez l’<highlight>abonnement qu’il vous faut</highlight>.",
           "cta": {
             "title": "Découvrir maintenant",
             "link": "/abonnements",
@@ -2738,7 +2738,7 @@
           }
         },
         "locationsHeading": {
-          "title": "Gestion locale, présence globale.",
+          "title": "Gestion locale, présence globale",
           "description": "Nous opérons depuis des hubs à Zurich et à Berlin, et disposons d’un réseau de plus de 3000 spécialistes linguistes triés/ ées sur le volet à travers le monde."
         },
         "locations": [
@@ -3059,7 +3059,7 @@
         "downloadCaseStudy": "Télécharger l’étude de cas",
         "furtherCaseStudies": "Autres études de cas",
         "footerNote": {
-          "title": "Vous souhaitez < highlightText> économiser des ressources et exploiter tout le potentiel de la traduction par l'IA</highlightText> dans votre entreprise? Discutons-en.",
+          "title": "Vous souhaitez <highlightText>économiser des ressources et exploiter tout le potentiel de la traduction par l'IA</highlightText> dans votre entreprise? Discutons-en.",
           "cta": {
             "title": "Contactez-nous",
             "link": "/contact"
@@ -3204,78 +3204,78 @@
       },
       "launch": {
         "hero": {
-          "title": "Wir denken Übersetzung neu",
-          "description": "Besser, schneller und sicherer übersetzen: Das neue Supertext ist da."
+          "title": "Nous réinventons la traduction",
+          "description": "Traduire plus vite, plus efficacement et de manière plus sécurisée: la nouvelle Supertext est là."
         },
         "lead": {
-          "large": "<highlightText>Language AI</highlightText> trifft <highlightText>menschliches Können.</highlightText> Auf einer brandneuen, flexiblen Plattform – mit Ihnen am Steuer. ",
-          "small": "Mit der neuen All-in-one-Lösung führen Supertext und Textshuttle nach ihrer Fusion zusammen, was zusammengehört: KI-Effizienz und echte Sprachexpertise.<break></break><break></break> Bestehende User:innen bekommen alle Services wie gehabt – und auf Wunsch noch viel mehr als das. Sie wählen für jeden Auftrag selbst aus 0–100 % Technologie. Für maximale Sicherheit in jeder Sprache – simpel, massgeschneidert und dank selbstlernender KI immer besser. <break></break><break></break> Loggen Sie sich jetzt mit Ihrem bestehenden Supertext-Account ein – oder legen Sie ganz einfach einen neuen an. ",
+          "large": "<highlightText>L’IA linguistique</highlightText> rencontre <highlightText>l’habileté humaine.</highlightText> Sur une plateforme toute neuve, flexible, avec vous aux commandes. ",
+          "small": "L’union fait la force: la nouvelle solution tout-en-un est le résultat de la fusion de Supertext et Textshuttle. Efficacité de l’IA et véritable expertise linguistique.<break></break><break></break> Les utilisateurs/-trices existants/-es continuent à bénéficier de tous les mêmes services qu’avant, et de bien plus, si cela les tente. De 0 à 100%: vous choisissez vous-même le pourcentage de technologie à utiliser pour chaque projet. Pour une sécurité maximale dans toutes les langues – simple, sur mesure et toujours plus efficace grâce à l’IA autoadaptative. <break></break><break></break> Connectez-vous avec votre compte Supertext existant ou créez-en un nouveau en quelques clics. ",
           "largeCtas": {
             "cta1": {
-              "text": "KI-Übersetzung starten"
+              "text": "Lancer la traduction par l’IA"
             },
             "cta2": {
-              "text": "Fachübersetzung bestellen"
+              "text": "Commander une traduction spécialisée"
             }
           },
           "smallCtas": {
             "cta1": {
-              "text": "Jetzt loslegen"
+              "text": "C’est parti!"
             },
             "cta2": {
-              "text": "Zur Medienmitteilung",
-              "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/2502_Press_release_Supertext_de_CH_fa28e8fa72.pdf"
+              "text": "Voir le communiqué de presse",
+              "link": "#"
             }
           }
         },
         "features": {
-          "eyebrowHeadline": "DAS STECKT DRIN\n",
+          "eyebrowHeadline": "Technologie IA",
           "section1": {
             "row1": {
-              "title": "Sofort übersetzen in 23 Sprachen",
-              "description": "Mit unserem KI-Übersetzer basierend auf hauseigener LLM-Technologie. Einfach, nach höchsten Sicherheitsstandards und nahtlos in jedes System integriert.",
+              "title": "Instantanément dans 23 langues",
+              "description": "Avec notre traducteur par l’IA basé sur notre propre technologie LLM. Simple, conforme aux normes de sécurité les plus strictes et s’intégrant parfaitement à tous les systèmes.",
               "cta1": {
-                "title": "Jetzt loslegen"
+                "title": "C’est parti!"
               },
               "cta2": {
-                "title": "Abos entdecken"
+                "title": "Découvrir les abonnements"
               }
             },
             "row2": {
-              "title": "Fast sofort sicher sein – mit unserem Profi-Check",
-              "description": "Ihre Übersetzung – von erfahrenen Linguist:innen geprüft, wenn es wirklich wichtig ist. Der Sofort-Check auf inhaltliche Korrektheit, Orthografie und Grammatik. Verfügbar schon ab CHF 5.70 und 8 Minuten Wartezeit.",
+              "title": "Une vérification professionnelle quasi instantanée",
+              "description": "Votre traduction vérifiée par un/-e linguiste expérimenté/-e, quand cela compte vraiment. Vérification immédiate de l’exactitude du contenu, de l’orthographe et de la grammaire. Disponible dès CHF 5.70 et à partir de 8 minutes d’attente.",
               "cta1": {
-                "title": "Profi-Check ausprobieren"
+                "title": "Tester la vérification professionnelle"
               },
               "cta2": {
-                "title": "Wie funktioniert’s?"
+                "title": "Comment ça marche?"
               }
             }
           },
           "section2": {
             "row1": {
-              "title": "Bewährte Serviceleistungen von 3000+ Sprachprofis ",
-              "description": "Von der Fachübersetzung über mehrsprachiges Lektorat bis zum kreativen Copywriting.",
+              "title": "Prestations éprouvées de la part de plus de 3000 spécialistes linguistes ",
+              "description": "De la traduction spécialisée à la relecture multilingue en passant par la rédaction créative.",
               "cta1": {
-                "title": "Profi-Services entdecken"
+                "title": "Découvrez nos services professionnels"
               },
               "cta2": {
-                "title": "Direkt bestellen"
+                "title": "Commander directement"
               }
             },
             "row2": {
-              "title": "Massgeschneiderte KI für Unternehmen",
-              "description": "Mit spezialisiertem AI-Training integrieren wir Ihre Corporate Language nahtlos in jede Übersetzung – für messbar bessere Sprachqualität bei laufend sinkenden Kosten. Nutzbar als frei zugängliches Tool für alle Mitarbeitenden oder als Grundlage für Ihre Profi-Übersetzer:innen.",
+              "title": "L’IA sur mesure pour les entreprises",
+              "description": "Grâce à un entraînement spécialisé de notre IA, nous pouvons intégrer votre langage d’entreprise de manière harmonieuse dans chaque traduction. Le résultat? Une qualité linguistique nettement supérieure et des coûts en baisse constante. Utilisable comme outil accessible à l’ensemble de votre personnel ou comme base pour vos traducteurs/-trices professionnels/-elles.",
               "cta1": {
-                "title": "Neugierig? Lassen Sie uns reden."
+                "title": "Nous avons éveillé votre curiosité? Discutons-en."
               }
             }
           }
         },
         "footerNote": {
-          "text": "Sie haben Fragen, Feedback oder ein spannendes Projekt im Kopf?",
+          "text": "Vous avez des questions, du feedback ou un projet passionnant en préparation?",
           "cta": {
-            "title": "Lassen Sie uns reden",
+            "title": "Discutons-en",
             "link": "/contact",
             "target": "_blank"
           }

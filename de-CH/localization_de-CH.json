@@ -2600,6 +2600,11 @@
         },
         "articlePage": {
           "moreArticlesTitle": "Weitere Beiträge"
+        },
+        "pagination": {
+          "previous": "Vorherige",
+          "pageInfo": "Seite {page} von {pageCount}",
+          "next": "Nächste"
         }
       },
       "workAtSupertext": {

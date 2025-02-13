@@ -189,12 +189,32 @@
         "accept": "Accept all",
         "yes": "Yes",
         "no": "No",
+        "rejectAll": "Reject all",
         "saveSettings": "Save settings",
         "alwaysOn": "Always active",
         "necessary": "Necessary cookies",
         "performance": "Analysis cookies",
-        "necessaryDescription": "These cookies are necessary for the website to function and cannot be disabled. Generally, they are only set in response to actions you take that are related to a service request, such as setting your privacy preferences, logging in or filling out forms. Necessary cookies do not store any personal information.",
-        "performanceDescription": "These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our website. They help us to see how visitors use our services and features. All the information these cookies collect is aggregated and therefore anonymous. If you do not accept these cookies, we will not know when you have visited our website and will not be able to monitor its performance."
+        "necessaryDescription": "These cookies are necessary for the website to function and cannot be disabled. ",
+        "performanceDescription": "These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our website.",
+        "cookieTypes": {
+          "necessary": {
+            "title": "Notwendige Cookies",
+            "description": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. "
+          },
+          "analyticsAndPerformance": {
+            "title": "Analytics & Performance",
+            "description": "These cookies allow us to analyze how visitors interact with our website, such as which pages are most visited and how long users stay."
+          },
+          "advertisingAndMarketing": {
+            "title": "Advertising & Marketing",
+            "description": "These cookies allow us and our advertising partners (such as Google and Facebook) to show ads that are relevant to you."
+          },
+          "personalization": {
+            "title": "Personalisation",
+            "description": "Enables storage related to personalization e.g. video recommendations"
+          }
+        }
+
       }
     },
     "genderfairFirstRunExperienceToggle": {

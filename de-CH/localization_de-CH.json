@@ -764,6 +764,12 @@
     "entriesPerPage": "Einträge pro Seite",
     "changeLanguage": "Sprache ändern",
     "close": "Schliessen",
+    "auth": {
+      "initializing": "Initialisierung...",
+      "signingIn": "Anmelden...",
+      "loading": "Laden...",
+      "loggingOut": "Abmelden.."
+    },
     "navbar": {
       "services": "Services",
       "whySupertext": "Warum Supertext?",
@@ -834,6 +840,7 @@
         "title": "Aufträge",
         "viewAllOrders": "Alle Aufträge ansehen",
         "openOrders": "AKTUELLSTE AUFTRÄGE",
+        "priceVAT": "exkl. MWSt",
         "noOrders": "Oops, zurzeit gibt es keine Aufträge.",
         "orderDate": "Bestelldatum",
         "orderDeadlineDate": "Lieferung",

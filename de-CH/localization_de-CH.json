@@ -1349,7 +1349,8 @@
         "dayType": {
           "today": "Heute",
           "tomorrow": "Morgen"
-        }
+        },
+        "discounted":"Reduziert "
       },
       "customBilling": {
         "addressForm": {
@@ -1468,7 +1469,8 @@
     "couponCode": {
       "placeholder": "Rabattcode eingeben",
       "tooltip": "Verwenden Sie Ihren Gutscheincode, um einen Rabatt auf Ihre Bestellung zu erhalten.",
-      "trigger": "Rabattcode einlösen"
+      "trigger": "Rabattcode einlösen",
+      "invalidCouponCode": "Der angegebene Coupon ist nicht gültig"
     },
     "landingPage": {
       "languageServices": {

@@ -189,31 +189,12 @@
         "accept": "Accetta tutti",
         "yes": "Sì",
         "no": "No",
-        "rejectAll": "Rifiuta tutto",
         "saveSettings": "Salva impostazione",
         "alwaysOn": "Sempre attivi",
         "necessary": "Cookie essenziali",
         "performance": "Cookie di analisi",
-        "necessaryDescription": "Questi cookie sono necessari per il funzionamento del sito web e non possono essere disattivati.",
-        "performanceDescription": "Questi cookie ci consentono di contare le visite e le fonti di traffico, in modo da poter misurare e migliorare le prestazioni del nostro sito web.",
-        "cookieTypes": {
-          "necessary": {
-            "title": "Notwendige Cookies",
-            "description": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. "
-          },
-          "analyticsAndPerformance": {
-            "title": "Analytics & Performance",
-            "description": "These cookies allow us to analyze how visitors interact with our website, such as which pages are most visited and how long users stay."
-          },
-          "advertisingAndMarketing": {
-            "title": "Advertising & Marketing",
-            "description": "These cookies allow us and our advertising partners (such as Google and Facebook) to show ads that are relevant to you."
-          },
-          "personalization": {
-            "title": "Personalisation",
-            "description": "Enables storage related to personalization e.g. video recommendations"
-          }
-        }
+        "necessaryDescription": "Questi cookie sono necessari per il funzionamento del sito web e non possono essere disattivati. In generale, vengono impostati in risposta a determinate azioni compiute in relazione a una richiesta, come l’impostazione delle preferenze in materia di privacy, l’accesso o la compilazione di moduli. I cookie necessari non memorizzano dati personali.",
+        "performanceDescription": "Questi cookie ci consentono di contare le visite e le fonti di traffico, in modo da poter misurare e migliorare le prestazioni del nostro sito web. Ci aiutano a capire come gli utenti utilizzano i nostri servizi e le nostre funzionalità. Tutte le informazioni vengono raccolte in forma aggregata e quindi anonima. Se non si accettano questi cookie, è impossibile per noi determinare quando è stato visitato il nostro sito web e monitorarne le prestazioni."
       }
     },
     "genderfairFirstRunExperienceToggle": {
@@ -816,7 +797,7 @@
       "contact": "Contatti",
       "home": "Traduttore IA",
       "orderIssuer": {
-        "title": "Creare un ordine",
+        "title": "Crea un ordine",
         "learnMore": {
           "title": "Scopri di più",
           "description": "Specialisti competenti e processi con certificazione ISO: <link>la nostra competenza linguistica</link>"
@@ -847,7 +828,7 @@
       "nextSteps": "PROSSIMI PASSAGGI",
       "nextStepsInformation": "Tutti i dati sono aggiornati, non ci sono ulteriori passaggi da completare.",
       "addSettings": "Completa i dati",
-      "creditCardDetailsSettings": "Salvi i dati della Sua carta di credito per facilitare la procedura di pagamento",
+      "creditCardDetailsSettings": "Salvi i dati della Sua carta di credito per facilitare la procedura di pagamento.",
       "styleGuidSettings": "Salvi le guide di stile e i documenti relativi al tone of voice e alla terminologia",
       "orders": {
         "title": "Ordini",
@@ -879,7 +860,8 @@
           "notFixed": "Prezzo non ancora stabilito"
         },
         "back": "Indietro",
-        "verificationType": "Verifica professionale"
+        "verificationType": "Verifica professionale",
+        "priceVAT": ""
       },
       "invoices": {
         "title": "Fatture",
@@ -1263,7 +1245,7 @@
         "nextSteps": "PROSSIMI PASSAGGI",
         "nextStepsInformation": "Tutti i dati sono aggiornati, non ci sono ulteriori passaggi da completare.",
         "addSettings": "Completa i dati",
-        "creditCardDetailsSettings": "Salvi i dati della Sua carta di credito per facilitare la procedura di pagamento",
+        "creditCardDetailsSettings": "Salvi i dati della Sua carta di credito per facilitare la procedura di pagamento.",
         "styleGuidSettings": "Salvi le guide di stile e i documenti relativi al tone of voice e alla terminologia",
         "subscriptionSettings": "Scopra i diversi piani di abbonamento Supertext e trovi quello che fa al caso Suo.",
         "subscriptionsExplore": "Scopri gli abbonamenti"
@@ -1856,7 +1838,7 @@
       "fusedTranslation": {
         "title": "Traduzione specialistica",
         "cta": "Qual è il vantaggio?",
-        "button": "Creare un ordine",
+        "button": "Crea un ordine",
         "description": "Massima precisione grazie a esperti professionisti"
       },
       "aiTranslation": {
@@ -2144,7 +2126,7 @@
                 "description": "Sia che si tratti di un testo contrattuale o di una campagna di manifesti pubblicitari, i nostri 3000 esperti linguistici selezionati con cura traducono con la massima precisione e sono specializzati in diversi ambiti, conoscono tutti i tool da InDesign a Word e le lingue dall’arabo allo zulu.",
                 "cta": {
                   "variant": "primary",
-                  "title": "Creare un ordine",
+                  "title": "Crea un ordine",
                   "link": "/ordine/traduzione"
                 }
               },
@@ -2154,7 +2136,7 @@
                 "description": "Se siete a corto di parole, il nostro team globale di esperti copywriter trova per voi quelle giuste. Conformi al vostro tone of voice, originali e che vanno dritte al punto, che si tratti di un articolo per il blog o di una campagna cartellonistica internazionale.",
                 "cta": {
                   "variant": "primary",
-                  "title": "Creare un ordine",
+                  "title": "Crea un ordine",
                   "link": "/ordine/redazione/"
                 }
               },
@@ -2164,7 +2146,7 @@
                 "description": "I nostri revisori selezionati si assicurano che ogni singola lettera sia al suo posto e che ogni parola sia corretta. Correggono, redigono e revisionano in base alle vostre specifiche. Con precisione e in tempi record.",
                 "cta": {
                   "variant": "primary",
-                  "title": "Creare un ordine",
+                  "title": "Crea un ordine",
                   "link": "/ordine/revisione"
                 }
               }
@@ -2619,6 +2601,11 @@
         },
         "articlePage": {
           "moreArticlesTitle": "Altri articoli"
+        },
+        "pagination": {
+          "previous": "",
+          "pageInfo": "",
+          "next": ""
         }
       },
       "workAtSupertext": {
@@ -2700,7 +2687,7 @@
           "description": "Riuniamo in una grande visione innumerevoli culture, lingue, talenti e interessi. Questa eterogeneità arricchisce la nostra collaborazione e contribuisce a renderci ciò che siamo: il fornitore all-in-one capace di trovare una soluzione a ogni sfida linguistica. <break></break> <break></break> I nostri pilastri imprescindibili sono il rispetto reciproco, una retribuzione equa e un ambiente di lavoro flessibile. Da Supertext ci organizziamo in autonomia, ci assumiamo le responsabilità e contribuiamo a plasmare attivamente la nostra cultura. Mediante corsi di formazione e feedback costanti allarghiamo le nostre conoscenze e promuoviamo la crescita personale."
         },
         "footerNote": {
-          "text": "Sei una copywriter, un traduttore , una redattrice oppure un professionista SEO e vorresti collaborare con noi come <highlightText>freelancer</highlightText>?",
+          "text": "Sei un o una copywriter, un traduttore o una traduttrice, un revisore o una revisora oppure un o una professionista SEO e vorresti <highlightText>collaborare</highlightText> con noi come <highlightText>freelancer</highlightText>?",
           "description": "Siamo sempre alla ricerca di traduttori, copywriter, specialisti SEO e revisori che offrano un valore aggiunto al nostro team di professionisti linguistici.",
           "cta": {
             "title": "Registrati ora",
@@ -2931,7 +2918,7 @@
       },
       "technology": {
         "hero": {
-          "title": "All’avanguardia, capace di apprendere e nella massima sicurezza",
+          "title": "All’avanguardia, capace di apprendere ed estremamente sicuro",
           "description": "Supertext adatta la sua IA alla vostra lingua aziendale. Il risultato? Traduzioni migliori, di qualità comprovata e in tempo reale."
         },
         "lead": {
@@ -3000,7 +2987,7 @@
         },
         "serviceList": {
           "title": "Da noi la parola «SICUREZZA» si scrive a lettere maiuscole, in tutte le lingue",
-          "description": "Garantiamo la sicurezza dei vostri dati grazie ai più alti standard di gestione dei dati, una crittografia solida e server svizzeri con protezioni multiple. È questo ciò che fa di noi il partner preferito da banche, autorità e istituti assicurativi. Inoltre, siamo allineati al 100% con le normative GDPR e la legge svizzera sulla protezione dei dati.",
+          "description": "Garantiamo la sicurezza dei vostri dati grazie ai più alti standard di gestione dei dati, una crittografia solida e server svizzeri con protezioni multiple. È questo ciò che fa di noi il partner preferito da banche, autorità e istituti assicurativi. Inoltre, operiamo in totale conformità alle normative GDPR e la legge svizzera sulla protezione dei dati.",
           "services": [
             {
               "title": "",
@@ -3243,7 +3230,7 @@
           }
         },
         "features": {
-          "eyebrowHeadline": "Tecnologia IA",
+          "eyebrowHeadline": "IL SEGRETO",
           "section1": {
             "row1": {
               "title": "Tradurre immediatamente in 23 lingue",
@@ -3303,6 +3290,12 @@
         "success": "Ha effettuato l’iscrizione alla nostra newsletter.",
         "error": "Si è verificato un errore durante l’accesso."
       }
+    },
+    "auth": {
+      "initializing": "",
+      "signingIn": "",
+      "loading": "",
+      "loggingOut": ""
     }
   },
   "remove": "Rimuovi",

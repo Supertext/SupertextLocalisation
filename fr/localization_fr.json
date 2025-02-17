@@ -194,7 +194,26 @@
         "necessary": "Cookies nécessaires",
         "performance": "Cookies d’analyse",
         "necessaryDescription": "Ces cookies sont nécessaires au bon fonctionnement du site web et ne peuvent pas être désactivés. Ils sont généralement installés en réponse à des actions que vous effectuez en relation avec un service demandé, comme la configuration de vos paramètres de confidentialité, la connexion ou le remplissage de formulaires. Les cookies nécessaires n’enregistrent aucune information personnelle.",
-        "performanceDescription": "Ces cookies nous permettent de compter les visites et d’analyser les sources du trafic, afin que nous puissions mesurer et améliorer les performances de notre site web. Ils nous aident à comprendre comment les utilisateurs et utilisatrices interagissent avec nos services et nos fonctionnalités. Toutes les informations qu’ils collectent sont agrégées et donc anonymes. Si vous n’acceptez pas ces cookies, nous ne savons pas quand vous avez visité notre site web et ne pouvons pas en surveiller les performances."
+        "performanceDescription": "Ces cookies nous permettent de compter les visites et d’analyser les sources du trafic, afin que nous puissions mesurer et améliorer les performances de notre site web. Ils nous aident à comprendre comment les utilisateurs et utilisatrices interagissent avec nos services et nos fonctionnalités. Toutes les informations qu’ils collectent sont agrégées et donc anonymes. Si vous n’acceptez pas ces cookies, nous ne savons pas quand vous avez visité notre site web et ne pouvons pas en surveiller les performances.",
+        "rejectAll": "",
+        "cookieTypes": {
+          "necessary": {
+            "title": "",
+            "description": ""
+          },
+          "analyticsAndPerformance": {
+            "title": "",
+            "description": ""
+          },
+          "advertisingAndMarketing": {
+            "title": "",
+            "description": ""
+          },
+          "personalization": {
+            "title": "",
+            "description": ""
+          }
+        }
       }
     },
     "genderfairFirstRunExperienceToggle": {
@@ -1152,7 +1171,8 @@
                 "Ayez toujours un aperçu actualisé des abonnements des membres de l'équipe"
               ],
               "viewTable": "Voir l’équipe"
-            }
+            },
+            "paginationOf": ""
           },
           "subscription": {
             "title": "Modifier l’abonnement de l’équipe",
@@ -1211,7 +1231,8 @@
         "licenseTag": "Utilisateur/-trice avec licence",
         "currency": "Devise",
         "noLicense": "Free",
-        "hasLicense": "Essential"
+        "hasLicense": "Essential",
+        "emailPlaceholder": ""
       },
       "delivery": {
         "title": "Livraison",
@@ -1324,7 +1345,8 @@
         "dayType": {
           "today": "Aujourd’hui",
           "tomorrow": "Demain"
-        }
+        },
+        "discounted": ""
       },
       "customBilling": {
         "addressForm": {
@@ -1337,10 +1359,6 @@
           "vatNumber": {
             "label": "Numéro de TVA (facultatif)",
             "placeholder": "CHE-123.456.789"
-          },
-          "costCenter": {
-            "label": "Centre de coût (facultatif)",
-            "placeholder": "K-1234"
           },
           "firstName": {
             "label": "Prénom",
@@ -1371,6 +1389,13 @@
             "label": "Pays",
             "placeholder": "Sélectionner le pays",
             "error": "Le pays est requis."
+          },
+          "costCenter": {
+            "addCostCenter": "",
+            "costCenter": {
+              "label": "",
+              "placeholder": ""
+            }
           }
         }
       },
@@ -1443,7 +1468,8 @@
     "couponCode": {
       "placeholder": "Saisir le code de réduction",
       "tooltip": "Utilisez votre code de réduction pour profiter d’un rabais sur votre commande.",
-      "trigger": "Utiliser le code de réduction"
+      "trigger": "Utiliser le code de réduction",
+      "invalidCouponCode": ""
     },
     "landingPage": {
       "languageServices": {
@@ -3011,7 +3037,12 @@
                 },
                 {
                   "title": "Authentification unique (SSO)",
-                  "description": "Gérez l’accès au système de traduction de manière efficace et centralisée avec les comptes utilisateur existants de votre organisation."
+                  "description": "Gérez l’accès au système de traduction de manière efficace et centralisée avec les comptes utilisateur existants de votre organisation.",
+                  "cta": {
+                    "title": "",
+                    "link": "",
+                    "variant": ""
+                  }
                 },
                 {
                   "title": "Cloud privé ou hébergement sur site",

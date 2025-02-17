@@ -194,7 +194,26 @@
         "necessary": "Notwendige Cookies",
         "performance": "Analyse-Cookies",
         "necessaryDescription": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. Im Allgemeinen werden sie nur als Reaktion auf Aktionen gesetzt, die Sie im Zusammenhang mit einer Serviceanfrage durchführen, wie z. B. das Festlegen Ihrer Datenschutzeinstellungen, das Anmelden oder das Ausfüllen von Formularen. Notwendige Cookies speichern keine persönlichen Informationen.",
-        "performanceDescription": "Diese Cookies erlauben es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie helfen uns zu sehen, wie Besuchende unsere Dienste und Funktionen nutzen. Alle Informationen, die sie sammeln, sind aggregiert und daher anonym. Wenn Sie diese Cookies nicht akzeptieren, wissen wir nicht, wann Sie unsere Website besucht haben und können deren Leistung nicht überwachen."
+        "performanceDescription": "Diese Cookies erlauben es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie helfen uns zu sehen, wie Besuchende unsere Dienste und Funktionen nutzen. Alle Informationen, die sie sammeln, sind aggregiert und daher anonym. Wenn Sie diese Cookies nicht akzeptieren, wissen wir nicht, wann Sie unsere Website besucht haben und können deren Leistung nicht überwachen.",
+        "rejectAll": "",
+        "cookieTypes": {
+          "necessary": {
+            "title": "",
+            "description": ""
+          },
+          "analyticsAndPerformance": {
+            "title": "",
+            "description": ""
+          },
+          "advertisingAndMarketing": {
+            "title": "",
+            "description": ""
+          },
+          "personalization": {
+            "title": "",
+            "description": ""
+          }
+        }
       }
     },
     "genderfairFirstRunExperienceToggle": {
@@ -1152,7 +1171,8 @@
                 "Abos aller Teammitglieder immer im Überblick"
               ],
               "viewTable": "Ihr Team ansehen"
-            }
+            },
+            "paginationOf": ""
           },
           "subscription": {
             "title": "Team-Abo ändern",
@@ -1211,7 +1231,8 @@
         "licenseTag": "User:in lizenzieren",
         "currency": "Währung",
         "noLicense": "Free",
-        "hasLicense": "Essential"
+        "hasLicense": "Essential",
+        "emailPlaceholder": ""
       },
       "delivery": {
         "title": "Lieferung",
@@ -1324,7 +1345,8 @@
         "dayType": {
           "today": "Heute",
           "tomorrow": "Morgen"
-        }
+        },
+        "discounted": ""
       },
       "customBilling": {
         "addressForm": {
@@ -1337,10 +1359,6 @@
           "vatNumber": {
             "label": "MwSt.-Nummer (optional)",
             "placeholder": "DE124356789"
-          },
-          "costCenter": {
-            "label": "Kostenstelle (optional)",
-            "placeholder": "K-1234"
           },
           "firstName": {
             "label": "Vorname",
@@ -1371,6 +1389,13 @@
             "label": "Land",
             "placeholder": "Land auswählen",
             "error": "Land ist erforderlich"
+          },
+          "costCenter": {
+            "addCostCenter": "",
+            "costCenter": {
+              "label": "",
+              "placeholder": ""
+            }
           }
         }
       },
@@ -1443,7 +1468,8 @@
     "couponCode": {
       "placeholder": "Rabattcode eingeben",
       "tooltip": "Verwenden Sie Ihren Gutscheincode, um einen Rabatt auf Ihre Bestellung zu erhalten.",
-      "trigger": "Rabattcode einlösen"
+      "trigger": "Rabattcode einlösen",
+      "invalidCouponCode": ""
     },
     "landingPage": {
       "languageServices": {
@@ -3011,7 +3037,12 @@
                 },
                 {
                   "title": "Single Sign-on (SSO)",
-                  "description": "Verwalten Sie den Zugriff auf das Übersetzungssystem effizient und zentralisiert mit den bestehenden Benutzerkonten Ihrer Organisation."
+                  "description": "Verwalten Sie den Zugriff auf das Übersetzungssystem effizient und zentralisiert mit den bestehenden Benutzerkonten Ihrer Organisation.",
+                  "cta": {
+                    "title": "",
+                    "link": "",
+                    "variant": ""
+                  }
                 },
                 {
                   "title": "Private Cloud oder On-Premises-Hosting",

@@ -195,23 +195,23 @@
         "performance": "Analysis cookies",
         "necessaryDescription": "These cookies are necessary for the website to function and cannot be disabled. Generally, they are only set in response to actions you take that are related to a service request, such as setting your privacy preferences, logging in or filling out forms. Necessary cookies do not store any personal information.",
         "performanceDescription": "These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our website. They help us to see how visitors use our services and features. All the information these cookies collect is aggregated and therefore anonymous. If you do not accept these cookies, we will not know when you have visited our website and will not be able to monitor its performance.",
-        "rejectAll": "",
+        "rejectAll": "Reject all",
         "cookieTypes": {
           "necessary": {
-            "title": "",
-            "description": ""
+            "title": "Essential",
+            "description": "These cookies are necessary for the functioning of the website and cannot be deactivated."
           },
           "analyticsAndPerformance": {
-            "title": "",
-            "description": ""
+            "title": "Analytics & performance",
+            "description": "These cookies allow us to analyze how visitors interact with our website, such as which pages are most visited and how long users stay."
           },
           "advertisingAndMarketing": {
-            "title": "",
-            "description": ""
+            "title": "Advertising & marketing",
+            "description": "These cookies allow us and our advertising partners (such as Google and Facebook) to show ads that are relevant to you."
           },
           "personalization": {
-            "title": "",
-            "description": ""
+            "title": "Personalisation",
+            "description": "Enables storage related to personalisation, e.g. video recommendations"
           }
         }
       }
@@ -880,7 +880,7 @@
         },
         "back": "Back",
         "verificationType": "Verification",
-        "priceVAT": ""
+        "priceVAT": "(excl. VAT)"
       },
       "invoices": {
         "title": "Invoices",
@@ -1172,7 +1172,7 @@
               ],
               "viewTable": "View your team"
             },
-            "paginationOf": ""
+            "paginationOf": "of"
           },
           "subscription": {
             "title": "Change team subscription",
@@ -1232,7 +1232,7 @@
         "currency": "Currency",
         "noLicense": "Free",
         "hasLicense": "Essential",
-        "emailPlaceholder": ""
+        "emailPlaceholder": "example@gmail.com"
       },
       "delivery": {
         "title": "Delivery",
@@ -1346,7 +1346,7 @@
           "today": "Today",
           "tomorrow": "Tomorrow"
         },
-        "discounted": ""
+        "discounted": "Discounted"
       },
       "customBilling": {
         "addressForm": {
@@ -1391,10 +1391,10 @@
             "error": "Country is required"
           },
           "costCenter": {
-            "addCostCenter": "",
+            "addCostCenter": "Add cost centre (optional)",
             "costCenter": {
-              "label": "",
-              "placeholder": ""
+              "label": "Cost centre (optional)",
+              "placeholder": "K-1234"
             }
           }
         }
@@ -1469,7 +1469,7 @@
       "placeholder": "Enter discount code",
       "tooltip": "Use your coupon code to get a discount on your order.",
       "trigger": "Redeem discount code",
-      "invalidCouponCode": ""
+      "invalidCouponCode": "The voucher code is invalid"
     },
     "landingPage": {
       "languageServices": {
@@ -2629,9 +2629,9 @@
           "moreArticlesTitle": "More posts"
         },
         "pagination": {
-          "previous": "",
-          "pageInfo": "",
-          "next": ""
+          "previous": "Previous",
+          "pageInfo": "Page {page} of {pageCount}",
+          "next": "Next"
         }
       },
       "workAtSupertext": {
@@ -3039,9 +3039,9 @@
                   "title": "Single sign-on (SSO)",
                   "description": "Efficiently and centrally manage access to the translation system using your organisation’s existing user accounts.",
                   "cta": {
-                    "title": "",
-                    "link": "",
-                    "variant": ""
+                    "title": "Learn more",
+                    "link": "/technology",
+                    "variant": "secondary"
                   }
                 },
                 {
@@ -3323,10 +3323,10 @@
       }
     },
     "auth": {
-      "initializing": "",
-      "signingIn": "",
-      "loading": "",
-      "loggingOut": ""
+      "initializing": "Initialising...",
+      "signingIn": "Logging in...",
+      "loading": "Loading...",
+      "loggingOut": "Logging out..."
     }
   },
   "remove": "Remove",

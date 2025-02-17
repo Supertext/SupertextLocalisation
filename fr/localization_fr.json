@@ -195,23 +195,23 @@
         "performance": "Cookies d’analyse",
         "necessaryDescription": "Ces cookies sont nécessaires au bon fonctionnement du site web et ne peuvent pas être désactivés. Ils sont généralement installés en réponse à des actions que vous effectuez en relation avec un service demandé, comme la configuration de vos paramètres de confidentialité, la connexion ou le remplissage de formulaires. Les cookies nécessaires n’enregistrent aucune information personnelle.",
         "performanceDescription": "Ces cookies nous permettent de compter les visites et d’analyser les sources du trafic, afin que nous puissions mesurer et améliorer les performances de notre site web. Ils nous aident à comprendre comment les utilisateurs et utilisatrices interagissent avec nos services et nos fonctionnalités. Toutes les informations qu’ils collectent sont agrégées et donc anonymes. Si vous n’acceptez pas ces cookies, nous ne savons pas quand vous avez visité notre site web et ne pouvons pas en surveiller les performances.",
-        "rejectAll": "",
+        "rejectAll": "Tout refuser",
         "cookieTypes": {
           "necessary": {
-            "title": "",
-            "description": ""
+            "title": "Cookies nécessaires",
+            "description": "Ces cookies sont nécessaires au bon fonctionnement du site web et ne peuvent pas être désactivés."
           },
           "analyticsAndPerformance": {
-            "title": "",
-            "description": ""
+            "title": "Analytics et performance",
+            "description": "Ces cookies nous permettent d’analyser le comportement des utilistateurs/-trices sur notre site web. Ils indiquent notamment les pages les plus visitées et le temps que les utilistateurs/-trices passent sur le site."
           },
           "advertisingAndMarketing": {
-            "title": "",
-            "description": ""
+            "title": "Publicité et marketing",
+            "description": "Ces cookies nous permettent, ainsi qu’à nos partenaires publicitaires (tels que Google et Facebook), d’afficher des publicités pertinentes pour vous."
           },
           "personalization": {
-            "title": "",
-            "description": ""
+            "title": "Personnalisation",
+            "description": "Permet l’enregistrement de données lié à la personnalisation, par exemple les recommandations de vidéos."
           }
         }
       }
@@ -880,7 +880,7 @@
         },
         "back": "Retour",
         "verificationType": "Contrôle professionnel",
-        "priceVAT": ""
+        "priceVAT": "(TVA excl.)"
       },
       "invoices": {
         "title": "Factures",
@@ -1172,7 +1172,7 @@
               ],
               "viewTable": "Voir l’équipe"
             },
-            "paginationOf": ""
+            "paginationOf": "de"
           },
           "subscription": {
             "title": "Modifier l’abonnement de l’équipe",
@@ -1232,7 +1232,7 @@
         "currency": "Devise",
         "noLicense": "Free",
         "hasLicense": "Essential",
-        "emailPlaceholder": ""
+        "emailPlaceholder": "exemple@gmail.com"
       },
       "delivery": {
         "title": "Livraison",
@@ -1346,7 +1346,7 @@
           "today": "Aujourd’hui",
           "tomorrow": "Demain"
         },
-        "discounted": ""
+        "discounted": "Avec rabais"
       },
       "customBilling": {
         "addressForm": {
@@ -1391,10 +1391,10 @@
             "error": "Le pays est requis."
           },
           "costCenter": {
-            "addCostCenter": "",
+            "addCostCenter": "Ajouter un centre de coûts (optionnel)",
             "costCenter": {
-              "label": "",
-              "placeholder": ""
+              "label": "Centre de coûts (optionnel)",
+              "placeholder": "K-1234"
             }
           }
         }
@@ -2629,9 +2629,9 @@
           "moreArticlesTitle": "Autres articles"
         },
         "pagination": {
-          "previous": "",
-          "pageInfo": "",
-          "next": ""
+          "previous": "Précédente",
+          "pageInfo": "Page {page} sur {pageCount}",
+          "next": "Suivante"
         }
       },
       "workAtSupertext": {
@@ -3039,9 +3039,9 @@
                   "title": "Authentification unique (SSO)",
                   "description": "Gérez l’accès au système de traduction de manière efficace et centralisée avec les comptes utilisateur existants de votre organisation.",
                   "cta": {
-                    "title": "",
-                    "link": "",
-                    "variant": ""
+                    "title": "En savoir plus",
+                    "link": "/technologie",
+                    "variant": "secondary"
                   }
                 },
                 {
@@ -3261,7 +3261,7 @@
           }
         },
         "features": {
-          "eyebrowHeadline": "NOTRE OFFRE",
+          "eyebrowHeadline": "CE QUE NOUS PROPOSONS",
           "section1": {
             "row1": {
               "title": "Instantanément dans 23 langues",
@@ -3323,10 +3323,10 @@
       }
     },
     "auth": {
-      "initializing": "",
-      "signingIn": "",
-      "loading": "",
-      "loggingOut": ""
+      "initializing": "Initialisation en cours...",
+      "signingIn": "Connexion en cours...",
+      "loading": "Chargement en cours...",
+      "loggingOut": "Déconnexion en cours..."
     }
   },
   "remove": "Supprimer",

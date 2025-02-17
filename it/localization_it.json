@@ -195,23 +195,23 @@
         "performance": "Cookie di analisi",
         "necessaryDescription": "Questi cookie sono necessari per il funzionamento del sito web e non possono essere disattivati. In generale, vengono impostati in risposta a determinate azioni compiute in relazione a una richiesta, come l’impostazione delle preferenze in materia di privacy, l’accesso o la compilazione di moduli. I cookie necessari non memorizzano dati personali.",
         "performanceDescription": "Questi cookie ci consentono di contare le visite e le fonti di traffico, in modo da poter misurare e migliorare le prestazioni del nostro sito web. Ci aiutano a capire come gli utenti utilizzano i nostri servizi e le nostre funzionalità. Tutte le informazioni vengono raccolte in forma aggregata e quindi anonima. Se non si accettano questi cookie, è impossibile per noi determinare quando è stato visitato il nostro sito web e monitorarne le prestazioni.",
-        "rejectAll": "",
+        "rejectAll": "Rifiuta tutti",
         "cookieTypes": {
           "necessary": {
-            "title": "",
-            "description": ""
+            "title": "Cookie necessari",
+            "description": "Questi cookie sono necessari per il funzionamento del sito e non possono essere disattivati. "
           },
           "analyticsAndPerformance": {
-            "title": "",
-            "description": ""
+            "title": "Analytics e performance",
+            "description": "Questi cookie ci permettono di analizzare il comportamento dei visitatori sul nostro sito web, ad esempio quali pagine sono più visitate e quanto tempo gli utenti trascorrono sul sito."
           },
           "advertisingAndMarketing": {
-            "title": "",
-            "description": ""
+            "title": "Pubblicità e marketing",
+            "description": "Questi cookie consentono a noi e ai nostri partner pubblicitari (come Google e Facebook) di mostrare annunci pertinenti per voi."
           },
           "personalization": {
-            "title": "",
-            "description": ""
+            "title": "Personalizzazione",
+            "description": "Consente di salvare i dati relativi alla personalizzazione dei contenuti, ad esempio i video consigliati"
           }
         }
       }
@@ -880,7 +880,7 @@
         },
         "back": "Indietro",
         "verificationType": "Verifica professionale",
-        "priceVAT": ""
+        "priceVAT": "IVA escl."
       },
       "invoices": {
         "title": "Fatture",
@@ -1172,7 +1172,7 @@
               ],
               "viewTable": "Visualizza il team"
             },
-            "paginationOf": ""
+            "paginationOf": "di"
           },
           "subscription": {
             "title": "Modifica l’abbonamento",
@@ -1232,7 +1232,7 @@
         "currency": "Valuta",
         "noLicense": "Free",
         "hasLicense": "Essential",
-        "emailPlaceholder": ""
+        "emailPlaceholder": "esempio@gmail.com"
       },
       "delivery": {
         "title": "Consegna",
@@ -1285,7 +1285,7 @@
       "newsletterDisclaimer": "Con la registrazione accetta la nostra dichiarazione in materia di protezione dei dati e acconsente a ricevere aggiornamenti da Supertext.",
       "yourEmail": "Il Suo indirizzo e-mail",
       "freelancerRegistration": "Registrati come freelancer",
-      "servicesTitle": "SERVIZI",
+      "servicesTitle": "SERVIZI PROFESSIONALI",
       "services": {
         "translation": "Traduzione IA con verifica professionale",
         "expertise": "Traduzione specialistica",
@@ -1346,7 +1346,7 @@
           "today": "Oggi",
           "tomorrow": "Domani"
         },
-        "discounted": ""
+        "discounted": "Con sconto"
       },
       "customBilling": {
         "addressForm": {
@@ -1391,10 +1391,10 @@
             "error": "Il Paese è un campo obbligatorio"
           },
           "costCenter": {
-            "addCostCenter": "",
+            "addCostCenter": "Aggiungere il centro di costo (facoltativo)",
             "costCenter": {
-              "label": "",
-              "placeholder": ""
+              "label": "Centro di costo (facoltativo)",
+              "placeholder": "K-1234"
             }
           }
         }
@@ -1469,7 +1469,7 @@
       "placeholder": "Inserire codice sconto",
       "tooltip": "Utilizzi il Suo buono per ottenere uno sconto sul Suo ordine.",
       "trigger": "Applica codice sconto",
-      "invalidCouponCode": ""
+      "invalidCouponCode": "Il buono indicato non è valido"
     },
     "landingPage": {
       "languageServices": {
@@ -2629,9 +2629,9 @@
           "moreArticlesTitle": "Altri articoli"
         },
         "pagination": {
-          "previous": "",
-          "pageInfo": "",
-          "next": ""
+          "previous": "Precedente",
+          "pageInfo": "Pagina {page} di {pageCount}",
+          "next": "Successiva"
         }
       },
       "workAtSupertext": {
@@ -3039,9 +3039,9 @@
                   "title": "Single Sign-on (SSO)",
                   "description": "Gestite l’accesso al sistema di traduzione in modo efficiente e centralizzato mediante gli account già esistenti della vostra organizzazione.",
                   "cta": {
-                    "title": "",
-                    "link": "",
-                    "variant": ""
+                    "title": "Per saperne di più",
+                    "link": "/tecnologia",
+                    "variant": "secondary"
                   }
                 },
                 {
@@ -3323,10 +3323,10 @@
       }
     },
     "auth": {
-      "initializing": "",
-      "signingIn": "",
-      "loading": "",
-      "loggingOut": ""
+      "initializing": "Inizializzazione in corso...",
+      "signingIn": "Accesso in corso...",
+      "loading": "In caricamento...",
+      "loggingOut": "Disconnessione in corso..."
     }
   },
   "remove": "Rimuovi",

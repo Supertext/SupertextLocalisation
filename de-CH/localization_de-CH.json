@@ -199,19 +199,19 @@
         "cookieTypes": {
           "necessary": {
             "title": "Notwendige Cookies",
-            "description": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. "
+            "description": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden."
           },
           "analyticsAndPerformance": {
             "title": "Analytics & Performance",
-            "description": "These cookies allow us to analyze how visitors interact with our website, such as which pages are most visited and how long users stay."
+            "description": "Diese Cookies ermöglichen uns, das Verhalten der Besucher:innen auf unserer Website zu analysieren, z. B. welche Seiten am häufigsten besucht werden und wie lange sich die Nutzer:innen auf der Website aufhalten."
           },
           "advertisingAndMarketing": {
             "title": "Advertising & Marketing",
-            "description": "These cookies allow us and our advertising partners (such as Google and Facebook) to show ads that are relevant to you."
+            "description": "Diese Cookies ermöglichen es uns und unseren Werbepartnern (wie Google und Facebook), Ihnen relevante Werbung anzuzeigen."
           },
           "personalization": {
             "title": "Personalisation",
-            "description": "Enables storage related to personalization e.g. video recommendations"
+            "description": "Speichert Daten im Zusammenhang mit der Personalisierung, z. B. für Videoempfehlungen"
           }
         }
       }
@@ -880,7 +880,7 @@
         },
         "back": "Zurück",
         "verificationType": "Profi-Check",
-        "priceVAT": "exkl. MWSt"
+        "priceVAT": "exkl. MWST"
       },
       "invoices": {
         "title": "Rechnungen",
@@ -1346,7 +1346,7 @@
           "today": "Heute",
           "tomorrow": "Morgen"
         },
-        "discounted": "Reduziert "
+        "discounted": "Reduziert"
       },
       "customBilling": {
         "addressForm": {
@@ -1977,7 +1977,7 @@
               "title": "Für Unternehmen",
               "sections": [
                 {
-                  "title": "Massgeschneiderte AI Translation",
+                  "title": "Massgeschneiderte KI-Übersetzung",
                   "description": "Your company, your voice. Mit zielgerichtetem Training integriert Supertext Ihre Stilvorgaben und Wordings in jede Übersetzung. Für eine reibungslose Kommunikation ohne Grenzen.",
                   "cta": {
                     "title": "Mehr erfahren",
@@ -3323,10 +3323,10 @@
       }
     },
     "auth": {
-      "initializing": "Initialisierung...",
-      "signingIn": "Anmelden...",
-      "loading": "Laden...",
-      "loggingOut": "Abmelden..."
+      "initializing": "Initialisierung ...",
+      "signingIn": "Anmelden ...",
+      "loading": "Laden ...",
+      "loggingOut": "Abmelden ..."
     }
   },
   "remove": "Entfernen",

@@ -195,23 +195,23 @@
         "performance": "Analyse-Cookies",
         "necessaryDescription": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. Im Allgemeinen werden sie nur als Reaktion auf Aktionen gesetzt, die Sie im Zusammenhang mit einer Serviceanfrage durchführen, wie z. B. das Festlegen Ihrer Datenschutzeinstellungen, das Anmelden oder das Ausfüllen von Formularen. Notwendige Cookies speichern keine persönlichen Informationen.",
         "performanceDescription": "Diese Cookies erlauben es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie helfen uns zu sehen, wie Besuchende unsere Dienste und Funktionen nutzen. Alle Informationen, die sie sammeln, sind aggregiert und daher anonym. Wenn Sie diese Cookies nicht akzeptieren, wissen wir nicht, wann Sie unsere Website besucht haben und können deren Leistung nicht überwachen.",
-        "rejectAll": "",
+        "rejectAll": "Alle ablehnen",
         "cookieTypes": {
           "necessary": {
-            "title": "",
-            "description": ""
+            "title": "Notwendige Cookies",
+            "description": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden."
           },
           "analyticsAndPerformance": {
-            "title": "",
-            "description": ""
+            "title": "Analytics & Performance",
+            "description": "Diese Cookies ermöglichen uns, das Verhalten der Besucher:innen auf unserer Website zu analysieren, z. B. welche Seiten am häufigsten besucht werden und wie lange sich die Nutzer:innen auf der Website aufhalten."
           },
           "advertisingAndMarketing": {
-            "title": "",
-            "description": ""
+            "title": "Advertising & Marketing",
+            "description": "Diese Cookies ermöglichen es uns und unseren Werbepartnern (wie Google und Facebook), Ihnen relevante Werbung anzuzeigen."
           },
           "personalization": {
-            "title": "",
-            "description": ""
+            "title": "Personalisation",
+            "description": "Speichert Daten im Zusammenhang mit der Personalisierung, z. B. für Videoempfehlungen"
           }
         }
       }
@@ -880,7 +880,7 @@
         },
         "back": "Zurück",
         "verificationType": "Profi-Check",
-        "priceVAT": ""
+        "priceVAT": "exkl. MwSt."
       },
       "invoices": {
         "title": "Rechnungen",
@@ -1172,7 +1172,7 @@
               ],
               "viewTable": "Ihr Team ansehen"
             },
-            "paginationOf": ""
+            "paginationOf": "von"
           },
           "subscription": {
             "title": "Team-Abo ändern",
@@ -1232,7 +1232,7 @@
         "currency": "Währung",
         "noLicense": "Free",
         "hasLicense": "Essential",
-        "emailPlaceholder": ""
+        "emailPlaceholder": "beispiel@gmail.com"
       },
       "delivery": {
         "title": "Lieferung",
@@ -1346,7 +1346,7 @@
           "today": "Heute",
           "tomorrow": "Morgen"
         },
-        "discounted": ""
+        "discounted": "Reduziert"
       },
       "customBilling": {
         "addressForm": {
@@ -1391,10 +1391,10 @@
             "error": "Land ist erforderlich"
           },
           "costCenter": {
-            "addCostCenter": "",
+            "addCostCenter": "Kostenstelle hinzufügen (optional)",
             "costCenter": {
-              "label": "",
-              "placeholder": ""
+              "label": "Kostenstelle (optional)",
+              "placeholder": "K-1234"
             }
           }
         }
@@ -1469,7 +1469,7 @@
       "placeholder": "Rabattcode eingeben",
       "tooltip": "Verwenden Sie Ihren Gutscheincode, um einen Rabatt auf Ihre Bestellung zu erhalten.",
       "trigger": "Rabattcode einlösen",
-      "invalidCouponCode": ""
+      "invalidCouponCode": "Der angegebene Coupon ist nicht gültig"
     },
     "landingPage": {
       "languageServices": {
@@ -2629,9 +2629,9 @@
           "moreArticlesTitle": "Weitere Beiträge"
         },
         "pagination": {
-          "previous": "",
-          "pageInfo": "",
-          "next": ""
+          "previous": "Vorherige",
+          "pageInfo": "Seite {page} von {pageCount}",
+          "next": "Nächste"
         }
       },
       "workAtSupertext": {
@@ -3039,9 +3039,9 @@
                   "title": "Single Sign-on (SSO)",
                   "description": "Verwalten Sie den Zugriff auf das Übersetzungssystem effizient und zentralisiert mit den bestehenden Benutzerkonten Ihrer Organisation.",
                   "cta": {
-                    "title": "",
-                    "link": "",
-                    "variant": ""
+                    "title": "Mehr erfahren",
+                    "link": "/technologie",
+                    "variant": "secondary"
                   }
                 },
                 {
@@ -3323,10 +3323,10 @@
       }
     },
     "auth": {
-      "initializing": "",
-      "signingIn": "",
-      "loading": "",
-      "loggingOut": ""
+      "initializing": "Initialisierung ...",
+      "signingIn": "Anmelden ...",
+      "loading": "Laden ...",
+      "loggingOut": "Abmelden ..."
     }
   },
   "remove": "Entfernen",

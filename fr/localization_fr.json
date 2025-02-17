@@ -189,31 +189,12 @@
         "accept": "Tout accepter",
         "yes": "Oui",
         "no": "Non",
-        "rejectAll": "Tout refuser",
         "saveSettings": "Enregistrer les paramètres",
         "alwaysOn": "Toujours actifs",
         "necessary": "Cookies nécessaires",
         "performance": "Cookies d’analyse",
-        "necessaryDescription": "Ces cookies sont nécessaires au bon fonctionnement du site web et ne peuvent pas être désactivés.",
-        "performanceDescription": "Ces cookies nous permettent de compter les visites et d’analyser les sources du trafic, afin que nous puissions mesurer et améliorer les performances de notre site web. ",
-        "cookieTypes": {
-          "necessary": {
-            "title": "Notwendige Cookies",
-            "description": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. "
-          },
-          "analyticsAndPerformance": {
-            "title": "Analytics & Performance",
-            "description": "These cookies allow us to analyze how visitors interact with our website, such as which pages are most visited and how long users stay."
-          },
-          "advertisingAndMarketing": {
-            "title": "Advertising & Marketing",
-            "description": "These cookies allow us and our advertising partners (such as Google and Facebook) to show ads that are relevant to you."
-          },
-          "personalization": {
-            "title": "Personalisation",
-            "description": "Enables storage related to personalization e.g. video recommendations"
-          }
-        }
+        "necessaryDescription": "Ces cookies sont nécessaires au bon fonctionnement du site web et ne peuvent pas être désactivés. Ils sont généralement installés en réponse à des actions que vous effectuez en relation avec un service demandé, comme la configuration de vos paramètres de confidentialité, la connexion ou le remplissage de formulaires. Les cookies nécessaires n’enregistrent aucune information personnelle.",
+        "performanceDescription": "Ces cookies nous permettent de compter les visites et d’analyser les sources du trafic, afin que nous puissions mesurer et améliorer les performances de notre site web. Ils nous aident à comprendre comment les utilisateurs et utilisatrices interagissent avec nos services et nos fonctionnalités. Toutes les informations qu’ils collectent sont agrégées et donc anonymes. Si vous n’acceptez pas ces cookies, nous ne savons pas quand vous avez visité notre site web et ne pouvons pas en surveiller les performances."
       }
     },
     "genderfairFirstRunExperienceToggle": {
@@ -879,7 +860,8 @@
           "notFixed": "Prix pas encore fixé"
         },
         "back": "Retour",
-        "verificationType": "Contrôle professionnel"
+        "verificationType": "Contrôle professionnel",
+        "priceVAT": ""
       },
       "invoices": {
         "title": "Factures",
@@ -2619,6 +2601,11 @@
         },
         "articlePage": {
           "moreArticlesTitle": "Autres articles"
+        },
+        "pagination": {
+          "previous": "",
+          "pageInfo": "",
+          "next": ""
         }
       },
       "workAtSupertext": {
@@ -2758,7 +2745,7 @@
         },
         "locationsHeading": {
           "title": "Gestion locale, présence globale",
-          "description": "Nous opérons depuis des hubs à Zurich et à Berlin, et disposons d’un réseau de plus de 3000 spécialistes linguistes triés/ ées sur le volet à travers le monde."
+          "description": "Nous opérons depuis des hubs à Zurich et à Berlin, et disposons d’un réseau de plus de 3000 spécialistes linguistes triés/-ées sur le volet à travers le monde."
         },
         "locations": [
           {
@@ -3060,7 +3047,7 @@
         },
         "footerNote": {
           "text": "Des spécialistes au sommet de leur forme grâce à l'IA linguistique",
-          "description": "Du linguiste computationnel à la spécialiste linguistes: rencontrez l’équipe de Supertext.",
+          "description": "Du linguiste computationnel à la spécialiste linguiste: rencontrez l’équipe de Supertext.",
           "cta": {
             "title": "En savoir plus sur notre expertise linguistique",
             "link": "/langue-expertise"
@@ -3243,7 +3230,7 @@
           }
         },
         "features": {
-          "eyebrowHeadline": "Technologie IA",
+          "eyebrowHeadline": "NOTRE OFFRE",
           "section1": {
             "row1": {
               "title": "Instantanément dans 23 langues",
@@ -3303,6 +3290,12 @@
         "success": "Vous vous êtes inscrit/-e avec succès à notre newsletter.",
         "error": "Une erreur s’est produite lors de votre inscription."
       }
+    },
+    "auth": {
+      "initializing": "",
+      "signingIn": "",
+      "loading": "",
+      "loggingOut": ""
     }
   },
   "remove": "Supprimer",

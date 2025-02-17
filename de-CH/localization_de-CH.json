@@ -190,30 +190,11 @@
         "yes": "Ja",
         "no": "Nein",
         "saveSettings": "Einstellung speichern",
-        "rejectAll": "Alle ablehnen",
         "alwaysOn": "Immer aktiv",
         "necessary": "Notwendige Cookies",
         "performance": "Analyse-Cookies",
-        "necessaryDescription": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. ",
-        "analyticsAndPerformance:": "",
-        "cookieTypes": {
-          "necessary": {
-            "title": "Notwendige Cookies",
-            "description": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. "
-          },
-          "analyticsAndPerformance": {
-            "title": "Analytics & Performance",
-            "description": "These cookies allow us to analyze how visitors interact with our website, such as which pages are most visited and how long users stay."
-          },
-          "advertisingAndMarketing": {
-            "title": "Advertising & Marketing",
-            "description": "These cookies allow us and our advertising partners (such as Google and Facebook) to show ads that are relevant to you."
-          },
-          "personalization": {
-            "title": "Personalisation",
-            "description": "Enables storage related to personalization e.g. video recommendations"
-          }
-        }
+        "necessaryDescription": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. Im Allgemeinen werden sie nur als Reaktion auf Aktionen gesetzt, die Sie im Zusammenhang mit einer Serviceanfrage durchführen, wie z. B. das Festlegen Ihrer Datenschutzeinstellungen, das Anmelden oder das Ausfüllen von Formularen. Notwendige Cookies speichern keine persönlichen Informationen.",
+        "performanceDescription": "Diese Cookies erlauben es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie helfen uns zu sehen, wie Besuchende unsere Dienste und Funktionen nutzen. Alle Informationen, die sie sammeln, sind aggregiert und daher anonym. Wenn Sie diese Cookies nicht akzeptieren, wissen wir nicht, wann Sie unsere Website besucht haben und können deren Leistung nicht überwachen."
       }
     },
     "genderfairFirstRunExperienceToggle": {
@@ -783,12 +764,6 @@
     "entriesPerPage": "Einträge pro Seite",
     "changeLanguage": "Sprache ändern",
     "close": "Schliessen",
-    "auth": {
-      "initializing": "Initialisierung...",
-      "signingIn": "Anmelden...",
-      "loading": "Laden...",
-      "loggingOut": "Abmelden.."
-    },
     "navbar": {
       "services": "Services",
       "whySupertext": "Warum Supertext?",
@@ -853,13 +828,12 @@
       "nextSteps": "NÄCHSTE SCHRITTE",
       "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt aktuell keine weiteren Schritte zu erledigen.",
       "addSettings": "Angaben ergänzen",
-      "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
+      "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung.",
       "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
       "orders": {
         "title": "Aufträge",
         "viewAllOrders": "Alle Aufträge ansehen",
         "openOrders": "AKTUELLSTE AUFTRÄGE",
-        "priceVAT": "exkl. MWSt",
         "noOrders": "Oops, zurzeit gibt es keine Aufträge.",
         "orderDate": "Bestelldatum",
         "orderDeadlineDate": "Lieferung",
@@ -886,7 +860,8 @@
           "notFixed": "Preis noch nicht fixiert"
         },
         "back": "Zurück",
-        "verificationType": "Profi-Check"
+        "verificationType": "Profi-Check",
+        "priceVAT": "exkl. MWSt"
       },
       "invoices": {
         "title": "Rechnungen",
@@ -1270,7 +1245,7 @@
         "nextSteps": "NÄCHSTE SCHRITTE",
         "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
         "addSettings": "Angaben ergänzen",
-        "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung",
+        "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung.",
         "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
         "subscriptionSettings": "Entdecken Sie die verschiedenen Supertext-Abos und finden Sie die richtige Option für Sie.",
         "subscriptionsExplore": "Abos entdecken"
@@ -1289,7 +1264,7 @@
       "newsletterDisclaimer": "Mit der Registrierung erklären Sie sich mit unserer Datenschutzerklärung einverstanden und geben Ihr Einverständnis, Updates von Supertext zu erhalten.",
       "yourEmail": "Ihre E-Mail-Adresse",
       "freelancerRegistration": "Als Freelancer:in registrieren",
-      "servicesTitle": "SERVICES",
+      "servicesTitle": "PROFI-SERVICES",
       "services": {
         "translation": "KI-Übersetzung mit Profi-Check",
         "expertise": "Fachübersetzung",
@@ -1349,8 +1324,7 @@
         "dayType": {
           "today": "Heute",
           "tomorrow": "Morgen"
-        },
-        "discounted":"Reduziert "
+        }
       },
       "customBilling": {
         "addressForm": {
@@ -1469,8 +1443,7 @@
     "couponCode": {
       "placeholder": "Rabattcode eingeben",
       "tooltip": "Verwenden Sie Ihren Gutscheincode, um einen Rabatt auf Ihre Bestellung zu erhalten.",
-      "trigger": "Rabattcode einlösen",
-      "invalidCouponCode": "Der angegebene Coupon ist nicht gültig"
+      "trigger": "Rabattcode einlösen"
     },
     "landingPage": {
       "languageServices": {
@@ -3317,6 +3290,12 @@
         "success": "Sie haben sich erfolgreich für unseren Newsletter angemeldet.",
         "error": "Bei Ihrer Anmeldung ist ein Fehler aufgetreten."
       }
+    },
+    "auth": {
+      "initializing": "Initialisierung...",
+      "signingIn": "Anmelden...",
+      "loading": "Laden...",
+      "loggingOut": "Abmelden..."
     }
   },
   "remove": "Entfernen",

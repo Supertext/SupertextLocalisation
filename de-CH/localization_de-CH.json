@@ -1010,6 +1010,7 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
+        "emailPlaceholder": "beispiel@gmail.com",        
         "changeEmail": "E-Mail-Adresse ändern",
         "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
         "language": "Sprache",
@@ -1178,7 +1179,8 @@
                 "Abos aller Teammitglieder immer im Überblick"
               ],
               "viewTable": "Ihr Team ansehen"
-            }
+            },
+            "paginationOf": "von"            
           },
           "subscription": {
             "title": "Team-Abo ändern",

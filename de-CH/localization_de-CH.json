@@ -190,12 +190,12 @@
         "yes": "Ja",
         "no": "Nein",
         "saveSettings": "Einstellung speichern",
-        "rejectAll": "Alle ablehnen",        
         "alwaysOn": "Immer aktiv",
         "necessary": "Notwendige Cookies",
         "performance": "Analyse-Cookies",
         "necessaryDescription": "Diese Cookies sind für das Funktionieren der Website erforderlich und können nicht deaktiviert werden. Im Allgemeinen werden sie nur als Reaktion auf Aktionen gesetzt, die Sie im Zusammenhang mit einer Serviceanfrage durchführen, wie z. B. das Festlegen Ihrer Datenschutzeinstellungen, das Anmelden oder das Ausfüllen von Formularen. Notwendige Cookies speichern keine persönlichen Informationen.",
         "performanceDescription": "Diese Cookies erlauben es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können. Sie helfen uns zu sehen, wie Besuchende unsere Dienste und Funktionen nutzen. Alle Informationen, die sie sammeln, sind aggregiert und daher anonym. Wenn Sie diese Cookies nicht akzeptieren, wissen wir nicht, wann Sie unsere Website besucht haben und können deren Leistung nicht überwachen.",
+        "rejectAll": "Alle ablehnen",
         "cookieTypes": {
           "necessary": {
             "title": "Notwendige Cookies",
@@ -782,7 +782,7 @@
     "or": "oder",
     "entriesPerPage": "Einträge pro Seite",
     "changeLanguage": "Sprache ändern",
-    "close": "Schliessen",  
+    "close": "Schliessen",
     "navbar": {
       "services": "Services",
       "whySupertext": "Warum Supertext?",
@@ -1003,7 +1003,6 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
-        "emailPlaceholder": "beispiel@gmail.com",        
         "changeEmail": "E-Mail-Adresse ändern",
         "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
         "language": "Sprache",
@@ -1173,7 +1172,7 @@
               ],
               "viewTable": "Ihr Team ansehen"
             },
-            "paginationOf": "von"            
+            "paginationOf": "von"
           },
           "subscription": {
             "title": "Team-Abo ändern",
@@ -1232,7 +1231,8 @@
         "licenseTag": "User:in lizenzieren",
         "currency": "Währung",
         "noLicense": "Free",
-        "hasLicense": "Essential"
+        "hasLicense": "Essential",
+        "emailPlaceholder": "beispiel@gmail.com"
       },
       "delivery": {
         "title": "Lieferung",
@@ -1346,7 +1346,7 @@
           "today": "Heute",
           "tomorrow": "Morgen"
         },
-        "discounted":"Reduziert "
+        "discounted": "Reduziert "
       },
       "customBilling": {
         "addressForm": {
@@ -1360,13 +1360,6 @@
             "label": "MWST-Nummer (optional)",
             "placeholder": "CHE-123.456.789"
           },
-          "costCenter":{
-            "addCostCenter": "Kostenstelle hinzufügen (optional)",
-            "costCenter": {
-              "label": "Kostenstelle (optional)",
-              "placeholder": "K-1234"
-            }
-          },          
           "firstName": {
             "label": "Vorname",
             "placeholder": "Hans",
@@ -1396,6 +1389,13 @@
             "label": "Land",
             "placeholder": "Land auswählen",
             "error": "Land ist erforderlich"
+          },
+          "costCenter": {
+            "addCostCenter": "Kostenstelle hinzufügen (optional)",
+            "costCenter": {
+              "label": "Kostenstelle (optional)",
+              "placeholder": "K-1234"
+            }
           }
         }
       },

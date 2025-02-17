@@ -194,7 +194,26 @@
         "necessary": "Cookie essenziali",
         "performance": "Cookie di analisi",
         "necessaryDescription": "Questi cookie sono necessari per il funzionamento del sito web e non possono essere disattivati. In generale, vengono impostati in risposta a determinate azioni compiute in relazione a una richiesta, come l’impostazione delle preferenze in materia di privacy, l’accesso o la compilazione di moduli. I cookie necessari non memorizzano dati personali.",
-        "performanceDescription": "Questi cookie ci consentono di contare le visite e le fonti di traffico, in modo da poter misurare e migliorare le prestazioni del nostro sito web. Ci aiutano a capire come gli utenti utilizzano i nostri servizi e le nostre funzionalità. Tutte le informazioni vengono raccolte in forma aggregata e quindi anonima. Se non si accettano questi cookie, è impossibile per noi determinare quando è stato visitato il nostro sito web e monitorarne le prestazioni."
+        "performanceDescription": "Questi cookie ci consentono di contare le visite e le fonti di traffico, in modo da poter misurare e migliorare le prestazioni del nostro sito web. Ci aiutano a capire come gli utenti utilizzano i nostri servizi e le nostre funzionalità. Tutte le informazioni vengono raccolte in forma aggregata e quindi anonima. Se non si accettano questi cookie, è impossibile per noi determinare quando è stato visitato il nostro sito web e monitorarne le prestazioni.",
+        "rejectAll": "",
+        "cookieTypes": {
+          "necessary": {
+            "title": "",
+            "description": ""
+          },
+          "analyticsAndPerformance": {
+            "title": "",
+            "description": ""
+          },
+          "advertisingAndMarketing": {
+            "title": "",
+            "description": ""
+          },
+          "personalization": {
+            "title": "",
+            "description": ""
+          }
+        }
       }
     },
     "genderfairFirstRunExperienceToggle": {
@@ -1152,7 +1171,8 @@
                 "Panoramica sempre aggiornata degli abbonamenti di tutti i membri del team"
               ],
               "viewTable": "Visualizza il team"
-            }
+            },
+            "paginationOf": ""
           },
           "subscription": {
             "title": "Modifica l’abbonamento",
@@ -1211,7 +1231,8 @@
         "licenseTag": "Assegnare una licenza all’utente",
         "currency": "Valuta",
         "noLicense": "Free",
-        "hasLicense": "Essential"
+        "hasLicense": "Essential",
+        "emailPlaceholder": ""
       },
       "delivery": {
         "title": "Consegna",
@@ -1324,7 +1345,8 @@
         "dayType": {
           "today": "Oggi",
           "tomorrow": "Domani"
-        }
+        },
+        "discounted": ""
       },
       "customBilling": {
         "addressForm": {
@@ -1337,10 +1359,6 @@
           "vatNumber": {
             "label": "Numero di partita IVA (opzionale)",
             "placeholder": "CHE-123.456.789"
-          },
-          "costCenter": {
-            "label": "Centro di costo (opzionale)",
-            "placeholder": "K-1234"
           },
           "firstName": {
             "label": "Nome",
@@ -1371,6 +1389,13 @@
             "label": "Paese",
             "placeholder": "Selezionare il Paese",
             "error": "Il Paese è un campo obbligatorio"
+          },
+          "costCenter": {
+            "addCostCenter": "",
+            "costCenter": {
+              "label": "",
+              "placeholder": ""
+            }
           }
         }
       },
@@ -1443,7 +1468,8 @@
     "couponCode": {
       "placeholder": "Inserire codice sconto",
       "tooltip": "Utilizzi il Suo buono per ottenere uno sconto sul Suo ordine.",
-      "trigger": "Applica codice sconto"
+      "trigger": "Applica codice sconto",
+      "invalidCouponCode": ""
     },
     "landingPage": {
       "languageServices": {
@@ -3011,7 +3037,12 @@
                 },
                 {
                   "title": "Single Sign-on (SSO)",
-                  "description": "Gestite l’accesso al sistema di traduzione in modo efficiente e centralizzato mediante gli account già esistenti della vostra organizzazione."
+                  "description": "Gestite l’accesso al sistema di traduzione in modo efficiente e centralizzato mediante gli account già esistenti della vostra organizzazione.",
+                  "cta": {
+                    "title": "",
+                    "link": "",
+                    "variant": ""
+                  }
                 },
                 {
                   "title": "Cloud privato o hosting locale",

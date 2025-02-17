@@ -194,7 +194,26 @@
         "necessary": "Necessary cookies",
         "performance": "Analysis cookies",
         "necessaryDescription": "These cookies are necessary for the website to function and cannot be disabled. Generally, they are only set in response to actions you take that are related to a service request, such as setting your privacy preferences, logging in or filling out forms. Necessary cookies do not store any personal information.",
-        "performanceDescription": "These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our website. They help us to see how visitors use our services and features. All the information these cookies collect is aggregated and therefore anonymous. If you do not accept these cookies, we will not know when you have visited our website and will not be able to monitor its performance."
+        "performanceDescription": "These cookies allow us to count visits and traffic sources so that we can measure and improve the performance of our website. They help us to see how visitors use our services and features. All the information these cookies collect is aggregated and therefore anonymous. If you do not accept these cookies, we will not know when you have visited our website and will not be able to monitor its performance.",
+        "rejectAll": "",
+        "cookieTypes": {
+          "necessary": {
+            "title": "",
+            "description": ""
+          },
+          "analyticsAndPerformance": {
+            "title": "",
+            "description": ""
+          },
+          "advertisingAndMarketing": {
+            "title": "",
+            "description": ""
+          },
+          "personalization": {
+            "title": "",
+            "description": ""
+          }
+        }
       }
     },
     "genderfairFirstRunExperienceToggle": {
@@ -1152,7 +1171,8 @@
                 "All team members’ subscriptions at a glance"
               ],
               "viewTable": "View your team"
-            }
+            },
+            "paginationOf": ""
           },
           "subscription": {
             "title": "Change team subscription",
@@ -1211,7 +1231,8 @@
         "licenseTag": "License user",
         "currency": "Currency",
         "noLicense": "Free",
-        "hasLicense": "Essential"
+        "hasLicense": "Essential",
+        "emailPlaceholder": ""
       },
       "delivery": {
         "title": "Delivery",
@@ -1324,7 +1345,8 @@
         "dayType": {
           "today": "Today",
           "tomorrow": "Tomorrow"
-        }
+        },
+        "discounted": ""
       },
       "customBilling": {
         "addressForm": {
@@ -1337,10 +1359,6 @@
           "vatNumber": {
             "label": "VAT number (optional)",
             "placeholder": "CHF-123.456.789"
-          },
-          "costCenter": {
-            "label": "Cost centre (optional)",
-            "placeholder": "K-1234"
           },
           "firstName": {
             "label": "First name",
@@ -1371,6 +1389,13 @@
             "label": "Country",
             "placeholder": "Select country",
             "error": "Country is required"
+          },
+          "costCenter": {
+            "addCostCenter": "",
+            "costCenter": {
+              "label": "",
+              "placeholder": ""
+            }
           }
         }
       },
@@ -1443,7 +1468,8 @@
     "couponCode": {
       "placeholder": "Enter discount code",
       "tooltip": "Use your coupon code to get a discount on your order.",
-      "trigger": "Redeem discount code"
+      "trigger": "Redeem discount code",
+      "invalidCouponCode": ""
     },
     "landingPage": {
       "languageServices": {
@@ -3011,7 +3037,12 @@
                 },
                 {
                   "title": "Single sign-on (SSO)",
-                  "description": "Efficiently and centrally manage access to the translation system using your organisation’s existing user accounts."
+                  "description": "Efficiently and centrally manage access to the translation system using your organisation’s existing user accounts.",
+                  "cta": {
+                    "title": "",
+                    "link": "",
+                    "variant": ""
+                  }
                 },
                 {
                   "title": "Private cloud or on-premises hosting",

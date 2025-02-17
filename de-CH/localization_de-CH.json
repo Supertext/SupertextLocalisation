@@ -1367,10 +1367,13 @@
             "label": "MWST-Nummer (optional)",
             "placeholder": "CHE-123.456.789"
           },
-          "costCenter": {
-            "label": "Kostenstelle (optional)",
-            "placeholder": "K-1234"
-          },
+          "costCenter":{
+            "addCostCenter": "Kostenstelle hinzufügen (optional)",
+            "costCenter": {
+              "label": "Kostenstelle (optional)",
+              "placeholder": "K-1234"
+            }
+          },          
           "firstName": {
             "label": "Vorname",
             "placeholder": "Hans",

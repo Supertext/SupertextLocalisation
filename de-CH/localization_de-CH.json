@@ -920,7 +920,6 @@
         "cancelSubscription": "Gecancelt",
         "expiresOn": "Läuft ab am",
         "moreInfo": "Details ansehen",
-        "modalTitle": "Feature-Details",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
           "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis – vom einfachen Online-Übersetzer bis zur vollintegrierten Custom-Lösung."
@@ -996,7 +995,8 @@
         "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText> Wir die <highlightText>passende Lösung</highlightText>.",
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
-        "accessRequested": "Zugang in Prüfung"
+        "accessRequested": "Zugang in Prüfung",
+        "modalTitle": "Feature-Details"
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1005,7 +1005,6 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
-        "emailPlaceholder": "beispiel@gmail.com",
         "changeEmail": "E-Mail-Adresse ändern",
         "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
         "language": "Sprache",
@@ -1340,7 +1339,6 @@
         "title": "wird noch nicht unterstützt.",
         "description": "Danke für Ihre Geduld! Dieser Service wird bald für weitere Sprachpaare verfügbar sein."
       },
-      "acceptedPaymentMethods": "Akzeptierte Zahlungsmittel",
       "stepOne": {
         "title": "Verifizierung",
         "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
@@ -1353,13 +1351,6 @@
         "discounted": "Reduziert"
       },
       "customBilling": {
-        "costCenter":{
-          "addCostCenter": "Kostenstelle hinzufügen (optional)",
-          "costCenter": {
-            "label": "Kostenstelle (optional)",
-            "placeholder": "K-1234"
-          }
-        },
         "addressForm": {
           "changeBillingAddress": "Rechnungsadresse ändern (optional)",
           "addBillingAddress": "Rechnungsadresse hinzufügen (optional)",
@@ -1407,6 +1398,13 @@
               "label": "Kostenstelle (optional)",
               "placeholder": "K-1234"
             }
+          }
+        },
+        "costCenter": {
+          "addCostCenter": "Kostenstelle hinzufügen (optional)",
+          "costCenter": {
+            "label": "Kostenstelle (optional)",
+            "placeholder": "K-1234"
           }
         }
       },
@@ -1474,7 +1472,8 @@
         "nonWorkingDaysInfo": "Geschlossen",
         "businessHoursInfo": "Geschäftszeiten"
       },
-      "readMore": "Mehr erfahren"
+      "readMore": "Mehr erfahren",
+      "acceptedPaymentMethods": "Akzeptierte Zahlungsmittel"
     },
     "couponCode": {
       "placeholder": "Rabattcode eingeben",

@@ -995,10 +995,12 @@
         "footerNote": "Do you have <highlightText>big plans?</highlightText> We have <highlightText>the right solution</highlightText>.",
         "requestAccess": "Request access",
         "requestAccessSuccess": "Your request was sent successfully",
-        "accessRequested": "Access requested"
+        "accessRequested": "Access requested",
+        "modalTitle": ""
       },
       "resources": {
-        "title": "Linguistic resources"
+        "title": "Linguistic resources",
+        "comingSoon": "Available soon"
       },
       "profile": {
         "title": "Profile",
@@ -1012,7 +1014,7 @@
         "licenseValidation": "Licence must be at least 2 characters long",
         "comment": "Label (optional)",
         "commentValidation": "Label must be at least 2 characters long",
-        "company": "Organisation",
+        "company": "Company/organisation",
         "name": "Name",
         "changeName": "Change name",
         "nameValidation": "Label must be at least 2 characters long",
@@ -1349,13 +1351,6 @@
         "discounted": "Discounted"
       },
       "customBilling": {
-        "costCenter":{
-          "addCostCenter": "Kostenstelle hinzufügen (optional)",
-          "costCenter": {
-            "label": "Kostenstelle (optional)",
-            "placeholder": "K-1234"
-          }
-        },
         "addressForm": {
           "changeBillingAddress": "Change billing address (optional)",
           "addBillingAddress": "Add billing address (optional)",
@@ -1403,6 +1398,13 @@
               "label": "Cost centre (optional)",
               "placeholder": "K-1234"
             }
+          }
+        },
+        "costCenter": {
+          "addCostCenter": "Add cost centre (optional)",
+          "costCenter": {
+            "label": "Cost centre (optional)",
+            "placeholder": "K-1234"
           }
         }
       },
@@ -1470,7 +1472,8 @@
         "nonWorkingDaysInfo": "Closed",
         "businessHoursInfo": "Business hours"
       },
-      "readMore": "Learn more"
+      "readMore": "Learn more",
+      "acceptedPaymentMethods": ""
     },
     "couponCode": {
       "placeholder": "Enter discount code",
@@ -2413,7 +2416,7 @@
           ]
         },
         "footerNote": {
-          "text": "Do you want to develop a <highlight>style guide</highlight> for your company? Or process hundreds of <highlight>translation projects</highlight> per month?",
+          "text": "Do you want to develop a <highlightText>style guide</highlightText> for your company? Or process hundreds of <highlightText>translation projects</highlightText> per month?",
           "preTitle": "We’re here for you",
           "cta": {
             "title": "Let’s talk",
@@ -2620,7 +2623,7 @@
         },
         "footerNote": {
           "pretitle": "We’re here for you",
-          "text": "Do you have an exciting <highlight>language project</highlight> in the pipeline? Or would you like to <highlight>evaluate your existing processes</highlight> with us?",
+          "text": "Do you have an exciting <highlightText>language project</highlightText> in the pipeline? Or would you like to <highlightText>evaluate your existing processes</highlightText> with us?",
           "cta": {
             "title": "Let’s talk",
             "link": "/contact",
@@ -2736,7 +2739,7 @@
         },
         "lead": {
           "large": "AI tool or service agency? We are both – and, together, <highlight>so much more</highlight>.",
-          "small": "Supertext is an AI-based full-service language service provider with offices in Zurich and Berlin. Over 1,500 companies across Europe use our language solutions – from the adaptive online translator to the ISO-certified service for multilingual documents, websites, apps and multimedia campaigns.<break></break><break></break>Our team consists of around 100 specialists in the fields of artificial intelligence, linguistics and security. They’re complemented by a selected network of 3,000 freelance language professionals around the world. <break></break><break></break>Together, we are developing a unique platform for copywriting and translation where companies can combine AI and human language expertise to suit their needs. That’s how we are redefining communication: efficient, precise, adaptive and maximally secure.",
+          "small": "Supertext is an AI-based full-service language service provider with offices in Zurich and Berlin. Over 1,500 companies across Europe use our language solutions – from the adaptive online translator to the ISO-certified services for multilingual documents, websites, apps and multimedia campaigns.<break></break><break></break>Our team consists of around 100 specialists in the fields of artificial intelligence, linguistics and security. They’re complemented by a selected network of 3,000 freelance language professionals around the world. <break></break><break></break>Together, we are developing a unique platform for copywriting and translation where companies can combine AI and human language expertise to suit their needs. That’s how we are redefining communication: efficient, precise, adaptive and maximally secure.",
           "cta": {
             "title": "Discover services",
             "link": "/why-supertext"

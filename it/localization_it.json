@@ -995,10 +995,12 @@
         "footerNote": "Avete <highlightText>grandi obiettivi?</highlightText> Noi la <highlightText>soluzione giusta</highlightText>.",
         "requestAccess": "Richiedi l'accesso",
         "requestAccessSuccess": "La Sua richiesta è stata inviata.",
-        "accessRequested": "Verifica dell’accesso in corso"
+        "accessRequested": "Verifica dell’accesso in corso",
+        "modalTitle": ""
       },
       "resources": {
-        "title": "Risorse linguistiche"
+        "title": "Risorse linguistiche",
+        "comingSoon": "Presto disponibile"
       },
       "profile": {
         "title": "Profilo",
@@ -1012,7 +1014,7 @@
         "licenseValidation": "La licenza deve essere una lunghezza di almeno 2 caratteri",
         "comment": "Denominazione (opzionale)",
         "commentValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
-        "company": "Organizzazione",
+        "company": "Azienda/organizzazione",
         "name": "Nome",
         "changeName": "Modificare il nome",
         "nameValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
@@ -1349,13 +1351,6 @@
         "discounted": "Con sconto"
       },
       "customBilling": {
-        "costCenter":{
-          "addCostCenter": "Kostenstelle hinzufügen (optional)",
-          "costCenter": {
-            "label": "Kostenstelle (optional)",
-            "placeholder": "K-1234"
-          }
-        },
         "addressForm": {
           "changeBillingAddress": "Modificare l’indirizzo di fatturazione (opzionale)",
           "addBillingAddress": "Aggiungi indirizzo di fatturazione (opzionale)",
@@ -1403,6 +1398,13 @@
               "label": "Centro di costo (facoltativo)",
               "placeholder": "K-1234"
             }
+          }
+        },
+        "costCenter": {
+          "addCostCenter": "Aggiungere il centro di costo (facoltativo)",
+          "costCenter": {
+            "label": "Centro di costo (facoltativo)",
+            "placeholder": "K-1234"
           }
         }
       },
@@ -1470,7 +1472,8 @@
         "nonWorkingDaysInfo": "Chiuso",
         "businessHoursInfo": "Orari d’ufficio"
       },
-      "readMore": "Scopri di più"
+      "readMore": "Scopri di più",
+      "acceptedPaymentMethods": ""
     },
     "couponCode": {
       "placeholder": "Inserire codice sconto",
@@ -2413,7 +2416,7 @@
           ]
         },
         "footerNote": {
-          "text": "Volete mettere a punto una <highlight>guida di stile</highlight> per la vostra azienda? O gestire centinaia di <highlight>progetti di traduzione</highlight> al mese?",
+          "text": "Volete mettere a punto una <highlightText>guida di stile</highlightText> per la vostra azienda? O gestire centinaia di <highlightText>progetti di traduzione</highlightText> al mese?",
           "preTitle": "Siamo a vostra disposizione",
           "cta": {
             "title": "Parliamone",
@@ -2620,7 +2623,7 @@
         },
         "footerNote": {
           "pretitle": "Siamo a vostra disposizione",
-          "text": "Avete in programma un <highlight>progetto linguistico</highlight> interessante? O desiderate <highlight>valutare</highlight> con noi dei <highlight>processi</highlight> esistenti<highlight>?</highlight>",
+          "text": "Avete in programma un <highlightText>progetto linguistico</highlightText> interessante? O desiderate <highlightText>valutare</highlightText> con noi dei <highlightText>processi</highlightText> esistenti?",
           "cta": {
             "title": "Parliamone",
             "link": "/contatto",

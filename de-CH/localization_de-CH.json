@@ -920,6 +920,7 @@
         "cancelSubscription": "Gecancelt",
         "expiresOn": "Läuft ab am",
         "moreInfo": "Details ansehen",
+        "modalTitle": "Feature-Details",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
           "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis – vom einfachen Online-Übersetzer bis zur vollintegrierten Custom-Lösung."
@@ -998,11 +999,13 @@
         "accessRequested": "Zugang in Prüfung"
       },
       "resources": {
-        "title": "Sprachressourcen"
+        "title": "Sprachressourcen",
+        "comingSoon": "Bald verfügbar"
       },
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
+        "emailPlaceholder": "beispiel@gmail.com",
         "changeEmail": "E-Mail-Adresse ändern",
         "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
         "language": "Sprache",
@@ -1012,7 +1015,7 @@
         "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
         "comment": "Bezeichnung (optional)",
         "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
-        "company": "Unternehmen/Organisation",
+        "company": "Organisation",
         "name": "Name",
         "changeName": "Name ändern",
         "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
@@ -1337,6 +1340,7 @@
         "title": "wird noch nicht unterstützt.",
         "description": "Danke für Ihre Geduld! Dieser Service wird bald für weitere Sprachpaare verfügbar sein."
       },
+      "acceptedPaymentMethods": "Akzeptierte Zahlungsmittel",
       "stepOne": {
         "title": "Verifizierung",
         "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
@@ -1349,6 +1353,13 @@
         "discounted": "Reduziert"
       },
       "customBilling": {
+        "costCenter":{
+          "addCostCenter": "Kostenstelle hinzufügen (optional)",
+          "costCenter": {
+            "label": "Kostenstelle (optional)",
+            "placeholder": "K-1234"
+          }
+        },
         "addressForm": {
           "changeBillingAddress": "Rechnungsadresse ändern (optional)",
           "addBillingAddress": "Rechnungsadresse hinzufügen (optional)",
@@ -2406,7 +2417,7 @@
           ]
         },
         "footerNote": {
-          "text": "Sie wollen einen <highlightText>Styleguide</highlightText> für Ihr Unternehmen entwickeln? Oder hunderte <highlightText>Übersetzungsprojekte</highlightText> im Monat abwickeln?",
+          "text": "Sie wollen einen <highlight>Styleguide</highlight> für Ihr Unternehmen entwickeln? Oder hunderte <highlight>Übersetzungsprojekte</highlight> im Monat abwickeln?",
           "preTitle": "Wir sind für Sie da",
           "cta": {
             "title": "Lassen Sie uns reden",
@@ -2613,7 +2624,7 @@
         },
         "footerNote": {
           "pretitle": "Wir sind für Sie da",
-          "text": "Sie haben ein spannendes <highlightText>Sprachprojekt</highlightText> in der Pipeline? Oder möchten Ihre bestehenden <highlightText>Prozesse</highlightText> mit uns <highlightText>evaluieren?</highlightText>",
+          "text": "Sie haben ein spannendes <highlight>Sprachprojekt</highlight> in der Pipeline? Oder möchten Ihre bestehenden <highlight>Prozesse</highlight> mit uns <highlight>evaluieren?</highlight>",
           "cta": {
             "title": "Lassen Sie uns reden",
             "link": "/kontakt",
@@ -2729,7 +2740,7 @@
         },
         "lead": {
           "large": "AI-Tool oder Service-Agentur? Wir sind beides – und zusammen <highlight>viel mehr als das</highlight>.",
-          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom lernfähigen Online-Übersetzer bis zu ISO-zertifizierten Services für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
+          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom lernfähigen Online-Übersetzer bis zum ISO-zertifizierten Service für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
           "cta": {
             "title": "Angebot entdecken",
             "link": "/warum-supertext"

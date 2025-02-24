@@ -1012,7 +1012,7 @@
         "licenseValidation": "La licenza deve essere una lunghezza di almeno 2 caratteri",
         "comment": "Denominazione (opzionale)",
         "commentValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
-        "company": "Azienda/organizzazione",
+        "company": "Organizzazione",
         "name": "Nome",
         "changeName": "Modificare il nome",
         "nameValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
@@ -1349,6 +1349,13 @@
         "discounted": "Con sconto"
       },
       "customBilling": {
+        "costCenter":{
+          "addCostCenter": "Kostenstelle hinzufügen (optional)",
+          "costCenter": {
+            "label": "Kostenstelle (optional)",
+            "placeholder": "K-1234"
+          }
+        },
         "addressForm": {
           "changeBillingAddress": "Modificare l’indirizzo di fatturazione (opzionale)",
           "addBillingAddress": "Aggiungi indirizzo di fatturazione (opzionale)",
@@ -2406,7 +2413,7 @@
           ]
         },
         "footerNote": {
-          "text": "Volete mettere a punto una <highlightText>guida di stile</highlightText> per la vostra azienda? O gestire centinaia di <highlightText>progetti di traduzione</highlightText> al mese?",
+          "text": "Volete mettere a punto una <highlight>guida di stile</highlight> per la vostra azienda? O gestire centinaia di <highlight>progetti di traduzione</highlight> al mese?",
           "preTitle": "Siamo a vostra disposizione",
           "cta": {
             "title": "Parliamone",
@@ -2613,7 +2620,7 @@
         },
         "footerNote": {
           "pretitle": "Siamo a vostra disposizione",
-          "text": "Avete in programma un <highlightText>progetto linguistico</highlightText> interessante? O desiderate <highlightText>valutare</highlightText> con noi dei <highlightText>processi</highlightText> esistenti?",
+          "text": "Avete in programma un <highlight>progetto linguistico</highlight> interessante? O desiderate <highlight>valutare</highlight> con noi dei <highlight>processi</highlight> esistenti<highlight>?</highlight>",
           "cta": {
             "title": "Parliamone",
             "link": "/contatto",

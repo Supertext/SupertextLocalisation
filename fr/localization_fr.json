@@ -1012,7 +1012,7 @@
         "licenseValidation": "La licence doit contenir au moins deux caractères.",
         "comment": "Description (facultatif)",
         "commentValidation": "La description doit contenir au moins deux caractères.",
-        "company": "Entreprise/organisation",
+        "company": "Organisation",
         "name": "Nom",
         "changeName": "Modifier le nom",
         "nameValidation": "La description doit contenir au moins deux caractères.",
@@ -1349,6 +1349,13 @@
         "discounted": "Avec rabais"
       },
       "customBilling": {
+        "costCenter":{
+          "addCostCenter": "Kostenstelle hinzufügen (optional)",
+          "costCenter": {
+            "label": "Kostenstelle (optional)",
+            "placeholder": "K-1234"
+          }
+        },
         "addressForm": {
           "changeBillingAddress": "Modifier l’adresse de facturation (facultatif)",
           "addBillingAddress": "Ajouter une adresse de facturation (facultatif)",
@@ -2406,7 +2413,7 @@
           ]
         },
         "footerNote": {
-          "text": "Vous souhaitez élaborer un <highlightText>guide de style</highlightText> pour votre entreprise? Ou réaliser des centaines de <highlightText>projets de traduction</highlightText> par mois?",
+          "text": "Vous souhaitez élaborer un <highlight>guide de style</highlight> pour votre entreprise? Ou réaliser des centaines de <highlight>projets de traduction</highlight> par mois?",
           "preTitle": "Nous sommes là pour vous.",
           "cta": {
             "title": "Discutons-en",
@@ -2613,7 +2620,7 @@
         },
         "footerNote": {
           "pretitle": "Nous sommes là pour vous.",
-          "text": "Vous avez un <highlightText>projet linguistique</highlightText> passionnant en préparation? Vous souhaitez <highlightText> faire évaluer</highlightText> vos processus existants?",
+          "text": "Vous avez un <highlight>projet linguistique</highlight> passionnant en préparation? Vous souhaitez <highlight> faire évaluer</highlight> vos processus existants?</highlight>",
           "cta": {
             "title": "Discutons-en",
             "link": "/contact",
@@ -2729,7 +2736,7 @@
         },
         "lead": {
           "large": "Outil IA ou prestataire de services? Nous sommes les deux et <highlight>bien plus encore.</highlight>",
-          "small": "Supertext est un prestataire de services linguistiques global basé sur l'IA, avec des bureaux à Zurich et à Berlin. Plus de 1500 entreprises en Europe font confiance à nos solutions linguistiques, de notre traducteur en ligne adaptatif aux services certifiés ISO pour les documents multilingues, les sites web, les pages web, les applications et les campagnes multimédias. <break></break> <break></break>Notre équipe compte environ 100 spécialistes dans les domaines de l’intelligence artificielle, de la linguistique et de la sécurité. À cela s’ajoute un réseau sélectif de 3000 spécialistes linguistes indépendants/-es du monde entier. <break></break> <break></break>Ensemble, nous développons une plateforme unique pour les textes et les traductions, pour lesquelles les entreprises peuvent combiner l'IA et l’expertise linguistique humaine en matière de linguistique selon leurs souhaits. Nous réinventons ainsi la communication: efficace, précise, capable d’apprendre et avec une sécurité à la pointe de la technologie.",
+          "small": "Supertext est un prestataire de services linguistiques global basé sur l'IA, avec des bureaux à Zurich et à Berlin. Plus de 1500 entreprises en Europe font confiance à nos solutions linguistiques, de notre traducteur en ligne adaptatif à l’expertise ISO pour les documents multilingues, les sites web, les pages web, les applications et les campagnes multimédias. <break></break> <break></break>Notre équipe compte environ 100 spécialistes dans les domaines de l’intelligence artificielle, de la linguistique et de la sécurité. À cela s’ajoute un réseau sélectif de 3000 spécialistes linguistes indépendants/-es du monde entier. <break></break> <break></break>Ensemble, nous développons une plateforme unique pour les textes et les traductions, pour lesquelles les entreprises peuvent combiner l'IA et l’expertise linguistique humaine en matière de linguistique selon leurs souhaits. Nous réinventons ainsi la communication: efficace, précise, capable d’apprendre et avec une sécurité à la pointe de la technologie.",
           "cta": {
             "title": "Découvrir nos offres",
             "link": "/pourquoi-supertext"

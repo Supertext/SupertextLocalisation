@@ -920,6 +920,7 @@
         "cancelSubscription": "Gecancelt",
         "expiresOn": "Läuft ab am",
         "moreInfo": "Details ansehen",
+        "modalTitle": "Feature-Details",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
           "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis – vom einfachen Online-Übersetzer bis zur vollintegrierten Custom-Lösung."
@@ -1004,6 +1005,7 @@
       "profile": {
         "title": "Profil",
         "email": "E-Mail",
+        "emailPlaceholder": "beispiel@gmail.com",
         "changeEmail": "E-Mail-Adresse ändern",
         "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
         "language": "Sprache",
@@ -1338,6 +1340,7 @@
         "title": "wird noch nicht unterstützt.",
         "description": "Danke für Ihre Geduld! Dieser Service wird bald für weitere Sprachpaare verfügbar sein."
       },
+      "acceptedPaymentMethods": "Akzeptierte Zahlungsmittel",
       "stepOne": {
         "title": "Verifizierung",
         "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",

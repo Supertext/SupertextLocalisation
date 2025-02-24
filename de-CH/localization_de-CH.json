@@ -1014,7 +1014,7 @@
         "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
         "comment": "Bezeichnung (optional)",
         "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
-        "company": "Organisation",
+        "company": "Unternehmen/Organisation",
         "name": "Name",
         "changeName": "Name ändern",
         "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
@@ -2623,7 +2623,7 @@
         },
         "footerNote": {
           "pretitle": "Wir sind für Sie da",
-          "text": "Sie haben ein spannendes <highlight>Sprachprojekt</highlight> in der Pipeline? Oder möchten Ihre bestehenden <highlight>Prozesse</highlight> mit uns <highlight>evaluieren?</highlight>",
+          "text": "Sie haben ein spannendes <highlight>Sprachprojekt</highlight> in der Pipeline? Oder möchten Ihre bestehenden <highlight>Prozesse</highlight> mit uns <highlight>evaluieren</highlight>?",
           "cta": {
             "title": "Lassen Sie uns reden",
             "link": "/kontakt",

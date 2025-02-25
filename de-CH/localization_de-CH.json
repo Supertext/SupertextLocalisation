@@ -851,6 +851,25 @@
       "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
       "orders": {
         "title": "Aufträge",
+        "filters": {
+          "groups": {
+            "title": "Alle Aufträge",
+            "all": "Alle",
+            "myOrders": "Meine Aufträge",
+            "sharedOrders": "Nur geteilte Aufträge"
+          },
+          "type": {
+            "title": "Auftragstyp",
+            "all": "Alle"
+          },
+          "status": {
+            "title": "Status",
+            "all": "Alle",
+            "delivered": "Erledigt",
+            "inProgress": "In Bearbeitung",
+            "onHold": "Wartend"
+          }
+        },
         "viewAllOrders": "Alle Aufträge ansehen",
         "openOrders": "AKTUELLSTE AUFTRÄGE",
         "noOrders": "Oops, zurzeit gibt es keine Aufträge.",
@@ -884,6 +903,20 @@
       },
       "invoices": {
         "title": "Rechnungen",
+        "filters": {
+          "groups": {
+            "title": "Alle Rechnungen",
+            "all": "Alle",
+            "myBills": "Meine Rechnungen",
+            "sharedBills": "Nur geteilte Rechnungen"
+          },
+          "status": {
+            "title": "Status",
+            "all": "Alle",
+            "paid": "Bezahlt",
+            "unpaid": "Noch offen"
+          }
+        },
         "openInvoices": "AKTUELLSTE RECHNUNGEN",
         "viewAllInvoices": "Alle Rechnungen ansehen",
         "noOpenInvoices": "Zurzeit keine offenen Rechnungen",
@@ -1048,6 +1081,32 @@
           "changeCostCenter": "Kostenstelle ändern"
         },
         "sections": {
+          "authorisations": {
+            "title": "Zugriffsberechtigungen",
+            "info": "Hier können Sie einstellen, wer auf Ihre Informationen zugreifen kann",
+            "ordersAndBills": {
+              "title": "Meine Aufträge und Rechnungen",
+              "authorisedAmount": "{count, plural, =0 {Nur ich} =1 {Ich und ein anderes Mitglied} other {Ich und {count} andere Mitglieder}}",
+              "modal": {
+                "title": "Meine Aufträge und Rechnungen",
+                "info": "Nur Mitglieder Ihres Teams können Zugang zu Ihren Rechnungen und Aufträgen erhalten.",
+                "searchInputPlaceholder": "Suche nach Email Adresse oder Namen",
+                "authoriseUser": "Zugang geben",
+                "deleteConfirm": {
+                  "title": "Mitglied löschen",
+                  "info": "Sind Sie sicher, dass Sie den Benutzer aus der Berechtigungssliste entfernen möchten?",
+                  "confirm": "Ja, entfernen"
+                },
+                "notifications": {
+                  "userAddSuccess": "Der Benutzer wurde erfolgreich zur Berechtigungssliste hinzugefügt.",
+                  "userAddError": "Der Benutzer konnte nicht zur Berechtigungssliste hinzugefügt werden.",
+                  "userRemoveSuccess": "Der Benutzer wurde erfolgreich aus der Berechtigungssliste entfernt.",
+                  "userRemoveError": "Der Benutzer konnte nicht aus der Berechtigungssliste entfernt werden."
+                }
+                
+              }
+            }
+          },
           "userDetails": {
             "title": "Ihr Konto",
             "deleteAccountTitle": "Konto dauerhaft löschen",

@@ -880,7 +880,26 @@
         },
         "back": "Indietro",
         "verificationType": "Verifica professionale",
-        "priceVAT": "IVA escl."
+        "priceVAT": "IVA escl.",
+        "filters": {
+          "groups": {
+            "title": "Tutti gli ordini",
+            "all": "Tutti",
+            "myOrders": "I miei ordini",
+            "sharedOrders": "Solo ordini condivisi"
+          },
+          "type": {
+            "title": "Tipo di ordine",
+            "all": "Tutti"
+          },
+          "status": {
+            "title": "Stato",
+            "all": "Tutti",
+            "delivered": "Terminato",
+            "inProgress": "In fase di elaborazione",
+            "onHold": "In sospeso"
+          }
+        }
       },
       "invoices": {
         "title": "Fatture",
@@ -892,6 +911,20 @@
           "amount": "Importo",
           "invoiceDate": "Fatturato in data",
           "downloadInvoice": "Scarica"
+        },
+        "filters": {
+          "groups": {
+            "title": "Tutte le fatture",
+            "all": "Tutte",
+            "myBills": "Le mie fatture",
+            "sharedBills": "Solo fatture condivise"
+          },
+          "status": {
+            "title": "Stato",
+            "all": "Tutte",
+            "paid": "Saldate",
+            "unpaid": "Ancora aperte"
+          }
         }
       },
       "subscriptions": {
@@ -1048,33 +1081,6 @@
           "changeCostCenter": "Modificare il centro di costo"
         },
         "sections": {
-          "authorisations": {
-            "title": "Zugriffsberechtigungen",
-            "info": "Hier können Sie einstellen, wer auf Ihre Informationen zugreifen kann",
-            "ordersAndBills": {
-              "title": "Meine Aufträge und Rechnungen",
-              "authorisedAmount": "{count, plural, =0 {Nur ich} =1 {Ich und ein anderes Mitglied} other {Ich und {count} andere Mitglieder}}",
-              "modal": {
-                "title": "Meine Aufträge und Rechnungen",
-                "info": "Nur Mitglieder Ihres Teams können Zugang zu Ihren Rechnungen und Aufträgen erhalten.",
-                "searchInputPlaceholder": "Suche nach Email Adresse oder Namen",
-                "searchInputPlaceholderNonTeamAdmin": "Geben Sie eine gültige E-Mail Adresse ein",
-                "authoriseUser": "Zugang geben",
-                "deleteConfirm": {
-                  "title": "Mitglied löschen",
-                  "info": "Sind Sie sicher, dass Sie den Benutzer aus der Berechtigungssliste entfernen möchten?",
-                  "confirm": "Ja, entfernen"
-                },
-                "notifications": {
-                  "userAddSuccess": "Der Benutzer wurde erfolgreich zur Berechtigungssliste hinzugefügt.",
-                  "userAddError": "Der Benutzer konnte nicht zur Berechtigungssliste hinzugefügt werden.",
-                  "userRemoveSuccess": "Der Benutzer wurde erfolgreich aus der Berechtigungssliste entfernt.",
-                  "userRemoveError": "Der Benutzer konnte nicht aus der Berechtigungssliste entfernt werden."
-                }
-                
-              }
-            }
-          },
           "userDetails": {
             "title": "Il Suo account",
             "deleteAccountTitle": "Eliminare definitivamente l’account",
@@ -1255,6 +1261,31 @@
             },
             "afterTrialPeriod": "(al termine del periodo di prova)",
             "expiresOn": "Scade in data"
+          },
+          "authorisations": {
+            "title": "Autorizzazioni di accesso",
+            "info": "Qui può stabilire chi può avere accesso alle Sue informazioni",
+            "ordersAndBills": {
+              "title": "I miei ordini e le mie fatture",
+              "authorisedAmount": "{count, plural, =0 {Solo io} =1 {Io e un altro membro} other {Io e {count} altri membri}}",
+              "modal": {
+                "title": "I miei ordini e le mie fatture",
+                "info": "Solo i membri del Suo team possono ottenere l’accesso alle Sue fatture e ai Suoi ordini.",
+                "searchInputPlaceholder": "Ricerca per indirizzo e-mail o nome",
+                "authoriseUser": "Fornisci accesso",
+                "deleteConfirm": {
+                  "title": "Elimina membro",
+                  "info": "Rimuovere definitivamente l’utente dalla lista degli utenti autorizzati?",
+                  "confirm": "Sì, rimuovi"
+                },
+                "notifications": {
+                  "userAddSuccess": "L’utente è stato aggiunto alla lista degli utenti autorizzati.",
+                  "userAddError": "Impossibile aggiungere l’utente alla lista degli utenti autorizzati.",
+                  "userRemoveSuccess": "L’utente è stato rimosso dalla lista degli utenti autorizzati.",
+                  "userRemoveError": "Impossibile rimuovere l’utente dalla lista degli utenti autorizzati."
+                }
+              }
+            }
           }
         },
         "licenseTag": "Assegnare una licenza all’utente",

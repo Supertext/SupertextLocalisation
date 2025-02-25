@@ -880,7 +880,26 @@
         },
         "back": "Retour",
         "verificationType": "Contrôle professionnel",
-        "priceVAT": "(TVA excl.)"
+        "priceVAT": "(TVA excl.)",
+        "filters": {
+          "groups": {
+            "title": "Toutes les commandes",
+            "all": "Toutes",
+            "myOrders": "Mes commandes",
+            "sharedOrders": "Commandes partagées uniquement"
+          },
+          "type": {
+            "title": "Type de commande",
+            "all": "Toutes"
+          },
+          "status": {
+            "title": "Statut",
+            "all": "Toutes",
+            "delivered": "Terminées",
+            "inProgress": "En cours",
+            "onHold": "En suspens"
+          }
+        }
       },
       "invoices": {
         "title": "Factures",
@@ -892,6 +911,20 @@
           "amount": "Montant",
           "invoiceDate": "Réglée le",
           "downloadInvoice": "Télécharger"
+        },
+        "filters": {
+          "groups": {
+            "title": "Toutes les factures",
+            "all": "Toutes",
+            "myBills": "Mes factures",
+            "sharedBills": "Factures partagées uniquement"
+          },
+          "status": {
+            "title": "Statut",
+            "all": "Toutes",
+            "paid": "Payées",
+            "unpaid": "Encore ouvertes"
+          }
         }
       },
       "subscriptions": {
@@ -1048,33 +1081,6 @@
           "changeCostCenter": "Modifier le centre de coût"
         },
         "sections": {
-          "authorisations": {
-            "title": "Zugriffsberechtigungen",
-            "info": "Hier können Sie einstellen, wer auf Ihre Informationen zugreifen kann",
-            "ordersAndBills": {
-              "title": "Meine Aufträge und Rechnungen",
-              "authorisedAmount": "{count, plural, =0 {Nur ich} =1 {Ich und ein anderes Mitglied} other {Ich und {count} andere Mitglieder}}",
-              "modal": {
-                "title": "Meine Aufträge und Rechnungen",
-                "info": "Nur Mitglieder Ihres Teams können Zugang zu Ihren Rechnungen und Aufträgen erhalten.",
-                "searchInputPlaceholder": "Suche nach Email Adresse oder Namen",
-                "searchInputPlaceholderNonTeamAdmin": "Geben Sie eine gültige E-Mail Adresse ein",
-                "authoriseUser": "Zugang geben",
-                "deleteConfirm": {
-                  "title": "Mitglied löschen",
-                  "info": "Sind Sie sicher, dass Sie den Benutzer aus der Berechtigungssliste entfernen möchten?",
-                  "confirm": "Ja, entfernen"
-                },
-                "notifications": {
-                  "userAddSuccess": "Der Benutzer wurde erfolgreich zur Berechtigungssliste hinzugefügt.",
-                  "userAddError": "Der Benutzer konnte nicht zur Berechtigungssliste hinzugefügt werden.",
-                  "userRemoveSuccess": "Der Benutzer wurde erfolgreich aus der Berechtigungssliste entfernt.",
-                  "userRemoveError": "Der Benutzer konnte nicht aus der Berechtigungssliste entfernt werden."
-                }
-                
-              }
-            }
-          },
           "userDetails": {
             "title": "Votre compte",
             "deleteAccountTitle": "Supprimer le compte définitivement",
@@ -1255,6 +1261,31 @@
             },
             "afterTrialPeriod": "(après la phase de test)",
             "expiresOn": "Se termine le"
+          },
+          "authorisations": {
+            "title": "Autorisations d’accès",
+            "info": "Vous pouvez définir ici qui peut accéder à vos informations",
+            "ordersAndBills": {
+              "title": "Mes commandes et factures",
+              "authorisedAmount": "{count, plural, =0 {Uniquement moi} =1 {Moi et un autre membre} other {Moi et {count} autres membres}}",
+              "modal": {
+                "title": "Mes commandes et factures",
+                "info": "Seuls les membres de votre équipe peuvent avoir accès à vos factures et à vos commandes.",
+                "searchInputPlaceholder": "Rechercher une adresse e-mail ou un nom",
+                "authoriseUser": "Autoriser l’accès",
+                "deleteConfirm": {
+                  "title": "Supprimer le membre",
+                  "info": "Voulez-vous vraiment supprimer l’utilisateur/-trice de la liste d’autorisation?",
+                  "confirm": "Oui, supprimer"
+                },
+                "notifications": {
+                  "userAddSuccess": "L’utilisateur/-trice a été ajouté/-ée avec succès à la liste d’autorisation.",
+                  "userAddError": "L’utilisateur/-trice n’a pas pu être ajouté/-ée à la liste d’autorisation.",
+                  "userRemoveSuccess": "L’utilisateur/-trice a été supprimé/-ée  avec succès de la liste d’autorisation.",
+                  "userRemoveError": "L’utilisateur/-trice n’a pas pu être supprimé/-ée de la liste d’autorisation."
+                }
+              }
+            }
           }
         },
         "licenseTag": "Utilisateur/-trice avec licence",

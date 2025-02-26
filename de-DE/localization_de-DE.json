@@ -1962,136 +1962,6 @@
       }
     },
     "pages": {
-      "textshuttleLandingPage": {
-        "welcomeBanner": {
-          "title": "TEXTSHUTTLE HEISST NEU SUPERTEXT",
-          "text": "Besser, schneller und sicherer übersetzen mit unserer neuen All-in-one-Lösung.",
-          "cta": "Mehr erfahren",
-          "close": "Schliessen"
-        },
-        "heroSection": {
-          "mainHeading": "Textshuttle heisst jetzt Supertext –<break></break> mit neuer KI, neuen Angeboten und<break></break> neuem Look",
-          "leading": "Entdecken Sie unsere All-in-one-Übersetzungslösung für jede Art von Content - jetzt noch besser dank neuster LLM-Technologie und Profi-Support als Add-on.<break></break><break></break>Wie schon bei Textshuttle profitieren Sie auch bei Supertext von:<break></break><list><listItem>KI-Übersetzung in bis zu 23 Sprachen – sogar Schweizerdeutsch und Rätoromanisch</listItem><listItem>Höchster Datensicherheit dank Hosting in der Schweiz</listItem><listItem>Praktischen Übersetzungsfeatures wie Wortalternativen und Rephrasing</listItem></list>"
-        },
-        "languagePairs": {
-          "title": "Der Textshuttle-Übersetzer wird zu Supertext. Was steckt drin?",
-          "subtitle": "Sofort übersetzen in bis zu 23 Sprachen",
-          "description": "Unser bewährter KI-Übersetzer mit allen Features, die Sie von Textshuttle kennen – und nun noch besseren Resultaten dank hauseigener LLM-Technologie. Einfach, nach höchsten Sicherheitsstandards und exklusiv in der Schweiz gehostet.",
-          "ctaButton": {
-            "text": "Direkt loslegen",
-            "variant": "primary",
-            "href": "#"
-          },
-          "features": {
-            "charactersPerRequest": "Bis 3000 Zeichen pro Anfrage",
-            "documentsPerMonth": "5 Dokumente pro Monat übersetzen"
-          },
-          "registrationNote": "Übrigens: Mit einer kostenlosen Registrierung profitieren Sie von noch mehr Leistung mit unserer Übersetzungssoftware.",
-          "registerCtaButton": {
-            "text": "Jetzt registrieren",
-            "variant": "primary",
-            "href": "#",
-            "type": "(login)"
-          },
-          "popularLanguages": {
-            "title": "Unsere beliebtesten Sprachkombinationen",
-            "links": [
-              {
-                "text": "Deutsch - Englisch",
-                "href": "#"
-              },
-              {
-                "text": "Deutsch - Französisch",
-                "href": "#"
-              },
-              {
-                "text": "Deutsch - Italienisch",
-                "href": "#"
-              },
-              {
-                "text": "Deutsch - Schweizerdeutsch",
-                "href": "#"
-              },
-              {
-                "text": "Deutsch - Rätoromanisch",
-                "href": "#"
-              },
-              {
-                "text": "Englisch - Deutsch",
-                "href": "#"
-              },
-              {
-                "text": "Französisch - Deutsch",
-                "href": "#"
-              },
-              {
-                "text": "Italienisch - Deutsch",
-                "href": "#"
-              }
-            ]
-          }
-        },
-        "featureSections": [
-          {
-            "title": "Sicher sein, in Minuten statt Stunden. Mit unserem Profi-Check als Add-on.",
-            "description": "Dank der Fusion von Supertext und Textshuttle können Sie besonders wichtige Übersetzungen neu sofort von erfahrenen Linguist:innen prüfen lassen. Unser Profi-Check – verfügbar schon ab CHF 5.70 und 8 Minuten Wartezeit.",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/12_12_Mobile-Verification-explainer.svg",
-            "imagePosition": "right",
-            "buttons": [
-              {
-                "text": "Profi-Check ausprobieren",
-                "variant": "primary",
-                "link": "#"
-              },
-              {
-                "text": "Wie funktioniert's?",
-                "variant": "secondary",
-                "link": "/profi-check"
-              }
-            ]
-          },
-          {
-            "title": "Fachübersetzung und mehr von 3000+ erfahrenen Sprachprofis",
-            "description": "Von der Lokalisierung Ihrer Website über mehrsprachiges Lektorat bis zum kreativen Copywriting für Ihre nächste Werbekampagne: Supertext und Textshuttle helfen neben leistungsstarker KI auch mit einem Netzwerk aus 3000 Profi-Übersetzern, -Texterinnen und -Lektoren. Flexibel, kreativ und zuverlässig nach ISO-zertifizierten Prozessen.",
-            "imagePosition": "left",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Working-Together--Streamline-Brooklyn.svg",
-            "buttons": [
-              {
-                "text": "Services entdecken",
-                "variant": "primary",
-                "link": "/language-expertise"
-              },
-              {
-                "text": "Direkt bestellen",
-                "variant": "secondary",
-                "link": "#",
-                "type": "(login)"
-              }
-            ]
-          },
-          {
-            "title": "Massgeschneiderte KI-Übersetzung für Unternehmen",
-            "description": "Mit spezifischem KI-Training integrieren wir Ihre Corporate Language zuverlässig in jede Übersetzung – für messbar bessere Sprachqualität bei laufend sinkenden Kosten. Nutzbar als frei zugängliches Tool für alle Mitarbeitenden oder als Grundlage für Ihre eigenen Profi-Übersetzer:innen.",
-            "imagePosition": "right",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
-            "buttons": [
-              {
-                "text": "Neugierig? Lassen Sie uns reden",
-                "variant": "primary",
-                "link": "/contact"
-              }
-            ]
-          }
-        ],
-        "footerNote": {
-          "text": "Mit Supertext und Textshuttle übersetzen Sie <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0% bis 100 % automatisiert.",
-          "cta": {
-            "title": "Zur Business Lösung",
-            "link": "/abos",
-            "target": "_blank"
-          }
-        }
-      },
       "whySupertext": {
         "hero": {
           "title": "Wir denken Übersetzung neu",
@@ -3507,6 +3377,136 @@
           "cta": {
             "title": "Lassen Sie uns reden",
             "link": "/kontakt",
+            "target": "_blank"
+          }
+        }
+      },
+      "textshuttleLandingPage": {
+        "welcomeBanner": {
+          "title": "TEXTSHUTTLE HEISST NEU SUPERTEXT",
+          "text": "Besser, schneller und sicherer übersetzen mit unserer neuen All-in-one-Lösung.",
+          "cta": "Mehr erfahren",
+          "close": "Schliessen"
+        },
+        "heroSection": {
+          "mainHeading": "Textshuttle heisst jetzt Supertext –<break></break> mit neuer KI, neuen Angeboten und<break></break> neuem Look",
+          "leading": "Entdecken Sie unsere All-in-one-Übersetzungslösung für jede Art von Content - jetzt noch besser dank neuster LLM-Technologie und Profi-Support als Add-on.<break></break><break></break>Wie schon bei Textshuttle profitieren Sie auch bei Supertext von:<break></break><list><listItem>KI-Übersetzung in bis zu 23 Sprachen – sogar Schweizerdeutsch und Rätoromanisch</listItem><listItem>Höchster Datensicherheit dank Hosting in der Schweiz</listItem><listItem>Praktischen Übersetzungsfeatures wie Wortalternativen und Rephrasing</listItem></list>"
+        },
+        "languagePairs": {
+          "title": "Der Textshuttle-Übersetzer wird zu Supertext. Was steckt drin?",
+          "subtitle": "Sofort übersetzen in bis zu 23 Sprachen",
+          "description": "Unser bewährter KI-Übersetzer mit allen Features, die Sie von Textshuttle kennen – und nun noch besseren Resultaten dank hauseigener LLM-Technologie. Einfach, nach höchsten Sicherheitsstandards und exklusiv in der Schweiz gehostet.",
+          "ctaButton": {
+            "text": "Direkt loslegen",
+            "variant": "primary",
+            "href": "#"
+          },
+          "features": {
+            "charactersPerRequest": "Bis 3000 Zeichen pro Anfrage",
+            "documentsPerMonth": "5 Dokumente pro Monat übersetzen"
+          },
+          "registrationNote": "Übrigens: Mit einer kostenlosen Registrierung profitieren Sie von noch mehr Leistung mit unserer Übersetzungssoftware.",
+          "registerCtaButton": {
+            "text": "Jetzt registrieren",
+            "variant": "primary",
+            "href": "#",
+            "type": "(login)"
+          },
+          "popularLanguages": {
+            "title": "Unsere beliebtesten Sprachkombinationen",
+            "links": [
+              {
+                "text": "Deutsch - Englisch",
+                "href": "#"
+              },
+              {
+                "text": "Deutsch - Französisch",
+                "href": "#"
+              },
+              {
+                "text": "Deutsch - Italienisch",
+                "href": "#"
+              },
+              {
+                "text": "Deutsch - Schweizerdeutsch",
+                "href": "#"
+              },
+              {
+                "text": "Deutsch - Rätoromanisch",
+                "href": "#"
+              },
+              {
+                "text": "Englisch - Deutsch",
+                "href": "#"
+              },
+              {
+                "text": "Französisch - Deutsch",
+                "href": "#"
+              },
+              {
+                "text": "Italienisch - Deutsch",
+                "href": "#"
+              }
+            ]
+          }
+        },
+        "featureSections": [
+          {
+            "title": "Sicher sein, in Minuten statt Stunden. Mit unserem Profi-Check als Add-on.",
+            "description": "Dank der Fusion von Supertext und Textshuttle können Sie besonders wichtige Übersetzungen neu sofort von erfahrenen Linguist:innen prüfen lassen. Unser Profi-Check – verfügbar schon ab CHF 5.70 und 8 Minuten Wartezeit.",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/12_12_Mobile-Verification-explainer.svg",
+            "imagePosition": "right",
+            "buttons": [
+              {
+                "text": "Profi-Check ausprobieren",
+                "variant": "primary",
+                "link": "#"
+              },
+              {
+                "text": "Wie funktioniert's?",
+                "variant": "secondary",
+                "link": "/profi-check"
+              }
+            ]
+          },
+          {
+            "title": "Fachübersetzung und mehr von 3000+ erfahrenen Sprachprofis",
+            "description": "Von der Lokalisierung Ihrer Website über mehrsprachiges Lektorat bis zum kreativen Copywriting für Ihre nächste Werbekampagne: Supertext und Textshuttle helfen neben leistungsstarker KI auch mit einem Netzwerk aus 3000 Profi-Übersetzern, -Texterinnen und -Lektoren. Flexibel, kreativ und zuverlässig nach ISO-zertifizierten Prozessen.",
+            "imagePosition": "left",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Working-Together--Streamline-Brooklyn.svg",
+            "buttons": [
+              {
+                "text": "Services entdecken",
+                "variant": "primary",
+                "link": "/language-expertise"
+              },
+              {
+                "text": "Direkt bestellen",
+                "variant": "secondary",
+                "link": "#",
+                "type": "(login)"
+              }
+            ]
+          },
+          {
+            "title": "Massgeschneiderte KI-Übersetzung für Unternehmen",
+            "description": "Mit spezifischem KI-Training integrieren wir Ihre Corporate Language zuverlässig in jede Übersetzung – für messbar bessere Sprachqualität bei laufend sinkenden Kosten. Nutzbar als frei zugängliches Tool für alle Mitarbeitenden oder als Grundlage für Ihre eigenen Profi-Übersetzer:innen.",
+            "imagePosition": "right",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
+            "buttons": [
+              {
+                "text": "Neugierig? Lassen Sie uns reden",
+                "variant": "primary",
+                "link": "/contact"
+              }
+            ]
+          }
+        ],
+        "footerNote": {
+          "text": "Mit Supertext und Textshuttle übersetzen Sie <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0% bis 100 % automatisiert.",
+          "cta": {
+            "title": "Zur Business Lösung",
+            "link": "/abos",
             "target": "_blank"
           }
         }

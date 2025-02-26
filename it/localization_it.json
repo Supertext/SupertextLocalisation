@@ -1962,136 +1962,6 @@
       }
     },
     "pages": {
-      "textshuttleLandingPage": {
-        "welcomeBanner": {
-            "title": "ORA TEXTSHUTTLE SI CHIAMA SUPERTEXT",
-          "text": "Tradurre meglio, in modo più veloce e sicuro grazie alla nostra nuova soluzione all-in-one.",
-          "cta": "Scopri di più",
-          "close": "Chiudi"
-        },
-        "heroSection": {
-          "mainHeading": "Ora Textshuttle si chiama Supertext:<break></break> con una nuova IA, nuove offerte e un nuovo look",
-          "leading": "Scoprite la nostra soluzione di traduzione all-in-one per ogni tipo di contenuto, ora ulteriormente ottimizzata grazie alla più recente tecnologia LLM e alla verifica professionale come opzione aggiuntiva.<break></break><break></break>Come Textshuttle, anche Supertext offre:<break></break><list><listItem>Traduzione IA in 23 lingue, tra cui persino lo svizzero tedesco e il romancio</listItem><listItem>Massima sicurezza dei dati grazie all’hosting in Svizzera</listItem><listItem>Pratiche funzioni di traduzione, come formulazioni alternative e rephrasing</listItem></list>"
-        },
-        "languagePairs": {
-          "title": "Il traduttore di Textshuttle diventa Supertext. Cosa offre?",
-          "subtitle": "Tradurre istantaneamente in 23 lingue diverse",
-          "description": "Il nostro comprovato traduttore IA con tutte le funzioni già offerte da Textshuttle e ora ancora più performante grazie alla nostra tecnologia LLM. Un servizio semplice, conforme ai massimi standard di sicurezza e con un hosting situato esclusivamente in Svizzera.",
-          "ctaButton": {
-            "text": "Inizia subito",
-            "variant": "primary",
-            "href": "#"
-          },
-          "features": {
-            "charactersPerRequest": "Traudzione fino a 3000 caratteri a testo",
-            "documentsPerMonth": "5 documenti al mese"
-          },
-          "registrationNote": "Ma non è tutto: con la registrazione gratuita potete usufruire di prestazioni ancora più elevate con il nostro software di traduzione.",
-          "registerCtaButton": {
-            "text": "Registrati ora",
-            "variant": "primary",
-            "href": "#",
-            "type": "(login)"
-          },
-          "popularLanguages": {
-            "title": "Le nostre combinazioni linguistiche più utilizzate",
-            "links": [
-              {
-                "text": "Tedesco - Inglese",
-                "href": "#"
-              },
-              {
-                "text": "Tedesco - Francese",
-                "href": "#"
-              },
-              {
-                "text": "Tedesco - Italiano",
-                "href": "#"
-              },
-              {
-                "text": "Tedesco - Svizzero Tedesco",
-                "href": "#"
-              },
-              {
-                "text": "Tedesco - Romancio",
-                "href": "#"
-              },
-              {
-                "text": "Inglese - Tedesco",
-                "href": "#"
-              },
-              {
-                "text": "Francese - Tedesco",
-                "href": "#"
-              },
-              {
-                "text": "Italiano - Tedesco",
-                "href": "#"
-              }
-            ]
-          }
-        },
-        "featureSections": [
-          {
-            "title": "Correttezza garantita nel giro di pochi minuti anziché ore. Con il nostro check professionale come opzione aggiuntiva.",
-            "description": "Grazie alla fusione tra Supertext e Textshuttle, ora potete far verificare subito le traduzioni più importanti da linguisti esperti. La nostra verifica professionale, disponibile già a partire da CHF 5.70 con un’attesa prevista di 8 minuti.",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/12_12_Mobile-Verification-explainer.svg",
-            "imagePosition": "right",
-            "buttons": [
-              {
-                "text": "Prova la verifica professionale",
-                "variant": "primary",
-                "link": "#"
-              },
-              {
-                "text": "Come funziona?",
-                "variant": "secondary",
-                "link": "/profi-check"
-              }
-            ]
-          },
-          {
-            "title": "Traduzione professionale e più di 3000+ professionisti e professioniste di comprovata esperienza",
-            "description": "Dalla localizzazione del vostro sito web alla revisione multilingue, fino al copywriting creativo per la vostra prossima campagna pubblicitaria: oltre a offrire una potente IA, Supertext e Textshuttle sono al vostro servizio anche con una rete di 3000 traduttori, redattori e revisori professionisti. Flessibilità, creatività, affidabilità e processi conformi a certificazione ISO.",
-            "imagePosition": "left",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Working-Together--Streamline-Brooklyn.svg",
-            "buttons": [
-              {
-                "text": "Scopri i servizi",
-                "variant": "primary",
-                "link": "/language-expertise"
-              },
-              {
-                "text": "Ordina direttamente",
-                "variant": "secondary",
-                "link": "#",
-                "type": "(login)"
-              }
-            ]
-          },
-          {
-            "title": "Traduzione IA su misura per le aziende",
-            "description": "Con l’addestramento del modello IA integriamo il vostro wording aziendale in ogni traduzione, per raggiungere una qualità linguistica nettamente superiore a costi sempre più bassi. Utilizzabile come tool liberamente accessibile a tutti i collaboratori o come base di partenza per i vostri traduttori professionisti.",
-            "imagePosition": "right",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
-            "buttons": [
-              {
-                "text": "Volete saperne di più? Parliamone.",
-                "variant": "primary",
-                "link": "/contact"
-              }
-            ]
-          }
-        ],
-        "footerNote": {
-          "text": "Con Supertext e Textshuttle traducete <highlight>meglio</highlight> , in modo <highlight>più rapido, conveniente</highlight> e <highlight>sicuro</highlight>. Il tutto automatizzato dallo 0% al 100%.",
-          "cta": {
-            "title": "Alla soluzione business",
-            "link": "/abos",
-            "target": "_blank"
-          }
-        }
-      },
       "whySupertext": {
         "hero": {
           "title": "Il nostro nuovo concept di traduzione",
@@ -3507,6 +3377,136 @@
           "cta": {
             "title": "Parliamone",
             "link": "/contatto",
+            "target": "_blank"
+          }
+        }
+      },
+      "textshuttleLandingPage": {
+        "welcomeBanner": {
+          "title": "ORA TEXTSHUTTLE SI CHIAMA SUPERTEXT",
+          "text": "Tradurre meglio, in modo più veloce e sicuro grazie alla nostra nuova soluzione all-in-one.",
+          "cta": "Scopri di più",
+          "close": "Chiudi"
+        },
+        "heroSection": {
+          "mainHeading": "Ora Textshuttle si chiama Supertext:<break></break> con una nuova IA, nuove offerte e un nuovo look",
+          "leading": "Scoprite la nostra soluzione di traduzione all-in-one per ogni tipo di contenuto, ora ulteriormente ottimizzata grazie alla più recente tecnologia LLM e alla verifica professionale come opzione aggiuntiva.<break></break><break></break>Come Textshuttle, anche Supertext offre:<break></break><list><listItem>Traduzione IA in 23 lingue, tra cui persino lo svizzero tedesco e il romancio</listItem><listItem>Massima sicurezza dei dati grazie all’hosting in Svizzera</listItem><listItem>Pratiche funzioni di traduzione, come formulazioni alternative e rephrasing</listItem></list>"
+        },
+        "languagePairs": {
+          "title": "Il traduttore di Textshuttle diventa Supertext. Cosa offre?",
+          "subtitle": "Tradurre istantaneamente in 23 lingue diverse",
+          "description": "Il nostro comprovato traduttore IA con tutte le funzioni già offerte da Textshuttle e ora ancora più performante grazie alla nostra tecnologia LLM. Un servizio semplice, conforme ai massimi standard di sicurezza e con un hosting situato esclusivamente in Svizzera.",
+          "ctaButton": {
+            "text": "Inizia subito",
+            "variant": "primary",
+            "href": "#"
+          },
+          "features": {
+            "charactersPerRequest": "Traudzione fino a 3000 caratteri a testo",
+            "documentsPerMonth": "5 documenti al mese"
+          },
+          "registrationNote": "Ma non è tutto: con la registrazione gratuita potete usufruire di prestazioni ancora più elevate con il nostro software di traduzione.",
+          "registerCtaButton": {
+            "text": "Registrati ora",
+            "variant": "primary",
+            "href": "#",
+            "type": "(login)"
+          },
+          "popularLanguages": {
+            "title": "Le nostre combinazioni linguistiche più utilizzate",
+            "links": [
+              {
+                "text": "Tedesco - Inglese",
+                "href": "#"
+              },
+              {
+                "text": "Tedesco - Francese",
+                "href": "#"
+              },
+              {
+                "text": "Tedesco - Italiano",
+                "href": "#"
+              },
+              {
+                "text": "Tedesco - Svizzero Tedesco",
+                "href": "#"
+              },
+              {
+                "text": "Tedesco - Romancio",
+                "href": "#"
+              },
+              {
+                "text": "Inglese - Tedesco",
+                "href": "#"
+              },
+              {
+                "text": "Francese - Tedesco",
+                "href": "#"
+              },
+              {
+                "text": "Italiano - Tedesco",
+                "href": "#"
+              }
+            ]
+          }
+        },
+        "featureSections": [
+          {
+            "title": "Correttezza garantita nel giro di pochi minuti anziché ore. Con il nostro check professionale come opzione aggiuntiva.",
+            "description": "Grazie alla fusione tra Supertext e Textshuttle, ora potete far verificare subito le traduzioni più importanti da linguisti esperti. La nostra verifica professionale, disponibile già a partire da CHF 5.70 con un’attesa prevista di 8 minuti.",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/12_12_Mobile-Verification-explainer.svg",
+            "imagePosition": "right",
+            "buttons": [
+              {
+                "text": "Prova la verifica professionale",
+                "variant": "primary",
+                "link": "#"
+              },
+              {
+                "text": "Come funziona?",
+                "variant": "secondary",
+                "link": "/profi-check"
+              }
+            ]
+          },
+          {
+            "title": "Traduzione professionale e più di 3000+ professionisti e professioniste di comprovata esperienza",
+            "description": "Dalla localizzazione del vostro sito web alla revisione multilingue, fino al copywriting creativo per la vostra prossima campagna pubblicitaria: oltre a offrire una potente IA, Supertext e Textshuttle sono al vostro servizio anche con una rete di 3000 traduttori, redattori e revisori professionisti. Flessibilità, creatività, affidabilità e processi conformi a certificazione ISO.",
+            "imagePosition": "left",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Working-Together--Streamline-Brooklyn.svg",
+            "buttons": [
+              {
+                "text": "Scopri i servizi",
+                "variant": "primary",
+                "link": "/language-expertise"
+              },
+              {
+                "text": "Ordina direttamente",
+                "variant": "secondary",
+                "link": "#",
+                "type": "(login)"
+              }
+            ]
+          },
+          {
+            "title": "Traduzione IA su misura per le aziende",
+            "description": "Con l’addestramento del modello IA integriamo il vostro wording aziendale in ogni traduzione, per raggiungere una qualità linguistica nettamente superiore a costi sempre più bassi. Utilizzabile come tool liberamente accessibile a tutti i collaboratori o come base di partenza per i vostri traduttori professionisti.",
+            "imagePosition": "right",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
+            "buttons": [
+              {
+                "text": "Volete saperne di più? Parliamone.",
+                "variant": "primary",
+                "link": "/contact"
+              }
+            ]
+          }
+        ],
+        "footerNote": {
+          "text": "Con Supertext e Textshuttle traducete <highlight>meglio</highlight> , in modo <highlight>più rapido, conveniente</highlight> e <highlight>sicuro</highlight>. Il tutto automatizzato dallo 0% al 100%.",
+          "cta": {
+            "title": "Alla soluzione business",
+            "link": "/abos",
             "target": "_blank"
           }
         }

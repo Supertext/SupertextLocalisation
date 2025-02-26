@@ -1271,18 +1271,18 @@
               "modal": {
                 "title": "Meine Aufträge und Rechnungen",
                 "info": "Nur Mitglieder Ihres Teams können Zugang zu Ihren Rechnungen und Aufträgen erhalten.",
-                "searchInputPlaceholder": "Suche nach Email Adresse oder Namen",
-                "authoriseUser": "Zugang geben",
+                "searchInputPlaceholder": "Suche nach E-Mail-Adresse oder Namen",
+                "authoriseUser": "Zugang autorisieren",
                 "deleteConfirm": {
                   "title": "Mitglied löschen",
-                  "info": "Sind Sie sicher, dass Sie den Benutzer aus der Berechtigungssliste entfernen möchten?",
+                  "info": "Sind Sie sicher, dass Sie den:die Benutzer:in aus der Berechtigungsliste entfernen möchten?",
                   "confirm": "Ja, entfernen"
                 },
                 "notifications": {
-                  "userAddSuccess": "Der Benutzer wurde erfolgreich zur Berechtigungssliste hinzugefügt.",
-                  "userAddError": "Der Benutzer konnte nicht zur Berechtigungssliste hinzugefügt werden.",
-                  "userRemoveSuccess": "Der Benutzer wurde erfolgreich aus der Berechtigungssliste entfernt.",
-                  "userRemoveError": "Der Benutzer konnte nicht aus der Berechtigungssliste entfernt werden."
+                  "userAddSuccess": "Der:Die Benutzer:in wurde erfolgreich zur Berechtigungsliste hinzugefügt.",
+                  "userAddError": "Der:Die Benutzer:in konnte nicht zur Berechtigungsliste hinzugefügt werden.",
+                  "userRemoveSuccess": "Der:Die Benutzer:in wurde erfolgreich aus der Berechtigungsliste entfernt.",
+                  "userRemoveError": "Der:Die Benutzer:in konnte nicht aus der Berechtigungsliste entfernt werden."
                 }
               }
             }

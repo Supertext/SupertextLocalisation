@@ -1962,6 +1962,136 @@
       }
     },
     "pages": {
+      "textshuttleLandingPage": {
+        "welcomeBanner": {
+          "title": "TEXTSHUTTLE IS NOW SUPERTEXT",
+          "text": "Translate better, faster and more securely with our new all-in-one solution.",
+          "cta": "Find out more",
+          "close": "Close"
+        },
+        "heroSection": {
+          "mainHeading": "Textshuttle is now Supertext – with<break></break> a new AI, new products and a new look",
+          "leading": "Discover our all-in-one translation solution for any type of content – now even better thanks to the latest LLM technology and professional support as an add-on.<break></break><break></break>Just like Textshuttle, Supertext offers you:<break></break><list><listItem>AI translation in up to 23 languages – including Swiss German and Romansh</listItem><listItem>Maximum data security thanks to hosting in Switzerland</listItem><listItem>Practical translation features such as rewording and rephrasing</listItem></list>"
+        },
+        "languagePairs": {
+          "title": "The Textshuttle translator is now Supertext. What’s on offer?",
+          "subtitle": "Translate into up to 23 languages in seconds",
+          "description": "Our tried-and-tested AI translator with all your favourite Textshuttle features – now with even better results thanks to in-house LLM technology. Simple, built to the highest security standards and hosted exclusively in Switzerland.",
+          "ctaButton": {
+            "text": "Get started now",
+            "variant": "primary",
+            "href": "#"
+          },
+          "features": {
+            "charactersPerRequest": "Up to 3,000 characters per request",
+            "documentsPerMonth": "Translate up to five documents per month"
+          },
+          "registrationNote": "What’s more, you can register for free to benefit from even higher performance from our translation software.",
+          "registerCtaButton": {
+            "text": "Register now",
+            "variant": "primary",
+            "href": "#",
+            "type": "(login)"
+          },
+          "popularLanguages": {
+            "title": "Our most popular language combinations",
+            "links": [
+              {
+                "text": "German - English",
+                "href": "#"
+              },
+              {
+                "text": "German - French",
+                "href": "#"
+              },
+              {
+                "text": "German - Italian",
+                "href": "#"
+              },
+              {
+                "text": "German - Swiss German",
+                "href": "#"
+              },
+              {
+                "text": "German - Romansh",
+                "href": "#"
+              },
+              {
+                "text": "English - German",
+                "href": "#"
+              },
+              {
+                "text": "French - German",
+                "href": "#"
+              },
+              {
+                "text": "Italian - German",
+                "href": "#"
+              }
+            ]
+          }
+        },
+        "featureSections": [
+          {
+            "title": "Peace of mind – in minutes, not hours. With professional Verification as an add-on.",
+            "description": "Thanks to the merger of Supertext and Textshuttle, you can now have particularly important translations checked immediately by experienced linguists. Our Verification service is available from just CHF / EUR 5.70 and with a waiting time of 8 minutes.",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/12_12_Mobile-Verification-explainer.svg",
+            "imagePosition": "right",
+            "buttons": [
+              {
+                "text": "Try Verification",
+                "variant": "primary",
+                "link": "#"
+              },
+              {
+                "text": "How does it work?",
+                "variant": "secondary",
+                "link": "/profi-check"
+              }
+            ]
+          },
+          {
+            "title": "Specialist translation and more from 3,000+ experienced language professionals",
+            "description": "From website localisation to multilingual editing and creative copywriting for your next advertising campaign: in addition to providing a powerful AI, Supertext and Textshuttle also offer linguistic support with a network of more than 3,000 professional translators, editors and copywriters. Flexible, creative and reliable – according to ISO-certified processes.",
+            "imagePosition": "left",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Working-Together--Streamline-Brooklyn.svg",
+            "buttons": [
+              {
+                "text": "Discover services",
+                "variant": "primary",
+                "link": "/language-expertise"
+              },
+              {
+                "text": "Order now",
+                "variant": "secondary",
+                "link": "#",
+                "type": "(login)"
+              }
+            ]
+          },
+          {
+            "title": "Customised AI translation for companies",
+            "description": "Targeted AI training lets us reliably integrate your corporate language into every translation – for measurably better language quality at continuously decreasing costs. Available as a freely accessible tool for all employees or as a basis for your own professional translators.",
+            "imagePosition": "right",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
+            "buttons": [
+              {
+                "text": "Curious? Let’s talk.",
+                "variant": "primary",
+                "link": "/contact"
+              }
+            ]
+          }
+        ],
+        "footerNote": {
+          "text": "Supertext and Textshuttle help you translate <highlight>better, faster, cheaper</highlight> and <highlight>more securely</highlight>. From 0 to 100% automation.",
+          "cta": {
+            "title": "View business solution",
+            "link": "/abos",
+            "target": "_blank"
+          }
+        }
+      },
       "whySupertext": {
         "hero": {
           "title": "We are rethinking translation",

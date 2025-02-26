@@ -3409,8 +3409,8 @@
           "registerCtaButton": {
             "text": "S’inscrire maintenant",
             "variant": "primary",
-            "href": "#",
-            "type": "(login)"
+            "href": "/person/de/account/signin",
+            "type": "login"
           },
           "popularLanguages": {
             "title": "Nos paires de langues préférées",
@@ -3483,8 +3483,8 @@
               {
                 "text": "Commander directement",
                 "variant": "secondary",
-                "link": "#",
-                "type": "(login)"
+                "link": "/person/de/account/signin",
+                "type": "login"
               }
             ]
           },
@@ -3506,7 +3506,7 @@
           "text": "Avec Supertext et Textshuttle, vos traductions sont <highlight>de meilleure qualité</highlight> et ce de manière <highlight>plus rapide, économique</highlight> et <highlight>sûre</highlight>. Des processus automatisés de 0% à 100%.",
           "cta": {
             "title": "Voir la solution Business",
-            "link": "/abos",
+            "link": "/why-supertext",
             "target": "_blank"
           }
         }

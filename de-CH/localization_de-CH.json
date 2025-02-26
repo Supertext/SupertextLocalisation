@@ -3409,8 +3409,8 @@
           "registerCtaButton": {
             "text": "Jetzt registrieren",
             "variant": "primary",
-            "href": "#",
-            "type": "(login)"
+            "href": "/person/de/account/signin",
+            "type": "login"
           },
           "popularLanguages": {
             "title": "Unsere beliebtesten Sprachkombinationen",
@@ -3473,7 +3473,7 @@
             "title": "Fachübersetzung und mehr von 3000+ erfahrenen Sprachprofis",
             "description": "Von der Lokalisierung Ihrer Website über mehrsprachiges Lektorat bis zum kreativen Copywriting für Ihre nächste Werbekampagne: Supertext und Textshuttle helfen neben leistungsstarker KI auch mit einem Netzwerk aus 3000 Profi-Übersetzern, -Texterinnen und -Lektoren. Flexibel, kreativ und zuverlässig nach ISO-zertifizierten Prozessen.",
             "imagePosition": "left",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Working-Together--Streamline-Brooklyn.svg",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
             "buttons": [
               {
                 "text": "Services entdecken",
@@ -3483,16 +3483,16 @@
               {
                 "text": "Direkt bestellen",
                 "variant": "secondary",
-                "link": "#",
-                "type": "(login)"
+                "link": "/person/de/account/signin",
+                "type": "login"
               }
             ]
           },
           {
             "title": "Massgeschneiderte KI-Übersetzung für Unternehmen",
             "description": "Mit spezifischem KI-Training integrieren wir Ihre Corporate Language zuverlässig in jede Übersetzung – für messbar bessere Sprachqualität bei laufend sinkenden Kosten. Nutzbar als frei zugängliches Tool für alle Mitarbeitenden oder als Grundlage für Ihre eigenen Profi-Übersetzer:innen.",
+            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Working-Together--Streamline-Brooklyn.svg",
             "imagePosition": "right",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
             "buttons": [
               {
                 "text": "Neugierig? Lassen Sie uns reden",
@@ -3506,7 +3506,7 @@
           "text": "Mit Supertext und Textshuttle übersetzen Sie <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0% bis 100 % automatisiert.",
           "cta": {
             "title": "Zur Business Lösung",
-            "link": "/abos",
+            "link": "/why-supertext",
             "target": "_blank"
           }
         }

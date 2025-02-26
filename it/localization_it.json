@@ -3409,8 +3409,8 @@
           "registerCtaButton": {
             "text": "Registrati ora",
             "variant": "primary",
-            "href": "#",
-            "type": "(login)"
+            "href": "/person/de/account/signin",
+            "type": "login"
           },
           "popularLanguages": {
             "title": "Le nostre combinazioni linguistiche più utilizzate",
@@ -3483,8 +3483,8 @@
               {
                 "text": "Ordina direttamente",
                 "variant": "secondary",
-                "link": "#",
-                "type": "(login)"
+                "link": "/person/de/account/signin",
+                "type": "login"
               }
             ]
           },
@@ -3506,7 +3506,7 @@
           "text": "Con Supertext e Textshuttle traducete <highlight>meglio</highlight> , in modo <highlight>più rapido, conveniente</highlight> e <highlight>sicuro</highlight>. Il tutto automatizzato dallo 0% al 100%.",
           "cta": {
             "title": "Alla soluzione business",
-            "link": "/abos",
+            "link": "/why-supertext",
             "target": "_blank"
           }
         }

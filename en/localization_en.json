@@ -1962,6 +1962,7 @@
       }
     },
     "pages": {
+      
       "whySupertext": {
         "hero": {
           "title": "We are rethinking translation",
@@ -3409,8 +3410,8 @@
           "registerCtaButton": {
             "text": "Register now",
             "variant": "primary",
-            "href": "#",
-            "type": "(login)"
+            "href": "/person/de/account/signin",
+            "type": "login"
           },
           "popularLanguages": {
             "title": "Our most popular language combinations",
@@ -3483,8 +3484,8 @@
               {
                 "text": "Order now",
                 "variant": "secondary",
-                "link": "#",
-                "type": "(login)"
+                "link": "/person/de/account/signin",
+                "type": "login"
               }
             ]
           },
@@ -3506,7 +3507,7 @@
           "text": "Supertext and Textshuttle help you translate <highlight>better, faster, cheaper</highlight> and <highlight>more securely</highlight>. From 0 to 100% automation.",
           "cta": {
             "title": "View business solution",
-            "link": "/abos",
+            "link": "/why-supertext",
             "target": "_blank"
           }
         }

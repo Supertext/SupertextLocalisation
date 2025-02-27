@@ -806,12 +806,6 @@
         "consultation": "Beratung",
         "aiTranslationVerification": "AI-Translation & Verifizierung"
       },
-      "roleBasedUserMenuLinks": {
-        "localReview": "Local Review",
-        "termBase": "Termbase",
-        "application": "Application",
-        "jobs": "Jobs"
-      },
       "changeLanguage": "Sprache ändern",
       "changeCountry": "Land ändern",
       "country": {
@@ -827,6 +821,12 @@
           "title": "Mehr erfahren",
           "description": "Erfahrene Expert:innen und ISO-zertifizierte Prozesse: <link>alles zu unserer Sprachexpertise</link>"
         }
+      },
+      "roleBasedUserMenuLinks": {
+        "localReview": "Local Review",
+        "termBase": "Termbase",
+        "application": "Application",
+        "jobs": "Jobs"
       }
     },
     "filter": {

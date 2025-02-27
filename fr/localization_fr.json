@@ -806,12 +806,6 @@
         "consultation": "Conseil",
         "aiTranslationVerification": "Traduction par l'IA & vérification"
       },
-      "roleBasedUserMenuLinks": {
-        "localReview": "Local Review",
-        "termBase": "Termbase",
-        "application": "Application",
-        "jobs": "Jobs"
-      },
       "changeLanguage": "Modifier la langue",
       "changeCountry": "Modifier le pays",
       "country": {
@@ -1518,7 +1512,7 @@
       },
       "stepThree": {
         "title": "Ça a fonctionné!",
-        "description": "Votre traduction est à présent en cours de vérification par nos spécialistes, qui la corrigeront lorsque nécessaire. Vous recevrez une traduction garantie correcte sur le plan du contenu, de l’orthographe et de la grammaire.",
+        "description": "Votre traduction est à présent en cours de vérification par nos spécialistes, qui la corrigeront lorsque nécessaire. Dès que la vérification professionnelle sera terminée, vous recevrez un e-mail contenant un lien vers votre traduction vérifiée.",
         "button": "D’accord! Fermer la fenêtre.",
         "startNew": "Lancer une nouvelle traduction"
       },
@@ -3415,8 +3409,8 @@
           "registerCtaButton": {
             "text": "S’inscrire maintenant",
             "variant": "primary",
-            "href": "/person/de/account/signin",
-            "type": "login"
+            "href": "/personne/fr/compte/connexion",
+            "type": "connexion"
           },
           "popularLanguages": {
             "title": "Nos paires de langues préférées",
@@ -3471,7 +3465,7 @@
               {
                 "text": "Comment ça marche?",
                 "variant": "secondary",
-                "link": "/profi-check"
+                "link": "/verification-professionnelle"
               }
             ]
           },
@@ -3484,13 +3478,13 @@
               {
                 "text": "Découvrir les services",
                 "variant": "primary",
-                "link": "/language-expertise"
+                "link": "/expertise-linguistique"
               },
               {
                 "text": "Commander directement",
                 "variant": "secondary",
-                "link": "/person/de/account/signin",
-                "type": "login"
+                "link": "/personne/fr/compte/connexion",
+                "type": "connexion"
               }
             ]
           },
@@ -3509,10 +3503,10 @@
           }
         ],
         "footerNote": {
-          "text": "Avec Supertext et Textshuttle, vos traductions sont <highlight>de meilleure qualité</highlight> et ce de manière <highlight>plus rapide, économique</highlight> et <highlight>sûre</highlight>. Des processus automatisés de 0% à 100%.",
+          "text": "Avec Supertext, vos traductions sont <highlight>de meilleure qualité</highlight> et ce de manière <highlight>plus rapide, économique</highlight> et <highlight>sûre</highlight>. Des processus automatisés de 0% à 100%.",
           "cta": {
             "title": "Voir la solution Business",
-            "link": "/why-supertext",
+            "link": "/pourquoi-supertext",
             "target": "_blank"
           }
         }
@@ -3553,7 +3547,7 @@
     "targetOverlays": {
       "verificationPayment": {
         "title": "Ça a fonctionné!",
-        "description": "Votre traduction est à présent en cours de vérification par nos spécialistes, qui la corrigeront lorsque nécessaire. Vous recevrez une traduction garantie correcte sur le plan du contenu, de l’orthographe et de la grammaire.",
+        "description": "Votre traduction est à présent en cours de vérification par nos spécialistes, qui la corrigeront lorsque nécessaire. Dès que la vérification professionnelle sera terminée, vous recevrez un e-mail contenant un lien vers votre traduction vérifiée.",
         "newTranslationButton": "Lancer une nouvelle traduction",
         "altText": "Illustration d’une personne au téléphone, détendue"
       },

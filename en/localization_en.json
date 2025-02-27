@@ -806,12 +806,6 @@
         "consultation": "Consultation",
         "aiTranslationVerification": "AI translation & Verification"
       },
-      "roleBasedUserMenuLinks": {
-        "localReview": "Local Review",
-        "termBase": "Termbase",
-        "application": "Application",
-        "jobs": "Jobs"
-      },
       "changeLanguage": "Change language",
       "changeCountry": "Change country",
       "country": {
@@ -1518,7 +1512,7 @@
       },
       "stepThree": {
         "title": "Success!",
-        "description": "Your translation is now being checked and, if necessary, corrected by our experts. You will receive a translation that is guaranteed to be correct in terms of content, spelling and grammar.",
+        "description": "Your translation is now being checked and, if necessary, corrected by our experts. Once complete, you will receive an email with a link to your verified translation.",
         "button": "Okay! Close the window.",
         "startNew": "Start new translation"
       },
@@ -3395,7 +3389,7 @@
           "close": "Close"
         },
         "heroSection": {
-          "mainHeading": "Textshuttle is now Supertext – with<break></break> a new AI, new products and a new look",
+          "mainHeading": "Textshuttle is now Supertext – with<break></break> a new AI, new products and <break></break>a new look",
           "leading": "Discover our all-in-one translation solution for any type of content – now even better thanks to the latest LLM technology and professional support as an add-on.<break></break><break></break>Just like Textshuttle, Supertext offers you:<break></break><list><listItem>AI translation in up to 23 languages – including Swiss German and Romansh</listItem><listItem>Maximum data security thanks to hosting in Switzerland</listItem><listItem>Practical translation features such as rewording and rephrasing</listItem></list>"
         },
         "languagePairs": {
@@ -3415,42 +3409,42 @@
           "registerCtaButton": {
             "text": "Register now",
             "variant": "primary",
-            "href": "/person/de/account/signin",
+            "href": "/person/en/account/signin",
             "type": "login"
           },
           "popularLanguages": {
             "title": "Our most popular language combinations",
             "links": [
               {
-                "text": "German - English",
+                "text": "German–English",
                 "href": "#"
               },
               {
-                "text": "German - French",
+                "text": "German–French",
                 "href": "#"
               },
               {
-                "text": "German - Italian",
+                "text": "German–Italian",
                 "href": "#"
               },
               {
-                "text": "German - Swiss German",
+                "text": "German–Swiss German",
                 "href": "#"
               },
               {
-                "text": "German - Romansh",
+                "text": "German–Romansh",
                 "href": "#"
               },
               {
-                "text": "English - German",
+                "text": "English–German",
                 "href": "#"
               },
               {
-                "text": "French - German",
+                "text": "French–German",
                 "href": "#"
               },
               {
-                "text": "Italian - German",
+                "text": "Italian–German",
                 "href": "#"
               }
             ]
@@ -3459,7 +3453,7 @@
         "featureSections": [
           {
             "title": "Peace of mind – in minutes, not hours. With professional Verification as an add-on.",
-            "description": "Thanks to the merger of Supertext and Textshuttle, you can now have particularly important translations checked immediately by experienced linguists. Our Verification service is available from just CHF / EUR 5.70 and with a waiting time of 8 minutes.",
+            "description": "Thanks to the merger of Supertext and Textshuttle, you can now have particularly important translations checked immediately by experienced linguists. Our Verification service is available from just CHF/EUR 5.70 and within 8 minutes.",
             "imageUrl": "/images/pages/textshuttle-is-now-supertext/12_12_Mobile-Verification-explainer.svg",
             "imagePosition": "right",
             "buttons": [
@@ -3471,7 +3465,7 @@
               {
                 "text": "How does it work?",
                 "variant": "secondary",
-                "link": "/profi-check"
+                "link": "/verification"
               }
             ]
           },
@@ -3489,7 +3483,7 @@
               {
                 "text": "Order now",
                 "variant": "secondary",
-                "link": "/person/de/account/signin",
+                "link": "/person/en/account/signin",
                 "type": "login"
               }
             ]
@@ -3509,7 +3503,7 @@
           }
         ],
         "footerNote": {
-          "text": "Supertext and Textshuttle help you translate <highlight>better, faster, cheaper</highlight> and <highlight>more securely</highlight>. From 0 to 100% automation.",
+          "text": "Supertext helps you translate <highlight>better, faster, cheaper</highlight> and <highlight>more securely</highlight>. From 0 to 100% automation.",
           "cta": {
             "title": "View business solution",
             "link": "/why-supertext",
@@ -3553,7 +3547,7 @@
     "targetOverlays": {
       "verificationPayment": {
         "title": "Success!",
-        "description": "Your translation is now being checked and, if necessary, corrected by our experts. You will receive a translation that is guaranteed to be correct in terms of content, spelling and grammar.",
+        "description": "Your translation is now being checked and, if necessary, corrected by our experts. Once complete, you will receive an email with a link to your verified translation.",
         "newTranslationButton": "Start new translation",
         "altText": "Illustration of a relaxed person on the phone"
       },

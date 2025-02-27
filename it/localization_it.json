@@ -806,12 +806,6 @@
         "consultation": "Consulenza",
         "aiTranslationVerification": "Traduzione IA & verifica"
       },
-      "roleBasedUserMenuLinks": {
-        "localReview": "Local Review",
-        "termBase": "Termbase",
-        "application": "Application",
-        "jobs": "Jobs"
-      },
       "changeLanguage": "Cambia lingua",
       "changeCountry": "Modifica Paese",
       "country": {
@@ -1518,7 +1512,7 @@
       },
       "stepThree": {
         "title": "Fatto!",
-        "description": "Ora la Sua traduzione verrà verificata e, laddove necessario, corretta dai nostri esperti. Riceverà una traduzione corretta a livello di contenuto, ortografia e grammatica.",
+        "description": "Ora la Sua traduzione verrà verificata e, laddove necessario, corretta dai nostri esperti. Non appena la verifica professionale è terminata, riceverà una mail contenente un link alla Sua traduzione verificata.",
         "button": "Ok! Chiudi la finestra.",
         "startNew": "Inizia una nuova traduzione"
       },
@@ -3415,42 +3409,42 @@
           "registerCtaButton": {
             "text": "Registrati ora",
             "variant": "primary",
-            "href": "/person/de/account/signin",
+            "href": "/person/it/account/signin",
             "type": "login"
           },
           "popularLanguages": {
             "title": "Le nostre combinazioni linguistiche più utilizzate",
             "links": [
               {
-                "text": "Tedesco - Inglese",
+                "text": "Tedesco → inglese",
                 "href": "#"
               },
               {
-                "text": "Tedesco - Francese",
+                "text": "Tedesco → francese",
                 "href": "#"
               },
               {
-                "text": "Tedesco - Italiano",
+                "text": "Tedesco → italiano",
                 "href": "#"
               },
               {
-                "text": "Tedesco - Svizzero Tedesco",
+                "text": "Tedesco → svizzero tedesco",
                 "href": "#"
               },
               {
-                "text": "Tedesco - Romancio",
+                "text": "Tedesco → romancio",
                 "href": "#"
               },
               {
-                "text": "Inglese - Tedesco",
+                "text": "Inglese → tedesco",
                 "href": "#"
               },
               {
-                "text": "Francese - Tedesco",
+                "text": "Francese → tedesco",
                 "href": "#"
               },
               {
-                "text": "Italiano - Tedesco",
+                "text": "Italiano → tedesco",
                 "href": "#"
               }
             ]
@@ -3471,7 +3465,7 @@
               {
                 "text": "Come funziona?",
                 "variant": "secondary",
-                "link": "/profi-check"
+                "link": "/verifica-professionale"
               }
             ]
           },
@@ -3489,7 +3483,7 @@
               {
                 "text": "Ordina direttamente",
                 "variant": "secondary",
-                "link": "/person/de/account/signin",
+                "link": "/person/it/account/signin",
                 "type": "login"
               }
             ]
@@ -3509,7 +3503,7 @@
           }
         ],
         "footerNote": {
-          "text": "Con Supertext e Textshuttle traducete <highlight>meglio</highlight> , in modo <highlight>più rapido, conveniente</highlight> e <highlight>sicuro</highlight>. Il tutto automatizzato dallo 0% al 100%.",
+          "text": "Con Supertext traducete <highlight>meglio</highlight> , in modo <highlight>più rapido, conveniente</highlight> e <highlight>sicuro</highlight>. Il tutto automatizzato dallo 0% al 100%.",
           "cta": {
             "title": "Alla soluzione business",
             "link": "/why-supertext",
@@ -3553,7 +3547,7 @@
     "targetOverlays": {
       "verificationPayment": {
         "title": "Fatto!",
-        "description": "Ora la Sua traduzione verrà verificata e, laddove necessario, corretta dai nostri esperti. Riceverà una traduzione corretta a livello di contenuto, ortografia e grammatica.",
+        "description": "Ora la Sua traduzione verrà verificata e, laddove necessario, corretta dai nostri esperti. Non appena la verifica professionale è terminata, riceverà una mail contenente un link alla Sua traduzione verificata.",
         "newTranslationButton": "Inizia una nuova traduzione",
         "altText": "Immagine di una persona rilassata al telefono"
       },

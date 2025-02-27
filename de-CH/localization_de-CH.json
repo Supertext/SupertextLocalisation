@@ -806,12 +806,6 @@
         "consultation": "Beratung",
         "aiTranslationVerification": "AI-Translation & Verifizierung"
       },
-      "roleBasedUserMenuLinks": {
-        "localReview": "Local Review",
-        "termBase": "Termbase",
-        "application": "Application",
-        "jobs": "Jobs"
-      },
       "changeLanguage": "Sprache ändern",
       "changeCountry": "Land ändern",
       "country": {
@@ -1518,7 +1512,7 @@
       },
       "stepThree": {
         "title": "Vielen Dank!",
-        "description": "Ihre Übersetzung wird nun von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich und sprachlich korrekte Übersetzung.",
+        "description": "Ihre Übersetzung wird nun von unseren Expert:innen geprüft und wo nötig korrigiert. Sobald der Profi-Check abgeschlossen ist, erhalten Sie eine E-Mail mit dem Link zu Ihrer verifizierten Übersetzung.",
         "button": "D'accord! Fenster schliessen.",
         "startNew": "Neue Übersetzung starten"
       },
@@ -3396,7 +3390,7 @@
         },
         "heroSection": {
           "mainHeading": "Textshuttle heisst jetzt Supertext –<break></break> mit neuer KI, neuen Angeboten und<break></break> neuem Look",
-          "leading": "Entdecken Sie unsere All-in-one-Übersetzungslösung für jede Art von Content - jetzt noch besser dank neuster LLM-Technologie und Profi-Support als Add-on.<break></break><break></break>Wie schon bei Textshuttle profitieren Sie auch bei Supertext von:<break></break><list><listItem>KI-Übersetzung in bis zu 23 Sprachen – sogar Schweizerdeutsch und Rätoromanisch</listItem><listItem>Höchster Datensicherheit dank Hosting in der Schweiz</listItem><listItem>Praktischen Übersetzungsfeatures wie Wortalternativen und Rephrasing</listItem></list>"
+          "leading": "Entdecken Sie unsere All-in-one-Übersetzungslösung für jede Art von Content – jetzt noch besser dank neuster LLM-Technologie und Profi-Support als Add-on.<break></break><break></break>Wie schon bei Textshuttle profitieren Sie auch bei Supertext von:<break></break><list><listItem>KI-Übersetzung in bis zu 23 Sprachen – sogar Schweizerdeutsch und Rätoromanisch</listItem><listItem>höchster Datensicherheit dank Hosting in der Schweiz</listItem><listItem>praktischen Übersetzungsfeatures wie Wortalternativen und Rephrasing</listItem></list>"
         },
         "languagePairs": {
           "title": "Der Textshuttle-Übersetzer wird zu Supertext. Was steckt drin?",
@@ -3422,35 +3416,35 @@
             "title": "Unsere beliebtesten Sprachkombinationen",
             "links": [
               {
-                "text": "Deutsch - Englisch",
+                "text": "Deutsch → Englisch",
                 "href": "#"
               },
               {
-                "text": "Deutsch - Französisch",
+                "text": "Deutsch → Französisch",
                 "href": "#"
               },
               {
-                "text": "Deutsch - Italienisch",
+                "text": "Deutsch → Italienisch",
                 "href": "#"
               },
               {
-                "text": "Deutsch - Schweizerdeutsch",
+                "text": "Deutsch → Schweizerdeutsch",
                 "href": "#"
               },
               {
-                "text": "Deutsch - Rätoromanisch",
+                "text": "Deutsch → Rätoromanisch",
                 "href": "#"
               },
               {
-                "text": "Englisch - Deutsch",
+                "text": "Englisch → Deutsch",
                 "href": "#"
               },
               {
-                "text": "Französisch - Deutsch",
+                "text": "Französisch → Deutsch",
                 "href": "#"
               },
               {
-                "text": "Italienisch - Deutsch",
+                "text": "Italienisch → Deutsch",
                 "href": "#"
               }
             ]
@@ -3469,7 +3463,7 @@
                 "link": "#"
               },
               {
-                "text": "Wie funktioniert's?",
+                "text": "Wie funktioniert’s?",
                 "variant": "secondary",
                 "link": "/profi-check"
               }
@@ -3477,7 +3471,7 @@
           },
           {
             "title": "Fachübersetzung und mehr von 3000+ erfahrenen Sprachprofis",
-            "description": "Von der Lokalisierung Ihrer Website über mehrsprachiges Lektorat bis zum kreativen Copywriting für Ihre nächste Werbekampagne: Supertext und Textshuttle helfen neben leistungsstarker KI auch mit einem Netzwerk aus 3000 Profi-Übersetzern, -Texterinnen und -Lektoren. Flexibel, kreativ und zuverlässig nach ISO-zertifizierten Prozessen.",
+            "description": "Von der Lokalisierung Ihrer Website über mehrsprachiges Lektorat bis hin zum kreativen Copywriting für Ihre nächste Werbekampagne: Supertext und Textshuttle helfen neben leistungsstarker KI auch mit einem Netzwerk aus 3000 Profi-Übersetzern, -Texterinnen und -Lektoren. Flexibel, kreativ und zuverlässig nach ISO-zertifizierten Prozessen.",
             "imagePosition": "left",
             "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
             "buttons": [
@@ -3509,9 +3503,9 @@
           }
         ],
         "footerNote": {
-          "text": "Mit Supertext und Textshuttle übersetzen Sie <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0% bis 100 % automatisiert.",
+          "text": "Mit Supertext übersetzen Sie <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0 % bis 100 % automatisiert.",
           "cta": {
-            "title": "Zur Business Lösung",
+            "title": "Zur Business-Lösung",
             "link": "/why-supertext",
             "target": "_blank"
           }
@@ -3553,7 +3547,7 @@
     "targetOverlays": {
       "verificationPayment": {
         "title": "Vielen Dank!",
-        "description": "Ihre Übersetzung wird nun von unseren Expert:innen geprüft und wo nötig korrigiert. Sie erhalten eine garantiert inhaltlich und sprachlich korrekte Übersetzung.",
+        "description": "Ihre Übersetzung wird nun von unseren Expert:innen geprüft und wo nötig korrigiert. Sobald der Profi-Check abgeschlossen ist, erhalten Sie eine E-Mail mit dem Link zu Ihrer verifizierten Übersetzung.",
         "newTranslationButton": "Neue Übersetzung starten",
         "altText": "Illustration einer Person, die entspannt am Telefon ist"
       },

@@ -1053,7 +1053,7 @@
         "licenseValidation": "La licence doit contenir au moins deux caractères.",
         "comment": "Description (facultatif)",
         "commentValidation": "La description doit contenir au moins deux caractères.",
-        "company": "Organisation",
+        "company": "Entreprise/organisation",
         "name": "Nom",
         "changeName": "Modifier le nom",
         "nameValidation": "La description doit contenir au moins deux caractères.",
@@ -2884,7 +2884,7 @@
         },
         "isoCertificate": {
           "description": "Supertext est officiellement certifiée pour sa gestion de la sécurité de l’information, son système de gestion de la qualité et la qualité de ses traductions.",
-          "title": "Testée, normalisée et certifiée. Selon les normes ISO 27100, 9001, 17100 et 18587.",
+          "title": "Testée, normalisée et certifiée. Selon les normes ISO 27001, 9001, 17100 et 18587.",
           "cta": {
             "title": "Consulter les certificats",
             "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_certificates_Supertext_24_27_EN_e7a08d5452.pdf"

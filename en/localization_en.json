@@ -1053,7 +1053,7 @@
         "licenseValidation": "Licence must be at least 2 characters long",
         "comment": "Label (optional)",
         "commentValidation": "Label must be at least 2 characters long",
-        "company": "Organisation",
+        "company": "Company/organisation",
         "name": "Name",
         "changeName": "Change name",
         "nameValidation": "Label must be at least 2 characters long",
@@ -2884,7 +2884,7 @@
         },
         "isoCertificate": {
           "description": "Supertext is officially certified for its information security management, its quality management system and its translation quality.",
-          "title": "Tested, standardised and certified according to ISO 27100, 9001, 17100 and 18587.",
+          "title": "Tested, standardised and certified according to ISO 27001, 9001, 17100 and 18587.",
           "cta": {
             "title": "View certificates",
             "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_certificates_Supertext_24_27_EN_e7a08d5452.pdf"

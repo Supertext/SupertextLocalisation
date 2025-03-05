@@ -903,9 +903,17 @@
             "all": "Alle",
             "delivered": "Erledigt",
             "inProgress": "In Bearbeitung",
-            "onHold": "Zurückgestellt"
+            "onHold": "Zurückgestellt",
+            "collected": "Abgeholt"
+          }
+        },
+        "customFeatures": {
+          "sourceDocuments": {
+            "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
+            "upload": "Dokumenten Hochladen"
           }
         }
+
       },
       "invoices": {
         "title": "Rechnungen",

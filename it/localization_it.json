@@ -903,7 +903,14 @@
             "all": "Tutti",
             "delivered": "Terminato",
             "inProgress": "In fase di elaborazione",
-            "onHold": "In sospeso"
+            "onHold": "In sospeso",
+            "collected": "Abgeholt"
+          }
+        },
+        "customFeatures": {
+          "sourceDocuments": {
+            "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
+            "upload": "Dokumenten Hochladen"
           }
         }
       },

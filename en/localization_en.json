@@ -903,7 +903,14 @@
             "all": "All",
             "delivered": "Completed",
             "inProgress": "In progress",
-            "onHold": "On hold"
+            "onHold": "On hold",
+            "collected": "Abgeholt"
+          }
+        },
+        "customFeatures": {
+          "sourceDocuments": {
+            "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
+            "upload": "Dokumenten Hochladen"
           }
         }
       },

@@ -903,7 +903,14 @@
             "all": "Toutes",
             "delivered": "Terminées",
             "inProgress": "En cours",
-            "onHold": "En suspens"
+            "onHold": "En suspens",
+            "collected": "Abgeholt"
+          }
+        },
+        "customFeatures": {
+          "sourceDocuments": {
+            "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
+            "upload": "Dokumenten Hochladen"
           }
         }
       },

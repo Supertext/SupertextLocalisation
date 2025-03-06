@@ -1285,6 +1285,7 @@
                 "title": "Mes commandes et factures",
                 "info": "Seuls les membres de votre équipe peuvent avoir accès à vos factures et à vos commandes.",
                 "searchInputPlaceholder": "Rechercher une adresse e-mail ou un nom",
+                "searchInputPlaceholderNonTeamAdmin": "",
                 "authoriseUser": "Autoriser l’accès",
                 "deleteConfirm": {
                   "title": "Supprimer le membre",

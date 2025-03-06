@@ -1285,6 +1285,7 @@
                 "title": "My orders and invoices",
                 "info": "Only members of your team can be given access to your invoices and orders.",
                 "searchInputPlaceholder": "Search for an email address or name",
+                "searchInputPlaceholderNonTeamAdmin": "",
                 "authoriseUser": "Authorise",
                 "deleteConfirm": {
                   "title": "Delete member",

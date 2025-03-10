@@ -793,8 +793,8 @@
         "part1": "Supertext lets companies translate",
         "part2": "better, faster, cheaper",
         "part3": "and",
-        "part4": "more securely",
-        "part5": ". From 0% to 100% automated."
+        "part4": "more securely.",
+        "part5": "From 0% to 100% automated."
       },
       "languageExpertise": "Linguistic expertise",
       "languageExpertiseNav": {
@@ -823,7 +823,7 @@
         }
       },
       "roleBasedUserMenuLinks": {
-        "localReview": "Local Review",
+        "localReview": "LocalReview",
         "termBase": "Termbase",
         "application": "Application",
         "jobs": "Jobs"
@@ -837,9 +837,12 @@
       "removeFilter": "Remove filter",
       "types": {
         "role": "Role",
-        "license": "Licence"
+        "license": "Licence",
+        "status": "Status"
       },
-      "user": "User"
+      "user": "User",
+      "active": "Active",
+      "inactive": "Inactive"
     },
     "search": {
       "placeholder": "Search...",
@@ -904,13 +907,13 @@
             "delivered": "Completed",
             "inProgress": "In progress",
             "onHold": "On hold",
-            "collected": "Abgeholt"
+            "collected": "Picked up"
           }
         },
         "customFeatures": {
           "sourceDocuments": {
-            "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
-            "upload": "Dokumenten Hochladen"
+            "helpLine": "The source documents still need to be uploaded",
+            "upload": "Upload documents"
           }
         }
       },
@@ -1273,7 +1276,11 @@
               }
             },
             "afterTrialPeriod": "(after the test phase)",
-            "expiresOn": "Expires on"
+            "expiresOn": "Expires on",
+            "missingPaymentMethod": {
+              "message": "Please update your payment method before making any changes to your subscription.",
+              "link": "Update payment method"
+            }
           },
           "authorisations": {
             "title": "Access authorisations",
@@ -1285,7 +1292,6 @@
                 "title": "My orders and invoices",
                 "info": "Only members of your team can be given access to your invoices and orders.",
                 "searchInputPlaceholder": "Search for an email address or name",
-                "searchInputPlaceholderNonTeamAdmin": "",
                 "authoriseUser": "Authorise",
                 "deleteConfirm": {
                   "title": "Delete member",
@@ -1297,7 +1303,8 @@
                   "userAddError": "The user could not be added to the authorisation list.",
                   "userRemoveSuccess": "The user was successfully removed from the authorisation list.",
                   "userRemoveError": "The user could not be removed from the authorisation list."
-                }
+                },
+                "searchInputPlaceholderNonTeamAdmin": "E-mail from a team member"
               }
             }
           }

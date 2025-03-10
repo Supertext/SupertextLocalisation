@@ -793,8 +793,8 @@
         "part1": "Mit Supertext übersetzen Unternehmen",
         "part2": "besser, schneller, günstiger",
         "part3": "und",
-        "part4": "sicherer. Von",
-        "part5": "0 % bis 100 % automatisiert."
+        "part4": "sicherer.",
+        "part5": "Von 0 % bis 100 % automatisiert."
       },
       "languageExpertise": "Sprachexpertise",
       "languageExpertiseNav": {
@@ -823,7 +823,7 @@
         }
       },
       "roleBasedUserMenuLinks": {
-        "localReview": "Local Review",
+        "localReview": "LocalReview",
         "termBase": "Termbase",
         "application": "Application",
         "jobs": "Jobs"
@@ -837,9 +837,12 @@
       "removeFilter": "Filter entfernen",
       "types": {
         "role": "Rolle",
-        "license": "Lizenz"
+        "license": "Lizenz",
+        "status": "Status"
       },
-      "user": "User:in"
+      "user": "User:in",
+      "active": "Aktiv",
+      "inactive": "Inaktiv"
     },
     "search": {
       "placeholder": "Suchen …",
@@ -910,7 +913,7 @@
         "customFeatures": {
           "sourceDocuments": {
             "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
-            "upload": "Dokumenten Hochladen"
+            "upload": "Dokumente hochladen"
           }
         }
       },
@@ -1273,7 +1276,11 @@
               }
             },
             "afterTrialPeriod": "(nach Testphase)",
-            "expiresOn": "Läuft ab am"
+            "expiresOn": "Läuft ab am",
+            "missingPaymentMethod": {
+              "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abonnement vornehmen.",
+              "link": "Zahlungsmethode aktualisieren"
+            }
           },
           "authorisations": {
             "title": "Zugriffsberechtigungen",
@@ -1285,7 +1292,6 @@
                 "title": "Meine Aufträge und Rechnungen",
                 "info": "Nur Mitglieder Ihres Teams können Zugang zu Ihren Rechnungen und Aufträgen erhalten.",
                 "searchInputPlaceholder": "Suche nach E-Mail-Adresse oder Namen",
-                "searchInputPlaceholderNonTeamAdmin": "",
                 "authoriseUser": "Zugang autorisieren",
                 "deleteConfirm": {
                   "title": "Mitglied löschen",
@@ -1297,7 +1303,8 @@
                   "userAddError": "Der:Die Benutzer:in konnte nicht zur Berechtigungsliste hinzugefügt werden.",
                   "userRemoveSuccess": "Der:Die Benutzer:in wurde erfolgreich aus der Berechtigungsliste entfernt.",
                   "userRemoveError": "Der:Die Benutzer:in konnte nicht aus der Berechtigungsliste entfernt werden."
-                }
+                },
+                "searchInputPlaceholderNonTeamAdmin": "E-Mail eines Teammitglieds"
               }
             }
           }

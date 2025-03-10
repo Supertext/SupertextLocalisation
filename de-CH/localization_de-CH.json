@@ -913,10 +913,9 @@
         "customFeatures": {
           "sourceDocuments": {
             "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
-            "upload": "Dokumenten Hochladen"
+            "upload": "Dokumente hochladen"
           }
         }
-
       },
       "invoices": {
         "title": "Rechnungen",
@@ -1232,10 +1231,6 @@
             "comparePlans": "Abos vergleichen",
             "numberOfLicenses": "Anzahl Lizenzen",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
-            "missingPaymentMethod": {
-              "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abonnement vornehmen.",
-              "link": "Zahlungsmethode aktualisieren"
-            },
             "nextPayment": "Nächste Zahlung",
             "monthly": "Monatlich",
             "yearly": "Jährlich",
@@ -1281,7 +1276,11 @@
               }
             },
             "afterTrialPeriod": "(nach Testphase)",
-            "expiresOn": "Läuft ab am"
+            "expiresOn": "Läuft ab am",
+            "missingPaymentMethod": {
+              "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abonnement vornehmen.",
+              "link": "Zahlungsmethode aktualisieren"
+            }
           },
           "authorisations": {
             "title": "Zugriffsberechtigungen",
@@ -1293,7 +1292,6 @@
                 "title": "Meine Aufträge und Rechnungen",
                 "info": "Nur Mitglieder Ihres Teams können Zugang zu Ihren Rechnungen und Aufträgen erhalten.",
                 "searchInputPlaceholder": "Suche nach E-Mail-Adresse oder Namen",
-                "searchInputPlaceholderNonTeamAdmin": "",
                 "authoriseUser": "Zugang autorisieren",
                 "deleteConfirm": {
                   "title": "Mitglied löschen",
@@ -1305,7 +1303,8 @@
                   "userAddError": "Der:Die Benutzer:in konnte nicht zur Berechtigungsliste hinzugefügt werden.",
                   "userRemoveSuccess": "Der:Die Benutzer:in wurde erfolgreich aus der Berechtigungsliste entfernt.",
                   "userRemoveError": "Der:Die Benutzer:in konnte nicht aus der Berechtigungsliste entfernt werden."
-                }
+                },
+                "searchInputPlaceholderNonTeamAdmin": "E-Mail eines Teammitglieds"
               }
             }
           }

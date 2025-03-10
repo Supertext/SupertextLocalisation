@@ -823,7 +823,7 @@
         }
       },
       "roleBasedUserMenuLinks": {
-        "localReview": "Local Review",
+        "localReview": "LocalReview",
         "termBase": "Termbase",
         "application": "Application",
         "jobs": "Jobs"
@@ -837,9 +837,12 @@
       "removeFilter": "Effacer le filtre",
       "types": {
         "role": "Rôle",
-        "license": "Licence"
+        "license": "Licence",
+        "status": "Statut"
       },
-      "user": "Utilisateur/-trice"
+      "user": "Utilisateur/-trice",
+      "active": "Actif",
+      "inactive": "Inactif"
     },
     "search": {
       "placeholder": "Rechercher…",
@@ -904,13 +907,13 @@
             "delivered": "Terminées",
             "inProgress": "En cours",
             "onHold": "En suspens",
-            "collected": "Abgeholt"
+            "collected": "Récupéré"
           }
         },
         "customFeatures": {
           "sourceDocuments": {
-            "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
-            "upload": "Dokumenten Hochladen"
+            "helpLine": "Les documents sources doivent encore être téléchargés",
+            "upload": "Télécharger des documents"
           }
         }
       },
@@ -1273,7 +1276,11 @@
               }
             },
             "afterTrialPeriod": "(après la phase de test)",
-            "expiresOn": "Se termine le"
+            "expiresOn": "Se termine le",
+            "missingPaymentMethod": {
+              "message": "Veuillez mettre à jour votre mode de paiement avant d'apporter des modifications à votre abonnement.",
+              "link": "Mettre à jour le mode de paiement"
+            }
           },
           "authorisations": {
             "title": "Autorisations d’accès",
@@ -1285,7 +1292,6 @@
                 "title": "Mes commandes et factures",
                 "info": "Seuls les membres de votre équipe peuvent avoir accès à vos factures et à vos commandes.",
                 "searchInputPlaceholder": "Rechercher une adresse e-mail ou un nom",
-                "searchInputPlaceholderNonTeamAdmin": "",
                 "authoriseUser": "Autoriser l’accès",
                 "deleteConfirm": {
                   "title": "Supprimer le membre",
@@ -1297,7 +1303,8 @@
                   "userAddError": "L’utilisateur/-trice n’a pas pu être ajouté/-ée à la liste d’autorisation.",
                   "userRemoveSuccess": "L’utilisateur/-trice a été supprimé/-ée  avec succès de la liste d’autorisation.",
                   "userRemoveError": "L’utilisateur/-trice n’a pas pu être supprimé/-ée de la liste d’autorisation."
-                }
+                },
+                "searchInputPlaceholderNonTeamAdmin": "E-mail d'un membre de l'équipe"
               }
             }
           }

@@ -714,7 +714,7 @@
         "couldNotFetchTeamMembers": "Could not retrieve team members: {error}",
         "couldNotFetchTeamDetails": "Could not retrieve the team details: {error}",
         "couldNotFetchTeamId": "Could not retrieve the team ID: {error}",
-        "memberAlreadyInTeam": "The invited person is already part of another team. Please contact our support at info@supertext.com to have the person assigned to a new team."
+        "memberAlreadyInTeam": "The invited person is already part of another team. Please contact our support at hello@supertext.com to have the person assigned to a new team."
       },
       "subscription": {
         "cancel": "An error occurred while cancelling the subscription.",
@@ -1090,7 +1090,7 @@
         "noData": "No information",
         "roles": {
           "admin": "Admin",
-          "user": "Member"
+          "user": "User"
         },
         "costCenter": {
           "title": "Cost centre",
@@ -1209,7 +1209,7 @@
             "selectRole": "Select role",
             "roles": {
               "teamAdmin": "Admin",
-              "user": "User"
+              "user": "Member"
             },
             "roleChangeWarning": "An admin has changed your role. Please log out and back in again to update your account.",
             "licenceAvailable": "{amount} available",
@@ -2746,7 +2746,7 @@
             "benefits": [
               {
                 "title": "Technology",
-                "description": "Our development team creates customised programming for our clients – from specialised AI solutions to additional language features to personal system connections. Flexible and implemented in record time thanks to in-house development.",
+                "description": "Our development team builds customised solutions for our clients – from specialised AI models to additional language features to custom integrations. Flexible and implemented in record time thanks to in-house development.",
                 "cta": {
                   "text": "Read employee profile",
                   "link": "/language-expertise#portraits",

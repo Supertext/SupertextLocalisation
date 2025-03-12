@@ -714,7 +714,7 @@
         "couldNotFetchTeamMembers": "Impossible de charger les membres de l’équipe: {error}",
         "couldNotFetchTeamDetails": "Impossible de charger les informations de l’équipe: {error}",
         "couldNotFetchTeamId": "Impossible de charger l’ID de l’équipe: {error}",
-        "memberAlreadyInTeam": "La personne invitée fait déjà partie d’une autre équipe. Veuillez contacter notre assistance à l’adresse info@supertext.com pour lui affecter une nouvelle équipe."
+        "memberAlreadyInTeam": "La personne invitée fait déjà partie d’une autre équipe. Veuillez contacter notre assistance à l’adresse hello@supertext.com pour lui affecter une nouvelle équipe."
       },
       "subscription": {
         "cancel": "Une erreur s’est produite lors de la résiliation de l’abonnement.",
@@ -1209,7 +1209,7 @@
             "selectRole": "Choisir un rôle",
             "roles": {
               "teamAdmin": "Admin",
-              "user": "Utilisateur/-trice"
+              "user": "Membre"
             },
             "roleChangeWarning": "Un/-e admin a modifié votre rôle. Veuillez vous déconnecter et vous reconnecter pour mettre à jour votre compte.",
             "licenceAvailable": "{amount} disponible(s)",

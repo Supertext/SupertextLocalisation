@@ -714,7 +714,7 @@
         "couldNotFetchTeamMembers": "Impossibile accedere ai membri del team: {error}",
         "couldNotFetchTeamDetails": "Impossibile accedere ai dettagli del team: {error}",
         "couldNotFetchTeamId": "Impossibile accedere all’ID del team: {error}",
-        "memberAlreadyInTeam": "La persona invitata fa già parte di un altro team. Si prega di contattare la nostra assistenza all’indirizzo info@supertext.com per assegnare la persona a un nuovo team."
+        "memberAlreadyInTeam": "La persona invitata fa già parte di un altro team. Si prega di contattare la nostra assistenza all’indirizzo hello@supertext.com per assegnare la persona a un nuovo team."
       },
       "subscription": {
         "cancel": "Si è verificato un errore durante la disdetta dell’abbonamento.",
@@ -1209,7 +1209,7 @@
             "selectRole": "Selezionare il ruolo",
             "roles": {
               "teamAdmin": "Admin",
-              "user": "Utente"
+              "user": "Membro"
             },
             "roleChangeWarning": "Un amministratore ha modificato il Suo ruolo. Per aggiornare il Suo account, Si disconnetta e acceda nuovamente.",
             "licenceAvailable": "{amount} disponibile",

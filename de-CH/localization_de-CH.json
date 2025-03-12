@@ -714,7 +714,7 @@
         "couldNotFetchTeamMembers": "Konnte die Teammitglieder nicht abrufen: {error}",
         "couldNotFetchTeamDetails": "Konnte die Teamdetails nicht abrufen: {error}",
         "couldNotFetchTeamId": "Konnte die Team-ID nicht abrufen: {error}",
-        "memberAlreadyInTeam": "Die eingeladene Person ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter info@supertext.com an unseren Support, um die Person einem neuen Team zuweisen zu lassen."
+        "memberAlreadyInTeam": "Die eingeladene Person ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter hello@supertext.com an unseren Support, um die Person einem neuen Team zuweisen zu lassen."
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abos ist ein Fehler aufgetreten.",
@@ -1126,8 +1126,8 @@
               },
               "email": {
                 "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihre E-Mail ändern",
-                "sso": "Sie können Ihre E-Mail-Adresse als SSO-Benutzer:in nicht ändern.",
-                "user": "Nur der:die Teamadministrator:in kann Ihre E-Mail ändern"
+                "sso": "Sie können Ihre E-Mail-Adresse als SSO-User:in nicht ändern.",
+                "user": "Nur ein:e Admin kann Ihre E-Mail ändern"
               }
             }
           },
@@ -1209,7 +1209,7 @@
             "selectRole": "Rolle auswählen",
             "roles": {
               "teamAdmin": "Admin",
-              "user": "User:in"
+              "user": "Mitglied"
             },
             "roleChangeWarning": "Ein:e Admin hat Ihre Rolle geändert. Bitte loggen Sie sich aus und wieder ein, um Ihren Account zu aktualisieren.",
             "licenceAvailable": "{amount} verfügbar",
@@ -1405,8 +1405,7 @@
       }
     },
     "fileTranslation": {
-      "uploadFile": "Datei übersetzen",
-      "programmaticFileTranslationTooltip": "Starte mit übersetzen von {fileType} Dateien"
+      "uploadFile": "Datei übersetzen"
     },
     "humanVerification": {
       "verifyButton": "Profi-Check starten",
@@ -2488,8 +2487,8 @@
                   "text": "Wir entwickeln das Modell und passen es individuell auf Sprache und Stil des Unternehmens an. Fürs Training benötigen wir Rohmaterial – meistens interne Übersetzungsdaten von Kund:innen – und breite Kenntnisse in Computerlinguistik und Coding. Von Startschuss bis Bereitstellung dauert es ca. 6 Wochen. Dazwischen wird noch ausgiebig getestet und auf Qualitätsstandards hin geprüft."
                 },
                 {
-                  "title": "Was ist das coolste Feature, das du bisher mitentwickelt hast?",
-                  "text": "Unser Mundartfeature – damit übersetzen Sie von und nach Schweizerdeutsch inklusive verschiedener Dialekte wie Züridütsch oder Bärndütsch. Die Umsetzung war besonders tricky, weil es in diesen Sprachen relativ wenig Texte fürs Training gibt."
+                  "title": "Was macht dir bei der Arbeit besonders Spass?",
+                  "text": "Gerade stellen wir mit Large Language Models (LLM) die Art des Trainings von Übersetzungssystemen auf den Kopf. Eine sehr spannende Entwicklung, die sowohl eine kundenspezifische Adaption der Übersetzung in Echtzeit erlaubt, als auch die generelle Übersetzungsqualität auf ein neues Level  hebt – <link>in 3 von 4 Sprachpaaren schneiden wir sogar besser ab als Branchenriese DeepL</link>."
                 }
               ]
             }

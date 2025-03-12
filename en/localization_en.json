@@ -1405,7 +1405,8 @@
       }
     },
     "fileTranslation": {
-      "uploadFile": "Translate file"
+      "uploadFile": "Translate file",
+      "programmaticFileTranslationTooltip": "Starte mit übersetzen von {fileType} Dateien"
     },
     "humanVerification": {
       "verifyButton": "Start Verification",

@@ -794,7 +794,7 @@
         "part2": "better, faster, cheaper",
         "part3": "and",
         "part4": "more securely.",
-        "part5": "From 0% to 100% automated."
+        "part5": "From 0 to 100% automated."
       },
       "languageExpertise": "Linguistic expertise",
       "languageExpertiseNav": {
@@ -907,7 +907,7 @@
             "delivered": "Completed",
             "inProgress": "In progress",
             "onHold": "On hold",
-            "collected": "Picked up"
+            "collected": "Collected"
           }
         },
         "customFeatures": {
@@ -1090,7 +1090,7 @@
         "noData": "No information",
         "roles": {
           "admin": "Admin",
-          "user": "User"
+          "user": "Member"
         },
         "costCenter": {
           "title": "Cost centre",
@@ -1304,7 +1304,7 @@
                   "userRemoveSuccess": "The user was successfully removed from the authorisation list.",
                   "userRemoveError": "The user could not be removed from the authorisation list."
                 },
-                "searchInputPlaceholderNonTeamAdmin": "E-mail from a team member"
+                "searchInputPlaceholderNonTeamAdmin": "Team member email"
               }
             }
           }
@@ -1406,7 +1406,7 @@
     },
     "fileTranslation": {
       "uploadFile": "Translate file",
-      "programmaticFileTranslationTooltip": "Starte mit übersetzen von {fileType} Dateien"
+      "programmaticFileTranslationTooltip": "Start translating {fileType} files"
     },
     "humanVerification": {
       "verifyButton": "Start Verification",
@@ -2488,8 +2488,8 @@
                   "text": "We develop the model and adapt it to the company’s individual language and style. For training, we require raw material – usually internal translation data from clients – and broad knowledge of computer linguistics and coding. From the initial green light to the delivery, it takes about six weeks. In between, we carry out extensive testing and comparison with quality standards."
                 },
                 {
-                  "title": "What is the coolest feature you have developed so far?",
-                  "text": "Our dialect feature! With it, you can translate from and to Swiss German, including various dialects such as Zurich German and Bernese German. Its implementation was particularly tricky, as there are relatively few texts available for training in these languages."
+                  "title": "What do you enjoy most about your work?",
+                  "text": "We are currently turning the way translation systems are trained on its head using large language models (LLM). This is a very exciting development that allows for customer-specific adaptation of translations in real time and also raises general translation quality to a new level – <link>in three out of four language pairs, we even perform better than industry giant DeepL</link>."
                 }
               ]
             }

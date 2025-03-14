@@ -794,7 +794,7 @@
         "part2": "better, faster, cheaper",
         "part3": "and",
         "part4": "more securely.",
-        "part5": "From 0 to 100% automated."
+        "part5": "From 0% to 100% automated."
       },
       "languageExpertise": "Linguistic expertise",
       "languageExpertiseNav": {
@@ -907,7 +907,7 @@
             "delivered": "Completed",
             "inProgress": "In progress",
             "onHold": "On hold",
-            "collected": "Collected"
+            "collected": "Picked up"
           }
         },
         "customFeatures": {
@@ -1090,7 +1090,7 @@
         "noData": "No information",
         "roles": {
           "admin": "Admin",
-          "user": "Member"
+          "user": "User"
         },
         "costCenter": {
           "title": "Cost centre",
@@ -1304,7 +1304,7 @@
                   "userRemoveSuccess": "The user was successfully removed from the authorisation list.",
                   "userRemoveError": "The user could not be removed from the authorisation list."
                 },
-                "searchInputPlaceholderNonTeamAdmin": "Team member email"
+                "searchInputPlaceholderNonTeamAdmin": "E-mail from a team member"
               }
             }
           }
@@ -1406,7 +1406,7 @@
     },
     "fileTranslation": {
       "uploadFile": "Translate file",
-      "programmaticFileTranslationTooltip": "Start translating {fileType} files"
+      "programmaticFileTranslationTooltip": "Starte mit übersetzen von {fileType} Dateien"
     },
     "humanVerification": {
       "verifyButton": "Start Verification",
@@ -2456,7 +2456,7 @@
           "title": "Expertise from Å to Ž: meet our team",
           "items": [
             {
-              "image": "/images/pages/language-expertise/Tristan.png",
+              "image": "/images/pages/language-expertise/Tristan.webp",
               "quote": "“Until every word is in its place.”",
               "person": "Tristan Sechrest, English Language Specialist",
               "content": [
@@ -2475,9 +2475,9 @@
               ]
             },
             {
-              "image": "/images/pages/language-expertise/Philippe.png",
+              "image": "/images/pages/language-expertise/Alex.webp",
               "quote": "“The best language model? Your own.”",
-              "person": "Philippe Schläpfer, Research Scientist",
+              "person": "Alex Flückiger, Senior Research Scientist",
               "content": [
                 {
                   "title": "What exactly does a research scientist do?",
@@ -2488,8 +2488,12 @@
                   "text": "We develop the model and adapt it to the company’s individual language and style. For training, we require raw material – usually internal translation data from clients – and broad knowledge of computer linguistics and coding. From the initial green light to the delivery, it takes about six weeks. In between, we carry out extensive testing and comparison with quality standards."
                 },
                 {
-                  "title": "What do you enjoy most about your work?",
-                  "text": "We are currently turning the way translation systems are trained on its head using large language models (LLM). This is a very exciting development that allows for customer-specific adaptation of translations in real time and also raises general translation quality to a new level – <link>in three out of four language pairs, we even perform better than industry giant DeepL</link>."
+                  "title": "What is the coolest feature you have developed so far?",
+                  "text": "Our dialect feature! With it, you can translate from and to Swiss German, including various dialects such as Zurich German and Bernese German. Its implementation was particularly tricky, as there are relatively few texts available for training in these languages.",
+                  "cta": {
+                    "text": "Zum Beitrag",
+                    "link": "/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
+                  }
                 }
               ]
             }
@@ -3530,405 +3534,6 @@
             "title": "View business solution",
             "link": "/why-supertext",
             "target": "_blank"
-          }
-        }
-      },
-      "specialistTranslation": {
-        "hero": {
-          "title": "",
-          "description": ""
-        },
-        "lead": {
-          "large": "",
-          "small": "",
-          "smallList": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "cta": {
-            "title": "",
-            "link": ""
-          },
-          "cta2": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "figuresPanel": {
-          "title": "",
-          "items": [
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            }
-          ]
-        },
-        "features": {
-          "eyebrowHeadline": "",
-          "title": "",
-          "groups": {
-            "group1": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                },
-                "cta2": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group2": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group3": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ]
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "cases": {
-          "title": ""
-        }
-      },
-      "copywriting": {
-        "hero": {
-          "title": "",
-          "description": ""
-        },
-        "lead": {
-          "large": "",
-          "small": "",
-          "smallList": {
-            "one": "",
-            "other": ""
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          },
-          "cta2": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "figuresPanel": {
-          "title": "",
-          "items": [
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            }
-          ]
-        },
-        "features": {
-          "eyebrowHeadline": "",
-          "title": "",
-          "groups": {
-            "group1": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group2": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group3": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ]
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "cases": {
-          "title": ""
-        }
-      },
-      "proofreading": {
-        "hero": {
-          "title": "",
-          "description": ""
-        },
-        "lead": {
-          "large": "",
-          "small": "",
-          "smallList": {
-            "one": "",
-            "other": ""
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          },
-          "cta2": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "figuresPanel": {
-          "title": "",
-          "items": [
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            }
-          ]
-        },
-        "features": {
-          "eyebrowHeadline": "",
-          "title": "",
-          "groups": {
-            "group1": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group2": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ]
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "references": {
-          "title": "",
-          "cta": {
-            "link": "",
-            "text": ""
           }
         }
       }

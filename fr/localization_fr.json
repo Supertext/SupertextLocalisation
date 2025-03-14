@@ -286,7 +286,7 @@
       "close": "Fermer"
     }
   },
-  "user": "Utilisateur/-trice",
+  "user": "Membre",
   "content": "Contenu",
   "tone": "Ton",
   "settings": {
@@ -793,8 +793,8 @@
         "part1": "Avec Supertext, les entreprises obtiennent des traductions",
         "part2": "de meilleure qualité et ce de manière plus rapide, économique",
         "part3": "et",
-        "part4": "de manière plus sécurisée.",
-        "part5": "Processus automatisés de 0% à 100%."
+        "part4": "sécurisée.",
+        "part5": "Des processus automatisés de 0% à 100%."
       },
       "languageExpertise": "Expertise linguistique",
       "languageExpertiseNav": {
@@ -824,9 +824,9 @@
       },
       "roleBasedUserMenuLinks": {
         "localReview": "LocalReview",
-        "termBase": "Base terminologique",
+        "termBase": "Termbase",
         "application": "Application",
-        "jobs": "Postes"
+        "jobs": "Jobs"
       }
     },
     "filter": {
@@ -1278,7 +1278,7 @@
             "afterTrialPeriod": "(après la phase de test)",
             "expiresOn": "Se termine le",
             "missingPaymentMethod": {
-              "message": "Veuillez mettre à jour votre mode de paiement avant d’apporter des modifications à votre abonnement.",
+              "message": "Veuillez mettre à jour votre mode de paiement avant d'apporter des modifications à votre abonnement.",
               "link": "Mettre à jour le mode de paiement"
             }
           },
@@ -1304,7 +1304,7 @@
                   "userRemoveSuccess": "L’utilisateur/-trice a été supprimé/-ée  avec succès de la liste d’autorisation.",
                   "userRemoveError": "L’utilisateur/-trice n’a pas pu être supprimé/-ée de la liste d’autorisation."
                 },
-                "searchInputPlaceholderNonTeamAdmin": "E-mail d’un membre de l'équipe"
+                "searchInputPlaceholderNonTeamAdmin": "E-mail d'un membre de l'équipe"
               }
             }
           }
@@ -1406,7 +1406,7 @@
     },
     "fileTranslation": {
       "uploadFile": "Traduire un fichier",
-      "programmaticFileTranslationTooltip": "Commencer la traduction de {fileType} fichiers"
+      "programmaticFileTranslationTooltip": "Starte mit übersetzen von {fileType} Dateien"
     },
     "humanVerification": {
       "verifyButton": "Lancer une vérification",
@@ -2456,7 +2456,7 @@
           "title": "Expertise de Å à Ž: découvrez notre équipe",
           "items": [
             {
-              "image": "/images/pages/language-expertise/Tristan.png",
+              "image": "/images/pages/language-expertise/Tristan.webp",
               "quote": "«Jusqu’à ce que chaque mot soit à sa place.»",
               "person": "Tristan Sechrest, spécialiste de l’anglais",
               "content": [
@@ -2475,7 +2475,7 @@
               ]
             },
             {
-              "image": "/images/pages/language-expertise/Philippe.png",
+              "image": "/images/pages/language-expertise/Alex.webp",
               "quote": "«Le meilleur modèle de langage? Le vôtre.»",
               "person": "Philippe Schläpfer, Research Scientist",
               "content": [
@@ -2488,8 +2488,12 @@
                   "text": "Nous développons le modèle et l’adaptons à la langue et au style de l’entreprise. Pour l’entraîner, nous avons besoin de données brutes, généralement des données de traduction internes des clients et des clientes, et de solides connaissances en linguistique informatique et en codage. De la phase de lancement à la mise en service, on compte environ six semaines. Entre-temps, nous testons et vérifions les normes de qualité."
                 },
                 {
-                  "title": "Qu’est-ce qui vous plaît le plus dans votre travail?",
-                  "text": "Nous sommes en train de révolutionner la manière dont les systèmes de traduction sont entraînés grâce à l’utilisation de grands modèles de langage (LLM). Une évolution passionnante qui permet à la fois d’adapter une traduction en temps réel, en fonction des besoins de la clientèle, mais aussi de passer la qualité générale des traductions à un niveau supérieur – <link>dans trois paires de langues sur quatre, nos résultats sont même meilleurs que ceux du géant de l’industrie DeepL</link>."
+                  "title": "Quelle est la meilleure fonctionnalité que tu aies jamais co-développée?",
+                  "text": "Notre fonctionnalité de dialecte. Elle permet de traduire du suisse allemand vers d’autres langues et vice versa, y compris différents dialectes comme le zurichois ou le bernois. La mise en œuvre a été particulièrement complexe, car il y a relativement peu de textes disponibles pour l’entraînement dans ces dialectes.",
+                  "cta": {
+                    "text": "Zum Beitrag",
+                    "link": "/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
+                  }
                 }
               ]
             }
@@ -3530,405 +3534,6 @@
             "title": "Voir la solution Business",
             "link": "/pourquoi-supertext",
             "target": "_blank"
-          }
-        }
-      },
-      "specialistTranslation": {
-        "hero": {
-          "title": "",
-          "description": ""
-        },
-        "lead": {
-          "large": "",
-          "small": "",
-          "smallList": [
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "cta": {
-            "title": "",
-            "link": ""
-          },
-          "cta2": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "figuresPanel": {
-          "title": "",
-          "items": [
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            }
-          ]
-        },
-        "features": {
-          "eyebrowHeadline": "",
-          "title": "",
-          "groups": {
-            "group1": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                },
-                "cta2": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group2": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group3": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ]
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "cases": {
-          "title": ""
-        }
-      },
-      "copywriting": {
-        "hero": {
-          "title": "",
-          "description": ""
-        },
-        "lead": {
-          "large": "",
-          "small": "",
-          "smallList": {
-            "one": "",
-            "other": ""
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          },
-          "cta2": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "figuresPanel": {
-          "title": "",
-          "items": [
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            }
-          ]
-        },
-        "features": {
-          "eyebrowHeadline": "",
-          "title": "",
-          "groups": {
-            "group1": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group2": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group3": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ]
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "cases": {
-          "title": ""
-        }
-      },
-      "proofreading": {
-        "hero": {
-          "title": "",
-          "description": ""
-        },
-        "lead": {
-          "large": "",
-          "small": "",
-          "smallList": {
-            "one": "",
-            "other": ""
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          },
-          "cta2": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "figuresPanel": {
-          "title": "",
-          "items": [
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            }
-          ]
-        },
-        "features": {
-          "eyebrowHeadline": "",
-          "title": "",
-          "groups": {
-            "group1": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ],
-            "group2": [
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              },
-              {
-                "title": "",
-                "description": "",
-                "cta1": {
-                  "title": "",
-                  "link": ""
-                }
-              }
-            ]
-          },
-          "cta": {
-            "title": "",
-            "link": ""
-          }
-        },
-        "references": {
-          "title": "",
-          "cta": {
-            "link": "",
-            "text": ""
           }
         }
       }

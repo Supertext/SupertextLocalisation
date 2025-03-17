@@ -286,7 +286,7 @@
       "close": "Chiudi"
     }
   },
-  "user": "Membro",
+  "user": "Utente",
   "content": "Contenuto",
   "tone": "Tonalità",
   "settings": {
@@ -840,7 +840,7 @@
         "license": "Licenza",
         "status": "Stato"
       },
-      "user": "Utente",
+      "user": "Membro",
       "active": "Attivo",
       "inactive": "Inattivo"
     },
@@ -1830,7 +1830,7 @@
               "description": "Caricate interi documenti e ricevete una traduzione modificabile, con layout e stile invariati.",
               "free": "5 file a persona e al mese (per utenti registrati)",
               "essential": "20 file a persona e al mese",
-              "advanced": "20 file al mese, a persona"
+              "advanced": "Traduzioni di file illimitate (modificabili)"
             },
             "fileEditingAllowed": {
               "name": "Modifica dei file consentita",
@@ -2456,7 +2456,7 @@
           "title": "Competenza dall’inizio alla fine: vi presentiamo il nostro team",
           "items": [
             {
-              "image": "/images/pages/language-expertise/Tristan.webp",
+              "image": "/images/pages/language-expertise/Tristan.png",
               "quote": "«Finché ogni parola non è quella giusta.»",
               "person": "Tristan Sechrest, specialista linguistico per l’inglese",
               "content": [
@@ -2475,9 +2475,9 @@
               ]
             },
             {
-              "image": "/images/pages/language-expertise/Alex.webp",
+              "image": "/images/pages/language-expertise/Philippe.png",
               "quote": "«Il miglior modello linguistico? Il vostro.»",
-              "person": "Alex Flückiger, Senior Research Scientist",
+              "person": "Philippe Schläpfer, research scientist",
               "content": [
                 {
                   "title": "Che cosa fa esattamente un research scientist?",
@@ -2489,11 +2489,7 @@
                 },
                 {
                   "title": "Qual è la feature più interessante a cui hai contribuito finora?",
-                  "text": "La nostra feature relativa ai dialetti, che consente di tradurre da e verso lo svizzero tedesco, comprese varianti dialettali come lo zurighese o il bernese. La sua implementazione si è rivelata complessa, perché per queste varianti sono disponibili pochi testi scritti da usare a fini di training.",
-                  "cta": {
-                    "text": "Zum Beitrag",
-                    "link": "/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
-                  }
+                  "text": "La nostra feature relativa ai dialetti, che consente di tradurre da e verso lo svizzero tedesco, comprese varianti dialettali come lo zurighese o il bernese. La sua implementazione si è rivelata complessa, perché per queste varianti sono disponibili pochi testi scritti da usare a fini di training."
                 }
               ]
             }
@@ -3534,6 +3530,405 @@
             "title": "Alla soluzione business",
             "link": "/why-supertext",
             "target": "_blank"
+          }
+        }
+      },
+      "specialistTranslation": {
+        "hero": {
+          "title": "",
+          "description": ""
+        },
+        "lead": {
+          "large": "",
+          "small": "",
+          "smallList": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "cta": {
+            "title": "",
+            "link": ""
+          },
+          "cta2": {
+            "title": "",
+            "link": ""
+          }
+        },
+        "figuresPanel": {
+          "title": "",
+          "items": [
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ]
+        },
+        "features": {
+          "eyebrowHeadline": "",
+          "title": "",
+          "groups": {
+            "group1": [
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                },
+                "cta2": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              }
+            ],
+            "group2": [
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              }
+            ],
+            "group3": [
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              }
+            ]
+          },
+          "cta": {
+            "title": "",
+            "link": ""
+          }
+        },
+        "cases": {
+          "title": ""
+        }
+      },
+      "copywriting": {
+        "hero": {
+          "title": "",
+          "description": ""
+        },
+        "lead": {
+          "large": "",
+          "small": "",
+          "smallList": {
+            "one": "",
+            "other": ""
+          },
+          "cta": {
+            "title": "",
+            "link": ""
+          },
+          "cta2": {
+            "title": "",
+            "link": ""
+          }
+        },
+        "figuresPanel": {
+          "title": "",
+          "items": [
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ]
+        },
+        "features": {
+          "eyebrowHeadline": "",
+          "title": "",
+          "groups": {
+            "group1": [
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              }
+            ],
+            "group2": [
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              }
+            ],
+            "group3": [
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              }
+            ]
+          },
+          "cta": {
+            "title": "",
+            "link": ""
+          }
+        },
+        "cases": {
+          "title": ""
+        }
+      },
+      "proofreading": {
+        "hero": {
+          "title": "",
+          "description": ""
+        },
+        "lead": {
+          "large": "",
+          "small": "",
+          "smallList": {
+            "one": "",
+            "other": ""
+          },
+          "cta": {
+            "title": "",
+            "link": ""
+          },
+          "cta2": {
+            "title": "",
+            "link": ""
+          }
+        },
+        "figuresPanel": {
+          "title": "",
+          "items": [
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ]
+        },
+        "features": {
+          "eyebrowHeadline": "",
+          "title": "",
+          "groups": {
+            "group1": [
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              }
+            ],
+            "group2": [
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              },
+              {
+                "title": "",
+                "description": "",
+                "cta1": {
+                  "title": "",
+                  "link": ""
+                }
+              }
+            ]
+          },
+          "cta": {
+            "title": "",
+            "link": ""
+          }
+        },
+        "references": {
+          "title": "",
+          "cta": {
+            "link": "",
+            "text": ""
           }
         }
       }

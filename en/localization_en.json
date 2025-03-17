@@ -794,7 +794,7 @@
         "part2": "better, faster, cheaper",
         "part3": "and",
         "part4": "more securely.",
-        "part5": "From 0% to 100% automated."
+        "part5": "From 0 to 100% automated."
       },
       "languageExpertise": "Linguistic expertise",
       "languageExpertiseNav": {
@@ -840,7 +840,7 @@
         "license": "Licence",
         "status": "Status"
       },
-      "user": "User",
+      "user": "Member",
       "active": "Active",
       "inactive": "Inactive"
     },
@@ -907,7 +907,7 @@
             "delivered": "Completed",
             "inProgress": "In progress",
             "onHold": "On hold",
-            "collected": "Picked up"
+            "collected": "Collected"
           }
         },
         "customFeatures": {
@@ -1090,7 +1090,7 @@
         "noData": "No information",
         "roles": {
           "admin": "Admin",
-          "user": "User"
+          "user": "Member"
         },
         "costCenter": {
           "title": "Cost centre",
@@ -1304,7 +1304,7 @@
                   "userRemoveSuccess": "The user was successfully removed from the authorisation list.",
                   "userRemoveError": "The user could not be removed from the authorisation list."
                 },
-                "searchInputPlaceholderNonTeamAdmin": "E-mail from a team member"
+                "searchInputPlaceholderNonTeamAdmin": "Team member email"
               }
             }
           }
@@ -1406,7 +1406,7 @@
     },
     "fileTranslation": {
       "uploadFile": "Translate file",
-      "programmaticFileTranslationTooltip": "Starte mit übersetzen von {fileType} Dateien"
+      "programmaticFileTranslationTooltip": "Start translating {fileType} files"
     },
     "humanVerification": {
       "verifyButton": "Start Verification",
@@ -1830,7 +1830,7 @@
               "description": "Upload complete documents and get an editable translation in the same layout.",
               "free": "5 files per person and month (for registered users)",
               "essential": "20 files per person and month",
-              "advanced": "20 files per month, per person"
+              "advanced": "Unlimited file translations (editable)"
             },
             "fileEditingAllowed": {
               "name": "File editing allowed",
@@ -2456,7 +2456,7 @@
           "title": "Expertise from Å to Ž: meet our team",
           "items": [
             {
-              "image": "/images/pages/language-expertise/Tristan.webp",
+              "image": "/images/pages/language-expertise/Tristan.png",
               "quote": "“Until every word is in its place.”",
               "person": "Tristan Sechrest, English Language Specialist",
               "content": [
@@ -2475,9 +2475,9 @@
               ]
             },
             {
-              "image": "/images/pages/language-expertise/Alex.webp",
+              "image": "/images/pages/language-expertise/Philippe.png",
               "quote": "“The best language model? Your own.”",
-              "person": "Alex Flückiger, Senior Research Scientist",
+              "person": "Philippe Schläpfer, Research Scientist",
               "content": [
                 {
                   "title": "What exactly does a research scientist do?",
@@ -2488,12 +2488,8 @@
                   "text": "We develop the model and adapt it to the company’s individual language and style. For training, we require raw material – usually internal translation data from clients – and broad knowledge of computer linguistics and coding. From the initial green light to the delivery, it takes about six weeks. In between, we carry out extensive testing and comparison with quality standards."
                 },
                 {
-                  "title": "What is the coolest feature you have developed so far?",
-                  "text": "Our dialect feature! With it, you can translate from and to Swiss German, including various dialects such as Zurich German and Bernese German. Its implementation was particularly tricky, as there are relatively few texts available for training in these languages.",
-                  "cta": {
-                    "text": "Zum Beitrag",
-                    "link": "/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
-                  }
+                  "title": "What do you enjoy most about your work?",
+                  "text": "We are currently turning the way translation systems are trained on its head using large language models (LLM). This is a very exciting development that allows for customer-specific adaptation of translations in real time and also raises general translation quality to a new level – <link>in three out of four language pairs, we even perform better than industry giant DeepL</link>."
                 }
               ]
             }
@@ -3534,6 +3530,405 @@
             "title": "View business solution",
             "link": "/why-supertext",
             "target": "_blank"
+          }
+        }
+      },
+      "specialistTranslation": {
+        "hero": {
+          "title": "Specialist translations tailored to your needs",
+          "description": "3,000+ specialists on speed-dial – for professional translations from InDesign to Word and from Arabic to Zulu."
+        },
+        "lead": {
+          "large": "Do you need your annual report translated? Or your new TV commercial brought out into the world? Our language professionals are ready with <highlight> expertise </highlight> and genuine <highlight> passion </highlight> when it matters most.",
+          "small": "Supertext’s language professionals: 3,000+ hand-picked, specialised translators and cultural experts who are always on hand to give your AI translation the things only humans can:",
+          "smallList": [
+            "Expert knowledge in your specialist area",
+            "Cultural expertise that lets you target your audience’s habits, humour, etc.",
+            "Guaranteed accuracy",
+            "Seeing things from the user’s perspective (SEO, customer journey, UX design)",
+            "A flair for stylistic nuances"
+          ],
+          "cta": {
+            "title": "Start project",
+            "link": "/order/translation"
+          },
+          "cta2": {
+            "title": "Let’s talk",
+            "link": "/contact"
+          }
+        },
+        "figuresPanel": {
+          "title": "SEVEN REASONS FOR SUPERTEXT",
+          "items": [
+            {
+              "title": "The only translation agency with its own language AI and specialist in-house translators"
+            },
+            {
+              "title": "3,000+ handpicked, certified language professionals around the globe"
+            },
+            {
+              "title": "100 in-house specialists in Zurich and Berlin"
+            },
+            {
+              "title": "113 target languages available"
+            },
+            {
+              "title": "4 ISO certifications for data security (ISO 27001), quality management (ISO 9001) and translation quality (ISO 17001, ISO 18587)"
+            },
+            {
+              "title": "1,500 clients of all sizes from all industries"
+            },
+            {
+              "title": "20 years’ industry experience (since 2005)"
+            }
+          ]
+        },
+        "features": {
+          "eyebrowHeadline": "WHAT WE OFFER",
+          "title": "The right translation partner for projects of any size",
+          "groups": {
+            "group1": [
+              {
+                "title": "Translate documents/files",
+                "description": "From Word to PowerPoint, from InDesign to Illustrator, from HTML to XML – we translate in your desired file format. Simple, quick and always correctly formatted.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/translation"
+                }
+              },
+              {
+                "title": "Website localisation directly from your CMS",
+                "description": "Our plugins for Wordpress, Drupal, Adobe Experience Manager and many more let you translate even more straightforwardly and seamlessly. Don’t see your CMS here? Let’s talk about it.",
+                "cta1": {
+                  "title": "View plugins",
+                  "link": "/faq?id=f8w9lowm1u5f1m17a005di6y"
+                },
+                "cta2": {
+                  "title": "Get in touch",
+                  "link": "/contact"
+                }
+              },
+              {
+                "title": "Translate annual report",
+                "description": "From annual reports to ESG reports: we translate accurately, efficiently and in compliance with all the relevant international reporting standards thanks to direct integration into publishing systems such as ns.publish from Neidhart + Schön.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/translation"
+                }
+              }
+            ],
+            "group2": [
+              {
+                "title": "Marketing translation and transcreation for your international presence",
+                "description": "We don't translate word for word – instead, we adapt your content for local markets and target groups, taking into account individual traditions, humour and other cultural references. We do this creatively, precisely, and with a touch of sensitivity – from multilingual ads to international poster campaigns.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/translation"
+                }
+              },
+              {
+                "title": "SEO translations for websites",
+                "description": "From Google, Bing and Baidu to Yandex and Yahoo, our SEO experts deliver texts that add value. For readers, search engines and your marketing budget. We give your keywords the beautiful setting they deserve and add the finishing touches to landing pages, product texts and more. For unique content right up to the 200th pair of sneakers.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/translation"
+                }
+              },
+              {
+                "title": "App and software localisation",
+                "description": "We’re fluent in system languages from JSON and Java to YAML, Swift and PHP, and can help you localise your iOS, OS-X, Android and Windows apps, speeding things up right from the design stage.",
+                "cta1": {
+                  "title": "Get in touch",
+                  "link": "/contact"
+                }
+              }
+            ],
+            "group3": [
+              {
+                "title": "Certified translations",
+                "description": "Your official documents – valid for every language area. We create legally binding translations for national and international use, from declarations of intent to patents. Where necessary, we can also arrange an apostille for you.",
+                "cta1": {
+                  "title": "Get in touch",
+                  "link": "/order/translation"
+                }
+              },
+              {
+                "title": "Workflow automation with APIs",
+                "description": "From AI translation to professional services: we’re always on hand with seamless integrations for every environment thanks to our flexible RESTful API. And we'd be happy to support you with custom interface solutions, too.",
+                "cta1": {
+                  "title": "Request documentation",
+                  "link": "/contact"
+                }
+              },
+              {
+                "title": "Translation memory and terminology management",
+                "description": "Proper maintenance is key: we help you clean up your company-specific translation memory and terminology database. The updated data is then incorporated into all future translations, ensuring measurably better results while reducing costs.",
+                "cta1": {
+                  "title": "Get in touch",
+                  "link": "/contact"
+                }
+              }
+            ]
+          },
+          "cta": {
+            "title": "Are you looking for a tailor-made solution? Get in touch.",
+            "link": "/contact"
+          }
+        },
+        "cases": {
+          "title": "Our 20-year mission: to ensure maximum certainty in our clients’ communications."
+        }
+      },
+      "copywriting": {
+        "hero": {
+          "title": "Copywriting for professional marketing texts",
+          "description": "We write your success story. Creative, impactful copy in your tone of voice."
+        },
+        "lead": {
+          "large": "Creating new texts, optimising AI texts or refining existing content: we bring you closer to your content goals, word by word.",
+          "small": "Our exclusive network of copywriters, authors and journalists is here to help when you're at a loss for words. With curiosity, creativity and extensive experience in your field, we write copy that resonates with both people and search engines: from websites and blogs to newsletters, white papers and press releases. <break> </break> <break> </break> Alternatively, our experienced professionals will polish your existing text – whether your own or automatically generated – until every word is perfect. For special projects, we are also happy to set up teams of dedicated specialists for you. Or we can support you from the ground up in finding your own voice.",
+          "smallList": {
+            "one": "",
+            "other": ""
+          },
+          "cta": {
+            "title": "Start project",
+            "link": "/order/copywriting"
+          },
+          "cta2": {
+            "title": "Let’s talk",
+            "link": "/contact"
+          }
+        },
+        "figuresPanel": {
+          "title": "SEVEN REASONS FOR SUPERTEXT",
+          "items": [
+            {
+              "title": "The only copywriting agency with its own language AI and specialist in-house linguists"
+            },
+            {
+              "title": "Exclusive professional copywriters, authors and journalists"
+            },
+            {
+              "title": "100 in-house specialists in Zurich and Berlin"
+            },
+            {
+              "title": "Always included: support from a personal project manager and, where necessary, a one-off revision of the work"
+            },
+            {
+              "title": "1,500 clients of all sizes from all industries"
+            },
+            {
+              "title": "20 years’ industry experience (since 2005)"
+            }
+          ]
+        },
+        "features": {
+          "eyebrowHeadline": "WHAT WE OFFER",
+          "title": "Textservices von Ä bis Ž: we start where words fail you.",
+          "groups": {
+            "group1": [
+              {
+                "title": "SEO and UX writing for websites and apps",
+                "description": "Copy is the key to successful web design. We help you to structure your content and messages along the customer journey – with an eye to high conversion rates, of course.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/copywriting"
+                }
+              },
+              {
+                "title": "Blog posts and specialist articles",
+                "description": "Informative, high-quality content generates attention and respect. This strengthens your credibility and improves your position in the market – and on Google.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/copywriting"
+                }
+              },
+              {
+                "title": "Product descriptions for online stores",
+                "description": "Compelling product texts help customers to make decisions – and you to rank higher on Google, Yahoo and other search engines. We give your keywords the beautiful setting they deserve and ensure unique content right up to the 200th pair of sneakers.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/copywriting"
+                }
+              }
+            ],
+            "group2": [
+              {
+                "title": "Slogans and claims",
+                "description": "Time, experience and good hard thought – the three ingredients of successful branding. We hone your message until every word is perfect and you can captivate your target audience for the long term.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/copywriting"
+                }
+              },
+              {
+                "title": "Newsletters, mailings and campaigns",
+                "description": "Emails with impressive open rates and campaigns that stick in people's minds. We help you develop all types of advertising material – from surprising emails to glossy posters. For us, clichés and rhymes are no substitute for what really matters: truly good ideas.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/copywriting"
+                }
+              },
+              {
+                "title": "Corporate language",
+                "description": "We help you develop language guidelines for your brand, from corporate wording to company-specific style guides and brand books. So your entire company speaks with one voice.",
+                "cta1": {
+                  "title": "Get in touch",
+                  "link": "/contact"
+                }
+              }
+            ],
+            "group3": [
+              {
+                "title": "Media releases and press material",
+                "description": "Give the media what they want with clearly structured facts and credible messages. We develop PR ideas, conduct research and craft copy that journalists enjoy working with.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/copywriting"
+                }
+              },
+              {
+                "title": "Video scripts and subtitles",
+                "description": "Our experienced network of creative writers delivers production-ready scripts for gripping video content. From social media reels to explanatory films. We are also happy to take care of the transcription and subtitling for you.",
+                "cta1": {
+                  "title": "Get in touch",
+                  "link": "/contact"
+                }
+              },
+              {
+                "title": "Editing and proofreading (of AI texts)",
+                "description": "Stylistically flawless content, from ads to social media posts. We correct, optimise, polish – and are happy to put the finishing touches to your AI-generated texts.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/copywriting"
+                }
+              }
+            ]
+          },
+          "cta": {
+            "title": "Are you looking for a dedicated team or a tailor-made solution? Get in touch.",
+            "link": "/contact"
+          }
+        },
+        "cases": {
+          "title": "Our customers’ success stories speak for themselves."
+        }
+      },
+      "proofreading": {
+        "hero": {
+          "title": "Proofreading, editing, rewriting – the finishing touch",
+          "description": "Our proofreading services guarantee error-free communication and the right tone in every language."
+        },
+        "lead": {
+          "large": "From editing manuscripts and proofreading annual reports to optimising AI-generated texts, our edits always add value. Meticulous, flawless and true to your own unique style.",
+          "small": "Our trained, internally tested language specialists provide expertise in every language. They leave nothing to chance, and everything to the official rules and regulations of your target language. And they are also happy to adjust the tone of your text to suit your needs.  <break></break><break></break>Track changes, comments or changes implemented directly in the text? You choose the correction mode, we do the rest. Everything from a single source and in the language of your choice. Is your multilingual proofreading particularly urgent? Our professionals are also available at the touch of a button.",
+          "smallList": {
+            "one": "",
+            "other": ""
+          },
+          "cta": {
+            "title": "Start project",
+            "link": "/order/proofreading"
+          },
+          "cta2": {
+            "title": "Let’s talk",
+            "link": "/contact"
+          }
+        },
+        "figuresPanel": {
+          "title": "SEVEN REASONS FOR SUPERTEXT",
+          "items": [
+            {
+              "title": "The only copywriting agency with its own language AI and specialist in-house linguists"
+            },
+            {
+              "title": "Exclusively qualified proofreaders and editors tested by Supertext"
+            },
+            {
+              "title": "100 in-house specialists in Zurich and Berlin"
+            },
+            {
+              "title": "Threefold evaluation of editing services by client, project manager and linguist"
+            },
+            {
+              "title": "4 ISO certifications for data security (ISO 27001), quality management (ISO 9001) and translation quality (ISO 17001, ISO 18587)"
+            },
+            {
+              "title": "1,500 clients of all sizes from all industries"
+            },
+            {
+              "title": "20 years’ industry experience (since 2005)"
+            }
+          ]
+        },
+        "features": {
+          "eyebrowHeadline": "WHAT WE OFFER",
+          "title": "The world’s pickiest proofreading service for every type of content",
+          "groups": {
+            "group1": [
+              {
+                "title": "Standard and ready-to-print proofreading for print and web",
+                "description": "Classic proofreading for absolutely error-free results. We check spelling, grammar and punctuation closely. Whether you choose one- or two-phase proofreading, you’ll always receive fast, meticulous results.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/proofreading"
+                }
+              },
+              {
+                "title": "Editing and rewriting",
+                "description": "Your services for stylistically flawless content. From Arabic to Zulu and from blog posts to epic poems. Including adjustments to style (editing) as well as structure and tone (rewriting) by selected authors and journalists.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/proofreading"
+                }
+              },
+              {
+                "title": "Get it right, right away, in every language – with AI translation and Verification",
+                "description": "Peace of mind at the push of a button: our tried-and-tested proofreaders are all native speakers of their target language and guarantee error-free communication in minutes rather than hours. Currently available in six language combinations.",
+                "cta1": {
+                  "title": "Try Verification",
+                  "link": "/"
+                }
+              }
+            ],
+            "group2": [
+              {
+                "title": "Optimise AI texts",
+                "description": "Do you have ChatGPT, Jasper or Neuroflash to thank for your text? We can improve any automatically generated output with structure, logic and fact-checking. For more meaningful content and true brand safety.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/proofreading"
+                }
+              },
+              {
+                "title": "Proofread annual reports",
+                "description": "The finishing touches for annual reports, ESG reports, financial metrics and more. Flexible, fast and always on-brand. Whether in PDF, InDesign, CMS or directly in your publishing system.",
+                "cta1": {
+                  "title": "Start project",
+                  "link": "/order/proofreading"
+                }
+              },
+              {
+                "title": "Editing for academic papers",
+                "description": "Summa cum laude thanks to our proofreading and editing service for students. From independent projects to dissertations. Express delivery available on request.",
+                "cta1": {
+                  "title": "Get in touch",
+                  "link": "/order/proofreading"
+                }
+              }
+            ]
+          },
+          "cta": {
+            "title": "Are you looking for a tailor-made solution? Get in touch.",
+            "link": "/contact"
+          }
+        },
+        "references": {
+          "title": "Our customers’ success stories speak for themselves.",
+          "cta": {
+            "link": "/references",
+            "text": "See the case studies"
           }
         }
       }

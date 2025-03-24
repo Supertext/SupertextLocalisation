@@ -941,7 +941,8 @@
             "paid": "Paid",
             "unpaid": "Pending"
           }
-        }
+        },
+        "invoice": ""
       },
       "subscriptions": {
         "title": "Subscription",
@@ -2477,7 +2478,7 @@
             {
               "image": "/images/pages/language-expertise/Alex.webp",
               "quote": "“The best language model? Your own.”",
-              "person": "Alex Flückiger, Senior Research Scientist",
+              "person": "",
               "content": [
                 {
                   "title": "What exactly does a research scientist do?",

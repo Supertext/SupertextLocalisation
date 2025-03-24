@@ -825,7 +825,7 @@
       "roleBasedUserMenuLinks": {
         "localReview": "Local Review",
         "termBase": "Termbase",
-        "application": "Application",
+        "application": "Deine Bewerbung",
         "jobs": "Jobs"
       }
     },
@@ -919,7 +919,6 @@
       },
       "invoices": {
         "title": "Rechnungen",
-        "invoice": "Rechnung",
         "openInvoices": "AKTUELLSTE RECHNUNGEN",
         "viewAllInvoices": "Alle Rechnungen ansehen",
         "noOpenInvoices": "Zurzeit keine offenen Rechnungen",
@@ -942,7 +941,8 @@
             "paid": "Bezahlt",
             "unpaid": "Noch offen"
           }
-        }
+        },
+        "invoice": "Rechnung"
       },
       "subscriptions": {
         "title": "Abo",

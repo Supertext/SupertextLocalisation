@@ -286,7 +286,7 @@
       "close": "Schließen"
     }
   },
-  "user": "Mitglied",
+  "user": "User:in",
   "content": "Inhalt",
   "tone": "Tonalität",
   "settings": {
@@ -825,7 +825,7 @@
       "roleBasedUserMenuLinks": {
         "localReview": "LocalReview",
         "termBase": "Termbase",
-        "application": "Application",
+        "application": "Deine Bewerbung",
         "jobs": "Jobs"
       }
     },
@@ -941,7 +941,8 @@
             "paid": "Bezahlt",
             "unpaid": "Noch offen"
           }
-        }
+        },
+        "invoice": ""
       },
       "subscriptions": {
         "title": "Abo",
@@ -2477,7 +2478,7 @@
             {
               "image": "/images/pages/language-expertise/Alex.webp",
               "quote": "„Das beste Sprachmodell? Ihr eigenes.“",
-              "person": "Alex Flückiger, Senior Research Scientist",
+              "person": "",
               "content": [
                 {
                   "title": "Was macht ein Research Scientist genau?",
@@ -3570,7 +3571,7 @@
               "title": ""
             },
             {
-              "title": ""
+              "title": "113 Zielsprachen im Angebot"
             },
             {
               "title": ""

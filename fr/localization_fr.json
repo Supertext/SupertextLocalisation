@@ -941,7 +941,8 @@
             "paid": "Payées",
             "unpaid": "Encore ouvertes"
           }
-        }
+        },
+        "invoice": ""
       },
       "subscriptions": {
         "title": "Abonnement",
@@ -2477,7 +2478,7 @@
             {
               "image": "/images/pages/language-expertise/Alex.webp",
               "quote": "«Le meilleur modèle de langage? Le vôtre.»",
-              "person": "Alex Flückiger, Senior Research Scientist",
+              "person": "",
               "content": [
                 {
                   "title": "Qu’est-ce qu’un Research Scientist?",

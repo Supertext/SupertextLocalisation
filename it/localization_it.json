@@ -824,9 +824,9 @@
       },
       "roleBasedUserMenuLinks": {
         "localReview": "LocalReview",
-        "termBase": "Termbase",
-        "application": "Application",
-        "jobs": "Jobs"
+        "termBase": "Banca dati terminologica",
+        "application": "Candidatura",
+        "jobs": "Posti di lavoro"
       }
     },
     "filter": {
@@ -907,13 +907,13 @@
             "delivered": "Terminato",
             "inProgress": "In fase di elaborazione",
             "onHold": "In sospeso",
-            "collected": "Recuperato"
+            "collected": "Ritirato"
           }
         },
         "customFeatures": {
           "sourceDocuments": {
-            "helpLine": "I documenti di origine devono ancora essere caricati",
-            "upload": "Caricare i documenti"
+            "helpLine": "I documenti di partenza devono ancora essere caricati",
+            "upload": "Carica i documenti"
           }
         }
       },
@@ -1406,7 +1406,7 @@
     },
     "fileTranslation": {
       "uploadFile": "Traduci file",
-      "programmaticFileTranslationTooltip": "Starte mit übersetzen von {fileType} Dateien"
+      "programmaticFileTranslationTooltip": "Inizia a tradurre file {fileType}"
     },
     "humanVerification": {
       "verifyButton": "Avvia la verifica professionale",
@@ -2485,11 +2485,11 @@
                 },
                 {
                   "title": "Come si addestra il modello e cosa vi occorre per farlo?",
-                  "text": "Sviluppiamo il modello e lo adattiamo individualmente al linguaggio e allo stile di un determinato cliente. Per il training servono materie prime, in genere dati di traduzione interni forniti dal cliente, nonché vaste competenze in materia di linguistica computazionale e coding. L’intero processo dura circa 6 settimane. Nel frattempo, il modello viene ampiamente testato e verificato in base a standard di qualità."
+                  "text": "Sviluppiamo il modello e lo adattiamo individualmente al linguaggio e allo stile di un determinato cliente. Per il training servono materie prime, in genere dati di traduzione interni forniti dal cliente, nonché vaste competenze in materia di linguistica computazionale e coding. L’intero processo dura circa 5 settimane. Nel frattempo, il modello viene ampiamente testato e verificato in base a standard di qualità."
                 },
                 {
-                  "title": "Qual è la feature più interessante a cui hai contribuito finora?",
-                  "text": "La nostra feature relativa ai dialetti, che consente di tradurre da e verso lo svizzero tedesco, comprese varianti dialettali come lo zurighese o il bernese. La sua implementazione si è rivelata complessa, perché per queste varianti sono disponibili pochi testi scritti da usare a fini di training."
+                  "title": "Cosa ti piace di più del tuo lavoro?",
+                  "text": "Con i Large Language Models (LLM) stiamo rivoluzionando il modo in cui vengono addestrati i sistemi di traduzione. È uno sviluppo molto interessante, che consente di adattare la traduzione in tempo reale alle esigenze specifiche dei clienti e di migliorare la qualità complessiva della traduzione. <link>In 3 combinazioni linguistiche su 4 abbiamo persino ottenuto risultati migliori del gigante del settore DeepL</link>."
                 }
               ]
             }
@@ -3535,400 +3535,400 @@
       },
       "specialistTranslation": {
         "hero": {
-          "title": "",
-          "description": ""
+          "title": "Traduzioni specialistiche su misura",
+          "description": "3000+ specialisti a portata di mano per traduzioni professionali da InDesign a Word, dall’arabo allo zulu."
         },
         "lead": {
-          "large": "",
-          "small": "",
+          "large": "Volete tradurre il vostro rapporto di gestione? O presentare al mondo il vostro nuovo spot televisivo? I nostri professionisti del settore linguistico sono pronti.",
+          "small": "I professionisti del settore linguistico di Supertext sono oltre 3000 traduttori ed esperti culturali selezionati, specializzati e sempre a vostra disposizione quando la vostra traduzione IA necessita di un tocco extra.",
           "smallList": [
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Conoscenze del contesto nel vostro settore",
+            "Conoscenze culturali relative al gruppo target, alle sue abitudini, al suo senso dell’umorismo ecc.",
+            "Sicurezza a livello di contenuto",
+            "Presa in considerazione della prospettiva degli utenti (SEO, Customer Journey, UX Design)",
+            "Sensibilità per le sfumature stilistiche"
           ],
           "cta": {
-            "title": "",
-            "link": ""
+            "title": "Inizia un progetto",
+            "link": "/ordinare/tradurre?customOrderStyleName=common"
           },
           "cta2": {
-            "title": "",
-            "link": ""
+            "title": "Parliamone",
+            "link": "/contatto"
           }
         },
         "figuresPanel": {
-          "title": "",
+          "title": "7 MOTIVI PER SCEGLIERE SUPERTEXT",
           "items": [
             {
-              "title": ""
+              "title": "L’unica agenzia di traduzione che unisce linguistica IA e traduzione professionale su un’unica piattaforma"
             },
             {
-              "title": ""
+              "title": "3000+ professionisti del settore linguistico diplomati e selezionati in tutto il mondo"
             },
             {
-              "title": ""
+              "title": "100 specialisti interni a Zurigo e Berlino"
             },
             {
-              "title": ""
+              "title": "113 lingue di arrivo disponibili"
             },
             {
-              "title": ""
+              "title": "4 certificazioni ISO per la sicurezza dei dati (ISO 27001),  la gestione della qualità (ISO 9001) e la qualità della traduzione (ISO 17100 e 18587)."
             },
             {
-              "title": ""
+              "title": "1500 clienti in tutti i settori e di tutti segmenti"
             },
             {
-              "title": ""
+              "title": "20 anni nel settore (dal 20225)"
             }
           ]
         },
         "features": {
-          "eyebrowHeadline": "",
-          "title": "",
+          "eyebrowHeadline": "OFFERTA",
+          "title": "Il partner giusto per progetti di traduzione di ogni dimensione",
           "groups": {
             "group1": [
               {
-                "title": "",
-                "description": "",
+                "title": "Traduzione di documenti/file",
+                "description": "Da Word a PowerPoint, da InDesign a Illustrator, da HTML a XML, traduciamo i vostri testi in qualsiasi formato in modo semplice, veloce e sempre formattati alla perfezione.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/tradurre?customOrderStyleName=common"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Localizzazione di siti web direttamente dal CMS",
+                "description": "Con i nostri plugin per WordPress, Drupal, Adobe Experience Manager e altri, potete tradurre testi in modo ancora più semplice e senza soluzione di continuità. Il vostro CMS non è presente nella lista? Saremo lieti di proporvi altre opzioni.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Visualizza plugin",
+                  "link": "/faq?id=f8w9lowm1u5f1m17a005di6y"
                 },
                 "cta2": {
-                  "title": "",
-                  "link": ""
+                  "title": "Contattaci",
+                  "link": "/contatto"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Traduzione di rapporti di gestione",
+                "description": "Dai rapporti annuali al report ESG: traduciamo in conformità a tutti gli standard di reporting internazionali, in modo preciso e con la massima efficienza grazie al collegamento diretto al vostro sistema di publishing. Ad esempio ns.publish di Neidhart + Schön.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/tradurre?customOrderStyleName=common"
                 }
               }
             ],
             "group2": [
               {
-                "title": "",
-                "description": "",
+                "title": "Traduzioni per il marketing e trascreazioni per una presenza internazionale",
+                "description": "Non traduciamo parola per parola, ma adattiamo il vostro contenuto ai mercati e ai gruppi target locali, tenendo conto delle relative tradizioni, dell’umorismo e di altre caratteristiche culturali. Creiamo contenuti creativi e personalizzati con la giusta dose di sensibilità, dallo spot multilingue alla campagna di manifesti internazionale.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/tradurre?customOrderStyleName=common"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Traduzioni SEO di siti web",
+                "description": "Google, Bing, Baidu, Yandex o Yahoo: i nostri esperti e le nostre esperte SEO producono testi con un valore aggiunto per i lettori, i motori di ricerca e il vostro successo di marketing. Confezioniamo le vostre parole chiave in un testo più bello e diamo il tocco finale a landing page, descrizioni di prodotto e altri testi. Per un contenuto unico anche per il duecentesimo paio di scarpe da ginnastica.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/tradurre?customOrderStyleName=common"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Localizzazione di app e software",
+                "description": "Vi assistiamo nella localizzazione delle vostre app iOS, OS-X, Android e Windows. Per una maggiore velocità anche nella fase di progettazione. Per questo motivo parliamo fluentemente tutte le lingue di sistema più comuni: JSON, Java, YAML, Swift, PHP, ecc..",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Contattaci",
+                  "link": "/contatto"
                 }
               }
             ],
             "group3": [
               {
-                "title": "",
-                "description": "",
+                "title": "Traduzioni autenticate",
+                "description": "I vostri documenti ufficiali con validità legale in ogni lingua. Forniamo traduzioni giuridicamente valide per l’uso nazionale e internazionale, dalla dichiarazione d’intenti alla domanda di brevetto. Inoltre, se necessario, ci occupiamo per voi anche della postilla.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Contattaci",
+                  "link": "/ordinare/tradurre?customOrderStyleName=common"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Automazione di flussi di lavoro tramite API",
+                "description": "Sia che desideriate usufruire di traduzioni IA o di servizi professionali, siamo a vostra disposizione per qualsiasi tipo di integrazione e ci inseriamo perfettamente in qualsiasi ambiente di lavoro grazie alla nostra RESTful API flessibile. Saremo lieti di assistervi anche in caso di interfacce personalizzate.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Richiedi documentazione",
+                  "link": "/contatto"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Gestione della memoria di traduzione e della terminologia",
+                "description": "Una buona cura è la chiave di tutto: vi assistiamo nella pulizia della memoria di traduzione specifica della vostra azienda e nella gestione della terminologia. I dati aggiornati vengono integrati in tutte le traduzioni future e garantiscono risultati misurabilmente migliori a costi inferiori.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Contattaci",
+                  "link": "/contatto"
                 }
               }
             ]
           },
           "cta": {
-            "title": "",
-            "link": ""
+            "title": "Siete alla ricerca di una soluzione su misura? Contattateci.",
+            "link": "/contatto"
           }
         },
         "cases": {
-          "title": ""
+          "title": "Da 20 anni un solo obiettivo: garantire ai nostri clienti la massima accuratezza comunicativa."
         }
       },
       "copywriting": {
         "hero": {
-          "title": "",
-          "description": ""
+          "title": "Copywriting e testi professionali per il marketing",
+          "description": "Scriviamo la vostra storia di successo nel vostro tono di voce, in modo originale e andando dritti al punto."
         },
         "lead": {
-          "large": "",
-          "small": "",
+          "large": "Creare nuovi testi, ottimizzare i testi IA o migliorare i contenuti esistenti: vi aiutiamo a raggiunere i vostri obiettivi a livello di contenuto, parola per parola.",
+          "small": "La nostra rete esclusiva di copywriter, autori e giornalisti è sempre a vostra disposizione quando vi mancano le parole, con curiosità, creatività e una vasta esperienza nel vostro settore. Scriviamo testi di grande impatto, sia per il pubblico che per i motori di ricerca: dai siti web ai blog, dalle newsletter ai whitepaper e ai comunicati stampa.  <break></break> <break></break>Sia che si tratti di testi redatti personalmente o automaticamente, li rifiniamo finché ogni parola non è quella giusta e abbiamo i professionisti giusti per ogni settore. Per progetti speciali, conduciamo anche casting per selezionare team specifici al vostro servizio. Oppure vi aiutiamo a trovare la vostra voce.",
           "smallList": {
             "one": "",
             "other": ""
           },
           "cta": {
-            "title": "",
-            "link": ""
+            "title": "Inizia un progetto",
+            "link": "/ordinare/redazione"
           },
           "cta2": {
-            "title": "",
-            "link": ""
+            "title": "Parliamone",
+            "link": "/contatto"
           }
         },
         "figuresPanel": {
-          "title": "",
+          "title": "7 MOTIVI PER SCEGLIERE SUPERTEXT",
           "items": [
             {
-              "title": ""
+              "title": "L’unica agenzia di redazione che unisce su un’unica piattaforma IA linguistica interna e professionisti del settore linguistico"
             },
             {
-              "title": ""
+              "title": "Collaborazione con copywriter, autori e giornalisti professionisti esclusivi"
             },
             {
-              "title": ""
+              "title": "100 specialisti interni a Zurigo e Berlino"
             },
             {
-              "title": ""
+              "title": "La nostra offerta include sempre l’assistenza personale da parte di un o una responsabile di progetto di riferimento e, se necessario, una rielaborazione unica del testo"
             },
             {
-              "title": ""
+              "title": "1500 clienti in tutti i settori e di tutti segmenti"
             },
             {
-              "title": ""
+              "title": "Da 20 anni nel settore (dal 2005)"
             }
           ]
         },
         "features": {
-          "eyebrowHeadline": "",
-          "title": "",
+          "eyebrowHeadline": "OFFERTA",
+          "title": "Servizi di traduzione dalla A alla Ž: se siete a corto di parole, noi troviamo per voi quelle giuste.",
           "groups": {
             "group1": [
               {
-                "title": "",
-                "description": "",
+                "title": "SEO e UX Writing per siti web e app",
+                "description": "La chiave per un web design di successo è il testo. Vi aiutiamo a strutturare i contenuti e i messaggi lungo il customer journey, sempre con l'obiettivo di garantire un alto tasso di conversione.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/redazione"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Blogpost e articoli specialistici",
+                "description": "Contenuti informativi e di qualità attirano l’attenzione e suscitano rispetto, rafforzando la vostra credibilità e migliorando la vostra posizione sul mercato e su Google.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/redazione"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Descrizioni prodotto per i negozi online",
+                "description": "Le descrizioni prodotto convincenti aiutano i clienti nel loro processo decisionale e voi ai fini dell’indicizzazione su Google, Yahoo e altri motori di ricerca. Confezioniamo le vostre keyword in modo più bello e creiamo contenuti unici anche per il duecentesimo paio di scarpe da ginnastica.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/redazione"
                 }
               }
             ],
             "group2": [
               {
-                "title": "",
-                "description": "",
+                "title": "Slogan e claim",
+                "description": "Tempo, esperienza e riflessione: questi sono i tre ingredienti per un branding di successo. Riformuliamo il messaggio del vostro marchio fino a quando ogni parola è al posto giusto e in grado di conquistare il vostro pubblico.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/redazione"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Newsletter, mailing e campagne",
+                "description": "E-mail con tassi di apertura straordinari e campagne indimenticabili. Vi aiutiamo a creare materiali pubblicitari di ogni tipo, dal mailing sorprendente al manifesto di alta qualità. Per noi, le frasi fatte e le rime non possono sostituire quello che conta davvero: le ottime idee.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/redazione"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Linguaggio aziendale",
+                "description": "Vi aiutiamo a definire le linee guida linguistiche per il vostro brand, dal linguaggio aziendale alle guide di stile specifiche per la vostra azienda fino al brand book, in modo che tutta l’azienda parli con una sola voce.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Contattaci",
+                  "link": "/contatto"
                 }
               }
             ],
             "group3": [
               {
-                "title": "",
-                "description": "",
+                "title": "Comunicati stampa e materiali per la stampa",
+                "description": "Utilizzate i media divulgando fatti ben strutturati e informazioni credibili. Sviluppiamo idee di PR, facciamo ricerche e scriviamo testi che i giornalisti apprezzano.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/redazione"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Script e sottotitoli",
+                "description": "La nostra rete di esperti autori creativi fornisce script pronti per la produzione di video coinvolgenti, dalla clip per i social media al video esplicativo. Inoltre, si occupa anche della trascrizione dei contenuti e del sottotitolaggio.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Contattaci",
+                  "link": "/contatto"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Revisione e correzione (di testi IA)",
+                "description": "Contenuti stilisticamente impeccabili, dagli annunci pubblicitari ai post per social media. Correggiamo, ottimizziamo, miglioriamo. E siamo sempre lieti di dare il tocco finale anche ai vostri testi IA.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/redazione"
                 }
               }
             ]
           },
           "cta": {
-            "title": "",
-            "link": ""
+            "title": "Siete alla ricerca di un team selezionato al vostro servizio o di una soluzione su misura? Siamo a vostra disposizione.",
+            "link": "/contatto"
           }
         },
         "cases": {
-          "title": ""
+          "title": "Le storie di successo dei nostri clienti dicono tutto."
         }
       },
       "proofreading": {
         "hero": {
-          "title": "",
-          "description": ""
+          "title": "Revisione, correzione, redazione: il tocco finale",
+          "description": "Il nostro servizio di correzione garantisce una comunicazione priva di errori e un tone of voice adeguato in ogni lingua."
         },
         "lead": {
-          "large": "",
-          "small": "",
+          "large": "Che si tratti di correggere un rapporto di gestione, di ottimizzare un testo generato dall’IA o di rivedere una bozza, noi possiamo migliorare tutto ciò che desiderate. Sempre all’insegna di meticolosità, fedeltà allo stile richiesto e correttezza assoluta.",
+          "small": "I nostri specialisti e specialiste linguistici qualificati e testati internamente garantiscono il know-how in ogni lingua, non lasciando mai nulla al caso durante i loro lavori di correzione e attenendosi alle norme ufficiali previste per la rispettiva lingua di arrivo, oltre a curare il tone of voice di ogni testo.<break></break><break></break>Desiderate far tener traccia delle correzioni attraverso la funzione Rilevamento modifiche, quella dei commenti oppure ancora che le modifiche vengano apportate direttamente nel testo? Voi scegliete la modalità di correzione, noi ci occupiamo del resto. Tutto in un’unica soluzione e nella lingua che preferite. Il vostro incarico di correzione in più lingue è particolarmente urgente? I nostri professionisti saranno a vostra disposizione con un semplice clic.",
           "smallList": {
             "one": "",
             "other": ""
           },
           "cta": {
-            "title": "",
-            "link": ""
+            "title": "Iniziare un progetto",
+            "link": "/ordina/revisionare"
           },
           "cta2": {
-            "title": "",
-            "link": ""
+            "title": "Parliamone",
+            "link": "/contatti"
           }
         },
         "figuresPanel": {
-          "title": "",
+          "title": "7 RAGIONI PER SCEGLIERE SUPERTEXT",
           "items": [
             {
-              "title": ""
+              "title": "Unica agenzia di redazione di testi che coniuga in sé IA linguistica sviluppata in-house e specialisti linguistici"
             },
             {
-              "title": ""
+              "title": "Si collabora esclusivamente con editor e proofreader laureati e certificati"
             },
             {
-              "title": ""
+              "title": "100 specialisti e specialiste interni a Zurigo e Berlino"
             },
             {
-              "title": ""
+              "title": "Valutazione dei servizi di revisione su tre livelli: cliente, project manager, specialista linguistico"
             },
             {
-              "title": ""
+              "title": "4 certificazioni ISO per la sicurezza dei dati (ISO 27001), la gestione della qualità (ISO 9001) e la qualità di traduzione (ISO 17001/18587)"
             },
             {
-              "title": ""
+              "title": "1500 clienti di tutti i settori e di ogni dimensione"
             },
             {
-              "title": ""
+              "title": "Da 20 anni nel settore (dal 2005)"
             }
           ]
         },
         "features": {
-          "eyebrowHeadline": "",
-          "title": "",
+          "eyebrowHeadline": "OFFERTA",
+          "title": "Il servizio di correzione più pignolo al mondo per ogni tipo di contenuto",
           "groups": {
             "group1": [
               {
-                "title": "",
-                "description": "",
+                "title": "Correzione e visto si stampi per la stampa e il web",
+                "description": "Il classico servizio di correzione per garantire la massima precisione. Verifichiamo l’ortografia, la grammatica e la punteggiatura. Offriamo la correzione semplice e doppia, ma sempre all’insegna della pignoleria e della rapidità. ",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/revisionare"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Revisione e redazione di testi",
+                "description": "I vostri servizi per contenuti stilisticamente impeccabili. Dall’arabo allo zulu, dai blogpost alle saghe epiche, con inclusi gli adattamenti a livello di stile (revisione), struttura e tono (redazione) da parte di autori e giornalisti selezionati.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/revisionare"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Correttezza immediata in ogni lingua grazie alla traduzione IA e alla verifica professionale",
+                "description": "Avete bisogno di traduzioni sicure con un solo click? I nostri revisori madrelingua certificati garantiscono una comunicazione priva di errori in minuti anziché ore. Attualmente disponibile in 6 combinazioni linguistiche.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Prova la verifica professionale",
+                  "link": "/"
                 }
               }
             ],
             "group2": [
               {
-                "title": "",
-                "description": "",
+                "title": "Ottimizza i testi IA",
+                "description": "L’autore del vostro testo è ChatGPT, Jasper o Neuroflash? Miglioriamo ogni output generato automaticamente conferendogli una struttura più chiara, una logica più coerente e sottoponendolo a un controllo dei fatti. Per un maggiore impatto e la massima Brand Safety .",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordinare/revisionare"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Correzione di rapporti di gestione",
+                "description": "L’ultima rifinitura per relazioni annuali, report ESG, parametri finanziari e molto altro ancora. Il tutto in modo flessibile, veloce e sempre on-brand, nonché in qualsiasi formato: PDF, InDesign, CMS o direttamente nel sistema di publishing.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Inizia un progetto",
+                  "link": "/ordine/revisione"
                 }
               },
               {
-                "title": "",
-                "description": "",
+                "title": "Revisione di testi accademici",
+                "description": "Summa cum laude: grazie al nostro servizio di correzione e revisione per studenti. Dai testi di approfondimento alla tesi di laurea. E su richiesta anche a breve termine.",
                 "cta1": {
-                  "title": "",
-                  "link": ""
+                  "title": "Contattaci",
+                  "link": "/ordine/revisione"
                 }
               }
             ]
           },
           "cta": {
-            "title": "",
-            "link": ""
+            "title": "Siete alla ricerca di una soluzione su misura? Contattateci.",
+            "link": "/contatto"
           }
         },
         "references": {
-          "title": "",
+          "title": "Le storie di successo dei nostri clienti dicono tutto.",
           "cta": {
-            "link": "",
-            "text": ""
+            "link": "/referenze",
+            "text": "Ai case study"
           }
         }
       }

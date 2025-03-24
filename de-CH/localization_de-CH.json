@@ -793,7 +793,7 @@
         "part1": "Mit Supertext übersetzen Unternehmen",
         "part2": "besser, schneller, günstiger",
         "part3": "und",
-        "part4": "sicherer. Von",
+        "part4": "sicherer.",
         "part5": "0 % bis 100 % automatisiert."
       },
       "languageExpertise": "Sprachexpertise",
@@ -1406,7 +1406,7 @@
     },
     "fileTranslation": {
       "uploadFile": "Datei übersetzen",
-      "programmaticFileTranslationTooltip": "Starte mit übersetzen von {fileType} Dateien"
+      "programmaticFileTranslationTooltip": "Starte mit dem Übersetzen von {fileType} Dateien"
     },
     "humanVerification": {
       "verifyButton": "Profi-Check starten",
@@ -2485,11 +2485,11 @@
                 },
                 {
                   "title": "Wie läuft so ein spezialisiertes Training ab – und was braucht es dazu?",
-                  "text": "Wir entwickeln das Modell und passen es individuell auf Sprache und Stil des Unternehmens an. Fürs Training benötigen wir Rohmaterial – meistens interne Übersetzungsdaten von Kund:innen – und breite Kenntnisse in Computerlinguistik und Coding. Von Startschuss bis Bereitstellung dauert es ca. 6 Wochen. Dazwischen wird noch ausgiebig getestet und auf Qualitätsstandards hin geprüft."
+                  "text": "Wir entwickeln das Modell und passen es individuell auf Sprache und Stil des Unternehmens an. Fürs Training benötigen wir Rohmaterial – meistens interne Übersetzungsdaten von Kund:innen – und breite Kenntnisse in Computerlinguistik und Coding. Von Startschuss bis Bereitstellung dauert es ca. 5 Wochen. Dazwischen wird noch ausgiebig getestet und auf Qualitätsstandards hin geprüft."
                 },
                 {
                   "title": "Was macht dir bei der Arbeit besonders Spass?",
-                  "text": "Gerade stellen wir mit Large Language Models (LLM) die Art des Trainings von Übersetzungssystemen auf den Kopf. Eine sehr spannende Entwicklung, die sowohl eine kundenspezifische Adaption der Übersetzung in Echtzeit erlaubt, als auch die generelle Übersetzungsqualität auf ein neues Level  hebt – <link>in 3 von 4 Sprachpaaren schneiden wir sogar besser ab als Branchenriese DeepL</link>."
+                  "text": "Gerade stellen wir mit Large Language Models (LLM) die Art des Trainings von Übersetzungssystemen auf den Kopf. Eine sehr spannende Entwicklung, die sowohl eine kundenspezifische Adaption der Übersetzung in Echtzeit erlaubt, als auch die generelle Übersetzungsqualität auf ein neues Level hebt – <link>in 3 von 4 Sprachpaaren schneiden wir sogar besser ab als Branchenriese DeepL</link>."
                 }
               ]
             }
@@ -3539,7 +3539,7 @@
           "description": "3000+ Spezialist:innen auf Kurzwahl – für professionelle Übersetzungen von InDesign bis Word und von Arabisch bis Zulu."
         },
         "lead": {
-          "large": "Sie wollen Ihren Geschäftsbericht übersetzen? Oder den neuen TV-Spot in die Welt hinaustragen? Unsere Sprachprofis sind bereit – mit <highlight>Expertise</highlight> und echter <highlight>Leidenschaft</highlight>, wenn’s drauf ankommt.",
+          "large": "Sie wollen Ihren Geschäftsbericht übersetzen? Oder den neuen TV-Spot in die Welt hinaustragen? Unsere Sprachprofis sind bereit.",
           "small": "Die Sprachprofis von Supertext: Das sind 3000+ Übersetzerinnen und Kulturexperten – handverlesen, spezialisiert und immer dann zur Stelle, wenn Ihre KI-Übersetzung ein paar echt menschliche Extras benötigt:",
           "smallList": [
             "Kontextwissen in Ihrem Fachbereich",
@@ -3549,8 +3549,8 @@
             "Gefühl für stilistische Feinheiten"
           ],
           "cta": {
-            "title": "Projekt Starten",
-            "link": "/order/translation?customOrderStyleName=common"
+            "title": "Projekt starten",
+            "link": "/bestellen/uebersetzen?customOrderStyleName=common"
           },
           "cta2": {
             "title": "Lassen Sie uns reden",
@@ -3589,31 +3589,31 @@
           "groups": {
             "group1": [
               {
-                "title": "Dokumente / Dateien übersetzen",
+                "title": "Dokumente/Dateien übersetzen",
                 "description": "Von Word bis PowerPoint, von InDesign bis Illustrator, von HTML bis XML – wir übersetzen in Ihrem gewünschten Dateiformat. Unkompliziert, schnell und immer richtig formatiert.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/translation?customOrderStyleName=common"
+                  "link": "/bestellen/uebersetzen?customOrderStyleName=common"
                 }
               },
               {
                 "title": "Website-Lokalisierung direkt aus CMS",
-                "description": "Mit unseren Plugins für WordPress, Drupal, Adobe Experience Manager u.v.m übersetzen Sie nahtlos und noch einfacher. Ihr CMS ist nicht dabei? Dann können wir gerne darüber reden.",
+                "description": "Mit unseren Plugins für WordPress, Drupal, Adobe Experience Manager u. v. m. übersetzen Sie nahtlos und noch einfacher. Ihr CMS ist nicht dabei? Dann können wir gerne darüber reden.",
                 "cta1": {
                   "title": "Plugins ansehen",
                   "link": "/faq?id=f8w9lowm1u5f1m17a005di6y"
                 },
                 "cta2": {
                   "title": "Kontakt aufnehmen",
-                  "link": "/contact"
+                  "link": "/kontakt"
                 }
               },
               {
-                "title": "Geschäftsbericht übersetzen",
+                "title": "Geschäftsberichte übersetzen",
                 "description": "Vom Jahresreport bis zum ESG-Bericht: Wir übersetzen konform mit allen internationalen Reporting-Standards, präzise und maximal effizient – dank direkter Anbindung an Ihr Publishing-System. Zum Beispiel ns.publish von Neidhart + Schön.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/translation?customOrderStyleName=common"
+                  "link": "/bestellen/uebersetzen?customOrderStyleName=common"
                 }
               }
             ],
@@ -3623,15 +3623,15 @@
                 "description": "Wir übersetzen nicht Wort für Wort, sondern adaptieren Ihren Content im Sinne eines Kulturtransfers für lokale Märkte und Zielgruppen. Und berücksichtigen so individuelle Traditionen, Humor und andere kulturelle Referenzen. Kreativ, passgenau und mit der extra Portion Fingerspitzengefühl – vom mehrsprachigen Werbespot bis zur internationalen Plakatkampagne.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/translation?customOrderStyleName=common"
+                  "link": "/bestellen/uebersetzen?customOrderStyleName=common"
                 }
               },
               {
                 "title": "SEO-Übersetzungen von Webseiten",
-                "description": "Ob Google, Bing, Baidu, Yandex oder Yahoo – unsere SEO-Expert:innen liefern Texte mit Mehrwert. Für die Leser:innen, die Suchmaschine und Ihren Marketingerfolg. Wir verpacken Ihre Keywords schöner und geben Landingpages, Produktexten & Co den letzten Schliff. Für unique Content bis zum zweihundertsten Paar Sneakers.",
+                "description": "Ob Google, Bing, Baidu, Yandex oder Yahoo – unsere SEO-Expert:innen liefern Texte mit Mehrwert. Für die Leser:innen, die Suchmaschine und Ihren Marketingerfolg. Wir verpacken Ihre Keywords schöner und geben Landingpages, Produkttexten & Co den letzten Schliff. Für unique Content bis zum zweihundertsten Paar Sneakers.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/translation?customOrderStyleName=common"
+                  "link": "/bestellen/uebersetzen?customOrderStyleName=common"
                 }
               },
               {
@@ -3639,7 +3639,7 @@
                 "description": "Wir unterstützen Sie bei der Lokalisierung Ihrer iOS-, OS-X-, Android- und Windows-Apps. Für noch mehr Tempo auch schon in der Designphase. Und beherrschen darum alle gängigen Systemsprachen fliessend: JSON, Java, YAML, Swift, PHP usw.",
                 "cta1": {
                   "title": "Kontakt aufnehmen",
-                  "link": "/contact"
+                  "link": "/kontakt"
                 }
               }
             ],
@@ -3649,20 +3649,20 @@
                 "description": "Ihre offiziellen Dokumente – gültig für jeden Sprachraum. Wir erstellen rechtskräftige Übersetzungen für den nationalen und internationalen Einsatz, von der Absichtserklärung bis zum Patent. Und organisieren wo notwendig gleich die Apostille für Sie.",
                 "cta1": {
                   "title": "Kontakt aufnehmen",
-                  "link": "/order/translation?customOrderStyleName=common"
+                  "link": "/bestellen/uebersetzen?customOrderStyleName=common"
                 }
               },
               {
                 "title": "Automatisierung von Workflows via API",
-                "description": "Ob KI-Übersetzung oder Profiservices: Wir bieten Hand für Integrationen aller Art und fügen uns nahtlos in jede Arbeitsumgebung – mit unserer flexiblen RESTful API. Gerne unterstützen wir Sie auch für individuelle Schnittstellen.",
+                "description": "Ob KI-Übersetzung oder Profiservices: Wir bieten Hand für Integrationen aller Art und fügen uns nahtlos in jede Arbeitsumgebung ein – mit unserer flexiblen RESTful API. Gerne unterstützen wir Sie auch für individuelle Schnittstellen.",
                 "cta1": {
                   "title": "Dokumentation anfragen",
-                  "link": "/contact"
+                  "link": "/kontakt"
                 }
               },
               {
                 "title": "Translation Memory und Terminologie-Management",
-                "description": "Die richtige Pflege ist alles: Wir unterstützen Sie bei der Bereinigung Ihres unternehmensspezifischen Übersetzungsspeichers und der Terminologie. Die aktualisierten Daten fliessen in alle zukünftigen Übersetzungen mit ein und sorgen für messbar bessere Resultate bei sinkenden Kosten. ",
+                "description": "Die richtige Pflege ist alles: Wir unterstützen Sie bei der Bereinigung Ihres unternehmensspezifischen Übersetzungsspeichers und der Terminologie. Die aktualisierten Daten fliessen in alle zukünftigen Übersetzungen mit ein und sorgen für messbar bessere Resultate bei sinkenden Kosten.",
                 "cta1": {
                   "title": "Kontakt aufnehmen",
                   "link": "/kontakt"
@@ -3672,7 +3672,7 @@
           },
           "cta": {
             "title": "Sie suchen eine massgeschneiderte Lösung? Kontaktieren Sie uns.",
-            "link": "/contact"
+            "link": "/kontakt"
           }
         },
         "cases": {
@@ -3686,14 +3686,14 @@
         },
         "lead": {
           "large": "Neue Texte kreieren, KI-Texte optimieren oder an bestehendem Content feilen: Wir bringen Sie Ihren Content-Zielen Wort für Wort näher.",
-          "small": "Unser exklusives Netzwerk von Texter:innen, Autor:innen und Journalist:innen ist zur Stelle, wenn Ihnen die Worte fehlen. Mit Neugier, Kreativität und umfangreicher Erfahrung in Ihrem Fachgebiet.  Wir schreiben Texte, die wirken –  bei Menschen und bei Suchmaschinen. Von Websites, Blogs über Newsletters bis zu Whitepapers und Medientexten.  <break></break> <break></break>Ob selbst oder automatisch erstellt: Wir schleifen Ihren Text solange, bis jedes Wort sitzt und haben für alle Bereiche die richtigen Profis. Für besondere Projekte casten wir auch gerne spezifische Teams für Sie. Oder unterstützen Sie von Grund auf dabei, Ihre eigene Stimme zu finden.",
+          "small": "Unser exklusives Netzwerk von Texter:innen, Autor:innen und Journalist:innen ist zur Stelle, wenn Ihnen die Worte fehlen. Mit Neugier, Kreativität und umfangreicher Erfahrung in Ihrem Fachgebiet. Wir schreiben Texte, die wirken –  bei Menschen und bei Suchmaschinen. Von Websites, Blogs über Newsletters bis zu Whitepapers und Medientexten.  <break></break> <break></break>Ob selbst oder automatisch erstellt: Wir schleifen Ihren Text solange, bis jedes Wort sitzt und haben für alle Bereiche die richtigen Profis. Für besondere Projekte casten wir auch gerne spezifische Teams für Sie. Oder unterstützen Sie von Grund auf dabei, Ihre eigene Stimme zu finden.",
           "smallList": {
             "one": "",
             "other": ""
           },
           "cta": {
-            "title": "Projekt Starten",
-            "link": "/order/copywriting"
+            "title": "Projekt starten",
+            "link": "/bestellen/texten"
           },
           "cta2": {
             "title": "Lassen Sie uns reden",
@@ -3730,10 +3730,10 @@
             "group1": [
               {
                 "title": "SEO und UX Writing für Websites und Apps",
-                "description": "Der Schlüssel zu erfolgreichem Webdesign ist der Text. Wir helfen bei der Strukturierung von Inhalten und Botschaften entlang der Customer Journey. Immer im Hinblick auf hohe Conversion Rates. ",
+                "description": "Der Schlüssel zu erfolgreichem Webdesign ist der Text. Wir helfen bei der Strukturierung von Inhalten und Botschaften entlang der Customer Journey. Immer im Hinblick auf hohe Conversion Rates.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/copywriting"
+                  "link": "/bestellen/texten"
                 }
               },
               {
@@ -3741,7 +3741,7 @@
                 "description": "Informativer, hochwertiger Content verschafft Aufmerksamkeit und Respekt. Das stärkt Ihre Glaubwürdigkeit und verbessert Ihre Position auf dem Markt. Und bei Google.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/copywriting"
+                  "link": "/bestellen/texten"
                 }
               },
               {
@@ -3749,7 +3749,7 @@
                 "description": "Überzeugende Produkttexte helfen Kund:innen in der Entscheidungsfindung und Ihnen bei der Indexierung auf Google, Yahoo & Co. Wir verpacken Ihre Keywords schöner und sorgen für unique Content bis zum zweihundertsten Paar Sneakers.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/copywriting"
+                  "link": "/bestellen/texten"
                 }
               }
             ],
@@ -3759,7 +3759,7 @@
                 "description": "Zeit, Erfahrung und Denkarbeit – die drei Zutaten für erfolgreiches Branding. Wir brüten so lange an Ihrer Markenbotschaft, bis jedes Wort sitzt und Sie die Zielgruppe nachhaltig damit fesseln.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/copywriting"
+                  "link": "/bestellen/texten"
                 }
               },
               {
@@ -3767,7 +3767,7 @@
                 "description": "E-Mails mit aufsehenerregenden Öffnungsraten und Kampagnen, die in Erinnerung bleiben. Wir unterstützen bei der Konzeption von Werbemitteln jeder Art – vom überraschenden E-Mailing bis zum Hochglanz-Plakat. Floskeln und Reime sind für uns dabei kein Ersatz für das, worauf es stattdessen ankommt: echt gute Ideen.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/copywriting"
+                  "link": "/bestellen/texten"
                 }
               },
               {
@@ -3775,7 +3775,7 @@
                 "description": "Wir helfen Ihnen bei der Ausarbeitung von sprachlichen Leitplanken für Ihre Marke – vom Corporate Wording über firmenspezifische Styleguides bis zum Brand Book. Damit Ihr ganzes Unternehmen mit einer Stimme spricht.",
                 "cta1": {
                   "title": "Kontakt aufnehmen",
-                  "link": "/contact"
+                  "link": "/kontakt"
                 }
               }
             ],
@@ -3785,7 +3785,7 @@
                 "description": "Bedienen Sie Medien mit sauber strukturierten Fakten und glaubwürdigen Mitteilungen. Wir entwickeln PR-Ideen, machen Recherche und formulieren Texte, mit denen Journalist:innen gerne arbeiten.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/copywriting"
+                  "link": "/bestellen/texten"
                 }
               },
               {
@@ -3793,7 +3793,7 @@
                 "description": "Unser erfahrenes Netzwerk kreativer Autor:innen liefert produktionsreife Skripts für packenden Video-Content. Vom Social-Media-Reel bis zum Erklärfilm. Und sorgt auch gerne für die dazugehörige Transkription und Untertitelung der Inhalte.",
                 "cta1": {
                   "title": "Kontakt aufnehmen",
-                  "link": "/contact"
+                  "link": "/kontakt"
                 }
               },
               {
@@ -3801,14 +3801,14 @@
                 "description": "Stilistisch einwandfreier Content von der Anzeige bis zum Social-Media-Post. Wir korrigieren, optimieren, veredeln – und geben gerne auch Ihren KI-generierten Texten den letzten Schliff.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/copywriting"
+                  "link": "/bestellen/texten"
                 }
               }
             ]
           },
           "cta": {
             "title": "Sie suchen ein dediziertes Team oder eine massgeschneiderte Lösung? Gerne.",
-            "link": "/contact"
+            "link": "/kontakt"
           }
         },
         "cases": {
@@ -3817,19 +3817,19 @@
       },
       "proofreading": {
         "hero": {
-          "title": "Lektorat, Korrektorat, Redaktion – der letzte Schliff ",
+          "title": "Lektorat, Korrektorat, Redaktion – der letzte Schliff",
           "description": "Unser Korrekturservice sorgt für eine fehlerfreie Kommunikation und den richtigen Ton in jeder Sprache."
         },
         "lead": {
           "large": "Ob Geschäftsbericht korrigieren, KI-Text optimieren oder Manuskript lektorieren: Wir verbessern, was immer Sie wollen. Pingelig, stilgetreu und korrekt bis ins kleinste Detail.",
-          "small": "Für Expertise in jeder Sprache sorgen unsere ausgebildeten, intern geprüften Sprachspezialist:innen. Sie überlassen beim Korrigieren nichts dem Zufall, dafür alles dem amtlichen Regelwerk Ihrer Zielsprache. Und bringen dem Text gerne auch den passenden Ton bei.  <break></break><break></break>Track changes, Kommentarfunktion oder doch lieber Änderungen direkt im Text? Sie wählen den Korrekturmodus, wir erledigen den Rest. Alles aus einer Hand und in der Sprache Ihrer Wahl. Ihr mehrsprachiges Korrekorat eilt besonders? Dafür sind unsere Profis auch auf Knopfdruck verfügbar.",
+          "small": "Für Expertise in jeder Sprache sorgen unsere ausgebildeten, intern geprüften Sprachspezialist:innen. Sie überlassen beim Korrigieren nichts dem Zufall, dafür alles dem amtlichen Regelwerk Ihrer Zielsprache. Und bringen dem Text gerne auch den passenden Ton bei.  <break></break><break></break>Track Changes, Kommentarfunktion oder doch lieber Änderungen direkt im Text? Sie wählen den Korrekturmodus, wir erledigen den Rest. Alles aus einer Hand und in der Sprache Ihrer Wahl. Ihr mehrsprachiges Korrektorat eilt besonders? Dafür sind unsere Profis auch auf Knopfdruck verfügbar.",
           "smallList": {
             "one": "",
             "other": ""
           },
           "cta": {
-            "title": "Projekt Starten",
-            "link": "/order/proofreading"
+            "title": "Projekt starten",
+            "link": "/bestellen/lektorieren"
           },
           "cta2": {
             "title": "Lassen Sie uns reden",
@@ -3869,10 +3869,10 @@
             "group1": [
               {
                 "title": "Korrektorat und Gut zum Druck für Print und Web",
-                "description": "Das klassische Korrektorat für absolute Fehlerfreiheit. Wir nehmen Rechtschreibung, Grammatik und Interpunktion unter die Lupe. Einfach oder doppelt, aber immer pingelig und richtig schnell. ",
+                "description": "Das klassische Korrektorat für absolute Fehlerfreiheit. Wir nehmen Rechtschreibung, Grammatik und Interpunktion unter die Lupe. Einfach oder doppelt, aber immer pingelig und richtig schnell.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/proofreading"
+                  "link": "/bestellen/lektorieren"
                 }
               },
               {
@@ -3880,12 +3880,12 @@
                 "description": "Ihre Services für stilistisch einwandfreien Content. Von Arabisch bis Zulu und vom Blogbeitrag bis zum Heldenepos. Inklusive Anpassungen an Stil (Lektorieren) sowie Aufbau und Tonalität (Redigieren) durch ausgesuchte Autor:innen und Journalist:innen.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/proofreading"
+                  "link": "/bestellen/lektorieren"
                 }
               },
               {
                 "title": "Sofort in jeder Sprache korrekt – mit KI-Übersetzung und Profi-Check",
-                "description": "Sie brauchen beim Übersetzen Sicherheit auf Knopfdruck? Unsere muttersprachlichen, geprüfte Korrektor:innen garantieren fehlerfreie Kommunikation in Minuten statt Stunden. Aktuell verfügbar in 6 Sprachkombinationen.",
+                "description": "Sie brauchen beim Übersetzen Sicherheit auf Knopfdruck? Unsere muttersprachlichen, geprüften Korrektor:innen garantieren fehlerfreie Kommunikation in Minuten statt Stunden. Aktuell verfügbar in 6 Sprachkombinationen.",
                 "cta1": {
                   "title": "Profi-Check ausprobieren",
                   "link": "/"
@@ -3895,10 +3895,10 @@
             "group2": [
               {
                 "title": "KI-Texte optimieren",
-                "description": "Der Autor Ihres Texts heisst ChatGPT, Jasper oder Neuroflash?Wir veredeln jeden automatisch generierten Output – mit verbesserter Struktur, Logik und einem Faktencheck. Für mehr Aussagekraft und echte Brand Safety.",
+                "description": "Der Autor Ihres Texts heisst ChatGPT, Jasper oder Neuroflash? Wir veredeln jeden automatisch generierten Output – mit verbesserter Struktur, Logik und einem Faktencheck. Für mehr Aussagekraft und echte Brand Safety.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/proofreading"
+                  "link": "/bestellen/lektorieren"
                 }
               },
               {
@@ -3906,7 +3906,7 @@
                 "description": "Der letzte Schliff für Jahresbericht, ESG-Report, Finanzkennzahlen & Co. Flexibel, schnell und immer on-brand. Egal ob im PDF, InDesign, CMS oder direkt im Publishing-System.",
                 "cta1": {
                   "title": "Projekt starten",
-                  "link": "/order/proofreading"
+                  "link": "/bestellen/lektorieren"
                 }
               },
               {
@@ -3914,20 +3914,20 @@
                 "description": "Summa cum laude – dank unserem Korrektur- und Lektoratsservice für Studierende. Von der Vertiefungsarbeit bis zur Dissertation. Und auf Wunsch auch Express.",
                 "cta1": {
                   "title": "Kontakt aufnehmen",
-                  "link": "/order/proofreading"
+                  "link": "/bestellen/lektorieren"
                 }
               }
             ]
           },
           "cta": {
             "title": "Sie suchen eine massgeschneiderte Lösung? Kontaktieren Sie uns.",
-            "link": "/contact"
+            "link": "/kontakt"
           }
         },
         "references": {
           "title": "Die Erfolgsgeschichten unserer Kund:innen sprechen für sich.",
           "cta": {
-            "link": "/references",
+            "link": "/referenzen",
             "text": "Zu den Cases"
           }
         }

@@ -949,7 +949,7 @@
         "contactSupertext": "Supertext kontaktieren",
         "otherPlans": "Abo ändern",
         "current": "Aktuelles Abo",
-        "upgrade": "Upgraden",
+        "upgrade": "Kostenlos testen",
         "downgrade": "Herabstufen",
         "recommended": "Empfohlen",
         "comparePlans": "Abos vergleichen",
@@ -2669,6 +2669,10 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Freelancer Relations"
             }
           ]
         }

@@ -949,7 +949,7 @@
         "contactSupertext": "Contacter Supertext",
         "otherPlans": "Modifier l’abonnement",
         "current": "Abonnement actuel",
-        "upgrade": "Mettre à niveau",
+        "upgrade": "Essayer gratuitement",
         "downgrade": "Déclassement",
         "recommended": "Recommandé",
         "comparePlans": "Comparer les abonnements",
@@ -2669,6 +2669,10 @@
             {
               "title": "Customer assistance",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Relations avec les freelances"
             }
           ]
         }

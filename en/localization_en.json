@@ -949,7 +949,7 @@
         "contactSupertext": "Contact Supertext",
         "otherPlans": "Change subscription",
         "current": "Current subscription",
-        "upgrade": "Upgrade",
+        "upgrade": "Try for free",
         "downgrade": "Downgrade",
         "recommended": "Recommended",
         "comparePlans": "Compare subscriptions",
@@ -2669,6 +2669,10 @@
             {
               "title": "Customer support",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Freelancer Relations"
             }
           ]
         }
@@ -3590,7 +3594,7 @@
           "groups": {
             "group1": [
               {
-                "title": "Translate documents/files",
+                "title": "Document/file translation",
                 "description": "From Word to PowerPoint, from InDesign to Illustrator, from HTML to XML – we translate in your desired file format. Simple, quick and always correctly formatted.",
                 "cta1": {
                   "title": "Start project",
@@ -3610,7 +3614,7 @@
                 }
               },
               {
-                "title": "Translate annual report",
+                "title": "Annual report translation",
                 "description": "From annual reports to ESG reports: we translate accurately, efficiently and in compliance with all the relevant international reporting standards thanks to direct integration into publishing systems such as ns.publish from Neidhart + Schön.",
                 "cta1": {
                   "title": "Start project",
@@ -3628,7 +3632,7 @@
                 }
               },
               {
-                "title": "SEO translations for websites",
+                "title": "SEO translation for websites",
                 "description": "From Google, Bing and Baidu to Yandex and Yahoo, our SEO experts deliver texts that add value. For readers, search engines and your marketing budget. We give your keywords the beautiful setting they deserve and add the finishing touches to landing pages, product texts and more. For unique content right up to the 200th pair of sneakers.",
                 "cta1": {
                   "title": "Start project",
@@ -3726,7 +3730,7 @@
         },
         "features": {
           "eyebrowHeadline": "WHAT WE OFFER",
-          "title": "Textservices von Ä bis Ž: we start where words fail you.",
+          "title": "Text services from Ä to Ž: we start where words fail you.",
           "groups": {
             "group1": [
               {

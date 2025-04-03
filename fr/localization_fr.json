@@ -46,7 +46,7 @@
       }
     },
     "fileTranslation": {
-      "backButton": "Traducteur",
+      "backButton": "Retour",
       "backButtonShort": "Retour",
       "externalUploadButton": "Télécharger",
       "externalUploadTag": "Glissez un fichier ici",
@@ -949,7 +949,7 @@
         "contactSupertext": "Contacter Supertext",
         "otherPlans": "Modifier l’abonnement",
         "current": "Abonnement actuel",
-        "upgrade": "Essayer gratuitement",
+        "upgrade": "Mettre à niveau",
         "downgrade": "Déclassement",
         "recommended": "Recommandé",
         "comparePlans": "Comparer les abonnements",
@@ -961,7 +961,7 @@
         "annuallySubscription": "Annuel",
         "monthlySubscription": "Mensuel",
         "subscriptionFreeInfo": "Les utilisateurs/-trices non abonnés/-ées ont accès à notre abonnement Free.",
-        "addLicenses": "Ajouter d’autres licences.",
+        "addLicenses": "ajouter d’autres licences.",
         "subscribeMow": "S’abonner maintenant",
         "requestOffer": "Demander une offre",
         "addToWaitingList": "S’inscrire sur la liste d’attente",
@@ -1188,7 +1188,7 @@
             "title": "Équipe",
             "userManagement": "Gestion des utilisateurs/-trices",
             "addMember": "Ajouter un membre",
-            "editMember": "Modifier un membre",
+            "editMember": "Modifier utilisateur-trice",
             "removeMember": "Supprimer",
             "deleteMember": "Supprimer un membre",
             "deleteMemberConfirmation": "Êtes-vous sûr/-e? Vous ne pourrez pas annuler cette action.",
@@ -2407,8 +2407,8 @@
                   "title": "Traduction spécialisée",
                   "description": "Quand la technologie rencontre des spécialistes. De InDesign à Word et de l’arabe au zoulou.",
                   "cta": {
-                    "title": "En savoir plus",
-                    "link":"/traductions-specialisees",
+                    "title": "COMMANDER MAINTENANT",
+                    "link": "/commande/traduction",
                     "variant": "secondary"
                   }
                 },
@@ -2416,8 +2416,8 @@
                   "title": "Rédaction & contenu",
                   "description": "Nous intervenons là où les mots vous manquent. Dans le ton de votre marque, créatif et pertinent.",
                   "cta": {
-                    "title": "En savoir plus",
-                    "link": "/redaction",
+                    "title": "COMMANDER MAINTENANT",
+                    "link": "/commande/redaction",
                     "variant": "secondary"
                   }
                 },
@@ -2425,8 +2425,8 @@
                   "title": "Révision",
                   "description": "La touche finale à votre texte. Élégante, minutieuse et très rapide.",
                   "cta": {
-                    "title": "En savoir plus",
-                    "link": "/relecture",
+                    "title": "COMMANDER MAINTENANT",
+                    "link": "/commande/relecture",
                     "variant": "secondary"
                   }
                 },
@@ -2434,7 +2434,7 @@
                   "title": "Langage clair",
                   "description": "Nous rendons les textes techniques plus compréhensibles. Pour plus de confiance et moins de questions.",
                   "cta": {
-                    "title": "En savoir plus",
+                    "title": "COMMANDER MAINTENANT",
                     "link": "/commande/langage-clair",
                     "variant": "secondary"
                   }
@@ -2490,7 +2490,7 @@
                 },
                 {
                   "title": "Qu’est-ce qui vous plaît le plus dans votre travail?",
-                  "text": "Nous sommes en train de révolutionner la manière dont les systèmes de traduction sont entraînés grâce à l’utilisation de grands modèles de langage (LLM). Une évolution passionnante qui permet à la fois d’adapter une traduction en temps réel, en fonction des besoins de la clientèle, mais aussi de passer la qualité générale des traductions à un niveau supérieur – <link>dans trois paires de langues sur quatre, nos résultats sont même meilleurs que ceux du géant de l’industrie DeepL</link>."
+                  "text": "Nous sommes en train de révolutionner la manière dont les systèmes de traduction sont entraînés grâce à l’utilisation de grands modèles de langage (LLM). Une évolution passionnante qui permet à la fois d’adapter une traduction en temps réel, en fonction des besoins de la clientèle, mais aussi de passer la qualité générale des traductions à un niveau supérieur – dans trois paires de langues sur quatre, nos résultats sont même meilleurs que ceux du géant de l’industrie DeepL."
                 }
               ]
             }
@@ -2708,7 +2708,7 @@
         },
         "footerNote": {
           "pretitle": "Nous sommes là pour vous.",
-          "text": "Vous avez un <highlightText>projet linguistique</highlightText> passionnant en préparation? Vous souhaitez <highlightText> faire évaluer</highlightText> vos processus existants?",
+          "text": "Vous avez un <highlightText>projet linguistique</highlightText> passionnant en préparation? Vous souhaitez <highlightText> faire évaluer</highlightText> vos <highlight>processus</highlight> existants?",
           "cta": {
             "title": "Discutons-en",
             "link": "/contact",
@@ -4007,5 +4007,19 @@
     },
     "backToTool": "Retour au traducteur par l'IA"
   },
-  "notSupported": "Langue non disponible"
+  "notSupported": "Langue non disponible",
+  "portraits": {
+    "items": {
+      "1": {
+        "content": {
+          "2": {
+            "cta": {
+              "text": "Voir l’article",
+              "link": "/blog/deepl-vs-supertext-comparaison-qualite-traduction"
+            }
+          }
+        }
+      }
+    }
+  }
 }

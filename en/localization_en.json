@@ -46,7 +46,7 @@
       }
     },
     "fileTranslation": {
-      "backButton": "Text translator",
+      "backButton": "Back",
       "backButtonShort": "Back",
       "externalUploadButton": "Upload",
       "externalUploadTag": "Drag a file here",
@@ -949,7 +949,7 @@
         "contactSupertext": "Contact Supertext",
         "otherPlans": "Change subscription",
         "current": "Current subscription",
-        "upgrade": "Try for free",
+        "upgrade": "Upgrade",
         "downgrade": "Downgrade",
         "recommended": "Recommended",
         "comparePlans": "Compare subscriptions",
@@ -961,7 +961,7 @@
         "annuallySubscription": "Annual",
         "monthlySubscription": "Monthly",
         "subscriptionFreeInfo": "Users without a licence have access to our Free subscription.",
-        "addLicenses": "Add more licences.",
+        "addLicenses": "add more licences.",
         "subscribeMow": "Subscribe now",
         "requestOffer": "Request quote",
         "addToWaitingList": "Join the waiting list",
@@ -1188,7 +1188,7 @@
             "title": "Team",
             "userManagement": "User management",
             "addMember": "Add member",
-            "editMember": "Edit member",
+            "editMember": "Edit user",
             "removeMember": "Remove",
             "deleteMember": "Remove member",
             "deleteMemberConfirmation": "Are you sure? You can’t undo this action.",
@@ -1203,7 +1203,7 @@
             "actions": {
               "title": "Action",
               "editAll": "Edit all",
-              "removeAll": "Remove all"
+              "removeAll": "Remove from team"
             },
             "increaseNumberOfLicenses": "Increase number of licences",
             "selectLicense": "Select licence",
@@ -2325,7 +2325,7 @@
           }
         },
         "blog": {
-          "heading": "News, background and the latest features",
+          "heading": "News, insights and the latest features",
           "cta": {
             "text": "To the Supertext blog",
             "link": "/blog"
@@ -2407,8 +2407,8 @@
                   "title": "Specialist translation",
                   "description": "Technology meets experienced specialists. From InDesign to Word and from Arabic to Zulu.",
                   "cta": {
-                    "title": "Learn more",
-                    "link": "/translation",
+                    "title": "ORDER NOW",
+                    "link": "/order/translation",
                     "variant": "secondary"
                   }
                 },
@@ -2416,8 +2416,8 @@
                   "title": "Copywriting & content",
                   "description": "We start where words fail you. Creative, impactful copy in your tone of voice.",
                   "cta": {
-                    "title": "Learn more",
-                    "link": "/copywriting",
+                    "title": "ORDER NOW",
+                    "link": "/order/copywriting/",
                     "variant": "secondary"
                   }
                 },
@@ -2425,8 +2425,8 @@
                   "title": "Editing",
                   "description": "The final touch for your text. Stylish, meticulous and fast.",
                   "cta": {
-                    "title": "Learn more",
-                    "link": "/proofreading",
+                    "title": "ORDER NOW",
+                    "link": "/order/proofreading",
                     "variant": "secondary"
                   }
                 },
@@ -2434,7 +2434,7 @@
                   "title": "Plain language",
                   "description": "We make even specialist texts easy to understand. For greater trust and fewer support requests.",
                   "cta": {
-                    "title": "Learn more",
+                    "title": "ORDER NOW",
                     "link": "/order/plain-language",
                     "variant": "secondary"
                   }
@@ -2490,7 +2490,7 @@
                 },
                 {
                   "title": "What do you enjoy most about your work?",
-                  "text": "We are currently turning the way translation systems are trained on its head using large language models (LLM). This is a very exciting development that allows for customer-specific adaptation of translations in real time and also raises general translation quality to a new level – <link>in three out of four language pairs, we even perform better than industry giant DeepL</link>."
+                  "text": "We are currently turning the way translation systems are trained on its head using large language models (LLM). This is a very exciting development that allows for customer-specific adaptation of translations in real time and also raises general translation quality to a new level – in three out of four language pairs, we even perform better than industry giant DeepL."
                 }
               ]
             }
@@ -2672,7 +2672,7 @@
             },
             {
               "email": "vendormanagement@supertext.com",
-              "title": "Freelancer Relations"
+              "title": "Freelancer relations"
             }
           ]
         }
@@ -2840,7 +2840,7 @@
               "title": "1,500 clients of all sizes from all industries"
             },
             {
-              "title": "Around 100+ in-house specialists in Zurich and Berlin"
+              "title": "Around 100 in-house specialists in Zurich and Berlin"
             },
             {
               "title": "3,000 handpicked language professionals around the globe"
@@ -2912,7 +2912,7 @@
           }
         },
         "blog": {
-          "heading": "News, background and the latest features",
+          "heading": "News, insights and the latest features",
           "cta": {
             "text": "View all posts",
             "link": "/blog"
@@ -3017,7 +3017,7 @@
             {
               "icon": "/images/pages/home/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "A personal AI model that learns in real time",
-              "description": "Our language models learn quickly – and adapt to your needs with every verified translation. This ensures that the quality keeps rising and your costs keep falling in the long term.",
+              "description": "Our language models learn quickly – and adapt to your needs with every verified translation. So quality keeps improving and your costs keep falling.",
               "badge": "",
               "cta": {
                 "title": "",
@@ -3310,7 +3310,7 @@
             {
               "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "A personal AI model that learns in real time",
-              "description": "Our language models learn quickly – and adapt to your needs with every verified translation. This ensures that the quality keeps rising and your costs keep falling in the long term.",
+              "description": "Our language models learn quickly – and adapt to your needs with every verified translation. So quality keeps improving and your costs keep falling.",
               "badge": "Available soon",
               "cta": {
                 "title": "Learn more",
@@ -4007,5 +4007,19 @@
     },
     "backToTool": "Back to the AI translator"
   },
-  "notSupported": "Unsupported language"
+  "notSupported": "Unsupported language",
+  "portraits": {
+    "items": {
+      "1": {
+        "content": {
+          "2": {
+            "cta": {
+              "text": "View post",
+              "link": "/blog/deepl-vs-supertext-a-comparison-of-translation-performance"
+            }
+          }
+        }
+      }
+    }
+  }
 }

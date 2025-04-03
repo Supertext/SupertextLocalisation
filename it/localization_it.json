@@ -46,7 +46,7 @@
       }
     },
     "fileTranslation": {
-      "backButton": "Traduttore",
+      "backButton": "Indietro",
       "backButtonShort": "Indietro",
       "externalUploadButton": "Carica",
       "externalUploadTag": "Trascini un file qui",
@@ -949,7 +949,7 @@
         "contactSupertext": "Contatta Supertext",
         "otherPlans": "Modifica l’abbonamento",
         "current": "Abbonamento attuale",
-        "upgrade": "Prova gratuitamente",
+        "upgrade": "Upgrade",
         "downgrade": "Downgrade",
         "recommended": "Consigliato",
         "comparePlans": "Confronto tra gli abbonamenti",
@@ -961,7 +961,7 @@
         "annuallySubscription": "Annuale",
         "monthlySubscription": "Mensile",
         "subscriptionFreeInfo": "Gli utenti senza licenza hanno accesso al nostro abbonamento Free.",
-        "addLicenses": "Aggiungi ulteriori licenze.",
+        "addLicenses": "aggiungi ulteriori licenze.",
         "subscribeMow": "Sottoscrivi l’abbonamento",
         "requestOffer": "Richiedi un preventivo",
         "addToWaitingList": "Registrati alla lista d’attesa",
@@ -1188,7 +1188,7 @@
             "title": "Team",
             "userManagement": "Gestione utenti",
             "addMember": "Aggiungi membro",
-            "editMember": "Modificare membro",
+            "editMember": "Modificare utente",
             "removeMember": "Rimuovi",
             "deleteMember": "Rimuovere membro",
             "deleteMemberConfirmation": "Procedere? Questa azione non potrà essere annullata.",
@@ -2407,8 +2407,8 @@
                   "title": "Traduzione specialistica",
                   "description": "Il connubio tra tecnologia ed esperienza nel settore. Da InDesign a Word, dall’arabo allo zulu.",
                   "cta": {
-                    "title": "Scopri di più",
-                    "link": "/traduzioni-specializzate",
+                    "title": "ORDINA ORA",
+                    "link": "/ordine/traduzione",
                     "variant": "secondary"
                   }
                 },
@@ -2416,8 +2416,8 @@
                   "title": "Copywriting e contenuti",
                   "description": "Se siete a corto di parole, noi troviamo per voi quelle giuste. Conformi al vostro tone of voice, originali e che vanno dritte al punto.",
                   "cta": {
-                    "title": "Scopri di più",
-                    "link": "/redazione",
+                    "title": "ORDINA ORA",
+                    "link": "/ordine/redazione/",
                     "variant": "secondary"
                   }
                 },
@@ -2425,8 +2425,8 @@
                   "title": "Revisione",
                   "description": "Il tocco finale per il vostro testo. Stilisticamente perfetto, preciso e in tempi record.",
                   "cta": {
-                    "title": "Scopri di più",
-                    "link": "/revisione",
+                    "title": "ORDINA ORA",
+                    "link": "/ordine/revisione",
                     "variant": "secondary"
                   }
                 },
@@ -2434,7 +2434,7 @@
                   "title": "Plain language",
                   "description": "Rendiamo anche i testi tecnici di facile comprensione. Per una maggiore fiducia e meno richieste di assistenza.",
                   "cta": {
-                    "title": "Scopri di più",
+                    "title": "ORDINA ORA",
                     "link": "/ordine/plain-language",
                     "variant": "secondary"
                   }
@@ -2490,7 +2490,7 @@
                 },
                 {
                   "title": "Cosa ti piace di più del tuo lavoro?",
-                  "text": "Con i Large Language Models (LLM) stiamo rivoluzionando il modo in cui vengono addestrati i sistemi di traduzione. È uno sviluppo molto interessante, che consente di adattare la traduzione in tempo reale alle esigenze specifiche dei clienti e di migliorare la qualità complessiva della traduzione. <link>In 3 combinazioni linguistiche su 4 abbiamo persino ottenuto risultati migliori del gigante del settore DeepL</link>."
+                  "text": "Con i Large Language Models (LLM) stiamo rivoluzionando il modo in cui vengono addestrati i sistemi di traduzione. È uno sviluppo molto interessante, che consente di adattare la traduzione in tempo reale alle esigenze specifiche dei clienti e di migliorare la qualità complessiva della traduzione. In 3 combinazioni linguistiche su 4 abbiamo persino ottenuto risultati migliori del gigante del settore DeepL."
                 }
               ]
             }
@@ -4007,5 +4007,19 @@
     },
     "backToTool": "Torna al traduttore IA"
   },
-  "notSupported": "Lingua non supportata"
+  "notSupported": "Lingua non supportata",
+  "portraits": {
+    "items": {
+      "1": {
+        "content": {
+          "2": {
+            "cta": {
+              "text": "All'articolo",
+              "link": "/blog/deepl-vs-supertext-un-confronto-della-qualita-di-traduzione"
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -2490,7 +2490,11 @@
                 },
                 {
                   "title": "What do you enjoy most about your work?",
-                  "text": "We are currently turning the way translation systems are trained on its head using large language models (LLM). This is a very exciting development that allows for customer-specific adaptation of translations in real time and also raises general translation quality to a new level – in three out of four language pairs, we even perform better than industry giant DeepL."
+                  "text": "We are currently turning the way translation systems are trained on its head using large language models (LLM). This is a very exciting development that allows for customer-specific adaptation of translations in real time and also raises general translation quality to a new level – in three out of four language pairs, we even perform better than industry giant DeepL.",
+                  "cta": {
+                    "text": "View post",
+                    "link": "/blog/deepl-vs-supertext-a-comparison-of-translation-performance"
+                  }
                 }
               ]
             }
@@ -4007,5 +4011,19 @@
     },
     "backToTool": "Back to the AI translator"
   },
-  "notSupported": "Unsupported language"
+  "notSupported": "Unsupported language",
+  "portraits": {
+    "items": {
+      "1": {
+        "content": {
+          "2": {
+            "cta": {
+              "text": "View post",
+              "link": "/blog/deepl-vs-supertext-a-comparison-of-translation-performance"
+            }
+          }
+        }
+      }
+    }
+  }
 }

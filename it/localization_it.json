@@ -2490,7 +2490,11 @@
                 },
                 {
                   "title": "Cosa ti piace di più del tuo lavoro?",
-                  "text": "Con i Large Language Models (LLM) stiamo rivoluzionando il modo in cui vengono addestrati i sistemi di traduzione. È uno sviluppo molto interessante, che consente di adattare la traduzione in tempo reale alle esigenze specifiche dei clienti e di migliorare la qualità complessiva della traduzione. In 3 combinazioni linguistiche su 4 abbiamo persino ottenuto risultati migliori del gigante del settore DeepL."
+                  "text": "Con i Large Language Models (LLM) stiamo rivoluzionando il modo in cui vengono addestrati i sistemi di traduzione. È uno sviluppo molto interessante, che consente di adattare la traduzione in tempo reale alle esigenze specifiche dei clienti e di migliorare la qualità complessiva della traduzione. In 3 combinazioni linguistiche su 4 abbiamo persino ottenuto risultati migliori del gigante del settore DeepL.",
+                  "cta": {
+                    "text": "All'articolo",
+                    "link": "/blog/deepl-vs-supertext-un-confronto-della-qualita-di-traduzione"
+                  }
                 }
               ]
             }
@@ -4007,5 +4011,19 @@
     },
     "backToTool": "Torna al traduttore IA"
   },
-  "notSupported": "Lingua non supportata"
+  "notSupported": "Lingua non supportata",
+  "portraits": {
+    "items": {
+      "1": {
+        "content": {
+          "2": {
+            "cta": {
+              "text": "All'articolo",
+              "link": "/blog/deepl-vs-supertext-un-confronto-della-qualita-di-traduzione"
+            }
+          }
+        }
+      }
+    }
+  }
 }

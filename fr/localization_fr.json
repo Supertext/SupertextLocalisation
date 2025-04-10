@@ -2490,7 +2490,11 @@
                 },
                 {
                   "title": "Qu’est-ce qui vous plaît le plus dans votre travail?",
-                  "text": "Nous sommes en train de révolutionner la manière dont les systèmes de traduction sont entraînés grâce à l’utilisation de grands modèles de langage (LLM). Une évolution passionnante qui permet à la fois d’adapter une traduction en temps réel, en fonction des besoins de la clientèle, mais aussi de passer la qualité générale des traductions à un niveau supérieur – dans trois paires de langues sur quatre, nos résultats sont même meilleurs que ceux du géant de l’industrie DeepL."
+                  "text": "Nous sommes en train de révolutionner la manière dont les systèmes de traduction sont entraînés grâce à l’utilisation de grands modèles de langage (LLM). Une évolution passionnante qui permet à la fois d’adapter une traduction en temps réel, en fonction des besoins de la clientèle, mais aussi de passer la qualité générale des traductions à un niveau supérieur – dans trois paires de langues sur quatre, nos résultats sont même meilleurs que ceux du géant de l’industrie DeepL.",
+                  "cta": {
+                    "text": "Voir l’article",
+                    "link": "/blog/deepl-vs-supertext-comparaison-qualite-traduction"
+                  }
                 }
               ]
             }
@@ -4007,5 +4011,19 @@
     },
     "backToTool": "Retour au traducteur par l'IA"
   },
-  "notSupported": "Langue non disponible"
+  "notSupported": "Langue non disponible",
+  "portraits": {
+    "items": {
+      "1": {
+        "content": {
+          "2": {
+            "cta": {
+              "text": "Voir l’article",
+              "link": "/blog/deepl-vs-supertext-comparaison-qualite-traduction"
+            }
+          }
+        }
+      }
+    }
+  }
 }

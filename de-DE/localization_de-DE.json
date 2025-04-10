@@ -678,7 +678,7 @@
   "notifications": {
     "info": {
       "waitingForSlowTranslation": "Ihre Übersetzung dauert etwas länger als normal. Bitte haben Sie Geduld.",
-      "submittingVerification": "Übermittlung der Verifizierung, bitte warten ..."
+      "submittingVerification": "Übermittlung des Profi-Checks, bitte warten ..."
     },
     "failure": {
       "systemUnavailable": "Das Übersetzungssystem ist nicht verfügbar. Bitte kontaktieren Sie Ihre:n Systemadministrator:in.",
@@ -733,7 +733,7 @@
       "officeHoursAvailability": "Konnte keine Büroverfügbarkeit abrufen",
       "userIsNotAuthenticated": "User:in ist nicht authentifiziert",
       "noDataReceived": "Keine Daten empfangen",
-      "couldNotFetchVerificationJob": "Beim Abrufen des Verifizierungsauftrags ist etwas schiefgelaufen.",
+      "couldNotFetchVerificationJob": "Beim Abrufen des Profi-Checks ist etwas schiefgelaufen.",
       "somethingWentWrongWithPricing": "Bei der Preisschätzung ist etwas schiefgelaufen.",
       "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler erneut auftritt."
     },
@@ -1064,7 +1064,7 @@
         "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
         "comment": "Bezeichnung (optional)",
         "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
-        "company": "Unternehmen/Organisation",
+        "company": "Unternehmen/ Organisation",
         "name": "Name",
         "changeName": "Name ändern",
         "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
@@ -1407,7 +1407,7 @@
     },
     "fileTranslation": {
       "uploadFile": "Datei übersetzen",
-      "programmaticFileTranslationTooltip": "Starte mit dem Übersetzen von {fileType} Dateien"
+      "programmaticFileTranslationTooltip": "Starten Sie jetzt mit dem Übersetzen von {fileType}-Dateien"
     },
     "humanVerification": {
       "verifyButton": "Profi-Check starten",
@@ -1421,7 +1421,7 @@
         "description": "Danke für Ihre Geduld! Dieser Service wird bald für weitere Sprachpaare verfügbar sein."
       },
       "stepOne": {
-        "title": "Verifizierung",
+        "title": "Profi-Check",
         "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
         "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
         "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten.",
@@ -2478,7 +2478,7 @@
             {
               "image": "/images/pages/language-expertise/Alex.webp",
               "quote": "„Das beste Sprachmodell? Ihr eigenes.“",
-              "person": "Alex Flückiger, Senior Research Scientist",
+              "person": "Alex Flückiger, Head of AI Research",
               "content": [
                 {
                   "title": "Was macht ein Research Scientist genau?",
@@ -2922,18 +2922,18 @@
       "aiTranslation": {
         "hero": {
           "title": "KI-Übersetzung mit Profi-Check",
-          "description": "Sicher sein – in Minuten statt Stunden. Dank der Verifizierung durch erfahrene Übersetzer:innen auf Knopfdruck."
+          "description": "Sicher sein – in Minuten statt Stunden. Dank des Profi-Checks durch erfahrene Übersetzer:innen auf Knopfdruck."
         },
         "lead": {
           "large": "Ihre Übersetzung – professionell geprüft, wenn es wirklich wichtig ist.",
-          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break> <break></break> Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit der Verifizierung auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
+          "small": "KI-Übersetzung ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break> <break></break> Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit dem Profi-Check auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
           "cta": {
             "title": "Jetzt ausprobieren",
             "link": "/"
           }
         },
         "informationalPanel": {
-          "title": "AI Translation trifft auf erfahrene Profis. Was steckt drin?",
+          "title": "KI-Übersetzung trifft auf erfahrene Profis. Was steckt drin?",
           "items": [
             {
               "title": "KI-Übersetzung auf dem neusten Stand der Technik",
@@ -3186,7 +3186,7 @@
         "downloadCaseStudy": "Case Study herunterladen",
         "furtherCaseStudies": "Weitere Case Studys",
         "footerNote": {
-          "title": "Sie wollen <highlightText>Ressourcen schonen und AI Translation maximal produktiv</highlightText> im Unternehmen einsetzen? Lassen Sie uns reden.",
+          "title": "Sie wollen <highlightText>Ressourcen schonen und KI-Übersetzung maximal produktiv</highlightText> im Unternehmen einsetzen? Lassen Sie uns reden.",
           "cta": {
             "title": "Kontaktieren Sie uns",
             "link": "/kontakt"
@@ -3214,18 +3214,18 @@
       "aiTranslationVerification": {
         "hero": {
           "title": "KI-Übersetzung mit Profi-Check",
-          "description": "Sicher sein – in Minuten statt Stunden. Dank der Verifizierung durch erfahrene Übersetzer:innen auf Knopfdruck."
+          "description": "Sicher sein – in Minuten statt Stunden. Dank des Profi-Checks durch erfahrene Übersetzer:innen auf Knopfdruck."
         },
         "lead": {
           "large": "Ihre Übersetzung – professionell geprüft, wenn es wirklich wichtig ist.",
-          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break><break></break>Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit der Verifizierung auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
+          "small": "KI-Übersetzung ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break><break></break>Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit dem Profi-Check auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
           "cta": {
             "title": "Jetzt ausprobieren",
             "link": "/"
           }
         },
         "informationalPanel": {
-          "title": "AI Translation trifft auf erfahrene Profis. Was steckt drin?",
+          "title": "KI-Übersetzung trifft auf erfahrene Profis. Was steckt drin?",
           "items": [
             {
               "title": "KI-Übersetzung auf dem neusten Stand der Technik",

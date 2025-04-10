@@ -2490,7 +2490,11 @@
                 },
                 {
                   "title": "Was macht dir bei der Arbeit besonders Spass?",
-                  "text": "Gerade stellen wir mit Large Language Models (LLM) die Art des Trainings von Übersetzungssystemen auf den Kopf. Eine sehr spannende Entwicklung, die sowohl eine kundenspezifische Adaption der Übersetzung in Echtzeit erlaubt, als auch die generelle Übersetzungsqualität auf ein neues Level hebt – in 3 von 4 Sprachpaaren schneiden wir sogar besser ab als Branchenriese DeepL."
+                  "text": "Gerade stellen wir mit Large Language Models (LLM) die Art des Trainings von Übersetzungssystemen auf den Kopf. Eine sehr spannende Entwicklung, die sowohl eine kundenspezifische Adaption der Übersetzung in Echtzeit erlaubt, als auch die generelle Übersetzungsqualität auf ein neues Level hebt – in 3 von 4 Sprachpaaren schneiden wir sogar besser ab als Branchenriese DeepL.",
+                  "cta": {
+                    "text": "Zum Beitrag",
+                    "link": "/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
+                  }
                 }
               ]
             }
@@ -4007,19 +4011,5 @@
     },
     "backToTool": "Zurück zum KI-Übersetzer"
   },
-  "notSupported": "Nicht unterstützte Sprache",
-  "portraits": {
-    "items": {
-      "1": {
-        "content": {
-          "2": {
-            "cta": {
-              "text": "Zum Beitrag",
-              "link": "/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
-            }
-          }
-        }
-      }
-    }
-  }
+  "notSupported": "Nicht unterstützte Sprache"
 }

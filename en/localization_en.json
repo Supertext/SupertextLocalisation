@@ -124,7 +124,7 @@
         }
       },
       "availableFiles": {
-        "message": "{remaining}/{total} files available",
+        "message": "{remaining}\/{total} files available",
         "popover": "Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month",
         "unregisteredPopover": "You must be logged in to begin translating files."
       },
@@ -162,7 +162,7 @@
     },
     "languageMenu": {
       "cta": "Plus 18 additional languages in our business solution",
-      "href": "/business/en/features"
+      "href": "\/business\/en\/features"
     },
     "NpsSurveyPopup": {
       "question": "How likely are you to recommend Supertext to your friends?",
@@ -219,7 +219,7 @@
     "genderfairFirstRunExperienceToggle": {
       "text": "We now support gender-inclusive language for German and English.",
       "link": "Here is our blog post on the topic.",
-      "href": "https://supertext.com/business/de/blog/genderfair"
+      "href": "https:\/\/supertext.com\/business\/de\/blog\/genderfair"
     },
     "firstRunExperienceToggle": {
       "text": "Click on a word or select multiple words to get alternatives.",
@@ -277,7 +277,7 @@
       "GENDERFAIR_OFF": "Off",
       "GENDERFAIR_DISCLAIMER": "AI translations can be biased. Enable this feature to translate gender-inclusively.",
       "GENDERFAIR_ARTICLE_DISCLAIMER": "For more on this topic, see our blog post.",
-      "GENDERFAIR_ARTICLE_LINK": "https://supertext.com/business/de/blog/genderfair-uebersetzen"
+      "GENDERFAIR_ARTICLE_LINK": "https:\/\/supertext.com\/business\/de\/blog\/genderfair-uebersetzen"
     },
     "welcomeSupertextBanner": {
       "title": "THE NEW SUPERTEXT",
@@ -313,7 +313,7 @@
     "clearSourceText": "Delete text",
     "swapLanguages": "Swap languages",
     "targetTextLength": "Number of characters",
-    "sourceTextCharacterLimit": "Number of characters/maximum",
+    "sourceTextCharacterLimit": "Number of characters\/maximum",
     "verifiedTranslations": "Mark verified translations",
     "rephraseTranslation": "Rephrase",
     "editGlossary": "Edit glossary",
@@ -391,7 +391,7 @@
       }
     },
     "availableFiles": {
-      "message": "{remaining}/{total} files available",
+      "message": "{remaining}\/{total} files available",
       "popover": "Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month",
       "unregisteredPopover": "You must be logged in to begin translating files."
     }
@@ -819,7 +819,7 @@
         "title": "Start project",
         "learnMore": {
           "title": "Learn more",
-          "description": "Experienced experts and ISO-certified processes: <link>learn more about our language expertise</link>"
+          "description": "Experienced experts and ISO-certified processes: <link>learn more about our language expertise<\/link>"
         }
       },
       "roleBasedUserMenuLinks": {
@@ -1015,9 +1015,9 @@
                 "error": "Please enter your name"
               },
               "company": {
-                "label": "* Company/organisation",
-                "placeholder": "Your company/your organisation",
-                "error": "Please specify your company/organisation"
+                "label": "* Company\/organisation",
+                "placeholder": "Your company\/your organisation",
+                "error": "Please specify your company\/organisation"
               },
               "userCount": {
                 "label": "* Number of users (estimate)",
@@ -1042,7 +1042,7 @@
         "firstMonthFree": "First month free",
         "cancelSubscriptionButton": "Downgrade subscription",
         "cancelSubscriptionAlert": "Are you sure you want to downgrade your subscription? Access to your {subscriptionName} subscription will end on {endDate}",
-        "footerNote": "Do you have <highlightText>big plans?</highlightText> We have <highlightText>the right solution</highlightText>.",
+        "footerNote": "Do you have <highlightText>big plans?<\/highlightText> We have <highlightText>the right solution<\/highlightText>.",
         "requestAccess": "Request access",
         "requestAccessSuccess": "Your request was sent successfully",
         "accessRequested": "Access requested",
@@ -1064,7 +1064,7 @@
         "licenseValidation": "Licence must be at least 2 characters long",
         "comment": "Label (optional)",
         "commentValidation": "Label must be at least 2 characters long",
-        "company": "Company/organisation",
+        "company": "Company\/ organisation",
         "name": "Name",
         "changeName": "Change name",
         "nameValidation": "Label must be at least 2 characters long",
@@ -1398,11 +1398,11 @@
         "dataProtection": "Privacy",
         "media": "Media"
       },
-      "freelancerRegistrationLink": "https://www.supertext.com/services/en/startapplication",
+      "freelancerRegistrationLink": "https:\/\/www.supertext.com\/services\/en\/startapplication",
       "socialLinks": {
-        "LinkedIn": "https://www.linkedin.com/company/supertext-group",
-        "Meetup": "https://www.meetup.com/language-ai-meetup/",
-        "YouTube": "https://www.youtube.com/@supertext"
+        "LinkedIn": "https:\/\/www.linkedin.com\/company\/supertext-group",
+        "Meetup": "https:\/\/www.meetup.com\/language-ai-meetup\/",
+        "YouTube": "https:\/\/www.youtube.com\/@supertext"
       }
     },
     "fileTranslation": {
@@ -1436,7 +1436,7 @@
           "changeBillingAddress": "Change billing address (optional)",
           "addBillingAddress": "Add billing address (optional)",
           "company": {
-            "label": "Company/organisation (optional)",
+            "label": "Company\/organisation (optional)",
             "placeholder": "Example Company Ltd"
           },
           "vatNumber": {
@@ -1454,7 +1454,7 @@
             "error": "Surname is required"
           },
           "street": {
-            "label": "Street/number",
+            "label": "Street\/number",
             "placeholder": "Example Street 123",
             "error": "Address is required"
           },
@@ -1609,8 +1609,8 @@
         "description": "For individuals and small businesses",
         "price_monthly": "11.90",
         "price_yearly": "9.90",
-        "period_monthly": "/month",
-        "period_yearly": "/month",
+        "period_monthly": "\/month",
+        "period_yearly": "\/month",
         "features": {
           "title": "Everything from Free, plus:",
           "items": {
@@ -1643,8 +1643,8 @@
         "description": "For frequent users",
         "price_monthly": "29.90",
         "price_yearly": "24.90",
-        "period_monthly": "/month",
-        "period_yearly": "/month",
+        "period_monthly": "\/month",
+        "period_yearly": "\/month",
         "features": {
           "title": "Everything from Essential, plus:",
           "items": {
@@ -1679,8 +1679,8 @@
         "description": "For language professionals and developers",
         "price_monthly": "59.90",
         "price_yearly": "49.90",
-        "period_monthly": "/month",
-        "period_yearly": "/month",
+        "period_monthly": "\/month",
+        "period_yearly": "\/month",
         "features": {
           "title": "Everything from Advanced, plus:",
           "items": {
@@ -1717,8 +1717,8 @@
         "description": "The complete solution for large organisations with the highest demands. For even better translations that are always on-brand thanks to fully customised language models. Seamlessly integrated into your tools for smooth communication across all channels.",
         "price_monthly": "Custom",
         "price_yearly": "Custom",
-        "period_monthly": "/month",
-        "period_yearly": "/month",
+        "period_monthly": "\/month",
+        "period_yearly": "\/month",
         "features": {
           "title": "Everything from Pro, plus:",
           "items": {
@@ -1729,7 +1729,7 @@
               "title": "SaaS, private cloud or on-premises hosting"
             },
             "2": {
-              "title": "Custom TLS/SSL certificates"
+              "title": "Custom TLS\/SSL certificates"
             }
           }
         }
@@ -1797,7 +1797,7 @@
               "enterprise": "Optional"
             },
             "enterpriseTLSCertificates": {
-              "name": "TLS/SSL certificates for businesses",
+              "name": "TLS\/SSL certificates for businesses",
               "description": "",
               "enterprise": "Optional"
             },
@@ -1864,7 +1864,7 @@
           "title": "Customisation",
           "features": {
             "formalInformalTone": {
-              "name": "Formal/informal tone",
+              "name": "Formal\/informal tone",
               "description": "Adjust the tone of translations to suit your needs."
             },
             "fusedTranslation": {
@@ -1980,7 +1980,7 @@
     "components": {
       "faq": {
         "title": "FAQ",
-        "help": "Want to know more? <link>Let’s talk</link>",
+        "help": "Want to know more? <link>Let’s talk<\/link>",
         "cta": "To all FAQs"
       }
     },
@@ -1991,7 +1991,7 @@
           "description": "Translate better, faster and more securely with fused translation."
         },
         "lead": {
-          "large": "With AI, you can translate <highlight>hundreds of words in seconds</highlight>. But how do you make sure that <highlight>every single one is right</highlight>?",
+          "large": "With AI, you can translate <highlight>hundreds of words in seconds<\/highlight>. But how do you make sure that <highlight>every single one is right<\/highlight>?",
           "small": "We combine language AI with experienced translators in one place, seamlessly integrating artificial intelligence and human expertise – with you in the driver’s seat. AI efficiency, meet professional expertise. Verified texts, meet secure data. Supertext is straightforward, customisable and quick on the uptake. One for all, all-in-one: Supertext."
         },
         "featureList": {
@@ -2017,12 +2017,12 @@
                 "text": "Register for free",
                 "variant": "primary",
                 "type": "(login)",
-                "href": "/"
+                "href": "\/"
               },
               {
                 "text": "Arrange a demo",
                 "variant": "PrimaryBorderVariant",
-                "href": "/contact"
+                "href": "\/contact"
               }
             ]
           }
@@ -2039,7 +2039,7 @@
                   "description": "Our online translator is based on our own latest-generation AI systems. These are proficient in 23 languages, including local variants such as Swiss French. Quick and easy, plus the strictest security standards.",
                   "cta": {
                     "title": "Try it now",
-                    "link": "/",
+                    "link": "\/",
                     "variant": "secondary"
                   }
                 },
@@ -2048,7 +2048,7 @@
                   "description": "Play it safe. With just one click, we will connect you directly with an experienced language professional who will review your translation – and make any needed changes. Within minutes, you will get back your text with all the necessary corrections.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/verification",
+                    "link": "\/verification",
                     "variant": "primary"
                   }
                 },
@@ -2058,7 +2058,7 @@
                   "badge": "Available soon",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technology",
+                    "link": "\/technology",
                     "variant": "secondary"
                   }
                 }
@@ -2072,7 +2072,7 @@
                   "description": "Your company, your voice. Supertext integrates your style guidelines and wording into every translation through targeted training. For seamless communication without borders.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technology",
+                    "link": "\/technology",
                     "variant": "secondary"
                   }
                 },
@@ -2081,7 +2081,7 @@
                   "description": "When only the best will do: our 3,000 experienced language experts write more beautifully and translate even more precisely than AI. Expressive, impactful copy in your tone of voice in every language.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/language-expertise",
+                    "link": "\/language-expertise",
                     "variant": "secondary"
                   }
                 },
@@ -2090,7 +2090,7 @@
                   "description": "Would you like to adapt your AI model to a new style guide? Or do you want to evaluate your current workflows with expert help? We are here to help – solution-oriented, friendly and fast.",
                   "cta": {
                     "title": "Let’s talk",
-                    "link": "/contact",
+                    "link": "\/contact",
                     "variant": "secondary"
                   }
                 },
@@ -2099,7 +2099,7 @@
                   "description": "From single sign-on (SSO) to on-premises hosting – Supertext reliably keeps your business data secure.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technology",
+                    "link": "\/technology",
                     "variant": "secondary"
                   }
                 },
@@ -2108,14 +2108,14 @@
                   "description": "Seamlessly integrate Supertext into your work environment with our APIs and integrations for streamlined processes in every interface.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technology",
+                    "link": "\/technology",
                     "variant": "secondary"
                   }
                 },
                 {
                   "imageConfig": {
                     "alt": "Team",
-                    "image": "/images/pages/why-supertext/02_05_Why-Supertext.webp"
+                    "image": "\/images\/pages\/why-supertext\/02_05_Why-Supertext.webp"
                   }
                 }
               ]
@@ -2128,17 +2128,17 @@
           "cta": "See all case studies"
         },
         "footerNote": {
-          "text": "From the simple <highlight>online translator</highlight> to <highlight>fully integrated custom solutions</highlight>: find your <highlight>perfect subscription</highlight>.",
+          "text": "From the simple <highlight>online translator<\/highlight> to <highlight>fully integrated custom solutions<\/highlight>: find your <highlight>perfect subscription<\/highlight>.",
           "cta": {
             "title": "Discover now",
-            "link": "/subscriptions",
+            "link": "\/subscriptions",
             "target": "_blank"
           }
         }
       },
       "home": {
         "heroSection": {
-          "mainHeading": "Fused translation:<break></break>we are rethinking translation",
+          "mainHeading": "Fused translation:<break><\/break>we are rethinking translation",
           "eyebrowHeadline": "WHAT MAKES US UNIQUE",
           "languageServices": {
             "items": [
@@ -2147,7 +2147,7 @@
                 "description": "Certainty – in minutes, not hours. With our Verification service at the push of a button.",
                 "cta": {
                   "title": "Learn more",
-                  "link": "/verification"
+                  "link": "\/verification"
                 }
               },
               {
@@ -2155,7 +2155,7 @@
                 "description": "By recognised specialists with experience in your field.",
                 "cta": {
                   "title": "Learn more",
-                  "link": "/order/translation"
+                  "link": "\/order\/translation"
                 }
               },
               {
@@ -2163,7 +2163,7 @@
                 "description": "For texts that work – creative and on target.",
                 "cta": {
                   "title": "Learn more",
-                  "link": "/order/copywriting"
+                  "link": "\/order\/copywriting"
                 }
               },
               {
@@ -2171,7 +2171,7 @@
                 "description": "The final touch – stylish, meticulous and fast.",
                 "cta": {
                   "title": "Learn more",
-                  "link": "/order/proofreading"
+                  "link": "\/order\/proofreading"
                 }
               }
             ],
@@ -2182,15 +2182,15 @@
             "items": [
               {
                 "title": "Why Supertext?",
-                "link": "/why-supertext"
+                "link": "\/why-supertext"
               },
               {
                 "title": "AI technology",
-                "link": "/technology"
+                "link": "\/technology"
               },
               {
                 "title": "Linguistic expertise",
-                "link": "/language-expertise"
+                "link": "\/language-expertise"
               }
             ]
           }
@@ -2201,33 +2201,33 @@
             "title": "AI translation",
             "cards": [
               {
-                "icon": "/images/pages/home/Supertext_Icon_Translate_Online_Light_Green.svg",
+                "icon": "\/images\/pages\/home\/Supertext_Icon_Translate_Online_Light_Green.svg",
                 "title": "Translate into 23 languages immediately",
                 "description": "Supertext helps you communicate faster, better and more securely. Our AI translation solution is based on our own latest-generation LLM systems and supports 23 languages, from Japanese to Swiss German. Simple, in line with the highest security standards and seamlessly integrated into any system.",
                 "cta": {
                   "variant": "primary",
                   "title": "Try it now",
-                  "link": "/"
+                  "link": "\/"
                 }
               },
               {
-                "icon": "/images/pages/home/Supertext_Icon_Verifiziert_Klick_Light_Green.svg",
+                "icon": "\/images\/pages\/home\/Supertext_Icon_Verifiziert_Klick_Light_Green.svg",
                 "title": "Verification at the push of a button",
                 "description": "Certainty with a click: have important translations checked by the professionals – in minutes rather than hours. Supertext connects you directly with over 3,000 experienced linguists and cultural experts. So your message is sure to arrive safely when it really matters.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "/verification"
+                  "link": "\/verification"
                 }
               },
               {
-                "icon": "/images/pages/home/Supertext_Icon_KI_Learning_Light_Green.svg",
+                "icon": "\/images\/pages\/home\/Supertext_Icon_KI_Learning_Light_Green.svg",
                 "title": "A personal AI model that learns in real time",
                 "description": "Our language models learn quickly – and adapt to your style, word choice and needs with every professionally verified translation. For ever-improving quality at ever-decreasing costs.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "/technology"
+                  "link": "\/technology"
                 },
                 "badge": "Available soon"
               }
@@ -2238,33 +2238,33 @@
             "title": "Professional services",
             "cards": [
               {
-                "icon": "/images/pages/home/Supertext_Icon_Language_Experts_Light_Green.svg",
+                "icon": "\/images\/pages\/home\/Supertext_Icon_Language_Experts_Light_Green.svg",
                 "title": "Specialist translations by experienced experts",
                 "description": "Our 3,000 hand-picked language experts are specialists in their fields and are standing by to provide impeccably accurate translations for everything from contract texts to poster campaigns, from InDesign files to Word documents and from Arabic to Zulu.",
                 "cta": {
                   "variant": "primary",
                   "title": "Start project",
-                  "link": "/order/translation"
+                  "link": "\/order\/translation"
                 }
               },
               {
-                "icon": "/images/pages/home/Supertext_Icon_Copywriting_Light_Green.svg",
+                "icon": "\/images\/pages\/home\/Supertext_Icon_Copywriting_Light_Green.svg",
                 "title": "Copywriting & content by creative professional writers",
                 "description": "Our global team of experienced copywriters steps in where words fail you. We deliver creative, impactful copy in your tone of voice for everything from blog articles to international poster campaigns.",
                 "cta": {
                   "variant": "primary",
                   "title": "Start project",
-                  "link": "/order/copywriting/"
+                  "link": "\/order\/copywriting\/"
                 }
               },
               {
-                "icon": "/images/pages/home/Supertext_Icon_Lektorat_Light_Green.svg",
+                "icon": "\/images\/pages\/home\/Supertext_Icon_Lektorat_Light_Green.svg",
                 "title": "Professional editing for the final touch",
                 "description": "Selected editors ensure that every i is dotted and t is crossed, with every word in just the right place. We proofread, edit and rewrite according to your specifications. Meticulously, yet at record-breaking speed.",
                 "cta": {
                   "variant": "primary",
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "\/order\/proofreading"
                 }
               }
             ]
@@ -2272,70 +2272,70 @@
           {
             "id": "3",
             "title": "For companies",
-            "icon": "/images/pages/verification/feature-icon.png",
+            "icon": "\/images\/pages\/verification\/feature-icon.png",
             "cards": [
               {
-                "icon": "/images/pages/home/Supertext_Icon_Language_Custom_Light_Green.svg",
+                "icon": "\/images\/pages\/home\/Supertext_Icon_Language_Custom_Light_Green.svg",
                 "title": "Custom LLMs for even better language quality",
                 "description": "The best language model is your own one. That’s why we develop custom LLMs tailored to your specific style and content formats. For seamless communication across the entire company – unmistakable in every language.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "/technology"
+                  "link": "\/technology"
                 }
               },
               {
-                "icon": "/images/pages/home/Supertext_Icon_Datensicherheit_Light_Green.svg",
+                "icon": "\/images\/pages\/home\/Supertext_Icon_Datensicherheit_Light_Green.svg",
                 "title": "Data security to your exact specifications",
                 "description": "From private cloud or on-premises hosting to single sign-on (SSO): our business solution lets you flexibly design your security measures. That’s why we are the partner of choice for banks, government agencies and insurers.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "/technology"
+                  "link": "\/technology"
                 }
               },
               {
-                "icon": "/images/pages/home/Supertext_Icon_All-In-One_Light_Green.svg",
+                "icon": "\/images\/pages\/home\/Supertext_Icon_All-In-One_Light_Green.svg",
                 "title": "The all-in-one solution that just keeps getting better",
                 "description": "From fully automated to handcrafted: with Supertext, companies can get all their translations from a single source. For greater security, consistently better quality and ever-decreasing cost thanks to ongoing AI learning.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
-                  "link": "/why-supertext"
+                  "link": "\/why-supertext"
                 }
               }
             ]
           }
         ],
         "valueProposition": {
-          "heading": "To ensure your message comes across <highlight>correctly in every language</highlight>: our products and services"
+          "heading": "To ensure your message comes across <highlight>correctly in every language<\/highlight>: our products and services"
         },
         "engagementSlider": {
           "heading": "automated → 0 to 100%",
           "cta": {
             "text": "Learn more about Supertext",
-            "link": "/about-supertext"
+            "link": "\/about-supertext"
           }
         },
         "references": {
           "heading": "1,500 companies across Europe: our references speak for themselves",
           "cta": {
             "text": "See the case studies",
-            "link": "/references"
+            "link": "\/references"
           }
         },
         "blog": {
           "heading": "News, insights and the latest features",
           "cta": {
             "text": "To the Supertext blog",
-            "link": "/blog"
+            "link": "\/blog"
           }
         },
         "footerNote": {
-          "text": "Supertext lets companies translate <highlight>better, faster, cheaper</highlight> and <highlight>more securely</highlight>. From 0 to 100% automated.",
+          "text": "Supertext lets companies translate <highlight>better, faster, cheaper<\/highlight> and <highlight>more securely<\/highlight>. From 0 to 100% automated.",
           "cta": {
             "title": "Let’s talk",
-            "link": "/contact",
+            "link": "\/contact",
             "target": "_blank"
           }
         },
@@ -2351,8 +2351,8 @@
           "description": "Our language experts are there for you when every word counts."
         },
         "lead": {
-          "large": "<highlight>Fully automatic</highlight> or <highlight>handcrafted</highlight>? The answer often lies somewhere in between.",
-          "small": "With AI, you can translate hundreds of words in seconds. And with our experts, you can be certain that every single one of them is correct. At Supertext, you can order the support of experienced specialists as an add-on with just a few clicks. Whenever you need both expertise in your field and genuine passion for language.  <break></break> <break></break>The big advantage: your AI learns with every professional project and adapts to your style on an ongoing basis. For smooth communication to your exact specifications – and continuously decreasing costs."
+          "large": "<highlight>Fully automatic<\/highlight> or <highlight>handcrafted<\/highlight>? The answer often lies somewhere in between.",
+          "small": "With AI, you can translate hundreds of words in seconds. And with our experts, you can be certain that every single one of them is correct. At Supertext, you can order the support of experienced specialists as an add-on with just a few clicks. Whenever you need both expertise in your field and genuine passion for language.  <break><\/break> <break><\/break>The big advantage: your AI learns with every professional project and adapts to your style on an ongoing basis. For smooth communication to your exact specifications – and continuously decreasing costs."
         },
         "featureList": {
           "title": "Who is Supertext?",
@@ -2364,7 +2364,7 @@
                 "description": "Our tech team is doing pioneering work that pays off. We are developing reliable, secure and flexible language AI technology without compromise. It lays the groundwork for language quality that scales, seamlessly integrated into every process and interface.",
                 "cta": {
                   "text": "More about our technology",
-                  "link": "/technology",
+                  "link": "\/technology",
                   "variant": "primary"
                 }
               },
@@ -2399,7 +2399,7 @@
                   "description": "Make sure everything’s perfect. With automatic translation – and our Verification service at the push of a button.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/verification",
+                    "link": "\/verification",
                     "variant": "secondary"
                   }
                 },
@@ -2408,7 +2408,7 @@
                   "description": "Technology meets experienced specialists. From InDesign to Word and from Arabic to Zulu.",
                   "cta": {
                     "title": "ORDER NOW",
-                    "link": "/order/translation",
+                    "link": "\/order\/translation",
                     "variant": "secondary"
                   }
                 },
@@ -2417,7 +2417,7 @@
                   "description": "We start where words fail you. Creative, impactful copy in your tone of voice.",
                   "cta": {
                     "title": "ORDER NOW",
-                    "link": "/order/copywriting/",
+                    "link": "\/order\/copywriting\/",
                     "variant": "secondary"
                   }
                 },
@@ -2426,7 +2426,7 @@
                   "description": "The final touch for your text. Stylish, meticulous and fast.",
                   "cta": {
                     "title": "ORDER NOW",
-                    "link": "/order/proofreading",
+                    "link": "\/order\/proofreading",
                     "variant": "secondary"
                   }
                 },
@@ -2435,7 +2435,7 @@
                   "description": "We make even specialist texts easy to understand. For greater trust and fewer support requests.",
                   "cta": {
                     "title": "ORDER NOW",
-                    "link": "/order/plain-language",
+                    "link": "\/order\/plain-language",
                     "variant": "secondary"
                   }
                 },
@@ -2444,7 +2444,7 @@
                   "description": "Do you have big plans? We have the right solution in every language. From 0 to 100% automated.",
                   "cta": {
                     "title": "LET’S TALK",
-                    "link": "/contact",
+                    "link": "\/contact",
                     "variant": "secondary"
                   }
                 }
@@ -2457,7 +2457,7 @@
           "title": "Expertise from Å to Ž: meet our team",
           "items": [
             {
-              "image": "/images/pages/language-expertise/Tristan.webp",
+              "image": "\/images\/pages\/language-expertise\/Tristan.webp",
               "quote": "“Until every word is in its place.”",
               "person": "Tristan Sechrest, English Language Specialist",
               "content": [
@@ -2476,7 +2476,7 @@
               ]
             },
             {
-              "image": "/images/pages/language-expertise/Alex.webp",
+              "image": "\/images\/pages\/language-expertise\/Alex.webp",
               "quote": "“The best language model? Your own.”",
               "person": "Alex Flückiger, Senior Research Scientist",
               "content": [
@@ -2497,11 +2497,11 @@
           ]
         },
         "footerNote": {
-          "text": "Do you want to develop a <highlightText>style guide</highlightText> for your company? Or process hundreds of <highlightText>translation projects</highlightText> per month?",
+          "text": "Do you want to develop a <highlightText>style guide<\/highlightText> for your company? Or process hundreds of <highlightText>translation projects<\/highlightText> per month?",
           "preTitle": "We’re here for you",
           "cta": {
             "title": "Let’s talk",
-            "link": "/contact",
+            "link": "\/contact",
             "target": ""
           }
         }
@@ -2512,7 +2512,7 @@
           "description": "Contact the Supertext Sales team"
         },
         "salesSection": {
-          "title": "We are happy to help you personally – <highlight>in under 60 minutes</highlight>",
+          "title": "We are happy to help you personally – <highlight>in under 60 minutes<\/highlight>",
           "description": "Do you need a custom quote? Or are you interested in our Enterprise solution? Fill out the form and we will connect you with the right contact person in record time.",
           "bulletPoints": {
             "point1": "Information on how Supertext can support your global business expansion",
@@ -2529,9 +2529,9 @@
               "error": "Name is required"
             },
             "company": {
-              "label": "Company/organisation*",
+              "label": "Company\/organisation*",
               "placeholder": "Your company",
-              "error": "Company/organisation is required"
+              "error": "Company\/organisation is required"
             },
             "email": {
               "label": "Email*",
@@ -2580,7 +2580,7 @@
               "required": "Name is required"
             },
             "company": {
-              "required": "Company/organisation is required"
+              "required": "Company\/organisation is required"
             },
             "email": {
               "invalid": "Invalid email address"
@@ -2602,14 +2602,14 @@
           "labels": {
             "intro": "Fill out the form so that we can connect you with the right person.",
             "name": "First and last name*",
-            "company": "Company/organisation*",
+            "company": "Company\/organisation*",
             "email": "Email*",
             "phone": "Telephone",
             "message": "Your message*"
           },
           "placeholders": {
             "name": "First and last name",
-            "company": "Company/organisation",
+            "company": "Company\/organisation",
             "email": "Email",
             "phone": "Telephone",
             "message": "Your message"
@@ -2620,7 +2620,7 @@
           {
             "title": "Zurich",
             "description": "Our headquarters are located in Zurich-West, just a few metres from the Limmat River.",
-            "image": "/images/pages/contact/zurich.png",
+            "image": "\/images\/pages\/contact\/zurich.png",
             "address": {
               "line0": "Supertext",
               "line1": "Hardturmstrasse 253",
@@ -2628,20 +2628,20 @@
               "line3": "Switzerland"
             },
             "cta": "Google Maps",
-            "googleMapsLink": "https://maps.app.goo.gl/Pxq2FXvvWgE4pdvTA"
+            "googleMapsLink": "https:\/\/maps.app.goo.gl\/Pxq2FXvvWgE4pdvTA"
           },
           {
             "title": "Berlin",
-            "image": "/images/pages/contact/berlin.png",
+            "image": "\/images\/pages\/contact\/berlin.png",
             "description": "Our Berlin office is located in the heart of Kreuzberg, right on Mehringdamm.",
             "address": {
               "line0": "Supertext",
-              "line1": "Mehringdamm 32/34",
+              "line1": "Mehringdamm 32\/34",
               "line2": "10961 Berlin",
               "line3": "Germany"
             },
             "cta": "Google Maps",
-            "googleMapsLink": "https://maps.app.goo.gl/yjCjGk2qzQ55jAeB7"
+            "googleMapsLink": "https:\/\/maps.app.goo.gl\/yjCjGk2qzQ55jAeB7"
           }
         ],
         "footerNote": {
@@ -2649,7 +2649,7 @@
             "title": "Book an appointment now",
             "link": ""
           },
-          "text": "Would you like to experience Supertext in action? Book a free <highlightText>demo</highlightText> with us."
+          "text": "Would you like to experience Supertext in action? Book a free <highlightText>demo<\/highlightText> with us."
         },
         "contactLinks": {
           "eyebrowHeadline": "DIRECT CONTACTS",
@@ -2686,10 +2686,10 @@
           "categoryTitle": "Filter by topic"
         },
         "footerNote": {
-          "text": "Was your question <highlight>not included</highlight>? Then please feel free to <highlight>contact</highlight> us.",
+          "text": "Was your question <highlight>not included<\/highlight>? Then please feel free to <highlight>contact<\/highlight> us.",
           "cta": {
             "title": "Let’s talk",
-            "link": "/contact",
+            "link": "\/contact",
             "target": "_blank"
           }
         }
@@ -2708,10 +2708,10 @@
         },
         "footerNote": {
           "pretitle": "We’re here for you",
-          "text": "Do you have an exciting <highlightText>language project</highlightText> in the pipeline? Or would you like to <highlightText>evaluate your existing processes</highlightText> with us?",
+          "text": "Do you have an exciting <highlightText>language project<\/highlightText> in the pipeline? Or would you like to <highlightText>evaluate your existing processes<\/highlightText> with us?",
           "cta": {
             "title": "Let’s talk",
-            "link": "/contact",
+            "link": "\/contact",
             "target": ""
           }
         }
@@ -2735,11 +2735,11 @@
           "description": "How we are positioned. Where we want to go. And how you can be a part of it."
         },
         "lead": {
-          "large": "We live and love <highlight>language</highlight> and <highlight>technology</highlight>. And we are always on the lookout for <highlight>new collaborators</highlight> who feel the same way.",
-          "small": "As an international AI language service provider, we deliver projects for over 1,500 companies across Europe. We drive change and develop solutions that redefine the status quo. With AI and human expertise at the core of our work. <break></break> <break></break> Behind our language technology solutions is a team of over 100 experts in AI research, software, linguistics and project management. Fast-thinking, fast-acting, and driven by constant knowledge exchange.",
+          "large": "We live and love <highlight>language<\/highlight> and <highlight>technology<\/highlight>. And we are always on the lookout for <highlight>new collaborators<\/highlight> who feel the same way.",
+          "small": "As an international AI language service provider, we deliver projects for over 1,500 companies across Europe. We drive change and develop solutions that redefine the status quo. With AI and human expertise at the core of our work. <break><\/break> <break><\/break> Behind our language technology solutions is a team of over 100 experts in AI research, software, linguistics and project management. Fast-thinking, fast-acting, and driven by constant knowledge exchange.",
           "cta": {
             "title": "More about our vision",
-            "link": "/why-supertext"
+            "link": "\/why-supertext"
           },
           "cta2": {
             "title": "Vacancies"
@@ -2755,7 +2755,7 @@
                 "description": "Our development team builds customised solutions for our clients – from specialised AI models to additional language features to custom integrations. Flexible and implemented in record time thanks to in-house development.",
                 "cta": {
                   "text": "Read employee profile",
-                  "link": "/language-expertise#portraits",
+                  "link": "\/language-expertise#portraits",
                   "variant": "primary"
                 }
               },
@@ -2768,7 +2768,7 @@
                 "description": "Our in-house experts in the core languages. They ensure quality control, are the first point of contact for linguistic challenges and actively work on improving our AI models.",
                 "cta": {
                   "text": "Read employee profile",
-                  "link": "/language-expertise#portraits",
+                  "link": "\/language-expertise#portraits",
                   "variant": "primary"
                 }
               },
@@ -2800,19 +2800,19 @@
         "jobs": {
           "title": "How to become part of the team: our job openings",
           "noJobs": "We currently have no positions available",
-          "footerMessage": "Don’t see a role that suits you?<break></break>Then persuade us that we absolutely have to get to know you anyway!<break></break><break></break>Send us your unsolicited application at <emailContact>people@supertext.com</emailContact>."
+          "footerMessage": "Don’t see a role that suits you?<break><\/break>Then persuade us that we absolutely have to get to know you anyway!<break><\/break><break><\/break>Send us your unsolicited application at <emailContact>people@supertext.com<\/emailContact>."
         },
         "article_one": {
           "tag": "VALUES & BENEFITS",
-          "title": "Our <highlight>diversity</highlight> makes us strong",
-          "description": "We bring together countless cultures, languages, talents and interests in one place. This enriches our collaboration and makes us what we are: the all-in-one provider that can find a solution to every linguistic challenge. <break></break> <break></break> For us, a culture of mutual respect is just as important as fair pay and an open, flexible working environment. At Supertext, we organise ourselves independently, take responsibility and contribute ideas that actively shape our culture. Through training and ongoing feedback, we expand our knowledge and drive personal development."
+          "title": "Our <highlight>diversity<\/highlight> makes us strong",
+          "description": "We bring together countless cultures, languages, talents and interests in one place. This enriches our collaboration and makes us what we are: the all-in-one provider that can find a solution to every linguistic challenge. <break><\/break> <break><\/break> For us, a culture of mutual respect is just as important as fair pay and an open, flexible working environment. At Supertext, we organise ourselves independently, take responsibility and contribute ideas that actively shape our culture. Through training and ongoing feedback, we expand our knowledge and drive personal development."
         },
         "footerNote": {
-          "text": "Are you a copywriter, translator, editor or SEO professional who would like to <highlightText>work with us as a freelancer</highlightText>?",
+          "text": "Are you a copywriter, translator, editor or SEO professional who would like to <highlightText>work with us as a freelancer<\/highlightText>?",
           "description": "We are always looking for copywriters, translators, SEO specialists and editors to join our team of language professionals.",
           "cta": {
             "title": "Register now",
-            "link": "https://www.supertext.com/services/en/startapplication",
+            "link": "https:\/\/www.supertext.com\/services\/en\/startapplication",
             "target": "_blank"
           }
         }
@@ -2823,11 +2823,11 @@
           "description": "Our mission: to ensure maximum certainty in communication."
         },
         "lead": {
-          "large": "AI tool or service agency? We are both – and, together, <highlight>so much more</highlight>.",
-          "small": "Supertext is an AI-based full-service language service provider with offices in Zurich and Berlin. Over 1,500 companies across Europe use our language solutions – from the adaptive online translator to the ISO-certified services for multilingual documents, websites, apps and multimedia campaigns.<break></break><break></break>Our team consists of around 100 specialists in the fields of artificial intelligence, linguistics and security. They’re complemented by a selected network of 3,000 freelance language professionals around the world. <break></break><break></break>Together, we are developing a unique platform for copywriting and translation where companies can combine AI and human language expertise to suit their needs. That’s how we are redefining communication: efficient, precise, adaptive and maximally secure.",
+          "large": "AI tool or service agency? We are both – and, together, <highlight>so much more<\/highlight>.",
+          "small": "Supertext is an AI-based full-service language service provider with offices in Zurich and Berlin. Over 1,500 companies across Europe use our language solutions – from the adaptive online translator to the ISO-certified services for multilingual documents, websites, apps and multimedia campaigns.<break><\/break><break><\/break>Our team consists of around 100 specialists in the fields of artificial intelligence, linguistics and security. They’re complemented by a selected network of 3,000 freelance language professionals around the world. <break><\/break><break><\/break>Together, we are developing a unique platform for copywriting and translation where companies can combine AI and human language expertise to suit their needs. That’s how we are redefining communication: efficient, precise, adaptive and maximally secure.",
           "cta": {
             "title": "Discover services",
-            "link": "/why-supertext"
+            "link": "\/why-supertext"
           }
         },
         "figuresPanel": {
@@ -2861,7 +2861,7 @@
           "title": "Meet our management team",
           "cta": {
             "title": "More about our team setup",
-            "link": "/work-at-supertext"
+            "link": "\/work-at-supertext"
           }
         },
         "locationsHeading": {
@@ -2872,7 +2872,7 @@
           {
             "title": "Zurich",
             "description": "Our headquarters are located in Zurich-West, just a few metres from the Limmat River.",
-            "image": "/images/pages/contact/zurich.png",
+            "image": "\/images\/pages\/contact\/zurich.png",
             "address": {
               "line0": "Supertext",
               "line1": "Hardturmstrasse 253",
@@ -2880,27 +2880,27 @@
               "line3": "Switzerland"
             },
             "cta": "Google Maps",
-            "googleMapsLink": "https://maps.app.goo.gl/Pxq2FXvvWgE4pdvTA"
+            "googleMapsLink": "https:\/\/maps.app.goo.gl\/Pxq2FXvvWgE4pdvTA"
           },
           {
             "title": "Berlin",
-            "image": "/images/pages/contact/berlin.png",
+            "image": "\/images\/pages\/contact\/berlin.png",
             "description": "Our Berlin office is located in the heart of Kreuzberg, right on Mehringdamm.",
             "address": {
               "line0": "Supertext",
-              "line1": "Mehringdamm 32/34",
+              "line1": "Mehringdamm 32\/34",
               "line2": "10961 Berlin",
               "line3": "Germany"
             },
             "cta": "Google Maps",
-            "googleMapsLink": "https://maps.app.goo.gl/yjCjGk2qzQ55jAeB7"
+            "googleMapsLink": "https:\/\/maps.app.goo.gl\/yjCjGk2qzQ55jAeB7"
           }
         ],
         "footerNote": {
-          "text": "Want to <highlightText>join the team</highlightText>?",
+          "text": "Want to <highlightText>join the team<\/highlightText>?",
           "cta": {
             "title": "Find out more about working at Supertext",
-            "link": "/work-at-supertext"
+            "link": "\/work-at-supertext"
           }
         },
         "isoCertificate": {
@@ -2908,14 +2908,14 @@
           "title": "Tested, standardised and certified according to ISO 27001, 9001, 17100 and 18587.",
           "cta": {
             "title": "View certificates",
-            "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/ISO_certificates_Supertext_24_27_EN_e7a08d5452.pdf"
+            "link": "https:\/\/promising-heart-583d7d71f6.media.strapiapp.com\/ISO_certificates_Supertext_24_27_EN_e7a08d5452.pdf"
           }
         },
         "blog": {
           "heading": "News, insights and the latest features",
           "cta": {
             "text": "View all posts",
-            "link": "/blog"
+            "link": "\/blog"
           }
         }
       },
@@ -2926,10 +2926,10 @@
         },
         "lead": {
           "large": "Your translation – professionally checked, when it really matters.",
-          "small": "AI translation is simple, fast and constantly improving. But there is one thing that only human experts can do, even in 2025: guarantee the accuracy of a translation. <break></break> <break></break> For important texts, Supertext connects you directly with over 3,000 experienced translators and cultural experts. With Verification at the push of a button, you can be certain that your message is being delivered correctly within just a few minutes. Reliable, affordable and fast.",
+          "small": "AI translation is simple, fast and constantly improving. But there is one thing that only human experts can do, even in 2025: guarantee the accuracy of a translation. <break><\/break> <break><\/break> For important texts, Supertext connects you directly with over 3,000 experienced translators and cultural experts. With Verification at the push of a button, you can be certain that your message is being delivered correctly within just a few minutes. Reliable, affordable and fast.",
           "cta": {
             "title": "Try it now",
-            "link": "/"
+            "link": "\/"
           }
         },
         "informationalPanel": {
@@ -2938,45 +2938,45 @@
             {
               "title": "State-of-the-art AI translation",
               "description": "The basis is our in-house translation systems. They belong to the latest generation of artificial intelligence and are proficient in 23 languages, including local language variants.",
-              "icon": "/images/pages/verification/icon-bullet.png"
+              "icon": "\/images\/pages\/verification\/icon-bullet.png"
             },
             {
               "title": "Professionally checked – in a few minutes",
               "description": "Our experts are all native speakers of your target language. They immediately ensure that the content of the translation corresponds exactly to the original – and also intervene linguistically where necessary.",
-              "icon": "/images/pages/verification/icon-bullet.png"
+              "icon": "\/images\/pages\/verification\/icon-bullet.png"
             },
             {
               "title": "Always improving: your personal AI model learns as it goes",
               "description": "As soon as the check is complete, we deliver the verified translation to you for download – and to your personal language model for ongoing improvement in real time.",
-              "icon": "/images/pages/verification/icon-bullet.png"
+              "icon": "\/images\/pages\/verification\/icon-bullet.png"
             }
           ],
           "cta": {
             "text": "Try it now",
-            "link": "/"
+            "link": "\/"
           }
         },
         "tutorialBlock": {
           "title": "Three steps to a professionally reviewed translation",
           "cta": {
             "text": "Get started",
-            "link": "/"
+            "link": "\/"
           },
           "items": [
             {
               "title": "Translate on supertext.com and choose “Start Verification”",
               "number": "01",
-              "image": "/images/pages/verification/step-1.webp"
+              "image": "\/images\/pages\/verification\/step-1.webp"
             },
             {
               "title": "Confirm project details and specify payment method",
               "number": "02",
-              "image": "/images/pages/verification/step-2.webp"
+              "image": "\/images\/pages\/verification\/step-2.webp"
             },
             {
               "title": "Collect your verified translation a few minutes later",
               "number": "03",
-              "image": "/images/pages/verification/step-3.webp"
+              "image": "\/images\/pages\/verification\/step-3.webp"
             }
           ]
         },
@@ -2985,56 +2985,56 @@
           "eyebrowHeadline": "Our promise",
           "items": [
             {
-              "icon": "/images/pages/verification/feature-icon.png",
+              "icon": "\/images\/pages\/verification\/feature-icon.png",
               "title": "3,000 certified native language experts",
               "description": "All our specialist translators have a university degree in translation or at least five years of professional experience and must pass an internal test.",
               "cta": {
                 "variant": "primary",
                 "title": "More on linguistic expertise",
-                "link": "/language-expertise"
+                "link": "\/language-expertise"
               }
             },
             {
-              "icon": "/images/pages/verification/feature-icon.png",
+              "icon": "\/images\/pages\/verification\/feature-icon.png",
               "title": "Tested, standardised and certified according to ISO",
               "description": "Supertext has been certified for translation quality (ISO 17100 and 18587), quality management (ISO 9001) and data security (ISO 27001) since 2018.",
               "cta": {
                 "variant": "primary",
                 "title": "Learn more",
-                "link": "/about-supertext"
+                "link": "\/about-supertext"
               }
             },
             {
-              "icon": "/images/pages/verification/feature-icon.png",
+              "icon": "\/images\/pages\/verification\/feature-icon.png",
               "title": "Uncompromising security",
               "description": "We always keep your data safe and secure thanks to the highest data management standards, robust encryption and the most secure servers. That’s why we are the partner of choice for banks, government agencies and insurers.",
               "cta": {
                 "variant": "primary",
                 "title": "More about the technology",
-                "link": "/technology"
+                "link": "\/technology"
               }
             },
             {
-              "icon": "/images/pages/home/Supertext_Icon_KI_Learning_Light_Green.svg",
+              "icon": "\/images\/pages\/home\/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "A personal AI model that learns in real time",
               "description": "Our language models learn quickly – and adapt to your needs with every verified translation. So quality keeps improving and your costs keep falling.",
               "badge": "",
               "cta": {
                 "title": "",
-                "link": "/technology",
+                "link": "\/technology",
                 "variant": ""
               }
             }
           ]
         },
         "footerNote": {
-          "text": "Our experts are <highlight>ready</highlight>. Are you?",
+          "text": "Our experts are <highlight>ready<\/highlight>. Are you?",
           "cta": {
             "title": "Try it now",
-            "link": "/",
+            "link": "\/",
             "target": "_blank"
           },
-          "image": "/images/pages/verification/footer_gif.gif"
+          "image": "\/images\/pages\/verification\/footer_gif.gif"
         }
       },
       "technology": {
@@ -3043,11 +3043,11 @@
           "description": "Supertext trains its AI individually on your corporate language. For demonstrably better translations in real time."
         },
         "lead": {
-          "large": "Next-generation language AI – <highlight>tailored</highlight> to you.",
-          "small": "Our LLM-based translation technology combines the latest research findings with maximum flexibility. The result: measurably better language quality at continuously decreasing costs. <break></break><break></break>Whether as a basis for your professional translators, fully automatically via plugins and APIs, or as a freely accessible tool for your employees – we give your company a voice. In every language and every format.",
+          "large": "Next-generation language AI – <highlight>tailored<\/highlight> to you.",
+          "small": "Our LLM-based translation technology combines the latest research findings with maximum flexibility. The result: measurably better language quality at continuously decreasing costs. <break><\/break><break><\/break>Whether as a basis for your professional translators, fully automatically via plugins and APIs, or as a freely accessible tool for your employees – we give your company a voice. In every language and every format.",
           "cta": {
             "title": "Curious? Let’s talk.",
-            "link": "/contact"
+            "link": "\/contact"
           }
         },
         "features": {
@@ -3058,7 +3058,7 @@
               "description": "Our large language models (LLMs) are specialised in translation and form the foundation of your individual translation tool. From here, we start a personalised training process.",
               "cta": {
                 "title": "Try it now",
-                "link": "/"
+                "link": "\/"
               }
             },
             "row2": {
@@ -3118,7 +3118,7 @@
                   "description": "Supertext is certified for data security (ISO 27001), quality management (ISO 9001) and translation quality (ISO 17100 and 18587).",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/about-supertext",
+                    "link": "\/about-supertext",
                     "variant": "secondary"
                   }
                 },
@@ -3135,7 +3135,7 @@
                   "description": "Efficiently and centrally manage access to the translation system using your organisation’s existing user accounts.",
                   "cta": {
                     "title": "Learn more",
-                    "link": "/technology",
+                    "link": "\/technology",
                     "variant": "secondary"
                   }
                 },
@@ -3144,7 +3144,7 @@
                   "description": "With Supertext, you decide where your solution is hosted: on our servers, in the cloud of your choice or on your own hardware."
                 },
                 {
-                  "title": "Custom TLS/SSL certificates",
+                  "title": "Custom TLS\/SSL certificates",
                   "description": "For full control over the encryption of your data and a seamless integration of Supertext AI translation into even more systems."
                 }
               ]
@@ -3156,11 +3156,11 @@
           "description": "Only a seamless user experience gives a tool real added value. That’s why we continuously provide new plugins and a flexible RESTful API which lets you integrate Supertext into any working environment in just a few steps.",
           "cta1": {
             "title": "Discover plugins",
-            "link": "/faq?id=f8w9lowm1u5f1m17a005di6y"
+            "link": "\/faq?id=f8w9lowm1u5f1m17a005di6y"
           },
           "cta2": {
             "title": "Request API documentation",
-            "link": "/contact"
+            "link": "\/contact"
           }
         },
         "blog": {
@@ -3168,15 +3168,15 @@
           "description": "Many of our employees are an integral part of the global AI research community. We make an active contribution to machine learning research with regular publications.",
           "cta": {
             "text": "See all publications",
-            "link": "/blog?category=research"
+            "link": "\/blog?category=research"
           }
         },
         "footerNote": {
-          "text": "<highlightText>Experienced professionals</highlightText> – in top form thanks to language AI",
+          "text": "<highlightText>Experienced professionals<\/highlightText> – in top form thanks to language AI",
           "description": "From computer linguists to language specialists: meet the team behind Supertext.",
           "cta": {
             "title": "More about our language expertise",
-            "link": "/language-expertise"
+            "link": "\/language-expertise"
           }
         }
       },
@@ -3186,10 +3186,10 @@
         "downloadCaseStudy": "Download case study",
         "furtherCaseStudies": "More case studies",
         "footerNote": {
-          "title": "Do you want to <highlightText>save resources and use AI translation as productively as possible</highlightText> in your company? Let’s talk.",
+          "title": "Do you want to <highlightText>save resources and use AI translation as productively as possible<\/highlightText> in your company? Let’s talk.",
           "cta": {
             "title": "Contact us",
-            "link": "/contact"
+            "link": "\/contact"
           }
         }
       },
@@ -3218,10 +3218,10 @@
         },
         "lead": {
           "large": "Your translation – professionally checked, when it really matters.",
-          "small": "AI translation is simple, fast and constantly improving. But there is one thing that only human experts can do, even in 2025: guarantee the accuracy of a translation. <break></break><break></break>For important texts, Supertext connects you directly with over 3,000 experienced translators and cultural experts. With Verification at the push of a button, you can be certain that your message is being delivered correctly within just a few minutes. Reliable, affordable and fast.",
+          "small": "AI translation is simple, fast and constantly improving. But there is one thing that only human experts can do, even in 2025: guarantee the accuracy of a translation. <break><\/break><break><\/break>For important texts, Supertext connects you directly with over 3,000 experienced translators and cultural experts. With Verification at the push of a button, you can be certain that your message is being delivered correctly within just a few minutes. Reliable, affordable and fast.",
           "cta": {
             "title": "Try it now",
-            "link": "/"
+            "link": "\/"
           }
         },
         "informationalPanel": {
@@ -3230,46 +3230,46 @@
             {
               "title": "State-of-the-art AI translation",
               "description": "The basis is our in-house translation systems. They belong to the latest generation of artificial intelligence and are proficient in 23 languages, including local language variants.",
-              "icon": "/images/pages/verification/Supertext_Icon_AI_Translation_Dark_Green.svg"
+              "icon": "\/images\/pages\/verification\/Supertext_Icon_AI_Translation_Dark_Green.svg"
             },
             {
               "title": "Professionally checked – in a few minutes",
               "description": "Our experts are all native speakers of your target language. They immediately ensure that the content of the translation corresponds exactly to the original – and also intervene linguistically where necessary.",
-              "icon": "/images/pages/verification/Supertext_Icon_Verifiziert_Klick_Dark_Green.svg"
+              "icon": "\/images\/pages\/verification\/Supertext_Icon_Verifiziert_Klick_Dark_Green.svg"
             },
             {
               "title": "Always improving: your personal AI model learns as it goes",
               "description": "As soon as the check is complete, we deliver the verified translation to you for download – and to your personal language model for ongoing improvement in real time.",
-              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Dark_Green.svg",
+              "icon": "\/images\/pages\/verification\/Supertext_Icon_KI_Learning_Dark_Green.svg",
               "badge": "Available soon"
             }
           ],
           "cta": {
             "text": "Try it now",
-            "link": "/"
+            "link": "\/"
           }
         },
         "tutorialBlock": {
           "title": "Three steps to a professionally reviewed translation",
           "cta": {
             "text": "Get started",
-            "link": "/"
+            "link": "\/"
           },
           "items": [
             {
               "title": "Translate on supertext.com and choose “Start Verification”",
               "number": "01",
-              "image": "/images/pages/verification/05_04_Profi-Check.webp"
+              "image": "\/images\/pages\/verification\/05_04_Profi-Check.webp"
             },
             {
               "title": "Confirm project details and specify payment method",
               "number": "02",
-              "image": "/images/pages/verification/05_05_Profi-Check.webp"
+              "image": "\/images\/pages\/verification\/05_05_Profi-Check.webp"
             },
             {
               "title": "Collect your verified translation a few minutes later",
               "number": "03",
-              "image": "/images/pages/verification/05_06_Profi-Check.webp"
+              "image": "\/images\/pages\/verification\/05_06_Profi-Check.webp"
             }
           ]
         },
@@ -3278,53 +3278,53 @@
           "eyebrowHeadline": "Our promise",
           "items": [
             {
-              "icon": "/images/pages/verification/Supertext_Icon_Language_Experts_Light_Green.svg",
+              "icon": "\/images\/pages\/verification\/Supertext_Icon_Language_Experts_Light_Green.svg",
               "title": "3,000 certified native language experts",
               "description": "All our specialist translators have a university degree in translation or at least five years of professional experience and must pass an internal test.",
               "cta": {
                 "variant": "primary",
                 "title": "More on linguistic expertise",
-                "link": "/language-expertise"
+                "link": "\/language-expertise"
               }
             },
             {
-              "icon": "/images/pages/verification/Supertext_Icon_Certified_Light_Green.svg",
+              "icon": "\/images\/pages\/verification\/Supertext_Icon_Certified_Light_Green.svg",
               "title": "Tested, standardised and certified according to ISO",
               "description": "Supertext has been certified for translation quality (ISO 17100 and 18587), quality management (ISO 9001) and data security (ISO 27001) since 2018.",
               "cta": {
                 "variant": "primary",
                 "title": "Learn more",
-                "link": "/about-supertext"
+                "link": "\/about-supertext"
               }
             },
             {
-              "icon": "/images/pages/verification/Supertext_Icon_Datensicherheit_Light_Green.svg",
+              "icon": "\/images\/pages\/verification\/Supertext_Icon_Datensicherheit_Light_Green.svg",
               "title": "Uncompromising security",
               "description": "We always keep your data safe and secure thanks to the highest data management standards, robust encryption and the most secure servers. That’s why we are the partner of choice for banks, government agencies and insurers.",
               "cta": {
                 "variant": "primary",
                 "title": "More about the technology",
-                "link": "/technology"
+                "link": "\/technology"
               }
             },
             {
-              "icon": "/images/pages/verification/Supertext_Icon_KI_Learning_Light_Green.svg",
+              "icon": "\/images\/pages\/verification\/Supertext_Icon_KI_Learning_Light_Green.svg",
               "title": "A personal AI model that learns in real time",
               "description": "Our language models learn quickly – and adapt to your needs with every verified translation. So quality keeps improving and your costs keep falling.",
               "badge": "Available soon",
               "cta": {
                 "title": "Learn more",
-                "link": "/technology",
+                "link": "\/technology",
                 "variant": "secondary"
               }
             }
           ]
         },
         "footerNote": {
-          "text": "Our experts are <highlight>ready</highlight>. Are you?",
+          "text": "Our experts are <highlight>ready<\/highlight>. Are you?",
           "cta": {
             "title": "Try it now",
-            "link": "/",
+            "link": "\/",
             "target": "_blank"
           }
         }
@@ -3335,8 +3335,8 @@
           "description": "Translate faster, better and more securely: the new Supertext is here."
         },
         "lead": {
-          "large": "<highlightText>Language AI</highlightText> meets <highlightText>human skill</highlightText>. On a brand-new, flexible platform – with you in the driver’s seat. ",
-          "small": "Following their merger, Supertext and Textshuttle’s new all-in-one solution is bringing together what belongs together: AI efficiency and real language expertise.<break></break><break></break> Existing users will be able to access all the same services as before – and much more. You choose how much technology you want involved in each order, from 0 to 100%. For maximum security in every language – simple, customisable and always improving thanks to adaptive AI. <break></break><break></break> Log in now with your existing Supertext account – or simply create a new one. ",
+          "large": "<highlightText>Language AI<\/highlightText> meets <highlightText>human skill<\/highlightText>. On a brand-new, flexible platform – with you in the driver’s seat. ",
+          "small": "Following their merger, Supertext and Textshuttle’s new all-in-one solution is bringing together what belongs together: AI efficiency and real language expertise.<break><\/break><break><\/break> Existing users will be able to access all the same services as before – and much more. You choose how much technology you want involved in each order, from 0 to 100%. For maximum security in every language – simple, customisable and always improving thanks to adaptive AI. <break><\/break><break><\/break> Log in now with your existing Supertext account – or simply create a new one. ",
           "largeCtas": {
             "cta1": {
               "text": "Start AI translation"
@@ -3351,7 +3351,7 @@
             },
             "cta2": {
               "text": "Go to the press release",
-              "link": "https://promising-heart-583d7d71f6.media.strapiapp.com/2502_Press_release_Supertext_EN_dfd7746ec1.pdf"
+              "link": "https:\/\/promising-heart-583d7d71f6.media.strapiapp.com\/2502_Press_release_Supertext_EN_dfd7746ec1.pdf"
             }
           }
         },
@@ -3403,7 +3403,7 @@
           "text": "Do you have questions, feedback or an exciting project in mind?",
           "cta": {
             "title": "Let’s talk",
-            "link": "/contact",
+            "link": "\/contact",
             "target": "_blank"
           }
         }
@@ -3416,8 +3416,8 @@
           "close": "Close"
         },
         "heroSection": {
-          "mainHeading": "Textshuttle is now Supertext – with<break></break> a new AI, new products and <break></break>a new look",
-          "leading": "Discover our all-in-one translation solution for any type of content – now even better thanks to the latest LLM technology and professional support as an add-on.<break></break><break></break>Just like Textshuttle, Supertext offers you:<break></break><list><listItem>AI translation in up to 23 languages – including Swiss German and Romansh</listItem><listItem>Maximum data security thanks to hosting in Switzerland</listItem><listItem>Practical translation features such as rewording and rephrasing</listItem></list>"
+          "mainHeading": "Textshuttle is now Supertext – with<break><\/break> a new AI, new products and <break><\/break>a new look",
+          "leading": "Discover our all-in-one translation solution for any type of content – now even better thanks to the latest LLM technology and professional support as an add-on.<break><\/break><break><\/break>Just like Textshuttle, Supertext offers you:<break><\/break><list><listItem>AI translation in up to 23 languages – including Swiss German and Romansh<\/listItem><listItem>Maximum data security thanks to hosting in Switzerland<\/listItem><listItem>Practical translation features such as rewording and rephrasing<\/listItem><\/list>"
         },
         "languagePairs": {
           "title": "The Textshuttle translator is now Supertext. What’s on offer?",
@@ -3436,7 +3436,7 @@
           "registerCtaButton": {
             "text": "Register now",
             "variant": "primary",
-            "href": "/person/en/account/signin",
+            "href": "\/person\/en\/account\/signin",
             "type": "login"
           },
           "popularLanguages": {
@@ -3480,8 +3480,8 @@
         "featureSections": [
           {
             "title": "Peace of mind – in minutes, not hours. With professional Verification as an add-on.",
-            "description": "Thanks to the merger of Supertext and Textshuttle, you can now have particularly important translations checked immediately by experienced linguists. Our Verification service is available from just CHF/EUR 5.70 and within 8 minutes.",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/12_12_Mobile-Verification-explainer.svg",
+            "description": "Thanks to the merger of Supertext and Textshuttle, you can now have particularly important translations checked immediately by experienced linguists. Our Verification service is available from just CHF\/EUR 5.70 and within 8 minutes.",
+            "imageUrl": "\/images\/pages\/textshuttle-is-now-supertext\/12_12_Mobile-Verification-explainer.svg",
             "imagePosition": "right",
             "buttons": [
               {
@@ -3492,7 +3492,7 @@
               {
                 "text": "How does it work?",
                 "variant": "secondary",
-                "link": "/verification"
+                "link": "\/verification"
               }
             ]
           },
@@ -3500,17 +3500,17 @@
             "title": "Specialist translation and more from 3,000+ experienced language professionals",
             "description": "From website localisation to multilingual editing and creative copywriting for your next advertising campaign: in addition to providing a powerful AI, Supertext and Textshuttle also offer linguistic support with a network of more than 3,000 professional translators, editors and copywriters. Flexible, creative and reliable – according to ISO-certified processes.",
             "imagePosition": "left",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
+            "imageUrl": "\/images\/pages\/textshuttle-is-now-supertext\/Sharing-Ideas--Streamline-Brooklyn.svg",
             "buttons": [
               {
                 "text": "Discover services",
                 "variant": "primary",
-                "link": "/language-expertise"
+                "link": "\/language-expertise"
               },
               {
                 "text": "Order now",
                 "variant": "secondary",
-                "link": "/person/en/account/signin",
+                "link": "\/person\/en\/account\/signin",
                 "type": "login"
               }
             ]
@@ -3519,21 +3519,21 @@
             "title": "Customised AI translation for companies",
             "description": "Targeted AI training lets us reliably integrate your corporate language into every translation – for measurably better language quality at continuously decreasing costs. Available as a freely accessible tool for all employees or as a basis for your own professional translators.",
             "imagePosition": "right",
-            "imageUrl": "/images/pages/textshuttle-is-now-supertext/Working-Together--Streamline-Brooklyn.svg",
+            "imageUrl": "\/images\/pages\/textshuttle-is-now-supertext\/Working-Together--Streamline-Brooklyn.svg",
             "buttons": [
               {
                 "text": "Curious? Let’s talk.",
                 "variant": "primary",
-                "link": "/contact"
+                "link": "\/contact"
               }
             ]
           }
         ],
         "footerNote": {
-          "text": "Supertext helps you translate <highlight>better, faster, cheaper</highlight> and <highlight>more securely</highlight>. From 0 to 100% automation.",
+          "text": "Supertext helps you translate <highlight>better, faster, cheaper<\/highlight> and <highlight>more securely<\/highlight>. From 0 to 100% automation.",
           "cta": {
             "title": "View business solution",
-            "link": "/why-supertext",
+            "link": "\/why-supertext",
             "target": "_blank"
           }
         }
@@ -3555,11 +3555,11 @@
           ],
           "cta": {
             "title": "Start project",
-            "link": "/order/translation"
+            "link": "\/order\/translation"
           },
           "cta2": {
             "title": "Let’s talk",
-            "link": "/contact"
+            "link": "\/contact"
           }
         },
         "figuresPanel": {
@@ -3594,11 +3594,11 @@
           "groups": {
             "group1": [
               {
-                "title": "Document/file translation",
+                "title": "Document\/file translation",
                 "description": "From Word to PowerPoint, from InDesign to Illustrator, from HTML to XML – we translate in your desired file format. Simple, quick and always correctly formatted.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/translation"
+                  "link": "\/order\/translation"
                 }
               },
               {
@@ -3606,11 +3606,11 @@
                 "description": "Our plugins for Wordpress, Drupal, Adobe Experience Manager and many more let you translate even more straightforwardly and seamlessly. Don’t see your CMS here? Let’s talk about it.",
                 "cta1": {
                   "title": "View plugins",
-                  "link": "/faq?id=f8w9lowm1u5f1m17a005di6y"
+                  "link": "\/faq?id=f8w9lowm1u5f1m17a005di6y"
                 },
                 "cta2": {
                   "title": "Get in touch",
-                  "link": "/contact"
+                  "link": "\/contact"
                 }
               },
               {
@@ -3618,7 +3618,7 @@
                 "description": "From annual reports to ESG reports: we translate accurately, efficiently and in compliance with all the relevant international reporting standards thanks to direct integration into publishing systems such as ns.publish from Neidhart + Schön.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/translation"
+                  "link": "\/order\/translation"
                 }
               }
             ],
@@ -3628,7 +3628,7 @@
                 "description": "We don't translate word for word – instead, we adapt your content for local markets and target groups, taking into account individual traditions, humour and other cultural references. We do this creatively, precisely and with the necessary flair – from multilingual ads to international poster campaigns.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/translation"
+                  "link": "\/order\/translation"
                 }
               },
               {
@@ -3636,7 +3636,7 @@
                 "description": "From Google, Bing and Baidu to Yandex and Yahoo, our SEO experts deliver texts that add value. For readers, search engines and your marketing budget. We give your keywords the beautiful setting they deserve and add the finishing touches to landing pages, product texts and more. For unique content right up to the 200th pair of sneakers.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/translation"
+                  "link": "\/order\/translation"
                 }
               },
               {
@@ -3644,7 +3644,7 @@
                 "description": "We’re fluent in system languages from JSON and Java to YAML, Swift and PHP, and can help you localise your iOS, OS-X, Android and Windows apps, speeding things up right from the design stage.",
                 "cta1": {
                   "title": "Get in touch",
-                  "link": "/contact"
+                  "link": "\/contact"
                 }
               }
             ],
@@ -3654,7 +3654,7 @@
                 "description": "Your official documents – valid for every language area. We create legally binding translations for national and international use, from declarations of intent to patents. Where necessary, we can also arrange an apostille for you.",
                 "cta1": {
                   "title": "Get in touch",
-                  "link": "/order/translation"
+                  "link": "\/order\/translation"
                 }
               },
               {
@@ -3662,7 +3662,7 @@
                 "description": "From AI translation to professional services: we’re always on hand with seamless integrations for every environment thanks to our flexible RESTful API. And we'd be happy to support you with custom interface solutions, too.",
                 "cta1": {
                   "title": "Request documentation",
-                  "link": "/contact"
+                  "link": "\/contact"
                 }
               },
               {
@@ -3670,14 +3670,14 @@
                 "description": "Proper maintenance is key: we help you clean up your company-specific translation memory and terminology database. The updated data is then incorporated into all future translations, ensuring measurably better results while reducing costs.",
                 "cta1": {
                   "title": "Get in touch",
-                  "link": "/contact"
+                  "link": "\/contact"
                 }
               }
             ]
           },
           "cta": {
             "title": "Are you looking for a tailor-made solution? Get in touch.",
-            "link": "/contact"
+            "link": "\/contact"
           }
         },
         "cases": {
@@ -3691,18 +3691,18 @@
         },
         "lead": {
           "large": "Creating new texts, optimising AI texts or refining existing content: we bring you closer to your content goals, word by word.",
-          "small": "Our exclusive network of copywriters, authors and journalists is here to help when you're at a loss for words. With curiosity, creativity and extensive experience in your field, we write copy that resonates with both people and search engines: from websites and blogs to newsletters, white papers and press releases. <break> </break> <break> </break> Alternatively, our experienced professionals will polish your existing text – whether your own or automatically generated – until every word is perfect. For special projects, we are also happy to set up teams of dedicated specialists for you. Or we can support you from the ground up in finding your own voice.",
+          "small": "Our exclusive network of copywriters, authors and journalists is here to help when you're at a loss for words. With curiosity, creativity and extensive experience in your field, we write copy that resonates with both people and search engines: from websites and blogs to newsletters, white papers and press releases. <break> <\/break> <break> <\/break> Alternatively, our experienced professionals will polish your existing text – whether your own or automatically generated – until every word is perfect. For special projects, we are also happy to set up teams of dedicated specialists for you. Or we can support you from the ground up in finding your own voice.",
           "smallList": {
             "one": "",
             "other": ""
           },
           "cta": {
             "title": "Start project",
-            "link": "/order/copywriting"
+            "link": "\/order\/copywriting"
           },
           "cta2": {
             "title": "Let’s talk",
-            "link": "/contact"
+            "link": "\/contact"
           }
         },
         "figuresPanel": {
@@ -3738,7 +3738,7 @@
                 "description": "Copy is the key to successful web design. We help you structure your content and messages along the customer journey – with an eye to high conversion rates, naturally.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/copywriting"
+                  "link": "\/order\/copywriting"
                 }
               },
               {
@@ -3746,7 +3746,7 @@
                 "description": "Informative, high-quality content generates attention and respect. This strengthens your credibility and improves your position in the market – and on Google.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/copywriting"
+                  "link": "\/order\/copywriting"
                 }
               },
               {
@@ -3754,7 +3754,7 @@
                 "description": "Compelling product texts help customers to make decisions – and you to rank higher on Google, Yahoo and other search engines. We give your keywords the beautiful setting they deserve and ensure unique content right up to the 200th pair of sneakers.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/copywriting"
+                  "link": "\/order\/copywriting"
                 }
               }
             ],
@@ -3764,7 +3764,7 @@
                 "description": "Time, experience and good hard thought – the three ingredients of successful branding. We hone your message until every word is perfect and you can captivate your target audience for the long term.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/copywriting"
+                  "link": "\/order\/copywriting"
                 }
               },
               {
@@ -3772,7 +3772,7 @@
                 "description": "Emails with impressive open rates and campaigns that stick in people's minds. We help you develop all types of advertising material – from surprising emails to glossy posters. For us, clichés and rhymes are no substitute for what really matters: truly good ideas.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/copywriting"
+                  "link": "\/order\/copywriting"
                 }
               },
               {
@@ -3780,7 +3780,7 @@
                 "description": "We help you develop language guidelines for your brand, from corporate wording to company-specific style guides and brand books. So your entire company speaks with one voice.",
                 "cta1": {
                   "title": "Get in touch",
-                  "link": "/contact"
+                  "link": "\/contact"
                 }
               }
             ],
@@ -3790,7 +3790,7 @@
                 "description": "Give the media what they want with clearly structured facts and credible messages. We develop PR ideas, conduct research and craft copy that journalists enjoy working with.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/copywriting"
+                  "link": "\/order\/copywriting"
                 }
               },
               {
@@ -3798,7 +3798,7 @@
                 "description": "Our experienced network of creative writers delivers production-ready scripts for gripping video content. From social media reels to explanatory films. We are also happy to take care of the transcription and subtitling for you.",
                 "cta1": {
                   "title": "Get in touch",
-                  "link": "/contact"
+                  "link": "\/contact"
                 }
               },
               {
@@ -3806,14 +3806,14 @@
                 "description": "Stylistically flawless content, from ads to social media posts. We correct, optimise, polish – and are happy to put the finishing touches to your AI-generated texts.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/copywriting"
+                  "link": "\/order\/copywriting"
                 }
               }
             ]
           },
           "cta": {
             "title": "Are you looking for a dedicated team or a tailor-made solution? Get in touch.",
-            "link": "/contact"
+            "link": "\/contact"
           }
         },
         "cases": {
@@ -3827,18 +3827,18 @@
         },
         "lead": {
           "large": "From editing manuscripts and proofreading annual reports to optimising AI-generated texts, our work always adds value. Meticulous, flawless and true to your own unique style.",
-          "small": "Our trained, internally tested language specialists provide expertise in every language. They leave nothing to chance, and everything to the official rules and regulations of your target language. And they are also happy to adjust the tone of your text to suit your needs.  <break></break><break></break>Track changes, comments or changes implemented directly in the text? You choose the correction format, we do the rest. Everything from a single source and in the language of your choice. Is your multilingual proofreading particularly urgent? Our professionals are also available at the touch of a button.",
+          "small": "Our trained, internally tested language specialists provide expertise in every language. They leave nothing to chance, and everything to the official rules and regulations of your target language. And they are also happy to adjust the tone of your text to suit your needs.  <break><\/break><break><\/break>Track changes, comments or changes implemented directly in the text? You choose the correction format, we do the rest. Everything from a single source and in the language of your choice. Is your multilingual proofreading particularly urgent? Our professionals are also available at the touch of a button.",
           "smallList": {
             "one": "",
             "other": ""
           },
           "cta": {
             "title": "Start project",
-            "link": "/order/proofreading"
+            "link": "\/order\/proofreading"
           },
           "cta2": {
             "title": "Let’s talk",
-            "link": "/contact"
+            "link": "\/contact"
           }
         },
         "figuresPanel": {
@@ -3877,7 +3877,7 @@
                 "description": "Classic proofreading for absolutely error-free results. We check spelling, grammar and punctuation closely. Whether you choose one- or two-phase proofreading, you’ll always receive rapid, meticulous results.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "\/order\/proofreading"
                 }
               },
               {
@@ -3885,7 +3885,7 @@
                 "description": "Your services for stylistically flawless content. From Arabic to Zulu and from blog posts to epic poems. Including adjustments to style (editing) as well as structure and tone (rewriting) by selected authors and journalists.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "\/order\/proofreading"
                 }
               },
               {
@@ -3893,7 +3893,7 @@
                 "description": "Peace of mind at the push of a button: our tried-and-tested proofreaders are all native speakers of their target language and guarantee error-free communication in minutes rather than hours. Currently available in six language combinations.",
                 "cta1": {
                   "title": "Try Verification",
-                  "link": "/"
+                  "link": "\/"
                 }
               }
             ],
@@ -3903,7 +3903,7 @@
                 "description": "Do you have ChatGPT, Jasper or Neuroflash to thank for your text? We can improve any automatically generated output with structure, logic and fact-checking. For more meaningful content and true brand safety.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "\/order\/proofreading"
                 }
               },
               {
@@ -3911,7 +3911,7 @@
                 "description": "The finishing touches for annual reports, ESG reports, financial metrics and more. Flexible, fast and always on-brand. Whether in PDF, InDesign, CMS or directly in your publishing system.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "\/order\/proofreading"
                 }
               },
               {
@@ -3919,20 +3919,20 @@
                 "description": "Summa cum laude thanks to our proofreading and editing service for students. From independent projects to dissertations. Express delivery available on request.",
                 "cta1": {
                   "title": "Get in touch",
-                  "link": "/order/proofreading"
+                  "link": "\/order\/proofreading"
                 }
               }
             ]
           },
           "cta": {
             "title": "Are you looking for a tailor-made solution? Get in touch.",
-            "link": "/contact"
+            "link": "\/contact"
           }
         },
         "references": {
           "title": "Our customers’ success stories speak for themselves.",
           "cta": {
-            "link": "/references",
+            "link": "\/references",
             "text": "See the case studies"
           }
         }
@@ -3962,11 +3962,11 @@
         "title": "Features",
         "rephrase": {
           "title": "Rephrase",
-          "description": "Highlight <highlight>several words</highlight> to retranslate them."
+          "description": "Highlight <highlight>several words<\/highlight> to retranslate them."
         },
         "wordAlternative": {
           "title": "Reword",
-          "description": "Click on a single <highlight>word</highlight> to see more suggestions."
+          "description": "Click on a single <highlight>word<\/highlight> to see more suggestions."
         }
       }
     },
@@ -4001,7 +4001,7 @@
         "description": "Your translation data will be deleted immediately.",
         "cta": {
           "title": "Learn more",
-          "link": "/en/faq?id=dl93iuhr4l8pe0fv7ci0tanf"
+          "link": "\/en\/faq?id=dl93iuhr4l8pe0fv7ci0tanf"
         }
       }
     },
@@ -4015,7 +4015,7 @@
           "2": {
             "cta": {
               "text": "View post",
-              "link": "/blog/deepl-vs-supertext-a-comparison-of-translation-performance"
+              "link": "\/blog\/deepl-vs-supertext-a-comparison-of-translation-performance"
             }
           }
         }

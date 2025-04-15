@@ -501,7 +501,6 @@
     "en-GB": "Englisch (Grossbritannien)",
     "en-US": "Englisch (USA)",
     "es": "Spanisch",
-    "el": "Griechisch",
     "fi": "Finnisch",
     "fr": "Französisch",
     "fr-CH": "Französisch (Schweiz)",
@@ -509,7 +508,6 @@
     "gsw": "Schweizerdeutsch",
     "gsw-u-sd-chbe": "Schweizerdeutsch (Bern)",
     "gsw-u-sd-chzh": "Schweizerdeutsch (Zürich)",
-    "hr": "Kroatisch",
     "hu": "Ungarisch",
     "it": "Italienisch",
     "it-CH": "Italienisch (Schweiz)",
@@ -531,7 +529,6 @@
     "sr-Cyrl": "Serbisch (kyrillisch)",
     "sr-Latn": "Serbisch (lateinisch)",
     "sv": "Schwedisch",
-    "tr": "Türkisch",
     "zh": "Chinesisch",
     "zh-Hans": "Chinesisch (vereinfacht)",
     "zh-Hant": "Chinesisch (traditionell)"
@@ -1125,7 +1122,7 @@
             "tooltips": {
               "password": {
                 "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihr Passwort ändern",
-                "sso": "Sie können Ihr Passwort als SSO-Benutzer:in nicht ändern.",
+                "sso": "Sie können Ihr Passwort als SSO-User:in nicht ändern.",
                 "user": "Nur der:die Teamadministrator:in kann Ihr Passwort ändern"
               },
               "email": {
@@ -2410,8 +2407,8 @@
                   "title": "Fachübersetzung",
                   "description": "Technologie trifft erfahrene Spezialist:innen. Von InDesign bis Word und von Arabisch bis Zulu.",
                   "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "/bestellen/uebersetzen",
+                    "title": "MEHR ERFAHREN",
+                    "link": "/fachuebersetzung",
                     "variant": "secondary"
                   }
                 },
@@ -2419,8 +2416,8 @@
                   "title": "Copywriting & Content",
                   "description": "Wir fangen dort an, wo Ihnen die Worte fehlen. In Ihrem Tone of Voice, ideenreich und treffsicher.",
                   "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "/bestellen/texten/",
+                    "title": "MEHR ERFAHREN",
+                    "link": "/texten",
                     "variant": "secondary"
                   }
                 },
@@ -2428,8 +2425,8 @@
                   "title": "Lektorat",
                   "description": "Der letzte Schliff für Ihren Text. Stilsicher, pingelig und richtig schnell.",
                   "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "/bestellen/lektorieren",
+                    "title": "MEHR ERFAHREN",
+                    "link": "/lektorat",
                     "variant": "secondary"
                   }
                 },
@@ -2929,11 +2926,11 @@
       "aiTranslation": {
         "hero": {
           "title": "KI-Übersetzung mit Profi-Check",
-          "description": "Sicher sein – in Minuten statt Stunden. Dank der Verifizierung durch erfahrene Übersetzer:innen auf Knopfdruck."
+          "description": "Sicher sein – in Minuten statt Stunden. Dank des Profi-Checks durch erfahrene Übersetzer:innen auf Knopfdruck."
         },
         "lead": {
           "large": "Ihre Übersetzung – professionell geprüft, wenn es wirklich wichtig ist.",
-          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break> <break></break> Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit der Verifizierung auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
+          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break> <break></break> Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit dem Profi-Check auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
           "cta": {
             "title": "Jetzt ausprobieren",
             "link": "/"
@@ -3221,11 +3218,11 @@
       "aiTranslationVerification": {
         "hero": {
           "title": "KI-Übersetzung mit Profi-Check",
-          "description": "Sicher sein – in Minuten statt Stunden. Dank der Verifizierung durch erfahrene Übersetzer:innen auf Knopfdruck."
+          "description": "Sicher sein – in Minuten statt Stunden. Dank des Profi-Checks durch erfahrene Übersetzer:innen auf Knopfdruck."
         },
         "lead": {
           "large": "Ihre Übersetzung – professionell geprüft, wenn es wirklich wichtig ist.",
-          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break><break></break>Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit der Verifizierung auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
+          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break><break></break>Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit dem Profi-Check auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
           "cta": {
             "title": "Jetzt ausprobieren",
             "link": "/"
@@ -3640,7 +3637,7 @@
               },
               {
                 "title": "SEO-Übersetzungen von Webseiten",
-                "description": "Ob Google, Bing, Baidu, Yandex oder Yahoo – unsere SEO-Expert:innen liefern Texte mit Mehrwert. Für die Leser:innen, die Suchmaschine und Ihren Marketingerfolg. Wir verpacken Ihre Keywords schöner und geben Landingpages, Produkttexten & Co den letzten Schliff. Für unique Content bis zum zweihundertsten Paar Sneakers.",
+                "description": "Ob Google, Bing, Baidu, Yandex oder Yahoo – unsere SEO-Expert:innen liefern Texte mit Mehrwert. Für die Leser:innen, die Suchmaschine und Ihren Marketingerfolg. Wir verpacken Ihre Keywords schöner und geben Landingpages, Produkttexten & Co den letzten Schliff. Für Unique Content bis zum zweihundertsten Paar Sneakers.",
                 "cta1": {
                   "title": "Projekt starten",
                   "link": "/bestellen/uebersetzen?customOrderStyleName=common"
@@ -3776,7 +3773,7 @@
               },
               {
                 "title": "Newsletter, Mailings und Kampagnen",
-                "description": "E-Mails mit aufsehenerregenden Öffnungsraten und Kampagnen, die in Erinnerung bleiben. Wir unterstützen bei der Konzeption von Werbemitteln jeder Art – vom überraschenden E-Mailing bis zum Hochglanz-Plakat. Floskeln und Reime sind für uns dabei kein Ersatz für das, worauf es stattdessen ankommt: echt gute Ideen.",
+                "description": "E-Mails mit aufsehenerregenden Öffnungsraten und Kampagnen, die in Erinnerung bleiben. Wir unterstützen bei der Konzeption von Werbemitteln jeder Art – vom überraschenden E-Mailing bis hin zum Hochglanz-Plakat. Floskeln und Reime sind für uns dabei kein Ersatz für das, worauf es stattdessen ankommt: echt gute Ideen.",
                 "cta1": {
                   "title": "Projekt starten",
                   "link": "/bestellen/texten"
@@ -3861,7 +3858,7 @@
               "title": "100 Inhouse-Spezialist:innen in Zürich und Berlin"
             },
             {
-              "title": "Dreidimensionale Bewertung von Lektoratsdiensten durch Kund:in, Projektleitung und Sprachprofi"
+              "title": "Dreidimensionale Bewertung von Lektoratsdiensten durch Kunden, Projektleitung und Sprachprofi"
             },
             {
               "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17001/18587)"
@@ -3915,7 +3912,7 @@
               },
               {
                 "title": "Geschäftsberichte korrigieren",
-                "description": "Der letzte Schliff für Jahresbericht, ESG-Report, Finanzkennzahlen & Co. Flexibel, schnell und immer on-brand. Egal ob im PDF, in InDesign, im CMS oder direkt im Publishing-System.",
+                "description": "Der letzte Schliff für Jahresbericht, ESG-Report, Finanzkennzahlen und Co. Flexibel, schnell und immer on-brand. Egal ob im PDF, in InDesign, im CMS oder direkt im Publishing-System.",
                 "cta1": {
                   "title": "Projekt starten",
                   "link": "/bestellen/lektorieren"

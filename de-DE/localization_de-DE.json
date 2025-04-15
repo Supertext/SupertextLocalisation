@@ -1122,7 +1122,7 @@
             "tooltips": {
               "password": {
                 "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihr Passwort ändern",
-                "sso": "Sie können Ihr Passwort als SSO-Benutzer:in nicht ändern.",
+                "sso": "Sie können Ihr Passwort als SSO-User:in nicht ändern.",
                 "user": "Nur der:die Teamadministrator:in kann Ihr Passwort ändern"
               },
               "email": {
@@ -2407,8 +2407,8 @@
                   "title": "Fachübersetzung",
                   "description": "Technologie trifft erfahrene Spezialist:innen. Von InDesign bis Word und von Arabisch bis Zulu.",
                   "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "/bestellen/uebersetzen",
+                    "title": "MEHR ERFAHREN",
+                    "link": "/fachuebersetzung",
                     "variant": "secondary"
                   }
                 },
@@ -2416,8 +2416,8 @@
                   "title": "Copywriting & Content",
                   "description": "Wir fangen dort an, wo Ihnen die Worte fehlen. In Ihrem Tone of Voice, ideenreich und treffsicher.",
                   "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "/bestellen/texten/",
+                    "title": "MEHR ERFAHREN",
+                    "link": "/texten",
                     "variant": "secondary"
                   }
                 },
@@ -2425,8 +2425,8 @@
                   "title": "Lektorat",
                   "description": "Der letzte Schliff für Ihren Text. Stilsicher, pingelig und richtig schnell.",
                   "cta": {
-                    "title": "JETZT BESTELLEN",
-                    "link": "/bestellen/lektorieren",
+                    "title": "MEHR ERFAHREN",
+                    "link": "/lektorat",
                     "variant": "secondary"
                   }
                 },
@@ -3773,7 +3773,7 @@
               },
               {
                 "title": "Newsletter, Mailings und Kampagnen",
-                "description": "E-Mails mit aufsehenerregenden Öffnungsraten und Kampagnen, die in Erinnerung bleiben. Wir unterstützen bei der Konzeption von Werbemitteln jeder Art – vom überraschenden E-Mailing bis zum Hochglanz-Plakat. Floskeln und Reime sind für uns dabei kein Ersatz für das, worauf es stattdessen ankommt: echt gute Ideen.",
+                "description": "E-Mails mit aufsehenerregenden Öffnungsraten und Kampagnen, die in Erinnerung bleiben. Wir unterstützen bei der Konzeption von Werbemitteln jeder Art – vom überraschenden E-Mailing bis hin zum Hochglanz-Plakat. Floskeln und Reime sind für uns dabei kein Ersatz für das, worauf es stattdessen ankommt: echt gute Ideen.",
                 "cta1": {
                   "title": "Projekt starten",
                   "link": "/bestellen/texten"

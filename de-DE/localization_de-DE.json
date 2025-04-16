@@ -1232,6 +1232,7 @@
             "comparePlans": "Abos vergleichen",
             "numberOfLicenses": "Anzahl Lizenzen",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
+            "after": "nach",
             "nextPayment": "Nächste Zahlung",
             "monthly": "Monatlich",
             "yearly": "Jährlich",
@@ -1260,7 +1261,7 @@
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung ist sofort wirksam.",
-              "nextBillingChange": "Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
+              "nextBillingChange": "Sie beantragen eine Herabstufung von {previousCount} auf {newCount} Lizenzen. Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "removeLicensesError": {

@@ -1232,6 +1232,7 @@
             "comparePlans": "Confronto tra gli abbonamenti",
             "numberOfLicenses": "Numero di licenze",
             "licencesCount": "{count, plural, one {# licenza} other {# licenze}}",
+            "after": "dopo",
             "nextPayment": "Prossimo pagamento",
             "monthly": "Mensile",
             "yearly": "Annuale",
@@ -1260,7 +1261,7 @@
               "termsConfirmation": "Confermo la modifica dell’abbonamento sopraindicata e accetto le",
               "termsAndConditions": "condizioni generali di contratto.",
               "immediateChange": "La presente modifica ha effetto immediato.",
-              "nextBillingChange": "Questa modifica verrà applicata a partire dal prossimo periodo di fatturazione.",
+              "nextBillingChange": "Si richiede il downgrade da {previousCount} a {newCount} delle licenze. Questa modifica verrà applicata a partire dal prossimo periodo di fatturazione.",
               "makePayment": "Ordina in modo vincolante",
               "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e verranno addebitate al termine di tale fase nel periodo di fatturazione successivo.",
               "removeLicensesError": {

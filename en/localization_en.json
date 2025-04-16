@@ -1232,6 +1232,7 @@
             "comparePlans": "Compare subscriptions",
             "numberOfLicenses": "Number of licences",
             "licencesCount": "{count, plural, one {# seat} other {# seats}}",
+            "after": "after",
             "nextPayment": "Next payment",
             "monthly": "Monthly",
             "yearly": "Annual",
@@ -1260,7 +1261,7 @@
               "termsConfirmation": "I confirm the above subscription change and accept the",
               "termsAndConditions": "terms and conditions.",
               "immediateChange": "This change is effective immediately.",
-              "nextBillingChange": "This change is effective from the next billing period.",
+              "nextBillingChange": "You are requesting to downgrade your seats from {previousCount} to {newCount}. This change is effective from the next billing period.",
               "makePayment": "Confirm order",
               "zeroPayableNowOnTrialPeriod": "Additional licences are free during the test phase and will be charged in the next billing period after the test phase ends.",
               "removeLicensesError": {

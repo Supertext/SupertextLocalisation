@@ -720,6 +720,9 @@
         "cancel": "Beim Kündigen des Abos ist ein Fehler aufgetreten.",
         "update": "Beim Aktualisieren des Abos ist ein Fehler aufgetreten."
       },
+      "downgradeSubscriptionsIndividual":{
+        "cancel": "Die Herabstufung von Lizenzen wurde aufgehoben"
+      },
       "noDataFoundInLocalStorage": "Keine Daten in localStorage gefunden",
       "noItemsFound": "Kein Element mit ID {0} gefunden",
       "payment": {
@@ -1232,10 +1235,14 @@
             "comparePlans": "Abos vergleichen",
             "numberOfLicenses": "Anzahl Lizenzen",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
+            "after": "nach",
             "nextPayment": "Nächste Zahlung",
+            "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
+            "cancelDowngradeLicenses": "Abbrechen",
             "monthly": "Monatlich",
             "yearly": "Jährlich",
             "billingPeriod": "Abrechnungszeitraum",
+
             "subscriptionPrices": "Preise der Abos",
             "change": "Ändern",
             "modal": {
@@ -1260,7 +1267,7 @@
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung ist sofort wirksam.",
-              "nextBillingChange": "Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
+              "nextBillingChange": "Sie beantragen eine Herabstufung von {previousCount} auf {newCount} Lizenzen. Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "removeLicensesError": {

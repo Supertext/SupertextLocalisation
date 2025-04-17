@@ -714,7 +714,14 @@
         "couldNotFetchTeamMembers": "Konnte die Teammitglieder nicht abrufen: {error}",
         "couldNotFetchTeamDetails": "Konnte die Teamdetails nicht abrufen: {error}",
         "couldNotFetchTeamId": "Konnte die Team-ID nicht abrufen: {error}",
-        "memberAlreadyInTeam": "Die eingeladene Person ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter hello@supertext.com an unseren Support, um die Person einem neuen Team zuweisen zu lassen."
+        "AlreadyInTeam":  "Die eingeladene Person ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter hello@supertext.com an unseren Support, um die Person einem neuen Team zuweisen zu lassen.",
+        "LockedAccount": "Konto ist aus Sicherheitsgründen gesperrt. Bitte kontaktieren Sie Ihren Supertext-Projektmanager.",
+        "TeamInvitationSent": "Teameinladung wurde erfolgreich versendet.",
+        "AlreadyInvited": "Für diesen Benutzer wurde bereits eine Einladung gesendet.",
+        "TeamWithSubscription": "Dieser Benutzer hat ein aktives Abonnement. Bitten Sie ihn, das Abonnement zu kündigen, bevor er in Ihr Team eingeladen werden kann.",
+        "UserHasLicenseAssigned": "Sie können nur Benutzer einladen, die keine aktive Lizenz haben. Bitten Sie deren Administrator, die Lizenz des Benutzers zu entfernen.",
+        "UserNotMemberOfTeamsCompany": "Benutzer ist kein Mitglied des dem Team zugewiesenen Unternehmens.",
+        "TeamWithPaymentProvider": "Dieser Benutzer hat eine Kreditkarte in seinem Profil hinterlegt. Bitten Sie ihn, die Kreditkarte zu entfernen, bevor er in Ihr Team eingeladen werden kann."
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abos ist ein Fehler aufgetreten.",

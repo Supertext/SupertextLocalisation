@@ -1197,10 +1197,17 @@
               }
             },
             "changePaymentMethodTooltip": {
-              "linkText": "Kontaktieren Sie uns",
-              "prefilledSubject": "Antrag für Zahlung auf Rechnung",
-              "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
-              "emailAddress": "hello@supertext.com"
+              "invoiceDisabled": {
+                "linkText": "Kontaktieren Sie uns",
+                "description": "Rechnungszahlungen sind für Ihre Organisation derzeit nicht aktiviert. Bitte wenden Sie sich an uns, um diese Zahlungsmethode freizuschalten.",
+                "prefilledSubject": "Antrag für Zahlung auf Rechnung",
+                "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
+                "emailAddress": "hello@supertext.com"
+              },
+              "invoiceRequiresBillingAddress": {
+                "description": "Um Rechnungen als Zahlungsmethode zu nutzen, fügen Sie bitte zunächst eine Rechnungsadresse hinzu.",
+                "linkText": "Rechnungsadresse hinzufügen"
+              }
             }
           },
           "team": {

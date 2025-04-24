@@ -1178,10 +1178,12 @@
               }
             },
             "changePaymentMethodTooltip": {
-              "linkText": "Contact us",
-              "prefilledSubject": "Application for payment by invoice",
-              "prefilledBody": "Hello\n\nPlease enable payment by invoice for my Supertext account.",
-              "emailAddress": "hello@supertext.com"
+              "invoiceDisabled": {
+                "linkText": "Contact us",
+                "prefilledSubject": "Application for payment by invoice",
+                "prefilledBody": "Hello\n\nPlease enable payment by invoice for my Supertext account.",
+                "emailAddress": "hello@supertext.com"
+              }
             }
           },
           "team": {

@@ -1178,11 +1178,13 @@
               }
             },
             "changePaymentMethodTooltip": {
-              "linkText": "Contactez-nous",
-              "prefilledSubject": "Demande de paiement sur facture",
-              "prefilledBody": "Madame, Monsieur\n\nVeuillez activer le paiement sur facture pour mon compte Supertext.",
-              "emailAddress": "hello@supertext.com"
-            }
+              "invoiceDisabled": {
+                "linkText": "Contactez-nous",
+                "prefilledSubject": "Demande de paiement sur facture",
+                "prefilledBody": "Madame, Monsieur\n\nVeuillez activer le paiement sur facture pour mon compte Supertext.",
+                "emailAddress": "hello@supertext.com"
+              }
+             }
           },
           "team": {
             "title": "Équipe",

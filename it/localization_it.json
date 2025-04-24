@@ -1178,10 +1178,12 @@
               }
             },
             "changePaymentMethodTooltip": {
-              "linkText": "Contattateci",
-              "prefilledSubject": "Richiesta di pagamento dietro fattura",
-              "prefilledBody": "Buongiorno,\n\nattivate il pagamento dietro fattura per il mio account Supertext.",
-              "emailAddress": "hello@supertext.com"
+              "invoiceDisabled": {
+                "linkText": "Contattateci",
+                "prefilledSubject": "Richiesta di pagamento dietro fattura",
+                "prefilledBody": "Buongiorno,\n\nattivate il pagamento dietro fattura per il mio account Supertext.",
+                "emailAddress": "hello@supertext.com"
+              }
             }
           },
           "team": {

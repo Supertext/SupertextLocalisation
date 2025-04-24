@@ -1178,10 +1178,12 @@
               }
             },
             "changePaymentMethodTooltip": {
-              "linkText": "Kontaktieren Sie uns",
-              "prefilledSubject": "Antrag für Zahlung auf Rechnung",
-              "prefilledBody": "Guten Tag,\n\nbitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
-              "emailAddress": "hello@supertext.com"
+              "invoiceDisabled": {
+                "linkText": "Kontaktieren Sie uns",
+                "prefilledSubject": "Antrag für Zahlung auf Rechnung",
+                "prefilledBody": "Guten Tag,\n\nbitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
+                "emailAddress": "hello@supertext.com"
+              }
             }
           },
           "team": {

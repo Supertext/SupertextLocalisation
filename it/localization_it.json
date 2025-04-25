@@ -1258,6 +1258,7 @@
             "comparePlans": "Confronto tra gli abbonamenti",
             "numberOfLicenses": "Numero di licenze",
             "licencesCount": "{count, plural, one {# licenza} other {# licenze}}",
+            "after": "dopo",
             "nextPayment": "Prossimo pagamento",
             "monthly": "Mensile",
             "yearly": "Annuale",
@@ -1286,7 +1287,7 @@
               "termsConfirmation": "Confermo la modifica dell’abbonamento sopraindicata e accetto le",
               "termsAndConditions": "condizioni generali di contratto.",
               "immediateChange": "La presente modifica ha effetto immediato.",
-              "nextBillingChange": "Questa modifica verrà applicata a partire dal prossimo periodo di fatturazione.",
+              "nextBillingChange": "Si richiede il downgrade da {previousCount} a {newCount} delle licenze. Questa modifica verrà applicata a partire dal prossimo periodo di fatturazione.",
               "makePayment": "Ordina in modo vincolante",
               "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e verranno addebitate al termine di tale fase nel periodo di fatturazione successivo.",
               "removeLicensesError": {
@@ -1308,7 +1309,6 @@
               "message": "Si prega di aggiornare il metodo di pagamento prima di apportare modifiche all'abbonamento.",
               "link": "Aggiornare il metodo di pagamento"
             },
-            "after": "Dopo",
             "downgradeLicenses": "Prossima riduzione del numero di licenze",
             "cancelDowngradeLicenses": "Cancellare"
           },
@@ -2702,6 +2702,10 @@
             {
               "title": "Assistenza clienti",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Relazioni con i freelance"
             }
           ]
         }

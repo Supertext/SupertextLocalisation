@@ -505,11 +505,9 @@
     "fr": "Französisch",
     "fr-CH": "Französisch (Schweiz)",
     "fr-FR": "Französisch (Frankreich)",
-    "el": "Griechisch",
     "gsw": "Schweizerdeutsch",
     "gsw-u-sd-chbe": "Schweizerdeutsch (Bern)",
     "gsw-u-sd-chzh": "Schweizerdeutsch (Zürich)",
-    "hr": "Kroatisch",
     "hu": "Ungarisch",
     "it": "Italienisch",
     "it-CH": "Italienisch (Schweiz)",
@@ -522,7 +520,6 @@
     "pt": "Portugiesisch",
     "pt-BR": "Portugiesisch (Brasilien)",
     "pt-PT": "Portugiesisch (Portugal)",
-    "tr": "Türkisch",
     "rm": "Rätoromanisch",
     "ru": "Russisch",
     "sk": "Slowakisch",
@@ -534,7 +531,10 @@
     "sv": "Schwedisch",
     "zh": "Chinesisch",
     "zh-Hans": "Chinesisch (vereinfacht)",
-    "zh-Hant": "Chinesisch (traditionell)"
+    "zh-Hant": "Chinesisch (traditionell)",
+    "el": "Griechisch",
+    "hr": "Kroatisch",
+    "tr": "Türkisch"
   },
   "languageVariants": {
     "de-AT": "AT",
@@ -596,11 +596,9 @@
     "fr": "von Französisch",
     "fr-CH": "von Französisch (Schweiz)",
     "fr-FR": "von Französisch (Frankreich)",
-    "el": "von Griechisch",
     "gsw": "von Schweizerdeutsch",
     "gsw-u-sd-chbe": "von Schweizerdeutsch (Bern)",
     "gsw-u-sd-chzh": "von Schweizerdeutsch (Zürich)",
-    "hr": "von Kroatisch",
     "hu": "von Ungarisch",
     "it": "von Italienisch",
     "it-CH": "von Italienisch (Schweiz)",
@@ -613,7 +611,6 @@
     "pt": "von Portugiesisch",
     "pt-BR": "von Portugiesisch (Brasilien)",
     "pt-PT": "von Portugiesisch (Portugal)",
-    "tr": "von Türkisch",
     "rm": "von Rätoromanisch",
     "ru": "von Russisch",
     "sk": "von Slowakisch",
@@ -625,7 +622,10 @@
     "sv": "von Schwedisch",
     "zh": "von Chinesisch",
     "zh-Hans": "von Chinesisch (vereinfacht)",
-    "zh-Hant": "von Chinesisch (traditionell)"
+    "zh-Hant": "von Chinesisch (traditionell)",
+    "el": "von Griechisch",
+    "hr": "von Kroatisch",
+    "tr": "von Türkisch"
   },
   "languagesTo": {
     "cs": "nach Tschechisch",
@@ -644,11 +644,9 @@
     "fr": "nach Französisch",
     "fr-CH": "nach Französisch (Schweiz)",
     "fr-FR": "nach Französisch (Frankreich)",
-    "el": "nach Griechisch",
     "gsw": "nach Schweizerdeutsch",
     "gsw-u-sd-chbe": "nach Schweizerdeutsch (Bern)",
     "gsw-u-sd-chzh": "nach Schweizerdeutsch (Zürich)",
-    "hr": "nach Kroatisch",
     "hu": "nach Ungarisch",
     "it": "nach Italienisch",
     "it-CH": "nach Italienisch (Schweiz)",
@@ -661,7 +659,6 @@
     "pt": "nach Portugiesisch",
     "pt-BR": "nach Portugiesisch (Brasilien)",
     "pt-PT": "nach Portugiesisch (Portugal)",
-    "tr": "nach Türkisch",
     "rm": "nach Rätoromanisch",
     "ru": "nach Russisch",
     "sk": "nach Slowakisch",
@@ -673,7 +670,10 @@
     "sv": "nach Schwedisch",
     "zh": "nach Chinesisch",
     "zh-Hans": "nach Chinesisch (vereinfacht)",
-    "zh-Hant": "nach Chinesisch (traditionell)"
+    "zh-Hant": "nach Chinesisch (traditionell)",
+    "el": "nach Griechisch",
+    "hr": "nach Kroatisch",
+    "tr": "nach Türkisch"
   },
   "authentication": {
     "authenticate": "Authentifizierung",
@@ -723,21 +723,18 @@
         "couldNotFetchTeamMembers": "Konnte die Teammitglieder nicht abrufen: {error}",
         "couldNotFetchTeamDetails": "Konnte die Teamdetails nicht abrufen: {error}",
         "couldNotFetchTeamId": "Konnte die Team-ID nicht abrufen: {error}",
-        "AlreadyInTeam":  "Die eingeladene Person ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter hello@supertext.com an unseren Support, um die Person einem neuen Team zuweisen zu lassen.",
-        "LockedAccount": "Konto ist aus Sicherheitsgründen gesperrt. Bitte kontaktieren Sie Ihren Supertext-Projektmanager.",
-        "TeamInvitationSent": "Teameinladung wurde erfolgreich versendet.",
-        "AlreadyInvited": "Für diesen Benutzer wurde bereits eine Einladung gesendet.",
-        "TeamWithSubscription": "Dieser Benutzer hat ein aktives Abonnement. Bitten Sie ihn, das Abonnement zu kündigen, bevor er in Ihr Team eingeladen werden kann.",
-        "UserHasLicenseAssigned": "Sie können nur Benutzer einladen, die keine aktive Lizenz haben. Bitten Sie deren Administrator, die Lizenz des Benutzers zu entfernen.",
-        "UserNotMemberOfTeamsCompany": "Benutzer ist kein Mitglied des dem Team zugewiesenen Unternehmens.",
-        "TeamWithPaymentProvider": "Dieser Benutzer hat eine Kreditkarte in seinem Profil hinterlegt. Bitten Sie ihn, die Kreditkarte zu entfernen, bevor er in Ihr Team eingeladen werden kann."
+        "AlreadyInTeam": "Die eingeladene Person ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a> an unseren Support, um die Person einem neuen Team zuweisen zu lassen.",
+        "LockedAccount": "Das Konto dieser Person ist aus Sicherheitsgründen gesperrt. Bitte wenden Sie sich unter <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a> an unseren Support, um das Problem zu beheben.",
+        "TeamInvitationSent": "Team-Einladung erfolgreich versendet.",
+        "AlreadyInvited": "Für diese Person wurde bereits eine Einladung gesendet. Bitte fordern Sie sie auf, die Einladung dort anzunehmen.",
+        "TeamWithSubscription": "Diese Person hat bereits ein aktives Supertext-Abo. Bitten Sie sie, das aktuelle Abo zu kündigen, bevor sie in Ihr Team eingeladen werden kann.",
+        "UserHasLicenseAssigned": "Diese Person hat bereits eine Lizenz für ein Supertext-Abo zugewiesen. Bitten Sie sie, die aktuelle Lizenz zuerst von einem Team-Admin entfernen zu lassen, bevor sie in Ihr Team eingeladen werden kann.",
+        "UserNotMemberOfTeamsCompany": "Die Person kann nicht in Ihr Team eingeladen werden, weil sie einer anderen Organisation zugeordnet ist. Bitte melden Sie sich bei <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a>, falls die Person stattdessen Ihrer Organisation zugeordnet werden soll.",
+        "TeamWithPaymentProvider": "Diese Person hat eine Kreditkarte in ihrem Profil hinterlegt. Bitten Sie sie, die Kreditkarte zu entfernen, bevor sie in Ihr Team eingeladen werden kann."
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abos ist ein Fehler aufgetreten.",
         "update": "Beim Aktualisieren des Abos ist ein Fehler aufgetreten."
-      },
-      "downgradeSubscriptionsIndividual":{
-        "cancel": "Die Herabstufung von Lizenzen wurde aufgehoben"
       },
       "noDataFoundInLocalStorage": "Keine Daten in localStorage gefunden",
       "noItemsFound": "Kein Element mit ID {0} gefunden",
@@ -754,7 +751,10 @@
       "noDataReceived": "Keine Daten empfangen",
       "couldNotFetchVerificationJob": "Beim Abrufen des Verifizierungsauftrags ist etwas schiefgelaufen.",
       "somethingWentWrongWithPricing": "Bei der Preisschätzung ist etwas schiefgelaufen.",
-      "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler erneut auftritt."
+      "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler erneut auftritt.",
+      "downgradeSubscriptionsIndividual": {
+        "cancel": "Die anstehende Reduktion Ihrer Anzahl Lizenzen wurde aufgehoben."
+      }
     },
     "success": {
       "settings": {
@@ -1199,7 +1199,7 @@
             "changePaymentMethodTooltip": {
               "invoiceDisabled": {
                 "linkText": "Kontaktieren Sie uns",
-                "description": "Rechnungszahlungen sind für Ihre Organisation derzeit nicht aktiviert. Bitte wenden Sie sich an uns, um diese Zahlungsmethode freizuschalten.",
+                "description": "Zahlung auf Rechnung ist für Ihre Organisation derzeit nicht aktiviert. Bitte kontaktieren Sie uns, um diese Zahlungsmethode freizuschalten.",
                 "prefilledSubject": "Antrag für Zahlung auf Rechnung",
                 "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
                 "emailAddress": "hello@supertext.com"
@@ -1258,14 +1258,10 @@
             "comparePlans": "Abos vergleichen",
             "numberOfLicenses": "Anzahl Lizenzen",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
-            "after": "nach",
             "nextPayment": "Nächste Zahlung",
-            "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
-            "cancelDowngradeLicenses": "Abbrechen",
             "monthly": "Monatlich",
             "yearly": "Jährlich",
             "billingPeriod": "Abrechnungszeitraum",
-
             "subscriptionPrices": "Preise der Abos",
             "change": "Ändern",
             "modal": {
@@ -1311,7 +1307,10 @@
             "missingPaymentMethod": {
               "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abonnement vornehmen.",
               "link": "Zahlungsmethode aktualisieren"
-            }
+            },
+            "after": "nach",
+            "downgradeLicenses": "Anstehende Reduktion Ihrer Anzahl Lizenzen",
+            "cancelDowngradeLicenses": "Abbrechen"
           },
           "authorisations": {
             "title": "Zugriffsberechtigungen",
@@ -2703,10 +2702,6 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer Relations"
             }
           ]
         }
@@ -3989,7 +3984,6 @@
   },
   "remove": "Entfernen",
   "translator": {
-    "MobileServicesCta": "Alle sprachservices entdecken",
     "sourcePlaceholderTitle": "Text zum Übersetzen hier einfügen",
     "sourcePlaceholderDescription": "Oder eine Datei zum Übersetzen in dieses Feld ziehen",
     "features": {
@@ -4040,7 +4034,8 @@
         }
       }
     },
-    "backToTool": "Zurück zum KI-Übersetzer"
+    "backToTool": "Zurück zum KI-Übersetzer",
+    "MobileServicesCta": "Alle Sprachservices entdecken"
   },
   "notSupported": "Nicht unterstützte Sprache"
 }

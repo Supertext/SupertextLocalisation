@@ -82,7 +82,7 @@
       "errors": {
         "unregistered": {
           "message": "Sie müssen eingeloggt sein",
-          "popover": "Sie können sich beim Free-Abo anmelden, um mit dem Übersetzen von Dateien zu beginnen."
+          "popover": "Melden Sie sich an, um Dateien zu übersetzen. Mit dem kostenlosen Free-Abo können Sie Word- und PowerPoint-Dateien bis maximal 5 MB übersetzen. Für größere Dateien und andere Formate wählen Sie eines unserer Bezahlabos."
         },
         "noRemainingFiles": {
           "message": "Keine Dateien mehr verfügbar",
@@ -359,7 +359,7 @@
     "errors": {
       "unregistered": {
         "message": "Sie müssen eingeloggt sein",
-        "popover": "Sie können sich beim Free-Abo anmelden, um mit dem Übersetzen von Dateien zu beginnen."
+        "popover": "Melden Sie sich an, um Dateien zu übersetzen. Mit dem kostenlosen Free-Abo können Sie Word- und PowerPoint-Dateien bis maximal 5 MB übersetzen. Für größere Dateien und andere Formate wählen Sie eines unserer Bezahlabos."
       },
       "noRemainingFiles": {
         "message": "Keine Dateien mehr verfügbar",
@@ -531,7 +531,10 @@
     "sv": "Schwedisch",
     "zh": "Chinesisch",
     "zh-Hans": "Chinesisch (vereinfacht)",
-    "zh-Hant": "Chinesisch (traditionell)"
+    "zh-Hant": "Chinesisch (traditionell)",
+    "el": "Griechisch",
+    "hr": "Kroatisch",
+    "tr": "Türkisch"
   },
   "languageVariants": {
     "de-AT": "AT",
@@ -619,7 +622,10 @@
     "sv": "von Schwedisch",
     "zh": "von Chinesisch",
     "zh-Hans": "von Chinesisch (vereinfacht)",
-    "zh-Hant": "von Chinesisch (traditionell)"
+    "zh-Hant": "von Chinesisch (traditionell)",
+    "el": "von Griechisch",
+    "hr": "von Kroatisch",
+    "tr": "von Türkisch"
   },
   "languagesTo": {
     "cs": "nach Tschechisch",
@@ -664,7 +670,10 @@
     "sv": "nach Schwedisch",
     "zh": "nach Chinesisch",
     "zh-Hans": "nach Chinesisch (vereinfacht)",
-    "zh-Hant": "nach Chinesisch (traditionell)"
+    "zh-Hant": "nach Chinesisch (traditionell)",
+    "el": "nach Griechisch",
+    "hr": "nach Kroatisch",
+    "tr": "nach Türkisch"
   },
   "authentication": {
     "authenticate": "Authentifizierung",
@@ -714,7 +723,14 @@
         "couldNotFetchTeamMembers": "Konnte die Teammitglieder nicht abrufen: {error}",
         "couldNotFetchTeamDetails": "Konnte die Teamdetails nicht abrufen: {error}",
         "couldNotFetchTeamId": "Konnte die Team-ID nicht abrufen: {error}",
-        "memberAlreadyInTeam": "Die eingeladene Person ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter hello@supertext.com an unseren Support, um die Person einem neuen Team zuweisen zu lassen."
+        "AlreadyInTeam": "Die eingeladene Person ist bereits Teil eines anderen Teams. Bitte wenden Sie sich unter <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a> an unseren Support, um die Person einem neuen Team zuweisen zu lassen.",
+        "LockedAccount": "Das Konto dieser Person ist aus Sicherheitsgründen gesperrt. Bitte wenden Sie sich unter <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a> an unseren Support, um das Problem zu beheben.",
+        "TeamInvitationSent": "Team-Einladung erfolgreich versendet.",
+        "AlreadyInvited": "Für diese Person wurde bereits eine Einladung gesendet. Bitte fordern Sie sie auf, die Einladung dort anzunehmen.",
+        "TeamWithSubscription": "Diese Person hat bereits ein aktives Supertext-Abo. Bitten Sie sie, das aktuelle Abo zu kündigen, bevor sie in Ihr Team eingeladen werden kann.",
+        "UserHasLicenseAssigned": "Diese Person hat bereits eine Lizenz für ein Supertext-Abo zugewiesen. Bitten Sie sie, die aktuelle Lizenz zuerst von einem Team-Admin entfernen zu lassen, bevor sie in Ihr Team eingeladen werden kann.",
+        "UserNotMemberOfTeamsCompany": "Die Person kann nicht in Ihr Team eingeladen werden, weil sie einer anderen Organisation zugeordnet ist. Bitte melden Sie sich bei <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a>, falls die Person stattdessen Ihrer Organisation zugeordnet werden soll.",
+        "TeamWithPaymentProvider": "Diese Person hat eine Kreditkarte in ihrem Profil hinterlegt. Bitten Sie sie, die Kreditkarte zu entfernen, bevor sie in Ihr Team eingeladen werden kann."
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abos ist ein Fehler aufgetreten.",
@@ -735,7 +751,10 @@
       "noDataReceived": "Keine Daten empfangen",
       "couldNotFetchVerificationJob": "Beim Abrufen des Profi-Checks ist etwas schiefgelaufen.",
       "somethingWentWrongWithPricing": "Bei der Preisschätzung ist etwas schiefgelaufen.",
-      "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler erneut auftritt."
+      "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler erneut auftritt.",
+      "downgradeSubscriptionsIndividual": {
+        "cancel": "Die anstehende Reduktion Ihrer Anzahl Lizenzen wurde aufgehoben."
+      }
     },
     "success": {
       "settings": {
@@ -949,9 +968,9 @@
         "contactSupertext": "Supertext kontaktieren",
         "otherPlans": "Abo ändern",
         "current": "Aktuelles Abo",
-        "upgrade": "Upgraden",
+        "upgrade": "Jetzt testen",
         "downgrade": "Herabstufen",
-        "recommended": "Empfohlen",
+        "recommended": "Beliebteste Option",
         "comparePlans": "Abos vergleichen",
         "showMore": "Mehr anzeigen",
         "cancellationInfo": "Sie haben Ihr Abo gekündigt. Es endet am",
@@ -1042,7 +1061,7 @@
         "firstMonthFree": "Erster Monat kostenlos",
         "cancelSubscriptionButton": "Abo herabstufen",
         "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}.",
-        "footerNote": "Sie haben <highlightText> große Ziele?</highlightText> Wir die <highlightText>passende Lösung</highlightText>.",
+        "footerNote": "Sie haben <highlightText> große Ziele?</highlightText> Wir die <highlightText>passende Lösung.</highlightText>",
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "accessRequested": "Zugang in Prüfung",
@@ -1180,9 +1199,14 @@
             "changePaymentMethodTooltip": {
               "invoiceDisabled": {
                 "linkText": "Kontaktieren Sie uns",
+                "description": "Zahlung auf Rechnung ist für Ihre Organisation derzeit nicht aktiviert. Bitte kontaktieren Sie uns, um diese Zahlungsmethode freizuschalten.",
                 "prefilledSubject": "Antrag für Zahlung auf Rechnung",
                 "prefilledBody": "Guten Tag,\n\nbitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
                 "emailAddress": "hello@supertext.com"
+              },
+              "invoiceRequiresBillingAddress": {
+                "description": "Um Rechnungen als Zahlungsmethode zu nutzen, fügen Sie bitte zunächst eine Rechnungsadresse hinzu.",
+                "linkText": "Rechnungsadresse hinzufügen"
               }
             }
           },
@@ -1234,7 +1258,6 @@
             "comparePlans": "Abos vergleichen",
             "numberOfLicenses": "Anzahl Lizenzen",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
-            "after": "nach",
             "nextPayment": "Nächste Zahlung",
             "monthly": "Monatlich",
             "yearly": "Jährlich",
@@ -1263,7 +1286,7 @@
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung ist sofort wirksam.",
-              "nextBillingChange": "Sie beantragen eine Herabstufung von {previousCount} auf {newCount} Lizenzen. Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
+              "nextBillingChange": "Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "removeLicensesError": {
@@ -1284,7 +1307,10 @@
             "missingPaymentMethod": {
               "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abonnement vornehmen.",
               "link": "Zahlungsmethode aktualisieren"
-            }
+            },
+            "after": "nach",
+            "downgradeLicenses": "Anstehende Reduktion Ihrer Anzahl Lizenzen",
+            "cancelDowngradeLicenses": "Abbrechen"
           },
           "authorisations": {
             "title": "Zugriffsberechtigungen",
@@ -1599,7 +1625,7 @@
             "5": {
               "title": "Fused Translation",
               "badge": "Bald verfügbar",
-              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen)"
+              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen)."
             },
             "6": {
               "title": "Word- und PowerPoint-Dateien"
@@ -1626,7 +1652,7 @@
             },
             "2": {
               "title": "20 Dateien pro Monat (bearbeitbar)",
-              "tooltip": "Es gilt eine Fair-Use-Richtlinie"
+              "tooltip": "Es gilt eine Fair-Use-Richtlinie."
             },
             "3": {
               "title": "10 MB maximale Dateigröße"
@@ -1983,7 +2009,7 @@
     "components": {
       "faq": {
         "title": "FAQ",
-        "help": "Sie wollen es genauer wissen? <link>Lassen Sie uns reden</link>",
+        "help": "Sie wollen es genauer wissen? <link>Lassen Sie uns reden.</link>",
         "cta": "Zu allen FAQ"
       }
     },
@@ -1994,7 +2020,7 @@
           "description": "Besser, schneller und sicherer übersetzen mit Fused Translation."
         },
         "lead": {
-          "large": "Mit KI übersetzen Sie <highlight>hunderte Wörter in Sekunden</highlight>. Aber wie gehen Sie sicher, dass <highlight>jedes davon sitzt</highlight>?",
+          "large": "Mit KI übersetzen Sie <highlight>hunderte Wörter in Sekunden.</highlight> Aber wie gehen Sie sicher, dass <highlight>jedes davon sitzt?</highlight>",
           "small": "Darum verbinden wir Language AI und erfahrene Übersetzer:innen an einem Ort. Für eine nahtlose Integration von künstlicher Intelligenz und menschlichem Können – mit Ihnen am Steuer. Bei Supertext trifft KI-Effizienz auf professionelle Expertise. Textsicherheit auf Datensicherheit. Supertext ist simpel, customized und lernfähig. Supertext ist All-in-one."
         },
         "featureList": {
@@ -2038,8 +2064,8 @@
               "title": "Für Einzel-User:innen",
               "sections": [
                 {
-                  "title": "AI Translation in 23 Sprachen",
-                  "description": "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
+                  "title": "KI-Übersetzung in 23 Sprachen",
+                  "description": "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
                   "cta": {
                     "title": "Jetzt ausprobieren",
                     "link": "/",
@@ -2071,7 +2097,7 @@
               "title": "Für Unternehmen",
               "sections": [
                 {
-                  "title": "Maßgeschneiderte AI Translation",
+                  "title": "Maßgeschneiderte KI-Übersetzung",
                   "description": "Your company, your voice. Mit zielgerichtetem Training integriert Supertext Ihre Stilvorgaben und Wordings in jede Übersetzung. Für eine reibungslose Kommunikation ohne Grenzen.",
                   "cta": {
                     "title": "Mehr erfahren",
@@ -2131,7 +2157,7 @@
           "cta": "Zu allen Cases"
         },
         "footerNote": {
-          "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo</highlight>.",
+          "text": "Vom einfachen <highlight>Online-Übersetzer</highlight> bis zur <highlight>vollintegrierten Custom-Lösung</highlight>: Finden Sie Ihr <highlight>passendes Abo.</highlight>",
           "cta": {
             "title": "Jetzt entdecken",
             "link": "/abos",
@@ -2146,7 +2172,7 @@
           "languageServices": {
             "items": [
               {
-                "title": "AI Translation & Verifizierung",
+                "title": "KI-Übersetzung mit Profi-Check",
                 "description": "Sicher sein – in Minuten statt Stunden. Mit unserem Profi-Check auf Knopfdruck.",
                 "cta": {
                   "title": "Mehr erfahren",
@@ -2243,7 +2269,7 @@
               {
                 "icon": "/images/pages/home/Supertext_Icon_Language_Experts_Light_Green.svg",
                 "title": "Fachübersetzungen durch erfahrene Expert:innen",
-                "description": "Ob Vertragstext oder Plakatkampagne: Unsere 3000 handverlesenen Sprachexpert:innen übersetzen noch präziser. Fachlich versiert, von InDesign bis Word und von Arabisch bis Zulu.",
+                "description": "Ob Vertragstext oder Plakatkampagne: Unsere 3000 handverlesenen Sprachexpert:innen übersetzen noch präziser. Fachlich versiert, von InDesign bis Word und von Arabisch bis Zulu.",
                 "cta": {
                   "variant": "primary",
                   "title": "Auftrag erstellen",
@@ -2335,7 +2361,7 @@
           }
         },
         "footerNote": {
-          "text": "Mit Supertext übersetzen Unternehmen <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0 % bis 100 % automatisiert.",
+          "text": "Mit Supertext übersetzen Unternehmen <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer.</highlight> Von 0 % bis 100 % automatisiert.",
           "cta": {
             "title": "Wollen wir reden?",
             "link": "/kontakt",
@@ -2355,7 +2381,7 @@
         },
         "lead": {
           "large": "<highlight>Vollautomatisch</highlight> oder <highlight>handgemacht?</highlight> Die Antwort liegt oft dazwischen.",
-          "small": "Mit AI Translation übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break> <break></break> Der große Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
+          "small": "Mit KI übersetzen Sie hunderte Wörter in Sekunden. Und mit unseren Expert:innen gehen Sie sicher, dass jedes davon sitzt. Bei Supertext buchen Sie den Support erfahrener Spezialist:innen mit wenigen Klicks als Add-on. Immer dann, wenn Kontextwissen in Ihrem Fachbereich und echte Leidenschaft gefragt sind. <break></break> <break></break> Der große Vorteil: Ihre KI lernt mit jedem Profi-Projekt dazu. Und passt sich dadurch laufend aktuell an Ihre Sprache an. Für eine reibungslose Kommunikation genau nach Ihren Vorgaben – und nachhaltig sinkende Kosten."
         },
         "featureList": {
           "title": "Supertext. Wer steckt drin?",
@@ -2519,7 +2545,7 @@
           "description": "Kontaktieren Sie das Supertext-Sales-Team"
         },
         "salesSection": {
-          "title": "Wir sind persönlich für Sie da – <highlight>in unter 60 Minuten</highlight>",
+          "title": "Wir sind persönlich für Sie da – <highlight>in&nbsp;unter 60&nbsp;Minuten</highlight>",
           "description": "Sie brauchen ein maßgeschneidertes Angebot? Oder interessieren sich für unsere Enterprise-Lösung? Füllen Sie das Formular aus und wir verbinden Sie in Rekordzeit mit der richtigen Ansprechperson.",
           "bulletPoints": {
             "point1": "Informationen dazu, wie Supertext Ihre globale Geschäftsexpansion unterstützen kann",
@@ -2676,10 +2702,6 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer Relations"
             }
           ]
         }
@@ -2693,7 +2715,7 @@
           "categoryTitle": "Nach Themen filtern"
         },
         "footerNote": {
-          "text": "Ihre Frage war <highlight>nicht dabei</highlight>? Dann nehmen Sie gerne <highlight>Kontakt</highlight> mit uns auf.",
+          "text": "Ihre Frage war <highlight>nicht dabei?</highlight> Dann nehmen Sie gerne <highlight>Kontakt</highlight> mit uns auf.",
           "cta": {
             "title": "Lassen Sie uns reden",
             "link": "/kontakt",
@@ -2715,7 +2737,7 @@
         },
         "footerNote": {
           "pretitle": "Wir sind für Sie da",
-          "text": "Sie haben ein spannendes <highlightText>Sprachprojekt</highlightText> in der Pipeline? Oder möchten Ihre bestehenden <highlightText>Prozesse</highlightText> mit uns <highlightText>evaluieren</highlightText>?",
+          "text": "Sie haben ein spannendes <highlightText>Sprachprojekt</highlightText> in der Pipeline? Oder möchten Ihre bestehenden <highlightText>Prozesse</highlightText> mit uns <highlightText>evaluieren?</highlightText>",
           "cta": {
             "title": "Lassen Sie uns reden",
             "link": "/kontakt",
@@ -2742,7 +2764,7 @@
           "description": "Wie wir aufgestellt sind. Wohin wir wollen. Und wie du Teil des Ganzen wirst."
         },
         "lead": {
-          "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie</highlight>. Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
+          "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie.</highlight> Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
           "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
           "cta": {
             "title": "Mehr zu unserer Vision",
@@ -2768,7 +2790,7 @@
               },
               {
                 "title": "Projektleitung",
-                "description": "Die flexible Drehscheibe für Großprojekte und persönliche Betreuung unserer Kund:innen. Sie stellen sicher, dass Anforderungen genau umgesetzt, Termine eingehalten und übersetzte Dateien in jedem Format perfekt formatiert sind."
+                "description": "Die flexible Drehscheibe für Großprojekte und die persönliche Betreuung unserer Kund:innen. Unsere Projektleiter:innen stellen sicher, dass Anforderungen genau umgesetzt, Termine eingehalten und übersetzte Dateien in jedem Format perfekt formatiert sind."
               },
               {
                 "title": "Sprachmanagement",
@@ -2781,7 +2803,7 @@
               },
               {
                 "title": "Vendor Management",
-                "description": "Die erste Anlaufstelle für unsere externen Sprachprofis. Sie sorgen für die Rekrutierung und Evaluation unserer Freelancer:innen und kümmern sich um Rückfragen zur Zusammenarbeit."
+                "description": "Die erste Anlaufstelle für unsere externen Sprachprofis. Das Vendor Management sorgt für die Rekrutierung und Evaluation unserer Freelancer:innen und kümmern sich um Rückfragen zur Zusammenarbeit."
               },
               {
                 "title": "Sales & Marketing",
@@ -2830,8 +2852,8 @@
           "description": "Unsere Mission: Wir sorgen für maximale Gewissheit in der Kommunikation."
         },
         "lead": {
-          "large": "AI-Tool oder Service-Agentur? Wir sind beides – und zusammen <highlight>viel mehr als das</highlight>.",
-          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom lernfähigen Online-Übersetzer bis zu ISO-zertifizierten Services für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
+          "large": "AI-Tool oder Service-Agentur? Wir sind beides – und zusammen <highlight>viel mehr als das.</highlight>",
+          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom&nbsp;lernfähigen Online-Übersetzer bis zu ISO-zertifizierten Services für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
           "cta": {
             "title": "Angebot entdecken",
             "link": "/warum-supertext"
@@ -2850,13 +2872,13 @@
               "title": "Rund 100 Inhouse-Spezialist:innen in Zürich und Berlin"
             },
             {
-              "title": "3000 handverlesene Sprachprofis rund um den Globus"
+              "title": "3000 handverlesene Sprachprofis rund um den Globus"
             },
             {
               "title": "113 Zielsprachen im Angebot"
             },
             {
-              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17001/18587)"
+              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17100/18587)"
             },
             {
               "title": "20 Jahre im Geschäft (seit 2005)"
@@ -2904,7 +2926,7 @@
           }
         ],
         "footerNote": {
-          "text": "Du möchtest <highlightText>Teil des Teams werden</highlightText>?",
+          "text": "Du möchtest <highlightText>Teil des Teams werden?</highlightText>",
           "cta": {
             "title": "Alles zur Karriere bei Supertext",
             "link": "/arbeiten-bei-supertext"
@@ -3035,7 +3057,7 @@
           ]
         },
         "footerNote": {
-          "text": "Unsere Expert:innen sind <highlight>bereit</highlight>. Und Sie?",
+          "text": "Unsere Expert:innen sind <highlight>bereit.</highlight> Und Sie?",
           "cta": {
             "title": "Jetzt ausprobieren",
             "link": "/",
@@ -3328,7 +3350,7 @@
           ]
         },
         "footerNote": {
-          "text": "Unsere Expert:innen sind <highlight>bereit</highlight>. Und Sie?",
+          "text": "Unsere Expert:innen sind <highlight>bereit.</highlight> Und Sie?",
           "cta": {
             "title": "Jetzt ausprobieren",
             "link": "/",
@@ -3537,7 +3559,7 @@
           }
         ],
         "footerNote": {
-          "text": "Mit Supertext übersetzen Sie <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0 % bis 100 % automatisiert.",
+          "text": "Mit Supertext übersetzen Sie <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer.</highlight> Von 0 % bis 100 % automatisiert.",
           "cta": {
             "title": "Zur Business-Lösung",
             "link": "/why-supertext",
@@ -3585,7 +3607,7 @@
               "title": "113 Zielsprachen im Angebot"
             },
             {
-              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17001/18587)"
+              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17100/18587)"
             },
             {
               "title": "1500 Kunden aus allen Branchen und jeder Größenordnung"
@@ -3713,7 +3735,7 @@
           }
         },
         "figuresPanel": {
-          "title": "7 GRÜNDE FÜR SUPERTEXT",
+          "title": "6 GRÜNDE FÜR SUPERTEXT",
           "items": [
             {
               "title": "Einzige Textagentur mit hauseigener Language AI und Sprachprofis an einem Ort"
@@ -3829,7 +3851,7 @@
       },
       "proofreading": {
         "hero": {
-          "title": "Lektorat, Korrektorat, Redaktion – der letzte Schliff",
+          "title": "Lektorat, Korrektorat, Redaktion – der&nbsp;letzte Schliff",
           "description": "Unser Korrekturservice sorgt für eine fehlerfreie Kommunikation und den richtigen Ton in jeder Sprache."
         },
         "lead": {
@@ -3864,7 +3886,7 @@
               "title": "Dreidimensionale Bewertung von Lektoratsdiensten durch Kund:in, Projektleitung und Sprachprofi"
             },
             {
-              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17001/18587)"
+              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17100/18587)"
             },
             {
               "title": "1500 Kunden aus allen Branchen und jeder Größenordnung"
@@ -4012,7 +4034,8 @@
         }
       }
     },
-    "backToTool": "Zurück zum KI-Übersetzer"
+    "backToTool": "Zurück zum KI-Übersetzer",
+    "MobileServicesCta": "Alle Sprachservices entdecken"
   },
   "notSupported": "Nicht unterstützte Sprache"
 }

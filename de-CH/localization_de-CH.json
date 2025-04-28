@@ -505,11 +505,9 @@
     "fr": "Französisch",
     "fr-CH": "Französisch (Schweiz)",
     "fr-FR": "Französisch (Frankreich)",
-    "el": "Griechisch",
     "gsw": "Schweizerdeutsch",
     "gsw-u-sd-chbe": "Schweizerdeutsch (Bern)",
     "gsw-u-sd-chzh": "Schweizerdeutsch (Zürich)",
-    "hr": "Kroatisch",
     "hu": "Ungarisch",
     "it": "Italienisch",
     "it-CH": "Italienisch (Schweiz)",
@@ -522,7 +520,6 @@
     "pt": "Portugiesisch",
     "pt-BR": "Portugiesisch (Brasilien)",
     "pt-PT": "Portugiesisch (Portugal)",
-    "tr": "Türkisch",
     "rm": "Rätoromanisch",
     "ru": "Russisch",
     "sk": "Slowakisch",
@@ -534,7 +531,10 @@
     "sv": "Schwedisch",
     "zh": "Chinesisch",
     "zh-Hans": "Chinesisch (vereinfacht)",
-    "zh-Hant": "Chinesisch (traditionell)"
+    "zh-Hant": "Chinesisch (traditionell)",
+    "el": "Griechisch",
+    "hr": "Kroatisch",
+    "tr": "Türkisch"
   },
   "languageVariants": {
     "de-AT": "AT",
@@ -596,11 +596,9 @@
     "fr": "von Französisch",
     "fr-CH": "von Französisch (Schweiz)",
     "fr-FR": "von Französisch (Frankreich)",
-    "el": "von Griechisch",
     "gsw": "von Schweizerdeutsch",
     "gsw-u-sd-chbe": "von Schweizerdeutsch (Bern)",
     "gsw-u-sd-chzh": "von Schweizerdeutsch (Zürich)",
-    "hr": "von Kroatisch",
     "hu": "von Ungarisch",
     "it": "von Italienisch",
     "it-CH": "von Italienisch (Schweiz)",
@@ -613,7 +611,6 @@
     "pt": "von Portugiesisch",
     "pt-BR": "von Portugiesisch (Brasilien)",
     "pt-PT": "von Portugiesisch (Portugal)",
-    "tr": "von Türkisch",
     "rm": "von Rätoromanisch",
     "ru": "von Russisch",
     "sk": "von Slowakisch",
@@ -625,7 +622,10 @@
     "sv": "von Schwedisch",
     "zh": "von Chinesisch",
     "zh-Hans": "von Chinesisch (vereinfacht)",
-    "zh-Hant": "von Chinesisch (traditionell)"
+    "zh-Hant": "von Chinesisch (traditionell)",
+    "el": "von Griechisch",
+    "hr": "von Kroatisch",
+    "tr": "von Türkisch"
   },
   "languagesTo": {
     "cs": "nach Tschechisch",
@@ -644,11 +644,9 @@
     "fr": "nach Französisch",
     "fr-CH": "nach Französisch (Schweiz)",
     "fr-FR": "nach Französisch (Frankreich)",
-    "el": "nach Griechisch",
     "gsw": "nach Schweizerdeutsch",
     "gsw-u-sd-chbe": "nach Schweizerdeutsch (Bern)",
     "gsw-u-sd-chzh": "nach Schweizerdeutsch (Zürich)",
-    "hr": "nach Kroatisch",
     "hu": "nach Ungarisch",
     "it": "nach Italienisch",
     "it-CH": "nach Italienisch (Schweiz)",
@@ -661,7 +659,6 @@
     "pt": "nach Portugiesisch",
     "pt-BR": "nach Portugiesisch (Brasilien)",
     "pt-PT": "nach Portugiesisch (Portugal)",
-    "tr": "nach Türkisch",
     "rm": "nach Rätoromanisch",
     "ru": "nach Russisch",
     "sk": "nach Slowakisch",
@@ -673,7 +670,10 @@
     "sv": "nach Schwedisch",
     "zh": "nach Chinesisch",
     "zh-Hans": "nach Chinesisch (vereinfacht)",
-    "zh-Hant": "nach Chinesisch (traditionell)"
+    "zh-Hant": "nach Chinesisch (traditionell)",
+    "el": "nach Griechisch",
+    "hr": "nach Kroatisch",
+    "tr": "nach Türkisch"
   },
   "authentication": {
     "authenticate": "Authentifizierung",
@@ -720,7 +720,6 @@
         "changeRole": "Beim Ändern der Rolle ist ein Fehler aufgetreten.",
         "editMember": "Beim Bearbeiten des Teammitglieds ist ein Fehler aufgetreten",
         "removeMember": "Beim Entfernen der Person aus dem Team ist ein Fehler aufgetreten",
-        "removeMemberBatch": "Beim Entfernen dir Mitgliedern aus dem Team ist ein Fehler aufgetreten",
         "couldNotFetchTeamMembers": "Konnte die Teammitglieder nicht abrufen: {error}",
         "couldNotFetchTeamDetails": "Konnte die Teamdetails nicht abrufen: {error}",
         "couldNotFetchTeamId": "Konnte die Team-ID nicht abrufen: {error}",
@@ -731,14 +730,12 @@
         "TeamWithSubscription": "Diese Person hat bereits ein aktives Supertext-Abo. Bitten Sie sie, das aktuelle Abo zu kündigen, bevor sie in Ihr Team eingeladen werden kann.",
         "UserHasLicenseAssigned": "Diese Person hat bereits eine Lizenz für ein Supertext-Abo zugewiesen. Bitten Sie sie, die aktuelle Lizenz zuerst von einem Team-Admin entfernen zu lassen, bevor sie in Ihr Team eingeladen werden kann.",
         "UserNotMemberOfTeamsCompany": "Die Person kann nicht in Ihr Team eingeladen werden, weil sie einer anderen Organisation zugeordnet ist. Bitte melden Sie sich bei <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a>, falls die Person stattdessen Ihrer Organisation zugeordnet werden soll.",
-        "TeamWithPaymentProvider": "Diese Person hat eine Kreditkarte in ihrem Profil hinterlegt. Bitten Sie sie, die Kreditkarte zu entfernen, bevor sie in Ihr Team eingeladen werden kann."
+        "TeamWithPaymentProvider": "Diese Person hat eine Kreditkarte in ihrem Profil hinterlegt. Bitten Sie sie, die Kreditkarte zu entfernen, bevor sie in Ihr Team eingeladen werden kann.",
+        "removeMemberBatch": "Beim Entfernen dir Mitgliedern aus dem Team ist ein Fehler aufgetreten"
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abos ist ein Fehler aufgetreten.",
         "update": "Beim Aktualisieren des Abos ist ein Fehler aufgetreten."
-      },
-      "downgradeSubscriptionsIndividual":{
-        "cancel": "Die Herabstufung von Lizenzen wurde aufgehoben"
       },
       "noDataFoundInLocalStorage": "Keine Daten in localStorage gefunden",
       "noItemsFound": "Kein Element mit ID {0} gefunden",
@@ -755,7 +752,10 @@
       "noDataReceived": "Keine Daten empfangen",
       "couldNotFetchVerificationJob": "Beim Abrufen des Verifizierungsauftrags ist etwas schiefgelaufen.",
       "somethingWentWrongWithPricing": "Bei der Preisschätzung ist etwas schiefgelaufen.",
-      "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler erneut auftritt."
+      "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler erneut auftritt.",
+      "downgradeSubscriptionsIndividual": {
+        "cancel": "Die Herabstufung von Lizenzen wurde aufgehoben"
+      }
     },
     "success": {
       "settings": {
@@ -1217,7 +1217,6 @@
             "userManagement": "User-Verwaltung",
             "addMember": "Mitglied hinzufügen",
             "editMember": "Mitglied bearbeiten",
-            "editSelectedMembers": "Ausgewählte Mitglieder bearbeiten",
             "removeMember": "Entfernen",
             "deleteMember": "Mitglied entfernen",
             "deleteMemberConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
@@ -1232,9 +1231,9 @@
             "actions": {
               "title": "Aktion",
               "editAll": "Alle bearbeiten",
+              "removeAll": "Alle entfernen",
               "editLicenseSelected": "Lizenz bearbeiten",
-              "editRoleSelected": "Rolle bearbeiten",
-              "removeAll": "Alle entfernen"
+              "editRoleSelected": "Rolle bearbeiten"
             },
             "increaseNumberOfLicenses": "Anzahl Lizenzen erhöhen",
             "selectLicense": "Lizenz auswählen",
@@ -1243,7 +1242,6 @@
               "teamAdmin": "Admin",
               "user": "Mitglied"
             },
-            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rolle von # Mitgliedern wurden}} erfolgreich aktualisiert",
             "roleChangeWarning": "Ein:e Admin hat Ihre Rolle geändert. Bitte loggen Sie sich aus und wieder ein, um Ihren Account zu aktualisieren.",
             "licenceAvailable": "{amount} verfügbar",
             "marketingPanel": {
@@ -1256,7 +1254,9 @@
               ],
               "viewTable": "Ihr Team ansehen"
             },
-            "paginationOf": "von"
+            "paginationOf": "von",
+            "editSelectedMembers": "Ausgewählte Mitglieder bearbeiten",
+            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rolle von # Mitgliedern wurden}} erfolgreich aktualisiert"
           },
           "subscription": {
             "title": "Team-Abo ändern",
@@ -1264,14 +1264,10 @@
             "comparePlans": "Abos vergleichen",
             "numberOfLicenses": "Anzahl Lizenzen",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
-            "after": "nach",
             "nextPayment": "Nächste Zahlung",
-            "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
-            "cancelDowngradeLicenses": "Abbrechen",
             "monthly": "Monatlich",
             "yearly": "Jährlich",
             "billingPeriod": "Abrechnungszeitraum",
-
             "subscriptionPrices": "Preise der Abos",
             "change": "Ändern",
             "modal": {
@@ -1317,7 +1313,10 @@
             "missingPaymentMethod": {
               "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abonnement vornehmen.",
               "link": "Zahlungsmethode aktualisieren"
-            }
+            },
+            "after": "nach",
+            "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
+            "cancelDowngradeLicenses": "Abbrechen"
           },
           "authorisations": {
             "title": "Zugriffsberechtigungen",
@@ -1347,13 +1346,13 @@
           }
         },
         "licenseTag": "User:in lizenzieren",
-        "licenseMultipleTag": "User lizenzieren",
-        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitglieder keine Lizenzen zuweisen. Es wurden {selectedCount} Benutzer ausgewählt, aber es sind  {licencesAvailable, plural, =0 {keine Lizenzen} =1 { nur 1 Lizenz} other {nur # Lizenzen}}  verfügbar.",
-        "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert",
         "currency": "Währung",
         "noLicense": "Free",
         "hasLicense": "Essential",
-        "emailPlaceholder": "beispiel@gmail.com"
+        "emailPlaceholder": "beispiel@gmail.com",
+        "licenseMultipleTag": "User lizenzieren",
+        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitglieder keine Lizenzen zuweisen. Es wurden {selectedCount} Benutzer ausgewählt, aber es sind  {licencesAvailable, plural, =0 {keine Lizenzen} =1 { nur 1 Lizenz} other {nur # Lizenzen}}  verfügbar.",
+        "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert"
       },
       "delivery": {
         "title": "Lieferung",
@@ -3998,7 +3997,6 @@
   },
   "remove": "Entfernen",
   "translator": {
-    "MobileServicesCta": "Alle sprachservices entdecken",
     "sourcePlaceholderTitle": "Text zum Übersetzen hier einfügen",
     "sourcePlaceholderDescription": "Oder eine Datei zum Übersetzen in dieses Feld ziehen",
     "features": {
@@ -4049,7 +4047,8 @@
         }
       }
     },
-    "backToTool": "Zurück zum KI-Übersetzer"
+    "backToTool": "Zurück zum KI-Übersetzer",
+    "MobileServicesCta": "Alle sprachservices entdecken"
   },
   "notSupported": "Nicht unterstützte Sprache"
 }

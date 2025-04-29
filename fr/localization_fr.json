@@ -730,8 +730,7 @@
         "TeamWithSubscription": "Cet utilisateur dispose d'un abonnement actif. Demandez-leur d’annuler leur abonnement avant de pouvoir être invités dans votre équipe.",
         "UserHasLicenseAssigned": "Vous ne pouvez inviter que des utilisateurs qui ne disposent pas d'une licence active. Demandez à leur administrateur de supprimer la licence de l'utilisateur.",
         "UserNotMemberOfTeamsCompany": "La personne ne peut pas être invitée dans votre équipe car elle est affectée à une autre entreprise. Veuillez contacter <a href=\"mailto:hello@supertext.com\"> hello@supertext.com </a> si vous souhaitez que la personne soit affectée à votre entreprise.",
-        "TeamWithPaymentProvider": "Cet utilisateur a une carte de crédit enregistrée dans son profil. Demandez-leur de retirer la carte de crédit avant de pouvoir être invités dans votre équipe.",
-        "removeMemberBatch": "Une erreur s'est produite lors de la suppression des membres de l'équipe"
+        "TeamWithPaymentProvider": "Cet utilisateur a une carte de crédit enregistrée dans son profil. Demandez-leur de retirer la carte de crédit avant de pouvoir être invités dans votre équipe."
       },
       "subscription": {
         "cancel": "Une erreur s’est produite lors de la résiliation de l’abonnement.",
@@ -769,8 +768,7 @@
         "addMember": "Utilisateur/-trice invité/-e dans l’équipe avec succès",
         "changeRole": "Rôle changé avec succès",
         "editMember": "Membre de l’équipe traité avec succès",
-        "removeMember": "Utilisateur/-trice supprimé/-e de l’équipe avec succès",
-        "removeMemberBatch": "{count, plural, =1 {1 membre de l'équipe a été} autre {# membres de l'équipe a été} supprimé avec succès de l'équipe"
+        "removeMember": "Utilisateur/-trice supprimé/-e de l’équipe avec succès"
       },
       "subscription": {
         "cancel": "Abonnement résilié avec succès",
@@ -1231,9 +1229,7 @@
             "actions": {
               "title": "Action",
               "editAll": "Tout modifier",
-              "removeAll": "Tout supprimer",
-              "editLicenseSelected": "Modifier la licence",
-              "editRoleSelected": "Modifier le rôle"
+              "removeAll": "Tout supprimer"
             },
             "increaseNumberOfLicenses": "Augmenter le nombre de licences",
             "selectLicense": "Sélectionner la licence",
@@ -1254,9 +1250,7 @@
               ],
               "viewTable": "Voir l’équipe"
             },
-            "paginationOf": "de",
-            "editSelectedMembers": "Modifier les membres sélectionnés",
-            "roleBatchUpdateSuccess": "{count, plural, =0 { Aucun rôle n'a été mis à jour } =1 { Le rôle d'un membre a été mis à jour } other { Le rôle de # membres a été mis à jour }} avec succès"
+            "paginationOf": "de"
           },
           "subscription": {
             "title": "Modifier l’abonnement de l’équipe",
@@ -1264,6 +1258,7 @@
             "comparePlans": "Comparer les abonnements",
             "numberOfLicenses": "Nombre de licences",
             "licencesCount": "{count, plural, one {# licence} other {# licences}}",
+            "after": "après",
             "nextPayment": "Prochain paiement",
             "monthly": "Mensuel",
             "yearly": "Annuel",
@@ -1292,7 +1287,7 @@
               "termsConfirmation": "Je confirme le changement d’abonnement ci-dessus et j’accepte les",
               "termsAndConditions": "conditions générales.",
               "immediateChange": "Cette modification prend effet immédiatement.",
-              "nextBillingChange": "Cette modification prend effet à partir de la prochaine période de facturation.",
+              "nextBillingChange": "Vous demandez un déclassement de {previousCount} à {newCount} licences. Cette modification prend effet à partir de la prochaine période de facturation.",
               "makePayment": "Passer une commande contraignante",
               "zeroPayableNowOnTrialPeriod": "Les licences supplémentaires sont gratuites pendant la période d’essai et seront facturées à la fin de celle-ci, dans la période de facturation suivante.",
               "removeLicensesError": {
@@ -1314,7 +1309,6 @@
               "message": "Veuillez mettre à jour votre mode de paiement avant d’apporter des modifications à votre abonnement.",
               "link": "Mettre à jour le mode de paiement"
             },
-            "after": "après",
             "downgradeLicenses": "Prochaine réduction du nombre de licences",
             "cancelDowngradeLicenses": "Annuler"
           },
@@ -1349,10 +1343,7 @@
         "currency": "Devise",
         "noLicense": "Free",
         "hasLicense": "Essential",
-        "emailPlaceholder": "exemple@gmail.com",
-        "licenseMultipleTag": "Utilisateurs de licence",
-        "licenseMultipleTagNoLicencesAvailable": "Vous ne pouvez pas attribuer de licences aux membres sélectionnés. {selectedCount} utilisateurs ont été sélectionnés, mais il y a {licencesAvailable, plural, =0 { aucune licence } =1 { seulement 1 licence } other { seulement # licences }} disponibles.",
-        "licenceMultipleSuccess": "{count, plural, =0 { Aucune licence n'a été mise à jour } =1 { La licence d'un membre a été mise à jour } other { Les licences de # membres ont été mises à jour }} avec succès"
+        "emailPlaceholder": "exemple@gmail.com"
       },
       "delivery": {
         "title": "Livraison",
@@ -2711,6 +2702,10 @@
             {
               "title": "Customer assistance",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Relations avec les freelances"
             }
           ]
         }

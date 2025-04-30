@@ -730,7 +730,8 @@
         "TeamWithSubscription": "Diese Person hat bereits ein aktives Supertext-Abo. Bitten Sie sie, das aktuelle Abo zu kündigen, bevor sie in Ihr Team eingeladen werden kann.",
         "UserHasLicenseAssigned": "Diese Person hat bereits eine Lizenz für ein Supertext-Abo zugewiesen. Bitten Sie sie, die aktuelle Lizenz zuerst von einem Team-Admin entfernen zu lassen, bevor sie in Ihr Team eingeladen werden kann.",
         "UserNotMemberOfTeamsCompany": "Die Person kann nicht in Ihr Team eingeladen werden, weil sie einer anderen Organisation zugeordnet ist. Bitte melden Sie sich bei <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a>, falls die Person stattdessen Ihrer Organisation zugeordnet werden soll.",
-        "TeamWithPaymentProvider": "Diese Person hat eine Kreditkarte in ihrem Profil hinterlegt. Bitten Sie sie, die Kreditkarte zu entfernen, bevor sie in Ihr Team eingeladen werden kann."
+        "TeamWithPaymentProvider": "Diese Person hat eine Kreditkarte in ihrem Profil hinterlegt. Bitten Sie sie, die Kreditkarte zu entfernen, bevor sie in Ihr Team eingeladen werden kann.",
+        "removeMemberBatch": "Beim Entfernen dir Mitgliedern aus dem Team ist ein Fehler aufgetreten"
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abos ist ein Fehler aufgetreten.",
@@ -768,7 +769,8 @@
         "addMember": "User:in erfolgreich zum Team eingeladen",
         "changeRole": "Rolle erfolgreich geändert",
         "editMember": "Teammitglied erfolgreich bearbeitet",
-        "removeMember": "User:in erfolgreich aus dem Team entfernt"
+        "removeMember": "User:in erfolgreich aus dem Team entfernt",
+        "removeMemberBatch": "{count, plural, =1 {1 Teammitglied wurde} other {# Teammitglieder wurde} erfolgreich aus dem Team entfernt"
       },
       "subscription": {
         "cancel": "Abo erfolgreich gekündigt",
@@ -1229,7 +1231,9 @@
             "actions": {
               "title": "Aktion",
               "editAll": "Alle bearbeiten",
-              "removeAll": "Aus Team entfernen"
+              "removeAll": "Account deaktivieren",
+              "editLicenseSelected": "Lizenz bearbeiten",
+              "editRoleSelected": "Rolle bearbeiten"
             },
             "increaseNumberOfLicenses": "Anzahl Lizenzen erhöhen",
             "selectLicense": "Lizenz auswählen",
@@ -1250,7 +1254,9 @@
               ],
               "viewTable": "Ihr Team ansehen"
             },
-            "paginationOf": "von"
+            "paginationOf": "von",
+            "editSelectedMembers": "Ausgewählte Mitglieder bearbeiten",
+            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rolle von # Mitgliedern wurden}} erfolgreich aktualisiert"
           },
           "subscription": {
             "title": "Team-Abo ändern",
@@ -1258,7 +1264,6 @@
             "comparePlans": "Abos vergleichen",
             "numberOfLicenses": "Anzahl Lizenzen",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
-            "after": "nach",
             "nextPayment": "Nächste Zahlung",
             "monthly": "Monatlich",
             "yearly": "Jährlich",
@@ -1287,7 +1292,7 @@
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung ist sofort wirksam.",
-              "nextBillingChange": "Sie beantragen eine Herabstufung von {previousCount} auf {newCount} Lizenzen. Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
+              "nextBillingChange": "Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "removeLicensesError": {
@@ -1309,7 +1314,7 @@
               "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abonnement vornehmen.",
               "link": "Zahlungsmethode aktualisieren"
             },
-
+            "after": "nach",
             "downgradeLicenses": "Anstehende Reduktion Ihrer Anzahl Lizenzen",
             "cancelDowngradeLicenses": "Abbrechen"
           },
@@ -1344,7 +1349,10 @@
         "currency": "Währung",
         "noLicense": "Free",
         "hasLicense": "Essential",
-        "emailPlaceholder": "beispiel@gmail.com"
+        "emailPlaceholder": "beispiel@gmail.com",
+        "licenseMultipleTag": "User lizenzieren",
+        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitglieder keine Lizenzen zuweisen. Es wurden {selectedCount} Benutzer ausgewählt, aber es sind  {licencesAvailable, plural, =0 {keine Lizenzen} =1 { nur 1 Lizenz} other {nur # Lizenzen}}  verfügbar.",
+        "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert"
       },
       "delivery": {
         "title": "Lieferung",
@@ -1584,7 +1592,11 @@
         "businessHoursInfo": "Geschäftszeiten"
       },
       "readMore": "Mehr erfahren",
-      "acceptedPaymentMethods": "Akzeptierte Zahlungsmittel"
+      "acceptedPaymentMethods": "Akzeptierte Zahlungsmittel",
+      "firstRunPopover": {
+        "title": "",
+        "description": ""
+      }
     },
     "couponCode": {
       "placeholder": "Rabattcode eingeben",
@@ -2703,10 +2715,6 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer Relations"
             }
           ]
         }

@@ -730,7 +730,8 @@
         "TeamWithSubscription": "Questo utente ha un abbonamento attivo. Chiedi loro di annullare l'abbonamento prima di poter essere invitati nel tuo team.",
         "UserHasLicenseAssigned": "Puoi invitare solo utenti che non dispongono di una licenza attiva. Chiedere all'amministratore di rimuovere la licenza dell'utente.",
         "UserNotMemberOfTeamsCompany": "La persona non può essere invitata nel tuo team perché è assegnata a un'altra azienda. Se preferisci che la persona venga assegnata alla tua azienda, contatta <a href=\"mailto:hello@supertext.com\"> hello@supertext.com </a>.",
-        "TeamWithPaymentProvider": "Questo utente ha una carta di credito salvata nel suo profilo. Chiedi loro di rimuovere la carta di credito prima di poter essere invitati nel tuo team."
+        "TeamWithPaymentProvider": "Questo utente ha una carta di credito salvata nel suo profilo. Chiedi loro di rimuovere la carta di credito prima di poter essere invitati nel tuo team.",
+        "removeMemberBatch": "Si è verificato un errore durante la rimozione dei membri dal team"
       },
       "subscription": {
         "cancel": "Si è verificato un errore durante la disdetta dell’abbonamento.",
@@ -768,7 +769,8 @@
         "addMember": "L’utente è stato invitato nel team",
         "changeRole": "Il ruolo è stato modificato",
         "editMember": "I dati del membro del team sono stati modificati",
-        "removeMember": "L’utente è stato rimosso dal team"
+        "removeMember": "L’utente è stato rimosso dal team",
+        "removeMemberBatch": "{count, plural, =1 {1 membro del team è stato} rimosso con successo dal team {# membri del team sono stati} rimossi con successo dal team"
       },
       "subscription": {
         "cancel": "L’abbonamento è stato disdetto",
@@ -1229,7 +1231,9 @@
             "actions": {
               "title": "Azione",
               "editAll": "Modifica tutti",
-              "removeAll": "Elimina tutti"
+              "removeAll": "Elimina tutti",
+              "editLicenseSelected": "Modifica licenza",
+              "editRoleSelected": "Modifica ruolo"
             },
             "increaseNumberOfLicenses": "Aumentare il numero di licenze",
             "selectLicense": "Selezionare la licenza",
@@ -1250,7 +1254,9 @@
               ],
               "viewTable": "Visualizza il team"
             },
-            "paginationOf": "di"
+            "paginationOf": "di",
+            "editSelectedMembers": "Modifica i membri selezionati",
+            "roleBatchUpdateSuccess": "{count, plural, =0 { Nessun ruolo è stato aggiornato } =1 { Il ruolo di 1 membro è stato aggiornato } other { Il ruolo di # membri è stato aggiornato }} con successo"
           },
           "subscription": {
             "title": "Modifica l’abbonamento",
@@ -1258,7 +1264,6 @@
             "comparePlans": "Confronto tra gli abbonamenti",
             "numberOfLicenses": "Numero di licenze",
             "licencesCount": "{count, plural, one {# licenza} other {# licenze}}",
-            "after": "dopo",
             "nextPayment": "Prossimo pagamento",
             "monthly": "Mensile",
             "yearly": "Annuale",
@@ -1287,7 +1292,7 @@
               "termsConfirmation": "Confermo la modifica dell’abbonamento sopraindicata e accetto le",
               "termsAndConditions": "condizioni generali di contratto.",
               "immediateChange": "La presente modifica ha effetto immediato.",
-              "nextBillingChange": "Si richiede il downgrade da {previousCount} a {newCount} delle licenze. Questa modifica verrà applicata a partire dal prossimo periodo di fatturazione.",
+              "nextBillingChange": "Questa modifica verrà applicata a partire dal prossimo periodo di fatturazione.",
               "makePayment": "Ordina in modo vincolante",
               "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e verranno addebitate al termine di tale fase nel periodo di fatturazione successivo.",
               "removeLicensesError": {
@@ -1309,6 +1314,7 @@
               "message": "Si prega di aggiornare il metodo di pagamento prima di apportare modifiche all'abbonamento.",
               "link": "Aggiornare il metodo di pagamento"
             },
+            "after": "Dopo",
             "downgradeLicenses": "Prossima riduzione del numero di licenze",
             "cancelDowngradeLicenses": "Cancellare"
           },
@@ -1343,7 +1349,10 @@
         "currency": "Valuta",
         "noLicense": "Free",
         "hasLicense": "Essential",
-        "emailPlaceholder": "esempio@gmail.com"
+        "emailPlaceholder": "esempio@gmail.com",
+        "licenseMultipleTag": "Utenti con licenza",
+        "licenseMultipleTagNoLicencesAvailable": "Non è possibile assegnare licenze ai membri selezionati. Sono stati selezionati {selectedCount} utenti, ma sono disponibili {licencesAvailable, plural, =0 { nessuna licenza } =1 { solo 1 licenza } other { solo # licenze }}.",
+        "licenceMultipleSuccess": "{count, plural, =0 { Nessuna licenza è stata aggiornata } =1 { La licenza di 1 membro è stata aggiornata } other { Le licenze di # membri sono state aggiornate }} con successo"
       },
       "delivery": {
         "title": "Consegna",
@@ -1583,7 +1592,11 @@
         "businessHoursInfo": "Orari d’ufficio"
       },
       "readMore": "Scopri di più",
-      "acceptedPaymentMethods": "Metodi di pagamento accettati"
+      "acceptedPaymentMethods": "Metodi di pagamento accettati",
+      "firstRunPopover": {
+        "title": "",
+        "description": ""
+      }
     },
     "couponCode": {
       "placeholder": "Inserire codice sconto",
@@ -2361,9 +2374,9 @@
           }
         },
         "footerNote": {
-          "text": "Supertext offre alle aziende traduzioni <highlight>migliori, più rapide,</highlight> più convenienti e <highlight>più sicure.</highlight> Il tutto automatizzato dallo 0 al 100%.",
+          "text": "Supertext offre alle aziende traduzioni <highlight>migliori, più rapide, più convenienti</highlight> e <highlight>più sicure.</highlight> Il tutto automatizzato dallo 0 al 100%.",
           "cta": {
-            "title": "Vogliamo parlarne?",
+            "title": "Parliamone",
             "link": "/contatto",
             "target": "_blank"
           }
@@ -2702,10 +2715,6 @@
             {
               "title": "Assistenza clienti",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Relazioni con i freelance"
             }
           ]
         }
@@ -3855,7 +3864,7 @@
       },
       "proofreading": {
         "hero": {
-          "title": "Revisione, correzione, redazione: il tocco finale",
+          "title": "Revisione, correzione, riscrittura: il tocco finale",
           "description": "Il nostro servizio di correzione garantisce una comunicazione priva di errori e un tone of voice adeguato in ogni lingua."
         },
         "lead": {
@@ -3866,7 +3875,7 @@
             "other": ""
           },
           "cta": {
-            "title": "Iniziare un progetto",
+            "title": "Inizia un progetto",
             "link": "/ordina/revisionare"
           },
           "cta2": {
@@ -3902,20 +3911,20 @@
         },
         "features": {
           "eyebrowHeadline": "OFFERTA",
-          "title": "Il servizio di correzione più pignolo al mondo per ogni tipo di contenuto",
+          "title": "Il servizio di correzione più meticoloso al mondo per ogni tipo di contenuto",
           "groups": {
             "group1": [
               {
                 "title": "Correzione e visto si stampi per la stampa e il web",
-                "description": "Il classico servizio di correzione per garantire la massima precisione. Verifichiamo l’ortografia, la grammatica e la punteggiatura. Offriamo la correzione semplice e doppia, ma sempre all’insegna della pignoleria e della rapidità. ",
+                "description": "Il classico servizio di correzione per garantire la massima precisione. Verifichiamo l’ortografia, la grammatica e la punteggiatura. Offriamo la correzione semplice e doppia, ma sempre all’insegna della meticolosità e della rapidità.",
                 "cta1": {
                   "title": "Inizia un progetto",
                   "link": "/ordinare/revisionare"
                 }
               },
               {
-                "title": "Revisione e redazione di testi",
-                "description": "I vostri servizi per contenuti stilisticamente impeccabili. Dall’arabo allo zulu, dai blogpost alle saghe epiche, con inclusi gli adattamenti a livello di stile (revisione), struttura e tono (redazione) da parte di autori e giornalisti selezionati.",
+                "title": "Revisione e riscrittura di testi",
+                "description": "I vostri servizi per contenuti stilisticamente impeccabili. Dall’arabo allo zulu, dai blogpost alle saghe epiche, con inclusi gli adattamenti a livello di stile (revisione), struttura e tono (riscrittura) da parte di autori e giornalisti selezionati.",
                 "cta1": {
                   "title": "Inizia un progetto",
                   "link": "/ordinare/revisionare"
@@ -3933,7 +3942,7 @@
             "group2": [
               {
                 "title": "Ottimizzazione di testi IA",
-                "description": "L’autore del vostro testo è ChatGPT, Jasper o Neuroflash? Miglioriamo ogni output generato automaticamente conferendogli una struttura più chiara, una logica più coerente e sottoponendolo a un controllo dei fatti. Per un maggiore impatto e la massima Brand Safety .",
+                "description": "L’autore del vostro testo è ChatGPT, Jasper o Neuroflash? Miglioriamo ogni output generato automaticamente conferendogli una struttura più chiara, una logica più coerente e sottoponendolo a un controllo dei fatti. Per un maggiore impatto e la massima Brand Safety.",
                 "cta1": {
                   "title": "Inizia un progetto",
                   "link": "/ordinare/revisionare"

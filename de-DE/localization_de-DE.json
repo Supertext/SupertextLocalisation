@@ -990,7 +990,6 @@
         "reactivateSubscription": "Reaktivieren",
         "cancelSubscription": "Gecancelt",
         "expiresOn": "Läuft ab am",
-        "startsOn": "Started am",
         "moreInfo": "Details ansehen",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
@@ -2716,6 +2715,10 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Freelancer Relations"
             }
           ]
         }
@@ -3697,7 +3700,7 @@
                 "description": "Ihre offiziellen Dokumente – gültig für jeden Sprachraum. Wir erstellen rechtskräftige Übersetzungen für den nationalen und internationalen Einsatz, von der Absichtserklärung bis zum Patent. Und organisieren wo notwendig gleich die Apostille für Sie.",
                 "cta1": {
                   "title": "Kontakt aufnehmen",
-                  "link": "/bestellen/uebersetzen?customOrderStyleName=common"
+                  "link": "/kontakt"
                 }
               },
               {

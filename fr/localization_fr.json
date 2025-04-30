@@ -990,7 +990,6 @@
         "reactivateSubscription": "Réactiver",
         "cancelSubscription": "Annulé",
         "expiresOn": "Se termine le",
-        "startsOn": "Starts on",
         "moreInfo": "Voir les détails",
         "hero": {
           "title": "Trouvez l’abonnement Supertext qui vous convient.",
@@ -2716,6 +2715,10 @@
             {
               "title": "Customer assistance",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Relations avec les freelances"
             }
           ]
         }
@@ -3697,7 +3700,7 @@
                 "description": "Vos documents officiels – valables pour toutes les régions linguistiques. Nous réalisons des traductions juridiquement contraignantes pour une utilisation nationale et internationale, des lettres d’intention aux brevets. Et si nécessaire, nous organisons l’apostille pour vous.",
                 "cta1": {
                   "title": "Contact",
-                  "link": "/commande/traduction"
+                  "link": "/contact"
                 }
               },
               {

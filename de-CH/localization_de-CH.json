@@ -161,7 +161,7 @@
       }
     },
     "languageMenu": {
-      "cta": "Plus 18 weitere Sprachen in unserer Business-Lösung",
+      "cta": "Plus 18 weitere Sprachen in unserer Enterprise-Lösung",
       "href": "/business/de/features"
     },
     "NpsSurveyPopup": {
@@ -990,7 +990,6 @@
         "reactivateSubscription": "Reaktivieren",
         "cancelSubscription": "Gecancelt",
         "expiresOn": "Läuft ab am",
-        "startsOn": "Started am",
         "moreInfo": "Details ansehen",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
@@ -2330,7 +2329,7 @@
               {
                 "icon": "/images/pages/home/Supertext_Icon_Datensicherheit_Light_Green.svg",
                 "title": "Datensicherheit genau nach Ihren Vorgaben",
-                "description": "Von Private Cloud oder On-Premises-Hosting bis Single Sign-on (SSO): In unserer Business-Lösung gestalten Sie die Security-Massnahmen flexibel mit. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
+                "description": "Von Private Cloud oder On-Premises-Hosting bis Single Sign-on (SSO): In unserer Enterprise-Lösung gestalten Sie die Security-Massnahmen flexibel mit. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
@@ -2716,6 +2715,10 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Freelancer Relations"
             }
           ]
         }
@@ -2892,7 +2895,7 @@
               "title": "113 Zielsprachen im Angebot"
             },
             {
-              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17001/18587)"
+              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17100/18587)"
             },
             {
               "title": "20 Jahre im Geschäft (seit 2005)"
@@ -3575,7 +3578,7 @@
         "footerNote": {
           "text": "Mit Supertext übersetzen Sie <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer</highlight>. Von 0 % bis 100 % automatisiert.",
           "cta": {
-            "title": "Zur Business-Lösung",
+            "title": "Zur Enterprise-Lösung",
             "link": "/why-supertext",
             "target": "_blank"
           }
@@ -3621,7 +3624,7 @@
               "title": "113 Zielsprachen im Angebot"
             },
             {
-              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17001/18587)"
+              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17100/18587)"
             },
             {
               "title": "1500 Kunden aus allen Branchen und jeder Grössenordnung"
@@ -3697,7 +3700,7 @@
                 "description": "Ihre offiziellen Dokumente – gültig für jeden Sprachraum. Wir erstellen rechtskräftige Übersetzungen für den nationalen und internationalen Einsatz, von der Absichtserklärung bis zum Patent. Und organisieren wo notwendig gleich die Apostille für Sie.",
                 "cta1": {
                   "title": "Kontakt aufnehmen",
-                  "link": "/bestellen/uebersetzen?customOrderStyleName=common"
+                  "link": "/kontakt"
                 }
               },
               {
@@ -3900,7 +3903,7 @@
               "title": "Dreidimensionale Bewertung von Lektoratsdiensten durch Kunden, Projektleitung und Sprachprofi"
             },
             {
-              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17001/18587)"
+              "title": "4 ISO-Zertifizierungen für Datensicherheit (ISO 27001), Qualitätsmanagement (ISO 9001) und Übersetzungsqualität (ISO 17100/18587)"
             },
             {
               "title": "1500 Kunden aus allen Branchen und jeder Grössenordnung"

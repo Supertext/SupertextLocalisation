@@ -990,6 +990,7 @@
         "reactivateSubscription": "Riattiva",
         "cancelSubscription": "Disdetto",
         "expiresOn": "Scade in data",
+        "startsOn": "Starts on",
         "moreInfo": "Visualizza dettagli",
         "hero": {
           "title": "Trovate l’abbonamento Supertext che fa per voi",
@@ -2715,10 +2716,6 @@
             {
               "title": "Assistenza clienti",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Relazioni con i freelance"
             }
           ]
         }
@@ -3700,7 +3697,7 @@
                 "description": "I vostri documenti ufficiali con validità legale in ogni lingua. Forniamo traduzioni giuridicamente valide per l’uso nazionale e internazionale, dalla dichiarazione d’intenti alla domanda di brevetto. Inoltre, se necessario, ci occupiamo per voi anche della postilla.",
                 "cta1": {
                   "title": "Contattaci",
-                  "link": "/contatto"
+                  "link": "/ordinare/tradurre?customOrderStyleName=common"
                 }
               },
               {

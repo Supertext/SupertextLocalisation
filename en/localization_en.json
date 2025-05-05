@@ -990,6 +990,7 @@
         "reactivateSubscription": "Reactivate",
         "cancelSubscription": "Cancelled",
         "expiresOn": "Expires on",
+        "startsOn": "Starts on",
         "moreInfo": "View details",
         "hero": {
           "title": "Find your perfect Supertext subscription",
@@ -2715,10 +2716,6 @@
             {
               "title": "Customer support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer relations"
             }
           ]
         }
@@ -3618,7 +3615,7 @@
               "title": "3,000+ handpicked, certified language professionals around the globe"
             },
             {
-              "title": "Around 100 in-house specialists in Zurich and Berlin"
+              "title": "100 in-house specialists in Zurich and Berlin"
             },
             {
               "title": "113 target languages available"
@@ -3700,7 +3697,7 @@
                 "description": "Your official documents – valid for every language area. We create legally binding translations for national and international use, from declarations of intent to patents. Where necessary, we can also arrange an apostille for you.",
                 "cta1": {
                   "title": "Get in touch",
-                  "link": "/contact"
+                  "link": "/order/translation"
                 }
               },
               {
@@ -3727,7 +3724,7 @@
           }
         },
         "cases": {
-          "title": "Our 20-year mission: to help our clients communicate with confidence."
+          "title": "Our 20-year mission: to guarantee certainty in our clients’ communications."
         }
       },
       "copywriting": {
@@ -3761,7 +3758,7 @@
               "title": "Work carried out by exclusive professional copywriters, authors and journalists"
             },
             {
-              "title": "Around 100 in-house specialists in Zurich and Berlin"
+              "title": "100 in-house specialists in Zurich and Berlin"
             },
             {
               "title": "Always included: support from a personal project manager and, where necessary, one round of revisions"
@@ -3869,7 +3866,7 @@
       "proofreading": {
         "hero": {
           "title": "Proofreading, editing, rewriting – the finishing touch",
-          "description": "Our editing services guarantee error-free communication and the right tone in every language."
+          "description": "Our proofreading services guarantee error-free communication and the right tone in every language."
         },
         "lead": {
           "large": "From editing manuscripts and proofreading annual reports to optimising AI-generated texts, our work always adds value. Meticulous, flawless and true to your own unique style.",
@@ -3897,7 +3894,7 @@
               "title": "Work carried out exclusively by qualified proofreaders and editors tested by Supertext"
             },
             {
-              "title": "Around 100 in-house specialists in Zurich and Berlin"
+              "title": "100 in-house specialists in Zurich and Berlin"
             },
             {
               "title": "All editing services rated three times: by the client, project manager and linguist"

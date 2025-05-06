@@ -723,15 +723,15 @@
         "couldNotFetchTeamMembers": "Impossible de charger les membres de l’équipe: {error}",
         "couldNotFetchTeamDetails": "Impossible de charger les informations de l’équipe: {error}",
         "couldNotFetchTeamId": "Impossible de charger l’ID de l’équipe: {error}",
-        "AlreadyInTeam": "La personne invitée fait déjà partie d’une autre équipe. Veuillez contacter notre équipe d'assistance à hello@supertext.com pour que la personne soit affectée à une nouvelle équipe.",
-        "LockedAccount": "Le compte est verrouillé pour des raisons de sécurité. Veuillez contacter votre chef de projet Supertext.",
-        "TeamInvitationSent": "L'invitation de l'équipe a été envoyée avec succès.",
-        "AlreadyInvited": "Une invitation a déjà été envoyée pour cette personne. S'il vous plaît, demandez-leur d'accepter l'invitation là-bas.",
-        "TeamWithSubscription": "Cet utilisateur dispose d'un abonnement actif. Demandez-leur d’annuler leur abonnement avant de pouvoir être invités dans votre équipe.",
-        "UserHasLicenseAssigned": "Vous ne pouvez inviter que des utilisateurs qui ne disposent pas d'une licence active. Demandez à leur administrateur de supprimer la licence de l'utilisateur.",
+        "AlreadyInTeam": "La personne invitée fait déjà partie d’une autre équipe. Veuillez contacter notre équipe d’assistance à <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a> pour que la personne soit affectée à une nouvelle équipe.",
+        "LockedAccount": "Le compte de cette personne est verrouillé pour des raisons de sécurité. Veuillez contacter notre équipe d’assistance à <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a> pour résoudre le problème.",
+        "TeamInvitationSent": "L’invitation d’équipe a été envoyée avec succès.",
+        "AlreadyInvited": "Une invitation a déjà été envoyée à cette personne. Veuillez lui demander d’accepter l’invitation reçue.",
+        "TeamWithSubscription": "Cette personne dispose d’un abonnement actif. Demandez-lui d’annuler son abonnement afin de pouvoir être invitée dans votre équipe.",
+        "UserHasLicenseAssigned": "Cette personne dispose d’une licence pour un abonnement Supertext. Demandez-lui d’annuler sa licence afin qu’elle puisse être invitée dans votre équipe.",
         "UserNotMemberOfTeamsCompany": "La personne ne peut pas être invitée dans votre équipe car elle est affectée à une autre entreprise. Veuillez contacter <a href=\"mailto:hello@supertext.com\"> hello@supertext.com </a> si vous souhaitez que la personne soit affectée à votre entreprise.",
-        "TeamWithPaymentProvider": "Cet utilisateur a une carte de crédit enregistrée dans son profil. Demandez-leur de retirer la carte de crédit avant de pouvoir être invités dans votre équipe.",
-        "removeMemberBatch": "Une erreur s'est produite lors de la suppression des membres de l'équipe"
+        "TeamWithPaymentProvider": "Cette personne a une carte de crédit enregistrée dans son profil. Veuillez lui demander de retirer la carte de crédit afin qu’elle puisse être invitée dans votre équipe.",
+        "removeMemberBatch": "Une erreur s’est produite lors de la suppression des membres de l’équipe"
       },
       "subscription": {
         "cancel": "Une erreur s’est produite lors de la résiliation de l’abonnement.",
@@ -770,7 +770,7 @@
         "changeRole": "Rôle changé avec succès",
         "editMember": "Membre de l’équipe traité avec succès",
         "removeMember": "Utilisateur/-trice supprimé/-e de l’équipe avec succès",
-        "removeMemberBatch": "{count, plural, =1 {1 membre de l'équipe a été} autre {# membres de l'équipe a été} supprimé avec succès de l'équipe"
+        "removeMemberBatch": "{count, plural, =1 {1 membre de l’équipe a été} autre {# membres de l’équipe ont été} supprimé avec succès de l’quipe"
       },
       "subscription": {
         "cancel": "Abonnement résilié avec succès",
@@ -928,7 +928,7 @@
             "delivered": "Terminées",
             "inProgress": "En cours",
             "onHold": "En suspens",
-            "collected": "Récupéré"
+            "collected": "Récupérées"
           }
         },
         "customFeatures": {
@@ -990,7 +990,6 @@
         "reactivateSubscription": "Réactiver",
         "cancelSubscription": "Annulé",
         "expiresOn": "Se termine le",
-        "startsOn": "Starts on",
         "moreInfo": "Voir les détails",
         "hero": {
           "title": "Trouvez l’abonnement Supertext qui vous convient.",
@@ -1086,7 +1085,7 @@
         "licenseValidation": "La licence doit contenir au moins deux caractères.",
         "comment": "Description (facultatif)",
         "commentValidation": "La description doit contenir au moins deux caractères.",
-        "company": "Entreprise/ organisation",
+        "company": "Entreprise/organisation",
         "name": "Nom",
         "changeName": "Modifier le nom",
         "nameValidation": "La description doit contenir au moins deux caractères.",
@@ -1203,12 +1202,12 @@
               "invoiceDisabled": {
                 "linkText": "Contactez-nous",
                 "description": "Les paiements de factures ne sont actuellement pas activés pour votre organisation. Veuillez nous contacter pour activer ce mode de paiement.",
-                "prefilledSubject": "Demande de paiement d'acompte",
+                "prefilledSubject": "Demande de paiement sur facture",
                 "prefilledBody": "Bonjour \n \nVeuillez activer le paiement par facture pour mon compte Supertext.",
                 "emailAddress": "hello@supertext.com"
               },
               "invoiceRequiresBillingAddress": {
-                "description": "Pour utiliser les factures comme mode de paiement, veuillez d'abord ajouter une adresse de facturation.",
+                "description": "Pour utiliser les factures comme mode de paiement, veuillez d’abord ajouter une adresse de facturation.",
                 "linkText": "Ajouter une adresse de facturation"
               }
             }
@@ -1217,7 +1216,7 @@
             "title": "Équipe",
             "userManagement": "Gestion des utilisateurs/-trices",
             "addMember": "Ajouter un membre",
-            "editMember": "Modifier utilisateur-trice",
+            "editMember": "Modifier membre",
             "removeMember": "Supprimer",
             "deleteMember": "Supprimer un membre",
             "deleteMemberConfirmation": "Êtes-vous sûr/-e? Vous ne pourrez pas annuler cette action.",
@@ -1232,7 +1231,7 @@
             "actions": {
               "title": "Action",
               "editAll": "Tout modifier",
-              "removeAll": "Tout supprimer",
+              "removeAll": "Désactiver le compte",
               "editLicenseSelected": "Modifier la licence",
               "editRoleSelected": "Modifier le rôle"
             },
@@ -1257,7 +1256,7 @@
             },
             "paginationOf": "de",
             "editSelectedMembers": "Modifier les membres sélectionnés",
-            "roleBatchUpdateSuccess": "{count, plural, =0 { Aucun rôle n'a été mis à jour } =1 { Le rôle d'un membre a été mis à jour } other { Le rôle de # membres a été mis à jour }} avec succès"
+            "roleBatchUpdateSuccess": "{count, plural, =0 { Aucun rôle n’a été mis à jour } =1 { Le rôle d’un membre a été mis à jour } other { Le rôle de # membres a été mis à jour }} avec succès"
           },
           "subscription": {
             "title": "Modifier l’abonnement de l’équipe",
@@ -1316,7 +1315,7 @@
               "link": "Mettre à jour le mode de paiement"
             },
             "after": "après",
-            "downgradeLicenses": "Prochaine réduction du nombre de licences",
+            "downgradeLicenses": "Prochain déclassement de licences",
             "cancelDowngradeLicenses": "Annuler"
           },
           "authorisations": {
@@ -1351,9 +1350,9 @@
         "noLicense": "Free",
         "hasLicense": "Essential",
         "emailPlaceholder": "exemple@gmail.com",
-        "licenseMultipleTag": "Utilisateurs de licence",
-        "licenseMultipleTagNoLicencesAvailable": "Vous ne pouvez pas attribuer de licences aux membres sélectionnés. {selectedCount} utilisateurs ont été sélectionnés, mais il y a {licencesAvailable, plural, =0 { aucune licence } =1 { seulement 1 licence } other { seulement # licences }} disponibles.",
-        "licenceMultipleSuccess": "{count, plural, =0 { Aucune licence n'a été mise à jour } =1 { La licence d'un membre a été mise à jour } other { Les licences de # membres ont été mises à jour }} avec succès"
+        "licenseMultipleTag": "Licence utilisateur/-trice",
+        "licenseMultipleTagNoLicencesAvailable": "Vous ne pouvez pas attribuer de licences aux membres sélectionnés. {selectedCount} utilisateurs/-trices ont été sélectionnés/-ees, mais il y a {licencesAvailable, plural, =0 { aucune licence } =1 { seulement 1 licence } other { seulement # licences }} disponible(s).",
+        "licenceMultipleSuccess": "{count, plural, =0 { Aucune licence n’a été mise à jour } =1 { La licence d’un membre a été mise à jour } other { Les licences de # membres ont été mises à jour }} avec succès"
       },
       "delivery": {
         "title": "Livraison",
@@ -1403,7 +1402,7 @@
       "contact": "Contact",
       "newsletter": "Newsletter",
       "newsletterDescription": "Pour toutes celles et tous ceux qui aiment les langues, la technologie et la créativité.",
-      "newsletterDisclaimer": "En vous inscrivant, vous acceptez notre déclaration de confidentialité et autorisez Supertext à vous envoyer des mises à jour.",
+      "newsletterDisclaimer": "En vous inscrivant, vous acceptez notre déclaration protection des données et autorisez Supertext à vous envoyer des mises à jour.",
       "yourEmail": "Votre adresse e-mail",
       "freelancerRegistration": "S’inscrire en tant que freelance",
       "servicesTitle": "SERVICES",
@@ -1595,8 +1594,8 @@
       "readMore": "En savoir plus",
       "acceptedPaymentMethods": "Moyens de paiement acceptés",
       "firstRunPopover": {
-        "title": "",
-        "description": ""
+        "title": "<highlightText>NOUVEAU</highlightText>Vérification professionnelle en quelques minutes",
+        "description": "Faites immédiatement vérifier vos traductions importantes par nos spécialistes. Vous recevrez une traduction garantie correcte."
       }
     },
     "couponCode": {
@@ -2035,7 +2034,7 @@
         },
         "lead": {
           "large": "Grâce à l'IA, vous traduisez <highlight>des centaines de mots en quelques secondes à peine.</highlight> Mais comment vous assurer que <highlight>chaque mot est à sa place?</highlight>",
-          "small": "C’est pour cela que nous combinons IA linguistique et traducteurs/-trices expérimentés/-ées au même endroit. Pour une intégration parfaite de l’intelligence artificielle et du savoir-faire humain – avec vous aux commandes. Chez Supertext, l’efficacité de l'IA rencontre l’expertise professionnelle. Sécurité des textes et des données. Supertext est simple, personnalisable et capable d’apprendre. Supertext est tout-en-un."
+          "small": "C’est pour cela que nous combinons IA linguistique et traducteurs/-trices expérimentés/-ées au même endroit. Pour une intégration parfaite de l’intelligence artificielle et du savoir-faire humain – avec vous aux commandes. Chez Supertext, l’efficacité de l'IA rencontre l’expertise professionnelle. La sécurité des textes et des données est assurée. Supertext est simple, personnalisable et capable d’apprendre. Supertext est tout-en-un."
         },
         "featureList": {
           "title": "Fused Translation avec Supertext: vos avantages",
@@ -2330,7 +2329,7 @@
               {
                 "icon": "/images/pages/home/Supertext_Icon_Datensicherheit_Light_Green.svg",
                 "title": "Sécurité des données selon vos exigences",
-                "description": "Du cloud privé à l’hébergement sur place, en passant par l’authentification unique (SSO), vous pouvez adapter les mesures de sécurité à votre convenance dans notre solution Business. C’est pourquoi nous sommes le partenaire de choix pour les banques, les administrations et les assurances.",
+                "description": "Du cloud privé à l’hébergement sur place, en passant par l’authentification unique (SSO), vous pouvez adapter les mesures de sécurité à votre convenance dans notre solution Enterprise. C’est pourquoi nous sommes le partenaire de choix pour les banques, les administrations et les assurances.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "En savoir plus",
@@ -2420,8 +2419,8 @@
                 "description": "Dans les langues principales, des spécialistes à temps plein assurent l’expertise interne et le contrôle de la qualité. Ils et elles élaborent des directives, constituent des équipes spécialisées pour les projets de nos clients et clientes, et sont les premières personnes à contacter en cas de difficultés linguistiques."
               },
               {
-                "title": "Les équipes sont supervisées par des chefs/-ffes de projet expérimentés/-ées",
-                "description": "Nos chefs/-ffes de projet sont la plaque tournante des grands projets et vos points de contact directs chez Supertext. Leurs missions consistent à veiller à ce que vos exigences soient appliquées avec précision, à ce que les délais soient respectés et à ce que les fichiers traduits soient parfaitement formatés, quel que soit le type de document."
+                "title": "Les équipes sont supervisées par des gestionnaires de projet expérimentés/-ées",
+                "description": "Nos gestionnaires de projet sont la plaque tournante des grands projets et vos points de contact directs chez Supertext. Leurs missions consistent à veiller à ce que vos exigences soient appliquées avec précision, à ce que les délais soient respectés et à ce que les fichiers traduits soient parfaitement formatés, quel que soit le type de document."
               }
             ],
             "buttons": {
@@ -2714,7 +2713,7 @@
               "email": "media@supertext.com"
             },
             {
-              "title": "Customer assistance",
+              "title": "Assistance clientèle",
               "email": "support@supertext.com"
             },
             {
@@ -2812,7 +2811,7 @@
               },
               {
                 "title": "Gestion linguistique",
-                "description": "Nos spécialistes internes pour les principales langues. Leurs missions consistent à assurer le contrôle de la qualité et à travailler activement à l’amélioration de nos modèles d’IA. Ce sont les premières personnes à contacter pour les problèmes linguistiques.",
+                "description": "Nos spécialistes linguistes internes pour les principales langues. Leurs missions consistent à assurer le contrôle de la qualité et à travailler activement à l’amélioration de nos modèles d’IA. Ce sont les premières personnes à contacter pour les problèmes linguistiques.",
                 "cta": {
                   "text": "Lire les portraits des collaborateurs/-trices",
                   "link": "/langue-expertise#portraits",
@@ -2821,7 +2820,7 @@
               },
               {
                 "title": "Vendor Management",
-                "description": "Le premier point de contact pour nos spécialistes linguistiques externes. Leurs missions sont de recruter et d’évaluer nos linguistes freelances, et de répondre aux questions relatives à la collaboration."
+                "description": "Le premier point de contact pour nos spécialistes linguistes externes. Leurs missions sont de recruter et d’évaluer nos linguistes freelances, et de répondre aux questions relatives à la collaboration."
               },
               {
                 "title": "Sales & Marketing",
@@ -2871,7 +2870,7 @@
         },
         "lead": {
           "large": "Outil IA ou prestataire de services? Nous sommes les deux et <highlight>bien plus encore.</highlight>",
-          "small": "Supertext est un prestataire de services linguistiques global basé sur l'IA, avec des bureaux à Zurich et à Berlin. Plus de 1500 entreprises en Europe font confiance à nos solutions linguistiques, de notre traducteur en ligne adaptatif aux services certifiés ISO pour les documents multilingues, les sites web, les pages web, les applications et les campagnes multimédias. <break></break> <break></break>Notre équipe compte environ 100 spécialistes dans les domaines de l’intelligence artificielle, de la linguistique et de la sécurité. À cela s’ajoute un réseau sélectif de 3000 spécialistes linguistes indépendants/-es du monde entier. <break></break> <break></break>Ensemble, nous développons une plateforme unique pour les textes et les traductions, pour lesquelles les entreprises peuvent combiner l'IA et l’expertise linguistique humaine en matière de linguistique selon leurs souhaits. Nous réinventons ainsi la communication: efficace, précise, capable d’apprendre et avec une sécurité à la pointe de la technologie.",
+          "small": "Supertext est un prestataire de services linguistiques global basé sur l'IA, avec des bureaux à Zurich et à Berlin. Plus de 1500 entreprises en Europe font confiance à nos solutions linguistiques, de notre traducteur en ligne adaptatif aux services certifiés ISO pour les documents multilingues, les sites web, les pages web, les applications et les campagnes multimédias. <break></break> <break></break>Notre équipe compte environ 100 spécialistes dans les domaines de l’intelligence artificielle, de la linguistique et de la sécurité. À cela s’ajoute un réseau sélectif de 3000 spécialistes linguistes indépendants/-es du monde entier. <break></break> <break></break>Ensemble, nous développons une plateforme unique pour les textes et les traductions, pour lesquelles les entreprises peuvent combiner l'IA et l’expertise linguistique humaine selon leurs souhaits. Nous réinventons ainsi la communication: efficace, précise, capable d’apprendre et avec une sécurité à la pointe de la technologie.",
           "cta": {
             "title": "Découvrir nos offres",
             "link": "/pourquoi-supertext"
@@ -2887,7 +2886,7 @@
               "title": "1500 clients et clientes de tous les secteurs et de toutes tailles"
             },
             {
-              "title": "Environ 100 spécialistes internes à Zurich et Berlin"
+              "title": "Environ 100 spécialistes linguistes internes à Zurich et Berlin"
             },
             {
               "title": "3000 spécialistes linguistes triés/-ées sur le volet à travers le monde"
@@ -3011,7 +3010,7 @@
           },
           "items": [
             {
-              "title": "Faire traduire un texte sur supertext.com et choisir «Lancer une vérification professionnelle»",
+              "title": "Faire traduire un texte sur supertext.com et choisir «Lancer une vérification»",
               "number": "01",
               "image": "/images/pages/verification/step-1.webp"
             },
@@ -3304,7 +3303,7 @@
           },
           "items": [
             {
-              "title": "Faire traduire un texte sur supertext.com et choisir «Lancer une vérification professionnelle»",
+              "title": "Faire traduire un texte sur supertext.com et choisir «Lancer une vérification»",
               "number": "01",
               "image": "/images/pages/verification/05_04_Profi-Check.webp"
             },
@@ -3579,7 +3578,7 @@
         "footerNote": {
           "text": "Avec Supertext, vos traductions sont <highlight>de meilleure qualité</highlight> et ce de manière <highlight>plus rapide, économique</highlight> et <highlight>sûre.</highlight> Des processus automatisés de 0% à 100%.",
           "cta": {
-            "title": "Voir la solution Business",
+            "title": "Voir la solution Enterprise",
             "link": "/pourquoi-supertext",
             "target": "_blank"
           }
@@ -3588,11 +3587,11 @@
       "specialistTranslation": {
         "hero": {
           "title": "Traductions spécialisées sur mesure",
-          "description": "Plus de 3 000 spécialistes à portée de main – pour des traductions professionnelles de documents allant de InDesign à Word et de l’arabe au zoulou."
+          "description": "Plus de 3000 spécialistes à portée de main – pour des traductions professionnelles de documents allant de InDesign à Word et de l’arabe au zoulou."
         },
         "lead": {
-          "large": "Vous souhaitez faire traduire votre rapport annuel? Ou diffuser votre nouveau spot TV dans le monde entier? Nos spécialistes linguistiques vous apportent leur expertise dès que vous en avez besoin.",
-          "small": "Les spécialistes linguistiques de Supertext: plus de 3000 traducteurs/-trices et experts/-es culturels/-les triés/-es sur le volet, toujours disponibles pour apporter une touche humaine à votre traduction par l’IA:",
+          "large": "Vous souhaitez faire traduire votre rapport annuel? Ou diffuser votre nouveau spot TV dans le monde entier? Nos spécialistes linguistes vous apportent leur expertise dès que vous en avez besoin.",
+          "small": "Les spécialistes linguistes de Supertext: plus de 3000 traducteurs/-trices et experts/-es culturels/-les triés/-es sur le volet, toujours disponibles pour apporter une touche humaine à votre traduction par l’IA:",
           "smallList": [
             "Connaissances contextuelles dans votre domaine d’expertise",
             "Expertise culturelle du groupe cible (us et coutumes, type d’humour, etc.)",
@@ -3616,10 +3615,10 @@
               "title": "La seule agence de traduction disposant de sa propre IA et de traducteurs/-trices spécialisés/-es en interne"
             },
             {
-              "title": "3000 spécialistes linguistiques triés/-ées sur le volet à travers le monde"
+              "title": "3000 spécialistes linguistes triés/-ées sur le volet à travers le monde"
             },
             {
-              "title": "100 spécialistes internes à Zurich et Berlin"
+              "title": "100 spécialistes linguistes internes à Zurich et Berlin"
             },
             {
               "title": "113 langues cibles disponibles"
@@ -3672,7 +3671,7 @@
             "group2": [
               {
                 "title": "Traduction marketing et transcréation pour une présence internationale",
-                "description": "Nous ne traduisons pas mot à mot, mais adaptons votre contenu aux différents marchés et groupes cibles, en tenant compte des us et coutumes locaux, du type d’humour et d'autres références culturelles. Un résultat créatif est précis, avec une touche de sensibilité linguistique suppléments, du spot publicitaire multilingue à la campagne d’affichage internationale.",
+                "description": "Nous ne traduisons pas mot à mot, mais adaptons votre contenu aux différents marchés et groupes cibles, en tenant compte des us et coutumes locaux, du type d’humour et d'autres références culturelles. Un résultat créatif et précis, avec une touche de sensibilité linguistique en supplément, du spot publicitaire multilingue à la campagne d’affichage internationale.",
                 "cta1": {
                   "title": "Lancer un projet",
                   "link": "/commande/traduction"
@@ -3706,7 +3705,7 @@
               },
               {
                 "title": "Automatisation des flux de travail via API",
-                "description": "Qu'il s'agisse de traduction IA ou de services professionnels, nous proposons des intégrations de toutes sortes et nous nous adaptions parfaitement à tout environnement de travail grâce à notre API RESTful flexible. Nous vous apportons également volontiers notre assistance pour des interfaces individuelles.",
+                "description": "Qu'il s'agisse de traduction par l’IA ou de services professionnels, nous proposons des intégrations de toutes sortes et nous nous adaptions parfaitement à tout environnement de travail grâce à notre API RESTful flexible. Nous vous apportons également volontiers notre assistance pour des interfaces individuelles.",
                 "cta1": {
                   "title": "Demande de documentation",
                   "link": "/contact"
@@ -3756,13 +3755,13 @@
           "title": "SIX RAISONS DE CHOISIR SUPERTEXT",
           "items": [
             {
-              "title": "La seule agence de rédaction disposant de sa propre IA et de spécialistes linguistiques en interne"
+              "title": "La seule agence de rédaction disposant de sa propre IA et de spécialistes linguistes en interne"
             },
             {
               "title": "Travail avec des rédacteurs/-trices professionnels/-les exclusifs/-ves, des rédacteurs/-trices et des journalistes"
             },
             {
-              "title": "100 spécialistes internes à Zurich et Berlin"
+              "title": "100 spécialistes linguistes internes à Zurich et Berlin"
             },
             {
               "title": "Toujours compris dans le prix: encadrement par un/-e responsable de projet personnel/-le et, si nécessaire, un suivi unique"
@@ -3842,7 +3841,7 @@
               },
               {
                 "title": "Scripts vidéo et sous-titres",
-                "description": "Notre réseau expérimenté de rédacteurs/-trices créatifs/-ves fournit des scripts prêts à être produits pour un contenu vidéo convaincant. Du reportage sur les réseaux sociaux aux vidéos explicatives. Nous nous chargons également volontiers dela transcription et du sous-titrage du contenu.",
+                "description": "Notre réseau expérimenté de rédacteurs/-trices créatifs/-ves fournit des scripts prêts à être produits pour un contenu vidéo convaincant. Du reportage sur les réseaux sociaux aux vidéos explicatives. Nous nous chargons également volontiers de la transcription et du sous-titrage du contenu.",
                 "cta1": {
                   "title": "Contact",
                   "link": "/contact"
@@ -3874,7 +3873,7 @@
         },
         "lead": {
           "large": "Qu’il s’agisse de corriger un rapport annuel, d’optimiser un texte IA ou de relire un manuscrit, nous améliorons ce que vous souhaitez. De manière pointilleuse, en restant fidèles au style du texte et en apportant des corrections jusque dans les moindres détails.",
-          "small": "Nos spécialistes linguistiques formés/-es et contrôlés/-es en interne garantissent une expertise dans chaque langue. Rien n’est laissé au hasard lors de la correction et une attention particulière est portée sur les règles officielles de votre langue cible. Un point d’honneur est également mis sur le ton adéquat pour le texte. <break></break><break></break>Suivi des modificatons, fonction de commentaire ou plutôt modifications directement dans le texte? Vous choisissez le mode de correction, nous nous chargeons du reste. Le tout d’un seul tenant et dans la langue de votre choix. Votre correction multilingue est particulièrement urgente? Pour cela, notre équipe professionnelle est également disponible sur simple pression d’un bouton.",
+          "small": "Nos spécialistes linguistes formés/-es et contrôlés/-es en interne garantissent une expertise dans chaque langue. Rien n’est laissé au hasard lors de la correction et une attention particulière est portée sur les règles officielles de votre langue cible. Un point d’honneur est également mis sur le ton adéquat pour le texte. <break></break><break></break>Suivi des modificatons, fonction de commentaire ou plutôt modifications directement dans le texte? Vous choisissez le mode de correction, nous nous chargeons du reste. Le tout d’un seul tenant et dans la langue de votre choix. Votre correction multilingue est particulièrement urgente? Pour cela, notre équipe professionnelle est également disponible sur simple pression d’un bouton.",
           "smallList": {
             "one": "",
             "other": ""
@@ -3898,7 +3897,7 @@
               "title": "Travail exclusivement avec des correcteurs/-trices et des relecteurs/-trices diplômés/-es et certifiés/-es"
             },
             {
-              "title": "100 spécialistes internes à Zurich et Berlin"
+              "title": "100 spécialistes linguistes internes à Zurich et Berlin"
             },
             {
               "title": "Évaluation tridimensionnelle des services de révision par le/la client/-e, le/la responsable de projet et le/la linguiste"

@@ -161,7 +161,7 @@
       }
     },
     "languageMenu": {
-      "cta": "Plus 18 weitere Sprachen in unserer Business-Lösung",
+      "cta": "Plus 18 weitere Sprachen in unserer Enterprise-Lösung",
       "href": "/business/de/features"
     },
     "NpsSurveyPopup": {
@@ -731,7 +731,7 @@
         "UserHasLicenseAssigned": "Diese Person hat bereits eine Lizenz für ein Supertext-Abo zugewiesen. Bitten Sie sie, die aktuelle Lizenz zuerst von einem Team-Admin entfernen zu lassen, bevor sie in Ihr Team eingeladen werden kann.",
         "UserNotMemberOfTeamsCompany": "Die Person kann nicht in Ihr Team eingeladen werden, weil sie einer anderen Organisation zugeordnet ist. Bitte melden Sie sich bei <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a>, falls die Person stattdessen Ihrer Organisation zugeordnet werden soll.",
         "TeamWithPaymentProvider": "Diese Person hat eine Kreditkarte in ihrem Profil hinterlegt. Bitten Sie sie, die Kreditkarte zu entfernen, bevor sie in Ihr Team eingeladen werden kann.",
-        "removeMemberBatch": "Beim Entfernen dir Mitgliedern aus dem Team ist ein Fehler aufgetreten"
+        "removeMemberBatch": "Beim Entfernen der Mitglieder aus dem Team ist ein Fehler aufgetreten"
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abos ist ein Fehler aufgetreten.",
@@ -770,7 +770,7 @@
         "changeRole": "Rolle erfolgreich geändert",
         "editMember": "Teammitglied erfolgreich bearbeitet",
         "removeMember": "User:in erfolgreich aus dem Team entfernt",
-        "removeMemberBatch": "{count, plural, =1 {1 Teammitglied wurde} other {# Teammitglieder wurde} erfolgreich aus dem Team entfernt"
+        "removeMemberBatch": "{count, plural, =1 {1 Teammitglied wurde} other {# Teammitglieder wurden} erfolgreich aus dem Team entfernt"
       },
       "subscription": {
         "cancel": "Abo erfolgreich gekündigt",
@@ -990,7 +990,6 @@
         "reactivateSubscription": "Reaktivieren",
         "cancelSubscription": "Gecancelt",
         "expiresOn": "Läuft ab am",
-        "startsOn": "Started am",
         "moreInfo": "Details ansehen",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
@@ -1086,7 +1085,7 @@
         "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
         "comment": "Bezeichnung (optional)",
         "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
-        "company": "Unternehmen/ Organisation",
+        "company": "Unternehmen/Organisation",
         "name": "Name",
         "changeName": "Name ändern",
         "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
@@ -1257,7 +1256,7 @@
             },
             "paginationOf": "von",
             "editSelectedMembers": "Ausgewählte Mitglieder bearbeiten",
-            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rolle von # Mitgliedern wurden}} erfolgreich aktualisiert"
+            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rollen von # Mitgliedern wurden}} erfolgreich aktualisiert"
           },
           "subscription": {
             "title": "Team-Abo ändern",
@@ -1351,8 +1350,8 @@
         "noLicense": "Free",
         "hasLicense": "Essential",
         "emailPlaceholder": "beispiel@gmail.com",
-        "licenseMultipleTag": "User lizenzieren",
-        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitglieder keine Lizenzen zuweisen. Es wurden {selectedCount} Benutzer ausgewählt, aber es sind  {licencesAvailable, plural, =0 {keine Lizenzen} =1 { nur 1 Lizenz} other {nur # Lizenzen}}  verfügbar.",
+        "licenseMultipleTag": "User:innen lizenzieren",
+        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} Benutzer:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}}  verfügbar.",
         "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert"
       },
       "delivery": {
@@ -1595,8 +1594,8 @@
       "readMore": "Mehr erfahren",
       "acceptedPaymentMethods": "Akzeptierte Zahlungsmittel",
       "firstRunPopover": {
-        "title": "",
-        "description": ""
+        "title": "<highlightText>NEU</highlightText> Profi-Check in Minuten",
+        "description": "Lassen Sie wichtige Übersetzungen sofort von muttersprachlichen Expert:innen prüfen und korrigieren. Sie erhalten eine garantiert korrekte Übersetzung."
       }
     },
     "couponCode": {
@@ -2330,7 +2329,7 @@
               {
                 "icon": "/images/pages/home/Supertext_Icon_Datensicherheit_Light_Green.svg",
                 "title": "Datensicherheit genau nach Ihren Vorgaben",
-                "description": "Von Private Cloud oder On-Premises-Hosting bis Single Sign-on (SSO): In unserer Business-Lösung gestalten Sie die Security-Maßnahmen flexibel mit. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
+                "description": "Von Private Cloud oder On-Premises-Hosting bis Single Sign-on (SSO): In unserer Enterprise-Lösung gestalten Sie die Security-Maßnahmen flexibel mit. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Mehr erfahren",
@@ -3579,7 +3578,7 @@
         "footerNote": {
           "text": "Mit Supertext übersetzen Sie <highlight>besser, schneller, günstiger</highlight> und <highlight>sicherer.</highlight> Von 0 % bis 100 % automatisiert.",
           "cta": {
-            "title": "Zur Business-Lösung",
+            "title": "Zur Enterprise-Lösung",
             "link": "/why-supertext",
             "target": "_blank"
           }

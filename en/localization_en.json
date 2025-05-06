@@ -161,7 +161,7 @@
       }
     },
     "languageMenu": {
-      "cta": "Plus 18 additional languages in our business solution",
+      "cta": "Plus 18 additional languages in our enterprise solution",
       "href": "/business/en/features"
     },
     "NpsSurveyPopup": {
@@ -723,12 +723,12 @@
         "couldNotFetchTeamMembers": "Could not retrieve team members: {error}",
         "couldNotFetchTeamDetails": "Could not retrieve the team details: {error}",
         "couldNotFetchTeamId": "Could not retrieve the team ID: {error}",
-        "AlreadyInTeam": "The invited person is already part of another team. Please contact our support team at hello@supertext.com to have the person assigned to a new team.",
+        "AlreadyInTeam": "The invited person is already part of another team. Please contact our support team at <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a> to have the person assigned to a new team.",
         "LockedAccount": "Your account is locked for security reasons. Please contact your Supertext project manager.",
         "TeamInvitationSent": "Team invitation was sent successfully.",
         "AlreadyInvited": "An invitation has already been sent to this person. Please ask them to accept the invitation there.",
         "TeamWithSubscription": "This user has an active subscription. Ask them to cancel their subscription before they can be invited to your team.",
-        "UserHasLicenseAssigned": "You can only invite users who don't have an active license. Ask their administrator to remove the user's license.",
+        "UserHasLicenseAssigned": "This person already has a licence for a Supertext subscription. Ask them to have the current licence removed by a team admin first before they can be invited to your team.",
         "UserNotMemberOfTeamsCompany": "The person cannot be invited to your team because they are assigned to a different company. Please contact <a href=\"mailto:hello@supertext.com\"> hello@supertext.com </a> if you would like the person to be assigned to your company instead.",
         "TeamWithPaymentProvider": "This user has a credit card stored in their profile. Ask them to remove the credit card before they can be invited to your team.",
         "removeMemberBatch": "An error occurred while removing members from the team"
@@ -754,7 +754,7 @@
       "somethingWentWrongWithPricing": "There was a problem with the price estimate.",
       "creditCardProcessing": "An error occurred while processing your balance. Please check your saved credit card if this error occurs again.",
       "downgradeSubscriptionsIndividual": {
-        "cancel": "The downgrading of licenses has been lifted"
+        "cancel": "The reduction in the number licences has been cancelled"
       }
     },
     "success": {
@@ -770,7 +770,7 @@
         "changeRole": "Role successfully changed",
         "editMember": "Team member successfully edited",
         "removeMember": "User successfully removed from the team",
-        "removeMemberBatch": "{count, plural, =1 {1 team member was} other {# team members was} successfully removed from the team"
+        "removeMemberBatch": "{count, plural, =1 {1 team member was} other {# team members were} successfully removed from the team"
       },
       "subscription": {
         "cancel": "Subscription successfully cancelled",
@@ -972,7 +972,7 @@
         "current": "Current subscription",
         "upgrade": "Upgrade",
         "downgrade": "Downgrade",
-        "recommended": "Most popular",
+        "recommended": "Recommended",
         "comparePlans": "Compare subscriptions",
         "showMore": "Show more",
         "cancellationInfo": "You have cancelled your subscription. It ends on",
@@ -990,7 +990,6 @@
         "reactivateSubscription": "Reactivate",
         "cancelSubscription": "Cancelled",
         "expiresOn": "Expires on",
-        "startsOn": "Starts on",
         "moreInfo": "View details",
         "hero": {
           "title": "Find your perfect Supertext subscription",
@@ -1086,7 +1085,7 @@
         "licenseValidation": "Licence must be at least 2 characters long",
         "comment": "Label (optional)",
         "commentValidation": "Label must be at least 2 characters long",
-        "company": "Company/ organisation",
+        "company": "Company/organisation",
         "name": "Name",
         "changeName": "Change name",
         "nameValidation": "Label must be at least 2 characters long",
@@ -1202,8 +1201,8 @@
             "changePaymentMethodTooltip": {
               "invoiceDisabled": {
                 "linkText": "Contact us",
-                "description": "Invoice payments are not currently enabled for your organization. Please contact us to enable this payment method.",
-                "prefilledSubject": "Application for payment on account",
+                "description": "Payment by invoice is not currently enabled for your organisation. Please contact us to enable this payment method.",
+                "prefilledSubject": "Application for payment by invoice",
                 "prefilledBody": "Hello,\n \nPlease activate payment by invoice for my Supertext account.",
                 "emailAddress": "hello@supertext.com"
               },
@@ -1233,7 +1232,7 @@
               "title": "Action",
               "editAll": "Edit all",
               "removeAll": "Deactivate account",
-              "editLicenseSelected": "Edit license",
+              "editLicenseSelected": "Edit licence",
               "editRoleSelected": "Edit role"
             },
             "increaseNumberOfLicenses": "Increase number of licences",
@@ -1316,7 +1315,7 @@
               "link": "Update payment method"
             },
             "after": "after",
-            "downgradeLicenses": "Upcoming reduction in the number of licenses",
+            "downgradeLicenses": "Upcoming reduction in the number of licences",
             "cancelDowngradeLicenses": "Cancel"
           },
           "authorisations": {
@@ -1351,9 +1350,9 @@
         "noLicense": "Free",
         "hasLicense": "Essential",
         "emailPlaceholder": "example@gmail.com",
-        "licenseMultipleTag": "License users",
-        "licenseMultipleTagNoLicencesAvailable": "You cannot assign licenses to the selected members. {selectedCount} users were selected, but {licencesAvailable, plural, =0 { no licenses } =1 { only 1 license } other { only # licenses }} are available.",
-        "licenceMultipleSuccess": "{count, plural, =0 { No licenses have been updated } =1 { The license of 1 member has been updated } other { The licenses of # members have been updated }} successfully"
+        "licenseMultipleTag": "Licence user",
+        "licenseMultipleTagNoLicencesAvailable": "You cannot assign licences to the selected members. {selectedCount} users were selected, but {licencesAvailable, plural, =0 { no licences } =1 { only 1 licence } other { only # licences }} are available.",
+        "licenceMultipleSuccess": "{count, plural, =0 { No licences have been updated } =1 { The licence of 1 member has been updated } other { The licences of # members have been updated }} successfully"
       },
       "delivery": {
         "title": "Delivery",
@@ -1595,8 +1594,8 @@
       "readMore": "Learn more",
       "acceptedPaymentMethods": "Accepted payment methods",
       "firstRunPopover": {
-        "title": "",
-        "description": ""
+        "title": "<highlightText>NEW</highlightText> Verification in minutes",
+        "description": "Get important translations checked and corrected immediately by native language experts. You will receive a translation that is guaranteed to be correct."
       }
     },
     "couponCode": {
@@ -2079,7 +2078,7 @@
               "sections": [
                 {
                   "title": "AI translation in 23 languages",
-                  "description": "Our online translator is based on our own latest-generation AI systems. These are proficient in 23 languages, including local variants such as Swiss French. Quick and easy, plus the strictest security standards.",
+                  "description": "Our online translator is based on our own latest-generation AI systems. These are proficient in 23 languages, including local variants such as Swiss French. It’s quick, easy and meets the strictest security standards.",
                   "cta": {
                     "title": "Try it now",
                     "link": "/",
@@ -2330,7 +2329,7 @@
               {
                 "icon": "/images/pages/home/Supertext_Icon_Datensicherheit_Light_Green.svg",
                 "title": "Data security to your exact specifications",
-                "description": "From private cloud or on-premises hosting to single sign-on (SSO): our business solution lets you flexibly design your security measures. That’s why we are the partner of choice for banks, government agencies and insurers.",
+                "description": "From private cloud or on-premises hosting to single sign-on (SSO): our enterprise solution lets you flexibly design your security measures. That’s why we are the partner of choice for banks, government agencies and insurers.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Learn more",
@@ -2351,7 +2350,7 @@
           }
         ],
         "valueProposition": {
-          "heading": "To ensure your message comes across <highlight>correctly in every language</highlight>: our products and services"
+          "heading": "Our products and services ensure your message comes across <highlight>correctly in every language</highlight>"
         },
         "engagementSlider": {
           "heading": "automated → 0 to 100%",
@@ -2421,7 +2420,7 @@
               },
               {
                 "title": "Personal support from experienced project managers",
-                "description": "Our project managers are the flexible hub for large projects and your direct contact at Supertext. They ensure that your requirements are implemented precisely, that deadlines are met and that translated files are perfectly laid out in every format."
+                "description": "Our project managers coordinate all our large projects and are your direct contact at Supertext. They ensure that your requirements are implemented precisely, that deadlines are met and that translated files are perfectly laid out in every format."
               }
             ],
             "buttons": {
@@ -2439,7 +2438,7 @@
               "sections": [
                 {
                   "title": "AI translation with Verification",
-                  "description": "Make sure everything’s perfect. With automatic translation – and our Verification service at the push of a button.",
+                  "description": "Make sure everything’s right. With automatic translation – and our Verification service at the push of a button.",
                   "cta": {
                     "title": "Learn more",
                     "link": "/verification",
@@ -2451,7 +2450,7 @@
                   "description": "Technology meets experienced specialists. From InDesign to Word and from Arabic to Zulu.",
                   "cta": {
                     "title": "LEARN MORE",
-                    "link": "/translation",
+                    "link": "/specialised-translation",
                     "variant": "secondary"
                   }
                 },
@@ -2469,7 +2468,7 @@
                   "description": "The final touch for your text. Stylish, meticulous and fast.",
                   "cta": {
                     "title": "LEARN MORE",
-                    "link": "/proofreading",
+                    "link": "/editing",
                     "variant": "secondary"
                   }
                 },
@@ -3149,7 +3148,7 @@
             },
             "row2": {
               "title": "Length restriction",
-              "description": "Space problems? With our character limit feature, you can shorten the translated text to the length of the original with a single click."
+              "description": "Short on space? With our character limit feature, you can shorten the translated text to the length of the original with a single click."
             }
           }
         },
@@ -3579,7 +3578,7 @@
         "footerNote": {
           "text": "Supertext helps you translate <highlight>better, faster, cheaper</highlight> and <highlight>more securely.</highlight> From 0 to 100% automation.",
           "cta": {
-            "title": "View business solution",
+            "title": "View enterprise solution",
             "link": "/why-supertext",
             "target": "_blank"
           }

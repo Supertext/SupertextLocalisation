@@ -161,7 +161,7 @@
       }
     },
     "languageMenu": {
-      "cta": "Più 18 altre lingue nella nostra soluzione enterprise",
+      "cta": "Più 18 altre lingue nella nostra soluzione business",
       "href": "/business/it/features"
     },
     "NpsSurveyPopup": {
@@ -672,7 +672,7 @@
     "zh-Hans": "al cinese (semplificato)",
     "zh-Hant": "al cinese (tradizionale)",
     "el": "al greco",
-    "hr": "al croato",
+    "hr": "in croato",
     "tr": "al turco"
   },
   "authentication": {
@@ -723,14 +723,14 @@
         "couldNotFetchTeamMembers": "Impossibile accedere ai membri del team: {error}",
         "couldNotFetchTeamDetails": "Impossibile accedere ai dettagli del team: {error}",
         "couldNotFetchTeamId": "Impossibile accedere all’ID del team: {error}",
-        "AlreadyInTeam": "L’utente invitato fa già parte di un altro team. Contatti la nostra assistenza all'indirizzo <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a> per assegnare l’utente a un nuovo team.",
-        "LockedAccount": "L’account di questo utente è stato bloccato per motivi di sicurezza. Contatti la nostra assistenza all’indirizzo<a href=\"mailto:hello@supertext.com\">hello@supertext.com</a> per risolvere il problema.",
-        "TeamInvitationSent": "L'invito al team è stato inviato.",
-        "AlreadyInvited": "Questo utente ha già ricevuto un invito. Gli chieda di accettarlo.",
-        "TeamWithSubscription": "Questo utente ha un abbonamento attivo. Gli chieda di disdire l’abbonamento prima di invitarlo nel Suo team.",
-        "UserHasLicenseAssigned": "Questo utente ha già una licenza per un abbonamento Supertext. Gli chieda di far rimuovere la licenza attuale da un admin del team prima di invitarla nel Suo team.",
-        "UserNotMemberOfTeamsCompany": "L’utente non può essere invitato nel Suo team perché è assegnato a un’altra azienda. Se preferisce che l’utente venga assegnato alla Sua azienda, contatti <a href=\"mailto:hello@supertext.com\"> hello@supertext.com </a>.",
-        "TeamWithPaymentProvider": "Questo utente ha una carta di credito salvata nel proprio profilo. Chieda di rimuovere la carta di credito prima di invitarla nel Suo team.",
+        "AlreadyInTeam": "La persona invitata fa già parte di un altro team. Contatta il nostro team di supporto all'indirizzo hello@supertext.com per assegnare la persona a un nuovo team.",
+        "LockedAccount": "L'account è bloccato per motivi di sicurezza. Contatta il tuo project manager Supertext.",
+        "TeamInvitationSent": "L'invito al team è stato inviato correttamente.",
+        "AlreadyInvited": "Un invito è già stato inviato a questa persona. Chiedete loro di accettare l'invito lì.",
+        "TeamWithSubscription": "Questo utente ha un abbonamento attivo. Chiedi loro di annullare l'abbonamento prima di poter essere invitati nel tuo team.",
+        "UserHasLicenseAssigned": "Puoi invitare solo utenti che non dispongono di una licenza attiva. Chiedere all'amministratore di rimuovere la licenza dell'utente.",
+        "UserNotMemberOfTeamsCompany": "La persona non può essere invitata nel tuo team perché è assegnata a un'altra azienda. Se preferisci che la persona venga assegnata alla tua azienda, contatta <a href=\"mailto:hello@supertext.com\"> hello@supertext.com </a>.",
+        "TeamWithPaymentProvider": "Questo utente ha una carta di credito salvata nel suo profilo. Chiedi loro di rimuovere la carta di credito prima di poter essere invitati nel tuo team.",
         "removeMemberBatch": "Si è verificato un errore durante la rimozione dei membri dal team"
       },
       "subscription": {
@@ -754,7 +754,7 @@
       "somethingWentWrongWithPricing": "Si è verificato un errore durante la stima del prezzo.",
       "creditCardProcessing": "Si è verificato un errore durante l’elaborazione del Suo credito. Verifichi la carta di credito da Lei salvata se il problema si ripresenta.",
       "downgradeSubscriptionsIndividual": {
-        "cancel": "La riduzione delle licenze è stata revocata"
+        "cancel": "Il declassamento delle licenze è stato revocato"
       }
     },
     "success": {
@@ -770,7 +770,7 @@
         "changeRole": "Il ruolo è stato modificato",
         "editMember": "I dati del membro del team sono stati modificati",
         "removeMember": "L’utente è stato rimosso dal team",
-        "removeMemberBatch": "{count, plural, =1 {1 membro del team è stato} rimosso dal team {# membri del team sono stati} rimossi dal team"
+        "removeMemberBatch": "{count, plural, =1 {1 membro del team è stato} rimosso con successo dal team {# membri del team sono stati} rimossi con successo dal team"
       },
       "subscription": {
         "cancel": "L’abbonamento è stato disdetto",
@@ -990,6 +990,7 @@
         "reactivateSubscription": "Riattiva",
         "cancelSubscription": "Disdetto",
         "expiresOn": "Scade in data",
+        "startsOn": "Starts on",
         "moreInfo": "Visualizza dettagli",
         "hero": {
           "title": "Trovate l’abbonamento Supertext che fa per voi",
@@ -1201,13 +1202,13 @@
             "changePaymentMethodTooltip": {
               "invoiceDisabled": {
                 "linkText": "Contattaci",
-                "description": "Al momento, il pagamento tramite fattura non è attivato per la tua organizzazione. Ci contatti per attivare questo metodo di pagamento.",
-                "prefilledSubject": "Richiesta per il pagamento dietro fattura",
-                "prefilledBody": "Buongiorno, \n \nchiedo di attivare il pagamento tramite fattura per il mio account Supertext.",
+                "description": "Al momento, i pagamenti tramite fatture non sono abilitati per la tua organizzazione. Vi preghiamo di contattarci per attivare questo metodo di pagamento.",
+                "prefilledSubject": "Domanda di pagamento in acconto",
+                "prefilledBody": "Buongiorno \n \nPer favore attiva il pagamento tramite fattura per il mio account Supertext.",
                 "emailAddress": "hello@supertext.com"
               },
               "invoiceRequiresBillingAddress": {
-                "description": "Per utilizzare le fatture come metodo di pagamento, aggiunga prima un indirizzo di fatturazione.",
+                "description": "Per utilizzare le fatture come metodo di pagamento, aggiungi prima un indirizzo di fatturazione.",
                 "linkText": "Aggiungi indirizzo di fatturazione"
               }
             }
@@ -1231,7 +1232,7 @@
             "actions": {
               "title": "Azione",
               "editAll": "Modifica tutti",
-              "removeAll": "Disattiva account",
+              "removeAll": "Elimina tutti",
               "editLicenseSelected": "Modifica licenza",
               "editRoleSelected": "Modifica ruolo"
             },
@@ -1243,7 +1244,7 @@
               "user": "Membro"
             },
             "roleChangeWarning": "Un amministratore ha modificato il Suo ruolo. Per aggiornare il Suo account, Si disconnetta e acceda nuovamente.",
-            "licenceAvailable": "{amount} disponibili",
+            "licenceAvailable": "{amount} disponibile",
             "marketingPanel": {
               "heading": "Crei il Suo team da Supertext",
               "subheading": "Inviti altri utenti e avvii la collaborazione nel giro di pochi minuti",
@@ -1314,9 +1315,9 @@
               "message": "Si prega di aggiornare il metodo di pagamento prima di apportare modifiche all'abbonamento.",
               "link": "Aggiornare il metodo di pagamento"
             },
-            "after": "dopo il giorno",
+            "after": "Dopo",
             "downgradeLicenses": "Prossima riduzione del numero di licenze",
-            "cancelDowngradeLicenses": "Annulla"
+            "cancelDowngradeLicenses": "Cancellare"
           },
           "authorisations": {
             "title": "Autorizzazioni di accesso",
@@ -1350,9 +1351,9 @@
         "noLicense": "Free",
         "hasLicense": "Essential",
         "emailPlaceholder": "esempio@gmail.com",
-        "licenseMultipleTag": "Assegna una licenza all’utente",
-        "licenseMultipleTagNoLicencesAvailable": "Non è possibile assegnare licenze ai membri selezionati. Sono stati selezionati {selectedCount} utenti, ma {licencesAvailable, plural, =0 {non è disponibile nessuna licenza } =1 { è disponibile solo 1 licenza } other {sono disponibili solo # licenze }}.",
-        "licenceMultipleSuccess": "{count, plural, =0 {Nessuna licenza è stata aggiornata} =1 { La licenza di 1 membro è stata aggiornata} other {Le licenze di # membri sono state aggiornate}}"
+        "licenseMultipleTag": "Utenti con licenza",
+        "licenseMultipleTagNoLicencesAvailable": "Non è possibile assegnare licenze ai membri selezionati. Sono stati selezionati {selectedCount} utenti, ma sono disponibili {licencesAvailable, plural, =0 { nessuna licenza } =1 { solo 1 licenza } other { solo # licenze }}.",
+        "licenceMultipleSuccess": "{count, plural, =0 { Nessuna licenza è stata aggiornata } =1 { La licenza di 1 membro è stata aggiornata } other { Le licenze di # membri sono state aggiornate }} con successo"
       },
       "delivery": {
         "title": "Consegna",
@@ -1594,8 +1595,8 @@
       "readMore": "Scopri di più",
       "acceptedPaymentMethods": "Metodi di pagamento accettati",
       "firstRunPopover": {
-        "title": "\n<highlightText>NOVITÀ</highlightText> Verifica professionale in pochi minuti",
-        "description": "Faccia controllare e correggere subito le traduzioni importanti da esperti madrelingua. Avrà così la garanzia di ottenere una traduzione corretta."
+        "title": "",
+        "description": ""
       }
     },
     "couponCode": {
@@ -2033,8 +2034,8 @@
           "description": "Tradurre meglio, in modo più veloce e più sicuro con la Fused Translation."
         },
         "lead": {
-          "large": "Con l’IA si possono tradurre <highlight>centinaia di parole in pochi secondi.</highlight> Ma come si fa ad avere la certezza che <highlight>ogni parola sia corretta?</highlight>",
-          "small": "Per realizzare questa visione abbiamo creato un connubio tra l’IA linguistica e un pool di traduttori esperti. Per una fusione perfetta di intelligenza artificiale e sapere umano che siete voi a modulare. Supertext unisce l’efficienza dell'IA alle competenze di settore, la sicurezza dei dati alla garanzia di qualità dei testi. Supertext è semplice, personalizzabile e migliora ogni giorno imparando. Supertext è la vostra soluzione all-in-one."
+          "large": "Con l'IA si possono tradurre <highlight>centinaia di parole in pochi secondi.</highlight> Ma come si fa ad avere la certezza che <highlight>ogni parola sia corretta?</highlight>",
+          "small": "Per realizzare questa visione abbiamo creato un connubio tra l'IA linguistica e un pool di traduttori esperti. Per una fusione perfetta di intelligenza artificiale e sapere umano che siete voi a modulare. Supertext unisce l’efficienza dell'IA alle competenze di settore, la sicurezza dei dati alla garanzia di qualità dei testi. Supertext è semplice, personalizzabile e migliora ogni giorno imparando. Supertext è la vostra soluzione all-in-one."
         },
         "featureList": {
           "title": "Fused Translation con Supertext: i vostri vantaggi",
@@ -2219,7 +2220,7 @@
             ],
             "expertiseButton": "Competenze linguistiche"
           },
-          "leading": "Supertext unisce l’IA linguistica alla competenza umana per offrire una soluzione di traduzione perfetta per ogni tipo di contenuto. Semplice, in grado di apprendere, adeguata alle vostre esigenze e sicura sotto ogni aspetto.",
+          "leading": "Supertext unisce l'IA linguistica alla competenza umana per offrire una soluzione di traduzione perfetta per ogni tipo di contenuto. Semplice, in grado di apprendere, adeguata alle vostre esigenze e sicura sotto ogni aspetto.",
           "services": {
             "items": [
               {
@@ -2329,7 +2330,7 @@
               {
                 "icon": "/images/pages/home/Supertext_Icon_Datensicherheit_Light_Green.svg",
                 "title": "Sicurezza dei dati secondo le vostre specifiche",
-                "description": "Dal cloud privato all’hosting locale, fino al Single Sign-on (SSO): nella nostra soluzione Enterprise potete gestire con la massima flessibilità le misure di sicurezza desiderate. È questo ciò che fa di noi il partner preferito da banche, autorità e istituti assicurativi.",
+                "description": "Dal cloud privato all’hosting locale, fino al Single Sign-on (SSO): nella nostra soluzione Business potete gestire con la massima flessibilità le misure di sicurezza desiderate. È questo ciò che fa di noi il partner preferito da banche, autorità e istituti assicurativi.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Scopri di più",
@@ -2339,7 +2340,7 @@
               {
                 "icon": "/images/pages/home/Supertext_Icon_All-In-One_Light_Green.svg",
                 "title": "La soluzione all-in-one che migliora ogni giorno di più",
-                "description": "Dall’automatizzazione completa alla cura data dal tocco umano: con Supertext le aziende possono richiedere tutte le traduzioni su un’unica piattaforma. Per una maggiore sicurezza, una qualità che migliora nel tempo e costi ogni giorno più bassi grazie all’apprendimento continuo dell’IA.",
+                "description": "Dall’automatizzazione completa alla cura data dal tocco umano: con Supertext le aziende possono richiedere tutte le traduzioni su un’unica piattaforma. Per una maggiore sicurezza, una qualità che migliora nel tempo e costi ogni giorno più bassi grazie all’apprendimento continuo dell'IA.",
                 "cta": {
                   "variant": "PrimaryBorderVariant",
                   "title": "Scopri di più",
@@ -2534,7 +2535,7 @@
                   "title": "Cosa ti piace di più del tuo lavoro?",
                   "text": "Con i Large Language Models (LLM) stiamo rivoluzionando il modo in cui vengono addestrati i sistemi di traduzione. È uno sviluppo molto interessante, che consente di adattare la traduzione in tempo reale alle esigenze specifiche dei clienti e di migliorare la qualità complessiva della traduzione. In 3 combinazioni linguistiche su 4 abbiamo persino ottenuto risultati migliori del gigante del settore DeepL.",
                   "cta": {
-                    "text": "All’articolo",
+                    "text": "All'articolo",
                     "link": "/blog/deepl-vs-supertext-un-confronto-della-qualita-di-traduzione"
                   }
                 }
@@ -2782,7 +2783,7 @@
         },
         "lead": {
           "large": "Amiamo le <highlight>lingue</highlight> e la <highlight>tecnologia.</highlight> E siamo sempre alla ricerca di <highlight>nuovi talenti</highlight> che condividano la nostra passione.",
-          "small": "In qualità di fornitore di servizi linguistici basati sull'IA a livello internazionale, gestiamo progetti per oltre 1500 aziende in tutta Europa. Promuoviamo il cambiamento e sviluppiamo soluzioni che ridefiniscono lo status quo, mettendo l’IA e la competenza umana al centro del nostro lavoro.  <break></break><break></break>Dietro le nostre soluzioni basate sulle tecnologie linguistiche c’è un team di 100 esperti ed esperte in AI research, software, linguistica e gestione di progetto, che fonda il suo lavoro su uno scambio costante di conoscenze e sulla rapidità di pensiero e di azione.",
+          "small": "In qualità di fornitore di servizi linguistici basati sull'IA a livello internazionale, gestiamo progetti per oltre 1500 aziende in tutta Europa. Promuoviamo il cambiamento e sviluppiamo soluzioni che ridefiniscono lo status quo, mettendo l'IA e la competenza umana al centro del nostro lavoro.  <break></break><break></break>Dietro le nostre soluzioni basate sulle tecnologie linguistiche c’è un team di 100 esperti ed esperte in AI research, software, linguistica e gestione di progetto, che fonda il suo lavoro su uno scambio costante di conoscenze e sulla rapidità di pensiero e di azione.",
           "cta": {
             "title": "Scopri di più sulla nostra visione",
             "link": "/perche-supertext"
@@ -2972,7 +2973,7 @@
         },
         "lead": {
           "large": "La vostra traduzione: verificata da professionisti quando conta davvero.",
-          "small": "La traduzione IA è semplice, veloce e in costante miglioramento. Eppure c’è ancora qualcosa che nel 2025 l’IA non è in grado di fare: garantire l’accuratezza di un testo tradotto. <break></break> <break></break> Per i testi che contano davvero, Supertext vi mette in contatto diretto con oltre 3000 esperti ed esperte in materia di traduzione e transfer culturale. Grazie alla verifica a portata di click, in pochi minuti avrete la certezza che il vostro messaggio colga nel segno. Il tutto in modo affidabile, economico e veloce.",
+          "small": "La traduzione IA è semplice, veloce e in costante miglioramento. Eppure c’è ancora qualcosa che nel 2025 l'IA non è in grado di fare: garantire l’accuratezza di un testo tradotto. <break></break> <break></break> Per i testi che contano davvero, Supertext vi mette in contatto diretto con oltre 3000 esperti ed esperte in materia di traduzione e transfer culturale. Grazie alla verifica a portata di click, in pochi minuti avrete la certezza che il vostro messaggio colga nel segno. Il tutto in modo affidabile, economico e veloce.",
           "cta": {
             "title": "Prova ora",
             "link": "/"
@@ -3264,7 +3265,7 @@
         },
         "lead": {
           "large": "La vostra traduzione: verificata da professionisti quando conta davvero.",
-          "small": "La traduzione IA è semplice, veloce e in costante miglioramento. Eppure c’è ancora qualcosa che nel 2025 l’IA non è in grado di fare: garantire l’accuratezza di un testo tradotto. <break></break><break></break> Per i testi che contano davvero, Supertext vi mette in contatto diretto con oltre 3000 esperti ed esperte in materia di traduzione e transfer culturale. Grazie alla verifica a portata di click, in pochi minuti avrete la certezza che il vostro messaggio colga nel segno. Il tutto in modo affidabile, economico e veloce.",
+          "small": "La traduzione IA è semplice, veloce e in costante miglioramento. Eppure c’è ancora qualcosa che nel 2025 l'IA non è in grado di fare: garantire l’accuratezza di un testo tradotto. <break></break><break></break> Per i testi che contano davvero, Supertext vi mette in contatto diretto con oltre 3000 esperti ed esperte in materia di traduzione e transfer culturale. Grazie alla verifica a portata di click, in pochi minuti avrete la certezza che il vostro messaggio colga nel segno. Il tutto in modo affidabile, economico e veloce.",
           "cta": {
             "title": "Prova ora",
             "link": "/"
@@ -3578,7 +3579,7 @@
         "footerNote": {
           "text": "Con Supertext traducete <highlight>meglio</highlight> , in modo <highlight>più rapido, conveniente</highlight> e <highlight>sicuro.</highlight> Il tutto automatizzato dallo 0% al 100%.",
           "cta": {
-            "title": "Alla soluzione enterprise",
+            "title": "Alla soluzione business",
             "link": "/why-supertext",
             "target": "_blank"
           }

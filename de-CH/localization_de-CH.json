@@ -82,28 +82,28 @@
       "errors": {
         "unregistered": {
           "message": "Sie müssen eingeloggt sein",
-          "popover": "Sie können sich beim Free-Abo anmelden, um mit dem Übersetzen von Dateien zu beginnen."
+          "popover": "Sie können sich kostenlos anmelden, um mit dem Übersetzen von Dateien zu beginnen."
         },
         "noRemainingFiles": {
           "message": "Keine Dateien mehr verfügbar",
-          "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat"
+          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}"
         },
         "unsupportedFileType": {
-          "message": "Dateityp nicht im Abo enthalten",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+          "message": "{plan, select, Essential {Dateityp nicht im Abo enthalten} free {Dateityp nicht in Supertext Free enthalten} other {Dateityp nicht im Abo enthalten}}",
+          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
         },
         "limitedFileType": {
           "message": "Dateityp wird nicht unterstützt",
-          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und PowerPoint-Dateien",
+          "popover": "Supertext Free umfasst nur Word- und PowerPoint-Dateien",
           "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"
         },
         "freeTierLimit": {
-          "message": "Unser Free-Abo erlaubt KI-Übersetzungen für Word- und PowerPoint-Dateien. Jetzt upgraden, um PDFs, Excel-Dateien und weitere Formate freizuschalten.",
+          "message": "Supertext Free erlaubt KI-Übersetzungen für Word- und PowerPoint-Dateien. Jetzt upgraden, um PDFs, Excel-Dateien und weitere Formate freizuschalten.",
           "popover": ""
         },
         "fileSizeExceeded": {
           "message": "Dateigrösse überschreitet Ihr Limit",
-          "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
+          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB} free {Supertext Free umfasst Dateien bis {size} MB} other {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB}}"
         },
         "unsupportedFormat": {
           "message": "Wir bieten keine Übersetzung für {extension} an.",
@@ -125,7 +125,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} Dateien verfügbar",
-        "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
         "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
       },
       "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder"
@@ -359,19 +359,19 @@
     "errors": {
       "unregistered": {
         "message": "Sie müssen eingeloggt sein",
-        "popover": "Sie können sich beim Free-Abo anmelden, um mit dem Übersetzen von Dateien zu beginnen."
+        "popover": "Sie können sich kostenlos anmelden, um mit dem Übersetzen von Dateien zu beginnen."
       },
       "noRemainingFiles": {
         "message": "Keine Dateien mehr verfügbar",
-        "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat"
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}"
       },
       "unsupportedFileType": {
         "message": "Dateityp nicht im Abo enthalten",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
       },
       "limitedFileType": {
         "message": "Dateityp wird nicht unterstützt",
-        "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und PowerPoint-Dateien"
+        "popover": "Supertext Free umfasst nur Word- und PowerPoint-Dateien"
       },
       "freeTierLimit": {
         "message": "Kostenfrei und ohne Registrierung können Sie KI-Übersetzungen nur für Word- und PowerPoint-Dateien nutzen. Registrieren Sie sich jetzt, um auch PDF- und Excel-Dateien sowie viele weitere Dateiformate zu übersetzen – ab CHF 9.00 monatlich.",
@@ -379,7 +379,7 @@
       },
       "fileSizeExceeded": {
         "message": "Dateigrösse überschreitet Ihr Limit",
-        "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB} free {Supertext Free umfasst Dateien bis {size} MB} other {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB}}"
       },
       "unsupportedFormat": {
         "message": "Wir bieten keine Übersetzung für {Erweiterungsdateien} an.",
@@ -392,7 +392,7 @@
     },
     "availableFiles": {
       "message": "{remaining}/{total} Dateien verfügbar",
-      "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
+      "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}",
       "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
     }
   },
@@ -687,7 +687,7 @@
   "notifications": {
     "info": {
       "waitingForSlowTranslation": "Ihre Übersetzung dauert etwas länger als normal. Bitte haben Sie Geduld.",
-      "submittingVerification": "Übermittlung der Verifizierung, bitte warten ..."
+      "submittingVerification": "Übermittlung des Profi-Checks, bitte warten ..."
     },
     "failure": {
       "systemUnavailable": "Das Übersetzungssystem ist nicht verfügbar. Bitte kontaktieren Sie Ihre:n Systemadministrator:in.",
@@ -731,7 +731,7 @@
         "UserHasLicenseAssigned": "Diese Person hat bereits eine Lizenz für ein Supertext-Abo zugewiesen. Bitten Sie sie, die aktuelle Lizenz zuerst von einem Team-Admin entfernen zu lassen, bevor sie in Ihr Team eingeladen werden kann.",
         "UserNotMemberOfTeamsCompany": "Die Person kann nicht in Ihr Team eingeladen werden, weil sie einer anderen Organisation zugeordnet ist. Bitte melden Sie sich bei <a href=\"mailto:hello@supertext.com\">hello@supertext.com</a>, falls die Person stattdessen Ihrer Organisation zugeordnet werden soll.",
         "TeamWithPaymentProvider": "Diese Person hat eine Kreditkarte in ihrem Profil hinterlegt. Bitten Sie sie, die Kreditkarte zu entfernen, bevor sie in Ihr Team eingeladen werden kann.",
-        "removeMemberBatch": "Beim Entfernen dir Mitgliedern aus dem Team ist ein Fehler aufgetreten"
+        "removeMemberBatch": "Beim Entfernen der Mitglieder aus dem Team ist ein Fehler aufgetreten"
       },
       "subscription": {
         "cancel": "Beim Kündigen des Abos ist ein Fehler aufgetreten.",
@@ -750,7 +750,7 @@
       "officeHoursAvailability": "Konnte keine Büroverfügbarkeit abrufen",
       "userIsNotAuthenticated": "User:in ist nicht authentifiziert",
       "noDataReceived": "Keine Daten empfangen",
-      "couldNotFetchVerificationJob": "Beim Abrufen des Verifizierungsauftrags ist etwas schiefgelaufen.",
+      "couldNotFetchVerificationJob": "Beim Abrufen des Profi-Checks ist etwas schiefgelaufen.",
       "somethingWentWrongWithPricing": "Bei der Preisschätzung ist etwas schiefgelaufen.",
       "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler erneut auftritt.",
       "downgradeSubscriptionsIndividual": {
@@ -770,7 +770,7 @@
         "changeRole": "Rolle erfolgreich geändert",
         "editMember": "Teammitglied erfolgreich bearbeitet",
         "removeMember": "User:in erfolgreich aus dem Team entfernt",
-        "removeMemberBatch": "{count, plural, =1 {1 Teammitglied wurde} other {# Teammitglieder wurde} erfolgreich aus dem Team entfernt"
+        "removeMemberBatch": "{count, plural, =1 {1 Teammitglied wurde} other {# Teammitglieder wurden} erfolgreich aus dem Team entfernt"
       },
       "subscription": {
         "cancel": "Abo erfolgreich gekündigt",
@@ -976,12 +976,12 @@
         "comparePlans": "Abos vergleichen",
         "showMore": "Mehr anzeigen",
         "cancellationInfo": "Sie haben Ihr Abo gekündigt. Es endet am",
-        "freePlanInfo": "Ihr Abo wird auf den kostenlosen Free-Tarif umgestellt.",
+        "freePlanInfo": "Ihr Konto wird auf Supertext Free umgestellt.",
         "customPlanInfo": "Passen Sie Ihr Abo Ihren Bedürfnissen an",
         "upgradeSubscriptionInformation": "Bitten Sie eine:n Admin, Ihr Abo zu aktualisieren",
         "annuallySubscription": "Jährlich",
         "monthlySubscription": "Monatlich",
-        "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf unser Free-Abo.",
+        "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf Supertext Free.",
         "addLicenses": "weitere Lizenzen hinzufügen.",
         "subscribeMow": "Jetzt abonnieren",
         "requestOffer": "Angebot anfordern",
@@ -990,7 +990,6 @@
         "reactivateSubscription": "Reaktivieren",
         "cancelSubscription": "Gecancelt",
         "expiresOn": "Läuft ab am",
-        "startsOn": "Starts on",
         "moreInfo": "Details ansehen",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
@@ -1068,7 +1067,8 @@
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "accessRequested": "Zugang in Prüfung",
-        "modalTitle": "Feature-Details"
+        "modalTitle": "Feature-Details",
+        "startsOn": "Startet am"
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1261,7 +1261,7 @@
           },
           "subscription": {
             "title": "Team-Abo ändern",
-            "description": "Alle User:innen ohne zugewiesene Lizenz profitieren automatisch und kostenlos von unserem Free-Abo.",
+            "description": "Alle User:innen ohne zugewiesene Lizenz profitieren automatisch und kostenlos von Supertext Free.",
             "comparePlans": "Abos vergleichen",
             "numberOfLicenses": "Anzahl Lizenzen",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
@@ -1312,7 +1312,7 @@
             "afterTrialPeriod": "(nach Testphase)",
             "expiresOn": "Läuft ab am",
             "missingPaymentMethod": {
-              "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abonnement vornehmen.",
+              "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abo vornehmen.",
               "link": "Zahlungsmethode aktualisieren"
             },
             "after": "nach",
@@ -1351,8 +1351,8 @@
         "noLicense": "Free",
         "hasLicense": "Essential",
         "emailPlaceholder": "beispiel@gmail.com",
-        "licenseMultipleTag": "User lizenzieren",
-        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitglieder keine Lizenzen zuweisen. Es wurden {selectedCount} Benutzer ausgewählt, aber es sind  {licencesAvailable, plural, =0 {keine Lizenzen} =1 { nur 1 Lizenz} other {nur # Lizenzen}}  verfügbar.",
+        "licenseMultipleTag": "User:innen lizenzieren",
+        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}} verfügbar.",
         "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert"
       },
       "delivery": {
@@ -1446,7 +1446,7 @@
     },
     "fileTranslation": {
       "uploadFile": "Datei übersetzen",
-      "programmaticFileTranslationTooltip": "Starte mit dem Übersetzen von {fileType} Dateien"
+      "programmaticFileTranslationTooltip": "Starten Sie mit dem Übersetzen von {fileType}-Dateien"
     },
     "humanVerification": {
       "verifyButton": "Profi-Check starten",
@@ -1460,7 +1460,7 @@
         "description": "Danke für Ihre Geduld! Dieser Service wird bald für weitere Sprachpaare verfügbar sein."
       },
       "stepOne": {
-        "title": "Verifizierung",
+        "title": "Profi-Check",
         "payWithInvoice": "Die Zahlung erfolgt per Rechnung.",
         "payWithCard": "Die Zahlung erfolgt über Ihre gespeicherten Kreditkartendaten.",
         "payWithExpiredCardInfo": "Ihre Standardzahlungsmethode ist auf Kartenzahlungen eingestellt, aber Ihre Karte ist abgelaufen. Aktualisieren Sie Ihre Kreditkartendaten.",
@@ -2186,7 +2186,7 @@
           "languageServices": {
             "items": [
               {
-                "title": "AI Translation & Verifizierung",
+                "title": "AI Translation & Profi-Check",
                 "description": "Sicher sein – in Minuten statt Stunden. Mit unserem Profi-Check auf Knopfdruck.",
                 "cta": {
                   "title": "Mehr erfahren",
@@ -2521,7 +2521,7 @@
             {
               "image": "/images/pages/language-expertise/Alex.webp",
               "quote": "«Das beste Sprachmodell? Ihr eigenes.»",
-              "person": "Alex Flückiger, Senior Research Scientist",
+              "person": "Alex Flückiger, Head of AI Research",
               "content": [
                 {
                   "title": "Was macht ein Research Scientist genau?",
@@ -2783,7 +2783,7 @@
         },
         "lead": {
           "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie.</highlight> Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
-          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
+          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus rund 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
           "cta": {
             "title": "Mehr zu unserer Vision",
             "link": "/warum-supertext"
@@ -3155,7 +3155,7 @@
         },
         "serviceList": {
           "title": "SICHERHEIT schreiben wir in jeder Sprache gross",
-          "description": "Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und mehrfach geschützten Schweizer Servern halten wir Ihre Daten sicher unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen. Und selbstverständlich zu 100 % konform mit den Vorschriften gemäss GDPR und dem Schweizer Datenschutzgesetz.",
+          "description": "Mit höchsten Datenmanagement-Standards, robuster Verschlüsselung und mehrfach geschützten Schweizer Servern halten wir Ihre Daten sicher unter Verschluss. Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen. Und selbstverständlich zu 100 % konform mit den Vorschriften gemäss DSGVO und dem Schweizer Datenschutzgesetz.",
           "services": [
             {
               "title": "",
@@ -3753,7 +3753,7 @@
           }
         },
         "figuresPanel": {
-          "title": "7 GRÜNDE FÜR SUPERTEXT",
+          "title": "6 GRÜNDE FÜR SUPERTEXT",
           "items": [
             {
               "title": "Einzige Textagentur mit hauseigener Language AI und Sprachprofis an einem Ort"

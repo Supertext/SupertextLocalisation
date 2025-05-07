@@ -82,28 +82,28 @@
       "errors": {
         "unregistered": {
           "message": "You must be logged in",
-          "popover": "You can log in with the Free subscription to start translating files."
+          "popover": "You can log in or sign up for free to start translating files."
         },
         "noRemainingFiles": {
           "message": "No more files available",
-          "popover": "Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month"
+          "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month} free {Supertext Free includes {count, plural, =1 {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month}}"
         },
         "unsupportedFileType": {
-          "message": "File type not included in subscription",
-          "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes Word, Excel, PowerPoint, PDF, and SRT files} free {Your {subscriptionType} subscription includes Word and PowerPoint files }other {Your {subscriptionType} subscription includes limited file types}}"
+          "message": "{plan, select, Essential {File type not included in subscription} free {File type not included in Supertext Free} other {File type not included in subscription}}",
+          "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes Word, Excel, PowerPoint, PDF, and SRT files} free {Supertext Free includes Word and PowerPoint files }other {Your {subscriptionType} subscription includes limited file types}}"
         },
         "limitedFileType": {
           "message": "File type not supported",
-          "popover": "Your {subscriptionType} subscription only includes Word and PowerPoint files",
+          "popover": "Supertext Free only includes Word and PowerPoint files",
           "popover2": "AI translation is currently available for Word, Excel, PowerPoint, PDF and SRT files"
         },
         "freeTierLimit": {
-          "message": "Our free subscription allows AI translation for Word and PowerPoint files. Upgrade now to unlock PDFs, Excel files and further formats.",
+          "message": "Supertext Free includes AI translation for Word and PowerPoint files. Upgrade now to unlock PDFs, Excel files and more formats.",
           "popover": ""
         },
         "fileSizeExceeded": {
           "message": "File size exceeds your limit",
-          "popover": "Your {subscriptionType} subscription includes files up to {size} MB"
+          "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes files up to {size} MB} free {Supertext Free includes files up to {size} MB} other {Your {subscriptionType} subscription includes files up to {size} MB}}"
         },
         "unsupportedFormat": {
           "message": "We do not offer translation of {extension}.",
@@ -359,19 +359,19 @@
     "errors": {
       "unregistered": {
         "message": "You must be logged in",
-        "popover": "You can log in with the Free subscription to start translating files."
+        "popover": "You can log in or sign up for free to start translating files."
       },
       "noRemainingFiles": {
         "message": "No more files available",
-        "popover": "Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month"
+        "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month} free {Supertext Free includes {count, plural, =1 {# file} other {# files}} per month}other {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month}}"
       },
       "unsupportedFileType": {
         "message": "File type not included in subscription",
-        "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes Word, Excel, PowerPoint, PDF, and SRT files} free {Your {subscriptionType} subscription includes Word and PowerPoint files }other {Your {subscriptionType} subscription includes limited file types}}"
+        "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes Word, Excel, PowerPoint, PDF, and SRT files} free {Supertext Free includes Word and PowerPoint files }other {Your {subscriptionType} subscription includes limited file types}}"
       },
       "limitedFileType": {
         "message": "File type not supported",
-        "popover": "Your {subscriptionType} subscription only includes Word and PowerPoint files"
+        "popover": "Supertext Free only includes Word and PowerPoint files"
       },
       "freeTierLimit": {
         "message": "Free AI translation without registration is only available for Word and PowerPoint files. Register now to translate PDF and Excel files as well as many other file formats – from CHF 9.00 per month.",
@@ -379,7 +379,7 @@
       },
       "fileSizeExceeded": {
         "message": "File size exceeds your limit",
-        "popover": "Your {subscriptionType} subscription includes files up to {size} MB"
+        "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes files up to {size} MB} free {Supertext Free includes files up to {size} MB} other {Your {subscriptionType} subscription includes files up to {size} MB}}"
       },
       "unsupportedFormat": {
         "message": "We do not offer translation of {Erweiterungsdateien}.",
@@ -392,7 +392,7 @@
     },
     "availableFiles": {
       "message": "{remaining}/{total} files available",
-      "popover": "Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month",
+      "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month} free {Supertext Free includes {count, plural, =1 {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month}}",
       "unregisteredPopover": "You must be logged in to begin translating files."
     }
   },
@@ -799,7 +799,7 @@
   "starstruck": {
     "welcomeMessage": "Grüezi.",
     "noEntries": "No entries found.",
-    "placeOrder": "Professional services",
+    "placeOrder": "Place an order",
     "or": "or",
     "entriesPerPage": "Entries per page",
     "changeLanguage": "Change language",
@@ -976,7 +976,7 @@
         "comparePlans": "Compare subscriptions",
         "showMore": "Show more",
         "cancellationInfo": "You have cancelled your subscription. It ends on",
-        "freePlanInfo": "You will be switched to the Free subscription.",
+        "freePlanInfo": "Your account will be switched to Supertext Free.",
         "customPlanInfo": "Customise your subscription to meet your needs",
         "upgradeSubscriptionInformation": "Please ask an admin to update your subscription",
         "annuallySubscription": "Annual",
@@ -990,7 +990,6 @@
         "reactivateSubscription": "Reactivate",
         "cancelSubscription": "Cancelled",
         "expiresOn": "Expires on",
-        "startsOn": "Starts on",
         "moreInfo": "View details",
         "hero": {
           "title": "Find your perfect Supertext subscription",
@@ -1068,7 +1067,8 @@
         "requestAccess": "Request access",
         "requestAccessSuccess": "Your request was sent successfully",
         "accessRequested": "Access requested",
-        "modalTitle": "Feature details"
+        "modalTitle": "Feature details",
+        "startsOn": "Starts on"
       },
       "resources": {
         "title": "Linguistic resources",
@@ -1257,11 +1257,11 @@
             },
             "paginationOf": "of",
             "editSelectedMembers": "Edit selected members",
-            "roleBatchUpdateSuccess": "{count, plural, =0 { No roles have been updated } =1 { The role of 1 member has been updated } other { The role of # members has been updated }} successfully"
+            "roleBatchUpdateSuccess": "{count, plural, =0 {No roles have been} =1 {The role of 1 member has been} other {The role of # members has been}} updated successfully"
           },
           "subscription": {
             "title": "Change team subscription",
-            "description": "All users without an assigned licence automatically benefit from our Free subscription.",
+            "description": "All users without an assigned licence automatically benefit from Supertext Free.",
             "comparePlans": "Compare subscriptions",
             "numberOfLicenses": "Number of licences",
             "licencesCount": "{count, plural, one {# seat} other {# seats}}",
@@ -1293,7 +1293,7 @@
               "termsConfirmation": "I confirm the above subscription change and accept the",
               "termsAndConditions": "terms and conditions.",
               "immediateChange": "This change is effective immediately.",
-              "nextBillingChange": "This change is effective from the next billing period.",
+              "nextBillingChange": "You are requesting a reduction in the number of licences from {previousCount} to {newCount}. This change is effective from the next billing period.",
               "makePayment": "Confirm order",
               "zeroPayableNowOnTrialPeriod": "Additional licences are free during the test phase and will be charged in the next billing period after the test phase ends.",
               "removeLicensesError": {
@@ -1351,7 +1351,7 @@
         "noLicense": "Free",
         "hasLicense": "Essential",
         "emailPlaceholder": "example@gmail.com",
-        "licenseMultipleTag": "Licence user",
+        "licenseMultipleTag": "License user",
         "licenseMultipleTagNoLicencesAvailable": "You cannot assign licences to the selected members. {selectedCount} users were selected, but {licencesAvailable, plural, =0 { no licences } =1 { only 1 licence } other { only # licences }} are available.",
         "licenceMultipleSuccess": "{count, plural, =0 { No licences have been updated } =1 { The licence of 1 member has been updated } other { The licences of # members have been updated }} successfully"
       },
@@ -2559,7 +2559,7 @@
           "description": "Contact the Supertext Sales team"
         },
         "salesSection": {
-          "title": "We are happy to help you personally – <highlight>in&nbsp;under 60&nbsp;minutes</highlight>",
+          "title": "We are happy to help you personally – <highlight>in&nbsp;under 60&nbsp;minutes</highlight>",
           "description": "Do you need a custom quote? Or are you interested in our Enterprise solution? Fill out the form and we will connect you with the right contact person in record time.",
           "bulletPoints": {
             "point1": "Information on how Supertext can support your global business expansion",
@@ -2733,7 +2733,7 @@
           "categoryTitle": "Filter by topic"
         },
         "footerNote": {
-          "text": "Was your question <highlight>not included?</highlight> Then please feel free to <highlight>contact</highlight> us.",
+          "text": "<highlight>Didn’t</highlight> find an answer to your question? Then please feel free to <highlight>contact</highlight> us.",
           "cta": {
             "title": "Let’s talk",
             "link": "/contact",
@@ -2783,7 +2783,7 @@
         },
         "lead": {
           "large": "We are passionate about <highlight>language</highlight> and <highlight>technology.</highlight> And we are always on the lookout for <highlight>new employees</highlight> who feel the same way.",
-          "small": "As an international AI language service provider, we deliver projects for over 1,500 companies across Europe. We drive change and develop solutions that redefine the status quo. With AI and human expertise at the core of our work. <break></break> <break></break> Behind our language technology solutions is a team of 100 experts in AI research, software, linguistics and project management. Fast-thinking, fast-acting, and driven by constant knowledge exchange.",
+          "small": "As an international AI language service provider, we deliver projects for over 1,500 companies across Europe. We drive change and develop solutions that redefine the status quo – with AI and human expertise at the core of our work. <break></break> <break></break> Behind our language technology solutions is a team of around 100 experts in AI research, software, linguistics and project management. Fast-thinking, fast-acting, and driven by constant knowledge exchange.",
           "cta": {
             "title": "More about our vision",
             "link": "/why-supertext"
@@ -3155,7 +3155,7 @@
         },
         "serviceList": {
           "title": "Security is our favourite word in every language",
-          "description": "We always keep your data safe and secure thanks to the highest data management standards, robust encryption and highly protected Swiss servers. That’s why we are the partner of choice for banks, public authorities and insurers. And of course, 100% compliant with GDPR and the Swiss Data Protection Act.",
+          "description": "We always keep your data safe and secure thanks to the highest data management standards, robust encryption and highly protected Swiss servers. That’s why we are the partner of choice for banks, public authorities and insurers. And of course, we’re 100% compliant with GDPR and the Swiss Data Protection Act.",
           "services": [
             {
               "title": "",
@@ -3869,7 +3869,7 @@
       },
       "proofreading": {
         "hero": {
-          "title": "Proofreading, editing, rewriting – the finishing touch",
+          "title": "Editing, proofreading, rewriting – the finishing touch",
           "description": "Our editing services guarantee error-free communication and the right tone in every language."
         },
         "lead": {

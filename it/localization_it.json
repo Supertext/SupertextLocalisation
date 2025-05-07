@@ -82,28 +82,28 @@
       "errors": {
         "unregistered": {
           "message": "Deve aver effettuato il login",
-          "popover": "Può accedere all’abbonamento Free per iniziare a tradurre file."
+          "popover": "Può accedere gratuitamente per iniziare a tradurre file."
         },
         "noRemainingFiles": {
           "message": "Nessun altro file disponibile",
-          "popover": "Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese"
+          "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, =1 {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese}}"
         },
         "unsupportedFileType": {
-          "message": "Tipo di file non incluso nell’abbonamento",
-          "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file Word, Excel, PowerPoint, PDF e SRT} free {Il Suo abbonamento {subscriptionType} comprende file Word e PowerPoint}other {Il Suo abbonamento {subscriptionType} comprende tipi di file limitati}}"
+          "message": "{plan, select, Essential {Tipo di file non incluso nell’abbonamento} free {Tipo di file non incluso in Supertext Free} other {Tipo di file non incluso nell’abbonamento}}",
+          "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file Word, Excel, PowerPoint, PDF e SRT} free {Supertext Free comprende file Word e PowerPoint}other {Il Suo abbonamento {subscriptionType} comprende tipi di file limitati}}"
         },
         "limitedFileType": {
           "message": "Tipo di file non supportato",
-          "popover": "Il Suo abbonamento {subscriptionType} comprende solo file Word e PowerPoint",
+          "popover": "Supertext Free comprende solo file Word e PowerPoint",
           "popover2": "Attualmente, le traduzioni IA sono disponibili per i file Word, Excel, PowerPoint, PDF e SRT"
         },
         "freeTierLimit": {
-          "message": "Il nostro abbonamento Free offre traduzioni IA di file Word e PowerPoint. Effettui ora l’upgrade per tradurre file PDF, Excel e altri formati.",
+          "message": "Supertext Free offre traduzioni IA di file Word e PowerPoint. Effettui ora l’upgrade per tradurre file PDF, Excel e altri formati.",
           "popover": ""
         },
         "fileSizeExceeded": {
           "message": "La dimensione del file supera il limite consentito",
-          "popover": "Il Suo abbonamento {subscriptionType} comprende file fino a {size} MB"
+          "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file fino a {size} MB} free {Supertext Free comprende file fino a {size} MB} other {Il Suo abbonamento {subscriptionType} comprende file fino a {size} MB}}"
         },
         "unsupportedFormat": {
           "message": "Non offriamo la traduzione per {extension}.",
@@ -359,19 +359,19 @@
     "errors": {
       "unregistered": {
         "message": "Deve aver effettuato il login",
-        "popover": "Può accedere all’abbonamento Free per iniziare a tradurre file."
+        "popover": "Può accedere gratuitamente per iniziare a tradurre file."
       },
       "noRemainingFiles": {
         "message": "Nessun altro file disponibile",
-        "popover": "Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese"
+        "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, =1 {# file} other {# file}} al mese}other {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese}}"
       },
       "unsupportedFileType": {
         "message": "Tipo di file non incluso nell’abbonamento",
-        "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file Word, Excel, PowerPoint, PDF e SRT} free {Il Suo abbonamento {subscriptionType} comprende file Word e PowerPoint}other {Il Suo abbonamento {subscriptionType} comprende tipi di file limitati}}"
+        "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file Word, Excel, PowerPoint, PDF e SRT} free {Supertext Free comprende file Word e PowerPoint} other {Il Suo abbonamento {subscriptionType} comprende tipi di file limitati}}"
       },
       "limitedFileType": {
         "message": "Tipo di file non supportato",
-        "popover": "Il Suo abbonamento {subscriptionType} comprende solo file Word e PowerPoint"
+        "popover": "Supertext Free comprende solo file Word e PowerPoint"
       },
       "freeTierLimit": {
         "message": "Gratuitamente e senza registrazione è possibile utilizzare la traduzione IA solo per i file Word e PowerPoint. Si registri ora per tradurre anche i file PDF ed Excel nonché molti altri formati. A partire da CHF 9.00 al mese.",
@@ -379,7 +379,7 @@
       },
       "fileSizeExceeded": {
         "message": "La dimensione del file supera il limite consentito",
-        "popover": "Il Suo abbonamento {subscriptionType} comprende file fino a {size} MB"
+        "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file fino a {size} MB} free {Supertext Free comprende file fino a {size} MB} other {Il Suo abbonamento {subscriptionType} comprende file fino a {size} MB}}"
       },
       "unsupportedFormat": {
         "message": "Non offriamo la traduzione per {Erweiterungsdateien}.",
@@ -392,7 +392,7 @@
     },
     "availableFiles": {
       "message": "{remaining}/{total} file disponibili",
-      "popover": "Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese",
+      "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, =1 {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese}}",
       "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
     }
   },
@@ -770,7 +770,7 @@
         "changeRole": "Il ruolo è stato modificato",
         "editMember": "I dati del membro del team sono stati modificati",
         "removeMember": "L’utente è stato rimosso dal team",
-        "removeMemberBatch": "{count, plural, =1 {1 membro del team è stato} rimosso dal team {# membri del team sono stati} rimossi dal team"
+        "removeMemberBatch": "{count, plural, =1 {1 membro è stato rimosso} o {# membri sono stati rimossi} dal team"
       },
       "subscription": {
         "cancel": "L’abbonamento è stato disdetto",
@@ -799,7 +799,7 @@
   "starstruck": {
     "welcomeMessage": "Grüezi.",
     "noEntries": "Nessun risultato trovato.",
-    "placeOrder": "Servizi professionali",
+    "placeOrder": "Crea ordine",
     "or": "o",
     "entriesPerPage": "Risultati per pagina",
     "changeLanguage": "Cambia lingua",
@@ -976,7 +976,7 @@
         "comparePlans": "Confronto tra gli abbonamenti",
         "showMore": "Mostra di più",
         "cancellationInfo": "Il Suo abbonamento è stato disdetto. Scade il giorno",
-        "freePlanInfo": "Il Suo abbonamento sarà convertito alla tariffa gratuita Free.",
+        "freePlanInfo": "Il Suo abbonamento sarà convertito a Supertext Free.",
         "customPlanInfo": "Configuri il Suo abbonamento in base alle Sue esigenze",
         "upgradeSubscriptionInformation": "Si rivolga a un admin per aggiornare il Suo abbonamento",
         "annuallySubscription": "Annuale",
@@ -990,7 +990,6 @@
         "reactivateSubscription": "Riattiva",
         "cancelSubscription": "Disdetto",
         "expiresOn": "Scade in data",
-        "startsOn": "Starts on",
         "moreInfo": "Visualizza dettagli",
         "hero": {
           "title": "Trovate l’abbonamento Supertext che fa per voi",
@@ -1068,7 +1067,8 @@
         "requestAccess": "Richiedi l'accesso",
         "requestAccessSuccess": "La Sua richiesta è stata inviata.",
         "accessRequested": "Verifica dell’accesso in corso",
-        "modalTitle": "Dettagli della funzione"
+        "modalTitle": "Dettagli della funzione",
+        "startsOn": "Data d’inizio"
       },
       "resources": {
         "title": "Risorse linguistiche",
@@ -1086,7 +1086,7 @@
         "licenseValidation": "La licenza deve essere una lunghezza di almeno 2 caratteri",
         "comment": "Denominazione (opzionale)",
         "commentValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
-        "company": "Azienda/ organizzazione",
+        "company": "Azienda/organizzazione",
         "name": "Nome",
         "changeName": "Modificare il nome",
         "nameValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
@@ -1217,7 +1217,7 @@
             "title": "Team",
             "userManagement": "Gestione utenti",
             "addMember": "Aggiungi membro",
-            "editMember": "Modificare utente",
+            "editMember": "Modifica membro",
             "removeMember": "Rimuovi",
             "deleteMember": "Rimuovere membro",
             "deleteMemberConfirmation": "Procedere? Questa azione non potrà essere annullata.",
@@ -1261,7 +1261,7 @@
           },
           "subscription": {
             "title": "Modifica l’abbonamento",
-            "description": "Tutti gli utenti a cui non è stata assegnata una licenza usufruiscono automaticamente e gratuitamente del nostro abbonamento Free.",
+            "description": "Tutti gli utenti a cui non è stata assegnata una licenza usufruiscono automaticamente e gratuitamente di Supertext Free.",
             "comparePlans": "Confronto tra gli abbonamenti",
             "numberOfLicenses": "Numero di licenze",
             "licencesCount": "{count, plural, one {# licenza} other {# licenze}}",
@@ -1293,7 +1293,7 @@
               "termsConfirmation": "Confermo la modifica dell’abbonamento sopraindicata e accetto le",
               "termsAndConditions": "condizioni generali di contratto.",
               "immediateChange": "La presente modifica ha effetto immediato.",
-              "nextBillingChange": "Questa modifica verrà applicata a partire dal prossimo periodo di fatturazione.",
+              "nextBillingChange": "Lei ha richiesto una riduzione del numero di licenze da {previousCount} a {newCount}. Questa modifica verrà applicata a partire dal prossimo periodo di fatturazione.",
               "makePayment": "Ordina in modo vincolante",
               "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e verranno addebitate al termine di tale fase nel periodo di fatturazione successivo.",
               "removeLicensesError": {
@@ -1352,7 +1352,7 @@
         "hasLicense": "Essential",
         "emailPlaceholder": "esempio@gmail.com",
         "licenseMultipleTag": "Assegna una licenza all’utente",
-        "licenseMultipleTagNoLicencesAvailable": "Non è possibile assegnare licenze ai membri selezionati. Sono stati selezionati {selectedCount} utenti, ma {licencesAvailable, plural, =0 {non è disponibile nessuna licenza } =1 { è disponibile solo 1 licenza } other {sono disponibili solo # licenze }}.",
+        "licenseMultipleTagNoLicencesAvailable": "Impossibile assegnare licenze ai membri selezionati. Sono stati selezionati {selectedCount} utenti, ma {licencesAvailable, plural, =0 {non è disponibile nessuna licenza } =1 { è disponibile solo 1 licenza } other {sono disponibili solo # licenze }}.",
         "licenceMultipleSuccess": "{count, plural, =0 {Nessuna licenza è stata aggiornata} =1 { La licenza di 1 membro è stata aggiornata} other {Le licenze di # membri sono state aggiornate}}"
       },
       "delivery": {
@@ -1595,7 +1595,7 @@
       "readMore": "Scopri di più",
       "acceptedPaymentMethods": "Metodi di pagamento accettati",
       "firstRunPopover": {
-        "title": "\n<highlightText>NOVITÀ</highlightText> Verifica professionale in pochi minuti",
+        "title": "<highlightText>NOVITÀ</highlightText> Verifica professionale in pochi minuti",
         "description": "Faccia controllare e correggere subito le traduzioni importanti da esperti madrelingua. Avrà così la garanzia di ottenere una traduzione corretta."
       }
     },
@@ -2559,7 +2559,7 @@
           "description": "Contattate il team Sales di Supertext"
         },
         "salesSection": {
-          "title": "Siamo a vostra disposizione e vi ricontatteremo <highlight>nel giro di 60&nbsp;minuti</highlight>",
+          "title": "Siamo a vostra disposizione e vi ricontatteremo <highlight>nel giro di 60 minuti</highlight>",
           "description": "Desiderate ricevere un’offerta personalizzata o maggiori informazioni sulla nostra soluzione Enterprise? Compilate il modulo e vi metteremo in contatto con la persona giusta in tempi record.",
           "bulletPoints": {
             "point1": "Informazioni su come Supertext può supportare l’espansione della vostra azienda a livello globale",
@@ -2821,7 +2821,7 @@
               },
               {
                 "title": "Vendor Management",
-                "description": "Il Vendor Management è il primo interlocutore per i nostri professionisti linguistici esterni. Si occupa del reclutamento e della valutazione dei nostri freelancer e chiarisce tutte le domande relative alla collaborazione con noi."
+                "description": "Il primo interlocutore per i nostri professionisti linguistici esterni. Si occupa del reclutamento e della valutazione dei nostri freelancer e chiarisce tutte le domande relative alla collaborazione con noi."
               },
               {
                 "title": "Sales & Marketing",
@@ -3577,7 +3577,7 @@
           }
         ],
         "footerNote": {
-          "text": "Con Supertext traducete <highlight>meglio</highlight> , in modo <highlight>più rapido, conveniente</highlight> e <highlight>sicuro.</highlight> Il tutto automatizzato dallo 0% al 100%.",
+          "text": "Con Supertext traducete <highlight>meglio, in modo più rapido, conveniente e sicuro.</highlight> Il tutto automatizzato dallo 0% al 100%.",
           "cta": {
             "title": "Alla soluzione enterprise",
             "link": "/why-supertext",

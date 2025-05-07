@@ -86,24 +86,24 @@
         },
         "noRemainingFiles": {
           "message": "Plus aucun fichier disponible",
-          "popover": "Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois."
+          "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} free {Supertext Free comprend {count, plural, =1 {# fichier} other {# fichiers}} per mois.} other {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.}}"
         },
         "unsupportedFileType": {
-          "message": "Type de fichier non inclus dans l’abonnement",
-          "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend des fichiers Word, Excel, PowerPoint, PDF et SRT} free {Votre abonnement {subscriptionType} comprend des fichiers Word et PowerPoint}other {Votre abonnement {subscriptionType} comprend des types de fichiers limités}}"
+          "message": "{plan, select, Essential {Type de fichier non inclus dans l’abonnement} free {Type de fichier non inclus dans Supertext Free} other {Type de fichier non inclus dans l’abonnement}}",
+          "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend des fichiers Word, Excel, PowerPoint, PDF et SRT} free {Supertext Free comprend des fichiers Word et PowerPoint}other {Votre abonnement {subscriptionType} comprend des types de fichiers limités}}"
         },
         "limitedFileType": {
           "message": "Type de fichier non pris en charge",
-          "popover": "Votre abonnement {subscriptionType} ne comprend que des fichiers Word et PowerPoint.",
+          "popover": "Supertext Free ne comprend que des fichiers Word et PowerPoint.",
           "popover2": "Les traductions par IA sont actuellement possibles pour les fichiers Word, Excel, PowerPoint, PDF et SRT"
         },
         "freeTierLimit": {
-          "message": "Notre abonnement gratuit permet la traduction par l'IA de fichiers Word et PowerPoint. Passez à la version supérieure dès maintenant pour activer cette fonction pour des PDF, des fichiers Excel et d’autres formats.",
+          "message": "Supertext Free permet la traduction par l’IA de fichiers Word et PowerPoint. Passez à la version supérieure dès maintenant pour activer cette fonction pour des PDF, des fichiers Excel et d’autres formats.",
           "popover": ""
         },
         "fileSizeExceeded": {
           "message": "La taille du fichier dépasse la limite.",
-          "popover": "Votre abonnement {subscriptionType} comprend des fichiers jusqu’à {size} Mo."
+          "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend des fichiers jusqu’à {size} Mo.} free {Supertext Free comprend des fichiers jusqu’à {size} Mo.} other {Votre abonnement {subscriptionType} comprend des fichiers jusqu’à {size} Mo.}}"
         },
         "unsupportedFormat": {
           "message": "Nous ne proposons pas de traduction pour les {extension}.",
@@ -363,15 +363,15 @@
       },
       "noRemainingFiles": {
         "message": "Plus aucun fichier disponible",
-        "popover": "Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois."
+        "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois} free {Supertext Free comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois}other {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois}}"
       },
       "unsupportedFileType": {
         "message": "Type de fichier non inclus dans l’abonnement",
-        "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend des fichiers Word, Excel, PowerPoint, PDF et SRT} free {Votre abonnement {subscriptionType} comprend des fichiers Word et PowerPoint}other {Votre abonnement {subscriptionType} comprend des types de fichiers limités}}"
+        "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend des fichiers Word, Excel, PowerPoint, PDF et SRT} free {Supertext Free comprend des fichiers Word et PowerPoint}other {Votre abonnement {subscriptionType} comprend des types de fichiers limités}}"
       },
       "limitedFileType": {
         "message": "Type de fichier non pris en charge",
-        "popover": "Votre abonnement {subscriptionType} ne comprend que des fichiers Word et PowerPoint."
+        "popover": "Supertext Free ne comprend que des fichiers Word et PowerPoint."
       },
       "freeTierLimit": {
         "message": "Sans frais et sans inscription, vous pouvez utiliser la traduction par l'IA uniquement pour les fichiers Word et PowerPoint. Inscrivez-vous dès maintenant pour traduire également des fichiers PDF et Excel, ainsi que de nombreux autres formats de fichiers – à partir de CHF 9.– par mois.",
@@ -379,7 +379,7 @@
       },
       "fileSizeExceeded": {
         "message": "La taille du fichier dépasse la limite.",
-        "popover": "Votre abonnement {subscriptionType} comprend des fichiers jusqu’à {size} Mo."
+        "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend des fichiers jusqu’à {size} Mo.} free {Supertext Free comprend des fichiers jusqu’à {size} Mo.} other {Votre abonnement {subscriptionType} comprend des fichiers jusqu’à {size} Mo.}}"
       },
       "unsupportedFormat": {
         "message": "Nous ne proposons pas de traduction pour les {extension}.",
@@ -392,7 +392,7 @@
     },
     "availableFiles": {
       "message": "{remaining}/{total} fichier(s) disponible(s)",
-      "popover": "Votre abonnement {subscriptionType} comprend {count, plural, one {# fichier} other {# fichiers}} par mois.",
+      "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} free {Supertext Free comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} other {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.}}",
       "unregisteredPopover": "Vous devez être connecté/-ée pour commencer à traduire des fichiers."
     }
   },
@@ -687,7 +687,7 @@
   "notifications": {
     "info": {
       "waitingForSlowTranslation": "Votre traduction prend plus de temps que d’habitude. Merci de patienter.",
-      "submittingVerification": "Transmission de la vérification, veuillez patienter..."
+      "submittingVerification": "Transmission de la vérification professionnelle, veuillez patienter..."
     },
     "failure": {
       "systemUnavailable": "Le système de traduction n’est pas disponible. Veuillez contacter votre administrateur/-trice système.",
@@ -750,7 +750,7 @@
       "officeHoursAvailability": "Impossible de charger la disponibilité du bureau",
       "userIsNotAuthenticated": "L’utilisateur/-trice n’est pas authentifié/-e.",
       "noDataReceived": "Aucune donnée reçue",
-      "couldNotFetchVerificationJob": "Une erreur s’est produite lors du chargement de la commande de vérification.",
+      "couldNotFetchVerificationJob": "Une erreur s’est produite lors du chargement de la commande de vérification professionnelle.",
       "somethingWentWrongWithPricing": "Une erreur s’est produite lors de l’estimation du prix.",
       "creditCardProcessing": "Une erreur s’est produite lors du traitement de votre avoir. Veuillez vérifier les informations de votre carte de crédit enregistrée si cette erreur se reproduit.",
       "downgradeSubscriptionsIndividual": {
@@ -799,7 +799,7 @@
   "starstruck": {
     "welcomeMessage": "Grüezi.",
     "noEntries": "Aucune entrée trouvée.",
-    "placeOrder": "Services professionnels",
+    "placeOrder": "Passer une commande",
     "or": "ou",
     "entriesPerPage": "Entrées par page",
     "changeLanguage": "Modifier la langue",
@@ -990,7 +990,6 @@
         "reactivateSubscription": "Réactiver",
         "cancelSubscription": "Annulé",
         "expiresOn": "Se termine le",
-        "startsOn": "Starts on",
         "moreInfo": "Voir les détails",
         "hero": {
           "title": "Trouvez l’abonnement Supertext qui vous convient.",
@@ -1068,7 +1067,8 @@
         "requestAccess": "Demander l’accès",
         "requestAccessSuccess": "Votre demande a été envoyée avec succès",
         "accessRequested": "Accès en cours de vérification",
-        "modalTitle": "Détail des fonctionnalités"
+        "modalTitle": "Détail des fonctionnalités",
+        "startsOn": "Commencé le"
       },
       "resources": {
         "title": "Ressources linguistiques",
@@ -1293,7 +1293,7 @@
               "termsConfirmation": "Je confirme le changement d’abonnement ci-dessus et j’accepte les",
               "termsAndConditions": "conditions générales.",
               "immediateChange": "Cette modification prend effet immédiatement.",
-              "nextBillingChange": "Cette modification prend effet à partir de la prochaine période de facturation.",
+              "nextBillingChange": "Vous demandez une rétrogradation de {previousCount} à {newCount} licences. Cette modification prendra effet à partir de la prochaine période de facturation.",
               "makePayment": "Passer une commande contraignante",
               "zeroPayableNowOnTrialPeriod": "Les licences supplémentaires sont gratuites pendant la période d’essai et seront facturées à la fin de celle-ci, dans la période de facturation suivante.",
               "removeLicensesError": {
@@ -1460,7 +1460,7 @@
         "description": "Merci pour votre patience! Ce service sera bientôt disponible pour d’autres paires de langues."
       },
       "stepOne": {
-        "title": "Vérification",
+        "title": "Vérification professionnelle",
         "payWithInvoice": "Le paiement se fait par facture.",
         "payWithCard": "Le paiement se fait à partir des informations de carte de crédit que vous avez saisies.",
         "payWithExpiredCardInfo": "Votre moyen de paiement par défaut est le paiement par carte, mais votre carte a expiré. Mettez à jour les informations de votre carte de crédit.",
@@ -1639,7 +1639,7 @@
             "5": {
               "title": "Fused Translation",
               "badge": "Bientôt disponible",
-              "tooltip": "Vos traductions par l'IA s’améliorent en temps réel à chaque commande que vous passez auprès des linguistes de Supertext (uniquement pour les utilisateurs/-trices inscrits/-es)."
+              "tooltip": "Vos traductions par l’IA s’améliorent en temps réel à chaque commande que vous passez auprès des linguistes de Supertext (uniquement pour les utilisateurs/-trices inscrits/-es)."
             },
             "6": {
               "title": "Fichiers Word et PowerPoint"
@@ -2034,7 +2034,7 @@
           "description": "Traduire plus rapidement, plus efficacement et de manière sécurisée avec Fused Translation."
         },
         "lead": {
-          "large": "Grâce à l'IA, vous traduisez <highlight>des centaines de mots en quelques secondes à peine.</highlight> Mais comment vous assurer que <highlight>chaque mot est à sa place?</highlight>",
+          "large": "Grâce à l’IA, vous traduisez <highlight>des centaines de mots en quelques secondes à peine.</highlight> Mais comment vous assurer que <highlight>chaque mot est à sa place?</highlight>",
           "small": "C’est pour cela que nous combinons IA linguistique et traducteurs/-trices expérimentés/-ées au même endroit. Pour une intégration parfaite de l’intelligence artificielle et du savoir-faire humain – avec vous aux commandes. Chez Supertext, l’efficacité de l'IA rencontre l’expertise professionnelle. La sécurité des textes et des données est assurée. Supertext est simple, personnalisable et capable d’apprendre. Supertext est tout-en-un."
         },
         "featureList": {
@@ -2078,7 +2078,7 @@
               "title": "Pour les utilisateurs/-trices individuels/-les",
               "sections": [
                 {
-                  "title": "Traduction par l'IA dans 23 langues",
+                  "title": "Traduction par l’IA dans 23 langues",
                   "description": "Notre traducteur en ligne est basé sur nos propres systèmes d’IA de dernière génération. Il maîtrise 23 langues, y compris les variantes locales comme le français de Suisse. Rapide, simple et conforme aux plus hauts standards de sécurité.",
                   "cta": {
                     "title": "Essayer maintenant",
@@ -2186,7 +2186,7 @@
           "languageServices": {
             "items": [
               {
-                "title": "Traduction par l'IA & vérification",
+                "title": "Traduction par l’IA et vérification professionnelle",
                 "description": "Avoir la certitude qu’une traduction est correcte en quelques minutes et non après plusieurs heures grâce à notre service de vérification professionnelle disponible en un clic.",
                 "cta": {
                   "title": "En savoir plus",
@@ -2559,7 +2559,7 @@
           "description": "Contactez l’équipe de vente Supertext"
         },
         "salesSection": {
-          "title": "Nous sommes là pour vous – <highlight>en&nbsp;moins de 60&nbsp;minutes</highlight>",
+          "title": "Nous sommes là pour vous – <highlight>en moins de 60 minutes</highlight>",
           "description": "Vous avez besoin d’une offre sur mesure? Notre solution Enterprise vous intéresse? Remplissez le formulaire et nous vous mettrons en relation avec la bonne personne en un temps record.",
           "bulletPoints": {
             "point1": "La façon dont Supertext peut vous aider à développer votre entreprise à l’échelle internationale",
@@ -2755,7 +2755,7 @@
         },
         "footerNote": {
           "pretitle": "Nous sommes là pour vous.",
-          "text": "Vous avez un <highlightText>projet linguistique</highlightText> passionnant en préparation? Vous souhaitez <highlightText> faire évaluer</highlightText> vos <highlight>processus</highlight> existants?",
+          "text": "Vous avez un <highlightText><highlight>projet linguistique</highlight></highlightText> passionnant en préparation? Vous souhaitez <highlightText> <highlight>faire évaluer</highlight></highlightText> vos <highlight>processus</highlight> existants?",
           "cta": {
             "title": "Discutons-en",
             "link": "/contact",
@@ -2783,7 +2783,7 @@
         },
         "lead": {
           "large": "Nous aimons et vivons les <highlight>langues</highlight> et la <highlight>technologie.</highlight> Et nous sommes toujours à la recherche de <highlight>nouveaux talents</highlight> sur la même longueur d’onde.",
-          "small": "En tant que prestataire international de services linguistiques IA, nous avons l’honneur de gérer des projets pour plus de 1500 entreprises à travers l’Europe. Nous encourageons l’innovation et créons des solutions qui redéfinissent les limites du possible, en plaçant l'IA et l’expertise humaine au cœur de notre travail.  <break></break><break></break>Derrière nos solutions technologiques de traitement du langage se cache une équipe de 100 spécialistes en recherche en IA, en logiciels, en linguistique et en gestion de projets. Une équipe qui s’appuie sur des échanges de connaissances constants et sur une agilité et une réactivité hors pair.",
+          "small": "En tant que prestataire international de services linguistiques IA, nous avons l’honneur de gérer des projets pour plus de 1500 entreprises à travers l’Europe. Nous encourageons l’innovation et créons des solutions qui redéfinissent les limites du possible, en plaçant l'IA et l’expertise humaine au cœur de notre travail. <break></break><break></break>Derrière nos solutions technologiques de traitement du langage se cache une équipe de 100 spécialistes en recherche en IA, en logiciels, en linguistique et en gestion de projets. Une équipe qui s’appuie sur des échanges de connaissances constants et sur une agilité et une réactivité hors pair.",
           "cta": {
             "title": "En savoir plus sur notre vision",
             "link": "/pourquoi-supertext"
@@ -2871,7 +2871,7 @@
         },
         "lead": {
           "large": "Outil IA ou prestataire de services? Nous sommes les deux et <highlight>bien plus encore.</highlight>",
-          "small": "Supertext est un prestataire de services linguistiques global basé sur l'IA, avec des bureaux à Zurich et à Berlin. Plus de 1500 entreprises en Europe font confiance à nos solutions linguistiques, de notre traducteur en ligne adaptatif aux services certifiés ISO pour les documents multilingues, les sites web, les pages web, les applications et les campagnes multimédias. <break></break> <break></break>Notre équipe compte environ 100 spécialistes dans les domaines de l’intelligence artificielle, de la linguistique et de la sécurité. À cela s’ajoute un réseau sélectif de 3000 spécialistes linguistes indépendants/-es du monde entier. <break></break> <break></break>Ensemble, nous développons une plateforme unique pour les textes et les traductions, pour lesquelles les entreprises peuvent combiner l'IA et l’expertise linguistique humaine selon leurs souhaits. Nous réinventons ainsi la communication: efficace, précise, capable d’apprendre et avec une sécurité à la pointe de la technologie.",
+          "small": "Supertext est un prestataire de services linguistiques global basé sur l’IA, avec des bureaux à Zurich et à Berlin. Plus de 1500 entreprises en Europe font confiance à nos solutions linguistiques, de notre traducteur en ligne adaptatif aux services certifiés ISO pour les documents multilingues, les sites web, les pages web, les applications et les campagnes multimédias. <break></break> <break></break>Notre équipe compte environ 100 spécialistes dans les domaines de l’intelligence artificielle, de la linguistique et de la sécurité. À cela s’ajoute un réseau sélectif de 3000 spécialistes linguistes indépendants/-es du monde entier. <break></break> <break></break>Ensemble, nous développons une plateforme unique pour les textes et les traductions, pour lesquelles les entreprises peuvent combiner l’IA et l’expertise linguistique humaine selon leurs souhaits. Nous réinventons ainsi la communication: efficace, précise, capable d’apprendre et avec une sécurité à la pointe de la technologie.",
           "cta": {
             "title": "Découvrir nos offres",
             "link": "/pourquoi-supertext"
@@ -2980,7 +2980,7 @@
           }
         },
         "informationalPanel": {
-          "title": "La traduction par l'IA associée à des spécialistes expérimentés/-ées. Comment cela fonctionne?",
+          "title": "La traduction par l’IA associée à des spécialistes expérimentés/-ées. Comment cela fonctionne?",
           "items": [
             {
               "title": "Traduction par l'IA à la pointe de la technologie",
@@ -3233,7 +3233,7 @@
         "downloadCaseStudy": "Télécharger l’étude de cas",
         "furtherCaseStudies": "Autres études de cas",
         "footerNote": {
-          "title": "Vous souhaitez <highlightText>économiser des ressources et exploiter tout le potentiel de la traduction par l'IA</highlightText> dans votre entreprise? Discutons-en.",
+          "title": "Vous souhaitez <highlightText>économiser des ressources et exploiter tout le potentiel de la traduction par l’IA</highlightText> dans votre entreprise? Discutons-en.",
           "cta": {
             "title": "Contactez-nous",
             "link": "/contact"
@@ -3265,7 +3265,7 @@
         },
         "lead": {
           "large": "Votre traduction, vérifiée par des professionnels/-les lorsque cela compte vraiment.",
-          "small": "La traduction par l'IA est simple, rapide et s’améliore constamment. Mais en 2025, il y a une chose que seule l’expertise humaine peut garantir: l’exactitude d’une traduction.<break></break><break></break>C’est pourquoi, pour les textes importants, Supertext vous met en contact direct avec plus de 3000 traducteurs/-trices et spécialistes de la culture. Avec la vérification en un clic, vous pouvez avoir la certitude en quelques minutes que votre message est correctement transmis. Tout cela de manière fiable, à un prix abordable et rapidement.",
+          "small": "La traduction par l’IA est simple, rapide et s’améliore constamment. Mais en 2025, il y a une chose que seule l’expertise humaine peut garantir: l’exactitude d’une traduction.<break></break><break></break>C’est pourquoi, pour les textes importants, Supertext vous met en contact direct avec plus de 3000 traducteurs/-trices et spécialistes de la culture. Avec la vérification en un clic, vous pouvez avoir la certitude en quelques minutes que votre message est correctement transmis. Tout cela de manière fiable, à un prix abordable et rapidement.",
           "cta": {
             "title": "Essayer maintenant",
             "link": "/"

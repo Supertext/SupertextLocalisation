@@ -82,28 +82,28 @@
       "errors": {
         "unregistered": {
           "message": "Sie müssen eingeloggt sein",
-          "popover": "Sie können sich kostenlos anmelden, um mit dem Übersetzen von Dateien zu beginnen."
+          "popover": "Melden Sie sich an, um Dateien zu übersetzen. Mit dem kostenlosen Free-Abo können Sie Word- und PowerPoint-Dateien bis maximal 5 MB übersetzen. Für größere Dateien und andere Formate wählen Sie eines unserer Bezahlabos."
         },
         "noRemainingFiles": {
           "message": "Keine Dateien mehr verfügbar",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}"
+          "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat"
         },
         "unsupportedFileType": {
-          "message": "{plan, select, Essential {Dateityp nicht im Abo enthalten} free {Dateityp nicht in Supertext Free enthalten} other {Dateityp nicht im Abo enthalten}}",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+          "message": "Dateityp nicht im Abo enthalten",
+          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
         },
         "limitedFileType": {
           "message": "Dateityp wird nicht unterstützt",
-          "popover": "Supertext Free umfasst nur Word- und PowerPoint-Dateien",
+          "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und PowerPoint-Dateien",
           "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"
         },
         "freeTierLimit": {
-          "message": "Supertext Free erlaubt KI-Übersetzungen für Word- und PowerPoint-Dateien. Jetzt upgraden, um PDFs, Excel-Dateien und weitere Formate freizuschalten.",
+          "message": "Unser Free-Abo erlaubt KI-Übersetzungen für Word- und PowerPoint-Dateien. Jetzt upgraden, um PDFs, Excel-Dateien und weitere Formate freizuschalten.",
           "popover": ""
         },
         "fileSizeExceeded": {
           "message": "Dateigröße überschreitet Ihr Limit",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB} free {Supertext Free umfasst Dateien bis {size} MB} other {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB}}"
+          "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
         },
         "unsupportedFormat": {
           "message": "Wir bieten keine Übersetzung für {extension} an.",
@@ -125,7 +125,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} Dateien verfügbar",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
+        "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
         "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
       },
       "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder"
@@ -359,19 +359,19 @@
     "errors": {
       "unregistered": {
         "message": "Sie müssen eingeloggt sein",
-        "popover": "Sie können sich kostenlos anmelden, um mit dem Übersetzen von Dateien zu beginnen."
+        "popover": "Melden Sie sich an, um Dateien zu übersetzen. Mit dem kostenlosen Free-Abo können Sie Word- und PowerPoint-Dateien bis maximal 5 MB übersetzen. Für größere Dateien und andere Formate wählen Sie eines unserer Bezahlabos."
       },
       "noRemainingFiles": {
         "message": "Keine Dateien mehr verfügbar",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}"
+        "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat"
       },
       "unsupportedFileType": {
         "message": "Dateityp nicht im Abo enthalten",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Ihr {subscriptionType}-Abo umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
       },
       "limitedFileType": {
         "message": "Dateityp wird nicht unterstützt",
-        "popover": "Supertext Free umfasst nur Word- und PowerPoint-Dateien"
+        "popover": "Ihr {subscriptionType}-Abo umfasst nur Word- und PowerPoint-Dateien"
       },
       "freeTierLimit": {
         "message": "Kostenfrei und ohne Registrierung können Sie KI-Übersetzungen nur für Word- und PowerPoint-Dateien nutzen. Registrieren Sie sich jetzt, um auch PDF- und Excel-Dateien sowie viele weitere Dateiformate zu übersetzen – ab CHF 9.00 monatlich.",
@@ -379,7 +379,7 @@
       },
       "fileSizeExceeded": {
         "message": "Dateigröße überschreitet Ihr Limit",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB} free {Supertext Free umfasst Dateien bis {size} MB} other {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB}}"
+        "popover": "Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB"
       },
       "unsupportedFormat": {
         "message": "Wir bieten keine Übersetzung für {Erweiterungsdateien} an.",
@@ -392,7 +392,7 @@
     },
     "availableFiles": {
       "message": "{remaining}/{total} Dateien verfügbar",
-      "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}",
+      "popover": "Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat",
       "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
     }
   },
@@ -687,7 +687,7 @@
   "notifications": {
     "info": {
       "waitingForSlowTranslation": "Ihre Übersetzung dauert etwas länger als normal. Bitte haben Sie Geduld.",
-      "submittingVerification": "Übermittlung des Profi-Checks, bitte warten …"
+      "submittingVerification": "Übermittlung des Profi-Checks, bitte warten ..."
     },
     "failure": {
       "systemUnavailable": "Das Übersetzungssystem ist nicht verfügbar. Bitte kontaktieren Sie Ihre:n Systemadministrator:in.",
@@ -754,7 +754,7 @@
       "somethingWentWrongWithPricing": "Bei der Preisschätzung ist etwas schiefgelaufen.",
       "creditCardProcessing": "Bei der Verarbeitung Ihres Guthabens ist ein Fehler aufgetreten. Bitte überprüfen Sie Ihre gespeicherte Kreditkarte, wenn dieser Fehler erneut auftritt.",
       "downgradeSubscriptionsIndividual": {
-        "cancel": "Die Herabstufung von Lizenzen wurde aufgehoben"
+        "cancel": "Die anstehende Reduktion Ihrer Anzahl Lizenzen wurde aufgehoben."
       }
     },
     "success": {
@@ -970,18 +970,18 @@
         "contactSupertext": "Supertext kontaktieren",
         "otherPlans": "Abo ändern",
         "current": "Aktuelles Abo",
-        "upgrade": "Upgraden",
+        "upgrade": "Jetzt testen",
         "downgrade": "Herabstufen",
-        "recommended": "Empfohlen",
+        "recommended": "Beliebteste Option",
         "comparePlans": "Abos vergleichen",
         "showMore": "Mehr anzeigen",
         "cancellationInfo": "Sie haben Ihr Abo gekündigt. Es endet am",
-        "freePlanInfo": "Ihr Konto wird auf Supertext Free umgestellt.",
+        "freePlanInfo": "Ihr Abo wird auf den kostenlosen Free-Tarif umgestellt.",
         "customPlanInfo": "Passen Sie Ihr Abo Ihren Bedürfnissen an",
         "upgradeSubscriptionInformation": "Bitten Sie eine:n Admin, Ihr Abo zu aktualisieren",
         "annuallySubscription": "Jährlich",
         "monthlySubscription": "Monatlich",
-        "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf Supertext Free.",
+        "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf unser Free-Abo.",
         "addLicenses": "weitere Lizenzen hinzufügen.",
         "subscribeMow": "Jetzt abonnieren",
         "requestOffer": "Angebot anfordern",
@@ -990,6 +990,7 @@
         "reactivateSubscription": "Reaktivieren",
         "cancelSubscription": "Gecancelt",
         "expiresOn": "Läuft ab am",
+        "startsOn": "Starts on",
         "moreInfo": "Details ansehen",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
@@ -1067,8 +1068,7 @@
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "accessRequested": "Zugang in Prüfung",
-        "modalTitle": "Feature-Details",
-        "startsOn": "Startet am"
+        "modalTitle": "Feature-Details"
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1217,7 +1217,7 @@
             "title": "Team",
             "userManagement": "User-Verwaltung",
             "addMember": "Mitglied hinzufügen",
-            "editMember": "Mitglied bearbeiten",
+            "editMember": "User:in bearbeiten",
             "removeMember": "Entfernen",
             "deleteMember": "Mitglied entfernen",
             "deleteMemberConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
@@ -1261,7 +1261,7 @@
           },
           "subscription": {
             "title": "Team-Abo ändern",
-            "description": "Alle User:innen ohne zugewiesene Lizenz profitieren automatisch und kostenlos von Supertext Free.",
+            "description": "Alle User:innen ohne zugewiesene Lizenz profitieren automatisch und kostenlos von unserem Free-Abo.",
             "comparePlans": "Abos vergleichen",
             "numberOfLicenses": "Anzahl Lizenzen",
             "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
@@ -1293,7 +1293,7 @@
               "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
               "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
               "immediateChange": "Diese Änderung ist sofort wirksam.",
-              "nextBillingChange": "Sie beantragen eine Herabstufung von {previousCount} auf {newCount} Lizenzen. Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
+              "nextBillingChange": "Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "removeLicensesError": {
@@ -1312,11 +1312,11 @@
             "afterTrialPeriod": "(nach Testphase)",
             "expiresOn": "Läuft ab am",
             "missingPaymentMethod": {
-              "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abo vornehmen.",
+              "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abonnement vornehmen.",
               "link": "Zahlungsmethode aktualisieren"
             },
             "after": "nach",
-            "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
+            "downgradeLicenses": "Anstehende Reduktion Ihrer Anzahl Lizenzen",
             "cancelDowngradeLicenses": "Abbrechen"
           },
           "authorisations": {
@@ -1352,7 +1352,7 @@
         "hasLicense": "Essential",
         "emailPlaceholder": "beispiel@gmail.com",
         "licenseMultipleTag": "User:innen lizenzieren",
-        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}}  verfügbar.",
+        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} Benutzer:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}}  verfügbar.",
         "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert"
       },
       "delivery": {
@@ -1639,7 +1639,7 @@
             "5": {
               "title": "Fused Translation",
               "badge": "Bald verfügbar",
-              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen)"
+              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen)."
             },
             "6": {
               "title": "Word- und PowerPoint-Dateien"
@@ -1666,7 +1666,7 @@
             },
             "2": {
               "title": "20 Dateien pro Monat (bearbeitbar)",
-              "tooltip": "Es gilt eine Fair-Use-Richtlinie"
+              "tooltip": "Es gilt eine Fair-Use-Richtlinie."
             },
             "3": {
               "title": "10 MB maximale Dateigröße"
@@ -2078,7 +2078,7 @@
               "title": "Für Einzel-User:innen",
               "sections": [
                 {
-                  "title": "AI Translation in 23 Sprachen",
+                  "title": "KI-Übersetzung in 23 Sprachen",
                   "description": "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 23 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
                   "cta": {
                     "title": "Jetzt ausprobieren",
@@ -2186,7 +2186,7 @@
           "languageServices": {
             "items": [
               {
-                "title": "AI Translation & Profi-Check",
+                "title": "KI-Übersetzung mit Profi-Check",
                 "description": "Sicher sein – in Minuten statt Stunden. Mit unserem Profi-Check auf Knopfdruck.",
                 "cta": {
                   "title": "Mehr erfahren",
@@ -2559,7 +2559,7 @@
           "description": "Kontaktieren Sie das Supertext-Sales-Team"
         },
         "salesSection": {
-          "title": "Wir sind persönlich für Sie da – <highlight>in unter 60 Minuten</highlight>",
+          "title": "Wir sind persönlich für Sie da – <highlight>in&nbsp;unter 60&nbsp;Minuten</highlight>",
           "description": "Sie brauchen ein maßgeschneidertes Angebot? Oder interessieren sich für unsere Enterprise-Lösung? Füllen Sie das Formular aus und wir verbinden Sie in Rekordzeit mit der richtigen Ansprechperson.",
           "bulletPoints": {
             "point1": "Informationen dazu, wie Supertext Ihre globale Geschäftsexpansion unterstützen kann",
@@ -2783,7 +2783,7 @@
         },
         "lead": {
           "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie.</highlight> Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
-          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus rund 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
+          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus über 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
           "cta": {
             "title": "Mehr zu unserer Vision",
             "link": "/warum-supertext"
@@ -2821,7 +2821,7 @@
               },
               {
                 "title": "Vendor Management",
-                "description": "Die erste Anlaufstelle für unsere externen Sprachprofis. Sie sorgen für die Rekrutierung und Evaluation unserer Freelancer:innen und kümmern sich um Rückfragen zur Zusammenarbeit."
+                "description": "Die erste Anlaufstelle für unsere externen Sprachprofis. Das Vendor Management sorgt für die Rekrutierung und Evaluation unserer Freelancer:innen und kümmern sich um Rückfragen zur Zusammenarbeit."
               },
               {
                 "title": "Sales & Marketing",
@@ -2871,7 +2871,7 @@
         },
         "lead": {
           "large": "AI-Tool oder Service-Agentur? Wir sind beides – und zusammen <highlight>viel mehr als das.</highlight>",
-          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom lernfähigen Online-Übersetzer bis zum ISO-zertifizierten Service für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
+          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom&nbsp;lernfähigen Online-Übersetzer bis zu ISO-zertifizierten Services für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
           "cta": {
             "title": "Angebot entdecken",
             "link": "/warum-supertext"
@@ -2973,14 +2973,14 @@
         },
         "lead": {
           "large": "Ihre Übersetzung – professionell geprüft, wenn es wirklich wichtig ist.",
-          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break> <break></break> Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit dem Profi-Check auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
+          "small": "KI-Übersetzung ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break> <break></break> Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit dem Profi-Check auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
           "cta": {
             "title": "Jetzt ausprobieren",
             "link": "/"
           }
         },
         "informationalPanel": {
-          "title": "AI Translation trifft auf erfahrene Profis. Was steckt drin?",
+          "title": "KI-Übersetzung trifft auf erfahrene Profis. Was steckt drin?",
           "items": [
             {
               "title": "KI-Übersetzung auf dem neusten Stand der Technik",
@@ -3233,7 +3233,7 @@
         "downloadCaseStudy": "Case Study herunterladen",
         "furtherCaseStudies": "Weitere Case Studys",
         "footerNote": {
-          "title": "Sie wollen <highlightText>Ressourcen schonen und AI Translation maximal produktiv</highlightText> im Unternehmen einsetzen? Lassen Sie uns reden.",
+          "title": "Sie wollen <highlightText>Ressourcen schonen und KI-Übersetzung maximal produktiv</highlightText> im Unternehmen einsetzen? Lassen Sie uns reden.",
           "cta": {
             "title": "Kontaktieren Sie uns",
             "link": "/kontakt"
@@ -3265,14 +3265,14 @@
         },
         "lead": {
           "large": "Ihre Übersetzung – professionell geprüft, wenn es wirklich wichtig ist.",
-          "small": "AI Translation ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break><break></break>Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit dem Profi-Check auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
+          "small": "KI-Übersetzung ist einfach, schnell und wird laufend besser. Doch etwas können auch 2025 nur menschliche Expert:innen: die Korrektheit einer Übersetzung garantieren. <break></break><break></break>Für wichtige Texte verbindet Supertext Sie darum direkt mit über 3000 erfahrenen Übersetzern und Kulturexpertinnen. Mit dem Profi-Check auf Knopfdruck können Sie in wenigen Minuten sicher sein, dass Ihre Botschaft richtig ankommt. Zuverlässig, günstig und schnell.",
           "cta": {
             "title": "Jetzt ausprobieren",
             "link": "/"
           }
         },
         "informationalPanel": {
-          "title": "AI Translation trifft auf erfahrene Profis. Was steckt drin?",
+          "title": "KI-Übersetzung trifft auf erfahrene Profis. Was steckt drin?",
           "items": [
             {
               "title": "KI-Übersetzung auf dem neusten Stand der Technik",
@@ -3869,7 +3869,7 @@
       },
       "proofreading": {
         "hero": {
-          "title": "Lektorat, Korrektorat, Redaktion – der letzte Schliff",
+          "title": "Lektorat, Korrektorat, Redaktion – der&nbsp;letzte Schliff",
           "description": "Unser Korrekturservice sorgt für eine fehlerfreie Kommunikation und den richtigen Ton in jeder Sprache."
         },
         "lead": {

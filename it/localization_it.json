@@ -125,7 +125,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} file disponibili",
-        "popover": "Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese",
+        "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, one {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese}}",
         "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
       },
       "dropFileWithoutExtension": "Trascini un file qui o"
@@ -981,7 +981,7 @@
         "upgradeSubscriptionInformation": "Si rivolga a un admin per aggiornare il Suo abbonamento",
         "annuallySubscription": "Annuale",
         "monthlySubscription": "Mensile",
-        "subscriptionFreeInfo": "Gli utenti senza licenza hanno accesso al nostro abbonamento Free.",
+        "subscriptionFreeInfo": "Gli utenti senza licenza hanno accesso a Supertext Free.",
         "addLicenses": "aggiungi ulteriori licenze.",
         "subscribeMow": "Sottoscrivi l’abbonamento",
         "requestOffer": "Richiedi un preventivo",
@@ -4025,7 +4025,7 @@
         "altText": "Immagine di una persona rilassata al telefono"
       },
       "lockedLanguage": {
-        "title": "{notsupportedlanguage} è disponibile solo con l’abbonamento «Advanced».",
+        "title": "{notsupportedlanguage} è disponibile solo con l’abbonamento «{subscription}».",
         "description": "Scopra i diversi piani di abbonamento Supertext e trovi quello che fa al caso Suo.",
         "cta": "Scopri gli abbonamenti"
       },

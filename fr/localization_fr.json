@@ -82,7 +82,7 @@
       "errors": {
         "unregistered": {
           "message": "Vous devez être connecté/-ée.",
-          "popover": "Vous pouvez vous inscrire gratuitement pour commencer à traduire des fichiers."
+          "popover": "Vous pouvez souscrire un abonnement Free pour commencer à traduire des fichiers."
         },
         "noRemainingFiles": {
           "message": "Plus aucun fichier disponible",
@@ -125,7 +125,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} fichier(s) disponible(s)",
-        "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} free {Supertext Free comprend {count, plural, =1 {# fichier} other {# fichiers}} per mois.} other {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.}}",
+        "popover": "Votre abonnement {subscriptionType} comprend {count, plural, one {# fichier} other {# fichiers}} par mois.",
         "unregisteredPopover": "Vous devez être connecté/-ée pour commencer à traduire des fichiers."
       },
       "dropFileWithoutExtension": "Glissez un fichier ({supportedFileExtensions}) ici ou"
@@ -359,7 +359,7 @@
     "errors": {
       "unregistered": {
         "message": "Vous devez être connecté/-ée.",
-        "popover": "Vous pouvez vous inscrire gratuitement pour commencer à traduire des fichiers."
+        "popover": "Vous pouvez souscrire un abonnement Free pour commencer à traduire des fichiers."
       },
       "noRemainingFiles": {
         "message": "Plus aucun fichier disponible",
@@ -981,7 +981,7 @@
         "upgradeSubscriptionInformation": "Demandez à un/-e admin de mettre à jour votre abonnement.",
         "annuallySubscription": "Annuel",
         "monthlySubscription": "Mensuel",
-        "subscriptionFreeInfo": "Les utilisateurs/-trices sans licence ont accès à l’abonnement Free de Supertext.",
+        "subscriptionFreeInfo": "Les utilisateurs/-trices non abonnés/-ées ont accès à notre abonnement Free.",
         "addLicenses": "ajouter d’autres licences.",
         "subscribeMow": "S’abonner maintenant",
         "requestOffer": "Demander une offre",
@@ -1261,7 +1261,7 @@
           },
           "subscription": {
             "title": "Modifier l’abonnement de l’équipe",
-            "description": "Tous/-tes les utilisateurs/-trices sans licence assignée bénéficient automatiquement et gratuitement de l’abonnement Free de Supertext.",
+            "description": "Tous/-tes les utilisateurs/-trices sans licence assignée bénéficient automatiquement et gratuitement de notre abonnement Free.",
             "comparePlans": "Comparer les abonnements",
             "numberOfLicenses": "Nombre de licences",
             "licencesCount": "{count, plural, one {# licence} other {# licences}}",
@@ -1603,7 +1603,7 @@
       "placeholder": "Saisir le code de réduction",
       "tooltip": "Utilisez votre code de réduction pour profiter d’un rabais sur votre commande.",
       "trigger": "Utiliser le code de réduction",
-      "invalidCouponCode": "Le coupon indiqué n’est pas valide."
+      "invalidCouponCode": ""
     },
     "landingPage": {
       "languageServices": {
@@ -4025,7 +4025,7 @@
         "altText": "Illustration d’une personne au téléphone, détendue"
       },
       "lockedLanguage": {
-        "title": "{notSupportedLanguage} n’est disponible que dans l’abonnement «{subscription}».",
+        "title": "{notSupportedLanguage} n’est disponible que dans l’abonnement «Advanced».",
         "description": "Découvrez les différents abonnements Supertext et trouvez celui qui vous convient.",
         "cta": "Découvrir les abonnements"
       },

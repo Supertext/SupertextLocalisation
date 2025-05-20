@@ -90,7 +90,7 @@
         },
         "unsupportedFileType": {
           "message": "{plan, select, Essential {Dateityp nicht im Abo enthalten} free {Dateityp nicht in Supertext Free enthalten} other {Dateityp nicht im Abo enthalten}}",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
         },
         "limitedFileType": {
           "message": "Dateityp wird nicht unterstützt",
@@ -125,7 +125,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} Dateien verfügbar",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
         "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
       },
       "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder"
@@ -367,7 +367,7 @@
       },
       "unsupportedFileType": {
         "message": "Dateityp nicht im Abo enthalten",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF-, und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
       },
       "limitedFileType": {
         "message": "Dateityp wird nicht unterstützt",
@@ -993,7 +993,8 @@
         "moreInfo": "Details ansehen",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
-          "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis – vom einfachen Online-Übersetzer bis zur vollintegrierten Custom-Lösung."
+          "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis – vom einfachen Online-Übersetzer bis zur vollintegrierten Custom-Lösung.",
+          "cta": ""
         },
         "message": {
           "part1": "Sie haben",
@@ -1068,7 +1069,18 @@
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "accessRequested": "Zugang in Prüfung",
         "modalTitle": "Feature-Details",
-        "startsOn": "Startet am"
+        "startsOn": "Startet am",
+        "downgradeLostFeatures": "",
+        "downgradeReasonLabel": "",
+        "optionalFeedbackLabel": "",
+        "optionalFeedbackPlaceholder": "",
+        "subscription_cancellation_reasons": {
+          "too_expensive": "",
+          "not_using": "",
+          "missing_features": "",
+          "switching": "",
+          "other": ""
+        }
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1257,7 +1269,21 @@
             },
             "paginationOf": "von",
             "editSelectedMembers": "Ausgewählte Mitglieder bearbeiten",
-            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rollen von # Mitgliedern wurden}} erfolgreich aktualisiert"
+            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rollen von # Mitgliedern wurden}} erfolgreich aktualisiert",
+            "ssoRequest": {
+              "title": "",
+              "button": "",
+              "button_pending": "",
+              "tooltip": "",
+              "description": "",
+              "form": {
+                "label": "",
+                "placeholder": "",
+                "invalid": ""
+              },
+              "notification_success": "",
+              "notification_error": ""
+            }
           },
           "subscription": {
             "title": "Team-Abo ändern",
@@ -1352,7 +1378,7 @@
         "hasLicense": "Essential",
         "emailPlaceholder": "beispiel@gmail.com",
         "licenseMultipleTag": "User:innen lizenzieren",
-        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}}  verfügbar.",
+        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}} verfügbar.",
         "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert"
       },
       "delivery": {
@@ -2716,10 +2742,6 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer Relations"
             }
           ]
         }
@@ -4025,7 +4047,7 @@
         "altText": "Illustration einer Person, die entspannt am Telefon ist"
       },
       "lockedLanguage": {
-        "title": "{notSupportedLanguage} ist nur im Abo „Advanced“ verfügbar.",
+        "title": "{notSupportedLanguage} ist nur im Abo „{subscription}“ verfügbar.",
         "description": "Entdecken Sie die verschiedenen Supertext-Abos und finden Sie die richtige Option für Sie.",
         "cta": "Abos entdecken"
       },

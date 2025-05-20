@@ -90,7 +90,7 @@
         },
         "unsupportedFileType": {
           "message": "{plan, select, Essential {File type not included in subscription} free {File type not included in Supertext Free} other {File type not included in subscription}}",
-          "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes Word, Excel, PowerPoint, PDF, and SRT files} free {Supertext Free includes Word and PowerPoint files }other {Your {subscriptionType} subscription includes limited file types}}"
+          "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes Word, Excel, PowerPoint, PDF, and SRT files} free {Supertext Free includes Word and PowerPoint files} other {Your {subscriptionType} subscription includes limited file types}}"
         },
         "limitedFileType": {
           "message": "File type not supported",
@@ -125,7 +125,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} files available",
-        "popover": "Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month",
+        "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month} free {Supertext Free includes {count, plural, one {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month}}",
         "unregisteredPopover": "You must be logged in to begin translating files."
       },
       "dropFileWithoutExtension": "Drag a file here or"
@@ -363,11 +363,11 @@
       },
       "noRemainingFiles": {
         "message": "No more files available",
-        "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month} free {Supertext Free includes {count, plural, =1 {# file} other {# files}} per month}other {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month}}"
+        "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month} free {Supertext Free includes {count, plural, =1 {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month}}"
       },
       "unsupportedFileType": {
         "message": "File type not included in subscription",
-        "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes Word, Excel, PowerPoint, PDF, and SRT files} free {Supertext Free includes Word and PowerPoint files }other {Your {subscriptionType} subscription includes limited file types}}"
+        "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes Word, Excel, PowerPoint, PDF, and SRT files} free {Supertext Free includes Word and PowerPoint files} other {Your {subscriptionType} subscription includes limited file types}}"
       },
       "limitedFileType": {
         "message": "File type not supported",
@@ -981,7 +981,7 @@
         "upgradeSubscriptionInformation": "Please ask an admin to update your subscription",
         "annuallySubscription": "Annual",
         "monthlySubscription": "Monthly",
-        "subscriptionFreeInfo": "Users without a licence have access to our Free subscription.",
+        "subscriptionFreeInfo": "Users without a licence have access to Supertext Free.",
         "addLicenses": "add more licences.",
         "subscribeMow": "Subscribe now",
         "requestOffer": "Request quote",
@@ -993,7 +993,8 @@
         "moreInfo": "View details",
         "hero": {
           "title": "Find your perfect Supertext subscription",
-          "subtitle": "Faster, better and more secure translation: Supertext offers the right AI translation package for every need, from the simple online translator to fully integrated custom solutions."
+          "subtitle": "Faster, better and more secure translation: Supertext offers the right AI translation package for every need, from the simple online translator to fully integrated custom solutions.",
+          "cta": ""
         },
         "message": {
           "part1": "Big",
@@ -1068,7 +1069,18 @@
         "requestAccessSuccess": "Your request was sent successfully",
         "accessRequested": "Access requested",
         "modalTitle": "Feature details",
-        "startsOn": "Starts on"
+        "startsOn": "Starts on",
+        "downgradeLostFeatures": "",
+        "downgradeReasonLabel": "",
+        "optionalFeedbackLabel": "",
+        "optionalFeedbackPlaceholder": "",
+        "subscription_cancellation_reasons": {
+          "too_expensive": "",
+          "not_using": "",
+          "missing_features": "",
+          "switching": "",
+          "other": ""
+        }
       },
       "resources": {
         "title": "Linguistic resources",
@@ -1257,7 +1269,21 @@
             },
             "paginationOf": "of",
             "editSelectedMembers": "Edit selected members",
-            "roleBatchUpdateSuccess": "{count, plural, =0 {No roles have been} =1 {The role of 1 member has been} other {The role of # members has been}} updated successfully"
+            "roleBatchUpdateSuccess": "{count, plural, =0 {No roles have been} =1 {The role of 1 member has been} other {The role of # members has been}} updated successfully",
+            "ssoRequest": {
+              "title": "",
+              "button": "",
+              "button_pending": "",
+              "tooltip": "",
+              "description": "",
+              "form": {
+                "label": "",
+                "placeholder": "",
+                "invalid": ""
+              },
+              "notification_success": "",
+              "notification_error": ""
+            }
           },
           "subscription": {
             "title": "Change team subscription",
@@ -1352,7 +1378,7 @@
         "hasLicense": "Essential",
         "emailPlaceholder": "example@gmail.com",
         "licenseMultipleTag": "License user",
-        "licenseMultipleTagNoLicencesAvailable": "You cannot assign licences to the selected members. {selectedCount} users were selected, but {licencesAvailable, plural, =0 { no licences } =1 { only 1 licence } other { only # licences }} are available.",
+        "licenseMultipleTagNoLicencesAvailable": "You cannot assign licences to the selected members. {selectedCount} users were selected, but {licencesAvailable, plural, =0 {no licences are} =1 {only 1 licence is} other {only # licences are}} available.",
         "licenceMultipleSuccess": "{count, plural, =0 { No licences have been updated } =1 { The licence of 1 member has been updated } other { The licences of # members have been updated }} successfully"
       },
       "delivery": {
@@ -2559,7 +2585,7 @@
           "description": "Contact the Supertext Sales team"
         },
         "salesSection": {
-          "title": "We are happy to help you personally – <highlight>in&nbsp;under 60&nbsp;minutes</highlight>",
+          "title": "We are happy to help you personally – <highlight>in under 60 minutes</highlight>",
           "description": "Do you need a custom quote? Or are you interested in our Enterprise solution? Fill out the form and we will connect you with the right contact person in record time.",
           "bulletPoints": {
             "point1": "Information on how Supertext can support your global business expansion",
@@ -2716,10 +2742,6 @@
             {
               "title": "Customer support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer relations"
             }
           ]
         }
@@ -4025,7 +4047,7 @@
         "altText": "Illustration of a relaxed person on the phone"
       },
       "lockedLanguage": {
-        "title": "{notSupportedLanguage} is only available in the Advanced subscription.",
+        "title": "{notSupportedLanguage} is only available in the {subscription} subscription.",
         "description": "Discover the different Supertext subscriptions and find the right option for you.",
         "cta": "Discover subscriptions"
       },

@@ -1010,19 +1010,6 @@
         "assignLicenseAdmin": "Lizenz zuweisen",
         "assignLicenseUser": "Admin kontaktieren",
         "confirmSubscription": "Abo bestätigen",
-        "cancelSubscriptionButton": "Abo herabstufen",
-        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}.",
-        "downgradeLostFeatures": "Wichtige Funktionen, die Sie verlieren würden",
-        "downgradeReasonLabel": "Warum möchten Sie das Abo herabstufen?",
-        "optionalFeedbackLabel": "Möchten Sie uns noch etwas mitteilen?",
-        "optionalFeedbackPlaceholder": "Optionales Feedback",
-        "subscription_cancellation_reasons": {
-          "too_expensive": "Zu teuer",
-          "not_using": "Ich nutze es nicht genug",
-          "missing_features": "Es fehlen Funktionen",
-          "switching": "Ich wechsle zu einer Alternative",
-          "other": "Anderes"
-        },
         "modals": {
           "waitlist": {
             "email": "E-Mail",
@@ -1075,12 +1062,25 @@
           }
         },
         "firstMonthFree": "Erster Monat kostenlos",
+        "cancelSubscriptionButton": "Abo herabstufen",
+        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}.",
         "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText> Wir die <highlightText>passende Lösung</highlightText>.",
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "accessRequested": "Zugang in Prüfung",
         "modalTitle": "Feature-Details",
-        "startsOn": "Startet am"
+        "startsOn": "Startet am",
+        "downgradeLostFeatures": "Wichtige Funktionen, die Sie verlieren würden",
+        "downgradeReasonLabel": "Warum möchten Sie das Abo herabstufen?",
+        "optionalFeedbackLabel": "Möchten Sie uns noch etwas mitteilen?",
+        "optionalFeedbackPlaceholder": "Optionales Feedback",
+        "subscription_cancellation_reasons": {
+          "too_expensive": "Zu teuer",
+          "not_using": "Ich nutze es nicht genug",
+          "missing_features": "Es fehlen Funktionen",
+          "switching": "Ich wechsle zu einer Alternative",
+          "other": "Anderes"
+        }
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -2742,10 +2742,6 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer Relations"
             }
           ]
         }

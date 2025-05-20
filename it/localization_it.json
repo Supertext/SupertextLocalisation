@@ -125,7 +125,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} file disponibili",
-        "popover": "Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese",
+        "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, one {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese}}",
         "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
       },
       "dropFileWithoutExtension": "Trascini un file qui o"
@@ -981,7 +981,7 @@
         "upgradeSubscriptionInformation": "Si rivolga a un admin per aggiornare il Suo abbonamento",
         "annuallySubscription": "Annuale",
         "monthlySubscription": "Mensile",
-        "subscriptionFreeInfo": "Gli utenti senza licenza hanno accesso al nostro abbonamento Free.",
+        "subscriptionFreeInfo": "Gli utenti senza licenza hanno accesso a Supertext Free.",
         "addLicenses": "aggiungi ulteriori licenze.",
         "subscribeMow": "Sottoscrivi l’abbonamento",
         "requestOffer": "Richiedi un preventivo",
@@ -993,7 +993,8 @@
         "moreInfo": "Visualizza dettagli",
         "hero": {
           "title": "Trovate l’abbonamento Supertext che fa per voi",
-          "subtitle": "Traduzioni migliori, più veloci e più sicure: Supertext offre il pacchetto di traduzione IA adatto a ogni esigenza, dal semplice traduttore online alla soluzione personalizzata completamente integrata."
+          "subtitle": "Traduzioni migliori, più veloci e più sicure: Supertext offre il pacchetto di traduzione IA adatto a ogni esigenza, dal semplice traduttore online alla soluzione personalizzata completamente integrata.",
+          "cta": ""
         },
         "message": {
           "part1": "Avete",
@@ -1068,7 +1069,18 @@
         "requestAccessSuccess": "La Sua richiesta è stata inviata.",
         "accessRequested": "Verifica dell’accesso in corso",
         "modalTitle": "Dettagli della funzione",
-        "startsOn": "Data d’inizio"
+        "startsOn": "Data d’inizio",
+        "downgradeLostFeatures": "",
+        "downgradeReasonLabel": "",
+        "optionalFeedbackLabel": "",
+        "optionalFeedbackPlaceholder": "",
+        "subscription_cancellation_reasons": {
+          "too_expensive": "",
+          "not_using": "",
+          "missing_features": "",
+          "switching": "",
+          "other": ""
+        }
       },
       "resources": {
         "title": "Risorse linguistiche",
@@ -1257,7 +1269,21 @@
             },
             "paginationOf": "di",
             "editSelectedMembers": "Modifica i membri selezionati",
-            "roleBatchUpdateSuccess": "{count, plural, =0 { Nessun ruolo è stato aggiornato } =1 { Il ruolo di 1 membro è stato aggiornato } other { Il ruolo di # membri è stato aggiornato }} con successo"
+            "roleBatchUpdateSuccess": "{count, plural, =0 { Nessun ruolo è stato aggiornato } =1 { Il ruolo di 1 membro è stato aggiornato } other { Il ruolo di # membri è stato aggiornato }} con successo",
+            "ssoRequest": {
+              "title": "",
+              "button": "",
+              "button_pending": "",
+              "tooltip": "",
+              "description": "",
+              "form": {
+                "label": "",
+                "placeholder": "",
+                "invalid": ""
+              },
+              "notification_success": "",
+              "notification_error": ""
+            }
           },
           "subscription": {
             "title": "Modifica l’abbonamento",
@@ -2716,10 +2742,6 @@
             {
               "title": "Assistenza clienti",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Relazioni con i freelance"
             }
           ]
         }
@@ -4025,7 +4047,7 @@
         "altText": "Immagine di una persona rilassata al telefono"
       },
       "lockedLanguage": {
-        "title": "{notsupportedlanguage} è disponibile solo con l’abbonamento «Advanced».",
+        "title": "{notsupportedlanguage} è disponibile solo con l’abbonamento «{subscription}».",
         "description": "Scopra i diversi piani di abbonamento Supertext e trovi quello che fa al caso Suo.",
         "cta": "Scopri gli abbonamenti"
       },

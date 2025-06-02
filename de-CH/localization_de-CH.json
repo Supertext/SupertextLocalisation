@@ -990,7 +990,6 @@
         "reactivateSubscription": "Reaktivieren",
         "cancelSubscription": "Gecancelt",
         "expiresOn": "Läuft ab am",
-        "yourTeamSubscription": "Ihr Team-Abo",
         "moreInfo": "Details ansehen",
         "hero": {
           "title": "Finden Sie Ihr passendes Supertext-Abo",
@@ -1081,7 +1080,8 @@
           "missing_features": "Es fehlen Funktionen",
           "switching": "Ich wechsle zu einer Alternative",
           "other": "Anderes"
-        }
+        },
+        "yourTeamSubscription": "Ihr Team-Abo"
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -2884,7 +2884,7 @@
           "description": "Wir vereinen unzählige Kulturen, Sprachen, Talente und Interessen an einem Ort. Das bereichert unsere Zusammenarbeit und macht uns zu dem, was wir sind: der All-in-one-Anbieter, der für jede sprachliche Herausforderung eine Lösung findet. <break></break> <break></break> Ein Miteinander auf Augenhöhe ist für uns genauso selbstverständlich wie faire Entlöhnung und ein offenes, flexibles Arbeitsumfeld. Bei Supertext organisieren wir uns selbstbestimmt, übernehmen Verantwortung und bringen Ideen ein, die unsere Kultur aktiv mitgestalten. Mit Schulungen und laufendem Feedback erweitern wir unser Wissen und treiben die persönliche Entwicklung voran."
         },
         "footerNote": {
-          "text": "Du bist Texterin, Übersetzer, Lektorin oder SEO-Profi und möchtest als <highlightText>Freelancer:in</highlightText> mit uns <highlightText>zusammenarbeiten?</highlightText>",
+          "text": "Du möchtest als <highlightText>Freelancer:in</highlightText> mit uns <highlightText>zusammenarbeiten?</highlightText>",
           "description": "Wir sind immer auf der Suche nach Texterinnen, Übersetzern, SEO-Spezialistinnen oder Lektoren, die unser Team aus Sprachprofis ergänzen.",
           "cta": {
             "title": "Jetzt registrieren",

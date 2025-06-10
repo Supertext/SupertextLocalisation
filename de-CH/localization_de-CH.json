@@ -315,10 +315,7 @@
     "targetTextLength": "Anzahl Zeichen",
     "sourceTextCharacterLimit": "Anzahl Zeichen / Maximum",
     "verifiedTranslations": "Verifizierte Übersetzungen markieren",
-    "rephraseTranslation": "Umformulieren",
-    "editGlossary": "Glossar bearbeiten",
-    "deleteGlossary": "Glossar löschen",
-    "deleteTerm": "Term löschen"
+    "rephraseTranslation": "Umformulieren"
   },
   "popovers": {
     "exactTerms": "Verifizierte Übersetzung von {0}",
@@ -414,49 +411,82 @@
   "lengthMatchingFeature": {
     "title": "Längenabgleich"
   },
-  "glossaryFeature": {
-    "glossary": "Glossar",
-    "glossaries": "Glossare",
-    "addGlossary": "Glossar hinzufügen",
-    "createGlossary": "Glossar erstellen",
-    "glossaryName": "Glossarname",
-    "sourceTerm": "Ausgangsbegriff",
-    "targetTerm": "Zielbegriff",
-    "search": "Begriff suchen",
-    "sourceLanguage": "Ausgangssprache",
-    "targetLanguage": "Zielsprache",
-    "targetLanguages": "Zielsprachen",
-    "languagePair": "Sprachpaar",
-    "editTerm": "Begriff bearbeiten",
-    "verifiedTranslations": "Verifizierte Übersetzungen markieren",
-    "verifyNameError": "Glossarname wird bereits verwendet",
-    "deleteGlossary": "Glossar löschen",
-    "exportGlossary": "CSV exportieren",
-    "importGlossary": "CSV importieren",
-    "csvTemplate": "CSV-Template",
-    "emptyList": "Noch keine Glossareinträge hinzugefügt",
-    "termLanguagePairExists": "Eintrag ist bereits im Glossar vorhanden",
-    "errorImportSuffix": "Eine oder mehrere Sprachen werden nicht unterstützt.",
-    "errorExportNoEntries": "Keine Einträge für den Export verfügbar",
-    "errorImportInvalidEntry": "Ungültiger Eintrag",
-    "errorImportInvalidSource": "Ungültige Ausgangssprache",
-    "errorImportInvalidTarget": "Ungültige Zielsprache",
-    "errorImportInvalidTerm": "Ungültiger Ausgangs- oder Zielbegriff",
-    "termsAddedSuccessfully": "{count} Begriff(e) erfolgreich hinzugefügt",
-    "glossaryDeletedSuccessfully": "Glossar erfolgreich gelöscht",
-    "glossaryCreatedSuccessfully": "Glossar erfolgreich erstellt",
-    "glossaryTemplateExportSucessful": "Glossarvorlage erfolgreich heruntergeladen",
-    "noGlossaryDataToExport": "Im Glossar wurden keine Daten zum Exportieren gefunden.",
-    "csvExportSuccessfully": "CSV erfolgreich exportiert",
-    "csvImportSuccessfully": "CSV erfolgreich importiert",
-    "csvImportFailed": "Beim Import der CSV-Datei ist ein Fehler aufgetreten.",
-    "csvExportFailed": "Beim Export der CSV-Datei ist ein Fehler aufgetreten.",
-    "csvImportBadHeaders": "Keine gültigen Kopfzeilen in der importierten CSV-Datei gefunden",
-    "selectAll": "Alle auswählen",
-    "reset": "Zurücksetzen",
-    "autoFill": "Automatisch ausfüllen",
-    "addTerms": "Begriff hinzufügen",
-    "addAndRepeat": "Hinzufügen und wiederholen"
+  "glossary": {
+    "trigger": {
+      "text": "Glossar",
+      "badge": "Neu"
+    },
+    "header": {
+      "back": "Zurück",
+  "glossary": "Glossar"
+    },
+    "views": {
+      "unauthorised": {
+        "heading": "Immer im richtigen Ton - mit dem Supertext Glossar",
+        "description": "Eigene Übersetzungen festlegen, einheitlich bleiben und Zeit sparen. Jetzt upgraden und Sprachkontrolle übernehmen.",
+        "cta": "Mit Advanced starten"
+    },
+      "glossaryViewAll": {
+          "activate": "Aktivieren",
+          "active": "Aktiv",
+          "create": "Glossar erstellen"
+      },
+      "glossaryDoesntExist": {
+         "description": "Legen Sie fest, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung anschliessend automatisch an.",
+  "create": "Glossar erstellen"
+      },
+      "glossaryDelete":{
+        "confirmation": "Sind sie sicher, dass sie das Glossar <bold>“{name}”</bold> löschen möchten?",
+  "delete": "Glossar löschen",
+  "cancel": "Abbrechen",
+  "deletionSuccessful": "Das Glossar {name} wurde erfolgreich gelöscht.",
+  "deletionUnsuccessful": "Das Löschen des Glossars {name} war nicht erfolgreich. Error:{error}"
+      },
+      "glossaryCreate": {
+          "label": "Glossar Bezeichnung",
+          "titlePlaceholder": "Title*",
+          "descriptionPlaceholder": "Beschreibung",
+          "create": "Glossar erstellen",
+            "creationSuccessful": "Das Glossar {name} wurde erfolgreich erstellt.",
+  "creationUnsuccessful": "Das Glossar konnte nicht erstellt werden. Error: {error} "
+      },
+      "glossaryManage": {
+        "glossaryFetchUnsuccessful": "Beim Abrufen des Glossars ist ein Fehler aufgetreten.",
+        "glossaryTermsFetchUnsuccessful": "Beim Abrufen der Glossarbegriffe ist ein Fehler aufgetreten.",
+        "glossaryUpdatedSuccessfully": "Glossar erfolgreich aktualisiert",
+        "glossaryUpdatedUnsuccessfully": "Das Glossar konnte nicht aktualisiert werden.",
+        "glossaryTermAddUnsuccessful": "Der Glossarbegriff konnte nicht hinzugefügt werden.",
+        "glossaryTermAddSuccessful": "Der Glossarbegriff wurde erfolgreich hinzugefügt.",
+        "glossaryTermRemoveSuccessful": "Der Glossarbegriff wurde erfolgreich entfernt.",
+        "glossaryTermRemoveUnsuccessful": "Der Glossarbegriff konnte nicht entfernt werden.",
+        "glossaryTermUpdateSuccessful": "Der Glossarbegriff wurde erfolgreich aktualisiert.",
+        "glossaryTermUpdateUnsuccessful": "Der Glossarbegriff konnte nicht aktualisiert werden.",
+        "termInputForm": {
+          "addTerminologyStepByStep": "Fügen Sie Ihre Terminologie schrittweise hinzu.",
+          "sourceText": "Ausgangstext",
+          "targetLanguage": "-> Zielsprache",
+          "placeholderSourceText": "Source text",
+          "placeholderTargetText": "Target text",
+          "saveEntry": "Eintrag speichern"
+        },
+        "languagePairAccordion": {
+          "emptyStateDescription": "Definieren Sie, wie Wörter oder Phrasen übersetzt werden sollen, und der DeepL Übersetzer passt Ihre Einträge entsprechend an.",
+  "exampleLabel": "Zum Beispiel:",
+  "exampleSource1": "Anmeldung",
+  "exampleTarget1": "Login",
+  "exampleSource2": "KI Übersetzer",
+  "exampleTarget2": "AI Translator"
+        },
+        "glossaryDetailsForm": {
+          "glossaryLabel": "Glossar Bezeichnung",
+          "placeholderTitle": "Title*",
+          "placeholderDescription": "Beschreibung",
+          "save": "Speichern",
+          "cancel": "Abbrechen"
+        }
+      }
+     
+    }
   },
   "on": "Ein",
   "off": "Aus",
@@ -489,6 +519,7 @@
   "translateDocument": "Dokument übersetzen",
   "languages": {
     "x-mixed": "Mehrere Sprachen",
+    "bg": "Bulgarisch",
     "cs": "Tschechisch",
     "da": "Dänisch",
     "de": "Deutsch",
@@ -580,6 +611,7 @@
   },
   "languagesFrom": {
     "x-mixed": "von mehreren Sprachen",
+    "bg": "von Bulgarisch",
     "cs": "von Tschechisch",
     "da": "von Dänisch",
     "de": "von Deutsch",
@@ -628,6 +660,7 @@
     "tr": "von Türkisch"
   },
   "languagesTo": {
+    "bg": "nach Bulgarisch",
     "cs": "nach Tschechisch",
     "da": "nach Dänisch",
     "de": "nach Deutsch",

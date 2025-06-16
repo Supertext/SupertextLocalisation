@@ -1095,24 +1095,64 @@
           }
         },
         "firstMonthFree": "Erster Monat kostenlos",
-        "cancelSubscriptionButton": "Abo herabstufen",
-        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}.",
+        "cancelSubscriptionButton": "Abo definitiv kündigen",
+        "cancelSubscriptionButton2": "Abo kündigen",
+        "downgradeSubscriptionButton": "Abo definitiv herabstufen",
+        "downgradeToSubscription": "Zu {subscription} wechseln",
+        "cancelSubscriptionAlertHeader": {
+          "downgrade": "{fromSubscription}-Abo zu {toSubscription} herabstufen",
+          "cancel": "{fromSubscription}-Abo kündigen"
+        },
+        "cancelSubscriptionAlert": {
+              "fromSubscriptionToSubscriptionSingle": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums auf {toSubscription} herabstufen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}.",
+              "fromSubscriptionToSubscriptionMultiple": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums auf {toSubscription} herabstufen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Bitte beachten Sie, dass die Änderung sämtliche Lizenzen Ihres Teams betrifft.",
+              "cancelSubscriptionSingle": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums kündigen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Danach haben Sie automatisch weiterhin Zugriff auf Supertext Free.",
+              "cancelSubscriptionMultiple": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums kündigen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Bitte beachten Sie, dass die Kündigung sämtliche Lizenzen Ihres Teams betrifft. Nach der Kündigung haben alle User:innen in Ihrem Team automatisch weiterhin Zugriff auf Supertext Free."
+        },
+        "cancelSubscriptionFeatures":{
+          "advancedToEssential": [
+            "28 Sprachen (neu 6)",
+            "Glossarfunktion",
+            "60 Dateiübersetzungen pro Monat (neu 20)",
+            "20 MB maximale Dateigrösse (neu 10 MB)"
+          ],
+          "advancedToFree": [
+            "28 Sprachen (neu 6)",
+            "Sofortige Textlöschung",
+            "Glossarfunktion",
+            "60 Dateien pro Monat (neu 5)",
+            "Unbegrenzte Textübersetzung",
+            "20 MB maximale Dateigrösse (neu 5 MB)",
+            "Excel-, PDF- und SRT-Dateien übersetzen",
+            "Email-Support"
+          ],
+          "essentialToFree": [
+            "Sofortige Textlöschung",
+            "Unbegrenzte Textübersetzung",
+            "20 Dateien pro Monat (neu 5)",
+            "10 MB maximale Dateigrösse (neu 5 MB)",
+            "Excel-, PDF- und SRT-Dateien übersetzen",
+            "Email-Support"
+          ]
+      },
         "footerNote": "Sie haben <highlightText> grosse Ziele?</highlightText> Wir die <highlightText>passende Lösung</highlightText>.",
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "accessRequested": "Zugang in Prüfung",
         "modalTitle": "Feature-Details",
         "startsOn": "Startet am",
-        "downgradeLostFeatures": "Wichtige Funktionen, die Sie verlieren würden",
+        "downgradeLostFeatures": "Diese Vorteile fallen für Sie weg",
+        "downgradeLostFeaturesMultiple": "Diese Vorteile fallen für Ihr Team weg",
         "downgradeReasonLabel": "Warum möchten Sie das Abo herabstufen?",
-        "optionalFeedbackLabel": "Möchten Sie uns noch etwas mitteilen?",
-        "optionalFeedbackPlaceholder": "Optionales Feedback",
+        "cancelReasonLabel": "Warum möchten Sie das Abo kündigen?",
+        "optionalFeedbackLabel": "Haben Sie weiteres Feedback für uns?",
+        "optionalFeedbackPlaceholder": "Optional",
         "subscription_cancellation_reasons": {
-          "too_expensive": "Zu teuer",
-          "not_using": "Ich nutze es nicht genug",
-          "missing_features": "Es fehlen Funktionen",
-          "switching": "Ich wechsle zu einer Alternative",
-          "other": "Anderes"
+          "too_expensive": "Zu hohe Kosten",
+          "not_using": "Nutze es zu wenig",
+          "missing_features": "Fehlende Funktionen",
+          "switching": "Wechsel zur Konkurrenz",
+          "other": "Andere"
         },
         "yourTeamSubscription": "Ihr Team-Abo"
       },
@@ -1328,6 +1368,8 @@
             "nextPayment": "Nächste Zahlung",
             "monthly": "Monatlich",
             "yearly": "Jährlich",
+            "price_per_licence_month": "Preis pro Lizenz, pro Monat ",
+            "price_per_licence_year": "Preis pro Lizenz, pro Jahr",
             "billingPeriod": "Abrechnungszeitraum",
             "subscriptionPrices": "Preise der Abos",
             "change": "Ändern",

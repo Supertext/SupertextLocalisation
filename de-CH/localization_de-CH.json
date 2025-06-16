@@ -79,39 +79,35 @@
         "description": "Sie können eine andere Datei zum Übersetzen hochladen"
       },
       "translationInProgress": "KI-Übersetzung in Arbeit",
+      "ctas":{
+        "contact": "Kontakt aufnehmen",
+        "upgrade": "Upgraden",
+        "upgradeSubscription": "Mit {subscription} starten"
+      },
       "errors": {
         "unregistered": {
           "message": "Sie müssen eingeloggt sein",
           "popover": "Sie können sich kostenlos anmelden, um mit dem Übersetzen von Dateien zu beginnen."
         },
-        "noRemainingFiles": {
-          "message": "Keine Dateien mehr verfügbar",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}"
-        },
-        "unsupportedFileType": {
-          "message": "{plan, select, Essential {Dateityp nicht im Abo enthalten} free {Dateityp nicht in Supertext Free enthalten} other {Dateityp nicht im Abo enthalten}}",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
-        },
-        "limitedFileType": {
-          "message": "Dateityp wird nicht unterstützt",
-          "popover": "Supertext Free umfasst nur Word- und PowerPoint-Dateien",
-          "popover2": "KI-Übersetzungen sind aktuell für Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien möglich"
-        },
-        "freeTierLimit": {
-          "message": "Supertext Free erlaubt KI-Übersetzungen für Word- und PowerPoint-Dateien. Jetzt upgraden, um PDFs, Excel-Dateien und weitere Formate freizuschalten.",
-          "popover": ""
-        },
-        "fileSizeExceeded": {
-          "message": "Dateigrösse überschreitet Ihr Limit",
-          "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB} free {Supertext Free umfasst Dateien bis {size} MB} other {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB}}"
-        },
-        "unsupportedFormat": {
-          "message": "Wir bieten keine Übersetzung für {extension} an.",
-          "popover": ""
-        },
         "remainingFiles": {
           "message": "{count, plural, =0 {Keine Dateien mehr verfügbar} one {Noch # Datei verfügbar} other {Noch # Dateien verfügbar}}",
           "popover": ""
+        },
+        "languageLimitExceeded": {
+          "upgradeMessage": "{language} wird in unserem {subscription} Abo oder höher unterstützt.",
+          "unsupportedMessage": "Wir unterstützen {language} für die AI Übersetzung von Dateien noch nicht."
+        },
+        "usageLimitExceeded": {
+          "upgradeMessage": "Sie haben diesen Monat keine Übersetzungen mehr zur Verfügung. Mit unserem {subscription} Abo können Sie du bis zu {fileLimit} Dateien pro Monat übersetzen.",
+          "enterpriseMessage": "Sie haben diesen Monat keine Übersetzungen mehr zur Verfügung. Übersetzen Sie mit unserer Enterprise lösung so viele Dateien, wie Sie benötigen."
+        },
+        "fileTooLarge": {
+          "upgradeMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrössenbeschränkungen Ihres aktuellen Abonnements. Unser {subscription} Abonnement ermöglicht die KI-Dateiübersetzung mit Dateigrößen von bis zu {fileSize}.",
+          "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrössenbeschränkungen Ihres aktuellen Abonnements. Übersetzen Sie Dateien, die grösser als 20 MB sind, mit unserer Enterprise-Lösung."
+        },
+        "fileTypeNotAllowed": {
+          "upgradeMessage": "{extension}-Dateien werden mit Ihrem aktuellen Abonnement nicht unterstützt. Unser {subscription} Abonnement ermöglicht die Übersetzung von {extension}-Dateien.",
+          "enterpriseMessage": "Derzeit unterstützen wir die Übersetzung von {extension}-Dateien noch nicht. Wenn Sie möchten, dass wir diesen Dateityp unterstützen, setzen Sie sich bitte mit uns in Verbindung."
         },
         "unsupportedFusedTranslationFileType": {
           "message": "",
@@ -125,7 +121,7 @@
       },
       "availableFiles": {
         "message": "{remaining}/{total} Dateien verfügbar",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
+       "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
         "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
       },
       "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder"

@@ -1156,6 +1156,75 @@
         "title": "Sprachressourcen",
         "comingSoon": "Bald verfügbar"
       },
+      "api": {
+        "unsubscribed":{
+            "title":"  Übersetzungen mühelos über API integrieren",
+            "description":" Optimieren Sie Ihre Arbeitsabläufe mit schnellem, skalierbarem und sicherem Zugriff auf Übersetzungen."
+        },
+        "payAsYouGo": "Pay as you go",
+        "per1MillionCharacters": "Pro 1 Mio. Zeichen",
+        "price": "Preis",
+        "perMonth": "pro Monat",
+        "notifications": {
+          "successfullySubscribed":"Supertext API erfolgreich abonniert!"
+        },
+        "panel": {
+          "heading": "API Abonnement",
+          "description": "Optimieren Sie Ihre Arbeitsabläufe mit schnellem, skalierbarem und sicherem Zugriff auf Übersetzungen.",
+          "activeDescription": "Verwalten Sie Ihr API-Abonnement ganz einfach",
+          "subheading": "Supertext API",
+          "subsubheading": "Starten Sie mit der API in unter 5 Minuten",
+          "billingPeriodMonthly": "Monatlich",
+          "subscribe": "Jetzt Abonnieren",
+          "reactivate": "Reaktivieren",
+          "errorGeneric": "Etwas ist schief gelaufen:"
+        },
+        "apiKeys":{
+          "heading": "API Schlüssel",
+          "description": "Verwalten Sie Ihre API-Schlüssel ganz einfach",
+          "emptyNotice": "Sie müssen über mindestens einen API-Schlüssel verfügen, um die Supertext-API nutzen zu können.",
+          "copiedNotice":"API-Schlüssel kopiert!",
+          "keyCreationNotice": "Bitte kopieren Sie diesen Schlüssel, da Sie ihn später nicht mehr sehen können.",
+          "table": {
+            "name": "Name",
+            "preview": "API Key (Vorschau)",
+            "expiresAt": "Läuft ab am"
+          },
+          "modal": {
+            "title": "API-Schlüssel erstellen",
+            "button": "API-Schlüssel erstellen",
+            "formLabel": "Name",
+            "placeholder": "Production Key"
+          },
+          "notifications": {
+            "createSuccess": "Neuer API-Schlüssel hinzugefügt",
+            "createError": "Neuer API-Schlüssel könnte nicht hinzugefügt werden",
+            "deleteSuccess": "API-Schlüssel erfolgreich gelöscht",
+            "deleteError": "API-Schlüssel könnte nicht gelöscht werden"
+          },
+          "dialog": {
+            "deleteTitle": "{description} API Schlüssel löschen",
+            "deleteMessage": "Das Entfernen dieses API-Schlüssels kann dazu führen, dass Funktionen, die Sie mit diesem Schlüssel eingerichtet haben, nicht mehr funktionieren. Das Löschen dieses Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihn allen Funktionen zuweisen, die mit der Supertext-API interagieren."
+          }
+        },
+        "helpLinks": {
+          "learnMore": {
+            "title": "Mehr erfahren",
+            "description": "Entdecken Sie die fortschrittlichen Funktionen der Supertext API und wie sie Ihre Übersetzungsworkflows optimieren kann.",
+            "buttonText": "Mehr erfahren ->"
+          },
+          "documentation": {
+            "title": "Supertext API-Dokumentation",
+            "description": "Vollständige technische Dokumentation mit Beispielen, Parametern und Implementierungsanleitungen für alle API-Endpunkte.",
+            "buttonText": "API-Dokumentation ->"
+          },
+          "terms": {
+            "title": "Nutzungsbedingungen",
+            "description": "Lesen Sie unsere Nutzungsbedingungen und Richtlinien für die Verwendung der Supertext API und Services.",
+            "buttonText": "Nutzungsbedingungen ->"
+          }
+  }
+      },
       "profile": {
         "title": "Profil",
         "email": "E-Mail",

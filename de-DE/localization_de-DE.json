@@ -121,6 +121,22 @@
         "characterFileLimit": {
           "message": "Die Anzahl der Zeichen in Ihrer Datei überschreitet das Limit.",
           "popover": ""
+        },
+        "languageLimitExceeded": {
+          "upgradeMessage": "",
+          "unsupportedMessage": ""
+        },
+        "usageLimitExceeded": {
+          "upgradeMessage": "",
+          "enterpriseMessage": ""
+        },
+        "fileTooLarge": {
+          "upgradeMessage": "",
+          "enterpriseMessage": ""
+        },
+        "fileTypeNotAllowed": {
+          "upgradeMessage": "",
+          "enterpriseMessage": ""
         }
       },
       "availableFiles": {
@@ -128,7 +144,12 @@
         "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
         "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
       },
-      "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder"
+      "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder",
+      "ctas": {
+        "contact": "",
+        "upgrade": "",
+        "upgradeSubscription": ""
+      }
     },
     "profile": {
       "profile": "Profil",
@@ -489,7 +510,6 @@
   "translateDocument": "Dokument übersetzen",
   "languages": {
     "x-mixed": "Mehrere Sprachen",
-    "bg": "Bulgarisch",
     "cs": "Tschechisch",
     "da": "Dänisch",
     "de": "Deutsch",
@@ -535,7 +555,8 @@
     "zh-Hant": "Chinesisch (traditionell)",
     "el": "Griechisch",
     "hr": "Kroatisch",
-    "tr": "Türkisch"
+    "tr": "Türkisch",
+    "bg": ""
   },
   "languageVariants": {
     "de-AT": "AT",
@@ -581,7 +602,6 @@
   },
   "languagesFrom": {
     "x-mixed": "von mehreren Sprachen",
-    "bg": "von Bulgarisch",
     "cs": "von Tschechisch",
     "da": "von Dänisch",
     "de": "von Deutsch",
@@ -627,10 +647,10 @@
     "zh-Hant": "von Chinesisch (traditionell)",
     "el": "von Griechisch",
     "hr": "von Kroatisch",
-    "tr": "von Türkisch"
+    "tr": "von Türkisch",
+    "bg": ""
   },
   "languagesTo": {
-    "bg": "nach Bulgarisch",
     "cs": "nach Tschechisch",
     "da": "nach Dänisch",
     "de": "nach Deutsch",
@@ -676,7 +696,8 @@
     "zh-Hant": "nach Chinesisch (traditionell)",
     "el": "nach Griechisch",
     "hr": "nach Kroatisch",
-    "tr": "nach Türkisch"
+    "tr": "nach Türkisch",
+    "bg": ""
   },
   "authentication": {
     "authenticate": "Authentifizierung",
@@ -1066,7 +1087,6 @@
         },
         "firstMonthFree": "Erster Monat kostenlos",
         "cancelSubscriptionButton": "Abo herabstufen",
-        "cancelSubscriptionAlert": "Sind Sie sicher, dass Sie Ihr Abo herabstufen möchten? Der Zugang zu Ihrem {subscriptionName}-Abo endet am {endDate}.",
         "footerNote": "Sie haben <highlightText> große Ziele?</highlightText> Wir die <highlightText>passende Lösung.</highlightText>",
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
@@ -1084,7 +1104,48 @@
           "switching": "",
           "other": ""
         },
-        "yourTeamSubscription": ""
+        "yourTeamSubscription": "",
+        "cancelSubscriptionButton2": "",
+        "downgradeSubscriptionButton": "",
+        "downgradeToSubscription": "",
+        "cancelSubscriptionAlertHeader": {
+          "downgrade": "",
+          "cancel": ""
+        },
+        "cancelSubscriptionAlert": {
+          "fromSubscriptionToSubscriptionSingle": "",
+          "fromSubscriptionToSubscriptionMultiple": "",
+          "cancelSubscriptionSingle": "",
+          "cancelSubscriptionMultiple": ""
+        },
+        "cancelSubscriptionFeatures": {
+          "advancedToEssential": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "advancedToFree": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "essentialToFree": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "downgradeLostFeaturesMultiple": "",
+        "cancelReasonLabel": ""
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1347,7 +1408,9 @@
             },
             "after": "nach",
             "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
-            "cancelDowngradeLicenses": "Abbrechen"
+            "cancelDowngradeLicenses": "Abbrechen",
+            "price_per_licence_month": "",
+            "price_per_licence_year": ""
           },
           "authorisations": {
             "title": "Zugriffsberechtigungen",
@@ -1427,7 +1490,77 @@
         "Hello.",
         "Bonjour.",
         "Salve."
-      ]
+      ],
+      "api": {
+        "unsubscribed": {
+          "title": "",
+          "description": ""
+        },
+        "payAsYouGo": "",
+        "per1MillionCharacters": "",
+        "price": "",
+        "perMonth": "",
+        "notifications": {
+          "successfullySubscribed": ""
+        },
+        "panel": {
+          "heading": "",
+          "description": "",
+          "activeDescription": "",
+          "subheading": "",
+          "subsubheading": "",
+          "billingPeriodMonthly": "",
+          "subscribe": "",
+          "reactivate": "",
+          "errorGeneric": ""
+        },
+        "apiKeys": {
+          "heading": "",
+          "description": "",
+          "emptyNotice": "",
+          "copiedNotice": "",
+          "keyCreationNotice": "",
+          "table": {
+            "name": "",
+            "preview": "",
+            "expiresAt": ""
+          },
+          "modal": {
+            "title": "",
+            "button": "",
+            "formLabel": "",
+            "placeholder": ""
+          },
+          "notifications": {
+            "createSuccess": "",
+            "createError": "",
+            "deleteSuccess": "",
+            "deleteError": ""
+          },
+          "dialog": {
+            "deleteTitle": "",
+            "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen erneut zuweisen."
+          }
+        },
+        "helpLinks": {
+          "learnMore": {
+            "title": "Mehr erfahren",
+            "description": "Entdecken Sie alle Funktionen der Supertext API und wie sie damit Ihre Übersetzungsworkflows automatisieren.",
+            "buttonText": "Mehr erfahren"
+          },
+          "documentation": {
+            "title": "",
+            "description": "Vollständige technische Dokumentation mit Beispielen, Parametern und Implementierungsanleitungen für alle API-Endprodukte.",
+            "buttonText": "API-Dokumentation"
+          },
+          "terms": {
+            "title": "",
+            "description": "",
+            "buttonText": "Nutzungsbedingungen"
+          }
+        }
+      },
+      "new": ""
     },
     "footer": {
       "contact": "Kontakt",
@@ -2752,6 +2885,10 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Freelancer Relations"
             }
           ]
         }
@@ -3460,7 +3597,7 @@
           },
           "section2": {
             "row1": {
-              "title": "Bewährte Serviceleistungen von 3000+Sprachprofis ",
+              "title": "Bewährte Serviceleistungen von 3000+ Sprachprofis ",
               "description": "Von der Fachübersetzung über mehrsprachiges Lektorat bis zum kreativen Copywriting.",
               "cta1": {
                 "title": "Profi-Services entdecken"
@@ -4087,5 +4224,81 @@
     "backToTool": "Zurück zum KI-Übersetzer",
     "MobileServicesCta": "Alle Sprachservices entdecken"
   },
-  "notSupported": "Nicht unterstützte Sprache"
+  "notSupported": "Nicht unterstützte Sprache",
+  "glossary": {
+    "trigger": {
+      "text": "",
+      "badge": ""
+    },
+    "header": {
+      "back": "",
+      "glossary": ""
+    },
+    "views": {
+      "unauthorised": {
+        "heading": "",
+        "description": "",
+        "cta": ""
+      },
+      "glossaryViewAll": {
+        "activate": "",
+        "active": "",
+        "create": ""
+      },
+      "glossaryDoesntExist": {
+        "description": "",
+        "create": ""
+      },
+      "glossaryDelete": {
+        "confirmation": "",
+        "delete": "",
+        "cancel": "",
+        "deletionSuccessful": "",
+        "deletionUnsuccessful": ""
+      },
+      "glossaryCreate": {
+        "label": "",
+        "titlePlaceholder": "",
+        "descriptionPlaceholder": "",
+        "create": "",
+        "creationSuccessful": "",
+        "creationUnsuccessful": ""
+      },
+      "glossaryManage": {
+        "glossaryFetchUnsuccessful": "",
+        "glossaryTermsFetchUnsuccessful": "",
+        "glossaryUpdatedSuccessfully": "",
+        "glossaryUpdatedUnsuccessfully": "",
+        "glossaryTermAddUnsuccessful": "",
+        "glossaryTermAddSuccessful": "",
+        "glossaryTermRemoveSuccessful": "",
+        "glossaryTermRemoveUnsuccessful": "",
+        "glossaryTermUpdateSuccessful": "",
+        "glossaryTermUpdateUnsuccessful": "",
+        "termInputForm": {
+          "addTerminologyStepByStep": "",
+          "sourceText": "",
+          "targetLanguage": "",
+          "placeholderSourceText": "",
+          "placeholderTargetText": "",
+          "saveEntry": ""
+        },
+        "languagePairAccordion": {
+          "emptyStateDescription": "",
+          "exampleLabel": "",
+          "exampleSource1": "",
+          "exampleTarget1": "",
+          "exampleSource2": "",
+          "exampleTarget2": ""
+        },
+        "glossaryDetailsForm": {
+          "glossaryLabel": "",
+          "placeholderTitle": "",
+          "placeholderDescription": "",
+          "save": "",
+          "cancel": ""
+        }
+      }
+    }
+  }
 }

@@ -1120,26 +1120,26 @@
         },
         "cancelSubscriptionFeatures": {
           "advancedToEssential": [
-            "28 languages (now 6)",
+            "AI translation in 28 languages",
             "Glossary feature",
-            "60 files per month (now 20)",
-            "20 MB maximum file size (now 10 MB)"
+            "60 files per month",
+            "20 MB maximum file size"
           ],
           "advancedToFree": [
-            "28 languages (now 6)",
+            "AI translation in 28 languages",
             "Immediate text deletion",
             "Glossary feature",
-            "60 files per month (now 5)",
+            "60 files per month",
             "Unlimited text translation",
-            "20 MB maximum file size (now 5 MB)",
+            "20 MB maximum file size",
             "Ability to translate Excel, PDF and SRT files",
             "Email support"
           ],
           "essentialToFree": [
             "Immediate text deletion",
             "Unlimited text translation",
-            "20 files per month (now 5)",
-            "10 MB maximum file size (now 5 MB)",
+            "20 files per month",
+            "10 MB maximum file size",
             "Ability to translate Excel, PDF and SRT files",
             "Email support"
           ]
@@ -1497,7 +1497,7 @@
           "description": ""
         },
         "payAsYouGo": "",
-        "per1MillionCharacters": "",
+        "per1MillionCharacters": "Holdrio",
         "price": "",
         "perMonth": "",
         "notifications": {
@@ -4257,7 +4257,7 @@
         "deletionUnsuccessful": "The glossary {name} could not be deleted. Error: {error}"
       },
       "glossaryCreate": {
-        "label": "Glossary label",
+        "label": "Add new glossary",
         "titlePlaceholder": "Title*",
         "descriptionPlaceholder": "Description",
         "create": "Create glossary",
@@ -4277,22 +4277,22 @@
         "glossaryTermUpdateUnsuccessful": "The glossary term could not be updated.",
         "termInputForm": {
           "addTerminologyStepByStep": "Add your terminology step by step.",
-          "sourceText": "Source text",
+          "sourceText": "Source language",
           "targetLanguage": "-> Target language",
           "placeholderSourceText": "Source text",
           "placeholderTargetText": "Target text",
           "saveEntry": "Save entry"
         },
         "languagePairAccordion": {
-          "emptyStateDescription": "Define how words or phrases should be translated and the DeepL translator will automatically adapt these terms to your preferences.",
+          "emptyStateDescription": "Define how words or phrases should be translated and the Supertext AI translator will automatically adapt these terms to your preferences.",
           "exampleLabel": "For example:",
-          "exampleSource1": "Registration",
+          "exampleSource1": "Anmeldung",
           "exampleTarget1": "Login",
-          "exampleSource2": "AI translator",
+          "exampleSource2": "KI-Übersetzer",
           "exampleTarget2": "AI translator"
         },
         "glossaryDetailsForm": {
-          "glossaryLabel": "Glossary label",
+          "glossaryLabel": "Add new glossary",
           "placeholderTitle": "Title*",
           "placeholderDescription": "Description",
           "save": "Save",

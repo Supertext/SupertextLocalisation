@@ -123,20 +123,20 @@
           "popover": ""
         },
         "languageLimitExceeded": {
-          "upgradeMessage": "",
-          "unsupportedMessage": ""
+          "upgradeMessage": "{language} wird in unserem {subscription} Abo oder höher unterstützt.",
+          "unsupportedMessage": "Wir unterstützen {language} für die KI-Übersetzung von Dateien aktuell noch nicht."
         },
         "usageLimitExceeded": {
-          "upgradeMessage": "",
-          "enterpriseMessage": ""
+          "upgradeMessage": "Sie haben diesen Monat keine Übersetzungen mehr zur Verfügung. Mit unserem {subscription} Abo können Sie du bis zu {fileLimit} Dateien pro Monat übersetzen.",
+          "enterpriseMessage": "Sie haben diesen Monat keine Übersetzungen mehr zur Verfügung. Übersetzen Sie mit unserer Enterprise-Lösung so viele Dateien, wie Sie benötigen."
         },
         "fileTooLarge": {
-          "upgradeMessage": "",
-          "enterpriseMessage": ""
+          "upgradeMessage": "Die von Ihnen bereitgestellte Datei überschreitet die maximale Dateigröße Ihres aktuellen Abos. Unser {subscription} Abo ermöglicht die KI-Übersetzung von Dateigrößen bis zu {fileSize}.",
+          "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die maximale Dateigrösse Ihres aktuellen Abos. Übersetzen Sie Dateien, die grösser als 20 MB sind, mit unserer Enterprise-Lösung."
         },
         "fileTypeNotAllowed": {
-          "upgradeMessage": "",
-          "enterpriseMessage": ""
+          "upgradeMessage": "{extension}-Dateien sind in Ihrem aktuellen Abo nicht unterstützt. Unser {subscription} Abo ermöglicht die Übersetzung von {extension}-Dateien.",
+          "enterpriseMessage": "Derzeit unterstützen wir die Übersetzung von {extension}-Dateien noch nicht. Sie wünschen, dass wir diesen Dateityp unterstützen? Dann nehmen Sie gerne mit uns Kontakt auf."
         }
       },
       "availableFiles": {
@@ -146,9 +146,9 @@
       },
       "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder",
       "ctas": {
-        "contact": "",
-        "upgrade": "",
-        "upgradeSubscription": ""
+        "contact": "Kontakt aufnehmen",
+        "upgrade": "Upgraden",
+        "upgradeSubscription": "Mit {subscription} starten"
       }
     },
     "profile": {
@@ -556,7 +556,7 @@
     "el": "Griechisch",
     "hr": "Kroatisch",
     "tr": "Türkisch",
-    "bg": ""
+    "bg": "Bulgarisch"
   },
   "languageVariants": {
     "de-AT": "AT",
@@ -648,7 +648,7 @@
     "el": "von Griechisch",
     "hr": "von Kroatisch",
     "tr": "von Türkisch",
-    "bg": ""
+    "bg": "von Bulgarisch"
   },
   "languagesTo": {
     "cs": "nach Tschechisch",
@@ -1093,59 +1093,59 @@
         "accessRequested": "Zugang in Prüfung",
         "modalTitle": "Feature-Details",
         "startsOn": "Startet am",
-        "downgradeLostFeatures": "",
-        "downgradeReasonLabel": "",
-        "optionalFeedbackLabel": "",
-        "optionalFeedbackPlaceholder": "",
+        "downgradeLostFeatures": "Diese Vorteile fallen für Sie weg",
+        "downgradeReasonLabel": "Warum möchten Sie das Abo herabstufen?",
+        "optionalFeedbackLabel": "Haben Sie weiteres Feedback für uns?",
+        "optionalFeedbackPlaceholder": "Optional",
         "subscription_cancellation_reasons": {
-          "too_expensive": "",
-          "not_using": "",
-          "missing_features": "",
-          "switching": "",
-          "other": ""
+          "too_expensive": "Zu hohe Kosten",
+          "not_using": "Nutze es zu wenig",
+          "missing_features": "Fehlende Funktionen",
+          "switching": "Wechsel zur Konkurrenz",
+          "other": "Andere"
         },
-        "yourTeamSubscription": "",
-        "cancelSubscriptionButton2": "",
-        "downgradeSubscriptionButton": "",
-        "downgradeToSubscription": "",
+        "yourTeamSubscription": "Ihr Team-Abo",
+        "cancelSubscriptionButton2": "Abo kündigen",
+        "downgradeSubscriptionButton": "Abo definitiv herabstufen",
+        "downgradeToSubscription": "Zu {subscription} wechseln",
         "cancelSubscriptionAlertHeader": {
-          "downgrade": "",
-          "cancel": ""
+          "downgrade": "{fromSubscription}-Abo zu {toSubscription} herabstufen",
+          "cancel": "{fromSubscription}-Abo kündigen"
         },
         "cancelSubscriptionAlert": {
-          "fromSubscriptionToSubscriptionSingle": "",
-          "fromSubscriptionToSubscriptionMultiple": "",
-          "cancelSubscriptionSingle": "",
-          "cancelSubscriptionMultiple": ""
+          "fromSubscriptionToSubscriptionSingle": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums auf {toSubscription} herabstufen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}.",
+          "fromSubscriptionToSubscriptionMultiple": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums auf {toSubscription} herabstufen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Bitte beachten Sie, dass die Änderung sämtliche Lizenzen Ihres Teams betrifft.",
+          "cancelSubscriptionSingle": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums kündigen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Danach haben Sie automatisch weiterhin Zugriff auf Supertext Free.",
+          "cancelSubscriptionMultiple": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums kündigen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Die Kündigung betrifft sämtliche Lizenzen Ihres Teams. Danach haben alle User:innen in Ihrem Team automatisch weiterhin Zugriff auf Supertext Free."
         },
         "cancelSubscriptionFeatures": {
           "advancedToEssential": [
-            "",
-            "",
-            "",
-            ""
+            "KI-Übersetzung in 28 Sprachen",
+            "Glossarfunktion",
+            "60 Dateien pro Monat",
+            "20 MB maximale Dateigröße"
           ],
           "advancedToFree": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "KI-Übersetzung in 28 Sprachen",
+            "Sofortige Textlöschung",
+            "Glossarfunktion",
+            "60 Dateien pro Monat",
+            "Unbegrenzte Textübersetzung",
+            "20 MB maximale Dateigröße",
+            "Excel-, PDF- und SRT-Dateien übersetzen",
+            "E-Mail-Support"
           ],
           "essentialToFree": [
-            "",
-            "",
-            "",
-            "",
-            "",
+            "Sofortige Textlöschung",
+            "Unbegrenzte Textübersetzung",
+            "20 Dateien pro Monat",
+            "10 MB maximale Dateigröße",
+            "Excel-, PDF- und SRT-Dateien übersetzen",
             ""
           ]
         },
         "downgradeLostFeaturesMultiple": "",
-        "cancelReasonLabel": ""
+        "cancelReasonLabel": "Warum möchten Sie das Abo kündigen?"
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1336,18 +1336,18 @@
             "editSelectedMembers": "Ausgewählte Mitglieder bearbeiten",
             "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rollen von # Mitgliedern wurden}} erfolgreich aktualisiert",
             "ssoRequest": {
-              "title": "",
-              "button": "",
-              "button_pending": "",
-              "tooltip": "",
-              "description": "",
+              "title": "Single Sign-On (SSO) Onboarding anfordern",
+              "button": "SSO anfordern",
+              "button_pending": "SSO-Upgrade ausstehend",
+              "tooltip": "Um SSO zu beantragen, muss Ihre Organisation über mindestens 10 Abo-Lizenzen verfügen.",
+              "description": "Um das SSO-Onboarding anzufordern, geben Sie bitte die E-Mail-Adresse der technischen Kontaktperson an. Ein:e Supertext-Mitarbeiter:in wird sich mit der Kontaktperson in Verbindung setzen, um die Einrichtung zu koordinieren.",
               "form": {
-                "label": "",
-                "placeholder": "",
-                "invalid": ""
+                "label": "E-Mail-Adresse der technischen Kontaktperson",
+                "placeholder": "example@supertext.com",
+                "invalid": "Bitte eine gültige E-Mail-Adresse eingeben"
               },
-              "notification_success": "",
-              "notification_error": ""
+              "notification_success": "SSO-Upgrade-Anfrage erfolgreich gesendet",
+              "notification_error": "Etwas ist schiefgelaufen: {error}"
             }
           },
           "subscription": {
@@ -1409,8 +1409,8 @@
             "after": "nach",
             "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
             "cancelDowngradeLicenses": "Abbrechen",
-            "price_per_licence_month": "",
-            "price_per_licence_year": ""
+            "price_per_licence_month": "Preis pro Lizenz, pro Monat",
+            "price_per_licence_year": "Preis pro Lizenz, pro Jahr"
           },
           "authorisations": {
             "title": "Zugriffsberechtigungen",
@@ -1494,51 +1494,51 @@
       "api": {
         "unsubscribed": {
           "title": "",
-          "description": ""
+          "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen."
         },
-        "payAsYouGo": "",
-        "per1MillionCharacters": "",
-        "price": "",
-        "perMonth": "",
+        "payAsYouGo": "Nutzungsabhängige Kosten",
+        "per1MillionCharacters": "pro 1 Mio. Zeichen",
+        "price": "Preis",
+        "perMonth": "pro Monat",
         "notifications": {
-          "successfullySubscribed": ""
+          "successfullySubscribed": "Supertext API erfolgreich abonniert!"
         },
         "panel": {
-          "heading": "",
-          "description": "",
-          "activeDescription": "",
-          "subheading": "",
-          "subsubheading": "",
-          "billingPeriodMonthly": "",
-          "subscribe": "",
-          "reactivate": "",
-          "errorGeneric": ""
+          "heading": "API-Abonnement",
+          "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen.",
+          "activeDescription": "Hier verwalten Sie Ihr API-Abonnement",
+          "subheading": "Supertext API",
+          "subsubheading": "Ihr direkter Zugang zu automatisierten Übersetzungen.",
+          "billingPeriodMonthly": "Monatlich",
+          "subscribe": "Jetzt abonnieren",
+          "reactivate": "Abo reaktivieren",
+          "errorGeneric": "Etwas ist schiefgelaufen:"
         },
         "apiKeys": {
-          "heading": "",
-          "description": "",
-          "emptyNotice": "",
-          "copiedNotice": "",
+          "heading": "API-Schlüssel",
+          "description": "Hier können Sie Ihre API-Schlüssel schnell und einfach verwalten.",
+          "emptyNotice": "Sie müssen über mindestens einen API-Schlüssel verfügen, um die Supertext-API nutzen zu können.",
+          "copiedNotice": "API-Schlüssel erfolgreich kopiert",
           "keyCreationNotice": "",
           "table": {
-            "name": "",
-            "preview": "",
-            "expiresAt": ""
+            "name": "Schlüssel-Name",
+            "preview": "API-Schlüssel (Vorschau)",
+            "expiresAt": "Läuft ab am"
           },
           "modal": {
             "title": "",
-            "button": "",
-            "formLabel": "",
-            "placeholder": ""
+            "button": "Neuen API-Schlüssel erstellen",
+            "formLabel": "Schlüssel-Name",
+            "placeholder": "Hier Bezeichnung für Schlüssel eingeben"
           },
           "notifications": {
-            "createSuccess": "",
-            "createError": "",
-            "deleteSuccess": "",
-            "deleteError": ""
+            "createSuccess": "Neuer API-Schlüssel hinzugefügt",
+            "createError": "Neuer API-Schlüssel konnte nicht hinzugefügt werden",
+            "deleteSuccess": "API-Schlüssel erfolgreich gelöscht",
+            "deleteError": "API-Schlüssel konnte nicht gelöscht werden"
           },
           "dialog": {
-            "deleteTitle": "",
+            "deleteTitle": "API-Schlüssel löschen",
             "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen erneut zuweisen."
           }
         },
@@ -1941,10 +1941,10 @@
         }
       },
       "api": {
-        "title": "",
-        "description": "",
-        "price_monthly": "",
-        "price_yearly": ""
+        "title": "Supertext API",
+        "description": "Für alle",
+        "price_monthly": "5,00",
+        "price_yearly": "5,00"
       }
     },
     "featureComparison": {
@@ -4227,76 +4227,76 @@
   "notSupported": "Nicht unterstützte Sprache",
   "glossary": {
     "trigger": {
-      "text": "",
-      "badge": ""
+      "text": "Glossar",
+      "badge": "Neu"
     },
     "header": {
-      "back": "",
-      "glossary": ""
+      "back": "Zurück",
+      "glossary": "Glossar"
     },
     "views": {
       "unauthorised": {
-        "heading": "",
-        "description": "",
-        "cta": ""
+        "heading": "Immer im richtigen Ton – mit dem Supertext-Glossar",
+        "description": "Eigene Übersetzungen festlegen, einheitlich bleiben und Zeit sparen. Jetzt upgraden und Sprachkontrolle übernehmen.",
+        "cta": "Mit Advanced starten"
       },
       "glossaryViewAll": {
-        "activate": "",
-        "active": "",
-        "create": ""
+        "activate": "Aktivieren",
+        "active": "Aktiv",
+        "create": "Glossar erstellen"
       },
       "glossaryDoesntExist": {
-        "description": "",
-        "create": ""
+        "description": "Definieren Sie, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung anschließend automatisch an.",
+        "create": "Glossar erstellen"
       },
       "glossaryDelete": {
-        "confirmation": "",
-        "delete": "",
-        "cancel": "",
-        "deletionSuccessful": "",
-        "deletionUnsuccessful": ""
+        "confirmation": "Sind sie sicher, dass sie das Glossar <bold>“{name}”</bold> löschen möchten?",
+        "delete": "Glossar löschen",
+        "cancel": "Abbrechen",
+        "deletionSuccessful": "Das Glossar {name} wurde erfolgreich gelöscht.",
+        "deletionUnsuccessful": "Das Löschen des Glossars {name} war nicht erfolgreich. Error:{error}"
       },
       "glossaryCreate": {
-        "label": "",
-        "titlePlaceholder": "",
-        "descriptionPlaceholder": "",
-        "create": "",
-        "creationSuccessful": "",
-        "creationUnsuccessful": ""
+        "label": "Neues Glossar anlegen",
+        "titlePlaceholder": "Titel des Glossars*",
+        "descriptionPlaceholder": "Beschreibung",
+        "create": "Glossar erstellen",
+        "creationSuccessful": "Das Glossar {name} wurde erfolgreich erstellt.",
+        "creationUnsuccessful": "Das Glossar konnte nicht erstellt werden. Error: {error} "
       },
       "glossaryManage": {
-        "glossaryFetchUnsuccessful": "",
-        "glossaryTermsFetchUnsuccessful": "",
-        "glossaryUpdatedSuccessfully": "",
-        "glossaryUpdatedUnsuccessfully": "",
-        "glossaryTermAddUnsuccessful": "",
-        "glossaryTermAddSuccessful": "",
-        "glossaryTermRemoveSuccessful": "",
-        "glossaryTermRemoveUnsuccessful": "",
-        "glossaryTermUpdateSuccessful": "",
-        "glossaryTermUpdateUnsuccessful": "",
+        "glossaryFetchUnsuccessful": "Beim Abrufen des Glossars ist ein Fehler aufgetreten.",
+        "glossaryTermsFetchUnsuccessful": "Beim Abrufen der Glossarbegriffe ist ein Fehler aufgetreten.",
+        "glossaryUpdatedSuccessfully": "Glossar erfolgreich aktualisiert",
+        "glossaryUpdatedUnsuccessfully": "Das Glossar konnte nicht aktualisiert werden.",
+        "glossaryTermAddUnsuccessful": "Der Glossarbegriff konnte nicht hinzugefügt werden.",
+        "glossaryTermAddSuccessful": "Der Glossarbegriff wurde erfolgreich hinzugefügt.",
+        "glossaryTermRemoveSuccessful": "Der Glossarbegriff wurde erfolgreich entfernt.",
+        "glossaryTermRemoveUnsuccessful": "Der Glossarbegriff konnte nicht entfernt werden.",
+        "glossaryTermUpdateSuccessful": "Der Glossarbegriff wurde erfolgreich aktualisiert.",
+        "glossaryTermUpdateUnsuccessful": "Der Glossarbegriff konnte nicht aktualisiert werden.",
         "termInputForm": {
-          "addTerminologyStepByStep": "",
-          "sourceText": "",
-          "targetLanguage": "",
-          "placeholderSourceText": "",
-          "placeholderTargetText": "",
-          "saveEntry": ""
+          "addTerminologyStepByStep": "Fügen Sie Ihre Terminologie einfach schrittweise hinzu.",
+          "sourceText": "Ausgangssprache",
+          "targetLanguage": "-> Zielsprache",
+          "placeholderSourceText": "Ausgangsbegriff",
+          "placeholderTargetText": "Zielbegriff",
+          "saveEntry": "Eintrag speichern"
         },
         "languagePairAccordion": {
-          "emptyStateDescription": "",
-          "exampleLabel": "",
-          "exampleSource1": "",
-          "exampleTarget1": "",
-          "exampleSource2": "",
-          "exampleTarget2": ""
+          "emptyStateDescription": "Definieren Sie, wie Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
+          "exampleLabel": "Zum Beispiel:",
+          "exampleSource1": "Anmeldung",
+          "exampleTarget1": "Login",
+          "exampleSource2": "KI-Übersetzer",
+          "exampleTarget2": "AI Translator"
         },
         "glossaryDetailsForm": {
-          "glossaryLabel": "",
-          "placeholderTitle": "",
-          "placeholderDescription": "",
-          "save": "",
-          "cancel": ""
+          "glossaryLabel": "Neues Glossar anlegen",
+          "placeholderTitle": "Titel des Glossars*",
+          "placeholderDescription": "Beschreibung",
+          "save": "Speichern",
+          "cancel": "Abbrechen"
         }
       }
     }

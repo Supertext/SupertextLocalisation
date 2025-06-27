@@ -121,22 +121,6 @@
         "characterFileLimit": {
           "message": "Le nombre de caractères de votre fichier dépasse la limite.",
           "popover": ""
-        },
-        "languageLimitExceeded": {
-          "upgradeMessage": "",
-          "unsupportedMessage": ""
-        },
-        "usageLimitExceeded": {
-          "upgradeMessage": "",
-          "enterpriseMessage": ""
-        },
-        "fileTooLarge": {
-          "upgradeMessage": "",
-          "enterpriseMessage": ""
-        },
-        "fileTypeNotAllowed": {
-          "upgradeMessage": "",
-          "enterpriseMessage": ""
         }
       },
       "availableFiles": {
@@ -144,12 +128,7 @@
         "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} free {Supertext Free comprend {count, plural, =1 {# fichier} other {# fichiers}} per mois.} other {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.}}",
         "unregisteredPopover": "Vous devez être connecté/-ée pour commencer à traduire des fichiers."
       },
-      "dropFileWithoutExtension": "Glissez un fichier ({supportedFileExtensions}) ici ou",
-      "ctas": {
-        "contact": "",
-        "upgrade": "",
-        "upgradeSubscription": ""
-      }
+      "dropFileWithoutExtension": "Glissez un fichier ({supportedFileExtensions}) ici ou"
     },
     "profile": {
       "profile": "Profil",
@@ -510,6 +489,7 @@
   "translateDocument": "Traduire le document",
   "languages": {
     "x-mixed": "Plusieurs langues",
+    "bg": "Bulgare",
     "cs": "Tchèque",
     "da": "Danois",
     "de": "Allemand",
@@ -555,8 +535,7 @@
     "zh-Hant": "Chinois (traditionnel)",
     "el": "grec",
     "hr": "croate",
-    "tr": "turc",
-    "bg": ""
+    "tr": "turc"
   },
   "languageVariants": {
     "de-AT": "AT",
@@ -602,6 +581,7 @@
   },
   "languagesFrom": {
     "x-mixed": "de plusieurs langues",
+    "bg": "de bulgare",
     "cs": "du tchèque",
     "da": "du danois",
     "de": "de l’allemand",
@@ -647,10 +627,10 @@
     "zh-Hant": "du chinois (traditionnel)",
     "el": "du grec",
     "hr": "du croate",
-    "tr": "du turc",
-    "bg": ""
+    "tr": "du turc"
   },
   "languagesTo": {
+    "bg": "en bulgare",
     "cs": "en tchèque",
     "da": "en danois",
     "de": "en allemand",
@@ -696,8 +676,7 @@
     "zh-Hant": "en chinois (traditionnel)",
     "el": "au grec",
     "hr": "en croate",
-    "tr": "en turc",
-    "bg": ""
+    "tr": "en turc"
   },
   "authentication": {
     "authenticate": "Authentification",
@@ -1087,6 +1066,7 @@
         },
         "firstMonthFree": "Premier mois gratuit",
         "cancelSubscriptionButton": "Rétrograder l’abonnement",
+        "cancelSubscriptionAlert": "Êtes-vous sûr/-e de vouloir rétrograder votre abonnement? L’accès à votre abonnement {subscriptionName} se terminera le {endDate}.",
         "footerNote": "Vous avez des <highlightText> objectifs ambitieux?</highlightText> Nous trouvons la <highlightText>solution adaptée.</highlightText>",
         "requestAccess": "Demander l’accès",
         "requestAccessSuccess": "Votre demande a été envoyée avec succès",
@@ -1104,48 +1084,7 @@
           "switching": "",
           "other": ""
         },
-        "yourTeamSubscription": "",
-        "cancelSubscriptionButton2": "",
-        "downgradeSubscriptionButton": "",
-        "downgradeToSubscription": "",
-        "cancelSubscriptionAlertHeader": {
-          "downgrade": "",
-          "cancel": ""
-        },
-        "cancelSubscriptionAlert": {
-          "fromSubscriptionToSubscriptionSingle": "",
-          "fromSubscriptionToSubscriptionMultiple": "",
-          "cancelSubscriptionSingle": "",
-          "cancelSubscriptionMultiple": ""
-        },
-        "cancelSubscriptionFeatures": {
-          "advancedToEssential": [
-            "",
-            "",
-            "",
-            ""
-          ],
-          "advancedToFree": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "essentialToFree": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ]
-        },
-        "downgradeLostFeaturesMultiple": "",
-        "cancelReasonLabel": ""
+        "yourTeamSubscription": ""
       },
       "resources": {
         "title": "Ressources linguistiques",
@@ -1408,13 +1347,11 @@
             },
             "after": "après",
             "downgradeLicenses": "Prochain déclassement de licences",
-            "cancelDowngradeLicenses": "Annuler",
-            "price_per_licence_month": "",
-            "price_per_licence_year": ""
+            "cancelDowngradeLicenses": "Annuler"
           },
           "authorisations": {
             "title": "Autorisations d’accès",
-            "info": "Vous pouvez définir ici qui peut accéder à vos informations.",
+            "info": "Vous pouvez définir ici qui peut accéder à vos informations",
             "ordersAndBills": {
               "title": "Mes commandes et factures",
               "authorisedAmount": "{count, plural, =0 {Uniquement moi} =1 {Moi et un autre membre} other {Moi et {count} autres membres}}",
@@ -1490,77 +1427,7 @@
         "Hello.",
         "Bonjour.",
         "Salve."
-      ],
-      "api": {
-        "unsubscribed": {
-          "title": "",
-          "description": ""
-        },
-        "payAsYouGo": "",
-        "per1MillionCharacters": "",
-        "price": "",
-        "perMonth": "",
-        "notifications": {
-          "successfullySubscribed": ""
-        },
-        "panel": {
-          "heading": "",
-          "description": "",
-          "activeDescription": "",
-          "subheading": "",
-          "subsubheading": "",
-          "billingPeriodMonthly": "",
-          "subscribe": "",
-          "reactivate": "",
-          "errorGeneric": ""
-        },
-        "apiKeys": {
-          "heading": "",
-          "description": "",
-          "emptyNotice": "",
-          "copiedNotice": "",
-          "keyCreationNotice": "",
-          "table": {
-            "name": "",
-            "preview": "",
-            "expiresAt": ""
-          },
-          "modal": {
-            "title": "",
-            "button": "",
-            "formLabel": "",
-            "placeholder": ""
-          },
-          "notifications": {
-            "createSuccess": "",
-            "createError": "",
-            "deleteSuccess": "",
-            "deleteError": ""
-          },
-          "dialog": {
-            "deleteTitle": "",
-            "deleteMessage": ""
-          }
-        },
-        "helpLinks": {
-          "learnMore": {
-            "title": "",
-            "description": "",
-            "buttonText": ""
-          },
-          "documentation": {
-            "title": "",
-            "description": "",
-            "buttonText": ""
-          },
-          "terms": {
-            "title": "",
-            "description": "",
-            "buttonText": ""
-          }
-        }
-      },
-      "new": ""
+      ]
     },
     "footer": {
       "contact": "Contact",
@@ -1569,7 +1436,7 @@
       "newsletterDisclaimer": "En vous inscrivant, vous acceptez notre déclaration protection des données et autorisez Supertext à vous envoyer des mises à jour.",
       "yourEmail": "Votre adresse e-mail",
       "freelancerRegistration": "S’inscrire en tant que freelance",
-      "servicesTitle": "SERVICES PROFESSIONNELS",
+      "servicesTitle": "SERVICES",
       "services": {
         "translation": "Traduction par l'IA avec vérification pro",
         "expertise": "Traduction spécialisée",
@@ -2885,10 +2752,6 @@
             {
               "title": "Assistance clientèle",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Relations avec les freelances"
             }
           ]
         }
@@ -4224,81 +4087,5 @@
     "backToTool": "Retour au traducteur par l'IA",
     "MobileServicesCta": "Découvrez tous les services linguistiques"
   },
-  "notSupported": "Langue non disponible",
-  "glossary": {
-    "trigger": {
-      "text": "",
-      "badge": ""
-    },
-    "header": {
-      "back": "",
-      "glossary": ""
-    },
-    "views": {
-      "unauthorised": {
-        "heading": "",
-        "description": "",
-        "cta": ""
-      },
-      "glossaryViewAll": {
-        "activate": "",
-        "active": "",
-        "create": ""
-      },
-      "glossaryDoesntExist": {
-        "description": "",
-        "create": ""
-      },
-      "glossaryDelete": {
-        "confirmation": "",
-        "delete": "",
-        "cancel": "",
-        "deletionSuccessful": "",
-        "deletionUnsuccessful": ""
-      },
-      "glossaryCreate": {
-        "label": "",
-        "titlePlaceholder": "",
-        "descriptionPlaceholder": "",
-        "create": "",
-        "creationSuccessful": "",
-        "creationUnsuccessful": ""
-      },
-      "glossaryManage": {
-        "glossaryFetchUnsuccessful": "",
-        "glossaryTermsFetchUnsuccessful": "",
-        "glossaryUpdatedSuccessfully": "",
-        "glossaryUpdatedUnsuccessfully": "",
-        "glossaryTermAddUnsuccessful": "",
-        "glossaryTermAddSuccessful": "",
-        "glossaryTermRemoveSuccessful": "",
-        "glossaryTermRemoveUnsuccessful": "",
-        "glossaryTermUpdateSuccessful": "",
-        "glossaryTermUpdateUnsuccessful": "",
-        "termInputForm": {
-          "addTerminologyStepByStep": "",
-          "sourceText": "",
-          "targetLanguage": "",
-          "placeholderSourceText": "",
-          "placeholderTargetText": "",
-          "saveEntry": ""
-        },
-        "languagePairAccordion": {
-          "emptyStateDescription": "",
-          "exampleLabel": "",
-          "exampleSource1": "",
-          "exampleTarget1": "",
-          "exampleSource2": "",
-          "exampleTarget2": ""
-        },
-        "glossaryDetailsForm": {
-          "glossaryLabel": "",
-          "placeholderTitle": "",
-          "placeholderDescription": "",
-          "save": "",
-          "cancel": ""
-        }
-      }
-    }
-  }
+  "notSupported": "Langue non disponible"
 }

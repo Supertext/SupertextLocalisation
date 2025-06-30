@@ -106,8 +106,8 @@
           "enterpriseMessage": "Sie haben diesen Monat keine Übersetzungen mehr zur Verfügung. Übersetzen Sie mit unserer Enterprise-Lösung so viele Dateien, wie Sie benötigen."
         },
         "fileTooLarge": {
-          "upgradeMessage": "Die von Ihnen bereitgestellte Datei überschreitet die maximale Dateigröße Ihres aktuellen Abos. Unser {subscription} Abo ermöglicht die KI-Übersetzung von Dateigrößen bis zu {fileSize}.",
-          "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die maximale Dateigrösse Ihres aktuellen Abos. Übersetzen Sie Dateien, die grösser als 20 MB sind, mit unserer Enterprise-Lösung."
+          "upgradeMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrößenbeschränkung Ihres aktuellen Abos. Unser {subscription} Abo ermöglicht die KI-Übersetzung von Dateigrößen bis zu {fileSize}.",
+          "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrößenbeschränkung Ihres aktuellen Abos. Übersetzen Sie Dateien, die größer als 20 MB sind, mit unserer Enterprise-Lösung."
         },
         "fileTypeNotAllowed": {
           "upgradeMessage": "{extension}-Dateien sind in Ihrem aktuellen Abo nicht unterstützt. Unser {subscription} Abo ermöglicht die Übersetzung von {extension}-Dateien.",
@@ -1479,7 +1479,7 @@
           "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen.",
           "activeDescription": "Hier verwalten Sie Ihr API-Abonnement",
           "subheading": "Supertext API",
-          "subsubheading": "Ihr direkter Zugang zu automatisierten Übersetzungen.",
+          "subsubheading": "Ihr direkter Zugang zu automatisierten Übersetzungen",
           "billingPeriodMonthly": "Monatlich",
           "subscribe": "Jetzt abonnieren",
           "reactivate": "Abo reaktivieren",
@@ -1498,7 +1498,7 @@
             "expiresAt": "Läuft ab am"
           },
           "modal": {
-            "title": "",
+            "title": "API-Schlüssel erstellen",
             "button": "Neuen API-Schlüssel erstellen",
             "formLabel": "Schlüssel-Name",
             "placeholder": "Hier Bezeichnung für Schlüssel eingeben"
@@ -1510,7 +1510,7 @@
             "deleteError": "API-Schlüssel konnte nicht gelöscht werden"
           },
           "dialog": {
-            "deleteTitle": "API-Schlüssel löschen",
+            "deleteTitle": "{description} API-Schlüssel löschen",
             "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen erneut zuweisen."
           }
         },
@@ -1934,8 +1934,8 @@
         "price_monthly": "5,00",
         "price_yearly": "5,00",
         "primaryNotice": {
-          "chf": "",
-          "eur": ""
+          "chf": "+ nutzungabhängige Kosten (CHF 20,00 / 1'000'000 Zeichen)",
+          "eur": "+ nutzungabhängige Kosten (20,00 € / 1,000,000 Zeichen)"
         },
         "period_monthly": "",
         "period_yearly": "",
@@ -1963,17 +1963,17 @@
             "6": {
               "title": "",
               "badge": "",
-              "tooltip": ""
+              "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren"
             },
             "7": {
-              "title": ""
+              "title": "Key-Management und Monitoring"
             },
             "8": {
-              "title": ""
+              "title": "E-Mail-Support innert 24 h"
             }
           }
         },
-        "footerNote": ""
+        "footerNote": "Bitte beachten: Das API-Abo enthält keinen automatischen Zugriff zum KI-Übersetzer im Browser und andere Integrationen (für CAT-Tools etc.)"
       },
       "enterpriseApi": {
         "title": "",
@@ -1987,7 +1987,7 @@
           "title": "",
           "items": {
             "0": {
-              "title": ""
+              "title": "Maßgeschneiderte KI-Modelle für noch bessere Qualität"
             },
             "1": {
               "title": ""
@@ -4334,7 +4334,7 @@
         "glossaryTermUpdateSuccessful": "Der Glossarbegriff wurde erfolgreich aktualisiert.",
         "glossaryTermUpdateUnsuccessful": "Der Glossarbegriff konnte nicht aktualisiert werden.",
         "termInputForm": {
-          "addTerminologyStepByStep": "Fügen Sie Ihre Terminologie einfach schrittweise hinzu.",
+          "addTerminologyStepByStep": "Ergänzen Sie Ihre Terminologie einfach schrittweise.",
           "sourceText": "Ausgangssprache",
           "targetLanguage": "-> Zielsprache",
           "placeholderSourceText": "Ausgangsbegriff",
@@ -4358,6 +4358,6 @@
         }
       }
     },
-    "textTooltip": ""
+    "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar {glossary}."
   }
 }

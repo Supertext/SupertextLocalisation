@@ -84,31 +84,6 @@
           "message": "Deve aver effettuato il login",
           "popover": "Può accedere gratuitamente per iniziare a tradurre file."
         },
-        "noRemainingFiles": {
-          "message": "Nessun altro file disponibile",
-          "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, =1 {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese}}"
-        },
-        "unsupportedFileType": {
-          "message": "{plan, select, Essential {Tipo di file non incluso nell’abbonamento} free {Tipo di file non incluso in Supertext Free} other {Tipo di file non incluso nell’abbonamento}}",
-          "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file Word, Excel, PowerPoint, PDF e SRT} free {Supertext Free comprende file Word e PowerPoint}other {Il Suo abbonamento {subscriptionType} comprende tipi di file limitati}}"
-        },
-        "limitedFileType": {
-          "message": "Tipo di file non supportato",
-          "popover": "Supertext Free comprende solo file Word e PowerPoint",
-          "popover2": "Attualmente, le traduzioni IA sono disponibili per i file Word, Excel, PowerPoint, PDF e SRT"
-        },
-        "freeTierLimit": {
-          "message": "Supertext Free offre traduzioni IA di file Word e PowerPoint. Effettui ora l’upgrade per tradurre file PDF, Excel e altri formati.",
-          "popover": ""
-        },
-        "fileSizeExceeded": {
-          "message": "La dimensione del file supera il limite consentito",
-          "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende file fino a {size} MB} free {Supertext Free comprende file fino a {size} MB} other {Il Suo abbonamento {subscriptionType} comprende file fino a {size} MB}}"
-        },
-        "unsupportedFormat": {
-          "message": "Non offriamo la traduzione per {extension}.",
-          "popover": ""
-        },
         "remainingFiles": {
           "message": "{count, plural, =0 {File non più disponibili} one {# file ancora disponibile} other {file ancora disponibili}}",
           "popover": ""
@@ -121,6 +96,22 @@
         "characterFileLimit": {
           "message": "Il numero di caratteri nel Suo file supera il limite previsto.",
           "popover": ""
+        },
+        "languageLimitExceeded": {
+          "upgradeMessage": "",
+          "unsupportedMessage": ""
+        },
+        "usageLimitExceeded": {
+          "upgradeMessage": "",
+          "enterpriseMessage": ""
+        },
+        "fileTooLarge": {
+          "upgradeMessage": "",
+          "enterpriseMessage": ""
+        },
+        "fileTypeNotAllowed": {
+          "upgradeMessage": "",
+          "enterpriseMessage": ""
         }
       },
       "availableFiles": {
@@ -128,7 +119,12 @@
         "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, one {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese}}",
         "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
       },
-      "dropFileWithoutExtension": "Trascini un file qui o"
+      "dropFileWithoutExtension": "Trascini un file qui o",
+      "ctas": {
+        "contact": "",
+        "upgrade": "",
+        "upgradeSubscription": ""
+      }
     },
     "profile": {
       "profile": "Profilo",
@@ -315,10 +311,7 @@
     "targetTextLength": "Numero di caratteri",
     "sourceTextCharacterLimit": "Numero di caratteri/numero massimo",
     "verifiedTranslations": "Evidenzia le traduzioni verificate",
-    "rephraseTranslation": "Riformulazione",
-    "editGlossary": "Modifica glossario",
-    "deleteGlossary": "Elimina glossario",
-    "deleteTerm": "Elimina termine"
+    "rephraseTranslation": "Riformulazione"
   },
   "popovers": {
     "exactTerms": "Traduzione verificata da {0}",
@@ -414,50 +407,6 @@
   "lengthMatchingFeature": {
     "title": "Adattamento lunghezza"
   },
-  "glossaryFeature": {
-    "glossary": "Glossario",
-    "glossaries": "Glossari",
-    "addGlossary": "Aggiungi glossario",
-    "createGlossary": "Crea glossario",
-    "glossaryName": "Nome glossario",
-    "sourceTerm": "Termine di partenza",
-    "targetTerm": "Termine di arrivo",
-    "search": "Cerca termine",
-    "sourceLanguage": "Lingua di partenza",
-    "targetLanguage": "Lingua di arrivo",
-    "targetLanguages": "Lingue di arrivo",
-    "languagePair": "Combinazione linguistica",
-    "editTerm": "Modifica termine",
-    "verifiedTranslations": "Evidenzia le traduzioni verificate",
-    "verifyNameError": "Il nome del glossario è già in uso",
-    "deleteGlossary": "Elimina glossario",
-    "exportGlossary": "Esporta in formato CSV",
-    "importGlossary": "Importa in formato CSV",
-    "csvTemplate": "Modello CSV",
-    "emptyList": "Il glossario non contiene ancora alcun termine",
-    "termLanguagePairExists": "Il termine è già presente nel glossario",
-    "errorImportSuffix": "Una o più lingue non sono supportate.",
-    "errorExportNoEntries": "Nessun termine disponibile per l’esportazione",
-    "errorImportInvalidEntry": "Termine non valido",
-    "errorImportInvalidSource": "Lingua di partenza non valida",
-    "errorImportInvalidTarget": "Lingua di arrivo non valida",
-    "errorImportInvalidTerm": "Termine di partenza o di arrivo non valido",
-    "termsAddedSuccessfully": "{count} termine/i aggiunto/i con successo",
-    "glossaryDeletedSuccessfully": "Il glossario è stato eliminato",
-    "glossaryCreatedSuccessfully": "Il glossario è stato creato",
-    "glossaryTemplateExportSucessful": "Il modello del glossario è stato scaricato",
-    "noGlossaryDataToExport": "Impossibile trovare dati da esportare nel glossario.",
-    "csvExportSuccessfully": "Il file CSV è stato esportato",
-    "csvImportSuccessfully": "Il file CSV è stato importato",
-    "csvImportFailed": "Si è verificato un errore durante l’importazione del file CSV.",
-    "csvExportFailed": "Si è verificato un errore durante l’esportazione del file CSV.",
-    "csvImportBadHeaders": "Nessuna intestazione valida trovata nel file CSV importato",
-    "selectAll": "Seleziona tutto",
-    "reset": "Ripristina",
-    "autoFill": "Compila automaticamente",
-    "addTerms": "Aggiungi termine",
-    "addAndRepeat": "Aggiungi e ripeti"
-  },
   "on": "On",
   "off": "Off",
   "add": "Aggiungi",
@@ -489,7 +438,6 @@
   "translateDocument": "Traduci documento",
   "languages": {
     "x-mixed": "Più lingue",
-    "bg": "Bulgaro",
     "cs": "Ceco",
     "da": "Danese",
     "de": "Tedesco",
@@ -535,7 +483,8 @@
     "zh-Hant": "Cinese (tradizionale)",
     "el": "greco",
     "hr": "croato",
-    "tr": "turco"
+    "tr": "turco",
+    "bg": ""
   },
   "languageVariants": {
     "de-AT": "AT",
@@ -581,7 +530,6 @@
   },
   "languagesFrom": {
     "x-mixed": "da diverse lingue",
-    "bg": "dal bulgaro",
     "cs": "dal ceco",
     "da": "dal danese",
     "de": "dal tedesco",
@@ -627,10 +575,10 @@
     "zh-Hant": "dal cinese (tradizionale)",
     "el": "dal greco",
     "hr": "dal croato",
-    "tr": "dal turco"
+    "tr": "dal turco",
+    "bg": ""
   },
   "languagesTo": {
-    "bg": "al bulgaro",
     "cs": "al ceco",
     "da": "al danese",
     "de": "al tedesco",
@@ -676,7 +624,8 @@
     "zh-Hant": "al cinese (tradizionale)",
     "el": "al greco",
     "hr": "al croato",
-    "tr": "al turco"
+    "tr": "al turco",
+    "bg": ""
   },
   "authentication": {
     "authenticate": "Autenticazione",
@@ -1066,7 +1015,6 @@
         },
         "firstMonthFree": "Primo mese gratis",
         "cancelSubscriptionButton": "Effettua il downgrade dell’abbonamento",
-        "cancelSubscriptionAlert": "Conferma di effettuare il downgrade dell’abbonamento? L’accesso al Suo abbonamento {subscriptionName} scadrà in data {endDate}.",
         "footerNote": "Avete <highlightText>grandi obiettivi?</highlightText> Noi la <highlightText>soluzione giusta.</highlightText>",
         "requestAccess": "Richiedi l'accesso",
         "requestAccessSuccess": "La Sua richiesta è stata inviata.",
@@ -1084,7 +1032,91 @@
           "switching": "",
           "other": ""
         },
-        "yourTeamSubscription": ""
+        "yourTeamSubscription": "",
+        "cancelSubscriptionButton2": "",
+        "downgradeSubscriptionButton": "",
+        "downgradeToSubscription": "",
+        "cancelSubscriptionAlertHeader": {
+          "downgrade": "",
+          "cancel": ""
+        },
+        "cancelSubscriptionAlert": {
+          "fromSubscriptionToSubscriptionSingle": "",
+          "fromSubscriptionToSubscriptionMultiple": "",
+          "cancelSubscriptionSingle": "",
+          "cancelSubscriptionMultiple": ""
+        },
+        "cancelSubscriptionFeatures": {
+          "advancedToEssential": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "advancedToFree": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "essentialToFree": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "downgradeLostFeaturesMultiple": "",
+        "cancelReasonLabel": "",
+        "startNow": "",
+        "subscriptionType": {
+          "translator": "",
+          "api": ""
+        },
+        "api": {
+          "languagesBox": {
+            "title": "",
+            "languages": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          },
+          "footerNote": "",
+          "cta": ""
+        },
+        "monthlyCancellable": ""
       },
       "resources": {
         "title": "Risorse linguistiche",
@@ -1142,7 +1174,7 @@
             "deleteAccountConfirmation": "Procedere? Questa azione non potrà essere annullata.",
             "deleteAccount": "Cancellare l’account",
             "accountSettings": "Account",
-            "accountSettingsInfo": "Qui può gestire le impostazioni del Suo account",
+            "accountSettingsInfo": "Qui può gestire le impostazioni del Suo account.",
             "settings": "Impostazioni",
             "password": {
               "title": "Password",
@@ -1172,7 +1204,7 @@
           },
           "payments": {
             "title": "Dati di pagamento",
-            "info": "Qui può gestire gli indirizzi di fatturazione standard e i dati della carta di credito",
+            "info": "Qui può gestire gli indirizzi di fatturazione standard e i dati della carta di credito.",
             "setDefaultMethod": "Impostare un metodo di pagamento standard",
             "defaultMethodSetSuccess": "Il metodo di pagamento standard è stato impostato",
             "standardMethod": "Metodo di pagamento standard",
@@ -1347,7 +1379,9 @@
             },
             "after": "dopo il giorno",
             "downgradeLicenses": "Prossima riduzione del numero di licenze",
-            "cancelDowngradeLicenses": "Annulla"
+            "cancelDowngradeLicenses": "Annulla",
+            "price_per_licence_month": "",
+            "price_per_licence_year": ""
           },
           "authorisations": {
             "title": "Autorizzazioni di accesso",
@@ -1427,7 +1461,94 @@
         "Hello.",
         "Bonjour.",
         "Buongiorno."
-      ]
+      ],
+      "api": {
+        "unsubscribed": {
+          "title": "",
+          "description": ""
+        },
+        "payAsYouGo": "",
+        "per1MillionCharacters": "",
+        "price": "",
+        "perMonth": "",
+        "notifications": {
+          "successfullySubscribed": ""
+        },
+        "panel": {
+          "heading": "",
+          "description": "",
+          "activeDescription": "",
+          "subheading": "",
+          "subsubheading": "",
+          "billingPeriodMonthly": "",
+          "subscribe": "",
+          "reactivate": "",
+          "errorGeneric": "",
+          "cancelSubscription": ""
+        },
+        "apiKeys": {
+          "heading": "",
+          "description": "",
+          "emptyNotice": "",
+          "copiedNotice": "",
+          "keyCreationNotice": "",
+          "table": {
+            "name": "",
+            "preview": "",
+            "expiresAt": ""
+          },
+          "modal": {
+            "title": "",
+            "button": "",
+            "formLabel": "",
+            "placeholder": ""
+          },
+          "notifications": {
+            "createSuccess": "",
+            "createError": "",
+            "deleteSuccess": "",
+            "deleteError": ""
+          },
+          "dialog": {
+            "deleteTitle": "",
+            "deleteMessage": ""
+          }
+        },
+        "helpLinks": {
+          "learnMore": {
+            "title": "",
+            "description": "",
+            "buttonText": ""
+          },
+          "documentation": {
+            "title": "",
+            "description": "",
+            "buttonText": ""
+          },
+          "terms": {
+            "title": "",
+            "description": "",
+            "buttonText": ""
+          }
+        },
+        "usage": {
+          "title": "",
+          "thisMonth": "",
+          "description": "",
+          "tooltip": "",
+          "translatedCharsTotalLabel": "",
+          "translatedCharsTotalHelp": "",
+          "translationCostTotalLabel": "",
+          "translationCostTotalHelp": "",
+          "table": {
+            "endpoint": "",
+            "chars": "",
+            "cost": "",
+            "lastUsed": ""
+          }
+        }
+      },
+      "new": ""
     },
     "footer": {
       "contact": "Contatti",
@@ -1811,7 +1932,77 @@
         "title": "",
         "description": "",
         "price_monthly": "",
-        "price_yearly": ""
+        "price_yearly": "",
+        "primaryNotice": {
+          "chf": "",
+          "eur": ""
+        },
+        "period_monthly": "",
+        "period_yearly": "",
+        "features": {
+          "title": "",
+          "items": {
+            "0": {
+              "title": ""
+            },
+            "1": {
+              "title": ""
+            },
+            "2": {
+              "title": ""
+            },
+            "3": {
+              "title": ""
+            },
+            "4": {
+              "title": ""
+            },
+            "5": {
+              "title": ""
+            },
+            "6": {
+              "title": "",
+              "badge": "",
+              "tooltip": ""
+            },
+            "7": {
+              "title": ""
+            },
+            "8": {
+              "title": ""
+            }
+          }
+        },
+        "footerNote": ""
+      },
+      "enterpriseApi": {
+        "title": "",
+        "badge": "",
+        "description": "",
+        "price_monthly": "",
+        "price_yearly": "",
+        "period_monthly": "",
+        "period_yearly": "",
+        "features": {
+          "title": "",
+          "items": {
+            "0": {
+              "title": ""
+            },
+            "1": {
+              "title": ""
+            },
+            "2": {
+              "title": ""
+            },
+            "3": {
+              "title": ""
+            },
+            "4": {
+              "title": ""
+            }
+          }
+        }
       }
     },
     "featureComparison": {
@@ -2752,6 +2943,10 @@
             {
               "title": "Assistenza clienti",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Relazioni con i freelance"
             }
           ]
         }
@@ -4087,5 +4282,82 @@
     "backToTool": "Torna al traduttore IA",
     "MobileServicesCta": "Scopri tutti i servizi linguistici"
   },
-  "notSupported": "Lingua non supportata"
+  "notSupported": "Lingua non supportata",
+  "glossary": {
+    "trigger": {
+      "text": "",
+      "badge": ""
+    },
+    "header": {
+      "back": "",
+      "glossary": ""
+    },
+    "views": {
+      "unauthorised": {
+        "heading": "",
+        "description": "",
+        "cta": ""
+      },
+      "glossaryViewAll": {
+        "activate": "",
+        "active": "",
+        "create": ""
+      },
+      "glossaryDoesntExist": {
+        "description": "",
+        "create": ""
+      },
+      "glossaryDelete": {
+        "confirmation": "",
+        "delete": "",
+        "cancel": "",
+        "deletionSuccessful": "",
+        "deletionUnsuccessful": ""
+      },
+      "glossaryCreate": {
+        "label": "",
+        "titlePlaceholder": "",
+        "descriptionPlaceholder": "",
+        "create": "",
+        "creationSuccessful": "",
+        "creationUnsuccessful": ""
+      },
+      "glossaryManage": {
+        "glossaryFetchUnsuccessful": "",
+        "glossaryTermsFetchUnsuccessful": "",
+        "glossaryUpdatedSuccessfully": "",
+        "glossaryUpdatedUnsuccessfully": "",
+        "glossaryTermAddUnsuccessful": "",
+        "glossaryTermAddSuccessful": "",
+        "glossaryTermRemoveSuccessful": "",
+        "glossaryTermRemoveUnsuccessful": "",
+        "glossaryTermUpdateSuccessful": "",
+        "glossaryTermUpdateUnsuccessful": "",
+        "termInputForm": {
+          "addTerminologyStepByStep": "",
+          "sourceText": "",
+          "targetLanguage": "",
+          "placeholderSourceText": "",
+          "placeholderTargetText": "",
+          "saveEntry": ""
+        },
+        "languagePairAccordion": {
+          "emptyStateDescription": "",
+          "exampleLabel": "",
+          "exampleSource1": "",
+          "exampleTarget1": "",
+          "exampleSource2": "",
+          "exampleTarget2": ""
+        },
+        "glossaryDetailsForm": {
+          "glossaryLabel": "",
+          "placeholderTitle": "",
+          "placeholderDescription": "",
+          "save": "",
+          "cancel": ""
+        }
+      }
+    },
+    "textTooltip": ""
+  }
 }

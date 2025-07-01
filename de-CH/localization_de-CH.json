@@ -1474,6 +1474,10 @@
         "notifications": {
           "successfullySubscribed": "Supertext API erfolgreich abonniert!"
         },
+        "accessDenied": {
+          "title": "API-Zugriff eingeschränkt",
+          "description": "Ihre Benutzerrolle beinhaltet keinen Zugriff auf die API-Einstellungen. Auch wenn Ihr Team über ein aktives API-Abonnement verfügt, können nur bestimmte Rollen diese einsehen oder verwalten. Bitte wenden Sie sich an Ihren Administrator, falls Sie Unterstützung benötigen."
+        },
         "panel": {
           "heading": "API-Abonnement",
           "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen.",

@@ -4336,7 +4336,7 @@
         "termInputForm": {
           "addTerminologyStepByStep": "Add your terminology step by step.",
           "sourceText": "Source language",
-          "targetLanguage": "-> Target language",
+          "targetLanguage": "Target language",
           "placeholderSourceText": "Source text",
           "placeholderTargetText": "Target text",
           "saveEntry": "Save entry"
@@ -4358,6 +4358,6 @@
         }
       }
     },
-    "textTooltip": ""
+    "textTooltip": "This translation comes from the saved glossary <link>{glossary}</link>"
   }
 }

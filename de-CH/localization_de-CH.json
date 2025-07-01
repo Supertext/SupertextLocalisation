@@ -4336,7 +4336,7 @@
         "termInputForm": {
           "addTerminologyStepByStep": "Ergänzen Sie Ihre Terminologie einfach schrittweise.",
           "sourceText": "Ausgangssprache",
-          "targetLanguage": "-> Zielsprache",
+          "targetLanguage": "Zielsprache",
           "placeholderSourceText": "Ausgangsbegriff",
           "placeholderTargetText": "Zielbegriff",
           "saveEntry": "Eintrag speichern"
@@ -4358,6 +4358,6 @@
         }
       }
     },
-    "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar {glossary}."
+    "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar <link>{glossary}</link>."
   }
 }

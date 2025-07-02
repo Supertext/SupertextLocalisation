@@ -1468,8 +1468,8 @@
           "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen."
         },
         "payAsYouGo": "Nutzungsabhängige Kosten",
-        "currentBillingCycle": "Aktueller Zahlungszyklus",
-        "subscriptionEndsOn": "Abonnement läuft bis",
+        "nextPaymentDate": "Nächste Zahlung",
+        "subscriptionEndsOn": "Läuft ab am",
         "per1MillionCharacters": "pro 1 Mio. Zeichen",
         "price": "Preis",
         "perMonth": "pro Monat",
@@ -1498,6 +1498,7 @@
           "emptyNotice": "Sie müssen über mindestens einen API-Schlüssel verfügen, um die Supertext-API nutzen zu können.",
           "copiedNotice": "API-Schlüssel erfolgreich kopiert",
           "keyCreationNotice": "Bitte kopieren Sie diesen Schlüssel, da Sie ihn später nicht mehr sehen können.",
+          "copy": "Kopieren",
           "table": {
             "name": "Schlüssel-Name",
             "preview": "API-Schlüssel (Vorschau)",

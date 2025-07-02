@@ -955,7 +955,7 @@
           "part4": "passende Lösung."
         },
         "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere maßgeschneiderten Produkte und Services. Was können wir tun, um bald auch Sie dazu zu zählen?",
-        "contactUs": "Lassen Sie uns reden",
+        "contactUs": "Kontakt aufnehmen",
         "compareAllFeatures": "Alle Abos vergleichen",
         "customizeSubscriptionInfo": "Passen Sie Ihr Abo jederzeit ganz einfach Ihren Bedürfnissen an.",
         "price": "Preis",
@@ -1015,7 +1015,7 @@
         },
         "firstMonthFree": "Erster Monat kostenlos",
         "cancelSubscriptionButton": "Abo definitiv kündigen",
-        "footerNote": "Sie haben <highlightText> große Ziele?</highlightText> Wir die <highlightText>passende Lösung.</highlightText>",
+        "footerNote": "Sie suchen eine <highlightText> maßgeschneiderte Übersetzungslösung?</highlightText> Lassen Sie uns reden.",
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "accessRequested": "Zugang in Prüfung",
@@ -1778,7 +1778,7 @@
           "title": "In Free enthalten:",
           "items": {
             "0": {
-              "title": "5 Sprachen"
+              "title": "6 Sprachen"
             },
             "1": {
               "title": "Bis 3000 Zeichen",
@@ -1800,7 +1800,7 @@
               "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren (nur für registrierte User:innen)"
             },
             "6": {
-              "title": "Word- und PowerPoint-Dateien"
+              "title": "Word-, PowerPoint- und Plain-Text-Dateien"
             }
           }
         }
@@ -1896,7 +1896,7 @@
               "title": "E-Mail- und Telefon-Support innerhalb 60 Min."
             },
             "4": {
-              "title": "Persönliche:r Account-Manager:in"
+              "title": "E-Mail- und Telefon-Support innert 60 min"
             },
             "5": {
               "title": "Uptime-Garantie"
@@ -1942,8 +1942,8 @@
         "price_monthly": "5,00",
         "price_yearly": "5,00",
         "primaryNotice": {
-          "chf": "+ nutzungsabhängige Kosten (20 € / 1.000.000 Zeichen)",
-          "eur": "+ nutzungabhängige Kosten (20,00 € / 1,000,000 Zeichen)"
+          "chf": "+ nutzungsabhängige Kosten (20 € / 1.000.000 Zeichen)",
+          "eur": "+ nutzungsabhängige Kosten (20 € / 1.000.000 Zeichen)"
         },
         "period_monthly": "/ Monat",
         "period_yearly": "/ Monat",
@@ -1954,7 +1954,7 @@
               "title": "Zugriff auf die Supertext RESTful API"
             },
             "1": {
-              "title": "KI-Übersetzung und Spracherkennung für Texte und Dokumente in 28 Sprachen"
+              "title": "KI-Übersetzung und Spracherkennung für Texte und Dokumente in 28 Sprachen"
             },
             "2": {
               "title": "Volle Einhaltung der DSGVO (EU) und des DSG (Schweiz)"
@@ -1981,7 +1981,7 @@
             }
           }
         },
-        "footerNote": "Bitte beachten: Das API-Abo enthält keinen automatischen Zugriff zum KI-Übersetzer im Browser und andere Integrationen (für CAT-Tools etc.)"
+        "footerNote": "Bitte beachten: Das API-Abo enthält keinen automatischen Zugriff auf den KI-Übersetzer im Browser und andere Integrationen (für CAT-Tools etc.)"
       },
       "enterpriseApi": {
         "title": "Enterprise",
@@ -2056,17 +2056,17 @@
             },
             "immediateTextDeletion": {
               "name": "Sofortige Textlöschung",
-              "description": "Alle Texte werden sofort nach der Übersetzung gelöscht."
+              "description": "Alle Texte werden sofort gelöscht und nicht zum Training unserer Sprachmodelle weiterverwendet."
             },
             "singleSignOn": {
               "name": "Single Sign-on (SSO)",
               "description": "Melden Sie sich mit den bestehenden Zugangsdaten Ihres Unternehmens an.",
-              "advanced": "Ab 10 Lizenzen",
-              "pro": "Ab 10 Lizenzen"
+              "advanced": "ab 10 Lizenzen",
+              "pro": "ab 10 Lizenzen"
             },
             "teamAdministration": {
               "name": "Teamverwaltung",
-              "description": "Verwalten Sie die User:innen in Ihrer Organisation. Fügen Sie Mitglieder hinzu, zeigen Sie die Nutzung an und kontrollieren Sie die Kosten mit zentraler Rechnungsstellung.",
+              "description": "Verwalten Sie die User:innen in Ihrer Organisation zentral im Dashboard. Fügen Sie Mitglieder hinzu, zeigen Sie die Nutzung an und kontrollieren Sie die Kosten mit zentraler Rechnungsstellung.",
               "free": "Mit kostenloser Registrierung"
             },
             "privateHosting": {
@@ -2091,7 +2091,7 @@
           "features": {
             "unlimitedTextTranslation": {
               "name": "Unbegrenzte Textübersetzung",
-              "description": "Übersetzen Sie eine unbegrenzte Menge an Text.",
+              "description": "Übersetzen Sie Freitext direkt auf supertext.com.",
               "free": "Bis 3000 Zeichen (1500 für unregistrierte User:innen)",
               "essential": "Bis zu 3000 Zeichen"
             }
@@ -2102,7 +2102,7 @@
           "features": {
             "unlimitedFileTranslation": {
               "name": "Unbegrenzte Dateiübersetzung",
-              "description": "Laden Sie ganze Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
+              "description": "Laden Sie ganze Dokumente hoch und Sie erhalten eine bearbeitbare Übersetzung im selben Layout und Styling.",
               "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
               "essential": "20 Dateien pro Person und Monat",
               "advanced": "Unbegrenzte Dateiübersetzungen (bearbeitbar)",
@@ -2148,7 +2148,7 @@
             "fusedTranslation": {
               "name": "Fused Translation",
               "description": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren.",
-              "free": "Bald verfügbar (mit kostenloser Registrierung)",
+              "free": "Bald verfügbar (für registrierte User:innen)",
               "essential": "Bald verfügbar",
               "advanced": "Bald verfügbar",
               "pro": "Bald verfügbar",
@@ -2157,7 +2157,7 @@
             },
             "translationImport": {
               "name": "Übersetzungsimport",
-              "description": "Laden Sie Ihre eigene Translation-Memory-Datenbank hoch, um Ihre KI-Übersetzungen zu verbessern."
+              "description": "Laden Sie Ihre eigene Translation-Memory-Datenbank hoch, um Ihre KI-Übersetzungen noch besser zu machen."
             },
             "glossaries": {
               "name": "Glossare",
@@ -2945,10 +2945,6 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer Relations"
             }
           ]
         }

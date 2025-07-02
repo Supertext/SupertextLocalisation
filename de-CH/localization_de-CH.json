@@ -1884,28 +1884,22 @@
           "title": "Alles aus «Advanced», plus:",
           "items": {
             "0": {
-              "title": "30 MB maximale Dateigrösse"
+              "title": "120 Dateien pro Monat (bearbeitbar)"
             },
             "1": {
-              "title": "Styleguides"
+              "title": "30 MB maximale Dateigrösse"
             },
             "2": {
-              "title": "Übersetzungsimport"
+              "title": "Styleguides"
             },
             "3": {
-              "title": "E-Mail- und Telefon-Support innert 60 min"
+              "title": "Übersetzungsimport"
             },
             "4": {
-              "title": "Persönliche:r Account-Manager:in"
+              "title": "E-Mail- und Telefon-Support innerhalb von 60 min"
             },
             "5": {
-              "title": "Uptime-Garantie"
-            },
-            "6": {
-              "title": "Integration in CAT-Tools (optional)"
-            },
-            "7": {
-              "title": "API-Zugang (optional)"
+              "title": "Integration in CAT-Tools (optional) "
             }
           }
         }
@@ -1922,13 +1916,22 @@
           "title": "Alles aus «Pro», plus:",
           "items": {
             "0": {
-              "title": "Massgeschneiderte KI-Modelle und Branding"
+              "title": "Unbegrenzte Anzahl Dateien (bearbeitbar)"
             },
             "1": {
-              "title": "SaaS, Private Cloud oder On-Premises-Hosting"
+              "title": "Massgeschneiderte KI-Modelle und Branding"
             },
             "2": {
-              "title": "Benutzerdefinierte TLS-/SSL-Zertifikate"
+              "title": "SaaS, Private Cloud oder On-Premises-Hosting"
+            },
+            "3": {
+              "title": "Benutzerdefinierte TLS-/SLL-Zertifikate"
+            },
+            "4": {
+              "title": "Persönliche:r Account Manager:in"
+            },
+            "5": {
+              "title": "Uptime-Garantie"
             }
           }
         }
@@ -2091,10 +2094,6 @@
               "description": "Übersetzen Sie eine unbegrenzte Menge an Text.",
               "free": "Bis 3000 Zeichen (1500 für unregistrierte User:innen)",
               "essential": "Bis zu 3000 Zeichen"
-            },
-            "lengthControl": {
-              "name": "Längenkontrolle",
-              "description": "Definieren Sie bei Bedarf, dass die Länge einer Übersetzung die Länge des Ausgangstexts nicht überschreiten darf."
             }
           }
         },
@@ -2106,8 +2105,8 @@
               "description": "Laden Sie ganze Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
               "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
               "essential": "20 Dateien pro Person und Monat",
-              "advanced": "60 Dateien pro Person und Monat (bearbeitbar)",
-              "pro": "120 Dateien pro Person und Monat (bearbeitbar)"
+              "advanced": "60 Dateien pro Person und Monat",
+              "pro": "120 Dateien pro Person und Monat"
             },
             "fileEditingAllowed": {
               "name": "Dateibearbeitung erlaubt",
@@ -2121,6 +2120,9 @@
               "advanced": "20 MB",
               "pro": "30 MB",
               "enterprise": "30 MB"
+            },
+            "plainTextFiles":{
+              "name": "Plain-Text-Dateien (.txt)"
             },
             "microsoftOfficeFileTypes": {
               "name": "Microsoft-Office-Dateitypen",
@@ -2178,13 +2180,6 @@
               "name": "Microsoft-Office-Add-Ins",
               "description": "Nutzen Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook.",
               "comingSoon":"Bald verfügbar"
-            },
-            "api": {
-              "name": "API",
-              "description": "Integrieren Sie KI-Übersetzungen in Ihre eigenen Anwendungen und Arbeitsabläufe.",
-              "advanced": "Optionales Add-on",
-              "pro": "Optionales Add-on",
-              "enterprise": "Optionales Add-on"
             },
             "catToolIntegration": {
               "name": "CAT-Tools",

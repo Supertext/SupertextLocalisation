@@ -110,7 +110,7 @@
           "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrößenbeschränkung Ihres aktuellen Abos. Übersetzen Sie Dateien, die größer als 20 MB sind, mit unserer Enterprise-Lösung."
         },
         "fileTypeNotAllowed": {
-          "upgradeMessage": "{extension}-Dateien sind in Ihrem aktuellen Abo nicht unterstützt. Unser {subscription} Abo ermöglicht die Übersetzung von {extension}-Dateien.",
+          "upgradeMessage": "{extension}-Dateien sind in Ihrem aktuellen Abo nicht unterstützt. Jetzt auf unser {subscription}-Abo upgraden.",
           "enterpriseMessage": "Derzeit unterstützen wir die Übersetzung von {extension}-Dateien noch nicht. Sie wünschen, dass wir diesen Dateityp unterstützen? Dann nehmen Sie gerne mit uns Kontakt auf."
         }
       },
@@ -157,7 +157,7 @@
       }
     },
     "languageMenu": {
-      "cta": "Plus 18 weitere Sprachen in unserer Enterprise-Lösung",
+      "cta": "Plus 22 weitere Sprachen in unserer Advanced-Lösung",
       "href": "/business/de/features"
     },
     "NpsSurveyPopup": {
@@ -360,7 +360,7 @@
       },
       "unsupportedFileType": {
         "message": "Dateityp nicht im Abo enthalten",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst eine limitierte Auswahl an Dateitypen}}"
       },
       "limitedFileType": {
         "message": "Dateityp wird nicht unterstützt",
@@ -625,7 +625,7 @@
     "el": "nach Griechisch",
     "hr": "nach Kroatisch",
     "tr": "nach Türkisch",
-    "bg": ""
+    "bg": "nach Bulgarisch"
   },
   "authentication": {
     "authenticate": "Authentifizierung",
@@ -1014,7 +1014,7 @@
           }
         },
         "firstMonthFree": "Erster Monat kostenlos",
-        "cancelSubscriptionButton": "Abo herabstufen",
+        "cancelSubscriptionButton": "Abo definitiv kündigen",
         "footerNote": "Sie haben <highlightText> große Ziele?</highlightText> Wir die <highlightText>passende Lösung.</highlightText>",
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
@@ -1069,54 +1069,54 @@
             "20 Dateien pro Monat",
             "10 MB maximale Dateigröße",
             "Excel-, PDF- und SRT-Dateien übersetzen",
-            ""
+            "E-Mail-Support"
           ]
         },
-        "downgradeLostFeaturesMultiple": "",
+        "downgradeLostFeaturesMultiple": "Diese Vorteile fallen für Ihr Team weg",
         "cancelReasonLabel": "Warum möchten Sie das Abo kündigen?",
-        "startNow": "",
+        "startNow": "Jetzt starten",
         "subscriptionType": {
-          "translator": "",
-          "api": ""
+          "translator": "KI-ÜBERSETZER",
+          "api": "API"
         },
         "api": {
           "languagesBox": {
-            "title": "",
+            "title": "28 Sprachen –\nund es werden laufend mehr",
             "languages": [
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Albanisch",
+              "Bulgarisch",
+              "Chinesisch",
+              "Dänisch",
+              "Deutsch",
+              "Englisch",
+              "Finnisch",
+              "Französisch",
+              "Griechisch",
+              "Italienisch",
+              "Japanisch",
+              "Koreanisch",
+              "Kroatisch",
+              "Niederländisch",
+              "Norwegisch",
+              "Polnisch",
+              "Portugiesisch",
+              "Rätoromanisch",
+              "Russisch",
+              "Schwedisch",
+              "Schweizerdeutsch",
+              "Serbisch",
+              "Slowakisch",
+              "Slowenisch",
+              "Spanisch",
+              "Tschechisch",
+              "Türkisch",
+              "Ungarisch"
             ]
           },
-          "footerNote": "",
-          "cta": ""
+          "footerNote": "Sie suchen eine <highlightText>maßgeschneiderte Übersetzungslösung?</highlightText>",
+          "cta": "Ihre Sprache ist noch nicht dabei? <link>Lassen Sie uns reden.</link>"
         },
-        "monthlyCancellable": ""
+        "monthlyCancellable": "Monatlich kündbar"
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1475,26 +1475,26 @@
           "successfullySubscribed": "Supertext API erfolgreich abonniert!"
         },
         "panel": {
-          "heading": "API-Abonnement",
+          "heading": "API-Abo",
           "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen.",
-          "activeDescription": "Hier verwalten Sie Ihr API-Abonnement",
+          "activeDescription": "Hier verwalten Sie Ihr API-Abo.",
           "subheading": "Supertext API",
-          "subsubheading": "Ihr direkter Zugang zu automatisierten Übersetzungen",
+          "subsubheading": "Integrieren Sie Supertext in Ihre Applikationen",
           "billingPeriodMonthly": "Monatlich",
           "subscribe": "Jetzt abonnieren",
           "reactivate": "Abo reaktivieren",
           "errorGeneric": "Etwas ist schiefgelaufen:",
-          "cancelSubscription": ""
+          "cancelSubscription": "Gecancelt"
         },
         "apiKeys": {
           "heading": "API-Schlüssel",
           "description": "Hier können Sie Ihre API-Schlüssel schnell und einfach verwalten.",
           "emptyNotice": "Sie müssen über mindestens einen API-Schlüssel verfügen, um die Supertext-API nutzen zu können.",
           "copiedNotice": "API-Schlüssel erfolgreich kopiert",
-          "keyCreationNotice": "",
+          "keyCreationNotice": "Bitte kopieren Sie diesen Schlüssel, da Sie ihn später nicht mehr sehen können.",
           "table": {
             "name": "Schlüssel-Name",
-            "preview": "API-Schlüssel (Vorschau)",
+            "preview": "API-Schlüssel",
             "expiresAt": "Läuft ab am"
           },
           "modal": {
@@ -1512,7 +1512,8 @@
           "dialog": {
             "deleteTitle": "{description} API-Schlüssel löschen",
             "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen erneut zuweisen."
-          }
+          },
+          "copy": ""
         },
         "helpLinks": {
           "learnMore": {
@@ -1521,34 +1522,40 @@
             "buttonText": "Mehr erfahren"
           },
           "documentation": {
-            "title": "",
+            "title": "Supertext-API-Dokumentation",
             "description": "Vollständige technische Dokumentation mit Beispielen, Parametern und Implementierungsanleitungen für alle API-Endprodukte.",
             "buttonText": "API-Dokumentation"
           },
           "terms": {
-            "title": "",
-            "description": "",
+            "title": "Nutzungsbedingungen",
+            "description": "Lesen Sie unsere Nutzungsbedingungen und Richtlinien für die Verwendung der Supertext API und unserer Services.",
             "buttonText": "Nutzungsbedingungen"
           }
         },
         "usage": {
-          "title": "",
-          "thisMonth": "",
-          "description": "",
-          "tooltip": "",
-          "translatedCharsTotalLabel": "",
-          "translatedCharsTotalHelp": "",
-          "translationCostTotalLabel": "",
-          "translationCostTotalHelp": "",
+          "title": "API-Nutzung",
+          "thisMonth": "Diesen Monat",
+          "description": "Kontrollieren Sie Zugriff und Nutzung Ihres API-Abos.",
+          "tooltip": "Nutzungsdaten werden täglich aktualisiert",
+          "translatedCharsTotalLabel": "Übersetzte Zeichen gesamt",
+          "translatedCharsTotalHelp": "Diesen Monat",
+          "translationCostTotalLabel": "Übersetzungskosten gesamt",
+          "translationCostTotalHelp": "Diesen Monat",
           "table": {
-            "endpoint": "",
-            "chars": "",
-            "cost": "",
-            "lastUsed": ""
+            "endpoint": "Endpoint",
+            "chars": "Zeichen",
+            "cost": "Kosten",
+            "lastUsed": "Zuletzt verwendet"
           }
+        },
+        "nextPaymentDate": "",
+        "subscriptionEndsOn": "",
+        "accessDenied": {
+          "title": "",
+          "description": ""
         }
       },
-      "new": ""
+      "new": "Neu"
     },
     "footer": {
       "contact": "Kontakt",
@@ -1840,13 +1847,13 @@
         "period_monthly": "/ Monat",
         "period_yearly": "/ Monat",
         "features": {
-          "title": "Alles aus «Essential», plus:",
+          "title": "Alles aus „Essential“, plus:",
           "items": {
             "0": {
-              "title": "28 Sprachen"
+              "title": "23 Sprachen"
             },
             "1": {
-              "title": "60 Dateien pro Monat (bearbeitbar)"
+              "title": "Unbegrenzte Dateiübersetzungen (bearbeitbar)"
             },
             "2": {
               "title": "20 MB maximale Dateigröße"
@@ -1856,11 +1863,11 @@
             },
             "4": {
               "title": "Add-ins für Microsoft Office",
-              "badge": "Bald verfügbar"
+              "badge": ""
             },
             "5": {
-              "title": "Single Sign-on (SSO)",
-              "tooltip": "ab 10 User:innen"
+              "title": "Längenbeschränkung möglich",
+              "tooltip": ""
             }
           }
         }
@@ -1916,32 +1923,6 @@
             },
             "2": {
               "title": "Benutzerdefinierte TLS-/SSL-Zertifikate"
-            }
-          }
-        }
-      },
-      "api": {
-        "title": "Supertext API",
-        "description": "Für alle",
-        "price_monthly": "5,00",
-        "price_yearly": "5,00",
-        "primaryNotice": {
-          "chf": "+ nutzungabhängige Kosten (CHF 20,00 / 1'000'000 Zeichen)",
-          "eur": "+ nutzungabhängige Kosten (20,00 € / 1,000,000 Zeichen)"
-        },
-        "period_monthly": "",
-        "period_yearly": "",
-        "features": {
-          "title": "",
-          "items": {
-            "0": {
-              "title": ""
-            },
-            "1": {
-              "title": ""
-            },
-            "2": {
-              "title": ""
             },
             "3": {
               "title": ""
@@ -1951,10 +1932,45 @@
             },
             "5": {
               "title": ""
+            }
+          }
+        }
+      },
+      "api": {
+        "title": "API",
+        "description": "Für alle",
+        "price_monthly": "5,00",
+        "price_yearly": "5,00",
+        "primaryNotice": {
+          "chf": "+ nutzungsabhängige Kosten (20 € / 1.000.000 Zeichen)",
+          "eur": "+ nutzungabhängige Kosten (20,00 € / 1,000,000 Zeichen)"
+        },
+        "period_monthly": "/ Monat",
+        "period_yearly": "/ Monat",
+        "features": {
+          "title": "Im API-Abo enthalten:",
+          "items": {
+            "0": {
+              "title": "Zugriff auf die Supertext RESTful API"
+            },
+            "1": {
+              "title": "KI-Übersetzung und Spracherkennung für Texte und Dokumente in 28 Sprachen"
+            },
+            "2": {
+              "title": "Volle Einhaltung der DSGVO (EU) und des DSG (Schweiz)"
+            },
+            "3": {
+              "title": "Ende-zu-Ende-Verschlüsselung und sofortige Textlöschung"
+            },
+            "4": {
+              "title": "Glossarfunktion (ad hoc mit jeder Anfrage)"
+            },
+            "5": {
+              "title": "Profi-Check durch erfahrene Übersetzer:innen als Add-on (kostenpflichtig)"
             },
             "6": {
-              "title": "",
-              "badge": "",
+              "title": "Fused Translation",
+              "badge": "Bald verfügbar",
               "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren"
             },
             "7": {
@@ -1968,30 +1984,30 @@
         "footerNote": "Bitte beachten: Das API-Abo enthält keinen automatischen Zugriff zum KI-Übersetzer im Browser und andere Integrationen (für CAT-Tools etc.)"
       },
       "enterpriseApi": {
-        "title": "",
+        "title": "Enterprise",
         "badge": "",
         "description": "",
-        "price_monthly": "",
-        "price_yearly": "",
+        "price_monthly": "Auf Anfrage",
+        "price_yearly": "Auf Anfrage",
         "period_monthly": "",
         "period_yearly": "",
         "features": {
-          "title": "",
+          "title": "Alles aus „API“, plus:",
           "items": {
             "0": {
               "title": "Maßgeschneiderte KI-Modelle für noch bessere Qualität"
             },
             "1": {
-              "title": ""
+              "title": "SaaS, Private Cloud oder On-Premises-Hosting"
             },
             "2": {
-              "title": ""
+              "title": "Benutzerdefinierte TLS-/SSL-Zertifikate"
             },
             "3": {
-              "title": ""
+              "title": "Persönliche:r Account-Manager:in"
             },
             "4": {
-              "title": ""
+              "title": "Uptime-Garantie"
             }
           }
         }
@@ -2012,12 +2028,12 @@
             "languages": {
               "name": "Sprachen",
               "description": "",
-              "all": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Türkisch, Tschechisch, Ungarisch",
+              "all": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
               "free": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
               "essential": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
-              "advanced": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Türkisch, Tschechisch, Ungarisch",
-              "pro": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Türkisch, Tschechisch, Ungarisch",
-              "enterprise": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Türkisch, Tschechisch, Ungarisch"
+              "advanced": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
+              "pro": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
+              "enterprise": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch"
             },
             "languageVariants": {
               "name": "Sprachvarianten",
@@ -2078,10 +2094,6 @@
               "description": "Übersetzen Sie eine unbegrenzte Menge an Text.",
               "free": "Bis 3000 Zeichen (1500 für unregistrierte User:innen)",
               "essential": "Bis zu 3000 Zeichen"
-            },
-            "lengthControl": {
-              "name": "Längenkontrolle",
-              "description": "Definieren Sie bei Bedarf, dass die Länge einer Übersetzung die Länge des Ausgangstexts nicht überschreiten darf."
             }
           }
         },
@@ -2093,8 +2105,8 @@
               "description": "Laden Sie ganze Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
               "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
               "essential": "20 Dateien pro Person und Monat",
-              "advanced": "60 Dateien pro Monat (bearbeitbar)",
-              "pro": "120 Dateien pro Monat (bearbeitbar)"
+              "advanced": "Unbegrenzte Dateiübersetzungen (bearbeitbar)",
+              "pro": ""
             },
             "fileEditingAllowed": {
               "name": "Dateibearbeitung erlaubt",
@@ -2120,6 +2132,9 @@
             "videoSubtitleFileTypes": {
               "name": "SRT-Dateien für Video-Untertitel",
               "description": ""
+            },
+            "plainTextFiles": {
+              "name": ""
             }
           }
         },
@@ -2164,14 +2179,7 @@
             "microsoftOfficeAddIns": {
               "name": "Microsoft-Office-Add-Ins",
               "description": "Nutzen Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook.",
-              "comingSoon":"Bald verfügbar"
-            },
-            "api": {
-              "name": "API",
-              "description": "Integrieren Sie KI-Übersetzungen in Ihre eigenen Anwendungen und Arbeitsabläufe.",
-              "advanced": "Optionales Add-on",
-              "pro": "Optionales Add-on",
-              "enterprise": "Optionales Add-on"
+              "comingSoon": ""
             },
             "catToolIntegration": {
               "name": "CAT-Tools",
@@ -3689,7 +3697,7 @@
         },
         "languagePairs": {
           "title": "Der Textshuttle-Übersetzer wird zu Supertext. Was steckt drin?",
-          "subtitle": "Sofort übersetzen in bis zu 23 Sprachen",
+          "subtitle": "Sofort übersetzen in bis zu 28 Sprachen",
           "description": "Unser bewährter KI-Übersetzer mit allen Features, die Sie von Textshuttle kennen – und nun noch besseren Resultaten dank hauseigener LLM-Technologie. Einfach, nach höchsten Sicherheitsstandards und exklusiv in der Schweiz gehostet.",
           "ctaButton": {
             "text": "Direkt loslegen",
@@ -4298,7 +4306,7 @@
         "create": "Glossar erstellen"
       },
       "glossaryDoesntExist": {
-        "description": "Definieren Sie, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung anschließend automatisch an.",
+        "description": "Definieren Sie, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
         "create": "Glossar erstellen"
       },
       "glossaryDelete": {
@@ -4330,7 +4338,7 @@
         "termInputForm": {
           "addTerminologyStepByStep": "Ergänzen Sie Ihre Terminologie einfach schrittweise.",
           "sourceText": "Ausgangssprache",
-          "targetLanguage": "Zielsprache",
+          "targetLanguage": "-> Zielsprache",
           "placeholderSourceText": "Ausgangsbegriff",
           "placeholderTargetText": "Zielbegriff",
           "saveEntry": "Eintrag speichern"
@@ -4352,6 +4360,6 @@
         }
       }
     },
-    "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar <link>{glossary}</link>."
+    "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar {glossary}."
   }
 }

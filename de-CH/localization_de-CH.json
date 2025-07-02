@@ -110,7 +110,7 @@
           "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrössenbeschränkung Ihres aktuellen Abos. Übersetzen Sie Dateien, die grösser als 20 MB sind, mit unserer Enterprise-Lösung."
         },
         "fileTypeNotAllowed": {
-          "upgradeMessage": "{extension}-Dateien werden mit Ihrem aktuellen Abo nicht unterstützt. Unser {subscription} Abo ermöglicht die Übersetzung von {extension}-Dateien.",
+          "upgradeMessage": "{extension}-Dateien werden mit Ihrem aktuellen Abo nicht unterstützt. Jetz auf unser {subscription}-Abo upgraden.",
           "enterpriseMessage": "Derzeit unterstützen wir die Übersetzung von {extension}-Dateien noch nicht. Sie wünschen, dass wir diesen Dateityp unterstützen? Dann nehmen Sie gerne mit uns Kontakt auf."
         }
       },
@@ -157,7 +157,7 @@
       }
     },
     "languageMenu": {
-      "cta": "Plus 18 weitere Sprachen in unserer Enterprise-Lösung",
+      "cta": "Plus 22 weitere Sprachen in unserer Advanced-Lösung",
       "href": "/business/de/features"
     },
     "NpsSurveyPopup": {
@@ -1468,24 +1468,18 @@
           "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen."
         },
         "payAsYouGo": "Nutzungsabhängige Kosten",
-        "nextPaymentDate": "Nächste Zahlung",
-        "subscriptionEndsOn": "Läuft ab am",
         "per1MillionCharacters": "pro 1 Mio. Zeichen",
         "price": "Preis",
         "perMonth": "pro Monat",
         "notifications": {
           "successfullySubscribed": "Supertext API erfolgreich abonniert!"
         },
-        "accessDenied": {
-          "title": "API-Zugriff eingeschränkt",
-          "description": "Ihre Benutzerrolle beinhaltet keinen Zugriff auf die API-Einstellungen. Auch wenn Ihr Team über ein aktives API-Abonnement verfügt, können nur bestimmte Rollen diese einsehen oder verwalten. Bitte wenden Sie sich an Ihren Administrator, falls Sie Unterstützung benötigen."
-        },
         "panel": {
-          "heading": "API-Abonnement",
+          "heading": "API-Abo",
           "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen.",
-          "activeDescription": "Hier verwalten Sie Ihr API-Abonnement",
+          "activeDescription": "Hier verwalten Sie Ihr API-Abo.",
           "subheading": "Supertext API",
-          "subsubheading": "Ihr direkter Zugang zu automatisierten Übersetzungen",
+          "subsubheading": "Integrieren Sie Supertext in Ihre Applikationen",
           "billingPeriodMonthly": "Monatlich",
           "subscribe": "Jetzt abonnieren",
           "reactivate": "Abo reaktivieren",
@@ -1498,10 +1492,9 @@
           "emptyNotice": "Sie müssen über mindestens einen API-Schlüssel verfügen, um die Supertext-API nutzen zu können.",
           "copiedNotice": "API-Schlüssel erfolgreich kopiert",
           "keyCreationNotice": "Bitte kopieren Sie diesen Schlüssel, da Sie ihn später nicht mehr sehen können.",
-          "copy": "Kopieren",
           "table": {
             "name": "Schlüssel-Name",
-            "preview": "API-Schlüssel (Vorschau)",
+            "preview": "API-Schlüssel",
             "expiresAt": "Läuft ab am"
           },
           "modal": {
@@ -1519,7 +1512,8 @@
           "dialog": {
             "deleteTitle": "{description} API-Schlüssel löschen",
             "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen erneut zuweisen."
-          }
+          },
+          "copy": "Kopieren"
         },
         "helpLinks": {
           "learnMore": {
@@ -1541,7 +1535,7 @@
         "usage": {
           "title": "API-Nutzung",
           "thisMonth": "Diesen Monat",
-          "description": "Kontrollieren Sie Zugriff und Nutzung Ihres API-Abos",
+          "description": "Kontrollieren Sie Zugriff und Nutzung Ihres API-Abos.",
           "tooltip": "Nutzungsdaten werden täglich aktualisiert",
           "translatedCharsTotalLabel": "Übersetzte Zeichen gesamt",
           "translatedCharsTotalHelp": "Diesen Monat",
@@ -1553,6 +1547,12 @@
             "cost": "Kosten",
             "lastUsed": "Zuletzt verwendet"
           }
+        },
+        "nextPaymentDate": "Nächste Zahlung",
+        "subscriptionEndsOn": "Läuft ab am",
+        "accessDenied": {
+          "title": "API-Zugriff eingeschränkt",
+          "description": "Ihre Benutzerrolle beinhaltet keinen Zugriff auf die API-Einstellungen. Auch wenn Ihr Team über ein aktives API-Abo verfügt, können nur bestimmte Rollen diese einsehen oder verwalten. Bitte wenden Sie sich an Ihren Administrator, falls Sie Unterstützung benötigen."
         }
       },
       "new": "Neu"
@@ -2121,9 +2121,6 @@
               "pro": "30 MB",
               "enterprise": "30 MB"
             },
-            "plainTextFiles":{
-              "name": "Plain-Text-Dateien (.txt)"
-            },
             "microsoftOfficeFileTypes": {
               "name": "Microsoft-Office-Dateitypen",
               "description": ""
@@ -2135,6 +2132,9 @@
             "videoSubtitleFileTypes": {
               "name": "SRT-Dateien für Video-Untertitel",
               "description": ""
+            },
+            "plainTextFiles": {
+              "name": "Plain-Text-Dateien (.txt)"
             }
           }
         },
@@ -2179,7 +2179,7 @@
             "microsoftOfficeAddIns": {
               "name": "Microsoft-Office-Add-Ins",
               "description": "Nutzen Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook.",
-              "comingSoon":"Bald verfügbar"
+              "comingSoon": "Bald verfügbar"
             },
             "catToolIntegration": {
               "name": "CAT-Tools",
@@ -3697,7 +3697,7 @@
         },
         "languagePairs": {
           "title": "Der Textshuttle-Übersetzer wird zu Supertext. Was steckt drin?",
-          "subtitle": "Sofort übersetzen in bis zu 23 Sprachen",
+          "subtitle": "Sofort übersetzen in bis zu 28 Sprachen",
           "description": "Unser bewährter KI-Übersetzer mit allen Features, die Sie von Textshuttle kennen – und nun noch besseren Resultaten dank hauseigener LLM-Technologie. Einfach, nach höchsten Sicherheitsstandards und exklusiv in der Schweiz gehostet.",
           "ctaButton": {
             "text": "Direkt loslegen",
@@ -4306,7 +4306,7 @@
         "create": "Glossar erstellen"
       },
       "glossaryDoesntExist": {
-        "description": "Definieren Sie, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung anschließend automatisch an.",
+        "description": "Definieren Sie, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
         "create": "Glossar erstellen"
       },
       "glossaryDelete": {

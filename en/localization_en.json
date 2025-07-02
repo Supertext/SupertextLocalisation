@@ -99,19 +99,19 @@
         },
         "languageLimitExceeded": {
           "upgradeMessage": "{language} is supported in our {subscription} subscription and higher.",
-          "unsupportedMessage": "We do not yet support AI file translation in {language}."
+          "unsupportedMessage": "We do not currently support AI file translation in {language}."
         },
         "usageLimitExceeded": {
           "upgradeMessage": "You have already used all your translations for this month. You can translate up to {fileLimit} files per month with our {subscription} subscription.",
           "enterpriseMessage": "You have already used all your translations for this month. You can translate as many files as you need with our Enterprise solution."
         },
         "fileTooLarge": {
-          "upgradeMessage": "The file you provided exceeds the file size limits of your current subscription. Our {subscription} subscription enables AI file translation with file sizes up to {fileSize}.",
-          "enterpriseMessage": "The file you provided exceeds the file size limits of your current subscription. You can translate files larger than 20 MB with our Enterprise solution."
+          "upgradeMessage": "The file you provided exceeds the file size limit of your current subscription. Our {subscription} subscription enables AI file translation with file sizes up to {fileSize}.",
+          "enterpriseMessage": "The file you provided exceeds the file size limit of your current subscription. You can translate files larger than 20 MB with our Enterprise solution."
         },
         "fileTypeNotAllowed": {
           "upgradeMessage": "{extension} files are not supported with your current subscription. Our {subscription} subscription allows you to translate {extension} files.",
-          "enterpriseMessage": "We do not yet support the translation of {extension} files. If you would like us to support this file type, please contact us."
+          "enterpriseMessage": "We do not yet support the translation of {extension} files. Would you like us to support this file type? Then please get in touch with us."
         }
       },
       "availableFiles": {
@@ -157,7 +157,7 @@
       }
     },
     "languageMenu": {
-      "cta": "Plus 18 additional languages in our enterprise solution",
+      "cta": "Plus 22 additional languages in our advanced solution",
       "href": "/business/en/features"
     },
     "NpsSurveyPopup": {
@@ -207,7 +207,7 @@
           },
           "personalization": {
             "title": "Personalisation",
-            "description": "Enables storage related to personalisation, e.g. video recommendations"
+            "description": "These cookies store information related to personalisation, e.g. video recommendations."
           }
         }
       }
@@ -798,7 +798,7 @@
       "roleBasedUserMenuLinks": {
         "localReview": "LocalReview",
         "termBase": "Termbase",
-        "application": "Application",
+        "application": "Your application",
         "jobs": "Jobs"
       }
     },
@@ -1044,7 +1044,7 @@
           "fromSubscriptionToSubscriptionSingle": "Are you sure you want to downgrade your subscription to {toSubscription} at the end of the current billing period? This means that your access to the features of the {fromSubscription} subscription will end on {endDate}.",
           "fromSubscriptionToSubscriptionMultiple": "Are you sure you want to downgrade your subscription to {toSubscription} at the end of the current billing period? This means that your access to the features of the {fromSubscription} subscription will end on {endDate}. Please note that the change will affect all licences in your team.",
           "cancelSubscriptionSingle": "Are you sure you want to cancel your subscription at the end of the current billing period? This means that your access to the features of the {fromSubscription} subscription will end on {endDate}. After this, you will automatically continue to have access to Supertext Free.",
-          "cancelSubscriptionMultiple": "Are you sure you want to cancel your subscription at the end of the current billing period? This means that your access to the features of the {fromSubscription} subscription will end on {endDate}. Please note that the cancellation will affect all licences in your team. After cancellation, all users in your team will automatically continue to have access to Supertext Free."
+          "cancelSubscriptionMultiple": "Are you sure you want to cancel your subscription at the end of the current billing period? This means that your access to the features of the {fromSubscription} subscription will end on {endDate}. The cancellation will affect all licences in your team. After cancellation, all users in your team will automatically continue to have access to Supertext Free."
         },
         "cancelSubscriptionFeatures": {
           "advancedToEssential": [
@@ -1074,49 +1074,49 @@
         },
         "downgradeLostFeaturesMultiple": "Your team will lose these advantages",
         "cancelReasonLabel": "Why do you want to cancel your subscription?",
-        "startNow": "",
+        "startNow": "Start now",
         "subscriptionType": {
-          "translator": "",
-          "api": ""
+          "translator": "AI TRANSLATOR",
+          "api": "API"
         },
         "api": {
           "languagesBox": {
-            "title": "",
+            "title": "28 languages – \nand counting",
             "languages": [
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Albanian",
+              "Bulgarian",
+              "Chinese",
+              "Danish",
+              "German",
+              "English",
+              "Finnish",
+              "French",
+              "Greek",
+              "Italian",
+              "Japanese",
+              "Korean",
+              "Croatian",
+              "Dutch",
+              "Norwegian",
+              "Polish",
+              "Portuguese",
+              "Romansh",
+              "Russian",
+              "Swedish",
+              "Swiss German",
+              "Serbian",
+              "Slovak",
+              "Slovenian",
+              "Spanish",
+              "Czech",
+              "Turkish",
+              "Hungarian"
             ]
           },
-          "footerNote": "",
-          "cta": ""
+          "footerNote": "Are you looking for a <highlightText>tailor-made translation solution?</highlightText>",
+          "cta": "Is your language not included yet? <link>Let’s talk.</link>"
         },
-        "monthlyCancellable": ""
+        "monthlyCancellable": "Can be canceled monthly"
       },
       "resources": {
         "title": "Linguistic resources",
@@ -1198,7 +1198,7 @@
               "email": {
                 "admin": "Only another team administrator can change your email",
                 "sso": "As an SSO user, you cannot change your email address.",
-                "user": "Only the team administrator can change your email"
+                "user": "Only the admin can change your email"
               }
             }
           },
@@ -1385,7 +1385,7 @@
           },
           "authorisations": {
             "title": "Access authorisations",
-            "info": "Here you can define who can access your information",
+            "info": "Here you can define who has access to your information.",
             "ordersAndBills": {
               "title": "My orders and invoices",
               "authorisedAmount": "{count, plural, =0 {Only me} =1 {Me and one other member} other {Me and {count} other members}}",
@@ -1465,90 +1465,97 @@
       "api": {
         "unsubscribed": {
           "title": "",
-          "description": ""
+          "description": "Streamline your workflows with scalable and secure access to translations."
         },
-        "payAsYouGo": "",
-        "per1MillionCharacters": "",
-        "price": "",
-        "perMonth": "",
+        "payAsYouGo": "Usage-dependent costs",
+        "per1MillionCharacters": "per million characters",
+        "price": "Price",
+        "perMonth": "per month",
         "notifications": {
-          "successfullySubscribed": ""
+          "successfullySubscribed": "You have successfully subscribed to the Supertext API!"
         },
         "panel": {
-          "heading": "",
-          "description": "",
-          "activeDescription": "",
-          "subheading": "",
-          "subsubheading": "",
-          "billingPeriodMonthly": "",
-          "subscribe": "",
-          "reactivate": "",
-          "errorGeneric": "",
-          "cancelSubscription": ""
+          "heading": "API subscription",
+          "description": "Streamline your workflows with scalable and secure access to translations.",
+          "activeDescription": "Manage your API subscription here.",
+          "subheading": "Supertext API",
+          "subsubheading": "Your direct line to automated translations",
+          "billingPeriodMonthly": "Monthly",
+          "subscribe": "Subscribe now",
+          "reactivate": "Reactivate subscription",
+          "errorGeneric": "Something went wrong:",
+          "cancelSubscription": "Cancelled"
         },
         "apiKeys": {
-          "heading": "",
-          "description": "",
-          "emptyNotice": "",
-          "copiedNotice": "",
-          "keyCreationNotice": "",
+          "heading": "API key",
+          "description": "You can manage your API keys quickly and easily here.",
+          "emptyNotice": "You must have at least one API key to use the Supertext API.",
+          "copiedNotice": "API key successfully copied",
+          "keyCreationNotice": "Please copy this key, as you will no longer be able to see it later.",
           "table": {
-            "name": "",
-            "preview": "",
-            "expiresAt": ""
+            "name": "Key name",
+            "preview": "API key",
+            "expiresAt": "Expires on"
           },
           "modal": {
-            "title": "",
-            "button": "",
-            "formLabel": "",
-            "placeholder": ""
+            "title": "Create API key",
+            "button": "Create new API key",
+            "formLabel": "Key name",
+            "placeholder": "Enter the key name here"
           },
           "notifications": {
-            "createSuccess": "",
-            "createError": "",
-            "deleteSuccess": "",
-            "deleteError": ""
+            "createSuccess": "New API key added",
+            "createError": "New API key could not be added",
+            "deleteSuccess": "API key successfully deleted",
+            "deleteError": "API key could not be deleted"
           },
           "dialog": {
-            "deleteTitle": "",
-            "deleteMessage": ""
-          }
+            "deleteTitle": "{description} Delete API key",
+            "deleteMessage": "If you remove this API key, certain features associated with it may no longer be available. Deleting the key cannot be undone. You will need to create a new key and assign all the features to it instead."
+          },
+          "copy": ""
         },
         "helpLinks": {
           "learnMore": {
-            "title": "",
-            "description": "",
-            "buttonText": ""
+            "title": "Find out more",
+            "description": "Discover all the features of the Supertext API and how you can use it to automate your translation workflows.",
+            "buttonText": "Find out more ->"
           },
           "documentation": {
-            "title": "",
-            "description": "",
-            "buttonText": ""
+            "title": "Supertext API documentation",
+            "description": "Complete technical documentation with examples, parameters and implementation instructions for all API endpoints.",
+            "buttonText": "API documentation ->"
           },
           "terms": {
-            "title": "",
-            "description": "",
-            "buttonText": ""
+            "title": "Terms of Use",
+            "description": "Read our Terms of Use and policies for use of the Supertext API and our services.",
+            "buttonText": "Terms of Use ->"
           }
         },
         "usage": {
-          "title": "",
-          "thisMonth": "",
-          "description": "",
-          "tooltip": "",
-          "translatedCharsTotalLabel": "",
-          "translatedCharsTotalHelp": "",
-          "translationCostTotalLabel": "",
-          "translationCostTotalHelp": "",
+          "title": "API usage",
+          "thisMonth": "This month",
+          "description": "Control access to and usage of your API subscription.",
+          "tooltip": "Usage data is updated daily",
+          "translatedCharsTotalLabel": "Total translated characters",
+          "translatedCharsTotalHelp": "This month",
+          "translationCostTotalLabel": "Total translation costs",
+          "translationCostTotalHelp": "This month",
           "table": {
-            "endpoint": "",
-            "chars": "",
-            "cost": "",
-            "lastUsed": ""
+            "endpoint": "End point",
+            "chars": "Characters",
+            "cost": "Costs",
+            "lastUsed": "Last used"
           }
+        },
+        "nextPaymentDate": "",
+        "subscriptionEndsOn": "",
+        "accessDenied": {
+          "title": "",
+          "description": ""
         }
       },
-      "new": ""
+      "new": "New"
     },
     "footer": {
       "contact": "Contact",
@@ -1843,10 +1850,10 @@
           "title": "Everything from Essential, plus:",
           "items": {
             "0": {
-              "title": "28 languages"
+              "title": "23 languages"
             },
             "1": {
-              "title": "60 files per month (editable)"
+              "title": "Unlimited file translations (editable)"
             },
             "2": {
               "title": "20 MB maximum file size"
@@ -1856,11 +1863,11 @@
             },
             "4": {
               "title": "Add-ins for Microsoft Office",
-              "badge": "Available soon"
+              "badge": ""
             },
             "5": {
-              "title": "Single sign-on (SSO)",
-              "tooltip": "From 10 users"
+              "title": "Length restrictions possible",
+              "tooltip": ""
             }
           }
         }
@@ -1916,32 +1923,6 @@
             },
             "2": {
               "title": "Custom TLS/SSL certificates"
-            }
-          }
-        }
-      },
-      "api": {
-        "title": "Supertext API",
-        "description": "For everyone",
-        "price_monthly": "5.00",
-        "price_yearly": "5.00",
-        "primaryNotice": {
-          "chf": "",
-          "eur": ""
-        },
-        "period_monthly": "",
-        "period_yearly": "",
-        "features": {
-          "title": "",
-          "items": {
-            "0": {
-              "title": ""
-            },
-            "1": {
-              "title": ""
-            },
-            "2": {
-              "title": ""
             },
             "3": {
               "title": ""
@@ -1951,47 +1932,82 @@
             },
             "5": {
               "title": ""
+            }
+          }
+        }
+      },
+      "api": {
+        "title": "API",
+        "description": "For everyone",
+        "price_monthly": "5.00",
+        "price_yearly": "5.00",
+        "primaryNotice": {
+          "chf": "+ usage-dependent costs (CHF 20/million characters)",
+          "eur": "+ usage-dependent costs (€20/million characters)"
+        },
+        "period_monthly": "/month",
+        "period_yearly": "/month",
+        "features": {
+          "title": "Included in the API subscription:",
+          "items": {
+            "0": {
+              "title": "Access to the Supertext RESTful API"
+            },
+            "1": {
+              "title": "AI translation and language recognition for texts and documents in 28 languages"
+            },
+            "2": {
+              "title": "Full compliance with GDPR (EU) and FADP (Switzerland)"
+            },
+            "3": {
+              "title": "End-to-end encryption and instant text deletion"
+            },
+            "4": {
+              "title": "Glossary feature (ad hoc with every request)"
+            },
+            "5": {
+              "title": "Verification by experienced translators as an add-on (paid service)"
             },
             "6": {
-              "title": "",
-              "badge": "",
-              "tooltip": ""
+              "title": "Fused translation",
+              "badge": "Available soon",
+              "tooltip": "Your AI translations improve in real time with every project you place with the Supertext language experts"
             },
             "7": {
-              "title": ""
+              "title": "Key management and monitoring"
             },
             "8": {
-              "title": ""
+              "title": "Email support within 24 hours"
             }
           }
         },
-        "footerNote": ""
+        "footerNote": "Please note: The API subscription does not include automatic access to the online AI translator or other integrations (for CAT tools, etc.)"
       },
       "enterpriseApi": {
-        "title": "",
+        "title": "Enterprise",
         "badge": "",
         "description": "",
-        "price_monthly": "",
-        "price_yearly": "",
+        "price_monthly": "On request",
+        "price_yearly": "On request",
         "period_monthly": "",
         "period_yearly": "",
         "features": {
-          "title": "",
+          "title": "Everything from API, plus:",
           "items": {
             "0": {
-              "title": ""
+              "title": "Customised AI models for even better quality"
             },
             "1": {
-              "title": ""
+              "title": "SaaS, private cloud or on-premises hosting"
             },
             "2": {
-              "title": ""
+              "title": "Custom TLS/SSL certificates"
             },
             "3": {
-              "title": ""
+              "title": "Personal account manager"
             },
             "4": {
-              "title": ""
+              "title": "Uptime guarantee"
             }
           }
         }
@@ -2012,12 +2028,12 @@
             "languages": {
               "name": "Languages",
               "description": "",
-              "all": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish",
+              "all": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German",
               "free": "English, French, German, Italian, Romansh, Swiss German",
               "essential": "English, French, German, Italian, Romansh, Swiss German",
-              "advanced": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish",
-              "pro": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish",
-              "enterprise": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish"
+              "advanced": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German",
+              "pro": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German",
+              "enterprise": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German"
             },
             "languageVariants": {
               "name": "Language variants",
@@ -2078,10 +2094,6 @@
               "description": "Translate an unlimited amount of text.",
               "free": "Up to 3,000 characters (1,500 for unregistered users)",
               "essential": "Up to 3,000 characters"
-            },
-            "lengthControl": {
-              "name": "Length control",
-              "description": "If necessary, specify that the length of a translation must not exceed the length of the source text."
             }
           }
         },
@@ -2093,8 +2105,8 @@
               "description": "Upload complete documents and get an editable translation in the same layout.",
               "free": "5 files per person and month (for registered users)",
               "essential": "20 files per person and month",
-              "advanced": "60 files per person per month (editable)",
-              "pro": "120 files per person per month (editable)"
+              "advanced": "Unlimited file translations (editable)",
+              "pro": ""
             },
             "fileEditingAllowed": {
               "name": "File editing allowed",
@@ -2120,6 +2132,9 @@
             "videoSubtitleFileTypes": {
               "name": "SRT files for video subtitles",
               "description": ""
+            },
+            "plainTextFiles": {
+              "name": ""
             }
           }
         },
@@ -2164,14 +2179,7 @@
             "microsoftOfficeAddIns": {
               "name": "Microsoft Office add-ins",
               "description": "Use Supertext directly in Microsoft Word, PowerPoint and Outlook.",
-              "comingSoon": "Coming soon"
-            },
-            "api": {
-              "name": "API",
-              "description": "Integrate AI translations into your own applications and workflows.",
-              "advanced": "Optional add-on",
-              "pro": "Optional add-on",
-              "enterprise": "Optional add-on"
+              "comingSoon": ""
             },
             "catToolIntegration": {
               "name": "CAT tools",
@@ -3133,7 +3141,7 @@
           }
         },
         "locationsHeading": {
-          "title": "Local bases, global presence",
+          "title": "Local offices, global presence",
           "description": "We work from hubs in Zurich and Berlin – and with a select network of over 3,000  language professionals around the globe."
         },
         "locations": [
@@ -3689,7 +3697,7 @@
         },
         "languagePairs": {
           "title": "The Textshuttle translator is now Supertext. What’s on offer?",
-          "subtitle": "Translate into up to 23 languages in seconds",
+          "subtitle": "Translate into up to 28 languages in seconds",
           "description": "Our tried-and-tested AI translator with all your favourite Textshuttle features – now with even better results thanks to in-house LLM technology. Simple, built to the highest security standards and hosted exclusively in Switzerland.",
           "ctaButton": {
             "text": "Get started now",
@@ -3715,19 +3723,19 @@
                 "href": "#"
               },
               {
-                "text": "German–French",
+                "text": "German → French",
                 "href": "#"
               },
               {
-                "text": "German–Italian",
+                "text": "German → Italian",
                 "href": "#"
               },
               {
-                "text": "German–Swiss German",
+                "text": "German → Swiss German",
                 "href": "#"
               },
               {
-                "text": "German–Romansh",
+                "text": "German → Romansh",
                 "href": "#"
               },
               {
@@ -3735,11 +3743,11 @@
                 "href": "#"
               },
               {
-                "text": "French–German",
+                "text": "French → German",
                 "href": "#"
               },
               {
-                "text": "Italian–German",
+                "text": "Italian → German",
                 "href": "#"
               }
             ]
@@ -3766,7 +3774,7 @@
           },
           {
             "title": "Specialised translation and more from 3,000+ experienced language professionals",
-            "description": "From website localisation to multilingual editing and creative copywriting for your next advertising campaign: in addition to providing a powerful AI, Supertext and Textshuttle also offer linguistic support with a network of more than 3,000 professional translators, editors and copywriters. Flexible, creative and reliable – according to ISO-certified processes.",
+            "description": "From website localisation to multilingual editing and creative copywriting for your next advertising campaign: in addition to providing powerful AI, Supertext and Textshuttle also offer linguistic support with a network of 3,000 professional translators, editors and copywriters. Flexible, creative and reliable – according to ISO-certified processes.",
             "imagePosition": "left",
             "imageUrl": "/images/pages/textshuttle-is-now-supertext/Sharing-Ideas--Streamline-Brooklyn.svg",
             "buttons": [
@@ -4095,14 +4103,14 @@
         },
         "lead": {
           "large": "From editing manuscripts and proofreading annual reports to optimising AI-generated texts, our work always adds value. Meticulous, flawless and true to your own unique style.",
-          "small": "Our trained, internally tested language specialists provide expertise in every language. They leave nothing to chance, and everything to the official rules and regulations of your target language. And they are also happy to adjust the tone of your text to suit your needs.  <break></break><break></break>Track changes, comments or changes implemented directly in the text? You choose the correction format, we do the rest. Everything from a single source and in the language of your choice. Is your multilingual proofreading particularly urgent? Our professionals are also available at the touch of a button.",
+          "small": "Our trained, internally tested language specialists provide expertise in every language. They leave nothing to chance, and everything to the official rules and regulations of your target language. And they are also happy to adjust the tone of your text to suit your needs.  <break></break><break></break>Track changes, comments or changes implemented directly in the text? You choose the correction format, we do the rest. Everything from a single source and in the language of your choice. Is your multilingual proofreading particularly urgent? Our professionals are also available at the press of a button.",
           "smallList": {
             "one": "",
             "other": ""
           },
           "cta": {
             "title": "Start project",
-            "link": "/order/proofreading"
+            "link": "/order/editing"
           },
           "cta2": {
             "title": "Let’s talk",
@@ -4125,7 +4133,7 @@
               "title": "All editing services rated three times: by the client, project manager and linguist"
             },
             {
-              "title": "4 ISO certifications for data security (ISO 27001), quality management (ISO 9001) and translation quality (ISO 17100, ISO 18587)"
+              "title": "4 ISO certifications: for data security (ISO 27001), quality management (ISO 9001) and translation quality (ISO 17100, ISO 18587)"
             },
             {
               "title": "1,500 clients of all sizes from all industries"
@@ -4145,7 +4153,7 @@
                 "description": "Classic proofreading for absolutely error-free results. We check spelling, grammar and punctuation closely. Whether you choose one- or two-phase proofreading, you’ll always receive rapid, meticulous results.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               },
               {
@@ -4153,7 +4161,7 @@
                 "description": "Your services for stylistically flawless content. From Arabic to Zulu and from blog posts to epic poems. Including adjustments to style (editing) as well as structure and tone (rewriting) by selected authors and journalists.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               },
               {
@@ -4171,7 +4179,7 @@
                 "description": "Do you have ChatGPT, Jasper or Neuroflash to thank for your text? We can improve any automatically generated output with structure, logic and fact-checking. For more meaningful content and true brand safety.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               },
               {
@@ -4179,7 +4187,7 @@
                 "description": "The finishing touches for annual reports, ESG reports, financial metrics and more. Flexible, fast and always on-brand. Whether in PDF, InDesign, CMS or directly in your publishing system.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               },
               {
@@ -4187,7 +4195,7 @@
                 "description": "Summa cum laude thanks to our proofreading and editing service for students. From independent projects to dissertations. Express delivery available on request.",
                 "cta1": {
                   "title": "Get in touch",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               }
             ]
@@ -4288,7 +4296,7 @@
     },
     "views": {
       "unauthorised": {
-        "heading": "Always strike the right tone with the Supertext glossary",
+        "heading": "Always hit the right note with the Supertext glossary",
         "description": "Define your own terminology, stay consistent and save time. Upgrade now and take control of your language.",
         "cta": "Start with Advanced"
       },
@@ -4310,7 +4318,7 @@
       },
       "glossaryCreate": {
         "label": "Add new glossary",
-        "titlePlaceholder": "Title*",
+        "titlePlaceholder": "Glossary title*",
         "descriptionPlaceholder": "Description",
         "create": "Create glossary",
         "creationSuccessful": "The glossary {name} was successfully created.",
@@ -4328,23 +4336,23 @@
         "glossaryTermUpdateSuccessful": "The glossary term was successfully updated.",
         "glossaryTermUpdateUnsuccessful": "The glossary term could not be updated.",
         "termInputForm": {
-          "addTerminologyStepByStep": "Add your terminology step by step.",
+          "addTerminologyStepByStep": "Simply add your terminology step by step.",
           "sourceText": "Source language",
-          "targetLanguage": "Target language",
-          "placeholderSourceText": "Source text",
-          "placeholderTargetText": "Target text",
+          "targetLanguage": "-> Target language",
+          "placeholderSourceText": "Source term",
+          "placeholderTargetText": "Target term",
           "saveEntry": "Save entry"
         },
         "languagePairAccordion": {
-          "emptyStateDescription": "Define how words or phrases should be translated and the Supertext AI translator will automatically adapt these terms to your preferences.",
+          "emptyStateDescription": "Define how particular words or phrases should be translated. The Supertext AI translator will then automatically adapt these terms to your preferences in your translation.",
           "exampleLabel": "For example:",
           "exampleSource1": "Anmeldung",
           "exampleTarget1": "Login",
-          "exampleSource2": "KI-Übersetzer",
+          "exampleSource2": "AI translator",
           "exampleTarget2": "AI translator"
         },
         "glossaryDetailsForm": {
-          "glossaryLabel": "Add new glossary",
+          "glossaryLabel": "Create new glossary",
           "placeholderTitle": "Title*",
           "placeholderDescription": "Description",
           "save": "Save",
@@ -4352,6 +4360,6 @@
         }
       }
     },
-    "textTooltip": "This translation comes from the saved glossary <link>{glossary}</link>"
+    "textTooltip": "This translation is taken from the saved glossary {glossary}."
   }
 }

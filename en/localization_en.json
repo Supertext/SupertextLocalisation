@@ -1843,10 +1843,10 @@
           "title": "Everything from Essential, plus:",
           "items": {
             "0": {
-              "title": "23 languages"
+              "title": "28 languages"
             },
             "1": {
-              "title": "Unlimited file translations (editable)"
+              "title": "60 files per month (editable)"
             },
             "2": {
               "title": "20 MB maximum file size"
@@ -1855,12 +1855,10 @@
               "title": "Glossaries"
             },
             "4": {
-              "title": "Add-ins for Microsoft Office"
+              "title": "Add-ins for Microsoft Office",
+              "badge": "Available soon"
             },
             "5": {
-              "title": "Length restrictions possible"
-            },
-            "6": {
               "title": "Single sign-on (SSO)",
               "tooltip": "From 10 users"
             }
@@ -2020,12 +2018,12 @@
             "languages": {
               "name": "Languages",
               "description": "",
-              "all": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German",
+              "all": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish",
               "free": "English, French, German, Italian, Romansh, Swiss German",
               "essential": "English, French, German, Italian, Romansh, Swiss German",
-              "advanced": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German",
-              "pro": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German",
-              "enterprise": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German"
+              "advanced": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish",
+              "pro": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish",
+              "enterprise": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish"
             },
             "languageVariants": {
               "name": "Language variants",
@@ -2101,7 +2099,8 @@
               "description": "Upload complete documents and get an editable translation in the same layout.",
               "free": "5 files per person and month (for registered users)",
               "essential": "20 files per person and month",
-              "advanced": "Unlimited file translations (editable)"
+              "advanced": "60 files per person per month (editable)",
+              "pro": "120 files per person per month (editable)"
             },
             "fileEditingAllowed": {
               "name": "File editing allowed",
@@ -2170,7 +2169,8 @@
           "features": {
             "microsoftOfficeAddIns": {
               "name": "Microsoft Office add-ins",
-              "description": "Use Supertext directly in Microsoft Word, PowerPoint and Outlook."
+              "description": "Use Supertext directly in Microsoft Word, PowerPoint and Outlook.",
+              "comingSoon": "Coming soon"
             },
             "api": {
               "name": "API",

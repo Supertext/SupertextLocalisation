@@ -1840,27 +1840,25 @@
         "period_monthly": "/ Monat",
         "period_yearly": "/ Monat",
         "features": {
-          "title": "Alles aus „Essential“, plus:",
+          "title": "Alles aus «Essential», plus:",
           "items": {
             "0": {
-              "title": "23 Sprachen"
+              "title": "28 Sprachen"
             },
             "1": {
-              "title": "Unbegrenzte Dateiübersetzungen (bearbeitbar)"
+              "title": "60 Dateien pro Monat (bearbeitbar)"
             },
             "2": {
-              "title": "20 MB maximale Dateigröße"
+              "title": "20 MB maximale Dateigröße"
             },
             "3": {
               "title": "Glossare"
             },
             "4": {
-              "title": "Add-ins für Microsoft Office"
+              "title": "Add-ins für Microsoft Office",
+              "badge": "Bald verfügbar"
             },
             "5": {
-              "title": "Längenbeschränkung möglich"
-            },
-            "6": {
               "title": "Single Sign-on (SSO)",
               "tooltip": "ab 10 User:innen"
             }
@@ -2020,12 +2018,12 @@
             "languages": {
               "name": "Sprachen",
               "description": "",
-              "all": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
+              "all": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Türkisch, Tschechisch, Ungarisch",
               "free": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
               "essential": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
-              "advanced": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
-              "pro": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
-              "enterprise": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch"
+              "advanced": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Türkisch, Tschechisch, Ungarisch",
+              "pro": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Türkisch, Tschechisch, Ungarisch",
+              "enterprise": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Türkisch, Tschechisch, Ungarisch"
             },
             "languageVariants": {
               "name": "Sprachvarianten",
@@ -2101,7 +2099,8 @@
               "description": "Laden Sie ganze Dokumente hoch und erhalten Sie eine bearbeitbare Übersetzung im selben Layout und Styling.",
               "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
               "essential": "20 Dateien pro Person und Monat",
-              "advanced": "Unbegrenzte Dateiübersetzungen (bearbeitbar)"
+              "advanced": "60 Dateien pro Monat (bearbeitbar)",
+              "pro": "120 Dateien pro Monat (bearbeitbar)"
             },
             "fileEditingAllowed": {
               "name": "Dateibearbeitung erlaubt",
@@ -2170,7 +2169,8 @@
           "features": {
             "microsoftOfficeAddIns": {
               "name": "Microsoft-Office-Add-Ins",
-              "description": "Nutzen Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook."
+              "description": "Nutzen Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook.",
+              "comingSoon":"Bald verfügbar"
             },
             "api": {
               "name": "API",

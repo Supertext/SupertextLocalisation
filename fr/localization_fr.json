@@ -1843,27 +1843,26 @@
           "title": "Tout de «Essential», plus:",
           "items": {
             "0": {
-              "title": "23 langues"
+              "title": "28 langues"
             },
             "1": {
-              "title": "Nombre de fichiers à traduire illimité (modifiables)"
+              "title": "60 fichiers par mois (modifiables)"
             },
             "2": {
-              "title": "20 Mo maximum par fichier"
+              "title": "20 Mo maximum par fichier"
             },
             "3": {
               "title": "Glossaires"
             },
             "4": {
-              "title": "Compléments pour Microsoft Office"
+              "title": "Compléments pour Microsoft Office",
+              "badge": "Disponible prochainement"
             },
             "5": {
-              "title": "Possibilité de limiter la longueur"
-            },
-            "6": {
               "title": "Authentification unique (SSO)",
               "tooltip": "À partir de 10 utilisateurs/-trices"
             }
+           
           }
         }
       },
@@ -2020,12 +2019,12 @@
             "languages": {
               "name": "Langues",
               "description": "",
-              "all": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque",
+              "all": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque, turc",
               "free": "Allemand, anglais, français, italien, romanche, suisse allemand",
               "essential": "Allemand, anglais, français, italien, romanche, suisse allemand",
-              "advanced": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque",
-              "pro": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque",
-              "enterprise": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque"
+              "advanced": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque, turc",
+              "pro": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque, turc",
+              "enterprise": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque, turc"
             },
             "languageVariants": {
               "name": "Variantes de langue",
@@ -2101,7 +2100,8 @@
               "description": "Téléchargez des documents entiers et obtenez une traduction modifiable dans le même format et le même style.",
               "free": "5 fichiers par personne et par mois (pour les utilisateurs/-trices inscrits/-es)",
               "essential": "20 fichiers par personne et par mois",
-              "advanced": "Nombre de fichiers à traduire illimité (modifiables)"
+              "advanced": "60 fichiers par personne et par mois (modifiables)",
+              "pro": "120 fichiers par personne et par mois (modifiables)"
             },
             "fileEditingAllowed": {
               "name": "Modification de fichier autorisée",
@@ -2170,7 +2170,8 @@
           "features": {
             "microsoftOfficeAddIns": {
               "name": "Compléments Microsoft Office",
-              "description": "Utilisez Supertext directement dans Microsoft Word, PowerPoint et Outlook."
+              "description": "Utilisez Supertext directement dans Microsoft Word, PowerPoint et Outlook.",
+               "comingSoon": "Bientôt disponible"
             },
             "api": {
               "name": "API",

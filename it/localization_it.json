@@ -1843,10 +1843,10 @@
           "title": "L’offerta di «Essential» con in più:",
           "items": {
             "0": {
-              "title": "23 lingue"
+              "title": "28 lingue"
             },
             "1": {
-              "title": "Traduzioni di file illimitate (modificabili)"
+              "title": "60 file al mese (modificabili)"
             },
             "2": {
               "title": "Dimensione massima dei file 20 MB"
@@ -1855,15 +1855,14 @@
               "title": "Glossari"
             },
             "4": {
-              "title": "Add-in per Microsoft Office"
+              "title": "Add-in per Microsoft Office",
+              "badge": "Disponibile a breve"
             },
             "5": {
-              "title": "Possibilità di impostare un limite di caratteri"
-            },
-            "6": {
               "title": "Single Sign-on (SSO)",
               "tooltip": "a partire da 10 utenti"
             }
+           
           }
         }
       },
@@ -2020,12 +2019,12 @@
             "languages": {
               "name": "Lingue",
               "description": "",
-              "all": "Albanese, ceco, cinese, coreano, danese, inglese, finlandese, francese, giapponese, italiano, norvegese, neerlandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, ungherese",
+              "all": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, neerlandese, norvegese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "free": "Tedesco, inglese, francese, italiano, romancio, svizzero tedesco",
               "essential": "Tedesco, inglese, francese, italiano, romancio, svizzero tedesco",
-              "advanced": "Albanese, ceco, cinese, coreano, danese, inglese, finlandese, francese, giapponese, italiano, norvegese, neerlandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, ungherese",
-              "pro": "Albanese, ceco, cinese, coreano, danese, inglese, finlandese, francese, giapponese, italiano, norvegese, neerlandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, ungherese",
-              "enterprise": "Albanese, ceco, cinese, coreano, danese, inglese, finlandese, francese, giapponese, italiano, norvegese, neerlandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, ungherese"
+              "advanced": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, neerlandese, norvegese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
+              "pro": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, neerlandese, norvegese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
+              "enterprise": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, neerlandese, norvegese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
             },
             "languageVariants": {
               "name": "Varianti nazionali",
@@ -2101,7 +2100,8 @@
               "description": "Caricate interi documenti e ricevete una traduzione modificabile, con layout e stile invariati.",
               "free": "5 file a persona e al mese (per utenti registrati)",
               "essential": "20 file a persona e al mese",
-              "advanced": "Traduzioni di file illimitate (modificabili)"
+              "advanced": "60 file per persona al mese (modificabili)",
+              "pro": "120 file per persona al mese (modificabili)"
             },
             "fileEditingAllowed": {
               "name": "Modifica dei file consentita",
@@ -2170,7 +2170,8 @@
           "features": {
             "microsoftOfficeAddIns": {
               "name": "Componenti aggiuntivi di Microsoft Office",
-              "description": "Utilizzate Supertext direttamente in Microsoft Word, PowerPoint e Outlook."
+              "description": "Utilizzate Supertext direttamente in Microsoft Word, PowerPoint e Outlook.",
+              "comingSoon": "Disponibile a breve"
             },
             "api": {
               "name": "API",

@@ -157,7 +157,7 @@
       }
     },
     "languageMenu": {
-      "cta": "18 langues supplémentaires dans notre solution d’entreprise",
+      "cta": "22 langues supplémentaires dans notre solution d’entreprise",
       "href": "/business/fr/features"
     },
     "NpsSurveyPopup": {
@@ -1512,7 +1512,8 @@
           "dialog": {
             "deleteTitle": "",
             "deleteMessage": ""
-          }
+          },
+          "copy": ""
         },
         "helpLinks": {
           "learnMore": {
@@ -1546,6 +1547,12 @@
             "cost": "",
             "lastUsed": ""
           }
+        },
+        "nextPaymentDate": "",
+        "subscriptionEndsOn": "",
+        "accessDenied": {
+          "title": "",
+          "description": ""
         }
       },
       "new": ""
@@ -1843,26 +1850,25 @@
           "title": "Tout de «Essential», plus:",
           "items": {
             "0": {
-              "title": "28 langues"
+              "title": "23 langues"
             },
             "1": {
-              "title": "60 fichiers par mois (modifiables)"
+              "title": "Nombre de fichiers à traduire illimité (modifiables)"
             },
             "2": {
-              "title": "20 Mo maximum par fichier"
+              "title": "20 Mo maximum par fichier"
             },
             "3": {
               "title": "Glossaires"
             },
             "4": {
-              "title": "Compléments pour Microsoft Office",
-              "badge": "Disponible prochainement"
+              "title": "Compléments pour Microsoft Office",
+              "badge": ""
             },
             "5": {
-              "title": "Authentification unique (SSO)",
-              "tooltip": "À partir de 10 utilisateurs/-trices"
+              "title": "Possibilité de limiter la longueur",
+              "tooltip": ""
             }
-           
           }
         }
       },
@@ -1917,6 +1923,15 @@
             },
             "2": {
               "title": "Certificats TLS/SSL personnalisés"
+            },
+            "3": {
+              "title": ""
+            },
+            "4": {
+              "title": ""
+            },
+            "5": {
+              "title": ""
             }
           }
         }
@@ -2013,12 +2028,12 @@
             "languages": {
               "name": "Langues",
               "description": "",
-              "all": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque, turc",
+              "all": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque",
               "free": "Allemand, anglais, français, italien, romanche, suisse allemand",
               "essential": "Allemand, anglais, français, italien, romanche, suisse allemand",
-              "advanced": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque, turc",
-              "pro": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque, turc",
-              "enterprise": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque, turc"
+              "advanced": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque",
+              "pro": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque",
+              "enterprise": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque"
             },
             "languageVariants": {
               "name": "Variantes de langue",
@@ -2079,10 +2094,6 @@
               "description": "Traduisez une quantité illimitée de texte.",
               "free": "Jusqu’à 3000 caractères (1500 pour les utilisateurs/-trices non inscrits/-es)",
               "essential": "Jusqu’à 3000 caractères"
-            },
-            "lengthControl": {
-              "name": "Contrôle de la longueur",
-              "description": "Si nécessaire, définissez que la longueur d’une traduction ne doit pas dépasser la longueur du texte source."
             }
           }
         },
@@ -2094,8 +2105,8 @@
               "description": "Téléchargez des documents entiers et obtenez une traduction modifiable dans le même format et le même style.",
               "free": "5 fichiers par personne et par mois (pour les utilisateurs/-trices inscrits/-es)",
               "essential": "20 fichiers par personne et par mois",
-              "advanced": "60 fichiers par personne et par mois (modifiables)",
-              "pro": "120 fichiers par personne et par mois (modifiables)"
+              "advanced": "Nombre de fichiers à traduire illimité (modifiables)",
+              "pro": ""
             },
             "fileEditingAllowed": {
               "name": "Modification de fichier autorisée",
@@ -2121,6 +2132,9 @@
             "videoSubtitleFileTypes": {
               "name": "Fichiers SRT pour sous-titres vidéo",
               "description": ""
+            },
+            "plainTextFiles": {
+              "name": ""
             }
           }
         },
@@ -2165,14 +2179,7 @@
             "microsoftOfficeAddIns": {
               "name": "Compléments Microsoft Office",
               "description": "Utilisez Supertext directement dans Microsoft Word, PowerPoint et Outlook.",
-               "comingSoon": "Bientôt disponible"
-            },
-            "api": {
-              "name": "API",
-              "description": "Intégrez les traductions par l'IA à vos propres applications et processus.",
-              "advanced": "Extension optionnelle",
-              "pro": "Extension optionnelle",
-              "enterprise": "Extension optionnelle"
+              "comingSoon": ""
             },
             "catToolIntegration": {
               "name": "Outils de TAO",
@@ -3690,7 +3697,7 @@
         },
         "languagePairs": {
           "title": "Le traducteur de Textshuttle devient Supertext. Qu’est-ce qui s’y cache?",
-          "subtitle": "Traduction immédiate en 23 langues possibles",
+          "subtitle": "Traduction immédiate en 28 langues possibles",
           "description": "Notre traducteur par l’IA éprouvé avec toutes les fonctionnalités que vous connaissez de Textshuttle – et maintenant, les résultats sont encore meilleurs grâce notre propre technologie LLM. Hébergé en toute simplicité, selon les normes de sécurité les plus strictes et exclusivement en Suisse.",
           "ctaButton": {
             "text": "Démarrer sans attendre",
@@ -4353,6 +4360,6 @@
         }
       }
     },
-    "textTooltip":"Cette traduction provient du glossaire enregistré <link>{glossary}</link>."
+    "textTooltip": ""
   }
 }

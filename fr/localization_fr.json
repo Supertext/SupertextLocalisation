@@ -98,20 +98,20 @@
           "popover": ""
         },
         "languageLimitExceeded": {
-          "upgradeMessage": "",
-          "unsupportedMessage": ""
+          "upgradeMessage": "{language} est pris en charge dans notre abonnement {subscription} ou supérieur.",
+          "unsupportedMessage": "Nous ne soutenons pas encore la traduction de fichiers en {language} pour l'IA."
         },
         "usageLimitExceeded": {
-          "upgradeMessage": "",
-          "enterpriseMessage": ""
+          "upgradeMessage": "Vous n'avez plus de traductions disponibles ce mois-ci. Avec notre abonnement {subscription}, vous pouvez traduire jusqu'à {fileLimit} fichiers par mois.",
+          "enterpriseMessage": "Vous n’avez plus de traductions disponibles ce mois-ci. Utilisez notre solution Enterprise pour traduire autant de fichiers que vous le souhaitez."
         },
         "fileTooLarge": {
-          "upgradeMessage": "",
-          "enterpriseMessage": ""
+          "upgradeMessage": "Le fichier que vous avez fourni dépasse la limite de taille de fichier de votre abonnement actuel. Notre abonnement {subscription} permet la traduction de fichiers IA avec des tailles allant jusqu'à {fileSize}.",
+          "enterpriseMessage": "Le fichier que vous avez fourni dépasse la limite de taille de fichier de votre abonnement actuel. Traduisez les fichiers de plus de 20 Mo avec notre solution Enterprise."
         },
         "fileTypeNotAllowed": {
-          "upgradeMessage": "",
-          "enterpriseMessage": ""
+          "upgradeMessage": "Les fichiers {extension} ne sont pas pris en charge avec votre abonnement actuel. Mettez à niveau votre abonnement {subscription}.",
+          "enterpriseMessage": "Nous ne soutenons pas encore la traduction des fichiers {extension}. Souhaitez-vous que nous soutenions ce type de fichier? Contactez-nous."
         }
       },
       "availableFiles": {
@@ -121,9 +121,9 @@
       },
       "dropFileWithoutExtension": "Glissez un fichier ({supportedFileExtensions}) ici ou",
       "ctas": {
-        "contact": "",
-        "upgrade": "",
-        "upgradeSubscription": ""
+        "contact": "Nous contacter",
+        "upgrade": "Mettre à niveau",
+        "upgradeSubscription": "Démarrer avec {subscription}"
       }
     },
     "profile": {
@@ -157,7 +157,7 @@
       }
     },
     "languageMenu": {
-      "cta": "22 langues supplémentaires dans notre solution d’entreprise",
+      "cta": "Plus 22 autres langues avec un abonnement Advanced",
       "href": "/business/fr/features"
     },
     "NpsSurveyPopup": {
@@ -484,7 +484,7 @@
     "el": "grec",
     "hr": "croate",
     "tr": "turc",
-    "bg": ""
+    "bg": "Bulgare"
   },
   "languageVariants": {
     "de-AT": "AT",
@@ -576,7 +576,7 @@
     "el": "du grec",
     "hr": "du croate",
     "tr": "du turc",
-    "bg": ""
+    "bg": "de bulgare"
   },
   "languagesTo": {
     "cs": "en tchèque",
@@ -625,7 +625,7 @@
     "el": "au grec",
     "hr": "en croate",
     "tr": "en turc",
-    "bg": ""
+    "bg": "à bulgare"
   },
   "authentication": {
     "authenticate": "Authentification",
@@ -1015,108 +1015,108 @@
         },
         "firstMonthFree": "Premier mois gratuit",
         "cancelSubscriptionButton": "Rétrograder l’abonnement",
-        "footerNote": "Vous avez des <highlightText> objectifs ambitieux?</highlightText> Nous trouvons la <highlightText>solution adaptée.</highlightText>",
+        "footerNote": "Vous recherchez une <highlightText>solution sur mesure?</highlightText> Contactez-nous.",
         "requestAccess": "Demander l’accès",
         "requestAccessSuccess": "Votre demande a été envoyée avec succès",
         "accessRequested": "Accès en cours de vérification",
         "modalTitle": "Détail des fonctionnalités",
         "startsOn": "Commencé le",
-        "downgradeLostFeatures": "",
-        "downgradeReasonLabel": "",
-        "optionalFeedbackLabel": "",
-        "optionalFeedbackPlaceholder": "",
+        "downgradeLostFeatures": "Ces avantages disparaissent pour vous",
+        "downgradeReasonLabel": "Pourquoi voulez-vous réduire votre abonnement?",
+        "optionalFeedbackLabel": "Avez-vous d'autres commentaires à nous faire?",
+        "optionalFeedbackPlaceholder": "Optionnel",
         "subscription_cancellation_reasons": {
-          "too_expensive": "",
-          "not_using": "",
-          "missing_features": "",
-          "switching": "",
-          "other": ""
+          "too_expensive": "Coûts trop élevés",
+          "not_using": "Utilisez-le trop peu",
+          "missing_features": "Fonctionnalités manquantes",
+          "switching": "Passer à la concurrence",
+          "other": "Autre"
         },
-        "yourTeamSubscription": "",
-        "cancelSubscriptionButton2": "",
-        "downgradeSubscriptionButton": "",
-        "downgradeToSubscription": "",
+        "yourTeamSubscription": "Votre abonnement d'équipe",
+        "cancelSubscriptionButton2": "annuler l'abonnement",
+        "downgradeSubscriptionButton": "Abonnement déclasser définitivement",
+        "downgradeToSubscription": "Passer à {subscription}",
         "cancelSubscriptionAlertHeader": {
-          "downgrade": "",
-          "cancel": ""
+          "downgrade": "Passer de l'abonnement {fromSubscription} à l'abonnement {toSubscription}",
+          "cancel": "Annuler l'abonnement {fromSubscription}"
         },
         "cancelSubscriptionAlert": {
-          "fromSubscriptionToSubscriptionSingle": "",
-          "fromSubscriptionToSubscriptionMultiple": "",
-          "cancelSubscriptionSingle": "",
-          "cancelSubscriptionMultiple": ""
+          "fromSubscriptionToSubscriptionSingle": "Êtes-vous sûr de vouloir réduire votre abonnement à {toSubscription} à la fin de la période de facturation actuelle? Cela mettra fin à l'accès aux fonctionnalités de l'abonnement {fromSubscription} le {endDate}.",
+          "fromSubscriptionToSubscriptionMultiple": "Êtes-vous sûr de vouloir réduire votre abonnement à {toSubscription} à la fin de la période de facturation actuelle? Cela mettra fin à l'accès aux fonctionnalités de l'abonnement {fromSubscription} le {endDate}. Veuillez noter que cette modification affecte toutes les licences de votre équipe.",
+          "cancelSubscriptionSingle": "Êtes-vous sûr de vouloir résilier votre abonnement à la fin de la période de facturation en cours? L’accès aux fonctionnalités de l’abonnement {fromSubscription} prendra fin le {endDate}. Par la suite, vous aurez automatiquement accès à Supertext Free.",
+          "cancelSubscriptionMultiple": "Êtes-vous sûr de vouloir résilier votre abonnement à la fin de la période de facturation en cours? L’accès aux fonctionnalités de l’abonnement {fromSubscription} prendra fin le {endDate}. La résiliation concerne toutes les licences de votre équipe. Par la suite, tous les utilisateurs de votre équipe auront automatiquement accès à Supertext Free."
         },
         "cancelSubscriptionFeatures": {
           "advancedToEssential": [
-            "",
-            "",
-            "",
-            ""
+            "Traduction par l’IA dans 28 langues",
+            "Fonction glossaire",
+            "60 traductions de fichiers par mois",
+            "20 Mo maximum par fichier"
           ],
           "advancedToFree": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Traduction par l’IA dans 28 langues",
+            "Suppression immédiate du texte",
+            "Fonction glossaire",
+            "60 fichiers par mois",
+            "Traduction de texte illimitée",
+            "20 Mo maximum par fichier",
+            "Traduire des fichiers Excel, PDF et SRT",
+            "Support par e-mail"
           ],
           "essentialToFree": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "Suppression immédiate du texte",
+            "Traduction de texte illimitée",
+            "20 fichiers par mois",
+            "10 Mo maximum par fichier",
+            "Traduire des fichiers Excel, PDF et SRT",
+            "Support par e-mail"
           ]
         },
-        "downgradeLostFeaturesMultiple": "",
-        "cancelReasonLabel": "",
-        "startNow": "",
+        "downgradeLostFeaturesMultiple": "Ces avantages disparaissent pour votre équipe",
+        "cancelReasonLabel": "Pourquoi souhaitez-vous résilier l'abonnement?",
+        "startNow": "C’est parti!",
         "subscriptionType": {
-          "translator": "",
-          "api": ""
+          "translator": "TRADUCTEUR PAR L’IA",
+          "api": "API"
         },
         "api": {
           "languagesBox": {
-            "title": "",
+            "title": "28 langues –\net il y en aura de plus en plus",
             "languages": [
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Albanais",
+              "Bulgare",
+              "Chinois",
+              "Danois",
+              "Allemand",
+              "Anglais",
+              "Finnois",
+              "Français",
+              "Grec",
+              "Italien",
+              "Japonais",
+              "Coréen",
+              "Croate",
+              "Néerlandais",
+              "Norvégien",
+              "Polonais",
+              "Portugais",
+              "Romanche",
+              "Russe",
+              "Suédois",
+              "Allemand suisse",
+              "Serbe",
+              "Slovaque",
+              "Slovène",
+              "Espagnol",
+              "Tchèque",
+              "Turc",
+              "Hongrois"
             ]
           },
-          "footerNote": "",
-          "cta": ""
+          "footerNote": "Vous recherchez une <highlightText>solution sur mesure?</highlightText>",
+          "cta": "Votre langue n'est pas encore incluse? <link>Discutons-en.</link>"
         },
-        "monthlyCancellable": ""
+        "monthlyCancellable": "Annulable mensuellement"
       },
       "resources": {
         "title": "Ressources linguistiques",
@@ -1307,18 +1307,18 @@
             "editSelectedMembers": "Modifier les membres sélectionnés",
             "roleBatchUpdateSuccess": "{count, plural, =0 { Aucun rôle n’a été mis à jour } =1 { Le rôle d’un membre a été mis à jour } other { Le rôle de # membres a été mis à jour }} avec succès",
             "ssoRequest": {
-              "title": "",
-              "button": "",
-              "button_pending": "",
-              "tooltip": "",
-              "description": "",
+              "title": "Demander l’activation du Single Sign-On (SSO)",
+              "button": "Demander SSO",
+              "button_pending": "Mise à jour SSO en attente",
+              "tooltip": "Pour demander SSO, votre organisation doit disposer d'au moins 10 licences d'abonnement.",
+              "description": "Pour demander l’activation du SSO, veuillez fournir l’adresse e-mail du contact technique. Un membre de l’équipe Supertext contactera le contact technique pour coordonner l’activation.",
               "form": {
-                "label": "",
+                "label": "Adresse e-mail de la personne de contact technique",
                 "placeholder": "",
-                "invalid": ""
+                "invalid": "Veuillez saisir une adresse e-mail valide"
               },
-              "notification_success": "",
-              "notification_error": ""
+              "notification_success": "Demande d’upgrade SSO envoyée avec succès",
+              "notification_error": "Quelque chose a mal tourné: {error}"
             }
           },
           "subscription": {
@@ -1380,8 +1380,8 @@
             "after": "après",
             "downgradeLicenses": "Prochain déclassement de licences",
             "cancelDowngradeLicenses": "Annuler",
-            "price_per_licence_month": "",
-            "price_per_licence_year": ""
+            "price_per_licence_month": "Prix par licence, par mois",
+            "price_per_licence_year": "Prix par licence, par an"
           },
           "authorisations": {
             "title": "Autorisations d’accès",
@@ -1464,98 +1464,98 @@
       ],
       "api": {
         "unsubscribed": {
-          "title": "",
-          "description": ""
+          "title": "Lancez-vous avec l’API Supertext",
+          "description": "Optimisez vos processus de travail avec un accès évolutif et sécurisé aux traductions."
         },
-        "payAsYouGo": "",
-        "per1MillionCharacters": "",
-        "price": "",
-        "perMonth": "",
+        "payAsYouGo": "Coûts liés à l'utilisation",
+        "per1MillionCharacters": "par 1 million de caractères",
+        "price": "Prix",
+        "perMonth": "par mois",
         "notifications": {
-          "successfullySubscribed": ""
+          "successfullySubscribed": "L'API Supertext a été souscrite avec succès!"
         },
         "panel": {
-          "heading": "",
-          "description": "",
-          "activeDescription": "",
-          "subheading": "",
-          "subsubheading": "",
-          "billingPeriodMonthly": "",
-          "subscribe": "",
-          "reactivate": "",
-          "errorGeneric": "",
+          "heading": "API-Abonnement",
+          "description": "Optimisez vos processus de travail avec un accès évolutif et sécurisé aux traductions.",
+          "activeDescription": "Ici, vous gérez votre abonnement API.",
+          "subheading": "API Supertext",
+          "subsubheading": "Intégrez Supertext dans vos applications",
+          "billingPeriodMonthly": "Mensuel",
+          "subscribe": "S’abonner maintenant",
+          "reactivate": "Rétablir l'abonnement",
+          "errorGeneric": "Quelque chose a mal tourné:",
           "cancelSubscription": ""
         },
         "apiKeys": {
-          "heading": "",
-          "description": "",
-          "emptyNotice": "",
-          "copiedNotice": "",
-          "keyCreationNotice": "",
+          "heading": "Clé API",
+          "description": "Ici, vous pouvez gérer vos clés d’API rapidement et facilement.",
+          "emptyNotice": "Vous avez besoin d'au moins une clé API pour utiliser l'API Supertext.",
+          "copiedNotice": "Clé API copiée avec succès",
+          "keyCreationNotice": "Veuillez copier cette clé, car vous ne pourrez plus la voir plus tard.",
           "table": {
-            "name": "",
-            "preview": "",
-            "expiresAt": ""
+            "name": "Nom de la clé",
+            "preview": "Clé API",
+            "expiresAt": "Expiration le"
           },
           "modal": {
-            "title": "",
-            "button": "",
-            "formLabel": "",
-            "placeholder": ""
+            "title": "Créer une clé API",
+            "button": "Créer une nouvelle clé API",
+            "formLabel": "Nom de la clé",
+            "placeholder": "Saisissez ici le nom de la clé"
           },
           "notifications": {
-            "createSuccess": "",
-            "createError": "",
-            "deleteSuccess": "",
-            "deleteError": ""
+            "createSuccess": "Nouvelle clé API ajoutée",
+            "createError": "La nouvelle clé API n'a pas pu être ajoutée",
+            "deleteSuccess": "Clé API supprimée avec succès",
+            "deleteError": "La clé API n'a pas pu être supprimée"
           },
           "dialog": {
-            "deleteTitle": "",
-            "deleteMessage": ""
+            "deleteTitle": "Supprimer la clé API {description}",
+            "deleteMessage": "Si vous supprimez cette clé d’API, certaines fonctionnalités associées à cette clé ne seront peut-être plus disponibles. La suppression de la clé est irréversible. Vous devez créer une nouvelle clé et lui réaffecter toutes les fonctionnalités."
           },
-          "copy": ""
+          "copy": "copier"
         },
         "helpLinks": {
           "learnMore": {
-            "title": "",
-            "description": "",
-            "buttonText": ""
+            "title": "En savoir plus",
+            "description": "Découvrez toutes les fonctionnalités de l’API Supertext et comment automatiser vos workflows de traduction.",
+            "buttonText": "En savoir plus ->"
           },
           "documentation": {
-            "title": "",
-            "description": "",
-            "buttonText": ""
+            "title": "Documentation de l’API Supertext",
+            "description": "Documentation technique complète avec des exemples, des paramètres et des instructions d'implémentation pour tous les points d'extrémité API.",
+            "buttonText": "Documentation de l'API"
           },
           "terms": {
-            "title": "",
-            "description": "",
-            "buttonText": ""
+            "title": "Conditions d’utilisation",
+            "description": "Lisez nos conditions d'utilisation et notre politique d'utilisation de l'API et des services Supertext.",
+            "buttonText": "Conditions d’utilisation ->"
           }
         },
         "usage": {
-          "title": "",
-          "thisMonth": "",
-          "description": "",
+          "title": "Utilisation de l'API",
+          "thisMonth": "Ce mois-ci",
+          "description": "Contrôlez l’accès et l’utilisation de votre abonnement API.",
           "tooltip": "",
           "translatedCharsTotalLabel": "",
           "translatedCharsTotalHelp": "",
-          "translationCostTotalLabel": "",
-          "translationCostTotalHelp": "",
+          "translationCostTotalLabel": "Coûts de traduction total",
+          "translationCostTotalHelp": "Ce mois-ci",
           "table": {
-            "endpoint": "",
-            "chars": "",
-            "cost": "",
-            "lastUsed": ""
+            "endpoint": "point final",
+            "chars": "caractères",
+            "cost": "Coût",
+            "lastUsed": "Utilisé récemment"
           }
         },
-        "nextPaymentDate": "",
-        "subscriptionEndsOn": "",
+        "nextPaymentDate": "Prochain paiement",
+        "subscriptionEndsOn": "Se termine le",
         "accessDenied": {
-          "title": "",
-          "description": ""
+          "title": "Accès à l'API limité",
+          "description": "Votre rôle d’utilisateur ne vous permet pas d’accéder aux paramètres de l’API. Même si votre équipe dispose d’un abonnement API actif, seuls certains rôles peuvent accéder à l’API ou la gérer. Veuillez contacter votre administrateur si vous avez besoin d’aide."
         }
       },
-      "new": ""
+      "new": "Nouveau"
     },
     "footer": {
       "contact": "Contact",
@@ -1800,7 +1800,7 @@
               "tooltip": "Vos traductions par l’IA s’améliorent en temps réel à chaque commande que vous passez auprès des linguistes de Supertext (uniquement pour les utilisateurs/-trices inscrits/-es)."
             },
             "6": {
-              "title": "Fichiers Word et PowerPoint"
+              "title": "Fichiers Word, PowerPoint et texte brut"
             }
           }
         }
@@ -1850,10 +1850,10 @@
           "title": "Tout de «Essential», plus:",
           "items": {
             "0": {
-              "title": "23 langues"
+              "title": "28 langues"
             },
             "1": {
-              "title": "Nombre de fichiers à traduire illimité (modifiables)"
+              "title": "60 fichiers par mois (modifiables)"
             },
             "2": {
               "title": "20 Mo maximum par fichier"
@@ -1863,11 +1863,11 @@
             },
             "4": {
               "title": "Compléments pour Microsoft Office",
-              "badge": ""
+              "badge": "Bientôt disponible"
             },
             "5": {
-              "title": "Possibilité de limiter la longueur",
-              "tooltip": ""
+              "title": "Connexion unique (SSO)",
+              "tooltip": "à partir de 10 utilisateurs/-trices"
             }
           }
         }
@@ -1884,22 +1884,22 @@
           "title": "Tout de «Advanced», plus:",
           "items": {
             "0": {
-              "title": "30 Mo maximum par fichier"
+              "title": "120 fichiers par mois (modifiables)"
             },
             "1": {
-              "title": "Guides de style"
+              "title": "30 Mo maximum par fichier"
             },
             "2": {
-              "title": "Importation de traduction"
+              "title": "Guides de style"
             },
             "3": {
-              "title": "Assistance par e-mail et par téléphone sous 60 minutes"
+              "title": "Importation de traduction"
             },
             "4": {
-              "title": "Responsable de compte dédié/-ée"
+              "title": "Support par e-mail et téléphone dans les 60 min"
             },
             "5": {
-              "title": "Garantie de disponibilité"
+              "title": "Intégration dans les outils CAT (optionnel)"
             }
           }
         }
@@ -1916,7 +1916,7 @@
           "title": "Tout de «Pro», plus:",
           "items": {
             "0": {
-              "title": "Modèles d’IA sur mesure et branding"
+              "title": "Nombre illimité de fichiers (modifiables)"
             },
             "1": {
               "title": "SaaS, cloud privé ou hébergement sur site"
@@ -1925,89 +1925,89 @@
               "title": "Certificats TLS/SSL personnalisés"
             },
             "3": {
-              "title": ""
+              "title": "Certificats TLS personnalisés/SSL personnalisés"
             },
             "4": {
-              "title": ""
+              "title": "Gestionnaire de compte personnel"
             },
             "5": {
-              "title": ""
+              "title": "Garantie de disponibilité"
             }
           }
         }
       },
       "api": {
-        "title": "",
+        "title": "API",
         "description": "",
-        "price_monthly": "",
-        "price_yearly": "",
+        "price_monthly": "5.00",
+        "price_yearly": "5.00",
         "primaryNotice": {
-          "chf": "",
-          "eur": ""
+          "chf": "+ coûts basés sur l’utilisation (€ 20 / 1 000 000 caractères)",
+          "eur": "+ coûts basés sur l’utilisation (€ 20 / 1 000 000 caractères)"
         },
-        "period_monthly": "",
-        "period_yearly": "",
+        "period_monthly": "/ mois",
+        "period_yearly": "/ mois",
         "features": {
-          "title": "",
+          "title": "Inclus dans l'abonnement API:",
           "items": {
             "0": {
-              "title": ""
+              "title": "Accès à l'API REST Supertext"
             },
             "1": {
-              "title": ""
+              "title": "Traduction par l’IA et reconnaissance vocale pour le texte et les documents dans 28 langues"
             },
             "2": {
-              "title": ""
+              "title": "Respect intégral du RGPD (UE) et de la LPD (Suisse)"
             },
             "3": {
-              "title": ""
+              "title": "Chiffrement de bout en bout et suppression instantanée du texte"
             },
             "4": {
-              "title": ""
+              "title": "Fonction de glossaire (ad hoc avec chaque requête)"
             },
             "5": {
-              "title": ""
+              "title": "Vérification professionnelle par des traducteurs/-trices expérimentés/-ées en option (payante)"
             },
             "6": {
-              "title": "",
-              "badge": "",
-              "tooltip": ""
+              "title": "Fused Translation",
+              "badge": "Bientôt disponible",
+              "tooltip": "Vos traductions de l’IA s’améliorent en temps réel avec chaque commande que vous passez auprès des experts linguistiques Supertext"
             },
             "7": {
-              "title": ""
+              "title": "Gestion des clés et surveillance"
             },
             "8": {
-              "title": ""
+              "title": "Support par e-mail dans les 24 heures"
             }
           }
         },
-        "footerNote": ""
+        "footerNote": "Veuillez noter que l'abonnement API ne comprend pas l'accès automatique au traducteur IA dans le navigateur et d'autres intégrations (pour les outils de CAT, etc.)."
       },
       "enterpriseApi": {
-        "title": "",
+        "title": "Enterprise",
         "badge": "",
         "description": "",
-        "price_monthly": "",
-        "price_yearly": "",
+        "price_monthly": "Sur demande",
+        "price_yearly": "Sur demande",
         "period_monthly": "",
         "period_yearly": "",
         "features": {
-          "title": "",
+          "title": "Tout à partir de «API», plus:",
           "items": {
             "0": {
-              "title": ""
+              "title": "Des modèles d'IA sur mesure pour une qualité encore meilleure"
             },
             "1": {
-              "title": ""
+              "title": "SaaS, Cloud privé ou hébergement sur site"
             },
             "2": {
-              "title": ""
+              "title": "Certificats TLS/SSL personnalisés"
             },
             "3": {
-              "title": ""
+              "title": "Gestionnaire de compte personnel"
             },
             "4": {
-              "title": ""
+              "title": "Garantie de disponibilité"
             }
           }
         }
@@ -2031,19 +2031,19 @@
               "all": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque",
               "free": "Allemand, anglais, français, italien, romanche, suisse allemand",
               "essential": "Allemand, anglais, français, italien, romanche, suisse allemand",
-              "advanced": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque",
-              "pro": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque",
-              "enterprise": "Albanais, allemand, anglais, chinois, coréen, danois, espagnol, finnois, français, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque"
+              "advanced": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, suédois, suisse allemand, serbe, slovaque, slovène, tchèque, turc",
+              "pro": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, suédois, suisse allemand, serbe, slovaque, slovène, tchèque, turc",
+              "enterprise": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, suédois, suisse allemand, serbe, slovaque, slovène, tchèque, turc"
             },
             "languageVariants": {
               "name": "Variantes de langue",
               "description": "",
-              "all": "Chinois (simplifié, traditionnel), anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), portugais (BR, PT), suisse allemand (BE, ZH)",
-              "free": "Anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), suisse allemand (BE, ZH)",
-              "essential": "Anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), suisse allemand (BE, ZH)",
-              "advanced": "Chinois (simplifié, traditionnel), anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), portugais (BR, PT), suisse allemand (BE, ZH)",
-              "pro": "Chinois (simplifié, traditionnel), anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), portugais (BR, PT), suisse allemand (BE, ZH)",
-              "enterprise": "Chinois (simplifié, traditionnel), anglais (GB, US), allemand (AT, CH, DE), français (CH, FR), italien (CH, IT), portugais (BR, PT), suisse allemand (BE, ZH)"
+              "all": "Chinois (simplifié, traditionnel), allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), portugais (BR, PT), suisse allemand (BE, ZH)",
+              "free": "Allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), suisse allemand (BE, ZH)",
+              "essential": "Allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), suisse allemand (BE, ZH)",
+              "advanced": "Chinois (simplifié, traditionnel), allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), portugais (BR, PT), suisse allemand (BE, ZH)",
+              "pro": "Chinois (simplifié, traditionnel), allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), portugais (BR, PT), suisse allemand (BE, ZH)",
+              "enterprise": "Chinois (simplifié, traditionnel), allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), portugais (BR, PT), suisse allemand (BE, ZH)"
             }
           }
         },
@@ -2056,13 +2056,13 @@
             },
             "immediateTextDeletion": {
               "name": "Suppression immédiate du texte",
-              "description": "Tous les textes seront immédiatement supprimés après la traduction."
+              "description": "Tous les textes sont immédiatement supprimés et ne sont pas utilisés pour entraîner nos modèles linguistiques."
             },
             "singleSignOn": {
               "name": "Authentification unique (SSO)",
               "description": "Connectez-vous avec les identifiants de votre entreprise existants.",
-              "advanced": "À partir de 10 licences",
-              "pro": "À partir de 10 licences"
+              "advanced": "à partir de 10 licences",
+              "pro": "à partir de 10 licences"
             },
             "teamAdministration": {
               "name": "Gestion de l’équipe",
@@ -2091,7 +2091,7 @@
           "features": {
             "unlimitedTextTranslation": {
               "name": "Traduction de texte illimitée",
-              "description": "Traduisez une quantité illimitée de texte.",
+              "description": "Traduisez du texte libre directement sur supertext.com.",
               "free": "Jusqu’à 3000 caractères (1500 pour les utilisateurs/-trices non inscrits/-es)",
               "essential": "Jusqu’à 3000 caractères"
             }
@@ -2105,8 +2105,8 @@
               "description": "Téléchargez des documents entiers et obtenez une traduction modifiable dans le même format et le même style.",
               "free": "5 fichiers par personne et par mois (pour les utilisateurs/-trices inscrits/-es)",
               "essential": "20 fichiers par personne et par mois",
-              "advanced": "Nombre de fichiers à traduire illimité (modifiables)",
-              "pro": ""
+              "advanced": "60 fichiers par personne et par mois",
+              "pro": "120 fichiers par personne et par mois"
             },
             "fileEditingAllowed": {
               "name": "Modification de fichier autorisée",
@@ -2134,7 +2134,7 @@
               "description": ""
             },
             "plainTextFiles": {
-              "name": ""
+              "name": "Fichiers texte brut (.txt)"
             }
           }
         },
@@ -2148,7 +2148,7 @@
             "fusedTranslation": {
               "name": "Fused Translation",
               "description": "Vos traductions par l'IA s’améliorent en temps réel à chaque commande que vous passez auprès des linguistes de Supertext.",
-              "free": "Bientôt disponible (inscription gratuite)",
+              "free": "Bientôt disponible (pour les utilisateurs/-trices enregistrés)",
               "essential": "Bientôt disponible",
               "advanced": "Bientôt disponible",
               "pro": "Bientôt disponible",
@@ -2179,7 +2179,7 @@
             "microsoftOfficeAddIns": {
               "name": "Compléments Microsoft Office",
               "description": "Utilisez Supertext directement dans Microsoft Word, PowerPoint et Outlook.",
-              "comingSoon": ""
+              "comingSoon": "Bientôt disponible"
             },
             "catToolIntegration": {
               "name": "Outils de TAO",
@@ -4287,79 +4287,79 @@
   "notSupported": "Langue non disponible",
   "glossary": {
     "trigger": {
-      "text": "",
-      "badge": ""
+      "text": "glossaire",
+      "badge": "Nouveau"
     },
     "header": {
-      "back": "",
-      "glossary": ""
+      "back": "Retour",
+      "glossary": "glossaire"
     },
     "views": {
       "unauthorised": {
-        "heading": "",
-        "description": "",
-        "cta": ""
+        "heading": "Toujours dans le ton - avec le glossaire Supertext",
+        "description": "Définir vos propres traductions, rester cohérent et économiser du temps. Mettez à jour votre compte et prenez le contrôle de vos traductions.",
+        "cta": "Lancer avec Advanced"
       },
       "glossaryViewAll": {
-        "activate": "",
-        "active": "",
-        "create": ""
+        "activate": "Activer",
+        "active": "Actif",
+        "create": "Créer un glossaire"
       },
       "glossaryDoesntExist": {
-        "description": "",
-        "create": ""
+        "description": "Définissez comment certains mots et expressions doivent être traduits. Le Supertext traducteur par l`IA ajuste automatiquement ces entrées dans votre traduction.",
+        "create": "Créer un glossaire"
       },
       "glossaryDelete": {
-        "confirmation": "",
-        "delete": "",
-        "cancel": "",
-        "deletionSuccessful": "",
-        "deletionUnsuccessful": ""
+        "confirmation": "Êtes-vous sûr de vouloir supprimer le glossaire <bold>«{name}»</bold>?",
+        "delete": "Glossaire effacer",
+        "cancel": "Annuler",
+        "deletionSuccessful": "Le glossaire {name} a été supprimé avec succès.",
+        "deletionUnsuccessful": "L'effacement du glossaire {name} a échoué. Error: {error}"
       },
       "glossaryCreate": {
-        "label": "",
-        "titlePlaceholder": "",
-        "descriptionPlaceholder": "",
-        "create": "",
-        "creationSuccessful": "",
-        "creationUnsuccessful": ""
+        "label": "Créer un nouveau glossaire",
+        "titlePlaceholder": "Titre du glossaire*",
+        "descriptionPlaceholder": "Description",
+        "create": "Créer un glossaire",
+        "creationSuccessful": "Le glossaire {name} a été créé avec succès.",
+        "creationUnsuccessful": "Le glossaire n'a pas pu être créé. Error: {error}"
       },
       "glossaryManage": {
-        "glossaryFetchUnsuccessful": "",
-        "glossaryTermsFetchUnsuccessful": "",
-        "glossaryUpdatedSuccessfully": "",
-        "glossaryUpdatedUnsuccessfully": "",
-        "glossaryTermAddUnsuccessful": "",
-        "glossaryTermAddSuccessful": "",
+        "glossaryFetchUnsuccessful": "Une erreur s'est produite lors de la récupération du glossaire.",
+        "glossaryTermsFetchUnsuccessful": "Une erreur s'est produite lors de la récupération des termes du glossaire.",
+        "glossaryUpdatedSuccessfully": "Glossaire mis à jour avec succès",
+        "glossaryUpdatedUnsuccessfully": "Le glossaire n'a pas pu être mis à jour.",
+        "glossaryTermAddUnsuccessful": "Le terme du glossaire n'a pas pu être ajoutée.",
+        "glossaryTermAddSuccessful": "Le terme du glossaire a été ajoutée avec succès.",
         "glossaryTermRemoveSuccessful": "",
-        "glossaryTermRemoveUnsuccessful": "",
-        "glossaryTermUpdateSuccessful": "",
-        "glossaryTermUpdateUnsuccessful": "",
+        "glossaryTermRemoveUnsuccessful": "Le terme du glossaire n'a pas pu être supprimé.",
+        "glossaryTermUpdateSuccessful": "La mise à jour du terme du glossaire a réussi.",
+        "glossaryTermUpdateUnsuccessful": "La mise à jour du terme du glossaire a échoué.",
         "termInputForm": {
-          "addTerminologyStepByStep": "",
-          "sourceText": "",
-          "targetLanguage": "",
-          "placeholderSourceText": "",
-          "placeholderTargetText": "",
-          "saveEntry": ""
+          "addTerminologyStepByStep": "Ajoutez simplement votre terminologie au fur et à mesure.",
+          "sourceText": "Langue source",
+          "targetLanguage": "Langue cible",
+          "placeholderSourceText": "Terme source",
+          "placeholderTargetText": "Terme cible",
+          "saveEntry": "Enregistrer l'entrée"
         },
         "languagePairAccordion": {
-          "emptyStateDescription": "",
-          "exampleLabel": "",
-          "exampleSource1": "",
-          "exampleTarget1": "",
-          "exampleSource2": "",
-          "exampleTarget2": ""
+          "emptyStateDescription": "Définissez comment les mots et les expressions doivent être traduits. Le traducteur par l’IA de Supertext ajuste automatiquement ces entrées dans votre traduction.",
+          "exampleLabel": "Par exemple:",
+          "exampleSource1": "Inscription",
+          "exampleTarget1": "Connexion",
+          "exampleSource2": "Traducteur par l’IA",
+          "exampleTarget2": "Traducteur par l’IA"
         },
         "glossaryDetailsForm": {
-          "glossaryLabel": "",
-          "placeholderTitle": "",
-          "placeholderDescription": "",
-          "save": "",
-          "cancel": ""
+          "glossaryLabel": "Créer un nouveau glossaire",
+          "placeholderTitle": "Titre du glossaire*",
+          "placeholderDescription": "Description",
+          "save": "Enregistrer",
+          "cancel": "Annuler"
         }
       }
     },
-    "textTooltip": ""
+    "textTooltip": "Cette traduction provient du glossaire enregistré <link>{glossary}</link>."
   }
 }

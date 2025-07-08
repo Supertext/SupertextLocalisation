@@ -1015,7 +1015,7 @@
         },
         "firstMonthFree": "Erster Monat kostenlos",
         "cancelSubscriptionButton": "Abo definitiv kündigen",
-        "footerNote": "Sie suchen eine <highlightText> massgeschneiderte Übersetzungslösung?</highlightText> Lassen Sie uns reden.",
+        "footerNote": "Sie suchen eine <highlightText>massgeschneiderte Übersetzungslösung?</highlightText> Lassen Sie uns reden.",
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "accessRequested": "Zugang in Prüfung",
@@ -1552,7 +1552,7 @@
         "subscriptionEndsOn": "Läuft ab am",
         "accessDenied": {
           "title": "API-Zugriff eingeschränkt",
-          "description": "Ihre Benutzerrolle beinhaltet keinen Zugriff auf die API-Einstellungen. Auch wenn Ihr Team über ein aktives API-Abo verfügt, können nur bestimmte Rollen diese einsehen oder verwalten. Bitte wenden Sie sich an Ihren Administrator, falls Sie Unterstützung benötigen."
+          "description": "Ihre Benutzerrolle beinhaltet keinen Zugriff auf die API-Einstellungen. Auch wenn Ihr Team über ein aktives API-Abo verfügt, können nur bestimmte Rollen die Einstellungen einsehen oder verwalten. Bitte wenden Sie sich an Ihre:n Administrator:in, falls Sie Unterstützung benötigen."
         }
       },
       "new": "Neu"
@@ -1925,10 +1925,10 @@
               "title": "SaaS, Private Cloud oder On-Premises-Hosting"
             },
             "3": {
-              "title": "Benutzerdefinierte TLS-/SLL-Zertifikate"
+              "title": "Benutzerdefinierte TLS-/SSL-Zertifikate"
             },
             "4": {
-              "title": "Persönliche:r Account Manager:in"
+              "title": "Persönliche:r Account-Manager:in"
             },
             "5": {
               "title": "Uptime-Garantie"
@@ -1943,7 +1943,7 @@
         "price_yearly": "5.00",
         "primaryNotice": {
           "chf": "+ nutzungsabhängige Kosten (CHF 20 / 1’000’000 Zeichen)",
-          "eur": "+ nutzungsabhängige Kosten (€ 20 / 1’000’000 Zeichen)"
+          "eur": "+ nutzungsabhängige Kosten (CHF 20 / 1’000’000 Zeichen)"
         },
         "period_monthly": "/ Monat",
         "period_yearly": "/ Monat",
@@ -1963,23 +1963,20 @@
               "title": "Ende-zu-Ende-Verschlüsselung und sofortige Textlöschung"
             },
             "4": {
-              "title": "Ende-zu-Ende-Verschlüsselung und sofortige Textlöschung"
-            },
-            "5": {
               "title": "Glossarfunktion (ad-hoc mit jeder Anfrage)"
             },
-            "6": {
+            "5": {
               "title": "Profi-Check durch erfahrene Übersetzer:innen als Add-on (kostenpflichtig)"
             },
-            "7": {
+            "6": {
               "title": "Fused Translation",
               "badge": "Bald verfügbar",
               "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren"
             },
-            "8": {
+            "7": {
               "title": "Key-Management und Monitoring"
             },
-            "9": {
+            "8": {
               "title": "E-Mail-Support innert 24 h"
             }
           }

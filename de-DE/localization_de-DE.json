@@ -360,7 +360,7 @@
       },
       "unsupportedFileType": {
         "message": "Dateityp nicht im Abo enthalten",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst eine limitierte Auswahl an Dateitypen}}"
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Word-, Excel-, PowerPoint-, PDF- und SRT-Dateien} free {Supertext Free umfasst Word- und PowerPoint-Dateien}other {Ihr {subscriptionType}-Abo umfasst limitierte Dateitypen}}"
       },
       "limitedFileType": {
         "message": "Dateityp wird nicht unterstützt",
@@ -1015,7 +1015,7 @@
         },
         "firstMonthFree": "Erster Monat kostenlos",
         "cancelSubscriptionButton": "Abo definitiv kündigen",
-        "footerNote": "Sie suchen eine <highlightText> maßgeschneiderte Übersetzungslösung?</highlightText> Lassen Sie uns reden.",
+        "footerNote": "Sie suchen eine <highlightText>maßgeschneiderte Übersetzungslösung?</highlightText> Lassen Sie uns reden.",
         "requestAccess": "Zugang beantragen",
         "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
         "accessRequested": "Zugang in Prüfung",
@@ -1464,7 +1464,7 @@
       ],
       "api": {
         "unsubscribed": {
-          "title": "",
+          "title": "Starten Sie mit der Supertext API",
           "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen."
         },
         "payAsYouGo": "Nutzungsabhängige Kosten",
@@ -1513,7 +1513,7 @@
             "deleteTitle": "{description} API-Schlüssel löschen",
             "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen erneut zuweisen."
           },
-          "copy": ""
+          "copy": "Kopieren"
         },
         "helpLinks": {
           "learnMore": {
@@ -1528,7 +1528,7 @@
           },
           "terms": {
             "title": "Nutzungsbedingungen",
-            "description": "Lesen Sie unsere Nutzungsbedingungen und Richtlinien für die Verwendung der Supertext API und unserer Services.",
+            "description": "Lesen Sie unsere Nutzungsbedingungen und Richtlinien für die Verwendung der Supertext API und Services.",
             "buttonText": "Nutzungsbedingungen"
           }
         },
@@ -1548,11 +1548,11 @@
             "lastUsed": "Zuletzt verwendet"
           }
         },
-        "nextPaymentDate": "",
-        "subscriptionEndsOn": "",
+        "nextPaymentDate": "Nächste Zahlung",
+        "subscriptionEndsOn": "Läuft ab am",
         "accessDenied": {
-          "title": "",
-          "description": ""
+          "title": "API-Zugriff eingeschränkt",
+          "description": "Ihre Benutzerrolle beinhaltet keinen Zugriff auf die API-Einstellungen. Auch wenn Ihr Team über ein aktives API-Abo verfügt, können nur bestimmte Rollen die Einstellungen einsehen oder verwalten. Bitte wenden Sie sich an Ihre:n Administrator:in, falls Sie Unterstützung benötigen."
         }
       },
       "new": "Neu"
@@ -1850,10 +1850,10 @@
           "title": "Alles aus „Essential“, plus:",
           "items": {
             "0": {
-              "title": "23 Sprachen"
+              "title": "28 Sprachen"
             },
             "1": {
-              "title": "Unbegrenzte Dateiübersetzungen (bearbeitbar)"
+              "title": "60 Dateien pro Monat (bearbeitbar)"
             },
             "2": {
               "title": "20 MB maximale Dateigröße"
@@ -1863,11 +1863,11 @@
             },
             "4": {
               "title": "Add-ins für Microsoft Office",
-              "badge": ""
+              "badge": "Bald verfügbar"
             },
             "5": {
-              "title": "Längenbeschränkung möglich",
-              "tooltip": ""
+              "title": "Single Sign-on (SSO)",
+              "tooltip": "ab 10 User:innen"
             }
           }
         }
@@ -1884,22 +1884,22 @@
           "title": "Alles aus „Advanced“, plus:",
           "items": {
             "0": {
-              "title": "30 MB maximale Dateigröße"
+              "title": "120 Dateien pro Monat (bearbeitbar)"
             },
             "1": {
-              "title": "Styleguides"
+              "title": "30 MB maximale Dateigröße"
             },
             "2": {
-              "title": "Übersetzungsimport"
+              "title": "Styleguides"
             },
             "3": {
-              "title": "E-Mail- und Telefon-Support innerhalb 60 Min."
+              "title": "Übersetzungsimport"
             },
             "4": {
-              "title": "E-Mail- und Telefon-Support innert 60 min"
+              "title": "E-Mail- und Telefon-Support innerhalb von 60 min"
             },
             "5": {
-              "title": "Uptime-Garantie"
+              "title": "Integration in CAT-Tools (optional)"
             }
           }
         }
@@ -1916,22 +1916,22 @@
           "title": "Alles aus „Pro“, plus:",
           "items": {
             "0": {
-              "title": "Maßgeschneiderte KI-Modelle und Branding"
+              "title": "Unbegrenzte Anzahl Dateien (bearbeitbar)"
             },
             "1": {
-              "title": "SaaS, Private Cloud oder On-Premises-Hosting"
+              "title": "Maßgeschneiderte KI-Modelle und Branding"
             },
             "2": {
-              "title": "Benutzerdefinierte TLS-/SSL-Zertifikate"
+              "title": "SaaS, Private Cloud oder On-Premises-Hosting"
             },
             "3": {
-              "title": ""
+              "title": "Benutzerdefinierte TLS-/SSL-Zertifikate"
             },
             "4": {
-              "title": ""
+              "title": "Persönliche:r Account-Manager:in"
             },
             "5": {
-              "title": ""
+              "title": "Uptime-Garantie"
             }
           }
         }
@@ -1951,7 +1951,7 @@
           "title": "Im API-Abo enthalten:",
           "items": {
             "0": {
-              "title": "Zugriff auf die Supertext RESTful API"
+              "title": "Zugriff auf die Supertext REST API"
             },
             "1": {
               "title": "KI-Übersetzung und Spracherkennung für Texte und Dokumente in 28 Sprachen"
@@ -1963,23 +1963,20 @@
               "title": "Ende-zu-Ende-Verschlüsselung und sofortige Textlöschung"
             },
             "4": {
-              "title": "Hosting exklusiv auf Schweizer Servern"
-            },
-            "5": {
               "title": "Glossarfunktion (ad hoc mit jeder Anfrage)"
             },
-            "6": {
+            "5": {
               "title": "Profi-Check durch erfahrene Übersetzer:innen als Add-on (kostenpflichtig)"
             },
-            "7": {
+            "6": {
               "title": "Fused Translation",
               "badge": "Bald verfügbar",
               "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren"
             },
-            "8": {
+            "7": {
               "title": "Key-Management und Monitoring"
             },
-            "9": {
+            "8": {
               "title": "E-Mail-Support innert 24 h"
             }
           }
@@ -2035,18 +2032,18 @@
               "free": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
               "essential": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
               "advanced": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
-              "pro": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
+              "pro": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
               "enterprise": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch"
             },
             "languageVariants": {
               "name": "Sprachvarianten",
               "description": "",
-              "all": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
-              "free": "Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)",
-              "essential": "Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)",
-              "advanced": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
-              "pro": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
-              "enterprise": "Chinesisch (vereinfacht, traditionell), Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)"
+              "all": "Chinesisch (vereinfacht, traditionell), Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
+              "free": "Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)",
+              "essential": "Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)",
+              "advanced": "Chinesisch (vereinfacht, traditionell), Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
+              "pro": "Chinesisch (vereinfacht, traditionell), Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
+              "enterprise": "Chinesisch (vereinfacht, traditionell), Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)"
             }
           }
         },
@@ -2108,8 +2105,8 @@
               "description": "Laden Sie ganze Dokumente hoch und Sie erhalten eine bearbeitbare Übersetzung im selben Layout und Styling.",
               "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
               "essential": "20 Dateien pro Person und Monat",
-              "advanced": "Unbegrenzte Dateiübersetzungen (bearbeitbar)",
-              "pro": ""
+              "advanced": "60 Dateien pro Person und Monat",
+              "pro": "120 Dateien pro Person und Monat"
             },
             "fileEditingAllowed": {
               "name": "Dateibearbeitung erlaubt",
@@ -2137,7 +2134,7 @@
               "description": ""
             },
             "plainTextFiles": {
-              "name": ""
+              "name": "Plain-Text-Dateien (.txt)"
             }
           }
         },
@@ -2182,7 +2179,7 @@
             "microsoftOfficeAddIns": {
               "name": "Microsoft-Office-Add-Ins",
               "description": "Nutzen Sie Supertext direkt in Microsoft Word, PowerPoint und Outlook.",
-              "comingSoon": ""
+              "comingSoon": "Bald verfügbar"
             },
             "catToolIntegration": {
               "name": "CAT-Tools",
@@ -4341,7 +4338,7 @@
         "termInputForm": {
           "addTerminologyStepByStep": "Ergänzen Sie Ihre Terminologie einfach schrittweise.",
           "sourceText": "Ausgangssprache",
-          "targetLanguage": "-> Zielsprache",
+          "targetLanguage": "Zielsprache",
           "placeholderSourceText": "Ausgangsbegriff",
           "placeholderTargetText": "Zielbegriff",
           "saveEntry": "Eintrag speichern"
@@ -4363,6 +4360,6 @@
         }
       }
     },
-    "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar {glossary}."
+    "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar <link>{glossary}</link>."
   }
 }

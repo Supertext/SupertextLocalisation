@@ -1552,7 +1552,7 @@
         "subscriptionEndsOn": "Expires on",
         "accessDenied": {
           "title": "API access restricted",
-          "description": "Your user role does not include access to the API settings. Even if your team has an active API subscription, only certain roles can view and manage the settings. Please contact your administrator if you need assistance."
+          "description": "You do not have access to the API settings. Please contact your team admin."
         }
       },
       "new": "New"
@@ -1963,7 +1963,7 @@
               "title": "End-to-end encryption and instant text deletion"
             },
             "4": {
-              "title": ""
+              "title": "Hosted exclusively on Swiss servers"
             },
             "5": {
               "title": "Verification by experienced translators as an add-on (paid service)"

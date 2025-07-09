@@ -1552,7 +1552,7 @@
         "subscriptionEndsOn": "Se termine le",
         "accessDenied": {
           "title": "Accès à l’API limité",
-          "description": "Votre rôle d’utilisateur/-trice ne vous permet pas d’accéder aux paramètres de l’API. Même si votre équipe dispose d’un abonnement API actif, seuls certains rôles peuvent accéder à l’API ou la gérer. Veuillez contacter votre administrateur/-trice si vous avez besoin d’aide."
+          "description": "Vous n’avez pas accès aux paramètres de l’API. Veuillez contacter une personne de votre équipe ayant le rôle d’administrateur."
         }
       },
       "new": "Nouveau"
@@ -1963,7 +1963,7 @@
               "title": "Chiffrement de bout en bout et suppression instantanée du texte"
             },
             "4": {
-              "title": ""
+              "title": "Hébergement exclusivement sur des serveurs suisses"
             },
             "5": {
               "title": "Vérification professionnelle par des traducteurs/-trices expérimentés/-ées en option (payante)"

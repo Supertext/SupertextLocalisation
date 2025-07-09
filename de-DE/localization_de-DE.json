@@ -1511,7 +1511,7 @@
           },
           "dialog": {
             "deleteTitle": "{description} API-Schlüssel löschen",
-            "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen erneut zuweisen."
+            "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen neu zuweisen."
           },
           "copy": "Kopieren"
         },
@@ -1552,7 +1552,7 @@
         "subscriptionEndsOn": "Läuft ab am",
         "accessDenied": {
           "title": "API-Zugriff eingeschränkt",
-          "description": "Ihre Benutzerrolle beinhaltet keinen Zugriff auf die API-Einstellungen. Auch wenn Ihr Team über ein aktives API-Abo verfügt, können nur bestimmte Rollen die Einstellungen einsehen oder verwalten. Bitte wenden Sie sich an Ihre:n Administrator:in, falls Sie Unterstützung benötigen."
+          "description": "Sie haben keinen Zugriff auf die API-Einstellungen. Bitte wenden Sie sich an eine:n Admin Ihres Teams."
         }
       },
       "new": "Neu"
@@ -1963,7 +1963,7 @@
               "title": "Ende-zu-Ende-Verschlüsselung und sofortige Textlöschung"
             },
             "4": {
-              "title": "Glossarfunktion (ad hoc mit jeder Anfrage)"
+              "title": "Hosting exklusiv auf Schweizer Servern"
             },
             "5": {
               "title": "Profi-Check durch erfahrene Übersetzer:innen als Add-on (kostenpflichtig)"
@@ -1974,10 +1974,13 @@
               "tooltip": "Ihre KI-Übersetzungen verbessern sich in Echtzeit mit jedem Auftrag, den Sie bei den Supertext-Sprachexpert:innen platzieren"
             },
             "7": {
-              "title": "Key-Management und Monitoring"
+              "title": "Glossarfunktion (ad hoc mit jeder Anfrage)"
             },
             "8": {
-              "title": "E-Mail-Support innert 24 h"
+              "title": "Key-Management und Monitoring"
+            },
+            "9": {
+              "title": "E-Mail-Support innerhalb 24 Std."
             }
           }
         },
@@ -3485,7 +3488,7 @@
           "trialPeriodBadge": "🎉 Erster Monat kostenlos",
           "trialPeriodDescription": "Die ersten 30 Tage testen Sie Supertext kostenlos. Wenn Sie vor dem {date} kündigen, bezahlen Sie nichts. Danach werden Ihnen die oben angezeigten Kosten verrechnet.",
           "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abos.",
-          "trialDaysLeft": "{daysLeft} Tage kostenlos übrig"
+          "trialDaysLeft": "{daysLeft} kostenlose Tage übrig"
         }
       },
       "aiTranslationVerification": {

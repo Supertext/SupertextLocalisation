@@ -1552,7 +1552,7 @@
         "subscriptionEndsOn": "Scade il giorno",
         "accessDenied": {
           "title": "Accesso all’API limitato",
-          "description": "Il Suo ruolo di utente non Le consente di accedere alle impostazioni dell’API. Anche se il Suo team ha un abbonamento API attivo, solo determinati ruoli possono visualizzare o gestire le impostazioni. Se ha bisogno di assistenza, si rivolga al Suo amministratore."
+          "description": "Lei non ha accesso alle impostazioni API. Si rivolga a un amministratore del Suo team."
         }
       },
       "new": "Nuovo"
@@ -1963,7 +1963,7 @@
               "title": "Crittografia end-to-end e cancellazione immediata del testo"
             },
             "4": {
-              "title": ""
+              "title": "Hosting esclusivamente su server svizzeri"
             },
             "5": {
               "title": "Verifica professionale da parte di traduttori esperti come componente aggiuntivo (a pagamento)"

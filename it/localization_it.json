@@ -3488,7 +3488,7 @@
           "trialPeriodBadge": "🎉 Primo mese gratuito",
           "trialPeriodDescription": "I primi 30 giorni di utilizzo di Supertext sono gratuiti. Se si disiscrive prima del {date}, non si paga nulla. In seguito, le spese indicate sopra saranno addebitate.",
           "termsAndConditions": "Accetto le condizioni generali di contratto per l’acquisto di questo abbonamento.",
-          "trialDaysLeft": "{daysLeft} giorni di prova gratuita rimasti"
+          "trialDaysLeft": "{daysLeft, plural, =0 {Nessun giorno gratuito rimasto} =1 {# giorno gratuito rimasto} other {# giorni gratuiti rimasti}}"
         }
       },
       "aiTranslationVerification": {

@@ -1919,10 +1919,10 @@
               "title": "Numero illimitato di file (modificabili)"
             },
             "1": {
-              "title": "SaaS, cloud privato o hosting locale"
+              "title": "Modelli di IA e branding su misura"
             },
             "2": {
-              "title": "Certificati TLS/SSL personalizzati"
+              "title": "SaaS, cloud privato o hosting locale"
             },
             "3": {
               "title": "Certificati TLS/SSL personalizzati"
@@ -3488,7 +3488,7 @@
           "trialPeriodBadge": "🎉 Primo mese gratuito",
           "trialPeriodDescription": "I primi 30 giorni di utilizzo di Supertext sono gratuiti. Se si disiscrive prima del {date}, non si paga nulla. In seguito, le spese indicate sopra saranno addebitate.",
           "termsAndConditions": "Accetto le condizioni generali di contratto per l’acquisto di questo abbonamento.",
-          "trialDaysLeft": "{daysLeft, plural, =0 {Nessun giorno gratuito rimasto} =1 {# giorno gratuito rimasto} other {# giorni gratuiti rimasti}}"
+          "trialDaysLeft": "{daysLeft} giorni di prova gratuita rimasti"
         }
       },
       "aiTranslationVerification": {
@@ -4350,9 +4350,9 @@
         "languagePairAccordion": {
           "emptyStateDescription": "Stabilisca come tradurre parole e frasi. Il traduttore IA di Supertext adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",
           "exampleLabel": "Ad esempio:",
-          "exampleSource1": "Login",
-          "exampleTarget1": "Login",
-          "exampleSource2": "Traduttore IA",
+          "exampleSource1": "Log in",
+          "exampleTarget1": "Accedi",
+          "exampleSource2": "AI translator",
           "exampleTarget2": "Traduttore IA"
         },
         "glossaryDetailsForm": {

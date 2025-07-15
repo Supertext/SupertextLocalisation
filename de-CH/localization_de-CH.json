@@ -3488,7 +3488,7 @@
           "trialPeriodBadge": "🎉 Erster Monat kostenlos",
           "trialPeriodDescription": "Die ersten 30 Tage testen Sie Supertext kostenlos. Wenn Sie vor dem {date} kündigen, bezahlen Sie nichts. Danach werden Ihnen die oben angezeigten Kosten verrechnet.",
           "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abos.",
-         "trialDaysLeft": "{daysLeft, plural, one {# kostenloser Tag übrig} other {# kostenlose Tage übrig}}"
+          "trialDaysLeft": "{daysLeft} kostenlose Tage übrig"
         }
       },
       "aiTranslationVerification": {
@@ -4350,10 +4350,10 @@
         "languagePairAccordion": {
           "emptyStateDescription": "Definieren Sie, wie Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
           "exampleLabel": "Zum Beispiel:",
-          "exampleSource1": "Anmeldung",
-          "exampleTarget1": "Login",
-          "exampleSource2": "KI-Übersetzer",
-          "exampleTarget2": "AI Translator"
+          "exampleSource1": "Log in",
+          "exampleTarget1": "Anmelden",
+          "exampleSource2": "AI translator",
+          "exampleTarget2": "KI-Übersetzer"
         },
         "glossaryDetailsForm": {
           "glossaryLabel": "Neues Glossar anlegen",

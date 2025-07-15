@@ -1919,10 +1919,10 @@
               "title": "Nombre illimité de fichiers (modifiables)"
             },
             "1": {
-              "title": "SaaS, cloud privé ou hébergement sur site"
+              "title": "Modèles d’IA sur mesure et branding"
             },
             "2": {
-              "title": "Certificats TLS/SSL personnalisés"
+              "title": "SaaS, cloud privé ou hébergement sur site"
             },
             "3": {
               "title": "Certificats TLS personnalisés/SSL personnalisés"
@@ -3488,7 +3488,7 @@
           "trialPeriodBadge": "🎉 Premier mois gratuit",
           "trialPeriodDescription": "Vous testez gratuitement Supertext les 30 premiers jours. Si vous résiliez avant le {date}, vous ne payez rien. Passé ce délai, les frais indiqués ci-dessus vous seront facturés.",
           "termsAndConditions": "J’accepte les conditions générales de vente pour l’achat de cet abonnement.",
-          "trialDaysLeft": "{daysLeft, plural, =0 {Aucun jour gratuit restant} =1 {# jour gratuit restant} other {# jours gratuits restants}}"
+          "trialDaysLeft": "{daysLeft} jours restants gratuits"
         }
       },
       "aiTranslationVerification": {
@@ -4291,12 +4291,12 @@
   "notSupported": "Langue non disponible",
   "glossary": {
     "trigger": {
-      "text": "glossaire",
+      "text": "Glossaire",
       "badge": "Nouveau"
     },
     "header": {
       "back": "Retour",
-      "glossary": "glossaire"
+      "glossary": "Glossaire"
     },
     "views": {
       "unauthorised": {
@@ -4350,9 +4350,9 @@
         "languagePairAccordion": {
           "emptyStateDescription": "Définissez comment les mots et les expressions doivent être traduits. Le traducteur par l’IA de Supertext ajuste automatiquement ces entrées dans votre traduction.",
           "exampleLabel": "Par exemple:",
-          "exampleSource1": "Inscription",
-          "exampleTarget1": "Connexion",
-          "exampleSource2": "Traducteur par l’IA",
+          "exampleSource1": "Log in",
+          "exampleTarget1": "Se connecter",
+          "exampleSource2": "AI translator",
           "exampleTarget2": "Traducteur par l’IA"
         },
         "glossaryDetailsForm": {

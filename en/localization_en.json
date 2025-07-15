@@ -1919,10 +1919,10 @@
               "title": "Unlimited files (editable)"
             },
             "1": {
-              "title": "SaaS, private cloud or on-premises hosting"
+              "title": "Customised AI models and branding"
             },
             "2": {
-              "title": "Custom TLS/SSL certificates"
+              "title": "SaaS, private cloud or on-premises hosting"
             },
             "3": {
               "title": "Custom TLS/SSL certificates"
@@ -3488,7 +3488,7 @@
           "trialPeriodBadge": "🎉 First month free",
           "trialPeriodDescription": "You can test Supertext for free for the first 30 days. If you cancel before the {date}, you will not be charged. After that, the costs shown above will be charged.",
           "termsAndConditions": "I accept the terms and conditions for the purchase of this subscription.",
-          "trialDaysLeft": "{daysLeft, plural, =0 {No free days left} =1 {# free day left} other {# free days left}}"
+          "trialDaysLeft": "{daysLeft} free days left"
         }
       },
       "aiTranslationVerification": {
@@ -4350,9 +4350,9 @@
         "languagePairAccordion": {
           "emptyStateDescription": "Define how particular words or phrases should be translated. The Supertext AI translator will then automatically adapt these terms to your preferences in your translation.",
           "exampleLabel": "For example:",
-          "exampleSource1": "Login",
-          "exampleTarget1": "Login",
-          "exampleSource2": "AI translator",
+          "exampleSource1": "Anmelden",
+          "exampleTarget1": "Log in",
+          "exampleSource2": "KI-Übersetzer",
           "exampleTarget2": "AI translator"
         },
         "glossaryDetailsForm": {

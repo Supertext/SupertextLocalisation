@@ -955,7 +955,7 @@
           "part4": "right solution."
         },
         "question": "Over 1,500 companies across Europe already use our customised products and services. What can we do to make you one of them?",
-        "contactUs": "Let’s talk",
+        "contactUs": "Get in touch",
         "compareAllFeatures": "Compare all subscriptions",
         "customizeSubscriptionInfo": "Easily adjust your subscription at any time to meet your needs.",
         "price": "Price",
@@ -1015,7 +1015,7 @@
         },
         "firstMonthFree": "First month free",
         "cancelSubscriptionButton": "Downgrade subscription",
-        "footerNote": "Do you have <highlightText>big plans?</highlightText> We have <highlightText>the right solution.</highlightText>",
+        "footerNote": "Looking for a <highlightText>customised translation solution?</highlightText> Let's talk.",
         "requestAccess": "Request access",
         "requestAccessSuccess": "Your request was sent successfully",
         "accessRequested": "Access requested",
@@ -1538,9 +1538,9 @@
           "description": "Control access to and usage of your API subscription.",
           "tooltip": "Usage data is updated daily",
           "translatedCharsTotalLabel": "Total translated characters",
-          "translatedCharsTotalHelp": "This month",
+          "translatedCharsTotalHelp": "this month",
           "translationCostTotalLabel": "Total translation costs",
-          "translationCostTotalHelp": "This month",
+          "translationCostTotalHelp": "this month",
           "table": {
             "endpoint": "End point",
             "chars": "Characters",
@@ -1850,7 +1850,7 @@
           "title": "Everything from Essential, plus:",
           "items": {
             "0": {
-              "title": "23 languages"
+              "title": "28 languages"
             },
             "1": {
               "title": "60 files per month (editable)"
@@ -2031,12 +2031,12 @@
             "languages": {
               "name": "Languages",
               "description": "",
-              "all": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German",
+              "all": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish",
               "free": "English, French, German, Italian, Romansh, Swiss German",
               "essential": "English, French, German, Italian, Romansh, Swiss German",
-              "advanced": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German",
+              "advanced": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish",
               "pro": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Greek, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish",
-              "enterprise": "Albanian, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German"
+              "enterprise": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish"
             },
             "languageVariants": {
               "name": "Language variants",
@@ -2948,10 +2948,6 @@
             {
               "title": "Customer support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer relations"
             }
           ]
         }
@@ -3697,7 +3693,7 @@
         },
         "heroSection": {
           "mainHeading": "Textshuttle is now Supertext – with<break></break> a new AI, new products and <break></break>a new look",
-          "leading": "Discover our all-in-one translation solution for any type of content – now even better thanks to the latest LLM technology and professional support as an add-on.<break></break><break></break>Just like Textshuttle, Supertext offers you:<break></break><list><listItem>AI translation in up to 23 languages – including Swiss German and Romansh</listItem><listItem>Maximum data security thanks to hosting in Switzerland</listItem><listItem>Practical translation features such as rewording and rephrasing</listItem></list>"
+          "leading": "Discover our all-in-one translation solution for any type of content – now even better thanks to the latest LLM technology and professional support as an add-on.<break></break><break></break>Just like Textshuttle, Supertext offers you:<break></break><list><listItem>AI translation in up to 28 languages – including Swiss German and Romansh</listItem><listItem>Maximum data security thanks to hosting in Switzerland</listItem><listItem>Practical translation features such as rewording and rephrasing</listItem></list>"
         },
         "languagePairs": {
           "title": "The Textshuttle translator is now Supertext. What’s on offer?",

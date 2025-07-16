@@ -1051,7 +1051,7 @@
             "KI-Übersetzung in 28 Sprachen",
             "Glossarfunktion",
             "60 Dateien pro Monat",
-            "20 MB maximale Dateigröße"
+            "20 MB maximale Dateigröße"
           ],
           "advancedToFree": [
             "KI-Übersetzung in 28 Sprachen",
@@ -1059,7 +1059,7 @@
             "Glossarfunktion",
             "60 Dateien pro Monat",
             "Unbegrenzte Textübersetzung",
-            "20 MB maximale Dateigröße",
+            "20 MB maximale Dateigröße",
             "Excel-, PDF- und SRT-Dateien übersetzen",
             "E-Mail-Support"
           ],
@@ -1067,7 +1067,7 @@
             "Sofortige Textlöschung",
             "Unbegrenzte Textübersetzung",
             "20 Dateien pro Monat",
-            "10 MB maximale Dateigröße",
+            "10 MB maximale Dateigröße",
             "Excel-, PDF- und SRT-Dateien übersetzen",
             "E-Mail-Support"
           ]
@@ -1538,9 +1538,9 @@
           "description": "Kontrollieren Sie Zugriff und Nutzung Ihres API-Abos.",
           "tooltip": "Nutzungsdaten werden täglich aktualisiert",
           "translatedCharsTotalLabel": "Übersetzte Zeichen gesamt",
-          "translatedCharsTotalHelp": "Diesen Monat",
+          "translatedCharsTotalHelp": "diesen Monat",
           "translationCostTotalLabel": "Übersetzungskosten gesamt",
-          "translationCostTotalHelp": "Diesen Monat",
+          "translationCostTotalHelp": "diesen Monat",
           "table": {
             "endpoint": "Endpoint",
             "chars": "Zeichen",
@@ -1887,7 +1887,7 @@
               "title": "120 Dateien pro Monat (bearbeitbar)"
             },
             "1": {
-              "title": "30 MB maximale Dateigröße"
+              "title": "30 MB maximale Dateigröße"
             },
             "2": {
               "title": "Styleguides"
@@ -2031,12 +2031,12 @@
             "languages": {
               "name": "Sprachen",
               "description": "",
-              "all": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
+              "all": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
               "free": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
               "essential": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
-              "advanced": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch",
+              "advanced": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
               "pro": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
-              "enterprise": "Albanisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Italienisch, Japanisch, Koreanisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Ungarisch"
+              "enterprise": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch"
             },
             "languageVariants": {
               "name": "Sprachvarianten",
@@ -2948,10 +2948,6 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
-            },
-            {
-              "email": "vendormanagement@supertext.com",
-              "title": "Freelancer Relations"
             }
           ]
         }
@@ -3697,7 +3693,7 @@
         },
         "heroSection": {
           "mainHeading": "Textshuttle heißt jetzt Supertext –<break></break> mit neuer KI, neuen Angeboten und<break></break> neuem Look",
-          "leading": "Entdecken Sie unsere All-in-one-Übersetzungslösung für jede Art von Content – jetzt noch besser dank neuster LLM-Technologie und Profi-Support als Add-on.<break></break><break></break>Wie schon bei Textshuttle profitieren Sie auch bei Supertext von:<break></break><list><listItem>KI-Übersetzung in bis zu 23 Sprachen – sogar Schweizerdeutsch und Rätoromanisch</listItem><listItem>höchster Datensicherheit dank Hosting in der Schweiz</listItem><listItem>praktischen Übersetzungsfeatures wie Wortalternativen und Rephrasing</listItem></list>"
+          "leading": "Entdecken Sie unsere All-in-one-Übersetzungslösung für jede Art von Content – jetzt noch besser dank neuster LLM-Technologie und Profi-Support als Add-on.<break></break><break></break>Wie schon bei Textshuttle profitieren Sie auch bei Supertext von:<break></break><list><listItem>KI-Übersetzung in bis zu 28 Sprachen – sogar Schweizerdeutsch und Rätoromanisch</listItem><listItem>höchster Datensicherheit dank Hosting in der Schweiz</listItem><listItem>praktischen Übersetzungsfeatures wie Wortalternativen und Rephrasing</listItem></list>"
         },
         "languagePairs": {
           "title": "Der Textshuttle-Übersetzer wird zu Supertext. Was steckt drin?",

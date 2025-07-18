@@ -4322,7 +4322,8 @@
         "descriptionPlaceholder": "Description",
         "create": "Créer un glossaire",
         "creationSuccessful": "Le glossaire {name} a été créé avec succès.",
-        "creationUnsuccessful": "Le glossaire n’a pas pu être créé. Error: {error}"
+        "creationUnsuccessful": "Le glossaire n’a pas pu être créé. Error: {error}",
+        "creationUnsuccessfulAlreadyExists": "Glossary with name {name} already exists."
       },
       "glossaryManage": {
         "glossaryFetchUnsuccessful": "Une erreur s’est produite lors de la récupération du glossaire.",

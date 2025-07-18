@@ -2948,6 +2948,10 @@
             {
               "title": "Customer Support",
               "email": "support@supertext.com"
+            },
+            {
+              "email": "vendormanagement@supertext.com",
+              "title": "Freelancer Relations"
             }
           ]
         }
@@ -4323,7 +4327,7 @@
         "create": "Glossar erstellen",
         "creationSuccessful": "Das Glossar {name} wurde erfolgreich erstellt.",
         "creationUnsuccessful": "Das Glossar konnte nicht erstellt werden. Error: {error} ",
-        "creationUnsuccessfulAlreadyExists": "Glossary with name {name} already exists."
+        "creationUnsuccessfulAlreadyExists": "Ein Glossar mit dem Namen {name} existiert bereits."
       },
       "glossaryManage": {
         "glossaryFetchUnsuccessful": "Beim Abrufen des Glossars ist ein Fehler aufgetreten.",

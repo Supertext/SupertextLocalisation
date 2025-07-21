@@ -4318,7 +4318,7 @@
         "delete": "Elimina glossario",
         "cancel": "Annulla",
         "deletionSuccessful": "Il glossario {name} è stato eliminato.",
-        "deletionUnsuccessful": "Impossibile eliminare il glossario {name}. {error}"
+        "deletionUnsuccessful": "Impossibile eliminare il glossario {name}: {error}"
       },
       "glossaryCreate": {
         "label": "Crea nuovo glossario",
@@ -4326,7 +4326,7 @@
         "descriptionPlaceholder": "Descrizione",
         "create": "Crea glossario",
         "creationSuccessful": "È stato creato il glossario {name}.",
-        "creationUnsuccessful": "Impossibile creare il glossario. {error} ",
+        "creationUnsuccessful": "Impossibile creare il glossario: {error}",
         "creationUnsuccessfulAlreadyExists": "Il glossario con il nome {name} esiste già."
       },
       "glossaryManage": {

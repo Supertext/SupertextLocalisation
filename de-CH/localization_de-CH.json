@@ -4318,7 +4318,7 @@
         "delete": "Glossar löschen",
         "cancel": "Abbrechen",
         "deletionSuccessful": "Das Glossar {name} wurde erfolgreich gelöscht.",
-        "deletionUnsuccessful": "Das Löschen des Glossars {name} war nicht erfolgreich. {error}"
+        "deletionUnsuccessful": "Das Löschen des Glossars {name} war nicht erfolgreich: {error}"
       },
       "glossaryCreate": {
         "label": "Neues Glossar anlegen",
@@ -4326,7 +4326,7 @@
         "descriptionPlaceholder": "Beschreibung",
         "create": "Glossar erstellen",
         "creationSuccessful": "Das Glossar {name} wurde erfolgreich erstellt.",
-        "creationUnsuccessful": "Das Glossar konnte nicht erstellt werden. {error}",
+        "creationUnsuccessful": "Das Glossar konnte nicht erstellt werden: {error}",
         "creationUnsuccessfulAlreadyExists": "Ein Glossar mit dem Namen {name} existiert bereits."
       },
       "glossaryManage": {

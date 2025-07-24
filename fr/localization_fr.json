@@ -1555,6 +1555,10 @@
           "description": "Vous n’avez pas accès aux paramètres de l’API. Veuillez contacter une personne de votre équipe ayant le rôle d’administrateur."
         }
       },
+      "accessDenied": {
+          "title": "Accès limité",
+          "description": "Vous n’avez pas accès à ces paramètres. Veuillez contacter une personne de votre équipe ayant le rôle d’administrateur."
+        },
       "new": "Nouveau"
     },
     "footer": {

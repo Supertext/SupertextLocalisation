@@ -1555,6 +1555,10 @@
           "description": "You do not have access to the API settings. Please contact your team admin."
         }
       },
+      "accessDenied": {
+          "title": "Access restricted",
+          "description": "You do not have access to these settings. Please contact your team admin."
+        },
       "new": "New"
     },
     "footer": {

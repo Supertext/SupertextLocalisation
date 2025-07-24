@@ -1555,6 +1555,10 @@
           "description": "Sie haben keinen Zugriff auf die API-Einstellungen. Bitte wenden Sie sich an eine:n Admin Ihres Teams."
         }
       },
+      "accessDenied": {
+        "title": "Zugriff eingeschränkt",
+        "description": "Sie haben keinen Zugriff auf diese Einstellungen. Bitte wenden Sie sich an eine:n Admin Ihres Teams."
+      },
       "new": "Neu"
     },
     "footer": {

@@ -1555,6 +1555,10 @@
           "description": "Lei non ha accesso alle impostazioni API. Si rivolga a un amministratore del Suo team."
         }
       },
+      "accessDenied": {
+          "title": "Accesso limitato",
+          "description": "Lei non ha accesso a queste impostazioni. Si rivolga a un amministratore del Suo team."
+        },
       "new": "Nuovo"
     },
     "footer": {

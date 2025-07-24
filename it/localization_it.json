@@ -247,8 +247,8 @@
           "body": "Ha raggiunto il numero massimo di {0} caratteri."
         },
         "fileLimit": {
-          "header": "",
-          "body": ""
+          "header": "Numero massimo raggiunto - esegui l'upgrade ora per aumentare il limite.",
+          "body": "Hai raggiunto il limite di traduzioni di file. Aggiorna il tuo abbonamento per aumentare il limite."
         },
         "fileSize": {
           "header": "Purtroppo questo file è un po’ troppo grande.",
@@ -1555,11 +1555,11 @@
           "description": "Lei non ha accesso alle impostazioni API. Si rivolga a un amministratore del Suo team."
         }
       },
+      "new": "Nuovo",
       "accessDenied": {
-          "title": "Accesso limitato",
-          "description": "Lei non ha accesso a queste impostazioni. Si rivolga a un amministratore del Suo team."
-        },
-      "new": "Nuovo"
+        "title": "Accesso limitato",
+        "description": "Lei non ha accesso a queste impostazioni. Si rivolga a un amministratore del Suo team."
+      }
     },
     "footer": {
       "contact": "Contatti",

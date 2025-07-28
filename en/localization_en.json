@@ -1116,7 +1116,10 @@
           "footerNote": "Are you looking for a <highlightText>tailor-made translation solution?</highlightText>",
           "cta": "Is your language not included yet? <link>Let’s talk.</link>"
         },
-        "monthlyCancellable": "Can be canceled monthly"
+        "monthlyCancellable": "Can be canceled monthly",
+        "allFunctionality": "",
+        "editSubscriptionMessageAdmin": "",
+        "editSubscriptionMessageUser": ""
       },
       "resources": {
         "title": "Linguistic resources",
@@ -4235,6 +4238,84 @@
       "signingIn": "Logging in...",
       "loading": "Loading...",
       "loggingOut": "Logging out..."
+    },
+    "featureComparisonMobile": {
+      "sprachen_und_sprachvarianten": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "hoechste_datensicherheit": {
+        "category": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "textuebersetzung": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "dateiuebersetzung": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "glossare": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "microsoft_office_add_ins": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "cat_tools": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      }
     }
   },
   "remove": "Remove",

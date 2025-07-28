@@ -1116,7 +1116,10 @@
           "footerNote": "Sta cercando una <highlightText>soluzione di traduzione su misura?</highlightText>",
           "cta": "La Sua lingua non è nella lista? <link>Parliamone.</link>"
         },
-        "monthlyCancellable": "Può essere disdetto mensilmente"
+        "monthlyCancellable": "Può essere disdetto mensilmente",
+        "allFunctionality": "",
+        "editSubscriptionMessageAdmin": "",
+        "editSubscriptionMessageUser": ""
       },
       "resources": {
         "title": "Risorse linguistiche",
@@ -4235,6 +4238,84 @@
       "signingIn": "Accesso in corso...",
       "loading": "In caricamento...",
       "loggingOut": "Disconnessione in corso..."
+    },
+    "featureComparisonMobile": {
+      "sprachen_und_sprachvarianten": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "hoechste_datensicherheit": {
+        "category": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "textuebersetzung": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "dateiuebersetzung": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "glossare": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "microsoft_office_add_ins": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      },
+      "cat_tools": {
+        "category": "",
+        "tooltip": "",
+        "rows": {
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
+        }
+      }
     }
   },
   "remove": "Rimuovi",

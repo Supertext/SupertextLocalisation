@@ -221,45 +221,6 @@
       "text": "Click on a word or select multiple words to get alternatives.",
       "link": "Show more"
     },
-    "userLimits": {
-      "signupButton": "Register",
-      "loginButton": "Log in",
-      "notAuthenticated": {
-        "textLimit": {
-          "header": "Would you like to translate longer texts?",
-          "body": "You have reached {0}, the maximum number of characters. If you register, you will get double the translation volume."
-        },
-        "fileLimit": {
-          "header": "Register now and translate and edit up to 3 documents per day."
-        },
-        "fileSize": {
-          "header": "This file is unfortunately a little too large.",
-          "body": "Your document exceeds the maximum size of {0} MB. If you register for free, you will get double the translation volume."
-        },
-        "fileCharacters": {
-          "header": "Would you like to translate longer documents?",
-          "body": "You have reached {0}, the maximum number of characters. If you register for free, you will get double the translation volume."
-        }
-      },
-      "authenticated": {
-        "textLimit": {
-          "header": "You have reached your limit.",
-          "body": "You have reached {0}, the maximum number of characters."
-        },
-        "fileLimit": {
-          "header": "Maximum number reached – upgrade now to increase your limit.",
-          "body": "You have reached your file translation limit. Upgrade your subscription to increase the limit."
-        },
-        "fileSize": {
-          "header": "This file is unfortunately a little too large.",
-          "body": "Your document exceeds the maximum size of {0} MB."
-        },
-        "fileCharacters": {
-          "header": "You have reached your limit.",
-          "body": "You have reached {0}, the maximum number of characters."
-        }
-      }
-    },
     "navbar": {
       "why": "Why Supertext?",
       "enterprise": "For companies",
@@ -924,7 +885,7 @@
         "current": "Current subscription",
         "upgrade": "Upgrade",
         "downgrade": "Downgrade",
-        "recommended": "Most popular",
+        "recommended": "Recommended",
         "comparePlans": "Compare subscriptions",
         "showMore": "Show more",
         "cancellationInfo": "You have cancelled your subscription. It ends on",
@@ -1013,7 +974,7 @@
             }
           }
         },
-        "firstMonthFree": "Free for 30 days, cancel anytime",
+        "firstMonthFree": "First month free",
         "cancelSubscriptionButton": "Downgrade subscription",
         "footerNote": "Looking for a <highlightText>customised translation solution?</highlightText> Let's talk.",
         "requestAccess": "Request access",
@@ -1117,9 +1078,9 @@
           "cta": "Is your language not included yet? <link>Let’s talk.</link>"
         },
         "monthlyCancellable": "Can be canceled monthly",
-        "allFunctionality": "Compare all features",
-        "editSubscriptionMessageAdmin": "Would you like to edit your subscription? <link>Go to your dashboard</link>",
-        "editSubscriptionMessageUser": "Would you like to edit your subscription? <link>Please contact your team admin<link/>"
+        "allFunctionality": "",
+        "editSubscriptionMessageAdmin": "",
+        "editSubscriptionMessageUser": ""
       },
       "resources": {
         "title": "Linguistic resources",
@@ -1325,7 +1286,7 @@
             }
           },
           "subscription": {
-            "title": "Change your team’s subscription",
+            "title": "Change team subscription",
             "description": "All users without an assigned licence automatically benefit from Supertext Free.",
             "comparePlans": "Compare subscriptions",
             "numberOfLicenses": "Number of licences",
@@ -1439,7 +1400,7 @@
         "revisionRequest": "Request revision",
         "submitFile": "Request revision",
         "uploadFiles": "Upload documents with comments",
-        "messagePlaceholder": "e.g. a good, fresh style, we are very satisfied.",
+        "messagePlaceholder": "e.g. a good, fresh style, we are very satisfied; two points are missing from the final section, we will add them ourselves.",
         "ratingOptions": {
           "super": "Super",
           "good": "Satisfactory",
@@ -1915,8 +1876,8 @@
         "title": "Enterprise",
         "badge": "",
         "description": "The complete solution for large organisations with the highest demands. For even better translations that are always on-brand thanks to fully customised language models. Seamlessly integrated into your tools for smooth communication across all channels.",
-        "price_monthly": "On request",
-        "price_yearly": "On request",
+        "price_monthly": "Custom",
+        "price_yearly": "Custom",
         "period_monthly": "/month",
         "period_yearly": "/month",
         "features": {
@@ -3445,8 +3406,8 @@
             "link": "/faq?id=f8w9lowm1u5f1m17a005di6y"
           },
           "cta2": {
-            "title": "View API documentation",
-            "link": "/documentation/api"
+            "title": "Request API documentation",
+            "link": "/contact"
           }
         },
         "blog": {
@@ -3488,11 +3449,11 @@
         "upgradeModal": {
           "totalAmountPerYear": "Total amount per year",
           "totalAmountPerMonth": "Total amount per month",
-          "firstMonthFree": "Free for 30 days, cancel anytime",
+          "firstMonthFree": "First month free",
           "totalAmountDueToday": "Total amount due today",
           "totalAmountIncludingTax": "Total amount including VAT",
           "totalAmountDueTodayDescription": "This amount will be charged to you immediately upon purchase.",
-          "trialPeriodBadge": "Free for 30 days, cancel anytime",
+          "trialPeriodBadge": "🎉 First month free",
           "trialPeriodDescription": "You can test Supertext for free for the first 30 days. If you cancel before the {date}, you will not be charged. After that, the costs shown above will be charged.",
           "termsAndConditions": "I accept the terms and conditions for the purchase of this subscription.",
           "trialDaysLeft": "{daysLeft, plural, one {# free day left} other {# free days left}}"
@@ -3948,8 +3909,8 @@
                 "title": "Workflow automation with APIs",
                 "description": "From AI translation to professional services: we’re always on hand with seamless integrations for every environment thanks to our flexible RESTful API. And we'd be happy to support you with custom interface solutions, too.",
                 "cta1": {
-                  "title": "View API documentation",
-                  "link": "/documentation/api"
+                  "title": "Request documentation",
+                  "link": "/contact"
                 }
               },
               {
@@ -4241,77 +4202,77 @@
     },
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
-        "category": "Languages and language variants",
-        "tooltip": "<strong>Languages and language variants</strong> <br/> <strong>6 languages</strong>: English, French, German, Italian, Romansh, Swiss German <br/><br/> English (GB, US), French (CH, FR), German (AT, CH, DE), Italian (CH, IT), Swiss German (BE, ZH)<br/><br/> <strong> 28 languages</strong>: Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish <br/><br/> Chinese (simplified, traditional), English (GB, US), French (CH, FR), German (AT, CH, DE), Italian (CH, IT), Portuguese (BR, PT), Swiss German (BE, ZH)",
+        "category": "",
+        "tooltip": "",
         "rows": {
-          "free": "6 languages",
-          "essential": "6 languages",
-          "advanced": "28 languages",
-          "pro": "28 languages",
-          "enterprise": "28 languages"
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
         }
       },
       "hoechste_datensicherheit": {
-        "category": "Maximum data security",
+        "category": "",
         "rows": {
-          "free": "false",
-          "essential": "true",
-          "advanced": "true",
-          "pro": "true",
-          "enterprise": "true"
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
         }
       },
       "textuebersetzung": {
-        "category": "Text translation",
-        "tooltip": "1,500 characters for unregistered users. Up to 3,000 characters for users with free registration.",
+        "category": "",
+        "tooltip": "",
         "rows": {
-          "free": "up to 3,000 characters",
-          "essential": "unlimited",
-          "advanced": "unlimited",
-          "pro": "unlimited",
-          "enterprise": "unlimited"
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
         }
       },
       "dateiuebersetzung": {
-        "category": "File translation",
-        "tooltip": "<strong>File translation</strong> <br/> Upload documents and get an editable translation with the same layout and styling. <br/> <br/>All figures are per person per month; MB figures are per file.",
+        "category": "",
+        "tooltip": "",
         "rows": {
-          "free": "5 files / max. 5 MB",
-          "essential": "20 files / max. 10 MB",
-          "advanced": "60 files / max. 20 MB",
-          "pro": "120 files / max. 30 MB",
-          "enterprise": "max. 30 MB"
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
         }
       },
       "glossare": {
-        "category": "Glossaries",
-        "tooltip": "<strong>Personalisation</strong><br/> - Glossaries to centrally define how particular words are translated <br/> - Adjust to a formal/informal tone whenever you need <br/> - Fused translation (available soon): professional projects improve your AI",
+        "category": "",
+        "tooltip": "",
         "rows": {
-          "free": "false",
-          "essential": "false",
-          "advanced": "true",
-          "pro": "true",
-          "enterprise": "true"
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
         }
       },
       "microsoft_office_add_ins": {
-        "category": "Microsoft Office add-ins",
-        "tooltip": "Use Supertext directly in Microsoft Word, PowerPoint and Outlook.",
+        "category": "",
+        "tooltip": "",
         "rows": {
-          "free": "false",
-          "essential": "false",
+          "free": "",
+          "essential": "",
           "advanced": "Available soon",
-          "pro": "true",
-          "enterprise": "true"
+          "pro": "",
+          "enterprise": ""
         }
       },
       "cat_tools": {
-        "category": "CAT tools",
-        "tooltip": "Use Supertext in translation memory tools (such as Trados Studio or memoQ) to increase your productivity for professional translations.",
+        "category": "CAT Tools",
+        "tooltip": "",
         "rows": {
-          "free": "false",
-          "essential": "false",
-          "advanced": "false",
+          "free": "",
+          "essential": "",
+          "advanced": "",
           "pro": "Optional add-on",
           "enterprise": "Optional add-on"
         }

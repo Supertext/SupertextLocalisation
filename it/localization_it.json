@@ -221,6 +221,45 @@
       "text": "Clicchi su una parola o selezioni più parole per ottenere traduzioni alternative.",
       "link": "Mostra di più"
     },
+    "userLimits": {
+      "signupButton": "Registrati",
+      "loginButton": "Accedi",
+      "notAuthenticated": {
+        "textLimit": {
+          "header": "Desidera tradurre testi più lunghi?",
+          "body": "Ha raggiunto il numero massimo di {0} caratteri. Se si registra avrà a disposizione il doppio del volume di traduzione attuale."
+        },
+        "fileLimit": {
+          "header": "Si registri subito e potrà tradurre e modificare fino a 3 documenti al giorno."
+        },
+        "fileSize": {
+          "header": "Purtroppo questo file è un po’ troppo grande.",
+          "body": "Il documento che ha caricato supera la dimensione massima di {0} MB. Se si registra gratuitamente, avrà a disposizione il doppio del volume di traduzione attuale."
+        },
+        "fileCharacters": {
+          "header": "Desidera tradurre documenti più lunghi?",
+          "body": "Ha raggiunto il numero massimo di {0} caratteri. Se si registra gratuitamente, avrà a disposizione il doppio del volume di traduzione attuale."
+        }
+      },
+      "authenticated": {
+        "textLimit": {
+          "header": "Ha raggiunto il limite stabilito.",
+          "body": "Ha raggiunto il numero massimo di {0} caratteri."
+        },
+        "fileLimit": {
+          "header": "Numero massimo raggiunto - esegui l'upgrade ora per aumentare il limite.",
+          "body": "Hai raggiunto il limite di traduzioni di file. Aggiorna il tuo abbonamento per aumentare il limite."
+        },
+        "fileSize": {
+          "header": "Purtroppo questo file è un po’ troppo grande.",
+          "body": "Il documento supera la dimensione massima di {0} MB."
+        },
+        "fileCharacters": {
+          "header": "Ha raggiunto il limite stabilito.",
+          "body": "Ha raggiunto il numero massimo di {0} caratteri."
+        }
+      }
+    },
     "navbar": {
       "why": "Perché Supertext?",
       "enterprise": "Per le aziende",
@@ -885,7 +924,7 @@
         "current": "Abbonamento attuale",
         "upgrade": "Upgrade",
         "downgrade": "Downgrade",
-        "recommended": "Consigliato",
+        "recommended": "Opzione più popolare",
         "comparePlans": "Confronto tra gli abbonamenti",
         "showMore": "Mostra di più",
         "cancellationInfo": "Il Suo abbonamento è stato disdetto. Scade il giorno",
@@ -974,7 +1013,7 @@
             }
           }
         },
-        "firstMonthFree": "Primo mese gratis",
+        "firstMonthFree": "Gratuito per 30 giorni, annullabile in qualsiasi momento.",
         "cancelSubscriptionButton": "Disdici definitivamente l’abbonamento",
         "footerNote": "Avete <highlightText>grandi obiettivi?</highlightText> Noi la <highlightText>soluzione giusta.</highlightText>",
         "requestAccess": "Richiedi l'accesso",
@@ -1020,7 +1059,7 @@
             "Funzione di glossario",
             "60 file al mese",
             "Traduzione illimitata di testi",
-            "Dimensione massima dei file: 20 MB",
+            "Dimensione massima dei file: 20 MB",
             "Traduzione di file Excel, PDF e SRT",
             "Assistenza via e-mail"
           ],
@@ -1078,9 +1117,9 @@
           "cta": "La Sua lingua non è nella lista? <link>Parliamone.</link>"
         },
         "monthlyCancellable": "Può essere disdetto mensilmente",
-        "allFunctionality": "",
-        "editSubscriptionMessageAdmin": "",
-        "editSubscriptionMessageUser": ""
+        "allFunctionality": "Tutte le funzioni a confronto",
+        "editSubscriptionMessageAdmin": "Desidera modificare i Suoi abbonamenti? <link>Al Dashboard</link>",
+        "editSubscriptionMessageUser": "Desidera modificare i Suoi abbonamenti? <link>Si rivolga a un amministratore del Suo team<link/>"
       },
       "resources": {
         "title": "Risorse linguistiche",
@@ -1834,7 +1873,7 @@
               "badge": "Presto disponibile"
             },
             "5": {
-              "title": "",
+              "title": "Single Sign-on (SSO)",
               "tooltip": "a partire da 10 utenti"
             }
           }
@@ -1861,7 +1900,7 @@
               "title": "Guide di stile"
             },
             "3": {
-              "title": ""
+              "title": "Importazione delle traduzioni"
             },
             "4": {
               "title": "Assistenza telefonica e via e-mail entro 60 minuti"
@@ -1876,8 +1915,8 @@
         "title": "Enterprise",
         "badge": "",
         "description": "La soluzione completa per organizzazioni di ampio respiro e dagli standard più elevati. Tradurre ancora meglio e sempre on-brand con modelli linguistici totalmente personalizzati. Integrazione perfetta nei vostri tool per una comunicazione fluida su tutti i canali.",
-        "price_monthly": "Custom",
-        "price_yearly": "Custom",
+        "price_monthly": "Su richiesta",
+        "price_yearly": "Su richiesta",
         "period_monthly": "/ mese",
         "period_yearly": "/ mese",
         "features": {
@@ -3406,8 +3445,8 @@
             "link": "/faq?id=f8w9lowm1u5f1m17a005di6y"
           },
           "cta2": {
-            "title": "Richiedi documentazione API",
-            "link": "/contatto"
+            "title": "Alla documentazione API",
+            "link": "/documentazione/api"
           }
         },
         "blog": {
@@ -3449,11 +3488,11 @@
         "upgradeModal": {
           "totalAmountPerYear": "Importo totale annuo",
           "totalAmountPerMonth": "Importo totale mensile",
-          "firstMonthFree": "Primo mese gratis",
+          "firstMonthFree": "Gratuito per 30 giorni, annullabile in qualsiasi momento.",
           "totalAmountDueToday": "Importo totale da saldare in data odierna",
           "totalAmountIncludingTax": "Importo totale IVA incl.",
           "totalAmountDueTodayDescription": "L’importo Le sarà addebitato immediatamente al momento dell’acquisto.",
-          "trialPeriodBadge": "🎉 Primo mese gratuito",
+          "trialPeriodBadge": "Gratuito per 30 giorni, annullabile in qualsiasi momento.",
           "trialPeriodDescription": "I primi 30 giorni di utilizzo di Supertext sono gratuiti. Se si disiscrive prima del {date}, non si paga nulla. In seguito, le spese indicate sopra saranno addebitate.",
           "termsAndConditions": "Accetto le condizioni generali di contratto per l’acquisto di questo abbonamento.",
           "trialDaysLeft": "{daysLeft, plural, one {# giorno di prova gratuita rimasto} other {# giorni di prova gratuita rimasti}}"
@@ -3910,7 +3949,7 @@
                 "description": "Sia che desideriate usufruire di traduzioni IA o di servizi professionali, siamo a vostra disposizione per qualsiasi tipo di integrazione e ci inseriamo perfettamente in qualsiasi ambiente di lavoro grazie alla nostra RESTful API flessibile. Saremo lieti di assistervi anche in caso di interfacce personalizzate.",
                 "cta1": {
                   "title": "Richiedi documentazione",
-                  "link": "/contatto"
+                  "link": "/documentazione/api"
                 }
               },
               {
@@ -4202,77 +4241,77 @@
     },
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
-        "category": "",
-        "tooltip": "",
+        "category": "Lingue e varianti linguistiche",
+        "tooltip": "<strong>Lingue e varianti linguistiche</strong> <br/> <strong>6 lingue</strong>: francese, inglese, italiano, romancio, svizzero tedesco, tedesco <br/><br/> francese (CH, FR), inglese (GB, US), italiano (CH, IT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)<br/><br/> <strong>28 lingue</strong>: albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, neerlandese, norvegese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese <br/><br/> cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
         "rows": {
-          "free": "",
-          "essential": "",
-          "advanced": "",
-          "pro": "",
-          "enterprise": ""
+          "free": "6 lingue",
+          "essential": "6 lingue",
+          "advanced": "28 lingue",
+          "pro": "28 lingue",
+          "enterprise": "28 lingue"
         }
       },
       "hoechste_datensicherheit": {
-        "category": "",
+        "category": "Massima sicurezza dei dati",
         "rows": {
-          "free": "",
-          "essential": "",
-          "advanced": "",
-          "pro": "",
-          "enterprise": ""
+          "free": "false",
+          "essential": "true",
+          "advanced": "true",
+          "pro": "true",
+          "enterprise": "true"
         }
       },
       "textuebersetzung": {
-        "category": "",
-        "tooltip": "",
+        "category": "Traduzione di testi",
+        "tooltip": "1500 caratteri per utenti non registrati. Fino a 3000 caratteri per utenti con registrazione gratuita.",
         "rows": {
-          "free": "",
-          "essential": "",
-          "advanced": "",
-          "pro": "",
-          "enterprise": ""
+          "free": "fino a 3000 caratteri",
+          "essential": "illimitati",
+          "advanced": "illimitati",
+          "pro": "illimitati",
+          "enterprise": "illimitati"
         }
       },
       "dateiuebersetzung": {
-        "category": "",
-        "tooltip": "",
+        "category": "Traduzione di file",
+        "tooltip": "<strong>Traduzione di file</strong> <br/> Caricate i documenti e ricevete una traduzione modificabile, con layout e stile invariati. <br/> <br/>Tutti i dati indicati valgono a persona e al mese; i MB indicati valgono a file.",
         "rows": {
-          "free": "",
-          "essential": "",
-          "advanced": "",
-          "pro": "",
-          "enterprise": ""
+          "free": "5 file / max. 5 MB",
+          "essential": "20 file / max. 10 MB",
+          "advanced": "60 file / max. 20 MB",
+          "pro": "120 file / max. 30 MB",
+          "enterprise": "max. 30 MB ✔"
         }
       },
       "glossare": {
-        "category": "",
-        "tooltip": "",
+        "category": "Glossari",
+        "tooltip": "<strong>Personalizzazione</strong><br/> - Glossari per decidere a livello centrale la traduzione di determinate parole <br/> - Possibilità di adeguare la forma personale formale/informale <br/> - Fused Translation (presto disponibile): i progetti professionali migliorano la Sua IA",
         "rows": {
-          "free": "",
-          "essential": "",
-          "advanced": "",
-          "pro": "",
-          "enterprise": ""
+          "free": "false",
+          "essential": "false",
+          "advanced": "true",
+          "pro": "true",
+          "enterprise": "true"
         }
       },
       "microsoft_office_add_ins": {
-        "category": "",
-        "tooltip": "",
+        "category": "Microsoft-Office-Add-Ins",
+        "tooltip": "Usi Supertext direttamente in Microsoft Word, PowerPoint e Outlook.",
         "rows": {
-          "free": "",
-          "essential": "",
+          "free": "false",
+          "essential": "false",
           "advanced": "Presto disponibile",
-          "pro": "",
-          "enterprise": ""
+          "pro": "true",
+          "enterprise": "true"
         }
       },
       "cat_tools": {
         "category": "CAT Tools",
-        "tooltip": "",
+        "tooltip": "Utilizzate Supertext nei CAT-Tool (come Trados o memoQ) per aumentare la produttività delle vostre traduzioni professionali.",
         "rows": {
-          "free": "",
-          "essential": "",
-          "advanced": "",
+          "free": "false",
+          "essential": "false",
+          "advanced": "false",
           "pro": "Add-on opzionale",
           "enterprise": "Add-on opzionale"
         }

@@ -221,45 +221,6 @@
       "text": "Click on a word or select multiple words to get alternatives.",
       "link": "Show more"
     },
-    "userLimits": {
-      "signupButton": "Register",
-      "loginButton": "Log in",
-      "notAuthenticated": {
-        "textLimit": {
-          "header": "Would you like to translate longer texts?",
-          "body": "You have reached {0}, the maximum number of characters. If you register, you will get double the translation volume."
-        },
-        "fileLimit": {
-          "header": "Register now and translate and edit up to 3 documents per day."
-        },
-        "fileSize": {
-          "header": "This file is unfortunately a little too large.",
-          "body": "Your document exceeds the maximum size of {0} MB. If you register for free, you will get double the translation volume."
-        },
-        "fileCharacters": {
-          "header": "Would you like to translate longer documents?",
-          "body": "You have reached {0}, the maximum number of characters. If you register for free, you will get double the translation volume."
-        }
-      },
-      "authenticated": {
-        "textLimit": {
-          "header": "You have reached your limit.",
-          "body": "You have reached {0}, the maximum number of characters."
-        },
-        "fileLimit": {
-          "header": "Maximum number reached – upgrade now to increase your limit.",
-          "body": "You have reached your file translation limit. Upgrade your subscription to increase the limit."
-        },
-        "fileSize": {
-          "header": "This file is unfortunately a little too large.",
-          "body": "Your document exceeds the maximum size of {0} MB."
-        },
-        "fileCharacters": {
-          "header": "You have reached your limit.",
-          "body": "You have reached {0}, the maximum number of characters."
-        }
-      }
-    },
     "navbar": {
       "why": "Why Supertext?",
       "enterprise": "For companies",
@@ -924,7 +885,7 @@
         "current": "Current subscription",
         "upgrade": "Upgrade",
         "downgrade": "Downgrade",
-        "recommended": "Most popular",
+        "recommended": "Recommended",
         "comparePlans": "Compare subscriptions",
         "showMore": "Show more",
         "cancellationInfo": "You have cancelled your subscription. It ends on",
@@ -1013,7 +974,7 @@
             }
           }
         },
-        "firstMonthFree": "",
+        "firstMonthFree": "First month free",
         "cancelSubscriptionButton": "Downgrade subscription",
         "footerNote": "Looking for a <highlightText>customised translation solution?</highlightText> Let's talk.",
         "requestAccess": "Request access",
@@ -1915,8 +1876,8 @@
         "title": "Enterprise",
         "badge": "",
         "description": "The complete solution for large organisations with the highest demands. For even better translations that are always on-brand thanks to fully customised language models. Seamlessly integrated into your tools for smooth communication across all channels.",
-        "price_monthly": "On request",
-        "price_yearly": "On request",
+        "price_monthly": "Custom",
+        "price_yearly": "Custom",
         "period_monthly": "/month",
         "period_yearly": "/month",
         "features": {
@@ -3445,8 +3406,8 @@
             "link": "/faq?id=f8w9lowm1u5f1m17a005di6y"
           },
           "cta2": {
-            "title": "View API documentation",
-            "link": "/documentation/api"
+            "title": "Request API documentation",
+            "link": "/contact"
           }
         },
         "blog": {
@@ -3488,11 +3449,11 @@
         "upgradeModal": {
           "totalAmountPerYear": "Total amount per year",
           "totalAmountPerMonth": "Total amount per month",
-          "firstMonthFree": "",
+          "firstMonthFree": "First month free",
           "totalAmountDueToday": "Total amount due today",
           "totalAmountIncludingTax": "Total amount including VAT",
           "totalAmountDueTodayDescription": "This amount will be charged to you immediately upon purchase.",
-          "trialPeriodBadge": "",
+          "trialPeriodBadge": "🎉 First month free",
           "trialPeriodDescription": "You can test Supertext for free for the first 30 days. If you cancel before the {date}, you will not be charged. After that, the costs shown above will be charged.",
           "termsAndConditions": "I accept the terms and conditions for the purchase of this subscription.",
           "trialDaysLeft": "{daysLeft, plural, one {# free day left} other {# free days left}}"
@@ -3948,8 +3909,8 @@
                 "title": "Workflow automation with APIs",
                 "description": "From AI translation to professional services: we’re always on hand with seamless integrations for every environment thanks to our flexible RESTful API. And we'd be happy to support you with custom interface solutions, too.",
                 "cta1": {
-                  "title": "View API documentation",
-                  "link": "/documentation/api"
+                  "title": "Request documentation",
+                  "link": "/contact"
                 }
               },
               {
@@ -4254,11 +4215,11 @@
       "hoechste_datensicherheit": {
         "category": "",
         "rows": {
-          "free": "false",
-          "essential": "true",
-          "advanced": "true",
-          "pro": "true",
-          "enterprise": "true"
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
         }
       },
       "textuebersetzung": {
@@ -4280,38 +4241,38 @@
           "essential": "",
           "advanced": "",
           "pro": "",
-          "enterprise": "max. 30 MB"
+          "enterprise": ""
         }
       },
       "glossare": {
-        "category": "Glossaries",
+        "category": "",
         "tooltip": "",
         "rows": {
-          "free": "false",
-          "essential": "false",
-          "advanced": "true",
-          "pro": "true",
-          "enterprise": "true"
+          "free": "",
+          "essential": "",
+          "advanced": "",
+          "pro": "",
+          "enterprise": ""
         }
       },
       "microsoft_office_add_ins": {
         "category": "",
         "tooltip": "",
         "rows": {
-          "free": "false",
-          "essential": "false",
+          "free": "",
+          "essential": "",
           "advanced": "Available soon",
-          "pro": "true",
-          "enterprise": "true"
+          "pro": "",
+          "enterprise": ""
         }
       },
       "cat_tools": {
         "category": "CAT Tools",
         "tooltip": "",
         "rows": {
-          "free": "false",
-          "essential": "false",
-          "advanced": "false",
+          "free": "",
+          "essential": "",
+          "advanced": "",
           "pro": "Optional add-on",
           "enterprise": "Optional add-on"
         }

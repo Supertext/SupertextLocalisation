@@ -1749,7 +1749,8 @@
           "title": "In Free enthalten:",
           "items": {
             "0": {
-              "title": "6 Sprachen"
+              "title": "6 Sprachen",
+              "tooltip": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch"
             },
             "1": {
               "title": "Bis 3000 Zeichen",
@@ -1821,7 +1822,8 @@
           "title": "Alles aus «Essential», plus:",
           "items": {
             "0": {
-              "title": "28 Sprachen"
+              "title": "28 Sprachen",
+              "tooltip": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch"
             },
             "1": {
               "title": "60 Dateien pro Monat (bearbeitbar)"
@@ -1879,8 +1881,8 @@
         "title": "Enterprise",
         "badge": "",
         "description": "Die Komplettlösung für grosse Organisationen mit höchsten Ansprüchen. Übersetzen Sie noch besser und immer on-brand mit komplett massgeschneiderten Sprachmodellen. Nahtlos in Ihre Tools integriert, für eine reibungslose Kommunikation auf allen Kanälen.",
-        "price_monthly": "Custom",
-        "price_yearly": "Custom",
+        "price_monthly": "Auf Anfrage",
+        "price_yearly": "Auf Anfrage",
         "period_monthly": "/ Monat",
         "period_yearly": "/ Monat",
         "features": {
@@ -2003,11 +2005,11 @@
               "name": "Sprachen",
               "description": "",
               "all": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
-              "free": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
-              "essential": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
-              "advanced": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
-              "pro": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
-              "enterprise": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch"
+              "free": "6 Sprachen <br> <br> Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
+              "essential": "6 Sprachen <br> <br> Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
+              "advanced": "28 Sprachen <br> <br> Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
+              "pro": "28 Sprachen <br> <br> Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
+              "enterprise": "28 Sprachen <br> <br> Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch"
             },
             "languageVariants": {
               "name": "Sprachvarianten",
@@ -2056,7 +2058,7 @@
             "gdpr": {
               "name": "Volle Einhaltung der DSGVO (EU) und des DSG (Schweiz)",
               "description": "",
-              "free": "Keine Texte mit Personendaten erlaubt"
+              "free": "Keine Texte mit Personendaten erlaubt <br><br>✔"
             }
           }
         },

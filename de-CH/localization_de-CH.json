@@ -221,6 +221,45 @@
       "text": "Klicken Sie auf ein Wort oder wählen Sie mehrere Wörter aus, um Alternativen zu erhalten.",
       "link": "Mehr anzeigen"
     },
+    "userLimits": {
+      "signupButton": "Registrieren",
+      "loginButton": "Anmelden",
+      "notAuthenticated": {
+        "textLimit": {
+          "header": "Möchten Sie längere Texte übersetzen?",
+          "body": "Sie haben die maximale Anzahl von {0} Zeichen erreicht. Wenn Sie sich registrieren, erhalten Sie das doppelte Übersetzungsvolumen."
+        },
+        "fileLimit": {
+          "header": "Jetzt registrieren und bis zu 3 Dokumente pro Tag übersetzen und bearbeiten."
+        },
+        "fileSize": {
+          "header": "Diese Datei ist leider etwas zu gross.",
+          "body": "Ihr Dokument übersteigt die maximale Grösse von {0} MB. Wenn Sie sich kostenlos registrieren, erhalten Sie das doppelte Übersetzungsvolumen."
+        },
+        "fileCharacters": {
+          "header": "Möchten Sie längere Dokumente übersetzen?",
+          "body": "Sie haben die maximale Anzahl von {0} Zeichen erreicht. Wenn Sie sich kostenlos registrieren, erhalten Sie das doppelte Übersetzungsvolumen."
+        }
+      },
+      "authenticated": {
+        "textLimit": {
+          "header": "Sie haben Ihr Limit erreicht.",
+          "body": "Sie haben die maximale Anzahl von {0} Zeichen erreicht."
+        },
+        "fileLimit": {
+          "header": "Maximale Anzahl erreicht – jetzt upgraden, um das Limit zu erhöhen.",
+          "body": "Sie haben das Limit für Dateiübersetzungen erreicht. Upgraden Sie auf ein anderes Abo, um das Limit zu erhöhen."
+        },
+        "fileSize": {
+          "header": "Diese Datei ist leider etwas zu gross.",
+          "body": "Ihr Dokument übersteigt die maximale Grösse von {0} MB."
+        },
+        "fileCharacters": {
+          "header": "Sie haben Ihr Limit erreicht.",
+          "body": "Sie haben die maximale Anzahl von {0} Zeichen erreicht."
+        }
+      }
+    },    
     "navbar": {
       "why": "Warum Supertext?",
       "enterprise": "Für Unternehmen",

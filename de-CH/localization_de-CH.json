@@ -107,7 +107,8 @@
         },
         "fileTooLarge": {
           "upgradeMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrössenbeschränkung Ihres aktuellen Abos. Unser {subscription} Abo ermöglicht die KI-Dateiübersetzung mit Dateigrössen von bis zu {fileSize}.",
-          "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrössenbeschränkung Ihres aktuellen Abos. Übersetzen Sie Dateien, die grösser als 20 MB sind, mit unserer Enterprise-Lösung."
+          "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrössenbeschränkung Ihres aktuellen Abos. Übersetzen Sie Dateien, die grösser als 20 MB sind, mit unserer Enterprise-Lösung.",
+          "unsupportedMessage": "Wir unterstützen Dateien von dieser Grösse aktuell noch nicht."
         },
         "fileTypeNotAllowed": {
           "upgradeMessage": "{extension}-Dateien werden mit Ihrem aktuellen Abo nicht unterstützt. Jetz auf unser {subscription}-Abo upgraden.",

@@ -108,7 +108,7 @@
         "fileTooLarge": {
           "upgradeMessage": "Le fichier que vous avez fourni dépasse la limite de taille de fichier de votre abonnement actuel. Notre abonnement {subscription} permet la traduction par l’IA de fichiers dont la taille peut aller jusqu’à {fileSize}.",
           "enterpriseMessage": "Le fichier que vous avez fourni dépasse la limite de taille de fichier de votre abonnement actuel. Traduisez les fichiers de plus de 20 Mo avec notre solution Enterprise.",
-          "unsupportedMessage": "À l’heure actuelle, nous ne prenons pas en charge les fichiers de cette taille."
+          "unsupportedMessage": "We do not currently support a file size this large."
         },
         "fileTypeNotAllowed": {
           "upgradeMessage": "Les fichiers {extension} ne sont pas pris en charge avec votre abonnement actuel. Mettez à niveau votre abonnement {subscription}.",
@@ -4312,7 +4312,7 @@
         }
       },
       "cat_tools": {
-        "category": "Outils de TAO",
+        "category": "CAT Tools",
         "tooltip": "Utilisez Supertext dans des outils de mémoire de traduction (tels que Trados ou memoQ) et augmenter votre productivité pour les traductions professionnelles.",
         "rows": {
           "free": "false",

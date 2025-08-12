@@ -118,8 +118,8 @@
       "availableFiles": {
         "message": "{remaining}/{total} Dateien verfügbar",
         "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
-        "infinitePopover": "Your {subscriptionType} subscription includes an infinite number of file translations.",
-        "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
+        "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen.",
+        "infinitePopover": "Ihr {subscriptionType} Abonnement umfasst eine unbegrenzte Anzahl von Dateiübersetzungen."
       },
       "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder",
       "ctas": {
@@ -802,7 +802,8 @@
         "termBase": "Termbase",
         "application": "Deine Bewerbung",
         "jobs": "Jobs"
-      }
+      },
+      "forEnterprise": ""
     },
     "filter": {
       "title": "Filter",
@@ -1590,15 +1591,18 @@
         "expertise": "Sprachexpertise",
         "whySupertext": "Warum Supertext?",
         "technology": "KI-Technologie",
-        "references": "Referenzen",
-        "faq": "FAQ",
-        "blog": "Blog"
+        "enterprise": "",
+        "about": "",
+        "careers": ""
       },
       "companyTitle": "UNTERNEHMEN",
       "company": {
         "contact": "Kontakt",
         "aboutSupertext": "Über uns",
-        "careers": "Arbeiten bei Supertext"
+        "references": "",
+        "faq": "",
+        "blog": "",
+        "apiDocumentation": ""
       },
       "legal": {
         "imprint": "Impressum",
@@ -1612,6 +1616,11 @@
         "LinkedIn": "https://www.linkedin.com/company/supertext-group",
         "Meetup": "https://www.meetup.com/language-ai-meetup/",
         "YouTube": "https://www.youtube.com/@supertext"
+      },
+      "productsTitle": "",
+      "products": {
+        "aiTranslator": "",
+        "api": ""
       }
     },
     "fileTranslation": {
@@ -2046,11 +2055,11 @@
               "name": "Sprachen",
               "description": "",
               "all": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
-              "free": "6 Sprachen <br> <br> Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
-              "essential": "6 Sprachen <br> <br> Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
-              "advanced": "28 Sprachen <br> <br> Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
-              "pro": "28 Sprachen <br> <br> Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
-              "enterprise": "28 Sprachen <br> <br> Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch"
+              "free": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
+              "essential": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch",
+              "advanced": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
+              "pro": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch",
+              "enterprise": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch"
             },
             "languageVariants": {
               "name": "Sprachvarianten",
@@ -2099,7 +2108,7 @@
             "gdpr": {
               "name": "Volle Einhaltung der DSGVO (EU) und des DSG (Schweiz)",
               "description": "",
-              "free": "✓ <br> Keine Texte mit Personendaten erlaubt"
+              "free": "Keine Texte mit Personendaten erlaubt"
             }
           }
         },
@@ -4228,6 +4237,360 @@
           "cta": {
             "link": "/referenzen",
             "text": "Zu den Cases"
+          }
+        }
+      },
+      "forEnterprise": {
+        "hero": {
+          "title_part1": "",
+          "title_emph": "",
+          "title_part2": "",
+          "subtitle": ""
+        },
+        "section1": {
+          "title": "",
+          "body": "",
+          "cta": ""
+        },
+        "accordion": {
+          "items": [
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            }
+          ]
+        },
+        "why": {
+          "title": "",
+          "items": [
+            {
+              "title": "",
+              "content": "",
+              "linkText": "",
+              "linkHref": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            }
+          ]
+        },
+        "langs": {
+          "title_line1": "",
+          "title_line2": ""
+        },
+        "features": {
+          "items": [
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            }
+          ]
+        },
+        "imageCarousel": [
+          {
+            "quote": "",
+            "author": ""
+          },
+          {
+            "quote": "",
+            "author": ""
+          },
+          {
+            "quote": "",
+            "author": ""
+          },
+          {
+            "quote": "",
+            "author": ""
+          }
+        ],
+        "securityBlock": {
+          "imageAlt": "",
+          "title": "",
+          "body": "",
+          "bullets": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "compatBlock": {
+          "title": "",
+          "body": "",
+          "cta": "",
+          "imageAlt": ""
+        },
+        "cases": {
+          "title": "",
+          "eyebrow": "",
+          "cta": ""
+        },
+        "contactForm": {
+          "eyebrow": "",
+          "title": {
+            "prefix": "",
+            "quote": "",
+            "middle": "",
+            "question": "",
+            "suffix": ""
+          },
+          "solutions": {
+            "legend": "",
+            "options": {
+              "ai_translation": "",
+              "supertext_ai": "",
+              "professional_language": ""
+            },
+            "error": ""
+          },
+          "name": {
+            "label": "",
+            "placeholder": "",
+            "error": ""
+          },
+          "company": {
+            "label": "",
+            "placeholder": "",
+            "error": ""
+          },
+          "email": {
+            "label": "",
+            "placeholder": "",
+            "errorRequired": "",
+            "errorInvalid": ""
+          },
+          "phone": {
+            "label": "",
+            "placeholder": ""
+          },
+          "users": {
+            "label": ""
+          },
+          "message": {
+            "label": "",
+            "placeholder": ""
+          },
+          "terms": {
+            "label": "",
+            "error": ""
+          },
+          "notifications": {
+            "success": ""
+          },
+          "submit": ""
+        }
+      },
+      "supertextApi": {
+        "hero": {
+          "title_part1": "",
+          "title_emph": "",
+          "title_part2": "",
+          "subtitle": "",
+          "ctas": {
+            "primary": "",
+            "secondary": ""
+          }
+        },
+        "section1": {
+          "title": "",
+          "body": "",
+          "cta": ""
+        },
+        "accordion": {
+          "items": [
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": "",
+              "list": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            }
+          ]
+        },
+        "why": {
+          "title": "",
+          "items": [
+            {
+              "title": "",
+              "content": "",
+              "linkText": "",
+              "linkHref": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            },
+            {
+              "title": "",
+              "content": ""
+            }
+          ]
+        },
+        "langs": {
+          "title_line1": "",
+          "title_line2": ""
+        },
+        "features": {
+          "items": [
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            },
+            {
+              "heading": "",
+              "description": ""
+            }
+          ]
+        },
+        "imageCarousel": [
+          {
+            "quote": "",
+            "author": ""
+          },
+          {
+            "quote": "",
+            "author": ""
+          },
+          {
+            "quote": "",
+            "author": ""
+          },
+          {
+            "quote": "",
+            "author": ""
+          }
+        ],
+        "growthBlock": {
+          "title": "",
+          "list": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "cta": ""
+        },
+        "securityBlock": {
+          "imageAlt": "",
+          "title": "",
+          "body": "",
+          "bullets": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "cases": {
+          "title": "",
+          "eyebrow": "",
+          "cta": ""
+        },
+        "footerNote": {
+          "title": "",
+          "cta": {
+            "api": "",
+            "docs": ""
           }
         }
       }

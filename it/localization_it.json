@@ -108,7 +108,7 @@
         "fileTooLarge": {
           "upgradeMessage": "Il file che ha caricato supera il limite di dimensione dei file previsto dal Suo abbonamento attuale. Il nostro abbonamento {subscription} consente la traduzione IA di file con una dimensione massima di {fileSize}.",
           "enterpriseMessage": "Il file che ha caricato supera il limite di dimensione dei file previsto dal Suo abbonamento attuale. Traduca file di dimensioni superiori a 20 MB con la nostra soluzione Enterprise.",
-          "unsupportedMessage": "We do not currently support a file size this large."
+          "unsupportedMessage": "Attualmente non supportiamo ancora file di queste dimensioni."
         },
         "fileTypeNotAllowed": {
           "upgradeMessage": "I file {extension} non sono inclusi nel Suo abbonamento attuale. Effettui l’upgrade al nostro abbonamento {subscription}.",

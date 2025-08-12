@@ -118,6 +118,7 @@
       "availableFiles": {
         "message": "{remaining}/{total} files available",
         "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month} free {Supertext Free includes {count, plural, one {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month}}",
+        "infinitePopover": "Your {subscriptionType} subscription includes an infinite number of file translations.",
         "unregisteredPopover": "You must be logged in to begin translating files."
       },
       "dropFileWithoutExtension": "Drag a file here or",

@@ -118,6 +118,7 @@
       "availableFiles": {
         "message": "{remaining}/{total} Dateien verfügbar",
         "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
+        "infinitePopover": "Your {subscriptionType} subscription includes an infinite number of file translations.",
         "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
       },
       "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder",

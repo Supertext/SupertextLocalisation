@@ -102,7 +102,7 @@
           "unsupportedMessage": "Wir unterstützen {language} für die KI-Übersetzung von Dateien aktuell noch nicht."
         },
         "usageLimitExceeded": {
-          "upgradeMessage": "Sie haben diesen Monat keine Übersetzungen mehr zur Verfügung. Mit unserem {subscription} Abo können Sie du bis zu {fileLimit} Dateien pro Monat übersetzen.",
+          "upgradeMessage": "Sie haben diesen Monat keine Übersetzungen mehr zur Verfügung. Mit unserem {subscription} Abo können Sie bis zu {fileLimit} Dateien pro Monat übersetzen. REMY",
           "enterpriseMessage": "Sie haben diesen Monat keine Übersetzungen mehr zur Verfügung. Übersetzen Sie mit unserer Enterprise-Lösung so viele Dateien, wie Sie benötigen."
         },
         "fileTooLarge": {
@@ -859,7 +859,8 @@
           "additionalInformation": "Mehr Informationen",
           "targetFile": "Zieltext",
           "orderNumber": "Auftragsnummer",
-          "notFixed": "Preis noch nicht fixiert"
+          "notFixed": "Preis noch nicht fixiert",
+          "costCenter": "Kostenstelle"
         },
         "back": "Zurück",
         "verificationType": "Profi-Check",
@@ -1014,7 +1015,7 @@
             }
           }
         },
-        "firstMonthFree": "30 Tage kostenlos, jederzeit kündbar",
+        "firstMonthFree": "Erster Monat kostenlos",
         "cancelSubscriptionButton": "Abo definitiv kündigen",
         "footerNote": "Sie suchen eine <highlightText>massgeschneiderte Übersetzungslösung?</highlightText> Lassen Sie uns reden.",
         "requestAccess": "Zugang beantragen",
@@ -4247,7 +4248,7 @@
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
         "category": "Sprachen und Sprachvarianten",
-        "tooltip": "<strong>Sprachen und Sprachvarianten</strong> <br/> <strong>6 Sprachen</strong>: Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch <br/><br/>  Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)<br/><br/> <strong>28 Sprachen</strong>: Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch <br/><br/> Chinesisch (vereinfacht, traditionell), Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
+        "tooltip": "<strong>Sprachen und Sprachvarianten</strong> <br/> <strong>6 Sprachen</strong>: Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch <br/><br/> Englisch (GB, US), Deutsch (AT, CH, DE), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)<br/><br/> <strong>28 Sprachen</strong>: Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch <br/><br/> Chinesisch (vereinfacht, traditionell), Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH)",
         "rows": {
           "free": "6 Sprachen",
           "essential": "6 Sprachen",
@@ -4282,15 +4283,15 @@
         "tooltip": "<strong>Dateiübersetzung</strong> <br/> Dokumente hochladen und eine bearbeitbare Übersetzung im selben Layout und Styling erhalten. <br/> <br/>Alle Angaben pro Person und Monat; MB-Angaben pro Datei.",
         "rows": {
           "free": "5 Dateien / max. 5 MB",
-          "essential": "20 Dateien / max. 10 MB",
-          "advanced": "60 Dateien / max. 20 MB",
-          "pro": "120 Dateien / max. 30 MB",
-          "enterprise": "max. 30 MB ✔"
+          "essential": "20 Dateien / max. 10MB",
+          "advanced": "60 Dateien / max. 20MB",
+          "pro": "120 Dateien / max. 30MB",
+          "enterprise": "max. 30MB ✔"
         }
       },
       "glossare": {
         "category": "Glossare",
-        "tooltip": "<strong>Personalisierung</strong><br/> - Glossare, um zentral festzulegen, wie gewisse Wörter übersetzt werden <br/> - Anpassung der Anrede formell/informell immer möglich <br/> - Fused Translation (bald verfügbar): Profi-Projekte verbessern Ihre KI",
+        "tooltip": "<strong>Personalisierung</strong><br/> - Glossare um zentral festzulegen, wie gewisse Wörter übersetzt werden <br/> - Anpassung der Anrede formell/informell immer möglich <br/> - Fused Translation (bald verfügbar):Profi-Projekte verbessern Ihre KI",
         "rows": {
           "free": "false",
           "essential": "false",

@@ -108,7 +108,7 @@
         "fileTooLarge": {
           "upgradeMessage": "The file you provided exceeds the file size limit of your current subscription. Our {subscription} subscription enables AI file translation with file sizes up to {fileSize}.",
           "enterpriseMessage": "The file you provided exceeds the file size limit of your current subscription. You can translate files larger than 20 MB with our Enterprise solution.",
-          "unsupportedMessage": "We do not currently support a file size this large."
+          "unsupportedMessage": "We do not yet support files of this size."
         },
         "fileTypeNotAllowed": {
           "upgradeMessage": "{extension} files are not supported with your current subscription. Upgrade to our {subscription} subscription now.",
@@ -4286,7 +4286,7 @@
           "essential": "20 files / max. 10 MB",
           "advanced": "60 files / max. 20 MB",
           "pro": "120 files / max. 30 MB",
-          "enterprise": "max. 30 MB"
+          "enterprise": "max. 30 MB ✔"
         }
       },
       "glossare": {

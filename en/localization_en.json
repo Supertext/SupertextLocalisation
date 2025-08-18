@@ -1913,7 +1913,8 @@
               "title": "30 MB maximum file size"
             },
             "2": {
-              "title": "Style guides"
+              "title": "Style guides",
+              "badge": "Available soon"
             },
             "3": {
               "title": "Translation import"
@@ -2191,7 +2192,12 @@
             },
             "styleGuides": {
               "name": "Style guides",
-              "description": "Define preferred punctuation, number formats and more."
+              "description": "Define preferred punctuation, number formats and more.",
+              "free": false,
+              "essential": false,
+              "advanced": false,
+              "pro": "Available soon",
+              "enterprise": "Available soon"
             },
             "branding": {
               "name": "Branding",

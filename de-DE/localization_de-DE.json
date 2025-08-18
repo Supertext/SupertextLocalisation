@@ -1913,7 +1913,8 @@
               "title": "30 MB maximale Dateigröße"
             },
             "2": {
-              "title": "Styleguides"
+              "title": "Styleguides",
+              "badge": "Bald verfügbar"
             },
             "3": {
               "title": "Übersetzungsimport"
@@ -2191,7 +2192,12 @@
             },
             "styleGuides": {
               "name": "Styleguides",
-              "description": "Kontrollieren Sie Zeichensetzung, Zahlenformate und mehr."
+              "description": "Kontrollieren Sie Zeichensetzung, Zahlenformate und mehr.",
+              "free": false,
+              "essential": false,
+              "advanced": false,
+              "pro": "Bald verfügbar",
+              "enterprise": "Bald verfügbar"
             },
             "branding": {
               "name": "Branding",

@@ -1913,7 +1913,8 @@
               "title": "Dimensione massima dei file: 30 MB"
             },
             "2": {
-              "title": "Guide di stile"
+              "title": "Guide di stile",
+              "badge": "Presto disponibile"
             },
             "3": {
               "title": "Importazione delle traduzioni"
@@ -2191,7 +2192,12 @@
             },
             "styleGuides": {
               "name": "Guide di stile",
-              "description": "Controllate la punteggiatura, i formati numerici e tanto altro."
+              "description": "Controllate la punteggiatura, i formati numerici e tanto altro.",
+              "free": false,
+              "essential": false,
+              "advanced": false,
+              "pro": "Presto disponibile",
+              "enterprise": "Presto disponibile"
             },
             "branding": {
               "name": "Branding",

@@ -985,7 +985,7 @@
               "email": {
                 "label": "* E-Mail",
                 "placeholder": "Ihre E-Mail-Adresse",
-                "error": "Geben Sie bitte eine gültige E-Mail-Adresse ein."
+                "error": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
               },
               "name": {
                 "label": "* Name",
@@ -1133,7 +1133,7 @@
         "title": "Profil",
         "email": "E-Mail",
         "changeEmail": "E-Mail-Adresse ändern",
-        "emailValidation": "Geben Sie bitte eine gültige E-Mail-Adresse ein.",
+        "emailValidation": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
         "language": "Sprache",
         "role": "Rolle",
         "roleValidation": "Rolle muss mindestens 2 Zeichen lang sein",
@@ -1322,7 +1322,7 @@
               "form": {
                 "label": "E-Mail-Adresse der technischen Kontaktperson",
                 "placeholder": "example@supertext.com",
-                "invalid": "Geben Sie bitte eine gültige E-Mail-Adresse ein."
+                "invalid": "Bitte eine gültige E-Mail-Adresse eingeben"
               },
               "notification_success": "SSO-Upgrade-Anfrage erfolgreich gesendet",
               "notification_error": "Etwas ist schiefgelaufen: {error}"
@@ -1599,10 +1599,10 @@
       "company": {
         "contact": "Kontakt",
         "aboutSupertext": "Über uns",
-        "references": "Referenzen",
-        "faq": "FAQ",
-        "blog": "Blog",
-        "apiDocumentation": "API-Dokumentation"
+        "references": "",
+        "faq": "",
+        "blog": "",
+        "apiDocumentation": ""
       },
       "legal": {
         "imprint": "Impressum",
@@ -1913,7 +1913,8 @@
               "title": "30 MB maximale Dateigröße"
             },
             "2": {
-              "title": "Styleguides"
+              "title": "Styleguides",
+              "badge": "Bald verfügbar"
             },
             "3": {
               "title": "Übersetzungsimport"
@@ -2191,7 +2192,12 @@
             },
             "styleGuides": {
               "name": "Styleguides",
-              "description": "Kontrollieren Sie Zeichensetzung, Zahlenformate und mehr."
+              "description": "Kontrollieren Sie Zeichensetzung, Zahlenformate und mehr.",
+              "free": false,
+              "essential": false,
+              "advanced": false,
+              "pro": "Bald verfügbar",
+              "enterprise": "Bald verfügbar"
             },
             "branding": {
               "name": "Branding",
@@ -4243,336 +4249,354 @@
       "forEnterprise": {
         "hero": {
           "title_part1": "",
-          "title_emph": "Besser",
-          "title_part2": " übersetzen im ganzen Unternehmen – mit Supertext Enterprise",
-          "subtitle": "Sichere KI-Übersetzung in 28 Sprachen. Entwickelt für Tempo, Qualität und passgenau für Sie."
+          "title_emph": "",
+          "title_part2": "",
+          "subtitle": ""
         },
         "section1": {
-          "title": "Lernfähige KI für mehr Erfolg in mehr Sprachen",
-          "body": "Bringen Sie Ihre Übersetzungsprozesse aufs nächste Level. Vollautomatisch oder mit Profi-Support, alles auf einer Plattform.",
-          "cta": "Jetzt Angebot anfordern"
+          "title": "",
+          "body": "",
+          "cta": ""
         },
         "accordion": {
           "items": [
             {
-              "title": "KI, maßgeschneidert auf Ihre Brand",
-              "content": "Mehr als Glossare und Terminologie: Unsere maßgeschneiderten LLMs sprechen Ihre Corporate Language – und sind rund 30 % genauer."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "Sicherheit mit System",
-              "content": "Wir sorgen für höchsten Datenschutz mit Ihnen am Steuer. ISO-zertifiziert und 100 % konform mit der DSGVO (EU) und dem DSG (Schweiz)."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "API und Integrationen für jeden Workflow",
-              "content": "Integrieren Sie Supertext nahtlos in jede Systemumgebung. Für mehr Tempo und konstante Qualität bei sinkenden Kosten."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "Passgenau übersetzen in jedem Format",
-              "content": "Unsere KI-Modelle übersetzen Text und Dateien jeder Art mit höchster Präzision. Ideal für eine mehrsprachige Kommunikation im großen Stil."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "Von Profis geprüft mit einem Klick",
-              "content": "Für besonders wichtige Texte sind unsere Linguist:innen auf Knopfdruck für Sie da. Für absolute Sicherheit in Minuten statt Stunden."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "Ihre persönliche KI, die in Echtzeit lernt",
-              "content": "Bald verfügbar: Ihr maßgeschneidertes Sprachmodell passt sich mit jedem Profi-Check in Echtzeit weiter an Ihre Bedürfnisse an."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "Entwickelt für echte Kollaboration",
-              "content": "Rollenmanagement, geteilte Projekte, maßgeschneiderte Worklows – Supertext ist gemacht für große Teams"
+              "title": "",
+              "content": ""
             }
           ]
         },
         "why": {
-          "title": "Warum große Teams auf Supertext setzen",
+          "title": "",
           "items": [
             {
-              "title": "<large>3</large> von <large>4</large>",
-              "content": "Sprachkombinationen besser als DeepL.",
-              "linkText": "Reasearch Paper lesen",
-              "linkHref": "https://www.supertext.com/de-DE/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
+              "title": "",
+              "content": "",
+              "linkText": "",
+              "linkHref": ""
             },
             {
-              "title": "30 %",
-              "content": "weniger Bearbeitung mit maßgeschneiderten KI-Modellen"
+              "title": "",
+              "content": ""
             },
             {
-              "title": "500+",
-              "content": "Custom-Sprachmodelle bei Unternehmen implementiert"
+              "title": "",
+              "content": ""
             },
             {
-              "title": "3000+",
-              "content": "Profi-Linguist:innen – für Sie da, wenn es wirklich zählt."
+              "title": "",
+              "content": ""
             }
           ]
         },
         "langs": {
-          "title_line1": "28 Sprachen, ",
-          "title_line2": "unbegrenzte Möglichkeiten"
+          "title_line1": "",
+          "title_line2": ""
         },
         "features": {
           "items": [
             {
-              "heading": "Live in unter 10 Minuten",
-              "description": "Mit Supertext übersetzen Sie ganze Websites und Shops automatisch – und können Profi-Übersetzer:innen für die wichtigsten Texte auf Knopfdruck an Bord holen. Alles über eine einzige API."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Niedrigere Kosten, gleiche Qualität",
-              "description": "Unsere maßgeschneiderten KI-Modelle treffen Ihren Tone of Voice automatisch – und senken den Bearbeitungsaufwand so um 30 % und mehr."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Zufriedene Kund:innen in jeder Sprache",
-              "description": "Dank automatisch mehrsprachigen Support-Kanälen entlang Ihrer Terminologie und Brand Voice."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Inhouse-Sprachteams effizienter machen",
-              "description": "Für Übersetzungsprofis bedeutet maßgeschneiderte KI schnellere Lieferzeiten, weniger repetitive Korrekturen und damit messbar mehr Volumen in weniger Zeit."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Immer besser: Ihre KI lernt mit",
-              "description": "Mit Real-Time-Adaptation fließt jede menschliche Intervention automatisch in Ihr System zurück. Für laufend bessere Resultate – und eine einheitliche Sprache im ganzen Unternehmen."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Datensicherheit, automatisch und überall",
-              "description": "Wissen Sie wirklich, wo Ihr Team vertrauliche Dokumente übersetzt? Mit Supertext gehen Sie auf Nummer sicher. Dank einer zentralen Plattform für alle – wenn Sie möchten sogar auf eigenen Servern gehostet."
+              "heading": "",
+              "description": ""
             }
           ]
         },
         "imageCarousel": [
           {
-            "quote": "„Im Sprachendienst wurden wir 49 % effizienter und mit dem eigenen Online-Übersetzer profitiert das ganze Unternehmen.“",
-            "author": "Vittorio Capparucci, Head of Language Services bei Swiss Life"
+            "quote": "",
+            "author": ""
           },
           {
-            "quote": "„Wir konnten unsere Lieferzeiten um 2/3 reduzieren, alles bei gleichbleibender Qualität.“",
-            "author": "Kerstin Brümmer, Terminologin bei Ottobock"
+            "quote": "",
+            "author": ""
           },
           {
-            "quote": "„Supertext integriert sich optimal in unsere Workflows – und wird quer durchs Unternehmen intensiv genutzt.“",
-            "author": "Beatriz Gonzalez, Senior Business Analyst bei der Migros Bank"
+            "quote": "",
+            "author": ""
           },
           {
-            "quote": "„Mit Supertext konnten wir zahlreiche E-Commerce-Formate komplett automatisieren. Erfolgreich im ganzen Unternehmen eingesetzt seit 2021.“",
-            "author": "Björn Döringer, Team Manager Language Services bei OBI"
+            "quote": "",
+            "author": ""
           }
         ],
         "securityBlock": {
-          "imageAlt": "Entwickelt für maximale Datensicherheit",
-          "title": "Entwickelt für maximale Datensicherheit",
-          "body": "Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen:",
+          "imageAlt": "",
+          "title": "",
+          "body": "",
           "bullets": [
-            "Hosting in der Schweiz oder on-premise",
-            "Komplett DSGVO- & DSG-konform",
-            "Zertifiziert nach ISO 27001, 9001, 17100 und 18587",
-            "SSO-Integration und Zugriffskontrolle fürs Team Management",
-            "Verschlüsselter Datentransfer und sofortige Textlöschung",
-            "Benutzerdefinierte TLS-/SSL-Zertifikate"
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         },
         "compatBlock": {
-          "title": "Nahtlos integriert in jede Systemumgebung",
-          "body": "Ganz einfach zu schnelleren Prozessen: Mit unserer RESTful API und diversen Plugins integrieren Sie Supertext direkt in jedes Drittsystem.",
-          "cta": "Lernen Sie die Supertext API kennen",
-          "imageAlt": "Nahtlos integriert in jede Systemumgebung"
+          "title": "",
+          "body": "",
+          "cta": "",
+          "imageAlt": ""
         },
         "cases": {
-          "title": "1500 Unternehmen in ganz Europa: unsere Referenzen sprechen eine deutliche Sprache.",
-          "eyebrow": "REFERENZEN",
-          "cta": "Zu allen Cases"
+          "title": "",
+          "eyebrow": "",
+          "cta": ""
         },
         "contactForm": {
-          "eyebrow": "LASSEN SIE UNS REDEN",
+          "eyebrow": "",
           "title": {
-            "prefix": "Sie möchten ein ",
-            "quote": "Angebot",
-            "middle": " oder haben eine ",
-            "question": "Frage",
-            "suffix": "?"
+            "prefix": "",
+            "quote": "",
+            "middle": "",
+            "question": "",
+            "suffix": ""
           },
           "solutions": {
-            "legend": "Für welche Lösung(en) interessieren Sie sich?*",
+            "legend": "",
             "options": {
-              "ai_translation": "KI-Übersetzer",
-              "supertext_ai": "Supertext API",
-              "professional_language": "Profi-Sprachservices"
+              "ai_translation": "",
+              "supertext_ai": "",
+              "professional_language": ""
             },
-            "error": "Wählen Sie mindestens eine Lösung aus"
+            "error": ""
           },
           "name": {
-            "label": "Vor- und Nachname*",
-            "placeholder": "Ihr Vor- und Nachname",
-            "error": "Name ist erforderlich"
+            "label": "",
+            "placeholder": "",
+            "error": ""
           },
           "company": {
-            "label": "Unternehmen/Organisation*",
-            "placeholder": "Ihr Unternehmen / Ihre Organisation",
-            "error": "Unternehmen/Organisation ist erforderlich"
+            "label": "",
+            "placeholder": "",
+            "error": ""
           },
           "email": {
-            "label": "E-Mail*",
-            "placeholder": "Ihre E-Mail-Adresse",
-            "errorRequired": "E-Mail ist erforderlich",
-            "errorInvalid": "Geben Sie bitte eine gültige E-Mail-Adresse ein."
+            "label": "",
+            "placeholder": "",
+            "errorRequired": "",
+            "errorInvalid": ""
           },
           "phone": {
-            "label": "Telefonnummer",
-            "placeholder": "Telefonnummer"
+            "label": "",
+            "placeholder": ""
           },
           "users": {
-            "label": "Anzahl User:innen (Schätzung)"
+            "label": ""
           },
           "message": {
-            "label": "Ihre Nachricht (optional)",
-            "placeholder": "Ihre Nachricht"
+            "label": "",
+            "placeholder": ""
           },
           "terms": {
-            "label": "Ja, Supertext darf meine Daten zur Bearbeitung der Anfrage bearbeiten.",
-            "error": "Sie müssen zuerst die Bedingungen akzeptieren."
+            "label": "",
+            "error": ""
           },
           "notifications": {
-            "success": "Vielen Dank. Ihre Anfrage wurde erfolgreich übermittelt."
+            "success": ""
           },
-          "submit": "Absenden"
+          "submit": ""
         }
       },
       "supertextApi": {
         "hero": {
-          "title_part1": "Top-Übersetzungen in ",
-          "title_emph": "jedem System",
-          "title_part2": " mit der Supertext API",
-          "subtitle": "Integrieren Sie sichere KI-Übersetzung in jeden Workflow. Effizient und in bis zu 28 Sprachen.",
+          "title_part1": "",
+          "title_emph": "",
+          "title_part2": "",
+          "subtitle": "",
           "ctas": {
-            "primary": "Jetzt starten",
-            "secondary": "Zur API-Dokumentation"
+            "primary": "",
+            "secondary": ""
           }
         },
         "section1": {
-          "title": "Effizienter übersetzen, vollautomatisch oder von Profis geprüft",
-          "body": "Mit der Supertext API erreichen Sie mehrsprachige Zielgruppen schneller – und immer on-brand.",
-          "cta": "Jetzt starten"
+          "title": "",
+          "body": "",
+          "cta": ""
         },
         "accordion": {
           "items": [
             {
-              "title": "KI-Übersetzung in Profi-Qualität",
-              "content": "Supertext basiert auf neusten LLMs und ist messbar genauer als DeepL. Für passgenaue Resultate, in 28 Sprachen und jedem Workflow."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "Breite Formatunterstützung",
-              "content": "Übersetzen Sie Tagged Text oder ganze Dokumente – ganz ohne Formatierungschaos:",
+              "title": "",
+              "content": "",
               "list": [
-                "HTML, XML",
-                "Office-Dateien (.docx, .xls, .pptx)",
-                "PDFs",
-                "Untertitel (.srt)",
-                "Plain Text (.txt)"
+                "",
+                "",
+                "",
+                "",
+                ""
               ]
             },
             {
-              "title": "Profi-Check auf Knopfdruck für absolute Sicherheit",
-              "content": "Lassen Sie wichtige Texte von erfahrenen Linguist:innen prüfen – in Minuten statt Stunden. Für professionelle Genauigkeit, wenn es wirklich wichtig ist."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "Immer on-brand mit unserer Glossarfunktion",
-              "content": "Integrieren Sie vorgegebene Terminologie und Höflichkeitseinstellungen in jede Übersetzung. Ad-hoc anpassbar mit jeder API-Anfrage."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "Genauste Spracherkennung",
-              "content": "Bestimmen Sie die Sprache beliebiger Inputs mit höchster Genauigkeit. Perfekt für vollautomatisierte Workflows, in allen unterstützten Sprachen und Dateitypen."
+              "title": "",
+              "content": ""
             },
             {
-              "title": "Für maximale Sicherheit entwickelt",
-              "content": "Supertext wird exklusiv auf Schweizer Servern oder on-premise gehostet. ISO-zertifiziert und 100 % konform mit der DSGVO (EU) und dem DSG (CH)."
+              "title": "",
+              "content": ""
             }
           ]
         },
         "why": {
-          "title": "Vom Start-up bis zum Multi: Darum nutzen Teams die Supertext API",
+          "title": "",
           "items": [
             {
-              "title": "<large>3</large> von <large>4</large>",
-              "content": "Sprachkombinationen besser als DeepL gemäß Blindtests",
-              "linkText": "Research Paper lesen",
-              "linkHref": "https://www.supertext.com/de-DE/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
+              "title": "",
+              "content": "",
+              "linkText": "",
+              "linkHref": ""
             },
             {
-              "title": "<large>500+</large>",
-              "content": "Custom-Sprachmodelle für noch genauere Resultate entwickelt"
+              "title": "",
+              "content": ""
             },
             {
-              "title": "<large>3000+</large>",
-              "content": "Linguist:innen für Profi-Checks in Minuten"
+              "title": "",
+              "content": ""
             }
           ]
         },
         "langs": {
-          "title_line1": "Eine Übersetzungs-API ",
-          "title_line2": "für jeden Use-Case"
+          "title_line1": "",
+          "title_line2": ""
         },
         "features": {
           "items": [
             {
-              "heading": "Time-to-Market im E-Commerce reduzieren",
-              "description": "Mit Supertext übersetzen Sie ganze Webshops automatisch – und können Profi-Übersetzer:innen für die wichtigsten Texte auf Knopfdruck an Bord holen. Alles über eine einzige API."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Effizientere Prozesse dank Automatisierung",
-              "description": "Befähigen Sie Ihr ganzes Team, die Sprache Ihrer Kund:innen zu sprechen. Sofort, konsistent und sicher."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Gewinnen Sie mehr Software-Kund:innen mit Translation as a Feature",
-              "description": "Von Video-Captions bis zum mehrsprachigen Redaktionssystem: KI-Übersetzung direkt in Ihrer Software ist ein starker Wettbewerbsvorteil."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Websites und Apps, mehrsprachig im Handumdrehen",
-              "description": "Mit der Supertext API übersetzen Sie nahtlos und immer on-brand. Dank fest hinterlegter Terminologie für konsistenten Content, der sofort veröffentlicht werden kann."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Machen Sie Datensicherheit zum Standard in Ihren Prozessen",
-              "description": "Mit der Supertext API hält Ihr Team vertrauliche Inhalte ganz natürlich unter Verschluss. Dank einer zentralen Lösung für weniger Risiko und bessere Kontrolle."
+              "heading": "",
+              "description": ""
             },
             {
-              "heading": "Zufriedenere Kund:innen in jeder Sprache",
-              "description": "Mit automatisch übersetzten Support-Kanälen, die Ihrer Corporate Language exakt folgen."
+              "heading": "",
+              "description": ""
             }
           ]
         },
+        "imageCarousel": [
+          {
+            "quote": "",
+            "author": ""
+          },
+          {
+            "quote": "",
+            "author": ""
+          },
+          {
+            "quote": "",
+            "author": ""
+          },
+          {
+            "quote": "",
+            "author": ""
+          }
+        ],
         "growthBlock": {
-          "title": "Gebaut für <highlight>Entwickler:innen, Growth Teams</highlight> und <highlight>Lokalisierungsprofis</highlight>.",
+          "title": "",
           "list": [
-            "Einfache Authentifizierung mit API-Schlüssel",
-            "Glossare ad-hoc mit jeder Anfrage anpassen",
-            "Schnelle, asynchrone Antworten",
-            "Laufende Kostenübersicht und Nutzungsstatistiken",
-            "100 % transparente Preise",
-            "Code-Beispiele und Dokumentation"
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
-          "cta": "Zur API-Dokumentation"
+          "cta": ""
         },
         "securityBlock": {
-          "imageAlt": "Entwickelt für maximale Datensicherheit",
-          "title": "Entwickelt für maximale Datensicherheit",
-          "body": "Darum sind wir Partner der Wahl für Banken, Behörden und Versicherungen:",
+          "imageAlt": "",
+          "title": "",
+          "body": "",
           "bullets": [
-            "Hosting in der Schweiz oder on-premise",
-            "Komplett DSGVO- und DSG-konform",
-            "Zertifiziert nach ISO 27001, 9001, 17100 und 18587",
-            "SSO-Integration und Zugriffskontrolle fürs Team-Management",
-            "Verschlüsselter Datentransfer und sofortige Textlöschung",
-            "Benutzerdefinierte TLS-/SSL-Zertifikate"
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         },
         "cases": {
-          "title": "1500 Unternehmen in ganz Europa: Unsere Referenzen sprechen eine deutliche Sprache.",
-          "eyebrow": "REFERENZEN",
-          "cta": "Zu allen Cases"
+          "title": "",
+          "eyebrow": "",
+          "cta": ""
         },
         "footerNote": {
-          "title": "Bereit für Sprachqualität <highlight>in jedem Interface</highlight>?",
+          "title": "",
           "cta": {
-            "api": "Jetzt starten",
-            "docs": "Zur API-Dokumentation"
+            "api": "",
+            "docs": ""
           }
         }
       }

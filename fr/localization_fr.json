@@ -1913,7 +1913,8 @@
               "title": "30 Mo maximum par fichier"
             },
             "2": {
-              "title": "Guides de style"
+              "title": "Guides de style",
+              "badge": "Bientôt disponible"
             },
             "3": {
               "title": "Importation de traduction"
@@ -2191,7 +2192,12 @@
             },
             "styleGuides": {
               "name": "Guides de style",
-              "description": "Vérifiez la ponctuation, l’écriture des chiffres et bien plus encore."
+              "description": "Vérifiez la ponctuation, l’écriture des chiffres et bien plus encore.",
+              "free": "0",
+              "essential": "0",
+              "advanced": "0",
+              "pro": "Bientôt disponible",
+              "enterprise": "Bientôt disponible"
             },
             "branding": {
               "name": "Branding",

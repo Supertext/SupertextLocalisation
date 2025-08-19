@@ -803,7 +803,14 @@
         "application": "Application",
         "jobs": "Postes"
       },
-      "forEnterprise": "Pour les entreprises"
+      "forEnterprise": "Pour les entreprises",
+      "dropdown": {
+        "whySupertext": "Pourquoi Supertext?",
+        "technology": "Technologie IA",
+        "languageExpertise": "Sprachexpertise",
+        "about": "Über uns",
+        "work": "Arbeiten bei Supertext"
+      }
     },
     "filter": {
       "title": "Filtre",
@@ -4251,7 +4258,9 @@
           "title_part1": "",
           "title_emph": "Meilleur",
           "title_part2": "Traductions à l’échelle de l’entreprise avec Supertext Enterprise",
-          "subtitle": "Traduction par l’IA dans 28 langues. Rapide, de qualité et adaptée à vos besoins."
+          "subtitle": "Traduction par l’IA dans 28 langues. Rapide, de qualité et adaptée à vos besoins.",
+          "cta": "Get a quote",
+          "logoCarouselTitle": "Trusted by 1500+ companies every day"
         },
         "section1": {
           "title": "L’IA adaptative pour plus de succès dans plus de langues",

@@ -803,7 +803,14 @@
         "application": "Candidatura",
         "jobs": "Posti di lavoro"
       },
-      "forEnterprise": "Per le aziende"
+      "forEnterprise": "Per le aziende",
+      "dropdown": {
+        "whySupertext": "Perché Supertext?",
+        "technology": "Tecnologia IA",
+        "languageExpertise": "Sprachexpertise",
+        "about": "Über uns",
+        "work": "Arbeiten bei Supertext"
+      }
     },
     "filter": {
       "title": "Filtri",
@@ -4251,7 +4258,9 @@
           "title_part1": "",
           "title_emph": "Meglio",
           "title_part2": "traducete in tutta l'azienda con Supertext Enterprise",
-          "subtitle": "Traduzione IA affidabile in 28 lingue. Sviluppata per una maggiore velocità e qualità, nonché su misura delle vostre esigenze."
+          "subtitle": "Traduzione IA affidabile in 28 lingue. Sviluppata per una maggiore velocità e qualità, nonché su misura delle vostre esigenze.",
+          "cta": "Get a quote",
+          "logoCarouselTitle": "Trusted by 1500+ companies every day"
         },
         "section1": {
           "title": "IA in grado di apprendere per un maggior successo in più lingue",

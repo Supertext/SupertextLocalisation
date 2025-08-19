@@ -764,13 +764,6 @@
       "subscriptionAndPrices": "Abos",
       "forCompanies": "Für Unternehmen",
       "discoverSolutions": "Mehr erfahren",
-      "dropdown": {
-        "whySupertext": "Warum Supertext?",
-        "technology": "KI-Technologie",
-        "languageExpertise": "Sprachexpertise",
-        "about": "Über uns",
-        "work": "Arbeiten bei Supertext"
-      },      
       "message": {
         "part1": "Mit Supertext übersetzen Unternehmen",
         "part2": "besser, schneller, günstiger",
@@ -810,7 +803,14 @@
         "application": "Deine Bewerbung",
         "jobs": "Jobs"
       },
-      "forEnterprise": "Für Unternehmen"
+      "forEnterprise": "Für Unternehmen",
+      "dropdown": {
+        "whySupertext": "Warum Supertext?",
+        "technology": "KI-Technologie",
+        "languageExpertise": "Sprachexpertise",
+        "about": "Über uns",
+        "work": "Arbeiten bei Supertext"
+      }
     },
     "filter": {
       "title": "Filter",
@@ -4260,7 +4260,7 @@
           "title_part2": " übersetzen im ganzen Unternehmen – mit Supertext Enterprise",
           "subtitle": "Sichere KI-Übersetzung in 28 Sprachen. Entwickelt für Tempo, Qualität und passgenau für Sie.",
           "cta": "Get a quote",
-          "logoCarouselTitle": "Trusted by 1500+ companies every day"          
+          "logoCarouselTitle": "Trusted by 1500+ companies every day"
         },
         "section1": {
           "title": "Lernfähige KI für mehr Erfolg in mehr Sprachen",

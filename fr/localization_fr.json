@@ -4448,7 +4448,13 @@
           "notifications": {
             "success": "Merci beaucoup. Votre demande a été envoyée avec succès."
           },
-          "submit": "Envoyer"
+          "submit": "Envoyer",
+          "thankYou": {
+            "eyebrow": "GET IN TOUCH",
+            "title": "Thank you!",
+            "body": "We will get back to you as soon as possible. In the meantime, browse our blog for exciting insights and research topics.",
+            "cta": "Explore insights"
+          }
         }
       },
       "supertextApi": {

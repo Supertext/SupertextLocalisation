@@ -945,6 +945,7 @@
         "annuallySubscription": "Annual",
         "monthlySubscription": "Monthly",
         "subscriptionFreeInfo": "Users without a licence have access to Supertext Free.",
+        "subscriptionSiteLicenseInfo": "Site license: All users added are automatically licensed.",
         "addLicenses": "add more licences.",
         "subscribeMow": "Subscribe now",
         "requestOffer": "Request quote",
@@ -1433,7 +1434,9 @@
         "emailPlaceholder": "example@gmail.com",
         "licenseMultipleTag": "License user",
         "licenseMultipleTagNoLicencesAvailable": "You cannot assign licences to the selected members. {selectedCount} users were selected, but {licencesAvailable, plural, =0 {no licences are} =1 {only 1 licence is} other {only # licences are}} available.",
-        "licenceMultipleSuccess": "{count, plural, =0 { No licences have been updated } =1 { The licence of 1 member has been updated } other { The licences of # members have been updated }} successfully"
+        "licenceMultipleSuccess": "{count, plural, =0 { No licences have been updated } =1 { The licence of 1 member has been updated } other { The licences of # members have been updated }} successfully",
+        "siteLicense": "Site licence: All users added are automatically licensed.",
+        "siteLicenseDetails": "Subscription details"
       },
       "delivery": {
         "title": "Delivery",

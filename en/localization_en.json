@@ -807,9 +807,9 @@
       "dropdown": {
         "whySupertext": "Why Supertext?",
         "technology": "AI technology",
-        "languageExpertise": "Sprachexpertise",
-        "about": "Über uns",
-        "work": "Arbeiten bei Supertext"
+        "languageExpertise": "Linguistic expertise",
+        "about": "About us",
+        "work": "Work at Supertext"
       }
     },
     "filter": {
@@ -1097,31 +1097,31 @@
               "Albanian",
               "Bulgarian",
               "Chinese",
+              "Croatian",
+              "Czech",
               "Danish",
-              "German",
+              "Dutch",
               "English",
               "Finnish",
               "French",
+              "German",
               "Greek",
+              "Hungarian",
               "Italian",
               "Japanese",
               "Korean",
-              "Croatian",
-              "Dutch",
               "Norwegian",
               "Polish",
               "Portuguese",
               "Romansh",
               "Russian",
-              "Swedish",
-              "Swiss German",
               "Serbian",
               "Slovak",
               "Slovenian",
               "Spanish",
-              "Czech",
-              "Turkish",
-              "Hungarian"
+              "Swedish",
+              "Swiss German",
+              "Turkish"
             ]
           },
           "footerNote": "Are you looking for a <highlightText>tailor-made translation solution?</highlightText>",
@@ -4615,7 +4615,7 @@
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
         "category": "Languages and language variants",
-        "tooltip": "<strong>Languages and language variants</strong> <br/> <strong>6 languages</strong>: English, French, German, Italian, Romansh, Swiss German <br/><br/> English (GB, US), French (CH, FR), German (AT, CH, DE), Italian (CH, IT), Swiss German (BE, ZH)<br/><br/> <strong> 28 languages</strong>: Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish <br/><br/> Chinese (simplified, traditional), English (GB, US), French (CH, FR), German (AT, CH, DE), Italian (CH, IT), Portuguese (BR, PT), Swiss German (BE, ZH)",
+        "tooltip": "<strong>Languages and language variants</strong> <br/> <strong>6 languages</strong>: English, French, German, Italian, Romansh, Swiss German <br/><br/> English (GB, US), French (CH, FR), German (AT, CH, DE), Italian (CH, IT), Swiss German (BE, ZH)<br/><br/> <strong> 28 languages</strong>: Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish <br/><br/> Chinese (simplified, traditional), English (GB, US), French (CH, FR), German (AT, CH, DE), Italian (CH, IT), Portuguese (BR, PT), Serbian (Cyrillic, Latin), Swiss German (BE, ZH)",
         "rows": {
           "free": "6 languages",
           "essential": "6 languages",

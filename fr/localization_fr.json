@@ -807,9 +807,9 @@
       "dropdown": {
         "whySupertext": "Pourquoi Supertext?",
         "technology": "Technologie IA",
-        "languageExpertise": "Sprachexpertise",
-        "about": "Über uns",
-        "work": "Arbeiten bei Supertext"
+        "languageExpertise": "Expertise linguistique",
+        "about": "À propos de nous",
+        "work": "Travailler chez Supertext"
       }
     },
     "filter": {
@@ -1095,33 +1095,33 @@
             "title": "28 langues –\net il y en aura de plus en plus",
             "languages": [
               "Albanais",
-              "Bulgare",
-              "Chinois",
-              "Danois",
               "Allemand",
               "Anglais",
+              "Bulgare",
+              "Chinois",
+              "Coréen",
+              "Croate",
+              "Danois",
+              "Espagnol",
               "Finnois",
               "Français",
               "Grec",
+              "Hongrois",
               "Italien",
               "Japonais",
-              "Coréen",
-              "Croate",
               "Néerlandais",
               "Norvégien",
               "Polonais",
               "Portugais",
               "Romanche",
               "Russe",
-              "Suédois",
-              "Allemand suisse",
               "Serbe",
+              "Suédois",
+              "Suisse allemand",
               "Slovaque",
               "Slovène",
-              "Espagnol",
               "Tchèque",
-              "Turc",
-              "Hongrois"
+              "Turc"
             ]
           },
           "footerNote": "Vous recherchez une <highlightText>solution sur mesure?</highlightText>",
@@ -2072,12 +2072,12 @@
             "languageVariants": {
               "name": "Variantes de langue",
               "description": "",
-              "all": "Chinois (simplifié, traditionnel), allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), portugais (BR, PT), serbe (cyrillique, latin), suisse allemand (BE, ZH)",
+              "all": "Allemand (AT, CH, DE), anglais (GB, US), chinois (simplifié, traditionnel), français (CH, FR), italien (CH, IT), portugais (BR, PT), serbe (cyrillique, latin), suisse allemand (BE, ZH)",
               "free": "Allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), suisse allemand (BE, ZH)",
               "essential": "Allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), suisse allemand (BE, ZH)",
-              "advanced": "Chinois (simplifié, traditionnel), allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), portugais (BR, PT), serbe (cyrillique, latin), suisse allemand (BE, ZH)",
-              "pro": "Chinois (simplifié, traditionnel), allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), portugais (BR, PT), serbe (cyrillique, latin), suisse allemand (BE, ZH)",
-              "enterprise": "Chinois (simplifié, traditionnel), allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), portugais (BR, PT), serbe (cyrillique, latin), suisse allemand (BE, ZH)"
+              "advanced": "Allemand (AT, CH, DE), anglais (GB, US), chinois (simplifié, traditionnel), français (CH, FR), italien (CH, IT), portugais (BR, PT), serbe (cyrillique, latin), suisse allemand (BE, ZH)",
+              "pro": "Allemand (AT, CH, DE), anglais (GB, US), chinois (simplifié, traditionnel), français (CH, FR), italien (CH, IT), portugais (BR, PT), serbe (cyrillique, latin), suisse allemand (BE, ZH)",
+              "enterprise": "Allemand (AT, CH, DE), anglais (GB, US), chinois (simplifié, traditionnel), français (CH, FR), italien (CH, IT), portugais (BR, PT), serbe (cyrillique, latin), suisse allemand (BE, ZH)"
             }
           }
         },
@@ -4256,10 +4256,10 @@
       "forEnterprise": {
         "hero": {
           "title_part1": "",
-          "title_emph": "Meilleur",
+          "title_emph": "Meilleur ",
           "title_part2": "Traductions à l’échelle de l’entreprise avec Supertext Enterprise",
           "subtitle": "Traduction par l’IA dans 28 langues. Rapide, de qualité et adaptée à vos besoins.",
-          "cta": "Get a quote",
+          "cta": "Demander une offre",
           "logoCarouselTitle": "Trusted by 1500+ companies every day"
         },
         "section1": {
@@ -4450,8 +4450,8 @@
           },
           "submit": "Envoyer",
           "thankYou": {
-            "eyebrow": "GET IN TOUCH",
-            "title": "Thank you!",
+            "eyebrow": "DISCUTONS-EN",
+            "title": "Merci!",
             "body": "We will get back to you as soon as possible. In the meantime, browse our blog for exciting insights and research topics.",
             "cta": "Explore insights"
           }
@@ -4459,7 +4459,7 @@
       },
       "supertextApi": {
         "hero": {
-          "title_part1": "Traductions optimales dans",
+          "title_part1": "Traductions optimales dans ",
           "title_emph": "chaque système",
           "title_part2": "avec l’API Supertext",
           "subtitle": "Intégrez la traduction sécurisée par l’IA dans n’importe quel flux de travail. Efficacement et dans jusqu’à 28 langues.",
@@ -4615,7 +4615,7 @@
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
         "category": "Langues et variantes linguistiques",
-        "tooltip": "<strong>Langues et variantes linguistiques</strong> <br/> <strong> 6 langues</strong>: allemand, anglais, français, italien, romanche, suisse allemand <br/><br/> Allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), suisse allemand (BE, ZH)<br/><br/> <strong> 28 langues</strong>: albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, suédois, suisse allemand, Serbe, slovaque, slovène, espagnol, tchèque, turc, hongrois <br/><br/> chinois (simplifié, traditionnel), allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), portugais (BR, PT), suisse allemand (BE, ZH)",
+        "tooltip": "<strong>Langues et variantes linguistiques</strong> <br/> <strong> 6 langues</strong>: allemand, anglais, français, italien, romanche, suisse allemand <br/><br/> Allemand (AT, CH, DE), anglais (GB, US), français (CH, FR), italien (CH, IT), suisse allemand (BE, ZH)<br/><br/> <strong> 28 langues</strong>: albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, serbe, slovaque, slovène, suédois, suisse allemand, tchèque, turc, hongrois <br/><br/> allemand (AT, CH, DE), anglais (GB, US), chinois (simplifié, traditionnel), français (CH, FR), italien (CH, IT), portugais (BR, PT), serbe (cyrillique, latin), suisse allemand (BE, ZH)",
         "rows": {
           "free": "6 langues",
           "essential": "6 langues",

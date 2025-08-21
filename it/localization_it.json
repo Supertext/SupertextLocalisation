@@ -449,7 +449,7 @@
     "en": "Inglese",
     "en-AU": "Inglese (Australia)",
     "en-CA": "Inglese (Canada)",
-    "en-GB": "Inglese (Regno Unito)",
+    "en-GB": "Inglese (Gran Bretagna)",
     "en-US": "Inglese (USA)",
     "es": "Spagnolo",
     "fi": "Finlandese",
@@ -807,9 +807,9 @@
       "dropdown": {
         "whySupertext": "Perché Supertext?",
         "technology": "Tecnologia IA",
-        "languageExpertise": "Sprachexpertise",
-        "about": "Über uns",
-        "work": "Arbeiten bei Supertext"
+        "languageExpertise": "Competenze linguistiche",
+        "about": "Chi siamo",
+        "work": "Lavorare da Supertext"
       }
     },
     "filter": {
@@ -1096,30 +1096,30 @@
             "languages": [
               "Albanese",
               "Bulgaro",
+              "Ceco",
               "Cinese",
-              "Danese",
-              "Tedesco",
-              "Inglese",
-              "Finlandese",
-              "Francese",
-              "Greco",
-              "Italiano",
-              "Giapponese",
               "Coreano",
               "Croato",
-              "Neerlandese",
+              "Danese",
+              "Finlandese",
+              "Francese",
+              "Giapponese",
+              "Greco",
+              "Inglese",
+              "Italiano",
               "Norvegese",
+              "Neerlandese",
               "Polacco",
               "Portoghese",
               "Romancio",
               "Russo",
-              "Svedese",
-              "Svizzero tedesco",
               "Serbo",
               "Slovacco",
               "Sloveno",
               "Spagnolo",
-              "Ceco",
+              "Svedese",
+              "Svizzero tedesco",
+              "Tedesco",
               "Turco",
               "Ungherese"
             ]
@@ -2072,12 +2072,12 @@
             "languageVariants": {
               "name": "Varianti nazionali",
               "description": "",
-              "all": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH)",
-              "free": "Inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), svizzero tedesco (BE, ZH)",
-              "essential": "Inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), svizzero tedesco (BE, ZH)",
-              "advanced": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH)",
-              "pro": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH)",
-              "enterprise": "Cinese (semplificato, tradizionale), inglese (GB, US), tedesco (AT, CH, DE), francese (CH, FR), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH)"
+              "all": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
+              "free": "Francese (CH, FR), inglese (GB, US), italiano (CH, IT), tedesco (AT, CH, DE), svizzero tedesco (BE, ZH)",
+              "essential": "Francese (CH, FR), inglese (GB, US), italiano (CH, IT), tedesco (AT, CH, DE), svizzero tedesco (BE, ZH)",
+              "advanced": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
+              "pro": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
+              "enterprise": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)"
             }
           }
         },
@@ -4256,10 +4256,10 @@
       "forEnterprise": {
         "hero": {
           "title_part1": "",
-          "title_emph": "Meglio",
+          "title_emph": "Meglio ",
           "title_part2": "traducete in tutta l'azienda con Supertext Enterprise",
           "subtitle": "Traduzione IA affidabile in 28 lingue. Sviluppata per una maggiore velocità e qualità, nonché su misura delle vostre esigenze.",
-          "cta": "Get a quote",
+          "cta": "Richiedi un’offerta",
           "logoCarouselTitle": "Trusted by 1500+ companies every day"
         },
         "section1": {
@@ -4450,8 +4450,8 @@
           },
           "submit": "Invia",
           "thankYou": {
-            "eyebrow": "GET IN TOUCH",
-            "title": "Thank you!",
+            "eyebrow": "PARLIAMONE",
+            "title": "Grazie!",
             "body": "We will get back to you as soon as possible. In the meantime, browse our blog for exciting insights and research topics.",
             "cta": "Explore insights"
           }
@@ -4459,7 +4459,7 @@
       },
       "supertextApi": {
         "hero": {
-          "title_part1": "Traduzioni top in",
+          "title_part1": "Traduzioni top in ",
           "title_emph": "qualsisi sistema",
           "title_part2": "con l’API Supertext",
           "subtitle": "Integrate traduzioni IA affidabili in qualsiasi workflow, in modo efficiente e in 28 lingue.",
@@ -4615,7 +4615,7 @@
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
         "category": "Lingue e varianti linguistiche",
-        "tooltip": "<strong>Lingue e varianti linguistiche</strong> <br/> <strong>6 lingue</strong>: francese, inglese, italiano, romancio, svizzero tedesco, tedesco <br/><br/> francese (CH, FR), inglese (GB, US), italiano (CH, IT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)<br/><br/> <strong>28 lingue</strong>: albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, neerlandese, norvegese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese <br/><br/> cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
+        "tooltip": "<strong>Lingue e varianti linguistiche</strong> <br/> <strong>6 lingue</strong>: francese, inglese, italiano, romancio, svizzero tedesco, tedesco <br/><br/> francese (CH, FR), inglese (GB, US), italiano (CH, IT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)<br/><br/> <strong>28 lingue</strong>: albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, neerlandese, norvegese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese <br/><br/> cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH), serbo (cirillico, latino), tedesco (AT, CH, DE)",
         "rows": {
           "free": "6 lingue",
           "essential": "6 lingue",

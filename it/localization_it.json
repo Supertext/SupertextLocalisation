@@ -945,7 +945,6 @@
         "annuallySubscription": "Annuale",
         "monthlySubscription": "Mensile",
         "subscriptionFreeInfo": "Gli utenti senza licenza hanno accesso a Supertext Free.",
-        "subscriptionSiteLicenseInfo": "Site license: All users added are automatically licensed.",
         "addLicenses": "aggiungi ulteriori licenze.",
         "subscribeMow": "Sottoscrivi l’abbonamento",
         "requestOffer": "Richiedi un preventivo",
@@ -1131,7 +1130,8 @@
         "monthlyCancellable": "Può essere disdetto mensilmente",
         "allFunctionality": "Tutte le funzioni a confronto",
         "editSubscriptionMessageAdmin": "Desidera modificare i Suoi abbonamenti? <link>Al Dashboard</link>",
-        "editSubscriptionMessageUser": "Desidera modificare i Suoi abbonamenti? <link>Si rivolga a un amministratore del Suo team<link/>"
+        "editSubscriptionMessageUser": "Desidera modificare i Suoi abbonamenti? <link>Si rivolga a un amministratore del Suo team<link/>",
+        "subscriptionSiteLicenseInfo": "Site license: All users added are automatically licensed."
       },
       "resources": {
         "title": "Risorse linguistiche",
@@ -1436,7 +1436,7 @@
         "licenseMultipleTagNoLicencesAvailable": "Impossibile assegnare licenze ai membri selezionati. Sono stati selezionati {selectedCount} utenti, ma {licencesAvailable, plural, =0 {non è disponibile nessuna licenza } =1 { è disponibile solo 1 licenza } other {sono disponibili solo # licenze }}.",
         "licenceMultipleSuccess": "{count, plural, =0 {Nessuna licenza è stata aggiornata} =1 { La licenza di 1 membro è stata aggiornata} other {Le licenze di # membri sono state aggiornate}}",
         "siteLicense": "Site licence: All users added are automatically licensed.",
-        "siteLicenseDetails": "Subscription details"
+        "siteLicenseDetails": ""
       },
       "delivery": {
         "title": "Consegna",

@@ -1436,7 +1436,7 @@
         "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}} verfügbar.",
         "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert",
         "siteLicense": "Site licence: All users added are automatically licensed.",
-        "siteLicenseDetails": ""
+        "siteLicenseDetails": "Subscription details"
       },
       "delivery": {
         "title": "Lieferung",
@@ -4259,7 +4259,7 @@
       "forEnterprise": {
         "hero": {
           "title_part1": "",
-          "title_emph": "Besser ",
+          "title_emph": "Besser",
           "title_part2": " übersetzen im ganzen Unternehmen – mit Supertext Enterprise",
           "subtitle": "Sichere KI-Übersetzung in 28 Sprachen. Entwickelt für Tempo, Qualität und passgenau für Sie.",
           "cta": "Jetzt Angebot anfordern",

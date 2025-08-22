@@ -4312,15 +4312,15 @@
               "linkHref": "https://www.supertext.com/de-DE/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
             },
             {
-              "title": "30 %",
+              "title": "<large>30 %</large>",
               "content": "weniger Bearbeitung mit maßgeschneiderten KI-Modellen"
             },
             {
-              "title": "500+",
+              "title": "<large>500+</large>",
               "content": "Custom-Sprachmodelle bei Unternehmen implementiert"
             },
             {
-              "title": "3000+",
+              "title": "<large>3000+</large>",
               "content": "Profi-Linguist:innen – für Sie da, wenn es wirklich zählt."
             }
           ]
@@ -4531,8 +4531,7 @@
           ]
         },
         "langs": {
-          "title_line1": "Eine Übersetzungs-API ",
-          "title_line2": "für jeden Use-Case"
+            "title": "Eine Übersetzungs-API für jeden Use-Case"
         },
         "features": {
           "items": [

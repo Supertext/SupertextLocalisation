@@ -1436,7 +1436,7 @@
         "licenseMultipleTagNoLicencesAvailable": "Vous ne pouvez pas attribuer de licences aux membres sélectionnés. {selectedCount} utilisateurs/-trices ont été sélectionnés/-ees, mais il y a {licencesAvailable, plural, =0 { aucune licence } =1 { seulement 1 licence } other { seulement # licences }} disponible(s).",
         "licenceMultipleSuccess": "{count, plural, =0 { Aucune licence n’a été mise à jour } =1 { La licence d’un membre a été mise à jour } other { Les licences de # membres ont été mises à jour }} avec succès",
         "siteLicense": "Site licence: All users added are automatically licensed.",
-        "siteLicenseDetails": ""
+        "siteLicenseDetails": "Subscription details"
       },
       "delivery": {
         "title": "Livraison",
@@ -4259,8 +4259,8 @@
       "forEnterprise": {
         "hero": {
           "title_part1": "",
-          "title_emph": "Meilleur ",
-          "title_part2": "Traductions à l’échelle de l’entreprise avec Supertext Enterprise",
+          "title_emph": "Meilleur",
+          "title_part2": " traductions à l’échelle de l’entreprise avec Supertext Enterprise",
           "subtitle": "Traduction par l’IA dans 28 langues. Rapide, de qualité et adaptée à vos besoins.",
           "cta": "Demander une offre",
           "logoCarouselTitle": "Trusted by 1500+ companies every day"

@@ -1131,7 +1131,7 @@
         "allFunctionality": "Alle Funktionen im Vergleich",
         "editSubscriptionMessageAdmin": "Sie möchten Ihr Abo bearbeiten? <link>Zum Dashboard</link>",
         "editSubscriptionMessageUser": "Sie möchten Ihr Abo bearbeiten? <link>Kontaktieren Sie eine:n Admin in Ihrem Team<link/>",
-        "subscriptionSiteLicenseInfo": "Firmenweite Lizenz: Alle hinzugefügten User:innen sind automatisch lizenziert."
+        "subscriptionSiteLicenseInfo": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert."
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1398,7 +1398,7 @@
             "price_per_licence_month": "Preis pro Lizenz, pro Monat",
             "price_per_licence_year": "Preis pro Lizenz, pro Jahr",
             "titleSiteLicence": "Team-Abo",
-            "descriptionSiteLicence": "Ihr Team verfügt über eine Site License – Sie können beliebig viele User:innen hinzufügen. Wenn Sie Ihr Abonnement anpassen möchten, kontaktieren Sie uns einfach."
+            "descriptionSiteLicence": "Ihr Team verfügt über eine Unternehmenslizenz – Sie können beliebig viele User:innen hinzufügen. Wenn Sie Ihr Abo anpassen möchten, kontaktieren Sie uns einfach."
           },
           "authorisations": {
             "title": "Zugriffsberechtigungen",
@@ -1435,7 +1435,7 @@
         "licenseMultipleTag": "User:innen lizenzieren",
         "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}} verfügbar.",
         "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert",
-        "siteLicense": "Firmenweite Lizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
+        "siteLicense": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
         "siteLicenseDetails": "Abo-Details"
       },
       "delivery": {
@@ -4263,7 +4263,8 @@
           "title_part2": " übersetzen im ganzen Unternehmen – mit Supertext Enterprise",
           "subtitle": "Sichere KI-Übersetzung in 28 Sprachen. Entwickelt für Tempo, Qualität und passgenau für Sie.",
           "cta": "Jetzt Angebot anfordern",
-          "logoCarouselTitle": "Die erste Wahl für über 1500 Unternehmen"
+          "logoCarouselTitle": "Die erste Wahl für über 1500 Unternehmen",
+          "title": "<highlight>Besser</highlight> übersetzen im ganzen Unternehmen – mit Supertext Enterprise"
         },
         "section1": {
           "title": "Lernfähige KI für mehr Erfolg in mehr Sprachen",

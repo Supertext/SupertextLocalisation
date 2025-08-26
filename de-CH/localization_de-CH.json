@@ -1131,7 +1131,7 @@
         "allFunctionality": "Alle Funktionen im Vergleich",
         "editSubscriptionMessageAdmin": "Sie möchten Ihr Abo bearbeiten? <link>Zum Dashboard</link>",
         "editSubscriptionMessageUser": "Sie möchten Ihr Abo bearbeiten? <link>Kontaktieren Sie eine:n Admin in Ihrem Team<link/>",
-        "subscriptionSiteLicenseInfo": "Site license: All users added are automatically licensed."
+        "subscriptionSiteLicenseInfo": "Firmenweite Lizenz: Alle hinzugefügten User:innen sind automatisch lizenziert."
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1435,8 +1435,8 @@
         "licenseMultipleTag": "User:innen lizenzieren",
         "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}} verfügbar.",
         "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert",
-        "siteLicense": "Site licence: All users added are automatically licensed.",
-        "siteLicenseDetails": "Subscription details"
+        "siteLicense": "Firmenweite Lizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
+        "siteLicenseDetails": "Abo-Details"
       },
       "delivery": {
         "title": "Lieferung",
@@ -4307,21 +4307,21 @@
           "items": [
             {
               "title": "<large>3</large> von <large>4</large>",
-              "content": "Sprachkombinationen besser als DeepL.",
+              "content": "Sprachkombinationen besser als DeepL",
               "linkText": "Reasearch Paper lesen",
               "linkHref": "https://www.supertext.com/de-CH/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
             },
             {
-              "title": "<large>30  %</large>",
+              "title": "<large>30 %</large>",
               "content": "weniger Bearbeitung mit massgeschneiderten KI-Modellen"
             },
             {
               "title": "<large>500+</large>",
-              "content": "Custom-Sprachmodelle bei Unternehmen implementiert"
+              "content": "Custom-Sprachmodelle für noch genauere Resultate implementiert"
             },
             {
               "title": "<large>3000+</large>",
-              "content": "Profi-Linguist:innen – für Sie da, wenn es wirklich zählt."
+              "content": "Profi-Linguist:innen – für Sie da, wenn es wirklich zählt"
             }
           ]
         },
@@ -4451,7 +4451,7 @@
             "body": "Wir melden uns so schnell wie möglich. Bis es so weit ist, hält unser Blog spannende Einblicke in unsere neusten Entwicklungen bereit.",
             "cta": "Jetzt entdecken"
           },
-          "title": "Sie möchten ein <highlight>Angebot</highlight> oder haben eine <highlight>Frage</highlight>?"
+          "title": "Sie möchten ein <highlight>Angebot</highlight> oder haben eine <highlight>Frage?</highlight>"
         }
       },
       "supertextApi": {
@@ -4463,7 +4463,7 @@
           },
           "title": "Sofort übersetzen in <highlight>jedem System</highlight> mit der Supertext API",
           "logos": {
-            "trusted": "Vertraut von 1500+ Unternehmen jeden Tag"
+            "trusted": "Die erste Wahl von Entwickler:innen in ganz Europa"
           }
         },
         "section1": {
@@ -4517,11 +4517,11 @@
             },
             {
               "title": "<large>500+</large>",
-              "content": "Custom-Sprachmodelle für noch genauere Resultate entwickelt"
+              "content": "Custom-Sprachmodelle für noch genauere Resultate implementiert"
             },
             {
               "title": "<large>3000+</large>",
-              "content": "Profi-Linguist:innen – in Minuten für Sie da, wenn es wirklich zählt."
+              "content": "Profi-Linguist:innen – in Minuten für Sie da, wenn es wirklich zählt"
             }
           ]
         },
@@ -4591,7 +4591,7 @@
           }
         },
         "langs": {
-          "title": "Eine Übersetzungs-API für jeden Use-Case"
+          "title": "Eine Übersetzungs-API, unzählige Use-Cases"
         }
       }
     },

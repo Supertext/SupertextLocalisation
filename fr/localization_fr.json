@@ -1131,7 +1131,7 @@
         "allFunctionality": "Toutes les fonctionnalités",
         "editSubscriptionMessageAdmin": "Vous souhaitez modifier votre abonnement? <link>Vers le tableau de bord</link>",
         "editSubscriptionMessageUser": "Vous souhaitez modifier votre abonnement? <link>Contactez un/-e admin de votre équipe<link/>",
-        "subscriptionSiteLicenseInfo": "Licence globale: Tous les utilisateurs ajoutés sont automatiquement autorisés."
+        "subscriptionSiteLicenseInfo": "Licence globale: tous/-tes les utilisateurs/-trices ajoutés/-es reçoivent automatiquement une autorisation."
       },
       "resources": {
         "title": "Ressources linguistiques",
@@ -1398,7 +1398,7 @@
             "price_per_licence_month": "Prix par licence, par mois",
             "price_per_licence_year": "Prix par licence, par an",
             "titleSiteLicence": "Abonnement d’équipe",
-            "descriptionSiteLicence": "Votre équipe dispose d’une license de site – vous pouvez ajouter autant d’utilisateurs/-trices que vous le voulez. Si vous souhaitez modifier votre abonnement, il vous suffit de nous contacter."
+            "descriptionSiteLicence": "Votre équipe dispose d’une licence globale – vous pouvez ajouter autant d’utilisateurs/-trices que vous le voulez. Si vous souhaitez modifier votre abonnement, il vous suffit de nous contacter."
           },
           "authorisations": {
             "title": "Autorisations d’accès",
@@ -1435,8 +1435,8 @@
         "licenseMultipleTag": "Licence utilisateur/-trice",
         "licenseMultipleTagNoLicencesAvailable": "Vous ne pouvez pas attribuer de licences aux membres sélectionnés. {selectedCount} utilisateurs/-trices ont été sélectionnés/-ees, mais il y a {licencesAvailable, plural, =0 { aucune licence } =1 { seulement 1 licence } other { seulement # licences }} disponible(s).",
         "licenceMultipleSuccess": "{count, plural, =0 { Aucune licence n’a été mise à jour } =1 { La licence d’un membre a été mise à jour } other { Les licences de # membres ont été mises à jour }} avec succès",
-        "siteLicense": "Licence globale: Tous les utilisateurs ajoutés sont automatiquement autorisés.",
-        "siteLicenseDetails": "Détails de l'abonnement"
+        "siteLicense": "Licence globale: tous/-tes les utilisateurs/-trices ajoutés/-es reçoivent automatiquement une autorisation.",
+        "siteLicenseDetails": "Détails de l’abonnement"
       },
       "delivery": {
         "title": "Livraison",
@@ -4261,7 +4261,7 @@
           "subtitle": "Traduction par l’IA dans 28 langues. Rapide, de qualité et adaptée à vos besoins.",
           "cta": "Demander une offre",
           "logoCarouselTitle": "Le premier choix pour plus de 1500 entreprises",
-          "title": "<highlight>Besser</highlight> übersetzen im ganzen Unternehmen – mit Supertext Enterprise"
+          "title": "Traduction de <highlight>meilleure qualité </highlight> à l’échelle de l'entreprise avec Supertext Enterprise"
         },
         "section1": {
           "title": "L’IA adaptative pour plus de succès dans plus de langues",
@@ -4310,7 +4310,7 @@
               "linkHref": "https://www.supertext.com/fr/blog/performance-de-traduction-comparaison-deepl-vs-supertext"
             },
             {
-              "title": "<large>30 %</large>",
+              "title": "<large>30%</large>",
               "content": "Moins d’édition grâce à des modèles d’IA sur mesure"
             },
             {
@@ -4449,7 +4449,7 @@
             "body": "Nous reviendrons vers vous dans les plus brefs délais. D’ici là, notre blog donne un aperçu passionnant de nos derniers développements.",
             "cta": "Découvrir maintenant"
           },
-          "title": "Sie möchten ein <highlight>Angebot</highlight> oder haben eine <highlight>Frage</highlight>?"
+          "title": "Vous souhaitez recevoir une <highlight>offre </highlight> ou vous avez une question<highlight>?</highlight>"
         }
       },
       "supertextApi": {
@@ -4459,9 +4459,9 @@
             "primary": "C’est parti!",
             "secondary": "Voir la documentation API"
           },
-          "title": "Sofort übersetzen in <highlight>jedem System</highlight> mit der Supertext API",
+          "title": "Traduction instantanée dans <highlight>chaque système</highlight> avec l’API de Supertext",
           "logos": {
-            "trusted": "Vertraut von 1500+ Unternehmen jeden Tag"
+            "trusted": "Le premier choix des développeurs/-euses dans toute l’Europe"
           }
         },
         "section1": {
@@ -4589,7 +4589,7 @@
           }
         },
         "langs": {
-          "title": "Eine Übersetzungs-API für jeden Use-Case"
+          "title": "Une API de traduction pour chaque cas d’utilisation"
         }
       }
     },

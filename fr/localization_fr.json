@@ -4312,15 +4312,15 @@
               "linkHref": "https://www.supertext.com/fr/blog/performance-de-traduction-comparaison-deepl-vs-supertext"
             },
             {
-              "title": "30%",
+              "title": "<large>30 %</large>",
               "content": "Moins d’édition grâce à des modèles d’IA sur mesure"
             },
             {
-              "title": "500+",
+              "title": "<large>500+</large>",
               "content": "Modèles linguistiques personnalisés mis en œuvre dans les entreprises"
             },
             {
-              "title": "3000+",
+              "title": "<large>3000+</large>",
               "content": "spécialistes linguistes à votre disposition, quand chaque mot compte."
             }
           ]
@@ -4401,13 +4401,6 @@
         },
         "contactForm": {
           "eyebrow": "DISCUTONS-EN",
-          "title": {
-            "prefix": "Vous souhaitez demander une",
-            "quote": "offre",
-            "middle": "ou bien avez une",
-            "question": "question",
-            "suffix": "?"
-          },
           "solutions": {
             "legend": "Quelle(s) solution(s) vous intéresse(nt)?*",
             "options": {
@@ -4457,18 +4450,20 @@
             "title": "Merci!",
             "body": "Nous reviendrons vers vous dans les plus brefs délais. D’ici là, notre blog donne un aperçu passionnant de nos derniers développements.",
             "cta": "Découvrir maintenant"
-          }
+          },
+          "title": "Sie möchten ein <highlight>Angebot</highlight> oder haben eine <highlight>Frage</highlight>?"
         }
       },
       "supertextApi": {
         "hero": {
-          "title_part1": "Traduire immédiatement dans ",
-          "title_emph": "chaque système",
-          "title_part2": "avec l’API Supertext",
           "subtitle": "Intégrez la traduction sécurisée par l’IA dans n’importe quel flux de travail. Efficacement et dans jusqu’à 28 langues.",
           "ctas": {
             "primary": "C’est parti!",
             "secondary": "Voir la documentation API"
+          },
+          "title": "Sofort übersetzen in <highlight>jedem System</highlight> mit der Supertext API",
+          "logos": {
+            "trusted": "Vertraut von 1500+ Unternehmen jeden Tag"
           }
         },
         "section1": {
@@ -4529,10 +4524,6 @@
               "content": "Spécialistes linguistes à votre disposition pour une vérification professionnelle en un clic."
             }
           ]
-        },
-        "langs": {
-          "title_line1": "Une API de traduction ",
-          "title_line2": "pour chaque cas d’utilisation"
         },
         "features": {
           "items": [
@@ -4598,6 +4589,9 @@
             "api": "C’est parti!",
             "docs": "Voir la documentation API"
           }
+        },
+        "langs": {
+          "title": "Eine Übersetzungs-API für jeden Use-Case"
         }
       }
     },

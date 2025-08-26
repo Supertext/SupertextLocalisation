@@ -4312,7 +4312,7 @@
               "linkHref": "https://www.supertext.com/de-CH/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
             },
             {
-              "title": "<large>30 %</large>",
+              "title": "<large>30  %</large>",
               "content": "weniger Bearbeitung mit massgeschneiderten KI-Modellen"
             },
             {
@@ -4401,7 +4401,6 @@
         },
         "contactForm": {
           "eyebrow": "LASSEN SIE UNS REDEN",
-          "title": "Sie möchten ein <highlight>Angebot</highlight> oder haben eine <highlight>Frage</highlight>?",
           "solutions": {
             "legend": "Für welche Lösung(en) interessieren Sie sich?*",
             "options": {
@@ -4451,20 +4450,21 @@
             "title": "Vielen Dank!",
             "body": "Wir melden uns so schnell wie möglich. Bis es so weit ist, hält unser Blog spannende Einblicke in unsere neusten Entwicklungen bereit.",
             "cta": "Jetzt entdecken"
-          }
+          },
+          "title": "Sie möchten ein <highlight>Angebot</highlight> oder haben eine <highlight>Frage</highlight>?"
         }
       },
       "supertextApi": {
         "hero": {
-          "title": "Sofort übersetzen in <highlight>jedem System</highlight> mit der Supertext API",
           "subtitle": "Integrieren Sie sichere KI-Übersetzung in jeden Workflow. Effizient und in bis zu 28 Sprachen.",
           "ctas": {
             "primary": "Jetzt starten",
             "secondary": "Zur API-Dokumentation"
           },
+          "title": "Sofort übersetzen in <highlight>jedem System</highlight> mit der Supertext API",
           "logos": {
             "trusted": "Vertraut von 1500+ Unternehmen jeden Tag"
-          }          
+          }
         },
         "section1": {
           "title": "Effizienter übersetzen, vollautomatisch oder von Profis geprüft",
@@ -4524,9 +4524,6 @@
               "content": "Profi-Linguist:innen – in Minuten für Sie da, wenn es wirklich zählt."
             }
           ]
-        },
-        "langs": {
-          "title": "Eine Übersetzungs-API für jeden Use-Case"
         },
         "features": {
           "items": [
@@ -4592,6 +4589,9 @@
             "api": "Jetzt starten",
             "docs": "Zur API-Dokumentation"
           }
+        },
+        "langs": {
+          "title": "Eine Übersetzungs-API für jeden Use-Case"
         }
       }
     },

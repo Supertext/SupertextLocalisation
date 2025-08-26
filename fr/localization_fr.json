@@ -1131,7 +1131,7 @@
         "allFunctionality": "Toutes les fonctionnalités",
         "editSubscriptionMessageAdmin": "Vous souhaitez modifier votre abonnement? <link>Vers le tableau de bord</link>",
         "editSubscriptionMessageUser": "Vous souhaitez modifier votre abonnement? <link>Contactez un/-e admin de votre équipe<link/>",
-        "subscriptionSiteLicenseInfo": "Site license: All users added are automatically licensed."
+        "subscriptionSiteLicenseInfo": "Licence globale: Tous les utilisateurs ajoutés sont automatiquement autorisés."
       },
       "resources": {
         "title": "Ressources linguistiques",
@@ -1435,8 +1435,8 @@
         "licenseMultipleTag": "Licence utilisateur/-trice",
         "licenseMultipleTagNoLicencesAvailable": "Vous ne pouvez pas attribuer de licences aux membres sélectionnés. {selectedCount} utilisateurs/-trices ont été sélectionnés/-ees, mais il y a {licencesAvailable, plural, =0 { aucune licence } =1 { seulement 1 licence } other { seulement # licences }} disponible(s).",
         "licenceMultipleSuccess": "{count, plural, =0 { Aucune licence n’a été mise à jour } =1 { La licence d’un membre a été mise à jour } other { Les licences de # membres ont été mises à jour }} avec succès",
-        "siteLicense": "Site licence: All users added are automatically licensed.",
-        "siteLicenseDetails": "Subscription details"
+        "siteLicense": "Licence globale: Tous les utilisateurs ajoutés sont automatiquement autorisés.",
+        "siteLicenseDetails": "Détails de l'abonnement"
       },
       "delivery": {
         "title": "Livraison",
@@ -4307,7 +4307,7 @@
           "items": [
             {
               "title": "<large> 3 </large> sur <large> 4 </large>",
-              "content": "Combinaisons de langues meilleures que DeepL.",
+              "content": "Combinaisons de langues meilleures que DeepL",
               "linkText": "Lire l’article de recherche",
               "linkHref": "https://www.supertext.com/fr/blog/performance-de-traduction-comparaison-deepl-vs-supertext"
             },
@@ -4321,7 +4321,7 @@
             },
             {
               "title": "<large>3000+</large>",
-              "content": "spécialistes linguistes à votre disposition, quand chaque mot compte."
+              "content": "spécialistes linguistes à votre disposition, quand chaque mot compte"
             }
           ]
         },
@@ -4521,7 +4521,7 @@
             },
             {
               "title": "<large>3000+</large>",
-              "content": "Spécialistes linguistes à votre disposition pour une vérification professionnelle en un clic."
+              "content": "Spécialistes linguistes à votre disposition pour une vérification professionnelle en un clic"
             }
           ]
         },

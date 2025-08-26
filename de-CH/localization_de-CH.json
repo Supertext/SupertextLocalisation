@@ -4258,7 +4258,9 @@
       },
       "forEnterprise": {
         "hero": {
-          "title": "<highlight>Besser</highlight> übersetzen im ganzen Unternehmen – mit Supertext Enterprise",
+          "title_part1": "",
+          "title_emph": "Besser",
+          "title_part2": " übersetzen im ganzen Unternehmen – mit Supertext Enterprise",
           "subtitle": "Sichere KI-Übersetzung in 28 Sprachen. Entwickelt für Tempo, Qualität und passgenau für Sie.",
           "cta": "Jetzt Angebot anfordern",
           "logoCarouselTitle": "Die erste Wahl für über 1500 Unternehmen"
@@ -4310,15 +4312,15 @@
               "linkHref": "https://www.supertext.com/de-CH/blog/deepl-vs-supertext-ein-vergleich-der-uebersetzungsqualitaet"
             },
             {
-              "title": "<large>30 %</large>",
+              "title": "30 %",
               "content": "weniger Bearbeitung mit massgeschneiderten KI-Modellen"
             },
             {
-              "title": "<large>500+</large>",
+              "title": "500+",
               "content": "Custom-Sprachmodelle bei Unternehmen implementiert"
             },
             {
-              "title": "<large>3000+</large>",
+              "title": "3000+",
               "content": "Profi-Linguist:innen – für Sie da, wenn es wirklich zählt."
             }
           ]
@@ -4399,7 +4401,13 @@
         },
         "contactForm": {
           "eyebrow": "LASSEN SIE UNS REDEN",
-          "title": "Sie möchten ein <highlight>Angebot</highlight> oder haben eine <highlight>Frage</highlight>?",
+          "title": {
+            "prefix": "Sie möchten ein ",
+            "quote": "Angebot",
+            "middle": " oder haben eine ",
+            "question": "Frage",
+            "suffix": "?"
+          },
           "solutions": {
             "legend": "Für welche Lösung(en) interessieren Sie sich?*",
             "options": {
@@ -4454,14 +4462,13 @@
       },
       "supertextApi": {
         "hero": {
-          "title": "Sofort übersetzen in <highlight>jedem System</highlight> mit der Supertext API",
+          "title_part1": "Sofort übersetzen in ",
+          "title_emph": "jedem System",
+          "title_part2": " mit der Supertext API",
           "subtitle": "Integrieren Sie sichere KI-Übersetzung in jeden Workflow. Effizient und in bis zu 28 Sprachen.",
           "ctas": {
             "primary": "Jetzt starten",
             "secondary": "Zur API-Dokumentation"
-          },
-          "logos": {
-            "trusted": "Vertraut von 1500+ Unternehmen jeden Tag"
           }
         },
         "section1": {
@@ -4524,7 +4531,8 @@
           ]
         },
         "langs": {
-          "title": "Eine Übersetzungs-API für jeden Use-Case"
+          "title_line1": "Eine Übersetzungs-API ",
+          "title_line2": "für jeden Use-Case"
         },
         "features": {
           "items": [

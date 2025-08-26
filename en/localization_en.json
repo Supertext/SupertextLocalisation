@@ -1131,7 +1131,7 @@
         "allFunctionality": "Compare all features",
         "editSubscriptionMessageAdmin": "Would you like to edit your subscription? <link>Go to your dashboard</link>",
         "editSubscriptionMessageUser": "Would you like to edit your subscription? <link>Please contact your team admin<link/>",
-        "subscriptionSiteLicenseInfo": "Site license: All users added are automatically licensed."
+        "subscriptionSiteLicenseInfo": "Site license: all users added are automatically licensed."
       },
       "resources": {
         "title": "Linguistic resources",
@@ -1435,7 +1435,7 @@
         "licenseMultipleTag": "License user",
         "licenseMultipleTagNoLicencesAvailable": "You cannot assign licences to the selected members. {selectedCount} users were selected, but {licencesAvailable, plural, =0 {no licences are} =1 {only 1 licence is} other {only # licences are}} available.",
         "licenceMultipleSuccess": "{count, plural, =0 { No licences have been updated } =1 { The licence of 1 member has been updated } other { The licences of # members have been updated }} successfully",
-        "siteLicense": "Site licence: All users added are automatically licensed.",
+        "siteLicense": "Site licence: all users added are automatically licensed.",
         "siteLicenseDetails": "Subscription details"
       },
       "delivery": {
@@ -4263,7 +4263,7 @@
           "title_part2": " at scale with Supertext Enterprise",
           "subtitle": "Secure AI translation in 28 languages. Built for speed, quality and you.",
           "cta": "Get a quote",
-          "logoCarouselTitle": "Trusted by 1500+ companies every day"
+          "logoCarouselTitle": "Trusted by 1,500+ companies every day"
         },
         "section1": {
           "title": "Adaptive AI translation for multilingual success",
@@ -4312,21 +4312,22 @@
               "linkHref": "https://www.supertext.com/en/blog/deepl-vs-supertext-a-comparison-of-translation-performance"
             },
             {
-              "title": "<large>30%</large>",
+              "title": "30%",
               "content": "less revision needed with custom AI models"
             },
             {
-              "title": "<large>500+</large>",
+              "title": "500+",
               "content": "custom language models implemented at enterprise scale."
             },
             {
-              "title": "<large>3,000+</large>",
+              "title": "3,000+",
               "content": "language experts, there for you when every word counts."
             }
           ]
         },
         "langs": {
-          "title": "28 languages, endless possibilities"
+          "title_line1": "28 languages, ",
+          "title_line2": "endless possibilities"
         },
         "features": {
           "items": [
@@ -4454,14 +4455,14 @@
           "thankYou": {
             "eyebrow": "GET IN TOUCH",
             "title": "Thank you!",
-            "body": "We will get back to you as soon as possible. In the meantime, browse our blog for exciting insights and research topics.",
+            "body": "We will get back to you as soon as possible. In the meantime, check out our blog for exciting insights into our latest developments.",
             "cta": "Explore insights"
           }
         }
       },
       "supertextApi": {
         "hero": {
-          "title_part1": "Top-quality translation in ",
+          "title_part1": "Instant translation into ",
           "title_emph": "any system",
           "title_part2": " with the Supertext API",
           "subtitle": "Bring secure, efficient AI translation to any workflow – in up to 28 languages.",
@@ -4557,7 +4558,7 @@
             },
             {
               "heading": "Satisfied clients in every language",
-              "description": "With automatic multilingual support channels that follow your terminology and brand voice."
+              "description": "Increase customer satisfaction for the long term with automatic multilingual support channels that follow your terminology and brand voice."
             }
           ]
         },

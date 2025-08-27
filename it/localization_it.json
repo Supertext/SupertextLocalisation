@@ -1131,7 +1131,7 @@
         "allFunctionality": "Tutte le funzioni a confronto",
         "editSubscriptionMessageAdmin": "Desidera modificare i Suoi abbonamenti? <link>Al Dashboard</link>",
         "editSubscriptionMessageUser": "Desidera modificare i Suoi abbonamenti? <link>Si rivolga a un amministratore del Suo team<link/>",
-        "subscriptionSiteLicenseInfo": "Licenza globale: Tutti gli utenti aggiunti ricevono automaticamente una licenza."
+        "subscriptionSiteLicenseInfo": "Licenza aziendale: tutti gli utenti aggiunti ricevono automaticamente una licenza."
       },
       "resources": {
         "title": "Risorse linguistiche",
@@ -1398,7 +1398,7 @@
             "price_per_licence_month": "Prezzo per licenza, al mese",
             "price_per_licence_year": "Prezzo per licenza, all’anno",
             "titleSiteLicence": "Abbonamento del team",
-            "descriptionSiteLicence": "Il Suo team dispone di una licenza valida per tutta l’azienda: può aggiungere un numero illimitato di utenti. Se desidera modificare il Suo abbonamento, ci contatti."
+            "descriptionSiteLicence": "Il vostro team dispone di una licenza aziendale: potete aggiungere un numero illimitato di utenti. Se desiderate modificare il vostro abbonamento, non esitate a contattarci."
           },
           "authorisations": {
             "title": "Autorizzazioni di accesso",
@@ -1435,8 +1435,8 @@
         "licenseMultipleTag": "Assegna una licenza all’utente",
         "licenseMultipleTagNoLicencesAvailable": "Impossibile assegnare licenze ai membri selezionati. Sono stati selezionati {selectedCount} utenti, ma {licencesAvailable, plural, =0 {non è disponibile nessuna licenza } =1 { è disponibile solo 1 licenza } other {sono disponibili solo # licenze }}.",
         "licenceMultipleSuccess": "{count, plural, =0 {Nessuna licenza è stata aggiornata} =1 { La licenza di 1 membro è stata aggiornata} other {Le licenze di # membri sono state aggiornate}}",
-        "siteLicense": "Licenza globale: Tutti gli utenti aggiunti ricevono automaticamente una licenza.",
-        "siteLicenseDetails": "Dettagli dell'abbonamento"
+        "siteLicense": "Licenza aziendale: tutti gli utenti aggiunti ricevono automaticamente una licenza.",
+        "siteLicenseDetails": "Dettagli dell’abbonamento"
       },
       "delivery": {
         "title": "Consegna",
@@ -4260,8 +4260,8 @@
         "hero": {
           "subtitle": "Traduzione IA affidabile in 28 lingue. Sviluppata per una maggiore velocità e qualità, nonché su misura delle vostre esigenze.",
           "cta": "Richiedi un’offerta",
-          "logoCarouselTitle": "Trusted by 1500+ companies every day",
-          "title": "<highlight>Besser</highlight> übersetzen im ganzen Unternehmen – mit Supertext Enterprise"
+          "logoCarouselTitle": "La prima scelta per più di 1500 aziende",
+          "title": "Tradurre <highlight>meglio</highlight> in tutta lazienda – mit Supertext Enterprise"
         },
         "section1": {
           "title": "IA in grado di apprendere per un maggior successo in più lingue",
@@ -4310,7 +4310,7 @@
               "linkHref": "https://www.supertext.com/it/blog/deepl-vs-supertext-un-confronto-tra-performance-di-traduzione"
             },
             {
-              "title": "<large>30 %</large>",
+              "title": "<large>30%</large>",
               "content": "Meno correzioni grazie ai modelli IA su misura"
             },
             {
@@ -4446,10 +4446,10 @@
           "thankYou": {
             "eyebrow": "PARLIAMONE",
             "title": "Grazie!",
-            "body": "We will get back to you as soon as possible. In the meantime, browse our blog for exciting insights and research topics.",
-            "cta": "Explore insights"
+            "body": "Ci metteremo in contatto con voi il prima possibile. Nel frattempo, potete consultare il nostro blog per scoprire interessanti spunti sulle nostre ultime novità.",
+            "cta": "Scopri ora"
           },
-          "title": "Sie möchten ein <highlight>Angebot</highlight> oder haben eine <highlight>Frage</highlight>?"
+          "title": "Volete ricevere <highlight>un’offerta</highlight> o avete una <highlight>domanda</highlight>?"
         }
       },
       "supertextApi": {
@@ -4459,9 +4459,9 @@
             "primary": "Inizia ora",
             "secondary": "Alla documentazione API"
           },
-          "title": "Sofort übersetzen in <highlight>jedem System</highlight> mit der Supertext API",
+          "title": "Traduzione istantanea in <highlight>ogni interfaccia</highlight> con l’API Supertext",
           "logos": {
-            "trusted": "Vertraut von 1500+ Unternehmen jeden Tag"
+            "trusted": "La prima scelta degli sviluppatori di tutta Europa"
           }
         },
         "section1": {
@@ -4509,7 +4509,7 @@
           "items": [
             {
               "title": "In <large>3</large> su <large>4</large>",
-              "content": "combinazioni linguistiche meglio di DeepL secondo i blind test",
+              "content": "combinazioni linguistiche meglio di DeepL",
               "linkText": "leggi l’articolo di ricerca",
               "linkHref": "https://www.supertext.com/it/blog/deepl-vs-supertext-un-confronto-tra-performance-di-traduzione"
             },
@@ -4542,12 +4542,12 @@
               "description": "Con l’API Supertext traduzioni perfette e sempre on-brand. Grazie alla banca dati terminologica memorizzata, per contenuti coerenti e subito pubblicabili."
             },
             {
-              "heading": "Rendete la sicurezza dei dati lo standard dei vostri processi",
+              "heading": "Sicurezza dei dati, automatica in ogni processo",
               "description": "Con l’API Supertext, i contenuti riservati restano al sicuro senza complicazioni. Grazie a una soluzione centralizzata che riduce i rischi e migliora il controllo."
             },
             {
-              "heading": "Clientela soddisfatta in tutte le lingue",
-              "description": "Con canali di supporto tradotti in automatico che seguono alla lettera la lingua aziendale."
+              "heading": "La vostra assistenza clienti, professionale in tutte le lingue",
+              "description": "Migliorate la soddisfazione della vostra clientela in modo sostenibile. Grazie ai canali di supporto tradotti in automatico che seguono alla lettera la vostra lingua aziendale."
             }
           ]
         },
@@ -4589,7 +4589,7 @@
           }
         },
         "langs": {
-          "title": "Eine Übersetzungs-API für jeden Use-Case"
+          "title": "Un’API di traduzione, numerosi casi d’uso"
         }
       }
     },

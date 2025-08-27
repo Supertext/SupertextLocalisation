@@ -1131,7 +1131,7 @@
         "allFunctionality": "Toutes les fonctionnalités",
         "editSubscriptionMessageAdmin": "Vous souhaitez modifier votre abonnement? <link>Vers le tableau de bord</link>",
         "editSubscriptionMessageUser": "Vous souhaitez modifier votre abonnement? <link>Contactez un/-e admin de votre équipe<link/>",
-        "subscriptionSiteLicenseInfo": "Licence globale: tous/-tes les utilisateurs/-trices ajoutés/-es reçoivent automatiquement une autorisation."
+        "subscriptionSiteLicenseInfo": "Licence d’entreprise: tous/-tes les utilisateurs/-trices ajoutés/-es reçoivent automatiquement une autorisation."
       },
       "resources": {
         "title": "Ressources linguistiques",
@@ -1398,7 +1398,7 @@
             "price_per_licence_month": "Prix par licence, par mois",
             "price_per_licence_year": "Prix par licence, par an",
             "titleSiteLicence": "Abonnement d’équipe",
-            "descriptionSiteLicence": "Votre équipe dispose d’une licence globale – vous pouvez ajouter autant d’utilisateurs/-trices que vous le voulez. Si vous souhaitez modifier votre abonnement, il vous suffit de nous contacter."
+            "descriptionSiteLicence": "Votre équipe dispose d’une licence d’entreprise – vous pouvez ajouter autant d’utilisateurs/-trices que vous le voulez. Si vous souhaitez modifier votre abonnement, il vous suffit de nous contacter."
           },
           "authorisations": {
             "title": "Autorisations d’accès",
@@ -1435,7 +1435,7 @@
         "licenseMultipleTag": "Licence utilisateur/-trice",
         "licenseMultipleTagNoLicencesAvailable": "Vous ne pouvez pas attribuer de licences aux membres sélectionnés. {selectedCount} utilisateurs/-trices ont été sélectionnés/-ees, mais il y a {licencesAvailable, plural, =0 { aucune licence } =1 { seulement 1 licence } other { seulement # licences }} disponible(s).",
         "licenceMultipleSuccess": "{count, plural, =0 { Aucune licence n’a été mise à jour } =1 { La licence d’un membre a été mise à jour } other { Les licences de # membres ont été mises à jour }} avec succès",
-        "siteLicense": "Licence globale: tous/-tes les utilisateurs/-trices ajoutés/-es reçoivent automatiquement une autorisation.",
+        "siteLicense": "Licence d’entreprise: tous/-tes les utilisateurs/-trices ajoutés/-es reçoivent automatiquement une autorisation.",
         "siteLicenseDetails": "Détails de l’abonnement"
       },
       "delivery": {
@@ -4509,7 +4509,7 @@
           "items": [
             {
               "title": "<large> 3 </large> sur <large> 4 </large>",
-              "content": "Combinaisons de langues meilleures que DeepL selon des tests en aveugle",
+              "content": "Combinaisons de langues meilleures que DeepL",
               "linkText": "Lire l’article de recherche",
               "linkHref": "https://www.supertext.com/fr/blog/performance-de-traduction-comparaison-deepl-vs-supertext"
             },

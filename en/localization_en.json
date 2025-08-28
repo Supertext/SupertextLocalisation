@@ -754,6 +754,7 @@
     "welcomeMessage": "Grüezi.",
     "noEntries": "No entries found.",
     "placeOrder": "Place an order",
+    "placeOrderShort": "Order",
     "or": "or",
     "entriesPerPage": "Entries per page",
     "changeLanguage": "Change language",
@@ -1025,7 +1026,7 @@
           }
         },
         "firstMonthFree": "Free for 30 days, cancel anytime",
-        "cancelSubscriptionButton": "Cancel subscription",
+        "cancelSubscriptionButton": "Downgrade subscription",
         "footerNote": "Looking for a <highlightText>customised translation solution?</highlightText> Let's talk.",
         "requestAccess": "Request access",
         "requestAccessSuccess": "Your request was sent successfully",
@@ -4196,7 +4197,7 @@
                 "description": "Classic proofreading for absolutely error-free results. We check spelling, grammar and punctuation closely. Whether you choose one- or two-phase proofreading, you’ll always receive rapid, meticulous results.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               },
               {
@@ -4204,7 +4205,7 @@
                 "description": "Your services for stylistically flawless content. From Arabic to Zulu and from blog posts to epic poems. Including adjustments to style (editing) as well as structure and tone (rewriting) by selected authors and journalists.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               },
               {
@@ -4222,7 +4223,7 @@
                 "description": "Do you have ChatGPT, Jasper or Neuroflash to thank for your text? We can improve any automatically generated output with structure, logic and fact-checking. For more meaningful content and true brand safety.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               },
               {
@@ -4230,7 +4231,7 @@
                 "description": "The finishing touches for annual reports, ESG reports, financial metrics and more. Flexible, fast and always on-brand. Whether in PDF, InDesign, CMS or directly in your publishing system.",
                 "cta1": {
                   "title": "Start project",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               },
               {
@@ -4238,7 +4239,7 @@
                 "description": "Summa cum laude thanks to our proofreading and editing service for students. From independent projects to dissertations. Express delivery available on request.",
                 "cta1": {
                   "title": "Get in touch",
-                  "link": "/order/proofreading"
+                  "link": "/order/editing"
                 }
               }
             ]
@@ -4258,10 +4259,10 @@
       },
       "forEnterprise": {
         "hero": {
-          "subtitle": "Secure AI translation in 28 languages. Built for speed, quality, and you.",
+          "subtitle": "Secure AI translation in 28 languages. Built for speed, quality and you.",
           "cta": "Get a quote",
           "logoCarouselTitle": "Trusted by 1,500+ companies every day",
-          "title": "Translate <highlight>smarter</highlight> at scale with Supertext Enterprise"
+          "title": "<highlight>Quality</highlight> translation for your whole business with Supertext Enterprise"
         },
         "section1": {
           "title": "Adaptive AI translation for multilingual success",
@@ -4311,7 +4312,7 @@
             },
             {
               "title": "<large>30%</large>",
-              "content": "fewer revisions needed with custom AI models"
+              "content": "less revision needed with custom AI models"
             },
             {
               "title": "<large>500+</large>",
@@ -4362,7 +4363,7 @@
           },
           {
             "quote": "“We were able to reduce our delivery times by two thirds while maintaining the same level of quality.”",
-            "author": "Kerstin Brümmer, Terminologist at Ottobock"
+            "author": "Kerstin Brümmer, terminologist at Ottobock"
           },
           {
             "quote": "“Supertext integrates perfectly into our workflows and is used intensively across our company.”",
@@ -4376,11 +4377,11 @@
         "securityBlock": {
           "imageAlt": "Built for enterprise security",
           "title": "Built for enterprise security",
-          "body": "Here’s why we’re trusted by legal, financial and public-sector clients across Europe:",
+          "body": "Here’s why we’re trusted by legal, financial and public sector clients all around:",
           "bullets": [
             "Swiss or on-prem hosting",
-            "GDPR- & FADP- compliant",
-            "ISO 27001-, 9001-, 17100- & 18587-certified",
+            "GDPR & FADP compliant",
+            "ISO 27001, 9001, 17100 & 18587 certified",
             "SSO integration and access controls for team management",
             "Encrypted data transmission and no storage of translations",
             "Custom TLS/SSL certificates for enterprise"

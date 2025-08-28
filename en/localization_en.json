@@ -1025,7 +1025,7 @@
           }
         },
         "firstMonthFree": "Free for 30 days, cancel anytime",
-        "cancelSubscriptionButton": "Downgrade subscription",
+        "cancelSubscriptionButton": "Cancel subscription",
         "footerNote": "Looking for a <highlightText>customised translation solution?</highlightText> Let's talk.",
         "requestAccess": "Request access",
         "requestAccessSuccess": "Your request was sent successfully",
@@ -4258,10 +4258,10 @@
       },
       "forEnterprise": {
         "hero": {
-          "subtitle": "Secure AI translation in 28 languages. Built for speed, quality and you.",
+          "subtitle": "Secure AI translation in 28 languages. Built for speed, quality, and you.",
           "cta": "Get a quote",
           "logoCarouselTitle": "Trusted by 1,500+ companies every day",
-          "title": "<highlight>Quality</highlight> translation for your whole business with Supertext Enterprise"
+          "title": "Translate <highlight>smarter</highlight> at scale with Supertext Enterprise"
         },
         "section1": {
           "title": "Adaptive AI translation for multilingual success",
@@ -4311,7 +4311,7 @@
             },
             {
               "title": "<large>30%</large>",
-              "content": "less revision needed with custom AI models"
+              "content": "fewer revisions needed with custom AI models"
             },
             {
               "title": "<large>500+</large>",
@@ -4362,7 +4362,7 @@
           },
           {
             "quote": "“We were able to reduce our delivery times by two thirds while maintaining the same level of quality.”",
-            "author": "Kerstin Brümmer, terminologist at Ottobock"
+            "author": "Kerstin Brümmer, Terminologist at Ottobock"
           },
           {
             "quote": "“Supertext integrates perfectly into our workflows and is used intensively across our company.”",
@@ -4376,11 +4376,11 @@
         "securityBlock": {
           "imageAlt": "Built for enterprise security",
           "title": "Built for enterprise security",
-          "body": "Here’s why we’re trusted by legal, financial and public sector clients all around:",
+          "body": "Here’s why we’re trusted by legal, financial and public-sector clients across Europe:",
           "bullets": [
             "Swiss or on-prem hosting",
-            "GDPR & FADP compliant",
-            "ISO 27001, 9001, 17100 & 18587 certified",
+            "GDPR- & FADP- compliant",
+            "ISO 27001-, 9001-, 17100- & 18587-certified",
             "SSO integration and access controls for team management",
             "Encrypted data transmission and no storage of translations",
             "Custom TLS/SSL certificates for enterprise"

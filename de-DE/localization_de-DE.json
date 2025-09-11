@@ -409,6 +409,16 @@
   "lengthMatchingFeature": {
     "title": "Längenabgleich"
   },
+  "customBranding": {
+    "title": "edit interface",
+    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
+    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
+    "upload": "Upload file",
+    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
+    "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
+    "save": "Save changes",
+    "close": "close"
+  },
   "on": "Ein",
   "off": "Aus",
   "add": "Hinzufügen",

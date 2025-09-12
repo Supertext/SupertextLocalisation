@@ -409,16 +409,6 @@
   "lengthMatchingFeature": {
     "title": "Ajustement de la longueur"
   },
-  "customBranding": {
-    "title": "edit interface",
-    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
-    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
-    "upload": "Upload file",
-    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "save": "Save changes",
-    "close": "close"
-  },
   "on": "Oui",
   "off": "Non",
   "add": "Ajouter",
@@ -883,7 +873,6 @@
         },
         "back": "Retour",
         "verificationType": "Contrôle professionnel",
-        "ordersBeingCreated": "commende en cours de traitement",
         "priceVAT": "(TVA excl.)",
         "filters": {
           "groups": {
@@ -910,7 +899,8 @@
             "helpLine": "Les documents sources doivent encore être téléchargés",
             "upload": "Télécharger des documents"
           }
-        }
+        },
+        "ordersBeingCreated": "Auftrag wird vorbereitet"
       },
       "invoices": {
         "title": "Factures",
@@ -3153,7 +3143,7 @@
         },
         "lead": {
           "large": "Outil IA ou prestataire de services? Nous sommes les deux et <highlight>bien plus encore.</highlight>",
-          "small": "Supertext est un prestataire de services linguistiques global basé sur l’IA, avec des bureaux à Zurich et à Berlin. Plus de 1500 entreprises en Europe font confiance à nos solutions linguistiques, de notre traducteur en ligne adaptatif aux services certifiés ISO pour les documents multilingues, les sites web, les pages web, les applications et les campagnes multimédias. <break></break> <break></break>Notre équipe compte environ 100 spécialistes dans les domaines de l’intelligence artificielle, de la linguistique et de la sécurité. À cela s’ajoute un réseau sélectif de 3000 spécialistes linguistes indépendants/-es du monde entier. <break></break> <break></break>Ensemble, nous développons une plateforme unique pour les textes et les traductions, pour lesquelles les entreprises peuvent combiner l’IA et l’expertise linguistique humaine selon leurs souhaits. Nous réinventons ainsi la communication: efficace, précise, capable d’apprendre et avec une sécurité à la pointe de la technologie.",
+          "small": "Supertext est un prestataire de services d’IA spécialisé dans la traduction, avec des bureaux à Zurich et à Berlin. Plus de 1500 entreprises en Europe font confiance à nos solutions linguistiques, de notre traducteur en ligne adaptatif aux services certifiés ISO pour les documents multilingues, les sites web, les pages web, les applications et les campagnes multimédias. <break></break> <break></break>Notre équipe compte environ 100 spécialistes dans les domaines de l’intelligence artificielle, de la linguistique et de la sécurité. À cela s’ajoute un réseau sélectif de 3000 spécialistes linguistes indépendants/-es du monde entier. <break></break> <break></break>Ensemble, nous développons une plateforme unique pour les textes et les traductions, pour lesquelles les entreprises peuvent combiner l’IA et l’expertise linguistique humaine selon leurs souhaits. Nous réinventons ainsi la communication: efficace, précise, capable d’apprendre et avec une sécurité à la pointe de la technologie.",
           "cta": {
             "title": "Découvrir nos offres",
             "link": "/pourquoi-supertext"
@@ -4831,5 +4821,15 @@
       }
     },
     "textTooltip": "Cette traduction provient du glossaire enregistré <link>{glossary}</link>."
+  },
+  "customBranding": {
+    "title": "Edit interface",
+    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
+    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
+    "upload": "Upload file",
+    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
+    "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
+    "save": "Save changes",
+    "close": "Close"
   }
 }

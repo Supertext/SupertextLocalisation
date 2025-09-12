@@ -409,16 +409,6 @@
   "lengthMatchingFeature": {
     "title": "Length alignment"
   },
-  "customBranding": {
-    "title": "edit interface",
-    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
-    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
-    "upload": "Upload file",
-    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "save": "Save changes",
-    "close": "close"
-  },
   "on": "On",
   "off": "Off",
   "add": "Add",
@@ -883,7 +873,6 @@
         },
         "back": "Back",
         "verificationType": "Verification",
-        "ordersBeingCreated": "order is being created",
         "priceVAT": "(excl. VAT)",
         "filters": {
           "groups": {
@@ -910,7 +899,8 @@
             "helpLine": "The source documents still need to be uploaded",
             "upload": "Upload documents"
           }
-        }
+        },
+        "ordersBeingCreated": "Auftrag wird vorbereitet"
       },
       "invoices": {
         "title": "Invoices",
@@ -3149,11 +3139,11 @@
       "aboutSupertext": {
         "hero": {
           "title": "Where language AI meets real expertise",
-          "description": "Our mission: to ensure maximum certainty in communication."
+          "description": "Our mission: to ensure maximum certainty in multilingual communication through language AI that learns from human experts"
         },
         "lead": {
           "large": "AI tool or service agency? We are both – and, together, <highlight>so much more.</highlight>",
-          "small": "Supertext is an AI-based full-service language service provider with offices in Zurich and Berlin. Over 1,500 companies across Europe use our language solutions – from the adaptive online translator to the ISO-certified services for multilingual documents, websites, apps and multimedia campaigns.<break></break><break></break>Our team consists of around 100 specialists in the fields of artificial intelligence, linguistics and security. They’re complemented by a selected network of 3,000 freelance language professionals around the world. <break></break><break></break>Together, we are developing a unique platform for copywriting and translation where companies can combine AI and human language expertise to suit their needs. That’s how we are redefining communication: efficient, precise, adaptive and maximally secure.",
+          "small": "Supertext is an AI provider focused on translation, with offices in Zurich and Berlin. Over 1,500 companies across Europe use our language solutions – from the adaptive online translator to the ISO-certified services for multilingual documents, websites, apps and multimedia campaigns.<break></break><break></break>Our team consists of around 100 specialists in the fields of artificial intelligence, linguistics and security. They’re complemented by a selected network of 3,000 freelance language professionals around the world. <break></break><break></break>Together, we are developing a unique platform for copywriting and translation where companies can combine AI and human language expertise to suit their needs. That’s how we are redefining communication: efficient, precise, adaptive and maximally secure.",
           "cta": {
             "title": "Discover services",
             "link": "/why-supertext"
@@ -4831,5 +4821,15 @@
       }
     },
     "textTooltip": "This translation is taken from the saved glossary <link>{glossary}</link>."
+  },
+  "customBranding": {
+    "title": "Edit interface",
+    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
+    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
+    "upload": "Upload file",
+    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
+    "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
+    "save": "Save changes",
+    "close": "Close"
   }
 }

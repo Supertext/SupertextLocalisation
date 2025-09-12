@@ -409,16 +409,6 @@
   "lengthMatchingFeature": {
     "title": "Längenabgleich"
   },
-  "customBranding": {
-    "title": "edit interface",
-    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
-    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
-    "upload": "Upload file",
-    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "save": "Save changes",
-    "close": "close"
-  },
   "on": "Ein",
   "off": "Aus",
   "add": "Hinzufügen",
@@ -883,7 +873,6 @@
         },
         "back": "Zurück",
         "verificationType": "Profi-Check",
-        "ordersBeingCreated": "Auftrag wird vorbereitet",
         "priceVAT": "exkl. MwSt.",
         "filters": {
           "groups": {
@@ -910,7 +899,8 @@
             "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
             "upload": "Dokumente hochladen"
           }
-        }
+        },
+        "ordersBeingCreated": "Auftrag wird vorbereitet"
       },
       "invoices": {
         "title": "Rechnungen",
@@ -3065,7 +3055,7 @@
         },
         "lead": {
           "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie.</highlight> Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
-          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus rund 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
+          "small": "Supertext ist ein KI-Anbieter mit Fokus auf Übersetzung und arbeitet für über 1500 Unternehmen in ganz Europa. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit KI und menschlicher Sprachexpertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Software- und Service-Lösungen steckt ein Team aus rund 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
           "cta": {
             "title": "Mehr zu unserer Vision",
             "link": "/warum-supertext"
@@ -3149,11 +3139,11 @@
       "aboutSupertext": {
         "hero": {
           "title": "Wo Language AI auf echte Expertise trifft",
-          "description": "Unsere Mission: Wir sorgen für maximale Gewissheit in der Kommunikation."
+          "description": "Unsere Mission: Maximale Gewissheit in der mehrsprachigen Kommunikation – dank Language AI, die von echten Profis lernt."
         },
         "lead": {
           "large": "AI-Tool oder Service-Agentur? Wir sind beides – und zusammen <highlight>viel mehr als das.</highlight>",
-          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom lernfähigen Online-Übersetzer bis zum ISO-zertifizierten Service für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
+          "small": "Supertext ist ein KI-Anbieter mit Fokus auf Übersetzung und Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom lernfähigen Online-Übersetzer bis zum ISO-zertifizierten Service für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
           "cta": {
             "title": "Angebot entdecken",
             "link": "/warum-supertext"
@@ -4831,5 +4821,15 @@
       }
     },
     "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar <link>{glossary}</link>."
+  },
+  "customBranding": {
+    "title": "Edit interface",
+    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
+    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
+    "upload": "Upload file",
+    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
+    "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
+    "save": "Save changes",
+    "close": "Close"
   }
 }

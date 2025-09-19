@@ -340,12 +340,8 @@
     "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien, die grösser als {0} MB sind, werden derzeit nicht unterstützt.",
     "estimatedTime": "Geschätzte verbleibende Zeit: {0}",
     "expectationExceeded": "Die Übersetzung dauert länger als erwartet. Bitte warten Sie …",
-    "ocrHelperText": "Mithilfe von OCR lassen sich gescannte oder fotografierte PDFs besser verarbeiten. Für normale PDFs, die nur Text enthalten, ist OCR nicht erforderlich.",
-    "ocr_options": {
-      "ocr_auto": "Auto",
-      "ocr_off": "Aus",
-      "ocr_on": "Ein"
-    },
+    "ocrLabel": "Text aus Bildern extrahieren",
+    "ocrHelperText": "Optische Zeichenerkennung scannt Bilder und Scans auf Text und extrahiert sie zur Übersetzung. Für normale PDFs, die nur Text enthalten, ist dies nicht nötig.",
     "successfullDownload": {
       "title": "Datei erfolgreich heruntergeladen",
       "description": "Sie können eine andere Datei zum Übersetzen hochladen"

@@ -340,7 +340,6 @@
     "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien, die grösser als {0} MB sind, werden derzeit nicht unterstützt.",
     "estimatedTime": "Geschätzte verbleibende Zeit: {0}",
     "expectationExceeded": "Die Übersetzung dauert länger als erwartet. Bitte warten Sie …",
-    "ocrLabel": "Text aus Bildern extrahieren",
     "ocrHelperText": "Optische Zeichenerkennung scannt Bilder und Scans auf Text und extrahiert sie zur Übersetzung. Für normale PDFs, die nur Text enthalten, ist dies nicht nötig.",
     "successfullDownload": {
       "title": "Datei erfolgreich heruntergeladen",
@@ -385,7 +384,8 @@
       "message": "{remaining}/{total} Dateien verfügbar",
       "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}",
       "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
-    }
+    },
+    "ocrLabel": "Text aus Bildern extrahieren"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Text",

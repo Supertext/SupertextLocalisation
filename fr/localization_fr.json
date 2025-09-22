@@ -341,11 +341,6 @@
     "estimatedTime": "Temps restant estimé: {0}",
     "expectationExceeded": "La traduction prend plus de temps que prévu. Merci de patienter...",
     "ocrHelperText": "L’Optical Character Recognition (OCR) permet de mieux traiter les PDF scannés ou photographiés. Il n’est cependant pas nécessaire pour les PDF normaux qui ne contiennent que du texte.",
-    "ocr_options": {
-      "ocr_auto": "Auto",
-      "ocr_off": "Non",
-      "ocr_on": "Oui"
-    },
     "successfullDownload": {
       "title": "Fichier téléchargé avec succès",
       "description": "Vous pouvez télécharger un autre fichier à traduire."
@@ -389,7 +384,8 @@
       "message": "{remaining}/{total} fichier(s) disponible(s)",
       "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} free {Supertext Free comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} other {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.}}",
       "unregisteredPopover": "Vous devez être connecté/-ée pour commencer à traduire des fichiers."
-    }
+    },
+    "ocrLabel": ""
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Texte",
@@ -4740,11 +4736,11 @@
         }
       },
       "advancedSubscriptionPanel": {
-        "title": "NOUVEAU: SUPERTEXT ADVANCED",
-        "description": "Profitez de 28 langues et d’un meilleur contrôle grâce aux glossaires.",
+        "title": "",
+        "description": "",
         "cta": {
-          "title": "Essai gratuit de 30 jours.",
-          "link": "/subscriptions"
+          "title": "",
+          "link": ""
         }
       }
     },
@@ -4831,13 +4827,13 @@
     "textTooltip": "Cette traduction provient du glossaire enregistré <link>{glossary}</link>."
   },
   "customBranding": {
-    "title": "Edit interface",
-    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
-    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
-    "upload": "Upload file",
-    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "save": "Save changes",
-    "close": "Close"
+    "title": "Modifier l’interface",
+    "description": "Vous pouvez effectuer des réglages de base pour créer un espace de travail personnalisé – téléchargez votre logo et définissez deux couleurs pour l’interface de traduction. D’autres réglages personnalisés peuvent être effectués dans le cockpit sous «Personnaliser l’interface».",
+    "logoDescription": "Téléchargez de préférence un fichier .png transparent ou un fichier .svg d’une hauteur maximale de XY pixels.",
+    "upload": "Télécharger un fichier",
+    "primaryColorDescription": "Définissez votre couleur préférée pour les boutons primaires et choisissez si les icônes et les textes situés à l’intérieur doivent s’afficher en noir ou en blanc.",
+    "secondaryColorDescription": "Définissez votre couleur préférée pour les boutons secondaires et choisissez si les icônes et les textes situés à l’intérieur doivent s’afficher en noir ou en blanc.",
+    "save": "Sauvegarder les changements",
+    "close": "Fermer"
   }
 }

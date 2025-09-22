@@ -341,11 +341,6 @@
     "estimatedTime": "Tempo rimanente stimato: {0}",
     "expectationExceeded": "La traduzione richiede più tempo del previsto. Attenda, prego…",
     "ocrHelperText": "L’OCR consente di elaborare meglio i PDF scansionati o fotografati. Per i PDF standard che contengono solamente testo, l’OCR non è necessario.",
-    "ocr_options": {
-      "ocr_auto": "Auto",
-      "ocr_off": "Off",
-      "ocr_on": "On"
-    },
     "successfullDownload": {
       "title": "Il file è stato scaricato",
       "description": "Può caricare un altro file da tradurre"
@@ -389,7 +384,8 @@
       "message": "{remaining}/{total} file disponibili",
       "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, =1 {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese}}",
       "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
-    }
+    },
+    "ocrLabel": ""
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Testo",
@@ -900,7 +896,7 @@
             "upload": "Carica i documenti"
           }
         },
-        "ordersBeingCreated": "Auftrag wird vorbereitet"
+        "ordersBeingCreated": "L’ordine è in fase di preparazione"
       },
       "invoices": {
         "title": "Fatture",
@@ -3139,7 +3135,7 @@
       "aboutSupertext": {
         "hero": {
           "title": "Il connubio tra IA linguistica e talenti eccezionali",
-          "description": "La nostra missione: garantire la massima accuratezza comunicativa."
+          "description": "La nostra missione: garantire la massima accuratezza nella comunicazione multilingue tramite un’IA linguistica che apprende da esperti umani."
         },
         "lead": {
           "large": "Tool IA o agenzia di servizi? Siamo entrambe le cose e <highlight>insieme molto di più.</highlight>",
@@ -4740,11 +4736,11 @@
         }
       },
       "advancedSubscriptionPanel": {
-        "title": "NOVITÀ: SUPERTEXT ADVANCED",
-        "description": "Con 28 lingue e per una maggiore precisione grazie alla funzione di glossario.",
+        "title": "",
+        "description": "",
         "cta": {
-          "title": "Provatelo gratis per 30 giorni.",
-          "link": "/subscriptions"
+          "title": "",
+          "link": ""
         }
       }
     },
@@ -4831,13 +4827,13 @@
     "textTooltip": "Questa traduzione proviene dal glossario salvato <link>{glossary}</link>."
   },
   "customBranding": {
-    "title": "Edit interface",
-    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
-    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
-    "upload": "Upload file",
-    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
-    "save": "Save changes",
-    "close": "Close"
+    "title": "Modifica interfaccia",
+    "description": "È possibile apportare modifiche di base per creare uno spazio di lavoro personalizzato direttamente qui: carichi il Suo logo e scelga due colori per l’interfaccia di traduzione. Ulteriori opzioni personalizzate possono essere impostate nella sezione di configurazione del cockpit.",
+    "logoDescription": "Consigliamo di caricare un file .png trasparente o un file .svg con altezza massima di XY pixel.",
+    "upload": "Carica file",
+    "primaryColorDescription": "Imposti un colore per i pulsanti principali e scelga se le icone e il relativo testo debbano visualizzati in bianco o in nero.",
+    "secondaryColorDescription": "Imposti un colore per i pulsanti secondari e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",
+    "save": "Salva  modifiche",
+    "close": "Chiudi"
   }
 }

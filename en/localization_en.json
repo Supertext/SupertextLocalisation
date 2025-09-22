@@ -341,11 +341,6 @@
     "estimatedTime": "Estimated remaining time: {0}",
     "expectationExceeded": "The translation is taking longer than expected. Please wait...",
     "ocrHelperText": "OCR helps to process scanned or photographed PDFs. For normal PDFs that only contain text, OCR is not required.",
-    "ocr_options": {
-      "ocr_auto": "Automatic",
-      "ocr_off": "Off",
-      "ocr_on": "On"
-    },
     "successfullDownload": {
       "title": "File downloaded successfully",
       "description": "You can upload another file to translate"
@@ -389,7 +384,8 @@
       "message": "{remaining}/{total} files available",
       "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month} free {Supertext Free includes {count, plural, =1 {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month}}",
       "unregisteredPopover": "You must be logged in to begin translating files."
-    }
+    },
+    "ocrLabel": ""
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Text",
@@ -4740,11 +4736,11 @@
         }
       },
       "advancedSubscriptionPanel": {
-        "title": "NEW: SUPERTEXT ADVANCED",
-        "description": "28 languages and even more control with glossaries.",
+        "title": "",
+        "description": "",
         "cta": {
-          "title": "Try it free for 30 days.",
-          "link": "/subscriptions"
+          "title": "",
+          "link": ""
         }
       }
     },

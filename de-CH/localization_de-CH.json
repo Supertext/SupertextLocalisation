@@ -4828,6 +4828,9 @@
   },
   "customBranding": {
     "title": "Edit interface",
+    "primaryColor": "Primary color",
+    "secondaryColor": "Secondary color",
+    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}",
     "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
     "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
     "upload": "Upload file",

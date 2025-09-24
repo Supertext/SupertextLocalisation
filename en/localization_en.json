@@ -385,7 +385,7 @@
       "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month} free {Supertext Free includes {count, plural, =1 {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month}}",
       "unregisteredPopover": "You must be logged in to begin translating files."
     },
-    "ocrLabel": ""
+    "ocrLabel": "Extract text from images"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Text",
@@ -896,7 +896,7 @@
             "upload": "Upload documents"
           }
         },
-        "ordersBeingCreated": "Auftrag wird vorbereitet"
+        "ordersBeingCreated": "Preparing your order"
       },
       "invoices": {
         "title": "Invoices",
@@ -4736,11 +4736,11 @@
         }
       },
       "advancedSubscriptionPanel": {
-        "title": "",
-        "description": "",
+        "title": "NEW: SUPERTEXT ADVANCED",
+        "description": "28 languages and more control with glossaries.",
         "cta": {
-          "title": "",
-          "link": ""
+          "title": "Try it free for 30 days",
+          "link": "/subscriptions"
         }
       }
     },
@@ -4828,8 +4828,8 @@
   },
   "customBranding": {
     "title": "Edit interface",
-    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
-    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
+    "description": "You can make basic adjustments to create a custom workspace right here. Simply upload your logo and define two colours for the translation interface. Further custom settings can be specified in the interface under “Appearance”.",
+    "logoDescription": "Ideally, you should upload a transparent PNG file or an SVG file with a maximum height of XY pixels.",
     "upload": "Upload file",
     "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
     "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",

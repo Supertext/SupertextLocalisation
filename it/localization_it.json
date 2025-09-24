@@ -385,7 +385,7 @@
       "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, =1 {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese}}",
       "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
     },
-    "ocrLabel": ""
+    "ocrLabel": "Estrai testo dalle immagini"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Testo",
@@ -3914,7 +3914,7 @@
                 "description": "Da Word a PowerPoint, da InDesign a Illustrator, da HTML a XML, traduciamo i vostri testi in qualsiasi formato in modo semplice, veloce e sempre formattati alla perfezione.",
                 "cta1": {
                   "title": "Inizia un progetto",
-                  "link": "/ordine/traduzione?customOrderStyleName=common"
+                  "link": "/ordine/traduzione"
                 }
               },
               {
@@ -4736,11 +4736,11 @@
         }
       },
       "advancedSubscriptionPanel": {
-        "title": "",
-        "description": "",
+        "title": "NOVITÀ: SUPERTEXT ADVANCED",
+        "description": "28 lingue e ancora più precisione grazie ai glossari.",
         "cta": {
-          "title": "",
-          "link": ""
+          "title": "Provalo gratuitamente per 30 giorni.",
+          "link": "/iscrizioni"
         }
       }
     },
@@ -4831,7 +4831,7 @@
     "description": "È possibile apportare modifiche di base per creare uno spazio di lavoro personalizzato direttamente qui: carichi il Suo logo e scelga due colori per l’interfaccia di traduzione. Ulteriori opzioni personalizzate possono essere impostate nella sezione di configurazione del cockpit.",
     "logoDescription": "Consigliamo di caricare un file .png trasparente o un file .svg con altezza massima di XY pixel.",
     "upload": "Carica file",
-    "primaryColorDescription": "Imposti un colore per i pulsanti principali e scelga se le icone e il relativo testo debbano visualizzati in bianco o in nero.",
+    "primaryColorDescription": "Imposti un colore per i pulsanti principali e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",
     "secondaryColorDescription": "Imposti un colore per i pulsanti secondari e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",
     "save": "Salva  modifiche",
     "close": "Chiudi"

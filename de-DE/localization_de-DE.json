@@ -4834,6 +4834,9 @@
     "primaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die primären Buttons fest und wählen Sie, ob die darin platzierten Symbole und Texte in Schwarz oder Weiss angezeigt werden sollen.",
     "secondaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die sekundären Buttons fest und wählen Sie, ob die darin platzierten Symbole und Texte in Schwarz oder Weiss angezeigt werden sollen.",
     "save": "Änderungen speichern",
-    "close": "Schließen"
+    "close": "Schließen",
+    "primaryColor": "Primary color",
+    "secondaryColor": "Secondary color",
+    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
   }
 }

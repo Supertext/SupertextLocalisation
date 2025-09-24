@@ -4828,15 +4828,15 @@
   },
   "customBranding": {
     "title": "Darstellung anpassen",
-    "primaryColor": "Primary color",
-    "secondaryColor": "Secondary color",
-    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}",     
     "description": "Sie können hier grundlegende Anpassungen vornehmen, um einen benutzerdefinierten Arbeitsbereich zu erstellen – laden Sie Ihr Logo hoch und definieren Sie zwei Farben für das Translation Interface. Weitere benutzerdefinierte Einstellungen können im Cockpit unter „Interface anpassen“ vorgenommen werden.",
     "logoDescription": "Idealerweise sollten Sie eine transparente .png-Datei oder eine .svg-Datei mit einer maximalen Höhe von XY Pixeln hochladen.",
     "upload": "Datei hochladen",
     "primaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die primären Buttons fest und wählen Sie, ob die darin platzierten Symbole und Texte in Schwarz oder Weiss angezeigt werden sollen.",
     "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
     "save": "Save changes",
-    "close": "Close"
+    "close": "Close",
+    "primaryColor": "Primary color",
+    "secondaryColor": "Secondary color",
+    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
   }
 }

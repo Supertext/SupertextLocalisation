@@ -4834,6 +4834,9 @@
     "primaryColorDescription": "Imposti un colore per i pulsanti principali e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",
     "secondaryColorDescription": "Imposti un colore per i pulsanti secondari e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",
     "save": "Salva  modifiche",
-    "close": "Chiudi"
+    "close": "Chiudi",
+    "primaryColor": "Primary color",
+    "secondaryColor": "Secondary color",
+    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
   }
 }

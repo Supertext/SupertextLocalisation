@@ -385,7 +385,7 @@
       "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}",
       "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
     },
-    "ocrLabel": ""
+    "ocrLabel": "Text aus Bildern extrahieren"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Text",
@@ -4736,11 +4736,11 @@
         }
       },
       "advancedSubscriptionPanel": {
-        "title": "",
-        "description": "",
+        "title": "NEU: SUPERTEXT ADVANCED",
+        "description": "28 Sprachen und noch mehr Kontrolle dank Glossaren.",
         "cta": {
-          "title": "",
-          "link": ""
+          "title": "Jetzt 30 Tage kostenlos testen.",
+          "link": "/abos"
         }
       }
     },

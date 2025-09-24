@@ -340,7 +340,7 @@
     "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien, die grösser als {0} MB sind, werden derzeit nicht unterstützt.",
     "estimatedTime": "Geschätzte verbleibende Zeit: {0}",
     "expectationExceeded": "Die Übersetzung dauert länger als erwartet. Bitte warten Sie …",
-    "ocrHelperText": "Optische Zeichenerkennung scannt Bilder und Scans auf Text und extrahiert sie zur Übersetzung. Für normale PDFs, die nur Text enthalten, ist dies nicht nötig.",
+    "ocrHelperText": "Mithilfe von OCR lassen sich gescannte oder fotografierte PDFs besser verarbeiten. Für normale PDFs, die nur Text enthalten, ist OCR nicht erforderlich.",
     "successfullDownload": {
       "title": "Datei erfolgreich heruntergeladen",
       "description": "Sie können eine andere Datei zum Übersetzen hochladen"
@@ -3051,7 +3051,7 @@
         },
         "lead": {
           "large": "Wir lieben und leben <highlight>Sprache</highlight> und <highlight>Technologie.</highlight> Und sind immer auf der Suche nach <highlight>neuen Talenten</highlight>, die genauso ticken.",
-          "small": "Als internationaler AI-Sprachdienstleister dürfen wir Projekte für über 1500 Unternehmen in ganz Europa abwickeln. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit AI und menschlicher Expertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Sprachtechnologielösungen steckt ein Team aus rund 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
+          "small": "Supertext ist ein KI-Anbieter mit Fokus auf Übersetzung und arbeitet für über 1500 Unternehmen in ganz Europa. Wir treiben Veränderung voran und entwickeln Lösungen, die den Status quo neu definieren. Mit KI und menschlicher Sprachexpertise als Mittelpunkt unserer Arbeit. <break></break> <break></break> Hinter unseren Software- und Service-Lösungen steckt ein Team aus rund 100 Expert:innen in AI Research, Software, Linguistik und Projektmanagement. Angetrieben von ständigem Wissensaustausch und schnellem Denken und Handeln.",
           "cta": {
             "title": "Mehr zu unserer Vision",
             "link": "/warum-supertext"
@@ -3135,11 +3135,11 @@
       "aboutSupertext": {
         "hero": {
           "title": "Wo Language AI auf echte Expertise trifft",
-          "description": "Unsere Mission: Wir sorgen für maximale Gewissheit in der Kommunikation."
+          "description": "Unsere Mission: Maximale Gewissheit in der mehrsprachigen Kommunikation – dank Language AI, die von echten Profis lernt."
         },
         "lead": {
           "large": "AI-Tool oder Service-Agentur? Wir sind beides – und zusammen <highlight>viel mehr als das</highlight>.",
-          "small": "Supertext ist ein KI-basierter Full-Service-Sprachdienstleister mit Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom lernfähigen Online-Übersetzer bis zum ISO-zertifizierten Service für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
+          "small": "Supertext ist ein KI-Anbieter mit Fokus auf Übersetzung und Standorten in Zürich und Berlin. Mehr als 1500 Unternehmen in ganz Europa setzen auf unsere Sprachlösungen – vom lernfähigen Online-Übersetzer bis zum ISO-zertifizierten Service für mehrsprachige Dokumente, Webseiten, Apps und Multimedia-Kampagnen.<break></break><break></break>Unser Team umfasst rund 100 Spezialist:innen aus den Bereichen künstliche Intelligenz, Linguistik und Security. Dazu kommt ein ausgewähltes Netzwerk aus 3000 freischaffenden Sprachprofis rund um den Globus.<break></break><break></break>Gemeinsam entwickeln wir eine einzigartige Plattform für Texte und Übersetzungen, auf der Unternehmen KI und menschliche Sprachexpertise ganz nach ihren Wünschen kombinieren können. Damit definieren wir Kommunikation neu: effizient, präzise, lernfähig und maximal sicher.",
           "cta": {
             "title": "Angebot entdecken",
             "link": "/warum-supertext"
@@ -4740,7 +4740,7 @@
         "description": "28 Sprachen und noch mehr Kontrolle dank Glossaren.",
         "cta": {
           "title": "Jetzt 30 Tage kostenlos testen.",
-          "link": "/subscriptions"
+          "link": "/abos"
         }
       }
     },
@@ -4827,14 +4827,11 @@
     "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar <link>{glossary}</link>."
   },
   "customBranding": {
-    "title": "Edit interface",
-    "primaryColor": "Primary color",
-    "secondaryColor": "Secondary color",
-    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}",
-    "description": "You can make basic adjustments to create a custom workspace right here – upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under Appearance.",
-    "logoDescription": "Ideally, you should upload a transparent png file or an svg file with a maximum height of XY pixels.",
-    "upload": "Upload file",
-    "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
+    "title": "Darstellung anpassen",
+    "description": "Sie können hier grundlegende Anpassungen vornehmen, um einen benutzerdefinierten Arbeitsbereich zu erstellen – laden Sie Ihr Logo hoch und definieren Sie zwei Farben für das Translation Interface. Weitere benutzerdefinierte Einstellungen können im Cockpit unter „Interface anpassen“ vorgenommen werden.",
+    "logoDescription": "Idealerweise sollten Sie eine transparente .png-Datei oder eine .svg-Datei mit einer maximalen Höhe von XY Pixeln hochladen.",
+    "upload": "Datei hochladen",
+    "primaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die primären Buttons fest und wählen Sie, ob die darin platzierten Symbole und Texte in Schwarz oder Weiss angezeigt werden sollen.",
     "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
     "save": "Save changes",
     "close": "Close"

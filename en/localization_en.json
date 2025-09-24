@@ -4834,6 +4834,9 @@
     "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
     "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
     "save": "Save changes",
-    "close": "Close"
+    "close": "Close",
+    "primaryColor": "Primary color",
+    "secondaryColor": "Secondary color",
+    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
   }
 }

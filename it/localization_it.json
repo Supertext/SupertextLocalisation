@@ -173,9 +173,9 @@
         "close": "Chiudi"
       },
       "qualitative_title": "Was ist der Hauptgrund für ihr Rating? Was können wir besser machen?",
-      "qualitative_placeholder": "Ihre Nachricht (optional)",
-      "email_title": "Ihre Email-Adresse (für allfällige Rückfragen)",
-      "email_placeholder": "translate@better.ch (optional)"
+      "qualitative_placeholder": "il Suo messaggio (opzionale)",
+      "email_title": "il Suo indirizzo e-mail (per eventuali domande)",
+      "email_placeholder": "translate@better.ch (opzionale)"
     },
     "cookieBanner": {
       "textPrefix": "Utilizziamo i cookie per migliorare costantemente il nostro sito web. Cliccando su «Accetta» si acconsente all’utilizzo dei cookie in conformità con la nostra",
@@ -389,7 +389,7 @@
       "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, =1 {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese}}",
       "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
     },
-    "ocrLabel": "Estrai testo dalle immagini DELETE"
+    "ocrLabel": "Estrarre testo dalle immagini"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Testo",
@@ -4839,8 +4839,8 @@
     "secondaryColorDescription": "Imposti un colore per i pulsanti secondari e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",
     "save": "Salva  modifiche",
     "close": "Chiudi",
-    "primaryColor": "Primary color",
-    "secondaryColor": "Secondary color",
-    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
+    "primaryColor": "colore primario",
+    "secondaryColor": "colore complementare",
+    "contrastError": "Questa combinazione di colori risulterà di difficile lettura. Rapporto consigliato ≥ 4,5, rapporto attuale: {ratio}"
   }
 }

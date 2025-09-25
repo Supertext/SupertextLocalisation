@@ -172,9 +172,9 @@
         "submit": "Abschicken",
         "close": "Schließen"
       },
-      "qualitative_title": "Was ist der Hauptgrund für ihr Rating? Was können wir besser machen?",
+      "qualitative_title": "Was ist der Hauptgrund für Ihr Rating? Was können wir besser machen?",
       "qualitative_placeholder": "Ihre Nachricht (optional)",
-      "email_title": "Ihre Email-Adresse (für allfällige Rückfragen)",
+      "email_title": "Ihre E-Mail-Adresse (für eventuelle Rückfragen)",
       "email_placeholder": "translate@better.ch (optional)"
     },
     "cookieBanner": {
@@ -389,7 +389,7 @@
       "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}",
       "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
     },
-    "ocrLabel": "Text aus Bildern extrahieren DELETE"
+    "ocrLabel": "Text aus Bildern extrahieren"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Text",
@@ -4839,8 +4839,8 @@
     "secondaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die sekundären Buttons fest und wählen Sie, ob die darin platzierten Symbole und Texte in Schwarz oder Weiss angezeigt werden sollen.",
     "save": "Änderungen speichern",
     "close": "Schließen",
-    "primaryColor": "Primary color",
-    "secondaryColor": "Secondary color",
-    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
+    "primaryColor": "Primäre Farbe",
+    "secondaryColor": "Sekundäre Farbe",
+    "contrastError": "Diese Farbkombination führt zu einer erschwerten Lesbarkeit. Empfohlenes Verhältnis ≥ 4.5, aktuelles Verhältnis: {ratio}"
   }
 }

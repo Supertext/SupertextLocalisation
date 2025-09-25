@@ -1581,79 +1581,79 @@
         "description": "Lei non ha accesso a queste impostazioni. Si rivolga a un amministratore del Suo team."
       },
       "appearance": {
-        "title": "Aussehen",
-        "description": "Passen Sie das Aussehen Ihres Dashboards an.",
+        "title": "Configurazione",
+        "description": "Definisca la configurazione del Suo dashboards.",
         "sections": {
-          "subdomainAndLinks": "Benutzerdefinierte Subdomain und interne Links",
-          "availableServices": "Verfügbare Dienste",
-          "interface": "Übersetzungsoberflächen-Design"
+          "subdomainAndLinks": "Sottodominio personalizzato e link interni",
+          "availableServices": "Servizi disponibili",
+          "interface": "Design dell’interfaccia di traduzione"
         },
         "buttons": {
-          "subdomainAndLinks": "Subdomain und Links",
-          "availableServices": "Verfügbare Dienste",
-          "interface": "Oberfläche",
-          "saveChanges": "Änderungen speichern",
-          "reset": "Zurücksetzen"
+          "subdomainAndLinks": "Sottodominio e link",
+          "availableServices": "Servizi disponibili",
+          "interface": "Interfaccia",
+          "saveChanges": "Salva modifiche",
+          "reset": "Ripristina"
         },
         "errors": {
-          "validationErrors": "Es gibt eine oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern."
+          "validationErrors": "Si sono verificati uno o più errori durante la convalida del modulo. Correggerli prima di salvare."
         },
         "subdomain": {
-          "title": "Benutzerdefinierte Subdomain",
-          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen",
+          "title": "Sottodominio personalizzato",
+          "description": "Imposti un sottodominio (ad es. company.supertext.com) che consenta al Suo team di accedere direttamente alla piattaforma personalizzata di Supertext. Il Suo team può comunque accedere alla piattaforma anche su supertext.com.",
           "placeholder": "subdomain-example",
           "suffix": ".supertext.com"
         },
         "links": {
-          "title": "Links für mein Team",
-          "description": "Sie können bis zu vier Links für Ihr Team hinzufügen, z. B. zu bestimmten Übersetzungsrichtlinien oder zu Ihrem Intranet. Um die Links in der Hauptbenutzer-Dropdown-Liste anzuzeigen, müssen Sie eine Beschreibung hinzufügen, die immer angezeigt wird. Wenn Sie möchten, dass wir die Beschreibung in verschiedenen Sprachen anzeigen, geben Sie dies bitte entsprechend an.",
+          "title": "Link per il mio team",
+          "description": "Può aggiungere fino a quattro link per il Suo team, ad es. link a linee guida specifiche per la traduzione o link che rimandano alla Sua intranet. Per visualizzare i link nell’elenco a cascata dell’utente principale, è necessario aggiungere una descrizione che venga sempre visualizzata. Se desidera che la descrizione venga visualizzata in diverse lingue, lo specifichi.",
           "linkNumber": "Link {number}",
-          "descriptionPlaceholder": "Linkbeschreibung",
-          "urlPlaceholder": "Ziel-URL",
-          "characterLimit": "Die Linkbeschreibung darf {limit} Zeichen nicht überschreiten.",
-          "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
-          "or": "oder"
+          "descriptionPlaceholder": "Descrizione link",
+          "urlPlaceholder": "URL di destinazione",
+          "characterLimit": "La descrizione del link non deve superare il numero massimo di {limit} caratteri.",
+          "urlRequired": "Questo link è provvisto di descrizioni, ma non di un URL di destinazione. Aggiunga un URL o rimuova le descrizioni.",
+          "or": "oppure"
         },
         "services": {
           "verification": {
-            "title": "Verifizierung",
-            "description": "Lassen Sie Ihr Team unseren Verifizierungsdienst nutzen, bei dem erfahrene Supertext-Linguisten die maschinelle Übersetzung schnell überprüfen können."
+            "title": "Verifica professionale",
+            "description": "Consenta al Suo team di utilizzare il servizio di verifica professionale, con cui sottoporre la traduzione automatica al controllo degli esperti linguisti di Supertext."
           },
           "languageServices": {
-            "title": "Professionelle Sprachdienste (\"Platzieren Sie eine Bestellung\")",
-            "description": "Geben Sie Ihrem Team die Erlaubnis, Aufträge für spezialisierte Übersetzungs-, Copywriting- und Lektoratsprojekte zu platzieren oder nicht."
+            "title": "Servizi linguistici professionali (\"Effettua un ordine\")",
+            "description": "Decida se autorizzare o meno il Suo team a effettuare ordini per progetti specializzati di traduzione, copywriting e revisione."
           }
         },
         "interface": {
           "logo": {
             "title": "Logo",
-            "noLogoUploaded": "Kein Logo hochgeladen",
-            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
-            "uploadLogo": "Logo hochladen",
-            "logoUrl": "Logo-URL",
-            "suggestedDimensions": "Empfohlene Bildabmessungen: 140 × 30 Pixel.",
-            "maxFileSize": "Maximale Dateigrösse: 2MB"
+            "noLogoUploaded": "Non è stato caricato alcun logo",
+            "clickOrDragDrop": "Cliccare qui o trascinare qui un’immagine",
+            "uploadLogo": "Carica logo",
+            "logoUrl": "Logo URL",
+            "suggestedDimensions": "Dimensioni immagine consigliate: 140 × 30 pixel.",
+            "maxFileSize": "Dimensione massima dei file: 2 MB"
           },
           "favicon": {
             "title": "Favicon",
-            "noFaviconUploaded": "Kein Favicon hochgeladen",
-            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
-            "uploadFavicon": "Favicon hochladen",
-            "faviconUrl": "Favicon-URL",
-            "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel gross sein.",
-            "maxFileSize": "Maximale Dateigrösse: 2MB",
-            "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert."
+            "noFaviconUploaded": "Non è stata caricata alcuna favicon",
+            "clickOrDragDrop": "Cliccare qui o trascinare qui un’immagine",
+            "uploadFavicon": "Carica favicon",
+            "faviconUrl": "Url favicon",
+            "requirements": "Le favicon devono avere una forma quadrata e dimensioni di almeno 32 × 32 pixel.",
+            "maxFileSize": "Dimensione massima dei file: 2 MB",
+            "urlRequirement": "Selezionare un URL immagine HTTPS che consenta l’accesso anonimo e non richieda un’autenticazione."
           },
           "color": {
-            "title": "Farbe",
-            "badContrast": "Diese Farbkombination führt zu schlechter Lesbarkeit. Empfohlenes Verhältnis ≥ 4.5, aktuelles Verhältnis: {ratio}",
+            "title": "Colore",
+            "badContrast": "Questa combinazione di colori compromette la leggibilità. Rapporto consigliato ≥ 4.5, rapporto attuale: {ratio}",
             "primary": {
-              "label": "Primärfarbe",
-              "description": "Legen Sie Ihre bevorzugte Farbe für die primären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
+              "label": "Colore principale",
+              "description": "Imposti un colore per i pulsanti principali e scelga se i simboli e il relativo testo debbano essere visualizzati in bianco o in nero."
             },
             "secondary": {
-              "label": "Sekundärfarbe",
-              "description": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
+              "label": "Colore secondario",
+              "description": "Imposti un colore per i pulsanti secondari e scelga se i simboli e il relativo testo debbano essere visualizzati in bianco o in nero."
             }
           }
         }
@@ -4915,7 +4915,7 @@
     "upload": "Carica file",
     "primaryColorDescription": "Imposti un colore per i pulsanti principali e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",
     "secondaryColorDescription": "Imposti un colore per i pulsanti secondari e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",
-    "save": "Salva  modifiche",
+    "save": "Salva modifiche",
     "close": "Chiudi",
     "primaryColor": "colore primario",
     "secondaryColor": "colore complementare",

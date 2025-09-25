@@ -1586,22 +1586,22 @@
         "sections": {
           "subdomainAndLinks": "Benutzerdefinierte Subdomain und interne Links",
           "availableServices": "Verfügbare Dienste",
-          "interface": "Übersetzungsoberflächen-Design"
+          "interface": "Design des Translation Interface"
         },
         "buttons": {
           "subdomainAndLinks": "Subdomain und Links",
           "availableServices": "Verfügbare Dienste",
-          "interface": "Oberfläche",
+          "interface": "Interface",
           "saveChanges": "Änderungen speichern",
           "reset": "Zurücksetzen"
         },
         "errors": {
-          "validationErrors": "Es gibt eine oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern."
+          "validationErrors": "Es gibt einen oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern."
         },
         "subdomain": {
           "title": "Benutzerdefinierte Subdomain",
-          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen",
-          "placeholder": "subdomain-example",
+          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen.",
+          "placeholder": "subdomain-beispiel",
           "suffix": ".supertext.com"
         },
         "links": {
@@ -1616,11 +1616,11 @@
         },
         "services": {
           "verification": {
-            "title": "Verifizierung",
-            "description": "Lassen Sie Ihr Team unseren Verifizierungsdienst nutzen, bei dem erfahrene Supertext-Linguisten die maschinelle Übersetzung schnell überprüfen können."
+            "title": "Profi-Check",
+            "description": "Lassen Sie Ihr Team unseren Profi-Check nutzen, bei dem erfahrene Supertext-Linguist:innen die maschinelle Übersetzung schnell überprüfen können."
           },
           "languageServices": {
-            "title": "Professionelle Sprachdienste (\"Platzieren Sie eine Bestellung\")",
+            "title": "Professionelle Sprachdienste («Platzieren Sie eine Bestellung»)",
             "description": "Geben Sie Ihrem Team die Erlaubnis, Aufträge für spezialisierte Übersetzungs-, Copywriting- und Lektoratsprojekte zu platzieren oder nicht."
           }
         },
@@ -1632,7 +1632,7 @@
             "uploadLogo": "Logo hochladen",
             "logoUrl": "Logo-URL",
             "suggestedDimensions": "Empfohlene Bildabmessungen: 140 × 30 Pixel.",
-            "maxFileSize": "Maximale Dateigrösse: 2MB"
+            "maxFileSize": "Maximale Dateigrösse: 2 MB"
           },
           "favicon": {
             "title": "Favicon",
@@ -1641,7 +1641,7 @@
             "uploadFavicon": "Favicon hochladen",
             "faviconUrl": "Favicon-URL",
             "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel gross sein.",
-            "maxFileSize": "Maximale Dateigrösse: 2MB",
+            "maxFileSize": "Maximale Dateigrösse: 2 MB",
             "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert."
           },
           "color": {
@@ -1653,7 +1653,7 @@
             },
             "secondary": {
               "label": "Sekundärfarbe",
-              "description": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
+              "description": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob die darin platzierten Symbole und Texte schwarz oder weiss angezeigt werden sollen."
             }
           }
         }
@@ -4914,7 +4914,7 @@
     "logoDescription": "Idealerweise sollten Sie eine transparente .png-Datei oder eine .svg-Datei mit einer maximalen Höhe von XY Pixeln hochladen.",
     "upload": "Datei hochladen",
     "primaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die primären Buttons fest und wählen Sie, ob die darin platzierten Symbole und Texte in Schwarz oder Weiss angezeigt werden sollen.",
-    "secondaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die sekundären Buttons fest und wählen Sie, ob die darin platzierten Symbole und Texte in Schwarz oder Weiss angezeigt werden sollen.",
+    "secondaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob die darin platzierten Symbole und Texte schwarz oder weiss angezeigt werden sollen.",
     "save": "Änderungen speichern",
     "close": "Schliessen",
     "primaryColor": "Primäre Farbe",

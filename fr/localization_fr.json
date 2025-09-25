@@ -172,10 +172,10 @@
         "submit": "Envoyer",
         "close": "Fermer"
       },
-      "qualitative_title": "Was ist der Hauptgrund für ihr Rating? Was können wir besser machen?",
-      "qualitative_placeholder": "Ihre Nachricht (optional)",
-      "email_title": "Ihre Email-Adresse (für allfällige Rückfragen)",
-      "email_placeholder": "translate@better.ch (optional)"
+      "qualitative_title": "Quelle est la principale raison de votre note? Que pouvons-nous améliorer?",
+      "qualitative_placeholder": "Votre message (facultatif)",
+      "email_title": "Votre adresse e-mail (pour toute question)",
+      "email_placeholder": "translate@better.ch (facultatif)"
     },
     "cookieBanner": {
       "textPrefix": "Nous utilisons des cookies pour améliorer en continu notre site web. En cliquant sur «Accepter», vous consentez à l’utilisation de cookies conformément à notre",
@@ -389,7 +389,7 @@
       "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} free {Supertext Free comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} other {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.}}",
       "unregisteredPopover": "Vous devez être connecté/-ée pour commencer à traduire des fichiers."
     },
-    "ocrLabel": "Extract text from images DELETE"
+    "ocrLabel": "Extraire du texte à partir d’images"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Texte",
@@ -3055,7 +3055,7 @@
         },
         "lead": {
           "large": "Nous aimons et vivons les <highlight>langues</highlight> et la <highlight>technologie.</highlight> Et nous sommes toujours à la recherche de <highlight>nouveaux talents</highlight> sur la même longueur d’onde.",
-          "small": "En tant que prestataire international de services linguistiques IA, nous avons l’honneur de gérer des projets pour plus de 1500 entreprises à travers l’Europe. Nous encourageons l’innovation et créons des solutions qui redéfinissent les limites du possible, en plaçant l'IA et l’expertise humaine au cœur de notre travail. <break></break><break></break>Derrière nos solutions technologiques de traitement du langage se cache une équipe de 100 spécialistes en recherche en IA, en logiciels, en linguistique et en gestion de projets. Une équipe qui s’appuie sur des échanges de connaissances constants et sur une agilité et une réactivité hors pair.",
+          "small": "Supertext est un fournisseur de traduction par l’IA, qui gère des projets pour plus de 1500 entreprises à travers l’Europe. Nous encourageons l’innovation et créons des solutions qui redéfinissent les limites du possible, en plaçant l'IA et l’expertise humaine au cœur de notre travail. <break></break><break></break>Derrière nos solutions technologiques de traitement du langage se cache une équipe de 100 spécialistes en recherche en IA, en logiciels, en linguistique et en gestion de projets. Une équipe qui s’appuie sur des échanges de connaissances constants et sur une agilité et une réactivité hors pair.",
           "cta": {
             "title": "En savoir plus sur notre vision",
             "link": "/pourquoi-supertext"
@@ -3139,7 +3139,7 @@
       "aboutSupertext": {
         "hero": {
           "title": "Là où l'IA linguistique rencontre la véritable expertise.",
-          "description": "Notre mission: garantir une communication optimale."
+          "description": "Notre mission: garantir une communication multilingue optimale grâce à l’IA linguistique, qui apprend de véritables spécialistes."
         },
         "lead": {
           "large": "Outil IA ou prestataire de services? Nous sommes les deux et <highlight>bien plus encore.</highlight>",

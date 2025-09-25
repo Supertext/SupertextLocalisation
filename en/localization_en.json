@@ -172,9 +172,9 @@
         "submit": "Send",
         "close": "Close"
       },
-      "qualitative_title": "Was ist der Hauptgrund für ihr Rating? Was können wir besser machen?",
-      "qualitative_placeholder": "Ihre Nachricht (optional)",
-      "email_title": "Ihre Email-Adresse (für allfällige Rückfragen)",
+      "qualitative_title": "What is the main reason for your rating? What could we do better?",
+      "qualitative_placeholder": "Your message (optional)",
+      "email_title": "Your email address (for any questions)",
       "email_placeholder": "translate@better.ch (optional)"
     },
     "cookieBanner": {
@@ -389,7 +389,7 @@
       "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month} free {Supertext Free includes {count, plural, =1 {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, =1 {# file} other {# files}} per month}}",
       "unregisteredPopover": "You must be logged in to begin translating files."
     },
-    "ocrLabel": "Extract text from images DELETE"
+    "ocrLabel": "Extract text from images"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Text",
@@ -4839,8 +4839,8 @@
     "secondaryColorDescription": "Set your preferred colour for the secondary buttons and choose whether icons and text placed inside them should be displayed in black or white.",
     "save": "Save changes",
     "close": "Close",
-    "primaryColor": "Primary color",
-    "secondaryColor": "Secondary color",
-    "contrastError": "This color combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
+    "primaryColor": "Primary colour",
+    "secondaryColor": "Secondary colour",
+    "contrastError": "This colour combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
   }
 }

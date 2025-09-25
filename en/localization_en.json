@@ -1581,79 +1581,79 @@
         "description": "You do not have access to these settings. Please contact your team admin."
       },
       "appearance": {
-        "title": "Aussehen",
-        "description": "Passen Sie das Aussehen Ihres Dashboards an.",
+        "title": "Appearance",
+        "description": "Customise the appearance of your dashboard.",
         "sections": {
-          "subdomainAndLinks": "Benutzerdefinierte Subdomain und interne Links",
-          "availableServices": "Verfügbare Dienste",
-          "interface": "Übersetzungsoberflächen-Design"
+          "subdomainAndLinks": "Custom subdomain and internal links",
+          "availableServices": "Available services",
+          "interface": "Translation interface design"
         },
         "buttons": {
-          "subdomainAndLinks": "Subdomain und Links",
-          "availableServices": "Verfügbare Dienste",
-          "interface": "Oberfläche",
-          "saveChanges": "Änderungen speichern",
-          "reset": "Zurücksetzen"
+          "subdomainAndLinks": "Subdomain and links",
+          "availableServices": "Available services",
+          "interface": "Interface",
+          "saveChanges": "Save changes",
+          "reset": "Reset"
         },
         "errors": {
-          "validationErrors": "Es gibt eine oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern."
+          "validationErrors": "There were one or more errors when validating the form. Please fix these before you save."
         },
         "subdomain": {
-          "title": "Benutzerdefinierte Subdomain",
-          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen",
+          "title": "Custom subdomain",
+          "description": "Define a subdomain (e.g. company.supertext.com) that your team can use to access their customised Supertext site directly. Your team can still access the site by logging in to supertext.com.",
           "placeholder": "subdomain-example",
           "suffix": ".supertext.com"
         },
         "links": {
-          "title": "Links für mein Team",
-          "description": "Sie können bis zu vier Links für Ihr Team hinzufügen, z. B. zu bestimmten Übersetzungsrichtlinien oder zu Ihrem Intranet. Um die Links in der Hauptbenutzer-Dropdown-Liste anzuzeigen, müssen Sie eine Beschreibung hinzufügen, die immer angezeigt wird. Wenn Sie möchten, dass wir die Beschreibung in verschiedenen Sprachen anzeigen, geben Sie dies bitte entsprechend an.",
+          "title": "Links for my team",
+          "description": "You can add up to four links for your team, e.g. to specific translation guidelines or to your intranet. To display the links in the main user dropdown list, you need to add a description that will always be displayed. If you want us to display the description in different languages, please indicate this accordingly.",
           "linkNumber": "Link {number}",
-          "descriptionPlaceholder": "Linkbeschreibung",
-          "urlPlaceholder": "Ziel-URL",
-          "characterLimit": "Die Linkbeschreibung darf {limit} Zeichen nicht überschreiten.",
-          "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
-          "or": "oder"
+          "descriptionPlaceholder": "Link description",
+          "urlPlaceholder": "Target URL",
+          "characterLimit": "The link description must not exceed {limit} characters.",
+          "urlRequired": "You have descriptions for this link, but no target URL. Add a URL or remove the descriptions.",
+          "or": "or"
         },
         "services": {
           "verification": {
-            "title": "Verifizierung",
-            "description": "Lassen Sie Ihr Team unseren Verifizierungsdienst nutzen, bei dem erfahrene Supertext-Linguisten die maschinelle Übersetzung schnell überprüfen können."
+            "title": "Verification",
+            "description": "Let your team use our Verification service, where experienced Supertext linguists quickly check your AI translation."
           },
           "languageServices": {
-            "title": "Professionelle Sprachdienste (\"Platzieren Sie eine Bestellung\")",
-            "description": "Geben Sie Ihrem Team die Erlaubnis, Aufträge für spezialisierte Übersetzungs-, Copywriting- und Lektoratsprojekte zu platzieren oder nicht."
+            "title": "Professional language services (“Place an order”)",
+            "description": "Decide whether your team should have permission to place orders for specialised translation, copywriting and proofreading projects."
           }
         },
         "interface": {
           "logo": {
             "title": "Logo",
-            "noLogoUploaded": "Kein Logo hochgeladen",
-            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
-            "uploadLogo": "Logo hochladen",
-            "logoUrl": "Logo-URL",
-            "suggestedDimensions": "Empfohlene Bildabmessungen: 140 × 30 Pixel.",
-            "maxFileSize": "Maximale Dateigrösse: 2MB"
+            "noLogoUploaded": "No logo uploaded",
+            "clickOrDragDrop": "Click here or drag and drop an image",
+            "uploadLogo": "Upload logo",
+            "logoUrl": "Logo URL",
+            "suggestedDimensions": "Recommended image dimensions: 140 × 30 pixels",
+            "maxFileSize": "Maximum file size: 2 MB"
           },
           "favicon": {
             "title": "Favicon",
-            "noFaviconUploaded": "Kein Favicon hochgeladen",
-            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
-            "uploadFavicon": "Favicon hochladen",
-            "faviconUrl": "Favicon-URL",
-            "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel gross sein.",
-            "maxFileSize": "Maximale Dateigrösse: 2MB",
-            "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert."
+            "noFaviconUploaded": "No favicon uploaded",
+            "clickOrDragDrop": "Click here or drag and drop an image",
+            "uploadFavicon": "Upload favicon",
+            "faviconUrl": "Favicon URL",
+            "requirements": "Favicons should be square and at least 32 × 32 pixels.",
+            "maxFileSize": "2 MB maximum file size",
+            "urlRequirement": ""
           },
           "color": {
-            "title": "Farbe",
-            "badContrast": "Diese Farbkombination führt zu schlechter Lesbarkeit. Empfohlenes Verhältnis ≥ 4.5, aktuelles Verhältnis: {ratio}",
+            "title": "Colour",
+            "badContrast": "This colour combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}.",
             "primary": {
-              "label": "Primärfarbe",
-              "description": "Legen Sie Ihre bevorzugte Farbe für die primären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
+              "label": "Primary colour",
+              "description": ""
             },
             "secondary": {
-              "label": "Sekundärfarbe",
-              "description": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
+              "label": "Secondary colour",
+              "description": "Select your preferred color for the secondary buttons and choose whether the icons and texts in them should be displayed in black or white."
             }
           }
         }

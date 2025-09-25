@@ -1579,6 +1579,84 @@
       "accessDenied": {
         "title": "Accès limité",
         "description": "Vous n’avez pas accès à ces paramètres. Veuillez contacter une personne de votre équipe ayant le rôle d’administrateur."
+      },
+      "appearance": {
+        "title": "Aussehen",
+        "description": "Passen Sie das Aussehen Ihres Dashboards an.",
+        "sections": {
+          "subdomainAndLinks": "Benutzerdefinierte Subdomain und interne Links",
+          "availableServices": "Verfügbare Dienste",
+          "interface": "Übersetzungsoberflächen-Design"
+        },
+        "buttons": {
+          "subdomainAndLinks": "Subdomain und Links",
+          "availableServices": "Verfügbare Dienste",
+          "interface": "Oberfläche",
+          "saveChanges": "Änderungen speichern",
+          "reset": "Zurücksetzen"
+        },
+        "errors": {
+          "validationErrors": "Es gibt eine oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern."
+        },
+        "subdomain": {
+          "title": "Benutzerdefinierte Subdomain",
+          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen",
+          "placeholder": "subdomain-example",
+          "suffix": ".supertext.com"
+        },
+        "links": {
+          "title": "Links für mein Team",
+          "description": "Sie können bis zu vier Links für Ihr Team hinzufügen, z. B. zu bestimmten Übersetzungsrichtlinien oder zu Ihrem Intranet. Um die Links in der Hauptbenutzer-Dropdown-Liste anzuzeigen, müssen Sie eine Beschreibung hinzufügen, die immer angezeigt wird. Wenn Sie möchten, dass wir die Beschreibung in verschiedenen Sprachen anzeigen, geben Sie dies bitte entsprechend an.",
+          "linkNumber": "Link {number}",
+          "descriptionPlaceholder": "Linkbeschreibung",
+          "urlPlaceholder": "Ziel-URL",
+          "characterLimit": "Die Linkbeschreibung darf {limit} Zeichen nicht überschreiten.",
+          "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
+          "or": "oder"
+        },
+        "services": {
+          "verification": {
+            "title": "Verifizierung",
+            "description": "Lassen Sie Ihr Team unseren Verifizierungsdienst nutzen, bei dem erfahrene Supertext-Linguisten die maschinelle Übersetzung schnell überprüfen können."
+          },
+          "languageServices": {
+            "title": "Professionelle Sprachdienste (\"Platzieren Sie eine Bestellung\")",
+            "description": "Geben Sie Ihrem Team die Erlaubnis, Aufträge für spezialisierte Übersetzungs-, Copywriting- und Lektoratsprojekte zu platzieren oder nicht."
+          }
+        },
+        "interface": {
+          "logo": {
+            "title": "Logo",
+            "noLogoUploaded": "Kein Logo hochgeladen",
+            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
+            "uploadLogo": "Logo hochladen",
+            "logoUrl": "Logo-URL",
+            "suggestedDimensions": "Empfohlene Bildabmessungen: 140 × 30 Pixel.",
+            "maxFileSize": "Maximale Dateigrösse: 2MB"
+          },
+          "favicon": {
+            "title": "Favicon",
+            "noFaviconUploaded": "Kein Favicon hochgeladen",
+            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
+            "uploadFavicon": "Favicon hochladen",
+            "faviconUrl": "Favicon-URL",
+            "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel gross sein.",
+            "maxFileSize": "Maximale Dateigrösse: 2MB",
+            "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert."
+          },
+          "color": {
+            "title": "Farbe",
+            "badContrast": "Diese Farbkombination führt zu schlechter Lesbarkeit. Empfohlenes Verhältnis ≥ 4.5, aktuelles Verhältnis: {ratio}",
+            "primary": {
+              "label": "Primärfarbe",
+              "description": "Legen Sie Ihre bevorzugte Farbe für die primären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
+            },
+            "secondary": {
+              "label": "Sekundärfarbe",
+              "description": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
+            }
+          }
+        }
       }
     },
     "footer": {

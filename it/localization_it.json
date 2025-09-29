@@ -466,7 +466,7 @@
     "ja": "Giapponese",
     "ko": "Coreano",
     "nb": "Norvegese",
-    "nl": "Neerlandese",
+    "nl": "Olandese",
     "pl": "Polacco",
     "pt": "Portoghese",
     "pt-BR": "Portoghese (Brasile)",
@@ -558,7 +558,7 @@
     "ja": "dal giapponese",
     "ko": "dal coreano",
     "nb": "dal norvegese",
-    "nl": "dal neerlandese",
+    "nl": "dal olandese",
     "pl": "dal polacco",
     "pt": "dal portoghese",
     "pt-BR": "dal portoghese (Brasile)",
@@ -607,7 +607,7 @@
     "ja": "al giapponese",
     "ko": "al coreano",
     "nb": "al norvegese",
-    "nl": "al neerlandese",
+    "nl": "al olandese",
     "pl": "al polacco",
     "pt": "al portoghese",
     "pt-BR": "al portoghese (Brasile)",
@@ -1109,7 +1109,7 @@
               "Inglese",
               "Italiano",
               "Norvegese",
-              "Neerlandese",
+              "Olandese",
               "Polacco",
               "Portoghese",
               "Romancio",
@@ -1962,7 +1962,7 @@
           "items": {
             "0": {
               "title": "28 lingue",
-              "tooltip": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, neerlandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
+              "tooltip": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
             },
             "1": {
               "title": "60 traduzioni di file modificabili al mese"
@@ -2144,12 +2144,12 @@
             "languages": {
               "name": "Lingue",
               "description": "",
-              "all": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, neerlandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
+              "all": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "free": "Tedesco, inglese, francese, italiano, romancio, svizzero tedesco",
               "essential": "Tedesco, inglese, francese, italiano, romancio, svizzero tedesco",
-              "advanced": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, neerlandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
-              "pro": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, neerlandese, norvegese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese",
-              "enterprise": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, neerlandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
+              "advanced": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
+              "pro": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, norvegese, olandese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese",
+              "enterprise": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
             },
             "languageVariants": {
               "name": "Varianti nazionali",
@@ -4689,7 +4689,7 @@
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
         "category": "Lingue e varianti linguistiche",
-        "tooltip": "<strong>Lingue e varianti linguistiche</strong> <br/> <strong>6 lingue</strong>: francese, inglese, italiano, romancio, svizzero tedesco, tedesco <br/><br/> francese (CH, FR), inglese (GB, US), italiano (CH, IT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)<br/><br/> <strong>28 lingue</strong>: albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, neerlandese, norvegese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese <br/><br/> cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH), serbo (cirillico, latino), tedesco (AT, CH, DE)",
+        "tooltip": "<strong>Lingue e varianti linguistiche</strong> <br/> <strong>6 lingue</strong>: francese, inglese, italiano, romancio, svizzero tedesco, tedesco <br/><br/> francese (CH, FR), inglese (GB, US), italiano (CH, IT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)<br/><br/> <strong>28 lingue</strong>: albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese <br/><br/> cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH), serbo (cirillico, latino), tedesco (AT, CH, DE)",
         "rows": {
           "free": "6 lingue",
           "essential": "6 lingue",

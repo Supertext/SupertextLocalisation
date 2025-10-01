@@ -1475,6 +1475,62 @@
         "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
         "subscriptionSettings": "Entdecken Sie die verschiedenen Supertext-Abos und finden Sie die richtige Option für Sie.",
         "subscriptionsExplore": "Abos entdecken"
+        "salutation": {
+          "hi": "Hallo, {name}!",
+          "admin": "Admin",
+          "member": "Mitglied",
+          "notLicenced": "Nicht lizenziert"
+        },
+        "teamSection": {
+          "title": "Mein Team",
+          "inviteUser": "User:in einladen",
+          "exploreSubscriptions": "Abos entdecken",
+          "assignLicences": "Lizenzen zuweisen",
+          "users": "User:innen",
+          "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
+          "licensedUsers": "lizenzierte User:innen"
+        },
+        "aiCustomisation": {
+          "title": "KI-ANPASSUNG",
+          "trainingData": "Trainingsdaten",
+          "personalExpertTranslations": "persönliche Expertenübersetzungen zu Ihrem individuellen KI-Modell hinzugefügt",
+          "efficiencyGain": "Effizienzgewinn",
+          "genericModelEfficiency": "Effizienz des\ngenerischen Modells",
+          "customModelEfficiency": "Effizienz des\nindividuellen\nKI-Modells\nIhres Teams",
+          "potentialModelEfficiency": "Potenzielle\nEffizienz eines\nspezialisierten\nModells",
+          "teamTranslatesFaster": "Ihr Team übersetzt {gain}% schneller dank Ihres individualisierten KI-Modells.",
+          "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
+          "learnMore": "Mehr erfahren",
+          "submitTrainingData": "Trainingsdaten übermitteln"
+        },
+        "aiTranslation": {
+          "title": "KI-ÜBERSETZUNG",
+          "teamUsage": "Team-Nutzung",
+          "teamUsageDescription": "Das KI-Übersetzungsvolumen Ihres Teams in den letzten 30 Tagen.",
+          "yourUsage": "Ihre Nutzung",
+          "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
+          "characters": "Zeichen",
+          "files": "Dateien",
+          "outOfFiles": "von {limit} Dateien",
+          "increaseFileTranslationLimit": "Limit für Dateien erhöhen"
+        },
+        "dataSecurity": {
+          "title": "DATENSICHERHEIT",
+          "gdprCompliance": "DSGVO-Konformität",
+          "maximumDataSecurity": "Maximale Datensicherheit ist für alle lizenzierten User:innen in Ihrem Team aktiviert.",
+          "freeUserDataUsage": "Als Free-User:in werden Ihre Übersetzungsdaten verwendet, um unser öffentliches Sprachmodell zu verbessern.",
+          "switchToPaidPlan": "Wechseln Sie zu einem kostenpflichtigen Abo, um maximale Datensicherheit zu aktivieren.",
+          "upgradeNow": "Jetzt upgraden",
+          "assignLicences": "Lizenzen zuweisen"
+        },
+        "activity": {
+          "title": "Aktivität",
+          "recentOrders": "AKTUELLE AUFTRÄGE",
+          "recentInvoices": "AKTUELLE RECHNUNGEN",
+          "invoice": "Rechnung {id}",
+          "seeOrderOverview": "Auftragsübersicht ansehen",
+          "seeInvoiceOverview": "Rechnungsübersicht ansehen"
+        }      
       },
       "salutation": [
         "Grüezi.",

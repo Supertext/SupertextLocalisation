@@ -724,7 +724,7 @@
         "changeRole": "Il ruolo è stato modificato",
         "editMember": "I dati del membro del team sono stati modificati",
         "removeMember": "L’utente è stato rimosso dal team",
-        "removeMemberBatch": "{count, plural, =1 {1 membro è stato rimosso} o {# membri sono stati rimossi} dal team"
+        "removeMemberBatch": "{count, plural, =1 {1 membro è stato rimosso dal team} other {# membri sono stati rimossi dal team}}"
       },
       "subscription": {
         "cancel": "L’abbonamento è stato disdetto",

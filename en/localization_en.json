@@ -724,7 +724,7 @@
         "changeRole": "Role successfully changed",
         "editMember": "Team member successfully edited",
         "removeMember": "User successfully removed from the team",
-        "removeMemberBatch": "{count, plural, =1 {1 team member was successfully removed from the team} other {# team members were successfully removed from the team}}"
+        "removeMemberBatch": "{count, plural, one {1 team member was successfully removed from the team} other {# team members were successfully removed from the team}}"
       },
       "subscription": {
         "cancel": "Subscription successfully cancelled",
@@ -4875,7 +4875,7 @@
       },
       "advancedSubscriptionPanel": {
         "title": "NEW: SUPERTEXT ADVANCED",
-        "description": "28 languages and more control with glossaries.",
+        "description": "28 languages and even more control with glossaries.",
         "cta": {
           "title": "Try it free for 30 days",
           "link": "/subscriptions"

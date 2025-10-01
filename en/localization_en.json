@@ -1649,16 +1649,28 @@
           "availableServices": "Available services",
           "interface": "Interface",
           "saveChanges": "Save changes",
-          "reset": "Reset"
+          "reset": "Reset",
+          "discardChanges": "Discard changes",
+          "retrySave": "Retry saving"
+        },
+        "messages": {
+          "autoSaved": "Changes saved successfully",
+          "saving": "Saving changes..."
         },
         "errors": {
-          "validationErrors": "There were one or more errors when validating the form. Please fix these before you save."
+          "validationErrors": "There were one or more errors when validating the form. Please fix these before you save.",
+          "autoSaveFailed": "Failed to save changes automatically. Please try again."
         },
         "subdomain": {
           "title": "Custom subdomain",
           "description": "Define a subdomain (e.g. company.supertext.com) that your team can use to access their customised Supertext site directly. Your team can still access the site by logging in to supertext.com.",
           "placeholder": "subdomain-example",
-          "suffix": ".supertext.com"
+          "suffix": ".supertext.com",
+          "comingSoon": "Coming soon",
+          "temporaryGetInContact": {
+            "text": "If you would like to set up a custom subdomain, please contact us at",
+            "email": "support@supertext.com"
+          }
         },
         "links": {
           "title": "Links for my team",
@@ -1668,6 +1680,7 @@
           "urlPlaceholder": "Target URL",
           "characterLimit": "The link description must not exceed {limit} characters.",
           "urlRequired": "You have descriptions for this link, but no target URL. Add a URL or remove the descriptions.",
+          "descriptionRequired": "You have a URL for this link, but no description in any language. Add at least one description or remove the URL.",
           "or": "or"
         },
         "services": {

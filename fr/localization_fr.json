@@ -1649,16 +1649,24 @@
           "availableServices": "Services disponibles",
           "interface": "Interface",
           "saveChanges": "Enregistrer les modifications",
-          "reset": "Réinitialiser"
+          "reset": "Réinitialiser",
+          "discardChanges": "Annuler les modifications",
+          "retrySave": "Réessayer l'enregistrement"
         },
         "errors": {
-          "validationErrors": "Il y a une ou plusieurs erreurs dans la validation du formulaire. Veuillez la/les corriger avant d’enregistrer."
+          "validationErrors": "Il y a une ou plusieurs erreurs dans la validation du formulaire. Veuillez la/les corriger avant d’enregistrer.",
+          "autoSaveFailed": "Échec de l'enregistrement automatique des modifications. Veuillez réessayer."
         },
         "subdomain": {
           "title": "Sous-domaine personnalisé",
           "description": "Définissez un sous-domaine (par ex. entreprise.supertext.com) via lequel votre équipe pourra accéder directement à la plateforme Supertext personnalisée. Votre équipe pourra continuer à accéder à la plateforme en se connectant sur supertext.com.",
           "placeholder": "sous-domaine-exemple",
-          "suffix": ".supertext.com"
+          "suffix": ".supertext.com",
+          "comingSoon": "Bientôt disponible",
+          "temporaryGetInContact": {
+            "text": "Si vous souhaitez configurer un sous-domaine personnalisé, veuillez nous contacter à",
+            "email": "support@supertext.com"
+          }
         },
         "links": {
           "title": "Liens pour mon équipe",
@@ -1668,6 +1676,7 @@
           "urlPlaceholder": "URL cible",
           "characterLimit": "La description du lien ne doit pas dépasser {limit} caractères.",
           "urlRequired": "Vous avez des descriptions pour ce lien, mais aucune URL cible. Ajoutez une URL ou supprimez les descriptions.",
+          "descriptionRequired": "Vous avez une URL pour ce lien, mais aucune description dans aucune langue. Ajoutez au moins une description ou supprimez l'URL.",
           "or": "ou"
         },
         "services": {
@@ -1712,6 +1721,10 @@
               "description": "Définissez votre couleur préférée pour les boutons secondaires et choisissez si les icônes et les textes situés à l’intérieur doivent s’afficher en noir ou en blanc."
             }
           }
+        },
+        "messages": {
+          "autoSaved": "Modifications enregistrées avec succès",
+          "saving": "Enregistrement des modifications..."
         }
       }
     },

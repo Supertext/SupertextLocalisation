@@ -1649,16 +1649,28 @@
           "availableServices": "Verfügbare Dienste",
           "interface": "Interface",
           "saveChanges": "Änderungen speichern",
-          "reset": "Zurücksetzen"
+          "reset": "Zurücksetzen",
+          "discardChanges": "Änderungen verwerfen",
+          "retrySave": "Speichern erneut versuchen"
+        },
+        "messages": {
+          "autoSaved": "Änderungen erfolgreich gespeichert",
+          "saving": "Änderungen werden gespeichert..."
         },
         "errors": {
-          "validationErrors": "Es gibt einen oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern."
+          "validationErrors": "Es gibt einen oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern.",
+          "autoSaveFailed": "Die Änderungen konnten nicht automatisch gespeichert werden. Bitte versuchen Sie es erneut."
         },
         "subdomain": {
           "title": "Benutzerdefinierte Subdomain",
           "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen.",
           "placeholder": "subdomain-beispiel",
-          "suffix": ".supertext.com"
+          "suffix": ".supertext.com",
+          "comingSoon": "Demnächst verfügbar",
+          "temporaryGetInContact": {
+            "text": "Wenn Sie eine benutzerdefinierte Subdomain einrichten möchten, kontaktieren Sie uns bitte unter",
+            "email": "support@supertext.com"
+          }
         },
         "links": {
           "title": "Links für mein Team",
@@ -1668,6 +1680,7 @@
           "urlPlaceholder": "Ziel-URL",
           "characterLimit": "Die Linkbeschreibung darf {limit} Zeichen nicht überschreiten.",
           "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
+          "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL.",
           "or": "oder"
         },
         "services": {

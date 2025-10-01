@@ -724,7 +724,7 @@
         "changeRole": "Role successfully changed",
         "editMember": "Team member successfully edited",
         "removeMember": "User successfully removed from the team",
-        "removeMemberBatch": "{count, plural, =1 {1 team member was} other {# team members were} successfully removed from the team"
+        "removeMemberBatch": "{count, plural, =1 {1 team member was successfully removed from the team} other {# team members were successfully removed from the team}}"
       },
       "subscription": {
         "cancel": "Subscription successfully cancelled",

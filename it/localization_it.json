@@ -172,10 +172,10 @@
         "submit": "Invia",
         "close": "Chiudi"
       },
-      "qualitative_title": "Qual è il motivo principale della Sua valutazione? Cosa possiamo migliorare?",
-      "qualitative_placeholder": "Il Suo messaggio (opzionale)",
-      "email_title": "Il Suo indirizzo e-mail (per eventuali domande)",
-      "email_placeholder": "info@example.com (opzionale)"
+      "qualitative_title": "Was ist der Hauptgrund für ihr Rating? Was können wir besser machen?",
+      "qualitative_placeholder": "il Suo messaggio (opzionale)",
+      "email_title": "il Suo indirizzo e-mail (per eventuali domande)",
+      "email_placeholder": "example@info.ch (opzionale)"
     },
     "cookieBanner": {
       "textPrefix": "Utilizziamo i cookie per migliorare costantemente il nostro sito web. Cliccando su «Accetta» si acconsente all’utilizzo dei cookie in conformità con la nostra",
@@ -1649,16 +1649,28 @@
           "availableServices": "Servizi disponibili",
           "interface": "Interfaccia",
           "saveChanges": "Salva modifiche",
-          "reset": "Ripristina"
+          "reset": "Ripristina",
+          "discardChanges": "Annulla modifiche",
+          "retrySave": "Riprova a salvare"
+        },
+        "messages": {
+          "autoSaved": "Modifiche salvate con successo",
+          "saving": "Salvataggio modifiche in corso..."
         },
         "errors": {
-          "validationErrors": "Si sono verificati uno o più errori durante la convalida del modulo. Correggerli prima di salvare."
+          "validationErrors": "Si sono verificati uno o più errori durante la convalida del modulo. Correggerli prima di salvare.",
+          "autoSaveFailed": "Impossibile salvare automaticamente le modifiche. Riprovare."
         },
         "subdomain": {
           "title": "Sottodominio personalizzato",
           "description": "Imposti un sottodominio (ad es. company.supertext.com) che consenta al Suo team di accedere direttamente alla piattaforma personalizzata di Supertext. Il Suo team può comunque accedere alla piattaforma anche su supertext.com.",
           "placeholder": "subdomain-example",
-          "suffix": ".supertext.com"
+          "suffix": ".supertext.com",
+          "comingSoon": "Disponibile a breve",
+          "temporaryGetInContact": {
+            "text": "Se desidera configurare un sottodominio personalizzato, La preghiamo di contattarci all'indirizzo",
+            "email": "support@supertext.com"
+          }
         },
         "links": {
           "title": "Link per il mio team",
@@ -1668,6 +1680,7 @@
           "urlPlaceholder": "URL di destinazione",
           "characterLimit": "La descrizione del link non deve superare il numero massimo di {limit} caratteri.",
           "urlRequired": "Questo link è provvisto di descrizioni, ma non di un URL di destinazione. Aggiunga un URL o rimuova le descrizioni.",
+          "descriptionRequired": "Questo link è provvisto di un URL di destinazione, ma non di una descrizione in nessuna lingua. Aggiunga almeno una descrizione o rimuova l'URL.",
           "or": "oppure"
         },
         "services": {

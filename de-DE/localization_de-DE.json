@@ -1694,6 +1694,12 @@
           }
         },
         "interface": {
+          "validating": "Validierung...",
+          "urlErrors": {
+            "validating": "URL wird validiert...",
+            "httpsRequired": "URL muss mit https:// beginnen",
+            "notAccessible": "URL ist nicht erreichbar. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
+          },
           "logo": {
             "title": "Logo",
             "noLogoUploaded": "Kein Logo hochgeladen",
@@ -1701,7 +1707,8 @@
             "uploadLogo": "Logo hochladen",
             "logoUrl": "Logo-URL",
             "suggestedDimensions": "Empfohlene Bildabmessungen: 140 × 30 Pixel.",
-            "maxFileSize": "Maximale Dateigröße: 2 MB"
+            "maxFileSize": "Maximale Dateigröße: 2 MB",
+            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
           },
           "favicon": {
             "title": "Favicon",
@@ -1711,7 +1718,8 @@
             "faviconUrl": "Favicon-URL",
             "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel groß sein.",
             "maxFileSize": "Maximale Dateigröße: 2 MB",
-            "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert."
+            "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert.",
+            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
           },
           "color": {
             "title": "Farbe",

@@ -1694,6 +1694,12 @@
           }
         },
         "interface": {
+          "validating": "Validating...",
+          "urlErrors": {
+            "validating": "Validating URL...",
+            "httpsRequired": "URL must start with https://",
+            "notAccessible": "URL is not accessible. Please check the URL and try again."
+          },
           "logo": {
             "title": "Logo",
             "noLogoUploaded": "No logo uploaded",
@@ -1701,7 +1707,8 @@
             "uploadLogo": "Upload logo",
             "logoUrl": "Logo URL",
             "suggestedDimensions": "Recommended image dimensions: 140 × 30 pixels",
-            "maxFileSize": "Maximum file size: 2 MB"
+            "maxFileSize": "Maximum file size: 2 MB",
+            "invalidUrl": "This URL does not return a valid image. Please check the URL and try again."
           },
           "favicon": {
             "title": "Favicon",
@@ -1711,7 +1718,8 @@
             "faviconUrl": "Favicon URL",
             "requirements": "Favicons should be square and at least 32 × 32 pixels.",
             "maxFileSize": "2 MB maximum file size",
-            "urlRequirement": ""
+            "urlRequirement": "",
+            "invalidUrl": "This URL does not return a valid image. Please check the URL and try again."
           },
           "color": {
             "title": "Colour",

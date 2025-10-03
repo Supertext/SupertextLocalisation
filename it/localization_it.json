@@ -1694,24 +1694,32 @@
           }
         },
         "interface": {
+          "validating": "Convalida...",
+          "urlErrors": {
+            "validating": "Convalida dell'URL in corso...",
+            "httpsRequired": "L'URL deve iniziare con https://",
+            "notAccessible": "L'URL non è accessibile. Verificare l'URL e riprovare."
+          },
           "logo": {
             "title": "Logo",
             "noLogoUploaded": "Non è stato caricato alcun logo",
-            "clickOrDragDrop": "Cliccare qui o trascinare qui un’immagine",
+            "clickOrDragDrop": "Cliccare qui o trascinare qui un'immagine",
             "uploadLogo": "Carica logo",
             "logoUrl": "Logo URL",
             "suggestedDimensions": "Dimensioni immagine consigliate: 140 × 30 pixel.",
-            "maxFileSize": "Dimensione massima dei file: 2 MB"
+            "maxFileSize": "Dimensione massima dei file: 2 MB",
+            "invalidUrl": "Questo URL non restituisce un'immagine valida. Si prega di verificare l'URL e riprovare."
           },
           "favicon": {
             "title": "Favicon",
             "noFaviconUploaded": "Non è stata caricata alcuna favicon",
-            "clickOrDragDrop": "Cliccare qui o trascinare qui un’immagine",
+            "clickOrDragDrop": "Cliccare qui o trascinare qui un'immagine",
             "uploadFavicon": "Carica favicon",
             "faviconUrl": "Url favicon",
             "requirements": "Le favicon devono avere una forma quadrata e dimensioni di almeno 32 × 32 pixel.",
             "maxFileSize": "Dimensione massima dei file: 2 MB",
-            "urlRequirement": "Selezionare un URL immagine HTTPS che consenta l’accesso anonimo e non richieda un’autenticazione."
+            "urlRequirement": "Selezionare un URL immagine HTTPS che consenta l'accesso anonimo e non richieda un'autenticazione.",
+            "invalidUrl": "Questo URL non restituisce un'immagine valida. Si prega di verificare l'URL e riprovare."
           },
           "color": {
             "title": "Colore",

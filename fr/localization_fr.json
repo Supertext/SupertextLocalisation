@@ -1690,6 +1690,12 @@
           }
         },
         "interface": {
+          "validating": "Validation...",
+          "urlErrors": {
+            "validating": "Validation de l'URL...",
+            "httpsRequired": "L'URL doit commencer par https://",
+            "notAccessible": "L'URL n'est pas accessible. Veuillez vérifier l'URL et réessayer."
+          },
           "logo": {
             "title": "Logo",
             "noLogoUploaded": "Aucun logo téléchargé",
@@ -1697,7 +1703,8 @@
             "uploadLogo": "Télécharger un logo",
             "logoUrl": "URL du logo",
             "suggestedDimensions": "Dimensions recommandées pour les images: 140 × 30 pixels.",
-            "maxFileSize": "Taille maximale de fichier: 2 Mo"
+            "maxFileSize": "Taille maximale de fichier: 2 Mo",
+            "invalidUrl": "Cette URL ne renvoie pas une image valide. Veuillez vérifier l'URL et réessayer."
           },
           "favicon": {
             "title": "Favicon",
@@ -1707,7 +1714,8 @@
             "faviconUrl": "URL du favicon",
             "requirements": "Les favicons doivent être de forme carrée et avoir comme dimensions au moins 32 × 32 pixels.",
             "maxFileSize": "Taille maximale de fichier: 2 Mo",
-            "urlRequirement": "Sélectionnez une URL d’image HTTPS qui autorise un accès anonyme et ne nécessite aucune authentification."
+            "urlRequirement": "Sélectionnez une URL d'image HTTPS qui autorise un accès anonyme et ne nécessite aucune authentification.",
+            "invalidUrl": "Cette URL ne renvoie pas une image valide. Veuillez vérifier l'URL et réessayer."
           },
           "color": {
             "title": "Couleur",
@@ -1718,7 +1726,7 @@
             },
             "secondary": {
               "label": "Couleur secondaire",
-              "description": "Définissez votre couleur préférée pour les boutons secondaires et choisissez si les icônes et les textes situés à l’intérieur doivent s’afficher en noir ou en blanc."
+              "description": "Définissez votre couleur préférée pour les boutons secondaires et choisissez si les icônes et les textes situés à l'intérieur doivent s'afficher en noir ou en blanc."
             }
           }
         },

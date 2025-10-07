@@ -1502,7 +1502,7 @@
           "translateFasterAccurately": "Translate faster and more accurately with a specialised AI model.",
           "learnMore": "Learn more",
           "submitTrainingData": "Submit training data",
-          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>support@supertext.com</link>."
+          "submitTrainingDataDescription": "Contact us to upload your training data. <link>support@supertext.com</link>."
         },
         "aiTranslation": {
           "title": "AI TRANSLATION",
@@ -1651,21 +1651,21 @@
           "interface": "Interface",
           "saveChanges": "Save changes",
           "reset": "Reset",
-          "discardChanges": "Änderungen verwerfen",
-          "retrySave": "Speichern erneut versuchen"
+          "discardChanges": "Discard changes",
+          "retrySave": "Resave"
         },
         "errors": {
           "validationErrors": "There were one or more errors when validating the form. Please fix these before you save.",
-          "autoSaveFailed": "Die Änderungen konnten nicht automatisch gespeichert werden. Bitte versuchen Sie es erneut."
+          "autoSaveFailed": "The changes could not be saved automatically. Please try again."
         },
         "subdomain": {
           "title": "Custom subdomain",
           "description": "Define a subdomain (e.g. company.supertext.com) that your team can use to access their customised Supertext site directly. Your team can still access the site by logging in to supertext.com.",
           "placeholder": "subdomain-example",
           "suffix": ".supertext.com",
-          "comingSoon": "Coming Soon",
+          "comingSoon": "Coming soon",
           "temporaryGetInContact": {
-            "text": "Während wir dieses Feature für Sie bereitstellen, wenden Sie sich bitte an uns, wenn Sie eine benutzerdefinierte Subdomain wünschen.",
+            "text": "While we are preparing this feature for you, please reach out to us if you would like a custom subdomain.",
             "email": "support@supertext.com"
           }
         },
@@ -1678,7 +1678,7 @@
           "characterLimit": "The link description must not exceed {limit} characters.",
           "urlRequired": "You have descriptions for this link, but no target URL. Add a URL or remove the descriptions.",
           "or": "or",
-          "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL."
+          "descriptionRequired": "You have a URL for this link, but no description in any language. Please add at least one description or remove the URL."
         },
         "services": {
           "verification": {
@@ -1699,7 +1699,7 @@
             "logoUrl": "Logo URL",
             "suggestedDimensions": "Recommended image dimensions: 140 × 30 pixels",
             "maxFileSize": "Maximum file size: 2 MB",
-            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
+            "invalidUrl": "This URL does not return a valid image. Please check the URL and try again."
           },
           "favicon": {
             "title": "Favicon",
@@ -1710,7 +1710,7 @@
             "requirements": "Favicons should be square and at least 32 × 32 pixels.",
             "maxFileSize": "2 MB maximum file size",
             "urlRequirement": "",
-            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
+            "invalidUrl": "This URL does not return a valid image. Please check the URL and try again."
           },
           "color": {
             "title": "Colour",
@@ -1724,17 +1724,17 @@
               "description": "Select your preferred color for the secondary buttons and choose whether the icons and texts in them should be displayed in black or white."
             }
           },
-          "validating": "Validierung...",
+          "validating": "Validating...",
           "urlErrors": {
-            "validating": "URL wird validiert...",
-            "httpsRequired": "URL muss mit https:// beginnen",
-            "notAccessible": "URL ist nicht erreichbar. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
+            "validating": "Validating URL...",
+            "httpsRequired": "URL must start with https://",
+            "notAccessible": "URL is unavailable. Please check the URL and try again."
           }
         },
-        "autoSaveEnabled": "Änderungen werden automatisch gespeichert",
+        "autoSaveEnabled": "Changes are saved automatically",
         "messages": {
-          "autoSaved": "Änderungen erfolgreich gespeichert",
-          "saving": "Änderungen werden gespeichert..."
+          "autoSaved": "Changes saved successfully",
+          "saving": "Saving changes..."
         }
       }
     },
@@ -5000,5 +5000,5 @@
     "secondaryColor": "Secondary colour",
     "contrastError": "This colour combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
   },
-  "myTeamLinks": "Meine Team-Links"
+  "myTeamLinks": "My team’s links"
 }

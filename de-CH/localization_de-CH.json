@@ -424,7 +424,6 @@
   "editorPlaceholder": "Text zum Übersetzen hier einfügen",
   "login": "Anmelden",
   "logout": "Abmelden",
-  "myTeamLinks": "Meine Team-Links",  
   "news": "Neuigkeiten",
   "noNotifications": "Zurzeit gibt es keine Neuigkeiten.",
   "manual": "User Guide",
@@ -1503,7 +1502,7 @@
           "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
           "learnMore": "Mehr erfahren",
           "submitTrainingData": "Trainingsdaten übermitteln",
-          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>support@supertext.com</link>."          
+          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>support@supertext.com</link>."
         },
         "aiTranslation": {
           "title": "KI-ÜBERSETZUNG",
@@ -1641,7 +1640,6 @@
       "appearance": {
         "title": "Aussehen",
         "description": "Passen Sie das Aussehen Ihres Dashboards an.",
-        "autoSaveEnabled": "Änderungen werden automatisch gespeichert",        
         "sections": {
           "subdomainAndLinks": "Benutzerdefinierte Subdomain und interne Links",
           "availableServices": "Verfügbare Dienste",
@@ -1654,15 +1652,11 @@
           "saveChanges": "Änderungen speichern",
           "reset": "Zurücksetzen",
           "discardChanges": "Änderungen verwerfen",
-          "retrySave": "Speichern erneut versuchen"          
+          "retrySave": "Speichern erneut versuchen"
         },
-        "messages": {
-          "autoSaved": "Änderungen erfolgreich gespeichert",
-          "saving": "Änderungen werden gespeichert..."
-        },        
         "errors": {
           "validationErrors": "Es gibt einen oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern.",
-          "autoSaveFailed": "Die Änderungen konnten nicht automatisch gespeichert werden. Bitte versuchen Sie es erneut."          
+          "autoSaveFailed": "Die Änderungen konnten nicht automatisch gespeichert werden. Bitte versuchen Sie es erneut."
         },
         "subdomain": {
           "title": "Benutzerdefinierte Subdomain",
@@ -1673,7 +1667,7 @@
           "temporaryGetInContact": {
             "text": "Während wir dieses Feature für Sie bereitstellen, wenden Sie sich bitte an uns, wenn Sie eine benutzerdefinierte Subdomain wünschen.",
             "email": "support@supertext.com"
-          }          
+          }
         },
         "links": {
           "title": "Links für mein Team",
@@ -1683,8 +1677,8 @@
           "urlPlaceholder": "Ziel-URL",
           "characterLimit": "Die Linkbeschreibung darf {limit} Zeichen nicht überschreiten.",
           "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
-          "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL.",
-          "or": "oder"
+          "or": "oder",
+          "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL."
         },
         "services": {
           "verification": {
@@ -1697,12 +1691,6 @@
           }
         },
         "interface": {
-          "validating": "Validierung...",
-          "urlErrors": {
-            "validating": "URL wird validiert...",
-            "httpsRequired": "URL muss mit https:// beginnen",
-            "notAccessible": "URL ist nicht erreichbar. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
-          },          
           "logo": {
             "title": "Logo",
             "noLogoUploaded": "Kein Logo hochgeladen",
@@ -1711,7 +1699,7 @@
             "logoUrl": "Logo-URL",
             "suggestedDimensions": "Empfohlene Bildabmessungen: 140 × 30 Pixel.",
             "maxFileSize": "Maximale Dateigrösse: 2 MB",
-            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."            
+            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
           },
           "favicon": {
             "title": "Favicon",
@@ -1722,7 +1710,7 @@
             "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel gross sein.",
             "maxFileSize": "Maximale Dateigrösse: 2 MB",
             "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert.",
-            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."            
+            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
           },
           "color": {
             "title": "Farbe",
@@ -1735,7 +1723,18 @@
               "label": "Sekundärfarbe",
               "description": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob die darin platzierten Symbole und Texte schwarz oder weiss angezeigt werden sollen."
             }
+          },
+          "validating": "Validierung...",
+          "urlErrors": {
+            "validating": "URL wird validiert...",
+            "httpsRequired": "URL muss mit https:// beginnen",
+            "notAccessible": "URL ist nicht erreichbar. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
           }
+        },
+        "autoSaveEnabled": "Änderungen werden automatisch gespeichert",
+        "messages": {
+          "autoSaved": "Änderungen erfolgreich gespeichert",
+          "saving": "Änderungen werden gespeichert..."
         }
       }
     },
@@ -5000,5 +4999,6 @@
     "primaryColor": "Primäre Farbe",
     "secondaryColor": "Sekundäre Farbe",
     "contrastError": "Diese Farbkombination führt zu einer erschwerten Lesbarkeit. Empfohlenes Verhältnis ≥ 4.5, aktuelles Verhältnis: {ratio}"
-  }
+  },
+  "myTeamLinks": "Meine Team-Links"
 }

@@ -724,7 +724,7 @@
         "changeRole": "Rôle changé avec succès",
         "editMember": "Membre de l’équipe traité avec succès",
         "removeMember": "Utilisateur/-trice supprimé/-e de l’équipe avec succès",
-        "removeMemberBatch": "{count, plural, one {1 membre de l’équipe a été supprimé avec succès de l’quipe} other {# membres de l’équipe ont été supprimé avec succès de l’quipe}}"
+        "removeMemberBatch": "{count, plural, one {1 membre de l’équipe a été supprimé avec succès de l’équipe} other {# membres de l’équipe ont été supprimés avec succès de l’équipe}}"
       },
       "subscription": {
         "cancel": "Abonnement résilié avec succès",
@@ -1476,60 +1476,60 @@
         "subscriptionSettings": "Découvrez les différents abonnements Supertext et trouvez celui qui vous convient.",
         "subscriptionsExplore": "Découvrir les abonnements",
         "salutation": {
-          "hi": "Hallo, {name}!",
+          "hi": "Bonjour {name}!",
           "admin": "Admin",
-          "member": "Mitglied",
-          "notLicenced": "Nicht lizenziert"
+          "member": "Membre",
+          "notLicenced": "Sans licence"
         },
         "teamSection": {
-          "title": "Mein Team",
-          "inviteUser": "User:in einladen",
-          "exploreSubscriptions": "Abos entdecken",
-          "assignLicences": "Lizenzen zuweisen",
-          "users": "User:innen",
-          "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
-          "licensedUsers": "lizenzierte User:innen"
+          "title": "Mon équipe",
+          "inviteUser": "Inviter un/-e utilisateur/-trice",
+          "exploreSubscriptions": "Découvrir les abonnements",
+          "assignLicences": "Attribuer des licences",
+          "users": "Utilisateurs/-trices",
+          "usersActivePast30Days": "utilisateurs/-trices actifs/-ves au cours des 30 derniers jours",
+          "licensedUsers": "utilisateurs/-trices disposant d’une licence"
         },
         "aiCustomisation": {
-          "title": "KI-ANPASSUNG",
-          "trainingData": "Trainingsdaten",
-          "personalExpertTranslations": "persönliche Expertenübersetzungen zu Ihrem individuellen KI-Modell hinzugefügt",
-          "efficiencyGain": "Effizienzgewinn",
-          "genericModelEfficiency": "Effizienz des\ngenerischen Modells",
-          "customModelEfficiency": "Effizienz des\nindividuellen\nKI-Modells\nIhres Teams",
-          "potentialModelEfficiency": "Potenzielle\nEffizienz eines\nspezialisierten\nModells",
-          "teamTranslatesFaster": "Ihr Team übersetzt {gain}% schneller dank Ihres individualisierten KI-Modells.",
-          "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
-          "learnMore": "Mehr erfahren",
-          "submitTrainingData": "Trainingsdaten übermitteln"
+          "title": "PERSONNALISATION DE L’IA",
+          "trainingData": "Données d’entraînement",
+          "personalExpertTranslations": "vos traductions spécialisées professionnelles intégrées à votre propre modèle d’IA",
+          "efficiencyGain": "Gain d’efficacité",
+          "genericModelEfficiency": "Efficacité \ndes modèles \ngénériques",
+          "customModelEfficiency": "Efficacité du \nmodèle d’IA\nspécialisé\nde votre équipe",
+          "potentialModelEfficiency": "Efficacité \npotentielle \nd’un modèle \nspécialisé",
+          "teamTranslatesFaster": "Votre équipe traduit {gain}% plus vite grâce à votre modèle d’IA personnalisé.",
+          "translateFasterAccurately": "Traduisez de manière plus rapide et précise avec un modèle d’IA spécialisé.",
+          "learnMore": "En savoir plus",
+          "submitTrainingData": "Transmettre les données d’entraînement"
         },
         "aiTranslation": {
-          "title": "KI-ÜBERSETZUNG",
-          "teamUsage": "Team-Nutzung",
-          "teamUsageDescription": "",
-          "yourUsage": "Ihre Nutzung",
-          "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
-          "characters": "Zeichen",
-          "files": "Dateien",
-          "outOfFiles": "von {limit} Dateien",
-          "increaseFileTranslationLimit": "Limit für Dateien erhöhen"
+          "title": "TRADUCTION PAR L’IA",
+          "teamUsage": "Utilisation de l’équipe",
+          "teamUsageDescription": "Le volume de traduction par l’IA de votre équipe au cours des 30 derniers jours.",
+          "yourUsage": "Votre utilisation",
+          "yourUsageDescription": "Votre volume personnel de traduction par l’IA au cours des 30 derniers jours.",
+          "characters": "Caractères",
+          "files": "Fichiers",
+          "outOfFiles": "de {limit} fichiers",
+          "increaseFileTranslationLimit": "Augmenter la limite de fichiers"
         },
         "dataSecurity": {
-          "title": "DATENSICHERHEIT",
-          "gdprCompliance": "DSGVO-Konformität",
-          "maximumDataSecurity": "Maximale Datensicherheit ist für alle lizenzierten User:innen in Ihrem Team aktiviert.",
-          "freeUserDataUsage": "Als Free-User:in werden Ihre Übersetzungsdaten verwendet, um unser öffentliches Sprachmodell zu verbessern.",
-          "switchToPaidPlan": "Wechseln Sie zu einem kostenpflichtigen Abo, um maximale Datensicherheit zu aktivieren.",
-          "upgradeNow": "Jetzt upgraden",
-          "assignLicences": "Lizenzen zuweisen"
+          "title": "SÉCURITÉ DES DONNÉES",
+          "gdprCompliance": "Conformité au RGPD",
+          "maximumDataSecurity": "La sécurité des données maximale est activée pour l’ensemble des utilisateurs/-trices de votre équipe disposant d’une licence.",
+          "freeUserDataUsage": "Comme vous utilisez la version gratuite, nous utilisons vos données de traduction pour améliorer notre modèle linguistique public.",
+          "switchToPaidPlan": "Passez à un abonnement payant pour activer la sécurité des données maximale.",
+          "upgradeNow": "Mettre à niveau maintenant",
+          "assignLicences": "Attribuer des licences"
         },
         "activity": {
-          "title": "Aktivität",
-          "recentOrders": "AKTUELLE AUFTRÄGE",
-          "recentInvoices": "AKTUELLE RECHNUNGEN",
-          "invoice": "Rechnung {id}",
-          "seeOrderOverview": "Auftragsübersicht ansehen",
-          "seeInvoiceOverview": "Rechnungsübersicht ansehen"
+          "title": "Activité",
+          "recentOrders": "COMMANDES EN COURS",
+          "recentInvoices": "FACTURES EN COURS",
+          "invoice": "Facture {id}",
+          "seeOrderOverview": "Voir le récapitulatif des commandes",
+          "seeInvoiceOverview": "Voir le récapitulatif des factures"
         }
       },
       "salutation": [
@@ -1649,24 +1649,16 @@
           "availableServices": "Services disponibles",
           "interface": "Interface",
           "saveChanges": "Enregistrer les modifications",
-          "reset": "Réinitialiser",
-          "discardChanges": "Annuler les modifications",
-          "retrySave": "Réessayer l'enregistrement"
+          "reset": "Réinitialiser"
         },
         "errors": {
-          "validationErrors": "Il y a une ou plusieurs erreurs dans la validation du formulaire. Veuillez la/les corriger avant d’enregistrer.",
-          "autoSaveFailed": "Échec de l'enregistrement automatique des modifications. Veuillez réessayer."
+          "validationErrors": "Il y a une ou plusieurs erreurs dans la validation du formulaire. Veuillez la/les corriger avant d’enregistrer."
         },
         "subdomain": {
           "title": "Sous-domaine personnalisé",
           "description": "Définissez un sous-domaine (par ex. entreprise.supertext.com) via lequel votre équipe pourra accéder directement à la plateforme Supertext personnalisée. Votre équipe pourra continuer à accéder à la plateforme en se connectant sur supertext.com.",
           "placeholder": "sous-domaine-exemple",
-          "suffix": ".supertext.com",
-          "comingSoon": "Bientôt disponible",
-          "temporaryGetInContact": {
-            "text": "Si vous souhaitez configurer un sous-domaine personnalisé, veuillez nous contacter à",
-            "email": "support@supertext.com"
-          }
+          "suffix": ".supertext.com"
         },
         "links": {
           "title": "Liens pour mon équipe",
@@ -1676,7 +1668,6 @@
           "urlPlaceholder": "URL cible",
           "characterLimit": "La description du lien ne doit pas dépasser {limit} caractères.",
           "urlRequired": "Vous avez des descriptions pour ce lien, mais aucune URL cible. Ajoutez une URL ou supprimez les descriptions.",
-          "descriptionRequired": "Vous avez une URL pour ce lien, mais aucune description dans aucune langue. Ajoutez au moins une description ou supprimez l'URL.",
           "or": "ou"
         },
         "services": {
@@ -1690,12 +1681,6 @@
           }
         },
         "interface": {
-          "validating": "Validation...",
-          "urlErrors": {
-            "validating": "Validation de l'URL...",
-            "httpsRequired": "L'URL doit commencer par https://",
-            "notAccessible": "L'URL n'est pas accessible. Veuillez vérifier l'URL et réessayer."
-          },
           "logo": {
             "title": "Logo",
             "noLogoUploaded": "Aucun logo téléchargé",
@@ -1703,8 +1688,7 @@
             "uploadLogo": "Télécharger un logo",
             "logoUrl": "URL du logo",
             "suggestedDimensions": "Dimensions recommandées pour les images: 140 × 30 pixels.",
-            "maxFileSize": "Taille maximale de fichier: 2 Mo",
-            "invalidUrl": "Cette URL ne renvoie pas une image valide. Veuillez vérifier l'URL et réessayer."
+            "maxFileSize": "Taille maximale de fichier: 2 Mo"
           },
           "favicon": {
             "title": "Favicon",
@@ -1714,8 +1698,7 @@
             "faviconUrl": "URL du favicon",
             "requirements": "Les favicons doivent être de forme carrée et avoir comme dimensions au moins 32 × 32 pixels.",
             "maxFileSize": "Taille maximale de fichier: 2 Mo",
-            "urlRequirement": "Sélectionnez une URL d'image HTTPS qui autorise un accès anonyme et ne nécessite aucune authentification.",
-            "invalidUrl": "Cette URL ne renvoie pas une image valide. Veuillez vérifier l'URL et réessayer."
+            "urlRequirement": "Sélectionnez une URL d’image HTTPS qui autorise un accès anonyme et ne nécessite aucune authentification."
           },
           "color": {
             "title": "Couleur",
@@ -1726,13 +1709,9 @@
             },
             "secondary": {
               "label": "Couleur secondaire",
-              "description": "Définissez votre couleur préférée pour les boutons secondaires et choisissez si les icônes et les textes situés à l'intérieur doivent s'afficher en noir ou en blanc."
+              "description": "Définissez votre couleur préférée pour les boutons secondaires et choisissez si les icônes et les textes situés à l’intérieur doivent s’afficher en noir ou en blanc."
             }
           }
-        },
-        "messages": {
-          "autoSaved": "Modifications enregistrées avec succès",
-          "saving": "Enregistrement des modifications..."
         }
       }
     },

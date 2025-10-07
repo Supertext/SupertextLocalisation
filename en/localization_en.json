@@ -1476,60 +1476,60 @@
         "subscriptionSettings": "Discover the different Supertext subscriptions and find the right option for you.",
         "subscriptionsExplore": "Discover subscriptions",
         "salutation": {
-          "hi": "Hallo, {name}!",
+          "hi": "Hi, {name}!",
           "admin": "Admin",
-          "member": "Mitglied",
-          "notLicenced": "Nicht lizenziert"
+          "member": "Member",
+          "notLicenced": "Not licensed"
         },
         "teamSection": {
-          "title": "Mein Team",
-          "inviteUser": "User:in einladen",
-          "exploreSubscriptions": "Abos entdecken",
-          "assignLicences": "Lizenzen zuweisen",
-          "users": "User:innen",
-          "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
-          "licensedUsers": "lizenzierte User:innen"
+          "title": "My team",
+          "inviteUser": "Invite user",
+          "exploreSubscriptions": "Explore our subscriptions",
+          "assignLicences": "Assign licences",
+          "users": "Users",
+          "usersActivePast30Days": "active users in the last 30 days",
+          "licensedUsers": "licensed users"
         },
         "aiCustomisation": {
-          "title": "KI-ANPASSUNG",
-          "trainingData": "Trainingsdaten",
-          "personalExpertTranslations": "persönliche Expertenübersetzungen zu Ihrem individuellen KI-Modell hinzugefügt",
-          "efficiencyGain": "Effizienzgewinn",
-          "genericModelEfficiency": "Effizienz des\ngenerischen Modells",
-          "customModelEfficiency": "Effizienz des\nindividuellen\nKI-Modells\nIhres Teams",
-          "potentialModelEfficiency": "Potenzielle\nEffizienz eines\nspezialisierten\nModells",
-          "teamTranslatesFaster": "Ihr Team übersetzt {gain}% schneller dank Ihres individualisierten KI-Modells.",
-          "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
-          "learnMore": "Mehr erfahren",
-          "submitTrainingData": "Trainingsdaten übermitteln"
+          "title": "AI CUSTOMISATION",
+          "trainingData": "Training data",
+          "personalExpertTranslations": "personal expert translations added to your customised AI model",
+          "efficiencyGain": "Efficiency gain",
+          "genericModelEfficiency": "Efficiency of \nthe generic \nmodel",
+          "customModelEfficiency": "Efficiency of \nyour team's \ncustomised \nAI model",
+          "potentialModelEfficiency": "Potential \nefficiency of \na specialised \nmodel",
+          "teamTranslatesFaster": "Your team translates {gain}% faster thanks to your customised AI model.",
+          "translateFasterAccurately": "Translate faster and more accurately with a specialised AI model.",
+          "learnMore": "Learn more",
+          "submitTrainingData": "Submit training data"
         },
         "aiTranslation": {
-          "title": "KI-ÜBERSETZUNG",
-          "teamUsage": "Team-Nutzung",
-          "teamUsageDescription": "Das KI-Übersetzungsvolumen Ihres Teams in den letzten 30 Tagen.",
-          "yourUsage": "Ihre Nutzung",
-          "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
-          "characters": "Zeichen",
-          "files": "Dateien",
-          "outOfFiles": "von {limit} Dateien",
-          "increaseFileTranslationLimit": "Limit für Dateien erhöhen"
+          "title": "AI TRANSLATION",
+          "teamUsage": "Team usage",
+          "teamUsageDescription": "Your team's AI translation volume in the last 30 days.",
+          "yourUsage": "Your usage",
+          "yourUsageDescription": "Your personal AI translation volume in the last 30 days.",
+          "characters": "Characters",
+          "files": "Files",
+          "outOfFiles": "from {limit} files",
+          "increaseFileTranslationLimit": "Increase file limit"
         },
         "dataSecurity": {
-          "title": "DATENSICHERHEIT",
-          "gdprCompliance": "DSGVO-Konformität",
-          "maximumDataSecurity": "Maximale Datensicherheit ist für alle lizenzierten User:innen in Ihrem Team aktiviert.",
-          "freeUserDataUsage": "Als Free-User:in werden Ihre Übersetzungsdaten verwendet, um unser öffentliches Sprachmodell zu verbessern.",
-          "switchToPaidPlan": "Wechseln Sie zu einem kostenpflichtigen Abo, um maximale Datensicherheit zu aktivieren.",
-          "upgradeNow": "Jetzt upgraden",
-          "assignLicences": "Lizenzen zuweisen"
+          "title": "DATA SECURITY",
+          "gdprCompliance": "GDPR compliance",
+          "maximumDataSecurity": "Maximum data security is activated for all licensed users in your team.",
+          "freeUserDataUsage": "As a free user, your translation data will be used to improve our public language model.",
+          "switchToPaidPlan": "Switch to a paid subscription to activate maximum data security.",
+          "upgradeNow": "Upgrade now",
+          "assignLicences": "Assign licenses"
         },
         "activity": {
-          "title": "Aktivität",
-          "recentOrders": "AKTUELLE AUFTRÄGE",
-          "recentInvoices": "AKTUELLE RECHNUNGEN",
-          "invoice": "Rechnung {id}",
-          "seeOrderOverview": "Auftragsübersicht ansehen",
-          "seeInvoiceOverview": "Rechnungsübersicht ansehen"
+          "title": "Activity",
+          "recentOrders": "RECENT ORDERS",
+          "recentInvoices": "RECENT INVOICES",
+          "invoice": "Invoice {id}",
+          "seeOrderOverview": "View order overview",
+          "seeInvoiceOverview": "View invoice overview"
         }
       },
       "salutation": [
@@ -1649,28 +1649,16 @@
           "availableServices": "Available services",
           "interface": "Interface",
           "saveChanges": "Save changes",
-          "reset": "Reset",
-          "discardChanges": "Discard changes",
-          "retrySave": "Retry saving"
-        },
-        "messages": {
-          "autoSaved": "Changes saved successfully",
-          "saving": "Saving changes..."
+          "reset": "Reset"
         },
         "errors": {
-          "validationErrors": "There were one or more errors when validating the form. Please fix these before you save.",
-          "autoSaveFailed": "Failed to save changes automatically. Please try again."
+          "validationErrors": "There were one or more errors when validating the form. Please fix these before you save."
         },
         "subdomain": {
           "title": "Custom subdomain",
           "description": "Define a subdomain (e.g. company.supertext.com) that your team can use to access their customised Supertext site directly. Your team can still access the site by logging in to supertext.com.",
           "placeholder": "subdomain-example",
-          "suffix": ".supertext.com",
-          "comingSoon": "Coming soon",
-          "temporaryGetInContact": {
-            "text": "If you would like to set up a custom subdomain, please contact us at",
-            "email": "support@supertext.com"
-          }
+          "suffix": ".supertext.com"
         },
         "links": {
           "title": "Links for my team",
@@ -1680,7 +1668,6 @@
           "urlPlaceholder": "Target URL",
           "characterLimit": "The link description must not exceed {limit} characters.",
           "urlRequired": "You have descriptions for this link, but no target URL. Add a URL or remove the descriptions.",
-          "descriptionRequired": "You have a URL for this link, but no description in any language. Add at least one description or remove the URL.",
           "or": "or"
         },
         "services": {
@@ -1694,12 +1681,6 @@
           }
         },
         "interface": {
-          "validating": "Validating...",
-          "urlErrors": {
-            "validating": "Validating URL...",
-            "httpsRequired": "URL must start with https://",
-            "notAccessible": "URL is not accessible. Please check the URL and try again."
-          },
           "logo": {
             "title": "Logo",
             "noLogoUploaded": "No logo uploaded",
@@ -1707,8 +1688,7 @@
             "uploadLogo": "Upload logo",
             "logoUrl": "Logo URL",
             "suggestedDimensions": "Recommended image dimensions: 140 × 30 pixels",
-            "maxFileSize": "Maximum file size: 2 MB",
-            "invalidUrl": "This URL does not return a valid image. Please check the URL and try again."
+            "maxFileSize": "Maximum file size: 2 MB"
           },
           "favicon": {
             "title": "Favicon",
@@ -1718,8 +1698,7 @@
             "faviconUrl": "Favicon URL",
             "requirements": "Favicons should be square and at least 32 × 32 pixels.",
             "maxFileSize": "2 MB maximum file size",
-            "urlRequirement": "",
-            "invalidUrl": "This URL does not return a valid image. Please check the URL and try again."
+            "urlRequirement": ""
           },
           "color": {
             "title": "Colour",
@@ -4896,7 +4875,7 @@
       },
       "advancedSubscriptionPanel": {
         "title": "NEW: SUPERTEXT ADVANCED",
-        "description": "28 languages and even more control with glossaries.",
+        "description": "28 languages and even greater control with glossaries.",
         "cta": {
           "title": "Try it free for 30 days",
           "link": "/subscriptions"

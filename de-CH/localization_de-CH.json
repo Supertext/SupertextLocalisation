@@ -1503,13 +1503,17 @@
           "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres individualisierten KI-Modells.",
           "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
           "learnMore": "Mehr erfahren",
+          "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen",
           "submitTrainingData": "Trainingsdaten übermitteln",
-          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>support@supertext.com</link>."
+          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>sales@supertext.com</link>.",
+          "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
+          "submitTrainingDataEmailBody": "Sehr geehrte Damen und Herren,\nwir möchten Sie bitten, neue Trainingsdaten für unser kundenspezifisches Übersetzungsmodell hinzuzufügen,\num dessen Effizienz weiter zu verbessern."
         },
         "aiTranslation": {
           "title": "KI-ÜBERSETZUNG",
           "teamUsage": "Team-Nutzung",
           "teamUsageDescription": "Das KI-Übersetzungsvolumen Ihres Teams in den letzten 30 Tagen.",
+          "teamUsageTooltip": "Inklusive API-Nutzung.",
           "yourUsage": "Ihre Nutzung",
           "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
           "characters": "Zeichen",
@@ -1670,7 +1674,8 @@
           "suffix": ".supertext.com",
           "comingSoon": "Coming Soon",
           "temporaryGetInContact": {
-            "text": "Während wir dieses Feature für Sie bereitstellen, wenden Sie sich bitte an uns, wenn Sie eine benutzerdefinierte Subdomain wünschen.",
+            "textStart" : "Um eine Subdomain festzulegen, wenden Sie sich an",
+            "text": ". Bitte beachten Sie, dass es einige Tage dauern kann, bis die Domain aktiv ist. Sobald das der Fall ist, werden Sie von uns benachrichtigt und die Domain wird hier angezeigt.",
             "email": "support@supertext.com"
           }
         },

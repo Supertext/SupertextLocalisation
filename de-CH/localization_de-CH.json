@@ -1484,13 +1484,13 @@
         "teamSection": {
           "title": "Mein Team",
           "inviteUser": "User:in einladen",
-          "inviteUserTooltip": "Nur Admins können Leute einladen.",
           "exploreSubscriptions": "Abos entdecken",
           "assignLicences": "Lizenzen zuweisen",
-          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen.",          
           "users": "User:innen",
           "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
-          "licensedUsers": "lizenzierte User:innen"
+          "licensedUsers": "lizenzierte User:innen",
+          "inviteUserTooltip": "Nur Admins können Leute einladen.",
+          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
         },
         "aiCustomisation": {
           "title": "KI-SPEZIALISIERUNG",
@@ -1503,24 +1503,24 @@
           "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres individualisierten KI-Modells.",
           "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
           "learnMore": "Mehr erfahren",
-          "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen",          
           "submitTrainingData": "Trainingsdaten übermitteln",
           "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>sales@supertext.com</link>.",
+          "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen",
           "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
-          "submitTrainingDataEmailBody": "Sehr geehrte Damen und Herren,\nwir möchten Sie bitten, neue Trainingsdaten für unser kundenspezifisches Übersetzungsmodell hinzuzufügen,\num dessen Effizienz weiter zu verbessern."          
+          "submitTrainingDataEmailBody": "Sehr geehrte Damen und Herren,\nwir möchten Sie bitten, neue Trainingsdaten für unser kundenspezifisches Übersetzungsmodell hinzuzufügen,\num dessen Effizienz weiter zu verbessern."
         },
         "aiTranslation": {
           "title": "KI-ÜBERSETZUNG",
           "teamUsage": "Team-Nutzung",
           "teamUsageDescription": "Das KI-Übersetzungsvolumen Ihres Teams in den letzten 30 Tagen.",
           "yourUsage": "Ihre Nutzung",
-          "teamUsageTooltip": "Inklusive API-Nutzung.",          
           "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
           "characters": "Zeichen",
           "files": "Dateien",
           "outOfFiles": "von {limit} Dateien",
           "increaseFileTranslationLimit": "Limit für Dateien erhöhen",
-          "increaseFileTranslationLimitTooltip": "Nur Admins können das Limit für Dateien erhöhen."          
+          "teamUsageTooltip": "Inklusive API-Nutzung.",
+          "increaseFileTranslationLimitTooltip": "Nur Admins können das Limit für Dateien erhöhen."
         },
         "dataSecurity": {
           "title": "DATENSICHERHEIT",
@@ -1531,7 +1531,7 @@
           "upgradeNow": "Jetzt upgraden",
           "assignLicences": "Lizenzen zuweisen",
           "upgradeNowTooltip": "Nur Admins können ein Upgrade durchführen.",
-          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."          
+          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
         },
         "activity": {
           "title": "Aktivität",
@@ -1674,9 +1674,9 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
           "temporaryGetInContact": {
-            "textStart" : "Um eine Subdomain festzulegen, wenden Sie sich an",            
-            "text": "REMYDELETE-Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen.",
-            "email": "support@supertext.com"
+            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen.",
+            "email": "support@supertext.com",
+            "textStart": "Um eine Subdomain festzulegen, wenden Sie sich an"
           }
         },
         "links": {

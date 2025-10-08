@@ -1488,7 +1488,9 @@
           "assignLicences": "Assegna licenze",
           "users": "Utenti",
           "usersActivePast30Days": "utenti attivi negli ultimi 30 giorni",
-          "licensedUsers": "utenti con licenza"
+          "licensedUsers": "utenti con licenza",
+          "inviteUserTooltip": "Nur Admins können Leute einladen.",
+          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
         },
         "aiCustomisation": {
           "title": "CUSTOMIZZAZIONE IA",
@@ -1502,7 +1504,10 @@
           "translateFasterAccurately": "Traduca in modo più veloce e preciso con un modello IA specializzato.",
           "learnMore": "Per saperne di più",
           "submitTrainingData": "Invia dati per il training",
-          "submitTrainingDataDescription": "Ci contatti per caricare i Suoi dati per il training. <link>support@supertext.com</link>."
+          "submitTrainingDataDescription": "Ci contatti per caricare i Suoi dati per il training. <link>support@supertext.com</link>.",
+          "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen",
+          "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
+          "submitTrainingDataEmailBody": "Sehr geehrte Damen und Herren,\nwir möchten Sie bitten, neue Trainingsdaten für unser kundenspezifisches Übersetzungsmodell hinzuzufügen,\num dessen Effizienz weiter zu verbessern."
         },
         "aiTranslation": {
           "title": "TRADUZIONE IA",
@@ -1513,7 +1518,9 @@
           "characters": "Caratteri",
           "files": "File",
           "outOfFiles": "di {limit} file",
-          "increaseFileTranslationLimit": "Aumenta il limite del numero di file"
+          "increaseFileTranslationLimit": "Aumenta il limite del numero di file",
+          "teamUsageTooltip": "Inklusive API-Nutzung.",
+          "increaseFileTranslationLimitTooltip": "Nur Admins können das Limit für Dateien erhöhen."
         },
         "dataSecurity": {
           "title": "SICUREZZA DEI DATI",
@@ -1522,7 +1529,9 @@
           "freeUserDataUsage": "In qualità di utente Free, i dati delle Sue traduzioni vengono utilizzati per migliorare il nostro modello linguistico usufruibile pubblicamente.",
           "switchToPaidPlan": "Passi a un abbonamento a pagamento per usufruire della massima sicurezza dei dati.",
           "upgradeNow": "Effettua l’upgrade",
-          "assignLicences": "Assegna licenze"
+          "assignLicences": "Assegna licenze",
+          "upgradeNowTooltip": "Nur Admins können ein Upgrade durchführen.",
+          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
         },
         "activity": {
           "title": "Attività",
@@ -1665,8 +1674,9 @@
           "suffix": ".supertext.com",
           "comingSoon": "Disponibile a breve",
           "temporaryGetInContact": {
-            "text": "REMYDELETE-Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti.",
-            "email": "support@supertext.com"
+            "text": "Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti.",
+            "email": "support@supertext.com",
+            "textStart": "Um eine Subdomain festzulegen, wenden Sie sich an"
           }
         },
         "links": {

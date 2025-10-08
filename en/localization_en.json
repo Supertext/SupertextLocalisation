@@ -1489,8 +1489,8 @@
           "users": "Users",
           "usersActivePast30Days": "active users in the last 30 days",
           "licensedUsers": "licensed users",
-          "inviteUserTooltip": "Nur Admins können Leute einladen.",
-          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
+          "inviteUserTooltip": "Only admins can invite people.",
+          "assignLicencesTooltip": "Only admins can assign licences."
         },
         "aiCustomisation": {
           "title": "AI CUSTOMISATION",
@@ -1504,10 +1504,10 @@
           "translateFasterAccurately": "Translate faster and more accurately with a specialised AI model.",
           "learnMore": "Learn more",
           "submitTrainingData": "Submit training data",
-          "submitTrainingDataDescription": "Contact us to upload your training data. <link>support@supertext.com</link>.",
-          "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen",
-          "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
-          "submitTrainingDataEmailBody": "Sehr geehrte Damen und Herren,\nwir möchten Sie bitten, neue Trainingsdaten für unser kundenspezifisches Übersetzungsmodell hinzuzufügen,\num dessen Effizienz weiter zu verbessern."
+          "submitTrainingDataDescription": "Contact us to upload your training data. <link>sales@supertext.com</link>.",
+          "submitTrainingDataTooltip": "Only admins can submit training data.",
+          "submitTrainingDataEmailSubject": "Request to upload training data –",
+          "submitTrainingDataEmailBody": "Dear Client,\nWe would like to ask you to upload new training data in order to further improve the efficiency of your custom model."
         },
         "aiTranslation": {
           "title": "AI TRANSLATION",
@@ -1519,8 +1519,8 @@
           "files": "Files",
           "outOfFiles": "from {limit} files",
           "increaseFileTranslationLimit": "Increase file limit",
-          "teamUsageTooltip": "Inklusive API-Nutzung.",
-          "increaseFileTranslationLimitTooltip": "Nur Admins können das Limit für Dateien erhöhen."
+          "teamUsageTooltip": "Including API usage.",
+          "increaseFileTranslationLimitTooltip": "Only admins can increase the file limit."
         },
         "dataSecurity": {
           "title": "DATA SECURITY",
@@ -1530,8 +1530,8 @@
           "switchToPaidPlan": "Switch to a paid subscription to activate maximum data security.",
           "upgradeNow": "Upgrade now",
           "assignLicences": "Assign licenses",
-          "upgradeNowTooltip": "Nur Admins können ein Upgrade durchführen.",
-          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
+          "upgradeNowTooltip": "Only admins can perform an upgrade.",
+          "assignLicencesTooltip": "Only admins can assign licences."
         },
         "activity": {
           "title": "Activity",
@@ -1676,7 +1676,7 @@
           "temporaryGetInContact": {
             "text": "This feature is still under development. Until it's ready, please contact us to set up a custom subdomain.",
             "email": "support@supertext.com",
-            "textStart": "Um eine Subdomain festzulegen, wenden Sie sich an"
+            "textStart": "To specify a subdomain, please contact"
           }
         },
         "links": {

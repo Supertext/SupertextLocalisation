@@ -1489,8 +1489,8 @@
           "users": "Utilisateurs/-trices",
           "usersActivePast30Days": "utilisateurs/-trices actifs/-ves au cours des 30 derniers jours",
           "licensedUsers": "utilisateurs/-trices disposant d’une licence",
-          "inviteUserTooltip": "Nur Admins können Leute einladen.",
-          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
+          "inviteUserTooltip": "Uniquement les administrateurs/-trices peuvent inviter des personnes.",
+          "assignLicencesTooltip": "Uniquement les administrateurs/-trices peuvent attribuer des licences."
         },
         "aiCustomisation": {
           "title": "PERSONNALISATION DE L’IA",
@@ -1504,10 +1504,10 @@
           "translateFasterAccurately": "Traduisez de manière plus rapide et précise avec un modèle d’IA spécialisé.",
           "learnMore": "En savoir plus",
           "submitTrainingData": "Transmettre les données d’entraînement",
-          "submitTrainingDataDescription": "Contactez-nous pour télécharger vos données d’entraînement. <link>support@supertext.com</link>.",
-          "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen",
-          "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
-          "submitTrainingDataEmailBody": "Sehr geehrte Damen und Herren,\nwir möchten Sie bitten, neue Trainingsdaten für unser kundenspezifisches Übersetzungsmodell hinzuzufügen,\num dessen Effizienz weiter zu verbessern."
+          "submitTrainingDataDescription": "Contactez-nous pour télécharger vos données d’entraînement. <link>sales@supertext.com</link>.",
+          "submitTrainingDataTooltip": "Uniquement les administrateurs/-trices peuvent soumettre des données d’entraînement.",
+          "submitTrainingDataEmailSubject": "Demande de téléchargement de données d’entraînement –",
+          "submitTrainingDataEmailBody": "Cher/-è client/e,\nNous vous prions de télécharger de nouvelles données d’entraînement afin d’améliorer encore l’efficacité de votre modèle personnalisé."
         },
         "aiTranslation": {
           "title": "TRADUCTION PAR L’IA",
@@ -1519,8 +1519,8 @@
           "files": "Fichiers",
           "outOfFiles": "de {limit} fichiers",
           "increaseFileTranslationLimit": "Augmenter la limite de fichiers",
-          "teamUsageTooltip": "Inklusive API-Nutzung.",
-          "increaseFileTranslationLimitTooltip": "Nur Admins können das Limit für Dateien erhöhen."
+          "teamUsageTooltip": "Utilisation de l’API incluse.",
+          "increaseFileTranslationLimitTooltip": "Uniquement les administrateurs/-trices peuvent attribuer des licences."
         },
         "dataSecurity": {
           "title": "SÉCURITÉ DES DONNÉES",
@@ -1530,8 +1530,8 @@
           "switchToPaidPlan": "Passez à un abonnement payant pour activer la sécurité des données maximale.",
           "upgradeNow": "Mettre à niveau maintenant",
           "assignLicences": "Attribuer des licences",
-          "upgradeNowTooltip": "Nur Admins können ein Upgrade durchführen.",
-          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
+          "upgradeNowTooltip": "Uniquement les administrateurs/-trices peuvent effectuer une mise à niveau.",
+          "assignLicencesTooltip": "Uniquement les administrateurs/-trices peuvent attribuer des licences."
         },
         "activity": {
           "title": "Activité",
@@ -1676,7 +1676,7 @@
           "temporaryGetInContact": {
             "text": "Cette fonctionnalité est encore en cours de développement. En attendant, vous pouvez nous contacter directement si vous souhaitez enregistrer un sous-domaine personnalisé.",
             "email": "support@supertext.com",
-            "textStart": "Um eine Subdomain festzulegen, wenden Sie sich an"
+            "textStart": "Pour définir un sous-domaine, veuillez contacter"
           }
         },
         "links": {

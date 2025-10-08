@@ -1484,8 +1484,10 @@
         "teamSection": {
           "title": "Mein Team",
           "inviteUser": "User:in einladen",
+          "inviteUserTooltip": "Nur Admins können Leute einladen.",
           "exploreSubscriptions": "Abos entdecken",
           "assignLicences": "Lizenzen zuweisen",
+          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen.",
           "users": "User:innen",
           "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
           "licensedUsers": "lizenzierte User:innen"
@@ -1501,19 +1503,24 @@
           "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres individualisierten KI-Modells.",
           "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
           "learnMore": "Mehr erfahren",
+          "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen",
           "submitTrainingData": "Trainingsdaten übermitteln",
-          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>support@supertext.com</link>."
+          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>sales@supertext.com</link>.",
+          "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
+          "submitTrainingDataEmailBody": "Sehr geehrte Damen und Herren,\nwir möchten Sie bitten, neue Trainingsdaten für unser kundenspezifisches Übersetzungsmodell hinzuzufügen,\num dessen Effizienz weiter zu verbessern."
         },
         "aiTranslation": {
           "title": "KI-ÜBERSETZUNG",
           "teamUsage": "Team-Nutzung",
           "teamUsageDescription": "Das KI-Übersetzungsvolumen Ihres Teams in den letzten 30 Tagen.",
+          "teamUsageTooltip": "Inklusive API-Nutzung.",
           "yourUsage": "Ihre Nutzung",
           "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
           "characters": "Zeichen",
           "files": "Dateien",
           "outOfFiles": "von {limit} Dateien",
-          "increaseFileTranslationLimit": "Limit für Dateien erhöhen"
+          "increaseFileTranslationLimit": "Limit für Dateien erhöhen",
+          "increaseFileTranslationLimitTooltip": "Nur Admins können das Limit für Dateien erhöhen."
         },
         "dataSecurity": {
           "title": "DATENSICHERHEIT",
@@ -1522,7 +1529,9 @@
           "freeUserDataUsage": "Als Free-User:in werden Ihre Übersetzungsdaten verwendet, um unser öffentliches Sprachmodell zu verbessern.",
           "switchToPaidPlan": "Wechseln Sie zu einem kostenpflichtigen Abo, um maximale Datensicherheit zu aktivieren.",
           "upgradeNow": "Jetzt upgraden",
-          "assignLicences": "Lizenzen zuweisen"
+          "upgradeNowTooltip": "Nur Admins können ein Upgrade durchführen.",
+          "assignLicences": "Lizenzen zuweisen",
+          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
         },
         "activity": {
           "title": "Aktivität",
@@ -1663,10 +1672,9 @@
           "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen.",
           "placeholder": "subdomain-beispiel",
           "suffix": ".supertext.com",
-          "comingSoon": "Bald verfügbar",
+          "comingSoon": "Coming Soon",
           "temporaryGetInContact": {
-            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen.",
-            "email": "support@supertext.com"
+            "text": "Um eine Subdomain festzulegen, wenden Sie sich an <email>sales@supertext.com</email>. Bitte beachten Sie, dass es einige Tage dauern kann, bis die Domain aktiv ist. Sobald das der Fall ist, werden Sie von uns benachrichtigt und die Domain wird hier angezeigt."
           }
         },
         "links": {
@@ -1724,9 +1732,9 @@
               "description": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob die darin platzierten Symbole und Texte schwarz oder weiss angezeigt werden sollen."
             }
           },
-          "validating": "Validierung ...",
+          "validating": "Validierung...",
           "urlErrors": {
-            "validating": "URL wird validiert ...",
+            "validating": "URL wird validiert...",
             "httpsRequired": "URL muss mit https:// beginnen",
             "notAccessible": "URL ist nicht erreichbar. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
           }
@@ -1734,7 +1742,7 @@
         "autoSaveEnabled": "Änderungen werden automatisch gespeichert",
         "messages": {
           "autoSaved": "Änderungen erfolgreich gespeichert",
-          "saving": "Änderungen werden gespeichert ..."
+          "saving": "Änderungen werden gespeichert..."
         }
       }
     },

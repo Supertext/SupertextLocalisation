@@ -835,7 +835,7 @@
       "allInvoices": "Alle Rechnungen Ihres Teams"
     },
     "dashboard": {
-      "title": "Cockpit",
+      "title": "Dashboard",
       "nextSteps": "NÄCHSTE SCHRITTE",
       "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt aktuell keine weiteren Schritte zu erledigen.",
       "addSettings": "Angaben ergänzen",
@@ -1674,7 +1674,9 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
           "temporaryGetInContact": {
-            "text": "Wenden Sie sich bitte an uns, wenn Sie eine benutzerdefinierte Subdomain wünschen. <email>sales@supertext.com</email>"
+            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen.",
+            "email": "sales@supertext.com",
+            "textStart": "Um eine Subdomain festzulegen, wenden Sie sich an"
           }
         },
         "links": {

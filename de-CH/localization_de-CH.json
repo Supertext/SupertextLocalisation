@@ -1130,7 +1130,7 @@
         },
         "monthlyCancellable": "Monatlich kündbar",
         "allFunctionality": "Alle Funktionen im Vergleich",
-        "editSubscriptionMessageAdmin": "Sie möchten Ihr Abo bearbeiten? <link>Zum Dashboard</link>",
+        "editSubscriptionMessageAdmin": "Sie möchten Ihr Abo bearbeiten? <link>Zum Cockpit</link>",
         "editSubscriptionMessageUser": "Sie möchten Ihr Abo bearbeiten? <link>Kontaktieren Sie eine:n Admin in Ihrem Team<link/>",
         "subscriptionSiteLicenseInfo": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert."
       },
@@ -1467,7 +1467,7 @@
         "yourFeedback": "Ihr Feedback"
       },
       "overview": {
-        "title": "Übersicht",
+        "title": "Dashboard",
         "nextSteps": "NÄCHSTE SCHRITTE",
         "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
         "addSettings": "Angaben ergänzen",
@@ -2271,7 +2271,7 @@
             },
             "teamAdministration": {
               "name": "Teamverwaltung",
-              "description": "Verwalten Sie die User:innen in Ihrer Organisation zentral im Dashboard. Fügen Sie Mitglieder hinzu, zeigen Sie die Nutzung an und kontrollieren Sie die Kosten mit zentraler Rechnungsstellung.",
+              "description": "Verwalten Sie die User:innen in Ihrer Organisation zentral im Cockpit. Fügen Sie Mitglieder hinzu, zeigen Sie die Nutzung an und kontrollieren Sie die Kosten mit zentraler Rechnungsstellung.",
               "free": "Mit kostenloser Registrierung"
             },
             "privateHosting": {
@@ -4999,7 +4999,7 @@
   },
   "customBranding": {
     "title": "Darstellung anpassen",
-    "description": "Sie können hier grundlegende Anpassungen vornehmen, um einen benutzerdefinierten Arbeitsbereich zu erstellen – laden Sie Ihr Logo hoch und definieren Sie zwei Farben für das Translation Interface. Weitere benutzerdefinierte Einstellungen können im Cockpit unter „Interface anpassen“ vorgenommen werden.",
+    "description": "Sie können hier grundlegende Anpassungen vornehmen, um einen benutzerdefinierten Arbeitsbereich zu erstellen – laden Sie Ihr Logo hoch und definieren Sie zwei Farben für das Translation Interface. Weitere benutzerdefinierte Einstellungen können im Cockpit unter «Interface anpassen» vorgenommen werden.",
     "logoDescription": "Idealerweise sollten Sie eine transparente .png-Datei oder eine .svg-Datei mit einer maximalen Höhe von XY Pixeln hochladen.",
     "upload": "Datei hochladen",
     "primaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die primären Buttons fest und wählen Sie, ob die darin platzierten Symbole und Texte in Schwarz oder Weiss angezeigt werden sollen.",

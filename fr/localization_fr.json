@@ -119,7 +119,8 @@
         "message": "{remaining}/{total} fichier(s) disponible(s)",
         "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} free {Supertext Free comprend {count, plural, =1 {# fichier} other {# fichiers}} per mois.} other {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.}}",
         "unregisteredPopover": "Vous devez être connecté/-ée pour commencer à traduire des fichiers.",
-        "infinitePopover": "Votre abonnement {subscriptionType} inclut un nombre illimité de traductions de fichiers."
+        "infinitePopover": "Votre abonnement {subscriptionType} inclut un nombre illimité de traductions de fichiers.",
+        "infiniteMessage": "Traductions de fichiers illimitées"
       },
       "dropFileWithoutExtension": "Glissez un fichier ici ou",
       "ctas": {
@@ -835,7 +836,7 @@
       "allInvoices": "Toutes les factures de votre équipe"
     },
     "dashboard": {
-      "title": "Tableau de bord",
+      "title": "Cockpit",
       "nextSteps": "PROCHAINES ÉTAPES",
       "nextStepsInformation": "Vous êtes à jour, il n’y a rien d’autre à faire pour le moment.",
       "addSettings": "Compléter les informations",
@@ -1532,7 +1533,9 @@
           "upgradeNow": "Mettre à niveau maintenant",
           "assignLicences": "Attribuer des licences",
           "upgradeNowTooltip": "Uniquement les administrateurs/-trices peuvent effectuer une mise à niveau.",
-          "assignLicencesTooltip": "Uniquement les administrateurs/-trices peuvent attribuer des licences."
+          "assignLicencesTooltip": "Uniquement les administrateurs/-trices peuvent attribuer des licences.",
+          "addLicences": "Ajouter des licences",
+          "addLicencesTooltip": "Uniquement les administrateurs/-trices peuvent ajouter des licences."
         },
         "activity": {
           "title": "Activité",
@@ -1675,9 +1678,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bientôt disponible",
           "temporaryGetInContact": {
-            "text": "Cette fonctionnalité est encore en cours de développement. En attendant, vous pouvez nous contacter directement si vous souhaitez enregistrer un sous-domaine personnalisé.",
-            "email": "sales@supertext.com",
-            "textStart": "Pour définir un sous-domaine, veuillez contacter"
+            "text": "Si vous avez besoin d’un sous-domaine personnalisé, veuillez nous contacter à l’adresse<email>sales@supertext.com</email>."
           }
         },
         "links": {
@@ -1689,7 +1690,8 @@
           "characterLimit": "La description du lien ne doit pas dépasser {limit} caractères.",
           "urlRequired": "Vous avez des descriptions pour ce lien, mais aucune URL cible. Ajoutez une URL ou supprimez les descriptions.",
           "or": "ou",
-          "descriptionRequired": "Vous disposez d’une URL pour ce lien, mais n’avez indiqué aucune description dans aucune langue. Ajoutez au moins une description ou supprimez l’URL."
+          "descriptionRequired": "Vous disposez d’une URL pour ce lien, mais n’avez indiqué aucune description dans aucune langue. Ajoutez au moins une description ou supprimez l’URL.",
+          "badLinkError": "L’URL cible n’est pas correcte. L’URL doit commencer par http:// ou https://. Exemple: https://www.supertext.com"
         },
         "services": {
           "verification": {

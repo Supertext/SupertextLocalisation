@@ -119,7 +119,8 @@
         "message": "{remaining}/{total} files available",
         "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month} free {Supertext Free includes {count, plural, one {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month}}",
         "unregisteredPopover": "You must be logged in to begin translating files.",
-        "infinitePopover": "Your {subscriptionType} subscription includes an unlimited number of file translations."
+        "infinitePopover": "Your {subscriptionType} subscription includes an unlimited number of file translations.",
+        "infiniteMessage": "Unbegrenzte Dateiübersetzungen"
       },
       "dropFileWithoutExtension": "Drag a file here or",
       "ctas": {
@@ -1532,7 +1533,9 @@
           "upgradeNow": "Upgrade now",
           "assignLicences": "Assign licenses",
           "upgradeNowTooltip": "Only admins can perform an upgrade.",
-          "assignLicencesTooltip": "Only admins can assign licences."
+          "assignLicencesTooltip": "Only admins can assign licences.",
+          "addLicences": "Lizenzen hinzufügen",
+          "addLicencesTooltip": "Nur Admins können Lizenzen hinzufügen."
         },
         "activity": {
           "title": "Activity",
@@ -1689,7 +1692,8 @@
           "characterLimit": "The link description must not exceed {limit} characters.",
           "urlRequired": "You have descriptions for this link, but no target URL. Add a URL or remove the descriptions.",
           "or": "or",
-          "descriptionRequired": "You have a URL for this link, but no description in any language. Please add at least one description or remove the URL."
+          "descriptionRequired": "You have a URL for this link, but no description in any language. Please add at least one description or remove the URL.",
+          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen. Z.B https://www.supertext.com"
         },
         "services": {
           "verification": {

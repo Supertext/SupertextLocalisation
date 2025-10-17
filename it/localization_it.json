@@ -119,8 +119,7 @@
         "message": "{remaining}/{total} file disponibili",
         "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, one {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese}}",
         "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file.",
-        "infinitePopover": "Il Suo abbonamento {subscriptionType} include un numero illimitato di traduzioni di file.",
-        "infiniteMessage": "Traduzioni di file illimitate"
+        "infinitePopover": "Il Suo abbonamento {subscriptionType} include un numero illimitato di traduzioni di file."
       },
       "dropFileWithoutExtension": "Trascini un file qui o",
       "ctas": {
@@ -836,7 +835,7 @@
       "allInvoices": "Tutte le fatture del Suo team"
     },
     "dashboard": {
-      "title": "Cockpit",
+      "title": "Dashboard",
       "nextSteps": "PROSSIMI PASSAGGI",
       "nextStepsInformation": "Tutti i dati sono aggiornati, non ci sono ulteriori passaggi da completare.",
       "addSettings": "Completa i dati",
@@ -1134,7 +1133,7 @@
         "editSubscriptionMessageAdmin": "Desidera modificare i Suoi abbonamenti? <link>Al cockpit</link>",
         "editSubscriptionMessageUser": "Desidera modificare i Suoi abbonamenti? <link>Si rivolga a un amministratore del Suo team<link/>",
         "subscriptionSiteLicenseInfo": "Licenza aziendale: tutti gli utenti aggiunti ricevono automaticamente una licenza.",
-        "tryFree": "Try for free"
+        "tryFree": "Prova gratuita"
       },
       "resources": {
         "title": "Risorse linguistiche",
@@ -1533,9 +1532,7 @@
           "upgradeNow": "Effettua l’upgrade",
           "assignLicences": "Assegna licenze",
           "upgradeNowTooltip": "Solo gli amministratori possono eseguire un upgrade.",
-          "assignLicencesTooltip": "Solo gli amministratori possono assegnare licenze.",
-          "addLicences": "Aggiungi licenze",
-          "addLicencesTooltip": "Solo gli amministratori possono aggiungere licenze."
+          "assignLicencesTooltip": "Solo gli amministratori possono assegnare licenze."
         },
         "activity": {
           "title": "Attività",
@@ -1678,7 +1675,9 @@
           "suffix": ".supertext.com",
           "comingSoon": "Disponibile a breve",
           "temporaryGetInContact": {
-            "text": "Se hai bisogno di un sottodominio personalizzato, contattaci all’indirizzo<email>sales@supertext.com</email>."
+            "text": "Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti.",
+            "email": "sales@supertext.com",
+            "textStart": "Per impostare un sottodominio, Si rivolga a"
           }
         },
         "links": {
@@ -1690,8 +1689,7 @@
           "characterLimit": "La descrizione del link non deve superare il numero massimo di {limit} caratteri.",
           "urlRequired": "Questo link è provvisto di descrizioni, ma non di un URL di destinazione. Aggiunga un URL o rimuova le descrizioni.",
           "or": "oppure",
-          "descriptionRequired": "Questo link dispone di un URL, ma non di una descrizione in una determinata lingua. Aggiungere almeno una descrizione o rimuovere l’URL.",
-          "badLinkError": "L’URL di destinazione non è corretto. L’URL deve iniziare con http:// o https://. Esempio: https://www.supertext.com"
+          "descriptionRequired": "Questo link dispone di un URL, ma non di una descrizione in una determinata lingua. Aggiungere almeno una descrizione o rimuovere l’URL."
         },
         "services": {
           "verification": {

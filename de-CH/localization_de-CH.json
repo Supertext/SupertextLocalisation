@@ -119,8 +119,7 @@
         "message": "{remaining}/{total} Dateien verfügbar",
         "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, one {# Datei} other {# Dateien}} pro Monat}}",
         "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen.",
-        "infinitePopover": "Ihr {subscriptionType}-Abo umfasst eine unbegrenzte Anzahl Dateiübersetzungen.",
-        "infiniteMessage": "Unbegrenzte Dateiübersetzungen"
+        "infinitePopover": "Ihr {subscriptionType}-Abo umfasst eine unbegrenzte Anzahl Dateiübersetzungen."
       },
       "dropFileWithoutExtension": "Ziehen Sie eine Datei hierhin oder",
       "ctas": {
@@ -836,7 +835,7 @@
       "allInvoices": "Alle Rechnungen Ihres Teams"
     },
     "dashboard": {
-      "title": "Cockpit",
+      "title": "Dashboard",
       "nextSteps": "NÄCHSTE SCHRITTE",
       "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt aktuell keine weiteren Schritte zu erledigen.",
       "addSettings": "Angaben ergänzen",
@@ -1134,7 +1133,7 @@
         "editSubscriptionMessageAdmin": "Sie möchten Ihr Abo bearbeiten? <link>Zum Cockpit</link>",
         "editSubscriptionMessageUser": "Sie möchten Ihr Abo bearbeiten? <link>Kontaktieren Sie eine:n Admin in Ihrem Team<link/>",
         "subscriptionSiteLicenseInfo": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
-        "tryFree": "Try for free"
+        "tryFree": "Kostenlos testen"
       },
       "resources": {
         "title": "Sprachressourcen",
@@ -1533,9 +1532,7 @@
           "upgradeNow": "Jetzt upgraden",
           "assignLicences": "Lizenzen zuweisen",
           "upgradeNowTooltip": "Nur Admins können ein Upgrade durchführen.",
-          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen.",
-          "addLicences": "Lizenzen hinzufügen",
-          "addLicencesTooltip": "Nur Admins können Lizenzen hinzufügen."
+          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
         },
         "activity": {
           "title": "Aktivität",
@@ -1673,12 +1670,14 @@
         },
         "subdomain": {
           "title": "Benutzerdefinierte Subdomain",
-          "description": "Legen Sie eine Subdomain (z.B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen.",
+          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen.",
           "placeholder": "subdomain-beispiel",
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
           "temporaryGetInContact": {
-            "text": "Wenn Sie eine benutzerdefinierte Subdomain benötigen, wenden Sie sich bitte an uns unter<email>sales@supertext.com</email>."
+            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen.",
+            "email": "sales@supertext.com",
+            "textStart": "Um eine Subdomain festzulegen, wenden Sie sich an"
           }
         },
         "links": {
@@ -1690,8 +1689,7 @@
           "characterLimit": "Die Linkbeschreibung darf {limit} Zeichen nicht überschreiten.",
           "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
           "or": "oder",
-          "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL.",
-          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen. Z.B https://www.supertext.com"
+          "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL."
         },
         "services": {
           "verification": {

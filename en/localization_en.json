@@ -119,8 +119,7 @@
         "message": "{remaining}/{total} files available",
         "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month} free {Supertext Free includes {count, plural, one {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month}}",
         "unregisteredPopover": "You must be logged in to begin translating files.",
-        "infinitePopover": "Your {subscriptionType} subscription includes an unlimited number of file translations.",
-        "infiniteMessage": "Unlimited file translations"
+        "infinitePopover": "Your {subscriptionType} subscription includes an unlimited number of file translations."
       },
       "dropFileWithoutExtension": "Drag a file here or",
       "ctas": {
@@ -836,7 +835,7 @@
       "allInvoices": "All of your team’s invoices"
     },
     "dashboard": {
-      "title": "Cockpit",
+      "title": "Dashboard",
       "nextSteps": "NEXT STEPS",
       "nextStepsInformation": "You are up to date. There are no further steps for you to complete at this time.",
       "addSettings": "Complete information",
@@ -1533,9 +1532,7 @@
           "upgradeNow": "Upgrade now",
           "assignLicences": "Assign licenses",
           "upgradeNowTooltip": "Only admins can perform an upgrade.",
-          "assignLicencesTooltip": "Only admins can assign licences.",
-          "addLicences": "Add more licences",
-          "addLicencesTooltip": "Only admins can add more licences."
+          "assignLicencesTooltip": "Only admins can assign licences."
         },
         "activity": {
           "title": "Activity",
@@ -1678,7 +1675,9 @@
           "suffix": ".supertext.com",
           "comingSoon": "Coming soon",
           "temporaryGetInContact": {
-            "text": "If you need a custom subdomain, please contact us at<email>sales@supertext.com</email>."
+            "text": "This feature is still under development. Until it's ready, please contact us to set up a custom subdomain.",
+            "email": "sales@supertext.com",
+            "textStart": "To specify a subdomain, please contact"
           }
         },
         "links": {
@@ -1690,8 +1689,7 @@
           "characterLimit": "The link description must not exceed {limit} characters.",
           "urlRequired": "You have descriptions for this link, but no target URL. Add a URL or remove the descriptions.",
           "or": "or",
-          "descriptionRequired": "You have a URL for this link, but no description in any language. Please add at least one description or remove the URL.",
-          "badLinkError": "The target URL is not correct. The URL must start with http:// or https://. E.g https://www.supertext.com"
+          "descriptionRequired": "You have a URL for this link, but no description in any language. Please add at least one description or remove the URL."
         },
         "services": {
           "verification": {

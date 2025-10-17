@@ -836,7 +836,7 @@
       "allInvoices": "Alle Rechnungen Ihres Teams"
     },
     "dashboard": {
-      "title": "Dashboard",
+      "title": "Cockpit",
       "nextSteps": "NÄCHSTE SCHRITTE",
       "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt aktuell keine weiteren Schritte zu erledigen.",
       "addSettings": "Angaben ergänzen",
@@ -1693,7 +1693,7 @@
           "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
           "or": "oder",
           "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL.",
-          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen. Z.B https://www.supertext.com"
+          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen, z. B. https://www.supertext.com"
         },
         "services": {
           "verification": {

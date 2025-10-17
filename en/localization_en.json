@@ -120,7 +120,7 @@
         "popover": "{plan, select, Essential {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month} free {Supertext Free includes {count, plural, one {# file} other {# files}} per month} other {Your {subscriptionType} subscription includes {count, plural, one {# file} other {# files}} per month}}",
         "unregisteredPopover": "You must be logged in to begin translating files.",
         "infinitePopover": "Your {subscriptionType} subscription includes an unlimited number of file translations.",
-        "infiniteMessage": "Unbegrenzte Dateiübersetzungen"
+        "infiniteMessage": "Unlimited file translations"
       },
       "dropFileWithoutExtension": "Drag a file here or",
       "ctas": {
@@ -1534,8 +1534,8 @@
           "assignLicences": "Assign licenses",
           "upgradeNowTooltip": "Only admins can perform an upgrade.",
           "assignLicencesTooltip": "Only admins can assign licences.",
-          "addLicences": "Lizenzen hinzufügen",
-          "addLicencesTooltip": "Nur Admins können Lizenzen hinzufügen."
+          "addLicences": "Add licences",
+          "addLicencesTooltip": "Only admins can add licences."
         },
         "activity": {
           "title": "Activity",
@@ -1693,7 +1693,7 @@
           "urlRequired": "You have descriptions for this link, but no target URL. Add a URL or remove the descriptions.",
           "or": "or",
           "descriptionRequired": "You have a URL for this link, but no description in any language. Please add at least one description or remove the URL.",
-          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen. Z.B https://www.supertext.com"
+          "badLinkError": "The target URL is invalid. The URL should begin with http:// or https://; for example, https://www.supertext.com"
         },
         "services": {
           "verification": {

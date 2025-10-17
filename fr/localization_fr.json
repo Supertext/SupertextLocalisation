@@ -119,7 +119,8 @@
         "message": "{remaining}/{total} fichier(s) disponible(s)",
         "popover": "{plan, select, Essential {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.} free {Supertext Free comprend {count, plural, =1 {# fichier} other {# fichiers}} per mois.} other {Votre abonnement {subscriptionType} comprend {count, plural, =1 {# fichier} other {# fichiers}} par mois.}}",
         "unregisteredPopover": "Vous devez être connecté/-ée pour commencer à traduire des fichiers.",
-        "infinitePopover": "Votre abonnement {subscriptionType} inclut un nombre illimité de traductions de fichiers."
+        "infinitePopover": "Votre abonnement {subscriptionType} inclut un nombre illimité de traductions de fichiers.",
+        "infiniteMessage": "Unbegrenzte Dateiübersetzungen"
       },
       "dropFileWithoutExtension": "Glissez un fichier ici ou",
       "ctas": {
@@ -1532,7 +1533,9 @@
           "upgradeNow": "Mettre à niveau maintenant",
           "assignLicences": "Attribuer des licences",
           "upgradeNowTooltip": "Uniquement les administrateurs/-trices peuvent effectuer une mise à niveau.",
-          "assignLicencesTooltip": "Uniquement les administrateurs/-trices peuvent attribuer des licences."
+          "assignLicencesTooltip": "Uniquement les administrateurs/-trices peuvent attribuer des licences.",
+          "addLicences": "Lizenzen hinzufügen",
+          "addLicencesTooltip": "Nur Admins können Lizenzen hinzufügen."
         },
         "activity": {
           "title": "Activité",
@@ -1689,7 +1692,8 @@
           "characterLimit": "La description du lien ne doit pas dépasser {limit} caractères.",
           "urlRequired": "Vous avez des descriptions pour ce lien, mais aucune URL cible. Ajoutez une URL ou supprimez les descriptions.",
           "or": "ou",
-          "descriptionRequired": "Vous disposez d’une URL pour ce lien, mais n’avez indiqué aucune description dans aucune langue. Ajoutez au moins une description ou supprimez l’URL."
+          "descriptionRequired": "Vous disposez d’une URL pour ce lien, mais n’avez indiqué aucune description dans aucune langue. Ajoutez au moins une description ou supprimez l’URL.",
+          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen. Z.B https://www.supertext.com"
         },
         "services": {
           "verification": {

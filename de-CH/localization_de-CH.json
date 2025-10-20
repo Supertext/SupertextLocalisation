@@ -835,924 +835,6 @@
       "userInvoices": "Ihre Rechnungen",
       "allInvoices": "Alle Rechnungen Ihres Teams"
     },
-    "dashboard": {
-      "title": "Cockpit",
-      "nextSteps": "NÄCHSTE SCHRITTE",
-      "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt aktuell keine weiteren Schritte zu erledigen.",
-      "addSettings": "Angaben ergänzen",
-      "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung.",
-      "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
-      "orders": {
-        "title": "Aufträge",
-        "viewAllOrders": "Alle Aufträge ansehen",
-        "openOrders": "AKTUELLSTE AUFTRÄGE",
-        "noOrders": "Oops, zurzeit gibt es keine Aufträge.",
-        "orderDate": "Bestelldatum",
-        "orderDeadlineDate": "Lieferung",
-        "orderDetails": {
-          "title": "AUFTRAGSDETAILS",
-          "order": "Bestellung",
-          "sourceLanguage": "Ausgangssprache",
-          "targetLanguage": "Zielsprache",
-          "sourceFile": "Ausgangstext",
-          "offerType": "Service",
-          "orderDeadline": "Lieferdatum",
-          "orderName": "Auftragstitel",
-          "industry": "Fachgebiet",
-          "targetAudience": "Zielpublikum",
-          "orderFiles": "Quellen",
-          "price": "Preis (exkl. MWST)",
-          "scope": "Umfang",
-          "invoiceDate": "Bestellzeit",
-          "invoiceAddress": "Rechnungsadresse",
-          "contactPersonTitle": "PROJEKTLEITUNG",
-          "additionalInformation": "Mehr Informationen",
-          "targetFile": "Zieltext",
-          "orderNumber": "Auftragsnummer",
-          "notFixed": "Preis noch nicht fixiert",
-          "costCenter": "Kostenstelle"
-        },
-        "back": "Zurück",
-        "verificationType": "Profi-Check",
-        "priceVAT": "exkl. MWST",
-        "filters": {
-          "groups": {
-            "title": "Alle Aufträge",
-            "all": "Alle",
-            "myOrders": "Meine Aufträge",
-            "sharedOrders": "Nur geteilte Aufträge"
-          },
-          "type": {
-            "title": "Auftragstyp",
-            "all": "Alle"
-          },
-          "status": {
-            "title": "Status",
-            "all": "Alle",
-            "delivered": "Erledigt",
-            "inProgress": "In Bearbeitung",
-            "onHold": "Zurückgestellt",
-            "collected": "Abgeholt"
-          }
-        },
-        "customFeatures": {
-          "sourceDocuments": {
-            "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
-            "upload": "Dokumente hochladen"
-          }
-        },
-        "ordersBeingCreated": "Auftrag wird vorbereitet"
-      },
-      "invoices": {
-        "title": "Rechnungen",
-        "openInvoices": "AKTUELLSTE RECHNUNGEN",
-        "viewAllInvoices": "Alle Rechnungen ansehen",
-        "noOpenInvoices": "Zurzeit keine offenen Rechnungen",
-        "noInvoices": "Keine Rechnungen vorhanden",
-        "invoiceDetail": {
-          "amount": "Betrag",
-          "invoiceDate": "Abgerechnet am",
-          "downloadInvoice": "Herunterladen"
-        },
-        "filters": {
-          "groups": {
-            "title": "Alle Rechnungen",
-            "all": "Alle",
-            "myBills": "Meine Rechnungen",
-            "sharedBills": "Nur geteilte Rechnungen"
-          },
-          "status": {
-            "title": "Status",
-            "all": "Alle",
-            "paid": "Bezahlt",
-            "unpaid": "Noch offen"
-          }
-        },
-        "invoice": "Rechnung"
-      },
-      "subscriptions": {
-        "title": "Abo",
-        "contactSupertext": "Supertext kontaktieren",
-        "otherPlans": "Abo ändern",
-        "current": "Aktuelles Abo",
-        "upgrade": "Upgraden",
-        "downgrade": "Herabstufen",
-        "recommended": "Beliebteste Option",
-        "comparePlans": "Abos vergleichen",
-        "showMore": "Mehr anzeigen",
-        "cancellationInfo": "Sie haben Ihr Abo gekündigt. Es endet am",
-        "freePlanInfo": "Ihr Konto wird auf Supertext Free umgestellt.",
-        "customPlanInfo": "Passen Sie Ihr Abo Ihren Bedürfnissen an",
-        "upgradeSubscriptionInformation": "Bitten Sie eine:n Admin, Ihr Abo zu aktualisieren",
-        "annuallySubscription": "Jährlich",
-        "monthlySubscription": "Monatlich",
-        "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf Supertext Free.",
-        "addLicenses": "weitere Lizenzen hinzufügen.",
-        "subscribeMow": "Jetzt abonnieren",
-        "requestOffer": "Angebot anfordern",
-        "addToWaitingList": "In die Warteliste eintragen",
-        "registerForFree": "Kostenlos registrieren",
-        "reactivateSubscription": "Reaktivieren",
-        "cancelSubscription": "Gekündigt",
-        "expiresOn": "Läuft ab am",
-        "moreInfo": "Details ansehen",
-        "hero": {
-          "title": "Finden Sie Ihr passendes Supertext-Abo",
-          "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis – vom einfachen Online-Übersetzer bis zur vollintegrierten Enterprise-Lösung.",
-          "cta": "Zur Enterprise-Lösung"
-        },
-        "message": {
-          "part1": "Sie haben",
-          "part2": "grosse Ziele?",
-          "part3": "Wir die",
-          "part4": "passende Lösung."
-        },
-        "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um bald auch Sie dazu zu zählen?",
-        "contactUs": "Kontakt aufnehmen",
-        "compareAllFeatures": "Alle Abos vergleichen",
-        "customizeSubscriptionInfo": "Passen Sie Ihr Abo jederzeit ganz einfach Ihren Bedürfnissen an.",
-        "price": "Preis",
-        "assignLicenseAdmin": "Lizenz zuweisen",
-        "assignLicenseUser": "Admin kontaktieren",
-        "confirmSubscription": "Abo bestätigen",
-        "modals": {
-          "waitlist": {
-            "email": "E-Mail",
-            "accepted": "Ja, Supertext darf mich kontaktieren, sobald das gewünschte Abo verfügbar ist.",
-            "cta": "In Warteliste eintragen",
-            "messages": {
-              "success": "Erfolgreich auf die Warteliste gesetzt",
-              "error": "Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten."
-            }
-          },
-          "offer": {
-            "fields": {
-              "specialRequest": {
-                "label": "Nachricht (optional)",
-                "placeholder": "Ihre Nachricht"
-              },
-              "email": {
-                "label": "* E-Mail",
-                "placeholder": "Ihre E-Mail-Adresse",
-                "error": "Geben Sie bitte eine gültige E-Mail-Adresse ein."
-              },
-              "name": {
-                "label": "* Name",
-                "placeholder": "Ihr Name",
-                "error": "Bitte geben Sie Ihren Namen ein"
-              },
-              "company": {
-                "label": "* Unternehmen/Organisation",
-                "placeholder": "Ihr Unternehmen / Ihre Organisation",
-                "error": "Bitte geben Sie Ihr Unternehmen / Ihre Organisation an"
-              },
-              "userCount": {
-                "label": "* Anzahl User:innen (Schätzung)",
-                "placeholder": "Ihre Anzahl User:innen (Schätzung)",
-                "error": "Bitte geben Sie die Anzahl der User:innen an"
-              },
-              "phoneNumber": {
-                "label": "Telefonnummer",
-                "placeholder": "Ihre Telefonnummer"
-              },
-              "accepted": {
-                "label": "Ja, meine Daten dürfen zur Kontaktaufnahme an Supertext weitergegeben werden.",
-                "error": "Bitte akzeptieren Sie die Weitergabe Ihrer Daten."
-              }
-            },
-            "messages": {
-              "success": "Angebot erfolgreich angefordert",
-              "error": "Fehler beim Anfordern des Angebots"
-            }
-          }
-        },
-        "firstMonthFree": "30 Tage kostenlos, jederzeit kündbar",
-        "cancelSubscriptionButton": "Abo definitiv kündigen",
-        "footerNote": "Sie suchen eine <highlightText>massgeschneiderte Übersetzungslösung?</highlightText> Lassen Sie uns reden.",
-        "requestAccess": "Zugang beantragen",
-        "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
-        "accessRequested": "Zugang in Prüfung",
-        "modalTitle": "Feature-Details",
-        "startsOn": "Startet am",
-        "downgradeLostFeatures": "Diese Vorteile fallen für Sie weg",
-        "downgradeReasonLabel": "Warum möchten Sie das Abo herabstufen?",
-        "optionalFeedbackLabel": "Haben Sie weiteres Feedback für uns?",
-        "optionalFeedbackPlaceholder": "Optional",
-        "subscription_cancellation_reasons": {
-          "too_expensive": "Zu hohe Kosten",
-          "not_using": "Nutze es zu wenig",
-          "missing_features": "Fehlende Funktionen",
-          "switching": "Wechsel zur Konkurrenz",
-          "other": "Andere"
-        },
-        "yourTeamSubscription": "Abo Ihres Teams",
-        "cancelSubscriptionButton2": "Abo kündigen",
-        "downgradeSubscriptionButton": "Abo definitiv herabstufen",
-        "downgradeToSubscription": "Zu {subscription} wechseln",
-        "cancelSubscriptionAlertHeader": {
-          "downgrade": "{fromSubscription}-Abo zu {toSubscription} herabstufen",
-          "cancel": "{fromSubscription}-Abo kündigen"
-        },
-        "cancelSubscriptionAlert": {
-          "fromSubscriptionToSubscriptionSingle": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums auf {toSubscription} herabstufen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}.",
-          "fromSubscriptionToSubscriptionMultiple": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums auf {toSubscription} herabstufen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Bitte beachten Sie, dass die Änderung sämtliche Lizenzen Ihres Teams betrifft.",
-          "cancelSubscriptionSingle": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums kündigen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Danach haben Sie automatisch weiterhin Zugriff auf Supertext Free.",
-          "cancelSubscriptionMultiple": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums kündigen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Die Kündigung betrifft sämtliche Lizenzen Ihres Teams. Danach haben alle User:innen in Ihrem Team automatisch weiterhin Zugriff auf Supertext Free."
-        },
-        "cancelSubscriptionFeatures": {
-          "advancedToEssential": [
-            "KI-Übersetzung in 28 Sprachen",
-            "Glossarfunktion",
-            "60 Dateien pro Monat",
-            "20 MB maximale Dateigrösse"
-          ],
-          "advancedToFree": [
-            "KI-Übersetzung in 28 Sprachen",
-            "Sofortige Textlöschung",
-            "Glossarfunktion",
-            "60 Dateien pro Monat",
-            "Unbegrenzte Textübersetzung",
-            "20 MB maximale Dateigrösse",
-            "Excel-, PDF- und SRT-Dateien übersetzen",
-            "Email-Support"
-          ],
-          "essentialToFree": [
-            "Sofortige Textlöschung",
-            "Unbegrenzte Textübersetzung",
-            "20 Dateien pro Monat",
-            "10 MB maximale Dateigrösse",
-            "Excel-, PDF- und SRT-Dateien übersetzen",
-            "Email-Support"
-          ]
-        },
-        "downgradeLostFeaturesMultiple": "Diese Vorteile fallen für Ihr Team weg",
-        "cancelReasonLabel": "Warum möchten Sie das Abo kündigen?",
-        "startNow": "Jetzt starten",
-        "subscriptionType": {
-          "translator": "KI-ÜBERSETZER",
-          "api": "API"
-        },
-        "api": {
-          "languagesBox": {
-            "title": "28 Sprachen –\nund es werden laufend mehr",
-            "languages": [
-              "Albanisch",
-              "Bulgarisch",
-              "Chinesisch",
-              "Dänisch",
-              "Deutsch",
-              "Englisch",
-              "Finnisch",
-              "Französisch",
-              "Griechisch",
-              "Italienisch",
-              "Japanisch",
-              "Koreanisch",
-              "Kroatisch",
-              "Niederländisch",
-              "Norwegisch",
-              "Polnisch",
-              "Portugiesisch",
-              "Rätoromanisch",
-              "Russisch",
-              "Schwedisch",
-              "Schweizerdeutsch",
-              "Serbisch",
-              "Slowakisch",
-              "Slowenisch",
-              "Spanisch",
-              "Tschechisch",
-              "Türkisch",
-              "Ungarisch"
-            ]
-          },
-          "footerNote": "Sie suchen eine <highlightText>massgeschneiderte Übersetzungslösung?</highlightText>",
-          "cta": "Ihre Sprache ist noch nicht dabei? <link>Lassen Sie uns reden.</link>"
-        },
-        "monthlyCancellable": "Monatlich kündbar",
-        "allFunctionality": "Alle Funktionen im Vergleich",
-        "editSubscriptionMessageAdmin": "Sie möchten Ihr Abo bearbeiten? <link>Zum Cockpit</link>",
-        "editSubscriptionMessageUser": "Sie möchten Ihr Abo bearbeiten? <link>Kontaktieren Sie eine:n Admin in Ihrem Team<link/>",
-        "subscriptionSiteLicenseInfo": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
-        "tryFree": "Kostenlos testen"
-      },
-      "resources": {
-        "title": "Sprachressourcen",
-        "comingSoon": "Bald verfügbar"
-      },
-      "profile": {
-        "title": "Profil",
-        "email": "E-Mail",
-        "changeEmail": "E-Mail-Adresse ändern",
-        "emailValidation": "Geben Sie bitte eine gültige E-Mail-Adresse ein.",
-        "language": "Sprache",
-        "role": "Rolle",
-        "roleValidation": "Rolle muss mindestens 2 Zeichen lang sein",
-        "license": "Lizenz",
-        "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
-        "comment": "Bezeichnung (optional)",
-        "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
-        "company": "Unternehmen/Organisation",
-        "name": "Name",
-        "changeName": "Name ändern",
-        "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
-        "firstName": "Vorname",
-        "firstNameValidation": "Vorname muss mindestens 2 Zeichen lang sein",
-        "lastName": "Nachname",
-        "lastNameValidation": "Nachname muss mindestens 2 Zeichen lang sein",
-        "addressLine1": "Strasse",
-        "addressLine1Validation": "Strasse muss mindestens 2 Zeichen lang sein",
-        "addressLine2": "Adresszusatz",
-        "city": "Ort",
-        "cityValidation": "Ort ist erforderlich",
-        "postalCode": "Postleitzahl",
-        "postalCodeValidation": "Postleitzahl ist erforderlich",
-        "country": "Land",
-        "countryValidation": "Bitte wählen Sie ein Land aus",
-        "selectCountry": "Land auswählen",
-        "settings": "Einstellungen",
-        "change": "Ändern",
-        "add": "Hinzufügen",
-        "delete": "Löschen",
-        "selectOption": "Option auswählen",
-        "isAdmin": "Admin-Rolle zuweisen",
-        "noData": "Keine Angaben",
-        "roles": {
-          "admin": "Admin",
-          "user": "Mitglied"
-        },
-        "costCenter": {
-          "title": "Kostenstelle",
-          "changeCostCenter": "Kostenstelle ändern"
-        },
-        "sections": {
-          "userDetails": {
-            "title": "Ihr Konto",
-            "deleteAccountTitle": "Konto dauerhaft löschen",
-            "deleteAccountConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
-            "deleteAccount": "Konto löschen",
-            "accountSettings": "Konto",
-            "accountSettingsInfo": "Hier können Sie Ihre Kontoeinstellungen vornehmen.",
-            "settings": "Einstellungen",
-            "password": {
-              "title": "Passwort",
-              "oldPassword": "Altes Passwort",
-              "newPassword": "Neues Passwort",
-              "confirmNewPassword": "Neues Passwort bestätigen",
-              "changePassword": "Passwort ändern",
-              "passwordDoNotMatch": "Passwörter stimmen nicht überein",
-              "passwordMustContainAtLeastOneSpecialCharacter": "Das Passwort muss mindestens 1 Sonderzeichen enthalten.",
-              "passwordMustContainAtLeastOneNumber": "Das Passwort muss mindestens 1 Zahl enthalten.",
-              "passwordMustContainAtLeastOneUppercaseLetter": "Das Passwort muss mindestens 1 Grossbuchstaben enthalten.",
-              "passwordMustContainAtLeastOneLowercaseLetter": "Das Passwort muss mindestens 1 Kleinbuchstaben enthalten.",
-              "passwordMustBeAtLeast8Characters": "Das Passwort muss mindestens 8 Zeichen lang sein."
-            },
-            "tooltips": {
-              "password": {
-                "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihr Passwort ändern",
-                "sso": "Sie können Ihr Passwort als SSO-User:in nicht ändern.",
-                "user": "Nur der:die Teamadministrator:in kann Ihr Passwort ändern"
-              },
-              "email": {
-                "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihre E-Mail ändern",
-                "sso": "Sie können Ihre E-Mail-Adresse als SSO-User:in nicht ändern.",
-                "user": "Nur ein:e Admin kann Ihre E-Mail ändern"
-              }
-            }
-          },
-          "payments": {
-            "title": "Zahlungsinformationen",
-            "info": "Hier können Sie die Standard-Rechnungsadressen und Kreditkartendaten verwalten.",
-            "setDefaultMethod": "Standard-Zahlungsmethode festlegen",
-            "defaultMethodSetSuccess": "Standard-Zahlungsmethode festgelegt",
-            "standardMethod": "Standard-Zahlungsmethode",
-            "changePaymentMethod": "Zahlungsmethode ändern",
-            "emailForDelivery": "E-Mail für Rechnungszustellung",
-            "methods": {
-              "title": "Zahlungsmethode",
-              "account": "Auf Rechnung",
-              "creditCard": "Kreditkarte",
-              "noPaymentMethod": "Keine Voreinstellung"
-            },
-            "settings": {
-              "billingAddress": {
-                "deleteBillingAddress": "Eintrag Rechnungsadresse löschen",
-                "deleteBillingAddressConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
-                "authorizationApply": "Berechtigung beantragen",
-                "authorizationPending": "Berechtigung steht aus",
-                "authorizationDenied": "Berechtigung verweigert",
-                "authorizationDeniedInfo": "Die Erlaubnis kann aus verschiedenen Gründen verweigert werden.",
-                "authorizationContactUs": "Nehmen Sie Kontakt mit uns auf",
-                "title": "Rechnungsadressen",
-                "selectDefaultBillingAddress": "Wählen Sie eine Standard-Rechnungsadresse",
-                "requestInvoiceAsPaymentMethod": "Beantragen Sie hier die Zahlung per Rechnung für künftige Transaktionen.",
-                "addBillingAddress": "Rechnungsadresse hinzufügen",
-                "editBillingAddress": "Rechnungsadresse bearbeiten",
-                "addNewAddress": "Neue Adresse hinzufügen",
-                "noAddedAddresses": "Es wurde noch keine Adresse hinzugefügt"
-              },
-              "creditCard": {
-                "title": "Kreditkartendetails",
-                "subTitle": "Wählen Sie eine Standardzahlungsmethode",
-                "deleteCard": "Karte erfolgreich gelöscht",
-                "addCard": "Karte erfolgreich hinzugefügt",
-                "addCardFailure": "Karte konnte nicht hinzugefügt werden",
-                "endsWith": "endet mit",
-                "updateCardDetailsInformation": "Bitten Sie eine:n Admin Ihrer Organisation, die Kreditkartendetails zu aktualisieren.",
-                "expirationMessage": "Ihre Karte ist abgelaufen am",
-                "deleteCreditCardConfirmation": "Sind Sie sicher, dass Sie diese Karte löschen wollen?",
-                "deleteCreditCardInformation": "Damit entfernen Sie die Kreditkarte aus Ihrem Konto und können sie nicht für künftige Transaktionen verwenden. Dies könnte sich auch auf andere Mitglieder Ihres Teams auswirken.",
-                "noAddedCreditCard": "Es wurde noch keine Karte hinzugefügt"
-              }
-            },
-            "changePaymentMethodTooltip": {
-              "invoiceDisabled": {
-                "linkText": "Kontaktieren Sie uns",
-                "description": "Zahlung auf Rechnung ist für Ihre Organisation derzeit nicht aktiviert. Bitte kontaktieren Sie uns, um diese Zahlungsmethode freizuschalten.",
-                "prefilledSubject": "Antrag für Zahlung auf Rechnung",
-                "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
-                "emailAddress": "hello@supertext.com"
-              },
-              "invoiceRequiresBillingAddress": {
-                "description": "Um Rechnungen als Zahlungsmethode zu nutzen, fügen Sie bitte zunächst eine Rechnungsadresse hinzu.",
-                "linkText": "Rechnungsadresse hinzufügen"
-              }
-            }
-          },
-          "team": {
-            "title": "Team",
-            "userManagement": "User-Verwaltung",
-            "addMember": "Mitglied hinzufügen",
-            "editMember": "Mitglied bearbeiten",
-            "removeMember": "Entfernen",
-            "deleteMember": "Mitglied entfernen",
-            "deleteMemberConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
-            "availableSeats": "Verfügbare Plätze",
-            "filledSeats": "Besetzte Plätze",
-            "usersGained": "Registrierte User:innen",
-            "increaseSeats": "Anzahl Lizenzen erhöhen",
-            "increaseSeatsInfo": "Erhöhen Sie die Anzahl der im Unternehmen zugelassenen User:innen",
-            "teamMembersOverviewTitle": "Teammitglieder",
-            "teamMembersOverviewSubtitle": "Hier können Sie Ihre Teammitglieder verwalten",
-            "management": "Management",
-            "actions": {
-              "title": "Aktion",
-              "editAll": "Alle bearbeiten",
-              "removeAll": "Account deaktivieren",
-              "editLicenseSelected": "Lizenz bearbeiten",
-              "editRoleSelected": "Rolle bearbeiten"
-            },
-            "increaseNumberOfLicenses": "Anzahl Lizenzen erhöhen",
-            "selectLicense": "Lizenz auswählen",
-            "selectRole": "Rolle auswählen",
-            "roles": {
-              "teamAdmin": "Admin",
-              "user": "Mitglied"
-            },
-            "roleChangeWarning": "Ein:e Admin hat Ihre Rolle geändert. Bitte loggen Sie sich aus und wieder ein, um Ihren Account zu aktualisieren.",
-            "licenceAvailable": "{amount} verfügbar",
-            "marketingPanel": {
-              "heading": "Gründen Sie Ihr eigenes Team bei Supertext",
-              "subheading": "Laden Sie weitere User:innen ein und beginnen Sie innerhalb von Minuten mit der Zusammenarbeit.",
-              "listItems": [
-                "Sie bestimmen, wer Teil Ihres Teams wird",
-                "Lizenzen und Admin-Rechte zentral verwalten",
-                "Abos aller Teammitglieder immer im Überblick"
-              ],
-              "viewTable": "Ihr Team ansehen"
-            },
-            "paginationOf": "von",
-            "editSelectedMembers": "Ausgewählte Mitglieder bearbeiten",
-            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rolle von # Mitgliedern wurden}} erfolgreich aktualisiert",
-            "ssoRequest": {
-              "title": "Single Sign-On (SSO) Onboarding anfordern",
-              "button": "SSO anfordern",
-              "button_pending": "SSO-Upgrade ausstehend",
-              "tooltip": "Um SSO zu beantragen, muss Ihre Organisation über mindestens 10 Abo-Lizenzen verfügen.",
-              "description": "Um das SSO-Onboarding anzufordern, geben Sie bitte die E-Mail-Adresse der technischen Kontaktperson an. Ein:e Supertext-Mitarbeiter:in wird sich mit der Kontaktperson in Verbindung setzen, um die Einrichtung zu koordinieren.",
-              "form": {
-                "label": "E-Mail-Adresse der technischen Kontaktperson",
-                "placeholder": "example@supertext.com",
-                "invalid": "Geben Sie bitte eine gültige E-Mail-Adresse ein."
-              },
-              "notification_success": "SSO-Upgrade-Anfrage erfolgreich gesendet",
-              "notification_error": "Etwas ist schief gelaufen: {error}"
-            }
-          },
-          "subscription": {
-            "title": "Abo Ihres Teams ändern",
-            "description": "Alle User:innen ohne zugewiesene Lizenz profitieren automatisch und kostenlos von Supertext Free.",
-            "comparePlans": "Abos vergleichen",
-            "numberOfLicenses": "Anzahl Lizenzen",
-            "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
-            "nextPayment": "Nächste Zahlung",
-            "monthly": "Monatlich",
-            "yearly": "Jährlich",
-            "billingPeriod": "Abrechnungszeitraum",
-            "subscriptionPrices": "Preise der Abos",
-            "change": "Ändern",
-            "modal": {
-              "title": "Anzahl Lizenzen ändern",
-              "changeLicenses": "Anzahl Lizenzen ändern",
-              "change": "Ändern",
-              "order": "Verbindlich bestellen",
-              "licensesCount": "Anzahl Lizenzen",
-              "currentLicenses": "Aktuell: {count}",
-              "newLicenseCount": "Neue Anzahl Lizenzen",
-              "paymentMethod": "Zahlungsmethode",
-              "creditCard": "Kreditkarte",
-              "invoice": "Auf Rechnung",
-              "pricePerLicenseMonth": "Preis pro Lizenz, pro Monat",
-              "pricePerLicenseYear": "Preis pro Lizenz, pro Jahr",
-              "totalLicenses": "Gesamtanzahl der Lizenzen",
-              "totalMonthly": "Gesamtbetrag pro Monat",
-              "totalYearly": "Gesamtbetrag pro Jahr",
-              "vatIncluded": "inkl. {currency} {amount} {percentage} MWST",
-              "todayTotal": "Heute fälliger Gesamtbetrag",
-              "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
-              "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
-              "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
-              "immediateChange": "Diese Änderung ist sofort wirksam.",
-              "nextBillingChange": "Sie beantragen eine Herabstufung von {previousCount} auf {newCount} Lizenzen. Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
-              "makePayment": "Verbindlich bestellen",
-              "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
-              "removeLicensesError": {
-                "text": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
-                "link": "Lizenzen von Teammitgliedern entfernen.",
-                "one": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
-                "other": ""
-              },
-              "agreementAg": {
-                "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
-                "link": "AGB",
-                "one": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
-                "other": ""
-              }
-            },
-            "afterTrialPeriod": "(nach Testphase)",
-            "expiresOn": "Läuft ab am",
-            "missingPaymentMethod": {
-              "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abo vornehmen.",
-              "link": "Zahlungsmethode aktualisieren"
-            },
-            "after": "nach",
-            "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
-            "cancelDowngradeLicenses": "Abbrechen",
-            "price_per_licence_month": "Preis pro Lizenz, pro Monat",
-            "price_per_licence_year": "Preis pro Lizenz, pro Jahr",
-            "titleSiteLicence": "Team-Abo",
-            "descriptionSiteLicence": "Ihr Team verfügt über eine Unternehmenslizenz – Sie können beliebig viele User:innen hinzufügen. Wenn Sie Ihr Abo anpassen möchten, kontaktieren Sie uns einfach."
-          },
-          "authorisations": {
-            "title": "Zugriffsberechtigungen",
-            "info": "Hier können Sie einstellen, wer auf Ihre Informationen zugreifen kann.",
-            "ordersAndBills": {
-              "title": "Meine Aufträge und Rechnungen",
-              "authorisedAmount": "{count, plural, =0 {Nur ich} =1 {Ich und ein anderes Mitglied} other {Ich und {count} andere Mitglieder}}",
-              "modal": {
-                "title": "Meine Aufträge und Rechnungen",
-                "info": "Nur Mitglieder Ihres Teams können Zugang zu Ihren Rechnungen und Aufträgen erhalten.",
-                "searchInputPlaceholder": "Suche nach E-Mail-Adresse oder Namen",
-                "authoriseUser": "Zugang autorisieren",
-                "deleteConfirm": {
-                  "title": "Mitglied löschen",
-                  "info": "Sind Sie sicher, dass Sie den:die Benutzer:in aus der Berechtigungsliste entfernen möchten?",
-                  "confirm": "Ja, entfernen"
-                },
-                "notifications": {
-                  "userAddSuccess": "Der:Die Benutzer:in wurde erfolgreich zur Berechtigungsliste hinzugefügt.",
-                  "userAddError": "Der:Die Benutzer:in konnte nicht zur Berechtigungsliste hinzugefügt werden.",
-                  "userRemoveSuccess": "Der:Die Benutzer:in wurde erfolgreich aus der Berechtigungsliste entfernt.",
-                  "userRemoveError": "Der:Die Benutzer:in konnte nicht aus der Berechtigungsliste entfernt werden."
-                },
-                "searchInputPlaceholderNonTeamAdmin": "E-Mail eines Teammitglieds"
-              }
-            }
-          }
-        },
-        "licenseTag": "User:in lizenzieren",
-        "currency": "Währung",
-        "noLicense": "Free",
-        "hasLicense": "Essential",
-        "emailPlaceholder": "beispiel@gmail.com",
-        "licenseMultipleTag": "User:innen lizenzieren",
-        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}} verfügbar.",
-        "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert",
-        "siteLicense": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
-        "siteLicenseDetails": "Abo-Details"
-      },
-      "delivery": {
-        "title": "Lieferung",
-        "status": {
-          "pending": "Ihr Auftrag ist in Bearbeitung. Fertigstellung bis"
-        },
-        "openInTranslationInterface": "Im Translation Interface öffnen"
-      },
-      "feedback": {
-        "title": "FEEDBACK",
-        "satisfactionQuestion": "Wie zufrieden sind Sie mit dem Ergebnis?",
-        "message": "Nachricht",
-        "submitFeedback": "Feedback absenden",
-        "revisionQuestion": "Wünschen Sie eine kostenlose Überarbeitung?",
-        "revisionOption": "Ich wünsche eine kostenlose Nachbearbeitung",
-        "revisionRequest": "Überarbeitung anfordern",
-        "submitFile": "Überarbeitung anfordern",
-        "uploadFiles": "Dokumente mit Kommentaren hochladen",
-        "messagePlaceholder": "z. B. ein guter, frischer Stil, wir sind sehr zufrieden.",
-        "ratingOptions": {
-          "super": "Super",
-          "good": "Okay",
-          "insufficient": "Ungenügend"
-        },
-        "feedbackSentSuccess": "Feedback erfolgreich gesendet",
-        "requestRevisionSuccess": "Überarbeitung erfolgreich angefordert",
-        "yourFeedback": "Ihr Feedback"
-      },
-      "overview": {
-        "title": "Dashboard",
-        "nextSteps": "NÄCHSTE SCHRITTE",
-        "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
-        "addSettings": "Angaben ergänzen",
-        "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung.",
-        "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
-        "subscriptionSettings": "Entdecken Sie die verschiedenen Supertext-Abos und finden Sie die richtige Option für Sie.",
-        "subscriptionsExplore": "Abos entdecken",
-        "salutation": {
-          "hi": "Hallo, {name}!",
-          "admin": "Admin",
-          "member": "Mitglied",
-          "notLicenced": "Nicht lizenziert"
-        },
-        "teamSection": {
-          "title": "Mein Team",
-          "inviteUser": "User:in einladen",
-          "exploreSubscriptions": "Abos entdecken",
-          "assignLicences": "Lizenzen zuweisen",
-          "users": "User:innen",
-          "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
-          "licensedUsers": "lizenzierte User:innen",
-          "inviteUserTooltip": "Nur Admins können Personen einladen.",
-          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
-        },
-        "aiCustomisation": {
-          "title": "KI-SPEZIALISIERUNG",
-          "trainingData": "Trainingsdaten",
-          "personalExpertTranslations": "eigene Übersetzungen zu Ihrem spezialisierten KI-Modell hinzugefügt",
-          "efficiencyGain": "Effizienzgewinn",
-          "genericModelEfficiency": "Effizienz des\nBasis-Modells",
-          "customModelEfficiency": "Effizienz des\nspezialisierten\nModells\nIhres Teams",
-          "potentialModelEfficiency": "Potenzielle\nEffizienz eines\nspezialisierten\nModells",
-          "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres spezialisierten KI-Modells.",
-          "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
-          "learnMore": "Mehr erfahren",
-          "submitTrainingData": "Trainingsdaten übermitteln",
-          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>sales@supertext.com</link>",
-          "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen.",
-          "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
-          "submitTrainingDataEmailBody": "Guten Tag\nWir möchten Sie bitten, unserem spezialisierten Übersetzungsmodell neue Trainingsdaten hinzuzufügen, um dessen Effizienz weiter zu verbessern."
-        },
-        "aiTranslation": {
-          "title": "KI-ÜBERSETZUNG",
-          "teamUsage": "Team-Nutzung",
-          "teamUsageDescription": "Das KI-Übersetzungsvolumen Ihres Teams in den letzten 30 Tagen.",
-          "yourUsage": "Ihre Nutzung",
-          "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
-          "characters": "Zeichen",
-          "files": "Dateien",
-          "outOfFiles": "von {limit} Dateien",
-          "increaseFileTranslationLimit": "Limit für Dateien erhöhen",
-          "teamUsageTooltip": "Inklusive API-Nutzung.",
-          "increaseFileTranslationLimitTooltip": "Nur Admins können das Limit für Dateien erhöhen."
-        },
-        "dataSecurity": {
-          "title": "DATENSICHERHEIT",
-          "gdprCompliance": "DSGVO-Konformität",
-          "maximumDataSecurity": "Maximale Datensicherheit ist für alle lizenzierten User:innen in Ihrem Team aktiviert.",
-          "freeUserDataUsage": "Als Free-User:in werden Ihre Übersetzungsdaten verwendet, um unser öffentliches Sprachmodell zu verbessern.",
-          "switchToPaidPlan": "Wechseln Sie zu einem kostenpflichtigen Abo, um maximale Datensicherheit zu aktivieren.",
-          "upgradeNow": "Jetzt upgraden",
-          "assignLicences": "Lizenzen zuweisen",
-          "upgradeNowTooltip": "Nur Admins können ein Upgrade durchführen.",
-          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen.",
-          "addLicences": "Lizenzen hinzufügen",
-          "addLicencesTooltip": "Nur Admins können Lizenzen hinzufügen."
-        },
-        "activity": {
-          "title": "Aktivität",
-          "recentOrders": "AKTUELLE AUFTRÄGE",
-          "recentInvoices": "AKTUELLE RECHNUNGEN",
-          "invoice": "Rechnung {id}",
-          "seeOrderOverview": "Auftragsübersicht ansehen",
-          "seeInvoiceOverview": "Rechnungsübersicht ansehen"
-        }
-      },
-      "salutation": [
-        "Grüezi.",
-        "Hello.",
-        "Bonjour.",
-        "Salve."
-      ],
-      "api": {
-        "unsubscribed": {
-          "title": "Starten Sie mit der Supertext API",
-          "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen."
-        },
-        "payAsYouGo": "Nutzungsabhängige Kosten",
-        "per1MillionCharacters": "pro 1 Mio. Zeichen",
-        "price": "Preis",
-        "perMonth": "pro Monat",
-        "notifications": {
-          "successfullySubscribed": "Supertext API erfolgreich abonniert!"
-        },
-        "panel": {
-          "heading": "API-Abo",
-          "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen.",
-          "activeDescription": "Hier verwalten Sie Ihr API-Abo.",
-          "subheading": "Supertext API",
-          "subsubheading": "Integrieren Sie Supertext in Ihre Applikationen",
-          "billingPeriodMonthly": "Monatlich",
-          "subscribe": "Jetzt abonnieren",
-          "reactivate": "Abo reaktivieren",
-          "errorGeneric": "Etwas ist schiefgelaufen:",
-          "cancelSubscription": "Gekündigt"
-        },
-        "apiKeys": {
-          "heading": "API-Schlüssel",
-          "description": "Hier können Sie Ihre API-Schlüssel schnell und einfach verwalten.",
-          "emptyNotice": "Sie brauchen mindestens einen API-Schlüssel, um die Supertext-API zu nutzen.",
-          "copiedNotice": "API-Schlüssel erfolgreich kopiert",
-          "keyCreationNotice": "Bitte kopieren Sie diesen Schlüssel, da Sie ihn später nicht mehr sehen können.",
-          "table": {
-            "name": "Schlüssel-Name",
-            "preview": "API-Schlüssel",
-            "expiresAt": "Läuft ab am"
-          },
-          "modal": {
-            "title": "API-Schlüssel erstellen",
-            "button": "Neuen API-Schlüssel erstellen",
-            "formLabel": "Schlüssel-Name",
-            "placeholder": "Hier Bezeichnung für Schlüssel eingeben"
-          },
-          "notifications": {
-            "createSuccess": "Neuer API-Schlüssel hinzugefügt",
-            "createError": "Neuer API-Schlüssel konnte nicht hinzugefügt werden",
-            "deleteSuccess": "API-Schlüssel erfolgreich gelöscht",
-            "deleteError": "API-Schlüssel konnte nicht gelöscht werden"
-          },
-          "dialog": {
-            "deleteTitle": "{description} API-Schlüssel löschen",
-            "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen neu zuweisen."
-          },
-          "copy": "Kopieren"
-        },
-        "helpLinks": {
-          "learnMore": {
-            "title": "Mehr erfahren",
-            "description": "Entdecken Sie alle Funktionen der Supertext API und wie sie damit Ihre Übersetzungsworkflows automatisieren.",
-            "buttonText": "Mehr erfahren ->"
-          },
-          "documentation": {
-            "title": "Supertext API-Dokumentation",
-            "description": "Vollständige technische Dokumentation mit Beispielen, Parametern und Implementierungsanleitungen für alle API-Endpunkte.",
-            "buttonText": "API-Dokumentation"
-          },
-          "terms": {
-            "title": "Nutzungsbedingungen",
-            "description": "Lesen Sie unsere Nutzungsbedingungen und Richtlinien für die Verwendung der Supertext API und Services.",
-            "buttonText": "Nutzungsbedingungen ->"
-          }
-        },
-        "usage": {
-          "title": "API-Nutzung",
-          "thisMonth": "Diesen Monat",
-          "description": "Kontrollieren Sie Zugriff und Nutzung Ihres API-Abos.",
-          "tooltip": "Nutzungsdaten werden täglich aktualisiert",
-          "translatedCharsTotalLabel": "Übersetzte Zeichen gesamt",
-          "translatedCharsTotalHelp": "diesen Monat",
-          "translationCostTotalLabel": "Übersetzungskosten gesamt",
-          "translationCostTotalHelp": "diesen Monat",
-          "table": {
-            "endpoint": "Endpoint",
-            "chars": "Zeichen",
-            "cost": "Kosten",
-            "lastUsed": "Zuletzt verwendet"
-          }
-        },
-        "nextPaymentDate": "Nächste Zahlung",
-        "subscriptionEndsOn": "Läuft ab am",
-        "accessDenied": {
-          "title": "API-Zugriff eingeschränkt",
-          "description": "Sie haben keinen Zugriff auf die API-Einstellungen. Bitte wenden Sie sich an eine:n Admin Ihres Teams."
-        }
-      },
-      "new": "Neu",
-      "accessDenied": {
-        "title": "Zugriff eingeschränkt",
-        "description": "Sie haben keinen Zugriff auf diese Einstellungen. Bitte wenden Sie sich an eine:n Admin Ihres Teams."
-      },
-      "appearance": {
-        "title": "Interface",
-        "description": "Passen Sie das Interface Ihres KI-Übersetzers an.",
-        "sections": {
-          "subdomainAndLinks": "Benutzerdefinierte Subdomain und interne Links",
-          "availableServices": "Verfügbare Services",
-          "interface": "Design des Translation Interface"
-        },
-        "buttons": {
-          "subdomainAndLinks": "Subdomain und Links",
-          "availableServices": "Verfügbare Services",
-          "interface": "Interface",
-          "saveChanges": "Änderungen speichern",
-          "reset": "Zurücksetzen",
-          "discardChanges": "Änderungen verwerfen",
-          "retrySave": "Speichern erneut versuchen"
-        },
-        "errors": {
-          "validationErrors": "Es gibt einen oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern.",
-          "autoSaveFailed": "Die Änderungen konnten nicht automatisch gespeichert werden. Bitte versuchen Sie es erneut."
-        },
-        "subdomain": {
-          "title": "Benutzerdefinierte Subdomain",
-          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen.",
-          "placeholder": "subdomain-beispiel",
-          "suffix": ".supertext.com",
-          "comingSoon": "Bald verfügbar",
-          "temporaryGetInContact": {
-            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen: ",
-            "email": "hello@supertext.com",
-            "textStart": "Um eine eigene Subdomain festzulegen, wenden Sie sich bitte an"
-          }
-        },
-        "links": {
-          "title": "Links für mein Team",
-          "description": "Sie können bis zu vier Links für Ihr Team hinzufügen, z. B. zu bestimmten Übersetzungsrichtlinien oder zu Ihrem Intranet. Um die Links in der Hauptbenutzer-Dropdown-Liste anzuzeigen, müssen Sie eine Beschreibung hinzufügen, die immer angezeigt wird. Wenn Sie möchten, dass wir die Beschreibung in verschiedenen Sprachen anzeigen, geben Sie dies bitte entsprechend an.",
-          "linkNumber": "Link {number}",
-          "descriptionPlaceholder": "Linkbeschreibung",
-          "urlPlaceholder": "Ziel-URL",
-          "characterLimit": "Die Linkbeschreibung darf {limit} Zeichen nicht überschreiten.",
-          "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
-          "or": "oder",
-          "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL.",
-          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen, z. B. https://www.supertext.com"
-        },
-        "services": {
-          "verification": {
-            "title": "Profi-Check",
-            "description": "Lassen Sie Ihr Team unseren Profi-Check nutzen, bei dem erfahrene Supertext-Linguist:innen die KI-Übersetzung schnell überprüfen können."
-          },
-          "languageServices": {
-            "title": "Fachübersetzung, Copywriting und Lektorat («Auftrag erstellen»)",
-            "description": "Geben Sie Ihrem Team die Erlaubnis, Aufträge für spezialisierte Übersetzungs-, Copywriting- und Lektoratsprojekte zu platzieren oder nicht."
-          }
-        },
-        "interface": {
-          "logo": {
-            "title": "Logo",
-            "noLogoUploaded": "Kein Logo hochgeladen",
-            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
-            "uploadLogo": "Logo hochladen",
-            "logoUrl": "Logo-URL",
-            "suggestedDimensions": "Empfohlene Bildabmessungen: 140 × 30 Pixel.",
-            "maxFileSize": "Maximale Dateigrösse: 2 MB",
-            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
-          },
-          "favicon": {
-            "title": "Favicon",
-            "noFaviconUploaded": "Kein Favicon hochgeladen",
-            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
-            "uploadFavicon": "Favicon hochladen",
-            "faviconUrl": "Favicon-URL",
-            "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel gross sein.",
-            "maxFileSize": "Maximale Dateigrösse: 2 MB",
-            "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert.",
-            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
-          },
-          "color": {
-            "title": "Farbe",
-            "badContrast": "Diese Farbkombination führt zu schlechter Lesbarkeit. Empfohlenes Verhältnis ≥ 4.5, aktuelles Verhältnis: {ratio}",
-            "primary": {
-              "label": "Primärfarbe",
-              "description": "Legen Sie Ihre bevorzugte Farbe für die primären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
-            },
-            "secondary": {
-              "label": "Sekundärfarbe",
-              "description": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob die darin platzierten Symbole und Texte schwarz oder weiss angezeigt werden sollen."
-            }
-          },
-          "validating": "Validierung ...",
-          "urlErrors": {
-            "validating": "URL wird validiert ...",
-            "httpsRequired": "URL muss mit https:// beginnen",
-            "notAccessible": "URL ist nicht erreichbar. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
-          }
-        },
-        "autoSaveEnabled": "Änderungen werden automatisch gespeichert",
-        "messages": {
-          "autoSaved": "Änderungen erfolgreich gespeichert",
-          "saving": "Änderungen werden gespeichert ..."
-        }
-      }
-    },
     "footer": {
       "contact": "Kontakt",
       "newsletter": "Newsletter",
@@ -4858,7 +3940,925 @@
         }
       }
     },
-    "placeOrderShort": "Erstellen"
+    "placeOrderShort": "Erstellen",
+    "cockpit": {
+      "title": "Cockpit",
+      "nextSteps": "NÄCHSTE SCHRITTE",
+      "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt aktuell keine weiteren Schritte zu erledigen.",
+      "addSettings": "Angaben ergänzen",
+      "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung.",
+      "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
+      "orders": {
+        "title": "Aufträge",
+        "viewAllOrders": "Alle Aufträge ansehen",
+        "openOrders": "AKTUELLSTE AUFTRÄGE",
+        "noOrders": "Oops, zurzeit gibt es keine Aufträge.",
+        "orderDate": "Bestelldatum",
+        "orderDeadlineDate": "Lieferung",
+        "orderDetails": {
+          "title": "AUFTRAGSDETAILS",
+          "order": "Bestellung",
+          "sourceLanguage": "Ausgangssprache",
+          "targetLanguage": "Zielsprache",
+          "sourceFile": "Ausgangstext",
+          "offerType": "Service",
+          "orderDeadline": "Lieferdatum",
+          "orderName": "Auftragstitel",
+          "industry": "Fachgebiet",
+          "targetAudience": "Zielpublikum",
+          "orderFiles": "Quellen",
+          "price": "Preis (exkl. MWST)",
+          "scope": "Umfang",
+          "invoiceDate": "Bestellzeit",
+          "invoiceAddress": "Rechnungsadresse",
+          "contactPersonTitle": "PROJEKTLEITUNG",
+          "additionalInformation": "Mehr Informationen",
+          "targetFile": "Zieltext",
+          "orderNumber": "Auftragsnummer",
+          "notFixed": "Preis noch nicht fixiert",
+          "costCenter": "Kostenstelle"
+        },
+        "back": "Zurück",
+        "verificationType": "Profi-Check",
+        "priceVAT": "exkl. MWST",
+        "filters": {
+          "groups": {
+            "title": "Alle Aufträge",
+            "all": "Alle",
+            "myOrders": "Meine Aufträge",
+            "sharedOrders": "Nur geteilte Aufträge"
+          },
+          "type": {
+            "title": "Auftragstyp",
+            "all": "Alle"
+          },
+          "status": {
+            "title": "Status",
+            "all": "Alle",
+            "delivered": "Erledigt",
+            "inProgress": "In Bearbeitung",
+            "onHold": "Zurückgestellt",
+            "collected": "Abgeholt"
+          }
+        },
+        "customFeatures": {
+          "sourceDocuments": {
+            "helpLine": "Die Ausgangsdokumente müssen noch hochgeladen werden",
+            "upload": "Dokumente hochladen"
+          }
+        },
+        "ordersBeingCreated": "Auftrag wird vorbereitet"
+      },
+      "invoices": {
+        "title": "Rechnungen",
+        "openInvoices": "AKTUELLSTE RECHNUNGEN",
+        "viewAllInvoices": "Alle Rechnungen ansehen",
+        "noOpenInvoices": "Zurzeit keine offenen Rechnungen",
+        "noInvoices": "Keine Rechnungen vorhanden",
+        "invoiceDetail": {
+          "amount": "Betrag",
+          "invoiceDate": "Abgerechnet am",
+          "downloadInvoice": "Herunterladen"
+        },
+        "filters": {
+          "groups": {
+            "title": "Alle Rechnungen",
+            "all": "Alle",
+            "myBills": "Meine Rechnungen",
+            "sharedBills": "Nur geteilte Rechnungen"
+          },
+          "status": {
+            "title": "Status",
+            "all": "Alle",
+            "paid": "Bezahlt",
+            "unpaid": "Noch offen"
+          }
+        },
+        "invoice": "Rechnung"
+      },
+      "subscriptions": {
+        "title": "Abo",
+        "contactSupertext": "Supertext kontaktieren",
+        "otherPlans": "Abo ändern",
+        "current": "Aktuelles Abo",
+        "upgrade": "Upgraden",
+        "downgrade": "Herabstufen",
+        "recommended": "Beliebteste Option",
+        "comparePlans": "Abos vergleichen",
+        "showMore": "Mehr anzeigen",
+        "cancellationInfo": "Sie haben Ihr Abo gekündigt. Es endet am",
+        "freePlanInfo": "Ihr Konto wird auf Supertext Free umgestellt.",
+        "customPlanInfo": "Passen Sie Ihr Abo Ihren Bedürfnissen an",
+        "upgradeSubscriptionInformation": "Bitten Sie eine:n Admin, Ihr Abo zu aktualisieren",
+        "annuallySubscription": "Jährlich",
+        "monthlySubscription": "Monatlich",
+        "subscriptionFreeInfo": "User:innen ohne Lizenz haben Zugriff auf Supertext Free.",
+        "addLicenses": "weitere Lizenzen hinzufügen.",
+        "subscribeMow": "Jetzt abonnieren",
+        "requestOffer": "Angebot anfordern",
+        "addToWaitingList": "In die Warteliste eintragen",
+        "registerForFree": "Kostenlos registrieren",
+        "reactivateSubscription": "Reaktivieren",
+        "cancelSubscription": "Gekündigt",
+        "expiresOn": "Läuft ab am",
+        "moreInfo": "Details ansehen",
+        "hero": {
+          "title": "Finden Sie Ihr passendes Supertext-Abo",
+          "subtitle": "Schneller, besser und sicherer übersetzen: Supertext bietet das passende AI-Translation-Paket für jedes Bedürfnis – vom einfachen Online-Übersetzer bis zur vollintegrierten Enterprise-Lösung.",
+          "cta": "Zur Enterprise-Lösung"
+        },
+        "message": {
+          "part1": "Sie haben",
+          "part2": "grosse Ziele?",
+          "part3": "Wir die",
+          "part4": "passende Lösung."
+        },
+        "question": "Über 1500 Unternehmen in ganz Europa setzen bereits auf unsere massgeschneiderten Produkte und Services. Was können wir tun, um bald auch Sie dazu zu zählen?",
+        "contactUs": "Kontakt aufnehmen",
+        "compareAllFeatures": "Alle Abos vergleichen",
+        "customizeSubscriptionInfo": "Passen Sie Ihr Abo jederzeit ganz einfach Ihren Bedürfnissen an.",
+        "price": "Preis",
+        "assignLicenseAdmin": "Lizenz zuweisen",
+        "assignLicenseUser": "Admin kontaktieren",
+        "confirmSubscription": "Abo bestätigen",
+        "modals": {
+          "waitlist": {
+            "email": "E-Mail",
+            "accepted": "Ja, Supertext darf mich kontaktieren, sobald das gewünschte Abo verfügbar ist.",
+            "cta": "In Warteliste eintragen",
+            "messages": {
+              "success": "Erfolgreich auf die Warteliste gesetzt",
+              "error": "Beim Hinzufügen zur Warteliste ist ein Fehler aufgetreten."
+            }
+          },
+          "offer": {
+            "fields": {
+              "specialRequest": {
+                "label": "Nachricht (optional)",
+                "placeholder": "Ihre Nachricht"
+              },
+              "email": {
+                "label": "* E-Mail",
+                "placeholder": "Ihre E-Mail-Adresse",
+                "error": "Geben Sie bitte eine gültige E-Mail-Adresse ein."
+              },
+              "name": {
+                "label": "* Name",
+                "placeholder": "Ihr Name",
+                "error": "Bitte geben Sie Ihren Namen ein"
+              },
+              "company": {
+                "label": "* Unternehmen/Organisation",
+                "placeholder": "Ihr Unternehmen / Ihre Organisation",
+                "error": "Bitte geben Sie Ihr Unternehmen / Ihre Organisation an"
+              },
+              "userCount": {
+                "label": "* Anzahl User:innen (Schätzung)",
+                "placeholder": "Ihre Anzahl User:innen (Schätzung)",
+                "error": "Bitte geben Sie die Anzahl der User:innen an"
+              },
+              "phoneNumber": {
+                "label": "Telefonnummer",
+                "placeholder": "Ihre Telefonnummer"
+              },
+              "accepted": {
+                "label": "Ja, meine Daten dürfen zur Kontaktaufnahme an Supertext weitergegeben werden.",
+                "error": "Bitte akzeptieren Sie die Weitergabe Ihrer Daten."
+              }
+            },
+            "messages": {
+              "success": "Angebot erfolgreich angefordert",
+              "error": "Fehler beim Anfordern des Angebots"
+            }
+          }
+        },
+        "firstMonthFree": "30 Tage kostenlos, jederzeit kündbar",
+        "cancelSubscriptionButton": "Abo definitiv kündigen",
+        "footerNote": "Sie suchen eine <highlightText>massgeschneiderte Übersetzungslösung?</highlightText> Lassen Sie uns reden.",
+        "requestAccess": "Zugang beantragen",
+        "requestAccessSuccess": "Ihre Anfrage wurde erfolgreich gesendet",
+        "accessRequested": "Zugang in Prüfung",
+        "modalTitle": "Feature-Details",
+        "startsOn": "Startet am",
+        "downgradeLostFeatures": "Diese Vorteile fallen für Sie weg",
+        "downgradeReasonLabel": "Warum möchten Sie das Abo herabstufen?",
+        "optionalFeedbackLabel": "Haben Sie weiteres Feedback für uns?",
+        "optionalFeedbackPlaceholder": "Optional",
+        "subscription_cancellation_reasons": {
+          "too_expensive": "Zu hohe Kosten",
+          "not_using": "Nutze es zu wenig",
+          "missing_features": "Fehlende Funktionen",
+          "switching": "Wechsel zur Konkurrenz",
+          "other": "Andere"
+        },
+        "yourTeamSubscription": "Abo Ihres Teams",
+        "cancelSubscriptionButton2": "Abo kündigen",
+        "downgradeSubscriptionButton": "Abo definitiv herabstufen",
+        "downgradeToSubscription": "Zu {subscription} wechseln",
+        "cancelSubscriptionAlertHeader": {
+          "downgrade": "{fromSubscription}-Abo zu {toSubscription} herabstufen",
+          "cancel": "{fromSubscription}-Abo kündigen"
+        },
+        "cancelSubscriptionAlert": {
+          "fromSubscriptionToSubscriptionSingle": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums auf {toSubscription} herabstufen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}.",
+          "fromSubscriptionToSubscriptionMultiple": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums auf {toSubscription} herabstufen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Bitte beachten Sie, dass die Änderung sämtliche Lizenzen Ihres Teams betrifft.",
+          "cancelSubscriptionSingle": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums kündigen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Danach haben Sie automatisch weiterhin Zugriff auf Supertext Free.",
+          "cancelSubscriptionMultiple": "Sind Sie sicher, dass Sie Ihr Abo per Ende des aktuellen Abrechnungszeitraums kündigen möchten? Damit endet der Zugriff auf die Funktionen des {fromSubscription}-Abos am {endDate}. Die Kündigung betrifft sämtliche Lizenzen Ihres Teams. Danach haben alle User:innen in Ihrem Team automatisch weiterhin Zugriff auf Supertext Free."
+        },
+        "cancelSubscriptionFeatures": {
+          "advancedToEssential": [
+            "KI-Übersetzung in 28 Sprachen",
+            "Glossarfunktion",
+            "60 Dateien pro Monat",
+            "20 MB maximale Dateigrösse"
+          ],
+          "advancedToFree": [
+            "KI-Übersetzung in 28 Sprachen",
+            "Sofortige Textlöschung",
+            "Glossarfunktion",
+            "60 Dateien pro Monat",
+            "Unbegrenzte Textübersetzung",
+            "20 MB maximale Dateigrösse",
+            "Excel-, PDF- und SRT-Dateien übersetzen",
+            "Email-Support"
+          ],
+          "essentialToFree": [
+            "Sofortige Textlöschung",
+            "Unbegrenzte Textübersetzung",
+            "20 Dateien pro Monat",
+            "10 MB maximale Dateigrösse",
+            "Excel-, PDF- und SRT-Dateien übersetzen",
+            "Email-Support"
+          ]
+        },
+        "downgradeLostFeaturesMultiple": "Diese Vorteile fallen für Ihr Team weg",
+        "cancelReasonLabel": "Warum möchten Sie das Abo kündigen?",
+        "startNow": "Jetzt starten",
+        "subscriptionType": {
+          "translator": "KI-ÜBERSETZER",
+          "api": "API"
+        },
+        "api": {
+          "languagesBox": {
+            "title": "28 Sprachen –\nund es werden laufend mehr",
+            "languages": [
+              "Albanisch",
+              "Bulgarisch",
+              "Chinesisch",
+              "Dänisch",
+              "Deutsch",
+              "Englisch",
+              "Finnisch",
+              "Französisch",
+              "Griechisch",
+              "Italienisch",
+              "Japanisch",
+              "Koreanisch",
+              "Kroatisch",
+              "Niederländisch",
+              "Norwegisch",
+              "Polnisch",
+              "Portugiesisch",
+              "Rätoromanisch",
+              "Russisch",
+              "Schwedisch",
+              "Schweizerdeutsch",
+              "Serbisch",
+              "Slowakisch",
+              "Slowenisch",
+              "Spanisch",
+              "Tschechisch",
+              "Türkisch",
+              "Ungarisch"
+            ]
+          },
+          "footerNote": "Sie suchen eine <highlightText>massgeschneiderte Übersetzungslösung?</highlightText>",
+          "cta": "Ihre Sprache ist noch nicht dabei? <link>Lassen Sie uns reden.</link>"
+        },
+        "monthlyCancellable": "Monatlich kündbar",
+        "allFunctionality": "Alle Funktionen im Vergleich",
+        "editSubscriptionMessageAdmin": "Sie möchten Ihr Abo bearbeiten? <link>Zum Cockpit</link>",
+        "editSubscriptionMessageUser": "Sie möchten Ihr Abo bearbeiten? <link>Kontaktieren Sie eine:n Admin in Ihrem Team<link/>",
+        "subscriptionSiteLicenseInfo": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
+        "tryFree": "Kostenlos testen"
+      },
+      "resources": {
+        "title": "Sprachressourcen",
+        "comingSoon": "Bald verfügbar"
+      },
+      "profile": {
+        "title": "Profil",
+        "email": "E-Mail",
+        "changeEmail": "E-Mail-Adresse ändern",
+        "emailValidation": "Geben Sie bitte eine gültige E-Mail-Adresse ein.",
+        "language": "Sprache",
+        "role": "Rolle",
+        "roleValidation": "Rolle muss mindestens 2 Zeichen lang sein",
+        "license": "Lizenz",
+        "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
+        "comment": "Bezeichnung (optional)",
+        "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
+        "company": "Unternehmen/Organisation",
+        "name": "Name",
+        "changeName": "Name ändern",
+        "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
+        "firstName": "Vorname",
+        "firstNameValidation": "Vorname muss mindestens 2 Zeichen lang sein",
+        "lastName": "Nachname",
+        "lastNameValidation": "Nachname muss mindestens 2 Zeichen lang sein",
+        "addressLine1": "Strasse",
+        "addressLine1Validation": "Strasse muss mindestens 2 Zeichen lang sein",
+        "addressLine2": "Adresszusatz",
+        "city": "Ort",
+        "cityValidation": "Ort ist erforderlich",
+        "postalCode": "Postleitzahl",
+        "postalCodeValidation": "Postleitzahl ist erforderlich",
+        "country": "Land",
+        "countryValidation": "Bitte wählen Sie ein Land aus",
+        "selectCountry": "Land auswählen",
+        "settings": "Einstellungen",
+        "change": "Ändern",
+        "add": "Hinzufügen",
+        "delete": "Löschen",
+        "selectOption": "Option auswählen",
+        "isAdmin": "Admin-Rolle zuweisen",
+        "noData": "Keine Angaben",
+        "roles": {
+          "admin": "Admin",
+          "user": "Mitglied"
+        },
+        "costCenter": {
+          "title": "Kostenstelle",
+          "changeCostCenter": "Kostenstelle ändern"
+        },
+        "sections": {
+          "userDetails": {
+            "title": "Ihr Konto",
+            "deleteAccountTitle": "Konto dauerhaft löschen",
+            "deleteAccountConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
+            "deleteAccount": "Konto löschen",
+            "accountSettings": "Konto",
+            "accountSettingsInfo": "Hier können Sie Ihre Kontoeinstellungen vornehmen.",
+            "settings": "Einstellungen",
+            "password": {
+              "title": "Passwort",
+              "oldPassword": "Altes Passwort",
+              "newPassword": "Neues Passwort",
+              "confirmNewPassword": "Neues Passwort bestätigen",
+              "changePassword": "Passwort ändern",
+              "passwordDoNotMatch": "Passwörter stimmen nicht überein",
+              "passwordMustContainAtLeastOneSpecialCharacter": "Das Passwort muss mindestens 1 Sonderzeichen enthalten.",
+              "passwordMustContainAtLeastOneNumber": "Das Passwort muss mindestens 1 Zahl enthalten.",
+              "passwordMustContainAtLeastOneUppercaseLetter": "Das Passwort muss mindestens 1 Grossbuchstaben enthalten.",
+              "passwordMustContainAtLeastOneLowercaseLetter": "Das Passwort muss mindestens 1 Kleinbuchstaben enthalten.",
+              "passwordMustBeAtLeast8Characters": "Das Passwort muss mindestens 8 Zeichen lang sein."
+            },
+            "tooltips": {
+              "password": {
+                "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihr Passwort ändern",
+                "sso": "Sie können Ihr Passwort als SSO-User:in nicht ändern.",
+                "user": "Nur der:die Teamadministrator:in kann Ihr Passwort ändern"
+              },
+              "email": {
+                "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihre E-Mail ändern",
+                "sso": "Sie können Ihre E-Mail-Adresse als SSO-User:in nicht ändern.",
+                "user": "Nur ein:e Admin kann Ihre E-Mail ändern"
+              }
+            }
+          },
+          "payments": {
+            "title": "Zahlungsinformationen",
+            "info": "Hier können Sie die Standard-Rechnungsadressen und Kreditkartendaten verwalten.",
+            "setDefaultMethod": "Standard-Zahlungsmethode festlegen",
+            "defaultMethodSetSuccess": "Standard-Zahlungsmethode festgelegt",
+            "standardMethod": "Standard-Zahlungsmethode",
+            "changePaymentMethod": "Zahlungsmethode ändern",
+            "emailForDelivery": "E-Mail für Rechnungszustellung",
+            "methods": {
+              "title": "Zahlungsmethode",
+              "account": "Auf Rechnung",
+              "creditCard": "Kreditkarte",
+              "noPaymentMethod": "Keine Voreinstellung"
+            },
+            "settings": {
+              "billingAddress": {
+                "deleteBillingAddress": "Eintrag Rechnungsadresse löschen",
+                "deleteBillingAddressConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
+                "authorizationApply": "Berechtigung beantragen",
+                "authorizationPending": "Berechtigung steht aus",
+                "authorizationDenied": "Berechtigung verweigert",
+                "authorizationDeniedInfo": "Die Erlaubnis kann aus verschiedenen Gründen verweigert werden.",
+                "authorizationContactUs": "Nehmen Sie Kontakt mit uns auf",
+                "title": "Rechnungsadressen",
+                "selectDefaultBillingAddress": "Wählen Sie eine Standard-Rechnungsadresse",
+                "requestInvoiceAsPaymentMethod": "Beantragen Sie hier die Zahlung per Rechnung für künftige Transaktionen.",
+                "addBillingAddress": "Rechnungsadresse hinzufügen",
+                "editBillingAddress": "Rechnungsadresse bearbeiten",
+                "addNewAddress": "Neue Adresse hinzufügen",
+                "noAddedAddresses": "Es wurde noch keine Adresse hinzugefügt"
+              },
+              "creditCard": {
+                "title": "Kreditkartendetails",
+                "subTitle": "Wählen Sie eine Standardzahlungsmethode",
+                "deleteCard": "Karte erfolgreich gelöscht",
+                "addCard": "Karte erfolgreich hinzugefügt",
+                "addCardFailure": "Karte konnte nicht hinzugefügt werden",
+                "endsWith": "endet mit",
+                "updateCardDetailsInformation": "Bitten Sie eine:n Admin Ihrer Organisation, die Kreditkartendetails zu aktualisieren.",
+                "expirationMessage": "Ihre Karte ist abgelaufen am",
+                "deleteCreditCardConfirmation": "Sind Sie sicher, dass Sie diese Karte löschen wollen?",
+                "deleteCreditCardInformation": "Damit entfernen Sie die Kreditkarte aus Ihrem Konto und können sie nicht für künftige Transaktionen verwenden. Dies könnte sich auch auf andere Mitglieder Ihres Teams auswirken.",
+                "noAddedCreditCard": "Es wurde noch keine Karte hinzugefügt"
+              }
+            },
+            "changePaymentMethodTooltip": {
+              "invoiceDisabled": {
+                "linkText": "Kontaktieren Sie uns",
+                "description": "Zahlung auf Rechnung ist für Ihre Organisation derzeit nicht aktiviert. Bitte kontaktieren Sie uns, um diese Zahlungsmethode freizuschalten.",
+                "prefilledSubject": "Antrag für Zahlung auf Rechnung",
+                "prefilledBody": "Guten Tag\n\nBitte aktivieren Sie für mein Supertext-Konto die Zahlung auf Rechnung.",
+                "emailAddress": "hello@supertext.com"
+              },
+              "invoiceRequiresBillingAddress": {
+                "description": "Um Rechnungen als Zahlungsmethode zu nutzen, fügen Sie bitte zunächst eine Rechnungsadresse hinzu.",
+                "linkText": "Rechnungsadresse hinzufügen"
+              }
+            }
+          },
+          "team": {
+            "title": "Team",
+            "userManagement": "User-Verwaltung",
+            "addMember": "Mitglied hinzufügen",
+            "editMember": "Mitglied bearbeiten",
+            "removeMember": "Entfernen",
+            "deleteMember": "Mitglied entfernen",
+            "deleteMemberConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
+            "availableSeats": "Verfügbare Plätze",
+            "filledSeats": "Besetzte Plätze",
+            "usersGained": "Registrierte User:innen",
+            "increaseSeats": "Anzahl Lizenzen erhöhen",
+            "increaseSeatsInfo": "Erhöhen Sie die Anzahl der im Unternehmen zugelassenen User:innen",
+            "teamMembersOverviewTitle": "Teammitglieder",
+            "teamMembersOverviewSubtitle": "Hier können Sie Ihre Teammitglieder verwalten",
+            "management": "Management",
+            "actions": {
+              "title": "Aktion",
+              "editAll": "Alle bearbeiten",
+              "removeAll": "Account deaktivieren",
+              "editLicenseSelected": "Lizenz bearbeiten",
+              "editRoleSelected": "Rolle bearbeiten"
+            },
+            "increaseNumberOfLicenses": "Anzahl Lizenzen erhöhen",
+            "selectLicense": "Lizenz auswählen",
+            "selectRole": "Rolle auswählen",
+            "roles": {
+              "teamAdmin": "Admin",
+              "user": "Mitglied"
+            },
+            "roleChangeWarning": "Ein:e Admin hat Ihre Rolle geändert. Bitte loggen Sie sich aus und wieder ein, um Ihren Account zu aktualisieren.",
+            "licenceAvailable": "{amount} verfügbar",
+            "marketingPanel": {
+              "heading": "Gründen Sie Ihr eigenes Team bei Supertext",
+              "subheading": "Laden Sie weitere User:innen ein und beginnen Sie innerhalb von Minuten mit der Zusammenarbeit.",
+              "listItems": [
+                "Sie bestimmen, wer Teil Ihres Teams wird",
+                "Lizenzen und Admin-Rechte zentral verwalten",
+                "Abos aller Teammitglieder immer im Überblick"
+              ],
+              "viewTable": "Ihr Team ansehen"
+            },
+            "paginationOf": "von",
+            "editSelectedMembers": "Ausgewählte Mitglieder bearbeiten",
+            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rolle von # Mitgliedern wurden}} erfolgreich aktualisiert",
+            "ssoRequest": {
+              "title": "Single Sign-On (SSO) Onboarding anfordern",
+              "button": "SSO anfordern",
+              "button_pending": "SSO-Upgrade ausstehend",
+              "tooltip": "Um SSO zu beantragen, muss Ihre Organisation über mindestens 10 Abo-Lizenzen verfügen.",
+              "description": "Um das SSO-Onboarding anzufordern, geben Sie bitte die E-Mail-Adresse der technischen Kontaktperson an. Ein:e Supertext-Mitarbeiter:in wird sich mit der Kontaktperson in Verbindung setzen, um die Einrichtung zu koordinieren.",
+              "form": {
+                "label": "E-Mail-Adresse der technischen Kontaktperson",
+                "placeholder": "example@supertext.com",
+                "invalid": "Geben Sie bitte eine gültige E-Mail-Adresse ein."
+              },
+              "notification_success": "SSO-Upgrade-Anfrage erfolgreich gesendet",
+              "notification_error": "Etwas ist schief gelaufen: {error}"
+            }
+          },
+          "subscription": {
+            "title": "Abo Ihres Teams ändern",
+            "description": "Alle User:innen ohne zugewiesene Lizenz profitieren automatisch und kostenlos von Supertext Free.",
+            "comparePlans": "Abos vergleichen",
+            "numberOfLicenses": "Anzahl Lizenzen",
+            "licencesCount": "{count, plural, one {# Lizenz} other {# Lizenzen}}",
+            "nextPayment": "Nächste Zahlung",
+            "monthly": "Monatlich",
+            "yearly": "Jährlich",
+            "billingPeriod": "Abrechnungszeitraum",
+            "subscriptionPrices": "Preise der Abos",
+            "change": "Ändern",
+            "modal": {
+              "title": "Anzahl Lizenzen ändern",
+              "changeLicenses": "Anzahl Lizenzen ändern",
+              "change": "Ändern",
+              "order": "Verbindlich bestellen",
+              "licensesCount": "Anzahl Lizenzen",
+              "currentLicenses": "Aktuell: {count}",
+              "newLicenseCount": "Neue Anzahl Lizenzen",
+              "paymentMethod": "Zahlungsmethode",
+              "creditCard": "Kreditkarte",
+              "invoice": "Auf Rechnung",
+              "pricePerLicenseMonth": "Preis pro Lizenz, pro Monat",
+              "pricePerLicenseYear": "Preis pro Lizenz, pro Jahr",
+              "totalLicenses": "Gesamtanzahl der Lizenzen",
+              "totalMonthly": "Gesamtbetrag pro Monat",
+              "totalYearly": "Gesamtbetrag pro Jahr",
+              "vatIncluded": "inkl. {currency} {amount} {percentage} MWST",
+              "todayTotal": "Heute fälliger Gesamtbetrag",
+              "nextPeriod": "Für zusätzliche Lizenzen bis zur nächsten Abrechnungsperiode",
+              "termsConfirmation": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
+              "termsAndConditions": "Allgemeinen Geschäftsbedingungen.",
+              "immediateChange": "Diese Änderung ist sofort wirksam.",
+              "nextBillingChange": "Sie beantragen eine Herabstufung von {previousCount} auf {newCount} Lizenzen. Diese Änderung ist ab der nächsten Abrechnungsperiode wirksam.",
+              "makePayment": "Verbindlich bestellen",
+              "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
+              "removeLicensesError": {
+                "text": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
+                "link": "Lizenzen von Teammitgliedern entfernen.",
+                "one": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
+                "other": ""
+              },
+              "agreementAg": {
+                "text": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
+                "link": "AGB",
+                "one": "Ich bestätige die oben genannte Abo-Änderung und akzeptiere die",
+                "other": ""
+              }
+            },
+            "afterTrialPeriod": "(nach Testphase)",
+            "expiresOn": "Läuft ab am",
+            "missingPaymentMethod": {
+              "message": "Bitte aktualisieren Sie Ihre Zahlungsmethode, bevor Sie Änderungen an Ihrem Abo vornehmen.",
+              "link": "Zahlungsmethode aktualisieren"
+            },
+            "after": "nach",
+            "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
+            "cancelDowngradeLicenses": "Abbrechen",
+            "price_per_licence_month": "Preis pro Lizenz, pro Monat",
+            "price_per_licence_year": "Preis pro Lizenz, pro Jahr",
+            "titleSiteLicence": "Team-Abo",
+            "descriptionSiteLicence": "Ihr Team verfügt über eine Unternehmenslizenz – Sie können beliebig viele User:innen hinzufügen. Wenn Sie Ihr Abo anpassen möchten, kontaktieren Sie uns einfach."
+          },
+          "authorisations": {
+            "title": "Zugriffsberechtigungen",
+            "info": "Hier können Sie einstellen, wer auf Ihre Informationen zugreifen kann.",
+            "ordersAndBills": {
+              "title": "Meine Aufträge und Rechnungen",
+              "authorisedAmount": "{count, plural, =0 {Nur ich} =1 {Ich und ein anderes Mitglied} other {Ich und {count} andere Mitglieder}}",
+              "modal": {
+                "title": "Meine Aufträge und Rechnungen",
+                "info": "Nur Mitglieder Ihres Teams können Zugang zu Ihren Rechnungen und Aufträgen erhalten.",
+                "searchInputPlaceholder": "Suche nach E-Mail-Adresse oder Namen",
+                "authoriseUser": "Zugang autorisieren",
+                "deleteConfirm": {
+                  "title": "Mitglied löschen",
+                  "info": "Sind Sie sicher, dass Sie den:die Benutzer:in aus der Berechtigungsliste entfernen möchten?",
+                  "confirm": "Ja, entfernen"
+                },
+                "notifications": {
+                  "userAddSuccess": "Der:Die Benutzer:in wurde erfolgreich zur Berechtigungsliste hinzugefügt.",
+                  "userAddError": "Der:Die Benutzer:in konnte nicht zur Berechtigungsliste hinzugefügt werden.",
+                  "userRemoveSuccess": "Der:Die Benutzer:in wurde erfolgreich aus der Berechtigungsliste entfernt.",
+                  "userRemoveError": "Der:Die Benutzer:in konnte nicht aus der Berechtigungsliste entfernt werden."
+                },
+                "searchInputPlaceholderNonTeamAdmin": "E-Mail eines Teammitglieds"
+              }
+            }
+          }
+        },
+        "licenseTag": "User:in lizenzieren",
+        "currency": "Währung",
+        "noLicense": "Free",
+        "hasLicense": "Essential",
+        "emailPlaceholder": "beispiel@gmail.com",
+        "licenseMultipleTag": "User:innen lizenzieren",
+        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}} verfügbar.",
+        "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert",
+        "siteLicense": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
+        "siteLicenseDetails": "Abo-Details"
+      },
+      "delivery": {
+        "title": "Lieferung",
+        "status": {
+          "pending": "Ihr Auftrag ist in Bearbeitung. Fertigstellung bis"
+        },
+        "openInTranslationInterface": "Im Translation Interface öffnen"
+      },
+      "feedback": {
+        "title": "FEEDBACK",
+        "satisfactionQuestion": "Wie zufrieden sind Sie mit dem Ergebnis?",
+        "message": "Nachricht",
+        "submitFeedback": "Feedback absenden",
+        "revisionQuestion": "Wünschen Sie eine kostenlose Überarbeitung?",
+        "revisionOption": "Ich wünsche eine kostenlose Nachbearbeitung",
+        "revisionRequest": "Überarbeitung anfordern",
+        "submitFile": "Überarbeitung anfordern",
+        "uploadFiles": "Dokumente mit Kommentaren hochladen",
+        "messagePlaceholder": "z. B. ein guter, frischer Stil, wir sind sehr zufrieden.",
+        "ratingOptions": {
+          "super": "Super",
+          "good": "Okay",
+          "insufficient": "Ungenügend"
+        },
+        "feedbackSentSuccess": "Feedback erfolgreich gesendet",
+        "requestRevisionSuccess": "Überarbeitung erfolgreich angefordert",
+        "yourFeedback": "Ihr Feedback"
+      },
+      "overview": {
+        "title": "Dashboard",
+        "nextSteps": "NÄCHSTE SCHRITTE",
+        "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt derzeit keine weiteren Schritte zu erledigen.",
+        "addSettings": "Angaben ergänzen",
+        "creditCardDetailsSettings": "Hinterlegen Sie Ihre Kreditkarten-Details für eine einfache Abwicklung.",
+        "styleGuidSettings": "Hinterlegen Sie Styleguides und Dokumente zu Tonalität und Terminologie",
+        "subscriptionSettings": "Entdecken Sie die verschiedenen Supertext-Abos und finden Sie die richtige Option für Sie.",
+        "subscriptionsExplore": "Abos entdecken",
+        "salutation": {
+          "hi": "Hallo, {name}!",
+          "admin": "Admin",
+          "member": "Mitglied",
+          "notLicenced": "Nicht lizenziert"
+        },
+        "teamSection": {
+          "title": "Mein Team",
+          "inviteUser": "User:in einladen",
+          "exploreSubscriptions": "Abos entdecken",
+          "assignLicences": "Lizenzen zuweisen",
+          "users": "User:innen",
+          "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
+          "licensedUsers": "lizenzierte User:innen",
+          "inviteUserTooltip": "Nur Admins können Personen einladen.",
+          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
+        },
+        "aiCustomisation": {
+          "title": "KI-SPEZIALISIERUNG",
+          "trainingData": "Trainingsdaten",
+          "personalExpertTranslations": "eigene Übersetzungen zu Ihrem spezialisierten KI-Modell hinzugefügt",
+          "efficiencyGain": "Effizienzgewinn",
+          "genericModelEfficiency": "Effizienz des\nBasis-Modells",
+          "customModelEfficiency": "Effizienz des\nspezialisierten\nModells\nIhres Teams",
+          "potentialModelEfficiency": "Potenzielle\nEffizienz eines\nspezialisierten\nModells",
+          "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres spezialisierten KI-Modells.",
+          "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
+          "learnMore": "Mehr erfahren",
+          "submitTrainingData": "Trainingsdaten übermitteln",
+          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>sales@supertext.com</link>",
+          "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen.",
+          "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
+          "submitTrainingDataEmailBody": "Guten Tag\nWir möchten Sie bitten, unserem spezialisierten Übersetzungsmodell neue Trainingsdaten hinzuzufügen, um dessen Effizienz weiter zu verbessern."
+        },
+        "aiTranslation": {
+          "title": "KI-ÜBERSETZUNG",
+          "teamUsage": "Team-Nutzung",
+          "teamUsageDescription": "Das KI-Übersetzungsvolumen Ihres Teams in den letzten 30 Tagen.",
+          "yourUsage": "Ihre Nutzung",
+          "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
+          "characters": "Zeichen",
+          "files": "Dateien",
+          "outOfFiles": "von {limit} Dateien",
+          "increaseFileTranslationLimit": "Limit für Dateien erhöhen",
+          "teamUsageTooltip": "Inklusive API-Nutzung.",
+          "increaseFileTranslationLimitTooltip": "Nur Admins können das Limit für Dateien erhöhen."
+        },
+        "dataSecurity": {
+          "title": "DATENSICHERHEIT",
+          "gdprCompliance": "DSGVO-Konformität",
+          "maximumDataSecurity": "Maximale Datensicherheit ist für alle lizenzierten User:innen in Ihrem Team aktiviert.",
+          "freeUserDataUsage": "Als Free-User:in werden Ihre Übersetzungsdaten verwendet, um unser öffentliches Sprachmodell zu verbessern.",
+          "switchToPaidPlan": "Wechseln Sie zu einem kostenpflichtigen Abo, um maximale Datensicherheit zu aktivieren.",
+          "upgradeNow": "Jetzt upgraden",
+          "assignLicences": "Lizenzen zuweisen",
+          "upgradeNowTooltip": "Nur Admins können ein Upgrade durchführen.",
+          "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen.",
+          "addLicences": "Lizenzen hinzufügen",
+          "addLicencesTooltip": "Nur Admins können Lizenzen hinzufügen."
+        },
+        "activity": {
+          "title": "Aktivität",
+          "recentOrders": "AKTUELLE AUFTRÄGE",
+          "recentInvoices": "AKTUELLE RECHNUNGEN",
+          "invoice": "Rechnung {id}",
+          "seeOrderOverview": "Auftragsübersicht ansehen",
+          "seeInvoiceOverview": "Rechnungsübersicht ansehen"
+        }
+      },
+      "salutation": [
+        "Grüezi.",
+        "Hello.",
+        "Bonjour.",
+        "Salve."
+      ],
+      "api": {
+        "unsubscribed": {
+          "title": "Starten Sie mit der Supertext API",
+          "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen."
+        },
+        "payAsYouGo": "Nutzungsabhängige Kosten",
+        "per1MillionCharacters": "pro 1 Mio. Zeichen",
+        "price": "Preis",
+        "perMonth": "pro Monat",
+        "notifications": {
+          "successfullySubscribed": "Supertext API erfolgreich abonniert!"
+        },
+        "panel": {
+          "heading": "API-Abo",
+          "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen.",
+          "activeDescription": "Hier verwalten Sie Ihr API-Abo.",
+          "subheading": "Supertext API",
+          "subsubheading": "Integrieren Sie Supertext in Ihre Applikationen",
+          "billingPeriodMonthly": "Monatlich",
+          "subscribe": "Jetzt abonnieren",
+          "reactivate": "Abo reaktivieren",
+          "errorGeneric": "Etwas ist schiefgelaufen:",
+          "cancelSubscription": "Gekündigt"
+        },
+        "apiKeys": {
+          "heading": "API-Schlüssel",
+          "description": "Hier können Sie Ihre API-Schlüssel schnell und einfach verwalten.",
+          "emptyNotice": "Sie brauchen mindestens einen API-Schlüssel, um die Supertext-API zu nutzen.",
+          "copiedNotice": "API-Schlüssel erfolgreich kopiert",
+          "keyCreationNotice": "Bitte kopieren Sie diesen Schlüssel, da Sie ihn später nicht mehr sehen können.",
+          "table": {
+            "name": "Schlüssel-Name",
+            "preview": "API-Schlüssel",
+            "expiresAt": "Läuft ab am"
+          },
+          "modal": {
+            "title": "API-Schlüssel erstellen",
+            "button": "Neuen API-Schlüssel erstellen",
+            "formLabel": "Schlüssel-Name",
+            "placeholder": "Hier Bezeichnung für Schlüssel eingeben"
+          },
+          "notifications": {
+            "createSuccess": "Neuer API-Schlüssel hinzugefügt",
+            "createError": "Neuer API-Schlüssel konnte nicht hinzugefügt werden",
+            "deleteSuccess": "API-Schlüssel erfolgreich gelöscht",
+            "deleteError": "API-Schlüssel konnte nicht gelöscht werden"
+          },
+          "dialog": {
+            "deleteTitle": "{description} API-Schlüssel löschen",
+            "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen neu zuweisen."
+          },
+          "copy": "Kopieren"
+        },
+        "helpLinks": {
+          "learnMore": {
+            "title": "Mehr erfahren",
+            "description": "Entdecken Sie alle Funktionen der Supertext API und wie sie damit Ihre Übersetzungsworkflows automatisieren.",
+            "buttonText": "Mehr erfahren ->"
+          },
+          "documentation": {
+            "title": "Supertext API-Dokumentation",
+            "description": "Vollständige technische Dokumentation mit Beispielen, Parametern und Implementierungsanleitungen für alle API-Endpunkte.",
+            "buttonText": "API-Dokumentation"
+          },
+          "terms": {
+            "title": "Nutzungsbedingungen",
+            "description": "Lesen Sie unsere Nutzungsbedingungen und Richtlinien für die Verwendung der Supertext API und Services.",
+            "buttonText": "Nutzungsbedingungen ->"
+          }
+        },
+        "usage": {
+          "title": "API-Nutzung",
+          "thisMonth": "Diesen Monat",
+          "description": "Kontrollieren Sie Zugriff und Nutzung Ihres API-Abos.",
+          "tooltip": "Nutzungsdaten werden täglich aktualisiert",
+          "translatedCharsTotalLabel": "Übersetzte Zeichen gesamt",
+          "translatedCharsTotalHelp": "diesen Monat",
+          "translationCostTotalLabel": "Übersetzungskosten gesamt",
+          "translationCostTotalHelp": "diesen Monat",
+          "table": {
+            "endpoint": "Endpoint",
+            "chars": "Zeichen",
+            "cost": "Kosten",
+            "lastUsed": "Zuletzt verwendet"
+          }
+        },
+        "nextPaymentDate": "Nächste Zahlung",
+        "subscriptionEndsOn": "Läuft ab am",
+        "accessDenied": {
+          "title": "API-Zugriff eingeschränkt",
+          "description": "Sie haben keinen Zugriff auf die API-Einstellungen. Bitte wenden Sie sich an eine:n Admin Ihres Teams."
+        }
+      },
+      "new": "Neu",
+      "accessDenied": {
+        "title": "Zugriff eingeschränkt",
+        "description": "Sie haben keinen Zugriff auf diese Einstellungen. Bitte wenden Sie sich an eine:n Admin Ihres Teams."
+      },
+      "appearance": {
+        "title": "Interface",
+        "description": "Passen Sie das Interface Ihres KI-Übersetzers an.",
+        "sections": {
+          "subdomainAndLinks": "Benutzerdefinierte Subdomain und interne Links",
+          "availableServices": "Verfügbare Services",
+          "interface": "Design des Translation Interface"
+        },
+        "buttons": {
+          "subdomainAndLinks": "Subdomain und Links",
+          "availableServices": "Verfügbare Services",
+          "interface": "Interface",
+          "saveChanges": "Änderungen speichern",
+          "reset": "Zurücksetzen",
+          "discardChanges": "Änderungen verwerfen",
+          "retrySave": "Speichern erneut versuchen"
+        },
+        "errors": {
+          "validationErrors": "Es gibt einen oder mehrere Fehler bei der Validierung des Formulars. Bitte beheben Sie diese, bevor Sie speichern.",
+          "autoSaveFailed": "Die Änderungen konnten nicht automatisch gespeichert werden. Bitte versuchen Sie es erneut."
+        },
+        "subdomain": {
+          "title": "Benutzerdefinierte Subdomain",
+          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen.",
+          "placeholder": "subdomain-beispiel",
+          "suffix": ".supertext.com",
+          "comingSoon": "Bald verfügbar",
+          "temporaryGetInContact": {
+            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen: ",
+            "email": "hello@supertext.com",
+            "textStart": "Um eine eigene Subdomain festzulegen, wenden Sie sich bitte an"
+          }
+        },
+        "links": {
+          "title": "Links für mein Team",
+          "description": "Sie können bis zu vier Links für Ihr Team hinzufügen, z. B. zu bestimmten Übersetzungsrichtlinien oder zu Ihrem Intranet. Um die Links in der Hauptbenutzer-Dropdown-Liste anzuzeigen, müssen Sie eine Beschreibung hinzufügen, die immer angezeigt wird. Wenn Sie möchten, dass wir die Beschreibung in verschiedenen Sprachen anzeigen, geben Sie dies bitte entsprechend an.",
+          "linkNumber": "Link {number}",
+          "descriptionPlaceholder": "Linkbeschreibung",
+          "urlPlaceholder": "Ziel-URL",
+          "characterLimit": "Die Linkbeschreibung darf {limit} Zeichen nicht überschreiten.",
+          "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
+          "or": "oder",
+          "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL.",
+          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen, z. B. https://www.supertext.com"
+        },
+        "services": {
+          "verification": {
+            "title": "Profi-Check",
+            "description": "Lassen Sie Ihr Team unseren Profi-Check nutzen, bei dem erfahrene Supertext-Linguist:innen die KI-Übersetzung schnell überprüfen können."
+          },
+          "languageServices": {
+            "title": "Fachübersetzung, Copywriting und Lektorat («Auftrag erstellen»)",
+            "description": "Geben Sie Ihrem Team die Erlaubnis, Aufträge für spezialisierte Übersetzungs-, Copywriting- und Lektoratsprojekte zu platzieren oder nicht."
+          }
+        },
+        "interface": {
+          "logo": {
+            "title": "Logo",
+            "noLogoUploaded": "Kein Logo hochgeladen",
+            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
+            "uploadLogo": "Logo hochladen",
+            "logoUrl": "Logo-URL",
+            "suggestedDimensions": "Empfohlene Bildabmessungen: 140 × 30 Pixel.",
+            "maxFileSize": "Maximale Dateigrösse: 2 MB",
+            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
+          },
+          "favicon": {
+            "title": "Favicon",
+            "noFaviconUploaded": "Kein Favicon hochgeladen",
+            "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
+            "uploadFavicon": "Favicon hochladen",
+            "faviconUrl": "Favicon-URL",
+            "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel gross sein.",
+            "maxFileSize": "Maximale Dateigrösse: 2 MB",
+            "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert.",
+            "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
+          },
+          "color": {
+            "title": "Farbe",
+            "badContrast": "Diese Farbkombination führt zu schlechter Lesbarkeit. Empfohlenes Verhältnis ≥ 4.5, aktuelles Verhältnis: {ratio}",
+            "primary": {
+              "label": "Primärfarbe",
+              "description": "Legen Sie Ihre bevorzugte Farbe für die primären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
+            },
+            "secondary": {
+              "label": "Sekundärfarbe",
+              "description": "Legen Sie Ihre bevorzugte Farbe für die sekundären Schaltflächen fest und wählen Sie, ob die darin platzierten Symbole und Texte schwarz oder weiss angezeigt werden sollen."
+            }
+          },
+          "validating": "Validierung ...",
+          "urlErrors": {
+            "validating": "URL wird validiert ...",
+            "httpsRequired": "URL muss mit https:// beginnen",
+            "notAccessible": "URL ist nicht erreichbar. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
+          }
+        },
+        "autoSaveEnabled": "Änderungen werden automatisch gespeichert",
+        "messages": {
+          "autoSaved": "Änderungen erfolgreich gespeichert",
+          "saving": "Änderungen werden gespeichert ..."
+        }
+      }
+    }
   },
   "remove": "Entfernen",
   "translator": {

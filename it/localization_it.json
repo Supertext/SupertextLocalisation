@@ -120,7 +120,7 @@
         "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, one {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, one {# file} other {# file}} al mese}}",
         "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file.",
         "infinitePopover": "Il Suo abbonamento {subscriptionType} include un numero illimitato di traduzioni di file.",
-        "infiniteMessage": "Unbegrenzte Dateiübersetzungen"
+        "infiniteMessage": "Numero illimitato di traduzioni di file"
       },
       "dropFileWithoutExtension": "Trascini un file qui o",
       "ctas": {
@@ -835,7 +835,7 @@
       "userInvoices": "Le Sue fatture",
       "allInvoices": "Tutte le fatture del Suo team"
     },
-    "cockpit": {
+    "dashboard": {
       "title": "Cockpit",
       "nextSteps": "PROSSIMI PASSAGGI",
       "nextStepsInformation": "Tutti i dati sono aggiornati, non ci sono ulteriori passaggi da completare.",
@@ -1488,22 +1488,22 @@
           "inviteUser": "Invita utente",
           "exploreSubscriptions": "Scopri gli abbonamenti",
           "assignLicences": "Assegna licenze",
-          "users": "Utenti",
+          "users": "utenti",
           "usersActivePast30Days": "utenti attivi negli ultimi 30 giorni",
           "licensedUsers": "utenti con licenza",
           "inviteUserTooltip": "Solo gli amministratori possono invitare utenti.",
           "assignLicencesTooltip": "Solo gli amministratori possono assegnare licenze."
         },
         "aiCustomisation": {
-          "title": "CUSTOMIZZAZIONE IA",
+          "title": "ADATTAZIONE IA",
           "trainingData": "Dati per il training",
-          "personalExpertTranslations": "traduzioni personali verificate da esperti sono state aggiunte al Suo modello IA personalizzato",
+          "personalExpertTranslations": "traduzioni personali verificate da esperti sono state aggiunte al Suo modello IA adattato",
           "efficiencyGain": "Aumento dell’efficienza",
-          "genericModelEfficiency": "Efficienza\ndel modello\ngenerico",
-          "customModelEfficiency": "Efficienza del\nmodello IA\npersonale\ndel Suo team",
-          "potentialModelEfficiency": "Potenziale\nefficienza di un\nmodello\nspecializzato",
-          "teamTranslatesFaster": "Il Suo team trauduce il {gain}% più velocemente grazie al proprio modello IA personalizzato.",
-          "translateFasterAccurately": "Traduca in modo più veloce e preciso con un modello IA specializzato.",
+          "genericModelEfficiency": "Efficienza\ndel modello\nstandard",
+          "customModelEfficiency": "Efficienza del\nmodello\nadattato del\nSuo team",
+          "potentialModelEfficiency": "Potenziale\nefficienza di\nun modello\nadattato",
+          "teamTranslatesFaster": "Il Suo team trauduce il {gain}% più velocemente grazie al proprio modello IA adattato.",
+          "translateFasterAccurately": "Traduca in modo più veloce e preciso con un modello IA adattato.",
           "learnMore": "Per saperne di più",
           "submitTrainingData": "Invia dati per il training",
           "submitTrainingDataDescription": "Ci contatti per caricare i Suoi dati per il training. <link>sales@supertext.com</link>.",
@@ -1517,8 +1517,8 @@
           "teamUsageDescription": "Il volume di traduzioni IA del Suo team negli ultimi 30 giorni.",
           "yourUsage": "Il Suo utilizzo",
           "yourUsageDescription": "Il Suo volume personale di traduzioni IA negli ultimi 30 giorni.",
-          "characters": "Caratteri",
-          "files": "File",
+          "characters": "caratteri",
+          "files": "file",
           "outOfFiles": "di {limit} file",
           "increaseFileTranslationLimit": "Aumenta il limite del numero di file",
           "teamUsageTooltip": "Utilizzo dell’API incluso.",
@@ -1534,8 +1534,8 @@
           "assignLicences": "Assegna licenze",
           "upgradeNowTooltip": "Solo gli amministratori possono eseguire un upgrade.",
           "assignLicencesTooltip": "Solo gli amministratori possono assegnare licenze.",
-          "addLicences": "Lizenzen hinzufügen",
-          "addLicencesTooltip": "Nur Admins können Lizenzen hinzufügen."
+          "addLicences": "Aggiungi licenze",
+          "addLicencesTooltip": "Solo gli amministratori possono aggiungere licenze."
         },
         "activity": {
           "title": "Attività",
@@ -1652,7 +1652,7 @@
       },
       "appearance": {
         "title": "Configurazione",
-        "description": "Definisca la configurazione del Suo dashboards.",
+        "description": "Definisca la configurazione del Suo traduttore IA.",
         "sections": {
           "subdomainAndLinks": "Sottodominio personalizzato e link interni",
           "availableServices": "Servizi disponibili",
@@ -1678,8 +1678,8 @@
           "suffix": ".supertext.com",
           "comingSoon": "Disponibile a breve",
           "temporaryGetInContact": {
-            "text": "Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti.",
-            "email": "sales@supertext.com",
+            "text": "Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti: ",
+            "email": "hello@supertext.com",
             "textStart": "Per impostare un sottodominio, Si rivolga a"
           }
         },
@@ -1693,7 +1693,7 @@
           "urlRequired": "Questo link è provvisto di descrizioni, ma non di un URL di destinazione. Aggiunga un URL o rimuova le descrizioni.",
           "or": "oppure",
           "descriptionRequired": "Questo link dispone di un URL, ma non di una descrizione in una determinata lingua. Aggiungere almeno una descrizione o rimuovere l’URL.",
-          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen. Z.B https://www.supertext.com"
+          "badLinkError": "L'URL di destinazione non è corretto. L'URL deve iniziare con http:// o https://. Ad es. https://www.supertext.com"
         },
         "services": {
           "verification": {
@@ -1701,7 +1701,7 @@
             "description": "Consenta al Suo team di utilizzare il servizio di verifica professionale, con cui sottoporre la traduzione automatica al controllo degli esperti linguisti di Supertext."
           },
           "languageServices": {
-            "title": "Servizi linguistici professionali (\"Effettua un ordine\")",
+            "title": "Traduzione specialistica, copywriting e revisione (\"Crea ordine\")",
             "description": "Decida se autorizzare o meno il Suo team a effettuare ordini per progetti specializzati di traduzione, copywriting e revisione."
           }
         },
@@ -3554,7 +3554,7 @@
             },
             "row2": {
               "title": "Training per l’adattamento: per una migliore qualità linguistica in tutta l’azienda",
-              "description": "Creiamo i vostri modelli linguistici personalizzati sulla base delle traduzioni professionali interne, dei database terminologici e delle vostre linee guida in materia di stile. Poi li addestriamo con la massima precisione in base alla vostra lingua aziendale e al vostro tone of voice. Il risultato? Traduzioni istantanee di qualità oggettivamente migliore e più accurate."
+              "description": "Creiamo i vostri modelli linguistici adattati sulla base delle traduzioni professionali interne, dei database terminologici e delle vostre linee guida in materia di stile. Poi li addestriamo con la massima precisione in base alla vostra lingua aziendale e al vostro tone of voice. Il risultato? Traduzioni istantanee di qualità oggettivamente migliore e più accurate."
             }
           },
           "section2": {
@@ -4488,7 +4488,7 @@
             },
             {
               "title": "<large>500+</large>",
-              "content": "implementazioni di modelli linguistici personalizzati per le aziende"
+              "content": "implementazioni di modelli linguistici adattati per le aziende"
             },
             {
               "title": "<large>3000+</large>",
@@ -4945,7 +4945,7 @@
         "create": "Crea glossario"
       },
       "glossaryDoesntExist": {
-        "description": "Stabilisca come tradurre determinate parole e frasi. In fase finale, il traduttore IA di Supertext adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",
+        "description": "Stabilisca come tradurre determinate parole e frasi. In fase finale, il traduttore IA adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",
         "create": "Crea glossario"
       },
       "glossaryDelete": {
@@ -4984,7 +4984,7 @@
           "saveEntry": "Salva voce"
         },
         "languagePairAccordion": {
-          "emptyStateDescription": "Stabilisca come tradurre parole e frasi. Il traduttore IA di Supertext adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",
+          "emptyStateDescription": "Stabilisca come tradurre parole e frasi. Il traduttore IA adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",
           "exampleLabel": "Ad esempio:",
           "exampleSource1": "Log in",
           "exampleTarget1": "Accedi",

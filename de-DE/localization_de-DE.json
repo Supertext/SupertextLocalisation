@@ -835,7 +835,7 @@
       "userInvoices": "Ihre Rechnungen",
       "allInvoices": "Alle Rechnungen Ihres Teams"
     },
-    "cockpit": {
+    "dashboard": {
       "title": "Cockpit",
       "nextSteps": "NÄCHSTE SCHRITTE",
       "nextStepsInformation": "Sie sind auf dem neusten Stand, es gibt aktuell keine weiteren Schritte zu erledigen.",
@@ -1488,7 +1488,7 @@
           "inviteUser": "User:in einladen",
           "exploreSubscriptions": "Abos entdecken",
           "assignLicences": "Lizenzen zuweisen",
-          "users": "User:innen",
+          "users": "user:innen",
           "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
           "licensedUsers": "lizenzierte User:innen",
           "inviteUserTooltip": "Nur Admins können Personen einladen.",
@@ -1497,19 +1497,19 @@
         "aiCustomisation": {
           "title": "KI-SPEZIALISIERUNG",
           "trainingData": "Trainingsdaten",
-          "personalExpertTranslations": "persönliche Expertenübersetzungen zu Ihrem individuellen KI-Modell hinzugefügt",
+          "personalExpertTranslations": "eigene Übersetzungen zu Ihrem spezialisierten KI-Modell hinzugefügt",
           "efficiencyGain": "Effizienzgewinn",
-          "genericModelEfficiency": "Effizienz des\ngenerischen Modells",
-          "customModelEfficiency": "Effizienz des\nindividuellen\nKI-Modells\nIhres Teams",
+          "genericModelEfficiency": "Effizienz des\nBasis-Modells",
+          "customModelEfficiency": "Effizienz des\nspezialisieren\nModells\nIhres Teams",
           "potentialModelEfficiency": "Potenzielle\nEffizienz eines\nspezialisierten\nModells",
-          "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres individualisierten KI-Modells.",
+          "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres spezialisieren KI-Modells.",
           "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
           "learnMore": "Mehr erfahren",
           "submitTrainingData": "Trainingsdaten übermitteln",
           "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>sales@supertext.com</link>",
           "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen.",
           "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
-          "submitTrainingDataEmailBody": "Sehr geehrte Damen und Herren,\nwir möchten Sie bitten, neue Trainingsdaten für unser kundenspezifisches Übersetzungsmodell hinzuzufügen,\num dessen Effizienz weiter zu verbessern."
+          "submitTrainingDataEmailBody": "Guten Tag,\nwir möchten Sie bitten, unserem spezialisierten Übersetzungsmodell neue Trainingsdaten hinzuzufügen, um dessen Effizienz weiter zu verbessern."
         },
         "aiTranslation": {
           "title": "KI-ÜBERSETZUNG",
@@ -1651,16 +1651,16 @@
         "description": "Sie haben keinen Zugriff auf diese Einstellungen. Bitte wenden Sie sich an eine:n Admin Ihres Teams."
       },
       "appearance": {
-        "title": "Aussehen",
-        "description": "Passen Sie das Aussehen Ihres Dashboards an.",
+        "title": "Interface",
+        "description": "Passen Sie das Interface Ihres KI-Übersetzers an.",
         "sections": {
           "subdomainAndLinks": "Benutzerdefinierte Subdomain und interne Links",
-          "availableServices": "Verfügbare Dienste",
+          "availableServices": "Verfügbare Services",
           "interface": "Design des Translation Interface"
         },
         "buttons": {
           "subdomainAndLinks": "Subdomain und Links",
-          "availableServices": "Verfügbare Dienste",
+          "availableServices": "Verfügbare Services",
           "interface": "Interface",
           "saveChanges": "Änderungen speichern",
           "reset": "Zurücksetzen",
@@ -1678,9 +1678,9 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
           "temporaryGetInContact": {
-            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen.",
-            "email": "sales@supertext.com",
-            "textStart": "Um eine Subdomain festzulegen, wenden Sie sich an"
+            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen: ",
+            "email": "hello@supertext.com",
+            "textStart": "Um eine eigene Subdomain festzulegen, wenden Sie sich bitte an"
           }
         },
         "links": {
@@ -1698,10 +1698,10 @@
         "services": {
           "verification": {
             "title": "Profi-Check",
-            "description": "Lassen Sie Ihr Team unseren Profi-Check nutzen, bei dem erfahrene Supertext-Linguist:innen die maschinelle Übersetzung schnell überprüfen können."
+            "description": "Lassen Sie Ihr Team unseren Profi-Check nutzen, bei dem erfahrene Supertext-Linguist:innen die KI-Übersetzung schnell überprüfen können."
           },
           "languageServices": {
-            "title": "Professionelle Sprachdienste („Platzieren Sie eine Bestellung“)",
+            "title": "Fachübersetzung, Copywriting und Lektorat («Auftrag erstellen»)",
             "description": "Geben Sie Ihrem Team die Erlaubnis, Aufträge für spezialisierte Übersetzungs-, Copywriting- und Lektoratsprojekte zu platzieren oder nicht."
           }
         },
@@ -3546,7 +3546,7 @@
           "section1": {
             "row1": {
               "title": "Unsere Language AI: der flexible Startpunkt",
-              "description": "Die Grundlage für Ihr individuelles Übersetzungstool bilden unsere auf Übersetzungen spezialisierten Large Language Models (LLMs). Von hier aus starten wir einen individualisierten Prozess.",
+              "description": "Die Grundlage für Ihr individuelles Übersetzungstool bilden unsere auf Übersetzungen trainierten Large Language Models (LLMs). Von hier aus starten wir einen individualisierten Prozess.",
               "cta": {
                 "title": "Jetzt ausprobieren",
                 "link": "/"
@@ -4945,7 +4945,7 @@
         "create": "Glossar erstellen"
       },
       "glossaryDoesntExist": {
-        "description": "Definieren Sie, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
+        "description": "Definieren Sie, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
         "create": "Glossar erstellen"
       },
       "glossaryDelete": {
@@ -4984,7 +4984,7 @@
           "saveEntry": "Eintrag speichern"
         },
         "languagePairAccordion": {
-          "emptyStateDescription": "Definieren Sie, wie Wörter und Phrasen übersetzt werden sollen. Der Supertext KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
+          "emptyStateDescription": "Definieren Sie, wie Wörter und Phrasen übersetzt werden sollen. Der KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
           "exampleLabel": "Zum Beispiel:",
           "exampleSource1": "Log in",
           "exampleTarget1": "Anmelden",
@@ -5004,7 +5004,7 @@
   },
   "customBranding": {
     "title": "Darstellung anpassen",
-    "description": "Sie können hier grundlegende Anpassungen vornehmen, um einen benutzerdefinierten Arbeitsbereich zu erstellen – laden Sie Ihr Logo hoch und definieren Sie zwei Farben für das Translation Interface. Weitere benutzerdefinierte Einstellungen können im Cockpit unter „Interface anpassen“ vorgenommen werden.",
+    "description": "Sie können hier grundlegende Anpassungen vornehmen, um einen benutzerdefinierten Arbeitsbereich zu erstellen – laden Sie Ihr Logo hoch und definieren Sie zwei Farben für das Translation Interface. Weitere benutzerdefinierte Einstellungen können im Cockpit unter „Interface“ vorgenommen werden.",
     "logoDescription": "Idealerweise sollten Sie eine transparente .png-Datei oder eine .svg-Datei mit einer maximalen Höhe von XY Pixeln hochladen.",
     "upload": "Datei hochladen",
     "primaryColorDescription": "Legen Sie Ihre bevorzugte Farbe für die primären Buttons fest und wählen Sie, ob die darin platzierten Symbole und Texte in Schwarz oder Weiss angezeigt werden sollen.",

@@ -835,7 +835,7 @@
       "userInvoices": "Your invoices",
       "allInvoices": "All of your team’s invoices"
     },
-    "cockpit": {
+    "dashboard": {
       "title": "Cockpit",
       "nextSteps": "NEXT STEPS",
       "nextStepsInformation": "You are up to date. There are no further steps for you to complete at this time.",
@@ -1488,7 +1488,7 @@
           "inviteUser": "Invite user",
           "exploreSubscriptions": "Explore our subscriptions",
           "assignLicences": "Assign licences",
-          "users": "Users",
+          "users": "users",
           "usersActivePast30Days": "active users in the last 30 days",
           "licensedUsers": "licensed users",
           "inviteUserTooltip": "Only admins can invite people.",
@@ -1497,19 +1497,19 @@
         "aiCustomisation": {
           "title": "AI CUSTOMISATION",
           "trainingData": "Training data",
-          "personalExpertTranslations": "personal expert translations added to your customised AI model",
+          "personalExpertTranslations": "translations added to your customised AI model",
           "efficiencyGain": "Efficiency gain",
-          "genericModelEfficiency": "Efficiency of \nthe generic \nmodel",
-          "customModelEfficiency": "Efficiency of \nyour team's \ncustomised \nAI model",
-          "potentialModelEfficiency": "Potential \nefficiency of \na specialised \nmodel",
+          "genericModelEfficiency": "Default model \nefficiency",
+          "customModelEfficiency": "Your team’s\ncustomised\nmodel efficiency",
+          "potentialModelEfficiency": "Potential \ncustomised \nmodel efficiency",
           "teamTranslatesFaster": "Your team translates {gain}% faster thanks to your customised AI model.",
-          "translateFasterAccurately": "Translate faster and more accurately with a specialised AI model.",
+          "translateFasterAccurately": "Translate faster and more accurately with a customised AI model.",
           "learnMore": "Learn more",
           "submitTrainingData": "Submit training data",
           "submitTrainingDataDescription": "Contact us to upload your training data. <link>sales@supertext.com</link>.",
           "submitTrainingDataTooltip": "Only admins can submit training data.",
           "submitTrainingDataEmailSubject": "Request to upload training data –",
-          "submitTrainingDataEmailBody": "Dear Client,\nWe would like to ask you to upload new training data in order to further improve the efficiency of your custom model."
+          "submitTrainingDataEmailBody": "Hello,\nWe would like to ask you to upload new training data in order to further improve the efficiency of your custom model."
         },
         "aiTranslation": {
           "title": "AI TRANSLATION",
@@ -1517,9 +1517,9 @@
           "teamUsageDescription": "Your team's AI translation volume in the last 30 days.",
           "yourUsage": "Your usage",
           "yourUsageDescription": "Your personal AI translation volume in the last 30 days.",
-          "characters": "Characters",
-          "files": "Files",
-          "outOfFiles": "from {limit} files",
+          "characters": "characters",
+          "files": "files",
+          "outOfFiles": "of {limit} files",
           "increaseFileTranslationLimit": "Increase file limit",
           "teamUsageTooltip": "Including API usage.",
           "increaseFileTranslationLimitTooltip": "Only admins can increase the file limit."
@@ -1652,7 +1652,7 @@
       },
       "appearance": {
         "title": "Appearance",
-        "description": "Customise the appearance of your dashboard.",
+        "description": "Customise the appearance of your AI translator.",
         "sections": {
           "subdomainAndLinks": "Custom subdomain and internal links",
           "availableServices": "Available services",
@@ -1678,8 +1678,8 @@
           "suffix": ".supertext.com",
           "comingSoon": "Coming soon",
           "temporaryGetInContact": {
-            "text": "This feature is still under development. Until it's ready, please contact us to set up a custom subdomain.",
-            "email": "sales@supertext.com",
+            "text": "This feature is still under development. Until it's ready, please contact us to set up a custom subdomain: ",
+            "email": "hello@supertext.com",
             "textStart": "To specify a subdomain, please contact"
           }
         },
@@ -1701,7 +1701,7 @@
             "description": "Let your team use our Verification service, where experienced Supertext linguists quickly check your AI translation."
           },
           "languageServices": {
-            "title": "Professional language services (“Place an order”)",
+            "title": "Specialised translation, copywriting and editing (“Place an order”)",
             "description": "Decide whether your team should have permission to place orders for specialised translation, copywriting and proofreading projects."
           }
         },
@@ -2857,7 +2857,7 @@
               },
               {
                 "title": "3,000 selected professional translators, copywriters and editors",
-                "description": "From Geneva to Milan, from Buenos Aires to Tokyo: Supertext works with specialised native linguists worldwide. They all have a translation degree or more than five years of experience and undergo rigorous testing."
+                "description": "From Geneva to Milan, from Buenos Aires to Tokyo: Supertext works with skilled native linguists worldwide. They all have a translation degree or more than five years of experience and undergo rigorous testing."
               },
               {
                 "title": "In-house language specialists for consistency and quality assurance",
@@ -2969,10 +2969,10 @@
               "content": [
                 {
                   "title": "What exactly does a research scientist do?",
-                  "text": "In short: I turn client requirements into reality by improving existing translation models and developing specialised models that we can tailor to the corporate wording of our clients through training. We also develop new features based on the latest research findings."
+                  "text": "In short: I turn client requirements into reality by improving existing translation models and developing customised models that we can tailor to the corporate wording of our clients through training. We also develop new features based on the latest research findings."
                 },
                 {
-                  "title": "How does specialised training like this work – and what does it require?",
+                  "title": "How does AI customisation work – and what does it require?",
                   "text": "We develop the model and adapt it to the company’s individual language and style. For training, we require raw material – usually internal translation data from clients – and broad knowledge of computational linguistics and coding. From the initial green light to the delivery, it takes about five weeks. In between, we carry out extensive testing and comparison with quality standards."
                 },
                 {
@@ -3243,7 +3243,7 @@
             "benefits": [
               {
                 "title": "Technology",
-                "description": "Our development team builds customised solutions for our clients – from specialised AI models to additional language features to custom integrations. Flexible and implemented in record time thanks to in-house development.",
+                "description": "Our development team builds customised solutions for our clients – from customised AI models to additional language features to personalised integrations. Flexible and implemented in record time thanks to in-house development.",
                 "cta": {
                   "text": "Read employee profile",
                   "link": "/language-expertise#portraits",
@@ -3546,14 +3546,14 @@
           "section1": {
             "row1": {
               "title": "Our language AI: the flexible starting point",
-              "description": "Our large language models (LLMs) are specialised in translation and form the foundation of your individual translation tool. From here, we start a personalised training process.",
+              "description": "Our large language models (LLMs) are trained for translation and form the foundation of your individual translation tool. From here, we start a personalised customisation process.",
               "cta": {
                 "title": "Try it now",
                 "link": "/"
               }
             },
             "row2": {
-              "title": "Specialised training – for better language quality throughout your company",
+              "title": "AI customisation – for better language quality throughout your company",
               "description": "We set up your personal language models using your existing professional translations, terminology databases and style guides – and train them on your corporate language and tone of voice. The result: instant translations that are demonstrably better and more accurate."
             }
           },
@@ -3884,7 +3884,7 @@
             },
             "row2": {
               "title": "Custom AI for business",
-              "description": "Specialised AI training lets us seamlessly integrate your corporate language into every translation – for measurably better language quality at continuously decreasing costs. Available as a freely accessible tool for all employees or as a basis for your professional translators.",
+              "description": "AI customisation lets us seamlessly integrate your corporate language into every translation – for measurably better language quality at continuously decreasing costs. Available as a freely accessible tool for all employees or as a basis for your professional translators.",
               "cta1": {
                 "title": "Curious? Let’s talk."
               }
@@ -4037,7 +4037,7 @@
         },
         "lead": {
           "large": "Do you need your annual report translated? Or your new TV commercial brought out into the world? Our language professionals are ready.",
-          "small": "Supertext’s language professionals: 3,000+ hand-picked, specialised translators and cultural experts who are always on hand to give your AI translation the things only humans can:",
+          "small": "Supertext’s language professionals: 3,000+ hand-picked, highly skilled translators and cultural experts who are always on hand to give your AI translation the things only humans can:",
           "smallList": [
             "Expert knowledge in your specialist area",
             "Cultural expertise that lets you target your audience’s habits, humour, etc.",
@@ -4945,7 +4945,7 @@
         "create": "Create glossary"
       },
       "glossaryDoesntExist": {
-        "description": "Specify how particular words or phrases should be translated. The Supertext AI translator will then automatically adapt these terms to your preferences in your translation.",
+        "description": "Specify how particular words or phrases should be translated. The AI translator will then automatically adapt these terms to your preferences in your translation.",
         "create": "Create glossary"
       },
       "glossaryDelete": {
@@ -4984,7 +4984,7 @@
           "saveEntry": "Save entry"
         },
         "languagePairAccordion": {
-          "emptyStateDescription": "Define how particular words or phrases should be translated. The Supertext AI translator will then automatically adapt these terms to your preferences in your translation.",
+          "emptyStateDescription": "Define how particular words or phrases should be translated. The AI translator will then automatically adapt these terms to your preferences in your translation.",
           "exampleLabel": "For example:",
           "exampleSource1": "Anmelden",
           "exampleTarget1": "Log in",
@@ -5004,7 +5004,7 @@
   },
   "customBranding": {
     "title": "Edit interface",
-    "description": "You can make basic adjustments to create a custom workspace right here. Simply upload your logo and define two colours for the translation interface. Further custom settings can be specified in the interface under “Appearance”.",
+    "description": "You can make basic adjustments to create a custom workspace right here. Simply upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under “Appearance”.",
     "logoDescription": "Ideally, you should upload a transparent PNG file or an SVG file with a maximum height of XY pixels.",
     "upload": "Upload file",
     "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",

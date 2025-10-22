@@ -3951,7 +3951,7 @@
       "orders": {
         "title": "Commandes",
         "viewAllOrders": "Voir toutes les commandes",
-        "openOrders": "",
+        "openOrders": "DERNIÈRES COMMANDES",
         "noOrders": "Oups, il n’y a aucune commande en cours.",
         "orderDate": "Date de la commande",
         "orderDeadlineDate": "Livraison",
@@ -3973,7 +3973,7 @@
           "invoiceAddress": "Adresse de facturation",
           "contactPersonTitle": "CHEF/-FFE DE PROJET",
           "additionalInformation": "Plus d’informations",
-          "targetFile": "",
+          "targetFile": "Texte cible",
           "orderNumber": "Numéro de commande",
           "notFixed": "Prix pas encore fixé",
           "costCenter": "Centre de coût"
@@ -4059,7 +4059,7 @@
         "addToWaitingList": "S’inscrire sur la liste d’attente",
         "registerForFree": "S’inscrire gratuitement",
         "reactivateSubscription": "Réactiver",
-        "cancelSubscription": "",
+        "cancelSubscription": "Annulé",
         "expiresOn": "Expiration le",
         "moreInfo": "Voir les détails",
         "hero": {
@@ -4134,12 +4134,12 @@
         },
         "firstMonthFree": "Gratuit pendant 30 jours, sans engagement.",
         "cancelSubscriptionButton": "Annuler définitivement l’abonnement",
-        "footerNote": "",
+        "footerNote": "Vous recherchez une <highlightText>solution de traduction sur mesure?</highlightText> Contactez-nous.",
         "requestAccess": "Demander l’accès",
         "requestAccessSuccess": "Votre demande a été envoyée avec succès",
         "accessRequested": "Accès en cours de vérification",
         "modalTitle": "Détail des fonctionnalités",
-        "startsOn": "",
+        "startsOn": "Commence le",
         "downgradeLostFeatures": "Ces avantages disparaissent pour vous",
         "downgradeReasonLabel": "Pourquoi souhaitez-vous rétrograder votre abonnement?",
         "optionalFeedbackLabel": "Avez-vous d’autres commentaires à nous faire?",
@@ -4315,13 +4315,13 @@
             },
             "tooltips": {
               "password": {
-                "admin": "",
+                "admin": "Seul un/-e autre administrateur/-trice de l’équipe peut modifier votre mot de passe.",
                 "sso": "En tant qu’utilisateur SSO, vous ne pouvez pas modifier votre mot de passe.",
-                "user": ""
+                "user": "Seul un/-e administrateur/-trice peut modifier votre mot de passe."
               },
               "email": {
-                "admin": "",
-                "sso": "",
+                "admin": "Seul un/-e autre administrateur/-trice peut modifier votre e-mail.",
+                "sso": "En tant qu’utilisateur/-trice SSO, vous ne pouvez pas modifier votre adresse e-mail.",
                 "user": "Seul l’administrateur de l’équipe peut modifier votre e-mail."
               }
             }
@@ -4483,9 +4483,9 @@
               "makePayment": "Passer une commande contraignante",
               "zeroPayableNowOnTrialPeriod": "Les licences supplémentaires sont gratuites pendant la période d’essai et seront facturées à la fin de celle-ci, dans la période de facturation suivante.",
               "removeLicensesError": {
-                "text": "",
+                "text": "Vous avez attribué une licence à {count} personnes de votre équipe. Pour réduire votre abonnement à moins de {count} licences, vous devez d’abord",
                 "link": "supprimez les licences des membres de l’équipe.",
-                "one": "",
+                "one": "Vous avez attribué une licence à {count} personnes de votre équipe. Pour réduire votre abonnement à moins de {count} licences, vous devez d’abord",
                 "other": ""
               },
               "agreementAg": {
@@ -4526,9 +4526,9 @@
                   "confirm": "Oui, supprimer"
                 },
                 "notifications": {
-                  "userAddSuccess": "",
-                  "userAddError": "",
-                  "userRemoveSuccess": "",
+                  "userAddSuccess": "L’utilisateur/-trice a été ajouté/-ée avec succès à la liste d’autorisation.",
+                  "userAddError": "L’utilisateur/-trice n’a pas pu être ajouté/-ée à la liste d’autorisation.",
+                  "userRemoveSuccess": "L’utilisateur/-trice a été supprimé/-ée  avec succès de la liste d’autorisation.",
                   "userRemoveError": "L’utilisateur/-trice n’a pas pu être supprimé/-ée de la liste d’autorisation."
                 },
                 "searchInputPlaceholderNonTeamAdmin": "E-mail d’un membre de l'équipe"
@@ -4606,7 +4606,7 @@
           "personalExpertTranslations": "traductions intégrées à votre modèle d’IA adapté",
           "efficiencyGain": "Gain d’efficacité",
           "genericModelEfficiency": "Efficacité \ndu modèle \nde base",
-          "customModelEfficiency": "",
+          "customModelEfficiency": "Efficacité du \nmodèle adapté\nde votre équipe",
           "potentialModelEfficiency": "Efficacité \npotentielle \nd’un modèle \nadapté",
           "teamTranslatesFaster": "Votre équipe traduit {gain}% plus vite grâce à votre modèle d’IA adapté.",
           "translateFasterAccurately": "Traduisez de manière plus rapide et précise avec un modèle d’IA adapté.",
@@ -4680,7 +4680,7 @@
           "subscribe": "S’abonner maintenant",
           "reactivate": "Rétablir l’abonnement",
           "errorGeneric": "Une erreur s’est produite:",
-          "cancelSubscription": ""
+          "cancelSubscription": "Annulé"
         },
         "apiKeys": {
           "heading": "Clé API",
@@ -4707,7 +4707,7 @@
           },
           "dialog": {
             "deleteTitle": "Supprimer la clé API {description}",
-            "deleteMessage": ""
+            "deleteMessage": "Si vous supprimez cette clé API, certaines fonctionnalités associées à cette clé ne seront peut-être plus disponibles. La suppression de la clé est irréversible. Vous devez créer une nouvelle clé et lui réaffecter toutes les fonctionnalités."
           },
           "copy": "copier"
         },
@@ -4734,9 +4734,9 @@
           "description": "Contrôlez l’accès et l’utilisation de votre abonnement API.",
           "tooltip": "Les données d’utilisation sont mises à jour quotidiennement",
           "translatedCharsTotalLabel": "Nombre total de caractères traduits",
-          "translatedCharsTotalHelp": "",
+          "translatedCharsTotalHelp": "ce mois-ci",
           "translationCostTotalLabel": "Coûts de traduction total",
-          "translationCostTotalHelp": "",
+          "translationCostTotalHelp": "ce mois-ci",
           "table": {
             "endpoint": "point final",
             "chars": "caractères",
@@ -4758,15 +4758,15 @@
       },
       "appearance": {
         "title": "Interface",
-        "description": "",
+        "description": "Personnalisez l’interface de votre traducteur par l’IA.",
         "sections": {
           "subdomainAndLinks": "Sous-domaine personnalisé et liens internes",
-          "availableServices": "",
+          "availableServices": "Services disponibles",
           "interface": "Conception de l’interface de traduction"
         },
         "buttons": {
           "subdomainAndLinks": "Sous-domaine et liens",
-          "availableServices": "",
+          "availableServices": "Services disponibles",
           "interface": "Interface",
           "saveChanges": "Enregistrer les modifications",
           "reset": "Réinitialiser",
@@ -4786,7 +4786,7 @@
           "temporaryGetInContact": {
             "text": "Cette fonctionnalité est encore en cours de développement. En attendant, vous pouvez nous contacter directement si vous souhaitez enregistrer un sous-domaine personnalisé: ",
             "email": "hello@supertext.com",
-            "textStart": ""
+            "textStart": "Pour définir un sous-domaine, veuillez contacter"
           }
         },
         "links": {
@@ -4804,7 +4804,7 @@
         "services": {
           "verification": {
             "title": "Vérification pro",
-            "description": ""
+            "description": "Permettez à votre équipe d’utiliser notre service de vérification professionnelle, grâce auquel les linguistes expérimentés/-ées de Supertext vérifient rapidement votre traduction par l’IA."
           },
           "languageServices": {
             "title": "Traduction spécialisée, rédaction et révision («Passer une commande»)",
@@ -4845,9 +4845,9 @@
               "description": "Définissez votre couleur préférée pour les boutons secondaires et choisissez si les icônes et les textes situés à l’intérieur doivent s’afficher en noir ou en blanc."
             }
           },
-          "validating": "",
+          "validating": "Validation...",
           "urlErrors": {
-            "validating": "",
+            "validating": "L’URL est en cours de validation...",
             "httpsRequired": "L’URL doit commencer par https://",
             "notAccessible": "L’URL n'est pas accessible. Veuillez vérifier l’URL et réessayer."
           }
@@ -4855,7 +4855,7 @@
         "autoSaveEnabled": "Les modifications sont sauvegardées automatiquement.",
         "messages": {
           "autoSaved": "Les modifications ont bien été sauvegardées",
-          "saving": ""
+          "saving": "Les modifications sont en cours de sauvegarde..."
         }
       }
     }

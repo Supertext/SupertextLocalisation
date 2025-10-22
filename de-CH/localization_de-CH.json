@@ -59,7 +59,7 @@
       "translating": "Übersetze {filename} von {fromSourceLang} nach {toTargetLang}",
       "fileUploadButton": "Wählen Sie eine Datei aus",
       "invalidFileType": "Ungültiger Dateityp",
-      "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien über {0} MB werden derzeit nicht unterstützt.",
+      "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien über {0} MB werden derzeit nicht unterstützt.",
       "estimatedTime": "Geschätzte verbleibende Zeit: {0}",
       "expectationExceeded": "Die Übersetzung dauert länger als erwartet. Bitte warten Sie …",
       "downloadViaEmail": "Per E-Mail empfangen",
@@ -72,8 +72,8 @@
       },
       "docRemainingPerDay": "1 Datei verbleibend",
       "docsRemainingPerDay": "{0} Dateien verbleibend",
-      "docLimitsPerRequest": "Max. {0} MB, {1} Zeichen",
-      "docLimitsPerRequestUnlimitedChars": "Max. {0} MB",
+      "docLimitsPerRequest": "Max. {0} MB, {1} Zeichen",
+      "docLimitsPerRequestUnlimitedChars": "Max. {0} MB",
       "successfullDownload": {
         "title": "Datei erfolgreich heruntergeladen",
         "description": "Sie können eine andere Datei zum Übersetzen hochladen"
@@ -107,7 +107,7 @@
         },
         "fileTooLarge": {
           "upgradeMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrössenbeschränkung Ihres aktuellen Abos. Unser {subscription} Abo ermöglicht die KI-Dateiübersetzung mit Dateigrössen von bis zu {fileSize}.",
-          "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrössenbeschränkung Ihres aktuellen Abos. Übersetzen Sie Dateien, die grösser als 20 MB sind, mit unserer Enterprise-Lösung.",
+          "enterpriseMessage": "Die von Ihnen bereitgestellte Datei überschreitet die Dateigrössenbeschränkung Ihres aktuellen Abos. Übersetzen Sie Dateien, die grösser als 20 MB sind, mit unserer Enterprise-Lösung.",
           "unsupportedMessage": "Wir unterstützen Dateien von dieser Grösse aktuell noch nicht."
         },
         "fileTypeNotAllowed": {
@@ -241,7 +241,7 @@
         },
         "fileSize": {
           "header": "Diese Datei ist leider etwas zu gross.",
-          "body": "Ihr Dokument übersteigt die maximale Grösse von {0} MB. Wenn Sie sich kostenlos registrieren, erhalten Sie das doppelte Übersetzungsvolumen."
+          "body": "Ihr Dokument übersteigt die maximale Grösse von {0} MB. Wenn Sie sich kostenlos registrieren, erhalten Sie das doppelte Übersetzungsvolumen."
         },
         "fileCharacters": {
           "header": "Möchten Sie längere Dokumente übersetzen?",
@@ -259,7 +259,7 @@
         },
         "fileSize": {
           "header": "Diese Datei ist leider etwas zu gross.",
-          "body": "Ihr Dokument übersteigt die maximale Grösse von {0} MB."
+          "body": "Ihr Dokument übersteigt die maximale Grösse von {0} MB."
         },
         "fileCharacters": {
           "header": "Sie haben Ihr Limit erreicht.",
@@ -342,7 +342,7 @@
     "cancelButton": "Abbrechen",
     "fileUploadButton": "Wählen Sie eine Datei aus",
     "invalidFileType": "Ungültiger Dateityp",
-    "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien, die grösser als {0} MB sind, werden derzeit nicht unterstützt.",
+    "fileSizeExceeded": "Diese Datei ist zu gross für den Upload. Dateien, die grösser als {0} MB sind, werden derzeit nicht unterstützt.",
     "estimatedTime": "Geschätzte verbleibende Zeit: {0}",
     "expectationExceeded": "Die Übersetzung dauert länger als erwartet. Bitte warten Sie …",
     "ocrHelperText": "Mithilfe von OCR lassen sich gescannte oder fotografierte PDFs besser verarbeiten. Für normale PDFs, die nur Text enthalten, ist OCR nicht erforderlich.",
@@ -374,7 +374,7 @@
       },
       "fileSizeExceeded": {
         "message": "Dateigrösse überschreitet Ihr Limit",
-        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB} free {Supertext Free umfasst Dateien bis {size} MB} other {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB}}"
+        "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB} free {Supertext Free umfasst Dateien bis {size} MB} other {Ihr {subscriptionType}-Abo umfasst Dateien bis {size} MB}}"
       },
       "unsupportedFormat": {
         "message": "Wir bieten keine Übersetzung für {Erweiterungsdateien} an.",
@@ -1068,7 +1068,7 @@
               "tooltip": "Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch"
             },
             "1": {
-              "title": "Bis 3000 Zeichen",
+              "title": "Bis 3000 Zeichen",
               "tooltip": "1500 für unregistrierte User:innen"
             },
             "2": {
@@ -1120,7 +1120,7 @@
               "title": "Excel-, PDF- und SRT-Dateien"
             },
             "5": {
-              "title": "E-Mail-Support innert 24 h"
+              "title": "E-Mail-Support innert 24 h"
             }
           }
         }
@@ -1144,7 +1144,7 @@
               "title": "60 bearbeitbare Dateiübersetzungen pro Monat"
             },
             "2": {
-              "title": "20 MB maximale Dateigrösse"
+              "title": "20 MB maximale Dateigrösse"
             },
             "3": {
               "title": "Glossare"
@@ -1269,7 +1269,7 @@
               "title": "Key-Management und Monitoring"
             },
             "9": {
-              "title": "E-Mail-Support innert 24 h"
+              "title": "E-Mail-Support innert 24 h"
             }
           }
         },
@@ -1384,8 +1384,8 @@
             "unlimitedTextTranslation": {
               "name": "Unbegrenzte Textübersetzung",
               "description": "Übersetzen Sie Freitext direkt auf supertext.com.",
-              "free": "Bis 3000 Zeichen (1500 für unregistrierte User:innen)",
-              "essential": "Bis zu 3000 Zeichen"
+              "free": "Bis 3000 Zeichen (1500 für unregistrierte User:innen)",
+              "essential": "Bis zu 3000 Zeichen"
             }
           }
         },
@@ -1396,9 +1396,9 @@
               "name": "Unbegrenzte Dateiübersetzung",
               "description": "Laden Sie ganze Dokumente hoch und Sie erhalten eine bearbeitbare Übersetzung im selben Layout und Styling.",
               "free": "5 Dateien pro Person und Monat (für registrierte User:innen)",
-              "essential": "20 Dateien pro Person und Monat",
-              "advanced": "60 Dateien pro Person und Monat",
-              "pro": "120 Dateien pro Person und Monat"
+              "essential": "20 Dateien pro Person und Monat",
+              "advanced": "60 Dateien pro Person und Monat",
+              "pro": "120 Dateien pro Person und Monat"
             },
             "fileEditingAllowed": {
               "name": "Dateibearbeitung erlaubt",
@@ -1407,11 +1407,11 @@
             "maximumFileSize": {
               "name": "Maximale Dateigrösse",
               "description": "",
-              "free": "5 MB",
-              "essential": "10 MB",
-              "advanced": "20 MB",
-              "pro": "30 MB",
-              "enterprise": "30 MB"
+              "free": "5 MB",
+              "essential": "10 MB",
+              "advanced": "20 MB",
+              "pro": "30 MB",
+              "enterprise": "30 MB"
             },
             "microsoftOfficeFileTypes": {
               "name": "Microsoft-Office-Dateitypen",
@@ -1504,8 +1504,8 @@
               "free": "Free",
               "essential": "24 Stunden",
               "advanced": "24 Stunden",
-              "pro": "60 Minuten",
-              "enterprise": "60 Minuten"
+              "pro": "60 Minuten",
+              "enterprise": "60 Minuten"
             },
             "dedicatedAccountManager": {
               "name": "Persönliche:r Account-Manager:in",
@@ -1604,8 +1604,8 @@
               "title": "Für Einzel-User:innen",
               "sections": [
                 {
-                  "title": "AI Translation in 28 Sprachen",
-                  "description": "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 28 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
+                  "title": "AI Translation in 28 Sprachen",
+                  "description": "Unser Online-Übersetzer basiert auf hauseigenen KI-Systemen der neusten Generation. Sie beherrschen 28 Sprachen inkl. lokaler Varianten wie Französisch (Schweiz). Schnell, einfach und nach höchsten Sicherheitsstandards.",
                   "cta": {
                     "title": "Jetzt ausprobieren",
                     "link": "/",
@@ -2085,7 +2085,7 @@
           "description": "Kontaktieren Sie das Supertext-Sales-Team"
         },
         "salesSection": {
-          "title": "Wir sind persönlich für Sie da – <highlight>in unter 60 Minuten</highlight>",
+          "title": "Wir sind persönlich für Sie da – <highlight>in unter 60 Minuten</highlight>",
           "description": "Sie brauchen ein massgeschneidertes Angebot? Oder interessieren sich für unsere Enterprise-Lösung? Füllen Sie das Formular aus und wir verbinden Sie in Rekordzeit mit der richtigen Ansprechperson.",
           "bulletPoints": {
             "point1": "Informationen dazu, wie Supertext Ihre globale Geschäftsexpansion unterstützen kann",
@@ -2775,11 +2775,11 @@
         "upgradeModal": {
           "totalAmountPerYear": "Gesamtbetrag pro Jahr",
           "totalAmountPerMonth": "Gesamtbetrag pro Monat",
-          "firstMonthFree": "30 Tage kostenlos, jederzeit kündbar",
+          "firstMonthFree": "30 Tage kostenlos, jederzeit kündbar",
           "totalAmountDueToday": "Heute fälliger Gesamtbetrag",
           "totalAmountIncludingTax": "Gesamtbetrag inkl. MWST",
           "totalAmountDueTodayDescription": "Dieser Betrag wird Ihnen beim Kauf sofort in Rechnung gestellt.",
-          "trialPeriodBadge": "30 Tage kostenlos, jederzeit kündbar",
+          "trialPeriodBadge": "30 Tage kostenlos, jederzeit kündbar",
           "trialPeriodDescription": "Die ersten 30 Tage testen Sie Supertext kostenlos. Wenn Sie vor dem {date} kündigen, bezahlen Sie nichts. Danach werden Ihnen die oben angezeigten Kosten verrechnet.",
           "termsAndConditions": "Ich akzeptiere die Allgemeinen Geschäftsbedingungen für den Kauf dieses Abos.",
           "trialDaysLeft": "{daysLeft, plural, one {# kostenloser Tag übrig} other {# kostenlose Tage übrig}}"
@@ -2803,7 +2803,7 @@
           "items": [
             {
               "title": "KI-Übersetzung auf dem neusten Stand der Technik",
-              "description": "Die Basis bilden unsere hauseigenen Übersetzungssysteme. Sie gehören zur neusten Generation künstlicher Intelligenz und beherrschen 28 Sprachen inkl. lokaler Sprachvarianten.",
+              "description": "Die Basis bilden unsere hauseigenen Übersetzungssysteme. Sie gehören zur neusten Generation künstlicher Intelligenz und beherrschen 28 Sprachen inkl. lokaler Sprachvarianten.",
               "icon": "/images/pages/verification/Supertext_Icon_AI_Translation_Dark_Green.svg"
             },
             {
@@ -2933,7 +2933,7 @@
           "eyebrowHeadline": "DAS STECKT DRIN",
           "section1": {
             "row1": {
-              "title": "Sofort übersetzen in 28 Sprachen",
+              "title": "Sofort übersetzen in 28 Sprachen",
               "description": "Mit unserem KI-Übersetzer basierend auf hauseigener LLM-Technologie. Einfach, nach höchsten Sicherheitsstandards und nahtlos in jedes System integriert.",
               "cta1": {
                 "title": "Jetzt loslegen"
@@ -2995,7 +2995,7 @@
         },
         "languagePairs": {
           "title": "Der Textshuttle-Übersetzer wird zu Supertext. Was steckt drin?",
-          "subtitle": "Sofort übersetzen in bis zu 28 Sprachen",
+          "subtitle": "Sofort übersetzen in bis zu 28 Sprachen",
           "description": "Unser bewährter KI-Übersetzer mit allen Features, die Sie von Textshuttle kennen – und nun noch besseren Resultaten dank hauseigener LLM-Technologie. Einfach, nach höchsten Sicherheitsstandards und exklusiv in der Schweiz gehostet.",
           "ctaButton": {
             "text": "Direkt loslegen",
@@ -3003,7 +3003,7 @@
             "href": "#"
           },
           "features": {
-            "charactersPerRequest": "Bis 3000 Zeichen pro Anfrage",
+            "charactersPerRequest": "Bis 3000 Zeichen pro Anfrage",
             "documentsPerMonth": "5 Dokumente pro Monat übersetzen"
           },
           "registrationNote": "Übrigens: Mit einer kostenlosen Registrierung profitieren Sie von noch mehr Leistung mit unserer Übersetzungssoftware.",
@@ -3513,7 +3513,7 @@
       },
       "forEnterprise": {
         "hero": {
-          "subtitle": "Sichere KI-Übersetzung in 28 Sprachen. Entwickelt für Tempo, Qualität und passgenau für Sie.",
+          "subtitle": "Sichere KI-Übersetzung in 28 Sprachen. Entwickelt für Tempo, Qualität und passgenau für Sie.",
           "cta": "Jetzt Angebot anfordern",
           "logoCarouselTitle": "Die erste Wahl für über 1500 Unternehmen",
           "title": "<highlight>Besser</highlight> übersetzen im ganzen Unternehmen – mit Supertext Enterprise"
@@ -3579,7 +3579,7 @@
           ]
         },
         "langs": {
-          "title_line1": "28 Sprachen, ",
+          "title_line1": "28 Sprachen, ",
           "title_line2": "unbegrenzte Möglichkeiten"
         },
         "features": {
@@ -3709,7 +3709,7 @@
       },
       "supertextApi": {
         "hero": {
-          "subtitle": "Integrieren Sie sichere KI-Übersetzung in jeden Workflow. Effizient und in bis zu 28 Sprachen.",
+          "subtitle": "Integrieren Sie sichere KI-Übersetzung in jeden Workflow. Effizient und in bis zu 28 Sprachen.",
           "ctas": {
             "primary": "Jetzt starten",
             "secondary": "Zur API-Dokumentation"
@@ -3728,7 +3728,7 @@
           "items": [
             {
               "title": "KI-Übersetzung in Profi-Qualität",
-              "content": "Supertext basiert auf neusten LLMs und ist messbar genauer als DeepL. Für passgenaue Resultate, in 28 Sprachen und jedem Workflow."
+              "content": "Supertext basiert auf neusten LLMs und ist messbar genauer als DeepL. Für passgenaue Resultate, in 28 Sprachen und jedem Workflow."
             },
             {
               "title": "Breite Formatunterstützung",
@@ -3865,13 +3865,13 @@
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
         "category": "Sprachen und Sprachvarianten",
-        "tooltip": "<strong>Sprachen und Sprachvarianten</strong> <br/> <strong>6 Sprachen</strong>: Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch <br/><br/> Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)<br/><br/> <strong>28 Sprachen</strong>: Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch <br/><br/> Chinesisch (vereinfacht, traditionell), Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH), Serbisch (kyrillisch, lateinisch)",
+        "tooltip": "<strong>Sprachen und Sprachvarianten</strong> <br/> <strong>6 Sprachen</strong>: Deutsch, Englisch, Französisch, Italienisch, Rätoromanisch, Schweizerdeutsch <br/><br/> Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Schweizerdeutsch (BE, ZH)<br/><br/> <strong>28 Sprachen</strong>: Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch <br/><br/> Chinesisch (vereinfacht, traditionell), Deutsch (AT, CH, DE), Englisch (GB, US), Französisch (CH, FR), Italienisch (CH, IT), Portugiesisch (BR, PT), Schweizerdeutsch (BE, ZH), Serbisch (kyrillisch, lateinisch)",
         "rows": {
-          "free": "6 Sprachen",
-          "essential": "6 Sprachen",
-          "advanced": "28 Sprachen",
-          "pro": "28 Sprachen",
-          "enterprise": "28 Sprachen"
+          "free": "6 Sprachen",
+          "essential": "6 Sprachen",
+          "advanced": "28 Sprachen",
+          "pro": "28 Sprachen",
+          "enterprise": "28 Sprachen"
         }
       },
       "hoechste_datensicherheit": {
@@ -3886,9 +3886,9 @@
       },
       "textuebersetzung": {
         "category": "Textübersetzung",
-        "tooltip": "1500 Zeichen für unregistrierte User:innen. Bis 3000 Zeichen für User:innen mit kostenloser Registrierung.",
+        "tooltip": "1500 Zeichen für unregistrierte User:innen. Bis 3000 Zeichen für User:innen mit kostenloser Registrierung.",
         "rows": {
-          "free": "bis 3000 Zeichen",
+          "free": "bis 3000 Zeichen",
           "essential": "unbegrenzt",
           "advanced": "unbegrenzt",
           "pro": "unbegrenzt",
@@ -3899,11 +3899,11 @@
         "category": "Dateiübersetzung",
         "tooltip": "<strong>Dateiübersetzung</strong> <br/> Dokumente hochladen und eine bearbeitbare Übersetzung im selben Layout und Styling erhalten. <br/> <br/>Alle Angaben pro Person und Monat; MB-Angaben pro Datei.",
         "rows": {
-          "free": "5 Dateien / max. 5 MB",
-          "essential": "20 Dateien / max. 10 MB",
-          "advanced": "60 Dateien / max. 20 MB",
-          "pro": "120 Dateien / max. 30 MB",
-          "enterprise": "max. 30 MB ✔"
+          "free": "5 Dateien / max. 5 MB",
+          "essential": "20 Dateien / max. 10 MB",
+          "advanced": "60 Dateien / max. 20 MB",
+          "pro": "120 Dateien / max. 30 MB",
+          "enterprise": "max. 30 MB ✔"
         }
       },
       "glossare": {
@@ -4132,7 +4132,7 @@
             }
           }
         },
-        "firstMonthFree": "30 Tage kostenlos, jederzeit kündbar",
+        "firstMonthFree": "30 Tage kostenlos, jederzeit kündbar",
         "cancelSubscriptionButton": "Abo definitiv kündigen",
         "footerNote": "Sie suchen eine <highlightText>massgeschneiderte Übersetzungslösung?</highlightText> Lassen Sie uns reden.",
         "requestAccess": "Zugang beantragen",
@@ -4167,16 +4167,16 @@
         },
         "cancelSubscriptionFeatures": {
           "advancedToEssential": [
-            "KI-Übersetzung in 28 Sprachen",
+            "KI-Übersetzung in 28 Sprachen",
             "Glossarfunktion",
-            "60 Dateien pro Monat",
+            "60 Dateien pro Monat",
             "20 MB maximale Dateigrösse"
           ],
           "advancedToFree": [
-            "KI-Übersetzung in 28 Sprachen",
+            "KI-Übersetzung in 28 Sprachen",
             "Sofortige Textlöschung",
             "Glossarfunktion",
-            "60 Dateien pro Monat",
+            "60 Dateien pro Monat",
             "Unbegrenzte Textübersetzung",
             "20 MB maximale Dateigrösse",
             "Excel-, PDF- und SRT-Dateien übersetzen",
@@ -4185,7 +4185,7 @@
           "essentialToFree": [
             "Sofortige Textlöschung",
             "Unbegrenzte Textübersetzung",
-            "20 Dateien pro Monat",
+            "20 Dateien pro Monat",
             "10 MB maximale Dateigrösse",
             "Excel-, PDF- und SRT-Dateien übersetzen",
             "Email-Support"
@@ -4200,7 +4200,7 @@
         },
         "api": {
           "languagesBox": {
-            "title": "28 Sprachen –\nund es werden laufend mehr",
+            "title": "28 Sprachen –\nund es werden laufend mehr",
             "languages": [
               "Albanisch",
               "Bulgarisch",
@@ -4298,7 +4298,7 @@
             "deleteAccountConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
             "deleteAccount": "Konto löschen",
             "accountSettings": "Konto",
-            "accountSettingsInfo": "Hier können Sie Ihre Kontoeinstellungen vornehmen.",
+            "accountSettingsInfo": "Hier können Sie Ihre Kontoeinstellungen anpassen.",
             "settings": "Einstellungen",
             "password": {
               "title": "Passwort",
@@ -4315,12 +4315,12 @@
             },
             "tooltips": {
               "password": {
-                "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihr Passwort ändern",
+                "admin": "Nur ein:e andere:r Admin kann Ihr Passwort ändern",
                 "sso": "Sie können Ihr Passwort als SSO-User:in nicht ändern.",
-                "user": "Nur der:die Teamadministrator:in kann Ihr Passwort ändern"
+                "user": "Nur ein:e Admin kann Ihr Passwort ändern"
               },
               "email": {
-                "admin": "Nur ein:e andere:r Teamadministrator:in kann Ihre E-Mail ändern",
+                "admin": "Nur ein:e andere:r Admin kann Ihre E-Mail ändern.",
                 "sso": "Sie können Ihre E-Mail-Adresse als SSO-User:in nicht ändern.",
                 "user": "Nur ein:e Admin kann Ihre E-Mail ändern"
               }
@@ -4388,10 +4388,10 @@
           "team": {
             "title": "Team",
             "userManagement": "User-Verwaltung",
-            "addMember": "Mitglied hinzufügen",
-            "editMember": "Mitglied bearbeiten",
+            "addMember": "User:in hinzufügen",
+            "editMember": "User:in bearbeiten",
             "removeMember": "Entfernen",
-            "deleteMember": "Mitglied entfernen",
+            "deleteMember": "User:in entfernen",
             "deleteMemberConfirmation": "Sind Sie sicher? Sie können diese Aktion nicht mehr rückgängig machen.",
             "availableSeats": "Verfügbare Plätze",
             "filledSeats": "Besetzte Plätze",
@@ -4428,8 +4428,8 @@
               "viewTable": "Ihr Team ansehen"
             },
             "paginationOf": "von",
-            "editSelectedMembers": "Ausgewählte Mitglieder bearbeiten",
-            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 Mitglied wurde} other {Die Rolle von # Mitgliedern wurden}} erfolgreich aktualisiert",
+            "editSelectedMembers": "Ausgewählte User:innen bearbeiten",
+            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 User:in wurde} other {Die Rolle von # User:innen wurde}} erfolgreich aktualisiert",
             "ssoRequest": {
               "title": "Single Sign-On (SSO) Onboarding anfordern",
               "button": "SSO anfordern",
@@ -4442,7 +4442,7 @@
                 "invalid": "Geben Sie bitte eine gültige E-Mail-Adresse ein."
               },
               "notification_success": "SSO-Upgrade-Anfrage erfolgreich gesendet",
-              "notification_error": "Etwas ist schief gelaufen: {error}"
+              "notification_error": "Etwas ist schiefgelaufen: {error}"
             }
           },
           "subscription": {
@@ -4483,9 +4483,9 @@
               "makePayment": "Verbindlich bestellen",
               "zeroPayableNowOnTrialPeriod": "Zusätzliche Lizenzen sind während der Testphase kostenlos und werden nach deren Ende in der nächsten Abrechnungsperiode berechnet.",
               "removeLicensesError": {
-                "text": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
-                "link": "Lizenzen von Teammitgliedern entfernen.",
-                "one": "In Ihrem Team ist aktuell {count} Personen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
+                "text": "In Ihrem Team ist aktuell {count} User:innen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
+                "link": "Lizenzen von User:innen entfernen.",
+                "one": "In Ihrem Team ist aktuell {count} User:innen eine Lizenz zugewiesen. Um Ihr Abo auf weniger als {count} Lizenzen zu reduzieren, müssen Sie zuerst ",
                 "other": ""
               },
               "agreementAg": {
@@ -4522,14 +4522,14 @@
                 "authoriseUser": "Zugang autorisieren",
                 "deleteConfirm": {
                   "title": "Mitglied löschen",
-                  "info": "Sind Sie sicher, dass Sie den:die Benutzer:in aus der Berechtigungsliste entfernen möchten?",
+                  "info": "Sind Sie sicher, dass Sie diese:n User:in aus der Berechtigungsliste entfernen möchten?",
                   "confirm": "Ja, entfernen"
                 },
                 "notifications": {
-                  "userAddSuccess": "Der:Die Benutzer:in wurde erfolgreich zur Berechtigungsliste hinzugefügt.",
-                  "userAddError": "Der:Die Benutzer:in konnte nicht zur Berechtigungsliste hinzugefügt werden.",
-                  "userRemoveSuccess": "Der:Die Benutzer:in wurde erfolgreich aus der Berechtigungsliste entfernt.",
-                  "userRemoveError": "Der:Die Benutzer:in konnte nicht aus der Berechtigungsliste entfernt werden."
+                  "userAddSuccess": "User:in erfolgreich zur Berechtigungsliste hinzugefügt.",
+                  "userAddError": "User:in konnte nicht zur Berechtigungsliste hinzugefügt werden.",
+                  "userRemoveSuccess": "User:in erfolgreich aus der Berechtigungsliste entfernt.",
+                  "userRemoveError": "User:in konnte nicht aus der Berechtigungsliste entfernt werden."
                 },
                 "searchInputPlaceholderNonTeamAdmin": "E-Mail eines Teammitglieds"
               }
@@ -4542,8 +4542,8 @@
         "hasLicense": "Essential",
         "emailPlaceholder": "beispiel@gmail.com",
         "licenseMultipleTag": "User:innen lizenzieren",
-        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten Mitgliedern keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}} verfügbar.",
-        "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 Mitglied wurde} other {Die Lizenzen von # Mitgliedern wurden}} erfolgreich aktualisiert",
+        "licenseMultipleTagNoLicencesAvailable": "Sie können den ausgewählten User:innen keine Lizenzen zuweisen. Es wurden {selectedCount} User:innen ausgewählt, aber es {licencesAvailable, plural, =0 {sind keine Lizenzen} =1 {ist nur 1 Lizenz} other {sind nur # Lizenzen}} verfügbar.",
+        "licenceMultipleSuccess": "{count, plural, =0 {Keine Lizenzen wurden} =1 {Die Lizenz von 1 User:in wurde} other {Die Lizenzen von # User:innen wurden}} erfolgreich aktualisiert",
         "siteLicense": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
         "siteLicenseDetails": "Abo-Details"
       },
@@ -4595,7 +4595,7 @@
           "exploreSubscriptions": "Abos entdecken",
           "assignLicences": "Lizenzen zuweisen",
           "users": "User:innen",
-          "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
+          "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
           "licensedUsers": "lizenzierte User:innen",
           "inviteUserTooltip": "Nur Admins können Personen einladen.",
           "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
@@ -4608,7 +4608,7 @@
           "genericModelEfficiency": "Effizienz des\nBasis-Modells",
           "customModelEfficiency": "Effizienz des\nspezialisierten\nModells\nIhres Teams",
           "potentialModelEfficiency": "Potenzielle\nEffizienz eines\nspezialisierten\nModells",
-          "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres spezialisierten KI-Modells.",
+          "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres spezialisierten KI-Modells.",
           "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
           "learnMore": "Mehr erfahren",
           "submitTrainingData": "Trainingsdaten übermitteln",
@@ -4620,9 +4620,9 @@
         "aiTranslation": {
           "title": "KI-ÜBERSETZUNG",
           "teamUsage": "Team-Nutzung",
-          "teamUsageDescription": "Das KI-Übersetzungsvolumen Ihres Teams in den letzten 30 Tagen.",
+          "teamUsageDescription": "Das KI-Übersetzungsvolumen Ihres Teams in den letzten 30 Tagen.",
           "yourUsage": "Ihre Nutzung",
-          "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
+          "yourUsageDescription": "Ihr persönliches KI-Übersetzungsvolumen in den letzten 30 Tagen.",
           "characters": "Zeichen",
           "files": "Dateien",
           "outOfFiles": "von {limit} Dateien",
@@ -4707,14 +4707,14 @@
           },
           "dialog": {
             "deleteTitle": "{description} API-Schlüssel löschen",
-            "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte, damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen neu zuweisen."
+            "deleteMessage": "Wenn Sie diesen API-Schlüssel entfernen, sind bestimmte damit verknüpfte Funktionen möglicherweise nicht mehr verfügbar. Das Löschen des Schlüssels kann nicht rückgängig gemacht werden. Sie müssen einen neuen Schlüssel erstellen und ihm alle Funktionen neu zuweisen."
           },
           "copy": "Kopieren"
         },
         "helpLinks": {
           "learnMore": {
             "title": "Mehr erfahren",
-            "description": "Entdecken Sie alle Funktionen der Supertext API und wie sie damit Ihre Übersetzungsworkflows automatisieren.",
+            "description": "Entdecken Sie alle Funktionen der Supertext API und wie Sie damit Ihre Übersetzungsworkflows automatisieren.",
             "buttonText": "Mehr erfahren ->"
           },
           "documentation": {
@@ -4731,7 +4731,7 @@
         "usage": {
           "title": "API-Nutzung",
           "thisMonth": "Diesen Monat",
-          "description": "Kontrollieren Sie Zugriff und Nutzung Ihres API-Abos.",
+          "description": "Kontrollieren Sie den Zugriff auf und die Nutzung Ihres API-Abos.",
           "tooltip": "Nutzungsdaten werden täglich aktualisiert",
           "translatedCharsTotalLabel": "Übersetzte Zeichen gesamt",
           "translatedCharsTotalHelp": "diesen Monat",
@@ -4779,7 +4779,7 @@
         },
         "subdomain": {
           "title": "Benutzerdefinierte Subdomain",
-          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf die angepasste Supertext-Plattform zugreifen kann. Ihr Team kann die Plattform weiterhin über die Anmeldung bei supertext.com erreichen.",
+          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf Ihr massgeschneidertes Translation Interface zugreifen kann. Unabhängig davon bleibt es auch weiterhin via Login aufsupertext.com erreichbar.",
           "placeholder": "subdomain-beispiel",
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
@@ -4804,7 +4804,7 @@
         "services": {
           "verification": {
             "title": "Profi-Check",
-            "description": "Lassen Sie Ihr Team unseren Profi-Check nutzen, bei dem erfahrene Supertext-Linguist:innen die KI-Übersetzung schnell überprüfen können."
+            "description": "Lassen Sie Ihr Team unseren Profi-Check nutzen, bei dem erfahrene Supertext-Linguist:innen die KI-Übersetzung innert Minuten überprüfen."
           },
           "languageServices": {
             "title": "Fachübersetzung, Copywriting und Lektorat («Auftrag erstellen»)",
@@ -4819,7 +4819,7 @@
             "uploadLogo": "Logo hochladen",
             "logoUrl": "Logo-URL",
             "suggestedDimensions": "Empfohlene Bildabmessungen: 140 × 30 Pixel.",
-            "maxFileSize": "Maximale Dateigrösse: 2 MB",
+            "maxFileSize": "Maximale Dateigrösse: 2 MB",
             "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
           },
           "favicon": {
@@ -4829,7 +4829,7 @@
             "uploadFavicon": "Favicon hochladen",
             "faviconUrl": "Favicon-URL",
             "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel gross sein.",
-            "maxFileSize": "Maximale Dateigrösse: 2 MB",
+            "maxFileSize": "Maximale Dateigrösse: 2 MB",
             "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert.",
             "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
           },
@@ -4913,9 +4913,9 @@
       },
       "advancedSubscriptionPanel": {
         "title": "NEU: SUPERTEXT ADVANCED",
-        "description": "28 Sprachen und noch mehr Kontrolle dank Glossaren.",
+        "description": "28 Sprachen und noch mehr Kontrolle dank Glossaren.",
         "cta": {
-          "title": "Jetzt 30 Tage kostenlos testen.",
+          "title": "Jetzt 30 Tage kostenlos testen.",
           "link": "/abos"
         }
       }

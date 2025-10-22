@@ -3951,7 +3951,7 @@
       "orders": {
         "title": "Orders",
         "viewAllOrders": "View all orders",
-        "openOrders": "",
+        "openOrders": "RECENT ORDERS",
         "noOrders": "Oops, there are no orders at the moment.",
         "orderDate": "Order date",
         "orderDeadlineDate": "Delivery",
@@ -3973,7 +3973,7 @@
           "invoiceAddress": "Billing address",
           "contactPersonTitle": "PROJECT MANAGEMENT",
           "additionalInformation": "More information",
-          "targetFile": "",
+          "targetFile": "Target text",
           "orderNumber": "Order number",
           "notFixed": "Price not yet set",
           "costCenter": "Cost centre"
@@ -4059,7 +4059,7 @@
         "addToWaitingList": "Join the waiting list",
         "registerForFree": "Register for free",
         "reactivateSubscription": "Reactivate",
-        "cancelSubscription": "",
+        "cancelSubscription": "Cancelled",
         "expiresOn": "Expires on",
         "moreInfo": "View details",
         "hero": {
@@ -4151,7 +4151,7 @@
           "switching": "Switching to the competition",
           "other": "Other"
         },
-        "yourTeamSubscription": "",
+        "yourTeamSubscription": "Your team’s subscription",
         "cancelSubscriptionButton2": "Cancel subscription",
         "downgradeSubscriptionButton": "Yes, downgrade subscription",
         "downgradeToSubscription": "Switch to {subscription}",
@@ -4239,7 +4239,7 @@
         "allFunctionality": "Compare all features",
         "editSubscriptionMessageAdmin": "Would you like to edit your subscription? <link>Go to your cockpit</link>",
         "editSubscriptionMessageUser": "Would you like to edit your subscription? <link>Please contact your team admin<link/>",
-        "subscriptionSiteLicenseInfo": "",
+        "subscriptionSiteLicenseInfo": "Site licence: all users added are automatically licensed.",
         "tryFree": "Try for free"
       },
       "resources": {
@@ -4315,12 +4315,12 @@
             },
             "tooltips": {
               "password": {
-                "admin": "",
+                "admin": "Only another admin can change your password",
                 "sso": "As an SSO user, you cannot change your password.",
-                "user": ""
+                "user": "Only an admin can change your password"
               },
               "email": {
-                "admin": "",
+                "admin": "Only another admin can change your email.",
                 "sso": "As an SSO user, you cannot change your email address.",
                 "user": "Only the admin can change your email"
               }
@@ -4483,9 +4483,9 @@
               "makePayment": "Confirm order",
               "zeroPayableNowOnTrialPeriod": "Additional licences are free during the test phase and will be charged in the next billing period after the test phase ends.",
               "removeLicensesError": {
-                "text": "",
+                "text": "You have assigned a licence to {count} users. To reduce your subscription to fewer than {count} licences,",
                 "link": "remove licences from team members.",
-                "one": "",
+                "one": "You have assigned a licence to {count} users. To reduce your subscription to fewer than {count} licences,",
                 "other": ""
               },
               "agreementAg": {
@@ -4498,7 +4498,7 @@
             "afterTrialPeriod": "(after the test phase)",
             "expiresOn": "Expires on",
             "missingPaymentMethod": {
-              "message": "",
+              "message": "Please update your payment method before making any changes to your subscription.",
               "link": "Update payment method"
             },
             "after": "after",
@@ -4507,7 +4507,7 @@
             "price_per_licence_month": "Price per licence, per month",
             "price_per_licence_year": "Price per licence, per year",
             "titleSiteLicence": "Team subscription",
-            "descriptionSiteLicence": ""
+            "descriptionSiteLicence": "Your team has a site licence, which means you can add as many users as you want. If you'd like to change your subscription, simply get in touch with us."
           },
           "authorisations": {
             "title": "Access authorisations",
@@ -4541,11 +4541,11 @@
         "noLicense": "Free",
         "hasLicense": "Essential",
         "emailPlaceholder": "example@gmail.com",
-        "licenseMultipleTag": "",
+        "licenseMultipleTag": "License users",
         "licenseMultipleTagNoLicencesAvailable": "You cannot assign licences to the selected members. {selectedCount} users were selected, but {licencesAvailable, plural, =0 {no licences are} =1 {only 1 licence is} other {only # licences are}} available.",
         "licenceMultipleSuccess": "{count, plural, =0 { No licences have been updated } =1 { The licence of 1 member has been updated } other { The licences of # members have been updated }} successfully",
-        "siteLicense": "",
-        "siteLicenseDetails": ""
+        "siteLicense": "Site licence: all users added are automatically licensed.",
+        "siteLicenseDetails": "Subscription details"
       },
       "delivery": {
         "title": "Delivery",
@@ -4601,21 +4601,21 @@
           "assignLicencesTooltip": "Only admins can assign licences."
         },
         "aiCustomisation": {
-          "title": "",
+          "title": "AI CUSTOMISATION",
           "trainingData": "Training data",
           "personalExpertTranslations": "translations added to your customised AI model",
           "efficiencyGain": "Efficiency gain",
-          "genericModelEfficiency": "",
-          "customModelEfficiency": "",
+          "genericModelEfficiency": "Efficiency of the\ndefault model",
+          "customModelEfficiency": "Efficiency of\nyour team’s\ncustomised\nmodel",
           "potentialModelEfficiency": "Potential \ncustomised \nmodel efficiency",
-          "teamTranslatesFaster": "",
+          "teamTranslatesFaster": "Your team translates {gain}% faster thanks to your customised AI model.",
           "translateFasterAccurately": "Translate faster and more accurately with a customised AI model.",
           "learnMore": "Learn more",
           "submitTrainingData": "Submit training data",
           "submitTrainingDataDescription": "Contact us to upload your training data. <link>sales@supertext.com</link>.",
           "submitTrainingDataTooltip": "Only admins can submit training data.",
           "submitTrainingDataEmailSubject": "Request to upload training data –",
-          "submitTrainingDataEmailBody": ""
+          "submitTrainingDataEmailBody": "Hello,\nWe would like to ask you to upload new training data in order to further improve the efficiency of your custom model."
         },
         "aiTranslation": {
           "title": "AI TRANSLATION",
@@ -4671,7 +4671,7 @@
           "successfullySubscribed": "You have successfully subscribed to the Supertext API!"
         },
         "panel": {
-          "heading": "",
+          "heading": "API subscription",
           "description": "Streamline your workflows with scalable and secure access to translations.",
           "activeDescription": "Manage your API subscription here.",
           "subheading": "Supertext API",
@@ -4680,12 +4680,12 @@
           "subscribe": "Subscribe now",
           "reactivate": "Reactivate subscription",
           "errorGeneric": "Something went wrong:",
-          "cancelSubscription": ""
+          "cancelSubscription": "Cancelled"
         },
         "apiKeys": {
           "heading": "API key",
           "description": "You can manage your API keys quickly and easily here.",
-          "emptyNotice": "",
+          "emptyNotice": "You must have at least one API key to use the Supertext API.",
           "copiedNotice": "API key successfully copied",
           "keyCreationNotice": "Please copy this key, as you will no longer be able to see it later.",
           "table": {
@@ -4707,7 +4707,7 @@
           },
           "dialog": {
             "deleteTitle": "{description} Delete API key",
-            "deleteMessage": ""
+            "deleteMessage": "If you remove this API key, certain features associated with it may no longer be available. Deleting the key cannot be undone. You will need to create a new key and assign all the features to it instead."
           },
           "copy": "Copy"
         },
@@ -4718,13 +4718,13 @@
             "buttonText": "Find out more ->"
           },
           "documentation": {
-            "title": "",
+            "title": "Supertext API documentation",
             "description": "Complete technical documentation with examples, parameters and implementation instructions for all API endpoints.",
             "buttonText": "API documentation"
           },
           "terms": {
             "title": "Terms of Use",
-            "description": "",
+            "description": "Read our Terms of Use and policies for use of the Supertext API and services.",
             "buttonText": "Terms of Use ->"
           }
         },
@@ -4758,15 +4758,15 @@
       },
       "appearance": {
         "title": "Interface",
-        "description": "",
+        "description": "Customise the interface of your AI translator.",
         "sections": {
           "subdomainAndLinks": "Custom subdomain and internal links",
-          "availableServices": "",
+          "availableServices": "Available services",
           "interface": "Translation interface design"
         },
         "buttons": {
           "subdomainAndLinks": "Subdomain and links",
-          "availableServices": "",
+          "availableServices": "Available services",
           "interface": "Interface",
           "saveChanges": "Save changes",
           "reset": "Reset",
@@ -4786,7 +4786,7 @@
           "temporaryGetInContact": {
             "text": "This feature is still under development. Until it's ready, please contact us to set up a custom subdomain: ",
             "email": "hello@supertext.com",
-            "textStart": ""
+            "textStart": "To set your own subdomain, please contact"
           }
         },
         "links": {
@@ -4804,7 +4804,7 @@
         "services": {
           "verification": {
             "title": "Verification",
-            "description": ""
+            "description": "Let your team use our Verification service, where experienced Supertext linguists check your AI translation within minutes."
           },
           "languageServices": {
             "title": "Specialised translation, copywriting and editing (“Place an order”)",
@@ -4845,9 +4845,9 @@
               "description": "Select your preferred color for the secondary buttons and choose whether the icons and texts in them should be displayed in black or white."
             }
           },
-          "validating": "",
+          "validating": "Validating...",
           "urlErrors": {
-            "validating": "",
+            "validating": "Validating URL...",
             "httpsRequired": "URL must start with https://",
             "notAccessible": "URL is unavailable. Please check the URL and try again."
           }

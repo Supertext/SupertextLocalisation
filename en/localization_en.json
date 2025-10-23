@@ -4132,7 +4132,7 @@
             }
           }
         },
-        "firstMonthFree": "Free for 30 days, cancel anytime",
+        "firstMonthFree": "Free for 30 days, cancel anytime",
         "cancelSubscriptionButton": "Cancel subscription",
         "footerNote": "Looking for a <highlightText>customised translation solution?</highlightText> Let's talk.",
         "requestAccess": "Request access",
@@ -4167,16 +4167,16 @@
         },
         "cancelSubscriptionFeatures": {
           "advancedToEssential": [
-            "AI translation in 28 languages",
+            "AI translation in 28 languages",
             "Glossary feature",
-            "60 files per month",
+            "60 files per month",
             "20 MB maximum file size"
           ],
           "advancedToFree": [
-            "AI translation in 28 languages",
+            "AI translation in 28 languages",
             "Immediate text deletion",
             "Glossary feature",
-            "60 files per month",
+            "60 files per month",
             "Unlimited text translation",
             "20 MB maximum file size",
             "Ability to translate Excel, PDF and SRT files",
@@ -4185,7 +4185,7 @@
           "essentialToFree": [
             "Immediate text deletion",
             "Unlimited text translation",
-            "20 files per month",
+            "20 files per month",
             "10 MB maximum file size",
             "Ability to translate Excel, PDF and SRT files",
             "Email support"
@@ -4200,7 +4200,7 @@
         },
         "api": {
           "languagesBox": {
-            "title": "28 languages – \nand counting",
+            "title": "28 languages – \nand counting",
             "languages": [
               "Albanian",
               "Bulgarian",
@@ -4388,10 +4388,10 @@
           "team": {
             "title": "Team",
             "userManagement": "User management",
-            "addMember": "Add user",
-            "editMember": "Edit user",
+            "addMember": "Add member",
+            "editMember": "Edit member",
             "removeMember": "Remove",
-            "deleteMember": "Remove user",
+            "deleteMember": "Remove member",
             "deleteMemberConfirmation": "Are you sure? You can’t undo this action.",
             "availableSeats": "Available slots",
             "filledSeats": "Occupied slots",
@@ -4428,8 +4428,8 @@
               "viewTable": "View your team"
             },
             "paginationOf": "of",
-            "editSelectedMembers": "Edit selected users",
-            "roleBatchUpdateSuccess": "{count, plural, =0 {No roles have been} =1 {The role of 1 user has been} other {The role of # users has been}} updated successfully",
+            "editSelectedMembers": "Edit selected members",
+            "roleBatchUpdateSuccess": "{count, plural, =0 {No roles have been} =1 {The role of 1 member has been} other {The role of # members has been}} updated successfully",
             "ssoRequest": {
               "title": "Request single sign-on (SSO) onboarding",
               "button": "Request SSO",
@@ -4484,7 +4484,7 @@
               "zeroPayableNowOnTrialPeriod": "Additional licences are free during the test phase and will be charged in the next billing period after the test phase ends.",
               "removeLicensesError": {
                 "text": "You have assigned a licence to {count} users. To reduce your subscription to fewer than {count} licences,",
-                "link": "remove licences from users.",
+                "link": "remove licences from team members.",
                 "one": "You have assigned a licence to {count} users. To reduce your subscription to fewer than {count} licences,",
                 "other": ""
               },
@@ -4595,7 +4595,7 @@
           "exploreSubscriptions": "Explore our subscriptions",
           "assignLicences": "Assign licences",
           "users": "users",
-          "usersActivePast30Days": "active users in the last 30 days",
+          "usersActivePast30Days": "active users in the last 30 days",
           "licensedUsers": "licensed users",
           "inviteUserTooltip": "Only admins can invite people.",
           "assignLicencesTooltip": "Only admins can assign licences."
@@ -4620,9 +4620,9 @@
         "aiTranslation": {
           "title": "AI TRANSLATION",
           "teamUsage": "Team usage",
-          "teamUsageDescription": "Your team’s AI translation volume in the last 30 days.",
+          "teamUsageDescription": "Your team's AI translation volume in the last 30 days.",
           "yourUsage": "Your usage",
-          "yourUsageDescription": "Your personal AI translation volume in the last 30 days.",
+          "yourUsageDescription": "Your personal AI translation volume in the last 30 days.",
           "characters": "characters",
           "files": "files",
           "outOfFiles": "of {limit} files",
@@ -4784,7 +4784,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Available soon",
           "temporaryGetInContact": {
-            "text": "This feature is still under development. Until it’s ready, please contact us to set up a custom subdomain: ",
+            "text": "This feature is still under development. Until it's ready, please contact us to set up a custom subdomain: ",
             "email": "hello@supertext.com",
             "textStart": "To set your own subdomain, please contact"
           }
@@ -4819,7 +4819,7 @@
             "uploadLogo": "Upload logo",
             "logoUrl": "Logo URL",
             "suggestedDimensions": "Recommended image dimensions: 140 × 30 pixels",
-            "maxFileSize": "Maximum file size: 2 MB",
+            "maxFileSize": "Maximum file size: 2 MB",
             "invalidUrl": "This URL does not return a valid image. Please check the URL and try again."
           },
           "favicon": {
@@ -4829,8 +4829,8 @@
             "uploadFavicon": "Upload favicon",
             "faviconUrl": "Favicon URL",
             "requirements": "Favicons should be square and at least 32 × 32 pixels.",
-            "maxFileSize": "Maximum file size: 2 MB",
-            "urlRequirement": "Select an HTTPS image URL that allows anonymous access and does not require authentication.",
+            "maxFileSize": "Maximum file size: 2 MB",
+            "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert.",
             "invalidUrl": "This URL does not return a valid image. Please check the URL and try again."
           },
           "color": {
@@ -4838,11 +4838,11 @@
             "badContrast": "This colour combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}.",
             "primary": {
               "label": "Primary colour",
-              "description": "Select your preferred colour for the primary buttons and choose whether the icons and texts in them should be displayed in black or white."
+              "description": "Legen Sie Ihre bevorzugte Farbe für die primären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiss angezeigt werden sollen."
             },
             "secondary": {
               "label": "Secondary colour",
-              "description": "Select your preferred colour for the secondary buttons and choose whether the icons and texts in them should be displayed in black or white."
+              "description": "Select your preferred color for the secondary buttons and choose whether the icons and texts in them should be displayed in black or white."
             }
           },
           "validating": "Validating...",
@@ -5004,7 +5004,7 @@
   },
   "customBranding": {
     "title": "Edit interface",
-    "description": "You can make basic adjustments to create a custom workspace right here. Simply upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under “Interface”.",
+    "description": "You can make basic adjustments to create a custom workspace right here. Simply upload your logo and define two colours for the translation interface. Further custom settings can be specified in the cockpit under “Appearance”.",
     "logoDescription": "Ideally, you should upload a transparent PNG file or an SVG file with a maximum height of XY pixels.",
     "upload": "Upload file",
     "primaryColorDescription": "Set your preferred colour for the primary buttons and choose whether icons and text placed inside them should be displayed in black or white.",

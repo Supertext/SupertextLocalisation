@@ -4132,7 +4132,7 @@
             }
           }
         },
-        "firstMonthFree": "Gratuito per 30 giorni, annullabile in qualsiasi momento.",
+        "firstMonthFree": "Gratuito per 30 giorni, annullabile in qualsiasi momento.",
         "cancelSubscriptionButton": "Disdici definitivamente l’abbonamento",
         "footerNote": "È alla ricerca di una<highlightText>soluzione di traduzione su misura?</highlightText> Parliamone.",
         "requestAccess": "Richiedi l'accesso",
@@ -4167,16 +4167,16 @@
         },
         "cancelSubscriptionFeatures": {
           "advancedToEssential": [
-            "Traduzione IA in 28 lingue",
+            "Traduzione IA in 28 lingue",
             "Funzione di glossario",
-            "60 file al mese",
+            "60 file al mese",
             "Dimensione massima dei file: 20 MB"
           ],
           "advancedToFree": [
-            "Traduzione IA in 28 lingue",
+            "Traduzione IA in 28 lingue",
             "Cancellazione immediata dei testi",
             "Funzione di glossario",
-            "60 file al mese",
+            "60 file al mese",
             "Traduzione illimitata di testi",
             "Dimensione massima dei file: 20 MB",
             "Traduzione di file Excel, PDF e SRT",
@@ -4185,7 +4185,7 @@
           "essentialToFree": [
             "Cancellazione immediata dei testi",
             "Traduzione illimitata di testi",
-            "20 file al mese",
+            "20 file al mese",
             "Dimensione massima dei file 10 MB",
             "Traduzione di file Excel, PDF e SRT",
             "Assistenza via e-mail"
@@ -4200,7 +4200,7 @@
         },
         "api": {
           "languagesBox": {
-            "title": "28 lingue: \nun numero in costante aumento",
+            "title": "28 lingue: \nun numero in costante aumento",
             "languages": [
               "Albanese",
               "Bulgaro",
@@ -4595,7 +4595,7 @@
           "exploreSubscriptions": "Scopri gli abbonamenti",
           "assignLicences": "Assegna licenze",
           "users": "utenti",
-          "usersActivePast30Days": "utenti attivi negli ultimi 30 giorni",
+          "usersActivePast30Days": "utenti attivi negli ultimi 30 giorni",
           "licensedUsers": "utenti con licenza",
           "inviteUserTooltip": "Solo gli amministratori possono invitare utenti.",
           "assignLicencesTooltip": "Solo gli amministratori possono assegnare licenze."
@@ -4620,9 +4620,9 @@
         "aiTranslation": {
           "title": "TRADUZIONE IA",
           "teamUsage": "Utilizzo del team",
-          "teamUsageDescription": "Il volume di traduzioni IA del Suo team negli ultimi 30 giorni.",
+          "teamUsageDescription": "Il volume di traduzioni IA del Suo team negli ultimi 30 giorni.",
           "yourUsage": "Il Suo utilizzo",
-          "yourUsageDescription": "Il Suo volume personale di traduzioni IA negli ultimi 30 giorni.",
+          "yourUsageDescription": "Il Suo volume personale di traduzioni IA negli ultimi 30 giorni.",
           "characters": "caratteri",
           "files": "file",
           "outOfFiles": "di {limit} file",
@@ -4819,7 +4819,7 @@
             "uploadLogo": "Carica logo",
             "logoUrl": "Logo URL",
             "suggestedDimensions": "Dimensioni immagine consigliate: 140 × 30 pixel.",
-            "maxFileSize": "Dimensione massima dei file: 2 MB",
+            "maxFileSize": "Dimensione massima dei file: 2 MB",
             "invalidUrl": "Questo URL non rimanda a un’immagine valida. Verificare l’URL e provare di nuovo."
           },
           "favicon": {
@@ -4827,9 +4827,9 @@
             "noFaviconUploaded": "Non è stata caricata alcuna favicon",
             "clickOrDragDrop": "Cliccare qui o trascinare qui un’immagine",
             "uploadFavicon": "Carica favicon",
-            "faviconUrl": "URL favicon",
+            "faviconUrl": "Url favicon",
             "requirements": "Le favicon devono avere una forma quadrata e dimensioni di almeno 32 × 32 pixel.",
-            "maxFileSize": "Dimensione massima dei file: 2 MB",
+            "maxFileSize": "Dimensione massima dei file: 2 MB",
             "urlRequirement": "Selezionare un URL immagine HTTPS che consenta l’accesso anonimo e non richieda un’autenticazione.",
             "invalidUrl": "Questo URL non rimanda a un’immagine valida. Verificare l’URL e provare di nuovo."
           },
@@ -5004,7 +5004,7 @@
   },
   "customBranding": {
     "title": "Modifica interfaccia",
-    "description": "È possibile apportare modifiche di base per creare uno spazio di lavoro personalizzato direttamente qui: carichi il Suo logo e scelga due colori per l’interfaccia di traduzione. Ulteriori opzioni personalizzate possono essere impostate nella sezione interfaccia del cockpit.",
+    "description": "È possibile apportare modifiche di base per creare uno spazio di lavoro personalizzato direttamente qui: carichi il Suo logo e scelga due colori per l’interfaccia di traduzione. Ulteriori opzioni personalizzate possono essere impostate nella sezione di configurazione del cockpit.",
     "logoDescription": "Consigliamo di caricare un file .png trasparente o un file .svg con altezza massima di XY pixel.",
     "upload": "Carica file",
     "primaryColorDescription": "Imposti un colore per i pulsanti principali e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",

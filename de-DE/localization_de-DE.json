@@ -4779,7 +4779,7 @@
         },
         "subdomain": {
           "title": "Benutzerdefinierte Subdomain",
-          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf Ihr massgeschneidertes Translation Interface zugreifen kann. Unabhängig davon bleibt es auch weiterhin via Login auf supertext.com erreichbar.",
+          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf Ihr massgeschneidertes Translation Interface zugreifen kann. Unabhängig davon bleibt es auch weiterhin via Login aufsupertext.com erreichbar.",
           "placeholder": "subdomain-beispiel",
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
@@ -5003,7 +5003,7 @@
     "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar <link>{glossary}</link>."
   },
   "customBranding": {
-    "title": "Interface anpassen",
+    "title": "Darstellung anpassen",
     "description": "Sie können hier grundlegende Anpassungen vornehmen, um einen benutzerdefinierten Arbeitsbereich zu erstellen – laden Sie Ihr Logo hoch und definieren Sie zwei Farben für das Translation Interface. Weitere benutzerdefinierte Einstellungen können im Cockpit unter „Interface“ vorgenommen werden.",
     "logoDescription": "Idealerweise sollten Sie eine transparente .png-Datei oder eine .svg-Datei mit einer maximalen Höhe von XY Pixeln hochladen.",
     "upload": "Datei hochladen",

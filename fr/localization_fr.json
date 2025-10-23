@@ -1120,7 +1120,7 @@
               "title": "Fichiers Excel, PDF et SRT"
             },
             "5": {
-              "title": "Assistance par e-mail dans les 24 heures"
+              "title": "Assistance par e-mail sous 24 heures"
             }
           }
         }
@@ -4132,7 +4132,7 @@
             }
           }
         },
-        "firstMonthFree": "Gratuit pendant 30 jours, sans engagement.",
+        "firstMonthFree": "Gratuit pendant 30 jours, sans engagement.",
         "cancelSubscriptionButton": "Annuler définitivement l’abonnement",
         "footerNote": "Vous recherchez une <highlightText>solution de traduction sur mesure?</highlightText> Contactez-nous.",
         "requestAccess": "Demander l’accès",
@@ -4167,13 +4167,13 @@
         },
         "cancelSubscriptionFeatures": {
           "advancedToEssential": [
-            "Traduction par l’IA dans 28 langues",
+            "Traduction par l’IA dans 28 langues",
             "Fonction glossaire",
             "60 fichiers par mois",
             "20 Mo maximum par fichier"
           ],
           "advancedToFree": [
-            "Traduction par l’IA dans 28 langues",
+            "Traduction par l’IA dans 28 langues",
             "Suppression immédiate du texte",
             "Fonction glossaire",
             "60 fichiers par mois",
@@ -4388,10 +4388,10 @@
           "team": {
             "title": "Équipe",
             "userManagement": "Gestion des utilisateurs/-trices",
-            "addMember": "Ajouter un/-e membre",
+            "addMember": "Ajouter un membre",
             "editMember": "Modifier membre",
             "removeMember": "Supprimer",
-            "deleteMember": "Supprimer un/-e membre",
+            "deleteMember": "Supprimer un membre",
             "deleteMemberConfirmation": "Êtes-vous sûr/-e? Vous ne pourrez pas annuler cette action.",
             "availableSeats": "Places disponibles",
             "filledSeats": "Places occupées",
@@ -4428,8 +4428,8 @@
               "viewTable": "Voir l’équipe"
             },
             "paginationOf": "de",
-            "editSelectedMembers": "Modifier les membres sélectionnés/-ées",
-            "roleBatchUpdateSuccess": "{count, plural, =0 {Aucun rôle n’a été mis à jour} =1 {Le rôle d’un/-e membre a été mis à jour} other {Le rôle de # membres a été mis à jour}} avec succès",
+            "editSelectedMembers": "Modifier les membres sélectionnés",
+            "roleBatchUpdateSuccess": "{count, plural, =0 { Aucun rôle n’a été mis à jour } =1 { Le rôle d’un membre a été mis à jour } other { Le rôle de # membres a été mis à jour }} avec succès",
             "ssoRequest": {
               "title": "Demander l’intégration de l'authentification unique (SSO)",
               "button": "Demander la SSO",
@@ -4484,7 +4484,7 @@
               "zeroPayableNowOnTrialPeriod": "Les licences supplémentaires sont gratuites pendant la période d’essai et seront facturées à la fin de celle-ci, dans la période de facturation suivante.",
               "removeLicensesError": {
                 "text": "Vous avez attribué une licence à {count} personnes de votre équipe. Pour réduire votre abonnement à moins de {count} licences, vous devez d’abord",
-                "link": "Supprimez les licences utilisateurs/-trices",
+                "link": "supprimez les licences des membres de l’équipe.",
                 "one": "Vous avez attribué une licence à {count} personnes de votre équipe. Pour réduire votre abonnement à moins de {count} licences, vous devez d’abord",
                 "other": ""
               },
@@ -4542,8 +4542,8 @@
         "hasLicense": "Essential",
         "emailPlaceholder": "exemple@gmail.com",
         "licenseMultipleTag": "Licence utilisateur/-trice",
-        "licenseMultipleTagNoLicencesAvailable": "Vous ne pouvez pas attribuer de licences aux membres sélectionnés/-ées. {selectedCount} utilisateurs/-trices ont été sélectionnés/-ées, mais il y a {licencesAvailable, plural, =0 {aucune licence} =1 {seulement 1 licence} other {seulement # licences}} disponible(s).",
-        "licenceMultipleSuccess": "{count, plural, =0 {Aucune licence n’a été mise à jou } =1 { La licence d’un/-e membre a été mise à jour} other {Les licences de # membres ont été mises à jour}} avec succès",
+        "licenseMultipleTagNoLicencesAvailable": "Vous ne pouvez pas attribuer de licences aux membres sélectionnés. {selectedCount} utilisateurs/-trices ont été sélectionnés/-ees, mais il y a {licencesAvailable, plural, =0 { aucune licence } =1 { seulement 1 licence } other { seulement # licences }} disponible(s).",
+        "licenceMultipleSuccess": "{count, plural, =0 { Aucune licence n’a été mise à jour } =1 { La licence d’un membre a été mise à jour } other { Les licences de # membres ont été mises à jour }} avec succès",
         "siteLicense": "Licence d’entreprise: tous/-tes les utilisateurs/-trices ajoutés/-es reçoivent automatiquement une autorisation.",
         "siteLicenseDetails": "Détails de l’abonnement"
       },
@@ -4595,7 +4595,7 @@
           "exploreSubscriptions": "Découvrir les abonnements",
           "assignLicences": "Attribuer des licences",
           "users": "utilisateurs/-trices",
-          "usersActivePast30Days": "utilisateurs/-trices actifs/-ves au cours des 30 derniers jours",
+          "usersActivePast30Days": "utilisateurs/-trices actifs/-ves au cours des 30 derniers jours",
           "licensedUsers": "utilisateurs/-trices disposant d’une licence",
           "inviteUserTooltip": "Uniquement les administrateurs/-trices peuvent inviter des personnes.",
           "assignLicencesTooltip": "Uniquement les administrateurs/-trices peuvent attribuer des licences."
@@ -4622,7 +4622,7 @@
           "teamUsage": "Utilisation de l’équipe",
           "teamUsageDescription": "Le volume de traduction par l’IA de votre équipe au cours des 30 derniers jours.",
           "yourUsage": "Votre utilisation",
-          "yourUsageDescription": "Votre volume personnel de traduction par l’IA au cours des 30 derniers jours.",
+          "yourUsageDescription": "Votre volume personnel de traduction par l’IA au cours des 30 derniers jours.",
           "characters": "caractères",
           "files": "fichiers",
           "outOfFiles": "de {limit} fichiers",
@@ -4779,7 +4779,7 @@
         },
         "subdomain": {
           "title": "Sous-domaine personnalisé",
-          "description": "Définissez un sous-domaine (par ex. company.supertext.com) via lequel votre équipe pourra accéder directement à la plateforme Supertext personnalisée. Votre équipe pourra continuer à accéder à la plateforme en se connectant sur supertext.com.",
+          "description": "Définissez un sous-domaine (par ex. entreprise.supertext.com) via lequel votre équipe pourra accéder directement à la plateforme Supertext personnalisée. Votre équipe pourra continuer à accéder à la plateforme en se connectant sur supertext.com.",
           "placeholder": "sous-domaine-exemple",
           "suffix": ".supertext.com",
           "comingSoon": "Bientôt disponible",
@@ -4819,7 +4819,7 @@
             "uploadLogo": "Télécharger un logo",
             "logoUrl": "URL du logo",
             "suggestedDimensions": "Dimensions recommandées pour les images: 140 × 30 pixels.",
-            "maxFileSize": "Taille maximale de fichier: 2 Mo",
+            "maxFileSize": "Taille maximale de fichier: 2 Mo",
             "invalidUrl": "Cette URL ne redirige pas vers une image valide. Veuillez vérifier l’URL et réessayer."
           },
           "favicon": {
@@ -4829,7 +4829,7 @@
             "uploadFavicon": "Télécharger un favicon",
             "faviconUrl": "URL du favicon",
             "requirements": "Les favicons doivent être de forme carrée et avoir comme dimensions au moins 32 × 32 pixels.",
-            "maxFileSize": "Taille maximale de fichier: 2 Mo",
+            "maxFileSize": "Taille maximale de fichier: 2 Mo",
             "urlRequirement": "Sélectionnez une URL d’image HTTPS qui autorise un accès anonyme et ne nécessite aucune authentification.",
             "invalidUrl": "Cette URL ne redirige pas vers une image valide. Veuillez vérifier l’URL et réessayer."
           },
@@ -5004,7 +5004,7 @@
   },
   "customBranding": {
     "title": "Modifier l’interface",
-    "description": "Vous pouvez effectuer des réglages de base pour créer un espace de travail personnalisé – téléchargez votre logo et définissez deux couleurs pour l’interface de traduction. D’autres réglages personnalisés peuvent être effectués dans le cockpit sous «Interface».",
+    "description": "Vous pouvez effectuer des réglages de base pour créer un espace de travail personnalisé – téléchargez votre logo et définissez deux couleurs pour l’interface de traduction. D’autres réglages personnalisés peuvent être effectués dans le cockpit sous «Personnaliser l’interface».",
     "logoDescription": "Téléchargez de préférence un fichier .png transparent ou un fichier .svg d’une hauteur maximale de XY pixels.",
     "upload": "Télécharger un fichier",
     "primaryColorDescription": "Définissez votre couleur préférée pour les boutons primaires et choisissez si les icônes et les textes situés à l’intérieur doivent s’afficher en noir ou en blanc.",

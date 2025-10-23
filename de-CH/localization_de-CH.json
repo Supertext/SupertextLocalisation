@@ -326,8 +326,6 @@
     "confirmationText": "Möchten Sie wirklich fortfahren?"
   },
   "fileTranslation": {
-      "uploadFile": "Datei übersetzen",
-      "programmaticFileTranslationTooltip": "Starten Sie mit dem Übersetzen von {fileType}-Dateien",
     "uploading": "Datei wird hochgeladen",
     "detecting": "Sprache wird erkannt",
     "translating": "Datei wird übersetzt",
@@ -754,10 +752,6 @@
     "online": "Ihre Internetverbindung wurde wiederhergestellt."
   },
   "starstruck": {
-    "fileTranslation": {
-      "uploadFile": "Datei übersetzen",
-      "programmaticFileTranslationTooltip": "Starten Sie mit dem Übersetzen von {fileType}-Dateien"
-    },
     "welcomeMessage": "Grüezi.",
     "noEntries": "Keine Einträge gefunden.",
     "placeOrder": "Auftrag erstellen",
@@ -893,6 +887,10 @@
         "aiTranslator": "KI-Übersetzer",
         "api": "Supertext API"
       }
+    },
+    "fileTranslation": {
+      "uploadFile": "Datei übersetzen",
+      "programmaticFileTranslationTooltip": "Starten Sie mit dem Übersetzen von {fileType}-Dateien"
     },
     "humanVerification": {
       "verifyButton": "Profi-Check starten",
@@ -4781,7 +4779,7 @@
         },
         "subdomain": {
           "title": "Benutzerdefinierte Subdomain",
-          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf Ihr massgeschneidertes Translation Interface zugreifen kann. Unabhängig davon bleibt es auch weiterhin via Login aufsupertext.com erreichbar.",
+          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf Ihr massgeschneidertes Translation Interface zugreifen kann. Unabhängig davon bleibt es auch weiterhin via Login auf supertext.com erreichbar.",
           "placeholder": "subdomain-beispiel",
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
@@ -4858,19 +4856,6 @@
         "messages": {
           "autoSaved": "Änderungen erfolgreich gespeichert",
           "saving": "Änderungen werden gespeichert ..."
-        }
-      },
-      "corporateWording": {
-        "table": {
-          "filters": {
-            "language": {
-              "all": "Alle Sprachen"
-            }
-          },
-          "conceptDeletion": {
-            "title": "Begriff löschen",
-            "message": "Wirklich löschen?"
-          }
         }
       }
     }
@@ -5018,7 +5003,7 @@
     "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar <link>{glossary}</link>."
   },
   "customBranding": {
-    "title": "Darstellung anpassen",
+    "title": "Interface anpassen",
     "description": "Sie können hier grundlegende Anpassungen vornehmen, um einen benutzerdefinierten Arbeitsbereich zu erstellen – laden Sie Ihr Logo hoch und definieren Sie zwei Farben für das Translation Interface. Weitere benutzerdefinierte Einstellungen können im Cockpit unter «Interface» vorgenommen werden.",
     "logoDescription": "Idealerweise sollten Sie eine transparente .png-Datei oder eine .svg-Datei mit einer maximalen Höhe von XY Pixeln hochladen.",
     "upload": "Datei hochladen",

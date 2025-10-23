@@ -326,6 +326,8 @@
     "confirmationText": "Möchten Sie wirklich fortfahren?"
   },
   "fileTranslation": {
+    "uploadFile": "Datei übersetzen",
+    "programmaticFileTranslationTooltip": "Starten Sie mit dem Übersetzen von {fileType}-Dateien",
     "uploading": "Datei wird hochgeladen",
     "detecting": "Sprache wird erkannt",
     "translating": "Datei wird übersetzt",
@@ -4856,6 +4858,19 @@
         "messages": {
           "autoSaved": "Änderungen erfolgreich gespeichert",
           "saving": "Änderungen werden gespeichert ..."
+        }
+      },
+      "corporateWording": {
+        "table": {
+          "filters": {
+            "language": {
+              "all": "Alle Sprachen"
+            }
+          },
+          "conceptDeletion": {
+            "title": "Begriff löschen",
+            "message": "Wirklich löschen?"
+          }
         }
       }
     }

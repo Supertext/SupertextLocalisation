@@ -390,7 +390,9 @@
       "popover": "{plan, select, Essential {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} free {Supertext Free umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat} other {Ihr {subscriptionType}-Abo umfasst {count, plural, =1 {# Datei} other {# Dateien}} pro Monat}}",
       "unregisteredPopover": "Sie müssen eingeloggt sein, um mit dem Übersetzen von Dateien zu beginnen."
     },
-    "ocrLabel": "Text aus Bildern extrahieren"
+    "ocrLabel": "Text aus Bildern extrahieren",
+    "uploadFile": "Datei übersetzen",
+    "programmaticFileTranslationTooltip": "Starten Sie mit dem Übersetzen von {fileType}-Dateien"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Text",
@@ -3967,7 +3969,7 @@
           "industry": "Fachgebiet",
           "targetAudience": "Zielpublikum",
           "orderFiles": "Quellen",
-          "price": "Preis (exkl. MwSt.)",
+          "price": "Preis (exkl. MwSt.)",
           "scope": "Umfang",
           "invoiceDate": "Bestellzeit",
           "invoiceAddress": "Rechnungsadresse",
@@ -4253,21 +4255,21 @@
         "emailValidation": "Geben Sie bitte eine gültige E-Mail-Adresse ein.",
         "language": "Sprache",
         "role": "Rolle",
-        "roleValidation": "Rolle muss mindestens 2 Zeichen lang sein",
+        "roleValidation": "Rolle muss mindestens 2 Zeichen lang sein",
         "license": "Lizenz",
-        "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
+        "licenseValidation": "Lizenz muss mindestens 2 Zeichen lang sein",
         "comment": "Bezeichnung (optional)",
-        "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
+        "commentValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
         "company": "Unternehmen/Organisation",
         "name": "Name",
         "changeName": "Name ändern",
-        "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
+        "nameValidation": "Bezeichnung muss mindestens 2 Zeichen lang sein",
         "firstName": "Vorname",
-        "firstNameValidation": "Vorname muss mindestens 2 Zeichen lang sein",
+        "firstNameValidation": "Vorname muss mindestens 2 Zeichen lang sein",
         "lastName": "Nachname",
-        "lastNameValidation": "Nachname muss mindestens 2 Zeichen lang sein",
+        "lastNameValidation": "Nachname muss mindestens 2 Zeichen lang sein",
         "addressLine1": "Straße",
-        "addressLine1Validation": "Straße muss mindestens 2 Zeichen lang sein",
+        "addressLine1Validation": "Straße muss mindestens 2 Zeichen lang sein",
         "addressLine2": "Adresszusatz",
         "city": "Ort",
         "cityValidation": "Ort ist erforderlich",
@@ -4307,16 +4309,16 @@
               "confirmNewPassword": "Neues Passwort bestätigen",
               "changePassword": "Passwort ändern",
               "passwordDoNotMatch": "Passwörter stimmen nicht überein",
-              "passwordMustContainAtLeastOneSpecialCharacter": "Das Passwort muss mindestens 1 Sonderzeichen enthalten.",
-              "passwordMustContainAtLeastOneNumber": "Das Passwort muss mindestens 1 Zahl enthalten.",
-              "passwordMustContainAtLeastOneUppercaseLetter": "Das Passwort muss mindestens 1 Großbuchstaben enthalten.",
-              "passwordMustContainAtLeastOneLowercaseLetter": "Das Passwort muss mindestens 1 Kleinbuchstaben enthalten.",
-              "passwordMustBeAtLeast8Characters": "Das Passwort muss mindestens 8 Zeichen lang sein."
+              "passwordMustContainAtLeastOneSpecialCharacter": "Das Passwort muss mindestens ein Sonderzeichen enthalten.",
+              "passwordMustContainAtLeastOneNumber": "Das Passwort muss mindestens eine Zahl enthalten.",
+              "passwordMustContainAtLeastOneUppercaseLetter": "Das Passwort muss mindestens einen Großbuchstaben enthalten.",
+              "passwordMustContainAtLeastOneLowercaseLetter": "Das Passwort muss mindestens einen Kleinbuchstaben enthalten.",
+              "passwordMustBeAtLeast8Characters": "Das Passwort muss mindestens 8 Zeichen lang sein."
             },
             "tooltips": {
               "password": {
                 "admin": "Nur ein:e andere:r Admin kann Ihr Passwort ändern",
-                "sso": "Sie können Ihr Passwort als SSO-User:in nicht ändern.",
+                "sso": "Als SSO-User:in können Sie Ihr Passwort nicht ändern.",
                 "user": "Nur ein:e Admin kann Ihr Passwort ändern"
               },
               "email": {
@@ -4429,7 +4431,7 @@
             },
             "paginationOf": "von",
             "editSelectedMembers": "Ausgewählte User:innen bearbeiten",
-            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 User:in wurde} other {Die Rollen von # User:innen wurde}} erfolgreich aktualisiert",
+            "roleBatchUpdateSuccess": "{count, plural, =0 {Keine Rollen wurden} =1 {Die Rolle von 1 User:in wurde} other {Die Rolle von # User:innen wurde}} erfolgreich aktualisiert",
             "ssoRequest": {
               "title": "Single Sign-On (SSO) Onboarding anfordern",
               "button": "SSO anfordern",
@@ -4502,7 +4504,7 @@
               "link": "Zahlungsmethode aktualisieren"
             },
             "after": "nach",
-            "downgradeLicenses": "Anstehende Herabstufung von Lizenzen",
+            "downgradeLicenses": "Anstehende Reduktion der Anzahl Lizenzen",
             "cancelDowngradeLicenses": "Abbrechen",
             "price_per_licence_month": "Preis pro Lizenz, pro Monat",
             "price_per_licence_year": "Preis pro Lizenz, pro Jahr",
@@ -4518,7 +4520,7 @@
               "modal": {
                 "title": "Meine Aufträge und Rechnungen",
                 "info": "Nur Mitglieder Ihres Teams können Zugang zu Ihren Rechnungen und Aufträgen erhalten.",
-                "searchInputPlaceholder": "Suche nach E-Mail-Adresse oder Namen",
+                "searchInputPlaceholder": "E-Mail-Adresse oder Namen suchen",
                 "authoriseUser": "Zugang autorisieren",
                 "deleteConfirm": {
                   "title": "Mitglied löschen",
@@ -4597,7 +4599,7 @@
           "users": "user:innen",
           "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
           "licensedUsers": "lizenzierte User:innen",
-          "inviteUserTooltip": "Nur Admins können Personen einladen.",
+          "inviteUserTooltip": "Nur Admins können User:innen einladen.",
           "assignLicencesTooltip": "Nur Admins können Lizenzen zuweisen."
         },
         "aiCustomisation": {
@@ -4606,15 +4608,15 @@
           "personalExpertTranslations": "eigene Übersetzungen zu Ihrem spezialisierten KI-Modell hinzugefügt",
           "efficiencyGain": "Effizienzgewinn",
           "genericModelEfficiency": "Effizienz des\nBasis-Modells",
-          "customModelEfficiency": "Effizienz des\nspezialisieren\nModells\nIhres Teams",
+          "customModelEfficiency": "Effizienz des\nspezialisierten\nModells\nIhres Teams",
           "potentialModelEfficiency": "Potenzielle\nEffizienz eines\nspezialisierten\nModells",
           "teamTranslatesFaster": "Ihr Team übersetzt {gain} % schneller dank Ihres spezialisieren KI-Modells.",
           "translateFasterAccurately": "Übersetzen Sie schneller und präziser mit einem spezialisierten KI-Modell.",
           "learnMore": "Mehr erfahren",
           "submitTrainingData": "Trainingsdaten übermitteln",
-          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten hochzuladen. <link>sales@supertext.com</link>",
+          "submitTrainingDataDescription": "Kontaktieren Sie uns, um Ihre Trainingsdaten einzureichen. <link>sales@supertext.com</link>",
           "submitTrainingDataTooltip": "Nur Admins können Trainingsdaten einreichen.",
-          "submitTrainingDataEmailSubject": "Anfrage zum Hochladen von Trainingsdaten -",
+          "submitTrainingDataEmailSubject": "Anfrage zum Einreichen von Trainingsdaten -",
           "submitTrainingDataEmailBody": "Guten Tag,\nwir möchten Sie bitten, unserem spezialisierten Übersetzungsmodell neue Trainingsdaten hinzuzufügen, um dessen Effizienz weiter zu verbessern."
         },
         "aiTranslation": {
@@ -4664,7 +4666,7 @@
           "description": "Optimieren Sie Ihre Arbeitsabläufe mit skalierbarem und sicherem Zugriff auf Übersetzungen."
         },
         "payAsYouGo": "Nutzungsabhängige Kosten",
-        "per1MillionCharacters": "pro 1 Mio. Zeichen",
+        "per1MillionCharacters": "pro 1 Mio. Zeichen",
         "price": "Preis",
         "perMonth": "pro Monat",
         "notifications": {
@@ -4753,7 +4755,7 @@
       },
       "new": "Neu",
       "accessDenied": {
-        "title": "Zugriff eingeschränkt",
+        "title": "Zugriff verweigert",
         "description": "Sie haben keinen Zugriff auf diese Einstellungen. Bitte wenden Sie sich an eine:n Admin Ihres Teams."
       },
       "appearance": {
@@ -4779,7 +4781,7 @@
         },
         "subdomain": {
           "title": "Benutzerdefinierte Subdomain",
-          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf Ihr massgeschneidertes Translation Interface zugreifen kann. Unabhängig davon bleibt es auch weiterhin via Login aufsupertext.com erreichbar.",
+          "description": "Legen Sie eine Subdomain (z. B. company.supertext.com) fest, über die Ihr Team direkt auf Ihr massgeschneidertes Translation Interface zugreifen kann. Unabhängig davon bleibt es auch weiterhin via Login auf supertext.com erreichbar.",
           "placeholder": "subdomain-beispiel",
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
@@ -4791,7 +4793,7 @@
         },
         "links": {
           "title": "Links für mein Team",
-          "description": "Sie können bis zu vier Links für Ihr Team hinzufügen, z. B. zu bestimmten Übersetzungsrichtlinien oder zu Ihrem Intranet. Um die Links in der Hauptbenutzer-Dropdown-Liste anzuzeigen, müssen Sie eine Beschreibung hinzufügen, die immer angezeigt wird. Wenn Sie möchten, dass wir die Beschreibung in verschiedenen Sprachen anzeigen, geben Sie dies bitte entsprechend an.",
+          "description": "Sie können bis zu vier Links für Ihr Team hinzufügen, z. B. zu bestimmten Übersetzungsrichtlinien oder zu Ihrem Intranet. Um die Links in der Hauptbenutzer-Dropdown-Liste anzuzeigen, müssen Sie eine Beschreibung hinzufügen, die immer angezeigt wird. Wenn Sie möchten, dass wir die Beschreibung in verschiedenen Sprachen anzeigen, geben Sie dies bitte entsprechend an.",
           "linkNumber": "Link {number}",
           "descriptionPlaceholder": "Linkbeschreibung",
           "urlPlaceholder": "Ziel-URL",
@@ -4799,7 +4801,7 @@
           "urlRequired": "Sie haben Beschreibungen für diesen Link, aber keine Ziel-URL. Fügen Sie eine URL hinzu oder entfernen Sie die Beschreibungen.",
           "or": "oder",
           "descriptionRequired": "Sie haben eine URL für diesen Link, aber keine Beschreibung in einer Sprache. Fügen Sie mindestens eine Beschreibung hinzu oder entfernen Sie die URL.",
-          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen, z. B. https://www.supertext.com"
+          "badLinkError": "Die Ziel-URL ist nicht korrekt. Die URL muss mit http:// oder https:// beginnen, z. B. https://www.supertext.com"
         },
         "services": {
           "verification": {
@@ -4808,7 +4810,7 @@
           },
           "languageServices": {
             "title": "Fachübersetzung, Copywriting und Lektorat («Auftrag erstellen»)",
-            "description": "Geben Sie Ihrem Team die Erlaubnis, Aufträge für spezialisierte Übersetzungs-, Copywriting- und Lektoratsprojekte zu platzieren oder nicht."
+            "description": "Geben Sie Ihrem Team die Erlaubnis, Aufträge für Fachübersetzungen, Copywriting und Lektorate zu platzieren oder nicht."
           }
         },
         "interface": {
@@ -4828,14 +4830,14 @@
             "clickOrDragDrop": "Klicken Sie hier oder ziehen Sie ein Bild hierher",
             "uploadFavicon": "Favicon hochladen",
             "faviconUrl": "Favicon-URL",
-            "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel groß sein.",
+            "requirements": "Favicons sollten quadratisch und mindestens 32 × 32 Pixel groß sein.",
             "maxFileSize": "Maximale Dateigröße: 2 MB",
             "urlRequirement": "Wählen Sie eine HTTPS-Bild-URL, die anonymen Zugriff ermöglicht und keine Authentifizierung erfordert.",
             "invalidUrl": "Diese URL liefert kein gültiges Bild. Bitte überprüfen Sie die URL und versuchen Sie es erneut."
           },
           "color": {
             "title": "Farbe",
-            "badContrast": "Diese Farbkombination führt zu schlechter Lesbarkeit. Empfohlenes Verhältnis ≥ 4.5, aktuelles Verhältnis: {ratio}",
+            "badContrast": "Diese Farbkombination führt zu schlechter Lesbarkeit. Empfohlenes Verhältnis ≥ 4.5, aktuelles Verhältnis: {ratio}",
             "primary": {
               "label": "Primärfarbe",
               "description": "Legen Sie Ihre bevorzugte Farbe für die primären Schaltflächen fest und wählen Sie, ob Symbole und Text darin schwarz oder weiß angezeigt werden sollen."
@@ -4856,6 +4858,19 @@
         "messages": {
           "autoSaved": "Änderungen erfolgreich gespeichert",
           "saving": "Änderungen werden gespeichert ..."
+        }
+      },
+      "corporateWording": {
+        "table": {
+          "filters": {
+            "language": {
+              "all": "Alle Sprachen"
+            }
+          },
+          "conceptDeletion": {
+            "title": "Begriff löschen",
+            "message": "Wirklich löschen?"
+          }
         }
       }
     }
@@ -5003,7 +5018,7 @@
     "textTooltip": "Diese Übersetzung stammt aus dem gespeicherten Glossar <link>{glossary}</link>."
   },
   "customBranding": {
-    "title": "Darstellung anpassen",
+    "title": "Interface anpassen",
     "description": "Sie können hier grundlegende Anpassungen vornehmen, um einen benutzerdefinierten Arbeitsbereich zu erstellen – laden Sie Ihr Logo hoch und definieren Sie zwei Farben für das Translation Interface. Weitere benutzerdefinierte Einstellungen können im Cockpit unter „Interface“ vorgenommen werden.",
     "logoDescription": "Idealerweise sollten Sie eine transparente .png-Datei oder eine .svg-Datei mit einer maximalen Höhe von XY Pixeln hochladen.",
     "upload": "Datei hochladen",

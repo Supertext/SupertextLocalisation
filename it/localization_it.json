@@ -59,7 +59,7 @@
       "translating": "Traduci {filename} da {fromSourceLang} a {toTargetLang}",
       "fileUploadButton": "Selezionare un file",
       "invalidFileType": "Tipo di file non valido",
-      "fileSizeExceeded": "Questo file è troppo grande per essere caricato. I file di dimensione superiore a {0} MB non sono al momento supportati.",
+      "fileSizeExceeded": "Questo file è troppo grande per essere caricato. I file di dimensione superiore a {0} MB non sono al momento supportati.",
       "estimatedTime": "Tempo rimanente stimato: {0}",
       "expectationExceeded": "La traduzione richiede più tempo del previsto. Attenda, prego…",
       "downloadViaEmail": "Ricevere via e-mail",
@@ -72,8 +72,8 @@
       },
       "docRemainingPerDay": "1 file rimanente",
       "docsRemainingPerDay": "{0} file rimanenti",
-      "docLimitsPerRequest": "Max. {0} MB, {1} carattere/i",
-      "docLimitsPerRequestUnlimitedChars": "Max. {0} MB",
+      "docLimitsPerRequest": "Max. {0} MB, {1} carattere/i",
+      "docLimitsPerRequestUnlimitedChars": "Max. {0} MB",
       "successfullDownload": {
         "title": "Il file è stato scaricato",
         "description": "Può caricare un altro file da tradurre"
@@ -259,7 +259,7 @@
         },
         "fileSize": {
           "header": "Purtroppo questo file è un po’ troppo grande.",
-          "body": "Il documento supera la dimensione massima di {0} MB."
+          "body": "Il documento supera la dimensione massima di {0} MB."
         },
         "fileCharacters": {
           "header": "Ha raggiunto il limite stabilito.",
@@ -342,7 +342,7 @@
     "cancelButton": "Annulla",
     "fileUploadButton": "Selezionare un file",
     "invalidFileType": "Tipo di file non valido",
-    "fileSizeExceeded": "Questo file è troppo grande per essere caricato. I file superiori a {0} MB non sono al momento supportati.",
+    "fileSizeExceeded": "Questo file è troppo grande per essere caricato. I file superiori a {0} MB non sono al momento supportati.",
     "estimatedTime": "Tempo rimanente stimato: {0}",
     "expectationExceeded": "La traduzione richiede più tempo del previsto. Attenda, prego…",
     "ocrHelperText": "L’OCR consente di elaborare meglio i PDF scansionati o fotografati. Per i PDF standard che contengono solamente testo, l’OCR non è necessario.",
@@ -390,7 +390,9 @@
       "popover": "{plan, select, Essential {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese} free {Supertext Free comprende {count, plural, =1 {# file} other {# file}} al mese} other {Il Suo abbonamento {subscriptionType} comprende {count, plural, =1 {# file} other {# file}} al mese}}",
       "unregisteredPopover": "Deve aver effettuato il login per iniziare a tradurre i file."
     },
-    "ocrLabel": "Estrarre testo dalle immagini"
+    "ocrLabel": "Estrarre testo dalle immagini",
+    "uploadFile": "Traduci file",
+    "programmaticFileTranslationTooltip": "Inizia a tradurre file {fileType}"
   },
   "modeSelectorButton": {
     "TRANSLATE_TEXT": "Testo",
@@ -1407,8 +1409,8 @@
             "maximumFileSize": {
               "name": "Dimensione massima dei file",
               "description": "",
-              "free": "5 MB",
-              "essential": "10 MB",
+              "free": "5 MB",
+              "essential": "10 MB",
               "advanced": "20 MB",
               "pro": "30 MB",
               "enterprise": "30 MB"
@@ -2085,7 +2087,7 @@
           "description": "Contattate il team Sales di Supertext"
         },
         "salesSection": {
-          "title": "Siamo a vostra disposizione e vi ricontatteremo <highlight>nel giro di 60 minuti</highlight>",
+          "title": "Siamo a vostra disposizione e vi ricontatteremo <highlight>nel giro di 60 minuti</highlight>",
           "description": "Desiderate ricevere un’offerta personalizzata o maggiori informazioni sulla nostra soluzione Enterprise? Compilate il modulo e vi metteremo in contatto con la persona giusta in tempi record.",
           "bulletPoints": {
             "point1": "Informazioni su come Supertext può supportare l’espansione della vostra azienda a livello globale",
@@ -3513,7 +3515,7 @@
       },
       "forEnterprise": {
         "hero": {
-          "subtitle": "Traduzione IA affidabile in 28 lingue. Sviluppata per una maggiore velocità e qualità, nonché su misura delle vostre esigenze.",
+          "subtitle": "Traduzione IA affidabile in 28 lingue. Sviluppata per una maggiore velocità e qualità, nonché su misura delle vostre esigenze.",
           "cta": "Richiedi un’offerta",
           "logoCarouselTitle": "La prima scelta per più di 1500 aziende",
           "title": "Tradurre <highlight>meglio</highlight> in tutta l’azienda con Supertext Enterprise"
@@ -3709,7 +3711,7 @@
       },
       "supertextApi": {
         "hero": {
-          "subtitle": "Integrate traduzioni IA affidabili in qualsiasi workflow, in modo efficiente e in 28 lingue.",
+          "subtitle": "Integrate traduzioni IA affidabili in qualsiasi workflow, in modo efficiente e in 28 lingue.",
           "ctas": {
             "primary": "Inizia ora",
             "secondary": "Alla documentazione API"
@@ -3865,7 +3867,7 @@
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
         "category": "Lingue e varianti linguistiche",
-        "tooltip": "<strong>Lingue e varianti linguistiche</strong> <br/> <strong>6 lingue</strong>: francese, inglese, italiano, romancio, svizzero tedesco, tedesco <br/><br/> francese (CH, FR), inglese (GB, US), italiano (CH, IT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)<br/><br/> <strong>28 lingue</strong>: albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese <br/><br/> cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH), serbo (cirillico, latino), tedesco (AT, CH, DE)",
+        "tooltip": "<strong>Lingue e varianti linguistiche</strong> <br/> <strong>6 lingue</strong>: francese, inglese, italiano, romancio, svizzero tedesco, tedesco <br/><br/> francese (CH, FR), inglese (GB, US), italiano (CH, IT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)<br/><br/> <strong>28 lingue</strong>: albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese <br/><br/> cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH), serbo (cirillico, latino), tedesco (AT, CH, DE)",
         "rows": {
           "free": "6 lingue",
           "essential": "6 lingue",
@@ -3967,7 +3969,7 @@
           "industry": "Settore",
           "targetAudience": "Pubblico target",
           "orderFiles": "Fonti",
-          "price": "Prezzo (IVA escl.)",
+          "price": "Prezzo (IVA escl.)",
           "scope": "Volume",
           "invoiceDate": "Ora dell’ordine",
           "invoiceAddress": "Indirizzo di fatturazione",
@@ -4132,7 +4134,7 @@
             }
           }
         },
-        "firstMonthFree": "Gratuito per 30 giorni, annullabile in qualsiasi momento.",
+        "firstMonthFree": "Gratuito per 30 giorni, annullabile in qualsiasi momento.",
         "cancelSubscriptionButton": "Disdici definitivamente l’abbonamento",
         "footerNote": "È alla ricerca di una<highlightText>soluzione di traduzione su misura?</highlightText> Parliamone.",
         "requestAccess": "Richiedi l'accesso",
@@ -4167,26 +4169,26 @@
         },
         "cancelSubscriptionFeatures": {
           "advancedToEssential": [
-            "Traduzione IA in 28 lingue",
+            "Traduzione IA in 28 lingue",
             "Funzione di glossario",
-            "60 file al mese",
-            "Dimensione massima dei file: 20 MB"
+            "60 file al mese",
+            "Dimensione massima dei file: 20 MB"
           ],
           "advancedToFree": [
-            "Traduzione IA in 28 lingue",
+            "Traduzione IA in 28 lingue",
             "Cancellazione immediata dei testi",
             "Funzione di glossario",
-            "60 file al mese",
+            "60 file al mese",
             "Traduzione illimitata di testi",
-            "Dimensione massima dei file: 20 MB",
+            "Dimensione massima dei file: 20 MB",
             "Traduzione di file Excel, PDF e SRT",
             "Assistenza via e-mail"
           ],
           "essentialToFree": [
             "Cancellazione immediata dei testi",
             "Traduzione illimitata di testi",
-            "20 file al mese",
-            "Dimensione massima dei file 10 MB",
+            "20 file al mese",
+            "Dimensione massima dei file 10 MB",
             "Traduzione di file Excel, PDF e SRT",
             "Assistenza via e-mail"
           ]
@@ -4200,7 +4202,7 @@
         },
         "api": {
           "languagesBox": {
-            "title": "28 lingue: \nun numero in costante aumento",
+            "title": "28 lingue: \nun numero in costante aumento",
             "languages": [
               "Albanese",
               "Bulgaro",
@@ -4253,21 +4255,21 @@
         "emailValidation": "Inserire un indirizzo e-mail valido.",
         "language": "Lingua",
         "role": "Ruolo",
-        "roleValidation": "Il ruolo deve avere una lunghezza di almeno 2 caratteri",
+        "roleValidation": "Il ruolo deve avere una lunghezza di almeno 2 caratteri",
         "license": "Licenza",
-        "licenseValidation": "La licenza deve essere una lunghezza di almeno 2 caratteri",
+        "licenseValidation": "La licenza deve essere una lunghezza di almeno 2 caratteri",
         "comment": "Denominazione (opzionale)",
-        "commentValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
+        "commentValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
         "company": "Azienda/organizzazione",
         "name": "Nome",
         "changeName": "Modificare il nome",
-        "nameValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
+        "nameValidation": "La denominazione deve avere una lunghezza di almeno 2 caratteri",
         "firstName": "Nome",
-        "firstNameValidation": "Il nome deve avere una lunghezza di almeno 2 caratteri",
+        "firstNameValidation": "Il nome deve avere una lunghezza di almeno 2 caratteri",
         "lastName": "Cognome",
-        "lastNameValidation": "Il cognome deve avere una lunghezza di almeno 2 caratteri",
+        "lastNameValidation": "Il cognome deve avere una lunghezza di almeno 2 caratteri",
         "addressLine1": "Indirizzo",
-        "addressLine1Validation": "L’indirizzo deve avere una lunghezza di almeno 2 caratteri",
+        "addressLine1Validation": "L’indirizzo deve avere una lunghezza di almeno 2 caratteri",
         "addressLine2": "Indirizzo aggiuntivo",
         "city": "Località",
         "cityValidation": "La località è un campo obbligatorio",
@@ -4308,10 +4310,10 @@
               "changePassword": "Modifica la password",
               "passwordDoNotMatch": "Le password non corrispondono",
               "passwordMustContainAtLeastOneSpecialCharacter": "La password deve contenere almeno 1 carattere speciale.",
-              "passwordMustContainAtLeastOneNumber": "La password deve contenere almeno 1 cifra.",
-              "passwordMustContainAtLeastOneUppercaseLetter": "La password deve contenere almeno 1 lettera maiuscola.",
-              "passwordMustContainAtLeastOneLowercaseLetter": "La password deve contenere almeno 1 lettera minuscola.",
-              "passwordMustBeAtLeast8Characters": "La password deve avere una lunghezza di almeno 8 caratteri."
+              "passwordMustContainAtLeastOneNumber": "La password deve contenere almeno una cifra.",
+              "passwordMustContainAtLeastOneUppercaseLetter": "La password deve contenere almeno una lettera maiuscola.",
+              "passwordMustContainAtLeastOneLowercaseLetter": "La password deve contenere almeno una lettera minuscola.",
+              "passwordMustBeAtLeast8Characters": "La password deve avere una lunghezza di almeno 8 caratteri."
             },
             "tooltips": {
               "password": {
@@ -4388,10 +4390,10 @@
           "team": {
             "title": "Team",
             "userManagement": "Gestione utenti",
-            "addMember": "Aggiungi membro",
-            "editMember": "Modifica membro",
+            "addMember": "Aggiungi utente",
+            "editMember": "Modifica utente",
             "removeMember": "Rimuovi",
-            "deleteMember": "Rimuovere membro",
+            "deleteMember": "Rimuovere utente",
             "deleteMemberConfirmation": "Procedere? Questa azione non potrà essere annullata.",
             "availableSeats": "Posti disponibili",
             "filledSeats": "Posti occupati",
@@ -4428,8 +4430,8 @@
               "viewTable": "Visualizza il team"
             },
             "paginationOf": "di",
-            "editSelectedMembers": "Modifica i membri selezionati",
-            "roleBatchUpdateSuccess": "{count, plural, =0 { Nessun ruolo è stato aggiornato } =1 { Il ruolo di 1 membro è stato aggiornato } other { Il ruolo di # membri è stato aggiornato }} con successo",
+            "editSelectedMembers": "Modifica i utenti selezionati",
+            "roleBatchUpdateSuccess": "{count, plural, =0 { Nessun ruolo è stato aggiornato } =1 { Il ruolo di 1 utente è stato aggiornato } other { Il ruolo di # utenti è stato aggiornato }} con successo",
             "ssoRequest": {
               "title": "Richiedi l’onboarding per il Single Sign-On (SSO)",
               "button": "Richiedi il SSO",
@@ -4484,7 +4486,7 @@
               "zeroPayableNowOnTrialPeriod": "Le licenze aggiuntive sono gratuite durante il periodo di prova e verranno addebitate al termine di tale fase nel periodo di fatturazione successivo.",
               "removeLicensesError": {
                 "text": "All’interno del Suo team, {count} utenti dispongono di una licenza. Per ridurre il Suo abbonamento a un numero di licenze inferiore a {count}, deve innanzitutto",
-                "link": "rimuovere le licenze dai membri del team.",
+                "link": "rimuovere le licenze dai utenti del team.",
                 "one": "All’interno del Suo team, {count} utenti dispongono di una licenza. Per ridurre il Suo abbonamento a un numero di licenze inferiore a {count}, deve innanzitutto",
                 "other": ""
               },
@@ -4502,7 +4504,7 @@
               "link": "Aggiornare il metodo di pagamento"
             },
             "after": "dopo il giorno",
-            "downgradeLicenses": "Prossimo downgrade delle licenze",
+            "downgradeLicenses": "Riduzione imminente del numero di licenze",
             "cancelDowngradeLicenses": "Annulla",
             "price_per_licence_month": "Prezzo per licenza, al mese",
             "price_per_licence_year": "Prezzo per licenza, all’anno",
@@ -4543,7 +4545,7 @@
         "emailPlaceholder": "esempio@gmail.com",
         "licenseMultipleTag": "Assegnare una licenza agli utenti",
         "licenseMultipleTagNoLicencesAvailable": "Impossibile assegnare licenze agli utenti selezionati. Sono stati selezionati {selectedCount} utenti, ma {licencesAvailable, plural, =0 {non è disponibile nessuna licenza } =1 { è disponibile solo 1 licenza } other {sono disponibili solo # licenze }}.",
-        "licenceMultipleSuccess": "{count, plural, =0 {Nessuna licenza è stata aggiornata} =1 { La licenza di 1 membro è stata aggiornata} other {Le licenze di # membri sono state aggiornate}}",
+        "licenceMultipleSuccess": "{count, plural, =0 {Nessuna licenza è stata aggiornata} =1 { La licenza di 1 utente è stata aggiornata} other {Le licenze di # utenti sono state aggiornate}}",
         "siteLicense": "Licenza aziendale: tutti gli utenti aggiunti ricevono automaticamente una licenza.",
         "siteLicenseDetails": "Dettagli dell’abbonamento"
       },
@@ -4595,7 +4597,7 @@
           "exploreSubscriptions": "Scopri gli abbonamenti",
           "assignLicences": "Assegna licenze",
           "users": "utenti",
-          "usersActivePast30Days": "utenti attivi negli ultimi 30 giorni",
+          "usersActivePast30Days": "utenti attivi negli ultimi 30 giorni",
           "licensedUsers": "utenti con licenza",
           "inviteUserTooltip": "Solo gli amministratori possono invitare utenti.",
           "assignLicencesTooltip": "Solo gli amministratori possono assegnare licenze."
@@ -4620,9 +4622,9 @@
         "aiTranslation": {
           "title": "TRADUZIONE IA",
           "teamUsage": "Utilizzo del team",
-          "teamUsageDescription": "Il volume di traduzioni IA del Suo team negli ultimi 30 giorni.",
+          "teamUsageDescription": "Il volume di traduzioni IA del Suo team negli ultimi 30 giorni.",
           "yourUsage": "Il Suo utilizzo",
-          "yourUsageDescription": "Il Suo volume personale di traduzioni IA negli ultimi 30 giorni.",
+          "yourUsageDescription": "Il Suo volume personale di traduzioni IA negli ultimi 30 giorni.",
           "characters": "caratteri",
           "files": "file",
           "outOfFiles": "di {limit} file",
@@ -4664,7 +4666,7 @@
           "description": "Ottimizzi i Suoi flussi di lavoro con un accesso modulare e sicuro alle traduzioni."
         },
         "payAsYouGo": "Costi basati sull’utilizzo",
-        "per1MillionCharacters": "per 1 milione di caratteri",
+        "per1MillionCharacters": "per 1 milione di caratteri",
         "price": "Prezzo",
         "perMonth": "al mese",
         "notifications": {
@@ -4753,7 +4755,7 @@
       },
       "new": "Nuovo",
       "accessDenied": {
-        "title": "Accesso limitato",
+        "title": "Accesso negato",
         "description": "Lei non ha accesso a queste impostazioni. Si rivolga a un amministratore del Suo team."
       },
       "appearance": {
@@ -4819,7 +4821,7 @@
             "uploadLogo": "Carica logo",
             "logoUrl": "Logo URL",
             "suggestedDimensions": "Dimensioni immagine consigliate: 140 × 30 pixel.",
-            "maxFileSize": "Dimensione massima dei file: 2 MB",
+            "maxFileSize": "Dimensione massima dei file: 2 MB",
             "invalidUrl": "Questo URL non rimanda a un’immagine valida. Verificare l’URL e provare di nuovo."
           },
           "favicon": {
@@ -4827,15 +4829,15 @@
             "noFaviconUploaded": "Non è stata caricata alcuna favicon",
             "clickOrDragDrop": "Cliccare qui o trascinare qui un’immagine",
             "uploadFavicon": "Carica favicon",
-            "faviconUrl": "Url favicon",
-            "requirements": "Le favicon devono avere una forma quadrata e dimensioni di almeno 32 × 32 pixel.",
-            "maxFileSize": "Dimensione massima dei file: 2 MB",
+            "faviconUrl": "URL favicon",
+            "requirements": "Le favicon devono avere una forma quadrata e dimensioni di almeno 32 × 32 pixel.",
+            "maxFileSize": "Dimensione massima dei file: 2 MB",
             "urlRequirement": "Selezionare un URL immagine HTTPS che consenta l’accesso anonimo e non richieda un’autenticazione.",
             "invalidUrl": "Questo URL non rimanda a un’immagine valida. Verificare l’URL e provare di nuovo."
           },
           "color": {
             "title": "Colore",
-            "badContrast": "Questa combinazione di colori compromette la leggibilità. Rapporto consigliato ≥ 4.5, rapporto attuale: {ratio}",
+            "badContrast": "Questa combinazione di colori compromette la leggibilità. Rapporto consigliato ≥ 4.5, rapporto attuale: {ratio}",
             "primary": {
               "label": "Colore principale",
               "description": "Imposti un colore per i pulsanti principali e scelga se i simboli e il relativo testo debbano essere visualizzati in bianco o in nero."
@@ -4856,6 +4858,19 @@
         "messages": {
           "autoSaved": "Le modifiche sono state salvate",
           "saving": "Salvataggio delle modifiche in corso..."
+        }
+      },
+      "corporateWording": {
+        "table": {
+          "filters": {
+            "language": {
+              "all": "Tutte le lingue"
+            }
+          },
+          "conceptDeletion": {
+            "title": "Elimina termine",
+            "message": "Eliminare definitivamente?"
+          }
         }
       }
     }
@@ -4913,7 +4928,7 @@
       },
       "advancedSubscriptionPanel": {
         "title": "NOVITÀ: SUPERTEXT ADVANCED",
-        "description": "28 lingue e ancora più precisione grazie ai glossari.",
+        "description": "28 lingue e ancora più precisione grazie ai glossari.",
         "cta": {
           "title": "Provalo gratuitamente per 30 giorni.",
           "link": "/abbonamenti"
@@ -5004,7 +5019,7 @@
   },
   "customBranding": {
     "title": "Modifica interfaccia",
-    "description": "È possibile apportare modifiche di base per creare uno spazio di lavoro personalizzato direttamente qui: carichi il Suo logo e scelga due colori per l’interfaccia di traduzione. Ulteriori opzioni personalizzate possono essere impostate nella sezione di configurazione del cockpit.",
+    "description": "È possibile apportare modifiche di base per creare uno spazio di lavoro personalizzato direttamente qui: carichi il Suo logo e scelga due colori per l’interfaccia di traduzione. Ulteriori opzioni personalizzate possono essere impostate nella sezione interfaccia del cockpit.",
     "logoDescription": "Consigliamo di caricare un file .png trasparente o un file .svg con altezza massima di XY pixel.",
     "upload": "Carica file",
     "primaryColorDescription": "Imposti un colore per i pulsanti principali e scelga se le icone e il relativo testo debbano essere visualizzati in bianco o in nero.",

@@ -4549,6 +4549,13 @@
         "siteLicense": "Site licence: all users added are automatically licensed.",
         "siteLicenseDetails": "Subscription details"
       },
+      "styleGuide": {
+        "language": "Language",
+        "addLanguage": "Add language"
+      },
+      "aiTranslator": {
+        "title": "AI translator"
+      },
       "delivery": {
         "title": "Delivery",
         "status": {
@@ -4786,7 +4793,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Available soon",
           "temporaryGetInContact": {
-            "text": "This feature is still under development. Until it’s ready, please contact us to set up a custom subdomain: ",
+            "text": "If you require a custom subdomain, please contact us at <email>hello@supertext.com</email>.",
             "email": "hello@supertext.com",
             "textStart": "To set your own subdomain, please contact"
           }

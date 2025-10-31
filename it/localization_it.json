@@ -4549,6 +4549,13 @@
         "siteLicense": "Licenza aziendale: tutti gli utenti aggiunti ricevono automaticamente una licenza.",
         "siteLicenseDetails": "Dettagli dell’abbonamento"
       },
+      "styleGuide": {
+        "language": "Lingua",
+        "addLanguage": "Aggiungi lingua"
+      },
+      "aiTranslator": {
+        "title": "Traduttore IA"
+      },
       "delivery": {
         "title": "Consegna",
         "status": {
@@ -4786,7 +4793,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Presto disponibile",
           "temporaryGetInContact": {
-            "text": "Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti: ",
+            "text": "Se ha bisogno di un sottodominio personalizzato, vi preghiamo di contattarci all'indirizzo <email>hello@supertext.com</email>.",
             "email": "hello@supertext.com",
             "textStart": "Per impostare un proprio sottodominio, Si rivolga a"
           }

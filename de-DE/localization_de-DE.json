@@ -4553,6 +4553,9 @@
         "language": "Sprache",
         "addLanguage": "Sprache Hinzufügen"
       },
+      "aiTranslator": {
+        "title": "KI-Übersetzer"
+      },
       "delivery": {
         "title": "Lieferung",
         "status": {
@@ -4600,7 +4603,7 @@
           "inviteUser": "User:in einladen",
           "exploreSubscriptions": "Abos entdecken",
           "assignLicences": "Lizenzen zuweisen",
-          "users": "user:innen",
+          "users": "User:innen",
           "usersActivePast30Days": "aktive User:innen in den letzten 30 Tagen",
           "licensedUsers": "lizenzierte User:innen",
           "inviteUserTooltip": "Nur Admins können User:innen einladen.",
@@ -4790,7 +4793,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
           "temporaryGetInContact": {
-            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen: ",
+            "text": "Wenn Sie eine benutzerdefinierte Subdomain benötigen, wenden Sie sich bitte an uns unter <email>hello@supertext.com</email>.",
             "email": "hello@supertext.com",
             "textStart": "Um eine eigene Subdomain festzulegen, wenden Sie sich bitte an"
           }

@@ -3466,7 +3466,7 @@
               },
               {
                 "title": "Sofort in jeder Sprache korrekt – mit KI-Übersetzung und Profi-Check",
-                "description": "Sie brauchen beim Übersetzen Sicherheit auf Knopfdruck? Unsere muttersprachlichen, geprüften Korrektor:innen garantieren fehlerfreie Kommunikation in Minuten statt Stunden. Aktuell verfügbar in 12 Sprachkombinationen.",
+                "description": "Sie brauchen beim Übersetzen Sicherheit auf Knopfdruck? Unsere muttersprachlichen, geprüften Korrektor:innen garantieren fehlerfreie Kommunikation in Minuten statt Stunden. Aktuell verfügbar in 6 Sprachkombinationen.",
                 "cta1": {
                   "title": "Profi-Check ausprobieren",
                   "link": "/"
@@ -4549,6 +4549,13 @@
         "siteLicense": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
         "siteLicenseDetails": "Abo-Details"
       },
+      "styleGuide": {
+        "language": "Sprache",
+        "addLanguage": "Sprache Hinzufügen"
+      },
+      "aiTranslator": {
+        "title": "KI-Übersetzer"
+      },
       "delivery": {
         "title": "Lieferung",
         "status": {
@@ -4786,7 +4793,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
           "temporaryGetInContact": {
-            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen: ",
+            "text": "Wenn Sie eine benutzerdefinierte Subdomain benötigen, wenden Sie sich bitte an uns unter <email>hello@supertext.com</email>.",
             "email": "hello@supertext.com",
             "textStart": "Um eine eigene Subdomain festzulegen, wenden Sie sich bitte an"
           }
@@ -4861,15 +4868,135 @@
         }
       },
       "corporateWording": {
+        "intro": {
+          "description": "Legen Sie fest, wie Ihre Supertext-KI bestimmte Begriffe übersetzt. Hier festgelegte Übersetzungen werden für alle Mitglieder Ihres Teams angewandt und gelten für alle Nutzungsarten."
+        },
         "table": {
+          "headers": {
+            "term": "Begriff",
+            "languages": "Sprachen"
+          },
+          "empty": {
+            "noConcepts": "Keine Begriffe gefunden"
+          },
+          "pagination": {
+            "entriesPerPage": "Einträge pro Seite",
+            "range": "{from} – {to} von {total}"
+          },
+          "languages": {
+            "and": "und",
+            "more": "{count} weitere"
+          },
           "filters": {
             "language": {
               "all": "Alle Sprachen"
-            }
+            },
+            "actions": "Aktion",
+            "bulkDelete": "Begriffe löschen"
           },
           "conceptDeletion": {
             "title": "Begriff löschen",
             "message": "Wirklich löschen?"
+          }
+        },
+        "termModal": {
+          "titles": {
+            "create": "Begriff hinzufügen",
+            "edit": "Begriff bearbeiten"
+          },
+          "buttons": {
+            "openAdd": "Begriff hinzufügen",
+            "create": "Erstellen",
+            "save": "Speichern"
+          },
+          "form": {
+            "languagesLabel": "Verfügbare Sprachen",
+            "languagesTooltip": "Die verfügbaren Sprachen hängen von Ihrem Abonnement ab.",
+            "languagesHelper": "Wählen Sie die Sprachen aus, für die Sie Begriffe hinzufügen möchten.",
+            "termsLabel": "Begriffe",
+            "termsTooltip": "Begriffe sind die Wörter oder Phrasen, die Sie übersetzen möchten.",
+            "termsHelper": "Fügen Sie die Begriffe für die ausgewählten Sprachen hinzu.",
+            "inputPlaceholder": "Begriff",
+            "validation": {
+              "languageRequired": "Sprache wählen",
+              "textRequired": "Übersetzung eingeben",
+              "atLeastOne": "Mindestens eine Übersetzung erforderlich"
+            }
+          },
+          "rowMenu": {
+            "copyToAll": "In alle kopieren",
+            "autoTranslate": "Auto-Übersetzen",
+            "remove": "Entfernen",
+            "ariaRowActions": "Zeilenaktionen"
+          }
+        },
+        "languageSelect": {
+          "selectedCount": "{count, plural, one {# Sprache} other {# Sprachen}}"
+        },
+        "upload": {
+          "buttonOpen": "Upload",
+          "titles": {
+            "initial": "Datei hochladen",
+            "preCollision": "Begriffe konfliktfrei hochladen",
+            "collisionReview": "Begriffe überprüfen",
+            "completed": "",
+            "error": "Fehler beim Hochladen",
+            "default": "Begriffe hochladen"
+          },
+          "submit": "Hochladen",
+          "errors": {
+            "invalidType": "Nur .xlsx-Dateien sind erlaubt",
+            "tooLarge": "Datei ist zu gross. Maximal 20 MB erlaubt"
+          },
+          "downloadTemplate": {
+            "label": "Vorlage herunterladen",
+            "fileLabel": "Corporate Wording Vorlage",
+            "button": "Herunterladen",
+            "helper": "Laden Sie die Vorlage mit Ihrem aktuellen Glossar herunter und füllen Sie sie mit neuen Begriffen."
+          },
+          "initiate": {
+            "label": "Excel-Datei hochladen",
+            "hint": "Nur .xlsx-Dateien werden akzeptiert (max. 20 MB)",
+            "dropHere": "Datei hier ablegen",
+            "dropOrClick": "Datei hier ablegen oder klicken zum Auswählen",
+            "sizeHint": ".xlsx-Dateien bis 20 MB"
+          },
+          "preCollision": {
+            "found": "{rows} Konflikte in {languages} Sprachen gefunden",
+            "info": "Beim Hochladen Ihrer Datei wurden Konflikte festgestellt. Sie können die Konflikte nun überprüfen und verwalten.",
+            "checkConflicts": "Konflikte prüfen",
+            "uploadWithoutFixTitle": "Ohne Korrektur hochladen",
+            "uploadWithoutFixInfo": "Es kann zu Datenverlust kommen, da das Supertext-System die Konflikte nicht so korrigieren kann, wie Sie es beabsichtigt haben.",
+            "uploadWithoutFixButton": "Ohne Korrektur hochladen"
+          },
+          "collisionReview": {
+            "info": "Wählen Sie pro Kollision genau eine Zeile – diese bleibt erhalten. Nutzen Sie die Filter Alle / Offen / Erledigt. Ein grünes Häkchen markiert eine erledigte Kollision. Sind alle erledigt, klicken Sie unten auf Korrigierte Datei hochladen.",
+            "filters": {
+              "all": "Alle ({count})",
+              "open": "Offen ({count})",
+              "closed": "Erledigt ({count})"
+            },
+            "conflictTitle": "Konflikt {index}",
+            "selectHeader": "Auswählen",
+            "rowHeader": "Zeile",
+            "selected": "Ausgewählt",
+            "select": "Wählen",
+            "back": "Zurück",
+            "uploadCorrected": "Datei hochladen",
+            "rows": "{rows} Zeilen "
+          },
+          "success": {
+            "title": "Erfolg!",
+            "description": "Ihre Begriffe wurden erfolgreich hinzugefügt.",
+            "addedConcepts": "Hinzugefügte Konzepte",
+            "updatedTerms": "Aktualisierte Begriffe",
+            "ignoredTerms": "Ignorierte Begriffe",
+            "close": "Schliessen"
+          },
+          "error": {
+            "title": "Oops!",
+            "description": "Etwas ist schiefgelaufen, bitte versuchen Sie es erneut oder kontaktieren Sie uns unter support@supertext.com.",
+            "close": "Schliessen"
           }
         }
       }

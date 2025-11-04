@@ -3466,7 +3466,7 @@
               },
               {
                 "title": "Contenu immédiatement correct dans chaque langue – avec la traduction par l’IA et la vérification",
-                "description": "Vous avez besoin d’une traduction assurément correcte en un temps record? Nos relecteurs/-trices certifiés/-es de langue maternelle garantissent une communication sans erreur en quelques minutes au lieu de plusieurs heures. Sevice actuellement disponible dans 12 combinaisons de langues.",
+                "description": "Vous avez besoin d’une traduction assurément correcte en un temps record? Nos relecteurs/-trices certifiés/-es de langue maternelle garantissent une communication sans erreur en quelques minutes au lieu de plusieurs heures. Sevice actuellement disponible dans 6 combinaisons de langues.",
                 "cta1": {
                   "title": "Tester la vérification professionnelle",
                   "link": "/"
@@ -4549,6 +4549,13 @@
         "siteLicense": "Licence d’entreprise: tous/-tes les utilisateurs/-trices ajoutés/-es reçoivent automatiquement une autorisation.",
         "siteLicenseDetails": "Détails de l’abonnement"
       },
+      "styleGuide": {
+        "language": "Langue",
+        "addLanguage": "Ajouter une langue"
+      },
+      "aiTranslator": {
+        "title": "Traducteur par l'IA"
+      },
       "delivery": {
         "title": "Livraison",
         "status": {
@@ -4786,7 +4793,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bientôt disponible",
           "temporaryGetInContact": {
-            "text": "Cette fonctionnalité est encore en cours de développement. En attendant, vous pouvez nous contacter directement si vous souhaitez enregistrer un sous-domaine personnalisé: ",
+            "text": "Si vous avez besoin d’un sous-domaine personnalisé, veuillez nous contacter à l’adresse <email>hello@supertext.com</email>.",
             "email": "hello@supertext.com",
             "textStart": "Pour définir un sous-domaine, veuillez contacter"
           }

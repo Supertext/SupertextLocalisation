@@ -4793,7 +4793,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Available soon",
           "temporaryGetInContact": {
-            "text": "If you require a custom subdomain, please contact us at <email>hello@supertext.com</email>.",
+            "text": " If you require a custom subdomain, please contact us at <email>hello@supertext.com</email>.",
             "email": "hello@supertext.com",
             "textStart": "To set your own subdomain, please contact"
           }
@@ -4868,137 +4868,18 @@
         }
       },
       "corporateWording": {
-        "intro": {
-          "description": "Set how your Supertext AI translates certain terms. Translations set here will be applied to all members of your team and will apply to all use cases."
-        },
         "table": {
-          "headers": {
-            "term": "Term",
-            "languages": "Languages"
-          },
-          "empty": {
-            "noConcepts": "No terms found"
-          },
-          "pagination": {
-            "entriesPerPage": "Entries per page",
-            "range": "{from} - {to} of {total}"
-          },
-          "languages": {
-            "and": "and",
-            "more": "{count} more"
-          },
           "filters": {
             "language": {
               "all": "All languages"
-            },
-            "actions": "Action",
-            "bulkDelete": "Delete terms"
+            }
           },
           "conceptDeletion": {
             "title": "Delete term",
-            "message": "Are you sure you want to delete this term?"
-          }
-        },
-        "termModal": {
-          "titles": {
-            "create": "Add term",
-            "edit": "Edit term"
-          },
-          "buttons": {
-            "openAdd": "Add term",
-            "create": "Create",
-            "save": "Save"
-          },
-          "form": {
-            "languagesLabel": "Available languages",
-            "languagesTooltip": "The available languages depend on your subscription.",
-            "languagesHelper": "Select the languages for which you want to add terms.",
-            "termsLabel": "Terms",
-            "termsTooltip": "Terms are the words or phrases you want to translate.",
-            "termsHelper": "Add the terms for the selected languages.",
-            "inputPlaceholder": "Term",
-            "validation": {
-              "languageRequired": "Select a language",
-              "textRequired": "Enter a translation",
-              "atLeastOne": "At least one translation required"
-            }
-          },
-          "rowMenu": {
-            "copyToAll": "Copy to all",
-            "autoTranslate": "Auto-translate",
-            "remove": "Remove",
-            "ariaRowActions": "Row Actions"
-          }
-        },
-        "languageSelect": {
-          "selectedCount": "{count, plural, one {# Language} other {# Languages}}"
-        },
-        "upload": {
-          "buttonOpen": "Upload",
-          "titles": {
-            "initial": "Upload file",
-            "preCollision": "Conflict-free upload of terms",
-            "collisionReview": "Review terms",
-            "completed": "",
-            "error": "Error uploading",
-            "default": "Upload terms"
-          },
-          "submit": "Upload",
-          "errors": {
-            "invalidType": "Only .xlsx files are allowed",
-            "tooLarge": "File is too large. Maximum 20 MB allowed"
-          },
-          "downloadTemplate": {
-            "label": "Download template",
-            "fileLabel": "Corporate Wording Template",
-            "button": "Download",
-            "helper": "Download the template with your current glossary and fill it with new terms."
-          },
-          "initiate": {
-            "label": "Upload Excel file",
-            "hint": "Only .xlsx files are accepted (max. 20 MB)",
-            "dropHere": "Drop the file here",
-            "dropOrClick": "Drop the file here or click to select",
-            "sizeHint": ".xlsx files up to 20 MB"
-          },
-          "preCollision": {
-            "found": "{rows} conflicts found in {languages} languages",
-            "info": "Conflicts were found when uploading your file. You can now review and manage the conflicts.",
-            "checkConflicts": "Check conflicts",
-            "uploadWithoutFixTitle": "Upload without correction",
-            "uploadWithoutFixInfo": "Data loss may occur, as the Supertext system cannot correct the conflicts as you intended.",
-            "uploadWithoutFixButton": "Upload without correction"
-          },
-          "collisionReview": {
-            "info": "Select exactly one row per conflict - this will be retained. Use the filters All / Open / Done. A green checkmark marks a resolved conflict. When all are resolved, click Upload corrected file below.",
-            "filters": {
-              "all": "All ({count})",
-              "open": "Open ({count})",
-              "closed": "Done ({count})"
-            },
-            "conflictTitle": "Conflict {index}",
-            "selectHeader": "Select",
-            "rowHeader": "Row",
-            "selected": "Selected",
-            "select": "Select",
-            "back": "Back",
-            "uploadCorrected": "Upload file",
-            "rows": "{rows} Rows"
-          },
-          "success": {
-            "title": "Success!",
-            "description": "Your terms were successfully added.",
-            "addedConcepts": "Added concepts",
-            "updatedTerms": "Updated terms",
-            "ignoredTerms": "Ignored terms",
-            "close": "Close"
-          },
-          "error": {
-            "title": "Oops!",
-            "description": "Something went wrong, please try again or contact us at support@supertext.com.",
-            "close": "Close"
+            "message": "Are you sure you want to delete this?"
           }
         }
+      }
     }
   },
   "remove": "Remove",
@@ -5157,5 +5038,4 @@
     "contrastError": "This colour combination will result in poor readability. Suggested ratio ≥ 4.5, current ratio: {ratio}"
   },
   "myTeamLinks": "My team’s links"
-}
 }

@@ -4596,7 +4596,10 @@
           "rulesetTable": {
             "language": "Sprache",
             "deleteMessage": "Sind Sie sicher, dass Sie diese Regel entfernen möchten?",
-            "deleteTitle": "Regel entfernen"
+            "deleteTitle": "Regel entfernen",
+            "empty": {
+              "noRulesets": "Keine Regeln gefunden"
+            }
           },
           "ruleset": {
             "back": "Zurück",

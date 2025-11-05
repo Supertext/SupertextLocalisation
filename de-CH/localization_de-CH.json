@@ -5254,7 +5254,12 @@
       "glossaryViewAll": {
         "activate": "Aktivieren",
         "active": "Aktiv",
-        "create": "Glossar erstellen"
+        "create": "Glossar erstellen",
+        "manage": "Verwalten",
+        "view": "Ansehen",
+        "badgeNew": "NEU",
+        "corporateLanguageTitle": "Corporate Language",
+        "corporateLanguageDescriptionRich": "Corporate Language ist vom Team‑Admin konfiguriert und kann nicht deaktiviert werden <link>Mehr erfahren</link>"
       },
       "glossaryDoesntExist": {
         "description": "Definieren Sie, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
@@ -5293,7 +5298,9 @@
           "targetLanguage": "Zielsprache",
           "placeholderSourceText": "Ausgangsbegriff",
           "placeholderTargetText": "Zielbegriff",
-          "saveEntry": "Eintrag speichern"
+          "saveEntry": "Eintrag speichern",
+          "sourceTermReservedMessagePrefix": "Der von Ihnen in <strong>{language}</strong> angegebene <strong>Ausgangsbegriff</strong> ist bereits in Ihrem",
+          "sourceTermReservedMessage": "Der von Ihnen in <strong>{language}</strong> angegebene <strong>Ausgangsbegriff</strong> ist bereits in Ihrem <strong><link>Corporate‑Wording‑Tool</link></strong>."
         },
         "languagePairAccordion": {
           "emptyStateDescription": "Definieren Sie, wie Wörter und Phrasen übersetzt werden sollen. Der KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",

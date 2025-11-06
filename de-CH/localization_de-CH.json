@@ -5299,8 +5299,7 @@
           "placeholderSourceText": "Ausgangsbegriff",
           "placeholderTargetText": "Zielbegriff",
           "saveEntry": "Eintrag speichern",
-          "sourceTermReservedMessagePrefix": "Der von Ihnen in <strong>{language}</strong> angegebene <strong>Ausgangsbegriff</strong> ist bereits in Ihrem",
-          "sourceTermReservedMessage": "Der von Ihnen in <strong>{language}</strong> angegebene <strong>Ausgangsbegriff</strong> ist bereits in Ihrem <strong><link>Corporate‑Wording‑Tool</link></strong>."
+          "sourceTermReservedMessage": "Der von Ihnen angegebene <strong>Quellbegriff</strong> ist bereits in Ihrem <strong><link>Corporate Wording</link></strong> enthalten. Wenn Sie diesen Begriff dennoch hinzufügen, wird er überschrieben."
         },
         "languagePairAccordion": {
           "emptyStateDescription": "Definieren Sie, wie Wörter und Phrasen übersetzt werden sollen. Der KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",

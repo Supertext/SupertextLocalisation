@@ -17,7 +17,7 @@ jobs:
     env:
       AZURE_DEVOPS_ORG_URL: "https://dev.azure.com/supertext"
       AZURE_DEVOPS_ORG: "supertext"
-      AZURE_DEVOPS_PROJECT: "Starstruck"
+      AZURE_DEVOPS_PROJECT: "Supertext"
       AZURE_REPO_NAME: "Starstruck.translation-interface"
       BASE_BRANCH: "develop"
       AZURE_TARGET_PATH: "src/localization"
@@ -47,7 +47,7 @@ jobs:
         env:
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
         run: |
-          git clone https://supertext:${{ secrets.AZURE_DEVOPS_PAT }}@dev.azure.com/supertext/Starstruck/_git/Starstruck.translation-interface
+          git clone https://supertext:${{ secrets.AZURE_DEVOPS_PAT }}@dev.azure.com/supertext/Supertext/_git/Starstruck.translation-interface
           
       - name: Set Branch Name
         id: set_branch_name
@@ -99,7 +99,7 @@ jobs:
         env:
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
           BRANCH_NAME: ${{ env.BRANCH_NAME }}
-          REVIEWER_IDS: "2edaf683-9596-4c7f-b703-a2d124d08fee 9dda57cc-3e4b-60d0-8882-d32d28dc3b6e 052d0d9b-f3c9-47ad-b066-7740e1677992 a76a389d-7b74-613b-9253-fd3dcd69ccbf"
+          REVIEWER_IDS: "2edaf683-9596-4c7f-b703-a2d124d08fee"
           WORK_ITEM_ID: 13144
         run: |
           # Configure Azure DevOps CLI

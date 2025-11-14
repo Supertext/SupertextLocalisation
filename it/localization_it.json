@@ -1066,8 +1066,8 @@
           "title": "Free include:",
           "items": {
             "0": {
-              "title": "6 lingue",
-              "tooltip": "Tedesco, inglese, francese, italiano, romancio, svizzero tedesco"
+              "title": "28 lingue",
+              "tooltip": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, norvegese, olandese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese"
             },
             "1": {
               "title": "Fino a 3000 caratteri",
@@ -1323,8 +1323,8 @@
               "name": "Lingue",
               "description": "",
               "all": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
-              "free": "Tedesco, inglese, francese, italiano, romancio, svizzero tedesco",
-              "essential": "Tedesco, inglese, francese, italiano, romancio, svizzero tedesco",
+              "free": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, norvegese, olandese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese",
+              "essential": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, norvegese, olandese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese",
               "advanced": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "pro": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, norvegese, olandese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese",
               "enterprise": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
@@ -1333,8 +1333,8 @@
               "name": "Varianti nazionali",
               "description": "",
               "all": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
-              "free": "Francese (CH, FR), inglese (GB, US), italiano (CH, IT), tedesco (AT, CH, DE), svizzero tedesco (BE, ZH)",
-              "essential": "Francese (CH, FR), inglese (GB, US), italiano (CH, IT), tedesco (AT, CH, DE), svizzero tedesco (BE, ZH)",
+              "free": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
+              "essential": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
               "advanced": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
               "pro": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)",
               "enterprise": "Cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), serbo (cirillico, latino), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)"
@@ -3466,7 +3466,7 @@
               },
               {
                 "title": "Correttezza immediata in ogni lingua grazie alla traduzione IA e alla verifica professionale",
-                "description": "Avete bisogno di traduzioni sicure con un solo click? I nostri revisori madrelingua certificati garantiscono una comunicazione priva di errori in minuti anziché ore. Attualmente disponibile in 6 combinazioni linguistiche.",
+                "description": "Avete bisogno di traduzioni sicure con un solo click? I nostri revisori madrelingua certificati garantiscono una comunicazione priva di errori in minuti anziché ore. Attualmente disponibile in 12 combinazioni linguistiche.",
                 "cta1": {
                   "title": "Prova la verifica professionale",
                   "link": "/"
@@ -3867,10 +3867,10 @@
     "featureComparisonMobile": {
       "sprachen_und_sprachvarianten": {
         "category": "Lingue e varianti linguistiche",
-        "tooltip": "<strong>Lingue e varianti linguistiche</strong> <br/> <strong>6 lingue</strong>: francese, inglese, italiano, romancio, svizzero tedesco, tedesco <br/><br/> francese (CH, FR), inglese (GB, US), italiano (CH, IT), svizzero tedesco (BE, ZH), tedesco (AT, CH, DE)<br/><br/> <strong>28 lingue</strong>: albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese <br/><br/> cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH), serbo (cirillico, latino), tedesco (AT, CH, DE)",
+        "tooltip": "<strong>Lingue</strong> <br/> albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese <br/><br/> <strong>Varianti linguistiche</strong> <br/> cinese (semplificato, tradizionale), francese (CH, FR), inglese (GB, US), italiano (CH, IT), portoghese (BR, PT), svizzero tedesco (BE, ZH), serbo (cirillico, latino), tedesco (AT, CH, DE)",
         "rows": {
-          "free": "6 lingue",
-          "essential": "6 lingue",
+          "free": "28 lingue",
+          "essential": "28 lingue",
           "advanced": "28 lingue",
           "pro": "28 lingue",
           "enterprise": "28 lingue"
@@ -4549,13 +4549,6 @@
         "siteLicense": "Licenza aziendale: tutti gli utenti aggiunti ricevono automaticamente una licenza.",
         "siteLicenseDetails": "Dettagli dell’abbonamento"
       },
-      "styleGuide": {
-        "language": "Lingua",
-        "addLanguage": "Aggiungi lingua"
-      },
-      "aiTranslator": {
-        "title": "Traduttore IA"
-      },
       "delivery": {
         "title": "Consegna",
         "status": {
@@ -4793,7 +4786,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Presto disponibile",
           "temporaryGetInContact": {
-            "text": "Se ha bisogno di un sottodominio personalizzato, vi preghiamo di contattarci all'indirizzo <email>hello@supertext.com</email>.",
+            "text": "Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti: ",
             "email": "hello@supertext.com",
             "textStart": "Per impostare un proprio sottodominio, Si rivolga a"
           }
@@ -4872,13 +4865,312 @@
           "filters": {
             "language": {
               "all": "Tutte le lingue"
-            }
+            },
+            "actions": "Azione",
+            "bulkDelete": ""
           },
           "conceptDeletion": {
             "title": "Elimina termine",
             "message": "Eliminare definitivamente?"
+          },
+          "headers": {
+            "term": "",
+            "languages": "Lingue"
+          },
+          "empty": {
+            "noConcepts": ""
+          },
+          "pagination": {
+            "entriesPerPage": "Risultati per pagina",
+            "range": ""
+          },
+          "languages": {
+            "and": "e",
+            "more": ""
+          }
+        },
+        "intro": {
+          "description": ""
+        },
+        "termModal": {
+          "titles": {
+            "create": "Aggiungi termine",
+            "edit": "Modifica termine"
+          },
+          "buttons": {
+            "openAdd": "Aggiungi termine",
+            "create": "Crea",
+            "save": "Salva"
+          },
+          "form": {
+            "languagesLabel": "",
+            "languagesTooltip": "",
+            "languagesHelper": "",
+            "termsLabel": "",
+            "termsTooltip": "",
+            "termsHelper": "",
+            "inputPlaceholder": "",
+            "validation": {
+              "languageRequired": "",
+              "textRequired": "",
+              "atLeastOne": ""
+            }
+          },
+          "rowMenu": {
+            "copyToAll": "",
+            "autoTranslate": "",
+            "remove": "Rimuovi",
+            "ariaRowActions": ""
+          }
+        },
+        "languageSelect": {
+          "selectedCount": ""
+        },
+        "upload": {
+          "buttonOpen": "",
+          "titles": {
+            "initial": "Carica file",
+            "preCollision": "",
+            "collisionReview": "",
+            "completed": "",
+            "error": "",
+            "default": ""
+          },
+          "submit": "Carica",
+          "errors": {
+            "invalidType": "",
+            "tooLarge": ""
+          },
+          "downloadTemplate": {
+            "label": "",
+            "fileLabel": "",
+            "button": "Scarica",
+            "helper": ""
+          },
+          "initiate": {
+            "label": "",
+            "hint": "",
+            "dropHere": "",
+            "dropOrClick": "",
+            "sizeHint": ""
+          },
+          "preCollision": {
+            "found": "",
+            "info": "",
+            "checkConflicts": "",
+            "uploadWithoutFixTitle": "",
+            "uploadWithoutFixInfo": "",
+            "uploadWithoutFixButton": ""
+          },
+          "collisionReview": {
+            "info": "",
+            "filters": {
+              "all": "",
+              "open": "",
+              "closed": ""
+            },
+            "conflictTitle": "",
+            "selectHeader": "",
+            "rowHeader": "",
+            "selected": "",
+            "select": "",
+            "back": "Indietro",
+            "uploadCorrected": "Carica file",
+            "rows": ""
+          },
+          "success": {
+            "title": "",
+            "description": "",
+            "addedConcepts": "",
+            "updatedTerms": "",
+            "ignoredTerms": "",
+            "close": "Chiudi"
+          },
+          "error": {
+            "title": "",
+            "description": "",
+            "close": "Chiudi"
           }
         }
+      },
+      "customisation": {
+        "navigation": {
+          "corporateWording": "",
+          "styleGuide": "",
+          "forEnterprise": "Per Enterprise"
+        },
+        "title": "",
+        "styleGuide": {
+          "hooks": {
+            "currentStyleGuideError": "",
+            "getRulesetError": "",
+            "addRulesetError": "",
+            "addRulesetSuccess": "",
+            "editRulesetError": "",
+            "editRulesetSuccess": "",
+            "deleteRulesetError": "",
+            "deleteRulesetSuccess": "",
+            "applyStyleGuideError": ""
+          },
+          "actions": {
+            "title": "Azione",
+            "removeAll": "",
+            "removeSelected": "",
+            "removeSelectedMessage": ""
+          },
+          "addRulesetModal": {
+            "language": "Lingua",
+            "addLanguage": "",
+            "validation": {
+              "language": ""
+            },
+            "placeholder": {
+              "language": ""
+            }
+          },
+          "cloneRulesetModal": {
+            "language": "Lingua",
+            "cloneLanguage": "",
+            "validation": {
+              "language": ""
+            },
+            "placeholder": {
+              "language": ""
+            }
+          },
+          "rulesetTable": {
+            "language": "Lingua",
+            "deleteMessage": "",
+            "deleteTitle": "",
+            "empty": {
+              "noRulesets": ""
+            }
+          },
+          "ruleset": {
+            "back": "Indietro",
+            "doNotEnforce": "",
+            "language": "Lingua",
+            "languageHelperText": "",
+            "punctuation": {
+              "title": "",
+              "enforceQuotationMarks": "",
+              "enforceQuotationMarksChoices": {
+                "leftRightCurvedDouble": "",
+                "leftRightCurvedSingle": "",
+                "lowHighCurvedDouble": "",
+                "outwardsGuillemets": "",
+                "inwardsGuillemets": "",
+                "straightSingle": "",
+                "straightDouble": "",
+                "rectangularSingle": ""
+              },
+              "enforceEllipsis": "",
+              "enforceEllipsisHelperText": "",
+              "enforceTypesetterApostrophe": "",
+              "enforceTypesetterApostropheHelperText": "",
+              "enforceDashBetweenSpaces": "",
+              "enforceDashBetweenSpacesHelperText": "",
+              "enforceDashBetweenSpacesChoices": {
+                "hyphen": "",
+                "enDash": "",
+                "emDash": ""
+              },
+              "spaceSurroundingSlash": "",
+              "spaceSurroundingSlashHelperText": "",
+              "spaceSurroundingSlashChoices": {
+                "insert": "",
+                "remove": ""
+              },
+              "enforceSpaceBeforePercentSymbol": "",
+              "enforceSpaceBeforePercentSymbolChoices": {
+                "insert": "",
+                "remove": ""
+              },
+              "enforcePercentSymbol": "",
+              "enforcePercentSymbolHelperText": ""
+            },
+            "numbers": {
+              "title": "",
+              "enforceThousandsSeparator": "",
+              "enforceThousandsSeparatorChoices": {
+                "nbsp": "",
+                "straightSingleQuote": "",
+                "curvedSingleQuote": "",
+                "comma": "",
+                "period": ""
+              },
+              "enforceSeparatorFor4DigitNumbers": "",
+              "enforceSeparatorFor4DigitNumbersHelperText": "",
+              "enforceDecimalSeparator": "",
+              "enforceDecimalSeparatorChoices": {
+                "comma": "",
+                "period": ""
+              },
+              "enforceDotsInDates": "",
+              "enforceDotsInDatesHelperText": "",
+              "nbspDates": "",
+              "nbspDatesHelperText": "",
+              "nbspDatesChoices": {
+                "daysMonthsYears": "",
+                "daysMonths": ""
+              },
+              "nbspUnits": "",
+              "nbspUnitsHelperText": "",
+              "currenciesPosition": "",
+              "currenciesPositionChoices": {
+                "leading": "",
+                "following": ""
+              },
+              "nbspCurrencies": "",
+              "nbspCurrenciesHelperText": "",
+              "enforceDashInCurrencies": "",
+              "enforceDashInCurrenciesChoices": {
+                "hyphen": "",
+                "enDash": "",
+                "emDash": ""
+              },
+              "enforceDashInNumericRanges": "",
+              "enforceDashInNumericRangesChoices": {
+                "hyphen": "",
+                "enDash": "",
+                "emDash": ""
+              },
+              "mioMiaAbbreviation": "",
+              "mioMiaAbbreviationHelperText": ""
+            },
+            "specialisedLocalisation": {
+              "title": "",
+              "commaInsideQuotes": "",
+              "commaInsideQuotesHelperText": "",
+              "honorifics": "",
+              "honorificsHelperText": "",
+              "honorificsChoices": {
+                "insert": "",
+                "remove": ""
+              },
+              "suppressSharpS": "",
+              "suppressSharpSHelperText": "",
+              "supressUppercaseAccents": "",
+              "supressUppercaseAccentsHelperText": "",
+              "frenchSpacing": "",
+              "frenchSpacingHelperText": "",
+              "frenchSpacingChoices": {
+                "insert": "",
+                "remove": ""
+              }
+            },
+            "preview": {
+              "title": "",
+              "source": "",
+              "target": "Testo di arrivo",
+              "helperText": ""
+            }
+          }
+        },
+        "new": ""
+      },
+      "aiTranslator": {
+        "title": "Traduttore IA"
       }
     }
   },
@@ -4935,7 +5227,7 @@
       },
       "advancedSubscriptionPanel": {
         "title": "NOVITÀ: SUPERTEXT ADVANCED",
-        "description": "28 lingue e ancora più precisione grazie ai glossari.",
+        "description": "Tradurre con ancora più precisione grazie ai glossari.",
         "cta": {
           "title": "Provalo gratuitamente per 30 giorni.",
           "link": "/abbonamenti"
@@ -4964,7 +5256,12 @@
       "glossaryViewAll": {
         "activate": "Attiva",
         "active": "Attivo",
-        "create": "Crea glossario"
+        "create": "Crea glossario",
+        "manage": "",
+        "view": "",
+        "badgeNew": "",
+        "corporateLanguageTitle": "Linguaggio aziendale",
+        "corporateLanguageDescriptionRich": ""
       },
       "glossaryDoesntExist": {
         "description": "Stabilisca come tradurre determinate parole e frasi. In fase finale, il traduttore IA adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",
@@ -5003,7 +5300,8 @@
           "targetLanguage": "Lingua di arrivo",
           "placeholderSourceText": "Termine di partenza",
           "placeholderTargetText": "Termine di arrivo",
-          "saveEntry": "Salva voce"
+          "saveEntry": "Salva voce",
+          "sourceTermReservedMessage": ""
         },
         "languagePairAccordion": {
           "emptyStateDescription": "Stabilisca come tradurre parole e frasi. Il traduttore IA adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",

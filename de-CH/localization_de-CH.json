@@ -4549,183 +4549,6 @@
         "siteLicense": "Unternehmenslizenz: Alle hinzugefügten User:innen sind automatisch lizenziert.",
         "siteLicenseDetails": "Abo-Details"
       },
-      "customisation": {
-        "navigation": {
-          "corporateWording": "Corporate Wording",
-          "styleGuide": "Style Guide"
-        },
-        "title": "Anpassung",
-        "styleGuide": {
-          "hooks": {
-            "currentStyleGuideError": "Style Guide konnte nicht geladen werden",
-            "getRulesetError": "Regeln konnten nicht geladen werden",
-            "addRulesetError": "Regeln konnten nicht hinzugefügt werden",
-            "addRulesetSuccess": "Regeln erfolgreich hinzugefügt",
-            "editRulesetError": "Regeln konnten nicht bearbeitet werden",
-            "editRulesetSuccess": "Regeln erfolgreich bearbeitet",
-            "deleteRulesetError": "Regeln konnten nicht entfernt werden",
-            "deleteRulesetSuccess": "Regeln erfolgreich entfernt",
-            "applyStyleGuideError": "Style Guide konnte nicht angewendet werden"
-          },
-          "actions": {
-            "title": "Aktion",
-            "removeAll": "Regeln entfernen",
-            "removeSelected": "Ausgewählte Regeln entfernen",
-            "removeSelectedMessage": "Sind Sie sicher, dass Sie diese Regeln entfernen möchten?"
-          },
-          "addRulesetModal": {
-            "language": "Sprache",
-            "addLanguage": "Sprache Hinzufügen",
-            "validation": {
-              "language": "Sprache ist erforderlich"
-            },
-            "placeholder": {
-              "language": "Sprache auswählen"
-            }
-          },
-          "cloneRulesetModal": {
-            "language": "Sprache",
-            "cloneLanguage": "Sprache klonen",
-            "validation": {
-              "language": "Sprache ist erforderlich"
-            },
-            "placeholder": {
-              "language": "Sprache auswählen"
-            }
-          },
-          "rulesetTable": {
-            "language": "Sprache",
-            "deleteMessage": "Sind Sie sicher, dass Sie diese Regel entfernen möchten?",
-            "deleteTitle": "Regel entfernen",
-            "empty": {
-              "noRulesets": "Keine Regeln gefunden"
-            }
-          },
-          "ruleset": {
-            "back": "Zurück",
-            "doNotEnforce": "Nicht erzwingen",
-            "language": "Sprache",
-            "languageHelperText": "Wählen Sie unter den lizenzierten Sprachen aus",
-            "punctuation": {
-              "title": "Interpunktion",
-              "enforceQuotationMarks": "Anführungszeichen erzwingen",
-              "enforceQuotationMarksChoices": {
-                "leftRightCurvedDouble": "Gekrümmte doppelte Anführungszeichen links-rechts (“Text”)",
-                "leftRightCurvedSingle": "Gekrümmte einfache Anführungszeichen links-rechts (‘Text’)",
-                "lowHighCurvedDouble": "Gekrümmte doppelte Anführungszeichen tief-hoch („Text“)",
-                "outwardsGuillemets": "Nach aussen zeigende Guillemets («Text»)",
-                "inwardsGuillemets": "Nach innen zeigende Guillemets (»Text«)",
-                "straightSingle": "Neutrale einfache Anführungszeichen ('Text')",
-                "straightDouble": "Neutrale doppelte Anführungszeichen (\"Text\")",
-                "rectangularSingle": "Rechteckige einzelne Anführungszeichen (「Text」)"
-              },
-              "enforceEllipsis": "Auslassungssymbol erzwingen",
-              "enforceEllipsisHelperText": "Drei Punkte (...) mit einem einzigen Zeichen (…) ersetzen",
-              "enforceTypesetterApostrophe": "Typographisch korrekten Apostroph erzwingen",
-              "enforceTypesetterApostropheHelperText": "Geraden Apostroph mit gekrümmtem einzelnen Anführungszeichen (’) ersetzen",
-              "enforceDashBetweenSpaces": "Strich zwischen Leerzeichen erzwingen",
-              "enforceDashBetweenSpacesHelperText": "Beispiel: «an - aus» → «an – aus»",
-              "enforceDashBetweenSpacesChoices": {
-                "hyphen": "Bindestrich (-)",
-                "enDash": "Halbgeviertstrich (–)",
-                "emDash": "langer Gedankenstrich (—)"
-              },
-              "spaceSurroundingSlash": "Leerzeichen um Schrägstrich herum",
-              "spaceSurroundingSlashHelperText": "Beispiel: hinauf/hinunter → hinauf / hinunter (oder umgekehrt)",
-              "spaceSurroundingSlashChoices": {
-                "insert": "Umgebende Leerzeichen einfügen",
-                "remove": "Umgebende Leerzeichen entfernen"
-              },
-              "enforceSpaceBeforePercentSymbol": "Leerzeichen vor Prozentsymbol",
-              "enforceSpaceBeforePercentSymbolChoices": {
-                "insert": "Geschütztes Leerzeichen einfügen («30 %»)",
-                "remove": "Leerzeichen entfernen («30%»)"
-              },
-              "enforcePercentSymbol": "Prozentsymbol erzwingen",
-              "enforcePercentSymbolHelperText": "Ausgeschriebene «percent/pourcent/percento/Prozent» mit «%» ersetzen"
-            },
-            "numbers": {
-              "title": "Zahlen",
-              "enforceThousandsSeparator": "Tausender-Trennzeichen erzwingen",
-              "enforceThousandsSeparatorChoices": {
-                "nbsp": "Geschütztes Leerzeichen (10 000)",
-                "straightSingleQuote": "Gerader Apostroph (10'000)",
-                "curvedSingleQuote": "Einfaches gekrümmtes Anführungszeichen (10’000)",
-                "comma": "Komma (10,000)",
-                "period": "Punkt (10.000)"
-              },
-              "enforceSeparatorFor4DigitNumbers": "Trennzeichen auch für vierstellige Zahlen erzwingen",
-              "enforceSeparatorFor4DigitNumbersHelperText": "Beispiel: 4'215 → 4,215",
-              "enforceDecimalSeparator": "Dezimaltrennzeichen erzwingen",
-              "enforceDecimalSeparatorChoices": {
-                "comma": "Komma (2,5)",
-                "period": "Punkt (2.5)"
-              },
-              "enforceDotsInDates": "Punkte in Daten erzwingen",
-              "enforceDotsInDatesHelperText": "Beispiel: 13/1/2022 → 13.1.2022",
-              "nbspDates": "Geschütztes Leerzeichen in Daten erzwingen",
-              "nbspDatesHelperText": "Gilt für ausgeschriebene Begriffe wie 12. März, March 3, 25 Juni",
-              "nbspDatesChoices": {
-                "daysMonthsYears": "Zwischen Tag, Monat und Jahr",
-                "daysMonths": "Zwischen Tag und Monat"
-              },
-              "nbspUnits": "Geschütztes Leerzeichen vor Masseinheiten einfügen",
-              "nbspUnitsHelperText": "Gilt für Masseinheiten wie 12 kg, 5 m, 25 °C",
-              "currenciesPosition": "Position des Währungscodes",
-              "currenciesPositionChoices": {
-                "leading": "Davor (CHF 200)",
-                "following": "Danach (200 CHF)"
-              },
-              "nbspCurrencies": "Geschütztes Leerzeichen neben Währung einfügen",
-              "nbspCurrenciesHelperText": "Beispiele: 12 €, CHF 123",
-              "enforceDashInCurrencies": "Strich in monetären Zahlen erzwingen",
-              "enforceDashInCurrenciesChoices": {
-                "hyphen": "Bindestrich (40.-)",
-                "enDash": "Halbgeviertstrich (40.–)",
-                "emDash": "langer Gedankenstrich (40.—)"
-              },
-              "enforceDashInNumericRanges": "Strich in numerischen Bereichen erzwingen",
-              "enforceDashInNumericRangesChoices": {
-                "hyphen": "Bindestrich (10-20)",
-                "enDash": "Halbgeviertstrich (10–20)",
-                "emDash": "langer Gedankenstrich (10—20)"
-              },
-              "mioMiaAbbreviation": "Mio/Mia abkürzen",
-              "mioMiaAbbreviationHelperText": "«Mio.» mit «m» und «Mia.» mit «bn» abkürzen"
-            },
-            "specialisedLocalisation": {
-              "title": "Spezialisierte Lokalisierung",
-              "commaInsideQuotes": "Komma in Anführungszeichen verschieben",
-              "commaInsideQuotesHelperText": "Beispiel: “Come on”, she said → “Come on,” she said",
-              "honorifics": "Anrede mit/ohne Punkte",
-              "honorificsHelperText": "Gilt für Ms, Mrs, Mr, Dr, Prof",
-              "honorificsChoices": {
-                "insert": "Punkte einfügen (Mrs.)",
-                "remove": "Punkte entfernen (Mrs)"
-              },
-              "suppressSharpS": "Scharfes S unterdrücken",
-              "suppressSharpSHelperText": "«ß» immer mit «ss» ersetzen",
-              "supressUppercaseAccents": "Akzente auf Grossbuchstaben unterdrücken",
-              "supressUppercaseAccentsHelperText": "Französische Akzente bei Grossbuchstaben entfernen",
-              "frenchSpacing": "Französische Interpunktionsabstände",
-              "frenchSpacingHelperText": "Beeinflusst Leerzeichen vor Satzzeichen (!?:;) und in Guillemets («»)",
-              "frenchSpacingChoices": {
-                "insert": "Geschütztes Leerzeichen einfügen (Comme ça !)",
-                "remove": "Leerzeichen entfernen (Comme ça!)"
-              }
-            },
-            "preview": {
-              "title": "Vorschau",
-              "source": "Quelltext",
-              "target": "Zieltext",
-              "helperText": "Sie können diesen Text Ihren Bedürfnissen anpassen."
-            }
-          }
-        }
-      },
-      "aiTranslator": {
-        "title": "KI-Übersetzer"
-      },
       "delivery": {
         "title": "Lieferung",
         "status": {
@@ -5038,10 +4861,18 @@
         }
       },
       "corporateWording": {
-        "intro": {
-          "description": "Legen Sie fest, wie Ihre Supertext-KI bestimmte Begriffe übersetzt. Hier festgelegte Übersetzungen werden für alle Mitglieder Ihres Teams angewandt und gelten für alle Nutzungsarten."
-        },
         "table": {
+          "filters": {
+            "language": {
+              "all": "Alle Sprachen"
+            },
+            "actions": "Aktion",
+            "bulkDelete": "Begriffe löschen"
+          },
+          "conceptDeletion": {
+            "title": "Begriff löschen",
+            "message": "Wirklich löschen?"
+          },
           "headers": {
             "term": "Begriff",
             "languages": "Sprachen"
@@ -5056,18 +4887,10 @@
           "languages": {
             "and": "und",
             "more": "{count} weitere"
-          },
-          "filters": {
-            "language": {
-              "all": "Alle Sprachen"
-            },
-            "actions": "Aktion",
-            "bulkDelete": "Begriffe löschen"
-          },
-          "conceptDeletion": {
-            "title": "Begriff löschen",
-            "message": "Wirklich löschen?"
           }
+        },
+        "intro": {
+          "description": "Legen Sie fest, wie Ihre Supertext-KI bestimmte Begriffe übersetzt. Hier festgelegte Übersetzungen werden für alle Mitglieder Ihres Teams angewandt und gelten für alle Nutzungsarten."
         },
         "termModal": {
           "titles": {
@@ -5169,6 +4992,183 @@
             "close": "Schliessen"
           }
         }
+      },
+      "customisation": {
+        "navigation": {
+          "corporateWording": "Corporate Wording",
+          "styleGuide": "Style Guide"
+        },
+        "title": "Anpassung",
+        "styleGuide": {
+          "hooks": {
+            "currentStyleGuideError": "Style Guide konnte nicht geladen werden",
+            "getRulesetError": "Regeln konnten nicht geladen werden",
+            "addRulesetError": "Regeln konnten nicht hinzugefügt werden",
+            "addRulesetSuccess": "Regeln erfolgreich hinzugefügt",
+            "editRulesetError": "Regeln konnten nicht bearbeitet werden",
+            "editRulesetSuccess": "Regeln erfolgreich bearbeitet",
+            "deleteRulesetError": "Regeln konnten nicht entfernt werden",
+            "deleteRulesetSuccess": "Regeln erfolgreich entfernt",
+            "applyStyleGuideError": "Style Guide konnte nicht angewendet werden"
+          },
+          "actions": {
+            "title": "Aktion",
+            "removeAll": "Regeln entfernen",
+            "removeSelected": "Ausgewählte Regeln entfernen",
+            "removeSelectedMessage": "Sind Sie sicher, dass Sie diese Regeln entfernen möchten?"
+          },
+          "addRulesetModal": {
+            "language": "Sprache",
+            "addLanguage": "Sprache Hinzufügen",
+            "validation": {
+              "language": "Sprache ist erforderlich"
+            },
+            "placeholder": {
+              "language": "Sprache auswählen"
+            }
+          },
+          "cloneRulesetModal": {
+            "language": "Sprache",
+            "cloneLanguage": "Sprache klonen",
+            "validation": {
+              "language": "Sprache ist erforderlich"
+            },
+            "placeholder": {
+              "language": "Sprache auswählen"
+            }
+          },
+          "rulesetTable": {
+            "language": "Sprache",
+            "deleteMessage": "Sind Sie sicher, dass Sie diese Regel entfernen möchten?",
+            "deleteTitle": "Regel entfernen",
+            "empty": {
+              "noRulesets": "Keine Regeln gefunden"
+            }
+          },
+          "ruleset": {
+            "back": "Zurück",
+            "doNotEnforce": "Nicht erzwingen",
+            "language": "Sprache",
+            "languageHelperText": "Wählen Sie unter den lizenzierten Sprachen aus",
+            "punctuation": {
+              "title": "Interpunktion",
+              "enforceQuotationMarks": "Anführungszeichen erzwingen",
+              "enforceQuotationMarksChoices": {
+                "leftRightCurvedDouble": "Gekrümmte doppelte Anführungszeichen links-rechts (“Text”)",
+                "leftRightCurvedSingle": "Gekrümmte einfache Anführungszeichen links-rechts (‘Text’)",
+                "lowHighCurvedDouble": "Gekrümmte doppelte Anführungszeichen tief-hoch („Text“)",
+                "outwardsGuillemets": "Nach aussen zeigende Guillemets («Text»)",
+                "inwardsGuillemets": "Nach innen zeigende Guillemets (»Text«)",
+                "straightSingle": "Neutrale einfache Anführungszeichen ('Text')",
+                "straightDouble": "Neutrale doppelte Anführungszeichen (\"Text\")",
+                "rectangularSingle": "Rechteckige einzelne Anführungszeichen (「Text」)"
+              },
+              "enforceEllipsis": "Auslassungssymbol erzwingen",
+              "enforceEllipsisHelperText": "Drei Punkte (...) mit einem einzigen Zeichen (…) ersetzen",
+              "enforceTypesetterApostrophe": "Typographisch korrekten Apostroph erzwingen",
+              "enforceTypesetterApostropheHelperText": "Geraden Apostroph mit gekrümmtem einzelnen Anführungszeichen (’) ersetzen",
+              "enforceDashBetweenSpaces": "Strich zwischen Leerzeichen erzwingen",
+              "enforceDashBetweenSpacesHelperText": "Beispiel: «an - aus» → «an – aus»",
+              "enforceDashBetweenSpacesChoices": {
+                "hyphen": "Bindestrich (-)",
+                "enDash": "Halbgeviertstrich (–)",
+                "emDash": "langer Gedankenstrich (—)"
+              },
+              "spaceSurroundingSlash": "Leerzeichen um Schrägstrich herum",
+              "spaceSurroundingSlashHelperText": "Beispiel: hinauf/hinunter → hinauf / hinunter (oder umgekehrt)",
+              "spaceSurroundingSlashChoices": {
+                "insert": "Umgebende Leerzeichen einfügen",
+                "remove": "Umgebende Leerzeichen entfernen"
+              },
+              "enforceSpaceBeforePercentSymbol": "Leerzeichen vor Prozentsymbol",
+              "enforceSpaceBeforePercentSymbolChoices": {
+                "insert": "Geschütztes Leerzeichen einfügen («30 %»)",
+                "remove": "Leerzeichen entfernen («30%»)"
+              },
+              "enforcePercentSymbol": "Prozentsymbol erzwingen",
+              "enforcePercentSymbolHelperText": "Ausgeschriebene «percent/pourcent/percento/Prozent» mit «%» ersetzen"
+            },
+            "numbers": {
+              "title": "Zahlen",
+              "enforceThousandsSeparator": "Tausender-Trennzeichen erzwingen",
+              "enforceThousandsSeparatorChoices": {
+                "nbsp": "Geschütztes Leerzeichen (10 000)",
+                "straightSingleQuote": "Gerader Apostroph (10'000)",
+                "curvedSingleQuote": "Einfaches gekrümmtes Anführungszeichen (10’000)",
+                "comma": "Komma (10,000)",
+                "period": "Punkt (10.000)"
+              },
+              "enforceSeparatorFor4DigitNumbers": "Trennzeichen auch für vierstellige Zahlen erzwingen",
+              "enforceSeparatorFor4DigitNumbersHelperText": "Beispiel: 4'215 → 4,215",
+              "enforceDecimalSeparator": "Dezimaltrennzeichen erzwingen",
+              "enforceDecimalSeparatorChoices": {
+                "comma": "Komma (2,5)",
+                "period": "Punkt (2.5)"
+              },
+              "enforceDotsInDates": "Punkte in Daten erzwingen",
+              "enforceDotsInDatesHelperText": "Beispiel: 13/1/2022 → 13.1.2022",
+              "nbspDates": "Geschütztes Leerzeichen in Daten erzwingen",
+              "nbspDatesHelperText": "Gilt für ausgeschriebene Begriffe wie 12. März, March 3, 25 Juni",
+              "nbspDatesChoices": {
+                "daysMonthsYears": "Zwischen Tag, Monat und Jahr",
+                "daysMonths": "Zwischen Tag und Monat"
+              },
+              "nbspUnits": "Geschütztes Leerzeichen vor Masseinheiten einfügen",
+              "nbspUnitsHelperText": "Gilt für Masseinheiten wie 12 kg, 5 m, 25 °C",
+              "currenciesPosition": "Position des Währungscodes",
+              "currenciesPositionChoices": {
+                "leading": "Davor (CHF 200)",
+                "following": "Danach (200 CHF)"
+              },
+              "nbspCurrencies": "Geschütztes Leerzeichen neben Währung einfügen",
+              "nbspCurrenciesHelperText": "Beispiele: 12 €, CHF 123",
+              "enforceDashInCurrencies": "Strich in monetären Zahlen erzwingen",
+              "enforceDashInCurrenciesChoices": {
+                "hyphen": "Bindestrich (40.-)",
+                "enDash": "Halbgeviertstrich (40.–)",
+                "emDash": "langer Gedankenstrich (40.—)"
+              },
+              "enforceDashInNumericRanges": "Strich in numerischen Bereichen erzwingen",
+              "enforceDashInNumericRangesChoices": {
+                "hyphen": "Bindestrich (10-20)",
+                "enDash": "Halbgeviertstrich (10–20)",
+                "emDash": "langer Gedankenstrich (10—20)"
+              },
+              "mioMiaAbbreviation": "Mio/Mia abkürzen",
+              "mioMiaAbbreviationHelperText": "«Mio.» mit «m» und «Mia.» mit «bn» abkürzen"
+            },
+            "specialisedLocalisation": {
+              "title": "Spezialisierte Lokalisierung",
+              "commaInsideQuotes": "Komma in Anführungszeichen verschieben",
+              "commaInsideQuotesHelperText": "Beispiel: “Come on”, she said → “Come on,” she said",
+              "honorifics": "Anrede mit/ohne Punkte",
+              "honorificsHelperText": "Gilt für Ms, Mrs, Mr, Dr, Prof",
+              "honorificsChoices": {
+                "insert": "Punkte einfügen (Mrs.)",
+                "remove": "Punkte entfernen (Mrs)"
+              },
+              "suppressSharpS": "Scharfes S unterdrücken",
+              "suppressSharpSHelperText": "«ß» immer mit «ss» ersetzen",
+              "supressUppercaseAccents": "Akzente auf Grossbuchstaben unterdrücken",
+              "supressUppercaseAccentsHelperText": "Französische Akzente bei Grossbuchstaben entfernen",
+              "frenchSpacing": "Französische Interpunktionsabstände",
+              "frenchSpacingHelperText": "Beeinflusst Leerzeichen vor Satzzeichen (!?:;) und in Guillemets («»)",
+              "frenchSpacingChoices": {
+                "insert": "Geschütztes Leerzeichen einfügen (Comme ça !)",
+                "remove": "Leerzeichen entfernen (Comme ça!)"
+              }
+            },
+            "preview": {
+              "title": "Vorschau",
+              "source": "Quelltext",
+              "target": "Zieltext",
+              "helperText": "Sie können diesen Text Ihren Bedürfnissen anpassen."
+            }
+          }
+        }
+      },
+      "aiTranslator": {
+        "title": "KI-Übersetzer"
       }
     }
   },

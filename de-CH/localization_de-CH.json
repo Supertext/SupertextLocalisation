@@ -5001,6 +5001,9 @@
         },
         "title": "Customisation Hub",
         "styleGuide": {
+          "intro": {
+            "description": "Legen Sie fest, wie Ihre Supertext-KI bestimmte Symbole und Zeichen nach Ihren eigenen Style-Guide-Regeln automatisch anpasst."
+          },          
           "hooks": {
             "currentStyleGuideError": "Stilvorgabe konnte nicht geladen werden",
             "getRulesetError": "Styleguide konnte nicht geladen werden",
@@ -5021,6 +5024,9 @@
           "addRulesetModal": {
             "language": "Sprache",
             "addLanguage": "Sprache hinzufügen",
+            "button": {
+              "tooltip": "Nur Admins können Sprachen hinzufügen."
+            },            
             "validation": {
               "language": "Sprache ist erforderlich"
             },
@@ -5042,6 +5048,9 @@
             "language": "Sprache",
             "deleteMessage": "Sind Sie sicher, dass Sie diesen Styleguide löschen möchten?",
             "deleteTitle": "Styleguide löschen",
+            "deleteButton": {
+              "tooltip": "Nur Admins können Regeln entfernen."
+            },            
             "empty": {
               "noRulesets": "Kein Styleguides gefunden"
             }
@@ -5051,6 +5060,10 @@
             "doNotEnforce": "Keine Vorgabe",
             "language": "Sprache",
             "languageHelperText": "Wählen Sie unter allen verfügbaren Sprachen aus",
+            "saveButton": {
+              "tooltip": "Nur Admins können Regeln speichern.",
+              "noChangesTooltip": "Keine Änderungen vorgenommen"
+            },            
             "punctuation": {
               "title": "Interpunktion",
               "enforceQuotationMarks": "Anführungszeichen",

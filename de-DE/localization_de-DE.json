@@ -4867,30 +4867,30 @@
               "all": "Alle Sprachen"
             },
             "actions": "Aktion",
-            "bulkDelete": ""
+            "bulkDelete": "Begriffe löschen"
           },
           "conceptDeletion": {
             "title": "Begriff löschen",
             "message": "Wirklich löschen?"
           },
           "headers": {
-            "term": "",
+            "term": "Begriff",
             "languages": "Sprachen"
           },
           "empty": {
-            "noConcepts": ""
+            "noConcepts": "Keine Begriffe gefunden"
           },
           "pagination": {
             "entriesPerPage": "Einträge pro Seite",
-            "range": ""
+            "range": "{from} – {to} von {total}"
           },
           "languages": {
             "and": "und",
-            "more": ""
+            "more": "{count} weitere"
           }
         },
         "intro": {
-          "description": ""
+          "description": "Legen Sie fest, wie Supertext bestimmte Wörter und Phrasen übersetzen soll. Diese Regeln werden für alle Mitglieder Ihres Teams und alle Nutzungsarten (Browser, Plugins, API etc.) angewandt. Nutzer:innen haben jedoch immer die Möglichkeit, hier festgelegte Regeln mit einem eigenen Glossar zu übersteuern."
         },
         "termModal": {
           "titles": {
@@ -4899,275 +4899,275 @@
           },
           "buttons": {
             "openAdd": "Begriff hinzufügen",
-            "create": "Erstellen",
+            "create": "Speichern",
             "save": "Speichern"
           },
           "form": {
-            "languagesLabel": "",
+            "languagesLabel": "Sprachen",
             "languagesTooltip": "",
-            "languagesHelper": "",
-            "termsLabel": "",
-            "termsTooltip": "",
-            "termsHelper": "",
-            "inputPlaceholder": "",
+            "languagesHelper": "Wählen Sie die Sprachen aus, für die Sie den Begriff hinzufügen möchten.",
+            "termsLabel": "Begriff",
+            "termsTooltip": "Begriffe sind die Wörter oder Phrasen, für die Sie eine bestimmte Übersetzung vordefinieren möchten.",
+            "termsHelper": "Fügen Sie den Begriff für die ausgewählten Sprachen hinzu.",
+            "inputPlaceholder": "Begriff",
             "validation": {
-              "languageRequired": "",
-              "textRequired": "",
-              "atLeastOne": ""
+              "languageRequired": "Sprache wählen",
+              "textRequired": "Übersetzung eingeben",
+              "atLeastOne": "Mindestens eine Übersetzung erforderlich"
             }
           },
           "rowMenu": {
-            "copyToAll": "",
-            "autoTranslate": "",
+            "copyToAll": "In alle kopieren",
+            "autoTranslate": "Mit KI übersetzen",
             "remove": "Entfernen",
-            "ariaRowActions": ""
+            "ariaRowActions": "Aktionen"
           }
         },
         "languageSelect": {
-          "selectedCount": ""
+          "selectedCount": "{count, plural, one {# Sprache} other {# Sprachen}}"
         },
         "upload": {
-          "buttonOpen": "",
+          "buttonOpen": "Liste hochladen",
           "titles": {
             "initial": "Datei hochladen",
-            "preCollision": "",
-            "collisionReview": "",
+            "preCollision": "Begriffe konfliktfrei hochladen",
+            "collisionReview": "Begriffe überprüfen",
             "completed": "",
-            "error": "",
-            "default": ""
+            "error": "Fehler beim Hochladen",
+            "default": "Begriffe hinzufügen"
           },
           "submit": "Hochladen",
           "errors": {
-            "invalidType": "",
-            "tooLarge": ""
+            "invalidType": "Nur .xlsx-Dateien sind erlaubt",
+            "tooLarge": "Datei ist zu groß. Maximal 20 MB erlaubt."
           },
           "downloadTemplate": {
-            "label": "",
-            "fileLabel": "",
+            "label": "Vorlage herunterladen",
+            "fileLabel": "Vorlage Corporate Wording",
             "button": "Herunterladen",
-            "helper": ""
+            "helper": "Laden Sie Ihr aktuelles Corporate Wording als Vorlage herunter und füllen Sie es mit neuen Begriffen."
           },
           "initiate": {
-            "label": "",
-            "hint": "",
-            "dropHere": "",
-            "dropOrClick": "",
-            "sizeHint": ""
+            "label": "Excel-Datei hochladen",
+            "hint": "Nur .xlsx-Dateien bis max. 20 MB",
+            "dropHere": "Datei hier ablegen",
+            "dropOrClick": "Datei hier ablegen oder klicken zum Auswählen",
+            "sizeHint": ".xlsx-Dateien bis 20 MB"
           },
           "preCollision": {
-            "found": "",
-            "info": "",
-            "checkConflicts": "",
-            "uploadWithoutFixTitle": "",
-            "uploadWithoutFixInfo": "",
-            "uploadWithoutFixButton": ""
+            "found": "{rows} Konflikte in {languages} Sprachen gefunden",
+            "info": "Beim Hochladen Ihrer Datei wurden Konflikte festgestellt. Sie können die Konflikte nun überprüfen und nötige Anpassungen vornehmen.",
+            "checkConflicts": "Konflikte prüfen",
+            "uploadWithoutFixTitle": "Ohne Korrektur hochladen",
+            "uploadWithoutFixInfo": "Es kann zu Datenverlust kommen, da unser System die Konflikte nicht so korrigieren kann, wie Sie es beabsichtigt haben.",
+            "uploadWithoutFixButton": "Ohne Korrektur hochladen"
           },
           "collisionReview": {
             "info": "",
             "filters": {
-              "all": "",
-              "open": "",
-              "closed": ""
+              "all": "Alle ({count})",
+              "open": "Offen ({count})",
+              "closed": "Behoben ({count})"
             },
-            "conflictTitle": "",
-            "selectHeader": "",
-            "rowHeader": "",
-            "selected": "",
-            "select": "",
+            "conflictTitle": "Konflikt {index}",
+            "selectHeader": "Auswählen",
+            "rowHeader": "Zeile",
+            "selected": "Ausgewählt",
+            "select": "Wählen",
             "back": "Zurück",
             "uploadCorrected": "Datei hochladen",
-            "rows": ""
+            "rows": "{rows} Zeilen "
           },
           "success": {
-            "title": "",
-            "description": "",
-            "addedConcepts": "",
-            "updatedTerms": "",
-            "ignoredTerms": "",
+            "title": "Das hat geklappt!",
+            "description": "Ihre Begriffe wurden erfolgreich hinzugefügt.",
+            "addedConcepts": "Hinzugefügte Begriffe",
+            "updatedTerms": "Aktualisierte Begriffe",
+            "ignoredTerms": "Ignorierte Begriffe",
             "close": "Schließen"
           },
           "error": {
-            "title": "",
-            "description": "",
+            "title": "Oops!",
+            "description": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns unter support@supertext.com.",
             "close": "Schließen"
           }
         }
       },
       "customisation": {
         "navigation": {
-          "corporateWording": "",
-          "styleGuide": "",
+          "corporateWording": "Corporate Wording",
+          "styleGuide": "Styleguides",
           "forEnterprise": "Für Unternehmen"
         },
-        "title": "",
+        "title": "Customisation Hub",
         "styleGuide": {
           "hooks": {
-            "currentStyleGuideError": "",
-            "getRulesetError": "",
-            "addRulesetError": "",
-            "addRulesetSuccess": "",
-            "editRulesetError": "",
-            "editRulesetSuccess": "",
-            "deleteRulesetError": "",
-            "deleteRulesetSuccess": "",
-            "applyStyleGuideError": ""
+            "currentStyleGuideError": "Stilvorgabe konnte nicht geladen werden",
+            "getRulesetError": "Styleguide konnte nicht geladen werden",
+            "addRulesetError": "Styleguide konnte nicht hinzugefügt werden",
+            "addRulesetSuccess": "Styleguide erfolgreich hinzugefügt",
+            "editRulesetError": "Styleguide konnte nicht bearbeitet werden",
+            "editRulesetSuccess": "Styleguide erfolgreich bearbeitet",
+            "deleteRulesetError": "Styleguide konnte nicht gelöscht werden",
+            "deleteRulesetSuccess": "Styleguide erfolgreich gelöscht",
+            "applyStyleGuideError": "Stilvorgabe konnte nicht angewendet werden"
           },
           "actions": {
             "title": "Aktion",
-            "removeAll": "",
-            "removeSelected": "",
-            "removeSelectedMessage": ""
+            "removeAll": "Styleguides löschen",
+            "removeSelected": "Ausgewählte Styleguides löschen",
+            "removeSelectedMessage": "Sind Sie sicher, dass Sie diese Styleguides löschen möchten?"
           },
           "addRulesetModal": {
             "language": "Sprache",
-            "addLanguage": "",
+            "addLanguage": "Sprache hinzufügen",
             "validation": {
-              "language": ""
+              "language": "Sprache ist erforderlich"
             },
             "placeholder": {
-              "language": ""
+              "language": "Sprache auswählen"
             }
           },
           "cloneRulesetModal": {
             "language": "Sprache",
-            "cloneLanguage": "",
+            "cloneLanguage": "Styleguide klonen",
             "validation": {
-              "language": ""
+              "language": "Sprache ist erforderlich"
             },
             "placeholder": {
-              "language": ""
+              "language": "Sprache auswählen"
             }
           },
           "rulesetTable": {
             "language": "Sprache",
-            "deleteMessage": "",
-            "deleteTitle": "",
+            "deleteMessage": "Sind Sie sicher, dass Sie diesen Styleguide löschen möchten?",
+            "deleteTitle": "Styleguide löschen",
             "empty": {
-              "noRulesets": ""
+              "noRulesets": "Keine Styleguides gefunden"
             }
           },
           "ruleset": {
             "back": "Zurück",
-            "doNotEnforce": "",
+            "doNotEnforce": "Keine Vorgabe",
             "language": "Sprache",
-            "languageHelperText": "",
+            "languageHelperText": "Wählen Sie unter allen verfügbaren Sprachen aus",
             "punctuation": {
-              "title": "",
-              "enforceQuotationMarks": "",
+              "title": "Interpunktion",
+              "enforceQuotationMarks": "Anführungszeichen",
               "enforceQuotationMarksChoices": {
-                "leftRightCurvedDouble": "",
-                "leftRightCurvedSingle": "",
-                "lowHighCurvedDouble": "",
-                "outwardsGuillemets": "",
-                "inwardsGuillemets": "",
-                "straightSingle": "",
-                "straightDouble": "",
-                "rectangularSingle": ""
+                "leftRightCurvedDouble": "Gekrümmte doppelte Anführungszeichen links-rechts (“Text”)",
+                "leftRightCurvedSingle": "Gekrümmte einfache Anführungszeichen links-rechts (‘Text’)",
+                "lowHighCurvedDouble": "Gekrümmte doppelte Anführungszeichen tief-hoch („Text“)",
+                "outwardsGuillemets": "Nach aussen zeigende Guillemets («Text»)",
+                "inwardsGuillemets": "Nach innen zeigende Guillemets (»Text«)",
+                "straightSingle": "Neutrale einfache Anführungszeichen ('Text')",
+                "straightDouble": "Neutrale doppelte Anführungszeichen (\"Text\")",
+                "rectangularSingle": "Rechteckige einzelne Anführungszeichen (「Text」)"
               },
-              "enforceEllipsis": "",
-              "enforceEllipsisHelperText": "",
-              "enforceTypesetterApostrophe": "",
-              "enforceTypesetterApostropheHelperText": "",
-              "enforceDashBetweenSpaces": "",
-              "enforceDashBetweenSpacesHelperText": "",
+              "enforceEllipsis": "Auslassungssymbol erzwingen",
+              "enforceEllipsisHelperText": "Drei Punkte (...) mit einem einzigen Zeichen (…) ersetzen",
+              "enforceTypesetterApostrophe": "Typographisch korrekten Apostroph erzwingen",
+              "enforceTypesetterApostropheHelperText": "Geraden Apostroph mit gekrümmtem einzelnen Anführungszeichen (’) ersetzen",
+              "enforceDashBetweenSpaces": "Strich zwischen Leerzeichen",
+              "enforceDashBetweenSpacesHelperText": "Beispiel: \"an - aus\" → \"an – aus\"",
               "enforceDashBetweenSpacesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "Bindestrich (-)",
+                "enDash": "Halbgeviertstrich (–)",
+                "emDash": "langer Gedankenstrich (—)"
               },
-              "spaceSurroundingSlash": "",
-              "spaceSurroundingSlashHelperText": "",
+              "spaceSurroundingSlash": "Leerzeichen um Schrägstrich herum",
+              "spaceSurroundingSlashHelperText": "Beispiel: hinauf/hinunter → hinauf / hinunter (oder umgekehrt)",
               "spaceSurroundingSlashChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Umgebende Leerzeichen einfügen",
+                "remove": "Umgebende Leerzeichen entfernen"
               },
-              "enforceSpaceBeforePercentSymbol": "",
+              "enforceSpaceBeforePercentSymbol": "Leerzeichen vor Prozentzeichen",
               "enforceSpaceBeforePercentSymbolChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Geschütztes Leerzeichen einfügen (30 %)",
+                "remove": "Leerzeichen entfernen (30%)"
               },
-              "enforcePercentSymbol": "",
-              "enforcePercentSymbolHelperText": ""
+              "enforcePercentSymbol": "Prozentsymbol erzwingen",
+              "enforcePercentSymbolHelperText": "Ausgeschriebene \"percent/pourcent/percento/Prozent\" mit \"%\" ersetzen"
             },
             "numbers": {
-              "title": "",
-              "enforceThousandsSeparator": "",
+              "title": "Zahlen",
+              "enforceThousandsSeparator": "Tausender-Trennzeichen",
               "enforceThousandsSeparatorChoices": {
-                "nbsp": "",
-                "straightSingleQuote": "",
-                "curvedSingleQuote": "",
-                "comma": "",
-                "period": ""
+                "nbsp": "Geschütztes Leerzeichen (10 000)",
+                "straightSingleQuote": "Gerader Apostroph (10'000)",
+                "curvedSingleQuote": "Einfaches gekrümmtes Anführungszeichen (10’000)",
+                "comma": "Komma (10,000)",
+                "period": "Punkt (10.000)"
               },
-              "enforceSeparatorFor4DigitNumbers": "",
-              "enforceSeparatorFor4DigitNumbersHelperText": "",
-              "enforceDecimalSeparator": "",
+              "enforceSeparatorFor4DigitNumbers": "Trennzeichen auch für vierstellige Zahlen erzwingen",
+              "enforceSeparatorFor4DigitNumbersHelperText": "Beispiel: 4'215 → 4,215",
+              "enforceDecimalSeparator": "Dezimaltrennzeichen",
               "enforceDecimalSeparatorChoices": {
-                "comma": "",
-                "period": ""
+                "comma": "Komma (2,5)",
+                "period": "Punkt (2.5)"
               },
-              "enforceDotsInDates": "",
-              "enforceDotsInDatesHelperText": "",
-              "nbspDates": "",
-              "nbspDatesHelperText": "",
+              "enforceDotsInDates": "Punkte in Kalenderdaten erzwingen",
+              "enforceDotsInDatesHelperText": "Beispiel: 13/1/2022 → 13.1.2022",
+              "nbspDates": "Geschütztes Leerzeichen in Kalenderdaten",
+              "nbspDatesHelperText": "Gilt für ausgeschriebene Begriffe wie 12. März, March 3, 25 Juni",
               "nbspDatesChoices": {
-                "daysMonthsYears": "",
-                "daysMonths": ""
+                "daysMonthsYears": "Zwischen Tag, Monat und Jahr",
+                "daysMonths": "Zwischen Tag und Monat"
               },
-              "nbspUnits": "",
-              "nbspUnitsHelperText": "",
-              "currenciesPosition": "",
+              "nbspUnits": "Geschütztes Leerzeichen vor Maßeinheiten einfügen",
+              "nbspUnitsHelperText": "Gilt für Maßeinheiten wie 12 kg, 5 m, 25 °C",
+              "currenciesPosition": "Position des Währungscodes",
               "currenciesPositionChoices": {
-                "leading": "",
-                "following": ""
+                "leading": "Davor (CHF 200)",
+                "following": "Danach (200 CHF)"
               },
-              "nbspCurrencies": "",
-              "nbspCurrenciesHelperText": "",
-              "enforceDashInCurrencies": "",
+              "nbspCurrencies": "Geschütztes Leerzeichen neben Währung einfügen",
+              "nbspCurrenciesHelperText": "Beispiele: 12 €, CHF 123",
+              "enforceDashInCurrencies": "Strich in monetären Zahlen",
               "enforceDashInCurrenciesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "Bindestrich (40.-)",
+                "enDash": "Halbgeviertstrich (40.–)",
+                "emDash": "langer Gedankenstrich (40.—)"
               },
-              "enforceDashInNumericRanges": "",
+              "enforceDashInNumericRanges": "Strich in numerischen Bereichen",
               "enforceDashInNumericRangesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "Bindestrich (10-20)",
+                "enDash": "Halbgeviertstrich (10–20)",
+                "emDash": "langer Gedankenstrich (10—20)"
               },
-              "mioMiaAbbreviation": "",
-              "mioMiaAbbreviationHelperText": ""
+              "mioMiaAbbreviation": "Mio/Mia abkürzen",
+              "mioMiaAbbreviationHelperText": "\"Mio.\" mit \"m\" und \"Mia.\" mit \"bn\" abkürzen"
             },
             "specialisedLocalisation": {
-              "title": "",
-              "commaInsideQuotes": "",
-              "commaInsideQuotesHelperText": "",
-              "honorifics": "",
-              "honorificsHelperText": "",
+              "title": "Lokalisierung",
+              "commaInsideQuotes": "Komma in Anführungszeichen verschieben",
+              "commaInsideQuotesHelperText": "Beispiel: “Come on”, she said → “Come on,” she said",
+              "honorifics": "Anrede mit/ohne Punkte",
+              "honorificsHelperText": "Gilt für Ms, Mrs, Mr, Dr, Prof",
               "honorificsChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Punkte einfügen (Mrs.)",
+                "remove": "Punkte entfernen (Mrs)"
               },
-              "suppressSharpS": "",
-              "suppressSharpSHelperText": "",
-              "supressUppercaseAccents": "",
-              "supressUppercaseAccentsHelperText": "",
-              "frenchSpacing": "",
-              "frenchSpacingHelperText": "",
+              "suppressSharpS": "Scharfes S (Eszett) unterdrücken",
+              "suppressSharpSHelperText": "\"ß\" immer mit \"ss\" ersetzen",
+              "supressUppercaseAccents": "Akzente auf Großbuchstaben unterdrücken",
+              "supressUppercaseAccentsHelperText": "Französische Akzente bei Großbuchstaben entfernen",
+              "frenchSpacing": "Französische Interpunktionsabstände",
+              "frenchSpacingHelperText": "Beeinflusst Leerzeichen vor Satzzeichen (!?:;) und in Guillemets («»)",
               "frenchSpacingChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Geschütztes Leerzeichen einfügen (Comme ça !)",
+                "remove": "Leerzeichen entfernen (Comme ça!)"
               }
             },
             "preview": {
-              "title": "",
-              "source": "",
+              "title": "Vorschau",
+              "source": "Ausgangstext",
               "target": "Zieltext",
-              "helperText": ""
+              "helperText": "Mit den Einstellungen links können Sie diesen Text Ihren Bedürfnissen anpassen."
             }
           }
         },
-        "new": ""
+        "new": "NEU"
       },
       "aiTranslator": {
         "title": "KI-Übersetzer"
@@ -5257,11 +5257,11 @@
         "activate": "Aktivieren",
         "active": "Aktiv",
         "create": "Glossar erstellen",
-        "manage": "",
-        "view": "",
-        "badgeNew": "",
-        "corporateLanguageTitle": "Corporate Language",
-        "corporateLanguageDescriptionRich": ""
+        "manage": "Bearbeiten",
+        "view": "Ansehen",
+        "badgeNew": "NEU",
+        "corporateLanguageTitle": "Corporate Wording",
+        "corporateLanguageDescriptionRich": "Das Corporate Wording ist für Ihr ganzes Team konfiguriert und kann nur von Admins bearbeitet werden. <link>Ansehen</link>"
       },
       "glossaryDoesntExist": {
         "description": "Definieren Sie, wie bestimmte Wörter und Phrasen übersetzt werden sollen. Der KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",
@@ -5301,7 +5301,7 @@
           "placeholderSourceText": "Ausgangsbegriff",
           "placeholderTargetText": "Zielbegriff",
           "saveEntry": "Eintrag speichern",
-          "sourceTermReservedMessage": ""
+          "sourceTermReservedMessage": "Dieser <strong>Begriff</strong> ist bereits im <strong><link>Corporate Wording</link></strong> (dem Glossar Ihres Teams) enthalten. Wenn Sie den Begriff hier zusätzlich hinzufügen, wird der bestehende Eintrag für Ihr persönliches Konto übersteuert. Um die Änderung für das ganze Team vorzunehmen, muss ein:e Admin das Corporate Wording anpassen."
         },
         "languagePairAccordion": {
           "emptyStateDescription": "Definieren Sie, wie Wörter und Phrasen übersetzt werden sollen. Der KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",

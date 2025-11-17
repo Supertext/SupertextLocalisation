@@ -4899,11 +4899,11 @@
           },
           "buttons": {
             "openAdd": "Add term",
-            "create": "Create",
+            "create": "Save",
             "save": "Save"
           },
           "form": {
-            "languagesLabel": "",
+            "languagesLabel": "Languages",
             "languagesTooltip": "",
             "languagesHelper": "",
             "termsLabel": "",
@@ -4924,7 +4924,7 @@
           }
         },
         "languageSelect": {
-          "selectedCount": ""
+          "selectedCount": "{count, plural, one {# language} other {# languages}}"
         },
         "upload": {
           "buttonOpen": "",
@@ -4979,7 +4979,7 @@
             "rows": ""
           },
           "success": {
-            "title": "",
+            "title": "Success!",
             "description": "",
             "addedConcepts": "",
             "updatedTerms": "",
@@ -4995,11 +4995,11 @@
       },
       "customisation": {
         "navigation": {
-          "corporateWording": "",
-          "styleGuide": "",
-          "forEnterprise": "For enterprise"
+          "corporateWording": "Corporate wording",
+          "styleGuide": "Style guides",
+          "forEnterprise": "Enterprise"
         },
-        "title": "",
+        "title": "Customisation hub",
         "styleGuide": {
           "hooks": {
             "currentStyleGuideError": "",
@@ -5161,7 +5161,7 @@
             },
             "preview": {
               "title": "",
-              "source": "",
+              "source": "Source text",
               "target": "Target text",
               "helperText": ""
             }
@@ -5259,8 +5259,8 @@
         "create": "Create glossary",
         "manage": "",
         "view": "",
-        "badgeNew": "",
-        "corporateLanguageTitle": "Corporate language",
+        "badgeNew": "NEW",
+        "corporateLanguageTitle": "Corporate wording",
         "corporateLanguageDescriptionRich": ""
       },
       "glossaryDoesntExist": {

@@ -4899,11 +4899,11 @@
           },
           "buttons": {
             "openAdd": "Ajouter un terme",
-            "create": "Créer",
+            "create": "Enregistrer",
             "save": "Enregistrer"
           },
           "form": {
-            "languagesLabel": "",
+            "languagesLabel": "Langues",
             "languagesTooltip": "",
             "languagesHelper": "",
             "termsLabel": "",
@@ -4924,7 +4924,7 @@
           }
         },
         "languageSelect": {
-          "selectedCount": ""
+          "selectedCount": "{count, plural, one {# langue} other {# langues}}"
         },
         "upload": {
           "buttonOpen": "",
@@ -4979,7 +4979,7 @@
             "rows": ""
           },
           "success": {
-            "title": "",
+            "title": "Ça a fonctionné!",
             "description": "",
             "addedConcepts": "",
             "updatedTerms": "",
@@ -4996,8 +4996,8 @@
       "customisation": {
         "navigation": {
           "corporateWording": "",
-          "styleGuide": "",
-          "forEnterprise": "Pour Enterprise"
+          "styleGuide": "Guides de style",
+          "forEnterprise": "Pour les entreprises"
         },
         "title": "",
         "styleGuide": {
@@ -5161,7 +5161,7 @@
             },
             "preview": {
               "title": "",
-              "source": "",
+              "source": "Texte source",
               "target": "Texte cible",
               "helperText": ""
             }
@@ -5259,7 +5259,7 @@
         "create": "Créer un glossaire",
         "manage": "",
         "view": "",
-        "badgeNew": "",
+        "badgeNew": "NOUVEAUTÉ",
         "corporateLanguageTitle": "Langage d’entreprise",
         "corporateLanguageDescriptionRich": ""
       },

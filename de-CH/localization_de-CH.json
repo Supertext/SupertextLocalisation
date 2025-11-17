@@ -5001,9 +5001,6 @@
         },
         "title": "Customisation Hub",
         "styleGuide": {
-          "intro": {
-            "description": "Legen Sie fest, wie Ihre Supertext-KI bestimmte Symbole und Zeichen nach Ihren eigenen Style-Guide-Regeln automatisch anpasst."
-          },          
           "hooks": {
             "currentStyleGuideError": "Stilvorgabe konnte nicht geladen werden",
             "getRulesetError": "Styleguide konnte nicht geladen werden",
@@ -5024,14 +5021,14 @@
           "addRulesetModal": {
             "language": "Sprache",
             "addLanguage": "Sprache hinzufügen",
-            "button": {
-              "tooltip": "Nur Admins können Sprachen hinzufügen."
-            },            
             "validation": {
               "language": "Sprache ist erforderlich"
             },
             "placeholder": {
               "language": "Sprache auswählen"
+            },
+            "button": {
+              "tooltip": "Nur Admins können Sprachen hinzufügen."
             }
           },
           "cloneRulesetModal": {
@@ -5048,11 +5045,11 @@
             "language": "Sprache",
             "deleteMessage": "Sind Sie sicher, dass Sie diesen Styleguide löschen möchten?",
             "deleteTitle": "Styleguide löschen",
-            "deleteButton": {
-              "tooltip": "Nur Admins können Regeln entfernen."
-            },            
             "empty": {
               "noRulesets": "Kein Styleguides gefunden"
+            },
+            "deleteButton": {
+              "tooltip": "Nur Admins können Regeln entfernen."
             }
           },
           "ruleset": {
@@ -5060,10 +5057,6 @@
             "doNotEnforce": "Keine Vorgabe",
             "language": "Sprache",
             "languageHelperText": "Wählen Sie unter allen verfügbaren Sprachen aus",
-            "saveButton": {
-              "tooltip": "Nur Admins können Regeln speichern.",
-              "noChangesTooltip": "Keine Änderungen vorgenommen"
-            },            
             "punctuation": {
               "title": "Interpunktion",
               "enforceQuotationMarks": "Anführungszeichen",
@@ -5177,7 +5170,14 @@
               "source": "Ausgangstext",
               "target": "Zieltext",
               "helperText": "Mit den Einstellungen links können Sie diesen Text Ihren Bedürfnissen anpassen."
+            },
+            "saveButton": {
+              "tooltip": "Nur Admins können Regeln speichern.",
+              "noChangesTooltip": "Keine Änderungen vorgenommen"
             }
+          },
+          "intro": {
+            "description": "Hinterlegen Sie eigene Stilvorgaben pro Zielsprache, um Interpunktion, Zahlenformatierung etc. zuverlässig zu steuern."
           }
         },
         "new": "NEU"

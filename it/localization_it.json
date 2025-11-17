@@ -5026,6 +5026,9 @@
             },
             "placeholder": {
               "language": ""
+            },
+            "button": {
+              "tooltip": ""
             }
           },
           "cloneRulesetModal": {
@@ -5044,6 +5047,9 @@
             "deleteTitle": "",
             "empty": {
               "noRulesets": ""
+            },
+            "deleteButton": {
+              "tooltip": ""
             }
           },
           "ruleset": {
@@ -5164,7 +5170,14 @@
               "source": "Testo di partenza",
               "target": "Testo di arrivo",
               "helperText": ""
+            },
+            "saveButton": {
+              "tooltip": "",
+              "noChangesTooltip": ""
             }
+          },
+          "intro": {
+            "description": ""
           }
         },
         "new": ""

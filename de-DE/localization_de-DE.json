@@ -5026,6 +5026,9 @@
             },
             "placeholder": {
               "language": "Sprache auswählen"
+            },
+            "button": {
+              "tooltip": ""
             }
           },
           "cloneRulesetModal": {
@@ -5044,6 +5047,9 @@
             "deleteTitle": "Styleguide löschen",
             "empty": {
               "noRulesets": "Keine Styleguides gefunden"
+            },
+            "deleteButton": {
+              "tooltip": ""
             }
           },
           "ruleset": {
@@ -5164,7 +5170,14 @@
               "source": "Ausgangstext",
               "target": "Zieltext",
               "helperText": "Mit den Einstellungen links können Sie diesen Text Ihren Bedürfnissen anpassen."
+            },
+            "saveButton": {
+              "tooltip": "",
+              "noChangesTooltip": ""
             }
+          },
+          "intro": {
+            "description": ""
           }
         },
         "new": "NEU"

@@ -5045,12 +5045,12 @@
             "language": "Sprache",
             "deleteMessage": "Sind Sie sicher, dass Sie diesen Styleguide löschen möchten?",
             "deleteTitle": "Styleguide löschen",
-            "empty": {
-              "noRulesets": "Kein Styleguides gefunden"
-            },
             "deleteButton": {
               "tooltip": "Nur Admins können Regeln entfernen."
-            }
+            },
+            "empty": {
+              "noRulesets": "Keine Regeln gefunden"
+            }            
           },
           "ruleset": {
             "back": "Zurück",

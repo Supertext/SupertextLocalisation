@@ -1153,7 +1153,6 @@
             },
             "4": {
               "title": "Single Sign-on (SSO)",
-              "badge": "Presto disponibile",
               "tooltip": "a partire da 10 utenti"
             }
           }
@@ -4861,7 +4860,8 @@
         "table": {
           "filters": {
             "language": {
-              "all": "Tutte le lingue"
+              "all": "Tutte le lingue",
+              "addLanguages": ""
             },
             "actions": "Azione",
             "bulkDelete": "Elimina termini"
@@ -4911,7 +4911,8 @@
               "languageRequired": "Selezionare lingua",
               "textRequired": "Inserire traduzione",
               "atLeastOne": "È richiesta almeno una traduzione"
-            }
+            },
+            "sourceTermReservedMessage": ""
           },
           "rowMenu": {
             "copyToAll": "Copia in tutti",
@@ -5068,7 +5069,7 @@
                 "rectangularSingle": ""
               },
               "enforceEllipsis": "",
-              "enforceEllipsisHelperText": "",
+              "enforceEllipsisHelperText": "Sostituire i tre punti di sospensione (...) con un unico carattere (…)",
               "enforceTypesetterApostrophe": "",
               "enforceTypesetterApostropheHelperText": "",
               "enforceDashBetweenSpaces": "",
@@ -5124,7 +5125,7 @@
                 "leading": "",
                 "following": ""
               },
-              "nbspCurrencies": "",
+              "nbspCurrencies": "Inserire uno spazio indivisibile accanto alla valuta",
               "nbspCurrenciesHelperText": "Esempi: 12 €, CHF 123",
               "enforceDashInCurrencies": "Trattino negli importi monetari",
               "enforceDashInCurrenciesChoices": {

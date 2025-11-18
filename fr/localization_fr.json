@@ -1139,24 +1139,21 @@
           "title": "Tout de «Essential», plus:",
           "items": {
             "0": {
-              "title": "28 langues",
-              "tooltip": "Albanais, allemand, anglais, bulgare, chinois, coréen, croate, danois, espagnol, finnois, français, grec, hongrois, italien, japonais, néerlandais, norvégien, polonais, portugais, romanche, russe, suédois, suisse allemand, serbe, slovaque, slovène, tchèque, turc"
-            },
-            "1": {
               "title": "60 traductions de fichiers modifiables par mois"
             },
-            "2": {
+            "1": {
               "title": "20 Mo maximum par fichier"
             },
-            "3": {
+            "2": {
               "title": "Glossaires"
             },
-            "4": {
+            "3": {
               "title": "Compléments pour Microsoft Office",
               "badge": "Bientôt disponible"
             },
-            "5": {
+            "4": {
               "title": "Single sign-on (SSO)",
+              "badge": "Bientôt disponible",
               "tooltip": "à partir de 10 utilisateurs/-trices"
             }
           }
@@ -4786,7 +4783,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bientôt disponible",
           "temporaryGetInContact": {
-            "text": "Cette fonctionnalité est encore en cours de développement. En attendant, vous pouvez nous contacter directement si vous souhaitez enregistrer un sous-domaine personnalisé: ",
+            "text": "Cette fonctionnalité est encore en cours de développement. En attendant, vous pouvez nous contacter directement si vous souhaitez enregistrer un sous-domaine personnalisé: <email>hello@supertext.com</email>",
             "email": "hello@supertext.com",
             "textStart": "Pour définir un sous-domaine, veuillez contacter"
           }

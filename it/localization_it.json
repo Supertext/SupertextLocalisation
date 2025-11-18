@@ -1139,24 +1139,21 @@
           "title": "L’offerta di «Essential» con in più:",
           "items": {
             "0": {
-              "title": "28 lingue",
-              "tooltip": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
-            },
-            "1": {
               "title": "60 traduzioni di file modificabili al mese"
             },
-            "2": {
+            "1": {
               "title": "Dimensione massima dei file 20 MB"
             },
-            "3": {
+            "2": {
               "title": "Glossari"
             },
-            "4": {
+            "3": {
               "title": "Add-in per Microsoft Office",
               "badge": "Presto disponibile"
             },
-            "5": {
+            "4": {
               "title": "Single Sign-on (SSO)",
+              "badge": "Presto disponibile",
               "tooltip": "a partire da 10 utenti"
             }
           }
@@ -4786,7 +4783,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Presto disponibile",
           "temporaryGetInContact": {
-            "text": "Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti: ",
+            "text": "Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti: <email>hello@supertext.com</email>",
             "email": "hello@supertext.com",
             "textStart": "Per impostare un proprio sottodominio, Si rivolga a"
           }
@@ -4867,30 +4864,30 @@
               "all": "Tutte le lingue"
             },
             "actions": "Azione",
-            "bulkDelete": ""
+            "bulkDelete": "Elimina termini"
           },
           "conceptDeletion": {
             "title": "Elimina termine",
             "message": "Eliminare definitivamente?"
           },
           "headers": {
-            "term": "",
+            "term": "Termine",
             "languages": "Lingue"
           },
           "empty": {
-            "noConcepts": ""
+            "noConcepts": "Nessun termine trovato"
           },
           "pagination": {
             "entriesPerPage": "Risultati per pagina",
-            "range": ""
+            "range": "{from} – {to} di {total}"
           },
           "languages": {
             "and": "e",
-            "more": ""
+            "more": "{count} altri"
           }
         },
         "intro": {
-          "description": ""
+          "description": "Definisca come Supertext debba tradurre determinate parole e frasi. Queste regole vengono applicate per tutti i membri del team e tutti i tipi di utilizzo (browser, plug-in, API ecc.). Tuttavia, gli utenti hanno sempre la possibilità di sovrascrivere le regole qui definite tramite il proprio glossario."
         },
         "termModal": {
           "titles": {
@@ -4904,91 +4901,91 @@
           },
           "form": {
             "languagesLabel": "Lingue",
-            "languagesTooltip": "",
-            "languagesHelper": "",
-            "termsLabel": "",
+            "languagesTooltip": "Nota bene: tutte le voci sono multidirezionali. Ad esempio, se si inserisce «car» per l'inglese, «auto» per il tedesco e «voiture» per il francese, questa definizione verrà utilizzata per tutte le traduzioni tra queste lingue.",
+            "languagesHelper": "Selezionare le lingue per cui si desidera aggiungere il termine.",
+            "termsLabel": "Termine",
             "termsTooltip": "",
-            "termsHelper": "",
-            "inputPlaceholder": "",
+            "termsHelper": "Aggiungere il termine nella lingua selezionata.",
+            "inputPlaceholder": "Termine",
             "validation": {
-              "languageRequired": "",
-              "textRequired": "",
-              "atLeastOne": ""
+              "languageRequired": "Selezionare lingua",
+              "textRequired": "Inserire traduzione",
+              "atLeastOne": "È richiesta almeno una traduzione"
             }
           },
           "rowMenu": {
-            "copyToAll": "",
-            "autoTranslate": "",
+            "copyToAll": "Copia in tutti",
+            "autoTranslate": "Traduci con l’IA",
             "remove": "Rimuovi",
-            "ariaRowActions": ""
+            "ariaRowActions": "Azioni"
           }
         },
         "languageSelect": {
           "selectedCount": "{count, plural, one {# lingua} other {# lingue}}"
         },
         "upload": {
-          "buttonOpen": "",
+          "buttonOpen": "Carica lista",
           "titles": {
             "initial": "Carica file",
-            "preCollision": "",
-            "collisionReview": "",
+            "preCollision": "Carica i termini senza conflitti",
+            "collisionReview": "Verifica i termini",
             "completed": "",
-            "error": "",
-            "default": ""
+            "error": "Errore durante il caricamento",
+            "default": "Aggiungi termini"
           },
           "submit": "Carica",
           "errors": {
-            "invalidType": "",
-            "tooLarge": ""
+            "invalidType": "Sono consentiti solo file .xlsx.",
+            "tooLarge": "Il file è troppo grande. Sono consentiti al massimo 20 MB."
           },
           "downloadTemplate": {
-            "label": "",
-            "fileLabel": "",
+            "label": "Scarica modello",
+            "fileLabel": "Modello per il linguaggio aziendale",
             "button": "Scarica",
-            "helper": ""
+            "helper": "Scaricare il modello per il linguaggio aziendale attuale e aggiungere nuovi termini."
           },
           "initiate": {
-            "label": "",
-            "hint": "",
-            "dropHere": "",
-            "dropOrClick": "",
-            "sizeHint": ""
+            "label": "Carica file Excel",
+            "hint": "Solo file .xlisx fino a max. 20 MB",
+            "dropHere": "Trascina il file qui",
+            "dropOrClick": "Trascinare il file qui o cliccare per selezionarlo",
+            "sizeHint": "File .xlsx fino a 20 MB"
           },
           "preCollision": {
-            "found": "",
-            "info": "",
-            "checkConflicts": "",
-            "uploadWithoutFixTitle": "",
-            "uploadWithoutFixInfo": "",
-            "uploadWithoutFixButton": ""
+            "found": "Sono stati trovati {rows} conflitti in {languages} lingue",
+            "info": "Durante il caricamento del Suo file sono stati rilevati dei conflitti. Ora può verificare i conflitti e apportare le modifiche necessarie.",
+            "checkConflicts": "Verifica conflitti",
+            "uploadWithoutFixTitle": "Carica senza correzione",
+            "uploadWithoutFixInfo": "C’è la possibilità che i dati vadano persi, perché il nostro sistema non è in grado di correggere i conflitti come previsto.",
+            "uploadWithoutFixButton": "Carica senza correzione"
           },
           "collisionReview": {
-            "info": "",
+            "info": "Selezionare esattamente una riga per ogni conflitto, che verrà conservata. A tale scopo, utilizzare i filtri («Tutti» / «Aperti» / «Risolti»). Un segno di spunta verde indica i conflitti risolti. Una volta risolti tutti i conflitti, cliccare in basso su «Carica file corretto».",
             "filters": {
-              "all": "",
-              "open": "",
-              "closed": ""
+              "all": "Tutti ({count})",
+              "open": "Aperti ({count})",
+              "closed": "Risolti ({count})"
             },
-            "conflictTitle": "",
-            "selectHeader": "",
-            "rowHeader": "",
-            "selected": "",
-            "select": "",
+            "conflictTitle": "Conflitto {index}",
+            "selectHeader": "Seleziona",
+            "rowHeader": "Riga",
+            "selected": "Selezionato",
+            "select": "Seleziona",
             "back": "Indietro",
             "uploadCorrected": "Carica file",
-            "rows": ""
+            "rows": "{rows} Righe"
           },
           "success": {
             "title": "Fatto!",
-            "description": "",
-            "addedConcepts": "",
-            "updatedTerms": "",
-            "ignoredTerms": "",
+            "description": "I Suoi termini sono stati aggiunti.",
+            "addedConcepts": "Termini aggiunti",
+            "updatedTerms": "Termini aggiornati",
+            "ignoredTerms": "Termini ignorati",
             "close": "Chiudi"
           },
           "error": {
-            "title": "",
-            "description": "",
+            "title": "Ops!",
+            "description": "Qualcosa è andato storto. Riprovi o ci contatti all'indirizzo support@supertext.com.",
             "close": "Chiudi"
           }
         }
@@ -5028,7 +5025,7 @@
               "language": ""
             },
             "button": {
-              "tooltip": ""
+              "tooltip": "Solo gli amministratori possono aggiungere lingue."
             }
           },
           "cloneRulesetModal": {
@@ -5046,10 +5043,10 @@
             "deleteMessage": "",
             "deleteTitle": "",
             "deleteButton": {
-              "tooltip": ""
+              "tooltip": "Solo gli amministratori possono eliminare regole."
             },
             "empty": {
-              "noRulesets": ""
+              "noRulesets": "Nessuna regola trovata"
             }
           },
           "ruleset": {
@@ -5128,59 +5125,59 @@
                 "following": ""
               },
               "nbspCurrencies": "",
-              "nbspCurrenciesHelperText": "",
-              "enforceDashInCurrencies": "",
+              "nbspCurrenciesHelperText": "Esempi: 12 €, CHF 123",
+              "enforceDashInCurrencies": "Trattino negli importi monetari",
               "enforceDashInCurrenciesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "Trattino (40.-)",
+                "enDash": "Lineetta (40.–)",
+                "emDash": "Trattino lungo (40.—)"
               },
-              "enforceDashInNumericRanges": "",
+              "enforceDashInNumericRanges": "Trattino in intervalli numerici",
               "enforceDashInNumericRangesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "Trattino",
+                "enDash": "Lineetta (10–20)",
+                "emDash": "Trattino lungo (10—20)"
               },
-              "mioMiaAbbreviation": "",
-              "mioMiaAbbreviationHelperText": ""
+              "mioMiaAbbreviation": "Abbreviare Mio/Mia",
+              "mioMiaAbbreviationHelperText": "Abbreviare «Mio.» con «m» und «Mia.» con «bn» "
             },
             "specialisedLocalisation": {
-              "title": "",
-              "commaInsideQuotes": "",
-              "commaInsideQuotesHelperText": "",
-              "honorifics": "",
-              "honorificsHelperText": "",
+              "title": "Localizzazione",
+              "commaInsideQuotes": "Spostare la virgola all’interno delle virgolette",
+              "commaInsideQuotesHelperText": "Esempio: “Come on”, she said → “Come on,” she said",
+              "honorifics": "Appellativo con/senza punto",
+              "honorificsHelperText": "Vale per Ms, Mrs, Mr, Dr, Prof",
               "honorificsChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Aggiungere il punto (Mrs.)",
+                "remove": "Rimuovere il punto (Mrs)"
               },
-              "suppressSharpS": "",
-              "suppressSharpSHelperText": "",
-              "supressUppercaseAccents": "",
-              "supressUppercaseAccentsHelperText": "",
-              "frenchSpacing": "",
-              "frenchSpacingHelperText": "",
+              "suppressSharpS": "Sostituire la Eszett (ß)",
+              "suppressSharpSHelperText": "Sostituire sempre la «ß» con «ss»",
+              "supressUppercaseAccents": "Eliminare gli accenti dalle lettere maiuscole",
+              "supressUppercaseAccentsHelperText": "Eliminare gli accenti francesi dalle lettere maiuscole",
+              "frenchSpacing": "Regole degli spazi nella punteggiatura francese",
+              "frenchSpacingHelperText": "Determina la presenza di uno spazio prima dei segni di interpunzione (!?:;) e nelle virgolette caporali («»)",
               "frenchSpacingChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Inserire uno spazio indivisibile (Comme ça !)",
+                "remove": "Rimuovere gli spazi (Comme ça!)"
               }
             },
             "preview": {
-              "title": "",
+              "title": "Anteprima",
               "source": "Testo di partenza",
               "target": "Testo di arrivo",
-              "helperText": ""
+              "helperText": "Le impostazioni a sinistra consentono di modificare questo testo in base alle Sue esigenze."
             },
             "saveButton": {
-              "tooltip": "",
-              "noChangesTooltip": ""
+              "tooltip": "Solo gli amministratori possono salvare regole.",
+              "noChangesTooltip": "Non è stata effettuata alcuna modifica"
             }
           },
           "intro": {
-            "description": ""
+            "description": "Definire per ogni lingua di arrivo le proprie preferenze stilistiche per applicare la punteggiatura, il formato delle cifre ecc."
           }
         },
-        "new": ""
+        "new": "NOVITÀ"
       },
       "aiTranslator": {
         "title": "Traduttore IA"
@@ -5270,11 +5267,11 @@
         "activate": "Attiva",
         "active": "Attivo",
         "create": "Crea glossario",
-        "manage": "",
-        "view": "",
+        "manage": "Modifica",
+        "view": "Visualizza",
         "badgeNew": "NOVITÀ",
         "corporateLanguageTitle": "Linguaggio aziendale",
-        "corporateLanguageDescriptionRich": ""
+        "corporateLanguageDescriptionRich": "Il linguaggio aziendale è configurato per tutto il team e può essere modificato solo dagli amministratori. <link>Visualizza</link>"
       },
       "glossaryDoesntExist": {
         "description": "Stabilisca come tradurre determinate parole e frasi. In fase finale, il traduttore IA adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",
@@ -5314,7 +5311,7 @@
           "placeholderSourceText": "Termine di partenza",
           "placeholderTargetText": "Termine di arrivo",
           "saveEntry": "Salva voce",
-          "sourceTermReservedMessage": ""
+          "sourceTermReservedMessage": "Questo <strong>termine</strong> è già registrato nel <strong><link>linguaggio aziendale</link></strong> (nel glossario del Suo team). Se aggiunge qui un ulteriore termine, la voce esistente verrà sovrascritta per il proprio account. Per estendere la modifica a tutto il team, è necessario che un amministratore modifichi il linguaggio aziendale."
         },
         "languagePairAccordion": {
           "emptyStateDescription": "Stabilisca come tradurre parole e frasi. Il traduttore IA adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",

@@ -1139,24 +1139,21 @@
           "title": "Everything from Essential, plus:",
           "items": {
             "0": {
-              "title": "28 languages",
-              "tooltip": "Albanian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Romansh, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Swiss German, Turkish"
-            },
-            "1": {
               "title": "60 editable file translations per month"
             },
-            "2": {
+            "1": {
               "title": "20 MB maximum file size"
             },
-            "3": {
+            "2": {
               "title": "Glossaries"
             },
-            "4": {
+            "3": {
               "title": "Add-ins for Microsoft Office",
               "badge": "Available soon"
             },
-            "5": {
+            "4": {
               "title": "Single sign-on (SSO)",
+              "badge": "Available soon",
               "tooltip": "From 10 users"
             }
           }
@@ -4786,7 +4783,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Available soon",
           "temporaryGetInContact": {
-            "text": "This feature is still under development. Until it’s ready, please contact us to set up a custom subdomain: ",
+            "text": "This feature is still under development. Until it’s ready, please contact us to set up a custom subdomain: <email>hello@supertext.com</email>",
             "email": "hello@supertext.com",
             "textStart": "To set your own subdomain, please contact"
           }
@@ -4867,30 +4864,30 @@
               "all": "All languages"
             },
             "actions": "Action",
-            "bulkDelete": ""
+            "bulkDelete": "Delete term"
           },
           "conceptDeletion": {
             "title": "Delete term",
             "message": "Are you sure you want to delete this?"
           },
           "headers": {
-            "term": "",
+            "term": "Term",
             "languages": "Languages"
           },
           "empty": {
-            "noConcepts": ""
+            "noConcepts": "No terms found"
           },
           "pagination": {
-            "entriesPerPage": "Entries per page",
-            "range": ""
+            "entriesPerPage": "Terms per page",
+            "range": "{from} – {to} of {total}"
           },
           "languages": {
             "and": "and",
-            "more": ""
+            "more": "{count} more"
           }
         },
         "intro": {
-          "description": ""
+          "description": "Define how Supertext should translate specific words and phrases. These rules will apply to all members of your team and all usage methods (browsers, plugins, API, etc.). However, users always have the option to override these rules with their own glossary."
         },
         "termModal": {
           "titles": {
@@ -4904,91 +4901,91 @@
           },
           "form": {
             "languagesLabel": "Languages",
-            "languagesTooltip": "",
-            "languagesHelper": "",
-            "termsLabel": "",
-            "termsTooltip": "",
-            "termsHelper": "",
-            "inputPlaceholder": "",
+            "languagesTooltip": "Please note: All entries are multidirectional. For example, if you enter “car” for English, “Auto” for German and “voiture” for French, this definition will be used for all translations between these three languages.",
+            "languagesHelper": "Select the languages for which you wish to add this term.",
+            "termsLabel": "Term",
+            "termsTooltip": "Terms are the words or phrases for which you wish to predefine a specific translation.",
+            "termsHelper": "Add the term for the selected languages.",
+            "inputPlaceholder": "Term",
             "validation": {
-              "languageRequired": "",
-              "textRequired": "",
-              "atLeastOne": ""
+              "languageRequired": "Select language",
+              "textRequired": "Enter translation",
+              "atLeastOne": "At least one translation required"
             }
           },
           "rowMenu": {
-            "copyToAll": "",
-            "autoTranslate": "",
+            "copyToAll": "Copy to all",
+            "autoTranslate": "Translate with AI",
             "remove": "Remove",
-            "ariaRowActions": ""
+            "ariaRowActions": "Actions"
           }
         },
         "languageSelect": {
           "selectedCount": "{count, plural, one {# language} other {# languages}}"
         },
         "upload": {
-          "buttonOpen": "",
+          "buttonOpen": "Upload list",
           "titles": {
             "initial": "Upload file",
-            "preCollision": "",
-            "collisionReview": "",
+            "preCollision": "Upload terms without conflict",
+            "collisionReview": "Review terms",
             "completed": "",
-            "error": "",
-            "default": ""
+            "error": "Upload error",
+            "default": "Add terms"
           },
           "submit": "Upload",
           "errors": {
-            "invalidType": "",
-            "tooLarge": ""
+            "invalidType": "Only .xlsx files are allowed",
+            "tooLarge": "File is too large. Maximum 20 MB allowed."
           },
           "downloadTemplate": {
-            "label": "",
-            "fileLabel": "",
+            "label": "Download template",
+            "fileLabel": "Corporate wording template",
             "button": "Download",
-            "helper": ""
+            "helper": "Download a template for your current corporate wording and fill it out with new terms."
           },
           "initiate": {
-            "label": "",
-            "hint": "",
-            "dropHere": "",
-            "dropOrClick": "",
-            "sizeHint": ""
+            "label": "Upload Excel file",
+            "hint": "Only .xlsx files up to max. 20 MB",
+            "dropHere": "Drop file here",
+            "dropOrClick": "Drop file here or click to select",
+            "sizeHint": ".xlsx files up to 20 MB"
           },
           "preCollision": {
-            "found": "",
-            "info": "",
-            "checkConflicts": "",
-            "uploadWithoutFixTitle": "",
-            "uploadWithoutFixInfo": "",
-            "uploadWithoutFixButton": ""
+            "found": "{rows} conflicts found in {languages} languages",
+            "info": "Conflicts were detected while uploading your file. Please review the conflicts and make any necessary adjustments.",
+            "checkConflicts": "Review conflicts",
+            "uploadWithoutFixTitle": "Upload without correction",
+            "uploadWithoutFixInfo": "Data may be lost, as our system cannot correct the conflicts as you intended.",
+            "uploadWithoutFixButton": "Upload without correction"
           },
           "collisionReview": {
-            "info": "",
+            "info": "Select exactly one line per conflict – this will be retained. Use the filters (\"All\"/\"Open\"/\"Resolved\") to help. A green tick marks resolved conflicts. Once all conflicts have been resolved, click on \"Upload corrected file\" at the bottom.",
             "filters": {
-              "all": "",
-              "open": "",
-              "closed": ""
+              "all": "All ({count})",
+              "open": "Open ({count})",
+              "closed": "Resolved ({count})"
             },
-            "conflictTitle": "",
-            "selectHeader": "",
-            "rowHeader": "",
-            "selected": "",
-            "select": "",
+            "conflictTitle": "Conflict {index}",
+            "selectHeader": "Select",
+            "rowHeader": "Row",
+            "selected": "Selected",
+            "select": "Select",
             "back": "Back",
             "uploadCorrected": "Upload file",
-            "rows": ""
+            "rows": "{rows} Rows"
           },
           "success": {
             "title": "Success!",
-            "description": "",
-            "addedConcepts": "",
-            "updatedTerms": "",
-            "ignoredTerms": "",
+            "description": "Your terms were successfully added.",
+            "addedConcepts": "Terms added",
+            "updatedTerms": "Terms updated",
+            "ignoredTerms": "Terms ignored",
             "close": "Close"
           },
           "error": {
-            "title": "",
-            "description": "",
+            "title": "Oops!",
+            "description": "Something went wrong. Please try again or contact us at support@supertext.com.",
             "close": "Close"
           }
         }
@@ -5002,185 +4999,185 @@
         "title": "Customisation hub",
         "styleGuide": {
           "hooks": {
-            "currentStyleGuideError": "",
-            "getRulesetError": "",
-            "addRulesetError": "",
-            "addRulesetSuccess": "",
-            "editRulesetError": "",
-            "editRulesetSuccess": "",
-            "deleteRulesetError": "",
-            "deleteRulesetSuccess": "",
-            "applyStyleGuideError": ""
+            "currentStyleGuideError": "Style guide could not be loaded",
+            "getRulesetError": "Style guide could not be loaded",
+            "addRulesetError": "Style guide could not be added",
+            "addRulesetSuccess": "Style guide successfully added",
+            "editRulesetError": "Style guide could not be updated",
+            "editRulesetSuccess": "Style guide successfully updated",
+            "deleteRulesetError": "Style guide could not be deleted",
+            "deleteRulesetSuccess": "Style guide successfully deleted",
+            "applyStyleGuideError": "Style guide could not be applied"
           },
           "actions": {
             "title": "Action",
-            "removeAll": "",
-            "removeSelected": "",
-            "removeSelectedMessage": ""
+            "removeAll": "Delete style guides",
+            "removeSelected": "Delete selected style guides",
+            "removeSelectedMessage": "Are you sure you want to delete these style guides?"
           },
           "addRulesetModal": {
             "language": "Language",
-            "addLanguage": "",
+            "addLanguage": "Add language",
             "validation": {
-              "language": ""
+              "language": "Language is required"
             },
             "placeholder": {
-              "language": ""
+              "language": "Select language"
             },
             "button": {
-              "tooltip": ""
+              "tooltip": "Only admins can add languages."
             }
           },
           "cloneRulesetModal": {
             "language": "Language",
-            "cloneLanguage": "",
+            "cloneLanguage": "Clone style guide",
             "validation": {
-              "language": ""
+              "language": "Language is required"
             },
             "placeholder": {
-              "language": ""
+              "language": "Select language"
             }
           },
           "rulesetTable": {
             "language": "Language",
-            "deleteMessage": "",
-            "deleteTitle": "",
+            "deleteMessage": "Are you sure you want to delete this style guide?",
+            "deleteTitle": "Delete style guide",
             "deleteButton": {
-              "tooltip": ""
+              "tooltip": "Only admins can remove rules."
             },
             "empty": {
-              "noRulesets": ""
+              "noRulesets": "No rules found"
             }
           },
           "ruleset": {
             "back": "Back",
-            "doNotEnforce": "",
+            "doNotEnforce": "Do not enforce",
             "language": "Language",
-            "languageHelperText": "",
+            "languageHelperText": "Choose from all available languages",
             "punctuation": {
-              "title": "",
-              "enforceQuotationMarks": "",
+              "title": "Punctuation",
+              "enforceQuotationMarks": "Quotation marks",
               "enforceQuotationMarksChoices": {
-                "leftRightCurvedDouble": "",
-                "leftRightCurvedSingle": "",
-                "lowHighCurvedDouble": "",
-                "outwardsGuillemets": "",
-                "inwardsGuillemets": "",
-                "straightSingle": "",
-                "straightDouble": "",
-                "rectangularSingle": ""
+                "leftRightCurvedDouble": "Smart left-right double quotation marks (“text”)",
+                "leftRightCurvedSingle": "Smart left-right single quotation marks (‘text’)",
+                "lowHighCurvedDouble": "Smart top-bottom double quotation marks („text“)",
+                "outwardsGuillemets": "Outward-facing guillemets («text»)",
+                "inwardsGuillemets": "Inward-facing guillemets (»text«)",
+                "straightSingle": "Straight single quotation marks ('text')",
+                "straightDouble": "Straight double quotation marks (\"text\")",
+                "rectangularSingle": "Rectangular single quotation marks (「text」)"
               },
-              "enforceEllipsis": "",
-              "enforceEllipsisHelperText": "",
-              "enforceTypesetterApostrophe": "",
-              "enforceTypesetterApostropheHelperText": "",
-              "enforceDashBetweenSpaces": "",
-              "enforceDashBetweenSpacesHelperText": "",
+              "enforceEllipsis": "Force ellipsis",
+              "enforceEllipsisHelperText": "Replace three dots (...) with a single character (…)",
+              "enforceTypesetterApostrophe": "Force typographically correct apostrophe",
+              "enforceTypesetterApostropheHelperText": "Replace straight apostrophe with smart apostrope (')",
+              "enforceDashBetweenSpaces": "Spaces around dash",
+              "enforceDashBetweenSpacesHelperText": "Example: “on - off” → “on – off”",
               "enforceDashBetweenSpacesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "hyphen (-)",
+                "enDash": "en dash (–)",
+                "emDash": "em-dash (—)"
               },
-              "spaceSurroundingSlash": "",
-              "spaceSurroundingSlashHelperText": "",
+              "spaceSurroundingSlash": "Spaces around slash",
+              "spaceSurroundingSlashHelperText": "Example: up/down → up / down (or vice versa)",
               "spaceSurroundingSlashChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Insert surrounding spaces",
+                "remove": "Remove surrounding spaces"
               },
-              "enforceSpaceBeforePercentSymbol": "",
+              "enforceSpaceBeforePercentSymbol": "Space before percent sign",
               "enforceSpaceBeforePercentSymbolChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Insert non-breaking space (30 %)",
+                "remove": "Remove space (30%)"
               },
-              "enforcePercentSymbol": "",
-              "enforcePercentSymbolHelperText": ""
+              "enforcePercentSymbol": "Force percent symbol",
+              "enforcePercentSymbolHelperText": "Replace “percent/pourcent/percento/percent” with “%”"
             },
             "numbers": {
-              "title": "",
-              "enforceThousandsSeparator": "",
+              "title": "Numbers",
+              "enforceThousandsSeparator": "Thousand separator",
               "enforceThousandsSeparatorChoices": {
-                "nbsp": "",
-                "straightSingleQuote": "",
-                "curvedSingleQuote": "",
-                "comma": "",
-                "period": ""
+                "nbsp": "Non-breaking space (10 000)",
+                "straightSingleQuote": "Straight apostrophe (10'000)",
+                "curvedSingleQuote": "Single smart apostrophe (10’000)",
+                "comma": "Comma (10,000)",
+                "period": "Full stop (10.000)"
               },
-              "enforceSeparatorFor4DigitNumbers": "",
-              "enforceSeparatorFor4DigitNumbersHelperText": "",
-              "enforceDecimalSeparator": "",
+              "enforceSeparatorFor4DigitNumbers": "Force separator for four-digit numbers",
+              "enforceSeparatorFor4DigitNumbersHelperText": "Example: 4'215 → 4,215",
+              "enforceDecimalSeparator": "Decimal separator",
               "enforceDecimalSeparatorChoices": {
-                "comma": "",
-                "period": ""
+                "comma": "Comma (2,5)",
+                "period": "Full stop (2.5)"
               },
-              "enforceDotsInDates": "",
-              "enforceDotsInDatesHelperText": "",
-              "nbspDates": "",
-              "nbspDatesHelperText": "",
+              "enforceDotsInDates": "Force full stops in dates",
+              "enforceDotsInDatesHelperText": "Example: 13/1/2022 → 13.1.2022",
+              "nbspDates": "Non-breaking space in dates",
+              "nbspDatesHelperText": "Applies to written-out dates such as 12 March, March 3, 25 June",
               "nbspDatesChoices": {
-                "daysMonthsYears": "",
-                "daysMonths": ""
+                "daysMonthsYears": "Between day, month and year",
+                "daysMonths": "Between day and month"
               },
-              "nbspUnits": "",
-              "nbspUnitsHelperText": "",
-              "currenciesPosition": "",
+              "nbspUnits": "Insert non-breaking space before unit of measurement",
+              "nbspUnitsHelperText": "Applies to units of measurement such as 12 kg, 5 m, 25 °C",
+              "currenciesPosition": "Currency code position",
               "currenciesPositionChoices": {
-                "leading": "",
-                "following": ""
+                "leading": "Before (CHF 200)",
+                "following": "After (200 CHF)"
               },
-              "nbspCurrencies": "",
-              "nbspCurrenciesHelperText": "",
-              "enforceDashInCurrencies": "",
+              "nbspCurrencies": "Insert non-breaking space before/after currency symbol",
+              "nbspCurrenciesHelperText": "Examples: 12 €, CHF 123",
+              "enforceDashInCurrencies": "Dash in currency amounts",
               "enforceDashInCurrenciesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "hyphen (40.-)",
+                "enDash": "en dash (40.–)",
+                "emDash": "em-dash (40.—)"
               },
-              "enforceDashInNumericRanges": "",
+              "enforceDashInNumericRanges": "Dash in numerical ranges",
               "enforceDashInNumericRangesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "hyphen (10-20)",
+                "enDash": "en dash (10–20)",
+                "emDash": "em-dash (10—20)"
               },
-              "mioMiaAbbreviation": "",
-              "mioMiaAbbreviationHelperText": ""
+              "mioMiaAbbreviation": "Abbreviate Mio./Mia.",
+              "mioMiaAbbreviationHelperText": "Abbreviate “Mio.” with “m” and “Mia.” with “bn”"
             },
             "specialisedLocalisation": {
-              "title": "",
-              "commaInsideQuotes": "",
-              "commaInsideQuotesHelperText": "",
-              "honorifics": "",
-              "honorificsHelperText": "",
+              "title": "Localisation",
+              "commaInsideQuotes": "Move comma inside quotation marks",
+              "commaInsideQuotesHelperText": "Example: “Come on”, she said → “Come on,” she said",
+              "honorifics": "Title with/without full stop",
+              "honorificsHelperText": "Applies to Ms, Mrs, Mr, Dr, Prof",
               "honorificsChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Insert full stop (Mrs.)",
+                "remove": "Remove full stop (Mrs)"
               },
-              "suppressSharpS": "",
-              "suppressSharpSHelperText": "",
-              "supressUppercaseAccents": "",
-              "supressUppercaseAccentsHelperText": "",
-              "frenchSpacing": "",
-              "frenchSpacingHelperText": "",
+              "suppressSharpS": "Suppress Eszett (ß)",
+              "suppressSharpSHelperText": "Always replace “ß” with “ss”",
+              "supressUppercaseAccents": "Suppress accents on capital letters",
+              "supressUppercaseAccentsHelperText": "Remove French accents from capital letters",
+              "frenchSpacing": "French punctuation spacing",
+              "frenchSpacingHelperText": "Affects spacing before punctuation marks (!?:;) and in guillemets («»)",
               "frenchSpacingChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Insert non-breaking space (Comme ça !)",
+                "remove": "Remove spaces (Comme ça!)"
               }
             },
             "preview": {
-              "title": "",
+              "title": "Preview",
               "source": "Source text",
               "target": "Target text",
-              "helperText": ""
+              "helperText": "You can use the settings on the left to adapt this text to your requirements."
             },
             "saveButton": {
-              "tooltip": "",
-              "noChangesTooltip": ""
+              "tooltip": "Only admins can save rules.",
+              "noChangesTooltip": "No changes made"
             }
           },
           "intro": {
-            "description": ""
+            "description": "Store your own style rules for each target language to define how punctuation, number formatting and more should look."
           }
         },
-        "new": ""
+        "new": "NEW"
       },
       "aiTranslator": {
         "title": "AI translator"
@@ -5270,11 +5267,11 @@
         "activate": "Activate",
         "active": "Active",
         "create": "Create glossary",
-        "manage": "",
-        "view": "",
+        "manage": "Edit",
+        "view": "View",
         "badgeNew": "NEW",
         "corporateLanguageTitle": "Corporate wording",
-        "corporateLanguageDescriptionRich": ""
+        "corporateLanguageDescriptionRich": "The corporate wording is configured for your entire team and can only be edited by admins. <link>View</link>"
       },
       "glossaryDoesntExist": {
         "description": "Specify how particular words or phrases should be translated. The AI translator will then automatically adapt these terms to your preferences in your translation.",
@@ -5314,7 +5311,7 @@
           "placeholderSourceText": "Source term",
           "placeholderTargetText": "Target term",
           "saveEntry": "Save entry",
-          "sourceTermReservedMessage": ""
+          "sourceTermReservedMessage": "This <strong>term</strong> is already included in your <strong><link>corporate wording</link></strong> (your team's glossary). If you add the same term here, you will override the existing entry for your personal account. To change the entry for your whole team, an admin needs to update the corporate wording."
         },
         "languagePairAccordion": {
           "emptyStateDescription": "Define how particular words or phrases should be translated. The AI translator will then automatically adapt these terms to your preferences in your translation.",

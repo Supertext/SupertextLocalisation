@@ -1139,24 +1139,21 @@
           "title": "Alles aus „Essential“, plus:",
           "items": {
             "0": {
-              "title": "28 Sprachen",
-              "tooltip": "Albanisch, Bulgarisch, Chinesisch, Dänisch, Deutsch, Englisch, Finnisch, Französisch, Griechisch, Italienisch, Japanisch, Koreanisch, Kroatisch, Niederländisch, Norwegisch, Polnisch, Portugiesisch, Rätoromanisch, Russisch, Schwedisch, Schweizerdeutsch, Serbisch, Slowakisch, Slowenisch, Spanisch, Tschechisch, Türkisch, Ungarisch"
-            },
-            "1": {
               "title": "60 bearbeitbare Dateiübersetzungen pro Monat"
             },
-            "2": {
+            "1": {
               "title": "20 MB maximale Dateigröße"
             },
-            "3": {
+            "2": {
               "title": "Glossare"
             },
-            "4": {
+            "3": {
               "title": "Add-ins für Microsoft Office",
               "badge": "Bald verfügbar"
             },
-            "5": {
+            "4": {
               "title": "Single Sign-on (SSO)",
+              "badge": "Bald verfügbar",
               "tooltip": "ab 10 User:innen"
             }
           }
@@ -4786,7 +4783,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bald verfügbar",
           "temporaryGetInContact": {
-            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen: ",
+            "text": "Dieses Feature befindet sich noch in Entwicklung. Bis es so weit ist, melden Sie sich gerne direkt bei uns, um eine benutzerdefinierte Subdomain zu hinterlegen: <email>hello@supertext.com</email>",
             "email": "hello@supertext.com",
             "textStart": "Um eine eigene Subdomain festzulegen, wenden Sie sich bitte an"
           }
@@ -4867,18 +4864,18 @@
               "all": "Alle Sprachen"
             },
             "actions": "Aktion",
-            "bulkDelete": "Begriffe löschen"
+            "bulkDelete": "Einträge löschen"
           },
           "conceptDeletion": {
-            "title": "Begriff löschen",
+            "title": "Eintrag löschen",
             "message": "Wirklich löschen?"
           },
           "headers": {
-            "term": "Begriff",
+            "term": "Eintrag",
             "languages": "Sprachen"
           },
           "empty": {
-            "noConcepts": "Keine Begriffe gefunden"
+            "noConcepts": "Keine Einträge gefunden"
           },
           "pagination": {
             "entriesPerPage": "Einträge pro Seite",
@@ -4894,22 +4891,22 @@
         },
         "termModal": {
           "titles": {
-            "create": "Begriff hinzufügen",
-            "edit": "Begriff bearbeiten"
+            "create": "Eintrag hinzufügen",
+            "edit": "Eintrag bearbeiten"
           },
           "buttons": {
-            "openAdd": "Begriff hinzufügen",
+            "openAdd": "Eintrag hinzufügen",
             "create": "Speichern",
             "save": "Speichern"
           },
           "form": {
             "languagesLabel": "Sprachen",
-            "languagesTooltip": "",
-            "languagesHelper": "Wählen Sie die Sprachen aus, für die Sie den Begriff hinzufügen möchten.",
-            "termsLabel": "Begriff",
-            "termsTooltip": "Begriffe sind die Wörter oder Phrasen, für die Sie eine bestimmte Übersetzung vordefinieren möchten.",
-            "termsHelper": "Fügen Sie den Begriff für die ausgewählten Sprachen hinzu.",
-            "inputPlaceholder": "Begriff",
+            "languagesTooltip": "Bitte beachten: Alle Einträge sind multidirektional. Wenn Sie also z. B. „car“ für Englisch, „Auto“ für Deutsch und „voiture“ für Französisch hinterlegen, wird diese Definition für sämtliche Übersetzungen zwischen diesen Sprachen angewandt.",
+            "languagesHelper": "Wählen Sie die Sprachen aus, für die Sie den Eintrag hinzufügen möchten.",
+            "termsLabel": "Eintrag",
+            "termsTooltip": "Einträge sind die Wörter oder Phrasen, für die Sie eine bestimmte Übersetzung vordefinieren möchten.",
+            "termsHelper": "Fügen Sie das gewünschte Wort oder die gewünschte Phrase für die ausgewählten Sprachen hinzu.",
+            "inputPlaceholder": "Wort oder Phrase",
             "validation": {
               "languageRequired": "Sprache wählen",
               "textRequired": "Übersetzung eingeben",
@@ -4930,11 +4927,11 @@
           "buttonOpen": "Liste hochladen",
           "titles": {
             "initial": "Datei hochladen",
-            "preCollision": "Begriffe konfliktfrei hochladen",
-            "collisionReview": "Begriffe überprüfen",
+            "preCollision": "Einträge konfliktfrei hochladen",
+            "collisionReview": "Einträge überprüfen",
             "completed": "",
             "error": "Fehler beim Hochladen",
-            "default": "Begriffe hinzufügen"
+            "default": "Einträge hinzufügen"
           },
           "submit": "Hochladen",
           "errors": {
@@ -4945,7 +4942,7 @@
             "label": "Vorlage herunterladen",
             "fileLabel": "Vorlage Corporate Wording",
             "button": "Herunterladen",
-            "helper": "Laden Sie Ihr aktuelles Corporate Wording als Vorlage herunter und füllen Sie es mit neuen Begriffen."
+            "helper": "Laden Sie Ihr aktuelles Corporate Wording als Vorlage herunter und füllen Sie es mit neuen Einträgen."
           },
           "initiate": {
             "label": "Excel-Datei hochladen",
@@ -4963,7 +4960,7 @@
             "uploadWithoutFixButton": "Ohne Korrektur hochladen"
           },
           "collisionReview": {
-            "info": "",
+            "info": "Wählen Sie pro Konflikt genau eine Zeile – diese bleibt erhalten. Nutzen Sie dazu die Filter („Alle“ / „Offen“ / „Behoben“). Ein grünes Häkchen markiert behobene Konflikte. Sind alle behoben, klicken Sie unten auf „Korrigierte Datei hochladen“.",
             "filters": {
               "all": "Alle ({count})",
               "open": "Offen ({count})",
@@ -4980,10 +4977,10 @@
           },
           "success": {
             "title": "Das hat geklappt!",
-            "description": "Ihre Begriffe wurden erfolgreich hinzugefügt.",
-            "addedConcepts": "Hinzugefügte Begriffe",
-            "updatedTerms": "Aktualisierte Begriffe",
-            "ignoredTerms": "Ignorierte Begriffe",
+            "description": "Ihre Einträge wurden erfolgreich hinzugefügt.",
+            "addedConcepts": "Hinzugefügte Einträge",
+            "updatedTerms": "Aktualisierte Einträge",
+            "ignoredTerms": "Ignorierte Einträge",
             "close": "Schließen"
           },
           "error": {
@@ -5028,7 +5025,7 @@
               "language": "Sprache auswählen"
             },
             "button": {
-              "tooltip": ""
+              "tooltip": "Nur Admins können Sprachen hinzufügen."
             }
           },
           "cloneRulesetModal": {
@@ -5046,10 +5043,10 @@
             "deleteMessage": "Sind Sie sicher, dass Sie diesen Styleguide löschen möchten?",
             "deleteTitle": "Styleguide löschen",
             "deleteButton": {
-              "tooltip": ""
+              "tooltip": "Nur Admins können Regeln entfernen."
             },
             "empty": {
-              "noRulesets": ""
+              "noRulesets": "Keine Regeln gefunden"
             }
           },
           "ruleset": {
@@ -5075,7 +5072,7 @@
               "enforceTypesetterApostrophe": "Typographisch korrekten Apostroph erzwingen",
               "enforceTypesetterApostropheHelperText": "Geraden Apostroph mit gekrümmtem einzelnen Anführungszeichen (’) ersetzen",
               "enforceDashBetweenSpaces": "Strich zwischen Leerzeichen",
-              "enforceDashBetweenSpacesHelperText": "Beispiel: \"an - aus\" → \"an – aus\"",
+              "enforceDashBetweenSpacesHelperText": "Beispiel: „an - aus“ → „an – aus“",
               "enforceDashBetweenSpacesChoices": {
                 "hyphen": "Bindestrich (-)",
                 "enDash": "Halbgeviertstrich (–)",
@@ -5093,7 +5090,7 @@
                 "remove": "Leerzeichen entfernen (30%)"
               },
               "enforcePercentSymbol": "Prozentsymbol erzwingen",
-              "enforcePercentSymbolHelperText": "Ausgeschriebene \"percent/pourcent/percento/Prozent\" mit \"%\" ersetzen"
+              "enforcePercentSymbolHelperText": "Ausgeschriebenes „percent/pourcent/percento/Prozent“ mit „%“ ersetzen"
             },
             "numbers": {
               "title": "Zahlen",
@@ -5115,7 +5112,7 @@
               "enforceDotsInDates": "Punkte in Kalenderdaten erzwingen",
               "enforceDotsInDatesHelperText": "Beispiel: 13/1/2022 → 13.1.2022",
               "nbspDates": "Geschütztes Leerzeichen in Kalenderdaten",
-              "nbspDatesHelperText": "Gilt für ausgeschriebene Begriffe wie 12. März, March 3, 25 Juni",
+              "nbspDatesHelperText": "Gilt für ausgeschriebene Daten wie 12. März, March 3, 25 Juni",
               "nbspDatesChoices": {
                 "daysMonthsYears": "Zwischen Tag, Monat und Jahr",
                 "daysMonths": "Zwischen Tag und Monat"
@@ -5142,7 +5139,7 @@
                 "emDash": "langer Gedankenstrich (10—20)"
               },
               "mioMiaAbbreviation": "Mio/Mia abkürzen",
-              "mioMiaAbbreviationHelperText": "\"Mio.\" mit \"m\" und \"Mia.\" mit \"bn\" abkürzen"
+              "mioMiaAbbreviationHelperText": "„Mio.“ mit „m“ und „Mia.“ mit „bn“ abkürzen"
             },
             "specialisedLocalisation": {
               "title": "Lokalisierung",
@@ -5155,7 +5152,7 @@
                 "remove": "Punkte entfernen (Mrs)"
               },
               "suppressSharpS": "Scharfes S (Eszett) unterdrücken",
-              "suppressSharpSHelperText": "\"ß\" immer mit \"ss\" ersetzen",
+              "suppressSharpSHelperText": "„ß“ immer mit „ss“ ersetzen",
               "supressUppercaseAccents": "Akzente auf Großbuchstaben unterdrücken",
               "supressUppercaseAccentsHelperText": "Französische Akzente bei Großbuchstaben entfernen",
               "frenchSpacing": "Französische Interpunktionsabstände",
@@ -5172,12 +5169,12 @@
               "helperText": "Mit den Einstellungen links können Sie diesen Text Ihren Bedürfnissen anpassen."
             },
             "saveButton": {
-              "tooltip": "",
-              "noChangesTooltip": ""
+              "tooltip": "Nur Admins können Regeln speichern.",
+              "noChangesTooltip": "Keine Änderungen vorgenommen"
             }
           },
           "intro": {
-            "description": ""
+            "description": "Hinterlegen Sie eigene Stilvorgaben pro Zielsprache, um Interpunktion, Zahlenformatierung etc. zuverlässig zu steuern."
           }
         },
         "new": "NEU"
@@ -5298,23 +5295,23 @@
       },
       "glossaryManage": {
         "glossaryFetchUnsuccessful": "Beim Abrufen des Glossars ist ein Fehler aufgetreten.",
-        "glossaryTermsFetchUnsuccessful": "Beim Abrufen der Glossarbegriffe ist ein Fehler aufgetreten.",
+        "glossaryTermsFetchUnsuccessful": "Beim Abrufen der Glossareinträge ist ein Fehler aufgetreten.",
         "glossaryUpdatedSuccessfully": "Glossar erfolgreich aktualisiert",
         "glossaryUpdatedUnsuccessfully": "Das Glossar konnte nicht aktualisiert werden.",
-        "glossaryTermAddUnsuccessful": "Der Glossarbegriff konnte nicht hinzugefügt werden.",
-        "glossaryTermAddSuccessful": "Der Glossarbegriff wurde erfolgreich hinzugefügt.",
-        "glossaryTermRemoveSuccessful": "Der Glossarbegriff wurde erfolgreich entfernt.",
-        "glossaryTermRemoveUnsuccessful": "Der Glossarbegriff konnte nicht entfernt werden.",
-        "glossaryTermUpdateSuccessful": "Der Glossarbegriff wurde erfolgreich aktualisiert.",
-        "glossaryTermUpdateUnsuccessful": "Der Glossarbegriff konnte nicht aktualisiert werden.",
+        "glossaryTermAddUnsuccessful": "Der Glossareintrag konnte nicht hinzugefügt werden.",
+        "glossaryTermAddSuccessful": "Der Glossareintrag wurde erfolgreich hinzugefügt.",
+        "glossaryTermRemoveSuccessful": "Der Glossareintrag wurde erfolgreich entfernt.",
+        "glossaryTermRemoveUnsuccessful": "Der Glossareintrag konnte nicht entfernt werden.",
+        "glossaryTermUpdateSuccessful": "Der Glossareintrag wurde erfolgreich aktualisiert.",
+        "glossaryTermUpdateUnsuccessful": "Der Glossareintrag konnte nicht aktualisiert werden.",
         "termInputForm": {
           "addTerminologyStepByStep": "Ergänzen Sie Ihre Terminologie einfach schrittweise.",
           "sourceText": "Ausgangssprache",
           "targetLanguage": "Zielsprache",
-          "placeholderSourceText": "Ausgangsbegriff",
-          "placeholderTargetText": "Zielbegriff",
+          "placeholderSourceText": "Wort oder Phrase (Ausgangssprache)",
+          "placeholderTargetText": "Wort oder Phrase (Zielsprache)",
           "saveEntry": "Eintrag speichern",
-          "sourceTermReservedMessage": "Dieser <strong>Begriff</strong> ist bereits im <strong><link>Corporate Wording</link></strong> (dem Glossar Ihres Teams) enthalten. Wenn Sie den Begriff hier zusätzlich hinzufügen, wird der bestehende Eintrag für Ihr persönliches Konto übersteuert. Um die Änderung für das ganze Team vorzunehmen, muss ein:e Admin das Corporate Wording anpassen."
+          "sourceTermReservedMessage": "Dieser <strong>Eintrag</strong> ist bereits im <strong><link>Corporate Wording</link></strong> (dem Glossar Ihres Teams) enthalten. Wenn Sie den Begriff hier zusätzlich hinzufügen, wird der bestehende Eintrag für Ihr persönliches Konto übersteuert. Um die Änderung für das ganze Team vorzunehmen, muss ein:e Admin das Corporate Wording anpassen."
         },
         "languagePairAccordion": {
           "emptyStateDescription": "Definieren Sie, wie Wörter und Phrasen übersetzt werden sollen. Der KI-Übersetzer passt diese Einträge in Ihrer Übersetzung danach automatisch an.",

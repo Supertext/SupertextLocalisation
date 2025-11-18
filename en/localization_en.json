@@ -1153,7 +1153,6 @@
             },
             "4": {
               "title": "Single sign-on (SSO)",
-              "badge": "Available soon",
               "tooltip": "From 10 users"
             }
           }
@@ -4861,7 +4860,8 @@
         "table": {
           "filters": {
             "language": {
-              "all": "All languages"
+              "all": "All languages",
+              "addLanguages": "Add languages"
             },
             "actions": "Action",
             "bulkDelete": "Delete term"
@@ -4911,7 +4911,8 @@
               "languageRequired": "Select language",
               "textRequired": "Enter translation",
               "atLeastOne": "At least one translation required"
-            }
+            },
+            "sourceTermReservedMessage": ""
           },
           "rowMenu": {
             "copyToAll": "Copy to all",

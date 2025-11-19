@@ -1322,7 +1322,7 @@
               "free": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "essential": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "advanced": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
-              "pro": "REMY-Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
+              "pro": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "enterprise": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
             },
             "languageVariants": {
@@ -5064,8 +5064,8 @@
                 "lowHighCurvedDouble": "",
                 "outwardsGuillemets": "Virgolette caporali rivolte verso l’esterno («testo»)",
                 "inwardsGuillemets": "Virgolette caporali rivolte verso l’interno (»testo«)",
-                "straightSingle": "",
-                "straightDouble": "",
+                "straightSingle": "Virgolette alte singole ('testo')",
+                "straightDouble": "Virgolette alte doppie dritte (\"testo\")",
                 "rectangularSingle": ""
               },
               "enforceEllipsis": "",

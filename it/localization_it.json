@@ -1322,7 +1322,7 @@
               "free": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "essential": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "advanced": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
-              "pro": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, norvegese, olandese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese",
+              "pro": "REMY-Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "enterprise": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
             },
             "languageVariants": {
@@ -5013,12 +5013,12 @@
           "actions": {
             "title": "Azione",
             "removeAll": "Elimina guide di stile",
-            "removeSelected": "",
-            "removeSelectedMessage": ""
+            "removeSelected": "Elimina la guida di stile selezionata",
+            "removeSelectedMessage": "Eliminare queste guide di stile?"
           },
           "addRulesetModal": {
             "language": "Lingua",
-            "addLanguage": "",
+            "addLanguage": "Aggiungi lingua",
             "validation": {
               "language": ""
             },
@@ -5062,17 +5062,17 @@
                 "leftRightCurvedDouble": "",
                 "leftRightCurvedSingle": "",
                 "lowHighCurvedDouble": "",
-                "outwardsGuillemets": "",
-                "inwardsGuillemets": "",
+                "outwardsGuillemets": "Virgolette caporali rivolte verso l’esterno («testo»)",
+                "inwardsGuillemets": "Virgolette caporali rivolte verso l’interno (»testo«)",
                 "straightSingle": "",
                 "straightDouble": "",
                 "rectangularSingle": ""
               },
               "enforceEllipsis": "",
               "enforceEllipsisHelperText": "Sostituire i tre punti di sospensione (...) con un unico carattere (…)",
-              "enforceTypesetterApostrophe": "",
-              "enforceTypesetterApostropheHelperText": "",
-              "enforceDashBetweenSpaces": "",
+              "enforceTypesetterApostrophe": "Inserire l’apostrofo curvo",
+              "enforceTypesetterApostropheHelperText": "Sostituire l’apostrofo dritto con l’apostrofo curvo",
+              "enforceDashBetweenSpaces": "Trattino tra spazi",
               "enforceDashBetweenSpacesHelperText": "Esempio:  «on - off» → «on – off»",
               "enforceDashBetweenSpacesChoices": {
                 "hyphen": "Trattino (-)",
@@ -5116,11 +5116,11 @@
               "nbspDatesHelperText": "Vale per le date scritte per esteso, ad es. 12 marzo, March 3, 25 giugno",
               "nbspDatesChoices": {
                 "daysMonthsYears": "Tra giorno, mese e anno",
-                "daysMonths": ""
+                "daysMonths": "Tra giorno e mese"
               },
-              "nbspUnits": "",
-              "nbspUnitsHelperText": "",
-              "currenciesPosition": "",
+              "nbspUnits": "Inserire uno spazio indivisibile prima delle unità di misura",
+              "nbspUnitsHelperText": "Vale per le unità di misura come 12 kg, 5 m, 25 °C",
+              "currenciesPosition": "Posizione del codice valuta",
               "currenciesPositionChoices": {
                 "leading": "Prima (CHF 200)",
                 "following": "Dopo (200 CHF)"

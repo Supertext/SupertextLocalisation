@@ -5020,10 +5020,10 @@
             "language": "Lingua",
             "addLanguage": "Aggiungi lingua",
             "validation": {
-              "language": ""
+              "language": "È necessario indicare la lingua"
             },
             "placeholder": {
-              "language": ""
+              "language": "Selezionare lingua"
             },
             "button": {
               "tooltip": "Solo gli amministratori possono aggiungere lingue."
@@ -5031,18 +5031,18 @@
           },
           "cloneRulesetModal": {
             "language": "Lingua",
-            "cloneLanguage": "",
+            "cloneLanguage": "Clona la guida di stile",
             "validation": {
-              "language": ""
+              "language": "È necessario indicare la lingua"
             },
             "placeholder": {
-              "language": ""
+              "language": "Selezionare la lingua"
             }
           },
           "rulesetTable": {
             "language": "Lingua",
-            "deleteMessage": "",
-            "deleteTitle": "",
+            "deleteMessage": "Eliminare questa guida di stile?",
+            "deleteTitle": "Elimina guida di stile",
             "deleteButton": {
               "tooltip": "Solo gli amministratori possono eliminare regole."
             },
@@ -5052,23 +5052,23 @@
           },
           "ruleset": {
             "back": "Indietro",
-            "doNotEnforce": "",
+            "doNotEnforce": "Nessuna regola",
             "language": "Lingua",
-            "languageHelperText": "",
+            "languageHelperText": "Selezionare tra tutte le lingue disponibili",
             "punctuation": {
-              "title": "",
-              "enforceQuotationMarks": "",
+              "title": "Interpunzione",
+              "enforceQuotationMarks": "Virgolette",
               "enforceQuotationMarksChoices": {
-                "leftRightCurvedDouble": "",
-                "leftRightCurvedSingle": "",
-                "lowHighCurvedDouble": "",
+                "leftRightCurvedDouble": "Virgolette alte doppie orientate verso sinistra (“testo”)",
+                "leftRightCurvedSingle": "Virgolette alte singole da destra verso sinistra (‘testo’)",
+                "lowHighCurvedDouble": "Virgolette tedesche („testo“)",
                 "outwardsGuillemets": "Virgolette caporali rivolte verso l’esterno («testo»)",
                 "inwardsGuillemets": "Virgolette caporali rivolte verso l’interno (»testo«)",
                 "straightSingle": "Virgolette alte singole ('testo')",
                 "straightDouble": "Virgolette alte doppie dritte (\"testo\")",
-                "rectangularSingle": ""
+                "rectangularSingle": "Virgolette cinesi singole  (「testo」)"
               },
-              "enforceEllipsis": "",
+              "enforceEllipsis": "Inserire i puntini di sospensione come un solo carattere",
               "enforceEllipsisHelperText": "Sostituire i tre punti di sospensione (...) con un unico carattere (…)",
               "enforceTypesetterApostrophe": "Inserire l’apostrofo curvo",
               "enforceTypesetterApostropheHelperText": "Sostituire l’apostrofo dritto con l’apostrofo curvo",
@@ -5104,7 +5104,7 @@
                 "period": "Punto (10.000)"
               },
               "enforceSeparatorFor4DigitNumbers": "Inserire il separatore anche per numeri a quattro cifre",
-              "enforceSeparatorFor4DigitNumbersHelperText": "Esempio: 4.215 → 4,215",
+              "enforceSeparatorFor4DigitNumbersHelperText": "Esempio: 4'215 → 4,215",
               "enforceDecimalSeparator": "Separatore dei decimali",
               "enforceDecimalSeparatorChoices": {
                 "comma": "Virgola (2,5)",

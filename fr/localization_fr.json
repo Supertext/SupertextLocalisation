@@ -4916,62 +4916,62 @@
           },
           "rowMenu": {
             "copyToAll": "Copier vers tous",
-            "autoTranslate": "",
+            "autoTranslate": "Traduire avec l’IA",
             "remove": "Supprimer",
-            "ariaRowActions": ""
+            "ariaRowActions": "Actions"
           }
         },
         "languageSelect": {
           "selectedCount": "{count, plural, one {# langue} other {# langues}}"
         },
         "upload": {
-          "buttonOpen": "",
+          "buttonOpen": "Télécharger la liste",
           "titles": {
             "initial": "Télécharger un fichier",
             "preCollision": "Télécharger des entrées sans conflit",
             "collisionReview": "Vérifier les entrées",
             "completed": "",
-            "error": "",
+            "error": "Erreur lors du téléchargement",
             "default": "Ajouter des entrées"
           },
           "submit": "Télécharger",
           "errors": {
-            "invalidType": "",
-            "tooLarge": ""
+            "invalidType": "Seuls les fichiers .xlsx sont autorisés",
+            "tooLarge": "Le fichier est trop volumineux. La taille maximale autorisée est de 20 Mo."
           },
           "downloadTemplate": {
-            "label": "",
-            "fileLabel": "",
+            "label": "Télécharger le template",
+            "fileLabel": "Template du langage d’entreprise",
             "button": "Télécharger",
             "helper": "Téléchargez votre terminologie d’entreprise actuelle comme modèle et complétez-la avec de nouvelles entrées."
           },
           "initiate": {
-            "label": "",
-            "hint": "",
-            "dropHere": "",
-            "dropOrClick": "",
-            "sizeHint": ""
+            "label": "Télécharger le fichier Excel",
+            "hint": "Uniquement des fichiers .xlsx jusqu’à max. 20 Mo",
+            "dropHere": "Déposer le fichier ici",
+            "dropOrClick": "Déposer le fichier ici ou cliquer pour sélectionner",
+            "sizeHint": "Fichiers .xlsx jusqu’à 20 Mo"
           },
           "preCollision": {
             "found": "{rows} conflits trouvé dans {languages} langues",
-            "info": "",
-            "checkConflicts": "",
+            "info": "Des conflits ont été détectés lors du téléchargement de votre fichier. Veuillez vérifier ces conflits et effectuer les modifications nécessaires.",
+            "checkConflicts": "Vérifier les conflits",
             "uploadWithoutFixTitle": "",
-            "uploadWithoutFixInfo": "",
-            "uploadWithoutFixButton": ""
+            "uploadWithoutFixInfo": "Une perte de données peut avoir lieu, car notre système ne peut pas corriger les conflits comme vous le souhaitez.",
+            "uploadWithoutFixButton": "Télécharger sans correction"
           },
           "collisionReview": {
-            "info": "",
+            "info": "Sélectionnez précisément une ligne par conflit – celle-ci sera conservée. Utilisez pour cela les filtres («Tous»/«Ouverts»/«Résolus»). Une coche verte indique les conflits résolus. Une fois tous les conflits résolus, cliquez en bas sur «Télécharger le fichier corrigé».",
             "filters": {
               "all": "Toutes ({count})",
               "open": "Ouvrir ({count})",
-              "closed": ""
+              "closed": "Résolus ({count})"
             },
-            "conflictTitle": "",
+            "conflictTitle": "Conflit {index}",
             "selectHeader": "Sélectionner",
             "rowHeader": "",
-            "selected": "",
-            "select": "",
+            "selected": "Sélectionné",
+            "select": "Sélectionner",
             "back": "Retour",
             "uploadCorrected": "Télécharger un fichier",
             "rows": "{rows} lignes "
@@ -4985,8 +4985,8 @@
             "close": "Fermer"
           },
           "error": {
-            "title": "",
-            "description": "",
+            "title": "Oups!",
+            "description": "Une erreur s’est produite. Veuillez réessayer ou nous contacter à l’adresse support@supertext.com.",
             "close": "Fermer"
           }
         }
@@ -5000,12 +5000,12 @@
         "title": "Personnalisation",
         "styleGuide": {
           "hooks": {
-            "currentStyleGuideError": "",
+            "currentStyleGuideError": "Impossible de charger le guide de style",
             "getRulesetError": "Impossible de charger le guide de style",
-            "addRulesetError": "",
-            "addRulesetSuccess": "",
-            "editRulesetError": "",
-            "editRulesetSuccess": "",
+            "addRulesetError": "Impossible d’ajouter le guide de style",
+            "addRulesetSuccess": "Guide de style ajouté avec succès",
+            "editRulesetError": "Impossible de modifier le guide de style",
+            "editRulesetSuccess": "Guide de style modifié avec succès",
             "deleteRulesetError": "Impossible de supprimer le guide de style",
             "deleteRulesetSuccess": "Guide de style supprimé avec succès",
             "applyStyleGuideError": ""
@@ -5013,8 +5013,8 @@
           "actions": {
             "title": "Action",
             "removeAll": "Supprimer les guides de style",
-            "removeSelected": "",
-            "removeSelectedMessage": ""
+            "removeSelected": "Modifier les guides de style sélectionnés",
+            "removeSelectedMessage": "Êtes-vous sûr/-e de vouloir supprimer ces guides de style?"
           },
           "addRulesetModal": {
             "language": "Langue",
@@ -5031,9 +5031,9 @@
           },
           "cloneRulesetModal": {
             "language": "Langue",
-            "cloneLanguage": "",
+            "cloneLanguage": "Cloner le guide de style",
             "validation": {
-              "language": ""
+              "language": "La langue est requise"
             },
             "placeholder": {
               "language": ""
@@ -5054,33 +5054,33 @@
             "back": "Retour",
             "doNotEnforce": "Aucune spécification",
             "language": "Langue",
-            "languageHelperText": "",
+            "languageHelperText": "Choisissez parmi toutes les langues disponibles.",
             "punctuation": {
-              "title": "",
+              "title": "Ponctuation",
               "enforceQuotationMarks": "Guillemets",
               "enforceQuotationMarksChoices": {
-                "leftRightCurvedDouble": "",
-                "leftRightCurvedSingle": "",
+                "leftRightCurvedDouble": "Guillemets doubles courbes à gauche et à droite (“texte”)",
+                "leftRightCurvedSingle": "Guillemets simples courbes à gauche et à droite (‘texte’)",
                 "lowHighCurvedDouble": "",
-                "outwardsGuillemets": "",
-                "inwardsGuillemets": "",
-                "straightSingle": "",
-                "straightDouble": "",
-                "rectangularSingle": ""
+                "outwardsGuillemets": "Guillemets tournés vers l’intérieur («texte»)",
+                "inwardsGuillemets": "Guillemets tournés vers l’intérieur (»texte«)",
+                "straightSingle": "Guillemets simples courbes à gauche et à droits (‘texte’)",
+                "straightDouble": "Guillemets doubles droits à gauche et à droite (\"texte\")",
+                "rectangularSingle": "Guillemets simples rectangulaires (「texte」)"
               },
-              "enforceEllipsis": "",
+              "enforceEllipsis": "Forcer le symbole marquant une omission",
               "enforceEllipsisHelperText": "Remplacer trois points (...) par un seul caractère (...)",
-              "enforceTypesetterApostrophe": "",
-              "enforceTypesetterApostropheHelperText": "",
+              "enforceTypesetterApostrophe": "Imposer une apostrophe typographiquement correcte",
+              "enforceTypesetterApostropheHelperText": "Remplacer l’apostrophe droite par une apostrophe courbe (’)",
               "enforceDashBetweenSpaces": "",
-              "enforceDashBetweenSpacesHelperText": "",
+              "enforceDashBetweenSpacesHelperText": "Exemple: «on - off» → «on – off»",
               "enforceDashBetweenSpacesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "Trait d’union (-)",
+                "enDash": "Tiret semi cadratin (–)",
+                "emDash": "Tiret long (—)"
               },
               "spaceSurroundingSlash": "",
-              "spaceSurroundingSlashHelperText": "",
+              "spaceSurroundingSlashHelperText": "Exemple: haut/bas → haut / bas (ou inversement)",
               "spaceSurroundingSlashChoices": {
                 "insert": "",
                 "remove": "Supprimer les espaces autour"
@@ -5097,33 +5097,33 @@
               "title": "Nombres",
               "enforceThousandsSeparator": "Séparateur de milliers",
               "enforceThousandsSeparatorChoices": {
-                "nbsp": "",
-                "straightSingleQuote": "",
-                "curvedSingleQuote": "",
+                "nbsp": "Insérer une espace insécable  (10 000)",
+                "straightSingleQuote": "Apostrophe droite (10'000)",
+                "curvedSingleQuote": "Apostrophe courbe (10’000)",
                 "comma": "Virgule (10,000)",
                 "period": "Point (10.000)"
               },
               "enforceSeparatorFor4DigitNumbers": "",
-              "enforceSeparatorFor4DigitNumbersHelperText": "",
+              "enforceSeparatorFor4DigitNumbersHelperText": "Exemple: 4'215 → 4,215",
               "enforceDecimalSeparator": "Séparateur décimal",
               "enforceDecimalSeparatorChoices": {
                 "comma": "",
                 "period": ""
               },
               "enforceDotsInDates": "",
-              "enforceDotsInDatesHelperText": "",
-              "nbspDates": "",
+              "enforceDotsInDatesHelperText": "Exemple: 13/01/2022 → 13.01.2022",
+              "nbspDates": "Espaces insécables dans les dates",
               "nbspDatesHelperText": "S’applique aux dates écrites en toutes lettres, par exemple 12 mars, 25 juin.",
               "nbspDatesChoices": {
-                "daysMonthsYears": "",
-                "daysMonths": ""
+                "daysMonthsYears": "Entre le jour, le mois et l’année",
+                "daysMonths": "Entre le jour et le mois"
               },
-              "nbspUnits": "",
-              "nbspUnitsHelperText": "",
+              "nbspUnits": "Insérer une espace insécable après une unité de mesure",
+              "nbspUnitsHelperText": "S’applique à des unités de mesure telles que 12 kg, 5 m, 25 °C",
               "currenciesPosition": "",
               "currenciesPositionChoices": {
-                "leading": "",
-                "following": ""
+                "leading": "Devant (CHF 200)",
+                "following": "Après (200 CHF)"
               },
               "nbspCurrencies": "Insérer une espace insécable après une devise",
               "nbspCurrenciesHelperText": "Exemples: 12 €, CHF 123",
@@ -5131,9 +5131,9 @@
               "enforceDashInCurrenciesChoices": {
                 "hyphen": "",
                 "enDash": "Tiret semi cadratin (40.–)",
-                "emDash": ""
+                "emDash": "Tiret semi cadratin (40.–)"
               },
-              "enforceDashInNumericRanges": "",
+              "enforceDashInNumericRanges": "Tiret dans les plages numériques",
               "enforceDashInNumericRangesChoices": {
                 "hyphen": "Trait d’union (10-20)",
                 "enDash": "Tiret semi cadratin (10–20)",
@@ -5144,23 +5144,23 @@
             },
             "specialisedLocalisation": {
               "title": "Localisation",
-              "commaInsideQuotes": "",
+              "commaInsideQuotes": "Déplacer la virgule entre les guillemets",
               "commaInsideQuotesHelperText": "",
-              "honorifics": "",
-              "honorificsHelperText": "",
+              "honorifics": "Formule de politesse avec/sans points",
+              "honorificsHelperText": "S’applique à Ms, Mrs, Mr, Dr, Prof",
               "honorificsChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Insérer un point (Mrs.)",
+                "remove": "Supprimer le point (Mrs)"
               },
-              "suppressSharpS": "",
+              "suppressSharpS": "Supprimer le S dur (Eszett)",
               "suppressSharpSHelperText": "Toujours remplacer «ß» par «ss».",
               "supressUppercaseAccents": "",
               "supressUppercaseAccentsHelperText": "",
               "frenchSpacing": "",
-              "frenchSpacingHelperText": "",
+              "frenchSpacingHelperText": "A une influence sur l’espacement avant les signes de ponctuation (!?:;) et au sein de guillemets («»)",
               "frenchSpacingChoices": {
                 "insert": "",
-                "remove": ""
+                "remove": "Supprimer les espaces (Comme ça!)"
               }
             },
             "preview": {
@@ -5175,10 +5175,10 @@
             }
           },
           "intro": {
-            "description": ""
+            "description": "Enregistrez vos propres règles stylistiques pour chaque langue cible afin de définir précisément des aspects comme la ponctuation, le formatage des nombres, etc."
           }
         },
-        "new": ""
+        "new": "NOUVEAUTÉ"
       },
       "aiTranslator": {
         "title": "Traducteur par l’IA"
@@ -5268,11 +5268,11 @@
         "activate": "Activer",
         "active": "Actif",
         "create": "Créer un glossaire",
-        "manage": "",
-        "view": "",
+        "manage": "Modifier",
+        "view": "Voir",
         "badgeNew": "NOUVEAUTÉ",
         "corporateLanguageTitle": "Langage d’entreprise",
-        "corporateLanguageDescriptionRich": ""
+        "corporateLanguageDescriptionRich": "La terminologie d’entreprise est configurée pour toute votre équipe et ne peut être modifiée que par les administrateurs/-trices. <link>Voir</link>"
       },
       "glossaryDoesntExist": {
         "description": "Définissez comment certains mots et expressions doivent être traduits. Le traducteur par l’IA ajuste automatiquement ces entrées dans votre traduction.",

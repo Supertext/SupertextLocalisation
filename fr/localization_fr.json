@@ -4782,7 +4782,7 @@
           "suffix": ".supertext.com",
           "comingSoon": "Bientôt disponible",
           "temporaryGetInContact": {
-            "text": "Cette fonctionnalité est encore en cours de développement. En attendant, vous pouvez nous contacter directement si vous souhaitez enregistrer un sous-domaine personnalisé: <email>hello@supertext.com</email>",
+            "text": "Cette fonctionnalité est encore en cours de développement. En attendant, vous pouvez nous contacter directement si vous souhaitez enregistrer un sous-domaine personnalisé: <email>sales@supertext.com</email>",
             "email": "hello@supertext.com",
             "textStart": "Pour définir un sous-domaine, veuillez contacter"
           }
@@ -4861,29 +4861,29 @@
           "filters": {
             "language": {
               "all": "Toutes les langues",
-              "addLanguages": ""
+              "addLanguages": "Ajouter des langues"
             },
             "actions": "Action",
-            "bulkDelete": ""
+            "bulkDelete": "Supprimer le terme"
           },
           "conceptDeletion": {
             "title": "Effacer le terme",
             "message": "Supprimer définitivement?"
           },
           "headers": {
-            "term": "",
+            "term": "Terme",
             "languages": "Langues"
           },
           "empty": {
-            "noConcepts": ""
+            "noConcepts": "Aucun terme trouvé"
           },
           "pagination": {
-            "entriesPerPage": "Entrées par page",
-            "range": ""
+            "entriesPerPage": "Termes par page",
+            "range": "{from} – {to} sur {total}"
           },
           "languages": {
             "and": "et",
-            "more": ""
+            "more": "{count} autres"
           }
         },
         "intro": {
@@ -4901,21 +4901,21 @@
           },
           "form": {
             "languagesLabel": "Langues",
-            "languagesTooltip": "",
-            "languagesHelper": "",
-            "termsLabel": "",
-            "termsTooltip": "",
-            "termsHelper": "",
-            "inputPlaceholder": "",
+            "languagesTooltip": "Remarque : toutes les entrées sont multidirectionnelles. Par exemple, si vous enregistrez «car» pour l’anglais, «Auto» pour l’allemand et «voiture» pour le français, cette définition sera appliquée à toutes les traductions dans ces langues.",
+            "languagesHelper": "Sélectionnez les langues pour lesquelles vous souhaitez ajouter cette entrée.",
+            "termsLabel": "Entrée",
+            "termsTooltip": "Les entrées correspondent à des termes ou expressions pour lesquels vous souhaitez prédéfinir une traduction spécifique.",
+            "termsHelper": "Ajoutez le terme ou l’expression que vous souhaitez pour les langues sélectionnées.",
+            "inputPlaceholder": "Terme ou expression",
             "validation": {
               "languageRequired": "",
-              "textRequired": "",
-              "atLeastOne": ""
+              "textRequired": "Saisir la traduction",
+              "atLeastOne": "Au moins une traduction est requise"
             },
-            "sourceTermReservedMessage": ""
+            "sourceTermReservedMessage": "<strong><link>Cette entrée</link></strong> est déjà utilisée dans {language}. Veuillez choisir une autre entrée ou vérifier la traduction."
           },
           "rowMenu": {
-            "copyToAll": "",
+            "copyToAll": "Copier vers tous",
             "autoTranslate": "",
             "remove": "Supprimer",
             "ariaRowActions": ""
@@ -4928,11 +4928,11 @@
           "buttonOpen": "",
           "titles": {
             "initial": "Télécharger un fichier",
-            "preCollision": "",
-            "collisionReview": "",
+            "preCollision": "Télécharger des entrées sans conflit",
+            "collisionReview": "Vérifier les entrées",
             "completed": "",
             "error": "",
-            "default": ""
+            "default": "Ajouter des entrées"
           },
           "submit": "Télécharger",
           "errors": {
@@ -4943,7 +4943,7 @@
             "label": "",
             "fileLabel": "",
             "button": "Télécharger",
-            "helper": ""
+            "helper": "Téléchargez votre terminologie d’entreprise actuelle comme modèle et complétez-la avec de nouvelles entrées."
           },
           "initiate": {
             "label": "",
@@ -4953,7 +4953,7 @@
             "sizeHint": ""
           },
           "preCollision": {
-            "found": "",
+            "found": "{rows} conflits trouvé dans {languages} langues",
             "info": "",
             "checkConflicts": "",
             "uploadWithoutFixTitle": "",
@@ -4963,25 +4963,25 @@
           "collisionReview": {
             "info": "",
             "filters": {
-              "all": "",
-              "open": "",
+              "all": "Toutes ({count})",
+              "open": "Ouvrir ({count})",
               "closed": ""
             },
             "conflictTitle": "",
-            "selectHeader": "",
+            "selectHeader": "Sélectionner",
             "rowHeader": "",
             "selected": "",
             "select": "",
             "back": "Retour",
             "uploadCorrected": "Télécharger un fichier",
-            "rows": ""
+            "rows": "{rows} lignes "
           },
           "success": {
             "title": "Ça a fonctionné!",
-            "description": "",
-            "addedConcepts": "",
-            "updatedTerms": "",
-            "ignoredTerms": "",
+            "description": "Vos entrées ont été ajoutées avec succès.",
+            "addedConcepts": "Entrées ajoutées",
+            "updatedTerms": "Entrées actualisées",
+            "ignoredTerms": "Entrée ignorée",
             "close": "Fermer"
           },
           "error": {
@@ -4993,40 +4993,40 @@
       },
       "customisation": {
         "navigation": {
-          "corporateWording": "",
+          "corporateWording": "Langage d’entreprise",
           "styleGuide": "Guides de style",
           "forEnterprise": "Pour les entreprises"
         },
-        "title": "",
+        "title": "Personnalisation",
         "styleGuide": {
           "hooks": {
             "currentStyleGuideError": "",
-            "getRulesetError": "",
+            "getRulesetError": "Impossible de charger le guide de style",
             "addRulesetError": "",
             "addRulesetSuccess": "",
             "editRulesetError": "",
             "editRulesetSuccess": "",
-            "deleteRulesetError": "",
-            "deleteRulesetSuccess": "",
+            "deleteRulesetError": "Impossible de supprimer le guide de style",
+            "deleteRulesetSuccess": "Guide de style supprimé avec succès",
             "applyStyleGuideError": ""
           },
           "actions": {
             "title": "Action",
-            "removeAll": "",
+            "removeAll": "Supprimer les guides de style",
             "removeSelected": "",
             "removeSelectedMessage": ""
           },
           "addRulesetModal": {
             "language": "Langue",
-            "addLanguage": "",
+            "addLanguage": "Ajouter une langue",
             "validation": {
-              "language": ""
+              "language": "La langue est requise."
             },
             "placeholder": {
-              "language": ""
+              "language": "Choisir la langue"
             },
             "button": {
-              "tooltip": ""
+              "tooltip": "Uniquement les administrateurs/-trices peuvent ajouter des langues"
             }
           },
           "cloneRulesetModal": {
@@ -5044,20 +5044,20 @@
             "deleteMessage": "",
             "deleteTitle": "",
             "deleteButton": {
-              "tooltip": ""
+              "tooltip": "Uniquement les administrateurs/-trices peuvent supprimer des règles."
             },
             "empty": {
-              "noRulesets": ""
+              "noRulesets": "Aucune règle trouvée"
             }
           },
           "ruleset": {
             "back": "Retour",
-            "doNotEnforce": "",
+            "doNotEnforce": "Aucune spécification",
             "language": "Langue",
             "languageHelperText": "",
             "punctuation": {
               "title": "",
-              "enforceQuotationMarks": "",
+              "enforceQuotationMarks": "Guillemets",
               "enforceQuotationMarksChoices": {
                 "leftRightCurvedDouble": "",
                 "leftRightCurvedSingle": "",
@@ -5069,7 +5069,7 @@
                 "rectangularSingle": ""
               },
               "enforceEllipsis": "",
-              "enforceEllipsisHelperText": "",
+              "enforceEllipsisHelperText": "Remplacer trois points (...) par un seul caractère (...)",
               "enforceTypesetterApostrophe": "",
               "enforceTypesetterApostropheHelperText": "",
               "enforceDashBetweenSpaces": "",
@@ -5083,29 +5083,29 @@
               "spaceSurroundingSlashHelperText": "",
               "spaceSurroundingSlashChoices": {
                 "insert": "",
-                "remove": ""
+                "remove": "Supprimer les espaces autour"
               },
-              "enforceSpaceBeforePercentSymbol": "",
+              "enforceSpaceBeforePercentSymbol": "Espace avant le symbole pourcentage",
               "enforceSpaceBeforePercentSymbolChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Insérer une espace insécable (30 %)",
+                "remove": "Supprimer l’espace (30%)"
               },
-              "enforcePercentSymbol": "",
-              "enforcePercentSymbolHelperText": ""
+              "enforcePercentSymbol": "Forcer le symbole pourcentage",
+              "enforcePercentSymbolHelperText": "Remplacer «percent/pourcent/percento/Prozent» écrit en toutes lettres par «%»."
             },
             "numbers": {
-              "title": "",
-              "enforceThousandsSeparator": "",
+              "title": "Nombres",
+              "enforceThousandsSeparator": "Séparateur de milliers",
               "enforceThousandsSeparatorChoices": {
                 "nbsp": "",
                 "straightSingleQuote": "",
                 "curvedSingleQuote": "",
-                "comma": "",
-                "period": ""
+                "comma": "Virgule (10,000)",
+                "period": "Point (10.000)"
               },
               "enforceSeparatorFor4DigitNumbers": "",
               "enforceSeparatorFor4DigitNumbersHelperText": "",
-              "enforceDecimalSeparator": "",
+              "enforceDecimalSeparator": "Séparateur décimal",
               "enforceDecimalSeparatorChoices": {
                 "comma": "",
                 "period": ""
@@ -5113,7 +5113,7 @@
               "enforceDotsInDates": "",
               "enforceDotsInDatesHelperText": "",
               "nbspDates": "",
-              "nbspDatesHelperText": "",
+              "nbspDatesHelperText": "S’applique aux dates écrites en toutes lettres, par exemple 12 mars, 25 juin.",
               "nbspDatesChoices": {
                 "daysMonthsYears": "",
                 "daysMonths": ""
@@ -5125,25 +5125,25 @@
                 "leading": "",
                 "following": ""
               },
-              "nbspCurrencies": "",
-              "nbspCurrenciesHelperText": "",
-              "enforceDashInCurrencies": "",
+              "nbspCurrencies": "Insérer une espace insécable après une devise",
+              "nbspCurrenciesHelperText": "Exemples: 12 €, CHF 123",
+              "enforceDashInCurrencies": "Tiret dans les montants en devises",
               "enforceDashInCurrenciesChoices": {
                 "hyphen": "",
-                "enDash": "",
+                "enDash": "Tiret semi cadratin (40.–)",
                 "emDash": ""
               },
               "enforceDashInNumericRanges": "",
               "enforceDashInNumericRangesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "Trait d’union (10-20)",
+                "enDash": "Tiret semi cadratin (10–20)",
+                "emDash": "Tiret long (10—20)"
               },
               "mioMiaAbbreviation": "",
-              "mioMiaAbbreviationHelperText": ""
+              "mioMiaAbbreviationHelperText": "Abréger «Mio.» par «m» et «Mia.» par «bn»."
             },
             "specialisedLocalisation": {
-              "title": "",
+              "title": "Localisation",
               "commaInsideQuotes": "",
               "commaInsideQuotesHelperText": "",
               "honorifics": "",
@@ -5153,7 +5153,7 @@
                 "remove": ""
               },
               "suppressSharpS": "",
-              "suppressSharpSHelperText": "",
+              "suppressSharpSHelperText": "Toujours remplacer «ß» par «ss».",
               "supressUppercaseAccents": "",
               "supressUppercaseAccentsHelperText": "",
               "frenchSpacing": "",
@@ -5170,8 +5170,8 @@
               "helperText": ""
             },
             "saveButton": {
-              "tooltip": "",
-              "noChangesTooltip": ""
+              "tooltip": "Uniquement les administrateurs/-trices peuvent enregistrer des règles.",
+              "noChangesTooltip": "Aucune modification effectuée"
             }
           },
           "intro": {
@@ -5181,7 +5181,7 @@
         "new": ""
       },
       "aiTranslator": {
-        "title": "Traducteur par l'IA"
+        "title": "Traducteur par l’IA"
       }
     }
   },
@@ -5299,7 +5299,7 @@
         "glossaryTermsFetchUnsuccessful": "Une erreur s’est produite lors de la récupération des termes du glossaire.",
         "glossaryUpdatedSuccessfully": "Glossaire mis à jour avec succès",
         "glossaryUpdatedUnsuccessfully": "Le glossaire n’a pas pu être mis à jour.",
-        "glossaryTermAddUnsuccessful": "Le terme du glossaire n'a pas pu être ajouté.",
+        "glossaryTermAddUnsuccessful": "Le terme du glossaire n’a pas pu être ajouté.",
         "glossaryTermAddSuccessful": "Le terme du glossaire a été ajouté avec succès.",
         "glossaryTermRemoveSuccessful": "Le terme du glossaire a été supprimé avec succès.",
         "glossaryTermRemoveUnsuccessful": "Le terme du glossaire n’a pas pu être supprimé.",
@@ -5309,10 +5309,10 @@
           "addTerminologyStepByStep": "Ajoutez simplement votre terminologie au fur et à mesure.",
           "sourceText": "Langue source",
           "targetLanguage": "Langue cible",
-          "placeholderSourceText": "Terme source",
+          "placeholderSourceText": "Terme ou expression (langue source)",
           "placeholderTargetText": "Terme cible",
           "saveEntry": "Enregistrer l’entrée",
-          "sourceTermReservedMessage": ""
+          "sourceTermReservedMessage": "Cette <strong>entrée</strong> figure déjà dans votre <strong><link>terminologie d’entreprise</link></strong> (le glossaire de votre équipe). Si vous ajoutez ce terme ici, l’entrée existante sera remplacée dans votre compte personnel. Pour que la modification s’applique à toute l’équipe, un/-e administrateur/-trice doit modifier la terminologie d’entreprise."
         },
         "languagePairAccordion": {
           "emptyStateDescription": "Définissez comment les mots et les expressions doivent être traduits. Le traducteur par l’IA ajuste automatiquement ces entrées dans votre traduction.",

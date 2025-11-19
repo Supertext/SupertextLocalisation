@@ -5041,8 +5041,8 @@
           },
           "rulesetTable": {
             "language": "Langue",
-            "deleteMessage": "",
-            "deleteTitle": "",
+            "deleteMessage": "Êtes-vous sûr/-e de vouloir supprimer ce guide de style?",
+            "deleteTitle": "Supprimer le guide de style",
             "deleteButton": {
               "tooltip": "Uniquement les administrateurs/-trices peuvent supprimer des règles."
             },

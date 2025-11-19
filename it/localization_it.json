@@ -1319,8 +1319,8 @@
               "name": "Lingue",
               "description": "",
               "all": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
-              "free": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, norvegese, olandese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese",
-              "essential": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, norvegese, olandese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese",
+              "free": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
+              "essential": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "advanced": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese",
               "pro": "Albanese, bulgaro, cinese, danese, tedesco, inglese, finlandese, francese, greco,  italiano, giapponese, coreano, croato, norvegese, olandese, polacco, portoghese, romancio, russo, svedese, svizzero tedesco, serbo, slovacco, sloveno, spagnolo, ceco, turco, ungherese",
               "enterprise": "Albanese, bulgaro, ceco, cinese, coreano, croato, danese, finlandese, francese, giapponese, greco, inglese, italiano, norvegese, olandese, polacco, portoghese, romancio, russo, serbo, slovacco, sloveno, spagnolo, svedese, svizzero tedesco, tedesco, turco, ungherese"
@@ -4861,13 +4861,13 @@
           "filters": {
             "language": {
               "all": "Tutte le lingue",
-              "addLanguages": ""
+              "addLanguages": "Aggiungi lingua"
             },
             "actions": "Azione",
-            "bulkDelete": "Elimina termini"
+            "bulkDelete": "Elimina voci"
           },
           "conceptDeletion": {
-            "title": "Elimina termine",
+            "title": "Elimina voce",
             "message": "Eliminare definitivamente?"
           },
           "headers": {
@@ -4891,28 +4891,28 @@
         },
         "termModal": {
           "titles": {
-            "create": "Aggiungi termine",
-            "edit": "Modifica termine"
+            "create": "Aggiungi voce",
+            "edit": "Modifica voce"
           },
           "buttons": {
-            "openAdd": "Aggiungi termine",
+            "openAdd": "Aggiungi voce",
             "create": "Salva",
             "save": "Salva"
           },
           "form": {
             "languagesLabel": "Lingue",
             "languagesTooltip": "Nota bene: tutte le voci sono multidirezionali. Ad esempio, se si inserisce «car» per l'inglese, «auto» per il tedesco e «voiture» per il francese, questa definizione verrà utilizzata per tutte le traduzioni tra queste lingue.",
-            "languagesHelper": "Selezionare le lingue per cui si desidera aggiungere il termine.",
-            "termsLabel": "Termine",
+            "languagesHelper": "Selezionare le lingue per cui si desidera aggiungere la voce.",
+            "termsLabel": "Voce",
             "termsTooltip": "",
-            "termsHelper": "Aggiungere il termine nella lingua selezionata.",
-            "inputPlaceholder": "Termine",
+            "termsHelper": "Aggiungere la parola o la frase desiderata nella lingua selezionata.",
+            "inputPlaceholder": "Termine o frase",
             "validation": {
               "languageRequired": "Selezionare lingua",
               "textRequired": "Inserire traduzione",
               "atLeastOne": "È richiesta almeno una traduzione"
             },
-            "sourceTermReservedMessage": ""
+            "sourceTermReservedMessage": "<strong><link>Questa voce</link></strong> è già utilizzata in {language}. Selezionare un’altra voce o verificare la traduzione."
           },
           "rowMenu": {
             "copyToAll": "Copia in tutti",
@@ -4928,11 +4928,11 @@
           "buttonOpen": "Carica lista",
           "titles": {
             "initial": "Carica file",
-            "preCollision": "Carica i termini senza conflitti",
-            "collisionReview": "Verifica i termini",
+            "preCollision": "Carica le voci senza conflitti",
+            "collisionReview": "Verifica le voci",
             "completed": "",
             "error": "Errore durante il caricamento",
-            "default": "Aggiungi termini"
+            "default": "Aggiungi voci"
           },
           "submit": "Carica",
           "errors": {
@@ -4943,7 +4943,7 @@
             "label": "Scarica modello",
             "fileLabel": "Modello per il linguaggio aziendale",
             "button": "Scarica",
-            "helper": "Scaricare il modello per il linguaggio aziendale attuale e aggiungere nuovi termini."
+            "helper": "Scaricare il modello per il linguaggio aziendale attuale e aggiungere nuove voci."
           },
           "initiate": {
             "label": "Carica file Excel",
@@ -4978,10 +4978,10 @@
           },
           "success": {
             "title": "Fatto!",
-            "description": "I Suoi termini sono stati aggiunti.",
-            "addedConcepts": "Termini aggiunti",
-            "updatedTerms": "Termini aggiornati",
-            "ignoredTerms": "Termini ignorati",
+            "description": "Le Sue voci sono state aggiunte.",
+            "addedConcepts": "Voci aggiunte",
+            "updatedTerms": "Voci aggiornate",
+            "ignoredTerms": "Voci ignorate",
             "close": "Chiudi"
           },
           "error": {
@@ -4993,26 +4993,26 @@
       },
       "customisation": {
         "navigation": {
-          "corporateWording": "",
+          "corporateWording": "Linguaggio aziendale",
           "styleGuide": "Guide di stile",
           "forEnterprise": "Per le aziende"
         },
-        "title": "",
+        "title": "Hub di personalizzazione",
         "styleGuide": {
           "hooks": {
-            "currentStyleGuideError": "",
-            "getRulesetError": "",
-            "addRulesetError": "",
-            "addRulesetSuccess": "",
-            "editRulesetError": "",
-            "editRulesetSuccess": "",
-            "deleteRulesetError": "",
-            "deleteRulesetSuccess": "",
-            "applyStyleGuideError": ""
+            "currentStyleGuideError": "Impossibile caricare la regola stilistica",
+            "getRulesetError": "Impossibile caricare la guida di stile",
+            "addRulesetError": "Impossibile aggiungere la guida di stile",
+            "addRulesetSuccess": "La guida di stile è stata aggiunta",
+            "editRulesetError": "Impossibile modificare la guida di stile",
+            "editRulesetSuccess": "La guida di stile è stata modificata",
+            "deleteRulesetError": "Impossibile eliminare la guida di stile",
+            "deleteRulesetSuccess": "La guida di stile è stata eliminata",
+            "applyStyleGuideError": "Impossibile applicare la regola stilistica"
           },
           "actions": {
             "title": "Azione",
-            "removeAll": "",
+            "removeAll": "Elimina guide di stile",
             "removeSelected": "",
             "removeSelectedMessage": ""
           },
@@ -5073,49 +5073,49 @@
               "enforceTypesetterApostrophe": "",
               "enforceTypesetterApostropheHelperText": "",
               "enforceDashBetweenSpaces": "",
-              "enforceDashBetweenSpacesHelperText": "",
+              "enforceDashBetweenSpacesHelperText": "Esempio:  «on - off» → «on – off»",
               "enforceDashBetweenSpacesChoices": {
-                "hyphen": "",
-                "enDash": "",
-                "emDash": ""
+                "hyphen": "Trattino (-)",
+                "enDash": "Lineetta (—)",
+                "emDash": "Trattino lungo (—)"
               },
-              "spaceSurroundingSlash": "",
-              "spaceSurroundingSlashHelperText": "",
+              "spaceSurroundingSlash": "Spazi prima e dopo la lineetta o il trattino",
+              "spaceSurroundingSlashHelperText": "Esempio: su/giù → su / giù (o viceversa)",
               "spaceSurroundingSlashChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Inserire spazi circostanti",
+                "remove": "Eliminare gli spazi circostanti"
               },
-              "enforceSpaceBeforePercentSymbol": "",
+              "enforceSpaceBeforePercentSymbol": "Spazio prima del simbolo del percento",
               "enforceSpaceBeforePercentSymbolChoices": {
-                "insert": "",
-                "remove": ""
+                "insert": "Inserire uno spazio indivisibile (30 %)",
+                "remove": "Eliminare lo spazio (30%)"
               },
-              "enforcePercentSymbol": "",
-              "enforcePercentSymbolHelperText": ""
+              "enforcePercentSymbol": "Inserire il simbolo del percento",
+              "enforcePercentSymbolHelperText": "Sostituire il termine «%» con «percent/pourcent/percento/Prozent»"
             },
             "numbers": {
-              "title": "",
-              "enforceThousandsSeparator": "",
+              "title": "Cifre",
+              "enforceThousandsSeparator": "Separatore delle migliaia",
               "enforceThousandsSeparatorChoices": {
-                "nbsp": "",
-                "straightSingleQuote": "",
-                "curvedSingleQuote": "",
-                "comma": "",
-                "period": ""
+                "nbsp": "Spazio indivisibile (10 000)",
+                "straightSingleQuote": "Apostrofo dritto (10'000)",
+                "curvedSingleQuote": "Apostrofo curvo (10’000)",
+                "comma": "Virgola (10,000)",
+                "period": "Punto (10.000)"
               },
-              "enforceSeparatorFor4DigitNumbers": "",
-              "enforceSeparatorFor4DigitNumbersHelperText": "",
-              "enforceDecimalSeparator": "",
+              "enforceSeparatorFor4DigitNumbers": "Inserire il separatore anche per numeri a quattro cifre",
+              "enforceSeparatorFor4DigitNumbersHelperText": "Esempio: 4.215 → 4,215",
+              "enforceDecimalSeparator": "Separatore dei decimali",
               "enforceDecimalSeparatorChoices": {
-                "comma": "",
-                "period": ""
+                "comma": "Virgola (2,5)",
+                "period": "Punto (2.5)"
               },
-              "enforceDotsInDates": "",
-              "enforceDotsInDatesHelperText": "",
-              "nbspDates": "",
-              "nbspDatesHelperText": "",
+              "enforceDotsInDates": "Inserire i punti nelle date",
+              "enforceDotsInDatesHelperText": "Esempio: 13/1/2022 → 13.1.2022",
+              "nbspDates": "Spazio indivisibile nelle date",
+              "nbspDatesHelperText": "Vale per le date scritte per esteso, ad es. 12 marzo, March 3, 25 giugno",
               "nbspDatesChoices": {
-                "daysMonthsYears": "",
+                "daysMonthsYears": "Tra giorno, mese e anno",
                 "daysMonths": ""
               },
               "nbspUnits": "",
@@ -5296,23 +5296,23 @@
       },
       "glossaryManage": {
         "glossaryFetchUnsuccessful": "Si è verificato un errore durante la consultazione del glossario.",
-        "glossaryTermsFetchUnsuccessful": "Si è verificato un errore durante la consultazione dei termini del glossario.",
+        "glossaryTermsFetchUnsuccessful": "Si è verificato un errore durante la consultazione delle voci del glossario.",
         "glossaryUpdatedSuccessfully": "Il glossario è stato aggiornato.",
         "glossaryUpdatedUnsuccessfully": "Impossibile aggiornare il glossario.",
-        "glossaryTermAddUnsuccessful": "Impossibile aggiungere il termine al glossario.",
-        "glossaryTermAddSuccessful": "Il termine è stato aggiunto al glossario.",
-        "glossaryTermRemoveSuccessful": "Il termine è stato eliminato dal glossario.",
-        "glossaryTermRemoveUnsuccessful": "Impossibile eliminare il termine dal glossario.",
-        "glossaryTermUpdateSuccessful": "Il termine del glossario è stato aggiornato.",
-        "glossaryTermUpdateUnsuccessful": "Impossibile aggiornare il termine del glossario.",
+        "glossaryTermAddUnsuccessful": "Impossibile aggiungere la voce al glossario.",
+        "glossaryTermAddSuccessful": "La voce è stata aggiunta al glossario.",
+        "glossaryTermRemoveSuccessful": "La voce è stata eliminata dal glossario.",
+        "glossaryTermRemoveUnsuccessful": "Impossibile eliminare la voce dal glossario.",
+        "glossaryTermUpdateSuccessful": "La voce del glossario è stata aggiornata.",
+        "glossaryTermUpdateUnsuccessful": "Impossibile aggiornare la voce del glossario.",
         "termInputForm": {
           "addTerminologyStepByStep": "Inserisca passo dopo passo nuovi termini nel Suo glossario.",
           "sourceText": "Lingua di partenza",
           "targetLanguage": "Lingua di arrivo",
-          "placeholderSourceText": "Termine di partenza",
-          "placeholderTargetText": "Termine di arrivo",
+          "placeholderSourceText": "Termine o frase (lingua di partenza)",
+          "placeholderTargetText": "Termine o frase (lingua di arrivo)",
           "saveEntry": "Salva voce",
-          "sourceTermReservedMessage": "Questo <strong>termine</strong> è già registrato nel <strong><link>linguaggio aziendale</link></strong> (nel glossario del Suo team). Se aggiunge qui un ulteriore termine, la voce esistente verrà sovrascritta per il proprio account. Per estendere la modifica a tutto il team, è necessario che un amministratore modifichi il linguaggio aziendale."
+          "sourceTermReservedMessage": "Questa <strong>voce</strong> è già registrata nel <strong><link>linguaggio aziendale</link></strong> (nel glossario del Suo team). Se aggiunge qui un’ulteriore voce, la voce esistente verrà sovrascritta per il proprio account. Per estendere la modifica a tutto il team, è necessario che un amministratore modifichi il linguaggio aziendale."
         },
         "languagePairAccordion": {
           "emptyStateDescription": "Stabilisca come tradurre parole e frasi. Il traduttore IA adegua automaticamente al glossario i relativi termini presenti nella Sua traduzione.",

@@ -4783,7 +4783,7 @@
           "comingSoon": "Presto disponibile",
           "temporaryGetInContact": {
             "text": "Stiamo mettendo a punto per Lei questa funzione. Se nel frattempo desidera registrare un sottodominio personalizzato, ci contatti: <email>sales@supertext.com</email>",
-            "email": "hello@supertext.com",
+            "email": "sales@supertext.com",
             "textStart": "Per impostare un proprio sottodominio, Si rivolga a"
           }
         },
@@ -4871,11 +4871,11 @@
             "message": "Eliminare definitivamente?"
           },
           "headers": {
-            "term": "Termine",
+            "term": "Voce",
             "languages": "Lingue"
           },
           "empty": {
-            "noConcepts": "Nessun termine trovato"
+            "noConcepts": "Nessuna voce trovata"
           },
           "pagination": {
             "entriesPerPage": "Risultati per pagina",
@@ -5122,8 +5122,8 @@
               "nbspUnitsHelperText": "",
               "currenciesPosition": "",
               "currenciesPositionChoices": {
-                "leading": "",
-                "following": ""
+                "leading": "Prima (CHF 200)",
+                "following": "Dopo (200 CHF)"
               },
               "nbspCurrencies": "Inserire uno spazio indivisibile accanto alla valuta",
               "nbspCurrenciesHelperText": "Esempi: 12 €, CHF 123",
